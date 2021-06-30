@@ -27,3 +27,8 @@ type Generic struct {
 	Name        string `json:"name"`
 	Description string `json:"description"`
 }
+
+type Traps struct {
+	Standard []Generic `json:"standard"`
+	Crit     []Generic `json:"crit"`
+}

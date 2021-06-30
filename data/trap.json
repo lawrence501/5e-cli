@@ -1,10 +1,22 @@
-[
-    {
-        "name": "Sample trap 1",
-        "description": "Does things"
-    },
-    {
-        "name": "Sample trap 2",
-        "description": "Does other things"
-    }
-]
+{
+    "standard": [
+        {
+            "name": "Sample trap 1",
+            "description": "Does things"
+        },
+        {
+            "name": "Sample trap 2",
+            "description": "Does other things"
+        }
+    ],
+    "crit": [
+        {
+            "name": "Crit trap 1",
+            "description": "Does good things"
+        },
+        {
+            "name": "Crit trap 2",
+            "description": "Does other good things"
+        }
+    ]
+}

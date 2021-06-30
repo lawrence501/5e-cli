@@ -3,38 +3,22 @@ package main
 import (
 	"log"
 	"math/rand"
-
-	"github.com/justinian/dice"
-	"github.com/manifoldco/promptui"
 )
 
-var gold = func() error {
-	goldP := promptui.Select{
-		Label: "Gold amount",
-		Items: []string{"1d1", "1d20", "1d20+50", "1d20+150"},
-	}
-	_, choice, err := goldP.Run()
-	if err != nil {
-		return err
-	}
-
-	actual, _, err := dice.Roll(choice)
-	if err != nil {
-		return err
-	}
-
-	log.Printf("%dgp\n", actual.Int())
+var lowGold = func() error {
+	amount := rand.Intn(20) + 1
+	log.Printf("Low gold: %dgp\n", amount)
 	return nil
 }
 
 var trap = func() error {
-	fName := "trap"
+	t := "standard"
 	if rand.Intn(100) < 5 {
-		fName = "critTrap"
+		t = "crit"
 	}
 
 	var traps []Generic
-	traps, err := fetchGenerics(fName)
+	traps, err := fetchTraps(t)
 	if err != nil {
 		return err
 	}
