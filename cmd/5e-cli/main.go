@@ -13,6 +13,7 @@ var COMMAND_MAP = map[string]func() error{
 }
 
 func main() {
+	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
 	for true {
 		baseP := promptui.Prompt{
 			Label:    "Command",
@@ -29,5 +30,6 @@ func main() {
 			log.Printf("Error occurred during running of %s\n", input)
 			log.Fatal(err)
 		}
+		log.Println()
 	}
 }
