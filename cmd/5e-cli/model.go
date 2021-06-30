@@ -42,3 +42,11 @@ type Mundanes struct {
 	Weapon []Generic `json:"weapon"`
 	Armour []Generic `json:"armour"`
 }
+
+type Wondrous struct {
+	Common    []Generic `json:"common"`
+	Uncommon  []Generic `json:"uncommon"`
+	Rare      []Generic `json:"rare"`
+	VeryRare  []Generic `json:"very rare"`
+	Legendary []Generic `json:"legendary"`
+}

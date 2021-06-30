@@ -15,6 +15,8 @@ var COMMAND_MAP = map[string]func() error{
 	"1":      trap,
 	"2":      lowGold,
 	"3":      mundane,
+	"4":      wondrous,
+	"5":      singleEnchant,
 	"colour": colour,
 }
 

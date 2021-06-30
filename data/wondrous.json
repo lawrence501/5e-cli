@@ -1,0 +1,32 @@
+{
+    "common": [
+        {
+            "name": "common wondrous",
+            "description": "URL"
+        }
+    ],
+    "uncommon": [
+        {
+            "name": "uncommon wondrous",
+            "description": "URL"
+        }
+    ],
+    "rare": [
+        {
+            "name": "rare wondrous",
+            "description": "URL"
+        }
+    ],
+    "very rare": [
+        {
+            "name": "very rare wondrous",
+            "description": "URL"
+        }
+    ],
+    "legendary": [
+        {
+            "name": "legendary wondrous",
+            "description": "URL"
+        }
+    ]
+}

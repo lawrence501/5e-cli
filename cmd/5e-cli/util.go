@@ -84,6 +84,41 @@ func fetchMundanes(t string) ([]Generic, error) {
 	return ret, nil
 }
 
+func fetchWondrous(rarity string) ([]Generic, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "wondrous.json"))
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	wondrous := Wondrous{}
+	err = json.Unmarshal([]byte(f), &wondrous)
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	var ret []Generic
+	switch rarity {
+	case "common":
+		ret = wondrous.Common
+	case "uncommon":
+		ret = wondrous.Uncommon
+	case "rare":
+		ret = wondrous.Rare
+	case "very rare":
+		ret = wondrous.VeryRare
+	case "legendary":
+		ret = wondrous.Legendary
+	default:
+		return []Generic{}, fmt.Errorf("Invalid wondrous item rarity: %s", rarity)
+	}
+	return ret, nil
+}
+
 func fetchGenerics(fName string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
