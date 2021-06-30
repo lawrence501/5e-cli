@@ -42,10 +42,10 @@ var mundane = func() error {
 	return nil
 }
 
-func getMundane(t string) (Generic, error) {
+func getMundane(t string) (Mundane, error) {
 	mundanes, err := fetchMundanes(t)
 	if err != nil {
-		return Generic{}, err
+		return Mundane{}, err
 	}
 
 	return mundanes[rand.Intn(len(mundanes))], nil
@@ -79,13 +79,39 @@ var singleEnchant = func() error {
 		return err
 	}
 
-	enchants, err := getEnchants(1)
+	enchants, err := getEnchants(1, base.Tags)
 	if err != nil {
 		return err
 	}
 
-	log.Printf("1E magic item\nBase: %s (%s)\n-%s [%spts; %s]", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade)
+	log.Printf("1E magic item\nBase: %s (%s)\n- %s [%spts; %s]", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade)
 	return nil
 }
 
-func getEnchants()
+func getEnchants(num int, tags []string) ([]Enchant, error) {
+	allEnchants, err := fetchEnchants()
+	if err != nil {
+		return []Enchant{}, err
+	}
+
+	var enchants []Enchant
+	for len(enchants) < num {
+		var e Enchant
+		for true {
+			e = allEnchants[rand.Intn(len(allEnchants))]
+			valid := true
+			for _, t := range e.Tags {
+				if !sliceContains(tags, t) {
+					valid = false
+					break
+				}
+			}
+			if valid {
+				break
+			}
+		}
+		enchants = append(enchants, e)
+	}
+
+	return enchants, nil
+}

@@ -3,13 +3,15 @@
         "weapon": [
             {
                 "Name": "Sample weapon 1",
-                "Description": "1d4 S; light"
+                "Description": "1d4 S; light",
+                "Tags": ["weapon", "axe", "light"]
             }
         ],
         "armour": [
             {
                 "Name": "Sample armour 1",
-                "Description": "Unarmoured helmet"
+                "Description": "Unarmoured helmet",
+                "Tags": ["armour", "helm"]
             }
         ]
     },
@@ -17,13 +19,15 @@
         "weapon": [
             {
                 "Name": "Crit weapon 1",
-                "Description": "1d6 S; light; finesse"
+                "Description": "1d6 S; light; finesse",
+                "Tags": ["weapon", "axe", "light", "finesse"]
             }
         ],
         "armour": [
             {
                 "Name": "Crit armour 1",
-                "Description": "+1 dmg res"
+                "Description": "+1 dmg res",
+                "Tags": ["armour", "helm"]
             }
         ]
     }

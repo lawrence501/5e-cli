@@ -12,6 +12,7 @@ import (
 
 var COMMAND_MAP = map[string]func() error{
 	"exit":   func() error { os.Exit(0); return nil },
+	"q":      func() error { os.Exit(0); return nil },
 	"1":      trap,
 	"2":      lowGold,
 	"3":      mundane,

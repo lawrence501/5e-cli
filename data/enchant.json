@@ -1,0 +1,14 @@
+[
+    {
+        "description": "+1 dmg with this weapon",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 dmg res",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["armour"]
+    }
+]

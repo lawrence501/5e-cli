@@ -39,8 +39,14 @@ type MundanesAll struct {
 }
 
 type Mundanes struct {
-	Weapon []Generic `json:"weapon"`
-	Armour []Generic `json:"armour"`
+	Weapon []Mundane `json:"weapon"`
+	Armour []Mundane `json:"armour"`
+}
+
+type Mundane struct {
+	Name        string   `json:"name"`
+	Description string   `json:"description"`
+	Tags        []string `json:"tags"`
 }
 
 type Wondrous struct {
@@ -49,4 +55,11 @@ type Wondrous struct {
 	Rare      []Generic `json:"rare"`
 	VeryRare  []Generic `json:"very rare"`
 	Legendary []Generic `json:"legendary"`
+}
+
+type Enchant struct {
+	Description string   `json:"description"`
+	PointValue  string   `json:"pointValue"`
+	Upgrade     string   `json:"upgrade"`
+	Tags        []string `json:"tags"`
 }

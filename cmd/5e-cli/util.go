@@ -18,6 +18,15 @@ func checkColourCrit() {
 	}
 }
 
+func sliceContains(slice []string, s string) bool {
+	for _, v := range slice {
+		if v == s {
+			return true
+		}
+	}
+	return false
+}
+
 func fetchTraps(t string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
@@ -47,21 +56,21 @@ func fetchTraps(t string) ([]Generic, error) {
 	return ret, nil
 }
 
-func fetchMundanes(t string) ([]Generic, error) {
+func fetchMundanes(t string) ([]Mundane, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
-		return []Generic{}, err
+		return []Mundane{}, err
 	}
 
 	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "mundane.json"))
 	if err != nil {
-		return []Generic{}, err
+		return []Mundane{}, err
 	}
 
 	mundanesAll := MundanesAll{}
 	err = json.Unmarshal([]byte(f), &mundanesAll)
 	if err != nil {
-		return []Generic{}, err
+		return []Mundane{}, err
 	}
 
 	var mundanes Mundanes
@@ -71,10 +80,10 @@ func fetchMundanes(t string) ([]Generic, error) {
 	case "crit":
 		mundanes = mundanesAll.Crit
 	default:
-		return []Generic{}, fmt.Errorf("Invalid mundane type: %s", t)
+		return []Mundane{}, fmt.Errorf("Invalid mundane type: %s", t)
 	}
 
-	var ret []Generic
+	var ret []Mundane
 	typeRoll := rand.Intn(5)
 	if typeRoll < 2 {
 		ret = mundanes.Weapon
@@ -119,21 +128,21 @@ func fetchWondrous(rarity string) ([]Generic, error) {
 	return ret, nil
 }
 
-func fetchGenerics(fName string) ([]Generic, error) {
+func fetchEnchants() ([]Enchant, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
-		return []Generic{}, err
+		return []Enchant{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, fName+".json"))
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "enchant.json"))
 	if err != nil {
-		return []Generic{}, err
+		return []Enchant{}, err
 	}
 
-	generics := []Generic{}
-	err = json.Unmarshal([]byte(f), &generics)
+	enchants := []Enchant{}
+	err = json.Unmarshal([]byte(f), &enchants)
 	if err != nil {
-		return []Generic{}, err
+		return []Enchant{}, err
 	}
-	return generics, nil
+	return enchants, nil
 }
