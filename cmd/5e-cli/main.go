@@ -2,7 +2,9 @@ package main
 
 import (
 	"log"
+	"math/rand"
 	"os"
+	"time"
 
 	"github.com/manifoldco/promptui"
 )
@@ -14,6 +16,8 @@ var COMMAND_MAP = map[string]func() error{
 
 func main() {
 	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
+	rand.Seed(time.Now().UnixNano())
+
 	for true {
 		baseP := promptui.Prompt{
 			Label:    "Command",
