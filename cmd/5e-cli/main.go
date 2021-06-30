@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 
@@ -23,7 +22,6 @@ func main() {
 		input, err := basePrompt.Run()
 		if err != nil {
 			log.Fatal(err)
-			fmt.Printf("Prompt failed %v\n", err)
 			return
 		}
 
@@ -36,6 +34,6 @@ func main() {
 }
 
 var test = func() error {
-	fmt.Printf("You are in the test function")
+	log.Println("You are in the test function")
 	return nil
 }
