@@ -23,7 +23,24 @@ var trap = func() error {
 		return err
 	}
 
-	chosenTrap := traps[rand.Intn(len(traps))]
-	log.Printf("Trap!\n%s: %s", chosenTrap.Name, chosenTrap.Description)
+	chosen := traps[rand.Intn(len(traps))]
+	log.Printf("Trap!\n%s: %s", chosen.Name, chosen.Description)
+	return nil
+}
+
+var mundane = func() error {
+	t := "standard"
+	if rand.Intn(100) < 5 {
+		t = "crit"
+	}
+
+	var mundanes []Generic
+	mundanes, err := fetchMundanes(t)
+	if err != nil {
+		return err
+	}
+
+	chosen := mundanes[rand.Intn(len(mundanes))]
+	log.Printf("Mundane\n%s: %s", chosen.Name, chosen.Description)
 	return nil
 }

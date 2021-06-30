@@ -32,3 +32,13 @@ type Traps struct {
 	Standard []Generic `json:"standard"`
 	Crit     []Generic `json:"crit"`
 }
+
+type MundanesAll struct {
+	Standard Mundanes `json:"standard"`
+	Crit     Mundanes `json:"crit"`
+}
+
+type Mundanes struct {
+	Weapon []Generic `json:"weapon"`
+	Armour []Generic `json:"armour"`
+}

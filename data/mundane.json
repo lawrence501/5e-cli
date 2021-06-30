@@ -1,0 +1,30 @@
+{
+    "standard": {
+        "weapon": [
+            {
+                "Name": "Sample weapon 1",
+                "Description": "1d4 S; light"
+            }
+        ],
+        "armour": [
+            {
+                "Name": "Sample armour 1",
+                "Description": "Unarmoured helmet"
+            }
+        ]
+    },
+    "crit": {
+        "weapon": [
+            {
+                "Name": "Crit weapon 1",
+                "Description": "1d6 S; light; finesse"
+            }
+        ],
+        "armour": [
+            {
+                "Name": "Crit armour 1",
+                "Description": "+1 dmg res"
+            }
+        ]
+    }
+}

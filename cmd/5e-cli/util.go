@@ -47,6 +47,43 @@ func fetchTraps(t string) ([]Generic, error) {
 	return ret, nil
 }
 
+func fetchMundanes(t string) ([]Generic, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "mundane.json"))
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	mundanesAll := MundanesAll{}
+	err = json.Unmarshal([]byte(f), &mundanesAll)
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	var mundanes Mundanes
+	switch t {
+	case "standard":
+		mundanes = mundanesAll.Standard
+	case "crit":
+		mundanes = mundanesAll.Crit
+	default:
+		return []Generic{}, fmt.Errorf("Invalid mundane type: %s", t)
+	}
+
+	var ret []Generic
+	typeRoll := rand.Intn(5)
+	if typeRoll < 2 {
+		ret = mundanes.Weapon
+	} else {
+		ret = mundanes.Armour
+	}
+	return ret, nil
+}
+
 func fetchGenerics(fName string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
