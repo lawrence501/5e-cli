@@ -9,17 +9,16 @@ import (
 
 var COMMAND_MAP = map[string]func() error{
 	"exit": func() error { os.Exit(0); return nil },
-	"test": test,
+	"gold": gold,
 }
 
 func main() {
 	for true {
-		basePrompt := promptui.Prompt{
+		baseP := promptui.Prompt{
 			Label:    "Command",
 			Validate: validateBase,
 		}
-
-		input, err := basePrompt.Run()
+		input, err := baseP.Run()
 		if err != nil {
 			log.Fatal(err)
 			return
@@ -31,9 +30,4 @@ func main() {
 			log.Fatal(err)
 		}
 	}
-}
-
-var test = func() error {
-	log.Println("You are in the test function")
-	return nil
 }
