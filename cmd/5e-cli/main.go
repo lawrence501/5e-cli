@@ -4,14 +4,16 @@ import (
 	"log"
 	"math/rand"
 	"os"
+	"strconv"
 	"time"
 
 	"github.com/manifoldco/promptui"
 )
 
 var COMMAND_MAP = map[string]func() error{
-	"exit": func() error { os.Exit(0); return nil },
-	"gold": gold,
+	"exit":   func() error { os.Exit(0); return nil },
+	"1":      trap,
+	"colour": colour,
 }
 
 func main() {
@@ -29,9 +31,12 @@ func main() {
 			return
 		}
 
+		if _, err = strconv.Atoi(input); err == nil {
+			checkColourCrit()
+		}
 		err = COMMAND_MAP[input]()
 		if err != nil {
-			log.Printf("Error occurred during running of %s\n", input)
+			log.Printf("Error occurred during running of %s", input)
 			log.Fatal(err)
 		}
 		log.Println()
