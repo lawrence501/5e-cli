@@ -23,25 +23,33 @@ var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"20": "Relic: +1 starting lvl",
 }
 
-var DAMAGE_TYPES []string = []string{
-	"acid",
+var PHYS_TYPES []string = []string{
 	"bludgeoning",
+	"piercing",
+	"slashing",
+}
+
+var NON_PHYS_TYPES []string = []string{
+	"acid",
 	"cold",
 	"fire",
 	"force",
 	"lightning",
 	"necrotic",
-	"piercing",
 	"poison",
 	"psychic",
 	"radiant",
-	"slashing",
 	"thunder",
 }
 
+var DAMAGE_TYPES []string = append(PHYS_TYPES, NON_PHYS_TYPES...)
+
 var RING_TAGS []string = []string{
-	"wep dmg",
-	"spell dmg",
+	"ability score",
+	"temp HP",
+	"AB",
+	"phys res",
+	"speed",
 }
 
 var ABILITY_SCORES []string = []string{
@@ -51,4 +59,9 @@ var ABILITY_SCORES []string = []string{
 	"intelligence",
 	"wisdom",
 	"charisma",
+}
+
+var HIT_FORMS []string = []string{
+	"weapon",
+	"spell",
 }

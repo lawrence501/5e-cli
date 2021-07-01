@@ -1,11 +1,25 @@
 package main
 
-import "math/rand"
+import (
+	"math/rand"
+	"regexp"
+	"strings"
+)
 
-var dmgTypeSub = func() string {
-	return DAMAGE_TYPES[rand.Intn(len(DAMAGE_TYPES))]
+var SUBSTITUTION_MAP = map[string][]string{
+	"$dmgType":      DAMAGE_TYPES,
+	"$abilityScore": ABILITY_SCORES,
+	"$hitForm":      HIT_FORMS,
+	"$physType":     PHYS_TYPES,
 }
 
-var abilityScoreSub = func() string {
-	return ABILITY_SCORES[rand.Intn(len(ABILITY_SCORES))]
+func processMod(modString string) string {
+	matcher := regexp.MustCompile(`\$\S+`)
+	subs := matcher.FindAllString(modString, -1)
+	ret := modString
+	for _, s := range subs {
+		sub := SUBSTITUTION_MAP[s][rand.Intn(len(SUBSTITUTION_MAP[s]))]
+		ret = strings.Replace(ret, s, sub, 1)
+	}
+	return ret
 }

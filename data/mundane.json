@@ -2,16 +2,51 @@
     "standard": {
         "weapon": [
             {
-                "Name": "Sample weapon 1",
-                "Description": "1d4 S; light",
-                "Tags": ["weapon", "axe", "light"]
+                "Name": "Club",
+                "Description": "1d6 B; thrown (10'/15')",
+                "Tags": ["weapon", "club", "thrown"]
+            },
+            {
+                "Name": "Dagger",
+                "Description": "1d4 P; finesse; thrown (10'/15'); flexible (S)",
+                "Tags": ["weapon", "knife", "thrown", "finesse", "flexible"]
+            },
+            {
+                "Name": "Gauntlet",
+                "Description": "1d4 B; light; unarmed",
+                "Tags": ["weapon", "brawling", "light", "unarmed"]
+            },
+            {
+                "Name": "Light Mace",
+                "Description": "1d4 B; light; finesse; shove",
+                "Tags": ["weapon", "club", "light", "finesse", "shove"]
+            },
+            {
+                "Name": "Longspear",
+                "Description": "1d8 P; two-handed; reach",
+                "Tags": ["weapon", "spear", "two-handed", "reach"]
             }
         ],
         "armour": [
             {
-                "Name": "Sample armour 1",
-                "Description": "Unarmoured helmet",
+                "Name": "Shield",
+                "Description": "+2 AC",
+                "Tags": ["armour", "shield"]
+            },
+            {
+                "Name": "Helmet",
+                "Description": "Helm slot",
                 "Tags": ["armour", "helm"]
+            },
+            {
+                "Name": "Gloves",
+                "Description": "Gloves slot",
+                "Tags": ["armour", "gloves"]
+            },
+            {
+                "Name": "Boots",
+                "Description": "Boots slot",
+                "Tags": ["armour", "boots"]
             }
         ]
     },

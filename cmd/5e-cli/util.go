@@ -8,8 +8,6 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
-	"regexp"
-	"strings"
 )
 
 const DATA_DIR = "data"
@@ -56,22 +54,6 @@ func getEnchants(num int, tags []string) ([]Enchant, error) {
 	}
 
 	return enchants, nil
-}
-
-var SUBSTITUTION_MAP = map[string]func() string{
-	"$dmgType":      dmgTypeSub,
-	"$abilityScore": abilityScoreSub,
-}
-
-func processMod(modString string) string {
-	matcher := regexp.MustCompile(`\$\S+`)
-	subs := matcher.FindAllString(modString, -1)
-	ret := modString
-	for _, s := range subs {
-		sub := SUBSTITUTION_MAP[s]()
-		ret = strings.Replace(ret, s, sub, 1)
-	}
-	return ret
 }
 
 func getMundane(t string) (Mundane, error) {

@@ -158,6 +158,7 @@ var ring = func() error {
 	}
 
 	chosen := rings[rand.Intn(len(rings))]
+	chosen.Description = processMod(chosen.Description)
 	log.Printf("Basic ring\n%s", chosen.Description)
 	return nil
 }

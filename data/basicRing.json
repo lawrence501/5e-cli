@@ -1,5 +1,27 @@
 [
     {
-        "description": "+1 wep dmg"
+        "description": "+1 to your lowest AS",
+        "upgraded": "-",
+        "tag": "ability score"
+    },
+    {
+        "description": "+2 incoming temp HP",
+        "upgraded": "+1",
+        "tag": "incoming temp HP"
+    },
+    {
+        "description": "+1 $hitForm AB",
+        "upgraded": "-",
+        "tag": "AB"
+    },
+    {
+        "description": "+1 $physType res",
+        "upgraded": "+1",
+        "tag": "phys res"
+    },
+    {
+        "description": "+5' sp",
+        "upgraded": "-",
+        "tag": "speed"
     }
 ]
