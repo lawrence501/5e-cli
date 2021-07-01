@@ -27,6 +27,43 @@ func sliceContains(slice []string, s string) bool {
 	return false
 }
 
+func getEnchants(num int, tags []string) ([]Enchant, error) {
+	allEnchants, err := fetchEnchants()
+	if err != nil {
+		return []Enchant{}, err
+	}
+
+	var enchants []Enchant
+	for len(enchants) < num {
+		var e Enchant
+		for true {
+			e = allEnchants[rand.Intn(len(allEnchants))]
+			valid := true
+			for _, t := range e.Tags {
+				if !sliceContains(tags, t) {
+					valid = false
+					break
+				}
+			}
+			if valid {
+				break
+			}
+		}
+		enchants = append(enchants, e)
+	}
+
+	return enchants, nil
+}
+
+func getMundane(t string) (Mundane, error) {
+	mundanes, err := fetchMundanes(t)
+	if err != nil {
+		return Mundane{}, err
+	}
+
+	return mundanes[rand.Intn(len(mundanes))], nil
+}
+
 func fetchTraps(t string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {

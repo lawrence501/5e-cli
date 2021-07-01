@@ -19,6 +19,8 @@ var COMMAND_MAP = map[string]func() error{
 	"4":      wondrous,
 	"5":      singleEnchant,
 	"colour": colour,
+	"wep":    weaponEnchant,
+	"arm":    armourEnchant,
 }
 
 func main() {
