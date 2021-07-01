@@ -146,3 +146,18 @@ var ring = func() error {
 	log.Printf("Basic ring\n%s", chosen.Description)
 	return nil
 }
+
+var doubleValueSingleEnchant = func() error {
+	base, err := getMundane("standard")
+	if err != nil {
+		return err
+	}
+
+	enchants, err := getEnchants(1, base.Tags)
+	if err != nil {
+		return err
+	}
+
+	log.Printf("1E magic item\nBase: %s (%s)\n- %s [%spts; %s] (HARD DOUBLE)", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade)
+	return nil
+}

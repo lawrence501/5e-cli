@@ -26,6 +26,7 @@ var COMMAND_MAP = map[string]func() error{
 	"11":     amulet,
 	"12":     bodyArmour,
 	"13":     ring,
+	"14":     doubleValueSingleEnchant,
 	"colour": colour,
 	"wep":    weaponEnchant,
 	"arm":    armourEnchant,
