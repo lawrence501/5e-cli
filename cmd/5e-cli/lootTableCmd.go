@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"math/rand"
+	"strings"
 )
 
 var lowGold = func() error {
@@ -109,5 +110,17 @@ var doubleEnchant = func() error {
 var essence = func() error {
 	dmgType := getDamageType()
 	log.Printf("Essence of %s", dmgType)
+	return nil
+}
+
+var amulet = func() error {
+	amulets, err := fetchAmulets()
+	if err != nil {
+		return err
+	}
+
+	chosen := amulets[rand.Intn(len(amulets))]
+	modString := strings.Join(chosen.Mods, "\n- ")
+	log.Printf("Amulet\n%s:\n- %s", chosen.Name, modString)
 	return nil
 }

@@ -187,3 +187,22 @@ func fetchEnchants() ([]Enchant, error) {
 	}
 	return enchants, nil
 }
+
+func fetchAmulets() ([]Amulet, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Amulet{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "amulet.json"))
+	if err != nil {
+		return []Amulet{}, err
+	}
+
+	amulets := []Amulet{}
+	err = json.Unmarshal([]byte(f), &amulets)
+	if err != nil {
+		return []Amulet{}, err
+	}
+	return amulets, nil
+}

@@ -22,6 +22,8 @@ var COMMAND_MAP = map[string]func() error{
 	"7":      essence,
 	"8":      doubleEnchant,
 	"9":      highGold,
+	"10":     func() error { log.Println("Reroll twice with +1 colour!"); return nil },
+	"11":     amulet,
 	"colour": colour,
 	"wep":    weaponEnchant,
 	"arm":    armourEnchant,

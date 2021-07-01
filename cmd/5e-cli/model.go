@@ -79,3 +79,9 @@ type Enchant struct {
 	Upgrade     string   `json:"upgrade"`
 	Tags        []string `json:"tags"`
 }
+
+type Amulet struct {
+	Name    string   `json:"name"`
+	Mods    []string `json:"mods"`
+	Upgrade string   `json:"upgrade"`
+}
