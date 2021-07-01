@@ -17,6 +17,12 @@ var mediumGold = func() error {
 	return nil
 }
 
+var highGold = func() error {
+	amount := rand.Intn(20) + 151
+	log.Printf("High gold: %dgp\n", amount)
+	return nil
+}
+
 var trap = func() error {
 	t := "standard"
 	if rand.Intn(100) < 5 {
