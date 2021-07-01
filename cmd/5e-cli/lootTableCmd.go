@@ -124,3 +124,14 @@ var amulet = func() error {
 	log.Printf("Amulet\n%s:\n- %s", chosen.Name, modString)
 	return nil
 }
+
+var bodyArmour = func() error {
+	bodies, err := fetchGenerics("body")
+	if err != nil {
+		return err
+	}
+
+	chosen := bodies[rand.Intn(len(bodies))]
+	log.Printf("Body armour\n%s:\n%s", chosen.Name, chosen.Description)
+	return nil
+}

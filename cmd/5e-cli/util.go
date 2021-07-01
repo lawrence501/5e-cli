@@ -206,3 +206,22 @@ func fetchAmulets() ([]Amulet, error) {
 	}
 	return amulets, nil
 }
+
+func fetchGenerics(fileName string) ([]Generic, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	generics := []Generic{}
+	err = json.Unmarshal([]byte(f), &generics)
+	if err != nil {
+		return []Generic{}, err
+	}
+	return generics, nil
+}
