@@ -30,10 +30,13 @@ var COMMAND_MAP = map[string]func() error{
 	"15":     tripleEnchant,
 	"16":     belt,
 	"17":     craftingStone,
+	"18":     func() error { log.Println("Dream Mirror"); return nil },
+	"19":     func() error { log.Println("Glyph"); return nil },
 	"colour": colour,
 	"wep":    weaponEnchant,
 	"arm":    armourEnchant,
 	"ring":   upgradeRing,
+	"glyph":  glyph,
 }
 
 func main() {

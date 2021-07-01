@@ -92,3 +92,21 @@ var upgradeRing = func() error {
 	}
 	return nil
 }
+
+var glyph = func() error {
+	paths, err := fetchGlyphs()
+	if err != nil {
+		return err
+	}
+
+	chosen := paths[rand.Intn(len(paths))]
+	tiers := chosen.Tiers
+	hints := []string{}
+	for i := 0; i < 3; i++ {
+		hIdx := rand.Intn(len(chosen.Tiers)-1) + 1
+		hints = append(hints, chosen.Tiers[hIdx])
+		tiers = append(tiers[:hIdx], tiers[hIdx+1:]...)
+	}
+	log.Printf("Glyph path\n%s\n\nRELIGION CHECK HINTS:\nDC 13: %s\n\nDC 15: %s\n\nDC 18: %s\n\nDC 20: %s", chosen.Name, chosen.Description, hints[0], hints[1], hints[2])
+	return nil
+}

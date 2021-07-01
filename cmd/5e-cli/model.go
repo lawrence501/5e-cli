@@ -100,3 +100,9 @@ type ThematicRing struct {
 	Mods []string `json:"mods"`
 	Tags []string `json:"tags"`
 }
+
+type GlyphPath struct {
+	Name        string   `json:"name"`
+	Description string   `json:"description"`
+	Tiers       []string `json:"tiers"`
+}

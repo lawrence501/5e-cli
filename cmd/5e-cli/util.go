@@ -245,6 +245,25 @@ func fetchThematicRings() ([]ThematicRing, error) {
 	return rings, nil
 }
 
+func fetchGlyphs() ([]GlyphPath, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []GlyphPath{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "glyph.json"))
+	if err != nil {
+		return []GlyphPath{}, err
+	}
+
+	paths := []GlyphPath{}
+	err = json.Unmarshal([]byte(f), &paths)
+	if err != nil {
+		return []GlyphPath{}, err
+	}
+	return paths, nil
+}
+
 func fetchGenerics(fileName string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
