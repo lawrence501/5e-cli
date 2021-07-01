@@ -18,6 +18,7 @@ var COMMAND_MAP = map[string]func() error{
 	"3":      mundane,
 	"4":      wondrous,
 	"5":      singleEnchant,
+	"6":      mediumGold,
 	"colour": colour,
 	"wep":    weaponEnchant,
 	"arm":    armourEnchant,
