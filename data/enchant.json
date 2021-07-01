@@ -1,14 +1,32 @@
 [
     {
-        "description": "+1 dmg with this weapon",
+        "description": "+1 init",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": []
+    },
+    {
+        "description": "+1 $dmgType dmg with this weapon",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
-        "description": "+1 dmg res",
-        "pointValue": "2",
-        "upgrade": "+1/2",
+        "description": "+1 $dmgType res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
+    },
+    {
+        "description": "+5' sp",
+        "pointValue": "2",
+        "upgrade": "+5'/2",
+        "tags": []
+    },
+    {
+        "description": "+1 $abilityScore",
+        "pointValue": "4",
+        "upgrade": "+1/4",
+        "tags": []
     }
 ]
