@@ -110,3 +110,18 @@ var glyph = func() error {
 	log.Printf("Glyph path\n%s\n\nRELIGION CHECK HINTS:\nDC 13: %s\n\nDC 15: %s\n\nDC 18: %s\n\nDC 20: %s", chosen.Name, chosen.Description, hints[0], hints[1], hints[2])
 	return nil
 }
+
+var upgradeRelic = func() error {
+	log.Println("Upgrade options:")
+	rolls := []int{rand.Intn(4), rand.Intn(4)}
+	for _, r := range rolls {
+		if r < 2 {
+			log.Println("- Upgrade existing mod")
+		} else if r < 3 {
+			log.Println("- New random mod")
+		} else {
+			log.Println("- New thematic mod")
+		}
+	}
+	return nil
+}

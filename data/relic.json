@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Sample relic",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 DoT dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +2 DoT dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +2 DoT dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +2 DoT dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +2 DoT dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ]
+    }
+]

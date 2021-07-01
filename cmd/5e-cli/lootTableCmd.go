@@ -198,3 +198,19 @@ var craftingStone = func() error {
 	log.Printf("Crafting stone\n%s: %s", chosen.Name, chosen.Description)
 	return nil
 }
+
+var relic = func() error {
+	relics, err := fetchRelics()
+	if err != nil {
+		return err
+	}
+
+	chosen := relics[rand.Intn(len(relics))]
+	var modDescriptions []string
+	for _, m := range chosen.StartingMods {
+		modDescriptions = append(modDescriptions, m.Description)
+	}
+	modString := strings.Join(modDescriptions, "\n- ")
+	log.Printf("Relic\n%s (%s):\n- %s", chosen.Name, chosen.Type, modString)
+	return nil
+}

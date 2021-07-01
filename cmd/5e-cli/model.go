@@ -106,3 +106,9 @@ type GlyphPath struct {
 	Description string   `json:"description"`
 	Tiers       []string `json:"tiers"`
 }
+
+type Relic struct {
+	Name         string    `json:"name"`
+	Type         string    `json:"type"`
+	StartingMods []Enchant `json:"startingMods"`
+}

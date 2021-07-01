@@ -264,6 +264,25 @@ func fetchGlyphs() ([]GlyphPath, error) {
 	return paths, nil
 }
 
+func fetchRelics() ([]Relic, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Relic{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "relic.json"))
+	if err != nil {
+		return []Relic{}, err
+	}
+
+	relics := []Relic{}
+	err = json.Unmarshal([]byte(f), &relics)
+	if err != nil {
+		return []Relic{}, err
+	}
+	return relics, nil
+}
+
 func fetchGenerics(fileName string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
