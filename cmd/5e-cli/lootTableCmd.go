@@ -209,6 +209,7 @@ var relic = func() error {
 	chosen := relics[rand.Intn(len(relics))]
 	var modDescriptions []string
 	for _, m := range chosen.StartingMods {
+		m.Description = processMod(m.Description)
 		modDescriptions = append(modDescriptions, m.Description)
 	}
 	modString := strings.Join(modDescriptions, "\n- ")

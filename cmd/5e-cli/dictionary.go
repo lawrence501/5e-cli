@@ -65,3 +65,9 @@ var HIT_FORMS []string = []string{
 	"weapon",
 	"spell",
 }
+
+var WILL_ABILITY []string = []string{
+	"intelligence",
+	"wisdom",
+	"charisma",
+}

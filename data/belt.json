@@ -1,6 +1,22 @@
 [
     {
-        "name": "sample belt",
-        "description": "+1 wep dmg while a creature is cursed by you"
+        "name": "exalted soul",
+        "description": "+1 to max class points; recover 1 class point on init"
+    },
+    {
+        "name": "near death experience",
+        "description": "1/LR, on reaching 0 HP, instead remain at 1 HP and gain dmg and condi immunity until end of the turn"
+    },
+    {
+        "name": "beacon of ytar",
+        "description": "during each SR, can replenish a single resource with a LR cooldown"
+    },
+    {
+        "name": "alacrity",
+        "description": "+3 dmg with basic wep atks and cantrips"
+    },
+    {
+        "name": "sixth sense",
+        "description": "+3 non-phys res"
     }
 ]
