@@ -21,8 +21,15 @@ var validateColourUpgrade = func(input string) error {
 
 var validateTagString = func(input string) error {
 	validator := regexp.MustCompile(`^\S*[^,]$`)
-	if !validator.MatchString(input) {
+	if input != "" && !validator.MatchString(input) {
 		return errors.New("Invalid tag list. Must be a comma-separated list of tags, with no spaces.")
+	}
+	return nil
+}
+
+var validateBasicRing = func(input string) error {
+	if valid := sliceContains(RING_TAGS, input); !valid {
+		return errors.New("Invalid basic ring.")
 	}
 	return nil
 }

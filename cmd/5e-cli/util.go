@@ -207,6 +207,44 @@ func fetchAmulets() ([]Amulet, error) {
 	return amulets, nil
 }
 
+func fetchBasicRings() ([]BasicRing, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []BasicRing{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "basicRing.json"))
+	if err != nil {
+		return []BasicRing{}, err
+	}
+
+	rings := []BasicRing{}
+	err = json.Unmarshal([]byte(f), &rings)
+	if err != nil {
+		return []BasicRing{}, err
+	}
+	return rings, nil
+}
+
+func fetchThematicRings() ([]ThematicRing, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []ThematicRing{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "thematicRing.json"))
+	if err != nil {
+		return []ThematicRing{}, err
+	}
+
+	rings := []ThematicRing{}
+	err = json.Unmarshal([]byte(f), &rings)
+	if err != nil {
+		return []ThematicRing{}, err
+	}
+	return rings, nil
+}
+
 func fetchGenerics(fileName string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {

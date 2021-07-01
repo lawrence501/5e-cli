@@ -1,0 +1,7 @@
+[
+    {
+        "name": "sample thematic ring",
+        "mods": ["+1 wep dmg", "+1 spell dmg"],
+        "tags": ["wep dmg", "spell dmg"]
+    }
+]

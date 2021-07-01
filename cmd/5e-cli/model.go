@@ -39,6 +39,11 @@ var DAMAGE_TYPES []string = []string{
 	"thunder",
 }
 
+var RING_TAGS []string = []string{
+	"wep dmg",
+	"spell dmg",
+}
+
 type Generic struct {
 	Name        string `json:"name"`
 	Description string `json:"description"`
@@ -84,4 +89,14 @@ type Amulet struct {
 	Name    string   `json:"name"`
 	Mods    []string `json:"mods"`
 	Upgrade string   `json:"upgrade"`
+}
+
+type BasicRing struct {
+	Description string `json:"description"`
+}
+
+type ThematicRing struct {
+	Name string   `json:"name"`
+	Mods []string `json:"mods"`
+	Tags []string `json:"tags"`
 }

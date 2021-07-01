@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"math/rand"
 	"strings"
 
 	"github.com/manifoldco/promptui"
@@ -62,5 +63,32 @@ var armourEnchant = func() error {
 
 	enchant := enchants[0]
 	log.Printf("Armour enchant\n%s [%s; %s]", enchant.Description, enchant.PointValue, enchant.Upgrade)
+	return nil
+}
+
+var upgradeRing = func() error {
+	basicP := promptui.Prompt{
+		Label:    "Basic ring type",
+		Validate: validateBasicRing,
+	}
+	b, err := basicP.Run()
+	if err != nil {
+		return err
+	}
+
+	rings, err := fetchThematicRings()
+	if err != nil {
+		return err
+	}
+
+	var ring ThematicRing
+	for true {
+		ring = rings[rand.Intn(len(rings))]
+		if sliceContains(ring.Tags, b) {
+			modString := strings.Join(ring.Mods, "\n- ")
+			log.Printf("Thematic ring (in addition to basic)\n- %s", modString)
+			return nil
+		}
+	}
 	return nil
 }

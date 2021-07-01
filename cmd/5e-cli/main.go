@@ -25,9 +25,11 @@ var COMMAND_MAP = map[string]func() error{
 	"10":     func() error { log.Println("Reroll twice with +1 colour!"); return nil },
 	"11":     amulet,
 	"12":     bodyArmour,
+	"13":     ring,
 	"colour": colour,
 	"wep":    weaponEnchant,
 	"arm":    armourEnchant,
+	"ring":   upgradeRing,
 }
 
 func main() {

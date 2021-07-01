@@ -132,6 +132,17 @@ var bodyArmour = func() error {
 	}
 
 	chosen := bodies[rand.Intn(len(bodies))]
-	log.Printf("Body armour\n%s:\n%s", chosen.Name, chosen.Description)
+	log.Printf("Body armour\n%s", chosen.Description)
+	return nil
+}
+
+var ring = func() error {
+	rings, err := fetchBasicRings()
+	if err != nil {
+		return err
+	}
+
+	chosen := rings[rand.Intn(len(rings))]
+	log.Printf("Basic ring\n%s", chosen.Description)
 	return nil
 }
