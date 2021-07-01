@@ -23,6 +23,22 @@ var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"20": "Relic: +1 starting lvl",
 }
 
+var DAMAGE_TYPES []string = []string{
+	"acid",
+	"bludgeoning",
+	"cold",
+	"fire",
+	"force",
+	"lightning",
+	"necrotic",
+	"piercing",
+	"poison",
+	"psychic",
+	"radiant",
+	"slashing",
+	"thunder",
+}
+
 type Generic struct {
 	Name        string `json:"name"`
 	Description string `json:"description"`

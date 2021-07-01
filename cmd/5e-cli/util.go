@@ -64,6 +64,10 @@ func getMundane(t string) (Mundane, error) {
 	return mundanes[rand.Intn(len(mundanes))], nil
 }
 
+func getDamageType() string {
+	return DAMAGE_TYPES[rand.Intn(len(DAMAGE_TYPES))]
+}
+
 func fetchTraps(t string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {

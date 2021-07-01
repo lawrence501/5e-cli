@@ -84,3 +84,9 @@ var singleEnchant = func() error {
 	log.Printf("1E magic item\nBase: %s (%s)\n- %s [%spts; %s]", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade)
 	return nil
 }
+
+var essence = func() error {
+	dmgType := getDamageType()
+	log.Printf("Essence of %s", dmgType)
+	return nil
+}
