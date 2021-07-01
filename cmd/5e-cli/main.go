@@ -20,6 +20,7 @@ var COMMAND_MAP = map[string]func() error{
 	"5":      singleEnchant,
 	"6":      mediumGold,
 	"7":      essence,
+	"8":      doubleEnchant,
 	"colour": colour,
 	"wep":    weaponEnchant,
 	"arm":    armourEnchant,

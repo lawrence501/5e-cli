@@ -85,6 +85,21 @@ var singleEnchant = func() error {
 	return nil
 }
 
+var doubleEnchant = func() error {
+	base, err := getMundane("standard")
+	if err != nil {
+		return err
+	}
+
+	enchants, err := getEnchants(2, base.Tags)
+	if err != nil {
+		return err
+	}
+
+	log.Printf("2E magic item\nBase: %s (%s)\n- %s [%spts; %s]\n- %s [%spts; %s]", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade, enchants[1].Description, enchants[1].PointValue, enchants[1].Upgrade)
+	return nil
+}
+
 var essence = func() error {
 	dmgType := getDamageType()
 	log.Printf("Essence of %s", dmgType)
