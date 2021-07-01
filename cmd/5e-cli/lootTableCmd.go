@@ -60,7 +60,7 @@ var WONDROUS_RARITIES = []string{"common", "uncommon", "rare", "very rare", "leg
 var wondrous = func() error {
 	rarityRoll := rand.Intn(100)
 	var rarity string
-	for i, _ := range WONDROUS_WEIGHTS {
+	for i := range WONDROUS_WEIGHTS {
 		if rarityRoll < WONDROUS_WEIGHTS[i] {
 			rarity = WONDROUS_RARITIES[i]
 			break
