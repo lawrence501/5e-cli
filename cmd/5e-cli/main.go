@@ -29,6 +29,7 @@ var COMMAND_MAP = map[string]func() error{
 	"14":     doubleValueSingleEnchant,
 	"15":     tripleEnchant,
 	"16":     belt,
+	"17":     craftingStone,
 	"colour": colour,
 	"wep":    weaponEnchant,
 	"arm":    armourEnchant,

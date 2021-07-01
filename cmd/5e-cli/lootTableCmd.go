@@ -187,3 +187,14 @@ var belt = func() error {
 	log.Printf("Belt\n%s", chosen.Description)
 	return nil
 }
+
+var craftingStone = func() error {
+	stones, err := fetchGenerics("craftingStone")
+	if err != nil {
+		return err
+	}
+
+	chosen := stones[rand.Intn(len(stones))]
+	log.Printf("Crafting stone\n%s: %s", chosen.Name, chosen.Description)
+	return nil
+}
