@@ -1,146 +1,73 @@
 [
     {
-        "name": "Prophecy",
-        "type": "armour",
+        "name": "Adamant Arrowhead",
+        "type": "weapon",
         "startingMods": [
             {
-                "description": "recover 2 spell slot lvls on SR",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "+1 $willAbility",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "10% chance to refund a spent spell slot",
-                "pointValue": "9",
-                "upgrade": "+5%/1"
-            }
-        ],
-        "thematicMods": [
-            {
-                "description": "1. on hit, 20% chance to recover 1 spell slot lvl",
-                "pointValue": "1",
-                "upgrade": "+10%/1 OR +1/1"
-            },
-            {
-                "description": "2. whenever you recover a spell slot lvl outside of LR, gain +2 spell dmg until you next finish a combat",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "3. whenever you cast a spell, gain +1 non-phys dmg until end of your next turn",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "4. you can use investigation to study something as it would be 30 minutes in the future",
-                "pointValue": "3",
-                "upgrade": "+10mins/1"
-            },
-            {
-                "description": "5. receive +3 healing from each hit die during short rests",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "6. whenever you spend a spell slot, gain +2 spell dmg until you next finish a combat",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "7. +1 spell dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "8. +1 to spell save DC",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "9. casting the same non-cantrip spell multiple turns in a row grants each successive cast +2 more damage, stacking until you break the streak",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "10. after spending a spell slot, gain condi imm until end of your next turn",
-                "pointValue": "3",
-                "upgrade": "+1 1st-lvl spell slot /3"
-            }
-        ]
-    },
-    {
-        "name": "Guardian",
-        "type": "armour",
-        "startingMods": [
-            {
-                "description": "+5 max HP",
-                "pointValue": "2",
-                "upgrade": "+2/1"
-            },
-            {
-                "description": "on hit, 20% chance to stun target until end of their next turn",
-                "pointValue": "3",
-                "upgrade": "+10%/1"
-            },
-            {
-                "description": "when hit, 30% chance to surround self with an Animated Shield (CR 1/8 def only), which takes dmg before you and is a minion",
-                "pointValue": "2",
-                "upgrade": "+10%/1 or +1 CR/1"
-            }
-        ],
-        "thematicMods": [
-            {
-                "description": "1. +5 minion HP",
-                "pointValue": "1",
-                "upgrade": "+5/1"
-            },
-            {
-                "description": "2. +1 $hitForm AC",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "3. on block, +1 dmg res until end of your next turn",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "4. on 1+ healing surge, +2 phys res until end of your next turn",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "5. 20% chance to refund spent healing surges",
-                "pointValue": "1",
-                "upgrade": "+10%/1"
-            },
-            {
-                "description": "6. +1 phys res",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "7. when hit, +2 global dmg until end of your next turn",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "8. +1 throwing crit dice",
+                "description": "your loot rolls have +1 projectile affinity",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
             {
-                "description": "9. +1 throwing dmg",
+                "description": "projectile mods on your loot have +1 upgrade point",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on hit with this weapon, fire a glyphic arrow atk at creature of your choice within 120' dealing 0 P",
+                "pointValue": "6",
+                "upgrade": "+1 dmg/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. -1 crit req with this weapon vs targets affected by a DoT",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +1 dmg with this weapon",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "10. when hit, +2 non-phys res until end of your next turn",
-                "pointValue": "2",
+                "description": "3. -1 crit req with this weapon",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 spell AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. on crit with this weapon, recover 1 spell slot lvl",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. whenever a non-instantaneous effect on a creature from your spells ends, you can have the creature take 2 P",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. your limited proj powers have -1 crit req",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. your limited proj powers have +1 AB",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "10. +1 crit dice with this wep vs metal-armoured targets",
+                "pointValue": "1",
                 "upgrade": "+1/1"
             }
         ]

@@ -4,7 +4,6 @@ import (
 	"log"
 	"math/rand"
 	"os"
-	"strconv"
 	"time"
 
 	"github.com/manifoldco/promptui"
@@ -14,17 +13,17 @@ var COMMAND_MAP = map[string]func() error{
 	"exit":   func() error { os.Exit(0); return nil },
 	"q":      func() error { os.Exit(0); return nil },
 	"1":      trap,
-	"2":      lowGold,
-	"3":      mundane,
-	"4":      wondrous,
-	"5":      singleEnchant,
-	"6":      mediumGold,
-	"7":      essence,
-	"8":      doubleEnchant,
-	"9":      highGold,
+	"3":      lowGold,
+	"4":      mundane,
+	"5":      wondrous,
+	"6":      singleEnchant,
+	"7":      mediumGold,
+	"8":      essence,
+	"9":      doubleEnchant,
+	"11":     highGold,
 	"10":     func() error { log.Println("Reroll twice with +1 colour!"); return nil },
-	"11":     amulet,
-	"12":     bodyArmour,
+	"12":     amulet,
+	"2":      blessing,
 	"13":     ring,
 	"14":     doubleValueSingleEnchant,
 	"15":     tripleEnchant,
@@ -56,9 +55,6 @@ func main() {
 			return
 		}
 
-		if _, err = strconv.Atoi(input); err == nil {
-			checkColourCrit()
-		}
 		err = COMMAND_MAP[input]()
 		if err != nil {
 			log.Printf("Error occurred during running of %s", input)

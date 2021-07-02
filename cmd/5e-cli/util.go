@@ -4,19 +4,12 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"math/rand"
 	"os"
 	"path/filepath"
 )
 
 const DATA_DIR = "data"
-
-func checkColourCrit() {
-	if rand.Intn(100) < 5 {
-		log.Println("Colour crit! +1 colour!")
-	}
-}
 
 func sliceContains(slice []string, s string) bool {
 	for _, v := range slice {
@@ -96,6 +89,25 @@ func fetchTraps(t string) ([]Generic, error) {
 		return []Generic{}, fmt.Errorf("Invalid trap type: %s", t)
 	}
 	return ret, nil
+}
+
+func fetchBlessings() ([]string, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []string{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "blessing.json"))
+	if err != nil {
+		return []string{}, err
+	}
+
+	blessings := []string{}
+	err = json.Unmarshal([]byte(f), &blessings)
+	if err != nil {
+		return []string{}, err
+	}
+	return blessings, nil
 }
 
 func fetchMundanes(t string) ([]Mundane, error) {

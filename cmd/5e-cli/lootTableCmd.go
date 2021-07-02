@@ -140,14 +140,15 @@ var amulet = func() error {
 	return nil
 }
 
-var bodyArmour = func() error {
-	bodies, err := fetchGenerics("body")
+var blessing = func() error {
+	blessings, err := fetchBlessings()
 	if err != nil {
 		return err
 	}
 
-	chosen := bodies[rand.Intn(len(bodies))]
-	log.Printf("Body armour\n%s", chosen.Description)
+	chosen := blessings[rand.Intn(len(blessings))]
+	chosen = processMod(chosen)
+	log.Printf("Blessing\n%s", chosen)
 	return nil
 }
 

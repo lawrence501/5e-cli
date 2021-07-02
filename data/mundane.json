@@ -47,6 +47,11 @@
                 "Name": "Boots",
                 "Description": "Boots slot",
                 "Tags": ["armour", "boots"]
+            },
+            {
+                "Name": "Body Armour",
+                "Description": "Choice of Clothes, Studded Leather, Half Plate, or Plate",
+                "Tags": ["armour", "body"]
             }
         ]
     },

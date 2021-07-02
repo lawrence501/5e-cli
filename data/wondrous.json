@@ -1,14 +1,46 @@
 {
     "common": [
         {
-            "name": "common wondrous",
-            "description": "URL"
+            "name": "Bead of Refreshment",
+            "description": "https://5e.tools/items.html#bead%20of%20refreshment_xge"
+        },
+        {
+            "name": "Candle of the Deep",
+            "description": "https://5e.tools/items.html#candle%20of%20the%20deep_xge"
+        },
+        {
+            "name": "Cloak of Billowing",
+            "description": "https://5e.tools/items.html#cloak%20of%20billowing_xge"
+        },
+        {
+            "name": "Cloak of Many Fashions",
+            "description": "https://5e.tools/items.html#cloak%20of%20many%20fashions_xge"
+        },
+        {
+            "name": "Ear Horn of Hearing",
+            "description": "https://5e.tools/items.html#ear%20horn%20of%20hearing_xge"
         }
     ],
     "uncommon": [
         {
-            "name": "uncommon wondrous",
-            "description": "URL"
+            "name": "Alchemy Jug",
+            "description": "https://5e.tools/items.html#alchemy%20jug_dmg"
+        },
+        {
+            "name": "Bag of Holding",
+            "description": "https://5e.tools/items.html#bag%20of%20holding_dmg"
+        },
+        {
+            "name": "Bag of Tricks",
+            "description": "https://5e.tools/items.html#bag%20of%20tricks_dmg"
+        },
+        {
+            "name": "Broom of Flying",
+            "description": "https://5e.tools/items.html#broom%20of%20flying_dmg"
+        },
+        {
+            "name": "Cloak of the Manta Ray",
+            "description": "https://5e.tools/items.html#cloak%20of%20the%20manta%20ray_dmg"
         }
     ],
     "rare": [
