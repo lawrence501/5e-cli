@@ -23,17 +23,7 @@ var colour = func() error {
 }
 
 var weaponEnchant = func() error {
-	tagP := promptui.Prompt{
-		Label:    "Weapon tags",
-		Validate: validateTagString,
-	}
-	t, err := tagP.Run()
-	if err != nil {
-		return err
-	}
-
-	tags := strings.Split(t, ",")
-	tags = append(tags, "weapon")
+	tags := []string{"weapon"}
 	enchants, err := getEnchants(1, tags)
 	if err != nil {
 		return err
@@ -45,17 +35,7 @@ var weaponEnchant = func() error {
 }
 
 var armourEnchant = func() error {
-	tagP := promptui.Prompt{
-		Label:    "Armour tags",
-		Validate: validateTagString,
-	}
-	t, err := tagP.Run()
-	if err != nil {
-		return err
-	}
-
-	tags := strings.Split(t, ",")
-	tags = append(tags, "armour")
+	tags := []string{"armour"}
 	enchants, err := getEnchants(1, tags)
 	if err != nil {
 		return err

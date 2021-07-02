@@ -15,12 +15,12 @@
         "tag": "AB"
     },
     {
-        "description": "+1 $physType res",
+        "description": "+2 $physType res",
         "upgraded": "+1",
         "tag": "phys res"
     },
     {
-        "description": "+1 $nonPhysType res",
+        "description": "+2 $nonPhysType res",
         "upgraded": "+1",
         "tag": "non-phys res"
     },
@@ -58,5 +58,30 @@
         "description": "+1 spell dmg",
         "upgraded": "+1",
         "tag": "spell dmg"
+    },
+    {
+        "description": "+1 $nonPhysType dmg",
+        "upgraded": "+1",
+        "tag": "non-phys dmg"
+    },
+    {
+        "description": "+1 $physType dmg",
+        "upgraded": "+1",
+        "tag": "phys dmg"
+    },
+    {
+        "description": "+1 $dmgPolarity dmg",
+        "upgraded": "-",
+        "tag": "dmg polarity"
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgraded": "+1",
+        "tag": "minion dmg"
+    },
+    {
+        "description": "+1 DoT dmg",
+        "upgraded": "+1",
+        "tag": "DoT dmg"
     }
 ]

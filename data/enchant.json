@@ -6,7 +6,7 @@
         "tags": []
     },
     {
-        "description": "+1 $dmgType dmg with this weapon",
+        "description": "+1 $dmgType dmg",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
@@ -28,5 +28,191 @@
         "pointValue": "4",
         "upgrade": "+1/4",
         "tags": []
+    },
+    {
+        "description": "+1 $skill",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": []
+    },
+    {
+        "description": "reroll as negative, then reroll upgraded",
+        "pointValue": "-",
+        "upgrade": "-",
+        "tags": []
+    },
+    {
+        "description": "reroll, resulting enchant is applied to minions instead of the wielder",
+        "pointValue": "-",
+        "upgrade": "-",
+        "tags": []
+    },
+    {
+        "description": "reroll with advantage",
+        "pointValue": "-",
+        "upgrade": "-",
+        "tags": []
+    },
+    {
+        "description": "reroll twice",
+        "pointValue": "-",
+        "upgrade": "-",
+        "tags": []
+    },
+    {
+        "description": "+1 spell save DC",
+        "pointValue": "4",
+        "upgrade": "1/4",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 to non-spell DCs",
+        "pointValue": "4",
+        "upgrade": "1/4",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 exp gain",
+        "pointValue": "4",
+        "upgrade": "1/4",
+        "tags": []
+    },
+    {
+        "description": "+15 gold find",
+        "pointValue": "1",
+        "upgrade": "15/1",
+        "tags": []
+    },
+    {
+        "description": "+15' darkvision",
+        "pointValue": "1",
+        "upgrade": "10'/1",
+        "tags": []
+    },
+    {
+        "description": "+1 to positive social skill checks",
+        "pointValue": "2",
+        "upgrade": "1/2",
+        "tags": []
+    },
+    {
+        "description": "+1 to $condition DCs",
+        "pointValue": "3",
+        "upgrade": "1/3",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 to DCs for ending ongoing effects",
+        "pointValue": "4",
+        "upgrade": "1/4",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+4 NPC ally effectiveness",
+        "pointValue": "1",
+        "upgrade": "4/1",
+        "tags": []
+    },
+    {
+        "description": "+5' mounted sp",
+        "pointValue": "1",
+        "upgrade": "5'/1",
+        "tags": []
+    },
+    {
+        "description": "+5' fly sp",
+        "pointValue": "3",
+        "upgrade": "5'/3",
+        "tags": []
+    },
+    {
+        "description": "+1 min loot roll",
+        "pointValue": "3",
+        "upgrade": "1/3",
+        "tags": []
+    },
+    {
+        "description": "+1 inventory slot",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": []
+    },
+    {
+        "description": "+1 investigation for finding loot",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": []
+    },
+    {
+        "description": "+1 to knowledge skills",
+        "pointValue": "4",
+        "upgrade": "1/4",
+        "tags": []
+    },
+    {
+        "description": "+1 to concentration saves",
+        "pointValue": "2",
+        "upgrade": "1/2",
+        "tags": ["armour"]
+    },
+    {
+        "description": "+2 dmg with this weapon while within 5' of $partyMember",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 dmg res while within 5' of $partyMember",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["armour"]
+    },
+    {
+        "description": "+1 sleight of hand for picking locks",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": []
+    },
+    {
+        "description": "this item always looks polished and brand-new",
+        "pointValue": "1",
+        "upgrade": "+1 persuasion/1",
+        "tags": []
+    },
+    {
+        "description": "+2 $skill while within a city's borders",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": []
+    },
+    {
+        "description": "+2 dmg with this weapon while within a city's borders",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 dmg res while within a city's borders",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["armour"]
+    },
+    {
+        "description": "+1 to percep to avoid being ambushed",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": []
+    },
+    {
+        "description": "in $lightType, +2 dmg with this weapon",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "in $lightType, +1 dmg res",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["armour"]
     }
 ]

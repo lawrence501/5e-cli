@@ -99,3 +99,36 @@ var WEAPON_CLASSES []string = []string{
 	"hammer",
 	"shield",
 }
+
+var SKILLS []string = []string{
+	"athletics",
+	"acrobatics",
+	"sleight of hand",
+	"stealth",
+	"arcana",
+	"history",
+	"investigation",
+	"nature",
+	"religion",
+	"animal handling",
+	"insight",
+	"medicine",
+	"perception",
+	"survival",
+	"deception",
+	"intimidation",
+	"performance",
+	"persuasion",
+}
+
+var DAMAGE_POLARITIES []string = []string{
+	"physical",
+	"non-physical",
+}
+
+var PARTY_MEMBERS []string = []string{}
+
+var LIGHT_TYPES []string = []string{
+	"sunlight",
+	"darkness",
+}

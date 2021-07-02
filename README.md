@@ -12,3 +12,5 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Condi lasts until save/longer: x2
 - Limited feature conditional: -1
 - General conditional: -2
+- Party positioning conditional: -1
+- Common location conditional: -1

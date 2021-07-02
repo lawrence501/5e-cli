@@ -14,14 +14,14 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "on hit with this weapon, fire a glyphic arrow atk at creature of your choice within 120' dealing 0 P",
+                "description": "on hit, fire a glyphic arrow atk at creature of your choice within 120' dealing 0 P",
                 "pointValue": "6",
                 "upgrade": "+1 dmg/2"
             }
         ],
         "thematicMods": [
             {
-                "description": "1. -1 crit req with this weapon vs targets affected by a DoT",
+                "description": "1. -1 crit req vs targets affected by a DoT",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -46,7 +46,7 @@
                 "upgrade": "+1/4"
             },
             {
-                "description": "6. on crit with this weapon, recover 1 spell slot lvl",
+                "description": "6. on crit, recover 1 spell slot lvl",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
