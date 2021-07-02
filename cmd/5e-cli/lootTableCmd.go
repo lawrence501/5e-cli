@@ -197,7 +197,7 @@ var craftingStone = func() error {
 	}
 
 	chosen := stones[rand.Intn(len(stones))]
-	log.Printf("Crafting stone\n%s: %s", chosen.Name, chosen.Description)
+	log.Printf("Crafting stone\n%s Stone: %s", chosen.Name, chosen.Description)
 	return nil
 }
 

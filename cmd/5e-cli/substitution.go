@@ -11,7 +11,9 @@ var SUBSTITUTION_MAP = map[string][]string{
 	"$abilityScore": ABILITY_SCORES,
 	"$hitForm":      HIT_FORMS,
 	"$physType":     PHYS_TYPES,
-	"$willAbility":  WILL_ABILITY,
+	"$willAbility":  WILL_ABILITIES,
+	"$weaponHands":  WEAPON_HANDS,
+	"$weaponClass":  WEAPON_CLASSES,
 }
 
 func processMod(modString string) string {

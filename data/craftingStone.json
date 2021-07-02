@@ -1,6 +1,22 @@
 [
     {
-        "name": "Sample crafting stone",
-        "description": "Rerolls all mods on an item, retaining point values at minimum"
+        "name": "Fate",
+        "description": "lock in a mod and reroll all others"
+    },
+    {
+        "name": "Empowering",
+        "description": "randomly apply 1 upgrade point; if impossible, adds new random mod"
+    },
+    {
+        "name": "Enhancing",
+        "description": "Add new random mod"
+    },
+    {
+        "name": "Attuning",
+        "description": "Turn any non-relic into a relic, dynamically building thematic affixes as needed"
+    },
+    {
+        "name": "Learning",
+        "description": "Instantly level worn relic; reroll if none"
     }
 ]

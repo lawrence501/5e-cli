@@ -20,8 +20,43 @@
         "tag": "phys res"
     },
     {
+        "description": "+1 $nonPhysType res",
+        "upgraded": "+1",
+        "tag": "non-phys res"
+    },
+    {
         "description": "+5' sp",
         "upgraded": "-",
         "tag": "speed"
+    },
+    {
+        "description": "+1 dmg with $weaponClass weps",
+        "upgraded": "+1",
+        "tag": "weapon class"
+    },
+    {
+        "description": "+1 dmg with $weaponHands weps",
+        "upgraded": "+1",
+        "tag": "weapon hands"
+    },
+    {
+        "description": "+1 weapon dmg while dual-wielding",
+        "upgraded": "-",
+        "tag": "dual-wielding"
+    },
+    {
+        "description": "+1 $hitForm dmg while holding a shield",
+        "upgraded": "+1",
+        "tag": "holding shield"
+    },
+    {
+        "description": "+1 wep dmg",
+        "upgraded": "+1",
+        "tag": "wep dmg"
+    },
+    {
+        "description": "+1 spell dmg",
+        "upgraded": "+1",
+        "tag": "spell dmg"
     }
 ]
