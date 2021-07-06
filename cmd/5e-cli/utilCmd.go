@@ -105,3 +105,18 @@ var upgradeRelic = func() error {
 	}
 	return nil
 }
+
+var skill = func() error {
+	log.Printf("Skill: %s", SKILLS[rand.Intn(len(SKILLS))])
+	return nil
+}
+
+var dmgType = func() error {
+	log.Printf("Damage type: %s", DAMAGE_TYPES[rand.Intn(len(DAMAGE_TYPES))])
+	return nil
+}
+
+var creatureType = func() error {
+	log.Printf("Creature type: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))])
+	return nil
+}

@@ -14,3 +14,5 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - General conditional: -2
 - Party positioning conditional: -1
 - Common location conditional: -1
+- Incoming healing: 2
+- Passive regen: 3

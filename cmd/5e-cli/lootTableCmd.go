@@ -26,7 +26,7 @@ var highGold = func() error {
 
 var trap = func() error {
 	t := "standard"
-	if rand.Intn(100) < 5 {
+	if rand.Intn(100) < 10 {
 		t = "crit"
 	}
 
@@ -42,7 +42,7 @@ var trap = func() error {
 
 var mundane = func() error {
 	t := "standard"
-	if rand.Intn(100) < 5 {
+	if rand.Intn(100) < 10 {
 		t = "crit"
 	}
 

@@ -18,5 +18,33 @@
     {
         "name": "Learning",
         "description": "Instantly level worn relic; reroll if none"
+    },
+    {
+        "name": "Cloning",
+        "description": "replace random mod with exact copy of another random mod"
+    },
+    {
+        "name": "Negating",
+        "description": "Chosen mod is negated, resultant points are distributed randomly"
+    },
+    {
+        "name": "Sacrificial",
+        "description": "Use on any lootable object or pile of gold, destroying it; roll on loot table, rerolling results lower than object's equivalent roll"
+    },
+    {
+        "name": "Chaotic",
+        "description": "Reroll all affixes for same number and points"
+    },
+    {
+        "name": "Blunt",
+        "description": "weapon gets -1 dmg die size and random hard doubled enchant"
+    },
+    {
+        "name": "Brittle",
+        "description": "body armour gets -1 AC and random hard tripled enchant"
+    },
+    {
+        "name": "Gambling",
+        "description": "chosen mod's numeric value is rerolled between 0 and double its current value"
     }
 ]
