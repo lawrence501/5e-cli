@@ -19,6 +19,46 @@
         {
             "name": "Ear Horn of Hearing",
             "description": "https://5e.tools/items.html#ear%20horn%20of%20hearing_xge"
+        },
+        {
+            "name": "Heward's Handry Spice Pouch",
+            "description": "https://5e.tools/items.html#heward's%20handy%20spice%20pouch_xge"
+        },
+        {
+            "name": "Horn of Silent Alarm",
+            "description": "https://5e.tools/items.html#horn%20of%20silent%20alarm_xge"
+        },
+        {
+            "name": "Lock of Trickery",
+            "description": "https://5e.tools/items.html#lock%20of%20trickery_xge"
+        },
+        {
+            "name": "Mystery Key",
+            "description": "https://5e.tools/items.html#mystery%20key_xge"
+        },
+        {
+            "name": "Orb of Direction",
+            "description": "https://5e.tools/items.html#orb%20of%20direction_xge"
+        },
+        {
+            "name": "Orb of Time",
+            "description": "https://5e.tools/items.html#orb%20of%20time_xge"
+        },
+        {
+            "name": "Perfume of Bewitching",
+            "description": "https://5e.tools/items.html#perfume%20of%20bewitching_xge"
+        },
+        {
+            "name": "Pipe of Smoke Monsters",
+            "description": "https://5e.tools/items.html#pipe%20of%20smoke%20monsters_xge"
+        },
+        {
+            "name": "Pole of Angling",
+            "description": "https://5e.tools/items.html#pole%20of%20angling_xge"
+        },
+        {
+            "name": "Pole of Collapsing",
+            "description": "https://5e.tools/items.html#pole%20of%20collapsing_xge"
         }
     ],
     "uncommon": [
@@ -41,6 +81,26 @@
         {
             "name": "Cloak of the Manta Ray",
             "description": "https://5e.tools/items.html#cloak%20of%20the%20manta%20ray_dmg"
+        },
+        {
+            "name": "Decanter of Endless Water",
+            "description": "https://5e.tools/items.html#decanter%20of%20endless%20water_dmg"
+        },
+        {
+            "name": "Deck of Illusions",
+            "description": "https://5e.tools/items.html#deck%20of%20illusions_dmg"
+        },
+        {
+            "name": "Driftglobe",
+            "description": "https://5e.tools/items.html#driftglobe_dmg"
+        },
+        {
+            "name": "Dust of Disappearance",
+            "description": "https://5e.tools/items.html#dust%20of%20disappearance_dmg"
+        },
+        {
+            "name": "Dust of Dryness",
+            "description": "https://5e.tools/items.html#dust%20of%20dryness_dmg"
         }
     ],
     "rare": [

@@ -1,7 +1,97 @@
 [
   {
-    "name": "sampleAmulet",
-    "mods": ["+1 weapon dmg"],
-    "upgrade": "+1 weapon dmg"
+    "name": "paladin - conviction",
+    "mods": ["+1 $physType dmg", "+1 $nonPhysType dmg", "ignore {physType} res", "ignore {nonPhysType} res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - defiance",
+    "mods": ["+1 $abilityScore", "+1 non-phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - honour",
+    "mods": ["+1 dmg res", "+1 to condi saves", "+1 AC"],
+    "upgrade": "+1 NOT AC"
+  },
+  {
+    "name": "paladin - majasaFirebrand",
+    "mods": ["on melee wep hit, 20% chance to inflict 2 $nonPhysType DoT, stacking until CON save"],
+    "upgrade": "+10% ALT +1"
+  },
+  {
+    "name": "paladin - valor",
+    "mods": ["+1 $abilityScore", "+1 outgoing healing"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - divineBolt",
+    "mods": ["on melee wep hit, 20% chance to cast spell bolt atk on nearest foe, dealing 0 $nonPhysType"],
+    "upgrade": "+10% ALT +1"
+  },
+  {
+    "name": "paladin - flash of brilliance",
+    "mods": ["+1 max HP", "on hit, 20% chance to blind target until end of your next turn"],
+    "upgrade": "+1 ALT +10%"
+  },
+  {
+    "name": "paladin - holy symbol",
+    "mods": ["+1 outgoing healing", "+2 $nonPhysType res", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - prayer",
+    "mods": ["if you've used a healing power since start of your last turn, +1 global dmg and +1 outgoing healing"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - inner flame",
+    "mods": ["+1 $abilityScore", "+1 $nonPhysType res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - staunch defender",
+    "mods": ["+1 phys res while holding a shield", "+1 spell dmg while holding a shield"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - faith armour",
+    "mods": ["+1 phys res", "20% chance to negate extra crit dmg"],
+    "upgrade": "+1 ALT +10%"
+  },
+  {
+    "name": "paladin - alignment",
+    "mods": ["+1 outgoing healing from spells"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - holy precision",
+    "mods": ["-1 spell crit req", "-1 thrown crit req"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - penance",
+    "mods": ["on melee wep or thrown hit, 30% chance to give 1 $physType DoT, stacking until CON save", "on taking melee wep hit, 20% chance to gain 1 {physType} DoT, stacking until CON save"],
+    "upgrade": "+20% and +10% ALT +2 and +1"
+  },
+  {
+    "name": "paladin - righteous firebrand",
+    "mods": ["if you've cast a spell since start of your last turn, add 1d4 $nonPhysType dmg to your melee wep hits"],
+    "upgrade": "+1 dmg die size"
+  },
+  {
+    "name": "paladin - divine essence",
+    "mods": ["on using healing power, 20% chance to gain +1 phys res, +1 outgoing healing, and +1 to saves to end ongoing effects for combat"],
+    "upgrade": "+10% ALT +1"
+  },
+  {
+    "name": "paladin - reverence of duality",
+    "mods": ["+1 max HP", "+1 global dmg", "+1 outgoing healing"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "paladin - light of rahyeh",
+    "mods": ["+1 $nonPhysType dmg", "+5' sp"],
+    "upgrade": "+1 ALT +5'"
   }
 ]

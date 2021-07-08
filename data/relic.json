@@ -71,5 +71,79 @@
                 "upgrade": "+1/1"
             }
         ]
+    },
+    {
+        "name": "Death Reanimator",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+5 undead minion dmg",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+10 undead minion HP",
+                "pointValue": "2",
+                "upgrade": "5/1"
+            },
+            {
+                "description": "+2 medicine",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to CON saves while you have an undead minion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 to WIS saves while you have an undead minion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +2 minion dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. you can mentally control your undead minions as a free action",
+                "pointValue": "1",
+                "upgrade": "+2 undead minion dmg/1"
+            },
+            {
+                "description": "5. the bodies of your undead minions always twist and distort to look like you",
+                "pointValue": "1",
+                "upgrade": "+2 deception while you have an undead minion/1"
+            },
+            {
+                "description": "6. +1 medicine for analysing a corpse's death",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. -1 minion crit req",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +4 minion HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "9. +2 nec res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 nec dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
     }
 ]

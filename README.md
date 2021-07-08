@@ -1,7 +1,20 @@
 # 5e-cli
 Golang CLI helper for my D&amp;D 5e campaigns
 
-# Point value cheatsheet
+## Loot Rules
+
+### Relic generation
+
+1. 1st base affix
+2. 2nd base affix
+3. 3rd base affix
+4. Thematic
+5. Name Thematic
+6. Random from source
+7. Random PoE
+8. Random affix
+
+### Point value cheatsheet
 
 - Para: 10
 - Stun: 8

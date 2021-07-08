@@ -792,18 +792,6 @@
         "tags": ["weapon"]
     },
     {
-        "description": "-1 minion crit req",
-        "pointValue": "3",
-        "upgrade": "1/3",
-        "tags": ["weapon"]
-    },
-    {
-        "description": "minions ignore dmg res",
-        "pointValue": "4",
-        "upgrade": "+1 minion dmg/1",
-        "tags": ["weapon"]
-    },
-    {
         "description": "+1 to grapple attempts",
         "pointValue": "1",
         "upgrade": "1/1",
@@ -1050,9 +1038,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+5 minion HP",
+        "description": "+4 minion HP",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "4/1",
         "tags": ["armour"]
     },
     {

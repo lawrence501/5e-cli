@@ -135,7 +135,12 @@ var amulet = func() error {
 	}
 
 	chosen := amulets[rand.Intn(len(amulets))]
-	modString := strings.Join(chosen.Mods, "\n- ")
+	var mods []string
+	for _, m := range chosen.Mods {
+		mod := processMod(m)
+		mods = append(mods, mod)
+	}
+	modString := strings.Join(mods, "\n- ")
 	log.Printf("Amulet\n%s:\n- %s", chosen.Name, modString)
 	return nil
 }

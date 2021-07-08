@@ -7,12 +7,12 @@
     {
         "description": "+2 incoming temp HP",
         "upgraded": "+1",
-        "tag": "incoming temp HP"
+        "tag": "temp HP"
     },
     {
         "description": "+1 $hitForm AB",
         "upgraded": "-",
-        "tag": "AB"
+        "tag": "ab"
     },
     {
         "description": "+2 $physType res",
@@ -82,6 +82,71 @@
     {
         "description": "+1 DoT dmg",
         "upgraded": "+1",
-        "tag": "DoT dmg"
+        "tag": "dot"
+    },
+    {
+        "description": "+1 to condi DCs",
+        "upgraded": "-",
+        "tag": "condi"
+    },
+    {
+        "description": "+1 buff effectiveness",
+        "upgraded": "-",
+        "tag": "buff"
+    },
+    {
+        "description": "-1 crit req",
+        "upgraded": "-",
+        "tag": "crit"
+    },
+    {
+        "description": "+4 minion HP",
+        "upgraded": "+4",
+        "tag": "minion hp"
+    },
+    {
+        "description": "+1 AoE dmg",
+        "upgraded": "+1",
+        "tag": "aoe"
+    },
+    {
+        "description": "+1 proj dmg",
+        "upgraded": "+1",
+        "tag": "proj"
+    },
+    {
+        "description": "+1 pers area dmg",
+        "upgraded": "+1",
+        "tag": "pers area"
+    },
+    {
+        "description": "+2 dmg with effects you are concentrating on",
+        "upgraded": "+1",
+        "tag": "conc"
+    },
+    {
+        "description": "+3 max HP",
+        "upgraded": "+2",
+        "tag": "hp"
+    },
+    {
+        "description": "+1 to $abilitScore saves",
+        "upgraded": "-/+1",
+        "tag": "save"
+    },
+    {
+        "description": "+1 wep AC",
+        "upgraded": "-",
+        "tag": "wep ac"
+    },
+    {
+        "description": "+1 spell AC",
+        "upgraded": "-",
+        "tag": "spell ac"
+    },
+    {
+        "description": "+1 $rangeType dmg",
+        "upgraded": "+1",
+        "tag": "range"
     }
 ]

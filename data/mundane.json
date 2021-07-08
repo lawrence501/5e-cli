@@ -65,8 +65,28 @@
         ],
         "armour": [
             {
-                "Name": "Crit armour 1",
-                "Description": "+1 dmg res",
+                "Name": "Crested Helm",
+                "Description": "Helm slot; +1 phys res",
+                "Tags": ["armour", "helm"]
+            },
+            {
+                "Name": "Witch Cap",
+                "Description": "Helm slot; +1 spell dmg",
+                "Tags": ["armour", "helm"]
+            },
+            {
+                "Name": "Weathered Crown",
+                "Description": "Helm slot; +1 1st-lvl spell slot",
+                "Tags": ["armour", "helm"]
+            },
+            {
+                "Name": "Solar Helm",
+                "Description": "Helm slot; +2 fire res",
+                "Tags": ["armour", "helm"]
+            },
+            {
+                "Name": "Shadow Crest",
+                "Description": "Helm slot; -1 crit req",
                 "Tags": ["armour", "helm"]
             }
         ]

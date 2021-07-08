@@ -1,7 +1,367 @@
 [
     {
-        "name": "sample thematic ring",
-        "mods": ["+1 wep dmg", "+1 spell dmg"],
-        "tags": ["wep dmg", "spell dmg"]
+        "name": "prodigious defence",
+        "mods": ["+1 AC", "+1 {hitForm} dmg while holding a shield"],
+        "tags": ["wep ac", "spell ac", "holding shield"]
+    },
+    {
+        "name": "advance guard",
+        "mods": ["+1 {hitForm} dmg while holding a shield", "+5' sp while holding a shield", "ignore stealth disadv from armour"],
+        "tags": ["holding shield", "speed"]
+    },
+    {
+        "name": "gladiatorial combat",
+        "mods": ["+3 {hitForm} dmg while holding a shield OR +1 crit dice while holding a shield"],
+        "tags": ["holding shield", "crit"]
+    },
+    {
+        "name": "strike leader",
+        "mods": ["+1 wep AC", "+1 {hitForm} dmg while holding a shield", "+5' wep reach while holding a shield"],
+        "tags": ["wep ac", "holding shield"]
+    },
+    {
+        "name": "powerful ward",
+        "mods": ["on block, 20% chance to gain -1 crit req for combat", "while crit req is 17 or lower, +1 spell AC"],
+        "tags": ["crit", "spell ac", "wep ac"]
+    },
+    {
+        "name": "enduring ward",
+        "mods": ["on block, 20% chance to gain +1 dmg res for combat", "while dmg res is 3 or higher, +1 wep AC"],
+        "tags": ["wep ac", "spell ac"]
+    },
+    {
+        "name": "gladiator's fortitude",
+        "mods": ["+3 {hitForm} dmg while holding a shield", "+2 max HP"],
+        "tags": ["holding shield", "hp"]
+    },
+    {
+        "name": "precise retaliation",
+        "mods": ["if you've blocked since your last turn, +1 crit dice", "if you haven't blocked since your last turn, -1 crit req"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "veteran defender",
+        "mods": ["+1 to all ASs", "+1 AC while holding a shield", "+1 {non-phys res} while holding a shield"],
+        "tags": ["ability score", "wep ac", "spell ac", "holding shield", "non-phys res"]
+    },
+    {
+        "name": "iron breaker",
+        "mods": ["ignore {physType} res", "+1 {physType} dmg"],
+        "tags": ["phys dmg"]
+    },
+    {
+        "name": "deep cuts",
+        "mods": ["20% chance on wep hit to give -1 {physType} res for combat", "your marks last double duration"],
+        "tags": ["phys dmg"]
+    },
+    {
+        "name": "master the fundamentals",
+        "mods": ["+4 {physType} dmg", "-1 {dmgPolarity} dmg", "+2 {nonPhysType} res"],
+        "tags": ["phys dmg", "dmg polarity", "non-phys res"]
+    },
+    {
+        "name": "force multiplier",
+        "mods": ["+1 {physType} dmg", "20% chance on hit to deal double dmg"],
+        "tags": ["phys dmg"]
+    },
+    {
+        "name": "furious assault",
+        "mods": ["+1 {physType} dmg", "+1 global dmg"],
+        "tags": ["phys dmg", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "vicious skewering",
+        "mods": ["+2 mark effectiveness on targets afflicted by DoTs", "20% chance on wep hit to give -1 {physType} res for combat", "20% chance on wep hit to give 1 {physType} DoT until CON save"],
+        "tags": ["dot", "phys dmg"]
+    },
+    {
+        "name": "grim oath",
+        "mods": ["whenever you deal {physType} dmg, deal +1d4 {nonPhysType} dmg"],
+        "tags": ["phys dmg", "non-phys dmg"]
+    },
+    {
+        "name": "battle-hardened",
+        "mods": ["+1 {physType} dmg", "+1 to {abilityScore} saves", "+2 {physType} res"],
+        "tags": ["phys dmg", "save", "phys res"]
+    },
+    {
+        "name": "replenishing presence",
+        "mods": ["+1 buff effectiveness", "you and adj allies have +1 passive regen"],
+        "tags": ["buff", "hp"]
+    },
+    {
+        "name": "master of command",
+        "mods": ["20% chance to refund resources spend on buffs", "+1 mark effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "first among equals",
+        "mods": ["+1 buff effectiveness", "your buff durations are doubled"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "purposeful harbinger",
+        "mods": ["+1 buff effectiveness for each buff on you, up to 3"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "precise commander",
+        "mods": ["you and adj allies have -1 crit req", "you and adj allies have +1 crit dice"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "pure commander",
+        "mods": ["+2 buff effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "stalwart commander",
+        "mods": ["+2 buff effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "vengeful commander",
+        "mods": ["+2 buff effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "summer commander",
+        "mods": ["+1 buff effectiveness", "+1 {physType} res"],
+        "tags": ["buff", "phys res"]
+    },
+    {
+        "name": "winter commander",
+        "mods": ["+1 buff effectiveness", "+5' sp"],
+        "tags": ["buff", "speed"]
+    },
+    {
+        "name": "grounded commander",
+        "mods": ["+1 buff effectiveness", "+1 {abilityScore}"],
+        "tags": ["buff", "ability score"]
+    },
+    {
+        "name": "skullbreaker",
+        "mods": ["+1 crit dice", "+1 to condi DCs"],
+        "tags": ["crit", "condi"]
+    },
+    {
+        "name": "pressure points",
+        "mods": ["-1 crit req", "20% chance on crit to deal double dmg"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "overwhelming malice",
+        "mods": ["on crit, 20% chance to add 1d6 {nonPhysType} dmg to all {physType} dmg until end of your next turn"],
+        "tags": ["crit", "phys dmg", "non-phys dmg"]
+    },
+    {
+        "name": "magnifier",
+        "mods": ["+5' AoE sizes", "+1 crit dice"],
+        "tags": ["aoe", "crit"]
+    },
+    {
+        "name": "savage response",
+        "mods": ["-1 crit req", "if you've taken dmg since your last turn, +1 crit dice"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "eye of the storm",
+        "mods": ["-1 crit req", "+1 DoT dmg vs targets you've critted since start of your last turn", "+1 to condi DCs vs targets you've critted since start of your last turn"],
+        "tags": ["crit", "dot", "condi"]
+    },
+    {
+        "name": "basics of pain",
+        "mods": ["+1 global dmg", "-1 crit req"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "quick getaway",
+        "mods": ["+1 global dmg", "-1 crit req", "if you've crit since start of your last turn, +5' sp"],
+        "tags": ["wep dmg", "spell dmg", "crit", "speed"]
+    },
+    {
+        "name": "assert dominance",
+        "mods": ["on KB, +15' AoE sizes until end of your next turn"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "vast power",
+        "mods": ["+5' AoE sizes per crit req below 20, up to +15'", "+1 AoE dmg"],
+        "tags": ["aoe", "crit"]
+    },
+    {
+        "name": "powerful assault",
+        "mods": ["+1 AoE dmg", "30% chance on AoE hit to push target 10' away from AoE source"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "intensity",
+        "mods": ["+1 AoE dmg", "dmging spells that can be re-triggered during the same cast gain +1 dmg each trigger"],
+        "tags": ["aoe", "spell dmg"]
+    },
+    {
+        "name": "titanic swings",
+        "mods": ["+5' AoE sizes while holding a {weaponHands} wep", "+1 AoE dmg while holding a {weaponHands} wep"],
+        "tags": ["aoe", "weapon hands"]
+    },
+    {
+        "name": "towering threat",
+        "mods": ["+5' AoE sizes", "+3 max HP"],
+        "tags": ["aoe", "hp"]
+    },
+    {
+        "name": "ancestral echo",
+        "mods": ["+1 minion dmg", "if you've summoned a minion since start of your last turn, +2 global dmg"],
+        "tags": ["minion dmg", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "ancestral reach",
+        "mods": ["+2 minion dmg", "minion summoning powers have double range"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "ancestral might",
+        "mods": ["+1 minion dmg", "minions last triple duration", "if you haven't summoned a minion this turn, +1 minion dmg"],
+        "tags": ["minion dmg", "minion hp"]
+    },
+    {
+        "name": "ancestral preservation",
+        "mods": ["+4 minion hp", "+3 minion {physType} res", "+3 minion {nonPhysType} res"],
+        "tags": ["minion hp", "phys res", "non-phys res"]
+    },
+    {
+        "name": "snaring spirits",
+        "mods": ["+4 minion dmg", "on minion summon, all foes adj to minion are slowed until end of your next turn"],
+        "tags": ["minion dmg", "condi"]
+    },
+    {
+        "name": "sleepless sentries",
+        "mods": ["minions last double duration", "if you've summoned a minion since start of your last turn, +1 global dmg and +5' sp"],
+        "tags": ["minion hp", "minion dmg", "wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "ancestral guidance",
+        "mods": ["+1 minion buff effectiveness", "your minions cannot have their sp reduced"],
+        "tags": ["minion dmg", "buff", "speed"]
+    },
+    {
+        "name": "ancestral inspiration",
+        "mods": ["if you've summoned a minion since start of your last turn, +4 spell dmg", "+1 minion spell dmg"],
+        "tags": ["minion dmg", "spell dmg"]
+    },
+    {
+        "name": "vital focus",
+        "mods": ["while concentrating, +1 passive regen", "+2 dmg with effects you're concentrating on"],
+        "tags": ["conc", "hp"]
+    },
+    {
+        "name": "rapid infusion",
+        "mods": ["if you've ended concentration since start of your last turn, +5' sp and +1 {nonPhysType} dmg"],
+        "tags": ["conc", "speed", "non-phys dmg"]
+    },
+    {
+        "name": "unwavering focus",
+        "mods": ["+1 dmg with effects you're concentrating on", "20% chance to refund resources spent on conc powers", "+1 to condi saves while concentrating"],
+        "tags": ["conc", "save"]
+    },
+    {
+        "name": "enduring focus",
+        "mods": ["+3 dmg with effects you're concentrating on", "on turn start while concentrating, 20% chance to gain +1 dmg res for combat"],
+        "tags": ["conc"]
+    },
+    {
+        "name": "precise focus",
+        "mods": ["-1 crit req while concentrating", "+1 crit dice if you started your turn concentrating"],
+        "tags": ["crit", "conc"]
+    },
+    {
+        "name": "stoic focus",
+        "mods": ["+1 dmg with effects you're concentrating on", "+1 AC while concentrating"],
+        "tags": ["conc", "wep ac", "spell ac"]
+    },
+    {
+        "name": "hex breaker",
+        "mods": ["on turn start while concentrating, remove a curse from yourself", "+1 global dmg while concentrating"],
+        "tags": ["conc", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "arcane adept",
+        "mods": ["+3 dmg with effects you're concentrating on", "+1 global dmg while concentrating", "if you started your turn concentrating, +1 spell dmg"],
+        "tags": ["conc", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "mob mentality",
+        "mods": ["+1 wep dmg while buffed", "on buff use, 20% chance to gain +1 dmg res, +1 global dmg, or -1 crit req for combat"],
+        "tags": ["wep dmg", "buff", "crit"]
+    },
+    {
+        "name": "cry wolf",
+        "mods": ["+1 wep dmg while buffed", "+1 buff effectiveness"],
+        "tags": ["wep dmg", "buff"]
+    },
+    {
+        "name": "haunting shout",
+        "mods": ["creatures debuffed by you are frightened"],
+        "tags": ["condi"]
+    },
+    {
+        "name": "lead by example",
+        "mods": ["+1 {abilityScore}", "+1 {abilityScore}", "on buff use, you and nearby allies gain +1 global dmg and +5' sp until end of your next turn"],
+        "tags": ["ability score", "buff", "wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "provocateur",
+        "mods": ["-1 crit req vs debuffed targets", "+1 crit dice vs debuffed targets"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "warning call",
+        "mods": ["on buff use, +3 {physType} res for combat"],
+        "tags": ["buff", "phys res"]
+    },
+    {
+        "name": "rattling bellow",
+        "mods": ["+1 {abilityScore}", "while buffed, weapon hits have 20% chance to deal double dmg"],
+        "tags": ["ability score", "buff", "weapon dmg"]
+    },
+    {
+        "name": "bloodscent",
+        "mods": ["on 1st {weaponClass} hit each turn, gain +1 wep dmg and +5' sp for combat"],
+        "tags": ["weapon class", "wep dmg", "speed"]
+    },
+    {
+        "name": "run through",
+        "mods": ["+2 dmg with {weaponClass} weps", "on {weaponClass} hit, 20% chance to give target -1 base dmg res for combat", "+1 mark effectiveness"],
+        "tags": ["weapon class"]
+    },
+    {
+        "name": "wound aggravation",
+        "mods": ["+2 dmg with {weaponClass} weps", "+1 DoT dmg while holding a {weaponClass}"],
+        "tags": ["weapon class", "dot"]
+    },
+    {
+        "name": "overlord",
+        "mods": ["on hit with {weaponClass} weps, +1 dmg res until end of your next turn", "+1 dmg with {weaponClass} weps"],
+        "tags": ["weapon class"]
+    },
+    {
+        "name": "expansive might",
+        "mods": ["+1 dmg with {weaponClass} weps", "for each turn you spend not moving, until you move, +5' AoE sizes"],
+        "tags": ["weapon class", "aoe"]
+    },
+    {
+        "name": "weight advantage",
+        "mods": ["+1 {abilityScore}", "+1 dmg with {weaponClass} weps", "on {weaponClass} hit, 20% chance to deal double dmg"],
+        "tags": ["ability score", "weapon class"]
+    },
+    {
+        "name": "wind-up",
+        "mods": ["on non-crit hit with {weaponClass} weps, 20% chance to gain -1 crit req for combat", "+1 crit dice with {weaponClass} weps"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "fan of blades",
+        "mods": ["while holding a {weaponClass}, +1 proj AB", "+1 dmg with {weaponClass} weps"],
+        "tags": ["proj", "ab", "weapon class"]
     }
 ]
