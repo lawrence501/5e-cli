@@ -318,5 +318,85 @@
             "9. You can have 1 additional maximum healing surge.",
             "10. Blessings you find behave as though they were two tiers higher."
         ]
+    },
+    {
+        "name": "Accesses Ancestral Memories",
+        "description": "Drawing from the power of your ancestors",
+        "tiers": [
+            "1. Glimpse of the Past: At-will; bonus action; You gain a minor piece of information about an ancient ruin or other previously inhabited location you are currently within. This comes to you in the form of a confusing memory.",
+            "2. Old Reflexes: 2/min; reaction; The memories of a thousand dodged mishaps and attacks flow into your mind, granting you advantage on a DEX saving throw.",
+            "3. Ancestral Echo: 1/min; bonus action; You integrate a piece of an ancestor's personality into your own for 1 hour, temporarily granting you +2 to a social skill of your choice.",
+            "4. Voice from the Past: 1/SR; bonus action; A whisper from an ancestor provides wisdom from the ancient past. You may make one knowledge check with a +2 bonus.",
+            "5. Strength of Blood: 1/LR; bonus action; Your ancestors flow through you through the cells in your blood, granting you strength beyond your usual capacities. For 1 hour you have +4 STR.",
+            "6. Ghostly Visage: 1/week; bonus action; You summon a particular ancestor to appear before you as a vision. Only you may see and hear what is essentially a hallucination. You may speak with the ancestor for up to 1 hour, granting you advantage on all skill checks related to the ancestor's life.",
+            "7. The memories from your Glimpse of the Past feature are now more clear and obvious.",
+            "8. You can now use your Old Reflexes feature at-will.",
+            "9. Your Ancestral Echo feature now provides a +4 bonus.",
+            "10. You can now use your Voice from the Past feature twice per minute."
+        ]
+    },
+    {
+        "name": "Removes Barriers",
+        "description": "Removing barriers and obstacles",
+        "tiers": [
+            "1. Skeleton Key: 2/min; bonus action; You quickly pop open a non-magically locked door, window, or other portal, without the need for a skill check. If you have proficiency in sleight of hand, you can use this feature at-will. If you have expertise, you can use this feature as a free action.",
+            "2. Sprint Past: 2/min; free action; By using this feature when you take the Dash action, you do not trigger traps during your movement.",
+            "3. Explosive Bypass: 1/min; bonus action; You sacrifice a potion in your possession to create an explosive capable of opening nearly any locked door, even one reliant on magic. This explosion is powerful, but carefully placed for maximum effect. If used as a weapon, it deals force damage equal to its tier + your level to all creatures within 5' of the explosion.",
+            "4. You may hold one additional healing potion, so long as the potion's level does not exceed 2.",
+            "5. Master Disabler: 1/LR; bonus action; You shut down a magical object or construct by disabling its power source. You must have heavy tools and physical access to the power source in order to use this feature, but it requires no check if those conditions are met.",
+            "6. Self Seal: 1/week; free action; Whenever you open a door or other portal using features from this Glyph Path, you may instantly seal it behind you, even if you opened it with an explosive.",
+            "7. Gain prof/expertise/+2 to sleight of hand.",
+            "8. You can now use your Sprint Past feature at-will.",
+            "9. You can now use your Explosive Bypass feature twice per minute.",
+            "10. You may hold two additional healing potions, so long as the potions' levels do not exceed 2"
+        ]
+    },
+    {
+        "name": "Moves Like a Cat",
+        "description": "Movement and nimbleness",
+        "tiers": [
+            "1. DEX +2.",
+            "2. +2 acro for balancing.",
+            "3. +2 aths for climbing, +1 long/high jump distance",
+            "4. +10 fall dmg resistance.",
+            "5. DEX +2.",
+            "6. +2 to all saving throws.",
+            "7. Quick Strike: 1/SR; bonus action; You make a melee attack with such speed that it is hard for your foe to defend against, and it knocks them off balance. Your attack roll has double advantage, and the target, if struck, takes normal damage and has disadvantage on all d20 rolls for the next round.",
+            "8. DEX +5.",
+            "9. +2 to attempts to escape a grapple or restrain.",
+            "10. Burst of Action: 1/week; free action; You can take two standard actions this round."
+        ]
+    },
+    {
+        "name": "Leads",
+        "description": "Leading, inspiring, and commanding",
+        "tiers": [
+            "1. +2 to all social skills.",
+            "2. Anyone can help an ally, easing whatever task they are attempting. You, however, have the benefit of clarity and wisdom. When you use the Help action on another creature, they gain double advantage.",
+            "3. No one is going to allow themselves to be governed by someone not willing to lay it on the line themselves. Thus, you constantly test yourself, and this toughens you. CON +1.",
+            "4. One creature up to CR 1 joins you and your allies. They count as a minion.",
+            "5. Command: 1/min; bonus action; Through sheer force of will and charisma, you issue a simple command to a single living creature, which attempts to carry out your command during its next turn. The creature must be within 30' and be able to understand you. The command cannot inflict direct harm on the creature or its allies. In addition, the command can require the creature to take only one turn's worth of actions. A commanded creature can still take reactions as normal.",
+            "6. You can replace the ally from this glyph path's statistics with those of a similar creature of up to CR 2.",
+            "7. Captivate or Inspire: At-will; free action; You can use this feature in one of two ways. Either your words keep the attention of all NPCs that hear them for as long as you speak, or your words inspire all NPCs that hear them to gain a +1 bonus to AC and global AB for the next hour. In either case, you choose which NPCs are affected. If anyone in the crowd is attacked while you are speaking to them, you lose the crowd's attention.",
+            "8. Leaders inspire confidence, and confidence comes from real ability. You gain 3 points to distribute among your ability scores as you wish.",
+            "9. You can replace the ally from this glyph path's statistics with those of a similar creature of up to CR 8.",
+            "10. Mind of a Leader: 1/week; bonus action; When you develop a plan that involves the ally from this glyph path, you can ask the DM one very general question about what is likely to happen if you carry out the plan, getting a simple, brief answer."
+        ]
+    },
+    {
+        "name": "Fights with Panache",
+        "description": "Fighting with style and flamboyancy",
+        "tiers": [
+            "1. With your attacks, you add stylish moves, entertaining quips, or a certain 'something' that entertains or impresses others. One creature you choose within 30' of you who can see you gains adv on their next d20 roll if taken within 2 rounds.",
+            "2. While wielding a non-heavy weapon, +2 to DEX saving throws.",
+            "3. Acrobatic Attack: At-will; free action; You leap into the attack, twisting or flipping through the air. If you roll a natural 17 or 18, you can treat the attack as a critical hit if it hits. You cannot use this feature while your stealth is impeded by your body armour.",
+            "4. Flamboyant Boast: At-will; free action; You boastfully describe an act that you will accomplish right before you attempt it. If an average person would find the action difficult, or impossible, and you succeed on it, creatures who witnessed it and are not your allies have disadvantage on all d20 rolls until the end of their next turn. If you fail at the task, all of your attempts to affect or attack onlookers who saw you have disadvantage for 10 minutes.",
+            "5. Mobile Fighter: 1/min; free action; As part of your attack, you can leap on or over obstacles, swing from ropes, run along narrow surfaces, or otherwise move around the battlefield at your normal speed as if the tasks were trivial. You cannot use this feature while your stealth is impeded by your body armour.",
+            "6. While wielding a non-heavy weapon, you can block attacks made against an ally near you. Choose one creature within 5' of you. They have advantage on DEX saving throws until you choose to end this effect or you are no longer within range of each other. You have -2 to DEX saving throws while this effect persists.",
+            "7. When attempting a DEX saving throw, you can instead treat it as a CHA saving throw.",
+            "8. Return to Sender: 1/min; free action; If you block a melee attack, you can immediately make an attack of opportunity against the attacker.",
+            "9. Allies in combat with you have +2 on their advantaged rolls.",
+            "10. While wielding a non-heavy weapon, +3 to CHA saving throws."
+        ]
     }
 ]

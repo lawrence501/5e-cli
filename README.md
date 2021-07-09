@@ -29,3 +29,4 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Common location conditional: -1
 - Incoming healing: 2
 - Passive regen: 3
+- Mark effects: x2

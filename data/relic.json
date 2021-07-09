@@ -14,9 +14,9 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "on hit, fire a glyphic arrow atk at creature of your choice within 120' dealing 0 P",
+                "description": "on hit, fire a glyphic arrow atk at creature of your choice within 120' dealing 1d4 P",
                 "pointValue": "6",
-                "upgrade": "+1 dmg/2"
+                "upgrade": "+1 die size/1"
             }
         ],
         "thematicMods": [
@@ -143,6 +143,80 @@
                 "description": "10. +1 nec dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Sun Combat",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "1/LR, when you would go down, instead remain at 6 HP",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "on init, gain 6 temp HP",
+                "pointValue": "2",
+                "upgrade": "2/1"
+            },
+            {
+                "description": "when you lose your last temp HP while holding a shield, foes within 5' make CON save or take 1d4 rad spell dmg",
+                "pointValue": "7",
+                "upgrade": "+5' radius/4 OR +1 die size/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. -1 2h crit req",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. 2h melee crits grant +2 B dmg for combat",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. 2h melee crits grant +2 rad dmg for combat",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. melee crits give target 2 rad DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. melee crits give target -1 wep res for combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. while holding a shield, +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. you can wield light shield weps as offhands even if your onhand wep is not light",
+                "pointValue": "3",
+                "upgrade": "+1 shield dmg/1"
+            },
+            {
+                "description": "8. your shield dmg is converted to rad",
+                "pointValue": "1",
+                "upgrade": "+1 rad dmg/1"
+            },
+            {
+                "description": "9. you shed 5' of bright light",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "10. +1 to saves vs blind",
+                "pointValue": "2",
+                "upgrade": "+1/2"
             }
         ]
     }

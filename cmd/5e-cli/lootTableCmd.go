@@ -191,6 +191,7 @@ var belt = func() error {
 	}
 
 	chosen := belts[rand.Intn(len(belts))]
+	chosen.Description = processMod(chosen.Description)
 	log.Printf("Belt\n%s", chosen.Description)
 	return nil
 }

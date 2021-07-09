@@ -101,6 +101,26 @@
         {
             "name": "Dust of Dryness",
             "description": "https://5e.tools/items.html#dust%20of%20dryness_dmg"
+        },
+        {
+            "name": "Dust of Sneezing and Choking",
+            "description": "https://5e.tools/items.html#dust%20of%20sneezing%20and%20choking_dmg"
+        },
+        {
+            "name": "Elemental Gem",
+            "description": "https://5e.tools/items.html#elemental%20gem_dmg"
+        },
+        {
+            "name": "Eversmoking Bottle",
+            "description": "https://5e.tools/items.html#eversmoking%20bottle_dmg"
+        },
+        {
+            "name": "Eyes of Minute Seeing",
+            "description": "https://5e.tools/items.html#eyes%20of%20minute%20seeing_dmg"
+        },
+        {
+            "name": "Silver Raven Figurine",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20silver%20raven_dmg"
         }
     ],
     "rare": [
@@ -111,14 +131,46 @@
     ],
     "very rare": [
         {
-            "name": "very rare wondrous",
-            "description": "URL"
+            "name": "Bag of Devouring",
+            "description": "https://5e.tools/items.html#bag%20of%20devouring_dmg"
+        },
+        {
+            "name": "Carpet of Flying",
+            "description": "https://5e.tools/items.html#carpet%20of%20flying%2c%205%20ft.%20%c3%97%207%20ft._dmg"
+        },
+        {
+            "name": "Efreeti Bottle",
+            "description": "https://5e.tools/items.html#efreeti%20bottle_dmg"
+        },
+        {
+            "name": "Obsidian Steed Figurine",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20obsidian%20steed_dmg"
+        },
+        {
+            "name": "Bronze Horn of Valhalla",
+            "description": "https://5e.tools/items.html#horn%20of%20valhalla%2c%20bronze_dmg"
         }
     ],
     "legendary": [
         {
-            "name": "legendary wondrous",
-            "description": "URL"
+            "name": "Apparatus of Kwalish",
+            "description": "https://5e.tools/items.html#apparatus%20of%20kwalish_dmg"
+        },
+        {
+            "name": "Cubic Gate",
+            "description": "https://5e.tools/items.html#cubic%20gate_dmg"
+        },
+        {
+            "name": "Deck of Many Things",
+            "description": "https://5e.tools/items.html#deck%20of%20many%20things_dmg"
+        },
+        {
+            "name": "Iron Horn of Valhalla",
+            "description": "https://5e.tools/items.html#horn%20of%20valhalla%2c%20iron_dmg"
+        },
+        {
+            "name": "Iron Flask",
+            "description": "https://5e.tools/items.html#iron%20flask_dmg"
         }
     ]
 }

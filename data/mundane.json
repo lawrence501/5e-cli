@@ -4,90 +4,210 @@
             {
                 "Name": "Club",
                 "Description": "1d6 B; thrown (10'/15')",
-                "Tags": ["weapon", "club", "thrown"]
+                "Tags": ["weapon"]
             },
             {
                 "Name": "Dagger",
                 "Description": "1d4 P; finesse; thrown (10'/15'); flexible (S)",
-                "Tags": ["weapon", "knife", "thrown", "finesse", "flexible"]
+                "Tags": ["weapon"]
             },
             {
                 "Name": "Gauntlet",
                 "Description": "1d4 B; light; unarmed",
-                "Tags": ["weapon", "brawling", "light", "unarmed"]
+                "Tags": ["weapon"]
             },
             {
                 "Name": "Light Mace",
                 "Description": "1d4 B; light; finesse; shove",
-                "Tags": ["weapon", "club", "light", "finesse", "shove"]
+                "Tags": ["weapon"]
             },
             {
                 "Name": "Longspear",
                 "Description": "1d8 P; two-handed; reach",
-                "Tags": ["weapon", "spear", "two-handed", "reach"]
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Mace",
+                "Description": "1d6 B; shove",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Morningstar",
+                "Description": "1d6 B; flexible (P)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Sickle",
+                "Description": "1d4 S; light; finesse; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Spear",
+                "Description": "1d6 P; thrown (20'/30')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Spiked Gauntlet",
+                "Description": "1d4 P; light; unarmed",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [
             {
                 "Name": "Shield",
                 "Description": "+2 AC",
-                "Tags": ["armour", "shield"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Helmet",
                 "Description": "Helm slot",
-                "Tags": ["armour", "helm"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Gloves",
                 "Description": "Gloves slot",
-                "Tags": ["armour", "gloves"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Boots",
                 "Description": "Boots slot",
-                "Tags": ["armour", "boots"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Body Armour",
                 "Description": "Choice of Clothes, Studded Leather, Half Plate, or Plate",
-                "Tags": ["armour", "body"]
+                "Tags": ["armour"]
             }
         ]
     },
     "crit": {
         "weapon": [
             {
-                "Name": "Crit weapon 1",
-                "Description": "1d6 S; light; finesse",
-                "Tags": ["weapon", "axe", "light", "finesse"]
+                "Name": "Clan Dagger",
+                "Description": "[simple knife] 1d6 P; light, parry, versatile (B)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Katar",
+                "Description": "[simple knife] 1d6 P; light, deadly",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Dogslicer",
+                "Description": "[martial sword] 1d8 S; light; backstabber; finesse",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Elven Curve Blade",
+                "Description": "[martial sword] 1d10 S; 2h; finesse; forceful",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Filcher's Fork",
+                "Description": "[martial spear] 1d6 P; light; backstabber; deadly; finesse; thrown (20'/30')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Gnomish Hooked Hammer",
+                "Description": "[martial hammer] 1d12 B; 2h; trip; grapple; flexible (P)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Horsechopper",
+                "Description": "[martial polearm] 1d10 S; 2h; reach; trip; flexible (P)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Kama",
+                "Description": "[martial knife] 1d8 S; light; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Katana",
+                "Description": "[martial sword] 1d12 S; 2h; deadly; grapple; flexible (P)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Kukri",
+                "Description": "[martial knife] 1d8 S; light; finesse; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Orcish Knuckle Dagger",
+                "Description": "[martial knife] 1d8 P; light; disarm",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Sai",
+                "Description": "[martial knife] 1d6 P; light; disarm; finesse; flexible (B)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Spiked Chain",
+                "Description": "[martial flail] 1d10 S; 2h; disarm; finesse; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Temple Sword",
+                "Description": "[martial sword] 1d10 S; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Dwarven Waraxe",
+                "Description": "[martial axe] 1d12 S; 2h; sweep; grapple",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Gnomish Flickmace",
+                "Description": "[martial flail] 1d8 B; reach",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Orcish Necksplitter",
+                "Description": "[martial axe] 1d8 S; forceful; sweep",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Sawtooth Saber",
+                "Description": "[martial sword] 1d6 S; light; finesse; twin",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Halfling Sling Staff",
+                "Description": "[martial sling] 1d12 B; ranged (80'/120'); 2h; propulsive",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Shuriken",
+                "Description": "[martial dart] 1d6 P; ranged (-/-); light; thrown (20'/30')",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [
             {
                 "Name": "Crested Helm",
                 "Description": "Helm slot; +1 phys res",
-                "Tags": ["armour", "helm"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Witch Cap",
                 "Description": "Helm slot; +1 spell dmg",
-                "Tags": ["armour", "helm"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Weathered Crown",
                 "Description": "Helm slot; +1 1st-lvl spell slot",
-                "Tags": ["armour", "helm"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Solar Helm",
                 "Description": "Helm slot; +2 fire res",
-                "Tags": ["armour", "helm"]
+                "Tags": ["armour"]
             },
             {
                 "Name": "Shadow Crest",
                 "Description": "Helm slot; -1 crit req",
-                "Tags": ["armour", "helm"]
+                "Tags": ["armour"]
             }
         ]
     }

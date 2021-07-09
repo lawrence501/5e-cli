@@ -41,7 +41,7 @@
     },
     {
         "description": "+1 weapon dmg while dual-wielding",
-        "upgraded": "-",
+        "upgraded": "+1",
         "tag": "dual-wielding"
     },
     {

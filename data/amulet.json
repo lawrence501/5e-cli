@@ -93,5 +93,45 @@
     "name": "paladin - light of rahyeh",
     "mods": ["+1 $nonPhysType dmg", "+5' sp"],
     "upgrade": "+1 ALT +5'"
+  },
+  {
+    "name": "acolyte - blood aura",
+    "mods": ["+1 global dmg", "+1 minion dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "acolyte - bone aura",
+    "mods": ["+1 phys res", "+1 minion phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "acolyte - forbidden knowledge",
+    "mods": ["+1 $abilityScore", "+1 $nonPhysType res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "acolyte - stolen vitality",
+    "mods": ["+1 $abilityScore", "+1 minion HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "acolyte - dark rituals",
+    "mods": ["+1 minion dmg", "if you've summoned a minion this combat, this dmg bonus also applies to you"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "acolyte - mania of mortality",
+    "mods": ["whenever an adj creature dies or goes down, 20% chance to gain 6 temp HP"],
+    "upgrade": "+6 NOT chance"
+  },
+  {
+    "name": "acolyte - putrid demise",
+    "mods": ["on KB, 20% chance for foes adj to corpse to gain 1 $nonPhysType DoT, stacking until CON save", "+3 {nonPhysType} res"],
+    "upgrade": "+10% ALT +1 dmg ALT +2 res"
+  },
+  {
+    "name": "acolyte - eye of damnation",
+    "mods": ["+2 $nonPhysType dmg", "on hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "+1 minion {nonPhysType} dmg"],
+    "upgrade": "+1"
   }
 ]

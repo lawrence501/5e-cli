@@ -363,5 +363,120 @@
         "name": "fan of blades",
         "mods": ["while holding a {weaponClass}, +1 proj AB", "+1 dmg with {weaponClass} weps"],
         "tags": ["proj", "ab", "weapon class"]
+    },
+    {
+        "name": "disease vector",
+        "mods": ["while holding a {weaponClass}, +1 DoT dmg", "creatures with your DoTs cannot be healed"],
+        "tags": ["weapon class", "dot"]
+    },
+    {
+        "name": "arcing shot",
+        "mods": ["projs deal +1 dmg vs targets 60'+ away", "projs have -2 crit req vs targets 60'+ away"],
+        "tags": ["proj", "crit"]
+    },
+    {
+        "name": "tempered arrowheads",
+        "mods": ["while holding a {weaponClass}, +1 DoT dmg and your buffs and DoTs last double duration"],
+        "tags": ["weapon class", "dot", "buff"]
+    },
+    {
+        "name": "broadside",
+        "mods": ["while holding a {weaponClass}, +10' AoE sizes"],
+        "tags": ["weapon class", "aoe"]
+    },
+    {
+        "name": "explosive force",
+        "mods": ["+1d4 {nonPhysType} dmg to {weaponClass} weps", "on {weaponClass} KB, 20% chance for corpse to explode, dealing 10% of its max HP as {nonPhysType} to foes within 5' of it"],
+        "tags": ["non-phys dmg", "weapon class"]
+    },
+    {
+        "name": "opportunistic fusilade",
+        "mods": ["if you've crit since start of your last turn, +1 dmg with {weaponClass} weps", "-1 {weaponClass} crit req"],
+        "tags": ["crit", "weapon class"]
+    },
+    {
+        "name": "storm's hand",
+        "mods": ["+1d4 {nonPhysType} dmg to {weaponClass} weps", "{weaponClass} base dmg converted to {nonPhysType}"],
+        "tags": ["non-phys dmg", "weapon class"]
+    },
+    {
+        "name": "battlefield dominator",
+        "mods": ["if you've inflicted a condi while holding a {weaponHands} wep since start of your last turn, +5' AoE sizes", "+1 dmg with {weaponHands} weps", "+1 to condi DCs"],
+        "tags": ["condi", "weapon hands","aoe"]
+    },
+    {
+        "name": "martial mastery",
+        "mods": ["+1 {abilityScore}", "+1 dmg with {weaponHands} weps", "+1 wep dmg if you have 20+ {abilityScore}"],
+        "tags": ["ability score", "weapon hands", "wep dmg"]
+    },
+    {
+        "name": "surefooted striker",
+        "mods": ["if you've crit with a {weaponHands} wep since start of your last turn, 20% chance on hit to deal double dmg", "-1 {weaponHands} crit req"],
+        "tags": ["crit", "weapon hands"]
+    },
+    {
+        "name": "graceful execution",
+        "mods": ["+1 {abilityScore}", "+1 {abilityScore}", "+1 dmg with {weaponHands} weps", "+1 AB with {weaponHands} weps", "-1 {weaponHands} crit req"],
+        "tags": ["ability score", "weapon hands", "ab", "crit"]
+    },
+    {
+        "name": "brutal infamy",
+        "mods": ["+3 {weaponHands} dmg", "+1 global dmg vs bosses"],
+        "tags": ["weapon hands"]
+    },
+    {
+        "name": "fearsome warrior",
+        "mods": ["+1 {weaponHands} dmg", "+5' AoE sizes", "on {rangeType} KB, 20% chance to frighten adj foes until end of your next turn"],
+        "tags": ["weapon hands", "aoe", "range", "condi"]
+    },
+    {
+        "name": "combat rhythm",
+        "mods": ["if you've hit with onhand wep since start of your last turn, +1 wep dmg", "if you've hit with offhand wep since start of your last turn, +5' sp"],
+        "tags": ["dual-wielding", "wep dmg", "speed"]
+    },
+    {
+        "name": "hit and run",
+        "mods": ["+1 wep dmg while dual-wielding", "if you've hit since start of your last turn, +1 to {abilityScore} saves"],
+        "tags": ["dual-wielding", "save"]
+    },
+    {
+        "name": "insatiable killer",
+        "mods": ["+4 wep dmg while dual-wielding", "on KB while dual-wielding, 20% chance to gain +1 global dmg for combat"],
+        "tags": ["dual-wielding"]
+    },
+    {
+        "name": "mage bane",
+        "mods": ["+1 wep dmg and +1 spell AC while dual-wielding", "on block, 20% chance to gain -1 crit req for combat"],
+        "tags": ["dual-wielding", "spell ac", "wep ac", "crit"]
+    },
+    {
+        "name": "martial momentum",
+        "mods": ["+1 wep dmg and +1 wep AB while dual-wielding", "if you've teleported since start of your last turn, +1 global dmg"],
+        "tags": ["dual-wielding", "ab"]
+    },
+    {
+        "name": "deadly repartee",
+        "mods": ["+1 wep dmg, +1 wep AC, and -1 wep crit req while dual-wielding"],
+        "tags": ["dual-wielding", "wep ac", "crit"]
+    },
+    {
+        "name": "quick and deadly",
+        "mods": ["while wielding multiple weapon classes, +3 wep dmg"],
+        "tags": ["dual-wielding"]
+    },
+    {
+        "name": "smite the weak",
+        "mods": ["on wep hit, 40% chance to slow until end of your next turn", "+4 wep dmg vs condi'd targets"],
+        "tags": ["wep dmg", "condi"]
+    },
+    {
+        "name": "heavy hitter",
+        "mods": ["+1 wep dmg", "+1 DoT dmg", "+1 to condi DCs", "on inflict condi, 20% chance to double its duration"],
+        "tags": ["wep dmg", "dot", "condi"]
+    },
+    {
+        "name": "martial prowess",
+        "mods": ["+2 wep dmg", "+1 {hitForm} AB", "+1 DoT dmg"],
+        "tags": ["wep dmg", "ab", "dot"]
     }
 ]
