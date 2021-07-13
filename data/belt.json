@@ -242,5 +242,65 @@
     {
         "name": "mythic rhythm",
         "description": "on basic wep atk, next limited wep atk you make deals +6 dmg. no stack"
+    },
+    {
+        "name": "thrill of the hunt",
+        "description": "on limited feature hit, target slowed for combat; +5 limited feature dmg"
+    },
+    {
+        "name": "blood vengeance",
+        "description": "+1 max class points; when healed by a power, recover 1 class point"
+    },
+    {
+        "name": "steady aim",
+        "description": "with no adj foes, +3 global dmg"
+    },
+    {
+        "name": "night stalker",
+        "description": "on basic wep atk, recover 1 class point"
+    },
+    {
+        "name": "brooding",
+        "description": "for each consecutive turn after the first you don't move, +1 passive regen until you move"
+    },
+    {
+        "name": "hot pursuit",
+        "description": "on hit, +10' sp until end of your next turn"
+    },
+    {
+        "name": "numbing traps",
+        "description": "creatures condi'd by you have -6 global dmg"
+    },
+    {
+        "name": "perfectionist",
+        "description": "20% chance to refund spent class points; +2 dmg res"
+    },
+    {
+        "name": "custom engineering",
+        "description": "your limited features have double duration; +2 minion dmg; +3 minion HP; +2 trap dmg"
+    },
+    {
+        "name": "grenadier",
+        "description": "+1 AoE dmg; +5' AoE sizes; when downed, foes in 5' make DEX save or take 1d4 fire glyphic dmg"
+    },
+    {
+        "name": "sharpshooter",
+        "description": "for each consecutive turn after the first you don't crit, -1 crit req until crit"
+    },
+    {
+        "name": "ballistics",
+        "description": "+1 proj dmg; on atk, 20% chance to fire glyphic rocket atk at foe of your choice within 120' dealing 1d4 fire"
+    },
+    {
+        "name": "leech",
+        "description": "on hit, heal 5 HP"
+    },
+    {
+        "name": "ambush",
+        "description": "+3 global dmg vs healthy targets"
+    },
+    {
+        "name": "single out",
+        "description": "-2 crit req with only 1 foe in combat"
     }
 ]

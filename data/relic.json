@@ -219,5 +219,79 @@
                 "upgrade": "+1/2"
             }
         ]
+    },
+    {
+        "name": "Growth Hormones",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "+2 dmg with this wep",
+                "pointValue": "2",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "on taking melee hit, triggering creature gains 2 psn DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. -1 $abilityScore; +2 $abilityScore",
+                "pointValue": "4",
+                "upgrade": "-1 and +5 upgrade points/1 OR +1/4"
+            },
+            {
+                "description": "2. this wep has double range",
+                "pointValue": "3",
+                "upgrade": "+1x multi/3"
+            },
+            {
+                "description": "3. this wep's projs can shoot through creatures harmlessly",
+                "pointValue": "3",
+                "upgrade": "+1 proj dmg/1"
+            },
+            {
+                "description": "4. +1 AB with this wep",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +2 dmg with this wep while bloodied",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. -1 crit req",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. on crit KB, can make a basic atk against or cast a cantrip on creature within LoS of target, dealing +1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. roll random mod as negative, then distribute upgrade points +1",
+                "pointValue": "-/-",
+                "upgrade": "-/-"
+            },
+            {
+                "description": "9. 20% chance on gold find to find +45gp",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +90gp/1"
+            },
+            {
+                "description": "10. +5' fly sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            }
+        ]
     }
 ]
