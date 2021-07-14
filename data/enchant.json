@@ -516,12 +516,6 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+2 minion dmg",
-        "pointValue": "1",
-        "upgrade": "1/1",
-        "tags": ["weapon"]
-    },
-    {
         "description": "this wep's base dmg is converted to $dmgType",
         "pointValue": "1",
         "upgrade": "+1 dmg with new type/1",
@@ -840,12 +834,6 @@
         "tags": ["weapon"]
     },
     {
-        "description": "minion phys dmg is converted to $nonPhysType",
-        "pointValue": "1",
-        "upgrade": "+2 minion dmg with new type/1",
-        "tags": ["weapon"]
-    },
-    {
         "description": "+3 dmg with this wep vs targets with temp HP",
         "pointValue": "1",
         "upgrade": "2/1",
@@ -873,12 +861,6 @@
         "description": "+1 AB with this wep while flanking",
         "pointValue": "3",
         "upgrade": "1/3",
-        "tags": ["weapon"]
-    },
-    {
-        "description": "+1 to minion DCs",
-        "pointValue": "4",
-        "upgrade": "1/4",
         "tags": ["weapon"]
     },
     {
@@ -1014,12 +996,6 @@
         "tags": ["armour"]
     },
     {
-        "description": "+1 minion AC",
-        "pointValue": "4",
-        "upgrade": "1/4",
-        "tags": ["armour"]
-    },
-    {
         "description": "+1 incoming temp HP",
         "pointValue": "1",
         "upgrade": "1/1",
@@ -1036,12 +1012,6 @@
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["weapon"]
-    },
-    {
-        "description": "+4 minion HP",
-        "pointValue": "1",
-        "upgrade": "4/1",
-        "tags": ["armour"]
     },
     {
         "description": "on block, gain 4 temp HP",
@@ -1065,12 +1035,6 @@
         "description": "+1 to curse DCs",
         "pointValue": "3",
         "upgrade": "1/3",
-        "tags": ["armour"]
-    },
-    {
-        "description": "+1 minion dmg res",
-        "pointValue": "1",
-        "upgrade": "1/1",
         "tags": ["armour"]
     },
     {
@@ -1098,12 +1062,6 @@
         "tags": ["armour"]
     },
     {
-        "description": "+1 minion passive regen",
-        "pointValue": "2",
-        "upgrade": "1/2",
-        "tags": ["armour"]
-    },
-    {
         "description": "unintelligent creatures are more likely to target you",
         "pointValue": "1",
         "upgrade": "more/1",
@@ -1119,12 +1077,6 @@
         "description": "at the end of each combat, heal 4 HP",
         "pointValue": "1",
         "upgrade": "4/1",
-        "tags": ["armour"]
-    },
-    {
-        "description": "+1 to minion saves",
-        "pointValue": "4",
-        "upgrade": "1/4",
         "tags": ["armour"]
     },
     {
@@ -1225,12 +1177,6 @@
     },
     {
         "description": "+2 natural wep dmg",
-        "pointValue": "1",
-        "upgrade": "1/1",
-        "tags": ["armour"]
-    },
-    {
-        "description": "+5 minion HP",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]
@@ -1360,12 +1306,6 @@
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": []
-    },
-    {
-        "description": "+1 dmg res while you have a minion",
-        "pointValue": "1",
-        "upgrade": "1/1",
-        "tags": ["armour"]
     },
     {
         "description": "+5' tremorsense",

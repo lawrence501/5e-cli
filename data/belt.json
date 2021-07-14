@@ -65,7 +65,7 @@
     },
     {
         "name": "tough as nails",
-        "description": "+2 dmg res; +3 dmg thorns"
+        "description": "+2 dmg res; +3 to thorns dmg"
     },
     {
         "name": "no escape",
@@ -197,7 +197,7 @@
     },
     {
         "name": "resolve",
-        "description": "on hit, target gets -3 global dmg until end of your next turn"
+        "description": "on hit, target gets -2 global dmg until end of your next turn"
     },
     {
         "name": "fleet footed",
@@ -213,7 +213,7 @@
     },
     {
         "name": "the guardian's path",
-        "description": "while dual-wielding, +2 to $abilityScore saves; while holding 2h wep, recover 3 class points on init"
+        "description": "while dual-wielding, +2 to $abilityScore saves; while holding 2h wep, recover 2 class points on init"
     },
     {
         "name": "determination",
@@ -302,5 +302,93 @@
     {
         "name": "single out",
         "description": "-2 crit req with only 1 foe in combat"
+    },
+    {
+        "name": "heavenly strength",
+        "description": "you can hold a shield with a 2h wep; -2 global dmg"
+    },
+    {
+        "name": "fervour",
+        "description": "while holding a 1h wep, +1 global dmg and during each SR, can replenish a single resource with a LR cooldown"
+    },
+    {
+        "name": "vigilant",
+        "description": "+1 passive regen; +1 non-phys res"
+    },
+    {
+        "name": "righteousness",
+        "description": "+1 1st lvl spell slot; on cantrip hit, recover 1 spell slot lvl"
+    },
+    {
+        "name": "insurmountable",
+        "description": "on block, recover 2 spell slot lvls"
+    },
+    {
+        "name": "holy cause",
+        "description": "+2 global dmg; on $nonPhysType hit, heal 2 HP"
+    },
+    {
+        "name": "divine fortress",
+        "description": "+3 dmg res while holding a shield"
+    },
+    {
+        "name": "hold your ground",
+        "description": "-5 to $abilityScore saves; +2 AC"
+    },
+    {
+        "name": "long arm of the law",
+        "description": "your buffs have triple duration"
+    },
+    {
+        "name": "iron maiden",
+        "description": "+7 to thorns dmg"
+    },
+    {
+        "name": "renewal",
+        "description": "on block, heal 7 HP"
+    },
+    {
+        "name": "finery",
+        "description": "+1 global dmg and +1 dmg res for each relic you are wearing"
+    },
+    {
+        "name": "stand alone",
+        "description": "+3 dmg res; -1 dmg res while you have a minion"
+    },
+    {
+        "name": "rigor mortis",
+        "description": "on $nonPhysType hit, target slowed and gets -1 global dmg until end of your next turn"
+    },
+    {
+        "name": "dark reaping",
+        "description": "on $weaponClass KB, recover 2 spell slot lvls and heal 3 HP"
+    },
+    {
+        "name": "spreading malediction",
+        "description": "+2 global dmg per creature cursed by you"
+    },
+    {
+        "name": "eternal torment",
+        "description": "on curse spell, 20% chance to refund spent spell slot; your curses have infinite duration"
+    },
+    {
+        "name": "grisly tribute",
+        "description": "on minion hit, you heal 6 HP"
+    },
+    {
+        "name": "draw life",
+        "description": "+1 passive regen per adj foe"
+    },
+    {
+        "name": "aberrant animator",
+        "description": "your thorns also apply to your minions"
+    },
+    {
+        "name": "blood for blood",
+        "description": "on being healed by a power, your next HP-cost power costs no HP; +1 incoming healing"
+    },
+    {
+        "name": "blood is power",
+        "description": "when downed, recover a single resource with an initiative/min cooldown"
     }
 ]

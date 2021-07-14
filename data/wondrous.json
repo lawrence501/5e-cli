@@ -59,6 +59,26 @@
         {
             "name": "Pole of Collapsing",
             "description": "https://5e.tools/items.html#pole%20of%20collapsing_xge"
+        },
+        {
+            "name": "Pot of Awakening",
+            "description": "https://5e.tools/items.html#pot%20of%20awakening_xge"
+        },
+        {
+            "name": "Rope of Mending",
+            "description": "https://5e.tools/items.html#rope%20of%20mending_xge"
+        },
+        {
+            "name": "Tankard of Sobriety",
+            "description": "https://5e.tools/items.html#tankard%20of%20sobriety_xge"
+        },
+        {
+            "name": "Moodmark Paint",
+            "description": "https://5e.tools/items.html#moodmark%20paint_ggr"
+        },
+        {
+            "name": "Cleansing Stone",
+            "description": "https://5e.tools/items.html#cleansing%20stone_erlw"
         }
     ],
     "uncommon": [
@@ -121,6 +141,26 @@
         {
             "name": "Silver Raven Figurine",
             "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20silver%20raven_dmg"
+        },
+        {
+            "name": "Gem of Brightness",
+            "description": "https://5e.tools/items.html#gem%20of%20brightness_dmg"
+        },
+        {
+            "name": "Goggles of Night",
+            "description": "https://5e.tools/items.html#goggles%20of%20night_dmg"
+        },
+        {
+            "name": "Immovable Rod",
+            "description": "https://5e.tools/items.html#immovable%20rod_dmg"
+        },
+        {
+            "name": "Keoghtom's Ointment",
+            "description": "https://5e.tools/items.html#keoghtom's%20ointment_dmg"
+        },
+        {
+            "name": "Lantern of Revealing",
+            "description": "https://5e.tools/items.html#lantern%20of%20revealing_dmg"
         }
     ],
     "rare": [
