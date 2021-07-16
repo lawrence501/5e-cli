@@ -227,7 +227,7 @@
     {
         "name": "ancestral preservation",
         "mods": ["+4 minion hp", "+3 minion {physType} res", "+3 minion {nonPhysType} res"],
-        "tags": ["minion hp", "phys res", "non-phys res"]
+        "tags": ["minion hp"]
     },
     {
         "name": "snaring spirits",
@@ -242,7 +242,7 @@
     {
         "name": "ancestral guidance",
         "mods": ["+1 minion buff effectiveness", "your minions cannot have their sp reduced"],
-        "tags": ["minion dmg", "buff", "speed"]
+        "tags": ["minion dmg"]
     },
     {
         "name": "ancestral inspiration",
@@ -478,5 +478,200 @@
         "name": "martial prowess",
         "mods": ["+2 wep dmg", "+1 {hitForm} AB", "+1 DoT dmg"],
         "tags": ["wep dmg", "ab", "dot"]
+    },
+    {
+        "name": "calamitous",
+        "mods": ["+1 {dmgPolarity} dmg with weps", "+2 to condi DCs"],
+        "tags": ["dmg polarity", "wep dmg", "condi"]
+    },
+    {
+        "name": "devastator",
+        "mods": ["+1 wep dmg", "+1 DoT dmg", "on wep KB, 20% chance for corpse to explode, dealing 10% of its max HP as {physType} to adj foes"],
+        "tags": ["wep dmg", "dot", "phys dmg"]
+    },
+    {
+        "name": "fuel the fight",
+        "mods": ["+2 wep dmg", "+2 wep dmg if you've healed yourself since start of your last turn"],
+        "tags": ["wep dmg", "hp"]
+    },
+    {
+        "name": "drive the destruction",
+        "mods": ["on wep hit, heal 3 HP", "+3 wep dmg while on full HP", "on wep hit, 20% chance to slow until end of your next turn"],
+        "tags": ["wep dmg", "hp", "condi"]
+    },
+    {
+        "name": "feed the fury",
+        "mods": ["on wep hit, heal 2 HP", "+2 wep dmg if you've healed yourself since start of your last turn"],
+        "tags": ["hp", "wep dmg"]
+    },
+    {
+        "name": "conjured wall",
+        "mods": ["+1 spell dmg", "if you've cast a spell since start of your last turn, +1 spell AC"],
+        "tags": ["spell dmg", "spell ac"]
+    },
+    {
+        "name": "arcane heroism",
+        "mods": ["on boss hit, 50% chance to gain +2 spell dmg until end of your next turn"],
+        "tags": ["spell dmg"]
+    },
+    {
+        "name": "practiced caster",
+        "mods": ["+2 spell dmg", "+1 to concentration saves"],
+        "tags": ["spell dmg", "conc"]
+    },
+    {
+        "name": "burden projection",
+        "mods": ["+1 spell dmg", "on spell hit, 20% chance to push targets up to 5' away from you"],
+        "tags": ["spell dmg"]
+    },
+    {
+        "name": "thaumophage",
+        "mods": ["on spell hit, gain 3 temp HP and 30% chance to slow until end of your next turn", "+2 spell dmg while you have temp HP"],
+        "tags": ["spell dmg", "temp hp", "condi"]
+    },
+    {
+        "name": "essence rush",
+        "mods": ["on spell hit, gain 1 temp HP", "if you've given yourself temp HP since start of your last turn, +3 global dmg"],
+        "tags": ["spell dmg", "temp hp", "wep dmg"]
+    },
+    {
+        "name": "sap psyche",
+        "mods": ["+1 spell dmg", "if you've cursed since start of your last turn, +2 passive temp HP generation"],
+        "tags": ["spell dmg", "temp hp"]
+    },
+    {
+        "name": "sadist",
+        "mods": ["if you've condi'd since start of your last turn, +1 {dmgPolarity} dmg", "if you've marked since start of your last turn, +1 {dmgPolarity} dmg", "if you've inflicted DoT since start of your last turn, +1 {dmgPolarity} dmg"],
+        "tags": ["condi", "dmg polarity", "dot"]
+    },
+    {
+        "name": "corrosive elements",
+        "mods": ["on {nonPhysType} hit, target gets -1 {nonPhysType} res until end of your next turn", "on {nonPhysType} hit, target gets -1 {nonPhysType} res until end of your next turn", "on {nonPhysType} hit, target gets -1 {nonPhysType} res until end of your next turn", "+1 {dmgPolarity dmg}"],
+        "tags": ["non-phys dmg", "dmg polarity"]
+    },
+    {
+        "name": "doryani's lesson",
+        "mods": ["+1 {dmgPolarity} dmg", "on {dmgPolarity} hit, heal 1 HP"],
+        "tags": ["dmg polarity", "hp"]
+    },
+    {
+        "name": "disorienting display",
+        "mods": ["+1 {dmgPolarity} dmg", "on using {dmgPolarity} power, 20% chance to blind adj foes until end of your next turn"],
+        "tags": ["dmg polarity", "condi"]
+    },
+    {
+        "name": "prismatic heart",
+        "mods": ["+1 {dmgPolarity} dmg", "+2 {nonPhysType} res"],
+        "tags": ["dmg polarity", "non-phys res"]
+    },
+    {
+        "name": "widespread destruction",
+        "mods": ["+1 {dmgPolarity} dmg", "+5' AoE sizes"],
+        "tags": ["dmg polarity", "aoe"]
+    },
+    {
+        "name": "master of fire",
+        "mods": ["adj foes have -2 {nonPhysType} res"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "smoking remains",
+        "mods": ["+1 {nonPhysType} dmg", "on KB, 20% chance to cast fog cloud centred on you that allies can see through"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "cremator",
+        "mods": ["+6 {nonPhysType} dmg", "on hit KB vs target affected by your DoT, their corpse is destroyed"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "snowstorm",
+        "mods": ["against condi'd targets, your {nonPhysType} dmg deals extra 1d6 {nonPhysType} dmg"],
+        "tags": ["condi", "non-phys dmg"]
+    },
+    {
+        "name": "storm drinker",
+        "mods": ["ignore {nonPhysType} res", "on {nonPhysType} hit, gain 1 temp HP"],
+        "tags": ["non-phys dmg", "temp hp"]
+    },
+    {
+        "name": "paralysis",
+        "mods": ["+1 {nonPhysType} dmg", "+1 to condi DCs from {nonPhysType} powers", "on condi, 20% chance to double its duration"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "supercharge",
+        "mods": ["on non-crit dmg, {nonPhysType} dmg dice rolled with adv", "+1 {nonPhysType} dmg"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "blanketed snow",
+        "mods": ["ignore {nonPhysType} res of condi'd targets", "+2 {nonPhysType} dmg vs condi'd targets"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "cold to the core",
+        "mods": ["+2 {nonPhysType} dmg per 20 ability score"],
+        "tags": ["non-phys dmg", "ability score"]
+    },
+    {
+        "name": "cold-blooded killer",
+        "mods": ["+4 DoT dmg", "on KB vs condi'd target, heal 3 HP"],
+        "tags": ["dot", "condi", "hp"]
+    },
+    {
+        "name": "touch of cruelty",
+        "mods": ["on {nonPhysType} hit, 50% chance to slow target until end of their next turn", "creatures condi'd by you have -2 {nonPhysType} res"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "unwaveringly evil",
+        "mods": ["+1 {nonPhysType} dmg", "+1 to concentration saves for {nonPhysType} powers"],
+        "tags": ["non-phys dmg", "conc"]
+    },
+    {
+        "name": "unspeakable gifts",
+        "mods": ["on KB, target has 20% chance to explode, dealing 25% of their max HP as {nonPhysType} to adj foes"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "unholy grace",
+        "mods": ["+1 {nonPhysType} dmg", "+1 global dmg"],
+        "tags": ["non-phys dmg", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "wicked pall",
+        "mods": ["+1 {nonPhysType} dmg", "your buffs have double duration"],
+        "tags": ["non-phys dmg", "buff"]
+    },
+    {
+        "name": "renewal",
+        "mods": ["while on full HP, your minions have 20% chance on hit to deal double dmg", "+1 minion passive regen"],
+        "tags": ["minion hp", "minion dmg"]
+    },
+    {
+        "name": "raze and pillage",
+        "mods": ["on minion {physType} hit, deal extra 1d8 {nonPhysType} dmg", "on minion hit, 20% chance to give 1 {nonPhysType} Dot, stacking until CON save", "minions deal +2 dmg vs DoT'd targets"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "rotten claws",
+        "mods": ["on minion hit, 20% chance to give -3 {physType} res for combat"],
+        "tags": ["minion dmg", "phys dmg"]
+    },
+    {
+        "name": "call to the slaughter",
+        "mods": ["+1 minion dmg", "on a minion's first turn, it has +10' sp and +2 dmg"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "vicious bite",
+        "mods": ["+1 minion crit dice", "-1 minion crit req"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "primordial bond",
+        "mods": ["+1 global dmg while you have a minion", "+2 minion buff effectiveness", "+1 minion hp"],
+        "tags": ["minion hp"]
     }
 ]

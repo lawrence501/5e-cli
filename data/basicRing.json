@@ -7,7 +7,7 @@
     {
         "description": "+2 incoming temp HP",
         "upgraded": "+1",
-        "tag": "temp HP"
+        "tag": "temp hp"
     },
     {
         "description": "+1 $hitForm AB",

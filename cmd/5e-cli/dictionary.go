@@ -58,7 +58,7 @@ var DAMAGE_TYPES []string = append(PHYS_TYPES, NON_PHYS_TYPES...)
 
 var RING_TAGS []string = []string{
 	"ability score",
-	"temp HP",
+	"temp hp",
 	"ab",
 	"phys res",
 	"non-phys res",

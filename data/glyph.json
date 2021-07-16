@@ -398,5 +398,85 @@
             "9. Allies in combat with you have +2 on their advantaged rolls.",
             "10. While wielding a non-heavy weapon, +3 to CHA saving throws."
         ]
+    },
+    {
+        "name": "Speaks with a Silver Tongue",
+        "description": "speaking manipulatively",
+        "tiers": [
+            "1. +2 to all social skills. You also become proficient in reading and writing two new languages of your choice.",
+            "2. +2 to all social skills, animal handling, and performance.",
+            "3. Verbal Misdirection: 2/min; free action; With fast talk and bewildering words, you can confuse and distract anyone that you're speaking with, giving you advantage on social interactions with that person for 10 minutes.",
+            "4. Play to the Crowd: 1/min; free action; You give a speech that is both rousing and terrifying. Those within 30' of you who can hear and understand you have either advantage or disadvantage (your choice for each individual) on their next d20 roll.",
+            "5. Castigate: 1/SR; bonus action; You intimidate any opponent within 120' of you who understands speech (even if it is not your language) so much that all their d20 rolls have disadvantage for 1 minute.",
+            "6. Stay the Course: 1/LR; bonus action; When your companions are flagging, you can help inspire them with a well-timed word or two. Any ally within 5' of you can immediately heal as if they had just consumed a level 1 (+1 for each level tier) healing potion.",
+            "7. Entrancing Speech: 1/week; bonus action; Everyone within 120' of you who can hear and understand you takes no actions for as long as you do not move and use your turns to speak soothing and calming words. If an affected creature is attacked during this time, they break out of the trance immediately.",
+            "8. Command: 1/month; bonus action; A target within 30' of you obeys any command you give as long as they can hear and understand you. Furthermore, as long as you continue to do nothing but issue commands (taking no other actions), you can give that same target a new command. This effect ends when you stop issuing commands or they are out of range.",
+            "9. You become proficient in reading and writing two new languages of your choice.",
+            "10. +3 to animal handling."
+        ]
+    },
+    {
+        "name": "Finds the Faerie Trods",
+        "description": "manipulating space through fey magic",
+        "tiers": [
+            "1. Blink: At-will; bonus action; By squeezing through a weak point in space you teleport 5' in any direction.",
+            "2. You are able to walk the longer trods of the fey, allowing you to take shortcuts through the cracks in space when travelling. Overworld travel times are halved for you and your party and you can move as a bonus action.",
+            "3. Fairy Ring: 1/min; bonus action; You find the spot within 120' of you where the coherency of 3-dimensional space is weakest. Once found, anyone who enters this space (usually a 5' cube) teleports to a location tied to this ring. You do not know where the ring leads, travel is one-way, and it only lasts for 10 minutes once found.",
+            "4. Corpse Road: 1/SR; bonus action; You find a path between space tread frequently by the fairies and other spirits of the Feywild. For the next 10 minutes, so long as you are following the direction of this road, you may travel up to 120' every 6 seconds as a free action.",
+            "5. Crossroads: 1/LR; bonus action; You locate a gateway into a realm of the fey, a tiny extradimensional space. The gateway only lasts for 10 minutes after you find it, taking the form of an archway, doorway, or other opening. Anyone can enter the crossroads once found. Inside is a spherical room with enough space for 5 medium creatures to sit comfortably. Those inside can leave at any time with but a though, but anything they place within will go away once no one inhabits that particular pocket reality anymore.",
+            "6. Catch a Sprite: 1/week; bonus action; You find an invisible fairy and cut it off from its trods, keeping it from escaping. The fairy in this condition becomes slightly visible as a luminous humanoid shape. At this point you may ask one task of the fairy, that it will execute upon release. This task must be relatively simple and straightforward such as 'get the key from the jailer' or 'trip the man on his way down the stairs'. The fairy cannot engage in combat for you, but it can pull mischievious tricks that border on dangerous.",
+            "7. Your Blink feature now teleports you up to 10'.",
+            "8. You gain +10' of speed.",
+            "9. Your Fairy Ring feature can now be used twice per minute.",
+            "10. Your Corpse Road feature can now be used twice per minute."
+        ]
+    },
+    {
+        "name": "Learns from Adversity",
+        "description": "learning from and recollecting past adventures",
+        "tiers": [
+            "1. Experience has honed your reaction times, because those who act first gain the advantage in most situations. You have +2 to initiative and checks to solve puzzles.",
+            "2. Adversity has made you touger. CON +1. Additionally, even if you can do something well, you have learned that you can always do it better. Whenever you have advantage on a roll, it becomes double advantage.",
+            "3. Life's trials have toughened you and made you hard to read. You have +2 to any check or save to resist another creature's attempt to discern your true feelings, beliefs, or plans. You likewise have the same bonus for resisting torture, telepathic intrusion, and mind control.",
+            "4. Your mind is stronger for overcoming bad experience. WIS +1.",
+            "5. You don't live as long as you have without learning what makes others tick. If a creature you can see has a special weakness, such as a vulnerability to loud noises, a negative Wisdom modifier, and so on, you know what it is (ask and DM will tell).",
+            "6. Tall Tale: 1/min; bonus action; You tell a short anecdote to a an enemy that can understand you about something you have witnessed in your life that is so over the top, yet so convincing, that the enemy makes a DC 15 WIS saving throw or has disadv on all its d20 rolls for 1 minute.",
+            "7. Seize Opportunity: 1/SR; free action; You have learned that you have to react instantly when danger threatens. If you block an attack, you can instantly take a standard action. If you use this action to attack, you have advantage on the attack roll. If you use this action, you do not have a standard action during your next turn.",
+            "8. Experience has taught you a lot, including that luck is sometimes something that you have to make for yourself. When you roll a 1 on a d20 roll, you can reroll it. You must use the new result.",
+            "9. Learning from adversity includes recognising when to move quickly. DEX +1.",
+            "10. Lethal Ploy: 1/LR; bonus action; Long experience has revealed to you that subterfuge is your friend in dangerous situations. You push, attack, or distract the target in some seemingly inconsequential way that leads to the target's death. The target must be of CR 1 or lower."
+        ]
+    },
+    {
+        "name": "Emerged from the Obelisk",
+        "description": "becoming crystalline",
+        "tiers": [
+            "1. You are composed of animate, translucent crystal the colour of amber. Your crystal body grants you +2 AC and +2 CON. However, you are not quick and you DEX saving throws have disadvantage. Certain conditions, like non-magical diseases and poisons, do not affect you.",
+            "2. Your crystalline body repairs itself more slowly than that of living flesh. You only have half of your usual hit dice available to you for healing.",
+            "3. Amber Levitation: 1/min; bonus action; You learn how to energise your crystalline form and lift away from the pull of gravity. You can levitate 5' in any direction each round for up to 1 minute.",
+            "4. Inhabit Crystal: 1/SR; bonus action; You transfer your body and whatever you are carrying into a crystal at least the size of your index finger. While in the crystal, you are aware of what is going on around it, seeing and hearing through the crystal. You can even speak through the crystal and carry on conversations. You cannot take actions other than to exit the crystal as a bonus action. You remain within as long as you wish, but you are not in stasis and must exit to eat, drink, sleep, and so on as normal (breathing is not an issue). If the crystal is destroyed or takes major damage while you are within it, you immediately exit and become unconscious for 3 rounds.",
+            "5. You can attempt a Strength saving throw of DC 10 to avoid being knocked down, pushed back, or moved against your will even if the affect attempting to move you does not allow it. Additionally, you gain STR +1.",
+            "6. Crystal Lens: At-will; bonus action; You can focus the inherent energy surging through your crystalline body. This allows you to fire a blast of energy that deals 2d8 + your level force damage to a target within 240' of you (uses your Glyph AB).",
+            "7. Resonant Frequency: At-will; bonus action; You can infuse an object that you can hold in one hand with a special vibration generated from your core. The object functions more efficiently and effectively for 1 minute. At the end of that minute, the resonant frequency ramps up exponentially until the object finally shatters from the energy buildup. Anything within 5' of the detonation takes 2d8 + your level force damage (uses your Glyph AB).",
+            "8. Resonant Quake: 1/month; bonus action; You can infuse the ground beneath you with a special vibration generated from your core. This creates a small quake whose epicentre you can select within 240' of you. Everyone within 30' of the epicentre is subject to 3d10 + your level bludgeoning damage. However, you have disadvantage on all of you d20 rolls until the end of your next turn.",
+            "9. Return to the Vein: 1/month; bonus action; You transfer your body and personal posessions into a crystal of any size and exit from another crystal of any size, including any mineral veins you are aware of. You must know of the crystal you are going to use as an exit before you enter the first crystal.",
+            "10. You have -3 to DEX saving throws and +6 to CON."
+        ]
+    },
+    {
+        "name": "Plays Thunderous Music",
+        "description": "playing magical music",
+        "tiers": [
+            "1. Warming Melody: At-will; bonus action; You perform as song that literally warms the air around you, with a focal point of your choice. Deal 1d6 + level fire damage to a target within 5' of you. This feature may be used to ignite small fires.",
+            "2. You gain proficiency (or +2) in either playing a musical instrument of your choice, or performing songs with your voice. You may use this skill when making checks for features in this glyph path. Additionally, you gain +2 to History checks related to music.",
+            "3. Chilling Chant: 2/min; bonus action; Your performance draws the heat out of the world, causing frost and ice to form all around you. You deal 2d4 + level cold damage to all creatures within 5' of you. If used near a body of water, sustained use of this feature can produce enough ice to walk on.",
+            "4. Cacaphonous Signal: 1/min; bonus action; The song you play or sing sounds like atonal garbage to most, but invokes magic to charge the air around them. All creatures within 30' of you take 1d8 + level lightning damage. If used outdoors more than 3 times in an hour, this feature will summon a storm to the area.",
+            "5. You gain expertise (or +4) in the instrument or vocal talent you previously chose. You also increase your bonus to History checks related to music to +4.",
+            "6. Penetrating Tone: 1/LR; bonus action; You hold a single long note that invokes magic to shake the earth around you. All creatures and large objects within 120' of you take 1d8 + level bludgeoning damage. Creatures and precarious objects affected are knocked prone.",
+            "7. At your discretion you may target a single creature with one of the area of effect features from this glyph path, rather than hitting the entire area.",
+            "8. CHA +2.",
+            "9. Your Warming Melody feature now deals 1d10 + level fire damage.",
+            "10. You increase your bonus to History checks related to music to +7."
+        ]
     }
 ]

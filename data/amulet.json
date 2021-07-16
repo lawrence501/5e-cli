@@ -173,5 +173,50 @@
     "name": "primalist - berserker",
     "mods": ["while bloodied, +1 melee dmg", "while bloodied, +1 dmg res"],
     "upgrade": "+1"
+  },
+  {
+    "name": "sentinel - overwhelm",
+    "mods": ["+1d4 $physType dmg to your melee dmg", "on melee hit, 10% chance to stun until end of target's next turn"],
+    "upgrade": "+1 dmg die size ALT 10%"
+  },
+  {
+    "name": "sentinel - juggernaut",
+    "mods": ["+1 $abilityScore", "+1 $nonPhysType res", "+1 $nonPhysType res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sentinel - fearless",
+    "mods": ["+1 $abilityScore", "+1 passive regen"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sentinel - relentless",
+    "mods": ["+1 global dmg", "+1 to condi saves"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sentinel - armour clad",
+    "mods": ["+1 phys res", "+1 dmg res vs adj creatures"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sentinel - gladiator",
+    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res"],
+    "upgrade": "-1 dmg res and +3 {weaponClass} dmg"
+  },
+  {
+    "name": "sentinel - axe thrower",
+    "mods": ["1/turn, on hit, 10% chance to throw piercing wep atk at nearest target, dealing 1d4 $physType"],
+    "upgrade": "+10% NOT dmg"
+  },
+  {
+    "name": "sentinel - blademaster",
+    "mods": ["+1 global dmg while holding $weaponClass", "+1 global dmg while holding $weaponClass"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sentinel - mail crusher",
+    "mods": ["+1 global dmg while holding $weaponClass", "+1 global dmg while holding $weaponClass"],
+    "upgrade": "+1"
   }
 ]

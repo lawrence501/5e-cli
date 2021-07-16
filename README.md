@@ -30,3 +30,5 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Incoming healing: 2
 - Passive regen: 3
 - Mark effects: x2
+- Glyphic 1d4 proc: 3
+- Wep/spell 1d4 proc: 5

@@ -163,7 +163,7 @@
             {
                 "description": "when you lose your last temp HP while holding a shield, foes within 5' make CON save or take 1d4 rad spell dmg",
                 "pointValue": "7",
-                "upgrade": "+5' radius/4 OR +1 die size/1"
+                "upgrade": "+5' radius/3 OR +1 die size/1"
             }
             
         ],
@@ -291,6 +291,80 @@
                 "description": "10. +5' fly sp",
                 "pointValue": "3",
                 "upgrade": "+5'/3"
+            }
+        ]
+    },
+    {
+        "name": "Forked Visage",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "when marked, all foes within 5' also get the same mark",
+                "pointValue": "6",
+                "upgrade": "+5'/6"
+            },
+            {
+                "description": "+5 psn res while healthy",
+                "pointValue": "2",
+                "upgrade": "2/1"
+            },
+            {
+                "description": "+5 max HP",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. +2 incoming temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +2 light res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +2 psn res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. while you have temp HP, +3 psn res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "6. while you have half+ your spell slots left, +3 psn res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "7. +1 global dmg per temporary global dmg stack",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. +1 dmg res vs marked creatures",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "9. +1 dmg res while healthy",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 to spell saves",
+                "pointValue": "4",
+                "upgrade": "+1/4"
             }
         ]
     }
