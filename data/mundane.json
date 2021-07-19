@@ -50,6 +50,31 @@
                 "Name": "Spiked Gauntlet",
                 "Description": "1d4 P; light; unarmed",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Staff",
+                "Description": "1d8 B; 2h; conduit",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Blowgun",
+                "Description": "1 P; 20'/40' range; light; non-lethal",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Crossbow",
+                "Description": "1d8 P; 120'/240' range; 2h",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Dart",
+                "Description": "1d4 P; no melee; light; thrown (20'/30')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Hand Crossbow",
+                "Description": "1d6 P; 60'/120' range",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [

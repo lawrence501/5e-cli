@@ -138,8 +138,8 @@ func fetchMundanes(t string) ([]Mundane, error) {
 	}
 
 	var ret []Mundane
-	typeRoll := rand.Intn(5)
-	if typeRoll < 2 {
+	typeRoll := rand.Intn(3)
+	if typeRoll < 1 {
 		ret = mundanes.Weapon
 	} else {
 		ret = mundanes.Armour

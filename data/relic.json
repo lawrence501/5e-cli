@@ -367,5 +367,79 @@
                 "upgrade": "+1/4"
             }
         ]
+    },
+    {
+        "name": "Charming Lie",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 decep",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "1/convo, on sub success on non-fluff decep lie, target's attitude toward you improves 1 step",
+                "pointValue": "3",
+                "upgrade": "1/3"
+            },
+            {
+                "description": "if a creature sees through your lie, +1 decep vs them for convo",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on failed decep, +1 decep with next attempt before LR",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. +1 decep for telling lies",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on failed decep, +1 decep until LR",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +1 decep for disguising yourself",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 acro",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +3 fall dmg res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "7. +1 tier to blessings you receive",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. as bonus, can make decep vs insight of creature within 30' to give them disadv off and def vs you until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+1 decep/1"
+            },
+            {
+                "description": "9. on sub success decep lie, +2 decep until LR",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 proj dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
     }
 ]

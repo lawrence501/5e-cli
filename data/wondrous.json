@@ -79,6 +79,26 @@
         {
             "name": "Cleansing Stone",
             "description": "https://5e.tools/items.html#cleansing%20stone_erlw"
+        },
+        {
+            "name": "Everbright Lantern",
+            "description": "https://5e.tools/items.html#everbright%20lantern_erlw"
+        },
+        {
+            "name": "Feather Token",
+            "description": "https://5e.tools/items.html#feather%20token_erlw"
+        },
+        {
+            "name": "Shiftweave",
+            "description": "https://5e.tools/items.html#shiftweave_erlw"
+        },
+        {
+            "name": "Spellshard",
+            "description": "https://5e.tools/items.html#spellshard_erlw"
+        },
+        {
+            "name": "Breathing Bubble",
+            "description": "https://5e.tools/items.html#breathing%20bubble_egw"
         }
     ],
     "uncommon": [
@@ -165,8 +185,24 @@
     ],
     "rare": [
         {
-            "name": "rare wondrous",
-            "description": "URL"
+            "name": "Bag of Beans",
+            "description": "https://5e.tools/items.html#bag%20of%20beans_dmg"
+        },
+        {
+            "name": "Bead of Force",
+            "description": "https://5e.tools/items.html#bead%20of%20force_dmg"
+        },
+        {
+            "name": "Bowl of Commanding Water Elementals",
+            "description": "https://5e.tools/items.html#bowl%20of%20commanding%20water%20elementals_dmg"
+        },
+        {
+            "name": "Brazier of Commanding Fire Elementals",
+            "description": "https://5e.tools/items.html#brazier%20of%20commanding%20fire%20elementals_dmg"
+        },
+        {
+            "name": "Cape of the Mountebank",
+            "description": "https://5e.tools/items.html#cape%20of%20the%20mountebank_dmg"
         }
     ],
     "very rare": [
