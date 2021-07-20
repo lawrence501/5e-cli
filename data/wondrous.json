@@ -99,6 +99,26 @@
         {
             "name": "Breathing Bubble",
             "description": "https://5e.tools/items.html#breathing%20bubble_egw"
+        },
+        {
+            "name": "Coin of Delving",
+            "description": "https://5e.tools/items.html#coin%20of%20delving_egw"
+        },
+        {
+            "name": "Vox Seeker",
+            "description": "https://5e.tools/items.html#vox%20seeker_egw"
+        },
+        {
+            "name": "Prosthetic Limb",
+            "description": "https://5e.tools/items.html#prosthetic%20limb_tce"
+        },
+        {
+            "name": "Spellwrought Tattoo Needle (Cantrip)",
+            "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(cantrip)_tce"
+        },
+        {
+            "name": "Spellwrought Tattoo Needle (1st)",
+            "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(1st%20level)_tce"
         }
     ],
     "uncommon": [

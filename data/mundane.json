@@ -75,6 +75,31 @@
                 "Name": "Hand Crossbow",
                 "Description": "1d6 P; 60'/120' range",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Heavy Crossbow",
+                "Description": "1d10 P; 120'/240' range; 2h; reload",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Javelin",
+                "Description": "1d6 P; no melee; thrown (30'/45')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Sling",
+                "Description": "1d6 B; 50'/100' range; propulsive",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Wand",
+                "Description": "1d4 force; 30'/60' range; conduit; light; mental",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Bastard Sword",
+                "Description": "1d10 S; 2h; grapple",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [
