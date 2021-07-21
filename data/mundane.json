@@ -100,6 +100,31 @@
                 "Name": "Bastard Sword",
                 "Description": "1d10 S; 2h; grapple",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Battle Axe",
+                "Description": "1d8 S; sweep",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Boomerang",
+                "Description": "1d4 S; thrown (20'/30'); returning",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Bo Staff",
+                "Description": "1d8 B; 2h; parry; reach; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Falchion",
+                "Description": "1d10 S; 2h; forceful; sweep",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Flail",
+                "Description": "1d6 B; disarm; sweep; trip",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [

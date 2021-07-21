@@ -368,5 +368,105 @@
     "name": "shaman - ascendant circle",
     "mods": ["while you have a minion, +2 spell dmg"],
     "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - ursine strength",
+    "mods": ["+1 $abilityScore", "+1 dmg res vs adj creatures"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - feline bond",
+    "mods": ["+1 to $abilityScore saves", "+1 to minion {abilityScore} saves", "your minion summoning powers have double range"],
+    "upgrade": "+1 ALT +1 ALT +1x range multi"
+  },
+  {
+    "name": "beastmaster - savagery",
+    "mods": ["+1 melee dmg", "+1 minion melee dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - boar heart",
+    "mods": ["1/turn, on taking melee hit, gain +2 dmg res until end of turn"],
+    "upgrade": "+1 turn duration"
+  },
+  {
+    "name": "beastmaster - artor's loyalty",
+    "mods": ["+1 minion size stage", "+1 minion dmg", "-4 minion HP"],
+    "upgrade": "+1 ALT -4 minion HP and +2 minion dmg NOT size"
+  },
+  {
+    "name": "beastmaster - call of the pack",
+    "mods": ["+4 max HP", "+1 minion HP", "on summon minion, heal 3 HP"],
+    "upgrade": "+4 ALT +1 ALT +2"
+  },
+  {
+    "name": "beastmaster - the chase",
+    "mods": ["+1 minion dmg", "+5' minion sp", "your minion summoning powers cost a bonus action"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - primal strength",
+    "mods": ["+1 $abilityScore", "on melee hit, 20% chance to gain +1 dmg res until end of your next turn"],
+    "upgrade": "+1 NOT dmg res"
+  },
+  {
+    "name": "beastmaster - axe and claw",
+    "mods": ["+1d4 $physType dmg to your melee dmg", "+1d4 {physType} dmg to your minion melee dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - envenom",
+    "mods": ["on melee hit, 20% chance to give 1 $nonPhysType DoT, stacking until CON save", "on minion melee hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "+1 {nonPhysType res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - hawk wings",
+    "mods": ["+1 to $abilityScore saves", "+1 to minion {abilityScore} saves", "on hit, 20% chance to gain +5' sp until end of your next turn", "on minion hit, they have 20% chance to gain +5' sp until end of their next turn"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - life in the wilderness",
+    "mods": ["+1 $abilityScore", "+5% HP threshold for you and your minions being bloodied"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - the circle of life",
+    "mods": ["on KB, 30% chance to gain +2 melee dmg until end of your next turn", "on KB, heal 6 HP"],
+    "upgrade": "+10% ALT +6 NOT melee dmg"
+  },
+  {
+    "name": "beastmaster - viper fangs",
+    "mods": ["+1 melee dmg", "+1 minion melee dmg", "on hit, 20% chance for you and minions to gain buff that gives 1 $nonPhysType DoT, stacking until CON save, on hit and +1 DoT dmg until end of your next turn"],
+    "upgrade": "+1 ALT +1 ALT +10% NOT buff stats"
+  },
+  {
+    "name": "beastmaster - avian shelter",
+    "mods": ["+10% HP threshold to be considered bloodied", "+1 $physType res", "+1 minion {physType} res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - cry of the lynx",
+    "mods": ["-1 crit req", "-1 minion crit req", "on summon minion, gain buff until end of your next turn giving -1 crit req and 20% chance on hit to stun until end of target's next turn"],
+    "upgrade": "-1 ALT -1 ALT +1 turn duration NOT buff stats"
+  },
+  {
+    "name": "beastmaster - force of nature",
+    "mods": ["+3 minion dmg", "+2 minion HP"],
+    "upgrade": "+2 ALT +1"
+  },
+  {
+    "name": "beastmaster - natural bond",
+    "mods": ["+4 minion dmg", "+1 minion HP"],
+    "upgrade": "+4 ALT +1"
+  },
+  {
+    "name": "beastmaster - ancient might",
+    "mods": ["+1 $abilityScore", "+1d4 $physType dmg to your melee dmg", "+1d4 {physType} dmg to your minion melee dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "beastmaster - primal aspects",
+    "mods": ["duration of buffs on you and your minions is doubled"],
+    "upgrade": "+1"
   }
 ]

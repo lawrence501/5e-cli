@@ -201,6 +201,26 @@
         {
             "name": "Lantern of Revealing",
             "description": "https://5e.tools/items.html#lantern%20of%20revealing_dmg"
+        },
+        {
+            "name": "Oil of Slipperiness",
+            "description": "https://5e.tools/items.html#oil%20of%20slipperiness_dmg"
+        },
+        {
+            "name": "Philter of Love",
+            "description": "https://5e.tools/items.html#philter%20of%20love_dmg"
+        },
+        {
+            "name": "Pipes of Haunting",
+            "description": "https://5e.tools/items.html#pipes%20of%20haunting_dmg"
+        },
+        {
+            "name": "Potion of Animal Friendship",
+            "description": "https://5e.tools/items.html#potion%20of%20animal%20friendship_dmg"
+        },
+        {
+            "name": "Potion of Fire Breath",
+            "description": "https://5e.tools/items.html#potion%20of%20fire%20breath_dmg"
         }
     ],
     "rare": [

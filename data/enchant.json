@@ -384,12 +384,6 @@
         "tags": []
     },
     {
-        "description": "you inflict $condition instead of $condition",
-        "pointValue": "1",
-        "upgrade": "+1 to new condi DCs/3",
-        "tags": ["weapon"]
-    },
-    {
         "description": "1/LR, can cast [random 1st lvl spell], using INT, WIS, or CHA",
         "pointValue": "1",
         "upgrade": "new spell +1 lvl/2",
