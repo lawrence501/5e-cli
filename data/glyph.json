@@ -478,5 +478,85 @@
             "9. Your Warming Melody feature now deals 1d10 + level fire damage.",
             "10. You increase your bonus to History checks related to music to +7."
         ]
+    },
+    {
+        "name": "Sees Beyond",
+        "description": "magical sight",
+        "tiers": [
+            "1. You can automatically perceive creatures and objs that are normally invisible, out of phase, or only partially on this plane. When looking for things more conventionally hidden, you have advantage on the related check.",
+            "2. See Through Matter: 1/min; bonus action; You can see through matter as if it were transparent. You can see through up to 6 inches of material for 6 seconds. Doing so is a perception check whose DC is based on the quality of the material.",
+            "3. Find the Hidden: 1/SR; bonus action; You see the traceries of objects as they move through space and time. You can sense the distance and direction of any specific inanimate object that you have touched. This takes anywhere between 1 second and hours of unbroken Concentration, depending on what the DM feels is appropriate due to time, distance, or other mitigating circumstances. However, you do not know in advance how long it will take.",
+            "4. Sensor: 1/SR; bonus action; You create an immobile, invisible sensor within 5' of you that lasts for 24 hours. At any time during that duration, you can Concentrate to see, hear, and smell through the sensor, no matter how far you move from it. The sensor does not grant you sensory capabilities beyond the norm.",
+            "5. Remote Viewing: 1/week; bonus action; Distance is an illusion, as all space is one space. With great Concentration, you can see another place. This ability can be used in one of two different ways. First, pick a spot a specific direction away from you and in a specific direction. You can see from that vantage point as if you had used your Sensor feature there, but only for one minute. Secondly, think of a place that you have seen before, either conventionally or using the application of this feature. You can see from that vantage point as if you had used your Sensor feature there, but only for up to 12 seconds. Either of these applications takes anywhere from 1 second to hours of Concentration, depending on what the DM feels is appropriate due to time, distance, or other mitigating circumstances. However, you don't know in advance how long it will take.",
+            "6. See Through Time: 1/month; bonus action; Time is an illusion, as all time is one time. With great Concentration, you can see into another time. You specify a time period regarding the place where you now stand. Interestingly, the easiest time to view is about 100 years in the past or future. Viewing farther back or ahead is a nearly impossible task. This takes anywhere from 1 second to hours of Concentration, depending on what the DM feels is appropriate due to time, distance, or other mitigating circumstances. However, you don't know in advance how long it will take.",
+            "7. Mental Projection: 1/week; bonus action; Your mind fully leaves your body and manifests anywhere you choose within 5' of you. Your projected mind can remain apart from your body for up to 24 hours. This effect ends early if your HP is reduced to 0 or if your projection touches your resting body. Your disembodied mind is a psychic construct that looks like you, though its frayed edges trail off into nothingness. You control this body as if it were your normal body and can act and move as you normally would with a few exceptions. You can move through solid objects, and you ignore any terrain feature that would impede your movement. Your attacks inflict -6 damage (to a minimum of 1) and you take -6 damage from physical sources, unless they can affect transplanar or phased beings. Regardless of the source, you take all damage as psychic damage. Your mind can travel up to 1 mile (1.5km) from your body. Your physical body is helpless until this effect ends. You cannot use your physical senses to perceive anything (including recognising when your body is taking damage). If this effect is ended early by your body reaching 0 HP, you are stunned until the end of your next turn as you try to reorient yourself to your predicament.",
+            "8. You possess such a high level of awareness that it is very difficult to surprise, hide from, or sneak up on you. You gain +6 to all initiative and perception checks.",
+            "9. Gain proficiency/+2 in perception.",
+            "10. You can now use your See Through Matter feature at-will."
+        ]
+    },
+    {
+        "name": "Commands Flesh",
+        "description": "summoning a minion from your flesh",
+        "tiers": [
+            "1. Spawn: 2/min; bonus action; Your flesh bunches up and buds off a small, CR 1/2 creature that can survive independently for 10 minutes before it shrivels and dies. The creature obeys basic commands, but is not intelligent enough to perform tasks complex enough that they would require a skill check. The creature is strong enough to pick up small items, but not enough to wield weapons. Creatures not actively following a command follow their own motives, whatever those may be. The creatures have 11 AC, 10 maximum HP, +3 AB, and deal 1d4 + 1 B damage. All spawn have a speed of 30'.",
+            "2. You can reabsorb your creatures from your Spawn feature, healing 1d6 HP for each one reintegrated into your flesh.",
+            "3. Willful Mutation: 1/SR; bonus action; You can force your body to develop a random beneficial mutation temporarily for 10 minutes.",
+            "4. You can now spawn CR 1 creatures with your Spawn feature. Optionally, you can elect to leave them as CR 1/2 creatures, but they can fly with stubby, malformed wings. The CR 1 creatures have 12 AC, 20 maximum HP, +4 AB, and deal 1d6 + 2 B damage. All flying spawn have a flying speed of 120'.",
+            "5. Forceful Absorption: 1/SR; bonus action; With some effort, you can try to forcibly absorb a CR 1 or lower creature of your size of smaller, as long as it is organic and from the same plane as you, by defeating them in a contested CHA check. Absorbing a creature causes you to heal 1d6 HP.",
+            "6. Whispers Within: 1/SR; bonus action; The things within your flesh listen and learn and plot. Sometimes you overhear them and sometimes you can interrogate them. Things you may have forgotten or missed, things you couldn't see behind you, secret, silent thoughts you are not sensitive enough to receive - the things inside you hear and see all. Your mind can slip inside yourself and ask a question of the riders within, which they must answer to the best of their abilities, though whether they tell you the whole truth or not is another matter.",
+            "7. You can now spawn CR 2 creatures with your Spawn feature. Optionally, you can elect to leave them as CR 1 creatures, but they can fly with stubby, malformed wings. The CR 2 creatures have 13 AC, 30 maximum HP, +5 AB, and deal 1d8 + 3 B damage.",
+            "8. Your increasing ability to control the creatures you set free from your body now extends their lives. Through force of will, you can reshape your own form, budding off a portion of your flesh and permanently reducing your maximum HP by 2 to make a new, permanent spawn. When the spawn dies, you regain the lost maximum HP.",
+            "9. Your body has become a perfect factory for generating creatures, CON +2.",
+            "10. You can use your Spawn feature at-will, and they can become CR 3 creatures. The CR 3 creatures have 14 AC, 40 maximum HP, +6 AB, and deal 1d10 + 4 B damage."
+        ]
+    },
+    {
+        "name": "Tells Improbable Tales",
+        "description": "telling stories and tall tales",
+        "tiers": [
+            "1. You choose just the right words to make your audience believe what you're saying. You gain proficiency/+2 in deception and gain +2 to any checks made as a result of storytelling.",
+            "2. You may become proficient in a new language with 10 hours of study with native speakers.",
+            "3. Upstaging: 2/min; bonus action; By spinning a story you draw the attention of a creature within 30' of you, causing them to focus on you rather than others. This can serve as a distraction in or out of combat.",
+            "4. Suspension of Disbelief: 1/min; bonus action; You speak to a sentient target within 30' of you, retelling their current situation to them and causing them to believe it for the next 10 minutes. For example, saying 'you are not on fire, you are safe at home' may cause a target to calmly sit down while aflame.",
+            "5. You gain expertise/+2 in deception and gain a further +2 to any checks made as a result of storytelling.",
+            "6. The tales you tell of your exploits quickly become folk legends. You and your companions find it much easier to acquire positions of authority, connections, wealth, and other benefits of your near-mythic reputation.",
+            "7. Bard's Tongue: 1/year; bonus action; The things you say often come true. You may use this feature and make a proclamation, such as 'we will win the day' or 'you shall find the lost prince'. Unless you actively work to thwart this statement or much greater forces are at work against you, your statement will come true. You should work with the DM to find an interesting and story-worthy way for this to happen.",
+            "8. Deception +2.",
+            "9. Gain proficiency in reading and writing 2 new languages of your choice.",
+            "10. You can now use your Upstaging feature at-will, and it can affect up to 2 creatures per activation."
+        ]
+    },
+    {
+        "name": "Controls Beasts",
+        "description": "gaining a beast minion",
+        "tiers": [
+            "1. A beast of up to CR 1 of your size or smaller accompanies you and follows your instructions. The beast companion acts on your turn. If your beast companion dies, you can hunt in the wild for 1d6 days to find a new one.",
+            "2. Soothe the Savage: 2/min; bonus action; You calm a beast within 30' of you. You must speak to it (although it does not need to understand your words), and it must see you. It remains calm for 1 minute or for as long as you Concentrate on this feature.",
+            "3. Communication: 2/min; bonus action; You can convey a basic concept to a creature that normally cannot speak or understand speech. The creature can also give you a very basic answer to a simple question.",
+            "4. A beast larger than you of up to CR 1 serves you as a mount and follows your instructions. While you are mounted on it, the creature can move and you can attack on your turn, which grants your attack advantage. The mount acts on your turn. If the mount dies, you can hunt in the wild for 3d6 days to find a new one.",
+            "5. When you and your beast companion are within 5' of each other, you gain +4 global damage and both of you grant disadvantage to incoming attacks.",
+            "6. Beast Eyes: 1/min; bonus action; You can sense through your beast companion's senses if it is within 1.5km (1 mile) of you. This effect lasts up to 10 minutes.",
+            "7. Your beast companion can now be a beast of up to CR 2 of your size or smaller.",
+            "8. Beast Call: 1/LR; bonus action; You summon a beast of up to CR 2 to help you temporarily. This creature does your bidding for as long as you Concentrate on this feature, but you must use a bonus action to direct them. Creatures are native to the area and arrive under their own power, so if you are in an unreachable place, this feature will not work.",
+            "9. When you and your beast companion are within 5' of each other, you can share damage inflicted on either of you, with any distribution of your choice. Only the damage reduction of the target initially damaged comes into play. Additionally, your beast companion can now be a beast of up to CR 3 of your size or smaller.",
+            "10. Control the Savage: 1/week; bonus action; You can control a calm beast within 30' of you. You control it for as long as you Concentrate on this feature, and cannot perform any types of actions during your turns."
+        ]
+    },
+    {
+        "name": "Follows the Stars",
+        "description": "being guided by the stars",
+        "tiers": [
+            "1. If you can see the stars, you always know which way is north.",
+            "2. Your normal vision becomes darkvision.",
+            "3. Under a starry sky, you have advantage on all d20 rolls.",
+            "4. Regardless of where you are, you can always see what the sky above you looks like.",
+            "5. Rightly Guided: 1/min; Pick a destination, until your next long rest you will always know whether or not you are going toward it, and if a particular path will get you closer to your target.",
+            "6. Protected by the Stars: 1/week; free action; you may reroll a 1 on a d20 roll.",
+            "7. In the Stars: 1/SR; free action; Your knowledge of the stars' positions gives you some ability to predict the future. When taking any type of action, you may use this feature to see if the intended action will have a negative consequence for you. You will also get basic knowledge of why the action has negative consequences.",
+            "8. When the Stars are Right: 1/year; free action; Your ability to understand the ways of the moving lights above helps you predict the most opportune moment to pursue a specific goal. After describing what you want to accomplish, roll 2d6. The result is how many days from today the best time to work toward your goal is. On that day, you gain advantage on all non-attack or saving throw d20 rolls.",
+            "9. You can never become lost while you can see the stars.",
+            "10. Your normal vision becomes truesight."
+        ]
     }
 ]
