@@ -221,6 +221,46 @@
         {
             "name": "Potion of Fire Breath",
             "description": "https://5e.tools/items.html#potion%20of%20fire%20breath_dmg"
+        },
+        {
+            "name": "Potion of Hill Giant Strength",
+            "description": "https://5e.tools/items.html#potion%20of%20hill%20giant%20strength_dmg"
+        },
+        {
+            "name": "Potion of Growth",
+            "description": "https://5e.tools/items.html#potion%20of%20growth_dmg"
+        },
+        {
+            "name": "Potion of Greater Healing",
+            "description": "https://5e.tools/items.html#potion%20of%20greater%20healing_dmg"
+        },
+        {
+            "name": "Potion of Poison",
+            "description": "https://5e.tools/items.html#potion%20of%20poison_dmg"
+        },
+        {
+            "name": "Potion of Resistance",
+            "description": "https://5e.tools/items.html#potion%20of%20resistance_dmg"
+        },
+        {
+            "name": "Potion of Water Breathing",
+            "description": "https://5e.tools/items.html#potion%20of%20water%20breathing_dmg"
+        },
+        {
+            "name": "Quiver of Ehlonna",
+            "description": "https://5e.tools/items.html#quiver%20of%20ehlonna_dmg"
+        },
+        {
+            "name": "Rope of Climbing",
+            "description": "https://5e.tools/items.html#rope%20of%20climbing_dmg"
+        },
+        {
+            "name": "Saddle of the Cavalier",
+            "description": "https://5e.tools/items.html#saddle%20of%20the%20cavalier_dmg"
+        },
+        {
+            "name": "Sending Stones",
+            "description": "https://5e.tools/items.html#sending%20stones_dmg"
         }
     ],
     "rare": [

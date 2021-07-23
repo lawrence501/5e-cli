@@ -673,5 +673,395 @@
         "name": "primordial bond",
         "mods": ["+1 global dmg while you have a minion", "+2 minion buff effectiveness", "+1 minion hp"],
         "tags": ["minion hp"]
+    },
+    {
+        "name": "blowback",
+        "mods": ["your DoTs have half duration", "+5 DoT dmg"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "fan the flames",
+        "mods": ["on inflict DoT, adj foes get same DoT"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "cooked alive",
+        "mods": ["on hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "creatures with your DoTs have -4 {nonPhysType} res"],
+        "tags": ["non-phys dmg", "dot"]
+    },
+    {
+        "name": "burning bright",
+        "mods": ["+1 DoT dmg", "+1 {nonPhysType} dmg", "+5' AoE sizes"],
+        "tags": ["dot", "non-phys dmg", "aoe"]
+    },
+    {
+        "name": "wrapped in flame",
+        "mods": ["+3 {nonPhysType} dmg", "on hit while affected by DoT, 20% chance to give target -1 {nonPhysType} res and slow until end of your next turn", "your Off cannot have disadv while affected by DoT"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "vivid hues",
+        "mods": ["+1 DoT dmg", "on wep hit vs DoT'd target, heal 1 HP", "+1 incoming healing"],
+        "tags": ["dot", "wep dmg", "hp"]
+    },
+    {
+        "name": "rend",
+        "mods": ["+1 DoT dmg", "your DoTs have double duration"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "disorienting wounds",
+        "mods": ["+1 DoT dmg", "on hit vs DoT'd target, 20% chance to blind until end of your next turn"],
+        "tags": ["dot", "condi"]
+    },
+    {
+        "name": "compound injury",
+        "mods": ["+4 DoT dmg vs condi'd targets"],
+        "tags": ["dot", "condi"]
+    },
+    {
+        "name": "blood artist",
+        "mods": ["+1 {abilityScore}", "if you've self-inflicted since start of your last turn, +1 DoT dmg"],
+        "tags": ["ability score", "hp", "dot"]
+    },
+    {
+        "name": "phlebotomist",
+        "mods": ["-1 crit req", "if you've crit since start of your last turn, +1 DoT dmg"],
+        "tags": ["crit", "dot"]
+    },
+    {
+        "name": "septic spells",
+        "mods": ["on spell hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "+2 DoT dmg", "+1 spell dmg"],
+        "tags": ["spell dmg", "non-phys dmg", "dot"]
+    },
+    {
+        "name": "low tolerance",
+        "mods": ["+2 DoT dmg", "DoTs inflicted vs targets with no DoT deal +1 dmg"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "steady torment",
+        "mods": ["DoTs inflicted on DoT'd targets deal +2 dmg", "your DoTs have triple duration"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "eternal suffering",
+        "mods": ["+1 {nonPhysType} dmg", "on hit, 20% chance to give -2 {nonPhysType} res until end of target's next turn"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "eldritch inspiration",
+        "mods": ["+3 DoT dmg"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "wasting affliction",
+        "mods": ["+5 DoT dmg", "your DoTs have half duration"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "haemorrhage",
+        "mods": ["-1 crit req", "when a creature crit fails to end your DoT, the dmg increases by 1"],
+        "tags": ["crit", "dot"]
+    },
+    {
+        "name": "flow of life",
+        "mods": ["+1 DoT dmg", "+1 max HP", "+1 passive regen"],
+        "tags": ["dot", "hp"]
+    },
+    {
+        "name": "exposure therapy",
+        "mods": ["+2 DoT dmg", "+1 DoT dmg res"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "brush with death",
+        "mods": ["+5 DoT dmg", "on KB, heal 1 HP", "on KB, gain 4 temp HP"],
+        "tags": ["dot", "hp", "temp hp"]
+    },
+    {
+        "name": "vile reinvigoration",
+        "mods": ["+3 DoT dmg", "+2 incoming temp HP", "on KB, gain 1 temp HP"],
+        "tags": ["dot", "temp hp"]
+    },
+    {
+        "name": "circling oblivion",
+        "mods": ["+1 DoT", "your condis have double duration"],
+        "tags": ["dot", "condi"]
+    },
+    {
+        "name": "brewed for potency",
+        "mods": ["+1 DoT dmg", "+1 healing from healing surges", "+1 max healing surge"],
+        "tags": ["dot", "surge healing", "max surges"]
+    },
+    {
+        "name": "astonishing affliction",
+        "mods": ["+1 to condi DCs", "+1 global dmg vs condi'd targets", "your condis have double duration"],
+        "tags": ["condi", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "cold conduction",
+        "mods": ["on inflicting condi, target gets -1 dmg res for same duration", "on inflicting mark, target gets sluggish for same duration"],
+        "tags": ["condi", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "inspired oppression",
+        "mods": ["+1 to condi DCs", "+1 {dmgPolarity} dmg"],
+        "tags": ["condi", "dmg polarity"]
+    },
+    {
+        "name": "chilling presence",
+        "mods": ["adj foes are sluggish"],
+        "tags": ["condi"]
+    },
+    {
+        "name": "deep chill",
+        "mods": ["+1 DoT dmg", "+1 to condi DCs"],
+        "tags": ["dot", "condi"]
+    },
+    {
+        "name": "blast-freeze",
+        "mods": ["+1 {nonPhysType} dmg", "on inflict condi, adj foes get same condi"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "thunderstruck",
+        "mods": ["+1 {nonPhysType} dmg", "-1 crit req", "on crit vs marked target, push target 5' away"],
+        "tags": ["non-phys dmg", "crit"]
+    },
+    {
+        "name": "stormrider",
+        "mods": ["on marking a condi'd target, 20% chance to gain -1 crit req for combat", "+1 {nonPhysType1} dmg vs marked targets", "+1 {nonPhysType2} dmg vs condi'd targets"],
+        "tags": ["condi", "crit", "non-phys dmg"]
+    },
+    {
+        "name": "overshock",
+        "mods": ["+1 {nonPhysType} dmg", "+2 mark effectiveness"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "evil eye",
+        "mods": ["creatures cursed by you have -1 dmg res", "on curse uncursed target, they are blinded until end of your next turn"],
+        "tags": ["wep dmg", "spell dmg", "condi"]
+    },
+    {
+        "name": "whispers of death",
+        "mods": ["+1 curse effectiveness", "on KB vs cursed target, +3 global dmg until end of your next turn"],
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "name": "dark discourse",
+        "mods": ["+2 curse effectiveness", "creatures cursed by you are slowed", "on KB vs cursed target, gain 2 temp HP"],
+        "tags": ["condi", "temp hp"]
+    },
+    {
+        "name": "master of fear",
+        "mods": ["creatures cursed by you have -2 spell dmg res"],
+        "tags": ["spell dmg"]
+    },
+    {
+        "name": "wish for death",
+        "mods": ["your curses have double duration", "+2 global dmg vs cursed, bloodied targets"],
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "name": "lord of drought",
+        "mods": ["+1 curse effectiveness", "+5' AoE sizes"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "blizzard caller",
+        "mods": ["+1 curse effectiveness", "-1 crit req"],
+        "tags": ["crit req"]
+    },
+    {
+        "name": "tempt the storm",
+        "mods": ["+1 curse effectiveness", "+1 spell dmg"],
+        "tags": ["spell dmg"]
+    },
+    {
+        "name": "misery everlasting",
+        "mods": ["+1 curse effectiveness", "your buffs have double duration"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "exploit weakness",
+        "mods": ["+1 curse effectiveness", "+1 {physType} dmg"],
+        "tags": ["phys dmg"]
+    },
+    {
+        "name": "heraldry",
+        "mods": ["while buffed, adj foes have -1 dmg res"],
+        "tags": ["buff", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "endbringer",
+        "mods": ["while buffed, +1 global dmg", "+1 global dmg for each buff on you"],
+        "tags": ["buff", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "cult-leader",
+        "mods": ["while buffed, +4 minion dmg"],
+        "tags": ["buff", "minion dmg"]
+    },
+    {
+        "name": "empowered envoy",
+        "mods": ["+1 buff dmg", "+1 buff effectiveness on yourself"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "dark messenger",
+        "mods": ["+3 buff dmg", "+5' buff AoE size"],
+        "tags": ["buff", "aoe"]
+    },
+    {
+        "name": "agent of destruction",
+        "mods": ["while buffed, +1 {dmgPolarity} dmg", "while buffed, +1 to condi DCs"],
+        "tags": ["buff", "dmg polarity", "condi"]
+    },
+    {
+        "name": "lasting impression",
+        "mods": ["+2 buff dmg", "while buffed, +2 DoT dmg"],
+        "tags": ["buff", "dot"]
+    },
+    {
+        "name": "self-fulfilling prophecy",
+        "mods": ["if you've dealt buff dmg since start of your last turn, +1 crit dice", "+2 buff dmg"],
+        "tags": ["buff", "crit"]
+    },
+    {
+        "name": "invigorating portents",
+        "mods": ["while buffed, +1 minion dmg", "+5' minion sp for each buff on you"],
+        "tags": ["buff", "minion dmg"]
+    },
+    {
+        "name": "pure agony",
+        "mods": ["while buffed, +4 minion dmg"],
+        "tags": ["buff", "minion dmg"]
+    },
+    {
+        "name": "disciples",
+        "mods": ["while buffed, +4 minion dmg", "+1 minion dmg"],
+        "tags": ["buff", "minion dmg"]
+    },
+    {
+        "name": "dread march",
+        "mods": ["+2 minion HP", "+2 minion {physType} res", "+2 minion {nonPhysType} res", "+15' minion sp"],
+        "tags": ["minion hp"]
+    },
+    {
+        "name": "blessed rebirth",
+        "mods": ["+1 minion HP", "minions cannot take dmg until their 2nd turn"],
+        "tags": ["minion hp"]
+    },
+    {
+        "name": "life from death",
+        "mods": ["+4 minion HP", "on minion death, heal 4 HP"],
+        "tags": ["minion hp", "hp"]
+    },
+    {
+        "name": "feasting fiends",
+        "mods": ["+3 minion HP", "+2 minion dmg", "on minion hit, they heal 3 HP"],
+        "tags": ["minion hp", "minion dmg"]
+    },
+    {
+        "name": "bodyguards",
+        "mods": ["+4 minion HP", "on minion hit, 30% chance to push target 10' away"],
+        "tags": ["minion hp", "minion dmg"]
+    },
+    {
+        "name": "follow-through",
+        "mods": ["projs deal +2 dmg for each time they've chained"],
+        "tags": ["proj"]
+    },
+    {
+        "name": "streamlined",
+        "mods": ["+1 proj dmg", "+1 proj AB"],
+        "tags": ["proj", "ab"]
+    },
+    {
+        "name": "shrieking bolts",
+        "mods": ["+1 proj dmg", "on proj hit, 20% chance to confuse target until end of your next turn"],
+        "tags": ["proj", "condi"]
+    },
+    {
+        "name": "eye to eye",
+        "mods": ["+3 proj dmg", "+1 proj dmg vs adj targets"],
+        "tags": ["proj"]
+    },
+    {
+        "name": "repeater",
+        "mods": ["+1 proj dmg", "+1 global dmg"],
+        "tags": ["proj", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "aerodynamics",
+        "mods": ["+1 proj dmg", "+1 proj AB", "your projs pierce 1 target"],
+        "tags": ["proj", "ab"]
+    },
+    {
+        "name": "chip away",
+        "mods": ["1/turn, you can move your movable pers areas as a free action", "+10' pers area sp"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "seeker runes",
+        "mods": ["+1 pers area dmg", "+10' pers area sp"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "remarkable",
+        "mods": ["+2 pers area dmg", "+5' pers area AoE size"],
+        "tags": ["pers area", "aoe"]
+    },
+    {
+        "name": "brand loyalty",
+        "mods": ["+5' pers area sp", "foes have -1 pers area dmg res for each pers area they are in"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "holy conquest",
+        "mods": ["your pers area move 5' after dealing dmg in dir of your choice", "+1 pers area dmg", "+5' sp"],
+        "tags": ["pers area", "speed"]
+    },
+    {
+        "name": "grand design",
+        "mods": ["+1 pers area dmg", "+5' pers area sp", "your pers areas have double duration"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "set and forget",
+        "mods": ["+1 pers area dmg", "+10' pers area AoE size", "+5' AoE sizes", "your pers areas have half duration"],
+        "tags": ["pers area", "aoe"]
+    },
+    {
+        "name": "expert sabotage",
+        "mods": ["on pers area tick, 20% chance to tick again", "+1 pers area dmg"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "guerilla tactics",
+        "mods": ["+2 pers area dmg", "+10' pers area sp", "if you've created a pers area since start of your last turn, +5' sp"],
+        "tags": ["pers area", "speed"]
+    },
+    {
+        "name": "expendability",
+        "mods": ["your pers areas have 20% chance of having +15' AoE size"],
+        "tags": ["pers area", "aoe"]
+    },
+    {
+        "name": "arcane pyrotechnics",
+        "mods": ["+2 pers area dmg", "if you've dealt pers area dmg since start of your last turn, +1 spell dmg"],
+        "tags": ["pers area", "spell dmg"]
+    },
+    {
+        "name": "surprise sabotage",
+        "mods": ["+2 pers area crit dice", "your pers areas ignore {dmgPolarity} res"],
+        "tags": ["pers area", "crit", "dmg polarity"]
+    },
+    {
+        "name": "careful handling",
+        "mods": ["+3 pers area dmg", "+2 max HP"],
+        "tags": ["pers area", "hp"]
     }
 ]

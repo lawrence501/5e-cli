@@ -558,5 +558,165 @@
             "9. You can never become lost while you can see the stars.",
             "10. Your normal vision becomes truesight."
         ]
+    },
+    {
+        "name": "Creates Chaos",
+        "description": "disrupting magic chaotically",
+        "tiers": [
+            "1. Disturbance: At-will; bonus action; You emit a magical pulse from your body, frazzling magic in the area. Any magical effects within 30' of you go haywire in ways you cannot predict. This disturbance lasts for 10 minutes and causes all spells cast within 30' of you to have disadvantage on any checks they make, or grant advantage to any saving throws they prompt.",
+            "2. Touch of Chaos: 2/min; bonus action; You touch an object or creature and disrupt the magic within and around them, dealing 1d10 + your level force damage.",
+            "3. Spell Scramble: 1/min; reaction; You disrupt the magic within a specific nearby area, cancelling any one spell cast within 120' of you. This feature may only be used while the spell being targeted is being cast.",
+            "4. Wild Spell: 1/SR; bonus action; You empower the surrounding magical to do as it wishes, creating a powerful, though random, effect, similar to that of Wild Magic. The nature of the effect is determined by the DM, but any damage it deals will be force damage equal to 1d12 + your level.",
+            "5. You are no longer affected by Wild Magic effects, nor is anything or anyone within 5' of you.",
+            "6. Chaotic Form: 1/month; bonus action; You allow the magic around and inside of you to do as it pleases, adapting and modifying you at a terrifying rate and turning you into a roiling mass of randomly changing materials. You may move your ability score points around as you see fit while in this form, which lasts for one hour. You can breathe and otherwise exist in any conditions, and your AC becomes 17 and unmodifiable. Should you need a particular tool for any task, your body may take that shape.",
+            "7. Your Disturbance feature now affects all spells cast within 60' of you.",
+            "8. Your Touch of Chaos feature can now be used at will.",
+            "9. Your Spell Scramble feature can now be used twice per minute.",
+            "10. Your Wild Spell feature can now be used twice per minute."
+        ]
+    },
+    {
+        "name": "Lives Underwater",
+        "description": "boosting your underwater effectiveness",
+        "tiers": [
+            "1. You have evolved into surviving underwater. You gain the Aquatic mutation.",
+            "2. You gain +2 to athletics for swimming and +2 to initiative.",
+            "3. You develop an uncanny connection with a Giant Octopus. This particular octopus is adapted to survive both land and sea environments and will serve you faithfully in your journeys. If killed, it will take up to 2 months to find a suitable replacement that you can bond with.",
+            "4. You gain +2 to Dexterity saving throws.",
+            "5. You have advantage on attack rolls against creatures who have a lower initiative bonus than you.",
+            "6. You suffer no penalties for undertaking any task underwater.",
+            "7. You gain +2 to any skill checks pertaining to or interacting with the ocean.",
+            "8. At-one with the Sea: 1/LR; bonus action; For the next 20 minutes, you gain +50' swim speed. During this time, water-based creatures will not hurt you, unless you attack first.",
+            "9. You double the amount of healing you receive while you are submerged in water.",
+            "10. You gain +2 dmg res while underwater."
+        ]
+    },
+    {
+        "name": "Lets it Ride",
+        "description": "gambling and leaning into luck",
+        "tiers": [
+            "1. Snake Eyes: At-will; bonus action; The laws of probability change around you, granting you double advantage on gambling-related skill checks for the next 10 minutes.",
+            "2. The spirits of the air favour you. You have critical requirement -1 for all d20 rolls.",
+            "3. The DM must inform you one turn in advance when you are about to be specifically targeted in combat.",
+            "4. Whenever you score a critical on any d20 roll in combat, you gain a bonus action.",
+            "5. Hot Cards: 1/LR; bonus action; You infuse a held object with luck. For the next 10 minutes, all d20 rolls involving the object have critical requirement -2.",
+            "6. Impossible Play: 1/month; free action; You may only use this feature while attempting an action that would normally have a DC of 30 or higher. You treat the DC as 15 for this action.",
+            "7. You Snake Eyes feature now lasts 1 hour.",
+            "8. You have critical requirement -1 for all d20 rolls.",
+            "9. Whenever you are informed in advance of being targeted in combat, you also find out which creature will be targeting you.",
+            "10. Whenever you score a critical on any d20 roll in combat, you gain 2 bonus actions."
+        ]
+    },
+    {
+        "name": "Takes the Shape of Beasts",
+        "description": "shapeshifting",
+        "tiers": [
+            "1. Tiny Spy: At-will; bonus action; You change your form into that of a tiny beast. While in this form you gain advantage on stealth checks and +2 to Dexterity saving throws, but have double disadvantage on attack rolls. You use your own senses while in this creature form. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
+            "2. While in creature form your senses come to match those of your new body, rather than mimicking those of your regular form.",
+            "3. Bestial Form: 1/min; bonus action; You take the form of a beast of your own size or smaller and with a maximum CR equal to your level divided by 4. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
+            "4. While in creature form you gain one of the creature's special forms of attack of your choice. You can either enable the effects of one of its melee weapon attacks beyond the raw damage or enable another of its actions that is not a melee weapon attack, which works at full potential.",
+            "5. Half Shift: 1/LR; bonus action; You may partially transform into a creature so that you may use one of its passive features, senses, or actions. Unlike other changes, Half Shifts only last for 10 minutes at a time.",
+            "6. Monstrous Form: 1/week; bonus action; You change shape to that of any beast you have assisted in killing before. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
+            "7. Your Tiny Spy feature now only has single disadvantage on its attack rolls.",
+            "8. While in creature form, your senses improve by one tier of sense.",
+            "9. You can now use your Bestial Form feature twice per minute.",
+            "10. While in creature form, you can gain two more of the creature's special forms of attack of your choice."
+        ]
+    },
+    {
+        "name": "Hunts Humanoids",
+        "description": "hunting and combating humanoids",
+        "tiers": [
+            "1. You gain +2 to on skill checks to track, search for, interact with, and hide from humanoids.",
+            "2. You deal +4 weapon damage against humanoids.",
+            "3. Humanoid Sense: 2/min; free action; For one hour, through scent, specific signs, and past experience, you know when humanoids other than those you choose are within 120' of you.",
+            "4. Your weapon proficiency increases by 1 tier.",
+            "5. Answering Attack: 1/min; free action; If you are struck by a creature within 5' of you, you can make an immediate melee attack against that attacker. The attack has disadvantage.",
+            "6. When there are 2 or more enemies within 5' of you at once, you can use them against each other. You gain advantage on your Dexterity saving throws or attack rolls (your choice each round) against them.",
+            "7. You deal +6 weapon damage against humanoids.",
+            "8. Your attacks and saving throws have advantage against humanoids.",
+            "9. You cannot have disadvantage on attacks or saving throws against humanoids.",
+            "10. Your weapon proficiency increases by 1 tier."
+        ]
+    },
+    {
+        "name": "Controls Gravity",
+        "description": "manipulating gravity",
+        "tiers": [
+            "1. Weighty: At-will; bonus action; You briefly increase the weight of a target within 30' of you enough to stop them in their tracks, preventing the target from moving and giving them disadvantage on any d20 rolls until the end of their next turn.",
+            "2. Hover: At-will; bonus action; You float slowly into the air. You can Concentrate and use further bonus actions to remain motionless in the air, or float up to 30' from the ground, but no more; otherwise, you drift with the wind or with any momentum you have gained. This effect lasts up to 10 minutes.",
+            "3. By manipulating gravity's pull on yourself, you gain +2 DEX.",
+            "4. Define Down: 1/SR; bonus action; The natural gravity within a 30' cube that you are within 5' of changes directions so that it flows in the direction you determine for a few seconds, then snaps back. Affected creatures are tossed up to 20' in the chosen direction and take damage as if they had fallen that amount.",
+            "5. Gravity Cleave: 1/min; bonus action; You can harm a target within 30' of you by rapidly increasing gravity's pull on one portion of their body and decreasing it on another, dealing 2d8 + your level bludgeoning damage.",
+            "6. Field of Gravity: 1/SR; free action; When you wish it, a field of manipulated gravity around you pulls incoming ranged projectiles to the ground. You are immune to such attacks until the start of your next turn. You must be aware of an attack to foil it. This feature does not work on magic projectiles.",
+            "7. Flight: 1/SR; bonus action; You can float and fly through the air for 1 hour. You gain a flying speed of 85'.",
+            "8. Improved Gravity Cleave: 1/decade; bonus action; You can harm a group of targets within 120' of you by rapidly increasing gravity's pull on one portion of each of their bodies and decreasing it on another, dealing 2d8 + your level bludgeoning damage. The targets must be within 5' of each other.",
+            "9. Weight of the World: 1/week; You can increase a target's weight dramatically. The target is pulled to the ground and cannot move physically under its own power for 1 minute. The target must be within 30' of you.",
+            "10. Your Weighty feature now has a maximum range of 90'."
+        ]
+    },
+    {
+        "name": "Turns the Tables",
+        "description": "turning dangerous situations into advantageous ones",
+        "tiers": [
+            "1. Defensive Maneuvre: At-will; bonus action; You strike at an enemy with a melee weapon attack, and then move away from them up to 30'.",
+            "2. You enjoy double advantage on initiative rolls.",
+            "3. Adapt: 1/min; free action; After suffering damage from an elemental source (fire, cold, lightning, or acid), you may use this feature to enjoy +2 AC vs that damage type for the next hour.",
+            "4. Once you have taken 20 or more damage in a battle, you become ferocious for the rest of the fight. While in this mode, you gain advantage on melee attack rolls when the attack is made against a creature who has done damage to you in this battle.",
+            "5. Whenever you make an attack using a limited feature, you enjoy +1 to any values derived from your ability score(s).",
+            "6. Observe Technique: 1/week; free action; After suffering damage from a particular action, spell, or feature by a humanoid, you may activate this feature, allowing you to employ the same power for the rest of the current combat.",
+            "7. Your Defensive Maneuvre now allows you to move up to 60'.",
+            "8. +2 to initiative.",
+            "9. Your Adapt feature can now be used twice per minute.",
+            "10. You now become ferocious after taking 5 or more damage in a combat."
+        ]
+    },
+    {
+        "name": "Forever Changes",
+        "description": "mutating and de-mutating rapidly",
+        "tiers": [
+            "1. At the end of each long rest, gain a beneficial mutation. You keep it until your next long rest.",
+            "2. Toolkit: 2/min; bonus action; With Concentration, you can shape your fingers, toes, or other appendages into simple tools with no moving parts such as lockpicks, hooks, or knives. These can be used as weapons to deal 1d6 + your level damage, and grant advantage on relevant checks for 10 minutes, whereafter your appendages revert to normal.",
+            "3. Oddly Familiar: 1/min; free action; You can trigger a change in your physiology, changing your sex and appearance to match someone you have touched in the last 24 hours.",
+            "4. You have advantage on the beneficial mutation you gain at the end of each long rest.",
+            "5. Reactive Adaption: 1/min; free action; Your changes start forming reactively to your situation. When attacked, you can roll a d20: 1-5, attacked body part develops a bony coating, granting +3 AC against the current attack and the next one; 6-10, attacked body part phases out of existence for the duration of the attack; 11-15, attacked body part warps to grab the attacking weapon or projectile, disarming melee weapons but still taking damage, or negating damage from projectiles; 16-20, a bony spur juts out, inflicted 1d6 + your level damage on the attacker by flinging the weapon or projectile back at them.",
+            "6. Human Weapon: 1/SR; bonus action; You can change your body into a deadly weapon, growing spikes, blades, armour, or claws. Whilst transformed, you gain +3 AC and deal +4 damage with natural weapons until the start of your next turn. However, you look terrifying in this form and all pleasant social checks have double disadvantage.",
+            "7. When using your Oddly Familiar feature, you can now choose to adopt any appearance of your choice instead of those only recently touched.",
+            "8. You can now choose to gain a random powerful mutation instead of a beneficial one at the end of your long rests. You do not gain advantage for powerful mutations.",
+            "9. You have advantage on powerful mutations you can gain at the end of each long rest.",
+            "10. Your forever changing body reacts and adapts to whatever circumstances attempt to disrupt it. You can breathe underwater and are immune to the negative effects of being in high gravity. You are immune to environmental hazards other than extreme heat/cold and vacuums, and you can choose to not gain any mutations you would usually gain."
+        ]
+    },
+    {
+        "name": "Brandishes an Exotic Shield",
+        "description": "conjuring and utilising a force shield",
+        "tiers": [
+            "1. You manifest a small plane of pure force, which takes on a shield-like shape with the barest flicker of a thought. You can dismiss it just as easily. To use the force shield, you must hold it in one of your hands. You are proficient in the use of this shield, as well as as a melee weapon (dealing 1d4 + your level force damage). While unconscious or sleeping, the force field dissipates. You can enchant this shield as if it were a regular shield.",
+            "2. Force Bash: At-will; free action; You can use this feature whenever you deal damage with an attack from your shield. The attack deals -2 damage, but grants your target disadvantage on all d20 rolls until the end of their next turn.",
+            "3. Your force shield produces an envelope of force that enfolds you while you are holding it, granting you +1 AC.",
+            "4. Healing Pulse: 1/min; You and all creatures you choose within 5' of you can expend a hit die to gain its healing benefits. Creatures you have already used all of their hit dice gain no benefit from this feature. Creatures who do not have hit dice regain a number of hit points equal to their CR.",
+            "5. You can throw your force shield up to 30' as a weapon, dealing the same damage.",
+            "6. Your force shield now pulses with dangerous energy whenever you manifest it. Each time you use your shield as a melee or thrown weapon, if inflict +6 damage.",
+            "7. Force Wall: 1/LR; bonus action; You can trigger the energy in your force shield to expand outward in all directions to create an immobile plane of solid force up in a 10' radius from the shield for up to 1 hour or until you choose. You cannot use the shield while this effect is occurring. The plane of force wall conforms to the space available. While the force wall remains in place, the only other feature from this glyph path is Healing Pulse.",
+            "8. If you throw your force shield as a weapon at a target within 30' of you, whether it hits or misses, it will attack up to 2 additional targets within 30'.",
+            "9. When you make a melee or thrown attack and hit with the force shield, it releases an explosion of energy, inflicting 4 additional damage on the target and all creatures within 5' of the target. If you use this feature with a melee attack, you and creatures behind you are not affected by this explosion.",
+            "10. The damage of your force shield is increased to 1d8 + your level."
+        ]
+    },
+    {
+        "name": "Channels the Wisdom of the Philosophers",
+        "description": "fostering a mental connection with a lord from your background",
+        "tiers": [
+            "1. Rather than the usual benefits of the Help action, you enjoy double advantage on the check if the helper is proficient in the check.",
+            "2. You gain a connection to a lord of your home city (or the nearest equivalent) who watches over you and attempts to make sure you do well in the world.",
+            "3. Helping Hand: 2/min; bonus action; You sublimate your reflexes, trusting to the instincts of your lord back home. For the next 10 minutes you deal +2 damage with any weapon with which you are proficient. At the end of this time, you deal -2 damage on all attacks for 1 hour.",
+            "4. Psychic Shield: 1/min; bonus action; You call upon your lord to shield you from psychic attacks, granting you +2 to Wisdom saving throws for the next hour.",
+            "5. Extended Sublimation: 1/SR; bonus action; The DM takes over your character for 3 rounds, during which time your lord acts as they will through your body. Generally, your lord cannot attack through you, but can speak and have proficiency in all social interaction tasks and a +5 modifier in Charisma.",
+            "6. You gain proficiency in meditation. If you succeed in entering a meditative state during a short rest, you recover 12 additional hit points.",
+            "7. One Mind: 1/week; bonus action; You completely merge minds with your lord. While in this strange mental state all of your ability scores have a +2 bonus. Lasts for 1 hour.",
+            "8. +2 to checks with which you are receiving the Help action.",
+            "9. Your lord gains sway and status in another city of your choice.",
+            "10. You can now use your Helping Hand feature at-will, and the damage penalty it grants is reduced to -1."
+        ]
     }
 ]

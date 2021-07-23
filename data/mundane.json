@@ -125,6 +125,56 @@
                 "Name": "Flail",
                 "Description": "1d6 B; disarm; sweep; trip",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Glaive",
+                "Description": "1d8 S; 2h; deadly; forceful; reach",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Greataxe",
+                "Description": "1d12 S; 2h; heavy; sweep",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Greatclub",
+                "Description": "1d10 B; 2h; backswing; heavy; shove",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Greatpick",
+                "Description": "1d10 P; 2h; fatal (d12); heavy",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Greatsword",
+                "Description": "1d12 S; 2h; flexible (P); heavy",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Guisarme",
+                "Description": "1d10 S; 2h; reach; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Halberd",
+                "Description": "1d10 P; 2h; reach; flexible (S)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Hatchet",
+                "Description": "1d6 S; light; sweep; thrown (10'/15')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Lance",
+                "Description": "1d8 P; 2h; charge (d10); deadly; reach",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Light Hammer",
+                "Description": "1d6 B; light; thrown (20'/30')",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [
@@ -270,11 +320,6 @@
                 "Tags": ["armour"]
             },
             {
-                "Name": "Weathered Crown",
-                "Description": "Helm slot; +1 1st-lvl spell slot",
-                "Tags": ["armour"]
-            },
-            {
                 "Name": "Solar Helm",
                 "Description": "Helm slot; +2 fire res",
                 "Tags": ["armour"]
@@ -282,6 +327,86 @@
             {
                 "Name": "Shadow Crest",
                 "Description": "Helm slot; -1 crit req",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Death Mask",
+                "Description": "Helm slot; +4 minion HP",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Verdant Hood",
+                "Description": "Helm slot; +1 DoT dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Nomad Cowl",
+                "Description": "Helm slot; +2 cold res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Coven Hood",
+                "Description": "Helm slot; -1 spell crit req",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Desert Mask",
+                "Description": "Helm slot; +1 to DEX saves",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Shadow Helm",
+                "Description": "Helm slot; +1 psy dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Silver Crown",
+                "Description": "Helm slot; +1 incoming temp HP",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Breathing Mask",
+                "Description": "Helm slot; +2 psn res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Blood Cowl",
+                "Description": "Helm slot; on hit, heal 1 HP",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Bronze Helm",
+                "Description": "Helm slot; +1 crit dice",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Burial Mask",
+                "Description": "Helm slot; +2 minion dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Darkwolf Pelt",
+                "Description": "Helm slot; +1 phys dmg; +1 minion phys dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Icewolf Pelt",
+                "Description": "Helm slot; +1 cold res; +1 to condi DCs",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Solar Crown",
+                "Description": "Helm slot; +1 fire dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Ivory Mask",
+                "Description": "Helm slot; +2 minion spell dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Winged Helm",
+                "Description": "Helm slot; 20% chance to nullify extra crit dmg",
                 "Tags": ["armour"]
             }
         ]

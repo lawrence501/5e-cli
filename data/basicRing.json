@@ -5,7 +5,7 @@
         "tag": "ability score"
     },
     {
-        "description": "+2 incoming temp HP",
+        "description": "+1 incoming temp HP",
         "upgraded": "+1",
         "tag": "temp hp"
     },
