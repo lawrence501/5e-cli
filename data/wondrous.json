@@ -261,6 +261,26 @@
         {
             "name": "Sending Stones",
             "description": "https://5e.tools/items.html#sending%20stones_dmg"
+        },
+        {
+            "name": "Wind Fan",
+            "description": "https://5e.tools/items.html#wind%20fan_dmg"
+        },
+        {
+            "name": "Glamerweave",
+            "description": "https://5e.tools/items.html#uncommon%20glamerweave_erlw"
+        },
+        {
+            "name": "Wheel of Wind and Water",
+            "description": "https://5e.tools/items.html#wheel%20of%20wind%20and%20water_erlw"
+        },
+        {
+            "name": "Dust of Deliciousness",
+            "description": "https://5e.tools/items.html#dust%20of%20deliciousness_egw"
+        },
+        {
+            "name": "Spellwrought Tattoo Needle (2nd)",
+            "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(2nd%20level)_tce"
         }
     ],
     "rare": [

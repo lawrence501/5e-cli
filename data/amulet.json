@@ -468,5 +468,80 @@
     "name": "beastmaster - primal aspects",
     "mods": ["duration of buffs on you and your minions is doubled"],
     "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - battle hardened",
+    "mods": ["if you've been hit since last turn, +2 $physType res and +2 phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - weapons master",
+    "mods": ["+1 $abilityScore", "+1 throwing dmg", "+1 melee dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - steel aegis",
+    "mods": ["+1 dmg res", "+1 AC"],
+    "upgrade": "+1 NOT AC"
+  },
+  {
+    "name": "forge guard - unflinching",
+    "mods": ["+1 to condi saves", "+1 to saves to end ongoing effects"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - guardian",
+    "mods": ["+1 max HP", "on hit, 20% chance to stun until end of target's next turn"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - iron attunement",
+    "mods": ["+1 $abilityScore", "+1 phys res", "+1 minion phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - thornmail",
+    "mods": ["+1 phys res", "+1 dmg thorns"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - smelter's might",
+    "mods": ["on your and minion hit, 20% chance to give 1 $physType DoT, stacking until CON save", "on your and minion hit, 20% chance to give 1 $nonPhysType DoT, stacking until CON save", "above chances are doubled while holding 2h melee wep"],
+    "upgrade": "+1 NOT dot dmgs or 2h multi"
+  },
+  {
+    "name": "forge guard - iron reflexes",
+    "mods": ["+1 $abilityScore", "you automatically fail DEX saves", "gain phys res equal to your DEX save bonus"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - folded steel",
+    "mods": ["+1d4 $physType dmg to your minion melee dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - might",
+    "mods": ["+1 $abilityScore", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - infinite bulwark",
+    "mods": ["if you've used 1+ healing surges since start of your last turn, +1 phys res", "your 1 loot rolls become 2s (blessing)"],
+    "upgrade": "+1 phys res"
+  },
+  {
+    "name": "forge guard - flawless defender",
+    "mods": ["+1 phys res while holding a shield", "+1 AC while holding a shield"],
+    "upgrade": "+1 NOT AC"
+  },
+  {
+    "name": "forge guard - avatar of war",
+    "mods": ["when hit, +2 melee dmg for combat"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "forge guard - molded by the forge",
+    "mods": ["+1 $weaponClass dmg"],
+    "upgrade": "+1"
   }
 ]

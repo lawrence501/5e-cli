@@ -175,6 +175,31 @@
                 "Name": "Light Hammer",
                 "Description": "1d6 B; light; thrown (20'/30')",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Light Pick",
+                "Description": "1d4 P; light; fatal (d8)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Longsword",
+                "Description": "1d8 S; flexible (P)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Main-gauche",
+                "Description": "1d4 P; light; disarm; finesse; parry; flexible (S)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Maul",
+                "Description": "1d12 B; 2h; heavy; shove",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Nunchaku",
+                "Description": "1d4 B; 2h; compound; finesse",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [
@@ -407,6 +432,101 @@
             {
                 "Name": "Winged Helm",
                 "Description": "Helm slot; 20% chance to nullify extra crit dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Dawn Plate",
+                "Description": "Body slot; +1 phys res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Witch Robes",
+                "Description": "Body slot; +1 spell dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Solar Plate",
+                "Description": "Body slot; +2 fire res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Nomad Garb",
+                "Description": "Body slot; +2 cold res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Umbral Coat",
+                "Description": "Body slot; -1 crit req",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Hunting Garb",
+                "Description": "Body slot; +1 to DEX saves",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Rowan Armour",
+                "Description": "Body slot; +1 phys dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Boiled Leather",
+                "Description": "Body slot; +2 light res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Forest Garb",
+                "Description": "Body slot; +1 outgoing healing",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Shadow Plate",
+                "Description": "Body slot; +1 psy dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Oak Armour",
+                "Description": "Body slot; +2 psn res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Elder Raiment",
+                "Description": "Body slot; +1 to condi DCs",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Profane Armour",
+                "Description": "Body slot; on spell hit, heal 1 HP",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Shamanic Garb",
+                "Description": "Body slot; +2 minion dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Battlemage Robes",
+                "Description": "Body slot; +1 incoming temp HP",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Immortal Plate",
+                "Description": "Body slot; +1 dmg res while bloodied",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Wild Armour",
+                "Description": "Body slot; +5' sp",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Archmage Robes",
+                "Description": "Body slot; on non-cantrip spell cast, gain 3 temp HP",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Heavy Plate",
+                "Description": "Body slot; 20% chance to nullify extra crit dmg",
                 "Tags": ["armour"]
             }
         ]
