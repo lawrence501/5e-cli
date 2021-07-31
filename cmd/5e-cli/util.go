@@ -7,6 +7,7 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
+	"sort"
 )
 
 const DATA_DIR = "data"
@@ -18,6 +19,91 @@ func sliceContains(slice []string, s string) bool {
 		}
 	}
 	return false
+}
+
+var CARD_WEIGHTS = []int{57, 87, 97, 100}
+var CARD_RARITIES = []string{"common", "uncommon", "rare", "foil"}
+
+func getCards(num int) ([]Card, error) {
+	allCards, err := fetchCards()
+	if err != nil {
+		return []Card{}, err
+	}
+
+	var cards []Card
+	for len(cards) < num {
+		rarityRoll := rand.Intn(100)
+		var rarity string
+		for i := range CARD_WEIGHTS {
+			if rarityRoll < CARD_WEIGHTS[i] {
+				rarity = CARD_RARITIES[i]
+				break
+			}
+		}
+
+		var rarityCards []Card
+		switch rarity {
+		case "common":
+			rarityCards = allCards.Common
+		case "uncommon":
+			rarityCards = allCards.Uncommon
+		case "rare":
+			rarityCards = allCards.Rare
+		case "foil":
+			foilRarity := CARD_RARITIES[rand.Intn(3)]
+			switch foilRarity {
+			case "common":
+				rarityCards = allCards.Common
+			case "uncommon":
+				rarityCards = allCards.Uncommon
+			case "rare":
+				rarityCards = allCards.Rare
+			default:
+				return []Card{}, fmt.Errorf("Invalid foil myth card rarity: %s", foilRarity)
+			}
+			rarity = "foil - " + foilRarity
+		default:
+			return []Card{}, fmt.Errorf("Invalid myth card rarity: %s", rarity)
+		}
+
+		newCard := rarityCards[rand.Intn(len(rarityCards))]
+		newCard.Rarity = rarity
+		cards = append(cards, newCard)
+	}
+
+	rarityPoints := map[string]int{
+		"common":          1,
+		"uncommon":        2,
+		"rare":            3,
+		"foil - common":   4,
+		"foil - uncommon": 5,
+		"foil - rare":     6,
+	}
+	sort.Slice(cards, func(i, j int) bool {
+		iRarity := rarityPoints[cards[i].Rarity]
+		jRarity := rarityPoints[cards[j].Rarity]
+		return iRarity < jRarity
+	})
+	return cards, nil
+}
+
+func fetchCards() (Cards, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return Cards{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "card.json"))
+	if err != nil {
+		return Cards{}, err
+	}
+
+	cards := Cards{}
+	err = json.Unmarshal([]byte(f), &cards)
+	if err != nil {
+		return Cards{}, err
+	}
+	return cards, nil
 }
 
 func getEnchants(num int, tags []string) ([]Enchant, error) {

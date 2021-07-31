@@ -17,8 +17,8 @@ var COMMAND_MAP = map[string]func() error{
 	"4":             mundane,
 	"5":             wondrous,
 	"6":             singleEnchant,
-	"7":             mediumGold,
-	"8":             essence,
+	"7":             essence,
+	"8":             cards,
 	"9":             doubleEnchant,
 	"11":            highGold,
 	"10":            func() error { log.Println("Reroll twice with +1 colour!"); return nil },
@@ -27,7 +27,7 @@ var COMMAND_MAP = map[string]func() error{
 	"13":            ring,
 	"14":            doubleValueSingleEnchant,
 	"15":            tripleEnchant,
-	"16":            belt,
+	"16":            doubleValueDoubleEnchant,
 	"17":            craftingStone,
 	"18":            func() error { log.Println("Dream Mirror"); return nil },
 	"19":            func() error { log.Println("Glyph"); return nil },
@@ -41,6 +41,7 @@ var COMMAND_MAP = map[string]func() error{
 	"skill":         skill,
 	"dmg type":      dmgType,
 	"creature type": creatureType,
+	"card":          singleCard,
 }
 
 func main() {

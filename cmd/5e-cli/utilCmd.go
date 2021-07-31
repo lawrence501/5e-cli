@@ -8,6 +8,16 @@ import (
 	"github.com/manifoldco/promptui"
 )
 
+var singleCard = func() error {
+	cards, err := getCards(1)
+	if err != nil {
+		return err
+	}
+
+	log.Printf("Myth card\n[%s] %s (%s)", cards[0].Rarity, cards[0].Name, cards[0].Set)
+	return nil
+}
+
 var colour = func() error {
 	rollP := promptui.Prompt{
 		Label:    "Loot roll",

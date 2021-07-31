@@ -184,15 +184,28 @@ var doubleValueSingleEnchant = func() error {
 	return nil
 }
 
-var belt = func() error {
-	belts, err := fetchGenerics("belt")
+var doubleValueDoubleEnchant = func() error {
+	base, err := getMundane("standard")
 	if err != nil {
 		return err
 	}
 
-	chosen := belts[rand.Intn(len(belts))]
-	chosen.Description = processMod(chosen.Description)
-	log.Printf("Belt\n%s", chosen.Description)
+	enchants, err := getEnchants(2, base.Tags)
+	if err != nil {
+		return err
+	}
+
+	log.Printf("2E magic item\nBase: %s (%s)\n- %s [%spts; %s] (HARD DOUBLE)\n- %s [%spts; %s] (HARD DOUBLE)", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade, enchants[1].Description, enchants[1].PointValue, enchants[1].Upgrade)
+	return nil
+}
+
+var cards = func() error {
+	cards, err := getCards(3)
+	if err != nil {
+		return err
+	}
+
+	log.Printf("Myth cards\n1. [%s] %s (%s)\n2. [%s] %s (%s)\n3. [%s] %s (%s)", cards[0].Rarity, cards[0].Name, cards[0].Set, cards[1].Rarity, cards[1].Name, cards[1].Set, cards[2].Rarity, cards[2].Name, cards[2].Set)
 	return nil
 }
 

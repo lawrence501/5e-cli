@@ -26,6 +26,18 @@ type Mundane struct {
 	Tags        []string `json:"tags"`
 }
 
+type Cards struct {
+	Common   []Card `json:"common"`
+	Uncommon []Card `json:"uncommon"`
+	Rare     []Card `json:"rare"`
+}
+
+type Card struct {
+	Name   string `json:"name"`
+	Set    string `json:"set"`
+	Rarity string
+}
+
 type Wondrous struct {
 	Common    []Generic `json:"common"`
 	Uncommon  []Generic `json:"uncommon"`

@@ -1,0 +1,29 @@
+{
+    "common": [
+        {
+            "name": "1. Cloud",
+            "set": "Xiloans",
+            "primary": "2-pointer",
+            "secondary": "1-pointer",
+            "foil": "generic 1-pointer"
+        }
+    ],
+    "uncommon": [
+        {
+            "name": "4. Mensis",
+            "set": "Xiloans",
+            "primary": "2-pointer",
+            "secondary": "1-pointer",
+            "foil": "generic 1-pointer"
+        }
+    ],
+    "rare": [
+        {
+            "name": "5. Gawdian",
+            "set": "Xiloans",
+            "primary": "2-pointer",
+            "secondary": "1-pointer",
+            "foil": "generic 1-pointer"
+        }
+    ]
+}
