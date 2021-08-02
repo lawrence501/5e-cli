@@ -1063,5 +1063,90 @@
         "name": "careful handling",
         "mods": ["+3 pers area dmg", "+2 max HP"],
         "tags": ["pers area", "hp"]
+    },
+    {
+        "name": "peak vigour",
+        "mods": ["+2 max HP", "+2 healing from healing surges"],
+        "tags": ["hp", "surge healing"]
+    },
+    {
+        "name": "fettle",
+        "mods": ["+5 max HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "feast of flesh",
+        "mods": ["+3 max HP", "on wep hit, heal 2 HP"],
+        "tags": ["hp", "wep dmg"]
+    },
+    {
+        "name": "sublime sensation",
+        "mods": ["+5 max HP", "+1 incoming temp HP"],
+        "tags": ["hp", "temp hp"]
+    },
+    {
+        "name": "surging vitality",
+        "mods": ["+1 max HP", "+2 passive regen"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "peace amidst chaos",
+        "mods": ["+1 max HP", "if you haven't moved since start of your last turn, +2 passive regen and +1 {physType} res"],
+        "tags": ["hp", "phys res"]
+    },
+    {
+        "name": "adrenaline",
+        "mods": ["+3 max HP", "on hit, heal 1 HP", "if you've healed yourself since start of your last turn, +2 wep dmg"],
+        "tags": ["hp", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "wall of muscle",
+        "mods": ["+1 max HP", "+1 {abilityScore}"],
+        "tags": ["hp", "ability score"]
+    },
+    {
+        "name": "scintillating idea",
+        "mods": ["ignore {nonPhysType} res"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "holistic health",
+        "mods": ["+5 max HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "genius",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "improvisor",
+        "mods": ["+3 wep dmg"],
+        "tags": ["wep dmg"]
+    },
+    {
+        "name": "stubborn student",
+        "mods": ["+4 {physType} res"],
+        "tags": ["phys res"]
+    },
+    {
+        "name": "savour the moment",
+        "mods": ["+1 incoming temp HP", "if you haven't moved since start of your last turn, gain 2 temp HP on turn start"],
+        "tags": ["temp HP"]
+    },
+    {
+        "name": "energy from naught",
+        "mods": ["+4 incoming temp HP"],
+        "tags": ["temp HP"]
+    },
+    {
+        "name": "spring back",
+        "mods": ["+4 incoming temp HP"],
+        "tags": ["temp HP"]
+    },
+    {
+        "name": "conservation of energy",
+        "mods": ["+2 incoming temp HP", "on spell hit, gain 3 temp HP"],
+        "tags": ["temp HP", "spell dmg"]
     }
 ]

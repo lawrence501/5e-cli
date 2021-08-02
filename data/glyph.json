@@ -718,5 +718,85 @@
             "9. Your lord gains sway and status in another city of your choice.",
             "10. You can now use your Helping Hand feature at-will, and the damage penalty it grants is reduced to -1."
         ]
+    },
+    {
+        "name": "Radiates Vitality",
+        "description": "radiating a field of vitality",
+        "tiers": [
+            "1. Your biomorphic field sustains you. +3 CON.",
+            "2. Your biomorphic field grants you an additional hit die after every long rest.",
+            "3. Detect Life: 1/min; bonus action; You consciously send out a pulse of your biomorphic field. You detect all living creatures within 30' of you, even if they are behind cover, though not if they are behind a magical barrier. When you detect a creature, you detect its general location (to within 5').",
+            "4. Empathy: 1/SR; bonus action; You consciously send out a pulse of your biomorphic field and focus it on a living creature within 30' that you can see or know to be there. If you succeed, you learn that creature's CR, as well as its surface feelings and thoughts for up to the next minute. If it becomes aware of your empathic probe, it can attempt to escape your focus by moving out of short range.",
+            "5. Biomorphic Healing: 1/SR; bonus action; You consciously send out a pulse of your biomorphic field and focus it on a living creature within 30' of you. The target immediately gains the effects of a level 1 healing potion. You cannot use this feature again on that creature until it completes a long rest.",
+            "6. Your biomorphic field continues to function even if you die from violence, as long as your body is mostly intact. 1 minute after your death, your biomorphic field pulses and brings you back to life; however you come back with a permanent -1 to INT.",
+            "7. Biomorphic Detonation: 1/month; bonus action; You radiate a pulse of biomorphic energy up to 30' away, but you tune it to disrupt life in a 5' cube. All within the detonation take 1d8 + 1d6 + your level true damage.",
+            "8. Regenerate Other: 1/decade; free action; You can confer your regeneration after death feature on another creature that you touch and attempt to return it to life, as long as its body is mostly intact. This is a medicine skill check with a DC of 9 + 3 per day the target has been dead.",
+            "9. +2 CON.",
+            "10. You gain 2 additional hit dice after every long rest."
+        ]
+    },
+    {
+        "name": "Fuses Flesh and Steel",
+        "description": "becoming a cyborg",
+        "tiers": [
+            "1. You gain +1 AC, +1 STR, and +1 DEX.",
+            "2. Traditional healing skills, medicines and techniques work only half as well for you. Each time you start at full health, the first 10 points of damage you take can never be healed in these ways or recovered normally. Instead, you must use repairing skills and abilities to restore those hit points.",
+            "3. By directly plugging into a magical object, you can identify and learn how to operate it with advantage.",
+            "4. You can see in dim light and darkness as if it were bright light, and you can see up to 30' through fog, smoke, and other obscuring phenomena.",
+            "5. One non-heavy weapon of your choice if built into your body, and you gain proficiency in it. The weapon is concealed until you wish to use it.",
+            "6. You can fuse your magical items with your body. Whenever you use a consumeable, it is treated as 1 tier higher. Additionally, artifacts and relics are automatically levelled once for free, and their maximum levels are increased by 1.",
+            "7. Once per long rest, you can transfer up to 5 points between your ability scores in any combination, at a rate of 1 point per round.",
+            "8. Once per long rest, you can recover 2d6 + 12 hit points, ignoring the reduced healing you receive from this glyph path.",
+            "9. You gain +1 AC and 2 ability score points to allocate freely.",
+            "10. You gain +3 AC."
+        ]
+    },
+    {
+        "name": "Weaves Flesh and Bone",
+        "description": "modifying the shape and structure of bodies",
+        "tiers": [
+            "1. Self Expression: At-will; bonus action; You may alter your own body to take on a strange aspect. Gain a cosmetic mutation of your creation. This effect lasts for 1 hour.",
+            "2. You gain +2 to all diguise-related checks.",
+            "3. Disruptive Caress: 2/min; bonus action; You touch the body of another living person or creature, altering them just as you could with your Self Expression feature. This effect lasts for one hour.",
+            "4. Become More: 1/min; bonus action; By caressing your own body you alter its shape and nature, providing a random beneficial mutation. This effect lasts for 1 hour.",
+            "5. You gain +2 to all disuise-related checks.",
+            "6. Creative Touch: 1/SR; bonus action; By touching another living creature you may grant your target a random harmful or beneficial mutation. The effect lasts for one hour.",
+            "7. Patch: 1/LR; bonus action; By manipulating the flesh and bone of another you can stop bleeding and make minor repairs. You heal them for 20% of their maximum hit points.",
+            "8. Flesh Dance: 1/week; bonus action; You alter yourself to take on the face, body type, and voice of a particular person for 1 hour.",
+            "9. Your Self Expression feature now lasts 8 hours.",
+            "10. You gain +3 to all disguise-related checks."
+        ]
+    },
+    {
+        "name": "Masters Weaponry",
+        "description": "mastering a specific class of weaponry",
+        "tiers": [
+            "1. You gain +2 bonus to damage with a weapon class of your choice.",
+            "2. You gain proficiency/+2 in the craft associated with your chosen weapon class.",
+            "3. While a weapon of your chosen class is in your hand(s), you have +2 to DEX saving throws.",
+            "4. Disarming Strike: 1/min; bonus action; Your attack inflicts -2 damage and disarms your target so that their weapon is now 10' away on the ground.",
+            "5. Rapid Attack: 1/min; free action; You can make an attack with your chosen weapon class.",
+            "6. If you roll a natural 1 when attacking with your chosen weapon class, you can still add your AB and other modifications to the score. You can never be disarmed of your chosen weapon class, nor will you ever drop it accidentally.",
+            "7. Extreme Mastery: 1/week; free action; When using your chosen weapon class, you can reroll any attack roll you wish and take the better of the 2 results.",
+            "8. You gain a +6 bonus to damage with your chosen weapon class.",
+            "9. Death Dealer: 1/LR; bonus action; If you strike a creature of CR 1 or less with your chosen weapon, you kill the target instantly.",
+            "10. You gain expertise with your chosen weapon class."
+        ]
+    },
+    {
+        "name": "Embraces Chaos",
+        "description": "harnessing chaotic magic",
+        "tiers": [
+            "1. Warp: At-will; bonus action; Using your wild connection to the magic that permeates everything in the universe, you launch a blast of energy to temporarily disrupt it, causing it to randomly deform and warp all matter of a single target within 30' of you. The target takes 1d8 + your level true damage.",
+            "2. Chaotic Touch: 1/min; bonus action; Your body is infused with chaos and with a touch, you can transfer a portion of that chaotic influence into another, inflicting a random beneficial or harmful mutation on the target which lasts for 1hr.",
+            "3. Your body is a silent storm of chaotic activity, constantly shifting and reforming beneath your skin. As a result, you gain +1 AC as your body shifts and adapts randomly.",
+            "4. Aura of Chaos: 1/SR; bonus action; You can now use your Warp feature as an area of effect that originates from you, damaging everything within 30' of you as you emit a swarming aura of magic.",
+            "5. Transmutation: 1/SR; free action; You can consume an unused consumeable, destroying it and reforming it into a new, random configuration. Roll for a new consumeable of the same type. The process takes 1 minute.",
+            "6. You can sense the presence of shifting matter and chaotic energies. All checks relating to sensing magic have double advantage.",
+            "7. Changecraft: 1/LR; bonus action; You have the ability to warp and reshape matter by using your wild magic. You can create simple items from any material to which you have access, including the flesh of other creatures. Items are rarely well made, but are serviceable as simple weapons, trinkets, or tools. Whenever you use one, there is a 15% chance it will fall apart or crumble to dust. When creating an object with the flesh of a living creature, they take 1d6 + 1d8 + your level slashing damage. The creation process takes 1 minute.",
+            "8. Heart of the Storm: 1/week; bonus action; You burst into a magical vortex that changes the landscape and creatures within your reach. You lose your corporeal form and become immunte to physical damage. All creatures within 120' of you of CR 1 or lower is destroyed by your warping effects and all others take 1d6 + 1d8 + your level bludgeoning damage. New obstacles, entirely new creatures, or other random effects may take place at the DM's discretion. The effect lasts for 1 round, after which you revert to your previous form.",
+            "9. Your Warp feature's damage increases to 1d12 + your level.",
+            "10. Your Chaotic Touch feature can now be used at-will."
+        ]
     }
 ]

@@ -171,7 +171,7 @@
   },
   {
     "name": "primalist - berserker",
-    "mods": ["while bloodied, +1 melee dmg", "while bloodied, +1 dmg res"],
+    "mods": ["while $healthStatus, +1 melee dmg", "while {healthStatus}, +1 dmg res"],
     "upgrade": "+1"
   },
   {
@@ -543,5 +543,95 @@
     "name": "forge guard - molded by the forge",
     "mods": ["+1 $weaponClass dmg"],
     "upgrade": "+1"
+  },
+  {
+    "name": "druid - blood claws",
+    "mods": ["on $physType hit, heal 1 HP", "ignore {physType} res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - barkskin",
+    "mods": ["+1 dmg res while $healthStatus", "+1 phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - woodlore",
+    "mods": ["+1 $abilityScore", "+1 $nonPhysType res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - spirit claws",
+    "mods": ["+1d4 $physType dmg to melee wep atks", "+1d4 {physType} dmg to spells", "above bonuses doubled while shapeshifted"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - primal shifter",
+    "mods": ["if you've shapeshifted since start of your last turn, +1 global dmg and +1 dmg res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - healing totems",
+    "mods": ["1/rnd, when hit, 30% chance to summon healing totem in adj space, acts after your turn, 11+prof AC, 5*lvl HP, heals 1 HP of nearest ally", "+3 minion HP"],
+    "upgrade": "+10% ALT +2 minion HP NOT totem stats"
+  },
+  {
+    "name": "druid - rootborn wrath",
+    "mods": ["+1d4 $physType dmg to spells", "+1 spell dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - blossoming vines",
+    "mods": ["+2 outgoing healing", "+1 minion outgoing healing", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - thicket blades",
+    "mods": ["+1 $physType spell dmg", "1/turn, when hit, 20% chance for thicket blade atk to slash, dealing 1d4 S spell dmg to adj foes"],
+    "upgrade": "+1 spell dmg ALT +10% NOT proc stats"
+  },
+  {
+    "name": "druid - eternal nature",
+    "mods": ["+1 $abilityScore", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - ursine claws",
+    "mods": ["+1 $abilityScore", "-1 crit req"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - briarskin",
+    "mods": ["+1 spell dmg", "when hit, 20% chance to shoot ice shard atk at hitter, dealing 1d4 cold spell dmg"],
+    "upgrade": "+1 spell dmg ALT +10% NOT proc stats"
+  },
+  {
+    "name": "druid - woodland bond",
+    "mods": ["+1 minion dmg", "+2 minion outgoing healing"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - oaken form",
+    "mods": ["while shapeshifted, +1 phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - hideskin",
+    "mods": ["+1 max HP", "increase your bloodied threshold by your max HP bonus"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "druid - spirit barbs",
+    "mods": ["on spell cast, 20% chance to summon orbiting spirit, untargetable/dmg'able, must always be adj to you, melee spell atk dealing 1d4 light"],
+    "upgrade": "+10% NOT spirit stats"
+  },
+  {
+    "name": "druid - healing nova",
+    "mods": ["first hit of each combat procs healing nova, you and adj allies heal 3 HP"],
+    "upgrade": "+2"
+  },
+  {
+    "name": "druid - ursine maw",
+    "mods": ["-1 crit req", "on crit, +1 $physType dmg for 1rnd. no stack"],
+    "upgrade": "-1 crit req ALT +1rnd NOT buff bonus"
   }
 ]

@@ -3,27 +3,41 @@
         {
             "name": "1. Cloud",
             "set": "Xiloans",
-            "primary": "2-pointer",
-            "secondary": "1-pointer",
-            "foil": "generic 1-pointer"
+            "primary": "-2 crit req with adv atks",
+            "secondary": "-1 crit req with adv atks",
+            "foil": "+3 crit dmg"
+        },
+        {
+            "name": "2. Aroshi",
+            "set": "Xiloans",
+            "primary": "1/LR, bonus to shapeshift into random CR 2 creature until bonus to end or HP lost",
+            "secondary": "1/LR, bonus to shapeshift into random CR 1 creature until bonus to end or HP lost",
+            "foil": "+1 acid dmg"
+        },
+        {
+            "name": "3. P'all",
+            "set": "Xiloans",
+            "primary": "+5 global dmg while flanking",
+            "secondary": "+2 global dmg while flanking",
+            "foil": "+2 minion dmg"
         }
     ],
     "uncommon": [
         {
             "name": "4. Mensis",
             "set": "Xiloans",
-            "primary": "2-pointer",
-            "secondary": "1-pointer",
-            "foil": "generic 1-pointer"
+            "primary": "+2 AC in darkness",
+            "secondary": "+1 AC in darkness",
+            "foil": "+2 natural wep dmg"
         }
     ],
     "rare": [
         {
             "name": "5. Gawdian",
             "set": "Xiloans",
-            "primary": "2-pointer",
-            "secondary": "1-pointer",
-            "foil": "generic 1-pointer"
+            "primary": "+5 global dmg vs targets who have dmg'd you since your last turn",
+            "secondary": "+2 global dmg vs targets who have dmg'd you since your last turn",
+            "foil": "+1 rad dmg"
         }
     ]
 }

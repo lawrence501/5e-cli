@@ -1122,8 +1122,8 @@
         "tags": ["armour"]
     },
     {
-        "description": "+2 dmg res if you haven't moved since start of your last turn",
-        "pointValue": "2",
+        "description": "+1 dmg res if you haven't moved since start of your last turn",
+        "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]
     },
