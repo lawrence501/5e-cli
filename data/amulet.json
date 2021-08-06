@@ -56,7 +56,7 @@
   },
   {
     "name": "paladin - faith armour",
-    "mods": ["+1 phys res", "20% chance to negate extra crit dmg"],
+    "mods": ["+1 phys res", "20% chance to nullify extra crit dmg"],
     "upgrade": "+1 ALT +10%"
   },
   {
@@ -633,5 +633,100 @@
     "name": "druid - ursine maw",
     "mods": ["-1 crit req", "on crit, +1 $physType dmg for 1rnd. no stack"],
     "upgrade": "-1 crit req ALT +1rnd NOT buff bonus"
+  },
+  {
+    "name": "sorcerer - calculated destruction",
+    "mods": ["-1 spell crit req"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - lost knowledge",
+    "mods": ["on non-cantrip spell cast, gain 3 temp HP"],
+    "upgrade": "+2"
+  },
+  {
+    "name": "sorcerer - arcane momentum",
+    "mods": ["if you've cast a spell since start of your last turn, +1 spell dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - pyromancer",
+    "mods": ["+1 $nonPhysType dmg", "on {nonPhysType} hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save"],
+    "upgrade": "+1 dmg ALT +10% NOT dot dmg"
+  },
+  {
+    "name": "sorcerer - cryomancer",
+    "mods": ["+1 $nonPhysType dmg", "+1 to condi DCs"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - ceraunomancer",
+    "mods": ["+1 $nonPhysType dmg", "on {nonPhysType} hit, 20% chance to give target -1 {nonPhysType} res and -1 to condi saves until end of your next turn"],
+    "upgrade": "+1 dmg ALT +10% NOT debuff effects"
+  },
+  {
+    "name": "sorcerer - afterglow",
+    "mods": ["+1 spell dmg", "above is doubled if you've cast a non-cantrip spell since start of your last turn"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - whirling snow",
+    "mods": ["when hit, 20% chance to give hitter sluggish until end of their next turn", "on hit, 20% chance to give sluggish until end of your next turn", "2nd point chance doubled for $nonPhysType hits"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - inferno",
+    "mods": ["+1 non-phys DoT dmg", "your $nonPhysType DoTs have double duration"],
+    "upgrade": "+1 dmg ALT duration multi"
+  },
+  {
+    "name": "sorcerer - arcane avalanche",
+    "mods": ["1/combat, when bloodied, 1 adj foe has 20% chance to be paralysed until end of their next turn"],
+    "upgrade": "+1 foe ALT +10%"
+  },
+  {
+    "name": "sorcerer - crackling precision",
+    "mods": ["-1 spell crit req", "above is doubled for $nonPhysType dmg spells"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - arcane insight",
+    "mods": ["+1 $abilityScore", "on hit, 20% chance to gain +1 non-phys dmg and +1 incoming temp HP until end of your next turn"],
+    "upgrade": "+1 abil ALT +10% NOT buff effect"
+  },
+  {
+    "name": "sorcerer - chronomancy",
+    "mods": ["+1 $abilityScore", "your condis have double duration", "your marks have double duration", "your DoTs have double duration"],
+    "upgrade": "+1 abil ALT +1 multis"
+  },
+  {
+    "name": "sorcerer - warder",
+    "mods": ["1/combat for each non-phys type, 60% chance on non-phys hit to gain 2 temp HP"],
+    "upgrade": "+1 temp HP, not chance"
+  },
+  {
+    "name": "sorcerer - elemental ascendance",
+    "mods": ["+1 non-phys res", "+1 non-phys dmg", "on non-phys hit, 20% chance to stun until end of target's next turn"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - dragon mage",
+    "mods": ["if you've cast a $nonPhysType spell since start of your last turn, +1 $nonPhysType dmg", "if you've cast a $nonPhysType spell since start of your last turn, +1 {nonPhysType1} dmg", "if you've cast a {nonPhysType2} spell since start of your last turn, +1 {nonPhysType3} dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "sorcerer - dragon breath",
+    "mods": ["if you've cast a $nonPhysType spell since start of your last turn, 20% chance on $nonPhysType hit to give -1 {nonPhysType2} dmg res and -1 to condi saves until end of your next turn", "if you've cast a $nonPhysType spell since start of your last turn, 20% chance on {nonPhysType1} hit to give 1 {nonPhysType1} DoT, stacking until CON save", "if you've cast a {nonPhysType2} spell since start of your last turn, 20% chance on {nonPhysType3} hit to give sluggish until end of your next turn"],
+    "upgrade": "+10% chances NOT effects"
+  },
+  {
+    "name": "sorcerer - arcane current",
+    "mods": ["+1 mark effectiveness", "condis from $nonPhysType spells have double duration"],
+    "upgrade": "+1 mark ALT +1 duration multi"
+  },
+  {
+    "name": "sorcerer - recollection",
+    "mods": ["+1d4 force dmg to spells", "above is doubled if you have a 6th-lvl spell slot"],
+    "upgrade": "+1 die size"
   }
 ]

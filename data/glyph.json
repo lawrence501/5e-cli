@@ -798,5 +798,85 @@
             "9. Your Warp feature's damage increases to 1d12 + your level.",
             "10. Your Chaotic Touch feature can now be used at-will."
         ]
+    },
+    {
+        "name": "Descends from Nobility",
+        "description": "attaining nobility",
+        "tiers": [
+            "1. You are adept at claiming the rewards that a noble background can generate. When recognised, you can be seated at any eating establishment no matter how full, get a room in an inn even if that means others are turned out, be let into any court or other structure where laws are decided or nobility rules, be invited to any gala, and get a seat at a private function of any sort. In addition, you gain prof/+2 in Persuasion.",
+            "2. Through wit, charm, humour, and grace (or sometimes rudeness, threatening posture, and obscenity), you are better able to talk others into what you want. You gain prof/+2 in all social skills.",
+            "3. Command: 1/min; bonus action; Through sheer force of will, you can issue a simple imperative command to a single living creature, who then attempts to carry out your command during its next turn. The creature must be within 30' of you and be able to understand you. The command cannot inflict direct harm on the creature or its allies. A commanded creature can still defend itself normally and make attacks of opportunity.",
+            "4. Noble's Courage: 1/min; free action; Your noble affinity teaches that courage is necessary to do things that are difficult, tedious, or dangerous. When your mind would be negatively affected by an effect, whether something as overt as a psychic command or illness, or something as subtle as fear or boredom, your courage neutralises the effect for up to 1 minute or, if actively being attacked, until the next time you are attacked.",
+            "5. A CR 4 humanoid follower joins you as a minion.",
+            "6. Asserting your Privilege: 1/min; bonus action; Acting as only a privileged noble can, you verbally harangue a foe who can hear you so forcefully that they are unable to take any action, including attacks, for 1 round. Whether you succeed or fail, the next d20 roll the target makes has disadvantage.",
+            "7. Font of Inspiration: 1/month; bonus action; An allied character within 5' of you gains a use of Lucky they can use on their next turn.",
+            "8. Mind of a Ruler: 1/week; bonus action; When you develop a course of action to deal with a future situation, you can ask the DM one very general question about what is likely to happen if you carry out the plan, and you will get a simple, brief answer.",
+            "9. +2 to Persuasion.",
+            "10. +3 to all social skills."
+        ]
+    },
+    {
+        "name": "Chases the Wind",
+        "description": "chasing chaos and its blessings",
+        "tiers": [
+            "1. Great risks mean great rewards. You can choose to roll twice on any d20 roll and pick the best result, but if you fail, you and all creatures within 30' of you must make a DC 15 Dexterity saving throw or take 1d12 + 1d10 + your level slashing damage from a hurricane of shrapnel. You also have a knack of knowing when an eruption of power is getting close, granting you prof/+2 in Dexterity saving throws.",
+            "2. Blessingsense: 2/min; free action; You know how to find blessings better than anyone and by feeling out for that all-familiar buzz in the back of your mind, you can replace any loot roll result (before finding out what you have found) with a blessing (2) roll.",
+            "3. Quick Reactions: 2/min; bonus action; You need to be ready for anything when you are chasing down chaos, so you have honed your reactions to a razor-sharp edge. You can react to events almost before they happen, granting you advantage on Dexterity saving throws until the end of your next turn.",
+            "4. All chaos chasers are brothers and sisters, some moreso than others. Your adventures chasing chaos have earned you a contact. You can call upon them for information about new hauls, deals, or for a favour, though they will expect you to pay them back in kind.",
+            "5. You deal in the trade of magic, the scavenging of items from the wreckage of destruction. As such, you have become used to needing to heal more than the average person. Your maximum healing surges increases by 2.",
+            "6. Quick-use Surge: 1/SR; free action; As a chaos chaser, you are always ready to heal yourself. You can use one or more healing surges.",
+            "7. Improvisation: 1/LR; bonus action; You have developed a knack for thinking on your feet and experimenting on the fly with blessings. You have learned how to, with some effort, replace a blessing with a new one that just might be a bit more helpful. You replace a found blessing with a new random one of 1 tier lower.",
+            "8. Sometimes chasing chaos gets ugly and you need to lay low and shelter from the storm, or sometimes get as far away as possible from some dangerous horror your journeys have whipped up. You gain +2 to any skill checks related to finding shelter, hiding, and survival. You also increase your speed by 5'.",
+            "9. You have had so many close calls with chaos and surged health so many times, you have actually learned how to tap into the latent instability. You can choose any number of healing surges to gain at the end of a rest without limit, but every time you use one while you have more than your usual limit, there is a 10% chance for every surge above your limit you have for it to detonate and instead deal its healing as necrotic damage to you and all creatures within 30' of you.",
+            "10. The damage of the shrapnel hurricane you can accidentally summon is reduced to 2d8 + your level for creatures of your choice, but remains the same for any others."
+        ]
+    },
+    {
+        "name": "Hunts",
+        "description": "hunting",
+        "tiers": [
+            "1. +2 to tracking checks",
+            "2. +10' climb speed, +10' swim speed, +10' long/high jump distance, and advantage on balancing checks.",
+            "3. You have advantage on stealth and initiative checks.",
+            "4. Quarry: 2/min; bonus action; Choose a single creature you can see. You gain +2 to all checks involving following, understanding, interacting with, or fighting that creature. You can have only one quarry at a time.",
+            "5. When 2 or more foes attack you at once in melee, you can use them against each other. You gain +2 to either Dexterity saving throws or attack rolls (your choice) against them.",
+            "6. Sprint and Grab: 2/min; bonus action; You can run up to 30' and make a grapple attempt on a creature your size or smaller.",
+            "7. If attacking from a hidden vantage, with surprise, or before your opponent has acted in the current combat, you have advantage on the attack. On a successful hit, you inflict 4 additional damage.",
+            "8. Hunter's Drive: 1/LR; free action; Through force of will, when you wish it, you grant yourself greater prowess in the hunt for 10 minutes. During this time, you gain advantage with all tasks involving your quarry, including attacks.",
+            "9. +2 AB with a weapon category of your choice.",
+            "10. Multiple Quarry: 1/week; bonus action; This feature functions like your Quarry feature except that you can select up to 3 creatures as quarry. You must be able to see all three creatures when you initiate this feature."
+        ]
+    },
+    {
+        "name": "Works the Back Alleys",
+        "description": "gaining the favour and powers of back-alley criminals",
+        "tiers": [
+            "1. Gain prof/+2 in stealth and sleight of hand.",
+            "2. You know many people in a variety of communities who engage in illegal activities. These people are not necessarily your friends and might not be trustworthy, but they recognise you as a peer.",
+            "3. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you have advantage on the check.",
+            "4. Your limited features that have durations last twice as long. Your limited features that have ranges between 30' and 120' have their range increased to 120'. Your limited features that deal damage deal +2 damage.",
+            "5. +10' climb speed, +2 to checks to checks to escape restrains or grapples, and you can squeeze one size smaller.",
+            "6. Dirty Fighter: 2/min; bonus action; You distract, annoy, hamper, or otherwise interfere with a foe, giving their attacks and saving throws disadvantage for 1 minute.",
+            "7. Alley Rat: 1/week; bonus action; While in a city, you find or create a significant shortcut, secret entrance, or emergency escape route where it looked like non existed. Doing so requires that you succeed on a History check with DC based on the situation.",
+            "8. All-out Con: 1/month; bonus action; You put everything into it. You gain triple advantage on the next task you attempt.",
+            "9. +2 to stealth and sleight of hand.",
+            "10. You are now a trusted and revered figure in the criminal community where you have connections. You can treat it as an additional city for you and your allies and can rely on its members as allies."
+          ]
+    },
+    {
+        "name": "Swears Oaths and Curses",
+        "description": "swearing oaths and curses",
+        "tiers": [
+            "1. Morning Oath: At-will; bonus action; You may swear a vow, at some time between sunrise and noon. You can only have one at a time. The effect of the sworn oath lasts until the next sunrise, or until you break the vow associated with it. Choose one of the following oaths when doing so, or create a new one with your DM: 'I shall harm no unarmed foe and accept surrender', you gain advantage on checks to convince a foe to surrender; 'I shall protect the innocent and defend the weak', you gain advantage on saving throws when protecting another character; 'I shall only speak the truth and hide no relevant fact', you gain advantage on social interaction checks, except for deception ones.",
+            "2. Jinx: 2/min; bonus action; With a screaming curse you cause a creature within 120' of you to immediately suffer some ill fate, such as dropping a weapon, falling down, or getting hit by a large falling object. This effect is decided by the DM based on the circumstances, but will usually inflict around 1d10 + your level damage and cause the victim to be in an unfortunate tactical position.",
+            "3. Evening Curse: 1/min; bonus action; You may swear a curse, at some time between sundown and midnight. You can only swear one at a time. The effect of the sworn curse lasts until the next sundown. Choose one of the following curses when doing so, or create a new one with your DM: Assassin's Crutch, anyone who attacks you from behind or from an unknown location immediately takes 1d12 + your level necrotic damage; Liar's Tongue, anyone who lies to you in any way stronger than a white lie immediately finds their tongue has shriveled within their mouth, greatly impairing speech. This effect lasts on the liar for 7 days; Thief's Lament, anyone who steals from you immediately finds that one of their hands has shriveled to a stub. This effect lasts on the thief for 7 days.",
+            "4. Bind the Vow: 1/SR; bonus action; You cast this curse upon a target within 30' of you, after having just heard them utter a vow, promise, or prediction. For the next 7 days, whenever the target breaks this vow, their next act of aggression against any other creature also affects them.",
+            "5. Karmic Vengeance: 1/LR; bonus action; You enter a state for 1 hour, in which the odds tend to get even for you. Whenever you roll a natural 1 or 20 for a task, the task is reflected in a negative way and it affects double the number of targets.",
+            "6. Weave Fate: 1/week; bonus action; You channel the forces of the fey toward the task of making sure a given event takes place. From this point forward, whenever you perform a task directly related to this goal, you gain advantage on it. You may only weave fate towards one objective at any given time. Until your fey-enhanced fate is completed, you may not weave fate again.",
+            "7. You can now swear 2 vows with your Morning Oath feature at a time.",
+            "8. You can now use your Jinx feature at-will.",
+            "9. You can now swear 2 curses with your Evening Curse feature at a time.",
+            "10. Your Bind the Vow feature can now be used twice per minute."
+        ]
     }
 ]
