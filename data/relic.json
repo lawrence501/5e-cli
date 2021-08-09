@@ -518,7 +518,7 @@
     },
     {
         "name": "Innocent Wanderer",
-        "type": "weapon",
+        "type": "armour",
         "startingMods": [
             {
                 "description": "+3 spell dmg vs condi'd targets",
