@@ -834,7 +834,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+3 dmg with this wep outside of your turn",
+        "description": "+3 dmg from reactions",
         "pointValue": "1",
         "upgrade": "2/1",
         "tags": ["weapon"]
@@ -1170,7 +1170,7 @@
         "tags": ["armour"]
     },
     {
-        "description": "+2 natural wep dmg",
+        "description": "+2 mutation dmg",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]
@@ -1284,7 +1284,7 @@
         "tags": ["armour"]
     },
     {
-        "description": "+1 natural wep AB",
+        "description": "+1 mutation AB",
         "pointValue": "3",
         "upgrade": "1/3",
         "tags": ["armour"]

@@ -515,5 +515,79 @@
                 "upgrade": "+1/3"
             }
         ]
+    },
+    {
+        "name": "Innocent Wanderer",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+3 spell dmg vs condi'd targets",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 incoming healing while bloodied",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 passive regen",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 incoming healing per spell dmg bonus",
+                "pointValue": "4",
+                "upgrade": "1/4"
+            },
+            {
+                "description": "2. on AoE hit, allies heal 1 HP",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 outgoing healing per AoE dmg bonus",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. on spell hit, gain 2 temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 incoming temp HP per spell dmg bonus",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on spell hit, 30% chance to slow target until CON save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. temp HP you grant yourself also applies to allies",
+                "pointValue": "4",
+                "upgrade": "+2->1 incoming temp HP/1"
+            },
+            {
+                "description": "8. on AoE hit, knock target prone",
+                "pointValue": "4",
+                "upgrade": "+1 AoE dmg/1"
+            },
+            {
+                "description": "9. on AoE hit, give self and allies +1 spell dmg for combat",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. +5' mounted sp",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            }
+        ]
     }
 ]
