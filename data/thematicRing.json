@@ -41,8 +41,8 @@
     },
     {
         "name": "veteran defender",
-        "mods": ["+1 to all ASs", "+1 AC while holding a shield", "+1 {non-phys res} while holding a shield"],
-        "tags": ["ability score", "wep ac", "spell ac", "holding shield", "non-phys res"]
+        "mods": ["+1 to all ASs", "+1 AC while holding a shield", "+1 {dmgPolarity} res while holding a shield"],
+        "tags": ["ability score", "wep ac", "spell ac", "holding shield", "non-phys res", "phys res"]
     },
     {
         "name": "iron breaker",
@@ -56,8 +56,8 @@
     },
     {
         "name": "master the fundamentals",
-        "mods": ["+4 {physType} dmg", "-1 {dmgPolarity} dmg", "+2 {nonPhysType} res"],
-        "tags": ["phys dmg", "dmg polarity", "non-phys res"]
+        "mods": ["+3 {physType} dmg", "-1 {dmgPolarity} dmg", "+1 {dmgPolarity} res"],
+        "tags": ["phys dmg", "dmg polarity", "non-phys res", "phys res"]
     },
     {
         "name": "force multiplier",
@@ -561,8 +561,8 @@
     },
     {
         "name": "prismatic heart",
-        "mods": ["+1 {dmgPolarity} dmg", "+2 {nonPhysType} res"],
-        "tags": ["dmg polarity", "non-phys res"]
+        "mods": ["+1 {dmgPolarity} dmg", "+1 {dmgPolarity} res"],
+        "tags": ["dmg polarity", "phys res", "non-phys res"]
     },
     {
         "name": "widespread destruction",
@@ -1148,5 +1148,110 @@
         "name": "conservation of energy",
         "mods": ["+2 incoming temp HP", "on spell hit, gain 3 temp HP"],
         "tags": ["temp HP", "spell dmg"]
+    },
+    {
+        "name": "heart of iron",
+        "mods": ["gain {physType} res equal to your max HP bonus"],
+        "tags": ["phys res"]
+    },
+    {
+        "name": "prismatic carapace",
+        "mods": ["+1 {dmgPolarity} abs", "+2 {physType} res"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "militarism",
+        "mods": ["+3 max HP", "+3 {physType} res"],
+        "tags": ["hp", "phys res"]
+    },
+    {
+        "name": "second skin",
+        "mods": ["+1 AC", "+1 {physType} res"],
+        "tags": ["wep ac", "spell ac", "phys res"]
+    },
+    {
+        "name": "dragon hunter",
+        "mods": ["+2 {nonPhysType} res", "+2 {physType} res", "on taking {physType} dmg, 40% chance to double your {physType} res for that dmg"],
+        "tags": ["non-phys res", "phys res"]
+    },
+    {
+        "name": "enduring composure",
+        "mods": ["+1 {physType} res", "1/rnd, when hit, gain +2 dmg res for combat"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "uncompromising",
+        "mods": ["+1 to condi saves"],
+        "tags": ["save"]
+    },
+    {
+        "name": "prismatic dance",
+        "mods": ["+1 {dmgPolarity} abs", "+1 to {abilityScore} saves"],
+        "tags": ["phys res", "non-phys res", "save"]
+    },
+    {
+        "name": "natural vigour",
+        "mods": ["+2 max HP", "+1 to {abilityScore} saves"],
+        "tags": ["hp", "save"]
+    },
+    {
+        "name": "untouchable",
+        "mods": ["+2 to {abilityScore} saves"],
+        "tags": ["save"]
+    },
+    {
+        "name": "shifting shadow",
+        "mods": ["+1 {abilityScore}", "on hit, 20% chance to blind until end of your next turn", "+1 to {abilityScore} saves"],
+        "tags": ["ability score", "wep dmg", "spell dmg", "condi", "save"]
+    },
+    {
+        "name": "readiness",
+        "mods": ["if you haven't been hit since last turn, +1 to {abilityScore} saves", "+2 to condi saves"],
+        "tags": ["save"]
+    },
+    {
+        "name": "sublime form",
+        "mods": ["+2 {dmgPolarity} res"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "confident combatant",
+        "mods": ["+1 global dmg per wep AC bonus"],
+        "tags": ["wep dmg", "spell dmg", "wep ac"]
+    },
+    {
+        "name": "flexible sentry",
+        "mods": ["+1 AC", "+1 to saves to end ongoing effects", "+1 to condi saves"],
+        "tags": ["wep ac", "spell ac", "save"]
+    },
+    {
+        "name": "vicious guard",
+        "mods": ["+1 wep AC", "+1 passive regen", "on wep hit, heal 1 HP"],
+        "tags": ["wep ac", "hp", "wep dmg"]
+    },
+    {
+        "name": "mystical ward",
+        "mods": ["+1 spell AC", "+1 passive temp HP gen", "on spell hit, gain 1 temp HP"],
+        "tags": ["spell ac", "temp HP", "spell dmg"]
+    },
+    {
+        "name": "rote reinforcement",
+        "mods": ["+1 max HP", "+1 wep AC", "on block, 20% chance to gain +1 dmg res for combat"],
+        "tags": ["hp", "wep ac", "spell ac", "phys res", "non-phys res"]
+    },
+    {
+        "name": "mage hunter",
+        "mods": ["+1 spell dmg", "+1 spell AC", "on block, 20% chance to gain -1 crit req for combat"],
+        "tags": ["spell dmg", "spell ac", "wep ac", "crit"]
+    },
+    {
+        "name": "riot queller",
+        "mods": ["+1 wep AC", "+1 global dmg vs targets who have targeted you since last turn"],
+        "tags": ["wep ac", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "one with the shield",
+        "mods": ["on block, heal 1 HP", "+1 AC while holding a shield", "+1 wep AC while holding a shield"],
+        "tags": ["wep ac", "spell ac", "hp", "holding shield"]
     }
 ]
