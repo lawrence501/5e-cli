@@ -1253,5 +1253,75 @@
         "name": "one with the shield",
         "mods": ["on block, heal 1 HP", "+1 AC while holding a shield", "+1 wep AC while holding a shield"],
         "tags": ["wep ac", "spell ac", "hp", "holding shield"]
+    },
+    {
+        "name": "aerialist",
+        "mods": ["+1 to {abilityScore} saves", "+1 {abilityScore}"],
+        "tags": ["save", "ability score"]
+    },
+    {
+        "name": "elegant form",
+        "mods": ["+1 to {abilityScore} saves", "+1 to condi saves"],
+        "tags": ["save"]
+    },
+    {
+        "name": "darting movements",
+        "mods": ["if you've moved 10+' since start of your last turn, +1 to {abilityScore} saves", "+5' sp"],
+        "tags": ["speed", "save"]
+    },
+    {
+        "name": "no witnesses",
+        "mods": ["on KB, 20% chance to gain +10' sp and +2 to {abilityScore} saves until end of your next turn"],
+        "tags": ["speed", "save"]
+    },
+    {
+        "name": "molten one's mark",
+        "mods": ["+1 {nonPhysType} abs", "+1 passive regen"],
+        "tags": ["non-phys res", "hp"]
+    },
+    {
+        "name": "fire attunement",
+        "mods": ["+1 to saves to end ongoing effects", "+1 pers area dmg res", "if you've received a condi since last turn, imm to that condi"],
+        "tags": ["save", "phys res", "non-phys res"]
+    },
+    {
+        "name": "pure might",
+        "mods": ["+1 {abilityScore}", "+1 to saves to end ongoing effects"],
+        "tags": ["ability score", "save"]
+    },
+    {
+        "name": "blacksmith",
+        "mods": ["+1 {nonPhysType} res", "+2 {physType} res", "on {nonPhysType} hit, heal 2 HP"],
+        "tags": ["non-phys res", "phys res", "non-phys dmg", "hp"]
+    },
+    {
+        "name": "non-flammable",
+        "mods": ["+1 {nonPhysType} res", "+1 to condi saves", "+1 {nonPhysType} abs"],
+        "tags": ["non-phys res", "save"]
+    },
+    {
+        "name": "winter prowler",
+        "mods": ["+1 {nonPhysType} abs", "+1 healing from healing surges"],
+        "tags": ["non-phys res", "surge healing"]
+    },
+    {
+        "name": "hibernator",
+        "mods": ["+1 to saves to end ongoing effects", "+1 to condi saves", "ignore diff terrain", "if you've received a condi since last turn, imm to that condi"],
+        "tags": ["save", "speed"]
+    },
+    {
+        "name": "pure guile",
+        "mods": ["+1 {abilityScore}", "on hit, 20% chance to blind target until end of your next turn"],
+        "tags": ["ability score", "wep dmg", "spell dmg", "condi"]
+    },
+    {
+        "name": "alchemist",
+        "mods": ["+1 {nonPhysType} res", "+1 global dmg", "+1 healing from healing surges"],
+        "tags": ["non-phys res", "wep dmg", "spell dmg", "surge healing"]
+    },
+    {
+        "name": "antifreeze",
+        "mods": ["+1 {nonPhysType} res", "+1 to condi saves", "+1 {nonPhysType} abs"],
+        "tags": ["non-phys res", "save"]
     }
 ]

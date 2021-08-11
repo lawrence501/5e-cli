@@ -176,7 +176,7 @@
   },
   {
     "name": "sentinel - overwhelm",
-    "mods": ["+1d4 $physType dmg to your melee dmg", "on melee hit, 10% chance to stun until end of target's next turn"],
+    "mods": ["+1d4 $physType dmg to your melee dmg", "on melee hit, 10% chance to knock prone"],
     "upgrade": "+1 dmg die size ALT 10%"
   },
   {
@@ -276,7 +276,7 @@
   },
   {
     "name": "shaman - ancient stone",
-    "mods": ["+1 global dmg", "on hit, 20% chance to stun until end of target's next turn", "+1 minion dmg", "on minion hit, 20% chance to stun until end of target's next turn"],
+    "mods": ["+2 global dmg", "on hit, 20% chance to knock prone", "+1 minion dmg", "on minion hit, 20% chance to knock prone"],
     "upgrade": "+1"
   },
   {
@@ -306,7 +306,7 @@
   },
   {
     "name": "shaman - earthern supremacy",
-    "mods": ["+1 $abilityScore", "+1 to condi saves", "on hit, 20% chance to stun until end of target's next turn"],
+    "mods": ["+1 $abilityScore", "+1 to condi saves", "on hit, 20% chance to knock prone"],
     "upgrade": "+1"
   },
   {
@@ -361,7 +361,7 @@
   },
   {
     "name": "shaman - ironbark",
-    "mods": ["+1 minion HP", "+1 minion phys res", "your minions cannot be stunned"],
+    "mods": ["+1 minion HP", "+1 minion phys res", "your minions are imm to condis"],
     "upgrade": "+1"
   },
   {
@@ -446,7 +446,7 @@
   },
   {
     "name": "beastmaster - cry of the lynx",
-    "mods": ["-1 crit req", "-1 minion crit req", "on summon minion, gain buff until end of your next turn giving -1 crit req and 20% chance on hit to stun until end of target's next turn"],
+    "mods": ["-1 crit req", "-1 minion crit req", "on summon minion, gain buff until end of your next turn giving -1 crit req and 20% chance on hit to knock prone"],
     "upgrade": "-1 ALT -1 ALT +1 turn duration NOT buff stats"
   },
   {
@@ -491,7 +491,7 @@
   },
   {
     "name": "forge guard - guardian",
-    "mods": ["+1 max HP", "on hit, 20% chance to stun until end of target's next turn"],
+    "mods": ["+3 max HP", "on hit, 20% chance to knock prone until end of target's next turn"],
     "upgrade": "+1"
   },
   {
@@ -706,7 +706,7 @@
   },
   {
     "name": "sorcerer - elemental ascendance",
-    "mods": ["+1 non-phys res", "+1 non-phys dmg", "on non-phys hit, 20% chance to stun until end of target's next turn"],
+    "mods": ["+1 non-phys res", "+1 non-phys dmg", "on non-phys hit, 20% chance to knock prone"],
     "upgrade": "+1"
   },
   {
@@ -728,5 +728,75 @@
     "name": "sorcerer - recollection",
     "mods": ["+1d4 force dmg to spells", "above is doubled if you have a 6th-lvl spell slot"],
     "upgrade": "+1 die size"
+  },
+  {
+    "name": "necromancer - elixir of hunger",
+    "mods": ["+3 max HP", "if you've healing surged since start of your last turn, your minions have +1 dmg and heal 2 HP on hit"],
+    "upgrade": "+2 HP ALT +1 turn since surge"
+  },
+  {
+    "name": "necromancer - risen army",
+    "mods": ["+2 minion dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "necromancer - grave thorns",
+    "mods": ["+4 minion HP", "+1 minion phys res", "minions have +2 dmg thorns"],
+    "upgrade": "+4 HP ALT +1 phys res ALT +1 thorns"
+  },
+  {
+    "name": "necromancer - reclamation of souls",
+    "mods": ["+2 incoming temp HP", "on minion death, gain 3 temp HP"],
+    "upgrade": "+1 incoming ALT +2 gain"
+  },
+  {
+    "name": "necromancer - cursed blood",
+    "mods": ["+1 $physType dmg", "+1 $nonPhysType dmg", "+1 minion {physType} dmg", "+1 minion {nonPhysType} dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "necromancer - blood armour",
+    "mods": ["+1 passive regen", "+1 minion passive regen"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "necromancer - mark of punishment",
+    "mods": ["on minion death, 30% chance for foe nearest corpse to get -3 dmg res for combat. no stack"],
+    "upgrade": "+10% NOT effect"
+  },
+  {
+    "name": "necromancer - putrid retribution",
+    "mods": ["on minion death, 40% chance to summon $nonPhysType Wraith (ranged spell {nonPhysType} zombie) from corpse"],
+    "upgrade": "+10% NOT stats"
+  },
+  {
+    "name": "necromancer - unearthed arms",
+    "mods": ["+1d4 $physType dmg to minion melee wep hits", "+1d4 {physType} dmg to minion ranged wep hits", "+1 minion {physType} dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "necromancer - frantic summons",
+    "mods": ["+1 global dmg", "+1 minion dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "necromancer - effigies",
+    "mods": ["when hit while bloodied, 20% chance to kill minion, healing yourself for its HP", "+1 minion $nonPhysType dmg", "+1 minion ranged wep dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "necromancer - tyrant",
+    "mods": ["+4 max HP", "-4 minion HP"],
+    "upgrade": "-4 minion and +4 max"
+  },
+  {
+    "name": "necromancer - moonlight pyre",
+    "mods": ["+1d4 $nonPhysType dmg to minion hits", "+1d4 $nonPhysType dmg to minion hits"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "necromancer - veins of malice",
+    "mods": ["on first spell cast of each combat, self-inflict 4 HP to give minions +10' sp and +6 dmg until end of your next turn"],
+    "upgrade": "+1 turn duration"
   }
 ]

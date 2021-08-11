@@ -200,6 +200,31 @@
                 "Name": "Nunchaku",
                 "Description": "1d4 B; 2h; compound; finesse",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Pick",
+                "Description": "1d6 P; fatal (d10)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Ranseur",
+                "Description": "1d10 P; 2h; disarm; reach",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Rapier",
+                "Description": "1d6 P; fatal (d8); disarm; finesse",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Ring Blade",
+                "Description": "1d10 S; 2h; disarm; finesse; sweep",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Sap",
+                "Description": "1d6 B; light; non-lethal",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [

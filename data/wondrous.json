@@ -307,6 +307,46 @@
         {
             "name": "Cape of the Mountebank",
             "description": "https://5e.tools/items.html#cape%20of%20the%20mountebank_dmg"
+        },
+        {
+            "name": "Censer of Controlling Air Elementals",
+            "description": "https://5e.tools/items.html#censer%20of%20controlling%20air%20elementals_dmg"
+        },
+        {
+            "name": "Chime of Opening",
+            "description": "https://5e.tools/items.html#chime%20of%20opening_dmg"
+        },
+        {
+            "name": "Daern's Instant Fortress",
+            "description": "https://5e.tools/items.html#daern's%20instant%20fortress_dmg"
+        },
+        {
+            "name": "Dimensional Shackles",
+            "description": "https://5e.tools/items.html#dimensional%20shackles_dmg"
+        },
+        {
+            "name": "Elixir of Health",
+            "description": "https://5e.tools/items.html#elixir%20of%20health_dmg"
+        },
+        {
+            "name": "Bronze Griffin Figurine",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20bronze%20griffon_dmg"
+        },
+        {
+            "name": "Ebony Fly Figurine",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20ebony%20fly_dmg"
+        },
+        {
+            "name": "Golden Lion Figurines",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20golden%20lions_dmg"
+        },
+        {
+            "name": "Ivory Goat Figurines",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20ivory%20goats_dmg"
+        },
+        {
+            "name": "Marble Elephant Figurine",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20marble%20elephant_dmg"
         }
     ],
     "very rare": [

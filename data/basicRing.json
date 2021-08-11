@@ -125,12 +125,22 @@
         "tag": "conc"
     },
     {
+        "description": "+1 healing from healing surges",
+        "upgraded": "-",
+        "tag": "surge healing"
+    },
+    {
+        "description": "+1 max healing surge",
+        "upgraded": "-",
+        "tag": "max surges"
+    },
+    {
         "description": "+3 max HP",
         "upgraded": "+2",
         "tag": "hp"
     },
     {
-        "description": "+1 to $abilitScore saves",
+        "description": "+1 to $abilityScore saves",
         "upgraded": "-/+1",
         "tag": "save"
     },

@@ -878,5 +878,85 @@
             "9. You can now swear 2 curses with your Evening Curse feature at a time.",
             "10. Your Bind the Vow feature can now be used twice per minute."
         ]
+    },
+    {
+        "name": "Guides the Lost",
+        "description": "guiding lost travellers",
+        "tiers": [
+            "1. Gain prof/+2 in survival.",
+            "2. You have +2 to history checks about 3 locations, each a particular region such as a desert or mountain range. Your knowledge specifically includes the places where magic may be found within each area.",
+            "3. You are so used to dealing with dangerous situations, that you have an innate sense about when one is about to happen. You enjoy advantage on initiative, and Dexterity saving throws which relate to averting a threat or trap.",
+            "4. Rescue: 1/min; free action; You manage to help an ally within 5' of you, pulling them up from a fall or pushing them down before a trap hits them.",
+            "5. Upon entering a new region, you may make a survival check with DC 15. If successful, you gain +2 to history checks about that region, representing your ability to quickly learn the nuances of the area.",
+            "6. Advice: 1/LR; bonus action; Before an expedition you may make a history check against a difficulty which reflects how dangerous the region is. If successful, your allies enjoy advantage on initiative, and Dexterity saving throws which relate to averting a threat or trap until their next long rests.",
+            "7. You can now use your Rescure feature at-will.",
+            "8. Gain expertise/+2 in survival, and the history check bonuses you have for specific locations is increased to +4.",
+            "9. +2 to survival.",
+            "10. +3 to history."
+        ]
+    },
+    {
+        "name": "Acts Without Consequence",
+        "description": "escaping trouble",
+        "tiers": [
+            "1. Slip Into Shadow: 2/min; bonus action; You attempt to slip away from a selected target and hide from view in a nearby shadow, behind a tree or furnishing, or into the next room, even if in full view of the target.",
+            "2. Become prof/+2 in either deception or stealth.",
+            "3. Get Away: 2/min; free action; After your action on your turn, you move to up 30' or get behind or beneath cover within 5' of you.",
+            "4. Goad: 2/min; free action; After you successfully attack a creature, Dexterity saving throws by all others against the creature have advantage until the end of the creature's next turn.",
+            "5. Seize Opportunity: 1/SR; free action; If you succeed on a Dexterity saving throw, you gain an additional bonus action. You can use it immediately, even if it is not your turn. If you can make an attack with this bonus action, it has advantage.",
+            "6. Uncanncy Luck: 1/SR; free action; When you roll for a task and succeed, roll again. If the second number rolled is higher than the first, get a minor bonus related to the task. If you roll the same number, get a major bonus related to the task.",
+            "7. Invisibility: 1/SR; bonus action; You become invisible for 10 minutes. While invisible, you gain +4 to stealth and Dexterity saving throws. This effect ends if you do something to reveal your presence or position - attacking, casting a spell, moving a large object, and so on. If this occurs, you can regain the remaining invisibility time by taking a bonus action to hide your position.",
+            "8. No Fate: 1/LR; free action; You don't believe in any luck except that which you make for yourself. If you fail on a task you can change the die result to a natural 20. This feature cannot be used if you roll a natural 1 for an attempted task.",
+            "9. When you roll a natural 1, you can reroll. You must use the new result, even it it is another 1.",
+            "10. Your Slip Into Shadow feature can now be used at-will. Additionally, the shadow you hide in can be that of a creature of your size or smaller."
+        ]
+    },
+    {
+        "name": "Explores Dark Places",
+        "description": "exploring dark places",
+        "tiers": [
+            "1. Gain prof/+2 in investigation, perception, and acrobatics, and +10' climb speed and long/high jump distance.",
+            "2. Gain prof/+2 in sleight of hand and arcana.",
+            "3. You can see in dim light as though it were bright light. You can see in total darkness as if it were dim.",
+            "4. When you attack a foe in dim light or darkness, you have advantage on the attack.",
+            "5. You have advantage on all tasks involving escaping from grapples and restrains, and can squeeze one size smaller. Thanks to your experience, you also gain +2 to Dexterity saving throws while wearing light or no armour.",
+            "6. In your explorations of dark places, you have been exposed to all sorts of terrible things and are developing a general resistance. You gain +1 AC and prof/+2 in Constitution saving throws.",
+            "7. You ignore any penalties from dim light or cramped spaces. You gain +2 to stealth while in dim light or darkness.",
+            "8. Blinding Attack: 1/min; bonus action; If you have a source of light, you can use it to make a melee attack against a target. If successful, the attack deals no damage, but the target is blinded for one minute.",
+            "9. Embraced by Darkness: 1/week; bonus action; For the next hour, you take on some characteristics of a shadow thanks to a fundamental adaptation of your flesh. Your appearance is a dark silhouette. You have advantage on stealth checks. During this time, you gain a fly speed of 30', and you can move through solid barriers (even those that are sealed to prevent the passage of light), but not magical barriers, at a rate of 1' per round. You can perceive while passing through a barrier or object. As a shadow, you cannot affect or be affected by material matter. Likewise, you cannot attack, touch, or otherwise affect anything. However, attacks and effects that rely on light can affect you, and sudden bursts of light can potentially incapacitate you.",
+            "10. +15' climb speed a long/high jump distance."
+        ]
+    },
+    {
+        "name": "Reanimates the Dead",
+        "description": "reanimating undead",
+        "tiers": [
+            "1. Familiar: At-will; bonus action; You animate the corpse of a deceased non-sentient creature of your size or less within 5' of you. The animated corpse can be, at maximum, CR 1. All of its speeds are reduced to 5'. It follows your verbal commands and does not act on its own. This animation lasts for 2 hours or until the creature is killed.",
+            "2. You gain prof/+2 in medicine.",
+            "3. Fresh Corpse: 1/min; bonus action; You animate the corpse of a recently deceased (1 hour or less) sentient being of your size or smaller within 5' of you. The animated corpse can be, at maximum, CR 1. All of its speeds are reduced to 5'. It follows your verbals commands and does not act on its own. This animation lasts for 5 hours or until the creature is killed.",
+            "4. Necrotic Protection: 1/SR; bonus action; Your body and mind become empowered by the dead around you. For the next hour, whenever one of your animated corpses is within 5' of you, you gain advantage on Constitution and Wisdom saving throws.",
+            "5. Skeletal Servant: 1/LR; bonus action; You animate the corpse of a sentient being of your size or smaller within 5' of you. It matters little how long the corpse has been dead, so long as its bones have not turned to dust. The animated corpse can be, at maximum, CR 2. All of its speeds are reduced to 5'. It follows your verbal commands and does not act on its own. This animation lasts for 10 hours or until the creature is killed.",
+            "6. The corpses you animate are more autonomous than before, acting on their own even when not given commands. Generally this will mean attacking any living thing they encounter other than you and your companions, though they can be commanded not to do so. As an eerie side effect, the faces of all creatures you animate are contorted to look like your face.",
+            "7. Your Familiar feature now allows you to animate non-sentient creatures of up to CR 2.",
+            "8. +2 to medicine.",
+            "9. Your Fresh Corpse feature can now be used twice per minute.",
+            "10. Your Necrotic Protection feature can now be used twice per minute."
+        ]
+    },
+    {
+        "name": "Touches the Sky",
+        "description": "flying",
+        "tiers": [
+            "1. Hover: At-will; bonus action; You float slowly into the air. This requires Concentration to maintain. As a bonus action on successive turns, you can float up to 30'. You can only float up to 30' vertically from the ground. If you lose concentration, you drift with the wind or with any momentum you have gained.",
+            "2. When you wish it, a cyclone of wind surrounds your body, giving you +1 to AC and an additional +2 AC against physical projectiles specifically. While the cyclone is active, you feel no discomfort from the wind, and you can interact with other creatures and objects normally because the wind flow automatically diverts to enable such interaction.",
+            "3. Lightning Discharge: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge deals 1d12 + your level lightning damage.",
+            "4. Storm Seed: 1/min; bonus action; If outside or in a large-enough enclosed space, you can seed a natural storm of a kind common to the area. Doing so requires at least an hour of Concentration as you use your connection to the magic in the air to initiate proper conditions. Once the storm begins, it lasts for about 10 minutes. Once during that period, you can create a more dramatic and specific effect appropriate to that kind of storm, such as a lightning strike, a squall of giant hailstones, the brief touchdown of a twister, a single gust of hurricane-force winds, and so on. The effects must occur within 120' of you. You must spend your turn Concentrating to create the effect, which occurs at the start of your next turn. The effect inflicts 1d8 + 1d6 + your level damage of a relevant type, after which the storm begins to disperse.",
+            "5. Windrider: 1/SR; bonus action; You summon winds that pick you up and grant you a fly speed of 120' for 1 minute.",
+            "6. Cold Burst: 1/LR; bonus action; You emit a blast of cold in a 30' radius. All within the burst take 1d8 + your level cold damage and have disadvantage on any d20 rolls they make until the end of their next turns.",
+            "7. Control Weather: 1/century; bonus action; You change the weather in your general region. If performed indoors, this create sminor effects such as mist, mild temperature changes, and so on. If performed outside, you can create rain, fog, snow, wind, or any other kind of normal (not overly severe) weather. The change lasts for a natural length of time so that a storm might last for an hour, fog for 2 hours, and snow for 3 hours. For the first 10 minutes after activating this feature, you can create more dramatic and specific effects, such as lightning strikes, hailstones, twisters, hurricane-force winds, and so on. These effects must occur within 1000' of you. You must spend your turn Concentrating to create an effect or maintain it in a new round. These effects inflict 1d8 + 1d6 + your level damage of a relevant type.",
+            "8. Wind Chariot: 1/month; bonus action; You summon winds that pick you up and grant you a fly speed of 120' during combat, or an overland speed of 1760' (320kph), for up to 10 hours.",
+            "9. Your Hover feature now allows you to float up to 60' as a bonus action.",
+            "10. Your cyclone armour now grants +2 AC and a further +3 AC against physical projectiles."
+        ]
     }
 ]
