@@ -798,5 +798,110 @@
     "name": "necromancer - veins of malice",
     "mods": ["on first spell cast of each combat, self-inflict 4 HP to give minions +10' sp and +6 dmg until end of your next turn"],
     "upgrade": "+1 turn duration"
+  },
+  {
+    "name": "void knight - abyssal endurance",
+    "mods": ["+2 max HP", "+2 $nonPhysType res", "+1 $physType res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - temporal corruption",
+    "mods": ["+1d4 $nonPhysType dmg to your hits", "your fire spells deal {nonPhysType} instead", "your DoTs now apply slow instead", "your conditional effects on creatures being DoT'd are now conditional on them being slowed", "your outgoing healing is always 0"],
+    "upgrade": "+1 die size NOT outgoing healing"
+  },
+  {
+    "name": "void knight - devouring blade",
+    "mods": ["if you've KB'd since start of your last turn, +2 global dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - sorrow and steel",
+    "mods": ["+1 $physType dmg", "+1 $nonPhysType dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - world eater",
+    "mods": ["on melee hit, heal 1 HP", "on $nonPhysType hit, heal 1 HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - void corruption",
+    "mods": ["gain crit dice equal to your prof bonus"],
+    "upgrade": "+1 crit dice"
+  },
+  {
+    "name": "void knight - dark maw",
+    "mods": ["on KB, 20% chance to heal for 10% of target's max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - patient doom",
+    "mods": ["first melee hit each turn deals +1 dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - umbral attunement",
+    "mods": ["+1 $abilityScore", "+1 global dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - future strike",
+    "mods": ["on hit, 20% chance to trigger melee wep atk on target at end of their next turn, dealing 1d4 $nonPhysType dmg"],
+    "upgrade": "+10% NOT dmg"
+  },
+  {
+    "name": "void knight - rot ripples",
+    "mods": ["on KB vs DoT'd target, foes adj to corpse have 20% chance to gain the DoT"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - finality",
+    "mods": ["+2 melee dmg vs bloodied targets"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - doom knight",
+    "mods": ["+1 $abilityScore", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - woe",
+    "mods": ["+1 melee dmg", "if you've KB'd with melee since start of your last turn, +1 $nonPhysType dmg and +1 phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - rot grip",
+    "mods": ["on melee hit, 20% chance to give 2 $nonPhysType DoT, stacking until CON save"],
+    "upgrade": "+10% NOT dmg"
+  },
+  {
+    "name": "void knight - null velocity",
+    "mods": ["your melee atks, throwing atks, and $nonPhysType spells have a 20% chance to be repeated on target at the end of their next turn"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - future mind",
+    "mods": ["+1 $abilityScore", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - eternal form",
+    "mods": ["+1 $abilityScore", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - essence of the end",
+    "mods": ["on KB, 20% chance to gain +1 $nonPhysType dmg, +1 melee dmg, and +1 to saves to end ongoing effects for combat"],
+    "upgrade": "+10% NOT effects"
+  },
+  {
+    "name": "void knight - dread",
+    "mods": ["+1 $nonPhysType dmg", "+5' sp"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "void knight - void flux",
+    "mods": ["first time you are bloodied each combat, adj foes are banished until end of your next turn"],
+    "upgrade": "+2 incoming healing"
   }
 ]

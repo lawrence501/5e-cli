@@ -1104,9 +1104,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "+2 trap dmg res",
-        "pointValue": "2",
-        "upgrade": "1/1",
+        "description": "+3 trap dmg res",
+        "pointValue": "1",
+        "upgrade": "2/1",
         "tags": ["armour"]
     },
     {

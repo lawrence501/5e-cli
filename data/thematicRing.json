@@ -1132,22 +1132,22 @@
     {
         "name": "savour the moment",
         "mods": ["+1 incoming temp HP", "if you haven't moved since start of your last turn, gain 2 temp HP on turn start"],
-        "tags": ["temp HP"]
+        "tags": ["temp hp"]
     },
     {
         "name": "energy from naught",
         "mods": ["+4 incoming temp HP"],
-        "tags": ["temp HP"]
+        "tags": ["temp hp"]
     },
     {
         "name": "spring back",
         "mods": ["+4 incoming temp HP"],
-        "tags": ["temp HP"]
+        "tags": ["temp hp"]
     },
     {
         "name": "conservation of energy",
         "mods": ["+2 incoming temp HP", "on spell hit, gain 3 temp HP"],
-        "tags": ["temp HP", "spell dmg"]
+        "tags": ["temp hp", "spell dmg"]
     },
     {
         "name": "heart of iron",
@@ -1232,7 +1232,7 @@
     {
         "name": "mystical ward",
         "mods": ["+1 spell AC", "+1 passive temp HP gen", "on spell hit, gain 1 temp HP"],
-        "tags": ["spell ac", "temp HP", "spell dmg"]
+        "tags": ["spell ac", "temp hp", "spell dmg"]
     },
     {
         "name": "rote reinforcement",
@@ -1323,5 +1323,95 @@
         "name": "antifreeze",
         "mods": ["+1 {nonPhysType} res", "+1 to condi saves", "+1 {nonPhysType} abs"],
         "tags": ["non-phys res", "save"]
+    },
+    {
+        "name": "wizardry",
+        "mods": ["+3 {nonPhysType} abs"],
+        "tags": ["non-phys res"]
+    },
+    {
+        "name": "capacitor",
+        "mods": ["+2 to condi saves", "if you've gained a condi since last turn, imm to that condi"],
+        "tags": ["save"]
+    },
+    {
+        "name": "pure aptitude",
+        "mods": ["+1 {abilityScore}", "+1 passive temp hp gen"],
+        "tags": ["ability score", "temp hp"]
+    },
+    {
+        "name": "sage",
+        "mods": ["+1 {nonPhysType} res", "+1 passive regen"],
+        "tags": ["non-phys res", "hp"]
+    },
+    {
+        "name": "insulated",
+        "mods": ["+1 {nonPhysType} res", "+1 to condi saves", "+1 {nonPhysType} abs"],
+        "tags": ["non-phys res", "save"]
+    },
+    {
+        "name": "born of chaos",
+        "mods": ["+3 {nonPhysType} abs"],
+        "tags": ["non-phys res"]
+    },
+    {
+        "name": "antivenom",
+        "mods": ["+1 {nonPhysType} res", "+1 to condi saves", "+1 {nonPhysType} abs"],
+        "tags": ["non-phys res", "save"]
+    },
+    {
+        "name": "rot-resistant",
+        "mods": ["+1 {nonPhysType} res", "+1 passive regen", "+1 passive temp HP gen"],
+        "tags": ["non-phys res", "hp", "temp hp"]
+    },
+    {
+        "name": "blessed",
+        "mods": ["+2 {nonPhysType} res", "+4 max HP"],
+        "tags": ["non-phys res", "hp"]
+    },
+    {
+        "name": "student of decay",
+        "mods": ["+3 {nonPhysType} res", "+1 DoT dmg"],
+        "tags": ["non-phys res", "dot"]
+    },
+    {
+        "name": "lava lash",
+        "mods": ["+1 wep {nonPhysType} dmg", "wep dmg ignores {nonPhysType} res", "+1 DoT dmg"],
+        "tags": ["wep dmg", "non-phys dmg", "dot"]
+    },
+    {
+        "name": "whirling barrier",
+        "mods": ["while holding a {weaponClass} wep, +1 AC", "on block, 20% chance to gain -1 crit req for combat"],
+        "tags": ["weapon class", "wep ac", "spell ac", "crit"]
+    },
+    {
+        "name": "sanctuary",
+        "mods": ["while holding a shield, +1 AC", "while holding a shield, +1 {dmgPolarity} res"],
+        "tags": ["holding shield", "wep ac", "spell ac", "phys res", "non-phys res"]
+    },
+    {
+        "name": "smashing strikes",
+        "mods": ["+1 dmg with {weaponClass} weps", "on {rangeType} crit, 20% chance to gain +1 dmg res for combat", "-1 crit req with {weaponClass} weps", "+5' reach with {weaponClass} weps"],
+        "tags": ["weapon class", "range", "crit", "phys res", "non-phys res"]
+    },
+    {
+        "name": "skull cracking",
+        "mods": ["+2 dmg with {weaponClass} weps", "on {weaponClass} hit, 40% chance to knock prone", "on knock bloodied target prone, they take 1 true dmg"],
+        "tags": ["weapon class", "condi"]
+    },
+    {
+        "name": "bone breaker",
+        "mods": ["+1 dmg with {weaponClass} weps", "+5' AoE sizes", "+5' reach with {weaponClass} weps"],
+        "tags": ["weapon class", "aoe"]
+    },
+    {
+        "name": "diamond skin",
+        "mods": ["+1 {physType} res", "+5' sp", "+1 {dmgPolarity} res"],
+        "tags": ["phys res", "speed", "non-phys res"]
+    },
+    {
+        "name": "hatchet master",
+        "mods": ["+3 dmg with {weaponClass} weps"],
+        "tags": ["weapon class"]
     }
 ]

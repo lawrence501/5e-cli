@@ -225,6 +225,81 @@
                 "Name": "Sap",
                 "Description": "1d6 B; light; non-lethal",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Scimitar",
+                "Description": "1d6 S; forceful; sweep",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Scythe",
+                "Description": "1d10 S; 2h; deadly; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Shortsword",
+                "Description": "1d6 P; light; finesse; flexible (S)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Small Shield",
+                "Description": "1d4 B; light; targe (1)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Small Spiked Shield",
+                "Description": "1d4 P; light; targe (1)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Spiked Tower Shield",
+                "Description": "1d6 P; 2h; heavy; shove; targe (2)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Starknife",
+                "Description": "1d4 P; light; fatal (d6); finesse; thrown (20'/30'); flexible (S)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Tower Shield",
+                "Description": "1d6 B; 2h; heavy; shove; targe (2)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Trident",
+                "Description": "1d8 P; thrown (20'/30')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "War Flail",
+                "Description": "1d10 B; 2h; disarm; heavy; sweep; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Warhammer",
+                "Description": "1d8 B; shove",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Whip",
+                "Description": "1d4 S; disarm; finesse; non-lethal; reach; trip",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Composite Longbow",
+                "Description": "1d8 P; 100'/200' range; 2h; fatal (d10); propulsive; volley (50')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Composite Shortbow",
+                "Description": "1d6 P; 60'/120' range; 2h; fatal (d10); propulsive",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Longbow",
+                "Description": "1d8 P; 100'/200' range; 2h; fatal (d10); volley (50')",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [

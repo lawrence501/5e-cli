@@ -347,6 +347,46 @@
         {
             "name": "Marble Elephant Figurine",
             "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20marble%20elephant_dmg"
+        },
+        {
+            "name": "Onyx Dog Figurine",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20onyx%20dog_dmg"
+        },
+        {
+            "name": "Serpentine Owl Figurine",
+            "description": "https://5e.tools/items.html#figurine%20of%20wondrous%20power%2c%20serpentine%20owl_dmg"
+        },
+        {
+            "name": "Folding Boat",
+            "description": "https://5e.tools/items.html#folding%20boat_dmg"
+        },
+        {
+            "name": "Heward's Handy Haversack",
+            "description": "https://5e.tools/items.html#heward's%20handy%20haversack_dmg"
+        },
+        {
+            "name": "Horn of Blasting",
+            "description": "https://5e.tools/items.html#horn%20of%20blasting_dmg"
+        },
+        {
+            "name": "Silver Horn of Valhalla",
+            "description": "https://5e.tools/items.html#horn%20of%20valhalla%2c%20silver_dmg"
+        },
+        {
+            "name": "Brass Horn of Valhalla",
+            "description": "https://5e.tools/items.html#horn%20of%20valhalla%2c%20brass_dmg"
+        },
+        {
+            "name": "Horseshoes of Speed",
+            "description": "https://5e.tools/items.html#horseshoes%20of%20speed_dmg"
+        },
+        {
+            "name": "Iron Bands of Bilarro",
+            "description": "https://5e.tools/items.html#iron%20bands%20of%20bilarro_dmg"
+        },
+        {
+            "name": "Oil of Etherealness",
+            "description": "https://5e.tools/items.html#oil%20of%20etherealness_dmg"
         }
     ],
     "very rare": [
