@@ -1198,5 +1198,85 @@
             "9. Your Hand on the Wall feature can now be used at-will.",
             "10. You no longer allow your inner demons into your mind when you heal upon failing important rolls."
         ]
+    },
+    {
+        "name": "Trades",
+        "description": "merchantile",
+        "tiers": [
+            "1. You gain prof/+2 in all social skills.",
+            "2. You instinctively know the value of any object you find. You have advantage on arcana checks to identify magic.",
+            "3. Trade Connections: 1/week; bonus action; You access your trade network. You roll a random potion, which you may buy for 15gp.",
+            "4. You gain +2 on persuasion checks to negotiate and haggle.",
+            "5. Whenever you find gold in loot, you have advantage on the amount of gold found.",
+            "6. You always know what the highest price someone will offer for an item, and the lowest price they are willing to accept when selling.",
+            "7. All purchases you make are at a 25% reduced cost.",
+            "8. Esoteric Trade Connections: 1/week; bonus action; You spend 1 max HP to get the opportunity to buy a random artifact for 30gp.",
+            "9. Heart's Desire: 1/LR; bonus action; You know what non-unique object a creature desires the most right now.",
+            "10. You gain +3 in all social skills."
+        ]
+    },
+    {
+        "name": "Fuses Mind and Machine",
+        "description": "imbuing your mind with powerful magitech",
+        "tiers": [
+            "1. You gain +2 to INT through the use of implants and tiny processing devices.",
+            "2. You gain prof/+2 in a knowledge skill of your choice.",
+            "3. Network Tap: 1/SR; bonus action; You can ask the DM 1 question and get a very short answer if you succeed on a relevant knowledge check against a DC assigned by the DM. The more obscure the answer, the more difficult the check. On a failed roll, feedback or perhaps some defence from the Regulus Libris itself inflict 1d10 + your level true damage on you.",
+            "4. Action Processor: 1/SR; bonus action; Drawing upon stored information and the ability to process incoming data at amazing speeds, you gain +2 in one physical task of your choice for 10 minutes. For example, you can choose climbing, a physical saving throw type, or attacks with a specific weapon category.",
+            "5. Machine Telepathy: 1/min; bonus action; You can read the surface thoughts of a magical construct you can see within 30' of you, even if the construct does not want you to. Once you have established contact, you can read the target's thoughts for up to 1 minute. If you or the target moves out of range, the connection is broken.",
+            "6. +2 INT.",
+            "7. You gain prof/+2 in a knowledge skill of your choice.",
+            "8. See the Future: 1/week; free action; Based on all the variables you perceive, you can predict the next few minutes. This has the following effects: for the next 10 minutes, you saving throws have advantage; you have a sort of danger sense. For the next 10 minutes, you gain advantage on insight checks to detect lies, and perception and investigation checks to avoid traps and ambushes; You know what people are probably thinking and what they will say before they say it. For the next 10 minutes, you gain advantage on all persuasion and deception checks.",
+            "9. Any time you take an Intelligence-related task (skill check, attack, spell, etc.), you can either give the roll advantage or gain advantage on Dexterity saving throws until the start of your next turn as you foresee your foes' moves.",
+            "10. +3 INT."
+        ]
+    },
+    {
+        "name": "Imparts Wisdom",
+        "description": "teaching and inspiring",
+        "tiers": [
+            "1. Learning the Path: 2/min; bonus action; You observe or study a creature, object, or location for at least 1 round. The next time you interact with it, a related task (such as persuading, attacking, or defending against it) has advantage.",
+            "2. You gain prof/+2 in 2 knowledge skills of your choice.",
+            "3. Through example, teaching, and frank speech about piercing what only seems to be mysterious in the world, you impart wisdom to your allies. After spending 24 hours with you, each of your party members can gain advantage on a task once per long rest. This benefit is ongoing while you remain in the friend's company. It ends if you leave, but it resumes if you return to the friend's company within 24 hours. If you leave the friend's company for more than 24 hours, you must spend another 24 hours together to reactivate the benefit.",
+            "4. The more you accumulate wisdom, the sharper your mind becomes. +2 WIS.",
+            "5. The body and the mind are all connected. You gain +4 outgoing healing.",
+            "6. Inspire Action: 1/SR; bonus action; If one ally can see and easily understand you, you can instruct that ally to take an action of your choice. If the ally chooses to take that exact action, they can take it as an additional action immediately. Doing so does not interfere with the ally taking a normal action on their turn.",
+            "7. Change the Paradigm: 1/week; bonus action; You sway the worldview of a creature you spend at least 1 round speaking to, as long as it can understand you. The creature changes its mind on some significant belief, which could include something as straightforward as helping you instead of trying to kill you, or it could be something more esoteric. This effects lasts for at least 10 minutes, but it can last longer if the creature was not previously your foe. During this time, the creature takes actions in accordance with the wisdom you have imparted to it. The target must be CR 1 or lower.",
+            "8. Your Learning the Path feature works more effectively, allowing you to gain double advantage on a task or can provide double advantage for an ally's task against the target instead of your own.",
+            "9. Undo: 1/LR; bonus action; What just happened isn't what actually happened; it was a thought experiment. Knowing better, you can effectively undo a single creature's most recent action. That creature can then immediately repeat the same action or try something different.",
+            "10. Your Learning the Path feature can now be used at-will. Additionally, it provides triple advantage instead of double."
+        ]
+    },
+    {
+        "name": "Possesses a Shard of the Sun",
+        "description": "harnessing solar magic",
+        "tiers": [
+            "1. +2 to Perception checks involving sight.",
+            "2. Illuminating Touch: At-will; bonus action; You touch an object, and that object sheds bright light for 30'. The light remains until you use a bonus action to touch the object again, or until you have illuminated more objects than your level, in which case the oldest objects you illuminated go dark first.",
+            "3. Dazzling Sunburst: 2/min; bonus action; You send a barrage of dazzling colours at a creature within 30' of you and inflict 1d6 + your level radiant damage. In addition, the target's attacks have disadvantage during its next turn, unless it relies primarily on senses other than sight.",
+            "4. Burning Light: 1/min; bonus action; You send a beam of light at a creature within 120' of you and then tighten the beam until it burns, inflicting 1d12 + your level radiant damage.",
+            "5. Sculpt Light: 1/SR; bonus action; You create an object of solid light in any shape you can imagine that is your size or smaller that persists for 1 hour. The object appears in an area within 5' of you. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. The object has the approximate mass of the real object and functions similarly to a mundane one.",
+            "6. Mote of Sunlight: 1/SR; bonus action; A mote of light travels from you to a space you choose within 120'. When the mote reaches that spot, it flares and casts bright light in a 120' radius and darkness within 1,000' becomes dim light. The light lasts until you use a bonus action to dismiss it or you use this feature again to create a new mote.",
+            "7. Invisibility: 1/SR; bonus action; You become invisible for 10 minutes. While invisible, you add +4 to stealth and Dexterity saving throws. This effect ends if you do something to reveal your presence or position - attacking, casting a spell, moving a large object, and so on. If this occurs, you can regain the remaining invisibility effect by taking a bonus action to focus on hiding your position.",
+            "8. Living Light: 1/week; bonus action; Your body dissolves into a cloud of photons that instantly travel to a location you choose and then reform. You can choose any open space large enough to contain you that you can see within 120', or any place you have lit with your Mote of Sunlight feature that is still shining. You disappear and almost instantly reappear in the space you chose. It takes until the end of the round for your body to become fully solid, so until the start of your next turn, you take a maximum of 2 points of damage from any source of damage.",
+            "9. Improved Sculpt Light: 1/month; bonus action; You create an object of solid light in any shap you can imagine whose base size can fit within a 10' cube. The object appears in an area within 5' of you or floating freely in space up to 120' away, and the object lasts for 1d4+2 days. The object otherwise behaves similarly to your Sculpt Light feature.",
+            "10. Perception +3."
+        ]
+    },
+    {
+        "name": "Hones Body and Mind",
+        "description": "training your mind as a physical muscle",
+        "tiers": [
+            "1. Rhetoric: At-will; bonus action; You engage a creature who can understand you in extended conversation. The creature must be within 5' of you. During the conversation, neither of you can make attacks of any kind.",
+            "2. Honed Reflexes: 2/min; bonus action; For the next hour, you gain +2 to attack rolls with the weapon you hold in your main hand upon activating this feature.",
+            "3. You gain prof/+2 in Athletics.",
+            "4. You enjoy advantage on all Persuasion checks due to your burgeoning psychic abilities.",
+            "5. Psychic Presence: 1/SR; bonus action; You create an aura of power and majesty around yourself for 1 hour. Unless you are the only possible target, no living, thinking, hostile creature will choose to attack you. They will always prioritise your companions.",
+            "6. Powerful Shout: 1/LR; bonus action; As you scream with psychic force, all creatures of your choice within 5' of you take 1d12 + your level psychic damage.",
+            "7. Psyche of War: 1/week; bonus action; You extend your presence over an army. This feature affects a battle unit of between 20 and 200 soldiers, all of whom enjoy double advantage on attacks for as long as you concentrate.",
+            "8. Your Rhetoric feature now has a range of 10'.",
+            "9. +1 weapon AB.",
+            "10. +3 to Athletics."
+        ]
     }
 ]

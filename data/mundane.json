@@ -300,6 +300,11 @@
                 "Name": "Longbow",
                 "Description": "1d8 P; 100'/200' range; 2h; fatal (d10); volley (50')",
                 "Tags": ["weapon"]
+            },
+            {
+                "Name": "Shortbow",
+                "Description": "1d6 P; 60'/120' range; 2h; fatal (d10)",
+                "Tags": ["weapon"]
             }
         ],
         "armour": [
@@ -334,12 +339,12 @@
         "weapon": [
             {
                 "Name": "Clan Dagger",
-                "Description": "[simple knife] 1d6 P; light, parry, versatile (B)",
+                "Description": "[simple knife] 1d6 P; light; parry; versatile (B)",
                 "Tags": ["weapon"]
             },
             {
                 "Name": "Katar",
-                "Description": "[simple knife] 1d6 P; light, deadly",
+                "Description": "[simple knife] 1d6 P; light; deadly",
                 "Tags": ["weapon"]
             },
             {
@@ -430,6 +435,31 @@
             {
                 "Name": "Shuriken",
                 "Description": "[martial dart] 1d6 P; ranged (-/-); light; thrown (20'/30')",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Auric Mace",
+                "Description": "[martial club] 1d6 B; 2h; charge (d8); finesse; forceful; grapple",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Jawbreaker",
+                "Description": "[martial brawling] 1d8 B; forceful; unarmed",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Goliath Bow",
+                "Description": "[martial bow] 1d8 P; 60'/120' range; 2h; fatal (d12); flexible (B)",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Ice Pick",
+                "Description": "[martial pick] 1d8 P; backstabber; deadly",
+                "Tags": ["weapon"]
+            },
+            {
+                "Name": "Scutum",
+                "Description": "[martial shield] 1d8 B; 2h; finesse; shove; targe (2)",
                 "Tags": ["weapon"]
             }
         ],
@@ -627,6 +657,36 @@
             {
                 "Name": "Heavy Plate",
                 "Description": "Body slot; 20% chance to nullify extra crit dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Refuge Gloves",
+                "Description": "Gloves slot; +1 phys res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Outcast Gloves",
+                "Description": "Gloves slot; +2 nec res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Noble Gloves",
+                "Description": "Gloves slot; +1 spell dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Engraved Gauntlets",
+                "Description": "Gloves slot; +1 dmg res while bloodied",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Deadly Bracers",
+                "Description": "Gloves slot; -1 crit req",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Crusader Gauntlets",
+                "Description": "Gloves slot; +2 psy res",
                 "Tags": ["armour"]
             }
         ]

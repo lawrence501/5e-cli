@@ -12,7 +12,7 @@
             "set": "Xiloans",
             "primary": "1/LR, bonus to shapeshift into random CR 2 creature until bonus to end or HP lost",
             "secondary": "1/LR, bonus to shapeshift into random CR 1 creature until bonus to end or HP lost",
-            "foil": "+1 acid dmg"
+            "foil": "+1 global dmg while shapeshifted"
         },
         {
             "name": "3. P'all",
@@ -20,6 +20,27 @@
             "primary": "+5 global dmg while flanking",
             "secondary": "+2 global dmg while flanking",
             "foil": "+2 minion dmg"
+        },
+        {
+            "name": "1. Kher'evo",
+            "set": "Primordial Elementals",
+            "primary": "on hit, heal 5 HP",
+            "secondary": "on hit, heal 2 HP",
+            "foil": "+3 max HP"
+        },
+        {
+            "name": "2. Somnius",
+            "set": "Primordial Elementals",
+            "primary": "+5 to escape checks",
+            "secondary": "+2 to escape checks",
+            "foil": "+1 global dmg w/ no adj foes"
+        },
+        {
+            "name": "3. Pherousa",
+            "set": "Primordial Elementals",
+            "primary": "when downed, +5 global dmg for combat",
+            "secondary": "when downed, +2 global dmg for combat",
+            "foil": "+1 spell dmg res"
         }
     ],
     "uncommon": [
@@ -28,7 +49,14 @@
             "set": "Xiloans",
             "primary": "+2 AC in darkness",
             "secondary": "+1 AC in darkness",
-            "foil": "+2 natural wep dmg"
+            "foil": "+1 global dmg in darkness"
+        },
+        {
+            "name": "4. Mother",
+            "set": "Primordial Elementals",
+            "primary": "-6 global dmg on odd turns, +12 global dmg on even turns",
+            "secondary": "-2 global dmg on odd turns, +4 global dmg on even turns",
+            "foil": "+1 dmg res on odd turns"
         }
     ],
     "rare": [
@@ -37,7 +65,14 @@
             "set": "Xiloans",
             "primary": "+5 global dmg vs targets who have dmg'd you since your last turn",
             "secondary": "+2 global dmg vs targets who have dmg'd you since your last turn",
-            "foil": "+1 rad dmg"
+            "foil": "+1 wep dmg res"
+        },
+        {
+            "name": "5. The Primordial",
+            "set": "Primordial Elementals",
+            "primary": "+1 non-phys abs",
+            "secondary": "+1 non-phys res",
+            "foil": "+1 spell dmg res"
         }
     ]
 }
