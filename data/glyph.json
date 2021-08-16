@@ -1278,5 +1278,85 @@
             "9. +1 weapon AB.",
             "10. +3 to Athletics."
         ]
+    },
+    {
+        "name": "Exists Partially out of Phase",
+        "description": "becoming incorporeal",
+        "tiers": [
+            "1. Walk Through Walls: 2/min; bonus action; You can slowly pass through physical barriers at a rate of 1 inch per round. You cannot act (other than moving) or perceive anything until you pass entirely through the barrier. You cannot pass through magical barriers.",
+            "2. Defensive Phasing: 2/min; bonus action; You can change your phase so that some attacks pass through you harmlessly. For the next 10 minutes, incoming attacks have disadvantage, but during this time you lose any AC benefit from your body armour.",
+            "3. Phased Attack: 1/min; free action; All damage you deal on this turn ignores your targets' resistance and immunities.",
+            "4. Phase Door: 1/SR; bonus action; You can phase into a solid object's surface and then phase out of any other solid object within 120' of the first, even if the 2 objects are not connected. There must not be any intervening barriers between the 2 objects, and you must be aware of or able to see the destination object.",
+            "5. Ghost: 1/SR; bonus action; For the next 10 minutes, you gain advantage with stealth. During this time, you can move through solid barriers (but not magical ones) at a rate of 1 foot per round, and you can perceive while phased within a barrier or object, which allows you to peek through walls.",
+            "6. Untouchable: 1/week; bonus action; You change your phase state for the next minute so that you cannot affect or be affected by normal matter or magic. Only psionic or Xiloan magic can affect you, but likewise you cannot attack, touch, or otherwise affect anything.",
+            "7. Enhanced Phased Attack: 1/LR; free action; This feature works like your Phased Attack feature except that your damage also disrupts the targets' vitals, dealing an additional 10 bludgeoning damage.",
+            "8. Phase Foe: 1/week; bonus action; You gather disrupting energy in your fingertip and touch a creature. If the target is of level or CR 2 or lower, it becomes phased as if it had used your Ghost feature. However, unless it can figure out how to control its movement while being phased, which most creatures cannot, it begins to sink through solid matter. If it cannot control itself or end the effect, it may be gone for good because when it becomes solid again after 10 minutes, it is probably deep in the earth.",
+            "9. Your can now use your Walk Through Walls feature at-will.",
+            "10. You can now use your Defensive Phasing feature at-will, and it also grants you +1 AC during its activation."
+        ]
+    },
+    {
+        "name": "Shreds the Walls of the World",
+        "description": "manipulating the walls between material and ethereal",
+        "tiers": [
+            "1. Phase Sprint: At-will; full-turn action; You can run up to 120'. During this action an until the beginning of your next turn, you are partially phased, and some attacks pass through you harmlessly. While phased, all incoming attacks have disadvantage, but you lose any AC benefit from your body armour.",
+            "2. Disrupting Touch: At-will; free action; You can turn your Phase Sprint into a melee attack by purposefully grazing another creature as you run. When you do, the touch releases a violent blast of energy that inflicts 1d6 + your level true force damage to the target. Whether you hit or miss, your movement ends immediately, which leaves you within 5' of your target.",
+            "3. Scratch Existence: At-will; free action; You can choose to phase in a way that 'scratches' normal matter in a long streak as you run using Phase Sprint. When you use Phase Sprint, you inflict 1d6 + your level true force damage to one target of your choice as you pass within 5' of them, without triggering Disrupting Touch.",
+            "4. Invisible Phasing: 1/SR; free action; You become invisible while Phase Sprinting and during the following round. While invisible, you gain double advantage on stealth checks and the disadvantage Phase Sprint usually gives to incoming attacks becomes double disadvantage. The first damaging effect you use during the Phase Sprint also has double advantage; however, if you use it to damage a creature, Invisible Phasing ends immediately instead of lasting for 1 additional round.",
+            "5. Walk Through Walls: 2/min; bonus action; You can slowly pass through physical barriers at a rate of 1 inch per round. You cannot act (other than moving) or perceive anything until you pass entirely through the barrier. You cannot pass through magical barriers.",
+            "6. Phase Detonation: 2/min; free action; When you use Phase Sprint or Walk Through Walls, you can choose to significantly damage normal matter around you with a blast of transplanar energy when you first go into or come out of phase (your choice). This detonation inflicts 1d10 + your level true force damage to all creatures and objects within 5' of you.",
+            "7. When you use Phase Sprint, you can travel up to 500' instead of 120'.",
+            "8. When you use Disrupting Touch, Scratch Existence, or Phase Detonation, you inflict an additional 10 points of damage.",
+            "9. Untouchable While Moving: 1/SR; bonus action; You change your phase state for the next minute so that you cannot affect or be affected by normal matter or magic, as long as you move at least 5' each round while phased. If you do not move on your turn, the effect ends. While you are phased, only psionic and Xiloan magic can affect you, but likewise you cannot attack, touch, or otherwise affect anything.",
+            "10. Phase Sprint now grants you an additional +3 AC during its partial phasing period."
+        ]
+    },
+    {
+        "name": "Steals Faces",
+        "description": "physical mimicry",
+        "tiers": [
+            "1. You gain prof/+2 in Deception and Performance.",
+            "2. Borrow Face: At-will; bonus action; You can temporarily alter your face to mimic that of someone you studied earlier that day. When activated, this feature lasts for 4 hours. While in this form, you gain advantage on checks to conceal your true nature. You only remember the face for a single day, after which you must study the face again. You can only remember one face at a time.",
+            "3. Mimic Voice: 2/min; bonus action; You can mimic a voice that you have studied with unnatural accuracy. To study a voice you must listen to your target's voice for about 5 minutes, after which you remember this voice for 4 hours. You can only memorise 1 voice at a time.",
+            "4. You can mirror your target's motions and attacks to gain a better understanding of the openings in their fighting styles and stances. You must be defending against your target's attacks for 2 rounds and succeed on a History check against 8 + your target's AB. If successful, you gain advantage on attacks to hit your target and ignore any of their resistances and immunities for the rest of the encounter.",
+            "5. You gain +2 in Deception and Performance.",
+            "6. Your Borrow Face feature now functions for up to 8 hours.",
+            "7. Impersonate: 1/SR; bonus action; After studying your target for a few moments, you can take on their look and form. For all visual inspection purposes, you are that individual, from dress and build to bodily scars. You are able to switch to this form any time you like. Your memory of the impersonation lasts for 8 hours.",
+            "8. You can remember a voice for your Mimic Voice feature for up to 8 hours.",
+            "9. Haunting Mask: 1/SR; bonus action; You can use your ability to shift your face to become a thing of nightmares and horrors, striking fear or panic into your enemies. Make an Intimidation check against your target's Wisdom saving throw. If you succeed, the victim is frightened of you until the end of their next turn. If you succeed by 3 or more, the target is frightened for 1d6 rounds instead.",
+            "10. Perfect Replacement: 1/year; bonus action; After you have studied your target for a day, you are able to become an exact copy of them, making it impossible to tell you and the real person apart. You can only select one person at a time for this ability."
+        ]
+    },
+    {
+        "name": "Rides the Lightning",
+        "description": "harnessing the power of lightning",
+        "tiers": [
+            "1. Shock: At-will; bonus action; Your hands crackle with electricity, and the next time you touch a creature, you inflict 1d8 + your level lightning damage. Alternatively, if you wield a weapon, for 10 minutes it crackles with electricity and inflicts 1d6 additional lightning damage per attack.",
+            "2. Charge: At-will; bonus action; You can charge an artifact or relic so that it gains the benefits of a level without levelling up. This can only be done once for each item.",
+            "3. Bolt Rider: 1/SR; bonus action; You can move up to 120' from 1 location to another almost instantaneously, carried by a bolt of lightning. You must be able to see the new location, and there must be no intervening barriers.",
+            "4. You can drain the power from an artifact or relic, allowing you to regain an amount of hit points equal to double the item's level. This requires a full turn action with concentration.",
+            "5. Electric Armour: 1/SR; free action; When you wish it, electricity cracles across your body for 10 minutes, granting you +1 AC. While electrified, you have an additional +4 to lightning resistance, and you inflict 1d6 lightning damage on any creature that touches you or attacks you with a melee weapon that conducts electricity.",
+            "6. You gain +2 to Dexterity.",
+            "7. Bolts of Power: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge inflicts 1d10 + your level lightning damage.",
+            "8. Electrical Flight: 1/LR; bonus action; You exude an aura of crackling electricity that grants you a fly speed of 120' for 10 minutes. You cannot carry other creatures with you.",
+            "9. Flash Across the Miles: 1/week; bonus action; You move to an open location on your current planet that you are familiar with almost instantaneously, transformed into a bolt of lightning.",
+            "10. Wall of Lightning: 1/week; bonus action; You create a barrier of crackling electricity in a square up to 2500' long, shaped as you wish. The wall is a magical barrier. Anyone within 5' of the wall automatically takes 1d12 + 1d10 + your level lightning damage. The wall lasts for 1 hour."
+        ]
+    },
+    {
+        "name": "Focuses Mind Over Matter",
+        "description": "telekinesis",
+        "tiers": [
+            "1. Deflect Attacks: At-will; bonus action; Using your mind, you protect yourself from incoming attacks. For the next 10 minutes, you gain +2 with Dexterity saving throws.",
+            "2. Telekinesis: 2/min; bonus action; You can exert force on objects within 30'. Once activated, your telekinesis has an effective Strength of 16, and you can use it to move objects, push against objects, and so on. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations it is not a means of attack. You cannot use this feature on your own body. The power lasts for 1 hour.",
+            "3. Cloak of Opportunity: 1/LR; bonus action; You set small objects from the environment (rocks, etc.) swirling about you for up to 10 minutes, which grants you +2 AC.",
+            "4. Enhance Strength: 1/min; bonus action; For the next 10 minutes, you gain advantage on any non-skill-check task involving your Strength, such as moving a heavy object, smashing down a door, or hitting someone with a Strength-based weapon attack.",
+            "5. Apportation: 1/SR; bonus action; You call a physical object to you. You can choose any piece of mundane equipment, or (no more than once per long rest) you can allow the DM to determine the object randomly. If you call a random object, it has a 10% chance of being a magical item, artifact, or relic, a 10% chance of being a wondrous item, a 40% chance of being a mundane item, and a 40% chance of being worthless junk. You cannot use this feature to acquire a specific item that exists in the world.",
+            "6. Psychokinetic Attack: 1/LR; bonus action; You can use this attack in 1 of 2 ways. The first is to pick up a heavy object and hurl it at a creature within 30'. This attack deals 1d8 + 1d6 + your level bludgeoning damage to the target and to the hurled object (alternatively the object can be another creature, although that would require a grapple attempt using your Telekinesis feature's Strength if they are unwilling). The second way is to unleash a shattering burst of power that works only against an inanimated object smaller than you. It is an attack to instantly destroy the object, which you have triple advantage on compared to breaking it with brute strength.",
+            "7. Improved Apportation: 1/week; bonus action; You call a creature of up to CR 2, which appears next to you. You can choose a creature that you have previously encountered, or (no more than once per long rest) you can allow the DM to determine the creature randomly. If you call a random creature, it has a 10% chance of being a CR 3 creature. The creature has no memory of anything before being called by you, though it can speak and has the general knowledge a creature of its type should possess. The creature is receptive to communication and helping you (unless shown that it should do otherwise).",
+            "8. Reshape Matter: 1/week; bonus action; Your mastery of telekinesis is so great that you can reshape objects on a molecular level. You can affect a single object no larger than you, and the object must be visible and within your reach. You can use this feature to damage the object (as if using your Psychokinetic Attack feature, except the task has quadruple advantage instead of triple), or you can attempt a Crafting check to reshape the object into another form. The difficulty of this check depends on the complexity of the finished object.",
+            "9. Your Deflect Attacks feature now grants you +4 with Dexterity saving throws instead of +2.",
+            "10. Your Telekinesis feature's range increases to 120'."
+        ]
     }
 ]

@@ -41,6 +41,48 @@
             "primary": "when downed, +5 global dmg for combat",
             "secondary": "when downed, +2 global dmg for combat",
             "foil": "+1 spell dmg res"
+        },
+        {
+            "name": "1. Club & Hammer",
+            "set": "Weapon Classes",
+            "primary": "on club/hammer sub hit, target is pushed up to 15' away from you and knocked prone",
+            "secondary": "on club/hammer sub hit, target is pushed up to 15' away from you",
+            "foil": "+1 club/hammer dmg"
+        },
+        {
+            "name": "2. Dart & Knife",
+            "set": "Weapon Classes",
+            "primary": "on dart/knife sub hit, target gets 8 P DoT, stacking until CON save",
+            "secondary": "on dart/knife sub hit, target gets 4 P DoT, stacking until CON save",
+            "foil": "+1 dart/knife dmg"
+        },
+        {
+            "name": "3. Brawling & Shield",
+            "set": "Weapon Classes",
+            "primary": "on brawling/shield sub hit, target makes CON save or blind until CON save",
+            "secondary": "on brawling/shield sub hit, target makes CON save or sluggish until CON save",
+            "foil": "+1 brawling/shield dmg"
+        },
+        {
+            "name": "4. Polearm & Spear",
+            "set": "Weapon Classes",
+            "primary": "on polearm/spear sub hit, target gets -2 AC until start of your next turn",
+            "secondary": "on polearm/spear sub hit, target gets -1 AC until start of your next turn",
+            "foil": "+1 polearm/spear dmg"
+        },
+        {
+            "name": "5. Caster",
+            "set": "Weapon Classes",
+            "primary": "on caster sub hit, target has -8 non-phys res until end of your next turn",
+            "secondary": "on caster sub hit, target has -4 non-phys res until end of your next turn",
+            "foil": "+1 caster dmg"
+        },
+        {
+            "name": "6. Bow & Sling",
+            "set": "Weapon Classes",
+            "primary": "on bow/sling sub hit, target takes 8 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
+            "secondary": "on bow/sling sub hit, target takes 4 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
+            "foil": "+1 bow/sling dmg"
         }
     ],
     "uncommon": [
@@ -57,6 +99,13 @@
             "primary": "-6 global dmg on odd turns, +12 global dmg on even turns",
             "secondary": "-2 global dmg on odd turns, +4 global dmg on even turns",
             "foil": "+1 dmg res on odd turns"
+        },
+        {
+            "name": "7. Axe & Sword",
+            "set": "Weapon Classes",
+            "primary": "on axe/sword sub hit, foe adj to target takes 9 S dmg",
+            "secondary": "on axe/sword sub hit, foe adj to target takes 5 S dmg",
+            "foil": "+1 axe/sword dmg"
         }
     ],
     "rare": [
@@ -73,6 +122,13 @@
             "primary": "+1 non-phys abs",
             "secondary": "+1 non-phys res",
             "foil": "+1 spell dmg res"
+        },
+        {
+            "name": "8. Flail & Pick",
+            "set": "Weapon Classes",
+            "primary": "on flail/pick sub hit, deal 8 additional base dmg per crit die with this wep",
+            "secondary": "on flail/pick sub hit, deal 4 additional base dmg per crit die with this wep",
+            "foil": "+1 flail/pick dmg"
         }
     ]
 }

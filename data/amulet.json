@@ -176,7 +176,7 @@
   },
   {
     "name": "sentinel - overwhelm",
-    "mods": ["+1d4 $physType dmg to your melee dmg", "on melee hit, 10% chance to knock prone"],
+    "mods": ["+1d4 $physType dmg to your melee dmg", "on melee hit, 20% chance to give sluggish until end of target's next turn"],
     "upgrade": "+1 dmg die size ALT 10%"
   },
   {
@@ -276,7 +276,7 @@
   },
   {
     "name": "shaman - ancient stone",
-    "mods": ["+2 global dmg", "on hit, 20% chance to knock prone", "+1 minion dmg", "on minion hit, 20% chance to knock prone"],
+    "mods": ["+2 global dmg", "on hit, 20% chance to give sluggish until end of target's next turn", "+1 minion dmg", "on minion hit, 20% chance to give sluggish until end of target's next turn"],
     "upgrade": "+1"
   },
   {
@@ -306,7 +306,7 @@
   },
   {
     "name": "shaman - earthern supremacy",
-    "mods": ["+1 $abilityScore", "+1 to condi saves", "on hit, 20% chance to knock prone"],
+    "mods": ["+1 $abilityScore", "+1 to condi saves", "on hit, 20% chance to give sluggish until end of target's next turn"],
     "upgrade": "+1"
   },
   {
@@ -446,7 +446,7 @@
   },
   {
     "name": "beastmaster - cry of the lynx",
-    "mods": ["-1 crit req", "-1 minion crit req", "on summon minion, gain buff until end of your next turn giving -1 crit req and 20% chance on hit to knock prone"],
+    "mods": ["-1 crit req", "-1 minion crit req", "on summon minion, gain buff until end of your next turn giving -1 crit req and 20% chance on hit to give sluggish until end of target's next turn"],
     "upgrade": "-1 ALT -1 ALT +1 turn duration NOT buff stats"
   },
   {
@@ -491,7 +491,7 @@
   },
   {
     "name": "forge guard - guardian",
-    "mods": ["+3 max HP", "on hit, 20% chance to knock prone until end of target's next turn"],
+    "mods": ["+3 max HP", "on hit, 20% chance to give sluggish until end of target's next turn"],
     "upgrade": "+1"
   },
   {
@@ -706,7 +706,7 @@
   },
   {
     "name": "sorcerer - elemental ascendance",
-    "mods": ["+1 non-phys res", "+1 non-phys dmg", "on non-phys hit, 20% chance to knock prone"],
+    "mods": ["+1 non-phys res", "+1 non-phys dmg", "on non-phys hit, 20% chance to give sluggish until end of target's next turn"],
     "upgrade": "+1"
   },
   {

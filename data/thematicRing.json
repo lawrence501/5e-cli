@@ -1396,7 +1396,7 @@
     },
     {
         "name": "skull cracking",
-        "mods": ["+2 dmg with {weaponClass} weps", "on {weaponClass} hit, 40% chance to knock prone", "on knock bloodied target prone, they take 1 true dmg"],
+        "mods": ["+1 dmg with {weaponClass} weps", "on {weaponClass} hit, 40% chance to give sluggish", "on giving bloodied target condi, they take 1 true dmg"],
         "tags": ["weapon class", "condi"]
     },
     {
