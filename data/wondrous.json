@@ -407,6 +407,46 @@
         {
             "name": "Potion of Gaseous Form",
             "description": "https://5e.tools/items.html#potion%20of%20gaseous%20form_dmg"
+        },
+        {
+            "name": "Potion of Frost Giant Strength",
+            "description": "https://5e.tools/items.html#potion%20of%20frost%20giant%20strength_dmg"
+        },
+        {
+            "name": "Potion of Fire Giant Strength",
+            "description": "https://5e.tools/items.html#potion%20of%20fire%20giant%20strength_dmg"
+        },
+        {
+            "name": "Potion of Superior Healing",
+            "description": "https://5e.tools/items.html#potion%20of%20superior%20healing_dmg"
+        },
+        {
+            "name": "Potion of Heroism",
+            "description": "https://5e.tools/items.html#potion%20of%20heroism_dmg"
+        },
+        {
+            "name": "Potion of Invulnerability",
+            "description": "https://5e.tools/items.html#potion%20of%20invulnerability_dmg"
+        },
+        {
+            "name": "Potion of Mind Reading",
+            "description": "https://5e.tools/items.html#potion%20of%20mind%20reading_dmg"
+        },
+        {
+            "name": "Quaal's Feather Token",
+            "description": "https://5e.tools/items.html#quaal's%20feather%20token_dmg"
+        },
+        {
+            "name": "Rope of Entanglement",
+            "description": "https://5e.tools/items.html#rope%20of%20entanglement_dmg"
+        },
+        {
+            "name": "Scroll of Protection",
+            "description": "https://5e.tools/items.html#scroll%20of%20protection_dmg"
+        },
+        {
+            "name": "Stone of Controlling Earth Elementals",
+            "description": "https://5e.tools/items.html#stone%20of%20controlling%20earth%20elementals_dmg"
         }
     ],
     "very rare": [

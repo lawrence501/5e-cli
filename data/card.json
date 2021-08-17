@@ -83,6 +83,48 @@
             "primary": "on bow/sling sub hit, target takes 8 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
             "secondary": "on bow/sling sub hit, target takes 4 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
             "foil": "+1 bow/sling dmg"
+        },
+        {
+            "name": "1. Conjuration",
+            "set": "Magic Schools",
+            "primary": "your conjuration spells that don't deal dmg on cast are always upcasted up to 3 lvls",
+            "secondary": "your conjuration spells that don't deal dmg on cast are always upcasted 1 lvl",
+            "foil": "+1 dmg with conjuration spells"
+        },
+        {
+            "name": "2. Evocation",
+            "set": "Magic Schools",
+            "primary": "+8 dmg with evocation cantrips",
+            "secondary": "+4 dmg with evocation cantrips",
+            "foil": "+1 dmg with evocation spells"
+        },
+        {
+            "name": "3. Abjuration",
+            "set": "Magic Schools",
+            "primary": "+8 to ability checks for abjuration spells",
+            "secondary": "+4 to ability checks for abjuration spells",
+            "foil": "+1 dmg res while concentrating on an abjuration spell"
+        },
+        {
+            "name": "4. transmutation",
+            "set": "Magic Schools",
+            "primary": "your transmutation spells that don't deal dmg on cast are always upcasted up to 3 lvls",
+            "secondary": "your transmutation spells that don't deal dmg on cast are always upcasted 1 lvl",
+            "foil": "+1 dmg with transmutation spells"
+        },
+        {
+            "name": "5. Divination",
+            "set": "Magic Schools",
+            "primary": "while concentrating on a divination spell, +45' truesight",
+            "secondary": "while concentrating on a divination spell, +30' blindsight",
+            "foil": "+1 dmg res while concentrating on a divination spell"
+        },
+        {
+            "name": "6. Enchantment",
+            "set": "Magic Schools",
+            "primary": "your enchantment spells have +3 to charm DCs",
+            "secondary": "your enchantment spells have +1 to charm DCs",
+            "foil": "+1 dmg with enchantment spells"
         }
     ],
     "uncommon": [
@@ -106,6 +148,13 @@
             "primary": "on axe/sword sub hit, foe adj to target takes 9 S dmg",
             "secondary": "on axe/sword sub hit, foe adj to target takes 5 S dmg",
             "foil": "+1 axe/sword dmg"
+        },
+        {
+            "name": "7. Illusion",
+            "set": "Magic Schools",
+            "primary": "+2 AC while concentrating on an illusion spell",
+            "secondary": "+1 AC while concentrating on an illusion spell",
+            "foil": "+1 dmg res while concentrating on an illusion spell"
         }
     ],
     "rare": [
@@ -129,6 +178,13 @@
             "primary": "on flail/pick sub hit, deal 8 additional base dmg per crit die with this wep",
             "secondary": "on flail/pick sub hit, deal 4 additional base dmg per crit die with this wep",
             "foil": "+1 flail/pick dmg"
+        },
+        {
+            "name": "8. Necromancy",
+            "set": "Magic Schools",
+            "primary": "while concentrating on a necromancy spell, +8 dmg res",
+            "secondary": "while concenttrating on a necromancy spell, +4 dmg res",
+            "foil": "+1 dmg with necromancy spells"
         }
     ]
 }

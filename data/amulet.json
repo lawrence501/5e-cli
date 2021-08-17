@@ -903,5 +903,195 @@
     "name": "void knight - void flux",
     "mods": ["first time you are bloodied each combat, adj foes are banished until end of your next turn"],
     "upgrade": "+2 incoming healing"
+  },
+  {
+    "name": "spellblade - elemental affinity",
+    "mods": ["+1 $dmgPolarity dmg", "+1 non-phys res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - infused weapon",
+    "mods": ["+1d4 random $dmgPolarity dmg to your melee hits"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - arcane warden",
+    "mods": ["on dealing $dmgPolarity melee dmg, gain 2 temp HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - elemental strikes",
+    "mods": ["on $nonPhysType melee hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "on $nonPhysType melee hit, 20% chance to give sluggish until end of your next turn", "on $nonPhysType hit, 20% chance to give -1 dmg res and -1 to condi saves until end of your next turn"],
+    "upgrade": "+10% to chances NOT effects"
+  },
+  {
+    "name": "spellblade - arcane shielding",
+    "mods": ["on melee hit, +1 dmg res and +1 passive temp HP gen until end of your next turn"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - fire blood",
+    "mods": ["+1 $abilityScore", "+1d4 $nonPhysType dmg to your melee hits"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - essence duel",
+    "mods": ["+1 melee dmg", "on $dmgPolarity melee hit, gain 1 temp HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - storm blade",
+    "mods": ["+1d4 $nonPhysType dmg to your melee hits", "on {nonPhysType} melee hit, 20% chance for target to make CON save or take 1d4 light spell at start of their next turn"],
+    "upgrade": "+1 dmg ALT 10% NOT proc effect"
+  },
+  {
+    "name": "spellblade - gemini",
+    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res"],
+    "upgrade": "-1 dmg res and +3 {weaponClass} dmg"
+  },
+  {
+    "name": "spellblade - prismatic blade",
+    "mods": ["+1 $abilityScore", "+1d4 random $dmgPolarity dmg to your melee hits"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - river blade",
+    "mods": ["on melee hit, 20% chance to give 1 $nonPhysType DoT, stacking until CON save", "+1 {nonPhysType} DoT dmg"],
+    "upgrade": "+10% ALT dot dmg NOT proc effect"
+  },
+  {
+    "name": "spellblade - awe strike",
+    "mods": ["+1d4 $nonPhysType dmg to your melee hits", "+1 mark effectiveness"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - burden of knowledge",
+    "mods": ["+1d4 base dmg to your spells", "-1 spell dmg"],
+    "upgrade": "-1 spell dmg and +2 die size"
+  },
+  {
+    "name": "spellblade - mental fortitude",
+    "mods": ["+1 $abilityScore", "+1 passive temp HP gen"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "spellblade - outlast",
+    "mods": ["+2 max HP", "+1 DoT dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - survival of the cruel",
+    "mods": ["+2 max HP", "on spell hit, heal 1 HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - dance with death",
+    "mods": ["+1 global dmg", "above is doubled while bloodied"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - soul barrier",
+    "mods": ["first time bloodied each combat, gain 5 temp HP"],
+    "upgrade": "+5"
+  },
+  {
+    "name": "lich - grasp of fate",
+    "mods": ["+1 $nonPhysType dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - serrated bones",
+    "mods": ["on hit, 30% chance to give 1 $physType DoT, stacking until CON save", "on minion hit, 30% chance to give 1 $physType DoT, stacking until CON save"],
+    "upgrade": "+10% NOT dot dmgs"
+  },
+  {
+    "name": "lich - wraith bringer",
+    "mods": ["on KB, 20% chance to summon $nonPhysType Wraith (ranged spell {nonPhysType} black bear) from corpse"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - desolation",
+    "mods": ["+1 DoT dmg", "+1 minion DoT dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - bed of souls",
+    "mods": ["+1 $abilityScore", "+1 passive regen", "+1 minion passive regen"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - lasting stench",
+    "mods": ["+1 $nonPhysType dmg", "+1 to DoT DCs"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - unclosing wounds",
+    "mods": ["+2 global dmg", "-1 passive regen"],
+    "upgrade": "-1 passive regen and +2 global dmg"
+  },
+  {
+    "name": "lich - crippling insight",
+    "mods": ["+1 $abilityScore", "-1 passive regen"],
+    "upgrade": "-1 passive regen and +1 $abilityScore"
+  },
+  {
+    "name": "lich - three plagues",
+    "mods": ["your $physType dmg ignores res", "your $nonPhysType dmg ignores res", "your $nonPhysType dmg ignores res"],
+    "upgrade": "+1 {physType} dmg ALT +1 {nonPhysType1} dmg ALT +1 {nonPhysType2} dmg"
+  },
+  {
+    "name": "lich - volatile blood",
+    "mods": ["+1 DoT res", "when condi'd, 20% chance to release $physType nova, all adj foes make DEX save or 1d4 {physType} spell"],
+    "upgrade": "+1 dot res ALT +10% NOT nova effect"
+  },
+  {
+    "name": "lich - deathbringer",
+    "mods": ["-1 crit req", "+1 global dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - necrotic energy",
+    "mods": ["+1d4 $nonPhysType dmg to your hits", "+1d4 {nonPhysType} dmg to your minion hits"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - symbol of decay",
+    "mods": ["while holding 1h wep and no shield, +1 DoT dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - elixir of death",
+    "mods": ["on 1+ healing surge, +5 $physType res and +2 $nonPhysType res and -1 passive regen until end of your next turn"],
+    "upgrade": "-1 passive regen and +20 physType ALT -1 passive regen and +4 nonPhysType"
+  },
+  {
+    "name": "lich - decaying form",
+    "mods": ["on hit, 30% chance to give 2 $nonPhysType DoT, stacking until CON save", "-2 {nonPhysType} res"],
+    "upgrade": "-1 res and +20% NOT dot dmg"
+  },
+  {
+    "name": "lich - ageless ascetic",
+    "mods": ["+1 global dmg", "+5' sp", "on hit, heal 1 HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - wands of the fallen",
+    "mods": ["while holding 1h wep and no shield, +1 spell dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - corrosive consciousness",
+    "mods": ["+1 spell dmg", "+1 DoT dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "lich - mind over body",
+    "mods": ["+1 $abilityScore", "-1 passive regen"],
+    "upgrade": "-1 passive regen and +1 {abilityScore}"
+  },
+  {
+    "name": "lich - soul maw",
+    "mods": ["on hit, heal 1 HP", "+1 incoming healing"],
+    "upgrade": "+1"
   }
 ]

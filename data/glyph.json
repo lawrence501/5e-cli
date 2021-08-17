@@ -1358,5 +1358,85 @@
             "9. Your Deflect Attacks feature now grants you +4 with Dexterity saving throws instead of +2.",
             "10. Your Telekinesis feature's range increases to 120'."
         ]
+    },
+    {
+        "name": "Explores Yesterday",
+        "description": "investigating ancient ruins and artifacts",
+        "tiers": [
+            "1. You gain prof/+2 in perception and arcana, and +2 to athletics checks for climbing.",
+            "2. In your explorations of uncivilised regions, you have been exposed to all sorts of terrible things and have developed a general resistance. You gain +1 AC and prof/+2 in Constitution saving throws.",
+            "3. You gain a CR 1 humanoid follower of your choice.",
+            "4. Excavating the past means entering ruins that are often filled with dangers, some of which can be overcome by force. Choose one class of weapon. You gain a +2 bonus to damage with that weapon.",
+            "5. Got a Feeling: 1/SR; bonus action; Your experience excavating the ruins of the prior worlds gives you an uncanny intuition when it comes to finding things. While exploring, you can extend your senses up to 1 mile in any direction and ask the DM a very simple, general question (usually a yes/no question) about that area. If the answer you seek is not in the area, you receive no information.",
+            "6. You have advantage on athletics checks to climb, acrobatics checks to balance, and your long/high jump distance increases by 10'.",
+            "7. Incredible Recovery: 1/week; bonus action; You shake off any unwanted ongoing condition.",
+            "8. Quick Hands: 1/LR; free action; Being quick with a chosen weapon is important for excavators who come across an unexpected and aggressive threat. Choose one class of weapon. You can make an additional attack with it whenever you take the Attack action.",
+            "9. Gain +2 in perception and arcana, and +2 to athletics checks for climbing.",
+            "10. You gain +1 AC and +3 to Constitution saving throws."
+        ]
+    },
+    {
+        "name": "Wields a Mindstone",
+        "description": "telekinetic force",
+        "tiers": [
+            "1. True Telepathy: At-will; bonus action; You extend telepathy to 120', allowing you to communicate with any intelligent being for up to 10 minutes.",
+            "2. Psychokinesis: 2/min; bonus action; You can exert force on objects within 30'. Once used, your power has an effective Strength of 16, and you can use it to move objects, push against objects, and so on. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it is not a means of attack. You cannot use this feature on your own body. The power lasts for 1 hour.",
+            "3. Forceblast: 1/min; bonus action; You launch an attack of pure psychokinetic force at a target within 120', inflicting 1d8 + 1d6 + your level force damage.",
+            "4. Clairvoyance: 1/SR; bonus action; You can see a location familiar to you within 10 miles as if you were there. You can rotate your field of vision but you cannot move your point of view. This lasts as long as you concentrate on it.",
+            "5. You surround yourself with a telekinetic force field. You gain +1 AC.",
+            "6. Multitasking: 1/LR; bonus action; You use your complex sensory organs and the neural network that runs through your arms, enhanced with the power of your mindstone, to gain an additional standard action in the round in which you use this feature.",
+            "7. Your telekinetic force field now offers +3 AC instead of +1.",
+            "8. Your True Telepathy feature now extends to 240'.",
+            "9. Your Psychokinesis feature's range increases to 60'.",
+            "10. Your Forceblast feature can now be used at-will."
+        ]
+    },
+    {
+        "name": "Crafts Powerful Poisons",
+        "description": "crafting poisons",
+        "tiers": [
+            "1. Your character gains a Poison Pool, which starts with 10 points. This pool represents your ability to carry the appropriate ingredients and use them for various Mixtures. You can spend your Poison pool on Mixtures; these are recipes that you have learned to quickly concoct with your on-hand supplies. Mixtures are commonly augments on to a weapon. However, Mixtures could be used as a bonus action on their own. Once a poisoner runs out of Poison Points, they must restock their supplies. A poisoner can restore their Poison Pool through foraging or shopping. If foraging, the poisoner will need to roll a Survival check, recovering half the check's score in points. This process takes 2 hours. For shopping, a Persuasion check is made instead, granting points equal to the check's score, but the process takes 1 hour and 30 gold. By paying 50 gold instead, you can gain advantage on your Persuasion check.",
+            "2. You learn the Damage Mixture (1 poison point, victim gains a 2 damage poison DoT) and the Loose Lips Mixture (1 poison point, all social interactions with the victim have advantage for 10 minutes).",
+            "3. You gain +2 in the cooking craft. You gain +2 to saves against poisons, and +2 poison resistance.",
+            "4. You gain +2 to saves against poisons, and +2 poison resistance.",
+            "5. You learn the Slow Mixture (2 poison points, victim's speed is halved for 5 minutes) and the Impair Mixture (3 poison points, victim is poisoned until healed).",
+            "6. Your poison pool increases to 20 points. You learn the Slay Mixture (8 poison points, if victim's CR is less than 2, they die).",
+            "7. You learn the Sleep Mixture (3 poison points, victim falls asleep for 10 minutes. If used in combat, victim needs 2 doses for poison to take effect. The first does will only poison the target) and the Blindness Mixture (5 poison points, victim is blinded for 3 rounds).",
+            "8. Your poison pool increases to 25 points.",
+            "9. You gain +2 in the cooking craft. You learn the Magical Disjunction Mixture (6 poison points, victim is unable to cast spells for 3 rounds).",
+            "10. You learn the Paralysis Mixture (6 poison points, victim is paralysed for 2 rounds)."
+        ]
+    },
+    {
+        "name": "Bears a Staff of Power",
+        "description": "enhancing a staff",
+        "tiers": [
+            "1. Instill Potion: 2/min; bonus action; You absorb a potion, but instead of consuming it, its power is stored in a staff you hold. For so long as it is stored there, you (and only you) may use it without losing it. If it is a healing potion, it still counts against your potion limit. The potion can be used on a cooldown dictated by its tier (ask DM). You may only ever have 1 staff instill with a potion and a staff may only ever hold 1 potion in this way. Should you instill another one, the old one is disenchanted.",
+            "2. Gain prof/+2 AB with staves.",
+            "3. By chanting sonorous words of power you enhance your staff-stored potion, granting you advantage on any rolls associated with its effects.",
+            "4. Potion Sacrifice: 1/min; free action; By harnessing the power of a potion you hold, but doing so allows you to use your imbued staff potion twice this turn with a single bonus action.",
+            "5. Energy Ground: 1/SR; free action; Through a held staff you redirect arcane energies, such as a spell, potion, or other magical effect. The effect is stopped and its energies forced into the ground by your staff (the effects of which are up to your DM). Only usable on effects that target you or your carried possessions.",
+            "6. Channel Power: 1/LR; free action; You draw the arcane power stored in your staff through your body and use it to affect the world. You must be holding a staff you have imbued with a potion to use this feature, and doing so removes the potion stored within. Doing so grants you great arcane power this round, providing double advantage on potion rolls, spell attacks, and respective disadvantage on your outgoing saves.",
+            "7. Arcane Aura: 1/year; bonus action; The power imbued within your staff envelopes you, colouring everything you do. You are physically transformed, taking on a shape related to the power your staff holds, granting you +1 AC for the next hour. During this time, always use the maximum result for die rolls associated with the potion in your staff.",
+            "8. You can now use your Instill Potion feature at-will.",
+            "9. +1 AB with staves.",
+            "10. +3 to rolls associated with your staff-stored potion's effects."
+        ]
+    },
+    {
+        "name": "Crafts Illusions",
+        "description": "illusions",
+        "tiers": [
+            "1. Minor Illusion: At-will; bonus aciton; You create a single image of a creature or object within 5' of you. The image must fit within a 10' cube. The image can move, but it cannot leave the area defined by the cube. The illusion includes sound but not smell. It lasts for 10 minutes, but if you want to change the original illusion significantly, such as making a creature appear to be wounded, you must use another bonus action. If you move beyond 5' from the cube, the illusion vanishes.",
+            "2. Disguise: 2/min; bonus action; You appear to be someone or something else, roughly of your size and shape, for up to 1 hour.",
+            "3. You can increase the range at which you create your 5'-range illusions to anywhere within 30' that you can perceive.",
+            "4. Major Illusion: 1/min; bonus action; You create a complex scene of images within 30' of you. The entire scene must fit within a 100' cube. The images can move, but they cannot leave the area defined by the cube. The illusion includes sound and smell. It lasts for 10 minutes and changes as you direct. If you move beyond 30' from the cube, the illusion vanishes.",
+            "5. Illusory Selves: 1/SR; bonus action; You create 4 holographic duplicates of yourself within 30'. The duplicates last for 1 minute. You mentally direct their actions, and the duplicates are not mirror images - each one can do different things. If struck violently, they either disappear permanently or freeze motionless (your choice).",
+            "6. Terrifying Image: 1/week; bonus action; You use a bit of subtle telepathy to learn which images would appear terrifying to creatures that you choose within 120'. Those images appear within that area and menace the appropriate creatures. Make an attack roll against each creature you want to affect. Success means the creature flees in terror for 1 minute, pursued by its nightmares. Failure means the creature ignores the images, which do not hamper it in any way.",
+            "7. Grandiose Illusion: 1/year; bonus action; You create a fantastically complex scene of images that fit within a 1-mile cube that you are also within. You must be able to see the images when you create them. The images can move in the cub and act in accordance with your desires. They can also act logically, such as reacting appropriately to fire or attacks, when you are not directly observing them. The illusion includes sound and smell. The illusion lasts for 1 hour, or longer if you concentrate on it after that time.",
+            "8. Permanent Illusion: 1/century; free action; An illusion (or portion of an illusion) that you created that fits within 1 10' cube becomes permanent. You can permanently end the illusion as an action, but others must expend exceptional ingenuity to prevent the illusion from regenerating even if it has apparently been dispersed.",
+            "9. Your Minor Illusions can now include smell.",
+            "10. Your Disguise feature can now be used on 2 additional creatures. All disguised creatures must stay within sight of you or lose their disguise."
+        ]
     }
 ]

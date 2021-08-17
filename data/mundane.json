@@ -688,6 +688,86 @@
                 "Name": "Crusader Gauntlets",
                 "Description": "Gloves slot; +2 psy res",
                 "Tags": ["armour"]
+            },
+            {
+                "Name": "Refuge Boots",
+                "Description": "Boots slot; +1 phys res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Leather Boots",
+                "Description": "Boots slot; +5' sp",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Fur Boots",
+                "Description": "Boots slot; +2 cold res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Shrine Boots",
+                "Description": "Boots slot; +1 to saves to end ongoing effects",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Arcane Boots",
+                "Description": "Boots slot; +1 incoming temp HP",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Mesh Boots",
+                "Description": "Boots slot; +2 fire res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Wooden Shield",
+                "Description": "Shield slot; +1 AC",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Cavalier Shield",
+                "Description": "Shield slot; +1 dmg res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Prismatic Shield",
+                "Description": "Shield slot; +1 non-phys res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Heater Shield",
+                "Description": "Shield slot; +1 phys res",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Bandit Shield",
+                "Description": "Shield slot; +1 phys dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Root Shield",
+                "Description": "Shield slot; +1 HP for bloodied threshold",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Frostbound Shield",
+                "Description": "Shield slot; +1 to condi DCs",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Embossed Shield",
+                "Description": "Shield slot; +1 melee phys dmg",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Mountain Shield",
+                "Description": "Shield slot; +1 dmg res while bloodied",
+                "Tags": ["armour"]
+            },
+            {
+                "Name": "Carapace Shield",
+                "Description": "Shield slot; +2 psn res",
+                "Tags": ["armour"]
             }
         ]
     }
