@@ -32,3 +32,7 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Mark effects: x2
 - Glyphic 1d4 proc: 3
 - Wep/spell 1d4 proc: 5
+- Ignore res/imm: +3
+- Ignore type-res/imm: +4
+- Ignore all res/imm: +5
+- Ignore res and immunity: +10
