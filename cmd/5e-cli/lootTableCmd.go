@@ -36,7 +36,11 @@ var trap = func() error {
 	}
 
 	chosen := traps[rand.Intn(len(traps))]
-	log.Printf("Trap!\n%s: %s", chosen.Name, chosen.Description)
+	title := "Trap!"
+	if t == "crit" {
+		title = "Special trap!"
+	}
+	log.Printf("%s\n%s: %s", title, chosen.Name, chosen.Description)
 	return nil
 }
 
@@ -51,7 +55,11 @@ var mundane = func() error {
 		return err
 	}
 
-	log.Printf("Mundane\n%s: %s", chosen.Name, chosen.Description)
+	title := "Mundane"
+	if t == "crit" {
+		title = "Exotic mundane!"
+	}
+	log.Printf("%s\n%s: %s", title, chosen.Name, chosen.Description)
 	return nil
 }
 

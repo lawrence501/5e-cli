@@ -156,7 +156,7 @@
   },
   {
     "name": "primalist - harmony of blades",
-    "mods": ["$weaponClass weps gain the light trait", "$weaponClass weps gain the light trait", "-2 dmg res"],
+    "mods": ["$weaponClass weps gain the light trait", "$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
     "upgrade": "-1 dmg res and +3 {weaponClass} dmg ALT -1 dmg res and +3 {weaponClass} dmg"
   },
   {
@@ -201,7 +201,7 @@
   },
   {
     "name": "sentinel - gladiator",
-    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res"],
+    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
     "upgrade": "-1 dmg res and +3 {weaponClass} dmg"
   },
   {
@@ -946,7 +946,7 @@
   },
   {
     "name": "spellblade - gemini",
-    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res"],
+    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
     "upgrade": "-1 dmg res and +3 {weaponClass} dmg"
   },
   {
@@ -1092,6 +1092,41 @@
   {
     "name": "lich - soul maw",
     "mods": ["on hit, heal 1 HP", "+1 incoming healing"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "rogue - swift assassin",
+    "mods": ["+1 wep dmg", "+1d4 $physType dmg to your weps"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "rogue - steady hand",
+    "mods": ["+1 $abilityScore", "+1 max HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "rogue - guile",
+    "mods": ["+1 to $abilityScore saves", "+1 $nonPhysType res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "rogue - twin blade",
+    "mods": ["$weaponClass weps gain the light trait", "$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
+    "upgrade": "-1 dmg res and +3 {weaponClass1} dmg ALT -1 dmg res and +3 {weaponClass2} dmg"
+  },
+  {
+    "name": "rogue - dodge and parry",
+    "mods": ["+1 to $abilityScore saves", "+1 dmg res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "rogue - poison tipped",
+    "mods": ["on $weaponClass hit, 30% chance to give 1 $nonPhysType DoT, stacking until CON save", "on $weaponClass hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save"],
+    "upgrade": "+10% NOT dot dmgs"
+  },
+  {
+    "name": "rogue - critical precision",
+    "mods": ["-1 crit req per wep held"],
     "upgrade": "+1"
   }
 ]
