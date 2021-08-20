@@ -493,6 +493,26 @@
         {
             "name": "Bronze Horn of Valhalla",
             "description": "https://5e.tools/items.html#horn%20of%20valhalla%2c%20bronze_dmg"
+        },
+        {
+            "name": "Horseshoes of a Zephyr",
+            "description": "https://5e.tools/items.html#horseshoes%20of%20a%20zephyr_dmg"
+        },
+        {
+            "name": "Manual of Bodily Health",
+            "description": "https://5e.tools/items.html#manual%20of%20bodily%20health_dmg"
+        },
+        {
+            "name": "Manual of Gainful Exercise",
+            "description": "https://5e.tools/items.html#manual%20of%20gainful%20exercise_dmg"
+        },
+        {
+            "name": "Manual of Golems",
+            "description": "https://5e.tools/items.html#manual%20of%20golems_dmg"
+        },
+        {
+            "name": "Manual of Quickness of Action",
+            "description": "https://5e.tools/items.html#manual%20of%20quickness%20of%20action_dmg"
         }
     ],
     "legendary": [

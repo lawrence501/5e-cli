@@ -1128,5 +1128,5 @@
     "name": "rogue - critical precision",
     "mods": ["-1 crit req per wep held"],
     "upgrade": "+1"
-  }
+  } 
 ]

@@ -746,7 +746,7 @@
     },
     {
         "name": "eternal suffering",
-        "mods": ["+1 {nonPhysType} dmg", "on hit, 20% chance to give -2 {nonPhysType} res until end of target's next turn"],
+        "mods": ["+2 {nonPhysType} dmg", "on hit, 20% chance to give -3 {nonPhysType} res until end of target's next turn"],
         "tags": ["non-phys dmg"]
     },
     {
@@ -1413,5 +1413,75 @@
         "name": "hatchet master",
         "mods": ["+3 dmg with {weaponClass} weps"],
         "tags": ["weapon class"]
+    },
+    {
+        "name": "slaughter",
+        "mods": ["+2 dmg with {weaponClass} weps", "on KB, 20% chance to gain +1 global dmg and +10' sp until end of your next turn"],
+        "tags": ["weapon class", "wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "born to fight",
+        "mods": ["+1 {abilityScore}", "+1 {physType} dmg", "+1 wep dmg", "+1 {hitForm} AB"],
+        "tags": ["ability score", "phys dmg", "wep dmg", "ab"]
+    },
+    {
+        "name": "lust for carnage",
+        "mods": ["on wep hit, heal 1 HP", "+1 incoming healing", "+1 wep dmg"],
+        "tags": ["wep dmg", "hp"]
+    },
+    {
+        "name": "blunt trauma",
+        "mods": ["on {weaponClass} crit, target pushed 5' away from you", "+1 {weaponClass} AB", "-1 {weaponClass} crit req", "+1 {weaponClass} crit dice"],
+        "tags": ["weapon class", "crit", "ab"]
+    },
+    {
+        "name": "fending",
+        "mods": ["your pushes have up to +5' distance", "on hit, 20% chance to push target 10' away from you"],
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "name": "bloodless",
+        "mods": ["creatures cannot heal from dmg'ing you", "+4 max HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "eagle eye",
+        "mods": ["+1 {hitForm} AB", "-1 crit req"],
+        "tags": ["ab", "crit"]
+    },
+    {
+        "name": "warrior's blood",
+        "mods": ["+1 passive regen", "+1 {abilityScore}", "+1 to condi saves"],
+        "tags": ["hp", "ability score", "save"]
+    },
+    {
+        "name": "arcing blows",
+        "mods": ["+1 wep {nonPhysType} dmg", "wep dmg ignores {nonPhysType} res", "+1 mark effectiveness"],
+        "tags": ["wep dmg", "non-phys dmg"]
+    },
+    {
+        "name": "fusillade",
+        "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB"],
+        "tags": ["weapon class", "ab"]
+    },
+    {
+        "name": "static blows",
+        "mods": ["your marks last double duration", "+1 mark effectiveness", "if you've marked since start of your last turn, +1 global dmg", "-1 crit req vs marked targets"],
+        "tags": ["wep dmg", "spell dmg", "crit"]
+    },
+    {
+        "name": "wandslinger",
+        "mods": ["+1 dmg with {weaponClass} weps", "your {weaponClass} weps gain the conduit trait"],
+        "tags": ["weapon class", "spell dmg"]
+    },
+    {
+        "name": "elder power",
+        "mods": ["+1 dmg with {weaponClass} weps per crit reduction bonus", "on KB, 20% chance to gain -1 crit req for combat"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "nightstalker",
+        "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "+1 {weaponClass} crit dice", "+5' sp", "+1 to {abilityScore} saves"],
+        "tags": ["weapon class", "ab", "crit", "speed", "save"]
     }
 ]

@@ -737,5 +737,79 @@
                 "upgrade": "+5/1"
             }
         ]
+    },
+    {
+        "name": "Tesseract",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+1 CHA",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+2 init",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on turn start, recover 1 spell slot lvl",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 DEX",
+                "pointValue": "4",
+                "upgrade": "1/4"
+            },
+            {
+                "description": "2. +2 force res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. this wep has -5 base dmg die size; this wep has no prof requirement",
+                "pointValue": "1",
+                "upgrade": "-1 base dmg die size and 2pt distributed/1 ALT +1 dmg with this wep"
+            },
+            {
+                "description": "4. +4 dmg with this wep vs incorporeal targets",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "5. 1 WIS",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 dmg with 1st-lvl spells",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +2 dmg with this wep vs targets behind you in init",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "8. +1 INT",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. on combat end, recover 2 spell slot lvls",
+                "pointValue": "3",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. you can base your init on your CHA instead of your DEX",
+                "pointValue": "1",
+                "upgrade": "+1 init/1"
+            }
+        ]
     }
 ]

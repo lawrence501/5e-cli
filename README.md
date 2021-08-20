@@ -36,3 +36,6 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Ignore type-res/imm: +4
 - Ignore all res/imm: +5
 - Ignore res and immunity: +10
+- Equipment proficiency: +3
+- Armour proficiency requirement: -2
+- Weapon proficiency requirement: -3
