@@ -1483,5 +1483,35 @@
         "name": "nightstalker",
         "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "+1 {weaponClass} crit dice", "+5' sp", "+1 to {abilityScore} saves"],
         "tags": ["weapon class", "ab", "crit", "speed", "save"]
+    },
+    {
+        "name": "flaying",
+        "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "+5' {weaponClass} reach"],
+        "tags": ["weapon class", "ab"]
+    },
+    {
+        "name": "claws of the magpie",
+        "mods": ["+1 dmg with {weaponClass} weps", "on {weaponClass} hit vs buffed target, 20% chance to steal all buffs"],
+        "tags": ["weapon class", "buff"]
+    },
+    {
+        "name": "claws of the falcon",
+        "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} crit dice", "+1 {weaponClass} AB"],
+        "tags": ["weapon class", "crit", "ab"]
+    },
+    {
+        "name": "grave intentions",
+        "mods": ["+2 minion {nonPhysType} res", "+1 minion incoming temp HP per minion HP bonus", "on minion KB, they have 20% chance to gain +1d6 {nonPhysType} dmg to their wep hits until end of their next turn"],
+        "tags": ["minion hp", "minion dmg"]
+    },
+    {
+        "name": "death attunement",
+        "mods": ["+4 minion dmg", "+3 minion HP"],
+        "tags": ["minion dmg", "minion hp"]
+    },
+    {
+        "name": "heart of thunder",
+        "mods": ["+1 {nonPhysType} dmg", "ignore {nonPhysType} res", "on {nonPhysType} hit, gain 1 temp HP"],
+        "tags": ["non-phys dmg", "temp hp"]
     }
 ]

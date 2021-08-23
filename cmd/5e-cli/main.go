@@ -42,6 +42,7 @@ var COMMAND_MAP = map[string]func() error{
 	"dmg type":      dmgType,
 	"creature type": creatureType,
 	"card":          singleCard,
+	"ability score": abilityScore,
 }
 
 func main() {

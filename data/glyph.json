@@ -1438,5 +1438,85 @@
             "9. Your Minor Illusions can now include smell.",
             "10. Your Disguise feature can now be used on 2 additional creatures. All disguised creatures must stay within sight of you or lose their disguise."
         ]
+    },
+    {
+        "name": "Lives in the Wilderness",
+        "description": "surviving in the wild",
+        "tiers": [
+            "1. You gain prof/+2 with 2 of the following: athletics, survival, or nature.",
+            "2. You gain +1 Strength.",
+            "3. Given an hour or so, you can always find edible food and potable water in the wilderness. You can even find enough for a small group of people, if need be. Further, since you are so hardy and have gained resistance over time, you gain +2 to saving throws to resist natural poisons (such as those from plants or living creatures). You are also immune to natural disease.",
+            "4. While kaing any action in the wild, you ignore any penalties due to natural causes such as tall grass, thick brush, rugged terrain, weather, and so on.",
+            "5. You gain +2 to perception checks in hearing and sight. In addition, you have advantage on perception checks to detect traps or ambushes.",
+            "6. Wilderness Encouragement: 1/min; bonus action; While in the wilderness, or when talking about your time in the wilderness, your stirring words of encouragement grant a target within 30' that can understand you 2d6 hit points. You cannot use this feature on the same creature again until 1 minute has passed.",
+            "7. Wilderness Awareness: 1/SR; bonus action; Your connection to the natural world extends to a degree that some would call supernatural. While in the wilderness, you can extend your senses up to a mile in any direction and ask the DM a very simple, general question about that area, such as 'Where is the kobold camp?' or 'Is my friend Vidar still alive?'. If the answer you seek is not in the area, you receive no information.",
+            "8. The Wild Is on Your Side: 1/LR; bonus action; While you are in the wilderness, foes within 30' are tripped by rocks, tangled in vines, bitten by insects, and distracted or confused by small animals, which grants them disadvantage on all d20 rolls for 10 minutes.",
+            "9. One With the Wild: 1/week; bonus action; For the next hour, natural animals and plants within 120' will not knowingly harm you or those you designate. In addition, your Strength, Dexterity, and Wisdom increase by 2, and any healing you receive during this period is doubled.",
+            "10. Wild Camouflage: 1/SR; bonus action; By drawing your clothing about you just so and using various tricks about your deep knowledge of your surroundings, you become invisible in the wilderness for 10 minutes. While you are invisible, you have double advantage on Stealth checks and Dexterity saving throws. This effects ends if you do something to reveal your presence or position - attacking, casting a spell, moving a large object, and so on. If this occurs, you can regain the remaining invisibility effect by using a bonus action to hide your position."
+        ]
+    },
+    {
+        "name": "Commands Mental Powers",
+        "description": "honing psychic powers",
+        "tiers": [
+            "1. Telepathic: At-will; bonus action; You can speak telepathically with others who are within 30'. Communication is 2-way, but the other party must be willing and able to communicate. You do not have to see the target, but you must know that it is within range. You can have more than 1 active contact at once, but you must establish contact with each target individually. Each contact lasts up to 10 minutes.",
+            "2. Mind Reading: 2/min; bonus action; You can read the surface thoughts of a creature within 30', even if the target does not want you to. You must be able to see your target. Once you have established contact, you can read the target's thoughts for up to 1 minute.",
+            "3. Psychic Burst: 1/min; bonus action; You blast waves of mental force into the minds of up to 3 targets within 30' (make an attack roll against each target). This burst inflicts 1d8 + your level true psychic damage.",
+            "4. Psychic Suggestion: 1/SR; bonus action; You attempt to make the target take the action you indicate on its next turn. If the action you wish the target to take would cause direct harm to the target or its allies, your mental attack has disadvantage.",
+            "5. Use Senses of Others: 1/SR; bonus action; You can see, hear, smell, touch, and taste through the senses of anyone with whome you have telepathic contact. You can attempt to use this ability on a willing or unwilling target within 120'; an unwilling target requires an attack. You do not need to see the target, but you must know that it is within range. Your shared senses last 10 minutes.",
+            "6. Precognition: 1/week; free action; You dimly sense the future for the next 10 minutes. This has the following effects until the duration expires: You have advantage on saving throws. You can predict the actions of those around you, gaining advantage on Insight checks to contest Deception, as well as on Perception checks to avoid traps and ambushes. You know what people are probably thinking and what they will say before they say it, which gives you an edge, gaining advantage on all Charisma-based skill checks.",
+            "7. Mind Control: 1/week; bonus action; You control the actions of another creature you touch. This effect lasts for 1 minute. The target must be of CR 2 or lower. Once you have established control, you maintain mental contact with the target and sense what it senses. You can allow it to act freely or override its control on a case-by-case basis. When the effect ends, the creature does not remember being controlled or anything it did while under your command.",
+            "8. Telepathic Network: At-will; free action; When you wish it, you can contact up to 10 creatures known to you, no matter where they are. All targets must be willing and able to communicate. All creatures in the network are linked and can communicate telepathically with one another. They can also 'overhear' anything said in the network, if they wish. The network lasts until you choose to end it.",
+            "9. Your Telepathic feature now lasts for 24 hours.",
+            "10. Your Mind Reading feature can now be used at-will, has a range of 120', and you no longer need to be able to see the target (but you do need to know that they are within range)."
+        ]
+    },
+    {
+        "name": "Metes out Justice",
+        "description": "judgement",
+        "tiers": [
+            "1. You assign an innocent or guilty label to 1 creature within 5', based on your assessment of a give situation or a predominant feeling. In other words, someone who is labeled innocent can be innocent in a certain circumstance, or they can be generally innocent of terrible crimes (such as murder, major theft, and so on). Likewise, you can declare that a creature is guilty of a particular crime or of terrible deeds in general. The accuracy of your assessment is not important as long as you believe it to be truth; the DM may require you to give a rationale. Henceforth, your checks to socially interact with someone you designate as innocent gain advantage, and your attacks against those you designate as guilty gain advantage. You can change your assessment as a bonus action. The benefits of the designation last until you change it or until you are shown proof that it is wrong. Additionally, you gain +2 to Investigation checks to see through illusions, and Insight checks to contest Deception.",
+            "2. Inspire the Innocent: 1/min; bonus action; You speak words of encouragement and inspiration to everyone within 5' whom you have designated as innocent. They immediate gain a free hit die heal. 1 person you choose can gain an immediate action instead of the heal.",
+            "3. Defend the Innocent: 2/min; bonus action; For the next 10 minutes, if someone you have designated as innocent stands next to you, that creature shares any defensive benefits that you might have, other than from armour base effects. These advantages includes AC from your shield, AC from a spell or enchantment, and so on. In addition, Dexterity saving throws made by the innocent creature gain advantage. You can protect only one innocent creature at a time.",
+            "4. You can designate 1 additional creature to be innocent or guilty, which means up to 2 creatures at a time may be innocent, or 2 guilty, or 1 innocent and 1 guilty.",
+            "5. You protect everyone within 5' whom you have designated as innocent. Dexterity saving throws made by such creatures have advantage.",
+            "6. Punish the Guilty: 2/min; bonus action; For the next 10 minutes, if you attack someone you have designated as guilty, you inflict +1d6 radiant damage.",
+            "7. If you have designated someone as guilty, you gain +2 to all checks to track them, spot them when they are hidden or disguised, or otherwise find them.",
+            "8. You can assign an innocent or guilty label to all creatures within 5' when you designate. The 1 label applies to all affected creatures. This lasts until you do this again.",
+            "9. Punish All the Guilty: 1/min; bonus action; You can attack up to 5 foes within 5' that you have designated as guilty. Make separate attack rolls for each foe.",
+            "10. Damn the Guilty: 1/min; bonus action; You speak words of revelation and judgment to everyone within 10'. Those whom you have designated as guilty take an additional 1d8 radiant damage from anyone who heard your judgment. This judgment lasts for up to 1 minute or until they move at least 120' away from you."
+        ]
+    },
+    {
+        "name": "Entertains",
+        "description": "entertaining others",
+        "tiers": [
+            "1. Through wit, charm, humour, and grace, you gain prof/+2 with persuasion and performance. During short rests, you put friends and comrades at ease so much that they add +1d4 to each of their hit die heals.",
+            "2. Through stories, songs, art, or other forms of entertainment, you inspire your friends. After spending 24 hours with you, once per long rest each of your friends can gain advantage on a single d20 roll. This benefit is ongoing while you remain in the friend's company. It ends if you leave, but it resumes if you return to the friend's company within 24 hours.",
+            "3. Your stories and songs contain truth. You gain prof/+2 in 2 knowledge skills of your choice.",
+            "4. Being well-versed in how to entertain others is reflected in your growing capabilities. You gain 3 ability score points to divide among your scores however you wish.",
+            "5. Calm: 1/min; bonus action; Through jokes, song, or other art, you prevent a living foe from attacking anyone or anything for 1 round.",
+            "6. When you use the Help action, you grant double advantage instead of advantage.",
+            "7. Your inspired friends can now gain double advantage on the d20 roll instead of advantage.",
+            "8. Vindictive Performance: 1/LR; bonus action; When you tell a joke, perform a song or poem, draw a picture, relate an anecdote, or otherwise provide entertainment, you can select 1 individual from the audience who is able to understand you. During your performance, you heap indirect but biting derision on this target. If you succeed, the target does not realise that they have become the victim of your performance until you wrap up the entertainment at a moment you choose in a way that strikes home. The target suffers 1d8 + 1d6 + your level true psychic damage and can take no actions during their next turn.",
+            "9. During short rests, the bonus healing your allies receives increases to 1d8.",
+            "10. Your inspired friends can now gain double advantage on a roll once per minute instead of once per long rest."
+        ]
+    },
+    {
+        "name": "Writes the Unwritten Code",
+        "description": "utilising the power of magical dust",
+        "tiers": [
+            "1. Call of Ashes: At-will; bonus action; You send out a signal and receive one back, pointing you in the direction of the nearest significant source of magic.",
+            "2. Sprinkle: At-will; bonus action; You spread a pinch of magic over a weapon and chant the sacred code. For the next hour the weapon deals +1d4 force dmg when attacking non-living targets.",
+            "3. Fist of Dust: 2/min; bonus action; By using up a fistfull of magic you empower your fist with a strange and potent power. For the next hour, your unarmed attacks with that fist deal 1d8 + 1d6 base force damage if yours is not already higher.",
+            "4. Mark of the Codifier: 1/min; bonus action; You draw sigils on your face and body with a handful of magic, causing you to glow slightly. For the next hour you are immune to all spells and similar magical effects.",
+            "5. Imprint Ash: 1/SR; bonus action; By using this power within 1 round of a spell's use within 120' of you, you are able to imprint the code of that power onto a handful of magic for a short time. You may then throw that handful to replicate the spell, casting it yourself as though you had it (and paying the same costs). The magic is only imprinted for 3 rounds, after which time it becomes useless soot.",
+            "6. Steal Code: 1/LR; bonus action; You replicate the effects of a potion you touch into a handful of magic. You may at any later time throw that particular handful as an action to use the same effect as was in the potion. The handful of magic takes up one of your healing potion slots if it contains a healing potion's power.",
+            "7. Write New: 1/week; bonus action; You invent your own spell and store it in a handful of magic. You will have to negotiate with your DM on the effects, but it should match those of a 4th level or lower spell. You may cast the spell by throwing the handful of magic as a bonus action. The handful takes up one of your healing potion slots.",
+            "8. Your Call of Ashes feature now also tells you the school of magic.",
+            "9. Your Sprinkle feature now deals its bonus damage against all creatures.",
+            "10. Your Fist of Dust feature's base force damage increases to 2d10."
+        ]
     }
 ]

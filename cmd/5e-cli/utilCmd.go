@@ -130,3 +130,8 @@ var creatureType = func() error {
 	log.Printf("Creature type: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))])
 	return nil
 }
+
+var abilityScore = func() error {
+	log.Printf("Ability score: %s", ABILITY_SCORES[rand.Intn(len(ABILITY_SCORES))])
+	return nil
+}
