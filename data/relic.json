@@ -811,5 +811,79 @@
                 "upgrade": "+1 init/1"
             }
         ]
+    },
+    {
+        "name": "Insomnia",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "your exh is treated as -1 lvl",
+                "pointValue": "5",
+                "upgrade": "+1/5"
+            },
+            {
+                "description": "+1 INT",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "can spend +2hrs per LR doing light activity",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to perception while asleep",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. +1 CON",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. you can never die of exhaustion",
+                "pointValue": "2",
+                "upgrade": "+1 to death saves/3"
+            },
+            {
+                "description": "4. if you haven't slept in 24+hrs, +2 insight",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 psy abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +2 psy res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 to exh saves",
+                "pointValue": "2",
+                "upgrade": "1/2"
+            },
+            {
+                "description": "8. if you're cleansing exh lvls in a LR, can spend +2hrs doing light activity",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. when downed, +1 dmg res until LR",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. if you spend 8hrs doing nothing but light activity, you can cleanse your exh lvls",
+                "pointValue": "3",
+                "upgrade": "+1 to exh saves/2"
+            }
+        ]
     }
 ]

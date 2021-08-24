@@ -91,13 +91,14 @@ var glyph = func() error {
 
 	chosen := paths[rand.Intn(len(paths))]
 	tiers := chosen.Tiers
+	t1 := tiers[0]
 	hints := []string{}
 	for i := 0; i < 3; i++ {
 		hIdx := rand.Intn(len(chosen.Tiers)-1) + 1
 		hints = append(hints, chosen.Tiers[hIdx])
 		tiers = append(tiers[:hIdx], tiers[hIdx+1:]...)
 	}
-	log.Printf("Glyph path\n%s\n\nRELIGION CHECK HINTS:\nDC 13: %s\n\nDC 15: %s\n\nDC 18: %s\n\nDC 20: %s", chosen.Name, chosen.Description, hints[0], hints[1], hints[2])
+	log.Printf("Glyph path\n%s\n%s\n\nRELIGION CHECK HINTS:\nDC 13: Path is all about %s\n\nDC 15: %s\n\nDC 18: %s\n\nDC 20: %s", chosen.Name, t1, chosen.Description, hints[0], hints[1], hints[2])
 	return nil
 }
 

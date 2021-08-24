@@ -87,8 +87,8 @@
         {
             "name": "1. Conjuration",
             "set": "Magic Schools",
-            "primary": "your conjuration spells that don't deal dmg on cast are always upcasted up to 3 lvls",
-            "secondary": "your conjuration spells that don't deal dmg on cast are always upcasted 1 lvl",
+            "primary": "your conjuration spells that don't deal dmg on cast are always upcast up to 3 lvls",
+            "secondary": "your conjuration spells that don't deal dmg on cast are always upcast 1 lvl",
             "foil": "+1 dmg with conjuration spells"
         },
         {
@@ -106,10 +106,10 @@
             "foil": "+1 dmg res while concentrating on an abjuration spell"
         },
         {
-            "name": "4. transmutation",
+            "name": "4. Transmutation",
             "set": "Magic Schools",
-            "primary": "your transmutation spells that don't deal dmg on cast are always upcasted up to 3 lvls",
-            "secondary": "your transmutation spells that don't deal dmg on cast are always upcasted 1 lvl",
+            "primary": "your transmutation spells that don't deal dmg on cast are always upcast up to 3 lvls",
+            "secondary": "your transmutation spells that don't deal dmg on cast are always upcast 1 lvl",
             "foil": "+1 dmg with transmutation spells"
         },
         {
@@ -125,6 +125,76 @@
             "primary": "your enchantment spells have +3 to charm DCs",
             "secondary": "your enchantment spells have +1 to charm DCs",
             "foil": "+1 dmg with enchantment spells"
+        },
+        {
+            "name": "1. Al'akir",
+            "set": "Evorbisan Champions",
+            "primary": "at end of each turn spent not moving, +2 global dmg that stacks until move",
+            "secondary": "at end of each turn spent not moving, +1 global dmg that stacks until move",
+            "foil": "+1 proj dmg"
+        },
+        {
+            "name": "2. Arvewal",
+            "set": "Evorbisan Champions",
+            "primary": "your minions deal +11 dmg with dmg types you dmg'd target with during your last turn",
+            "secondary": "your minions deal +7 dmg with dmg types you dmg'd target with during your last turn",
+            "foil": "+2 minion dmg"
+        },
+        {
+            "name": "3. The Rhox",
+            "set": "Evorbisan Champions",
+            "primary": "-2 crit req vs prone targets",
+            "secondary": "-1 crit req vs prone targets",
+            "foil": "+1 global dmg vs prone targets"
+        },
+        {
+            "name": "1. Leorian",
+            "set": "Crikathian Champions I",
+            "primary": "creatures marked by you have -6 dmg res",
+            "secondary": "creatures marked by you have -3 dmg res",
+            "foil": "+1 global dmg vs marked targets"
+        },
+        {
+            "name": "2. Vargh",
+            "set": "Crikathian Champions I",
+            "primary": "-3 dmg res; +6 global dmg",
+            "secondary": "-1 dmg res; +2 global dmg",
+            "foil": "+1 global dmg while bloodied"
+        },
+        {
+            "name": "3. Yavine",
+            "set": "Crikathian Champions I",
+            "primary": "+7 proj dmg vs targets 60+' away",
+            "secondary": "+4 proj dmg vs targets 60+' away",
+            "foil": "+1 global dmg vs targets 60+' away"
+        },
+        {
+            "name": "4. Xorp",
+            "set": "Crikathian Champions I",
+            "primary": "+7 dmg while shapeshifted",
+            "secondary": "+4 dmg while shapeshifted",
+            "foil": "+2 natural wep dmg"
+        },
+        {
+            "name": "1. Aurifex",
+            "set": "Crikathian Champions II",
+            "primary": "+5 item proc dmg",
+            "secondary": "+2 item proc dmg",
+            "foil": "+1 to crafting creation checks"
+        },
+        {
+            "name": "2. Nixaar",
+            "set": "Crikathian Champions II",
+            "primary": "on dealing dmg, -5 to dmg of that type and +5 to all other dmg types until end of your next turn",
+            "secondary": "on dealing dmg, -2 to dmg of that type and +2 to all other dmg types until end of your next turn",
+            "foil": "+2 persuasion with telepathy"
+        },
+        {
+            "name": "3. Treefish",
+            "set": "Crikathian Champions II",
+            "primary": "+6 proj dmg vs targets smaller than you",
+            "secondary": "+3 proj dmg vs targets smaller than you",
+            "foil": "+1 proj dmg"
         }
     ],
     "uncommon": [
@@ -155,6 +225,27 @@
             "primary": "+2 AC while concentrating on an illusion spell",
             "secondary": "+1 AC while concentrating on an illusion spell",
             "foil": "+1 dmg res while concentrating on an illusion spell"
+        },
+        {
+            "name": "4. Lucius",
+            "set": "Evorbisan Champions",
+            "primary": "gain a powerful mutation for each mutation you have",
+            "secondary": "gain a beneficial mutation for each mutation you have",
+            "foil": "+2 mutation dmg"
+        },
+        {
+            "name": "5. Jarrik, Eldritch Knight",
+            "set": "Crikathian Champions I",
+            "primary": "on wep hit, +3 spell dmg until end of your next turn",
+            "secondary": "on wep hit, +1 spell dmg until end of your next turn",
+            "foil": "+1 melee dmg"
+        },
+        {
+            "name": "4. Librus",
+            "set": "Crikathian Champions II",
+            "primary": "1/LR, after making knowledge skill check, can repeat check with +11 bonus",
+            "secondary": "1/LR, after making knowledge skill check, can repeat check with +5 bonus",
+            "foil": "+1 history"
         }
     ],
     "rare": [
@@ -183,8 +274,29 @@
             "name": "8. Necromancy",
             "set": "Magic Schools",
             "primary": "while concentrating on a necromancy spell, +8 dmg res",
-            "secondary": "while concenttrating on a necromancy spell, +4 dmg res",
+            "secondary": "while concentrating on a necromancy spell, +4 dmg res",
             "foil": "+1 dmg with necromancy spells"
+        },
+        {
+            "name": "5. Rhombur",
+            "set": "Evorbisan Champions",
+            "primary": "+3 dmg res while dual-wielding shields",
+            "secondary": "+1 dmg res while dual-wielding shields",
+            "foil": "unintelligent creatures are more likely to target you"
+        },
+        {
+            "name": "6. Nailo",
+            "set": "Crikathian Champions I",
+            "primary": "allies within 5' of you have +2 dmg res",
+            "secondary": "allies within 5' of you have +1 dmg res",
+            "foil": "+2 global dmg vs fiends"
+        },
+        {
+            "name": "5. Jarrik, Samurai",
+            "set": "Crikathian Champions II",
+            "primary": "+5 dmg with adv atks",
+            "secondary": "+2 dmg with adv atks",
+            "foil": "+1 incoming temp HP"
         }
     ]
 }

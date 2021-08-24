@@ -513,6 +513,26 @@
         {
             "name": "Manual of Quickness of Action",
             "description": "https://5e.tools/items.html#manual%20of%20quickness%20of%20action_dmg"
+        },
+        {
+            "name": "Mirror of Life Trapping",
+            "description": "https://5e.tools/items.html#mirror%20of%20life%20trapping_dmg"
+        },
+        {
+            "name": "Nolzur's Marvelous Pigments",
+            "description": "https://5e.tools/items.html#nolzur's%20marvelous%20pigments_dmg"
+        },
+        {
+            "name": "Oil of Sharpness",
+            "description": "https://5e.tools/items.html#oil%20of%20sharpness_dmg"
+        },
+        {
+            "name": "Potion of Flying",
+            "description": "https://5e.tools/items.html#potion%20of%20flying_dmg"
+        },
+        {
+            "name": "Potion of Cloud Giant Strength",
+            "description": "https://5e.tools/items.html#potion%20of%20cloud%20giant%20strength_dmg"
         }
     ],
     "legendary": [

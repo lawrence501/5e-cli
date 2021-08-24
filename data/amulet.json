@@ -806,7 +806,7 @@
   },
   {
     "name": "void knight - temporal corruption",
-    "mods": ["+1d4 $nonPhysType dmg to your hits", "your fire spells deal {nonPhysType} instead", "your DoTs now apply slow instead", "your conditional effects on creatures being DoT'd are now conditional on them being slowed", "your outgoing healing is always 0"],
+    "mods": ["+1d4 $nonPhysType dmg to your hits", "your fire spells deal {nonPhysType} instead", "your DoTs now apply sluggish instead", "your conditional effects on creatures being DoT'd are now conditional on them being sluggish", "your outgoing healing is always 0"],
     "upgrade": "+1 die size NOT outgoing healing"
   },
   {

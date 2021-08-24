@@ -1518,5 +1518,85 @@
             "9. Your Sprinkle feature now deals its bonus damage against all creatures.",
             "10. Your Fist of Dust feature's base force damage increases to 2d10."
         ]
+    },
+    {
+        "name": "Murders",
+        "description": "assassination",
+        "tiers": [
+            "1. If attacking before an opponent has acted, you gain advantage on your attack. On a successful hit with a similar attack, or one with advantage from surprise, you inflict +1d6 base damage.",
+            "2. You gain prof/+2 in Stealth and Deception.",
+            "3. Quick Death: 2/min; bonus action; You know how to kill quickly. When you hit with an attack, you deal +1d10 base damage. You cannot use this feature in 2 consecutive rounds.",
+            "4. You gain +2 in Deception.",
+            "5. Awareness: 1/min; bonus action; You become hyperaware of your surroundings in order to better locate your next victim. For 10 minutes, you are aware of all living things within 120' (including their general position), and by concentrating during this time, you can attempt to learn the remaining hit point percentage and CR of any one of them.",
+            "6. You gain +2 to arcana, medicine, and nature for sensing and identifying poisons, and +2 to Constitution saving throws to resist them. You also gain +10 poison resistance.",
+            "7. If attacking from a hidden vantage, with surprise, or before an opponent has acted, your attack has double advantage. On a successful hit with a similar attack, you inflict +1d10 base damage instead of 1d6.",
+            "8. Slayer: 1/LR; bonus action; With a swift and sudden attack, you strike a foe in a vital spot. If the target is of CR 2 or lower, it is killed outright.",
+            "9. When you kill a foe, you can attempt a free Hide action, assuming that a suitable hiding place is nearby.",
+            "10. Murderer: 1/year; bonus action; With a swift and sudden attack, you strike a foe in a vital spot. If the target is CR 3 or lower, it is killed outright."
+        ]
+    },
+    {
+        "name": "Catalogues the Past",
+        "description": "studying the past",
+        "tiers": [
+            "1. You gain prof/+2 in Perception and Arcana.",
+            "2. Documentation: At-will; free action; You make drawings and writings about a subject over the course of 10 minutes, giving you a chance to really study it. Whenever you need to know something about an object, place, or creature you have documented before with this power, you may go back to your notes and make a Perception check as though the real thing were in front of you.",
+            "3. Prolonged Study: 2/min; free action; You study an object for 1 hour, learning its general purpose and how to use it.",
+            "4. You gain +2 to Perception and Arcana.",
+            "5. You gain the 1st level of new artifacts and relics you are attuning to for free.",
+            "6. Whenever your party finds a wondrous item, you recover 2 hit points. Whenever it finds a potion, you recover 4 hit points. Whenever it finds an artifact or relic, you heal to your hit point maximum.",
+            "7. Your Prolonged Study feature now takes an action instead of an hour.",
+            "8. Original Purpose: 1/week; bonus action; You learn the actual prior world purpose of a magical object, creature, or place. If this is an object, you gain advantage on all further uses of it. This power may be used to turn wondrous items into artifacts, but doing so sets the cooldown for the power to 1 month instead of 1 week, and requires negotiation with the DM as to the item's new power.",
+            "9. You gain +2 to Perception and Arcana.",
+            "10. Your Documentation feature now also enables you to make Investigation checks on the subject. Additionally, it only takes 6 seconds to document the subject instead of 10 minutes."
+        ]
+    },
+    {
+        "name": "Taints",
+        "description": "corruption",
+        "tiers": [
+            "1. Withering Touch: At-will; bonus action; With a skin-to-touch touch, you drain the life essence of a living, organic being. For each round you are in contact, you deal 4 necrotic damage and give all Strength-based d20 rolls against them advantage.",
+            "2. Poisonous Touch: When you make physical skin-to-skin contact with an organic being, you must roll an attack. On a hit, you cause them to take 4 true poison damage each round until they succeed on a DC 12 Constitution saving throw.",
+            "3. Corrupting Touch: 2/min; bonus action; You can inflict a random cosmetic mutation on any organic creature with a skin-to-skin touch for 24 hours. The effect takes place rapidly, manifesting within a few minutes.",
+            "4. Leech's Mark: 1/min; bonus action; You open your palm into a leech-like mouth to bite an organic target, dealing no damage, but injecting a small, black leech that burrows under the skin. The target takes 4 true piercing damage per round for 3 rounds. After 3 rounds, the leech exit the targets body and immediately flees by burrowing into the earth, but can be eaten to regain 2 hit points if captured.",
+            "5. Souldrain: 1/SR; bonus action; You can skin-to-skin touch someone, draining them of any will or hope and converting it into healing energy for yourself. All Charisma-based skill checks against them have double advantage and heal you for 4 hit points if successful. This effect remains in effect only as long as you retain physical skin-to-skin contact.",
+            "6. Decay: 1/LR; bonus action; You rapidly increase entropy in whatever you touch with your skin, causing an object of your size or smaller to become weakened, granting advantage to checks to break it. Living targets age rapidly by 1 year, granting advantage to all d20 rolls against them, and take 2 necrotic damage.",
+            "7. When you consume a healing potion, you can elect to deal 8 necrotic damage to all organic life within 30' to recover an additional 8 hit points back, leaving the earth around you blackened and barren, unable to support life and leaving all other organics within range poisoned until they take a short or long rest.",
+            "8. Your corrupting influence has seeped so deeply into your being that it now manifests through your other powers. Any ranged spells or powers can now also be used to inflict Withering Touch, Poisonous Touch, or Corrupting Touch, instead of making physical contact.",
+            "9. Your Withering Touch feature now grants double advantage to Strength-based d20 rolls against the target.",
+            "10. Your Poisonous Touch feature now deals 6 true poison damage and has a recovery DC of 14"
+        ]
+    },
+    {
+        "name": "Carries an Eldritch Blade",
+        "description": "enhancing a bladed weapon",
+        "tiers": [
+            "1. You can designate a bladed weapon artifact or relic you possess as your Blade of Legend. This weapon can never break and always returns to its scabbard if knocked from your hand or otherwise lost. You gain prof/+2 with attacks using this particular blade. You can only have 1 blade of legend at a time, but can change it at the end of any short or long rest.",
+            "2. Combat Ceremony: 2/min; bonus action; You prepare yourself mentally for battle, performing ritual motions with your blade. For the next 10 minutes you have +3 to Intelligence, Wisdom, and Charisma saving throws.",
+            "3. Choose a tier 1 or 2 feature from 1 of 3 random other glyph paths. You gain that feature whenever you hold your blade of legend.",
+            "4. Arcane Slash: 1/SR; bonus action; You slash with your glowing blade, damaging the very magic in the air. All magical effects cast in the last round within 30' of you are suddenly stopped.",
+            "5. Choose a tier 4 or lower feature from 1 of 3 random other glyph paths. You gain that feature whenever you hold your blade of legend.",
+            "6. You enjoy advantage on Intelligence, Wisdom, and Charisma saving throws if your blade of legend is in your hand. Whenever you succeed on a similar saving throw while benefitting from this advantage, the foe who triggered it takes 1d8 + 1d6 + your level force damage.",
+            "7. You now have +2 AB with your blade of legend.",
+            "8. Your Combat Ceremony feature's saving throw bonus increases to +5.",
+            "9. Choose a tier 1 or 2 feature from 1 of 3 random other glyph paths. You gain that feature whenever you hold your blade of legend.",
+            "10. Your Arcane Slash feature can now be used twice per minute."
+        ]
+    },
+    {
+        "name": "Rages",
+        "description": "rage",
+        "tiers": [
+            "1. Frenzy: At-will; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +2 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat is taking place within range of your senses.",
+            "2. You gain +10 maximum hit points.",
+            "3. You gain proficiency in athletics.",
+            "4. Your rage makes minor wounds seem insignificant. While your Frenzy feature is active, gain +1 AC.",
+            "5. Power Strike: 1/min; free action; If you successfully hit a target, you knock it prone in addition to inflicting damage. The target must be your size or smaller.",
+            "6. While unarmoured, you gain +2 to DEX saving throws.",
+            "7. Greater Frenzy: 1/SR; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +4 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat if taking place within range of your senses. You can use this feature of your Frenzy feature, but you cannot use both at the same time.",
+            "8. Rather than granting additional damage, critical strikes allow you the option of immediately making another attack.",
+            "9. When you would normally die, you instead fall unconscious for 1 round and then awaken. You immediately heal 2d6 + 12 hit points and gain a level of exhaustion. If you die again before you take a long rest, you are truly dead.",
+            "10. You gain +3 to CON and DEX."
+        ]
     }
 ]
