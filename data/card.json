@@ -195,6 +195,20 @@
             "primary": "+6 proj dmg vs targets smaller than you",
             "secondary": "+3 proj dmg vs targets smaller than you",
             "foil": "+1 proj dmg"
+        },
+        {
+            "name": "1. Cherry Monarch",
+            "set": "Osholoran Champions",
+            "primary": "+1 global dmg while all your weps are relics; +1 dmg res while your body armour and helmet are relics",
+            "secondary": "+1 global dmg while all your weps are relics",
+            "foil": "+1 to crafting creation checks"
+        },
+        {
+            "name": "2. Grengor",
+            "set": "Osholoran Champions",
+            "primary": "+4 global dmg with 2+ adj foes",
+            "secondary": "+2 global dmg with 2+ adj foes",
+            "foil": "+3 max HP"
         }
     ],
     "uncommon": [
@@ -246,6 +260,13 @@
             "primary": "1/LR, after making knowledge skill check, can repeat check with +11 bonus",
             "secondary": "1/LR, after making knowledge skill check, can repeat check with +5 bonus",
             "foil": "+1 history"
+        },
+        {
+            "name": "3. Kashana",
+            "set": "Osholoran Champions",
+            "primary": "creatures cursed by you have -4 dmg",
+            "secondary": "creatures cursed by you have -2 dmg",
+            "foil": "+1 dmg res with height adv"
         }
     ],
     "rare": [
@@ -280,8 +301,8 @@
         {
             "name": "5. Rhombur",
             "set": "Evorbisan Champions",
-            "primary": "+3 dmg res while dual-wielding shields",
-            "secondary": "+1 dmg res while dual-wielding shields",
+            "primary": "+5 dmg res with 2+ adj foes",
+            "secondary": "+2 dmg res with 2+ adj foes",
             "foil": "unintelligent creatures are more likely to target you"
         },
         {
@@ -297,6 +318,13 @@
             "primary": "+5 dmg with adv atks",
             "secondary": "+2 dmg with adv atks",
             "foil": "+1 incoming temp HP"
+        },
+        {
+            "name": "4. Rug",
+            "set": "Osholoran Champions",
+            "primary": "on hit, +2 dmg with that dmg type until end of the turn",
+            "secondary": "on hit, +1 dmg with that dmg type until end of the turn",
+            "foil": "+1 dmg with hits after your first in a turn"
         }
     ]
 }

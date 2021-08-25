@@ -872,7 +872,7 @@
     {
         "name": "blizzard caller",
         "mods": ["+1 curse effectiveness", "-1 crit req"],
-        "tags": ["crit req"]
+        "tags": ["crit"]
     },
     {
         "name": "tempt the storm",
@@ -1513,5 +1513,45 @@
         "name": "heart of thunder",
         "mods": ["+1 {nonPhysType} dmg", "ignore {nonPhysType} res", "on {nonPhysType} hit, gain 1 temp HP"],
         "tags": ["non-phys dmg", "temp hp"]
+    },
+    {
+        "name": "lightning walker",
+        "mods": ["+1 {nonPhysType} dmg", "+2 {nonPhysType} res", "+1 {nonPhysType} spell dmg"],
+        "tags": ["non-phys dmg", "non-phys res", "spell dmg"]
+    },
+    {
+        "name": "fire walker",
+        "mods": ["+1 {nonPhysType} dmg", "+2 {nonPhysType} res", "+1 {nonPhysType} spell dmg"],
+        "tags": ["non-phys dmg", "non-phys res", "spell dmg"]
+    },
+    {
+        "name": "arsonist",
+        "mods": ["+1 {nonPhysType} dmg", "+1 passive regen", "+1 DoT dmg"],
+        "tags": ["non-phys dmg", "hp", "dot"]
+    },
+    {
+        "name": "fingers of frost",
+        "mods": ["when foe in combat loses condi, they gain sluggish until end of their next turn", "on hit condi'd target, 20% chance to blind until end of your next turn", "+1 {nonPhysType} dmg", "+1 to condi DCs"],
+        "tags": ["condi", "non-phys dmg"]
+    },
+    {
+        "name": "frost walker",
+        "mods": ["+2 {nonPhysType} dmg", "+1 {nonPhysType} res", "+1 {nonPhysType} spell dmg"],
+        "tags": ["non-phys dmg", "non-phys res", "spell dmg"]
+    },
+    {
+        "name": "heart of ice",
+        "mods": ["+1 {nonPhysType} dmg", "ignore {nonPhysType} res", "on {nonPhysType} hit, gain 1 temp HP"],
+        "tags": ["non-phys dmg", "temp hp"]
+    },
+    {
+        "name": "holy fire",
+        "mods": ["+3 {nonPhysType} dmg", "on hit, 30% chance to give 1 {nonPhysType} DoT, stacking until CON save", "+2 DoT dmg", "-1 to DCs to end ongoing DoTs"],
+        "tags": ["non-phys dmg", "dot"]
+    },
+    {
+        "name": "arcane potency",
+        "mods": ["+1 spell crit dice", "-1 spell crit req"],
+        "tags": ["spell dmg", "crit"]
     }
 ]
