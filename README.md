@@ -39,3 +39,6 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Equipment proficiency: +3
 - Armour proficiency requirement: -2
 - Weapon proficiency requirement: -3
+- 1/LR spellcast: 1/lvl
+- Learn spell: 1/lvl
+- Unlimited spellcast: 5/lvl

@@ -1188,9 +1188,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "+4 opp atk dmg res while airborne",
+        "description": "+1 opp atk AC while airborne",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "1/1",
         "tags": ["armour"]
     },
     {

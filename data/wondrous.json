@@ -533,6 +533,46 @@
         {
             "name": "Potion of Cloud Giant Strength",
             "description": "https://5e.tools/items.html#potion%20of%20cloud%20giant%20strength_dmg"
+        },
+        {
+            "name": "Potion of Supreme Healing",
+            "description": "https://5e.tools/items.html#potion%20of%20supreme%20healing_dmg"
+        },
+        {
+            "name": "Potion of Invisibility",
+            "description": "https://5e.tools/items.html#potion%20of%20invisibility_dmg"
+        },
+        {
+            "name": "Potion of Longevity",
+            "description": "https://5e.tools/items.html#potion%20of%20longevity_dmg"
+        },
+        {
+            "name": "Potion of Speed",
+            "description": "https://5e.tools/items.html#potion%20of%20speed_dmg"
+        },
+        {
+            "name": "Potion of Vitality",
+            "description": "https://5e.tools/items.html#potion%20of%20vitality_dmg"
+        },
+        {
+            "name": "Rod of Security",
+            "description": "https://5e.tools/items.html#rod%20of%20security_dmg"
+        },
+        {
+            "name": "Tome of Clear Thought",
+            "description": "https://5e.tools/items.html#tome%20of%20clear%20thought_dmg"
+        },
+        {
+            "name": "Tome of Leadership and Influence",
+            "description": "https://5e.tools/items.html#tome%20of%20leadership%20and%20influence_dmg"
+        },
+        {
+            "name": "Tome of Understanding",
+            "description": "https://5e.tools/items.html#tome%20of%20understanding_dmg"
+        },
+        {
+            "name": "Speaking Stone",
+            "description": "https://5e.tools/items.html#speaking%20stone_erlw"
         }
     ],
     "legendary": [

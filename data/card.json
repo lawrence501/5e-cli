@@ -209,6 +209,34 @@
             "primary": "+4 global dmg with 2+ adj foes",
             "secondary": "+2 global dmg with 2+ adj foes",
             "foil": "+3 max HP"
+        },
+        {
+            "name": "1. Strength",
+            "set": "Ability Scores",
+            "primary": "+6 to grapple attempts",
+            "secondary": "+3 to grapple attempts",
+            "foil": "+1 dmg with STR-based hits"
+        },
+        {
+            "name": "2. Dexterity",
+            "set": "Ability Scores",
+            "primary": "-2 crit req while flanking",
+            "secondary": "-1 crit req while flanking",
+            "foil": "+1 dmg with DEX-based hits"
+        },
+        {
+            "name": "3. Constitution",
+            "set": "Ability Scores",
+            "primary": "+13 max HP",
+            "secondary": "+7 max HP",
+            "foil": "+1 wep dmg res"
+        },
+        {
+            "name": "4. Intelligence",
+            "set": "Ability Scores",
+            "primary": "your minimum knowledge check nat roll is 10",
+            "secondary": "your minimum knowledge check nat roll is 5",
+            "foil": "+1 dmg with INT-based hits"
         }
     ],
     "uncommon": [
@@ -264,9 +292,16 @@
         {
             "name": "3. Kashana",
             "set": "Osholoran Champions",
-            "primary": "creatures cursed by you have -4 dmg",
-            "secondary": "creatures cursed by you have -2 dmg",
+            "primary": "creatures cursed by you have -4 global dmg",
+            "secondary": "creatures cursed by you have -2 global dmg",
             "foil": "+1 dmg res with height adv"
+        },
+        {
+            "name": "5. Wisdom",
+            "set": "Ability Scores",
+            "primary": "on perceiving a creature in combat, learn its res and imms automatically",
+            "secondary": "on perceiving a creature in combat, learn its res automatically",
+            "foil": "+1 dmg with WIS-based hits"
         }
     ],
     "rare": [
@@ -325,6 +360,13 @@
             "primary": "on hit, +2 dmg with that dmg type until end of the turn",
             "secondary": "on hit, +1 dmg with that dmg type until end of the turn",
             "foil": "+1 dmg with hits after your first in a turn"
+        },
+        {
+            "name": "6. Charisma",
+            "set": "Ability Scores",
+            "primary": "your minimum social check nat roll is 10",
+            "secondary": "your minimum social check nat roll is 5",
+            "foil": "+1 dmg with CHA-based hits"
         }
     ]
 }

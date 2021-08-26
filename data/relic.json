@@ -885,5 +885,79 @@
                 "upgrade": "+1 to exh saves/2"
             }
         ]
+    },
+    {
+        "name": "Bite of the Creator",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "at the end of each LR, you can pray to Gawdian to remove a glyph path tier from yourself",
+                "pointValue": "-",
+                "upgrade": "-"
+            },
+            {
+                "description": "while you have less than 10 glyph path tiers, gain 16 temp HP at end of each LR",
+                "pointValue": "2",
+                "upgrade": "+8/1"
+            },
+            {
+                "description": "+1d4 rad dmg to this wep",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. this wep gains the Thrown trait",
+                "pointValue": "3",
+                "upgrade": "1 throwing dmg/1"
+            },
+            {
+                "description": "2. +1 dmg with this wep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. while you have less than 8 glyph path tiers, +1 AC",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. if you have 10+ glyph path tiers, this item inverts into 'Bite of the Manipulator'",
+                "pointValue": "1",
+                "upgrade": "+1 cold dmg/1"
+            },
+            {
+                "description": "5. this wep gains the Grapple trait",
+                "pointValue": "3",
+                "upgrade": "+1 aths for grappling/1"
+            },
+            {
+                "description": "6. 1/LR, can cast Guiding Bolt",
+                "pointValue": "1",
+                "upgrade": "+1 lvl upcast/1"
+            },
+            {
+                "description": "7. 1/LR, can cast Daylight",
+                "pointValue": "3",
+                "upgrade": "+1 dmg with this wep in bright light/1"
+            },
+            {
+                "description": "8. this wep sheds 15' sunlight",
+                "pointValue": "1",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "9. 1/LR, on taking melee hit, can react to atk triggering creature with this wep",
+                "pointValue": "2",
+                "upgrade": "+1 dmg with this wep/1"
+            },
+            {
+                "description": "10. 3/LR, on taking melee hit, can react to make triggering creature make CON save or blind until start of its next turn",
+                "pointValue": "1",
+                "upgrade": "+1 to blind DCs/3"
+            }
+        ]
     }
 ]
