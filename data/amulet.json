@@ -1128,5 +1128,160 @@
     "name": "rogue - critical precision",
     "mods": ["-1 crit req per wep held"],
     "upgrade": "+1"
-  } 
+  },
+  {
+    "name": "bladedancer - cloak of shadows",
+    "mods": ["+1 $abilityScore", "+1 hit res"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - pursuit",
+    "mods": ["+1 melee dmg", "+5' sp"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - flow",
+    "mods": ["on 4th unique power use since combat start, power does +4 dmg, then reset"],
+    "upgrade": "+4 dmg NOT unique counter"
+  },
+  {
+    "name": "bladedancer - once",
+    "mods": ["+1d4 $physType dmg to melee hits", "if you've been hit since your last turn, +1 to $abilityScore saves"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - blood serpent's blades",
+    "mods": ["+1 DoT dmg", "for each $weaponClass equipped, 20% chance on hit to give 1 $physType DoT, stacking until CON save", "for each $weaponClass equipped, 20% chance on hit to give 1 $nonPhysType DoT, stacking until CON save"],
+    "upgrade": "+1 DoT dmg ALT %s NOT proc dmgs"
+  },
+  {
+    "name": "bladedancer - skiasynthesis",
+    "mods": ["on minion summon, heal 2 HP", "+2 minion dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - scarlet stream",
+    "mods": ["+1 $physType dmg", "on melee hit, 20% chance to give 1 {physType} DoT, stacking until CON save", "on thrown hit, 20% chance to give 1 {physType} DoT, stacking until CON save"],
+    "upgrade": "+1 dmg ALT %s NOT proc dmgs"
+  },
+  {
+    "name": "bladedancer - asuvon's pact",
+    "mods": ["+1 to $abilityScore saves", "while on full HP, +1 global dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - blood dance",
+    "mods": ["on melee hit, heal 1 HP", "+1 incoming healing"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - flash of steel",
+    "mods": ["+1 global dmg while dual-wielding", "+1 melee wep dmg while dual-wielding"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - argent veil",
+    "mods": ["first time bloodied each combat, automatically succeed your next save and gain 1 temp HP on doing so"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - cloaked reaper",
+    "mods": ["on KB, heal 1 HP per buff on you", "on hit vs boss, heal 2 HP per buff on you"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - critical eye",
+    "mods": ["on hit, 20% chance to give target -1 crit req to incoming atks until end of your next turn", "-1 crit req"],
+    "upgrade": "+10% ALT crit req NOT proc effect"
+  },
+  {
+    "name": "bladedancer - hooked blades",
+    "mods": ["on hit, 20% chance to give -1 phys res until end of your next turn", "+1 mark effectiveness"],
+    "upgrade": "+10% ALT mark effect NOT proc effect"
+  },
+  {
+    "name": "bladedancer - death's door",
+    "mods": ["+1 dmg res while bloodied", "-1 crit req while bloodied"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "bladedancer - shadow master",
+    "mods": ["+3 minion dmg", "+2 minion HP"],
+    "upgrade": "+2 ALT +1"
+  },
+  {
+    "name": "marksman - draining arrows",
+    "mods": ["+1 proj wep dmg", "on proj hit, heal 1 HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "marksman - focus fire",
+    "mods": ["+1 $abilityScore", "on hit vs boss, give -1 to $abilityScore saves for combat"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "marksman - assassin's quiver",
+    "mods": ["+1d4 $physType dmg to proj hits", "-1 crit req"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "marksman - elemental arrows",
+    "mods": ["for every 30' you displace, your next proj hit deals +1d4 $nonPhysType dmg and +1d4 $nonPhysType dmg"],
+    "upgrade": "+1 dmgs NOT displace req"
+  },
+  {
+    "name": "marksman - missile mastery",
+    "mods": ["+1 proj dmg", "+1 throwing dmg", "on hit, 20% chance to give -1 phys res until end of your next turn"],
+    "upgrade": "+1 dmgs ALT +10% NOT proc effect"
+  },
+  {
+    "name": "marksman - concentration",
+    "mods": ["+1 global dmg", "when hit by adj creature, lose above until end of your next turn"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "marksman - prolonged demise",
+    "mods": ["+1 DoT res", "while holding a $weaponClass wep, +1 DoT dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "marksman - fire and steel",
+    "mods": ["on proj hit dealing no $dmgPolarity dmg, next proj hit that deals {dmgPolarity} dmg deals +1 {dmgPolarity} dmg"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "marksman - barbed arrows",
+    "mods": ["+1 $physType dmg", "on proj hit, 20% chance to give 1 {physType} DoT, stacking until CON save"],
+    "upgrade": "+1 dmg ALT +10% NOT DoT dmg"
+  },
+  {
+    "name": "marksman - arrow storm",
+    "mods": ["on first proj attack of combat, +4 proj wep dmg until end of turn"],
+    "upgrade": "+4"
+  },
+  {
+    "name": "marksman - thief's quiver",
+    "mods": ["+1 max HP", "on proj hit, heal 2 HP"],
+    "upgrade": "+1"
+  },
+  {
+    "name": "marksman - poison tipped arrows",
+    "mods": ["ignore $nonPhysType res", "on proj hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save"],
+    "upgrade": "+10% NOT DoT dmg"
+  },
+  {
+    "name": "marksman - sniper's gambit",
+    "mods": ["+1d4 $physType dmg to proj hits", "-1 dmg res vs adj foes"],
+    "upgrade": "-1 dmg res and +2 die size"
+  },
+  {
+    "name": "marksman - sharpshooter",
+    "mods": ["on hit, 20% chance per 30' distance between you and target to gain +1 proj dmg for combat"],
+    "upgrade": "+10% NOT anything else"
+  },
+  {
+    "name": "marksman - barrage of pain",
+    "mods": ["on proj hit, -1 crit req until end of your next turn"],
+    "upgrade": "+1"
+  }
 ]
