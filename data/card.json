@@ -45,15 +45,15 @@
         {
             "name": "1. Club & Hammer",
             "set": "Weapon Classes",
-            "primary": "on club/hammer sub hit, target is pushed up to 15' away from you and knocked prone",
-            "secondary": "on club/hammer sub hit, target is pushed up to 15' away from you",
+            "primary": "on club/hammer sub hit, target is pushed up to 10' away from you and knocked prone",
+            "secondary": "on club/hammer sub hit, target is pushed up to 5' away from you",
             "foil": "+1 club/hammer dmg"
         },
         {
             "name": "2. Dart & Knife",
             "set": "Weapon Classes",
-            "primary": "on dart/knife sub hit, target gets 8 P DoT, stacking until CON save",
-            "secondary": "on dart/knife sub hit, target gets 4 P DoT, stacking until CON save",
+            "primary": "on dart/knife sub hit, target gets 3 P DoT, stacking until CON save",
+            "secondary": "on dart/knife sub hit, target gets 1 P DoT, stacking until CON save",
             "foil": "+1 dart/knife dmg"
         },
         {
@@ -66,22 +66,22 @@
         {
             "name": "4. Polearm & Spear",
             "set": "Weapon Classes",
-            "primary": "on polearm/spear sub hit, target gets -2 AC until start of your next turn",
-            "secondary": "on polearm/spear sub hit, target gets -1 AC until start of your next turn",
+            "primary": "on polearm/spear sub hit, target gets -3 dmg res until start of your next turn",
+            "secondary": "on polearm/spear sub hit, target gets -1 dmg res until start of your next turn",
             "foil": "+1 polearm/spear dmg"
         },
         {
             "name": "5. Caster",
             "set": "Weapon Classes",
-            "primary": "on caster sub hit, target has -8 non-phys res until end of your next turn",
-            "secondary": "on caster sub hit, target has -4 non-phys res until end of your next turn",
+            "primary": "on caster sub hit, target has -3 non-phys res until end of your next turn",
+            "secondary": "on caster sub hit, target has -1 non-phys res until end of your next turn",
             "foil": "+1 caster dmg"
         },
         {
             "name": "6. Bow & Sling",
             "set": "Weapon Classes",
-            "primary": "on bow/sling sub hit, target takes 8 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
-            "secondary": "on bow/sling sub hit, target takes 4 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
+            "primary": "on bow/sling sub hit, target takes 3 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
+            "secondary": "on bow/sling sub hit, target takes 1 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
             "foil": "+1 bow/sling dmg"
         },
         {
@@ -237,6 +237,34 @@
             "primary": "your minimum knowledge check nat roll is 10",
             "secondary": "your minimum knowledge check nat roll is 5",
             "foil": "+1 dmg with INT-based hits"
+        },
+        {
+            "name": "1. Kreon",
+            "set": "Antagonists",
+            "primary": "while bloodied, +5 glyphic dmg",
+            "secondary": "while bloodied, +3 glyphic dmg",
+            "foil": "+1 glyphic dmg"
+        },
+        {
+            "name": "2. Ekhan Keasalor",
+            "set": "Antagonists",
+            "primary": "you can't wield magic weps; crafted weps are considered mundane for you; +12 to crafting creation checks; +12 to crafting magic equipment rolls",
+            "secondary": "you can't wield magic weps; crafted weps are considered mundane for you; +6 to crafting creation checks; +6 to crafting magic equipment rolls",
+            "foil": "+1 spell dmg res"
+        },
+        {
+            "name": "1. Vidar, Shadow Spy",
+            "set": "Legendary Champions",
+            "primary": "+8 decep while non-trivially pretending to be someone else",
+            "secondary": "+4 decep while non-trivially pretending to be someone else",
+            "foil": "+1 decep"
+        },
+        {
+            "name": "2. Vidar, Assassin",
+            "set": "Legendary Champions",
+            "primary": "on sub hit, target gets 3 psn DoT, stacking until CON save",
+            "secondary": "on sub hit, target gets 1 psn DoT, stacking until CON save",
+            "foil": "+1 DoT dmg"
         }
     ],
     "uncommon": [
@@ -257,8 +285,8 @@
         {
             "name": "7. Axe & Sword",
             "set": "Weapon Classes",
-            "primary": "on axe/sword sub hit, foe adj to target takes 9 S dmg",
-            "secondary": "on axe/sword sub hit, foe adj to target takes 5 S dmg",
+            "primary": "on axe/sword sub hit, foe adj to target takes 8 S dmg",
+            "secondary": "on axe/sword sub hit, foe adj to target takes 4 S dmg",
             "foil": "+1 axe/sword dmg"
         },
         {
@@ -302,6 +330,13 @@
             "primary": "on perceiving a creature in combat, learn its res and imms automatically",
             "secondary": "on perceiving a creature in combat, learn its res automatically",
             "foil": "+1 dmg with WIS-based hits"
+        },
+        {
+            "name": "3. Godworms",
+            "set": "Antagonists",
+            "primary": "1/LR, on sub hit, dominate target until end of their next turn",
+            "secondary": "1/LR successfully, on sub hit, target makes CON save or dominated until end of their next turn",
+            "foil": "creatures charmed by you have -1 dmg res"
         }
     ],
     "rare": [
@@ -364,9 +399,16 @@
         {
             "name": "6. Charisma",
             "set": "Ability Scores",
-            "primary": "your minimum social check nat roll is 10",
-            "secondary": "your minimum social check nat roll is 5",
+            "primary": "your minimum social check nat roll is 12",
+            "secondary": "your minimum social check nat roll is 6",
             "foil": "+1 dmg with CHA-based hits"
+        },
+        {
+            "name": "4. The Queen of Rot",
+            "set": "Antagonists",
+            "primary": "you have a 5' glyphic aura that deals 2 nec dmg to foes",
+            "secondary": "you have a 5' glyphic aura that deals 1 nec dmg to foes",
+            "foil": "foes in your pers areas have -1 dmg res"
         }
     ]
 }

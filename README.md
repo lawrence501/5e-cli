@@ -42,3 +42,17 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - 1/LR spellcast: 1/lvl
 - Learn spell: 1/lvl
 - Unlimited spellcast: 5/lvl
+
+## Condition definitions
+
+### Dominated
+
+Shares condition immunity with charm.
+
+A dominated creature is charmed. Additionally, the creature that dominated it controls the dominated creature during the dominated creature's turn. It can take move actions as usual and can use its standard action to take any Attack action (or Multiattack, where relevant).
+
+### Sluggish
+
+Shares condition immunity with exhaustion.
+
+A sluggish creature reduces the number of attacks it can make with its Attack action by 1 (or Multiattack, where relevant).

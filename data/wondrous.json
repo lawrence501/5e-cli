@@ -573,6 +573,22 @@
         {
             "name": "Speaking Stone",
             "description": "https://5e.tools/items.html#speaking%20stone_erlw"
+        },
+        {
+            "name": "Arcane Cannon",
+            "description": "https://5e.tools/items.html#arcane%20cannon_egw"
+        },
+        {
+            "name": "Dispelling Stone",
+            "description": "https://5e.tools/items.html#dispelling%20stone_egw"
+        },
+        {
+            "name": "Potion of Possibility",
+            "description": "https://5e.tools/items.html#potion%20of%20possibility_egw"
+        },
+        {
+            "name": "Reincarnation Dust",
+            "description": "https://5e.tools/items.html#reincarnation%20dust_egw"
         }
     ],
     "legendary": [
@@ -595,6 +611,34 @@
         {
             "name": "Iron Flask",
             "description": "https://5e.tools/items.html#iron%20flask_dmg"
+        },
+        {
+            "name": "Potion of Storm Giant Strength",
+            "description": "https://5e.tools/items.html#potion%20of%20storm%20giant%20strength_dmg"
+        },
+        {
+            "name": "Sovereign Glue",
+            "description": "https://5e.tools/items.html#sovereign%20glue_dmg"
+        },
+        {
+            "name": "Sphere of Annihilation",
+            "description": "https://5e.tools/items.html#sphere%20of%20annihilation_dmg"
+        },
+        {
+            "name": "Universal Solvent",
+            "description": "https://5e.tools/items.html#universal%20solvent_dmg"
+        },
+        {
+            "name": "Well of Many Worlds",
+            "description": "https://5e.tools/items.html#well%20of%20many%20worlds_dmg"
+        },
+        {
+            "name": "Luxon Beacon",
+            "description": "https://5e.tools/items.html#luxon%20beacon_egw"
+        },
+        {
+            "name": "Pyxis of Pandemonium",
+            "description": "https://5e.tools/items.html#pyxis%20of%20pandemonium_mot"
         }
     ]
 }

@@ -526,7 +526,7 @@
     },
     {
         "name": "thaumophage",
-        "mods": ["on spell hit, gain 3 temp HP and 30% chance to slow until end of your next turn", "+2 spell dmg while you have temp HP"],
+        "mods": ["on spell hit, gain 3 temp HP and 30% chance to slow on hit until end of your next turn", "+2 spell dmg while you have temp HP"],
         "tags": ["spell dmg", "temp hp", "condi"]
     },
     {
@@ -1553,5 +1553,80 @@
         "name": "arcane potency",
         "mods": ["+1 spell crit dice", "-1 spell crit req"],
         "tags": ["spell dmg", "crit"]
+    },
+    {
+        "name": "amplify",
+        "mods": ["+5' AoE sizes", "+1 AoE dmg"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "deep thoughts",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "nimbleness",
+        "mods": ["+1 spell dmg", "+5' sp", "if you've cast a spell since start of your last turn, +1 to condi saves", "+1 spell crit dice"],
+        "tags": ["spell dmg", "speed", "save", "crit"]
+    },
+    {
+        "name": "gemini",
+        "mods": ["+1 wep AB while dual-wielding", "+1 wep dmg while dual-wielding", "+1 wep AC while dual-wielding"],
+        "tags": ["ab", "dual-wielding", "wep ac"]
+    },
+    {
+        "name": "fangs of frost",
+        "mods": ["+1 {nonPhysType} wep dmg", "your wep hits ignore {nonPhysType} res", "+1 to condi DCs"],
+        "tags": ["non-phys dmg", "wep dmg", "condi"]
+    },
+    {
+        "name": "wrecking ball",
+        "mods": ["+1 {weaponHands} dmg", "while holding a {weaponClass} wep, +1 to DCs to end ongoing effects"],
+        "tags": ["weapon hands", "condi"]
+    },
+    {
+        "name": "precise interception",
+        "mods": ["+1 wep AC while holding a shield", "+1 AC while holding a shield", "+1 {hitForm} dmg while holding a shield"],
+        "tags": ["wep ac", "holding shield", "spell ac"]
+    },
+    {
+        "name": "adder's touch",
+        "mods": ["+2 {weaponClass} crit dice", "on {weaponClass} crit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "+1 DoT dmg", "on crit fail to end your DoTs, dmg of DoT increases by 1"],
+        "tags": ["weapon class", "crit", "dot"]
+    },
+    {
+        "name": "blade master",
+        "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "+5' reach with {weaponClass} weps"],
+        "tags": ["weapon class", "ab"]
+    },
+    {
+        "name": "poisonous fangs",
+        "mods": ["+1 dmg with {weaponClass} weps", "+1 to DCs to end ongoing DoTs", "on wep hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "+1 DoT dmg"],
+        "tags": ["weapon class", "dot", "non-phys dmg"]
+    },
+    {
+        "name": "from the shadows",
+        "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "on KB, 20% chance to become incorporeal and gain +5' sp until end of your next turn"],
+        "tags": ["weapon class", "ab", "speed"]
+    },
+    {
+        "name": "soul raker",
+        "mods": ["+1 dmg with {weaponClass} weps", "on wep hit, heal 1 HP", "+1 incoming healing"],
+        "tags": ["weapon class", "wep dmg", "hp"]
+    },
+    {
+        "name": "claws of the pride",
+        "mods": ["+1 dmg with {weaponClass} weps", "if you've teleported since start of your last turn, +1 global dmg", "+5' {weaponClass} reach", "ignore {physType} res"],
+        "tags": ["weapon class", "speed", "wep dmg", "spell dmg", "phys dmg"]
+    },
+    {
+        "name": "heavy draw",
+        "mods": ["+1 dmg with {weaponClass} weps", "+5' AoE sizes", "while holding a {weaponClass} wep, +1 to condi DCs"],
+        "tags": ["weapon class", "aoe", "condi"]
+    },
+    {
+        "name": "hunter's gambit",
+        "mods": ["+1 dmg with {weaponClass} weps", "your DoTs have double duration", "+1 DoT dmg"],
+        "tags": ["weapon class", "dot"]
     }
 ]
