@@ -262,9 +262,37 @@
         {
             "name": "2. Vidar, Assassin",
             "set": "Legendary Champions",
-            "primary": "on sub hit, target gets 3 psn DoT, stacking until CON save",
-            "secondary": "on sub hit, target gets 1 psn DoT, stacking until CON save",
+            "primary": "on crit, target gets 8 psn DoT, stacking until CON save",
+            "secondary": "on crit, target gets 4 psn DoT, stacking until CON save",
             "foil": "+1 DoT dmg"
+        },
+        {
+            "name": "3. Arndell Globerd",
+            "set": "Legendary Champions",
+            "primary": "on non-dmg action, gain 8 self-stacking temp HP which self-stacks",
+            "secondary": "on non-dmg action, gain 4 self-stacking temp HP",
+            "foil": "+1 incoming temp HP"
+        },
+        {
+            "name": "4. Morric Noctan",
+            "set": "Legendary Champions",
+            "primary": "while bloodied, +8 global dmg",
+            "secondary": "while bloodied, +4 global dmg",
+            "foil": "+3 max HP"
+        },
+        {
+            "name": "5. Clover",
+            "set": "Legendary Champions",
+            "primary": "while healthy, +4 global dmg; while bloodied, +4 dmg res",
+            "secondary": "while healthy, +2 global dmg; while bloodied, +2 dmg res",
+            "foil": "+1 global dmg while flanking"
+        },
+        {
+            "name": "6. Surge",
+            "set": "Legendary Champions",
+            "primary": "+9 to dmg made as reaction",
+            "secondary": "+5 to dmg made as reaction",
+            "foil": "+1 AoE dmg"
         }
     ],
     "uncommon": [
@@ -337,6 +365,13 @@
             "primary": "1/LR, on sub hit, dominate target until end of their next turn",
             "secondary": "1/LR successfully, on sub hit, target makes CON save or dominated until end of their next turn",
             "foil": "creatures charmed by you have -1 dmg res"
+        },
+        {
+            "name": "7. Petros Corphanis",
+            "set": "Legendary Champions",
+            "primary": "on hit, target has -8 dmg vs non-you targets until end of their next turn",
+            "secondary": "on hit, target has -8 dmg vs non-you targets until end of their next turn",
+            "foil": "+1 dmg res while flanking"
         }
     ],
     "rare": [
@@ -409,6 +444,13 @@
             "primary": "you have a 5' glyphic aura that deals 2 nec dmg to foes",
             "secondary": "you have a 5' glyphic aura that deals 1 nec dmg to foes",
             "foil": "foes in your pers areas have -1 dmg res"
+        },
+        {
+            "name": "8. Heath Rouven",
+            "set": "Legendary Champions",
+            "primary": "on init, gain 8pt random wep enchant until end of combat (applying to all your weps)",
+            "secondary": "on init, gain 4pt random wep enchant until end of combat (applying to all your weps)",
+            "foil": "+1 glyphic dmg"
         }
     ]
 }
