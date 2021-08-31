@@ -586,7 +586,7 @@
   },
   {
     "name": "druid - thicket blades",
-    "mods": ["+1 $physType spell dmg", "1/turn, when hit, 20% chance for thicket blade atk to slash, dealing 1d4 S spell dmg to adj foes"],
+    "mods": ["+1 $physType spell dmg", "1/turn, when hit, 20% chance for vine atk, dealing 1d4 {physType} spell dmg to adj foes"],
     "upgrade": "+1 spell dmg ALT +10% NOT proc stats"
   },
   {

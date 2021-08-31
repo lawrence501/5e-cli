@@ -427,8 +427,8 @@
     },
     {
         "description": "+5' teleport range",
-        "pointValue": "3",
-        "upgrade": "5'/3",
+        "pointValue": "1",
+        "upgrade": "5'/1",
         "tags": []
     },
     {
@@ -810,9 +810,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+3 opp atk dmg",
+        "description": "+2 opp atk dmg",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "1/1",
         "tags": ["weapon"]
     },
     {
@@ -846,9 +846,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+3 dmg from reactions",
+        "description": "+2 dmg from reactions",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "1/1",
         "tags": ["weapon"]
     },
     {
@@ -1189,8 +1189,8 @@
     },
     {
         "description": "+1 opp atk AC while airborne",
-        "pointValue": "1",
-        "upgrade": "1/1",
+        "pointValue": "2",
+        "upgrade": "1/2",
         "tags": ["armour"]
     },
     {
