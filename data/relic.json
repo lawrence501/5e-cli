@@ -959,5 +959,79 @@
                 "upgrade": "+1 to blind DCs/3"
             }
         ]
+    },
+    {
+        "name": "Pajarraco",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 dmg res with an adj ally of same race",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 to saves vs uncon",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+2 B dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 init",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 to saves to end ongoing effects",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. on ending ongoing effect on yourself while adj to an ally, gain condi imm for combat",
+                "pointValue": "4",
+                "upgrade": "+1 to saves to end ongoing effects/4"
+            },
+            {
+                "description": "5. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "6. allies in combat have +1 init",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. allies starting their turns adj to you have +5' sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "8. +1 spell B dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on B hit, target gets -1 wep res for combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
     }
 ]

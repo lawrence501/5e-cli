@@ -1628,5 +1628,45 @@
         "name": "hunter's gambit",
         "mods": ["+1 dmg with {weaponClass} weps", "your DoTs have double duration", "+1 DoT dmg"],
         "tags": ["weapon class", "dot"]
+    },
+    {
+        "name": "king of the hill",
+        "mods": ["on {weaponClass} crit, push target 5' away", "-1 {weaponClass} crit req", "+1 {weaponClass} dmg"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "herbalism",
+        "mods": ["+1 healing from healing surges", "+1 max healing surge", "+1 max HP"],
+        "tags": ["surge healing", "max surges", "hp"]
+    },
+    {
+        "name": "mana flows",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "heart of oak",
+        "mods": ["+1 to condi saves", "+1 max HP", "+1 passive regen", "+1 to saves to end ongoing effects"],
+        "tags": ["save", "hp"]
+    },
+    {
+        "name": "weathered hunter",
+        "mods": ["+1 {hitForm} AB", "+1 {abilityScore}", "+1 {dmgPolarity} res"],
+        "tags": ["ab", "ability score"]
+    },
+    {
+        "name": "depth perception",
+        "mods": ["+1 {hitForm} AB", "+1 {abilityScore}", "-1 crit req"],
+        "tags": ["ab", "ability score", "crit"]
+    },
+    {
+        "name": "acuity",
+        "mods": ["+1 {hitForm} AB", "+1 {abilityScore}", "+1 wep dmg"],
+        "tags": ["ab", "ability score", "wep dmg"]
+    },
+    {
+        "name": "ballistic mastery",
+        "mods": ["+1 proj dmg", "+1 {abilityScore}", "+1 proj AB"],
+        "tags": ["proj", "ability score"]
     }
 ]
