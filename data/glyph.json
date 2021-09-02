@@ -1598,5 +1598,85 @@
             "9. When you would normally die, you instead fall unconscious for 1 round and then awaken. You immediately heal 2d6 + 12 hit points and gain a level of exhaustion. If you die again before you take a long rest, you are truly dead.",
             "10. You gain +3 to CON and DEX."
         ]
+    },
+    {
+        "name": "Serves a Hidden Master",
+        "description": "connecting with Gawdian",
+        "tiers": [
+            "1. You are trained in meditation. You may use it to enter a deep trance state, which allows you to better understand the information your link to the Shimmering Library provides. Entering a Knowledge Trance for 10 minutes grants you advantage on your next magitechnical task, such as repair, craft, or arcana. However, while in this trance you are essentially helpless.",
+            "2. Answers: 2/min; bonus action; You ask Gawdian a question with a simple answer. The Xiloan will respond to you after you have compeleted a task for him. Gawdian provides you with instructions as to what you must do to please him. Should you dally in completing this task, you will lose access to the benefits of this glyph path until the task is done.",
+            "3. Unearth: 1/min; bonus action; You learn the direction and distance of the nearest lootable magic item, such as weapons, potions, and artifacts. Alternatively, you can instead set the cooldown to once per long rest and learn similar information about the nearest magical device, such as a construct.",
+            "4. Combat Trance: 1/SR; bonus action; You enter a waking trance for 10 minutes, during which time you become a killing machine. The DM takes over control of your character, having you battle any creature nearby, and dealing +1d6 additional base damage on each hit.",
+            "5. Knowledge Flow: 1/LR; bonus action; You force your connection to the Shimmering Library out into a nearby magical object or construct, overloading it with information. The flow disables any magic in the target for 1 hour.",
+            "6. Cut Connection: 1/week; bonus action; You sever your connection to the Shimmering Library and Gawdian. Doing so has its disadvantages, but the upside is that you become attuned to the physical world, rather than the world of information. For the next 3 hours your INT is 2 lower and your DEX is 2 higher.",
+            "7. Your Data Trance now provides double advantage instead of advantage. Your Combat Trance feature now provides +2d6 damage on hit instead +1d6.",
+            "8. While in a Data Trance, you can take movement and bonus actions.",
+            "9. You can now use your Answers feature at-will.",
+            "10. You can now use your Unearth feature at-will."
+        ]
+    },
+    {
+        "name": "Dances with Spirits",
+        "description": "dancing to connect with spirits",
+        "tiers": [
+            "1. You are somehow able to see the invisible spirits of the world. You can even see ultradimensional beings bordering on this reality. The universe is a far more complicated place than most people are aware.",
+            "2. You have +2 to Performance while dancing. You are knowledge in a variety of styles, including some that are very strange when done by a humanoid.",
+            "3. Dance of Sorrow: 2/min; free action; You enter into a dance for the sorrows of the world. While you are dancing in this way, any creature with at least 5 Intelligence who attacks you feels intense sadness, reducing the damage of their attack by 1d6.",
+            "4. Dance of Joy: 1/min; free action; You enter a dance of happiness. While in this stance you recover 2 hit points whenever you successfully strike a hostile foe with a weapon attack.",
+            "5. Dance of Summoning: 1/SR; free action; You enter a dance that gathers the spirits to your side and makes them somewhat visible to the uninitiated. While maintaining this dance you are able to speak to the spirits, potentially learning of their activities in the area.",
+            "6. Dance of Death: 1/LR; free action; You enter a dance in which the spirits guide your attacks, helping you to strike true. While in this dance you double all critical hit damage you deal with weapon attacks.",
+            "7. You may dance 2 dances at the same time, weaving the 2 stances into 1 unique expression. You may only add 1 stance per turn.",
+            "8. Your visions of beings you should not be able to witness grant you advantage on saving throws against the frightened condition.",
+            "9. +2 to Performance.",
+            "10. Your Dance of Sorrow can now be used at-will and now affects all creatures, regardless of their Intelligence."
+        ]
+    },
+    {
+        "name": "Bears a Halo of Fire",
+        "description": "empowering a halo of fire",
+        "tiers": [
+            "1. Shroud of Flame: At-will; free action; At your command, your entire body becomes shrouded in flames that last up to 10 minutes. The fire does not burn you, but it automatically inflicts 1d6 fire damage to anyone who tries to touch you or strike you with a melee attack. Flames from another source can still hurt you. While the shroud is active, you gain +4 to resistance.",
+            "2. Hurl Flame: 2/min; bonus action; While your Shroud of Flame feature is active, you can reach into your halo and hurl a handful of fire at a target. This is an attack with range 30' that deals 1d10 + your level fire damage.",
+            "3. When you cast a spell that deals damage, it deals an additional 1d4 fire damage.",
+            "4. Fiery Hand of Doom: 1/min; bonus action; While you Shroud of Flame feature is active, you can reach into your halo and produce a hand made of animate flame that is twice the size of your hand. The hand acts as you direct, floating in the air. Directing the hand is a bonus action. Without a command, the hand does nothing. It can move up to 120' in a round, but it never moves farther away from you than 120'. The hand can grab, move, and carry things, but anything it touches takes 1d4 fire damage per round from the heat. The hand can also attack. It has +5 AB and deals 1d8 fire damage when it attacks. Once created, the hand lasts for 10 minutes.",
+            "5. Wings of Fire: 1/SR; bonus action; While your Shroud of Flame feature is active, you can spread wings of fire and levitate, gaining a flying speed of 20'. You can only take 1 other non-movement action on your turn while these wings are active.",
+            "6. Flameblade: 1/SR; free action; When you wish it, you extend your halo of fire to cover a weapon you wield in flame for 1 hour. The flame ends if you stop holding or carrying the weapon. While the flame lasts, the weapon deal +1d6 fire damage.",
+            "7. Fire Tendrils: 1/LR; free action; When you wish it, your halo sprouts 3 tendrils of flame that last for up to 10 minutes. As a bonus action, you can use the tendrils to attack, making a separate attack roll for each. Each tendril deals 1d10 + 1d8 fire damage. Otherwise, the attacks function as standard attacks. If you do not use the tendrils to attack, they remain but do nothing.",
+            "8. Fire Servant: 1/week; bonus action; You reach into your halo and produce an automaton of fire that is your general shape and size. It acts as you direct each round. Directing the servant is a bonus action, and you can command it only when you are within 120' of it. Without a command, the servant continues to follow your previous command. You can also give it a simple programmed action, such as 'wait here, and attack anyone who comes within 30' until they are dead.' The servant lasts for 10 minutes, has 16 AC, 50 hit points, 6 AB, and deals 1d8 + 1d6 fire damage when it attacks.",
+            "9. Inferno Trail: 1/week; bonus action; For the next minute, you leave a trail of flame in your wake. The trail matches your path and lasts for up to a minute, creating a wall of flame about 6' high that inflicts 1d12 + your level fire damage to any creature that passes through it, potentially catching them on fire for an additional 1d4 fire damage each round until they spend a round putting out the fire.",
+            "10. Your Shroud of Flame feature now deals 1d12 fire damage instead of 1d6."
+        ]
+    },
+    {
+        "name": "Needs No Weapons",
+        "description": "unarmed combat",
+        "tiers": [
+            "1. You inflict +1d6 base damage with unarmed attacks.",
+            "2. You have +1 AC if you are unarmoured.",
+            "3. Advantage to Disadvantage: 1/min; bonus action; With a number of quick moves, you make an attack against an armed foe, inflicting damage and disarming them so that their weapon is now in your hands or 10' away on the ground - your choice. This disarming attack has disadvantage.",
+            "4. You gain +2 AB with unarmed attacks.",
+            "5. Dazing Attack: 1/min; bonus action; You hit your foe in just the right spot, dazing them so that tasks they attempt on their next turn have disadvantage. This attack inflicts normal damage.",
+            "6. Moving Like Water: 1/min; free action; You spin and move so that your defence and attacks are aided by your fluid motion. For 1 minute, all your attacks and Dexterity saving throws gain advantage.",
+            "7. Deflect Attacks: 1/SR; bonus action; For 1 minute, you automatically deflect or dodge any ranged projectile attacks. However, on your next turn after you are attacked with ranged projectiles, all tasks you attempt have disadvantage.",
+            "8. Stun Attack: 1/week; bonus action; You attempt a DC 15 Sleight of Hand check to stun a creature as part of your melee or ranged attack. If you succeed, your attack inflicts its normal damage and stuns the creature until the end of its next turn. If you fail, you still make your normal attack roll, but you do not stun the opponent if you hit.",
+            "9. You inflict +1d6 base damage with unarmed attacks.",
+            "10. Whirling Assault: 1/month; bonus action; For 1 minute, you can attack all targets within 5' of you. All of the attacks have to be the same type of attack. Make a separate attack roll for each foe. Anything that modifies your attack or damage applies to all of these attacks. All other tasks have disadvantage in any round in which you attack more than 1 foe using this feature."
+        ]
+    },
+    {
+        "name": "Unleashes Inner Power",
+        "description": "harnessing the martial arts",
+        "tiers": [
+            "1. Defensive Gestures: At-will; bonus action; You enter into a defensive fighting stance. While fighting in this way you gain +2 to Dexterity saving throws so long as both of your hands are empty.",
+            "2. Energy Blast: 2/min; bonus action; You make an unarmed strike, doing your usual unarmed damage and pushing your foe dramatically backwards 15'.",
+            "3. Distracting Gestures: 1/min; bonus action; You enter a distracting fighting stance. While fighting in this way your foe becomes distracted when your unarmed attacks hit, causing all physical attacks against them to have advantage until the end of your next turn.",
+            "4. Flying Attack: 1/SR; bonus action; You fly through the air, up to 30', and make an unarmed attack against a hostile target. This feature may not be used to simply travel a certain distance - a hostile foe must be the target.",
+            "5. Offensive Gestures: 1/LR; bonus action; You enter into an offensive fighting stance. While fighting in this style your unarmed attacks deal +1d4 base damage.",
+            "6. Hidden Reserves: 1/week; bonus action; In a burst of light, you heal 12 hit points.",
+            "7. Your Defensive Gestures feature now grants +4 to Dexterity saving throws instead of +2.",
+            "8. Your Energy Blast feature can now be used at-will.",
+            "9. Your Distracting Gestures feature can now be used twice per minute.",
+            "10. Your Flying Attack feature can now be used twice per minute."
+        ]
     }
 ]
