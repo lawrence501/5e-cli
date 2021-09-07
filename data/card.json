@@ -166,7 +166,7 @@
             "set": "Crikathian Champions I",
             "primary": "+7 proj dmg vs targets 60+' away",
             "secondary": "+4 proj dmg vs targets 60+' away",
-            "foil": "+1 global dmg vs targets 60+' away"
+            "foil": "+1 proj dmg"
         },
         {
             "name": "4. Xorp",

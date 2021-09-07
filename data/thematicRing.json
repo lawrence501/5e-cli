@@ -421,12 +421,12 @@
     },
     {
         "name": "brutal infamy",
-        "mods": ["+3 {weaponHands} dmg", "+1 global dmg vs bosses"],
+        "mods": ["+3 {weaponHands} wep dmg", "+1 global dmg vs bosses"],
         "tags": ["weapon hands"]
     },
     {
         "name": "fearsome warrior",
-        "mods": ["+1 {weaponHands} dmg", "+5' AoE sizes", "on {rangeType} KB, 20% chance to frighten adj foes until end of your next turn"],
+        "mods": ["+1 {weaponHands} wep dmg", "+5' AoE sizes", "on {rangeType} KB, 20% chance to frighten adj foes until end of your next turn"],
         "tags": ["weapon hands", "aoe", "range", "condi"]
     },
     {
@@ -1581,7 +1581,7 @@
     },
     {
         "name": "wrecking ball",
-        "mods": ["+1 {weaponHands} dmg", "while holding a {weaponClass} wep, +1 to DCs to end ongoing effects"],
+        "mods": ["+1 {weaponHands} wep dmg", "while holding a {weaponClass} wep, +1 to DCs to end ongoing effects"],
         "tags": ["weapon hands", "condi"]
     },
     {
@@ -1668,5 +1668,40 @@
         "name": "ballistic mastery",
         "mods": ["+1 proj dmg", "+1 {abilityScore}", "+1 proj AB"],
         "tags": ["proj", "ability score"]
+    },
+    {
+        "name": "executioner",
+        "mods": ["+1 {weaponHands} wep dmg", "+2 hit dmg vs bloodied targets", "if you've KB'd since start of your last turn, +5' AoE sizes"],
+        "tags": ["weapon hands", "wep dmg", "spell dmg", "aoe"]
+    },
+    {
+        "name": "cleaving",
+        "mods": ["+1 {weaponClass} dmg", "+1 global dmg vs DoT'd targets", "your DoTs have half duration", "+1 DoT dmg", "+5' {weaponClass} reach"],
+        "tags": ["weapon class", "wep dmg", "spell dmg", "dot"]
+    },
+    {
+        "name": "blood siphon",
+        "mods": ["+2 max HP", "+1 {abilityScore}", "on KB, heal 2 HP"],
+        "tags": ["hp", "ability score"]
+    },
+    {
+        "name": "weapon artistry",
+        "mods": ["while dual-wielding or holding a shield, +1 wep AC", "+1 {abilityScore} and {abilityScore2}", "+1 wep dmg"],
+        "tags": ["dual-wielding", "holding shield", "wep ac", "ability score", "wep dmg"]
+    },
+    {
+        "name": "ambidexterity",
+        "mods": ["+1 dmg with onhand hits", "+1 dmg with offhand hits", "+1 wep dmg while dual-wielding"],
+        "tags": ["wep dmg", "dual-wielding"]
+    },
+    {
+        "name": "heartseeker",
+        "mods": ["+1 crit dice"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "razor's edge",
+        "mods": ["+2 {weaponClass} dmg", "on wep hit, 20% chance to give 1 {physType} DoT, stacking until CON save", "+1 DoT dmg"],
+        "tags": ["weapon class", "wep dmg", "dot"]
     }
 ]

@@ -1678,5 +1678,85 @@
             "9. Your Distracting Gestures feature can now be used twice per minute.",
             "10. Your Flying Attack feature can now be used twice per minute."
         ]
+    },
+    {
+        "name": "Defends the Weaks",
+        "description": "defending others",
+        "tiers": [
+            "1. You gain prof/+2 in Wisdom saving throws and +2 to initiative.",
+            "2. You have +1 AC while you are using a shield. Additionally, you gain prof/+2 in Insight.",
+            "3. Devoted Defender: 2/min; bonus action; Choose 1 creature you can see. That creature becomes your ward. You gain +2 to all tasks involving finding, healing, interacting with, and protecting that character. You can have only 1 ward at a time.",
+            "4. You can have 2 wards from your Devoted Defender feature at a time. Choosing a 2nd ward can be its own action, or you can choose 2 wards with 1 bonus action. The wards must remain within 5' of each other. Benefits provided by your Devoted Defender feature apply to both your wards. If your wards separate, you choose which retains the benefit. If they come back together, both regain the benefit immediately.",
+            "5. True Defender: 1/week; bonus action; This feature functions as the Devoted Defender feature, except the benefit applies to up to 3 creatures you choose. If you choose juse 1 creature, the bonuses you receive increase to +4.",
+            "6. True Guardian: 2/min; bonus action; You stand guard. Allies within 5' of you gain advantage on saving throws. This lasts until the end of your next turn.",
+            "7. All attempted tasks that draw an attacker's attention to you (and away from someone else) have double advantage.",
+            "8. Willing Sacrifice: At-will; As a reaction when a creature within 5' of you is attacked, you can choose to take the attack instead. When you do so, you can choose to allow the attack to hit you automatically to reduce its damage by 1d4. Additionally, as part of the same reaction, you can take any further attacks directed at that same ally until your next turn.",
+            "9. Taunt Foe: 1/SR; free action; You can make an attack on a foe as part of your Willing Sacrifice reaction.",
+            "10. Resuscitate: 1/week; bonus action; You can resuscitate an unconscious creature on 0 hit points. The target heals 1 hit point. If a creature is dead but is otherwise in 1 pierce and less than a minute has passed since they died, you can resucitate them if you succeed at a DC 18 Medicine check."
+        ]
+    },
+    {
+        "name": "Thunders",
+        "description": "controlling destructive sound",
+        "tiers": [
+            "1. Thunder Beam: 2/min; bonus action; You direct a beam of focused sound at a target within 120', inflicted 1d6 + level thunder damage and inducing a resonant destructive wave in their body. Each round after this initial attack, you can make another attack for the destructive wave to inflict an additional 1d4 true thunder damage to the target. If you fail this attack, the destructive wave ends. Alternatively, you can set up a destructive resonance in a physical melee weapon for 1 minute or until you let go of it. All attacks made with the target weapon inflict +1d4 thunder damage.",
+            "2. Attacks that hit you are partially converted to surges of harmless noise similar to the sound of a wave crashing to shore. This ability grants you +1 AC and an additional +2 AC against magical attacks.",
+            "3. You are especially sensitive to sound and vibration, so much so that you can sense your environment within 30' regardless of your ability to see.",
+            "4. Nullify Sound: 1/min; bonus action; You pulse perfectly misaligned sounds within 30' to create a zone of absolute quiet up to 5' across for 1 minute. All sound is cancelled in the zone.",
+            "5. Shattering Shout: 1/LR; bonus action; Your focused shout sets up a destructive resonance in a creature or object within 120'. Nothing happens on the round you strike your target other than an ominous humming or buzzing sound emitted by the target. But on your next turn, the resonance shatters discrete inanimate objects, inflicts major damage to structures, or inflicts 1d10 + level true thunder damage on a creature. If you shatter a discrete object, it shatters explosively, inflicting 1d4 damage of an appropriate physical type to all creatures and objects within 5' of it.",
+            "6. Subsonic Rumble: 2/min; bonus action; For 1 minute or until you use your ability to manipulate sound in some other way, you emit a subsonic rumble that most living creatures cannot hear but which has an effect on them all the same. The effect lasts for 1 minute and affects all creatures you select within 30'. All tasks related to resisting persuasion, intimidation, and frighten have double disadvantage for affected targets.",
+            "7. Amplify Sounds: 2/min; bonus action; For 1 minute, you can amplify distant or small sounds so that you can hear them clearly, even if it is a conversation or the sound of a small animal moving through an underground burrow up to 240' away. You can attempt to perceive the sound even if interceding barriers block it or if the sound is very slight, though this requires concentration. To discriminate the sound you wish in a noisy environment might also require concentration as you audibly explore the surrounding soundscape. You can pinpoint every conversation, every breathing creature, and every device creating noise within 240'.",
+            "8. Earthquake: 1/month; bonus action; You direct your destructive resonance into the ground and trigger an earthquake centred on a spot you can see within 240'. The ground within 30' of that spot heaves and shakes for 5 minutes, causing damage to structures and terrain in the area. Buildings and terrain features shed debris and rubble. Each round, creatures in the area take either 1d8 + level bludgeoning damage due to the general shaking, or 1d8 + 1d6 + level bludgeoning damage if in or adjacent to a structure or terrain feature shedding debris.",
+            "9. Lethal Vibration: 1/month; bonus action; You set up a lethal vibration in your own body and pass it to a creature you touch with a successful attack. If the target is CR 1 or lower, it explodes in a peal of thunder. If the target is CR 2 or higher, it sustains 1d8 + 1d6 + level thunder damage and is stunned until the end of its next turn.",
+            "10. You can now use your Thunder Beam feature at-will. Additionally, its further true thunder damage increases from 1d4 to 1d8."
+        ]
+    },
+    {
+        "name": "Sees Through Metal Eyes",
+        "description": "augmenting your eyes with magitech",
+        "tiers": [
+            "1. Brain Scan: At-will; bonus action; You scan the brain waves of a living target within 30', learning their current mood.",
+            "2. Your eyes can glow in the dark, granting you full darkvision and advantage on Intimidation checks.",
+            "3. A heads up display assists your vision, granting you advantage on Perception checks.",
+            "4. Lie Detector: 1/min; bonus action; You study the brain waves of a living target within 5', determining if the last thing they said (within the last 6 seconds) was a lie.",
+            "5. Emotion Emulation: 1/SR; bonus action; You immediately feel the emotions of the closest intelligent creature to you. This grants you advantage on any social checks you make against them for the next 10 minutes.",
+            "6. Your heads-up display grants you advantage on ranged attack rolls and allows you to ignore disadvantage on attack rolls due to any sort of cover or obscuring entity.",
+            "7. Emotion Burst: 1/week; bonus action; You fire twin blasts of energy from your eyes at a target within 120', dealing 1d12 + level force damage and, if they are living, causing them to feel whatever emotion you are experiencing. If you are currently using your Emotion Emulation feature with the target, this can cause a kind of emotional feedback loop, stunning the target until the end of your next turn.",
+            "8. Your Brain Scan feature can now be used against any type of creature.",
+            "9. You gain full blindsight.",
+            "10. +3 to Perception."
+        ]
+    },
+    {
+        "name": "Bends Light and Space",
+        "description": "distorting light and space",
+        "tiers": [
+            "1. Blur: 2/min; bonus action; You blur light around you, granting you double advantage on Stealth checks for the next 10 minutes.",
+            "2. Halt: 2/min; free action; You slow your movement through space, preventing all damage from falling and allowing you to land on your feet at the end.",
+            "3. Escape: 1/min; bonus action; As a desperate move you simply slip through space to wherever luck will take you. You are essentially teleported to a random location within 30'.",
+            "4. Intangible: 1/SR: bonus action; For the next 10 minutes you may not affect the world and world may not affect you. You cannot be seen, though you can see the world. You cannot move while intangible, but you can whisper to those who come near you.",
+            "5. Waft: 1/LR; free action; While under the effects of any other feature from this glyph path, you may activate this power to become unconstrained by gravity for the next 1d6 rounds. While affected, you can push off of objects to fly through the air up to 120' per turn.",
+            "6. Incongruence: 1/week; bonus action; For the next 10 minutes, anything you touch or pass through takes 1d8 + 1d6 + level force damage.",
+            "7. Your Blur feature now grants guaranteed success on Stealth checks.",
+            "8. Your Halt feature can now be used at-will.",
+            "9. Your Escape feature can now be used twice per minute.",
+            "10. Your Intangible feature can now be used once per minute, and you can move at a speed of 5' while intangible."
+        ]
+    },
+    {
+        "name": "Employs Magnetism",
+        "description": "magnetism",
+        "tiers": [
+            "1. Move Metal: At-will; bonus action; You can exert force on metal objects within 30'. Once activated, your power has an effective Strength of 16, and you can use it to move metal objects, push against metal objects, and so on. For example, in your round, you could lift and pull a light metal object anywhere within range to yourself or move a heavy object about 10'. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it's not a means of attack. You cannot use this ability on your own body. The power lasts for 1 hour.",
+            "2. By manipulating magnetism, you gain +2 with Dexterity saving throws against any incoming effect that utilises metal.",
+            "3. Destroy Metal: 1/min; bonus action; You instantly tear, rip, or burst a metal object you can see within 30', and no bigger than half your size.",
+            "4. Guide Bolt: 1/SR; free action; When you make an attack with a projectile with any metal component on a target within 30', you can improve the attack's aim and velocity, which grants it advantage and inflicts +1d6 base damage.",
+            "5. Magnetic Field: 1/SR; free action; When you wish it, a field of magnetism around you pulls incoming metallic projectile attacks to the ground. You are immune to such attacks for 1 round. You must be aware of an attack to foil it.",
+            "6. Command Metal: 1/LR; bonus action; You reshape a metallic object you can see as you desire. The object must be within 30', and its mass can be no greater than your own. You can affect multiple objects at once as long as their combined mass falls within these limits. You can fuse multiple items together. You can use this power to destroy a metal object (as your Destroy Metal feature), or you can craft it into another desired shape (crudely, unless you are proficient with the relevant craft). You can then move the new object anywhere within range. For example, you could take a few metal shield, fuse them together, and use the resulting shape to block a doorway. You can use this ability to make an attack (causing a foe's armour to constrict, rendering a metal item into shards that you fling across the battlefield, and so on) against 1 target within 30'. Regardless of the form of the attack, it is Intelligence-based and deals 2d8 + level damage of a relevant physical type.",
+            "7. You magnetise any non-metallic object within 30' so that it can be affected by your other features. Thus, with Move Metal, you can move any object. You gain +2 to all Dexterity saving throws, regardless of whether the incoming attack uses metal. And so on.",
+            "8. Iron Punch: 1/LR; bonus action; You pick up a heavy object within 30' and hurl it at a creature within the same area, an Intelligence-based attack that deals 1d8 + 1d6 + level damage of a relevant physical type to the target and to the hurled object.",
+            "9. Your Move Metal feature now has a range of 60'.",
+            "10. Your bonus to Dexterity saving throws against metalic effects increases to +5."
+        ]
     }
 ]
