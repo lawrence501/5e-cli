@@ -596,7 +596,7 @@
     },
     {
         "name": "paralysis",
-        "mods": ["+1 {nonPhysType} dmg", "+1 to condi DCs from {nonPhysType} powers", "on condi, 20% chance to double its duration"],
+        "mods": ["+1 {nonPhysType} dmg", "+1 to condi DCs", "on condi, 20% chance to double its duration"],
         "tags": ["non-phys dmg", "condi"]
     },
     {
@@ -1703,5 +1703,45 @@
         "name": "razor's edge",
         "mods": ["+2 {weaponClass} dmg", "on wep hit, 20% chance to give 1 {physType} DoT, stacking until CON save", "+1 DoT dmg"],
         "tags": ["weapon class", "wep dmg", "dot"]
+    },
+    {
+        "name": "aspect of the eagle",
+        "mods": ["+1 {weaponClass} dmg", "+5' sp", "+1 {hitForm} AB", "+1 max HP"],
+        "tags": ["weapon class", "speed", "ab", "hp"]
+    },
+    {
+        "name": "butchery",
+        "mods": ["+1 {weaponHands} wep dmg", "+1 {abilityScore}"],
+        "tags": ["weapon hands", "ability score"]
+    },
+    {
+        "name": "destroyer",
+        "mods": ["+1 {weaponHands} wep dmg", "while holding a {weaponHands} wep, your condis have double duration"],
+        "tags": ["weapon hands", "condi"]
+    },
+    {
+        "name": "brutal blade",
+        "mods": ["+1 {weaponClass} dmg", "+1 weapon AC while dual-wielding or holding a shield", "on wep block, 20% chance to gain +1 global dmg for combat"],
+        "tags": ["weapon class", "wep ac", "dual-wielding", "holding shield", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "lethality",
+        "mods": ["+1 {weaponClass} crit dice", "+1 {weaponClass} dmg", "-1 {weaponClass} crit req"],
+        "tags": ["crit", "weapon class"]
+    },
+    {
+        "name": "master fletcher",
+        "mods": ["+1 {weaponClass} dmg", "+1 proj AB", "+1 {hitForm} AB"],
+        "tags": ["weapon class", "proj", "ab"]
+    },
+    {
+        "name": "tetsudo",
+        "mods": ["+1 wep AC while holding a shield", "if you've blocked since your last turn, +1 global dmg", "on block, heal 1 HP", "+1 AC while holding a shield"],
+        "tags": ["wep ac", "holding shield", "wep dmg", "spell dmg", "hp", "spell ac"]
+    },
+    {
+        "name": "blade barrier",
+        "mods": ["+1 wep AC while dual-wielding", "+1 wep dmg while dual-wielding", "if you've blocked since your last turn, +1 global dmg"],
+        "tags": ["wep ac", "dual-wielding", "wep dmg", "spell dmg"]
     }
 ]
