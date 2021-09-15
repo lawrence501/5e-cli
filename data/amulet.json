@@ -211,7 +211,7 @@
   },
   {
     "name": "sentinel - blademaster",
-    "mods": ["+1 global dmg while holding $weaponClass", "+1 global dmg while holding $weaponClass"],
+    "mods": ["+1 global dmg while holding $weaponClass wep", "+1 global dmg while holding $weaponClass wep"],
     "upgrade": "+1"
   },
   {

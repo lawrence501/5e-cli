@@ -426,8 +426,8 @@
     },
     {
         "name": "fearsome warrior",
-        "mods": ["+1 {weaponHands} wep dmg", "+5' AoE sizes", "on {rangeType} KB, 20% chance to frighten adj foes until end of your next turn"],
-        "tags": ["weapon hands", "aoe", "range", "condi"]
+        "mods": ["+1 {weaponHands} wep dmg", "+5' AoE sizes", "on melee KB, 20% chance to frighten adj foes until end of your next turn"],
+        "tags": ["weapon hands", "aoe", "melee", "condi"]
     },
     {
         "name": "combat rhythm",
@@ -1391,8 +1391,8 @@
     },
     {
         "name": "smashing strikes",
-        "mods": ["+1 dmg with {weaponClass} weps", "on {rangeType} crit, 20% chance to gain +1 dmg res for combat", "-1 crit req with {weaponClass} weps", "+5' reach with {weaponClass} weps"],
-        "tags": ["weapon class", "range", "crit", "phys res", "non-phys res"]
+        "mods": ["+1 dmg with {weaponClass} weps", "on melee crit, 20% chance to gain +1 dmg res for combat", "-1 crit req with {weaponClass} weps", "+5' reach with {weaponClass} weps"],
+        "tags": ["weapon class", "melee", "crit", "phys res", "non-phys res"]
     },
     {
         "name": "skull cracking",
@@ -1743,5 +1743,65 @@
         "name": "blade barrier",
         "mods": ["+1 wep AC while dual-wielding", "+1 wep dmg while dual-wielding", "if you've blocked since your last turn, +1 global dmg"],
         "tags": ["wep ac", "dual-wielding", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "crystal skin",
+        "mods": ["+1 to condi saves", "+1 to {dmgPolarity} abs", "+1 to {dmgPolarity} res"],
+        "tags": ["save"]
+    },
+    {
+        "name": "deflection",
+        "mods": ["+1 AC while holding a shield", "+1 proj AC"],
+        "tags": ["wep ac", "spell ac"]
+    },
+    {
+        "name": "arcane focus",
+        "mods": ["+3 incoming temp HP"],
+        "tags": ["temp hp"]
+    },
+    {
+        "name": "disemboweling",
+        "mods": ["-1 melee crit req", "+1 melee crit dice"],
+        "tags": ["melee", "crit"]
+    },
+    {
+        "name": "divine fervour",
+        "mods": ["+1 {dmgPolarity} dmg with weps", "+1 {abilityScore1}", "+1 {abilityScore2}", "-1 melee crit req", "weps ignore {dmgPolarity} res"],
+        "tags": ["dmg polarity", "wep dmg", "ability score", "melee", "crit"]
+    },
+    {
+        "name": "throatseeker",
+        "mods": ["+1 crit dice"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "prowess",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "master of the arena",
+        "mods": ["+1 {abilityScore}", "+5' reach", "+1 melee {physType} dmg", "+1 passive regen"],
+        "tags": ["ability score", "melee", "phys dmg", "hp"]
+    },
+    {
+        "name": "heart of the warrior",
+        "mods": ["+1 {abilityScore}", "+1 max HP"],
+        "tags": ["ability score", "hp"]
+    },
+    {
+        "name": "art of the gladiator",
+        "mods": ["+1 wep dmg", "+1 {abilityScore}", "ignore stealth penalties from body armour", "+1 {hitForm} AB"],
+        "tags": ["wep dmg", "ability score", "ab"]
+    },
+    {
+        "name": "agility",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "precision",
+        "mods": ["+1 {abilityScore}", "+1 {hitForm} AB", "+5' sp", "+1 global dmg"],
+        "tags": ["ability score", "ab", "speed", "wep dmg", "spell dmg"]
     }
 ]

@@ -88,7 +88,7 @@ var RING_TAGS []string = []string{
 	"save",
 	"wep ac",
 	"spell ac",
-	"range",
+	"melee",
 }
 
 var ABILITY_SCORES []string = []string{

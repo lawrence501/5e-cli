@@ -1758,5 +1758,280 @@
             "9. Your Move Metal feature now has a range of 60'.",
             "10. Your bonus to Dexterity saving throws against metalic effects increases to +5."
         ]
+    },
+    {
+        "name": "Transmutes Matter",
+        "description": "transmuting materials",
+        "tiers": [
+            "1. Plating: At-will; bonus action; You touch an object smaller than yourself and the surface of the item is turned entirely to steel. Generally speaking, plating will add 1 AC to an object that is normally soft, at your DM's discretion.",
+            "2. Total Change: 2/min; bonus action; You transmute a non-living object smaller than you entirely into steel.",
+            "3. When transmuting using powers from this glyph path you are no longer limited to simply steel. Instead, you are able to choose any known metal material.",
+            "4. Grasp of Change: 1/SR; bonus action; As an attack you may touch a living creature and transmute part of it to a non-living substance. This causes 1d10 + level force damage. If the target is wearing armour, this alters part of it as well, causing it to become useless.",
+            "5. You are no longer limited to metal for transmutations. Instead, you may choose any solid substance you have ever encountered.",
+            "6. You revisit your old specialty, granting you advantage on tasks whenever you attempt to transmute into steel. This includes attack rolls made using your Grasp of Change feature.",
+            "7. Alter the World: 1/week; bonus action; By touching a surface with both hands you are able to transmute an area up to 150' radius in size. This transmutation is similar in effect to your Plating feature, in that it only alters the surface of the area.",
+            "8. Your Plating feature now grants +1 AC to body armours you plate with steel.",
+            "9. Your Total Change feature can now be used at-will.",
+            "10. When transmuting using powers from this glyph path you are no longer limited to solid materials. Instead, you are able to transmute into water."
+        ]
+    },
+    {
+        "name": "Channels a Xiloan",
+        "description": "channelling the power of a chosen xiloan",
+        "tiers": [
+            "1. Choose a Xiloan: The Cloud, Aroshi, P'all, Mensis, or Gawdian. All instances of damage you deal are increased by 1d6 [cold, acid, slashing, psychic, radiant] damage.",
+            "2. Based on your Xiloan, gain prof/+2 in [Stealth, Performance, Persuasion, Intimidation, Insight].",
+            "3. Prayer: 1/SR; bonus action; You call upon your Xiloan in a moment of difficulty - completely recovering all hit points. Your Xiloan disapproves of your dependence, causing your next attack roll, saving throw, or ability check to have double disadvantage.",
+            "4. You gain a follower who is a devoted member of your religion. They are a CR 4 humanoid who will do anything you ask, so long as it does not violate the precepts of your faith. They count as a minion.",
+            "5. You receive visions of your Xiloan in the surface of nearly every magical object you encounter. Once per long rest you may attempt a Religion check of DC 18 to decipher these messages. If successful, you gain double advantage on the next check you make for the skill you gained prof/+2 for from your Xiloan.",
+            "6. You are a mortal embodiment of your Xiloan on the ground. You gain +1 to each ability score, and all of your damage now ignores resistance and immunities.",
+            "7. The 1d6 bonus you add to your damage is increased to 1d10.",
+            "8. Gain +2 in the skill you gained prof/+2 in from your Xiloan.",
+            "9. You can now use your Prayer feature once per minute.",
+            "10. Your follower's stats are replaced with those of a CR 6 humanoid."
+        ]
+    },
+    {
+        "name": "Wears a Sheen of Ice",
+        "description": "utilising the power of a sheen of ice growing around you",
+        "tiers": [
+            "1. Ice Armour: At-will; free action; When you wish it, your body is covered in a sheen of ice for 10 minutes that gives you +1 to AC. While the sheen is active, you feel no discomfort from normal cold temperatures and have +4 resistance to cold damage.",
+            "2. Frost Touch: At-will; bonus action; Your hands become so cold that the next time you touch a creature, you inflict 1d8 + level cold damage. Alternatively, you can use this power on a weapon, and for 10 minutes, it inflicts 1d4 additional cold damage.",
+            "3. Freezing Touch: 1/SR; bonus action; Your hands become so cold that, in addition to inflicted damage as described under your Frost Touch feature, your touch freezes solid a living target of your size or smaller, rendering it unable to act for 1 round.",
+            "4. Ice Creation: 1/SR; bonus action; You create a solid object of ice that is your size or smaller. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. Your ice objects are as strong as iron, but if you are not in constant contact with them, they function for only 1d6 + 6 rounds before breaking or melting. For example, you can make and wield an ice sword, but if you give it to another creature, the sword will not last as long for that character.",
+            "5. The sheen of ice you generate using your Ice Armour feature gives you an additional +1 to AC.",
+            "6. Cold Burst: 1/LR; bonus action; You emit a burst of cold in all directions, up to 30'. All within the burst take 1d12 + level cold damage.",
+            "7. You make an additional Intelligence-based attack as part of your Cold Burst feature's attack, and if successful, you blind foes for up to 1 minute with a layer of freezing ice. All tasks of creatures blinded in this way have double disadvantage.",
+            "8. When you use your Frost Touch feature, the damage is increased to 1d12 + level if you touch a creature, and 1d6 if you infuse a weapon. In addition, damaged targets are frozen in place (if standing on a solid surface) and cannot move from their location until they use a bonus action to break free.",
+            "9. While affected by your Ice Armour feature, you are immune to all severe cold weather conditions.",
+            "10. When you use your Frost Touch feature, the damage is increased to 1d8 + 1d6 + level if you touch a creature, and 1d8 if you infuse a weapon."
+        ]
+    },
+    {
+        "name": "Works Miracles",
+        "description": "healing others",
+        "tiers": [
+            "1. Healing Touch: At-will; bonus action; With a touch, you restore 2d6 hit points to any creature. This is a DC 6 Medicine check. Each time you attempt to heal the same creature, the DC increases by 3. The DC resets after that creature takes a long rest.",
+            "2. Alleviate: 1/min; bonus action; You attempt to cancel or cure one disease or poison in one creature.",
+            "3. With your approval, other creatures can touch you and regain 2d6 hit points. This healing costs them 4 hit points. A single creature can benefit from this feature only once per long rest.",
+            "4. When you would go down, you can attempt a Constitution check to resist, with a DC equal to double the CR of the foe or effect that harmed you. If successful, you do not go down and you regain 6 hit points. You cannot use this feature again until after your next long rest.",
+            "5. Inspiration: 1/SR; bonus action; Through mental inspiration and the manipulation of time, one creature you choose within 30' is granted an additional, immediate bonus action, which it can take out of turn.",
+            "6. Undo: 1/LR; bonus action; You turn back time a few seconds, effectively undoing a single creature's most recent action. That creature can then immediately repeat the same action or try something different.",
+            "7. Greater Healing Touch: 1/SR; bonus action; You touch a creature and restore all of its hit points. A single creature can benefit from this feature only once per long rest.",
+            "8. Restore Life: 1/decade; bonus action; You can attempt to restore life to a dead creature of up to CR 2, as long as the corpse is no more than a day old and is mostly intact. You can also attempt to restore life to a corpse that is much older but is especially well preserved. The difficulty of the Medicine check is equal to 6 times the CR of the creature you are attempting to restore to life. When first restored to life, a creature is incapacitated until they take a long rst, and all tasks they attempt have disadvantage.",
+            "9. Your Healing Touch feature now heals 2d8 hit points instead of 2d6.",
+            "10. You can now use your Alleviate feature at-will."
+        ]
+    },
+    {
+        "name": "Breaks Down Walls",
+        "description": "breaking through obstructions",
+        "tiers": [
+            "1. You gain +2 to tasks related to damaging objects with the goal of breaking, piercing, or demolishing them.",
+            "2. To damage an object normally, the tool or weapon used to attack the object must be at least as hard as the object itself. However, your hands and body automatically adjust so that, for the purposes of breaking things, they momentarily become at least as hard as the object you are attempting to damage or break. This feature does not apply if you are attempt to break through magical barriers.",
+            "3. Field of Destruction: 1/SR; free action; When you damage or break an object, you gain 1 additional AC for 1 minute.",
+            "4. Break Through: 1/SR; bonus action; You can move up to 30' and attempt to break through a section of wall at some point along the way, with a DC based on the wall's hardness. Your attempt is 1 level of disadvantage for every 6 inches thickness of the wall. You cannot break through magical barriers using this feature. On a failed attempt, you take 1d10 bludgeoning damage. Even if you successfully break through, you still take 1d4 bludgeoning damage. This leaves a hold the size of your body in the barrier, which others can use to pass through it.",
+            "5. You inflict 1d8 additional damage against constructs.",
+            "6. You can break through magical barriers as if they were physical walls, including where it is explicitly stated that you cannot do so.",
+            "7. Jump Attack: 1/LR; free action; You attempt a DC 12 Athletics check to jump high into the air as part of a melee attack. If you succeed at the jump and your attack hits, you inflict 1d8 additional damage and knock the foe prone. If you fail at the jump, you still make your normal attack roll, but you do not inflict the extra damage orknock down the opponent on a hit.",
+            "8. Break the Ranks: 1/week; bonus action; You move up to 30' and attack up to 4 different foes as long as they are all along your path. Any modifiers that apply to one attack apply to all the attacks you make.",
+            "9. Destroyer: 1/week; bonus action; If you succeed on a Strength-based task to damage an object, instead of damaging the object, it is destroyed.",
+            "10. You gain +3 to tasks related to damaging objects with the goal of breaking, piercing, or demolishing them."
+        ]
+    },
+    {
+        "name": "Dances with Dark Matter",
+        "description": "utilising dark matter",
+        "tiers": [
+            "1. Ribbons of Dark Matter: 2/min; bonus action; For the next minute, dark matter condenses within an area within 120' that is no bigger than 5' in diameter, manifesting as swirling ribbons. All tasks attempted by creatures in the area have disadvantage, and leaving the area requires the creature's full movement. You can dismiss the dark matter early as a bonus action.",
+            "2. Void Wings: 1/min; free action; Swirling ribbons of weird matter grasp you and lift you up, allowing you to fly until the end of your turn as quickly as you can move.",
+            "3. Dark Matter Shroud: 1/SR; bonus action; Ribbons of dark matter condense and swirl about you for up to 1 minute. This shroud grants you advantage on Dexterity saving throws, inflicts 1d6 necrotic damage to anyone who tries to touch you or strike you with a melee attack, and gives you +1 AC.",
+            "4. Dark Matter Strike: 1/SR; free action; When you attack a foe within 120', dark matter condenses around your target and entangles its limb, holding it in place and granting your attack double advantage. This feature works for whatever kind of attack you use.",
+            "5. Dark Matter Shell: 1/LR; bonus action; For the next minute, you cover yourself with a shell of dark matter. Your appearance becomes a dark silhouette, and you gain advantage on Stealth checks and +1 to your AC.",
+            "6. Chaoswracked Traveler: 1/SR; bonus action; You condense a wide wing of dark matter than can carry you through the air for a period of up to 1 hour. You gain a flying speed of 120' and are not affected by terrain.",
+            "7. Dark Matter Structure: 1/LR; bonus action; You can form dark matter into a structure consisting of up to 10 10' cubes. The structure can be somewhat complex, though everything has the same vantablack colour. Otherwise, the structure can possess different densities, textures, and capacities. This means it can include windows, doors with locks, furnishings, and even decor, as long as it is all vantablack. For example, you could shape the dark matter into a defensible structure; a sturdy 100' bridge, or anything similar. The structure lasts for 24 hours. You cannot keep more than 1 such structure solid at any one time.",
+            "8. Embrace the Night: 1/month; bonus action; You fashion a truly horrifying facade of a creature from swirling ribbons of dark matter and launch it at your foes within 120'. You can attack each round against a target within 120' using the creation as your weapon. When you attack, the creature inserts hair-fine tendrils of shadow into the target's eyes and brain. The target takes 1d8 true psychic damage and is stunned until the end of its next turn. Alternatively, you can cause the creature to take other actions, as long as you are able to see it and mentally control it as your action. The creature disperses after about a minute. It counts as a minion.",
+            "9. You can now use your Ribbons of Dark Matter feature at-will.",
+            "10. You can now use your Void Wings feature at-will."
+        ]
+    },
+    {
+        "name": "Defends the Gate",
+        "description": "defending and securing a position",
+        "tiers": [
+            "1. Fortified Position: 2/min; bonus action; For the next minute, you gain +1 AC and advantage on Strength saving throws, as long as you have not moved more than 5' since the start of your last turn.",
+            "2. Rally to Me: 2/min; bonus action; You cry out, blow a battle horn, or otherwise signal to everyone within 120' that you require aid. All allied creatures who respond by moving to within 5' of you within the next 3 rounds gain advantage on any 1 attack roll or saving throw within the next hour that you suggest, such as 'hold the gate', 'charge that group of kobolds', or something similar.",
+            "3. When performing a task that would normally require expending a spell slot, you can spend hit points instead, and vice versa, at a rate of 1 spell slot level to 15 hit points.",
+            "4. Whenever you attempt a crafting task - or help in the crafting task - to build a wall or other fortification (regardless of whether it is commonplace or a magical installation designed as a fortification or defence), you have or grant double advantage on the check(s).",
+            "5. During idle moments in the month or more that you have been active in an allied community or horde, you trained a humanoid follower of up to CR 9. This follower does not accompany when you leave the horde or community, but rather remains behind to see that the community or horde remains safe. If you ever use your Rally to Me feature within earshot of your trained defender, they gain advantage on tasks related to defending the community for the remainder of the situation.",
+            "6. You are mightier than others. Gain 2 CON.",
+            "7. Reinforcing Field: 1/week; bonus action; You can reinforce any object or structure by infusing it with a force field for 1 hour. The force field increases the object or structure's DCs related to withstanding damage and destruction by 6.",
+            "8. Generate Force Field: 1/decade; bonus action; You create six planes of solid force (each with AC 24 and 40 hit points), each 30' to a side, which persist for 1 hour. The planes must be contiguous, and they retain the position that you choose when initiating this feature. For instance, you could arrange the planes linearly, creating a wall 180' long, or you could create a closed cube. The planes conform to the space available.",
+            "9. Rout Horde: 1/decade; bonus action; With a display of energy, force, and shaking earth, you can attempt to block a horde of up to 100 creatures for 1 hour (or potentially longer if the horde has second thoughts about pressing its attack). A routed horde retreats several hundred yards and assesses its options.",
+            "10. Your Fortified Position feature now grants +3 to AC instead of +1."
+        ]
+    },
+    {
+        "name": "Breathes Shadow",
+        "description": "becoming surrounded by shadow",
+        "tiers": [
+            "1. Shadow Shroud: At-will; bonus action; At your command, your entire body becomes shrouded in shadow that lasts up to 10 minutes. The shroud grants advantage on Stealth checks and escape attempts.",
+            "2. Hurl Shadow: 2/min; bonus action; While your Shadow Shroud feature is active, you can gather the darkness between your palms until it becomes a solid mass of darkness. You can hurl the darkness at a single target within 30' for 1d10 + level necrotic damage.",
+            "3. While your Shadow Shroud feature is active, you have +1 AC.",
+            "4. Obscurity Cloak: 1/min; bonus action; At your command, you can cover yourself and 2 other living creatures within 5' in shadow, essentially making them invisible until the end of your next turn. Moving beyond 5' from you, attacking, or casting a spell dissipates the shadow.",
+            "5. Shadow Leap: 1/SR; free action; When your Shadow Shroud feature is active, you can make a Stealth check from any point where you are hidden from a target you can see within any range. If you beat the target's Perception, you teleport to any point between your current location and within 5' of the target and can make an attack, dealing 1d10 additional necrotic damage.",
+            "6. Touch Darkness: 1/LR; free action; You extend your Shadow Shroud feature out around your body in a writhing mass of darkness for 1 hour. While the shroud lasts, you gain +4 to AC.",
+            "7. Child of the Night: 1/week; bonus action; You have mastered the play of light and dark, which seem to obey your every command. You create a child out of shadow that is approximately half your size. It is a CR 3 humanoid creature and lasts for 10 minutes. It always stays right on your heels, and its purpose is to protect you and your allies at all cost. It provides +2 to AC to everyone you choose within 30' of it.",
+            "8. Your Shadow Shroud feature now grants double advantage to Stealth checks.",
+            "9. You can now use your Hurl Shadow feature at-will.",
+            "10. The AC bonus you receive while your Shadow Shroud feature is active is increased to +3."
+        ]
+    },
+    {
+        "name": "Delved Too Deeply",
+        "description": "utilising void matter",
+        "tiers": [
+            "1. You gain +1 to AC, +2 to CON, +1 to healing from healing surges, and 10 maximum hit points. In addition, you can see in dim light as though it were bright. You can see in darkness as if it were dim light. However, you must remain covered during the day or in any conditions other than darkness. Even then, during the day you have disadvantage on Dexterity saving throws. If you lose your protection from light, you take 1d4 true radiant damage each round you are exposed. Likewise, if you take radiant damage, you take 1d4 additional radiant damage. Finally, should you ever perish, the void matter infusing you is likely to seep out and infect the nearest host. You get the feeling it would not treat a new host as well as you were treated - it would probably just eat them.",
+            "2. Void Matter Blast: At-will; bonus action; You can unleash a blast of void matter at a target within 30'. It deals 1d8 + level true necrotic damage.",
+            "3. Void Ghost: 1/min; bonus action; The void matter infusing you pulls you slightly out of phase. For the next 10 minutes, you gain +2 to Stealth. During this time, you can move through solid barriers (but not magical barriers) at a rate of 1' per round, and you can perceive while phased within a barrier or object, which allows you to peek through walls.",
+            "4. You can extrude streamers of void matter from your fingertips, increasing your reach to 30'. Your void matter streamers count as a natural melee weapon for you. An attack with them deals 1d12 true necrotic damage, and the target must make a Constitution saving throw. On a failed save, the target is immobilised by a detached streamer that wraps around them in tight circles until they use a bonus action to escape. However, you become even more sensitive to light. If you lose your protection from light, you take 1d8 true radiant damage each round you are exposed. Likewise, if you take radiant damage, you take 1d10 additional radiant damage.",
+            "5. Void Inflation: At-will; bonus action; You can infuse a weapon you hold with void matter. Its hit die size is increased by 2 for the next minute. However, at the end of that minute, the weapon is completely consumed by the void matter, destroying it. The resultant residue unerringly finds you like greenish-black drops of oil rolling downhill, which you reabsorb, allowing you to recover 2 hit points.",
+            "6. When you inflict damage on a creature with your Void Matter Blast feature, it becomes infected with void matter and continues to take 1d8 true necrotic damage at the start of each of its turns until the creature succeeds on a Constitution check it can make at the end of each of its turns to force the infection out. If the infection kills the target, it is immediately consumed by the void matter and is destroyed. The resultant residue unerringly finds you like greenish-black drops of oil rolling downhill, which you reabsorb, allowing you to recover 2 hit points.",
+            "7. You gain +5 maximum hit points.",
+            "8. Your Void Matter Blast feature's damage increases to 1d12 + level.",
+            "9. Your Void Ghost feature's Stealth bonus increases to +4.",
+            "10. Your void matter streamer natural weapons now stun instead of immobilising."
+        ]
+    },
+    {
+        "name": "Fell From Another World",
+        "description": "unearthing an alien ancestry",
+        "tiers": [
+            "1. Could your ancestry be a lie? You unsettle humanoids and other creatures that have not met a person of your heritage before. You can capitalise on that reaction and use it as advantage in most social interactions, whether you are able to persuade someone because they give undue credence to your odness, intimidate someone for the same reason, or deceive someone who cannot read your tells.",
+            "2. You gain prof/+2 in a knowledge or crafting skill of your choice.",
+            "3. You locate a companion that seems similar to you. It is a tiny duplicate of yourself. Your companion is a CR 1 humanoid minion who is completely devoted to you. It cannot make attacks of its own, but can Help your attacks. If the companion dies, you gain a new one after at least 2 weeks and some effort on your part to regrow one.",
+            "4. Alien Intuition: 1/SR; bonus action; You have a few senses that many from this world lack, and sometimes those senses tell you things that others miss. You can ask the DM 1 question and get a general short answer if you succeed on an Intelligence check against a DC assigned by the DM. The more obscure the answer, the more difficult the check.",
+            "5. Alien Telepathy: 1/min; bonus action; Your species' latent ability for telepathy manifests, allowing you to read the surface thoughts of a creature or thinking construct within 30', even if the target does not want you to. You must be able to see your target. Once you have established contact, you can read the target's thoughts for up to 1 minute.",
+            "6. Constant Contact: At-will; bonus action; If you have used your Alien Intuition feature to ask a question about a particular creature or your Alien Telepathy feature to read a creatures surface thoughts, you retain a light trace of contact with that creature. This trace allows you to attempt to learn the direction and general distance that the creature is from you, with an Insight check of DC equal to triple the creature's CR. You retain this trace only for the most recent creature you gained an intuition about or whose surface thoughts you read.",
+            "7. The base CR for your companion increases to 2.",
+            "8. Telekinetic Grasp: 1/SR; bonus action; Your species' latent ability for telekinesis manifests. You can target a creature or object (up to twice your size) within 30'. The target is caught in your telekinetic grip, and you can move it up to 30' in any direction each round that you retain your hold. A creature in your grip can take actions, but it cannot move under its own power. Each round after the initial attack, you must spend 4 hit points to keep your grip on the target; otherwise you drop it.",
+            "9. Homeworld Bridge: 1/year; bonus action; Your species' latent ability for long-distance teleportation manifests. You instantaneously transmit yourself to your homeworld (if it still exists) or back to the campaign's world, returning to the exact spot you left.",
+            "10. Your species' latent ability to defend itself (or feed itself) manifests, allowing you to unfold a previously hidden limb or tentacle with razor-sharp claws, a telescoping second mouth, tendrils that generate lethal amounts of poison or electricity, or something else; work with your DM to determine the exact nature of your change. When you attack with this natural weapon, you can do so once as part of an Attack action or casting a spell. This attack inflicts 1d6 + level true damage of a relevant type."
+        ]
+    },
+    {
+        "name": "Has Three Hands",
+        "description": "gaining control over a constructed hand",
+        "tiers": [
+            "1. A free-floating hand-like construct of textured green-black material accompanies you and follows your instructions. It is twice the size of your own hand. The third hand can move up to 120' from you, lift something about as heavy as you could lift with one hand, manipulate objects with about as much grace as you could, and so on. The hand is a CR 1 construct. It cannot make attacks, but Helps yours. If the third hand is destroyed, a new one forms after 3 days and follows you like the previous one.",
+            "2. You gain +2 to Survival checks related to finding your way using your third hand to feel the way ahead of you.",
+            "3. Deflect Attacks: 2/min; bonus action; Using your third hand, you protect yourself from incoming attacks. The hand intercedes against one attack made against you each round for the next hour, granting you advantage on Dexterity saving throws. During any round in which you use the hand to do something else, you cannot use it for this feature.",
+            "4. Umbilical Finger: 1/min; free action; You can touch a construct with your third hand to provide a connection. If a connection is established (which is an Arcana task), you can speak telepathically with the connected construct. Further, you are trained in all social interactions with intelligent constructs to which you are connected through your third hand. Such constructs that normally would never communicate with a humanoid might talk to you in this fashion.",
+            "5. Stronger Hand: 1/SR; bonus action; Your ancillary hand can move heavy things around as you wish. You can target a creature or object (up to twice your mass) within 30' with the floating hand. If the target is successfully caught in the hand's grip, you can move the target up to 30' in any direction each round that you retain your hold. A creature in your ancillary hand's grip can take actions, but it cannot move under its own power. Each round after the initial attack, you can attempt to keep your grip on the target by spending 4 hit points and succeeding at a DC 6 Intelligence check. If you release the target, they drop back to the ground and your ancillary hand returns to you.",
+            "6. Your third hand increases to a CR 2 construct.",
+            "7. Disharmonic Touch: 1/week; standard action; If you successfully touch a target within 120' with your third hand (which requires an attack roll if the target resists), the hand gains a sense of the target's resonant frequency. If you touch the target again with the third hand on a succeeding round within 1 minute, the hand releases a disharmonic pulse tuned destructively to the target, inflicting 2d10 + 1d8 + level true thunder damage. Alternatively, instead of harming a target you have touched within the last minute, you can restore 12 hit points with a harmonic pulse.",
+            "8. Transcendent Hands: 1/year; bonus action; Your third hand splits into 6 glowing hands that hover around you for 1 minute, bathing you in an otherworldly light. While the effect lasts, you gain advantage on Dexterity saving throws, +2 to AC, 30' flying speed, and a slap attack that inflicts 1d8 + 1d6 + level bludgeoning damage on all creatures you choose within 5'. You can also use other features from this focus without disrupting this effect.",
+            "9. Your third hand can now make attacks itself.",
+            "10. You gain +3 to Survival checks related to finding your way using your third hand to feel the way ahead of you."
+        ]
+    },
+    {
+        "name": "Lives on the Road",
+        "description": "mastering travel",
+        "tiers": [
+            "1. You gain +2 CON.",
+            "2. You are fluent in an additional language of your choice.",
+            "3. You have +2 to Survival checks to find cooking ingredients in places where such things are difficult to find. This does not just mean out in the wilderness. On the streets of an unfriendly city without any currency, you still might be able to find enough ingredients to craft.",
+            "4. You are fluent in an additional language of your choice.",
+            "5. You can go 36 hours without resting before exhaustion begins to take effect.",
+            "6. Because you must always keep an eye out when you are on the road, you gain prof/+2 in Perception and have +2 to Survival checks to navigate.",
+            "7. You are so adept at languages that after hearing any language spoken for a few minutes, you can pick up a few words. It does not take long for you to be able to (crudely) make yourself understood and to understand what is being said around you.",
+            "8. In your travels, you have been exposed to all sorts of dangerous things and are developing a general resistance. You gain +1 to AC and prof/+2 in CON saves.",
+            "9. Living on the road long enough, you learn to do a little of everything. Anytime a circumstance (such as weather, inability to see, terrain, and so on) would increase the difficulty of a task for you, you can ignore the penalty. Further, anytime you finish a long rest, you can choose one skill to be prof/+2 in. This lasts until your next long rest.",
+            "10. You gain +3 CON."
+        ]
+    },
+    {
+        "name": "Siphons Power",
+        "description": "draining power from objects and creatures",
+        "tiers": [
+            "1. Drain Magic: 1/min; bonus action; You can drain the power from magical objects and constructs that you touch. If the target is a construct, you inflict 1d8 + level force damage and recover 6 hit points. If the target is an object, you recover 6 hit points. If the target is not an artifact or relic, it is fully drained and useless. Artifacts and relics have a 10% chance to be drained.",
+            "2. Drain Creature: 1/min; bonus action; You can drain energy from a living creature you touch, inflicting 1d8 + level necrotic damage and recovering 6 hit points.",
+            "3. Your Drain Magic and Drain Creature features work on a target within 30'.",
+            "4. You can drain energy from a living creature by touching it and concentrating for a minute or more. Each minute you spend in contact with and concentrating on the creature deals to it 1d4 + level true necrotic damage and restores 2 hit points to you. Because of the extended contact required for this feature, normally you can use it only on a willing or helpless creature. If the creature takes enough damage to knock it unconscious or kill it, it crumbles into ash, dust, or some other inert material.",
+            "5. When you drain energy with your features from this glyph path, you can store some of it for later in a Siphon Pool. You can spend points from your Siphon Pool as if they were your hit points, or use a bonus action to spend them to restore an equal number of hit points. Your Siphon Pool can safely store up to 6 hit points; each point beyond that adds a level of disadvantage to all your d20 rolls.",
+            "6. When you drain energy, you can transfer it to another creature, restoring hit points to them instead of yourself. You can spend points from your Siphon Pool in the same way. The creature you want to heal must be within 30' of you.",
+            "7. Explosive Release: 1/week; bonus action; You can amplify the energy stored in your Siphon Pool and release it in a massive blast that affects either 1 target within 30' or everything within 5'. If you choose a single target, it takes 1d6 damage for every point in your siphon pool, plus your level, all as force. If you choose an area, everything in the area (except you) takes 1d4 damage for every point in your Siphon Pool, plus your level, all as force (or half that if your attack misses). This drains your Siphon Pool to 0 points.",
+            "8. Your Siphon Pool's safe limit increases by 6 points. If you spend an hour in sunlight (or an hour in contact with suitable powerful energy source), you automatically fill your Siphon Pool to its safe limit. You cannot refill your Siphon Pool this way again until after your next long rest.",
+            "9. You can now use your Drain Magic feature twice per minute.",
+            "10. You can now use your Drain Creature feature at-will."
+        ]
+    },
+    {
+        "name": "Speaks in Exaltation",
+        "description": "gaining and empowering a minion of Aroshi in the form of an extra mouth",
+        "tiers": [
+            "1. A secondary intelligence takes up residence somewhere on your body and serves as a kind of companion. It takes the form of a second mouth with textured green-black lips and a tongue composed of blue energy. You can use a bonus action to position the mouth on your body as you choose, though when you are not paying attention it sometimes moves around on its own. To use the mouth most effectively, it must not be covered. You can treat the ancillary mouth as a CR 1 creature that speaks your language as well as all the languages ever spoken in the Brilliant Board of the Cosmic Game. It sometimes speaks its own mind, but usually follows your lead. It cannot help you in combat, but it can help you with knowledge, persuasion, and intimidation checks by providing advantage on those tasks when you allow the mouth to speak and provide support. When you sleep, the mouth sometimes hums strange tunes, never the same one twice.",
+            "2. The Mouth of Exaltation has whispered glories in your ear, and you were strengthened by it, becoming something more and better than you were before. You gain 2 additional points to distribute into your ability scores as you wish. Each time you gain a level, you can choose to redistribute these 2 points as you wish.",
+            "3. Infused with words of encouragement straight from Aroshi, you gain confidence and skill in speaking. You gain prof/+2 in Persuasion.",
+            "4. Ask the Mouth: 1/SR; bonus action; Your ancillary mouth, as an extension of the Mouth of Exaltation, is always right. You can ask the DM one question and get a very short answer from the mouth.",
+            "5. Scream of Exaltation: 1/SR; bonus action; Your ancillary mouth utters a modulated scream that you can channel a few different ways. First, you can emit a ray of focused sonic energy at a target within 30' that deals 2d8 + level thunder damage. Alternatively, you can blast sound in all direction, deafening all creatures within 30' that fail a Constitution saving throw for 1 minute. Finally, you can elicit a song of encouragement from the ancillary mouth, which bolsters you and your allies each round while the mouth continues to sing (bonus action each round). Allies gain advantage on 1 specific type of task you decide each round, whether that is attacks, saving throws, knowledge checks, and so on.",
+            "6. Tongue Lashing: 1/LR; bonus action; You can use this attack in 1 of 2 ways. The first it to attack a foe within 30' using your ancillary mouth's lashing tongue. This natural weapon has finesse, and if successful, it deals 1d8 + 1d6 + level slashing damage. The second way is to use the lashing tongue against an inanimate object within 5' no larger than half your size. Instantly destroy the object.",
+            "7. Return to Aroshi: 1/year; bonus action; You call upon your devotion to the Mouth of Exaltation. Your ancillary mouth triggers a portal to open before you. If you step through it, you are instantaneously transmitted to the chamber in the Brilliant Board of the Cosmic Game that contains Aroshi. The portal remains open for as many rounds as you specify, up to 1 minute. Your allies can use it as well. You can also use this feature to travel back, returning to the exact spot you left. You can use this ability to travel to other locations in the Cosmic Game, though this requires a religion check of DC 3 and specific knowledge of the alternative destination.",
+            "8. The Mouth of Exaltation on your body can now make any Bite attacks it may have as part of your Attack actions.",
+            "9. You gain 2 additional points to distribute into your ability scores as you wish. Each time you gain a level, you can choose to redistribute these 2 points as you wish.",
+            "10. You gain +3 to Persuasion."
+        ]
+    },
+    {
+        "name": "Snares Deadly Prey",
+        "description": "trapping",
+        "tiers": [
+            "1. You gain +2 to all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            "2. Set a Snare: 2/min; bonus action; You can move up to 30', set a simple trap, and move up to 120' away from it.",
+            "3. Mechanical Hare: 1/SR; bonus action; You craft a simple device, no larger than you, whose sole purpose is to distract 1 foe that you choose. When a foe is distracted, all tasks they attempt have disadvantage for 3 rounds.",
+            "4. Whenever 1 of your traps deals damage to a distracted foe, it inflicts 1d6 additional damage.",
+            "5. Eternal Cage: 1/SR; bonus action; You create a cage with 12 AC and 40 hit points (10' by 10' by 20') that traps, but does not harm, a creature of CR 2 or below.",
+            "6. Improved Set a Snare: 1/SR; bonus action; You can move up to 30', set a complex trap, and move up to 120' away from it.",
+            "7. You gain a further +2 to all tasks involving traps.",
+            "8. You gain a further +2 to all tasks involving traps.",
+            "9. Your Set a Snare feature can now be used at-will.",
+            "10. Your Mechanical Hare feature can now be used twice per minute."
+        ]
+    },
+    {
+        "name": "Snares",
+        "description": "",
+        "tiers": [
+            "1. You gain +2 to all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            ]
+    },
+    {
+        "name": "Snares",
+        "description": "",
+        "tiers": [
+            "1. You gain +2 to all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            ]
+    },
+    {
+        "name": "Snares",
+        "description": "",
+        "tiers": [
+            "1. You gain +2 to all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            ]
+    },
+    {
+        "name": "Snares",
+        "description": "",
+        "tiers": [
+            "1. You gain +2 to all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            ]
+    },
+    {
+        "name": "Snares",
+        "description": "",
+        "tiers": [
+            "1. You gain +2 to all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            ]
     }
 ]

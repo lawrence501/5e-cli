@@ -26,12 +26,12 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "2. +1 dmg with this weapon",
+                "description": "2. +1 wep dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. -1 crit req with this weapon",
+                "description": "3. -1 wep crit req",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -66,7 +66,7 @@
                 "upgrade": "+1/4"
             },
             {
-                "description": "10. +1 crit dice with this wep vs metal-armoured targets",
+                "description": "10. +1 wep crit dice vs metal-armoured targets",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -230,7 +230,7 @@
                 "upgrade": "+5'/2"
             },
             {
-                "description": "+2 dmg with this wep",
+                "description": "+2 wep dmg",
                 "pointValue": "2",
                 "upgrade": "1/1"
             },
@@ -248,22 +248,22 @@
                 "upgrade": "-1 and +5 upgrade points/1 OR +1/4"
             },
             {
-                "description": "2. this wep has double range",
+                "description": "2. weps has double range",
                 "pointValue": "3",
                 "upgrade": "+1x multi/3"
             },
             {
-                "description": "3. this wep's projs can shoot through creatures harmlessly",
+                "description": "3. wep projs can shoot through creatures harmlessly",
                 "pointValue": "3",
                 "upgrade": "+1 proj dmg/1"
             },
             {
-                "description": "4. +1 AB with this wep",
+                "description": "4. +1 wep AB",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
             {
-                "description": "5. +2 dmg with this wep while bloodied",
+                "description": "5. +2 wep dmg bloodied",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -771,12 +771,12 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. this wep has -5 base dmg die size; this wep has no prof requirement",
+                "description": "3. weps have -5 base dmg die size; weps have no prof requirement",
                 "pointValue": "1",
-                "upgrade": "-1 base dmg die size and 2pt distributed/1 ALT +1 dmg with this wep"
+                "upgrade": "-1 base dmg die size and 2pt distributed/1 ALT +1 wep dmg"
             },
             {
-                "description": "4. +4 dmg with this wep vs incorporeal targets",
+                "description": "4. +4 wep dmg vs incorporeal targets",
                 "pointValue": "1",
                 "upgrade": "+4/1"
             },
@@ -791,7 +791,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "7. +2 dmg with this wep vs targets behind you in init",
+                "description": "7. +2 wep dmg vs targets behind you in init",
                 "pointValue": "1",
                 "upgrade": "1/1"
             },
@@ -901,7 +901,7 @@
                 "upgrade": "+8/1"
             },
             {
-                "description": "+1d4 rad dmg to this wep",
+                "description": "+1d4 rad dmg to weps",
                 "pointValue": "3",
                 "upgrade": "+1/1"
             }
@@ -909,12 +909,12 @@
         ],
         "thematicMods": [
             {
-                "description": "1. this wep gains the Thrown trait",
+                "description": "1. weps gains the Thrown trait",
                 "pointValue": "3",
                 "upgrade": "1 throwing dmg/1"
             },
             {
-                "description": "2. +1 dmg with this wep",
+                "description": "2. +1 wep dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -929,7 +929,7 @@
                 "upgrade": "+1 cold dmg/1"
             },
             {
-                "description": "5. this wep gains the Grapple trait",
+                "description": "5. weps gain the Grapple trait",
                 "pointValue": "3",
                 "upgrade": "+1 aths for grappling/1"
             },
@@ -941,17 +941,17 @@
             {
                 "description": "7. 1/LR, can cast Daylight",
                 "pointValue": "3",
-                "upgrade": "+1 dmg with this wep in bright light/1"
+                "upgrade": "+1 wep dmg in bright light/1"
             },
             {
-                "description": "8. this wep sheds 15' sunlight",
+                "description": "8. this item sheds 15' sunlight",
                 "pointValue": "1",
                 "upgrade": "+10'/1"
             },
             {
                 "description": "9. 1/LR, on taking melee hit, can react to atk triggering creature with this wep",
                 "pointValue": "2",
-                "upgrade": "+1 dmg with this wep/1"
+                "upgrade": "+1 wep dmg/1"
             },
             {
                 "description": "10. 3/LR, on taking melee hit, can react to make triggering creature make CON save or blind until start of its next turn",
@@ -1044,7 +1044,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "on hit with this wep, 20% chance to blind until end of target's next turn",
+                "description": "on wep hit, 20% chance to blind until end of target's next turn",
                 "pointValue": "3",
                 "upgrade": "+10%/1"
             },
@@ -1072,7 +1072,7 @@
                 "upgrade": "-5' and +3 pts distributed/1"
             },
             {
-                "description": "4. +3 dmg with this wep vs targets you have healed before",
+                "description": "4. +3 wep dmg vs targets you have healed before",
                 "pointValue": "1",
                 "upgrade": "+2/1"
             },
@@ -1082,7 +1082,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. +1 dmg with this wep",
+                "description": "6. +1 wep dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -1097,7 +1097,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "9. +1 AB with this wep vs targets you have healed before",
+                "description": "9. +1 wep AB vs targets you have healed before",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
