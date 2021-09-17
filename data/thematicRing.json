@@ -1803,5 +1803,35 @@
         "name": "precision",
         "mods": ["+1 {abilityScore}", "+1 {hitForm} AB", "+5' sp", "+1 global dmg"],
         "tags": ["ability score", "ab", "speed", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "deep wisdom",
+        "mods": ["+1 {abilityScore}", "+1 incoming temp HP"],
+        "tags": ["ability score", "temp hp"]
+    },
+    {
+        "name": "arcanist's dominion",
+        "mods": ["+1 {abilityScore}", "+1 spell dmg"],
+        "tags": ["ability score", "spell dmg"]
+    },
+    {
+        "name": "thief's craft",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "holy dominion",
+        "mods": ["+1 {dmgPolarity} dmg", "+1 {dmgPolarity} res", "+1 to condi DCs", "+1 {physType} dmg"],
+        "tags": ["dmg polarity", "phys dmg"]
+    },
+    {
+        "name": "galvanic hammer",
+        "mods": ["+1 {dmgPolarity} dmg with {weaponClass} weps", "+1 {weaponClass} AB", "weps ignore {dmgPolarity} res"],
+        "tags": ["dmg polarity", "weapon class", "ab"]
+    },
+    {
+        "name": "coordination",
+        "mods": ["+1 global dmg", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["wep dmg", "spell dmg", "ability score"]
     }
 ]
