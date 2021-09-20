@@ -1833,5 +1833,45 @@
         "name": "coordination",
         "mods": ["+1 global dmg", "+1 {abilityScore1}", "+1 {abilityScore2}"],
         "tags": ["wep dmg", "spell dmg", "ability score"]
+    },
+    {
+        "name": "finesse",
+        "mods": ["+1 {abilityScore}", "+1 wep dmg", "+1 {hitForm} AB"],
+        "tags": ["ability score", "wep dmg", "ab"]
+    },
+    {
+        "name": "aspect of the panther",
+        "mods": ["+1 wep dmg while dual-wielding", "+1 wep AC while dual-wielding", "+1 to {abilityScore} saves"],
+        "tags": ["dual-wielding", "wep ac", "save"]
+    },
+    {
+        "name": "might",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "dervish",
+        "mods": ["+1 wep AC while dual-wielding", "+1 wep dmg while dual-wielding"],
+        "tags": ["wep ac", "dual-wielding"]
+    },
+    {
+        "name": "berserking",
+        "mods": ["+3 wep dmg"],
+        "tags": ["wep dmg"]
+    },
+    {
+        "name": "twin terrors",
+        "mods": ["-1 wep crit req while dual-wielding", "+1 wep AB while dual-wielding"],
+        "tags": ["crit", "dual-wielding", "ab"]
+    },
+    {
+        "name": "doom cast",
+        "mods": ["-1 spell crit req", "+1 spell crit dice"],
+        "tags": ["crit", "spell dmg"]
+    },
+    {
+        "name": "trickery",
+        "mods": ["-1 crit req", "+1 global dmg", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["crit req", "wep dmg", "spell dmg", "ability score"]
     }
 ]
