@@ -2158,5 +2158,85 @@
             "9. Powerful Shot: 2/min; free action; You inflict 1d8 additional damage with a hit from a bow attack.",
             "10. You can now self-inflict 1 hit point for 1d12 additional damage, instead of 2 for 1d8."
         ]
+    },
+    {
+        "name": "Channels Divine Blessings",
+        "description": "drawing power from a chosen Xiloan",
+        "tiers": [
+            "1. As a servant of the Xiloans, you can call up blessings in their name. Choose a Xiloan: The Cloud, Aroshi, P'all, Mensis, or Gawdian. You can cast [Catapult 2/min, Healing Spirit 1/min, Guidance at-will, Friends at-will, Warding Bond 1/min].",
+            "2. You gain +1 WIS.",
+            "3. Divine Radiance: 2/min; bonus action; Your prayer calls divine radiance from the stars to punish an unworthy target within 120', inflicting 1d10 + level radiant damage. If the target is a fiend or undead, it also stands in unwilling awe of the divine energy coursing through it and is unable to act on its next turn. Once exposed to this blessing, the target cannot be awed by this attack again for 2 hours.",
+            "4. Fire Bloom: 1/SR; bonus action; Fire blooms within 120', filling an area 10' in radius and inflicting 1d8 + level fire damage on all affected targets. Even on an unsuccessful attack, a target in the area still takes half damage. Flammable objects in the area may catch fire.",
+            "5. Overawe: 1/LR; bonus action; A blast of divine radiance from the stars spotlights a target you select within 120', pushing the target to its knees (or similar appendages, if any) and rendering it helpless in the light for up to 10 minutes, or until it breaks free. The overawed target cannot pass saving throws, make attacks, or attempt anything other than to shake free of the divine awe each round. If the target is a fiend or undead, it also takes 1d4 true radiant damage at the start of each of its turns it remains affected.",
+            "6. Divine Intervention: 2/min; bonus action; You ask your Xiloan to intervene on your behalf, usually against a creature within 120', changing the course of its life in a small way of your choice. The power level of this should be similar to scoring a critical hit against the target.",
+            "7. Divine Symbol: 1/LR; bonus action; You invoke divine power by scribing a glowing symbol in the air with your fingers. Writhing pillars of divine radiance spear up to 5 targets within 120'. A successful attack on a target inflicts 1d12 + level radiant damage.",
+            "8. Summon Demon: 1/month; bonus action; A demon of your choice appears within 5'. It acts according to its nature. The demon persists for up to 1 minute before it fades away.",
+            "9. You can choose a second Xiloan to serve and acquire the signature spell of.",
+            "10. You gain +3 WIS."
+        ]
+    },
+    {
+        "name": "Channels Sinfire",
+        "description": "utilising sinfire",
+        "tiers": [
+            "1. Sinfire Touch: At-will; bonus action; Your hands burst into flame. If you touch a creature, you can choose to either inflict 1d8 + level fire damage or 1d4 + level true psychic damage. Alternatively, you can use this power on a weapon. If you imbue a weapon with sinfire, that weapon inflicts 1d4 additional fire damage for 10 minutes.",
+            "2. Discern the Sins: 2/min; bonus action; You can sense a significant baleful act that a creature within 30' has committed during its life - if it has committed any. To do so, you must be able to see your target and concentrate on it for the duration. If the target has committed something the DM decides is a sin, you sense the possibility, though not the specific sin or sins. For the next minute, you can use your Sinfire Touch feature on that target at a range of 120', even if you cannot see the target (though you do have to know the target is in range). If an attack you make deals damage, you also learn the nature of 1 of the sins committed by the target.",
+            "3. Sinfire Blast: 1/min; bonus action; You unleash a conflagration of sinfire, burning up to 3 targets within 30'. This burst inflicts either (your choice) 1d12 + level fire damage or 1d8 + level true psychic damage.",
+            "4. You have double advantage on saving throws against effects that would compel you to act in a way you would prefer not to.",
+            "5. Certain Punishment: 1/min; free action; When making an attack with any power from this glyph path, you can reroll any attack roll you wish and take the better of the 2 results.",
+            "6. When making an attack with a power from this glyph path that deals fire damage, you deal 1d6 additional fire damage. When making a similar attack that deals true psychic damage, you deal 1d4 additional true psychic damage. When you imbue a weapon with your Sinfire Touch feature, it gains the same bonus to damage.",
+            "7. Your Sinfire Touch feature now has a range of 30'.",
+            "8. Your Discern the Sins feature now lasts 1 hour.",
+            "9. You can now use your Sinfire Blast feature twice per minute.",
+            "10. You automatically succeed on saving throws against effects that would compel you to act in a way you would prefer not to. Additionally, whenever you targeted with such an effect, the source takes 1d4 psychic damage."
+        ]
+    },
+    {
+        "name": "Conducts Weird Science",
+        "description": "science and experimentation",
+        "tiers": [
+            "1. Lab Analysis: 1/min; bonus action; You analyse the scene of a crime, the site of a mysterious incident, or a series of unexplained phenomena, and you maybe learn a surprising amount of information about the perpetrators, the participants, or the force(s) responsible. To do so, you must collect samples from the scene. Samples are paint or wood scrapings, dirt, images of the area, hair, an entire corpse, and so on. With samples in hand, you can discover up to 3 pertinent pieces of information about the scene, possibly clearing up a lesser mystery, and pointing the way to solving a greater one. The DM will decide what you learn and what the DC for learning it might be. For comparison, discovering that a victim was killed not by a fall, as seems immediately obvious, but rather by electrocution has a DC 9. You have advantage on the task if you take the time to transport the samples to a permanent lab , as opposed to conducting the analysis in the field.",
+            "2. You gain prof/+2 in Arcana.",
+            "3. Modify Object: 1/SR; bonus action; You jury-rig a magical object to make it function above its standard power for a very limited time. To do so, you must use 1d6 x 100gp and succeed at a DC 9 Arcana check. When complete, all associated tasks with that object have advantage, until the object inevitably breaks. Each time such a task is made, the object has a 25% chance to be depleted of its magical properties.",
+            "4. Better Living Through Chemistry: 1/SR; bonus action; You have developed drug cocktails specifically designed to work with your own biochemistry. Depending on which one you inject, it makes you smarter, faster, or tougher, but when it wears off, the crash is a doozy. You gain +4 to CON, DEX, or INT for 1 minute, after which you cannot gain the benefit again for 1 hour. During this hour, every time you lose hit points, lose an additional 2.",
+            "5. You gain prof/+2 in any knowledge skill of your choice.",
+            "6. You gain prof/+2 in Intelligence saving throws.",
+            "7. Weird Science Breakthrough: 1/LR; bonus action; Your research leads to a breakthrough, and you capture a fragment of the universe within an object, imbuing it with a truly amazing property, though you can use the object only once. To do so, you must spend 1d6 x 100gp and succeed at a DC 12 Arcana check to create a random tier 1 potion. You can give yourself double disadvantage on the check to attempt to create a specific potion.",
+            "8. Incredible Feat of Science: once; full day; You do something amazing in a lab. This takes 1d6 x 10,000gp. Possible incredible feats include: creating an engine that runs on perpetual motion; creating an inapposite gate that remains open for 1 minute; transmuting 1 substance into another; curing 1 person with an incurable disease or condition; creating a weapon designed to hurt something that cannot otherwise be hurt; creating a defence designed to protect against something that cannot otherwise be stopped.",
+            "9. When you successfully use your Weird Science Breakthrough feature, you can create a potion of up to tier 3.",
+            "10. You can discover all details of a scene with your Lab Analysis feature."
+        ]
+    },
+    {
+        "name": "Consorts with the Dead",
+        "description": "communicating with the dead",
+        "tiers": [
+            "1. Speaker for the Dead: 2/min; bonus action; You can ask a question of a dead being whose corpse you are touching. Because the answer comes through the filter of the being's understanding and personality, it cannot answer questions that it would not have understood in life, and it cannot provide answers that it would not have known in life. In fact, the being is not compelled to answer at all, so you may need to interact with it in a way that would have convinced it to answer while it was alive.",
+            "2. Necromancy: 1/min; bonus action; You animate the body of a dead creature of your size or smaller up to CR 1/2. It has none of the intelligence, memories, or special abilities that it had in life. The creature follows your verbal commands for 1 hour, after which it becomes an inert corpse. Unless the creature is killed by damage, you can reanimate it again when its time expires, but any damage it had when it became inert applies to its newly animated state.",
+            "3. Reading the Room: 1/min; bonus action; You gain knowledge about an area by speaking with dead spirits or reading residual energies from the past. You can ask the DM a single, matter-of-fact question about the location and get an answer if you succeed on a History check. 'What killed the cattle in this barn?' is a good example of a simple question. 'Why were these cattle killed?' is not an appropriate question because it has more to do with the mindset of the killer than the barn. Simple questions usually have a DC of 6, but extremely technical questions or those that involve facts meant to be kept secret can have a much higher DC.",
+            "4. Repair Flesh: 1/min; bonus action; When you touch a creature with less than 50% of their maximum hit points, you can give them a free healing surge. Alternatively, if you use this feature on a creature during a short rest, you grant them a +4 bonus to each of their hit die rolls.",
+            "5. Greater Necromancy: 1/LR; bonus action; This power works like your Necromancy feature, except that it can reanimate creatures up to CR 2.",
+            "6. Terrifying Gaze: 1/week; bonus action; You project a chilling gaze at all living creatures within 30' who can see you. Success means that the creature is frozen in fear, not moving or taking actions for 1 minute or until it takes damage. Some creatures without minds (such as constructs) might be immune to this power.",
+            "7. True Necromancy: 1/year; bonus action; This power works like your Necromancy feature, except that it can reanimate creatures up to CR 3.",
+            "8. Word of Death: 1/LR; bonus action; Your attack is the utterance of a magic word so terrible that it snuffs the life from a living target within 30'. The target must be CR 1/2 or lower.",
+            "9. You can now use your Speaker for the Dead feature at-will.",
+            "10. Your Necromancy feature can now reanimate creatures of up to CR 2, Greater Necromancy up to CR 4, and True Necromancy up to CR 5."
+        ]
+    },
+    {
+        "name": "Crafts Unique Objects",
+        "description": "crafting items",
+        "tiers": [
+            "1. You gain prof in 2 crafts of your choice.",
+            "2. You have +2 to Arcana checks for identifying magical objects.",
+            "3. If you spend at least 24 hours tinkering with an artifact or relic in your possession, it gains a free level. This can only occur once per item. They retain this bonus only for you.",
+            "4. Quick Work: 1/min; bonus action; 1 use of any wondrous item is empowered by 1 step if you use it within the next minute.",
+            "5. You gain prof/+2 in 2 crafts of your choice.",
+            "6. Built-in Weaponry: At-will; bonus action; Biomechanical implants now provide you with inherent weaponry. This allows you to fire a blast of energy up to 120' that inflicts 1d12 + level force damage.",
+            "7. All potions you use function at 1 tier higher than normal. If given a week and a alchemy lab environment, you can tinker with one of your potions, transforming it into another potion of the same tier that you had in the past.",
+            "8. You can modify any artifact or relic to reduce its level, but not its stats, by 1.",
+            "9. You can craft the mundane bases of items for free, but doing so renders them unmarketable.",
+            "10. You have biometal implants in major portions of your body. These changes give you +1 AC."
+        ]
     }
 ]
