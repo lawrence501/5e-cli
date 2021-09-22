@@ -2238,5 +2238,85 @@
             "9. You can craft the mundane bases of items for free, but doing so renders them unmarketable.",
             "10. You have biometal implants in major portions of your body. These changes give you +1 AC."
         ]
+    },
+    {
+        "name": "Does Not Do Much",
+        "description": "embracing genericism",
+        "tiers": [
+            "1. Gain prof in any 2 skills.",
+            "2. +1 maximum healing surge.",
+            "3. Gain prof in any weapon type.",
+            "4. Improvise: 1/min; bonus action; When you perform a task with which you do not have proficiency, you can gain advantage on the task.",
+            "5. Gain prof in any 2 skills.",
+            "6. Gain prof/+2 in any saving throw.",
+            "7. You gain +3 WIS.",
+            "8. Drawing on Life's Experiences: 1/week; bonus action; You have seen a lot and done a lot, and that experience comes in handy. Ask the DM 1 question, and you will receive a general answer. The DM assigns a DC to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location is DC 3, and obscure knowledge of the past is DC 21.",
+            "9. When performing a task based on Wisdom, you can base it on Dexterity instead.",
+            "10. Gain prof/+2 in any 3 skills."
+        ]
+    },
+    {
+        "name": "Embraces Ancient Ancestry",
+        "description": "unlocking the powers of Brozian gods",
+        "tiers": [
+            "1. Choose a god from Brozias' pantheon. This god indicates what your ancestors served and what now manifests in you as a related semi-divine ability. You gain the first 2 tiers of that god's prayer path.",
+            "2. You gain prof/+2 in Religion.",
+            "3. Mythlight Lance: 2/min; bonus action; You can fashion a lance of divine radiance from your mythlight and hurl it at a target. This is a ranged attack of range 30' that deals 1d10 + level radiant damage.",
+            "4. Sentinel: 1/min; bonus action; A target you select within 5' is marked with a rune of celestial protection for 1 minute. You can mark only 1 such target at a time. If the target would be targeted specifically by any attack or effect, make a Religion check against the effect's DC or attack roll. If successful, the source must choose a different target.",
+            "5. Arbiter: 1/min; bonus action; A target you select within 30' is marked with a rune of celestial abandonement for 1 minute. You can mark only 1 such target at a time. During that time, all attacks upon it have advantage.",
+            "6. Glory of the Divine: 1/min; bonus action; Your mythlight pulses with divine radiance, which ignores flesh and directly assails the immortal spirits of up to 3 targets within 30'. This burst inflicts 1d8 + level true radiant damage.",
+            "7. Apportation: 1/SR; bonus action; You call a physical object in Brozias to you. You can choose any mundane piece of equipment, or (no more than once per long rest) you can allow the DM to determine the object randomly. If you call a random object, it has a 15% chance of being a Brozias loot roll, a 45% chance of being a mundane item, and a 40% chance of being worthless junk. You cannot use this power to take an item held by another creature.",
+            "8. Flight: 1/SR; bonus action; You can fly through the air for 1 hour, during which time your mythlight blazes. You gain a flying speed of 120'.",
+            "9. You gain the 3rd tier of your god's prayer path.",
+            "10. You gain +3 to Religion."
+        ]
+    },
+    {
+        "name": "Exists in Two Places at Once",
+        "description": "duplicating yourself",
+        "tiers": [
+            "1. Duplicate: 2/min; bonus action; You cause a duplicate of yourself to appear at any point you can see within 30'. The duplicate has no clothing or possessions when it appears. The duplicate is a CR 1 humanoid. The duplicate obeys your commands and does as you direct it. The duplicate remains until you dismiss it using a bonus action or until it is killed. When the duplicate disappears, it leaves behind anything it was wearing or carying. If the duplicate disappears because it was killed, you take 1d10 true damage, and you lose your bonus action next turn.",
+            "2. While your duplicate is in existence and within 1 mile, you know everything it experiences and can communicate with it telepathically.",
+            "3. Superior Duplicate: 2/min; free action; When you use your Duplicate feature, you can create a superior duplicate instead of a normal duplicate. A superior duplicate is a CR 2 humanoid.",
+            "4. Increase the maximum hit points of any duplicate you create by 10.",
+            "5. When you or your duplicate would take damage, you can transfer up to 2 points of damage from one to the other provided that you and the duplicate are within 1 mile of each other.",
+            "6. Coordinated Effort: 1/min; bonus action; When you and your duplicate would attack the same creature, you can choose to make 1 attack roll with advantage. If you hit, you inflict damage with both attacks as if they were 1 attack for the purpose of the target's damage resistance.",
+            "7. Multiplicity: 1/week; bonus action; This feature functions as your Duplicate feature, except you can create 2 duplicates.",
+            "8. Increase the maximum hit points of any duplicate you create by 10.",
+            "9. You can now use your Duplicate feature at-will.",
+            "10. You now know everything your duplicate experiences and can communicate with it telepathically, regardless of where you are."
+        ]
+    },
+    {
+        "name": "Fights Dirty",
+        "description": "fighting dirty",
+        "tiers": [
+            "1. +2 to Survival checks to track. You deal 1d4 additional base damage globally.",
+            "2. +5' to movement speed, swimming speed, and jumping distance. Also you have advantage on Acrobatics checks to balance.",
+            "3. You gain prof/+2 in Stealth and have +2 to initiative.",
+            "4. Quarry: 2/min; bonus action; Choose a single creature you can see. You gain +2 to all tasks involving following, understanding, interacting with, or fighting that creature. You can have only 1 quarry at a time.",
+            "5. Any time you convince a foe that you are not a threat and then attack it without provocation, the attack deals +1d10 base damage.",
+            "6. If attacking from hidden, during a surprise round, or before your target has acted in a combat, you get +2 to the attack roll. On a successful hit, you inflict 1d6 additional base damage.",
+            "7. Mind Games: 1/min; bonus action; You use lies and trickery, mockery, and perhaps even hateful, obscene language against a foe that can understand you. If successful, the foe is stunned until the end of your next turn, and it has disadvantage on all tasks for a further round.",
+            "8. Murderer: 1/year; bonus action; With a swift and sudden attack, you strike a foe in a vital spot. If the target is CR 2 or lower, it is killed outright.",
+            "9. Using the Environment: 1/SR; bonus action; You find some way to use the environment to your advantage in a fight. For the next 10 minutes, attack rolls and Dexterity saves have advantage.",
+            "10. Twisting the Knife: 1/SR; bonus action; If you successfully struck a foe with a melee weapon since the start of your last turn, you can opt to automatically deal damage to the foe with that same weapon without any modifications (ie. just the base weapon damage)"
+        ]
+    },
+    {
+        "name": "Finds the Flaw in All Things",
+        "description": "recognising imperfection",
+        "tiers": [
+            "1. Perfect Submission: At-will; bonus action; You know exactly where to grab, prod, or apply pressure to a creature to keep its undivided attention. For as long as you take no physical actions or movements except to hold the submission, the other creature can take no physical actions, even over multiple rounds. If the creature is hit, the effect ends. You can affect creatures up to 1 size step larger than you.",
+            "2. If you attack an opponent who you have observed in combat (against another creature or against yourself) for at least 1 round, your next attack against them has advantage. On a successful hit with this enhanced attack, you inflict 1d6 additional base damage.",
+            "3. You have double advantage on Insight checks.",
+            "4. Flaw of Worldly Works: 1/LR; free action; You see where objects are most likely to break. You can then 'overcome' the object with a light touch, for any task that would normally depend on brute force. Examples include opening a barred door or locked container with a touch instead of smashing it, shifting a heavy object without lifting it, opening a hole in a solid barrier, and so on.",
+            "5. Flaw of Mortal Flesh: 1/week; bonus action; You recognise where flesh fails. With a swift and sudden attack, you strike a foe in a vital spot. If the target is CR 2 or lower, it is killed outright.",
+            "6. Flaw in Everything: 1/min; free action; You see flaws in everyone and everything, so much that you usually veil your flaw-finding eyes. However, sometimes you raise that veil, if for just a moment. Usually, you see the flaw in others, but sometimes you see the flaw in yourself. When you do, roll a d6. On any even result, the task you are attempting gains double advantage. On a roll of 1, the task gains disadvantage.",
+            "7. Your Perfect Submission feature can now affect creatures of up to 2 size steps larger than you.",
+            "8. The bonus damage on your advantage attacks from observing creatures in combat increases to 1d10.",
+            "9. +2 to Insight.",
+            "10. You can now use your Flaw of Worldly Works feature once per minute."
+        ]
     }
 ]
