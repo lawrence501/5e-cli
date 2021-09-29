@@ -434,7 +434,7 @@
             },
             {
                 "Name": "Shuriken",
-                "Description": "[martial dart] 1d6 P; ranged (-/-); light; thrown (20'/30')",
+                "Description": "[martial dart] 1d8 P; ranged (-/-); light; thrown (30'/60')",
                 "Tags": ["weapon"]
             },
             {
