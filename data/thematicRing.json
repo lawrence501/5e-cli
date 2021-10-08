@@ -1873,5 +1873,45 @@
         "name": "trickery",
         "mods": ["-1 crit req", "+1 global dmg", "+1 {abilityScore1}", "+1 {abilityScore2}"],
         "tags": ["crit req", "wep dmg", "spell dmg", "ability score"]
+    },
+    {
+        "name": "sleight of hand",
+        "mods": ["+3 {weaponHands} wep dmg"],
+        "tags": ["weapon hands"]
+    },
+    {
+        "name": "splitting strikes",
+        "mods": ["+1 {weaponClass} dmg", "ignore {physType} res with {weaponClass} weps", "+5' {weaponClass} reach"],
+        "tags": ["weapon class", "phys dmg"]
+    },
+    {
+        "name": "golem's blood",
+        "mods": ["+2 max HP", "+1 passive regen"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "reflexes",
+        "mods": ["+1 {hitForm} AB", "+1 to {abilityScore} saves"],
+        "tags": ["ab", "save"]
+    },
+    {
+        "name": "swagger",
+        "mods": ["+1 wep AC while dual-wielding", "+1 wep dmg while dual-wielding", "on block, 20% chance to gain +1 dmg res for combat", "on block, 20% chance to gain +1 global dmg for combat"],
+        "tags": ["wep ac", "dual-wielding", "spell ac", "phys res", "non-phys res", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "heart of flame",
+        "mods": ["+1 {nonPhysType} dmg", "ignore {nonPhysType} res", "on {nonPhysType} hit, gain 1 temp HP"],
+        "tags": ["non-phys dmg", "temp hp"]
+    },
+    {
+        "name": "revenge of the hunted",
+        "mods": ["+1 global dmg", "+1 to {abilityScore} saves", "+1 max HP"],
+        "tags": ["wep dmg", "spell dmg", "save", "hp"]
+    },
+    {
+        "name": "blast radius",
+        "mods": ["+5' AoE sizes", "+1 AoE dmg"],
+        "tags": ["aoe"]
     }
 ]
