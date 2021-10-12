@@ -1872,7 +1872,7 @@
     {
         "name": "trickery",
         "mods": ["-1 crit req", "+1 global dmg", "+1 {abilityScore1}", "+1 {abilityScore2}"],
-        "tags": ["crit req", "wep dmg", "spell dmg", "ability score"]
+        "tags": ["crit", "wep dmg", "spell dmg", "ability score"]
     },
     {
         "name": "sleight of hand",
@@ -1913,5 +1913,40 @@
         "name": "blast radius",
         "mods": ["+5' AoE sizes", "+1 AoE dmg"],
         "tags": ["aoe"]
+    },
+    {
+        "name": "lord of the dead",
+        "mods": ["+3 minion HP", "+4 minion dmg"],
+        "tags": ["minion hp", "minion dmg"]
+    },
+    {
+        "name": "gravepact",
+        "mods": ["+1 minion dmg", "+1 minion wep dmg", "+1 minion global AB", "20% chance on minion hit to deal double dmg"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "fury bolts",
+        "mods": ["+1 {hitForm} AB", "+1 proj AB", "+1 proj dmg", "+1 {abilityScore}"],
+        "tags": ["ab", "proj", "ability score"]
+    },
+    {
+        "name": "versatility",
+        "mods": ["+1 wep dmg", "+1 {hitForm} AB", "-1 crit req", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["wep dmg", "ab", "crit", "ability score"]
+    },
+    {
+        "name": "sacrifice",
+        "mods": ["+1 minion HP", "+1 passive regen", "+1 minion passive regen", "+1 minion {dmgPolarity} res"],
+        "tags": ["minion hp", "hp"]
+    },
+    {
+        "name": "thick skin",
+        "mods": ["+1 max HP", "+1 to condi saves"],
+        "tags": ["hp", "save"]
+    },
+    {
+        "name": "written in blood",
+        "mods": ["+1 incoming temp HP", "+1 max HP", "+1 {abilityScore}"],
+        "tags": ["temp hp", "hp", "ability score"]
     }
 ]
