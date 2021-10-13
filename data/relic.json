@@ -51,7 +51,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "7. whenever a non-instantaneous effect on a creature from your spells ends, you can have the creature take 2 P",
+                "description": "7. whenever a non-instantaneous effect on a creature from your spells ends, you can have the creature take 2 spell P dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -243,9 +243,9 @@
         ],
         "thematicMods": [
             {
-                "description": "1. -1 $abilityScore; +2 $abilityScore",
-                "pointValue": "4",
-                "upgrade": "-1 and +5 upgrade points/1 OR +1/4"
+                "description": "1. -1 $abilityScore; +5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and +5pts distributed/1"
             },
             {
                 "description": "2. weps has double range",
@@ -1399,6 +1399,80 @@
             },
             {
                 "description": "10. +1 S DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Nightblade",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "when allied minion leaves play, all foes within 60' take 3 wep S dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "when allied minion leaves play, heal 8 HP",
+                "pointValue": "2",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "+1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 incoming healing",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +1 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +3 max HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +1 dmg abs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 cold dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. when allied minion leaves play, +4 wep dmg until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "7. +3 dmg thorns",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "8. when allied minion leaves play, +2 wep dmg for combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 nec dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. your speed is always 45'",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
