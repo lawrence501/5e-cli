@@ -269,8 +269,8 @@
         {
             "name": "3. Arndell Globerd",
             "set": "Legendary Champions",
-            "primary": "on non-dmg action, gain 8 self-stacking temp HP which self-stacks",
-            "secondary": "on non-dmg action, gain 4 self-stacking temp HP",
+            "primary": "on non-dmging spellcast, gain 8 self-stacking temp HP",
+            "secondary": "on non-dmging spellcast, gain 4 self-stacking temp HP",
             "foil": "+1 incoming temp HP"
         },
         {
