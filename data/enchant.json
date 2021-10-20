@@ -804,7 +804,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+2 wep dmg if you [have or haven't] taken dmg since your last turn",
+        "description": "+1 wep dmg if you [have or haven't] taken dmg since your last turn",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["weapon"]

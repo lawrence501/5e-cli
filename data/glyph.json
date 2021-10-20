@@ -2318,5 +2318,85 @@
             "9. +2 to Insight.",
             "10. You can now use your Flaw of Worldly Works feature once per minute."
         ]
+    },
+    {
+        "name": "Grows to Towering Heights",
+        "description": "growing larger",
+        "tiers": [
+            "1. Enlarge: 1/LR; bonus action; You trigger an enzymatic reaction that draws additional mass from another dimension, and you (and your equipment) grow larger. You achieve a height of 9' (Large) and stay that way for 1 minute. During that time, you add 6 to your Strength, and +1 to AC. While you are larger than normal, your Dexterity saves have disadvantage, and your fists have a base damage of 1d8. When the effects of this power end, your stats return to normal.",
+            "2. While you enjoy the effects of your Enlarge feature, all Intimidation checks you attempt have advantage.",
+            "3. When you use your Enlarge feature, you can choose to grow up to 12' in height (Large), and you add 1 more Strength.",
+            "4. When you use your Enlarge feature, you are so big that you can move massive objects more easily, climb buildings by using hand and footholds unavailable to regular-sized humanoids, and jump much farther. While you enjoy the effects of your Enlarge feature, you have advantage on all checks to climb and lift, and you have +5' of jumping distance.",
+            "5. When you use your Enlarge feature, you can choose to grow up to 16' in height (Huge). When you do, you add a further +1 AC and deal 1d6 additional base damage with melee attacks.",
+            "6. Throw: 2/min; free action; When you are using your Enlarge feature and deal damage to a creature of your size or smaller with an unarmed attack, you can choose to throw that creature up to 1d20 feet away from you. The creature lands prone.",
+            "7. While you are using your Enlarge feature, you can attack by attempting to wrap your massive hands around a medium or smaller target. While you maintain your hold as a bonus action each turn, you keep the target from moving or taking physical actions (other than attempts to escape). The target's escape attempts have double disadvantage due to your size. If you wish, you can automatically inflict 1d8 bludgeoning damage each round on the target while you hold it, but you can also keep it protected (by taking all attacks otherwise meant for the target).",
+            "8. When you use your Enlarge feature, you can choose to grow up to 30' in height (Gargantuan), and you add 1 more Strength.",
+            "9. When you use your Enlarge feature, you can choose to grow up to 60' in height (Gargantuan). When you do, you add 2 more Strength, and you deal an additional 1d6 base damage with melee attacks.",
+            "10. Choose one of your existing forms of damage (this might be a specific weapon, a spell, a feature from your class or glyph paths, or a natural weapon). When you hit with that form, you inflict an additional 1d12 base damage."
+        ]
+    },
+    {
+        "name": "Infiltrates",
+        "description": "stealth and infiltration",
+        "tiers": [
+            "1. Your physical form is designed to be lithe and quiet. Your flesh even reflexively alters its tone to suit your surroundings. All this grants advantage on Stealth checks.",
+            "2. You can subtly change your features and alter your voice dramatically. This grants advantage on Deception checks to disguise your identity.",
+            "3. If you did nothing but move since the start of your last turn, you have advantage on Dexterity saves.",
+            "4. Awareness: 1/min; bonus action; You become hyper-aware of your surroundings. For 10 minutes, you are aware of all living things within 120', and by concentrating as a bonus action you can learn the general emotional state of any one of them.",
+            "5. Invisibility: 1/SR; bonus action; Thanks to mind-clouding spores and light-bending secretions on your flesh, you become invisible for 10 minutes. While invisible, you gain +2 to Stealth checks and Dexterity saves. This effect ends if you attack or cast a spell. If this occurs, you can regain the remaining invisibility effect by taking a bonus action.",
+            "6. You cannot be good at getting in if you do not get out. You gain prof/+2 in all saving throws.",
+            "7. You use trickery, well-spoken lies, and mind-affecting skin secretions to make others temporarily do what you want them to do. You control the actions of another creature you touch. This effect lasts for 1 minute. The target must be CR 2 or lower. You can allow it to act freely or override its control on a case-by-case basis as long as you can see it. When the duration ends, the creature does not remember being controlled or anything it did while under your influence.",
+            "8. +2 to Stealth.",
+            "9. +2 to Deception checks to disguise your identity.",
+            "10. If you did nothing but move since the start of your last turn, you have +3 to Dexterity saves."
+        ]
+    },
+    {
+        "name": "Integrates Weaponry",
+        "description": "integrating weapons into your body",
+        "tiers": [
+            "1. Part of Me: At-will; bonus action; You attach a weapon you are proficient with into the flesh at the end of one of your arms, replacing your hand. The weapon becomes a natural extension of your arm (and hence a natural weapon). While integrated, you inflict 1d4 additional damage with the weapon, though you lose the use of that hand. The weapon can be a two-handed weapon and still leave your other hand free; however, if you do integrate a two-handed weapon, all physical tasks you attempt using your free hand have disadvantage. If you integrate 2 weapons (1 for each hand), you cannot attempt tasks that require the use of hands, nor can you make more than 1 attack with 1 integrated weapon on your turn. You can remove an integrated weapon as a bonus action, and your hand returns.",
+            "2. You cannot have disadvantage on an attack with an integrated weapon.",
+            "3. While you have a weapon integrated, you have +2 to Dexterity saves.",
+            "4. You gain +2 AB with integrated weapons.",
+            "5. Rapid Attack: 1/SR; bonus action; You can make an attack as a bonus action with your integrated weapon, even if you have already attacked with it this turn.",
+            "6. You gain +2 AB with integrated weapons.",
+            "7. Weapon Frenzy: 1/week; bonus action; You can attempt to attack every creature within weapon range, but you cannot choose which targets to attack and which to spare because you go into a weapon frenzy and attack everything indiscriminately.",
+            "8. The bonus damage to integrated weapons from your Part of Me feature increases to 1d8.",
+            "9. You gain +2 AB with integrated weapons when the attack would usually have disadvantage.",
+            "10. While you have a weapon integrated, you have +3 to Dexterity saves."
+        ]
+    },
+    {
+        "name": "Interprets the Law",
+        "description": "analysing and manipulating the law",
+        "tiers": [
+            "1. You gain prof/+2 in Deception and Persuasion, and have +2 to Insight checks for detecting lies.",
+            "2. You have +2 to History checks related to the laws of the place you are currently in. If you do not know the answer to a question of law, you know where and how to research it.",
+            "3. Debate: 1/min; bonus action; In any gathering of 2 or more people trying to establish the truth or come to a decision, you can sway the verdict with masterful rhetoric. If you are given 1 minute or more to argue your point, either the decision goes your way or, if someone else effectively argues a competing point, any associated Persuasion or Deception check has double advantage.",
+            "4. Whenever you provide the Help action for a task that already has advantage, it changes into double advantage.",
+            "5. You gain +2 CHA.",
+            "6. Castigate: 1/SR; bonus action; You intimidate any opponent within 120' who understands speech (even if not your language) so much that they lose their bonus action during their next turn and all the rest of their tasks have disadvantage for 1 minute. After using this against a target, they become immune to this feature.",
+            "7. You gain prof/+2 in two of the following skills of your choice: Deception, Persuasion, Intimidation, Investigation, or a knowledge skill of your choice. Alternatively, you can instead gain a further +2 to Insight checks for detecting lies.",
+            "8. You gain 3 points to divide among your ability scores however you wish.",
+            "9. You gain a CR 2 humanoid follower (minion) who is interested in studying your life to further their law-related ambitions.",
+            "10. You gain +3 in Persuasion."
+        ]
+    },
+    {
+        "name": "Is Idolised by Millions",
+        "description": "becoming famous",
+        "tiers": [
+            "1. You gain an entourage of a CR 4 humanoid (minion) who accompanies you wherever you go unless you purposefully dismiss them for a particular outing. You can ask them to deliver things for you, run messages and errands - anything you wish, within reason. They can also run interference if you are trying to avoid someone, help hide you from attention, help you muscle through a crowd, and so on. On the other hand, if a situation becomes physically violent, they retreat to safety.",
+            "2. You gain prof/+2 in Performance and have +2 to checks to either create a particular style of art or play a particular game, your choice.",
+            "3. You are adept at claiming the rewards that fame can generate. When you are recognised, you can be seated at any restaurant, be let into any government building, be invited to any event (even if it is sold out), get a seat at a private function of any sort, or get into any club, no matter how exclusive. When dealing with someone who cannot or will not immediately give in to your desire, you gain advantage on Persuasion checks if that person recognised you or is convinced that you are a celebrity even if they do no recognise you.",
+            "4. You are now immune to diseases and mutations of any kind.",
+            "5. Choose a weapon class you are not proficient with. You become proficient with that weapon class.",
+            "6. For as long as you speak, you keep the attention of all CR 1 or lower creatures who can hear you.",
+            "7. You gain a CR 2 humanoid follower (minion).",
+            "8. Do You Know Who I Am: 1/min; bonus action; Acting only as someone who is famous and used to privilege can, you verbally harangue a living foe who can hear and understand you so forcefully that it is unable to take any actions or reactions or move until the end of your next turn. Whether you succeed or fail, the next task the target attempts afterwards has disadvantage.",
+            "9. Transcend the Script: 1/LR; bonus action; Whether they are lines you wrote, acted, reported on, or otherwise incorporated into your talent, you compose an oratory on the fly that is so wonderful that even you believe it. For each ally who hears it (and you too), a task attempted within the next hour has double advantage.",
+            "10. Your humanoid follower can be increased to CR 3."
+        ]
     }
 ]

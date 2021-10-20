@@ -370,7 +370,7 @@
             "name": "7. Petros Corphanis",
             "set": "Legendary Champions",
             "primary": "on hit, target has -8 dmg vs non-you targets until end of their next turn",
-            "secondary": "on hit, target has -8 dmg vs non-you targets until end of their next turn",
+            "secondary": "on hit, target has -4 dmg vs non-you targets until end of their next turn",
             "foil": "+1 dmg res while flanking"
         }
     ],

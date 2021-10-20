@@ -40,7 +40,7 @@ var trap = func() error {
 	if t == "crit" {
 		title = "Special trap!"
 	}
-	log.Printf("%s\n%s: %s", title, chosen.Name, chosen.Description)
+	log.Printf("%s (if applicable)\n%s: %s", title, chosen.Name, chosen.Description)
 	return nil
 }
 
