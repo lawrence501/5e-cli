@@ -56,3 +56,9 @@ A dominated creature is charmed. Additionally, the creature that dominated it co
 Shares condition immunity with exhaustion.
 
 A sluggish creature reduces the number of attacks it can make with its Attack action by 1 (or Multiattack, where relevant).
+
+## Terminology
+
+### Splash Damage
+
+Splash damage is always optional. It deals its damage, up to the amount of the original hit, to all creatures of your choice within 5' of the target.

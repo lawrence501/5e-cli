@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"math/rand"
+	"strconv"
 	"strings"
 
 	"github.com/manifoldco/promptui"
@@ -114,6 +115,49 @@ var upgradeRelic = func() error {
 			log.Println("- New thematic mod")
 		}
 	}
+	return nil
+}
+
+var loot = func() error {
+	rollsFound, err := getLootSearchResults("Investigation")
+	if err != nil || rollsFound == 0 {
+		return err
+	}
+
+	lootablesP := promptui.Prompt{
+		Label:    "Number of lootable places in room",
+		Validate: validateInt,
+	}
+	lootables, err := lootablesP.Run()
+	if err != nil {
+		return err
+	}
+	lootableCount, err := strconv.Atoi(lootables)
+	if err != nil {
+		return err
+	}
+	lootableMap := map[int]int{}
+	for i := 1; i <= lootableCount; i++ {
+		lootableMap[i] = 0
+	}
+
+	for i := 0; i < rollsFound; i++ {
+		roll := rand.Intn(lootableCount) + 1
+		lootableMap[roll] = lootableMap[roll] + 1
+	}
+	for i := 1; i <= lootableCount; i++ {
+		log.Printf("Lootable %d: %d roll(s)", i, lootableMap[i])
+	}
+	return nil
+}
+
+var harvest = func() error {
+	organsFound, err := getLootSearchResults("Survival")
+	if err != nil || organsFound == 0 {
+		return err
+	}
+
+	log.Printf("Harvested %d creature organ(s)", organsFound)
 	return nil
 }
 

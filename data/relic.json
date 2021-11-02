@@ -1477,5 +1477,79 @@
                 "upgrade": "+1/1"
             }
         ]
+    },
+    {
+        "name": "Immolation",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "on wep hit, +4 splash dmg",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on wep hit, gain 1 fire DoT, stacking until DEX save",
+                "pointValue": "-2",
+                "upgrade": "+1 and 3 pts distributed"
+            },
+            {
+                "description": "+4 wep dmg while wielding only 1 wep",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 fire res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 to splashed dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. +1 DoT res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 fire dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. as bonus action while condi'd, foe in 5' makes DEX save or takes 1d4 wep fire dmg",
+                "pointValue": "2",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "7. as bonus action while cursed, foe in 5' makes DEX save or takes 1d4 wep fire dmg",
+                "pointValue": "2",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "8. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on turn end, gain 1 fire DoT, stacking until DEX save; distribute 3pts",
+                "pointValue": "-2",
+                "upgrade": "+1 and 3pts distributed"
+            },
+            {
+                "description": "10. +1 fire DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
     }
 ]

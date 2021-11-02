@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"regexp"
+	"strconv"
 )
 
 var validateBase = func(input string) error {
@@ -30,6 +31,21 @@ var validateTagString = func(input string) error {
 var validateBasicRing = func(input string) error {
 	if valid := sliceContains(RING_TAGS, input); !valid {
 		return errors.New("Invalid basic ring.")
+	}
+	return nil
+}
+
+var validateSpaceSeparated = func(input string) error {
+	validator := regexp.MustCompile(`^[\w\s]+$`)
+	if !validator.MatchString(input) {
+		return errors.New("Invalid space-separated string.")
+	}
+	return nil
+}
+
+var validateInt = func(input string) error {
+	if _, err := strconv.Atoi(input); err != nil {
+		return errors.New("Invalid integer input.")
 	}
 	return nil
 }

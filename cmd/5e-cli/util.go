@@ -4,10 +4,16 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
+	"math"
 	"math/rand"
 	"os"
 	"path/filepath"
 	"sort"
+	"strconv"
+	"strings"
+
+	"github.com/manifoldco/promptui"
 )
 
 const DATA_DIR = "data"
@@ -399,4 +405,34 @@ func fetchGenerics(fileName string) ([]Generic, error) {
 		return []Generic{}, err
 	}
 	return generics, nil
+}
+
+func getLootSearchResults(skill string) (int, error) {
+	rollP := promptui.Prompt{
+		Label:    skill + " results",
+		Validate: validateSpaceSeparated,
+	}
+	rolls, err := rollP.Run()
+	if err != nil {
+		return 0, err
+	}
+
+	rollsSlice := strings.Split(rolls, " ")
+	playerCount := len(rollsSlice)
+
+	totalResult := 0
+	for _, i := range rollsSlice {
+		intRoll, err := strconv.Atoi(i)
+		if err != nil {
+			return 0, err
+		}
+		totalResult += intRoll
+	}
+
+	if totalResult < 13*playerCount {
+		log.Println("Nothing extra found.")
+		return 0, nil
+	}
+
+	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(playerCount)) + 1), nil
 }
