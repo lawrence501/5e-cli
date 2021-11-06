@@ -137,7 +137,7 @@
             "name": "2. Arvewal",
             "set": "Evorbisan Champions",
             "primary": "your minions deal +11 dmg with dmg types you dmg'd target with during your last turn",
-            "secondary": "your minions deal +7 dmg with dmg types you dmg'd target with during your last turn",
+            "secondary": "your minions deal +5 dmg with dmg types you dmg'd target with during your last turn",
             "foil": "+2 minion dmg"
         },
         {
@@ -385,8 +385,8 @@
         {
             "name": "5. The Primordial",
             "set": "Primordial Elementals",
-            "primary": "+1 non-phys abs",
-            "secondary": "+1 non-phys res",
+            "primary": "+2 non-phys abs",
+            "secondary": "+1 non-phys abs",
             "foil": "+1 spell dmg res"
         },
         {
@@ -441,15 +441,15 @@
         {
             "name": "4. The Queen of Rot",
             "set": "Antagonists",
-            "primary": "you have a 5' glyphic aura that deals 2 nec dmg to foes",
-            "secondary": "you have a 5' glyphic aura that deals 1 nec dmg to foes",
+            "primary": "you have a 5' aura that deals 2 glyphic nec dmg to foes",
+            "secondary": "you have a 5' aura that deals 1 glyphic nec dmg to foes",
             "foil": "foes in your pers areas have -1 dmg res"
         },
         {
             "name": "8. Heath Rouven",
             "set": "Legendary Champions",
-            "primary": "on init, gain 8pt random wep enchant until end of combat (applying to all your weps)",
-            "secondary": "on init, gain 4pt random wep enchant until end of combat (applying to all your weps)",
+            "primary": "on init, gain 8pt random wep enchant until end of combat (applying to your onhand wep)",
+            "secondary": "on init, gain 4pt random wep enchant until end of combat (applying to your onhand wep)",
             "foil": "+1 glyphic dmg"
         }
     ]

@@ -180,14 +180,15 @@ var CONDITIONS []string = []string{
 	"grapple",
 	"incapacitate",
 	"invisible",
-	"paralyse",
+	"stagger",
 	"petrify",
 	"poison",
 	"prone",
 	"restrain",
-	"stun",
+	"debilitate",
 	"unconscious",
 	"exhaust",
+	"sluggish",
 }
 
 var AOE_SHAPES []string = []string{
