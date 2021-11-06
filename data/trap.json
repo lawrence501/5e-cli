@@ -55,26 +55,6 @@
         {
             "name": "Thunderwave",
             "description": "[CON, half thunder] all in room take dmg"
-        },
-        {
-            "name": "Aging Curse",
-            "description": "Age 50 equivalent years until LR, giving disadv on physical AS-based rolls"
-        },
-        {
-            "name": "Rusting Gas",
-            "description": "10% of your current gold turns to ash"
-        },
-        {
-            "name": "Curse of Simplicity",
-            "description": "You cannot take actions other than atk/cantrip cast until LR"
-        },
-        {
-            "name": "Lockdown Doors",
-            "description": "locks all doors in room, does nothing if no doors"
-        },
-        {
-            "name": "Freaky Curse",
-            "description": "swap all AS with random party member until LR"
         }
     ],
     "crit": [

@@ -639,6 +639,18 @@
         {
             "name": "Pyxis of Pandemonium",
             "description": "https://5e.tools/items.html#pyxis%20of%20pandemonium_mot"
+        },
+        {
+            "name": "Potion of Dragon's Majesty",
+            "description": "https://5e.tools/items.html#potion%20of%20dragon's%20majesty_ftd"
+        },
+        {
+            "name": "Gold Canary Figurine of Wondrous Power",
+            "description": "https://5e.tools/items.html#gold%20canary%20figurine%20of%20wondrous%20power_ftd"
+        },
+        {
+            "name": "Emerald Pen",
+            "description": "https://5e.tools/items.html#emerald%20pen_ftd"
         }
     ]
 }
