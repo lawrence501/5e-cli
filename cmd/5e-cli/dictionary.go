@@ -278,3 +278,10 @@ var RANGE_TYPES []string = []string{
 	"melee",
 	"ranged",
 }
+
+var MUTATION_TYPES []string = []string{
+	"powerful",
+	"beneficial",
+	"distinctive",
+	"harmful",
+}

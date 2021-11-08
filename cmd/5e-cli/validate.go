@@ -35,6 +35,13 @@ var validateBasicRing = func(input string) error {
 	return nil
 }
 
+var validateMutationType = func(input string) error {
+	if valid := sliceContains(MUTATION_TYPES, input); !valid {
+		return errors.New("Invalid mutation type.")
+	}
+	return nil
+}
+
 var validateSpaceSeparated = func(input string) error {
 	validator := regexp.MustCompile(`^[\w\s]+$`)
 	if !validator.MatchString(input) {

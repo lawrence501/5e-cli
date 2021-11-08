@@ -46,6 +46,13 @@ type Wondrous struct {
 	Legendary []Generic `json:"legendary"`
 }
 
+type Mutation struct {
+	Powerful    []Generic `json:"powerful"`
+	Beneficial  []Generic `json:"beneficial"`
+	Distinctive []Generic `json:"distinctive"`
+	Harmful     []Generic `json:"harmful"`
+}
+
 type Enchant struct {
 	Description string   `json:"description"`
 	PointValue  string   `json:"pointValue"`

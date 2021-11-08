@@ -45,6 +45,8 @@ var COMMAND_MAP = map[string]func() error{
 	"ability score": abilityScore,
 	"loot":          loot,
 	"harvest":       harvest,
+	"condi":         condition,
+	"mutate":        mutation,
 }
 
 func main() {

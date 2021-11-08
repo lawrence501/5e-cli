@@ -161,6 +161,17 @@ var harvest = func() error {
 	return nil
 }
 
+var mutation = func() error {
+	mutations, err := fetchMutations()
+	if err != nil {
+		return err
+	}
+
+	chosen := mutations[rand.Intn(len(mutations))]
+	log.Printf("Mutation\n%s: %s", chosen.Name, chosen.Description)
+	return nil
+}
+
 var skill = func() error {
 	log.Printf("Skill: %s", SKILLS[rand.Intn(len(SKILLS))])
 	return nil
@@ -178,5 +189,10 @@ var creatureType = func() error {
 
 var abilityScore = func() error {
 	log.Printf("Ability score: %s", ABILITY_SCORES[rand.Intn(len(ABILITY_SCORES))])
+	return nil
+}
+
+var condition = func() error {
+	log.Printf("Condition: %s", CONDITIONS[rand.Intn(len(CONDITIONS))])
 	return nil
 }
