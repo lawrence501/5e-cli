@@ -276,7 +276,7 @@ var ENEMY_ARMOUR_FORMS []string = []string{
 
 var RANGE_TYPES []string = []string{
 	"melee",
-	"ranged",
+	"proj",
 }
 
 var MUTATION_TYPES []string = []string{

@@ -1948,5 +1948,55 @@
         "name": "written in blood",
         "mods": ["+1 incoming temp HP", "+1 max HP", "+1 {abilityScore}"],
         "tags": ["temp hp", "hp", "ability score"]
+    },
+    {
+        "name": "cruel preparation",
+        "mods": ["+2 max HP", "+2 {dmgPolarity} res"],
+        "tags": ["hp", "phys res", "non-phys res"]
+    },
+    {
+        "name": "faith and steel",
+        "mods": ["+1 {physType} res", "+1 incoming temp HP", "+1 {dmgPolarity} res"],
+        "tags": ["phys res", "temp hp", "non-phys res"]
+    },
+    {
+        "name": "whispers of doom",
+        "mods": ["you can concentrate on 2 curses at once"],
+        "tags": ["conc"]
+    },
+    {
+        "name": "devotion",
+        "mods": ["+2 max HP", "+1 aura effectiveness"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "discipline and training",
+        "mods": ["+5 max HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "leadership",
+        "mods": ["+5' aura radius", "+1 aura effectiveness"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "unnatural calm",
+        "mods": ["+1 incoming temp HP", "+2 {nonPhysType} abs"],
+        "tags": ["temp hp", "non-phys res"]
+    },
+    {
+        "name": "purity of flesh",
+        "mods": ["+2 incoming temp HP", "+3 max HP", "+1 {nonPhysType} res"],
+        "tags": ["temp hp", "hp", "non-phys res"]
+    },
+    {
+        "name": "coldhearted calculation",
+        "mods": ["+1 global dmg", "+1 {abilityScore}"],
+        "tags": ["wep dmg", "spell dmg", "ability score"]
+    },
+    {
+        "name": "fangs of the viper",
+        "mods": ["+1 {nonPhysType} dmg", "+5' sp", "+1 {abilityScore}", "+1 {physType} dmg"],
+        "tags": ["non-phys dmg", "speed", "ability score", "phys dmg"]
     }
 ]

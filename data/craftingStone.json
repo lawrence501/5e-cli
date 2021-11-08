@@ -20,7 +20,7 @@
         "description": "Instantly level worn relic; reroll if none"
     },
     {
-        "name": "Cloning",
+        "name": "2x Cloning",
         "description": "replace random mod with exact copy of another random mod"
     },
     {
@@ -32,7 +32,7 @@
         "description": "Use on any lootable object or pile of gold, destroying it; roll on loot table, rerolling results lower than object's equivalent roll"
     },
     {
-        "name": "Chaotic",
+        "name": "2x Chaotic",
         "description": "Reroll all affixes for same number and points"
     },
     {
@@ -44,7 +44,11 @@
         "description": "body armour gets -1 AC and random hard tripled enchant"
     },
     {
-        "name": "Gambling",
+        "name": "2x Gambling",
         "description": "chosen mod's numeric value is rerolled between 0 and double its current value"
+    },
+    {
+        "name": "2x Scourging",
+        "description": "add random negative mod, then equivalent-value positive mod. Repeated uses on same item replace both mods, increasing the min pt value of the negative by 1."
     }
 ]
