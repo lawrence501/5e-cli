@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Cloud",
+        "description": "As $partyMember begins to fade, they feel a chill come over them as an eldritch whisper enters their mind: 'Do you wish to save yourself and your friends? I think you have more purpose living than dying. I'm willing to offer you a contract at a later time. In exchange, I shall restore your vitality.'"
+    },
+    {
+        "name": "Aroshi",
+        "description": "As $partyMember begins to fade, they feel a wet, slimy feeling come over them as an eldritch whisper enters their mind: 'Greetings! You and your friends look like you might be having some trouble. Watching your exploits is far more interesting to me than anything else happening in Hospusal at the moment, so I'd really rather not lose that. I can restore your vitality, but it won't be free. Don't worry, it's nothing bad. Well, at least I'll probably enjoy it.'"
+    },
+    {
+        "name": "P'all",
+        "description": "As $partyMember begins to fade, they feel as if thousands of insects begin to crawl over them as an eldritch whisper enters their mind: 'Your party have unity. You fought together, and were ready to die together. We can respect that. We will restore your vitality in exchange for you helping us at a later time build up our legion with those we don't respect as much.'"
+    },
+    {
+        "name": "Mensis",
+        "description": "As $partyMember begins to fade, their head is suddenly bombarded by sharp pains as an eldritch whisper enters their mind: 'Death is such a waste. The living make so much more impact on the universe, which it sorely needs. I wish to help you by restoring your vitality, and all I ask in return is a favour down the line.'"
+    },
+    {
+        "name": "Gawdian",
+        "description": "As $partyMember begins to fade, they feel a warming glow come over them as an eldritch whisper enters their mind: 'Your end here is not just, and the retribution to sinners you can bring as mortals outweighs what you could do as lifeless husks tenfold. If you vow to succumb to my will in the future, I will bestow vitality upon you. This is the best way forward.'"
+    }
+]

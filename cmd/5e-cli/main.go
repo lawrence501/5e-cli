@@ -47,6 +47,7 @@ var COMMAND_MAP = map[string]func() error{
 	"harvest":       harvest,
 	"condi":         condition,
 	"mutate":        mutation,
+	"tpk":           tpk,
 }
 
 func main() {

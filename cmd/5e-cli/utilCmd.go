@@ -172,6 +172,17 @@ var mutation = func() error {
 	return nil
 }
 
+var tpk = func() error {
+	tpkNotes, err := fetchGenerics("tpk")
+	if err != nil {
+		return err
+	}
+
+	chosen := tpkNotes[rand.Intn(len(tpkNotes))]
+	log.Printf("TPK rescue offer from %s:\n\n%s", chosen.Name, processMod(chosen.Description))
+	return nil
+}
+
 var skill = func() error {
 	log.Printf("Skill: %s", SKILLS[rand.Intn(len(SKILLS))])
 	return nil
