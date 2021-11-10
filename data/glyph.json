@@ -663,7 +663,7 @@
             "2. You enjoy double advantage on initiative rolls.",
             "3. Adapt: 1/min; free action; After suffering damage from an elemental source (fire, cold, lightning, or acid), you may use this feature to enjoy +2 AC vs that damage type for the next hour.",
             "4. Once you have taken 20 or more damage in a battle, you become ferocious for the rest of the fight. While in this mode, you gain advantage on melee attack rolls when the attack is made against a creature who has done damage to you in this battle.",
-            "5. Whenever you make an attack using a limited feature, you enjoy +1 to any values derived from your ability score(s).",
+            "5. Whenever you make an attack using a maneuver, you enjoy +1 to any values derived from your ability score(s).",
             "6. Observe Technique: 1/week; free action; After suffering damage from a particular action, spell, or feature by a humanoid, you may activate this feature, allowing you to employ the same power for the rest of the current combat.",
             "7. Your Defensive Maneuvre now allows you to move up to 60'.",
             "8. +2 to initiative.",
@@ -854,7 +854,7 @@
             "1. Gain prof/+2 in stealth and sleight of hand.",
             "2. You know many people in a variety of communities who engage in illegal activities. These people are not necessarily your friends and might not be trustworthy, but they recognise you as a peer.",
             "3. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you have advantage on the check.",
-            "4. Your limited features that have durations last twice as long. Your limited features that have ranges between 30' and 120' have their range increased to 120'. Your limited features that deal damage deal +2 damage.",
+            "4. Your maneuvers that have durations last twice as long. Your maneuvers that have ranges between 30' and 120' have their range increased to 120'. Your maneuvers that deal damage deal +2 damage.",
             "5. +10' climb speed, +2 to checks to checks to escape restrains or grapples, and you can squeeze one size smaller.",
             "6. Dirty Fighter: 2/min; bonus action; You distract, annoy, hamper, or otherwise interfere with a foe, giving their attacks and saving throws disadvantage for 1 minute.",
             "7. Alley Rat: 1/week; bonus action; While in a city, you find or create a significant shortcut, secret entrance, or emergency escape route where it looked like non existed. Doing so requires that you succeed on a History check with DC based on the situation.",
@@ -2397,6 +2397,86 @@
             "8. Do You Know Who I Am: 1/min; bonus action; Acting only as someone who is famous and used to privilege can, you verbally harangue a living foe who can hear and understand you so forcefully that it is unable to take any actions or reactions or move until the end of your next turn. Whether you succeed or fail, the next task the target attempts afterwards has disadvantage.",
             "9. Transcend the Script: 1/LR; bonus action; Whether they are lines you wrote, acted, reported on, or otherwise incorporated into your talent, you compose an oratory on the fly that is so wonderful that even you believe it. For each ally who hears it (and you too), a task attempted within the next hour has double advantage.",
             "10. Your humanoid follower can be increased to CR 3."
+        ]
+    },
+    {
+        "name": "Is Licenced to Carry",
+        "description": "mastering crossbows",
+        "tiers": [
+            "1. You inflict 1d4 additional damage with crossbows.",
+            "2. You cannot have disadvantage on crossbow attacks.",
+            "3. You can self-inflict multiples of 2 hit points to increase your crossbow damage. Every 2 hit points add 6 damage to a successful attack, and if you spend a full turn action lining up your shot, every 2 hit points add 10 damage to a successful attack instead.",
+            "4. You gain prof/+2 with all crossbows.",
+            "5. Spray: 2/min; bonus action; If a weapon has the ability to fire multiple shots in a single Attack action, you can spray multiple shots around your target to increase the chance of hitting. The attack roll has advantage. If the attack is successful, it deals 2 less damage than normal.",
+            "6. You can make an additional crossbow attack whenever you take the Attack action with a crossbow, but this additional attack has double disadvantage.",
+            "7. You gain +2 AB with crossbows.",
+            "8. Arc Spray: 1/min; bonus action; If a weapon has the ability to fire multiple shots in a single Attack action, you can fire your weapon at up to 3 targets within 5' of each other. Each attack has disadvantage.",
+            "9. When you hit a target with a crossbow's attack, you can choose to reduce the damage by 2 but hit the target in a precise spot. Some the possible effects include, but are not limited to, shooting an object out of something's hand, shooting the leg, wing, or other movement limb to reduce something's movement speed to 5' for 3 long rests or until it receives magical healing, or shooting a strap holding a backpack or similarly strapped-on item so that it falls off.",
+            "10. You inflict 1d6 additional damage with crossbows."
+          ]
+    },
+    {
+        "name": "Looks for Trouble",
+        "description": "brawling and revelry",
+        "tiers": [
+            "1. You inflict 1d4 additional damage with melee attacks.",
+            "2. You gain prof/+2 in Medicine.",
+            "3. You designate a single member of your party to be your charge. You can change this freely every round, but you can have only 1 charge at a time. As long as that charge is within 5', they gain advantage on Dexterity saving throws because you have their back.",
+            "4. Choose one: +2 to checks to break things, +2 to checks to climb, +5' jumping distance, or +5' speed.",
+            "5. Choose one weapon class you do not already have proficiency in. Gain that proficiency.",
+            "6. Knock Out: 1/LR; bonus action; You make a melee attack that inflicts no damage. Instead, if the attack hits, make a second Strength-based attack. If successful, a foe of CR 2 or less is knocked unconscious for 1 minute.",
+            "7. Choose one weapon class you already have proficiency in. Gain +2 AB with attacks from that weapon class.",
+            "8. You gain +2 STR, and you inflict 1d4 additional damage with melee attacks.",
+            "9. You gain +2 in Medicine.",
+            "10. You inflict 1d6 additional damage with melee attacks."
+        ]
+    },
+    {
+        "name": "Masters the Swarm",
+        "description": "controlling swarms of tiny creatures",
+        "tiers": [
+            "1. Influence Swarm: At-will; bonus action; You master 1 type of tiny beast (such as insects, rats, bats, or even birds) and they respond to you in number. Your type of creatures within 30' will not harm you or those you designate as allies for 1 hour.",
+            "2. Control Swarm: 2/min; bonus action; Your swarm creatures from your Influence Swarm feature within 30' do as you telepathically command for 10 minutes. If they are in large numbers, you can have them swarm about a single creature and grant all their tasks disadvantage.",
+            "3. Living Armour: 1/SR; bonus action; If you are in a location where it is possible for your creatures from your Influence Swarm feature to come, you call a swarm around you for 1 hour. They crawl over your body or fly around you in a cloud. During this time, your Dexterity saving throws have advantage, and you gain +1 AC.",
+            "4. Gain proficiency in a weapon class you are not already proficient in.",
+            "5. Call Swarm: 1/SR; bonus action; If you are in a locaiton where it is possible for the creatures from your Influence Swarm feature to come, you call a swarm of them for 1 hour. During this hour, they do as you telepathically command as long as they are within 120'. They can behave as described in your Control Swarm feature. While the creatures are in 120', you can speak to them telepathically and perceive through their senses.",
+            "6. You gain a CR 2 swarm (maximum size of Small) as a constant companion. It follows your telepathic commands. If your swarm dies, you can hunt in the wild for 1d6 days to find a new one.",
+            "7. Deadly Swarm: 1/week; bonus action; If you are in a location where it is possible for your swarm of creature from your Influence Swarm feature to come, you call a swarm of them for 10 minutes. During this time, they do as you telepathically command as long as they are within 120'. They can do as described in your Control Swarm feature, and also can spend their action attacking all opponents within 5'. The attacking swarm inflicts 1d10 damage. While the creatures are in 120', you can speak to them telepathically and perceive through their senses.",
+            "8. Gain proficiency in a saving throw you are not already proficient in.",
+            "9. You can choose another type of tiny beast to master with your Influence Swarm feature.",
+            "10. Your Control Swarm feature now has a range of 1 mile."
+        ]
+    },
+    {
+        "name": "Metamorphises",
+        "description": "shapeshifting into insect form",
+        "tiers": [
+            "1. Battle Chrysalid: 2/min; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +4 STR and +3 DEX. Claws sprout from your hands, serving as a natural weapon with a damage die of 1d6. You can revert your form with a bonus action.",
+            "2. You can never have disadvantage on an attack from a chrysalid form.",
+            "3. Devourer Battle Chrysalid: 1/min; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +6 STR, +4 DEX, and +1 AC. Mouth stalks protrude from your body, which serve as a natural weapon with a damage die of 1d6. If you are knocked unconscious, you lose control over your own voracious appetite when you awaken. At the start of each of your turns, you automatically self-inflict 1d4 damage as your mouth stalks self-cannibalise. You can revert as a bonus action.",
+            "4. You gain +2 AB with attacks from chrysalid forms.",
+            "5. Flyer Battle Chrysalid: 1/LR; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain a flying speed of 30', and you gain +4 STR and +3 DEX. Wingblades sprout from your arms, allowing you to fly and serving as a natural weapon with a damage die of 1d6. You can revert as a bonus action.",
+            "6. You gain +2 AB with attacks from chrysalid forms.",
+            "7. Monstrous Battle Chrysalid: 1/month; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +9 STR, +7 DEX, and +2 AC. Your arms become huge, hammerlike appendages, serving as a natural weapon with a damage die of 1d8. Your body is also covered with spikes, so that if anyone strikes you in melee, they suffer 2 thorns damage. Further, you can throw spikes as a 30' ranged natural weapon with a damage die of 1d6. You can revert as a bonus action.",
+            "8. Your Battle Chrysalid feature now has a damage die of 1d10 for its claws.",
+            "9. You gain +2 AB with attacks from chrysalid forms that would usually have disadvantage.",
+            "10. Your Devourer Battle Chrysalid feature now has a damage die of 1d12 for its mouth stalks."
+        ]
+    },
+    {
+        "name": "Moves Like the Wind",
+        "description": "speed",
+        "tiers": [
+            "1. You gain +3 DEX.",
+            "2. You can move up to 30' on your turn as a free action once per turn. Alternatively, you can use a full turn action to move up to 120'.",
+            "3. You gain prof/+2 in Dexterity saves.",
+            "4. Speed Burst: 1/SR; free action; You can take 2 standard actions this turn. In your next turn, all tasks have disadvantage.",
+            "5. You gain +3 DEX.",
+            "6. Blink of an Eye: 1/SR; bonus action; You move up to 1000'.",
+            "7. When you move, you are a blur. It is impossible to make out your identity as you run past, and in a round where you do nothing but move, you have advantage on Stealth checks and Dexterity saves.",
+            "8. Perfect Speed Burst: 1/week; free action; You can take 2 standard actions this turn.",
+            "9. You move much farther than normal in a round. This means you can move up to 120' on your turn as a free action once per turn. Alternatively, you can use a bonus action to move up to 200', or up to 500' as a DC 12 Athletics check.",
+            "10. You gain +3 DEX."
         ]
     }
 ]

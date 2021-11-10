@@ -78,6 +78,18 @@
         "tags": ["weapon"]
     },
     {
+        "description": "+1 maneuver DC",
+        "pointValue": "4",
+        "upgrade": "1/4",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 maneuver dmg",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["weapon"]
+    },
+    {
         "description": "+1 to non-spell DCs",
         "pointValue": "4",
         "upgrade": "1/4",
