@@ -119,6 +119,26 @@
         {
             "name": "Spellwrought Tattoo Needle (1st)",
             "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(1st%20level)_tce"
+        },
+        {
+            "name": "Anthology of Enhanced Radiance",
+            "description": "a5e pg 230"
+        },
+        {
+            "name": "Archaic Creed",
+            "description": "a5e pg 231"
+        },
+        {
+            "name": "Atlas to Libation",
+            "description": "a5e pg 234"
+        },
+        {
+            "name": "Bag of Cheese",
+            "description": "a5e pg 236"
+        },
+        {
+            "name": "Barrow Bread",
+            "description": "a5e pg 238"
         }
     ],
     "uncommon": [
@@ -285,6 +305,10 @@
         {
             "name": "Spellwrought Tattoo Needle (3rd)",
             "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(3rd%20level)_tce"
+        },
+        {
+            "name": "Air Charm",
+            "description": "a5e pg 228"
         }
     ],
     "rare": [
@@ -589,6 +613,10 @@
         {
             "name": "Reincarnation Dust",
             "description": "https://5e.tools/items.html#reincarnation%20dust_egw"
+        },
+        {
+            "name": "Absurdist Web",
+            "description": "a5e pg 227"
         }
     ],
     "legendary": [
