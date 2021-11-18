@@ -1,774 +1,336 @@
 {
-    "standard": {
-        "weapon": [
-            {
-                "Name": "Club",
-                "Description": "1d6 B; thrown (10'/15')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Dagger",
-                "Description": "1d4 P; finesse; thrown (10'/15'); flexible (S)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Gauntlet",
-                "Description": "1d4 B; light; unarmed",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Light Mace",
-                "Description": "1d4 B; light; finesse; shove",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Longspear",
-                "Description": "1d8 P; two-handed; reach",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Mace",
-                "Description": "1d6 B; shove",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Morningstar",
-                "Description": "1d6 B; flexible (P)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Sickle",
-                "Description": "1d4 S; light; finesse; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Spear",
-                "Description": "1d6 P; thrown (20'/30')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Spiked Gauntlet",
-                "Description": "1d4 P; light; unarmed",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Staff",
-                "Description": "1d8 B; 2h; conduit",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Blowgun",
-                "Description": "1 P; 20'/40' range; light; non-lethal",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Crossbow",
-                "Description": "1d8 P; 120'/240' range; 2h",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Dart",
-                "Description": "1d4 P; no melee; light; thrown (20'/30')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Hand Crossbow",
-                "Description": "1d6 P; 60'/120' range",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Heavy Crossbow",
-                "Description": "1d10 P; 120'/240' range; 2h; reload",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Javelin",
-                "Description": "1d6 P; no melee; thrown (30'/45')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Sling",
-                "Description": "1d6 B; 50'/100' range; propulsive",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Wand",
-                "Description": "1d4 force; 30'/60' range; conduit; light; mental",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Bastard Sword",
-                "Description": "1d10 S; 2h; grapple",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Battle Axe",
-                "Description": "1d8 S; sweep",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Boomerang",
-                "Description": "1d4 S; thrown (20'/30'); returning",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Bo Staff",
-                "Description": "1d8 B; 2h; parry; reach; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Falchion",
-                "Description": "1d10 S; 2h; forceful; sweep",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Flail",
-                "Description": "1d6 B; disarm; sweep; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Glaive",
-                "Description": "1d8 S; 2h; deadly; forceful; reach",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Greataxe",
-                "Description": "1d12 S; 2h; heavy; sweep",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Greatclub",
-                "Description": "1d10 B; 2h; backswing; heavy; shove",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Greatpick",
-                "Description": "1d10 P; 2h; fatal (d12); heavy",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Greatsword",
-                "Description": "1d12 S; 2h; flexible (P); heavy",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Guisarme",
-                "Description": "1d10 S; 2h; reach; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Halberd",
-                "Description": "1d10 P; 2h; reach; flexible (S)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Hatchet",
-                "Description": "1d6 S; light; sweep; thrown (10'/15')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Lance",
-                "Description": "1d8 P; 2h; charge (d10); deadly; reach",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Light Hammer",
-                "Description": "1d6 B; light; thrown (20'/30')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Light Pick",
-                "Description": "1d4 P; light; fatal (d8)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Longsword",
-                "Description": "1d8 S; flexible (P)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Main-gauche",
-                "Description": "1d4 P; light; disarm; finesse; parry; flexible (S)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Maul",
-                "Description": "1d12 B; 2h; heavy; shove",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Nunchaku",
-                "Description": "1d4 B; 2h; compound; finesse",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Pick",
-                "Description": "1d6 P; fatal (d10)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Ranseur",
-                "Description": "1d10 P; 2h; disarm; reach",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Rapier",
-                "Description": "1d6 P; fatal (d8); disarm; finesse",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Ring Blade",
-                "Description": "1d10 S; 2h; disarm; finesse; sweep",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Sap",
-                "Description": "1d6 B; light; non-lethal",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Scimitar",
-                "Description": "1d6 S; forceful; sweep",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Scythe",
-                "Description": "1d10 S; 2h; deadly; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Shortsword",
-                "Description": "1d6 P; light; finesse; flexible (S)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Small Shield",
-                "Description": "1d4 B; light; targe (1)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Small Spiked Shield",
-                "Description": "1d4 P; light; targe (1)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Spiked Tower Shield",
-                "Description": "1d6 P; 2h; heavy; shove; targe (2)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Starknife",
-                "Description": "1d4 P; light; fatal (d6); finesse; thrown (20'/30'); flexible (S)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Tower Shield",
-                "Description": "1d6 B; 2h; heavy; shove; targe (2)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Trident",
-                "Description": "1d8 P; thrown (20'/30')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "War Flail",
-                "Description": "1d10 B; 2h; disarm; heavy; sweep; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Warhammer",
-                "Description": "1d8 B; shove",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Whip",
-                "Description": "1d4 S; disarm; finesse; non-lethal; reach; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Composite Longbow",
-                "Description": "1d8 P; 100'/200' range; 2h; fatal (d10); propulsive; volley (50')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Composite Shortbow",
-                "Description": "1d6 P; 60'/120' range; 2h; fatal (d10); propulsive",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Longbow",
-                "Description": "1d8 P; 100'/200' range; 2h; fatal (d10); volley (50')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Shortbow",
-                "Description": "1d6 P; 60'/120' range; 2h; fatal (d10)",
-                "Tags": ["weapon"]
-            }
-        ],
-        "armour": [
-            {
-                "Name": "Shield",
-                "Description": "+2 AC",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Helmet",
-                "Description": "Helm slot",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Gloves",
-                "Description": "Gloves slot",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Boots",
-                "Description": "Boots slot",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Body Armour",
-                "Description": "Choice of Clothes, Studded Leather, Half Plate, or Plate",
-                "Tags": ["armour"]
-            }
-        ]
-    },
-    "crit": {
-        "weapon": [
-            {
-                "Name": "Clan Dagger",
-                "Description": "[simple knife] 1d6 P; light; parry; versatile (B)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Katar",
-                "Description": "[simple knife] 1d6 P; light; deadly",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Dogslicer",
-                "Description": "[martial sword] 1d8 S; light; backstabber; finesse",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Elven Curve Blade",
-                "Description": "[martial sword] 1d10 S; 2h; finesse; forceful",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Filcher's Fork",
-                "Description": "[martial spear] 1d6 P; light; backstabber; deadly; finesse; thrown (20'/30')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Gnomish Hooked Hammer",
-                "Description": "[martial hammer] 1d12 B; 2h; trip; grapple; flexible (P)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Horsechopper",
-                "Description": "[martial polearm] 1d10 S; 2h; reach; trip; flexible (P)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Kama",
-                "Description": "[martial knife] 1d8 S; light; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Katana",
-                "Description": "[martial sword] 1d12 S; 2h; deadly; grapple; flexible (P)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Kukri",
-                "Description": "[martial knife] 1d8 S; light; finesse; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Orcish Knuckle Dagger",
-                "Description": "[martial knife] 1d8 P; light; disarm",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Sai",
-                "Description": "[martial knife] 1d6 P; light; disarm; finesse; flexible (B)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Spiked Chain",
-                "Description": "[martial flail] 1d10 S; 2h; disarm; finesse; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Temple Sword",
-                "Description": "[martial sword] 1d10 S; trip",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Dwarven Waraxe",
-                "Description": "[martial axe] 1d12 S; 2h; sweep; grapple",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Gnomish Flickmace",
-                "Description": "[martial flail] 1d8 B; reach",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Orcish Necksplitter",
-                "Description": "[martial axe] 1d8 S; forceful; sweep",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Sawtooth Saber",
-                "Description": "[martial sword] 1d6 S; light; finesse; twin (2 drop)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Halfling Sling Staff",
-                "Description": "[martial sling] 1d12 B; ranged (80'/120'); 2h; propulsive",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Shuriken",
-                "Description": "[martial dart] 1d8 P; ranged (-/-); light; thrown (30'/60')",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Auric Mace",
-                "Description": "[martial club] 1d6 B; 2h; charge (d8); finesse; forceful; grapple",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Jawbreaker",
-                "Description": "[martial brawling] 1d8 B; forceful; unarmed",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Goliath Bow",
-                "Description": "[martial bow] 1d8 P; 60'/120' range; 2h; fatal (d12); flexible (B)",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Ice Pick",
-                "Description": "[martial pick] 1d8 P; backstabber; deadly",
-                "Tags": ["weapon"]
-            },
-            {
-                "Name": "Scutum",
-                "Description": "[martial shield] 1d8 B; 2h; finesse; shove; targe (2)",
-                "Tags": ["weapon"]
-            }
-        ],
-        "armour": [
-            {
-                "Name": "Crested Helm",
-                "Description": "Helm slot; +1 phys res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Witch Cap",
-                "Description": "Helm slot; +1 spell dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Solar Helm",
-                "Description": "Helm slot; +2 fire res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Shadow Crest",
-                "Description": "Helm slot; -1 crit req",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Death Mask",
-                "Description": "Helm slot; +4 minion HP",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Verdant Hood",
-                "Description": "Helm slot; +1 DoT dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Nomad Cowl",
-                "Description": "Helm slot; +2 cold res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Coven Hood",
-                "Description": "Helm slot; -1 spell crit req",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Desert Mask",
-                "Description": "Helm slot; +1 to DEX saves",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Shadow Helm",
-                "Description": "Helm slot; +1 psy dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Silver Crown",
-                "Description": "Helm slot; +1 incoming temp HP",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Breathing Mask",
-                "Description": "Helm slot; +2 psn res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Blood Cowl",
-                "Description": "Helm slot; on hit, heal 1 HP",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Bronze Helm",
-                "Description": "Helm slot; +1 crit dice",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Burial Mask",
-                "Description": "Helm slot; +2 minion dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Darkwolf Pelt",
-                "Description": "Helm slot; +1 phys dmg; +1 minion phys dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Icewolf Pelt",
-                "Description": "Helm slot; +1 cold res; +1 to condi DCs",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Solar Crown",
-                "Description": "Helm slot; +1 fire dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Ivory Mask",
-                "Description": "Helm slot; +2 minion spell dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Winged Helm",
-                "Description": "Helm slot; 20% chance to nullify extra crit dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Dawn Plate",
-                "Description": "Body slot; +1 phys res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Witch Robes",
-                "Description": "Body slot; +1 spell dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Solar Plate",
-                "Description": "Body slot; +2 fire res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Nomad Garb",
-                "Description": "Body slot; +2 cold res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Umbral Coat",
-                "Description": "Body slot; -1 crit req",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Hunting Garb",
-                "Description": "Body slot; +1 to DEX saves",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Rowan Armour",
-                "Description": "Body slot; +1 phys dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Boiled Leather",
-                "Description": "Body slot; +2 light res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Forest Garb",
-                "Description": "Body slot; +1 outgoing healing",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Shadow Plate",
-                "Description": "Body slot; +1 psy dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Oak Armour",
-                "Description": "Body slot; +2 psn res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Elder Raiment",
-                "Description": "Body slot; +1 to condi DCs",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Profane Armour",
-                "Description": "Body slot; on spell hit, heal 1 HP",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Shamanic Garb",
-                "Description": "Body slot; +2 minion dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Battlemage Robes",
-                "Description": "Body slot; +1 incoming temp HP",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Immortal Plate",
-                "Description": "Body slot; +1 dmg res while bloodied",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Wild Armour",
-                "Description": "Body slot; +5' sp",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Archmage Robes",
-                "Description": "Body slot; on non-cantrip spell cast, gain 3 temp HP",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Heavy Plate",
-                "Description": "Body slot; 20% chance to nullify extra crit dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Refuge Gloves",
-                "Description": "Gloves slot; +1 phys res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Outcast Gloves",
-                "Description": "Gloves slot; +2 nec res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Noble Gloves",
-                "Description": "Gloves slot; +1 spell dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Engraved Gauntlets",
-                "Description": "Gloves slot; +1 dmg res while bloodied",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Deadly Bracers",
-                "Description": "Gloves slot; -1 crit req",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Crusader Gauntlets",
-                "Description": "Gloves slot; +2 psy res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Refuge Boots",
-                "Description": "Boots slot; +1 phys res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Leather Boots",
-                "Description": "Boots slot; +5' sp",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Fur Boots",
-                "Description": "Boots slot; +2 cold res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Shrine Boots",
-                "Description": "Boots slot; +1 to saves to end ongoing effects",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Arcane Boots",
-                "Description": "Boots slot; +1 incoming temp HP",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Mesh Boots",
-                "Description": "Boots slot; +2 fire res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Wooden Shield",
-                "Description": "Shield slot; +1 AC",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Cavalier Shield",
-                "Description": "Shield slot; +1 dmg res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Prismatic Shield",
-                "Description": "Shield slot; +1 non-phys res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Heater Shield",
-                "Description": "Shield slot; +1 phys res",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Bandit Shield",
-                "Description": "Shield slot; +1 phys dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Root Shield",
-                "Description": "Shield slot; +1 HP for bloodied threshold",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Frostbound Shield",
-                "Description": "Shield slot; +1 to condi DCs",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Embossed Shield",
-                "Description": "Shield slot; +1 melee phys dmg",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Mountain Shield",
-                "Description": "Shield slot; +1 dmg res while bloodied",
-                "Tags": ["armour"]
-            },
-            {
-                "Name": "Carapace Shield",
-                "Description": "Shield slot; +2 psn res",
-                "Tags": ["armour"]
-            }
-        ]
-    }
+    "weapon": [
+        {
+            "Name": "Club",
+            "Description": "1d6 B; thrown (10'/15')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Dagger",
+            "Description": "1d4 P; finesse; thrown (10'/15'); flexible (S)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Gauntlet",
+            "Description": "1d4 B; light; unarmed",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Light Mace",
+            "Description": "1d4 B; light; finesse; shove",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Longspear",
+            "Description": "1d8 P; two-handed; reach",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Mace",
+            "Description": "1d6 B; shove",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Morningstar",
+            "Description": "1d6 B; flexible (P)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Sickle",
+            "Description": "1d4 S; light; finesse; trip",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Spear",
+            "Description": "1d6 P; thrown (20'/30')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Spiked Gauntlet",
+            "Description": "1d4 P; light; unarmed",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Staff",
+            "Description": "1d8 B; 2h; conduit",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Blowgun",
+            "Description": "1 P; 20'/40' range; light; non-lethal",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Crossbow",
+            "Description": "1d8 P; 120'/240' range; 2h",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Dart",
+            "Description": "1d4 P; no melee; light; thrown (20'/30')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Hand Crossbow",
+            "Description": "1d6 P; 60'/120' range",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Heavy Crossbow",
+            "Description": "1d10 P; 120'/240' range; 2h; reload",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Javelin",
+            "Description": "1d6 P; no melee; thrown (30'/45')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Sling",
+            "Description": "1d6 B; 50'/100' range; propulsive",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Wand",
+            "Description": "1d4 force; 30'/60' range; conduit; light; mental",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Bastard Sword",
+            "Description": "1d10 S; 2h; grapple",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Battle Axe",
+            "Description": "1d8 S; sweep",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Boomerang",
+            "Description": "1d4 S; thrown (20'/30'); returning",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Bo Staff",
+            "Description": "1d8 B; 2h; parry; reach; trip",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Falchion",
+            "Description": "1d10 S; 2h; forceful; sweep",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Flail",
+            "Description": "1d6 B; disarm; sweep; trip",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Glaive",
+            "Description": "1d8 S; 2h; deadly; forceful; reach",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Greataxe",
+            "Description": "1d12 S; 2h; heavy; sweep",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Greatclub",
+            "Description": "1d10 B; 2h; backswing; heavy; shove",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Greatpick",
+            "Description": "1d10 P; 2h; fatal (d12); heavy",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Greatsword",
+            "Description": "1d12 S; 2h; flexible (P); heavy",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Guisarme",
+            "Description": "1d10 S; 2h; reach; trip",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Halberd",
+            "Description": "1d10 P; 2h; reach; flexible (S)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Hatchet",
+            "Description": "1d6 S; light; sweep; thrown (10'/15')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Lance",
+            "Description": "1d8 P; 2h; charge (d10); deadly; reach",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Light Hammer",
+            "Description": "1d6 B; light; thrown (20'/30')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Light Pick",
+            "Description": "1d4 P; light; fatal (d8)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Longsword",
+            "Description": "1d8 S; flexible (P)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Main-gauche",
+            "Description": "1d4 P; light; disarm; finesse; parry; flexible (S)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Maul",
+            "Description": "1d12 B; 2h; heavy; shove",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Nunchaku",
+            "Description": "1d4 B; 2h; compound; finesse",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Pick",
+            "Description": "1d6 P; fatal (d10)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Ranseur",
+            "Description": "1d10 P; 2h; disarm; reach",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Rapier",
+            "Description": "1d6 P; fatal (d8); disarm; finesse",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Ring Blade",
+            "Description": "1d10 S; 2h; disarm; finesse; sweep",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Sap",
+            "Description": "1d6 B; light; non-lethal",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Scimitar",
+            "Description": "1d6 S; forceful; sweep",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Scythe",
+            "Description": "1d10 S; 2h; deadly; trip",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Shortsword",
+            "Description": "1d6 P; light; finesse; flexible (S)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Small Shield",
+            "Description": "1d4 B; light; targe (1)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Small Spiked Shield",
+            "Description": "1d4 P; light; targe (1)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Spiked Tower Shield",
+            "Description": "1d6 P; 2h; heavy; shove; targe (2)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Starknife",
+            "Description": "1d4 P; light; fatal (d6); finesse; thrown (20'/30'); flexible (S)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Tower Shield",
+            "Description": "1d6 B; 2h; heavy; shove; targe (2)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Trident",
+            "Description": "1d8 P; thrown (20'/30')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "War Flail",
+            "Description": "1d10 B; 2h; disarm; heavy; sweep; trip",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Warhammer",
+            "Description": "1d8 B; shove",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Whip",
+            "Description": "1d4 S; disarm; finesse; non-lethal; reach; trip",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Composite Longbow",
+            "Description": "1d8 P; 100'/200' range; 2h; fatal (d10); propulsive; volley (50')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Composite Shortbow",
+            "Description": "1d6 P; 60'/120' range; 2h; fatal (d10); propulsive",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Longbow",
+            "Description": "1d8 P; 100'/200' range; 2h; fatal (d10); volley (50')",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Shortbow",
+            "Description": "1d6 P; 60'/120' range; 2h; fatal (d10)",
+            "Tags": ["weapon"]
+        }
+    ],
+    "armour": [
+        {
+            "Name": "Shield",
+            "Description": "+2 AC",
+            "Tags": ["armour"]
+        },
+        {
+            "Name": "Helmet",
+            "Description": "Helm slot",
+            "Tags": ["armour"]
+        },
+        {
+            "Name": "Gloves",
+            "Description": "Gloves slot",
+            "Tags": ["armour"]
+        },
+        {
+            "Name": "Boots",
+            "Description": "Boots slot",
+            "Tags": ["armour"]
+        },
+        {
+            "Name": "Body Armour",
+            "Description": "Choice of Clothes, Studded Leather, Half Plate, or Plate",
+            "Tags": ["armour"]
+        }
+    ]
 }

@@ -183,6 +183,35 @@ func fetchTraps(t string) ([]Generic, error) {
 	return ret, nil
 }
 
+func fetchBooks(t string) ([]Generic, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "book.json"))
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	books := Books{}
+	err = json.Unmarshal([]byte(f), &books)
+	if err != nil {
+		return []Generic{}, err
+	}
+
+	var bookList []Generic
+	switch t {
+	case "Tome":
+		bookList = books.Tome
+	case "Manual":
+		bookList = books.Manual
+	default:
+		return []Generic{}, fmt.Errorf("Invalid book type: %s", t)
+	}
+	return bookList, nil
+}
+
 func fetchBlessings() ([]string, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
@@ -213,20 +242,10 @@ func fetchMundanes(t string) ([]Mundane, error) {
 		return []Mundane{}, err
 	}
 
-	mundanesAll := MundanesAll{}
-	err = json.Unmarshal([]byte(f), &mundanesAll)
+	mundanes := Mundanes{}
+	err = json.Unmarshal([]byte(f), &mundanes)
 	if err != nil {
 		return []Mundane{}, err
-	}
-
-	var mundanes Mundanes
-	switch t {
-	case "standard":
-		mundanes = mundanesAll.Standard
-	case "crit":
-		mundanes = mundanesAll.Crit
-	default:
-		return []Mundane{}, fmt.Errorf("Invalid mundane type: %s", t)
 	}
 
 	var ret []Mundane

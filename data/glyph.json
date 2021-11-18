@@ -2478,5 +2478,85 @@
             "9. You move much farther than normal in a round. This means you can move up to 120' on your turn as a free action once per turn. Alternatively, you can use a bonus action to move up to 200', or up to 500' as a DC 12 Athletics check.",
             "10. You gain +3 DEX."
         ]
+    },
+    {
+        "name": "Operates Undercover",
+        "description": "undercover infiltration",
+        "tiers": [
+            "1. You gain prof/+2 in Perception and Deception, and have +2 to checks to discover clues in text and interact with magical devices.",
+            "2. You gain +2 to checks to disguise yourself. You can alter your posture, voice, mannerisms, and hair to look like someone else for as long as you keep up a disguise, but this requires a disguise kit.",
+            "3. Choose one of the following to gain +2 to: attacks with a weapon class of your choice, DCs for avoiding your explosives, or both Stealth and lockpicking checks.",
+            "4. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you gain advantage on related checks.",
+            "5. Using What's Available: 1/SR; bonus action; If you have the time and the freedom to scrounge for everyday materials in your environment, you can fashion a temporary asset that will grant you advantage once on a specific task. For example, if you need to climb a wall, you could create some sort of climbing assistance device; if you need to break out of a cell, you can find something to use as lockpicks; if you need to create a small distraction, you could put together something to make a loud bang and flash; and so on. The asset lasts up to a maximum of 1 minute, or until used for the purpose you fashion it.",
+            "6. Trust to Luck: 1/min; free action; Sometimes, you just have to roll the dice and hope things add up in your favour. When you use this feature, roll a d6. On any even result, the task you are attempting gains double advantage. On a roll of 1, the task gains disadvantage.",
+            "7. Assassin: 1/LR; bonus action; If you strike a creature of CR 2 or less with a weapon you are proficient in, you kill the target instantly.",
+            "8. +2 to checks to discover clues in text.",
+            "9. +2 to checks to disguise yourself.",
+            "10. You have +3 to DCs for avoiding your explosives."
+        ]
+    },
+    {
+        "name": "Plays God",
+        "description": "life magiscience",
+        "tiers": [
+            "1. Find Origin: At-will; bonus action; You can study a creature or plant and learn 1 thing about where it came from. You may uncover its place of origin, its creator (if it has one), or the way in which it was formed.",
+            "2. Hush Now: 2/min; bonus action; Through voice and actions, you temporarily convince a non-humanoid creature within 30' that you are its parent or creator. It remains calm for up to 2 rounds, as long as you focus all your attention on it. The DM has final say over what counts as a non-humanoid creature, but unless some kind of deception is at work, you should know whether you can affect a creature before you attempt to use this feature on it. The creature must have at least some biological components to be affected by this feature.",
+            "3. Creature Comfort: 2/min; bonus action; You always carry a portable healing lab. It includes a variety of salves, patches, devices, and injections that you have created to heal non-human creatures. If you spend a bonus action using one of these, you can heal a willing creature for 6 HP. The lab can be used 3 times before it needs to be restocked (which takes about 24 hours).",
+            "4. You gain +2 to checks to create or grow life forms, including farming, birthing, animal husbandry, hatching eggs, and raising young.",
+            "5. Grow: 1/min; bonus action; You take 10 minutes to create a serum that causes a single non-humanoid creature (CR 2 or lower) to mature to its fully grown size, strength, weight, and so on in just 48 hours. The effect is permanent.",
+            "6. Splice: 1/SR; bonus action; If you have the right tools (lab, serums, samples, and so on) and spend at least a week working on it, you can create the necessary technology to splice the genes of 1 non-humanoid creature into another. The 2 (or more) creatures must be decided ahead of time and all must be CR 2 or lower. Using the device to do the splicing is a bonus action. Your changes give the creature either +1 or -1 to all rolls it makes, and raises its CR by 1. The effect is permanent.",
+            "7. Clone: 1/LR; bonus action; If you have the right tools (lab, serums, samples, and so on) and spend at least a week working on it, you can clone a non-humanoid creature (up to CR 3) that you have easy access to. The cloned creature requires an additional week to reach maturity. Until that time, all its rolls have disadvantage.",
+            "8. Life Saver: 1/week; bonus action; If you have the right tools and the ability to focus completely for 10 minutes, you can attempt to bring a recently deceased non-humanoid creature back to life. They must have died within the last 10 minutes, their body must be mostly intact, and they must have died from something that can be fixed with technology (such as asphyxiation, heart stoppage, and so on). This does not work for creatures that have been decapitated or otherwise had their bodies mutilated beyond repair.",
+            "9. By looking at and touching any creature or plant you can instantly learn its place of origin, its creator (if it has one), and the way in which it was formed.",
+            "10. Your Hush Now feature now lasts as long as you focus all your attention on the target."
+        ]
+    },
+    {
+        "name": "Practises Soul Sorcery",
+        "description": "soul magic",
+        "tiers": [
+            "1. Your soul is installed in a ring or amulet. This insulates you somewhat from pain, granting you +1 to AC, and you gain +2 to Wisdom and Constitution saves. If your phylactery is destroyed for any reason, your soul returns to your body, and you lose all benefits of this feature until you can construct a new phylactery, which is a process requiring a day of labour and a mundane ring or amulet. Until you construct a new phylactery, all your ability scores are reduced by 1.",
+            "2. Clothe Spirit: 1/min; bonus action; A lost spirit takes up residence in a piece of jewellery you wear or in a tattoo on your body. With this feature, you can clothe the spirit in the physical body of another creature no more than 1 size larger than you for up to 1 hour before the spirit must depart and return to the jewellery or tattoo that normally houses it. The target body can be any dead body within 30'. The body can also be that of a sleeping creature that you touch (to clothe the spirit in a sleeping body, you must touch the body and make an Intelligence-based attack). If you clothe the spirit in a living, sleeping creature, upon waking that creature retains no memory of having been the vessel for a spirit, except perhaps in the hint of a dream. The resultant clothed spirit is a CR 1 undead creature devoted to you. You and the DM can work ou thte details of your particular spirit, independent of the body it inhabits. It is a minion. In addition to its creature actions, it can produce a terrifying Soul Scream once per long rest that attacks up to 3 living targets within 30'. If a target of the Soul Scream is affected, it is incapacitated during its next turn. A clothed spirit cannot use any melee or ranged weapon attacks. If the body housing the spirit takes 12 damage or if an hour passes, the soul returns to whatever item you house it in; if the body was a living, sleeping creature, it wakes up.",
+            "3. Soul Rider: At-will; bonus action; If your phylactery is separated from you, you can concentrate to see, hear, and smell through it. Your sensory capabilities are not greater than normal, except in 1 way: you can sense the environment around the phylactery even if it is in another creature's pocket, bag, pack, or similar container. 3' of earth, 1' of stone, or an inch of metal blocks your ability to see.",
+            "4. The spirit you create with your Clothe Spirit feature increases to CR 2.",
+            "5. Vicious Soul: 1/SR; bonus action; A lost spirit of a vindictive ancestor takes up residence in a piece of jewellery you wear or in a tattoo on your body. You can coax it to enter either you or a willing ally within 30'. Upon installation, the vessel (you or the chosen ally) gains the following benefits: +5 STR, +4 DEX, and +6 WIS. The vicious spirit does not care to distinguish its enemies, and it randomly attacks any creature it can see and reach. You or the allied vessel can attempt a DC 9 Charisma save each turn to eject the vicious soul. Afterward, whoever hosted the raging soul loses 4d6 hit points.",
+            "6. The spirit you create with your Clothe Spirit feature increases to CR 3.",
+            "7. Soul River: At-will; bonus action; You can mold souls. If you succeed at a DC 12 Religion check, you can transfer up to 5 points among your ability scores, or among yours and another willing creature's, in any combination, at a rate of 1 point per round. For example, you could transfer 3 STR to an ally's DEX, and 2 DEX to your own INT, which would take a total of 5 rounds. Each time you use this feature, the DC increases by 3 until your next long rest.",
+            "8. If you are slain in the material plane, your spirit is drawn to your phylactery instead of the afterlife, assuming your phylactery is not also destroyed. Your soul is housed for 10 days in your phylactery, after which you are reincarnated in a new body identical to your old body at or near where your phylactery resides. You return with nothing but your phylactery. After you enjoy this benefit, you cannot do so again for 1 year (so if you die again before a year elapses, your spirit goes directly to the afterlife, who are likely unhappy that you cheated them once). Alternatively, you can attempt to pull another soul out of the afterlife and reincarnate it as a living creature. You can do so only if you know the full name of the creature, if you have something of its body or a cherished possession, and if it has not been dead for more than 1 year. The spirit must also be available to return. After you use this alternative, you cannot use it or the option to return yourself to life described above for 1 year.",
+            "9. The spirit you create with your Clothe Spirit feature increases to CR 4.",
+            "10. While your soul is installed in a phylactery, you gain a further +3 to Constitution saves."
+        ]
+    },
+    {
+        "name": "Predates",
+        "description": "becoming an animalistic predator",
+        "tiers": [
+            "1. You gain +1 AC and either +3 DEX or +3 STR (choose either Strength or Dexterity, not both).",
+            "2. Your natural weapons have a minimum damage die size of 1d6.",
+            "3. You gain proficiency in Stealth and +2 to initiative.",
+            "4. You gain a 1d6 bonus to natural weapon damage.",
+            "5. Your melee attacks using natural weapons have advantage. If you hit with one, you can grapple the the target.",
+            "6. When you wish, while in combat, you can enter a state of animal frenzy. While in this state, you cannot cast spells, but you gain +4 STR and DEX. This effect lasts for as long as you wish, but it ends if no combat is taking place within range of your senses.",
+            "7. Weapon Master: 1/SR; free action; When using a natural weapon, you can reroll any attack roll you wish and take the better of the two results.",
+            "8. You gain +1d6 damage when using natural weapons.",
+            "9. You gain +2 STR.",
+            "10. Your natural weapons have a minimum damage die size of 1d12."
+        ]
+    },
+    {
+        "name": "Processes Information",
+        "description": "knowledge",
+        "tiers": [
+            "1. Gain prof/+2 in 3 different knowledge skills of your choice.",
+            "2. You gain +2 INT.",
+            "3. You can access the ethereal plane from anywhere in the material plane. You have +2 to checks to navigate the ethereal plane.",
+            "4. You gain +2 INT.",
+            "5. Unearth Knowledge: 1/SR; bonus action; You can access the ethereal plane with such sophistication that you can ask the DM 1 yes-or-no question and get an answer. The DC for this varies but is typically 9.",
+            "6. Find the Undoing: 1/SR; bonus action; Through observation and access to the ethereal plane, you determine the weaknesses, vulnerabilities, qualities, and mannerisms of a single creature. The DM should reveal the creature's CR, basic abilities, and any obvious weaknesses. All tasks you attempt that affect that creature (attack, save against, interact with, and so on) have double advantage.",
+            "7. Your enhanced mental abilities give you prof/+2 in both Dexterity and Wisdom saves.",
+            "8. Any time you would normally use your Dexterity modifier, you can use your Intelligence modifier instead. This includes Dexterity saves.",
+            "9. Gain +2 to all knowledge skills.",
+            "10. You gain +3 INT."
+        ]
     }
 ]

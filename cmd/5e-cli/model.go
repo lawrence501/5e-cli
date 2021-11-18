@@ -10,11 +10,6 @@ type Traps struct {
 	Crit     []Generic `json:"crit"`
 }
 
-type MundanesAll struct {
-	Standard Mundanes `json:"standard"`
-	Crit     Mundanes `json:"crit"`
-}
-
 type Mundanes struct {
 	Weapon []Mundane `json:"weapon"`
 	Armour []Mundane `json:"armour"`
@@ -24,6 +19,11 @@ type Mundane struct {
 	Name        string   `json:"name"`
 	Description string   `json:"description"`
 	Tags        []string `json:"tags"`
+}
+
+type Books struct {
+	Tome   []Generic `json:"tome"`
+	Manual []Generic `json:"manual"`
 }
 
 type Cards struct {

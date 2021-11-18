@@ -936,7 +936,7 @@
   },
   {
     "name": "spellblade - storm blade",
-    "mods": ["+1d4 $nonPhysType dmg to your melee hits", "on {nonPhysType} melee hit, 20% chance for target to make CON save or take 1d4 light spell at start of their next turn"],
+    "mods": ["+1d4 $nonPhysType dmg to your melee hits", "on {nonPhysType} melee hit, 20% chance for target to make CON save or take 1d4 {nonPhysType} spell at start of their next turn"],
     "upgrade": "+1 dmg ALT 10% NOT proc effect"
   },
   {

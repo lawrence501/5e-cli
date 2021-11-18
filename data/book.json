@@ -1,0 +1,22 @@
+{
+    "tome": [
+        {
+            "name": "Purging Lemure Transformation",
+            "description": "On cast, remove any conditions of your choice from yourself."
+        },
+        {
+            "name": "Efficient Lemure Transformation",
+            "description": "Can be cast as a 1st-level spell."
+        }
+    ],
+    "manual": [
+        {
+            "name": "Improved Overrun",
+            "description": "+1 basic damage."
+        },
+        {
+            "name": "Grievous Overrun",
+            "description": "On hit, target makes a CON save or 1 S DoT."
+        }
+    ]
+}

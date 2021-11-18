@@ -18,7 +18,7 @@ Golang CLI helper for my D&amp;D 5e campaigns
 
 - Para: 10
 - Stun: 8
-- Incap/double disadv condi: 5
+- Stagger/Debil/double disadv condi: 5
 - Single disadv condi/sluggish: 3
 - Prone/similar: 2
 - Slow: 1
@@ -44,6 +44,12 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Unlimited spellcast: 5/lvl
 
 ## Condition definitions
+
+### Dazed
+
+Shares condition immunity with incapacitation.
+
+A dazed creature has disadvantage with Offence and Defence.
 
 ### Dominated
 

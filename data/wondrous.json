@@ -122,27 +122,47 @@
         },
         {
             "name": "Anthology of Enhanced Radiance",
-            "description": "a5e pg 230"
+            "description": "https://a5e.tools/node/815"
         },
         {
             "name": "Archaic Creed",
-            "description": "a5e pg 231"
+            "description": "https://a5e.tools/node/817"
         },
         {
             "name": "Atlas to Libation",
-            "description": "a5e pg 234"
+            "description": "https://a5e.tools/node/828"
         },
         {
             "name": "Bag of Cheese",
-            "description": "a5e pg 236"
+            "description": "https://a5e.tools/node/831"
         },
         {
             "name": "Barrow Bread",
-            "description": "a5e pg 238"
+            "description": "https://a5e.tools/node/835"
         },
         {
             "name": "Birdsong Whistle",
-            "description": "a5e pg 239"
+            "description": "https://a5e.tools/node/840"
+        },
+        {
+            "name": "Compendium of Many Colours",
+            "description": "https://a5e.tools/node/878"
+        },
+        {
+            "name": "Draconic Diorama",
+            "description": "https://a5e.tools/node/897"
+        },
+        {
+            "name": "Enchanted Music Sheet",
+            "description": "https://a5e.tools/node/915"
+        },
+        {
+            "name": "Essay on Efficient Armour Management",
+            "description": "https://a5e.tools/node/916"
+        },
+        {
+            "name": "Explorer's Chalk",
+            "description": "https://a5e.tools/node/924"
         }
     ],
     "uncommon": [

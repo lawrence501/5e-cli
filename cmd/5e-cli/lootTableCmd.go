@@ -6,9 +6,21 @@ import (
 	"strings"
 )
 
-var lowGold = func() error {
-	amount := rand.Intn(20) + 1
-	log.Printf("Low gold: %dgp\n", amount)
+var book = func() error {
+	var t string
+	typeRoll := rand.Intn(2)
+	if typeRoll < 1 {
+		t = "Tome"
+	} else {
+		t = "Manual"
+	}
+	books, err := fetchBooks(t)
+	if err != nil {
+		return err
+	}
+	chosen := books[rand.Intn(len(books))]
+
+	log.Printf("Book\n%s of %s: %s", t, chosen.Name, chosen.Description)
 	return nil
 }
 
@@ -57,7 +69,16 @@ var mundane = func() error {
 
 	title := "Mundane"
 	if t == "crit" {
-		title = "Exotic mundane!"
+		var bonus string
+		switch chosen.Tags[0] {
+		case "weapon":
+			bonus = "+1 dmg die size"
+		case "armour":
+			bonus = "+1 phys res"
+		default:
+			bonus = ""
+		}
+		title = "Exotic mundane (" + bonus + ")!"
 	}
 	log.Printf("%s\n%s: %s", title, chosen.Name, chosen.Description)
 	return nil

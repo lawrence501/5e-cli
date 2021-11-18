@@ -670,8 +670,8 @@
         "startingMods": [
             {
                 "description": "at the start of every 6th turn, across combats, gain dmg imm until start of your next turn",
-                "pointValue": "7",
-                "upgrade": "-1 turn/7"
+                "pointValue": "4",
+                "upgrade": "-1 turn/4"
             },
             {
                 "description": "on first turn of combat, as movement action, can gain dmg imm until start of your next turn",
@@ -1549,6 +1549,154 @@
                 "description": "10. +1 fire DoT dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Paranoia",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 AC",
+                "pointValue": "15",
+                "upgrade": "+1/5"
+            },
+            {
+                "description": "-1 effectiveness of buffs on you",
+                "pointValue": "-3",
+                "upgrade": "-1 and 4 pts distributed"
+            },
+            {
+                "description": "-1 global AB",
+                "pointValue": "-5",
+                "upgrade": "-1 and 6 pts distributed"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. -1 global dmg; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 and 3 pts distributed"
+            },
+            {
+                "description": "2. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "3. on block, 40% chance to deal 2 psy glyphic dmg to all allies; distribute 2pts",
+                "pointValue": "1",
+                "upgrade": "+10% and 2 pts distributed OR +1 psy and 2 pts distributed"
+            },
+            {
+                "description": "4. on block, 30% chance to shift 10' away from offender",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +5'/1"
+            },
+            {
+                "description": "5. on block, 20% chance to use random prepared spell/maneuver on offender, with costs",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "6. on block, 20% chance to debil random ally within 60' until end of their next turn; distribute 2pts",
+                "pointValue": "-1",
+                "upgrade": "+10% and 2 pts distributed"
+            },
+            {
+                "description": "7. you have -10' sp while attempting to retreat from combat; distribute 2pts",
+                "pointValue": "1",
+                "upgrade": "-5' and 2pts distributed"
+            },
+            {
+                "description": "8. +1 to saves against being forcibly moved",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. -1 incoming healing; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 and 3pts distributed"
+            },
+            {
+                "description": "10. 20% chance for bonus actions to fail; distribute 2pts",
+                "pointValue": "1",
+                "upgrade": "+10% and 2pts distributed"
+            }
+        ]
+    },
+    {
+        "name": "Queen Wasp",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on turn start, you and allies within 60' heal 1 HP",
+                "pointValue": "6",
+                "upgrade": "+1/6"
+            },
+            {
+                "description": "allies within 60' have +3 spell dmg res while under the effects of the dodge action",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 max hit dice",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 AoE dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +3 max HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "7. +1 wep dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 nec dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on spell hit, target cannot sense their allies for combat",
+                "pointValue": "2",
+                "upgrade": "+2 spell dmg vs targets with no allies they can sense/1"
+            },
+            {
+                "description": "10. on spell hit vs target who has taken psy dmg since your last turn, move up 1 space in init tracker",
+                "pointValue": "3",
+                "upgrade": "+1 spell dmg vs targets who have taken psy dmg since your last turn/1"
             }
         ]
     }
