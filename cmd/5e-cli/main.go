@@ -48,6 +48,11 @@ var COMMAND_MAP = map[string]func() error{
 	"condi":         condition,
 	"mutate":        mutation,
 	"tpk":           tpk,
+	"plains":        plains,
+	"forest":        forest,
+	"mountain":      mountain,
+	"aquatic":       aquatic,
+	"insight":       insight,
 }
 
 func main() {

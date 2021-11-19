@@ -7,6 +7,38 @@
         {
             "name": "Efficient Lemure Transformation",
             "description": "Can be cast as a 1st-level spell."
+        },
+        {
+            "name": "Soulbound Intellect Fortress",
+            "description": "If cast on another creature, both you and the creature add 1d4 psychic damage to your spells for the duration."
+        },
+        {
+            "name": "Stable Intellect Fortress",
+            "description": "No longer requires concentration."
+        },
+        {
+            "name": "Rapid Mislead",
+            "description": "You can control your copy as a bonus action, and can do so twice per turn. Switching between your copy's and your own senses is a free action."
+        },
+        {
+            "name": "Blinking Mislead",
+            "description": "As part of the casting, you may teleport up to 30' in any direction after turning invisible."
+        },
+        {
+            "name": "Stable Modify Memory",
+            "description": "No longer requires concentration."
+        },
+        {
+            "name": "Efficient Modify Memory",
+            "description": "Can be cast as a 4th-level spell."
+        },
+        {
+            "name": "Blinding Darkness",
+            "description": "Creatures leaving area must make CON save or be blinded for 1 minute, or until passing a passive save."
+        },
+        {
+            "name": "Enfeebling Darkness",
+            "description": "On cast, creatures of your choice in the area are debilitated until the end of your next turn."
         }
     ],
     "manual": [
@@ -17,6 +49,14 @@
         {
             "name": "Grievous Overrun",
             "description": "On hit, target makes a CON save or 1 S DoT."
+        },
+        {
+            "name": "Culling Mistaken Opportunity",
+            "description": "Attack deals +1d10 base damage against bloodied targets."
+        },
+        {
+            "name": "Debilitating Mistaken Opportunity",
+            "description": "The debilitation lasts until the target passes a passive CON save."
         }
     ]
 }

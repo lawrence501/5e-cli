@@ -258,6 +258,50 @@ func fetchMundanes(t string) ([]Mundane, error) {
 	return ret, nil
 }
 
+func generateEncounter(location string) (string, error) {
+	positiveChance := 20
+	positiveRoll := rand.Intn(100)
+	if positiveRoll < positiveChance {
+		return "Legendary Chest", nil
+	}
+
+	allEncounters, err := fetchEncounters()
+	if err != nil {
+		return "", err
+	}
+	var encounterList []string
+	switch location {
+	case "plains":
+		encounterList = allEncounters.Plains
+	case "forest":
+		encounterList = allEncounters.Forest
+	case "mountain":
+		encounterList = allEncounters.Mountain
+	case "aquatic":
+		encounterList = allEncounters.Aquatic
+	}
+	return encounterList[rand.Intn(len(encounterList))], nil
+}
+
+func fetchEncounters() (Encounters, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return Encounters{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "encounter.json"))
+	if err != nil {
+		return Encounters{}, err
+	}
+
+	encounters := Encounters{}
+	err = json.Unmarshal([]byte(f), &encounters)
+	if err != nil {
+		return Encounters{}, err
+	}
+	return encounters, nil
+}
+
 func fetchWondrous(rarity string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {

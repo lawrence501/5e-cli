@@ -163,6 +163,26 @@
         {
             "name": "Explorer's Chalk",
             "description": "https://a5e.tools/node/924"
+        },
+        {
+            "name": "Finder Gremlin",
+            "description": "https://a5e.tools/node/931"
+        },
+        {
+            "name": "Fizzy Lifter",
+            "description": "https://a5e.tools/node/933"
+        },
+        {
+            "name": "Fizzy Rocks",
+            "description": "https://a5e.tools/node/934"
+        },
+        {
+            "name": "Flask of Inebriation",
+            "description": "https://a5e.tools/node/936"
+        },
+        {
+            "name": "Humour Realignment Transfiguration",
+            "description": "https://a5e.tools/node/978"
         }
     ],
     "uncommon": [

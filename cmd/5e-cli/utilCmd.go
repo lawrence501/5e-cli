@@ -183,6 +183,73 @@ var tpk = func() error {
 	return nil
 }
 
+var plains = func() error {
+	encounter, err := generateEncounter("plains")
+	if err != nil {
+		return err
+	}
+	log.Printf("Random encounter!\n%s", encounter)
+	return nil
+}
+
+var forest = func() error {
+	encounter, err := generateEncounter("forest")
+	if err != nil {
+		return err
+	}
+	log.Printf("Random encounter!\n%s", encounter)
+	return nil
+}
+
+var mountain = func() error {
+	encounter, err := generateEncounter("mountain")
+	if err != nil {
+		return err
+	}
+	log.Printf("Random encounter!\n%s", encounter)
+	return nil
+}
+
+var aquatic = func() error {
+	encounter, err := generateEncounter("aquatic")
+	if err != nil {
+		return err
+	}
+	log.Printf("Random encounter!\n%s", encounter)
+	return nil
+}
+
+var insight = func() error {
+	socialP := promptui.Prompt{
+		Label:    "Social bonus of speaker",
+		Validate: validateInt,
+	}
+	socialBonus, err := socialP.Run()
+	if err != nil {
+		return err
+	}
+	socialBonusInt, err := strconv.Atoi(socialBonus)
+	if err != nil {
+		return err
+	}
+	socialCheck := rand.Intn(20) + socialBonusInt
+	log.Printf("SocialCheck: %d", socialCheck)
+	for k, v := range INSIGHTS {
+		insightCheck := rand.Intn(20) + v
+		var result string
+		if insightCheck > socialCheck+2 {
+			result = "succeeds"
+		} else if insightCheck < socialCheck-2 {
+			result = "fails"
+		} else {
+			result = "is unsure"
+		}
+		log.Printf("%s %s", k, result)
+		log.Printf("%d", insightCheck)
+	}
+	return nil
+}
+
 var skill = func() error {
 	log.Printf("Skill: %s", SKILLS[rand.Intn(len(SKILLS))])
 	return nil

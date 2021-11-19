@@ -167,6 +167,13 @@ var PARTY_MEMBERS []string = []string{
 	"Declan_tmp",
 }
 
+var INSIGHTS map[string]int = map[string]int{
+	"Adrian_tmp":  0,
+	"Dekel_tmp":   0,
+	"Bentley_tmp": 0,
+	"Declan_tmp":  0,
+}
+
 var LIGHT_TYPES []string = []string{
 	"sunlight",
 	"darkness",
@@ -178,7 +185,7 @@ var CONDITIONS []string = []string{
 	"deaf",
 	"frighten",
 	"grapple",
-	"incapacitate",
+	"daze",
 	"invisible",
 	"stagger",
 	"petrify",
@@ -189,6 +196,7 @@ var CONDITIONS []string = []string{
 	"unconscious",
 	"exhaust",
 	"sluggish",
+	"dominate",
 }
 
 var AOE_SHAPES []string = []string{
@@ -232,12 +240,14 @@ var HEALTH_STATUSES []string = []string{
 }
 
 var WEAPON_TRAITS []string = []string{
-	"backswing",
+	"rapid",
 	"charge (+2 die size)",
 	"compound",
+	"concealable",
 	"conduit",
 	"deadly",
 	"disarm",
+	"dual-wielding",
 	"fatal (+1 die size)",
 	"flexible (random other)",
 	"forceful",
@@ -245,16 +255,22 @@ var WEAPON_TRAITS []string = []string{
 	"heavy",
 	"mental",
 	"non-lethal",
-	"parry",
+	"parrying",
 	"propulsive",
-	"reload",
+	"loading",
+	"responsive",
 	"returning",
 	"shove",
 	"sweep",
 	"targe (1)",
 	"trip",
 	"unarmed",
-	"volley",
+	"thrown (20'/60')",
+	"finesse",
+	"two-handed",
+	"simple",
+	"martial",
+	"reach",
 }
 
 var SIZE_DIFFERENCES []string = []string{

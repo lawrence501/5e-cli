@@ -168,6 +168,12 @@
         "tags": []
     },
     {
+        "description": "+1 survival for harvesting creatures",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": []
+    },
+    {
         "description": "+1 to knowledge skills",
         "pointValue": "4",
         "upgrade": "1/4",
@@ -393,6 +399,12 @@
         "description": "+1 loot roll found while investigating if you had the only score above 13",
         "pointValue": "3",
         "upgrade": "+1 loot roll/3",
+        "tags": []
+    },
+    {
+        "description": "+1 monster part harvested if you had the only survival score above 13",
+        "pointValue": "3",
+        "upgrade": "+1 monster part/3",
         "tags": []
     },
     {

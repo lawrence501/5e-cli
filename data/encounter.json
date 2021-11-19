@@ -1,0 +1,19 @@
+{
+    "plains": [
+        "JACK: Silver Dragon Wyrmling (1)",
+        "JACK: Indigo Faerie Dragon (2)",
+        "JACK: Harpy (3)"
+    ],
+    "forest": [
+        "JACK: Indigo Faerie Dragon (2)"
+    ],
+    "mountain": [
+        "JACK: Silver Dragon Wyrmling (1)",
+        "JACK: Indigo Faerie Dragon (2)",
+        "JACK: Harpy (3)"
+    ],
+    "aquatic": [
+        "JACK: Silver Dragon Wyrmling (1)",
+        "JACK: Harpy (3)"
+    ]
+}

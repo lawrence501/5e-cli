@@ -21,6 +21,13 @@ type Mundane struct {
 	Tags        []string `json:"tags"`
 }
 
+type Encounters struct {
+	Plains   []string `json:"plains"`
+	Forest   []string `json:"forest"`
+	Mountain []string `json:"mountain"`
+	Aquatic  []string `json:"aquatic"`
+}
+
 type Books struct {
 	Tome   []Generic `json:"tome"`
 	Manual []Generic `json:"manual"`
