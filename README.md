@@ -57,6 +57,12 @@ Shares condition immunity with charm.
 
 A dominated creature is charmed. Additionally, the creature that dominated it controls the dominated creature during the dominated creature's turn. It can take move actions as usual and can use its standard action to take any Attack action (or Multiattack, where relevant).
 
+### Rattled
+
+Shares condition immunity with debilitation.
+
+A rattled creature cannot benefit from expertise dice and cannot take reactions.
+
 ### Sluggish
 
 Shares condition immunity with exhaustion.

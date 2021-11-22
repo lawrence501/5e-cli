@@ -1,44 +1,124 @@
 {
     "tome": [
         {
-            "name": "Purging Lemure Transformation",
+            "name": "Conductive Lightning Lure (0)",
+            "description": "+1 damage per cantrip tier per active minion."
+        },
+        {
+            "name": "Anchoring Lightning Lure (0)",
+            "description": "Duration is now 'Concentration, up to 1 minute'. The on-cast effect remains the same. At the start of your turn while concentrating, you can pull the target up to 10' towards you, with no other effect."
+        },
+        {
+            "name": "Eternal Frostbite (0)",
+            "description": "The disadvantage is now for all attacks the target makes until it passes a passive save. Gains a 4+ recharge."
+        },
+        {
+            "name": "Spreading Frostbite (0)",
+            "description": "All creatures of your choice within 5' of the target also suffer the disadvantage effect."
+        },
+        {
+            "name": "Voltaic Produce Flame (0)",
+            "description": "You conjure a ball of lightning instead of flame. The bright light radius increases to 20'. Damage is converted to lightning."
+        },
+        {
+            "name": "Charging Produce Flame (0)",
+            "description": "While you are holding the flame, dealing damage with a melee or touch attack grants +1 damage per cantrip tier to the flame. Throwing it consumes all additional damage."
+        },
+        {
+            "name": "Detonating Acid Splash (0)",
+            "description": "Leaves behind an unstable orb of acid. Casting time is now 'full turn action'. At the start of your next turn, all spaces where a target of this spell was suffer DEX save or take acid splash's dmg again."
+        },
+        {
+            "name": "Improved Acid Splash (0)",
+            "description": "All base damage dice increase to 1d8."
+        },
+        {
+            "name": "Minor Guidance (0)",
+            "description": "No longer requires concentration, and can be cast as a bonus action. The bonus to the check is reduced to +1."
+        },
+        {
+            "name": "Aggressive Guidance (0)",
+            "description": "If the boosted check is made against a creature, that creature takes 1 additional psychic damage per cantrip tier from all sources until the end of your next turn."
+        },
+        {
+            "name": "Major Cure Wounds (1)",
+            "description": "Healing die is increased to 2d8. Gains a 4+ recharge."
+        },
+        {
+            "name": "Staggered Cure Wounds (1)",
+            "description": "At the start of your next turn, the target heals 1d4 hit points."
+        },
+        {
+            "name": "Enduring Silent Image (1)",
+            "description": "Maximum duration is increased to 24 hours."
+        },
+        {
+            "name": "Empowering Silent Image (1)",
+            "description": "Your other spells are always upcast 1 level for free for the duration."
+        },
+        {
+            "name": "Ruinous Magic Missile (1)",
+            "description": "Creatures damaged make a STR save or are rattled until the end of your next turn."
+        },
+        {
+            "name": "Rapid Magic Missile (1)",
+            "description": "Casting time is now 'Bonus action'."
+        },
+        {
+            "name": "Heavy Caustic Brew (1)",
+            "description": "Ongoing damage increases to 1d12 while wielding a melee weapon."
+        },
+        {
+            "name": "Stable Caustic Brew (1)",
+            "description": "No longer requires concentration."
+        },
+        {
+            "name": "Precarious Longstrider (1)",
+            "description": "Targets ignore non-magical difficult terrain for the duration."
+        },
+        {
+            "name": "Cautious Longstrider (1)",
+            "description": "Effect ends on a target when they become bloodied, and heals them for 2d8 hit points."
+        },
+        {
+            "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
         {
-            "name": "Efficient Lemure Transformation",
+            "name": "Efficient Lemure Transformation (2)",
             "description": "Can be cast as a 1st-level spell."
         },
         {
-            "name": "Soulbound Intellect Fortress",
-            "description": "If cast on another creature, both you and the creature add 1d4 psychic damage to your spells for the duration."
-        },
-        {
-            "name": "Stable Intellect Fortress",
-            "description": "No longer requires concentration."
-        },
-        {
-            "name": "Rapid Mislead",
-            "description": "You can control your copy as a bonus action, and can do so twice per turn. Switching between your copy's and your own senses is a free action."
-        },
-        {
-            "name": "Blinking Mislead",
-            "description": "As part of the casting, you may teleport up to 30' in any direction after turning invisible."
-        },
-        {
-            "name": "Stable Modify Memory",
-            "description": "No longer requires concentration."
-        },
-        {
-            "name": "Efficient Modify Memory",
-            "description": "Can be cast as a 4th-level spell."
-        },
-        {
-            "name": "Blinding Darkness",
+            "name": "Blinding Darkness (2)",
             "description": "Creatures leaving area must make CON save or be blinded for 1 minute, or until passing a passive save."
         },
         {
-            "name": "Enfeebling Darkness",
+            "name": "Enfeebling Darkness (2)",
             "description": "On cast, creatures of your choice in the area are debilitated until the end of your next turn."
+        },
+        {
+            "name": "Supported Heat Metal (2)",
+            "description": "If you have 2+ active minions on casting, can also target another creature adjacent to original target."
+        },
+        {
+            "name": "Burning Heat Metal (2)",
+            "description": "On dealing the bonus action damage, the target makes a CON save or gets 1d4 fire DoT, stacking until passive CON save."
+        },
+        {
+            "name": "Mocking Magic Mouth (2)",
+            "description": "When cast with a single-event trigger, you can choose to cast Vicious Mockery through the mouth's message."
+        },
+        {
+            "name": "Frenzying Magic Mouth (2)",
+            "description": "Upon triggering for the first time, you gain an additional standard action until the end of your next turn. You can still only perform the same action once per turn."
+        },
+        {
+            "name": "Merciful Mind Spike (2)",
+            "description": "Damage increases to 3d10 against targets with less than maximum hit points."
+        },
+        {
+            "name": "Erasing Mind Spike (2)",
+            "description": "Damage increases to 3d12 against bloodied targets."
         }
     ],
     "manual": [
@@ -48,7 +128,7 @@
         },
         {
             "name": "Grievous Overrun",
-            "description": "On hit, target makes a CON save or 1 S DoT."
+            "description": "On hit, target makes a CON save or gets 1 slashing DoT, stacking until passive CON save."
         },
         {
             "name": "Culling Mistaken Opportunity",

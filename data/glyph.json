@@ -2558,5 +2558,85 @@
             "9. Gain +2 to all knowledge skills.",
             "10. You gain +3 INT."
         ]
+    },
+    {
+        "name": "Regenerates Tissue",
+        "description": "regeneration",
+        "tiers": [
+            "1. Regeneration: At-will; bonus action; You restore 2d6 + 2 hit points. This is a DC 6 Medicine check. Each additional time you use this feature, the DC increases by 3. The DC resets to 6 after a long rest.",
+            "2. You are immune to disease and poisons from creatures of CR less than your level. When you make a saving throw to resist a higher-CR toxin, the save has double advantage.",
+            "3. Induce Regeneration: 1/LR; bonus action; You cut a piece of your flesh free and apply it to another creature's wound. Your transplanted regenerating flesh restores 2d6 hit points to the creature. This is a DC 9 Medicine check.",
+            "4. Generate Carapace: 1/SR; bonus action; The outer layers of your skin calcify, giving you +2 AC until it sheds after 10 minutes.",
+            "5. Greater Regeneration: 1/week; bonus action; You restore your hit points to their maximum value. This is a DC 6 Medicine check.",
+            "6. Your consciousness and knowledge are concentrated into a rhizome tendril that protrudes 7cm from the back of your neck. You function normally, although the seat of your consciousness is located in the rhizome, not your brain. This shift provides several benefits: Your mental saving throws have advantage; you can detach the rhizome as a bonus action and mentally and remotely control your body at 120' range; You can shift your point of view between the rhizome and your body (or vice versa) as a bonus action (but if you shift your point of view away from your body, your body falls limp until your attention 'returns'); If your body is slain and the rhizome escapes, it can take root and regrow you completely in 3 days. The rhizome seed, while detached from your body, is a mobile creature. As the seed, you have 6 HP, and you can inflict 1d4 + level piercing damage with a spike. You have 13 AC and 5' speed, though you can deploy a fluffy vegetable 'wing' to drift on strong winds. If the rhizome seed is destroyed while detached from your body, you die.",
+            "7. Your Regeneration feature's DC only increases by 1 on use.",
+            "8. You are immune to disease and poisons from all creatures.",
+            "9. You can now use your Induce Regeneration feature once per short rest.",
+            "10. You can now use your Generate Carapace feature once per minute, and it grants +3 AC instead of 2."
+        ]
+    },
+    {
+        "name": "Revels in Trickery",
+        "description": "trickery",
+        "tiers": [
+            "1. Ledgermain: At-will; bonus action; You can perform small but seemingly impossible tricks. For example, you can make a small object in your hands disappear and move into a desired spot within reach (like your pocket). You can make someone believe that they have something in their posession that they do not (or vice versa). You can switch similar objects right in front of someone's eyes.",
+            "2. You have advantage when you attack a creature that has already been attacked this round and is within 5'.",
+            "3. Impersonate: 2/min; bonus action; You alter your voice, posture, and mannerisms, whip together a disguise, and have advantage on attempts to impersonate someone else, whether it is a specific individual or a general role (such as a city guard).",
+            "4. Choose whether you gain prof/+2 in Persuasion and Performance, or in Deception and Intimidation.",
+            "5. Poke and Run: 1/min; bonus action; When you attack a creature that has eyes, the attack has disadvantage. If you hit, the creature has trouble seeing for the next hour, and you can move or attempt to hide as part of the same action. Tasks the creature performs that rely on sight (which is most tasks) have disadvantage during this period.",
+            "6. Calm: 1/min; bonus action; Through jokes, song, or other art, you prevent a foe from attacking anyone or anything for 1 round.",
+            "7. You gain +2 to Sleight of Hand checks to create simple traps, especially varieties of deadfalls and snares using natural objects from the environment. You can create a trap in under a minute. When you lay a trap, decide whether you want to hold the victim in place (a snare) or inflict damage (a deadfall). Next, attempt a Sleight of Hand check with DC 9 (for a snare) or a DC equal to 1.5 times the number of points of damage you want to inflict (for a deadfall). For example, if you want to inflict 8 points of damage, that is a DC of 12. On a success, you create your trap, which has a detection, disarm, and escape DC of 9. If you are proficient in Stealth or Deception, this DC increases to 12. If you have expertise, it increases to 15.",
+            "8. Fake-Out: 1/year; free action; You are not really hurt at all! Choose to regain all hit points, replenish 2 healing surges, remove a condition from yourself, or change a failed die result to a natural 20.",
+            "9. You can now perform elaborate, complex tricks with your Ledgermain feature, so long as they don't involve any other creatures.",
+            "10. Your attack advantage's maximum range increases to 15'."
+        ]
+    },
+    {
+        "name": "Self-Evolves",
+        "description": "evolving your body and mind",
+        "tiers": [
+            "1. You gain +1 to an ability score of your choice.",
+            "2. You are skilled at keeping your evolved parts well kept, whether those parts are in your brain or your body. You have 1 additional maximum healing surge.",
+            "3. Thanks to your evolution, you gain prof/+2 in Perception.",
+            "4. You gain +5' speed, +2 to Athletics for climbing and swimming, +2 to Acrobatics for balancing, and +5' jump distance.",
+            "5. You have 1 one-handed melee or ranged weapon of your choice built into your body. You have proficiency with this weapon. The weapon is concealed unless you wish to use it.",
+            "6. Your new evolutions allow you to alter your body almost at will. Once per long rest, you can transfer 1 point between your ability scores.",
+            "7. Your new evolutions allow you to alter your body almost at will. Once per long rest, you can transfer up to 2 points between your ability scores in any combination.",
+            "8. You gain +1 AC, +1 to all attack rolls, and +2 to all ability scores.",
+            "9. You gain +2 to an ability score of your choice.",
+            "10. You have 3 additional maximum healing surges."
+        ]
+    },
+    {
+        "name": "Shepherds the Dead",
+        "description": "interacting with spirits of the dead",
+        "tiers": [
+            "1. Question the Spirits: 2/min; bonus action; You can call the spirit of a dead creature to you and petition it to answer a few questions (no more than 3 before the spirit fades). To do so is a two-step process, and calling the spirit is potentially the easiest step. First, you summon a spirit. You must have personally known the spirit when it was a living creature, or you must have an object that was owned by the spirit when it was a living creature and know the spirit's full name, or you must touch the physical remains of the creature. The spirit must be the essence of something that once lived in the Material Plane, and be free to join you. If the spirit responds, it can manifest as an insubstantial shade that answers for itself, if can inhabit an object or any remains you provide, or it can manifest as an invisible presence that you speak for. The spirit may not wish to answer your questions; the second step is persuading or convincing the spirit to help. The spirit only has knowledge it possessed in life.",
+            "2. A CR 2 creature of a dead humanoid accompanies you and follows your instructions. The spirit must remain within 5' of you - if it moves further away, it fades away at the end of your following turn and cannot return until you take a long rest. The spirit accomplice acts on your turn, has a speed of 30', and exists partially out of phase (allowing it to move through walls). The spirit takes up residence in an object you designate, and it manifests as either an invisible presence or a ghostly shade. Your spirit accomplice has expertise in 1 knowledge skill the DM determines. The spirit is normally insubstantial, but you may spend a bonus action once per minute to allow it to act as a combat creature. While corporeal, the spirit cannot move through objects or fly. A spirit remains corporeal for up to 10 minutes at a time, but fades back to being insubstantial if not actively engaged. If your spirit accomplice is destroyed, it reforms in 1d6 days, or you can attract a new spirit in 2d6 days.",
+            "3. Command the Dead: 1/min; bonus action; You can command an undead creature of up to CR 3 within 30'. If you are successful, the target cannot attack you for 1 minute, during which time it follows your verbal commands if it can hear and understand you.",
+            "4. At your command, your spirit accomplice wraps itself around you for up to 10 minutes. The spirit automatically inflicts 1d10 necrotic damage to anyone who tries to touch you or strike you with a melee attack. While the wraith cloak is active, you have advantage on all skill checks to evade the perceptions of others.",
+            "5. Call Dead Spirit: 1/week; bonus action; At your touch, the remains of a creature dead no longer than 7 days appears as a manifest (and apparently physical) spirit. The raised spirit persists for up to 1 day (or less, if it accomplishes something important to it before then), after which the spirit fades away and cannot be returned again. The raised spirit remembers everything it knew in life and possesses its previous powers (though not necessarily its equipment). In addition, it gains the ability to become insubstantial as a bonus action for up to 1 minute at a time. The raised spirit is not beholden to you, and it does not need to remain near you to remain manifest.",
+            "6. When your party kills a creature, if you choose, its spirit (if unprotected) is immediately pulled from its body. A portion of its soul energy infuses you, and you regain 2d6 hit points. Then the spirit is ferried to a special cell hidden in the afterlife. Only you know where the spirit is located, which means the spirit cannot be questioned, raised, or restored to life by any means unless you allow it.",
+            "7. When you use your Command the Dead feature, you can command undead of up to CR 4.",
+            "8. You can now use your Question the Spirits feature at-will.",
+            "9. Your spirit accomplice becomes a CR 3 creature.",
+            "10. You can now use your Command the Dead feature at-will."
+        ]
+    },
+    {
+        "name": "Slays Dragons",
+        "description": "fighting large creatures",
+        "tiers": [
+            "1. You gain proficiency with greatswords and lances.",
+            "2. You inflict 1d4 additional poison damage with weapons. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage.",
+            "3. You have +2 to Knowledge checks related to Dragons of the Material Plane. You also gain proficiency in Draconic.",
+            "4. You are immune to effects that would charm, mesmerise, or otherwise influence your mind.",
+            "5. +4 AB with greatswords and lances.",
+            "6. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage.",
+            "7. You have +2 to Animal Handling checks to ride a mount.",
+            "8. You do not suffer the normal penalties of exhaustion, except for death. While on 0 hit points, you can continue to take turns as normal, however all tasks you attempt have disadvantage.",
+            "9. Slayer: 2/min; free action; You inflict 1d8 additional base damage with a greatsword or lance.",
+            "10. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage."
+        ]
     }
 ]
