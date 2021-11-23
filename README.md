@@ -69,8 +69,23 @@ Shares condition immunity with exhaustion.
 
 A sluggish creature reduces the number of attacks it can make with its Attack action by 1 (or Multiattack, where relevant).
 
+### Staggered
+
+Shares condition immunity with paralysis.
+
+A staggered creature suffers the following effects:
+- Incoming attack damage is always critical.
+- All incoming attacks have advantage.
+- All speeds are set to 0 feet.
+
 ## Terminology
 
 ### Splash Damage
 
 Splash damage is always optional. It deals its damage, up to the amount of the original hit, to all creatures of your choice within 5' of the target.
+
+## Revisited Combat Maneuvers
+
+### Cavalier Stance
+
+While riding your mount, your AC increases by 1.

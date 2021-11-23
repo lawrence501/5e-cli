@@ -10,7 +10,7 @@
         },
         {
             "name": "Eternal Frostbite (0)",
-            "description": "The disadvantage is now for all attacks the target makes until it passes a passive save. Gains a 4+ recharge."
+            "description": "The disadvantage is now for all attacks the target makes until it passes a passive save. Gains a 6+ recharge."
         },
         {
             "name": "Spreading Frostbite (0)",
@@ -42,7 +42,7 @@
         },
         {
             "name": "Major Cure Wounds (1)",
-            "description": "Healing die is increased to 2d8. Gains a 4+ recharge."
+            "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
         {
             "name": "Staggered Cure Wounds (1)",
@@ -123,20 +123,84 @@
     ],
     "manual": [
         {
-            "name": "Improved Overrun",
+            "name": "Improved Overrun (0)",
             "description": "+1 basic damage."
         },
         {
-            "name": "Grievous Overrun",
+            "name": "Grievous Overrun (0)",
             "description": "On hit, target makes a CON save or gets 1 slashing DoT, stacking until passive CON save."
         },
         {
-            "name": "Culling Mistaken Opportunity",
-            "description": "Attack deals +1d10 base damage against bloodied targets."
+            "name": "Shadowy Grapple (0)",
+            "description": "While grappling a target, gain an expertise die on DEX saves."
         },
         {
-            "name": "Debilitating Mistaken Opportunity",
-            "description": "The debilitation lasts until the target passes a passive CON save."
+            "name": "Frosty Grapple (0)",
+            "description": "Basic damage is converted to cold. The grapple on hit is converted into sluggish, and the target makes a CON save or this sluggish becomes staggered instead. All conditions last until the end of your next turn."
+        },
+        {
+            "name": "Rapid Disarm (0)",
+            "description": "Can be used as a bonus action if you've made an Attack action this turn."
+        },
+        {
+            "name": "Shadowy Disarm (0)",
+            "description": "You knock the item up to 60' away in a direction of your choice. Gains a 6+ recharge."
+        },
+        {
+            "name": "Forceful Shove (0)",
+            "description": "Shove distance is always increased by 5'."
+        },
+        {
+            "name": "Punishing Shove (0)",
+            "description": "Manifest blades on your hands and arms as you push. On hit, also make melee wep atk against target that deals 1 S dmg."
+        },
+        {
+            "name": "Enduring Grab On (0)",
+            "description": "You must be successfully shaken off twice in order to actually be thrown off a creature you are grabbing on."
+        },
+        {
+            "name": "Deadly Grab On (0)",
+            "description": "+1 to all damage you deal to creatures you are grabbing on to."
+        },
+        {
+            "name": "Keen Zealous Stance (1)",
+            "description": "Your modified attacks also gain +1 crit dice."
+        },
+        {
+            "name": "Cautious Zealous Stance (1)",
+            "description": "Incoming modified attacks deal 3 less damage."
+        },
+        {
+            "name": "Siphoning Cavalier Stance (1)",
+            "description": "On block while active, heal 1 hit point."
+        },
+        {
+            "name": "Improved Cavalier Stance (1)",
+            "description": "All damage you take while active is reduced by 1."
+        },
+        {
+            "name": "Fleeting Lean Into It (1)",
+            "description": "Only the first attack made knocks prone. The first attack made deals 1d6 additional base damage."
+        },
+        {
+            "name": "Devilish Lean Into It (1)",
+            "description": "Each hit forces the target to make a DEX save or gain 3 fire DoT, stacking until passive DEX save."
+        },
+        {
+            "name": "Deadly Exploit Footing (1)",
+            "description": "While a creature is prone, all damage you deal is increased by 1."
+        },
+        {
+            "name": "Shattering Exploit Footing (1)",
+            "description": "When the prone creature stands up, shrapnel erupts from it, staggering all creatures of your choice adjacent to it until the end of your next turn."
+        },
+        {
+            "name": "Resolute Heavy Stance (1)",
+            "description": "You gain an additional expertise die on saving throws made to resist combat maneuvers. Gains a 6+ recharge."
+        },
+        {
+            "name": "Generous Heavy Stance (1)",
+            "description": "No longer affects you. Affects all creatures of your choice within 60'."
         }
     ]
 }

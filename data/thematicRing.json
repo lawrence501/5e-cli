@@ -1998,5 +1998,50 @@
         "name": "fangs of the viper",
         "mods": ["+1 {nonPhysType} dmg", "+5' sp", "+1 {abilityScore}", "+1 {physType} dmg"],
         "tags": ["non-phys dmg", "speed", "ability score", "phys dmg"]
+    },
+    {
+        "name": "assassination",
+        "mods": ["-1 crit req", "+1 crit dice"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "soul of steel",
+        "mods": ["+1 {physType} res", "+1 {dmgPolarity} abs"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "void barrier",
+        "mods": ["+1 to {abilityScore} saves", "+1 incoming temp HP", "while you have temp HP, +1 spell dmg res"],
+        "tags": ["abilityScore", "temp hp"]
+    },
+    {
+        "name": "cloth and chain",
+        "mods": ["+1 to {abilityScore} saves", "+1 {physType} res", "+1 {dmgPolarity} res"],
+        "tags": ["ability score", "phys res", "non-phys res"]
+    },
+    {
+        "name": "serpent stance",
+        "mods": ["-1 crit req while holding {weaponClass} wep", "+1 crit dice while holding {weaponClass} wep", "if you've crit since start of your last turn, +1 wep AC"],
+        "tags": ["crit", "weapon class", "wep ac"]
+    },
+    {
+        "name": "primal spirit",
+        "mods": ["+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "shamanistic fury",
+        "mods": ["+1 minion dmg", "minions can be summoned as bonus action"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "ironwood",
+        "mods": ["+3 minion HP", "+3 minion {dmgPolarity} res", "+1 {physType} res per active minion"],
+        "tags": ["minion hp", "phys res"]
+    },
+    {
+        "name": "primal manifestation",
+        "mods": ["+1 minion dmg", "+2 minion HP", "your minions have triple duration"],
+        "tags": ["minion dmg", "minion hp"]
     }
 ]
