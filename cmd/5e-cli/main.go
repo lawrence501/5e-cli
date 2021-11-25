@@ -13,12 +13,12 @@ var COMMAND_MAP = map[string]func() error{
 	"exit":          func() error { os.Exit(0); return nil },
 	"q":             func() error { os.Exit(0); return nil },
 	"1":             trap,
-	"9":             book,
+	"7":             book,
 	"3":             mundane,
 	"4":             wondrous,
 	"6":             singleEnchant,
 	"5":             essence,
-	"7":             cards,
+	"9":             cards,
 	"14":            doubleEnchant,
 	"11":            highGold,
 	"10":            func() error { log.Println("Reroll twice/upgrade die size with +1 colour!"); return nil },
@@ -53,6 +53,7 @@ var COMMAND_MAP = map[string]func() error{
 	"mountain":      mountain,
 	"aquatic":       aquatic,
 	"insight":       insight,
+	"dmg polarity":  dmgPolarity,
 }
 
 func main() {

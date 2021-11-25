@@ -2638,5 +2638,53 @@
             "9. Slayer: 2/min; free action; You inflict 1d8 additional base damage with a greatsword or lance.",
             "10. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage."
         ]
+    },
+    {
+        "name": "Solves Mysteries",
+        "description": "investigating mysteries",
+        "tiers": [
+            "1. To really shine as an investigator, you must engage your mind and body in your deductions. You can use your Constitution or Dexterity for any Intelligence-based check.",
+            "2. Finding the clues is the first step in solving a mystery. You gain prof/+2 in Perception.",
+            "3. No matter how careful, an investigator sometimes ends up in a scrap. Knowing how to survive is more than half the battle. You gain prof/+2 in Dexterity saving throws.",
+            "4. To be able to put 2 and 2 together to reach a deduction, you have to know a few things. You gain prof/+2 in 2 knowledge skills of your choice, or +4 in 1.",
+            "5. Draw Conclusion: 1/min; bonus action; After careful observation and investigation (questioning 1 or more creatures on a topic, searching an area or a document, and so on) lasting a few minutes, you can learn a pertinent fact. This power is a DC 9 Investigation check. Each additional time you use this power, the DC increases by 3. It resets to 9 after a long rest.",
+            "6. Diffuse Situation: At-will; bonus action; During the course of an investigation, your questions sometimes elicit an angry or even violent response. Through dissembling, verbal distraction, or similar evasion, you prevent a living foe from attacking anyone or anything for 1 round.",
+            "7. Seize the Initiative: 1/LR; free action; Within 1 minute of successfully using your Draw Conclusion feature, you can take 1 additional, immediate bonus action, which you can take out of turn.",
+            "8. +2 to Constitution-based checks.",
+            "9. +2 to Perception.",
+            "10. +3 to Dexterity saving throws."
+        ]
+    },
+    {
+        "name": "Spawns",
+        "description": "fighting alongside your clone",
+        "tiers": [
+            "1. Your clone accompanies you and follows your instructions. The clone looks, talks, and acts like you, but it is not as effective as you in many ways. It has the stats of a CR 1 humanoid creature. If your clone dies, you can spawn another in 1d6 days. A subtle psychic bond you share with your clone enables it to think, which restricts the number of active clones you can have at once to 1.",
+            "2. The psychic bond you share with your clone improves. Through the bond, you can communicate telepathically at any range within the same plane of existence. If you wish to temporarily intensify the bond, you can use a bonus action to sense what your clone senses until your next turn.",
+            "3. If you attempt a task and get Help from your clone on a task you are not adding your proficiency bonus to, you instead do add your proficiency bonus.",
+            "4. Your clone is more concerned about your well-being than its own, and if it is standing next to you when you are subjected to a Dexterity save, you have advantage on the save. If you would have failed the save without the cover provided by your clone, they they take the effect as if they had failed the save.",
+            "5. Your clone increases to CR 2.",
+            "6. Force Spawning: 1/LR; bonus action; You empower your clone, but this is very taxing. You gain a level of exhaustion. Your clone gains +4 all damage it deals and +6 to its current and maximum hit points for 1 minute.",
+            "7. Psychic Transfer: 1/LR; bonus action; You can switch minds between yourself and your clone within 120' through your psychic bond. You have access to all your features and powers while in the body of your clone. Your original body is treated as your clone (though it has all your equipment), and your mind in the clone body is treated as if it was you. You can make the switch permanent or switch back as a separate bonus action.",
+            "8. Your clone increases to CR 3.",
+            "9. Your clone increases to CR 4.",
+            "10. While you and your clone are both on the same plane of existence, you both have +1 to Wisdom saves. Additionally, you can always see through both your own senses and your clone's while on the same plane of existence."
+        ]
+    },
+    {
+        "name": "Speaks Curses",
+        "description": "curses",
+        "tiers": [
+            "1. Cursed Ink: At-will; free action; Your skin is imprinted with an all-body tattoo of your design for up to 10 minutes. The design is visible only if you are wearing clothing that reveals some portion of your skin. Regardless of whether others can see it, it automatically inflicts 1d4 true necrotic damage to anyone who tries to touch you or strike you with a melee attack. While the cursed ink is active, you also gain +1 AC.",
+            "2. Curse of Disability: 2/min; bonus action; You curse a creature within 30', and inflict one of the following disabilities: target has disadvantage on all d20 rolls for 1 minute; target's speed is halved; target is incapacitated until the end of your next turn; target gets -4 global damage for 1 minute. If the target cannot hear you and understand your language, this attack has disadvantage.",
+            "3. Curse of Mouthless Muttering: 1/min; bonus action; You curse a creature within 30', erasing its mouth. Its mouth does not return until it inflicts damage on you, until you release it from its curse, or for 24 hours, whichever occurs first. In addition to losing speech, it loses the ability to perform any mouth-related attacks. It has disadvantage on all other tasks. If the target cannot hear you and understand your language, this attack has disadvantage.",
+            "4. Crown of Burrowing Worms: 1/LR; bonus action; You curse a creature within 30', infesting its head with a mass of scarlet-hued, flesh-eating worms. The worms remain until the target inflicts damage on you, until you release it from its curse, or for 24 hours, whichever occurs first. If successful, the target is stunned until the end of your next turn, and it takes 1d6 + level true psychic damage. At the start of each of its turns while cursed, it takes 1d6 psychic damage. If the target cannot hear you and understand your language, this attack has disadvantage.",
+            "5. Curse of Incapacity: 1/week; bonus action; You curse a creature within 30', inflicting upon it all four conditions listed for your Curse of Disability at once. If the target cannot hear you and understand your language, this attack has disadvantage.",
+            "6. Curse of Eyeless Anguish: 1/LR; bonus action; You curse a creature within 30', erasing its eyes. Its eyes do not return until it inflicts damage on you, until you release it from its curse, or for 24 hours, whichever occurs first. The creature is blind. If the target cannot hear you and understand your language, this attack has disadvantage.",
+            "7. You can choose to make your Cursed Ink tattoo invisible when you use the feature.",
+            "8. You can now use your Curse of Disability feature at-will.",
+            "9. You can now use your Curse of Mouthless Muttering feature twice per minute.",
+            "10. You can now use your Curse of Burrowing Worms feature once per minute."
+        ]
     }
 ]

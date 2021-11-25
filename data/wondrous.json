@@ -203,6 +203,86 @@
         {
             "name": "Maternal Cameo",
             "description": "https://a5e.tools/node/1029"
+        },
+        {
+            "name": "Message Whistle",
+            "description": "https://a5e.tools/node/1032"
+        },
+        {
+            "name": "Midnight Pearls",
+            "description": "https://a5e.tools/node/1034"
+        },
+        {
+            "name": "Mug of Warming",
+            "description": "https://a5e.tools/node/1039"
+        },
+        {
+            "name": "Oil of Cosmetic Enhancement",
+            "description": "https://a5e.tools/node/1047"
+        },
+        {
+            "name": "Potion of Climbing",
+            "description": "https://a5e.tools/node/1084"
+        },
+        {
+            "name": "Potion of Healing",
+            "description": "https://a5e.tools/node/1090"
+        },
+        {
+            "name": "Preserved Imp's Head",
+            "description": "https://a5e.tools/node/1099"
+        },
+        {
+            "name": "Quick Canoe Paddle",
+            "description": "https://a5e.tools/node/1103"
+        },
+        {
+            "name": "Sack of Sacks",
+            "description": "https://a5e.tools/node/1141"
+        },
+        {
+            "name": "Scrap of Forbidden Text",
+            "description": "https://a5e.tools/node/1146"
+        },
+        {
+            "name": "Security Gremlin",
+            "description": "https://a5e.tools/node/1150"
+        },
+        {
+            "name": "Sinner's Ashes",
+            "description": "https://a5e.tools/node/1158"
+        },
+        {
+            "name": "Snake-Eye Bones",
+            "description": "https://a5e.tools/node/1162"
+        },
+        {
+            "name": "Timekeeper Gremlin",
+            "description": "https://a5e.tools/node/1202"
+        },
+        {
+            "name": "Tome of the Endless Tale",
+            "description": "https://a5e.tools/node/1205"
+        },
+        {
+            "name": "Tools of the Hidden Hand",
+            "description": "https://a5e.tools/node/1208"
+        },
+        {
+            "name": "Unliving Rune",
+            "description": "https://a5e.tools/node/1214"
+        },
+        {
+            "name": "Vial of Beauty",
+            "description": "https://a5e.tools/node/1216"
+        },
+        {
+            "name": "Waystone",
+            "description": "https://a5e.tools/node/1240"
+        },
+        {
+            "name": "Zlick's Message Cushion",
+            "description": "https://a5e.tools/node/1250"
         }
     ],
     "uncommon": [

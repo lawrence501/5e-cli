@@ -51,6 +51,16 @@ Shares condition immunity with incapacitation.
 
 A dazed creature has disadvantage with Offence and Defence.
 
+### Debilitated
+
+Shares condition immunity with stun.
+
+A debilitated creature suffers the following effects:
+- Disadvantage with damaging Offence.
+- All damage dealt is halved.
+- Cannot take bonus actions or reactions.
+- Does not grant disadvantage to adjacent ranged attackers.
+
 ### Dominated
 
 Shares condition immunity with charm.

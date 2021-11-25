@@ -81,6 +81,30 @@
             "description": "Effect ends on a target when they become bloodied, and heals them for 2d8 hit points."
         },
         {
+            "name": "Intensifying Magnify Gravity (1)",
+            "description": "If a creature moves 5'+ while slowed, it gets 1 force DoT, stacking until passive CON save."
+        },
+        {
+            "name": "Orchestrated Magnify Gravity (1)",
+            "description": "If you have exactly 2 minions on cast, 60% chance to deal critical damage."
+        },
+        {
+            "name": "Contaminating Searing Equation (1)",
+            "description": "Deafen is converted to poison. Spell immunity replaced with creatures immune to poisons, or have a Constitution score higher than 20."
+        },
+        {
+            "name": "Exposing Searing Equation (1)",
+            "description": "On hit, target takes 1 additional psychic damage whenever they take psychic damage until the end of your next turn."
+        },
+        {
+            "name": "Infectious Hideous Laughter (1)",
+            "description": "Any creature that touches an affected creature must also succeed on a WIS save or be affected."
+        },
+        {
+            "name": "Despairing Hideous Laughter (1)",
+            "description": "When the mirth fades, the target is affected with crushing grief, sadness, and despair, causing it to sob uncontrollably. The target has disadvantage on the first d20 roll it makes after the spell ends."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -102,7 +126,7 @@
         },
         {
             "name": "Burning Heat Metal (2)",
-            "description": "On dealing the bonus action damage, the target makes a CON save or gets 1d4 fire DoT, stacking until passive CON save."
+            "description": "On dealing the bonus action damage, the target gets 1 fire DoT, stacking until passive CON save."
         },
         {
             "name": "Mocking Magic Mouth (2)",

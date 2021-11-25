@@ -274,3 +274,8 @@ var condition = func() error {
 	log.Printf("Condition: %s", CONDITIONS[rand.Intn(len(CONDITIONS))])
 	return nil
 }
+
+var dmgPolarity = func() error {
+	log.Printf("Damage polarity: %s", DAMAGE_POLARITIES[rand.Intn(len(DAMAGE_POLARITIES))])
+	return nil
+}

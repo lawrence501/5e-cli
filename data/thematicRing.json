@@ -2012,12 +2012,12 @@
     {
         "name": "void barrier",
         "mods": ["+1 to {abilityScore} saves", "+1 incoming temp HP", "while you have temp HP, +1 spell dmg res"],
-        "tags": ["abilityScore", "temp hp"]
+        "tags": ["save", "temp hp"]
     },
     {
         "name": "cloth and chain",
         "mods": ["+1 to {abilityScore} saves", "+1 {physType} res", "+1 {dmgPolarity} res"],
-        "tags": ["ability score", "phys res", "non-phys res"]
+        "tags": ["save", "phys res", "non-phys res"]
     },
     {
         "name": "serpent stance",
@@ -2043,5 +2043,240 @@
         "name": "primal manifestation",
         "mods": ["+1 minion dmg", "+2 minion HP", "your minions have triple duration"],
         "tags": ["minion dmg", "minion hp"]
+    },
+    {
+        "name": "totemic zeal",
+        "mods": ["minions can be summoned as bonus action", "+1 minion dmg"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "volatile mines",
+        "mods": ["your pers areas have double duration", "you can concentrate on 2 pers areas at once", "on pers area tick, 20% chance to tick again"],
+        "tags": ["pers area", "conc"]
+    },
+    {
+        "name": "master sapper",
+        "mods": ["+1 pers area dmg", "you can concentrate on 2 pers areas at once", "on pers area tick, 20% chance to gain +1 global dmg for combat"],
+        "tags": ["pers area", "conc", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "high explosives",
+        "mods": ["-1 crit req with pers areas", "+1 crit dice with pers areas", "on pers area tick, 20% chance to gain -1 crit req for combat"],
+        "tags": ["crit", "pers area"]
+    },
+    {
+        "name": "clever construction",
+        "mods": ["on pers area tick, 20% chance to tick again"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "saboteur",
+        "mods": ["+1 pers area dmg", "you can concentrate on 2 pers areas at once"],
+        "tags": ["pers area", "conc"]
+    },
+    {
+        "name": "path of the warrior",
+        "mods": ["+1 {physType} res", "+1 {abilityScore}", "+1 {physType} dmg"],
+        "tags": ["phys res", "ability score", "phys dmg"]
+    },
+    {
+        "name": "path of the savant",
+        "mods": ["+1 spell dmg", "+1 {abilityScore}"],
+        "tags": ["spell dmg", "ability score"]
+    },
+    {
+        "name": "path of the hunter",
+        "mods": ["+1 {hitForm} AB", "+1 proj dmg", "+1 {abilityScore}"],
+        "tags": ["ab", "proj", "ability score"]
+    },
+    {
+        "name": "shaper",
+        "mods": ["+1 passive regen"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "sentinel",
+        "mods": ["+1 to {abilityScore} saves", "+1 {physType} res", "+1 {dmgPolarity} res"],
+        "tags": ["save", "phys res", "non-phys res"]
+    },
+    {
+        "name": "harrier",
+        "mods": ["+1 global dmg", "+5' sp"],
+        "tags": ["wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "essence infusion",
+        "mods": ["+3 incoming temp HP"],
+        "tags": ["temp hp"]
+    },
+    {
+        "name": "influence",
+        "mods": ["+1 aura effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "charisma",
+        "mods": ["+1 aura effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "sovereignty",
+        "mods": ["+1 aura effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "entropy",
+        "mods": ["+1 DoT dmg", "your DoTs have double duration"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "one with evil",
+        "mods": ["+3 {nonPhysType} abs", "+1 {nonPhysType} res"],
+        "tags": ["non-phys res"]
+    },
+    {
+        "name": "corruption",
+        "mods": ["negative {nonPhysType} res you apply has triple effect"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "decay ward",
+        "mods": ["+2 minion AC", "on minion block, they heal 1 HP"],
+        "tags": ["minion hp"]
+    },
+    {
+        "name": "strong arm",
+        "mods": ["+1 {weaponHands} wep dmg", "+1 {abilityScore}"],
+        "tags": ["weapon hands", "ability score"]
+    },
+    {
+        "name": "goliath",
+        "mods": ["+1 to saves to end ongoing effects", "on condi, 20% chance to gain +1 dmg res for combat", "on condi, 20% chance to double its duration"],
+        "tags": ["save", "condi", "phys res", "non-phys res"]
+    },
+    {
+        "name": "clever thief",
+        "mods": ["on wep hit, heal 3 HP"],
+        "tags": ["wep dmg", "hp"]
+    },
+    {
+        "name": "blood drinker",
+        "mods": ["+4 max HP", "on KB, heal 4 HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "heart and soul",
+        "mods": ["+5 max HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "annihilation",
+        "mods": ["-1 spell crit req", "+1 spell crit dice"],
+        "tags": ["spell dmg", "crit"]
+    },
+    {
+        "name": "prism weave",
+        "mods": ["+1 {weaponClass} dmg", "+1 {dmgPolarity} {weaponClass} dmg", "wep dmg ignores {dmgPolarity} res"],
+        "tags": ["weapon class", "dmg polarity"]
+    },
+    {
+        "name": "skittering runes",
+        "mods": ["+1 curse effectiveness", "on curse, that curse has +1 effectiveness until end of your next turn"],
+        "tags": ["condi"]
+    },
+    {
+        "name": "hex master",
+        "mods": ["your curses have +5' AoE size", "your curses have double duration"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "practical application",
+        "mods": ["+1 {dmgPolarity} res", "+1 to concentration saves", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["phys res", "non-phys res", "conc", "ability score"]
+    },
+    {
+        "name": "piercing shots",
+        "mods": ["your projs pierce 1 target"],
+        "tags": ["proj"]
+    },
+    {
+        "name": "essence surge",
+        "mods": ["+3 incoming temp HP"],
+        "tags": ["temp hp"]
+    },
+    {
+        "name": "survivalist",
+        "mods": ["+1 to {abilityScore} saves", "+1 {dmgPolarity} res", "+1 {nonPhysType} abs"],
+        "tags": ["save", "phys res", "non-phys res"]
+    },
+    {
+        "name": "constitution",
+        "mods": ["+5 max HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "foresight",
+        "mods": ["+3 incoming temp HP"],
+        "tags": ["temp HP"]
+    },
+    {
+        "name": "druidic rite",
+        "mods": ["+1 max healing surge"],
+        "tags": ["max surges"]
+    },
+    {
+        "name": "forces of nature",
+        "mods": ["wep dmg ignores {dmgPolarity} res"],
+        "tags": ["wep dmg", "dmg polarity"]
+    },
+    {
+        "name": "fatal blade",
+        "mods": ["-1 {weaponClass} crit req", "+1 {weaponClass} crit dice"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "revelry",
+        "mods": ["+1 aura effectiveness against foes"],
+        "tags": ["condi"]
+    },
+    {
+        "name": "avatar of the hunt",
+        "mods": ["+1 {weaponClass} dmg", "+1 to {abilityScore} saves", "+5' sp"],
+        "tags": ["weapon class", "save", "speed"]
+    },
+    {
+        "name": "ash, frost and storm",
+        "mods": ["+1 {dmgPolarity} dmg", "+1 to condi DCs"],
+        "tags": ["dmg polarity", "condi"]
+    },
+    {
+        "name": "mental rapidity",
+        "mods": ["+3 spell dmg"],
+        "tags": ["spell dmg"]
+    },
+    {
+        "name": "quick recovery",
+        "mods": ["+2 max HP", "+1 passive regen"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "combat stamina",
+        "mods": ["+2 {physType} res", "+1 max HP", "+1 passive regen"],
+        "tags": ["phys res", "hp"]
+    },
+    {
+        "name": "martial experience",
+        "mods": ["+1 {weaponHands} wep dmg", "+1 incoming healing", "ignore {physType} res"],
+        "tags": ["weapon hands", "hp", "phys dmg"]
+    },
+    {
+        "name": "dynamo",
+        "mods": ["your buffs have double duration"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "exceptional performance",
+        "mods": ["your powers have double duration"],
+        "tags": ["wep dmg", "spell dmg"]
     }
 ]

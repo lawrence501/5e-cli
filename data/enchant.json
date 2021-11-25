@@ -192,7 +192,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 dmg res while within 5' of $partyMember",
+        "description": "+1 dmg res while adj to $partyMember",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]
@@ -696,15 +696,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "on wep hit, +1 spell dmg until end of turn",
+        "description": "on $hitForm hit, +1 $hitForm dmg until end of turn",
         "pointValue": "2",
         "upgrade": "1/2",
-        "tags": ["weapon"]
-    },
-    {
-        "description": "on spell hit, +2 wep dmg until end of turn",
-        "pointValue": "1",
-        "upgrade": "1/1",
         "tags": ["weapon"]
     },
     {
@@ -714,9 +708,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+3 wep dmg vs cursed targets",
+        "description": "+2 wep dmg vs cursed targets",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "1/1",
         "tags": ["weapon"]
     },
     {
@@ -816,18 +810,6 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 to grapple attempts",
-        "pointValue": "1",
-        "upgrade": "1/1",
-        "tags": ["weapon"]
-    },
-    {
-        "description": "+1 to shove attempts",
-        "pointValue": "1",
-        "upgrade": "1/1",
-        "tags": ["weapon"]
-    },
-    {
         "description": "+1 wep dmg if you [have or haven't] taken dmg since your last turn",
         "pointValue": "1",
         "upgrade": "1/1",
@@ -840,13 +822,13 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 wep dmg for each enemy in combat",
+        "description": "+1 wep dmg for each foe in 60'",
         "pointValue": "2",
         "upgrade": "1/2",
         "tags": ["weapon"]
     },
     {
-        "description": "+2 wep dmg while there is only 1 enemy in combat",
+        "description": "+2 wep dmg vs targets who cannot sense any allies within 60'",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["weapon"]
