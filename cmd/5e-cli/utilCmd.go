@@ -95,7 +95,7 @@ var glyph = func() error {
 	t1 := tiers[0]
 	hints := []string{}
 	for i := 0; i < 3; i++ {
-		hIdx := rand.Intn(len(chosen.Tiers)-1) + 1
+		hIdx := rand.Intn(len(tiers)-1) + 1
 		hints = append(hints, chosen.Tiers[hIdx])
 		tiers = append(tiers[:hIdx], tiers[hIdx+1:]...)
 	}

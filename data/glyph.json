@@ -627,16 +627,16 @@
         "name": "Hunts Humanoids",
         "description": "hunting and combating humanoids",
         "tiers": [
-            "1. You gain +2 to on skill checks to track, search for, interact with, and hide from humanoids.",
-            "2. You deal +4 weapon damage against humanoids.",
-            "3. Humanoid Sense: 2/min; free action; For one hour, through scent, specific signs, and past experience, you know when humanoids other than those you choose are within 120' of you.",
+            "1. You deal +1d8 weapon damage against humanoids.",
+            "2. You gain an expertise die on skill checks to track, search for, interact with, and hide from humanoids.",
+            "3. Through scent, specific signs, and past experience, you know when humanoids other than those you choose are within 120' of you.",
             "4. Your weapon proficiency increases by 1 tier.",
-            "5. Answering Attack: 1/min; free action; If you are struck by a creature within 5' of you, you can make an immediate melee attack against that attacker. The attack has disadvantage.",
-            "6. When there are 2 or more enemies within 5' of you at once, you can use them against each other. You gain advantage on your Dexterity saving throws or attack rolls (your choice each round) against them.",
-            "7. You deal +6 weapon damage against humanoids.",
+            "5. Answering Attack: 1/min; free action; If you are struck by a creature within 5' of you, you can make an immediate melee attack against them. The attack has disadvantage.",
+            "6. While there are 2 or more foes adjacent to you, you can use them against each other. You gain advantage on saving throws or attack rolls (your choice each round) against them.",
+            "7. You deal +1d12 weapon damage against humanoids.",
             "8. Your attacks and saving throws have advantage against humanoids.",
             "9. You cannot have disadvantage on attacks or saving throws against humanoids.",
-            "10. Your weapon proficiency increases by 1 tier."
+            "10. Your weapon proficiency increases by 1 tier and all weapons you use have their damage dice increased by 2 sizes."
         ]
     },
     {
@@ -1188,15 +1188,15 @@
         "description": "understanding the nature of sentience",
         "tiers": [
             "1. You open yourself up to your own flaws. You heal 2 HP whenever you fail an attack roll, saving throw, or important skill check.",
-            "2. Hand on the Wall: 2/min; free action; You rely on your training and insights to guide you through a tough situation, granting you advantage on a task in which strength of will matters, such as casting a Wisdom-based spell or making a Wisdom saving throw.",
-            "3. Your healing on failing important rolls now heals 4 HP instead, but on doing so your inner demons get the better of you, forcing you to succumb to a base emotion such as temptation, anger, or sloth for the next hour.",
-            "4. Echoing Corridors: 1/SR; bonus action; For the next 10 minutes you broadcast your thoughts for all living creatures within 5' of you to hear in their minds telepathically.",
-            "5. You gain prof/+2 in Wisdom saving throws.",
-            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking, creature within 30' of you. For the next 10 minutes that creatures suffers 1d4 + your level psychic damage whenever it fails an attack roll, saving throw, or important skill check. Additionally, you learn the target's greatest fear.",
-            "7. Centre of the Maze: 1/week; free action; Your self-mastery is such that you are able to redefine yourself as needed. You may reassign 1 skill proficiency or expertise to a different skill. Doing so takes 10 minutes of quiet contemplation.",
-            "8. Your healing on failing important rolls now heals 6 HP instead.",
+            "2. Hand on the Wall: 2/min; free action; You rely on your training and insights to guide you through a tough situation, granting you advantage on a task that involves your Wisdom, such as casting a Wisdom-based spell or making a Wisdom saving throw.",
+            "3. T1 now heals 4 HP instead, but on doing so your inner demons get the better of you, forcing you to succumb to a base emotion for the next hour: roll a d6, 1-2. temptation, 3-4. anger, 5-6. sloth.",
+            "4. Echoing Corridors: 1/SR; bonus action; For the next 10 minutes you broadcast your thoughts for all adjacent living creatures to hear in their minds telepathically.",
+            "5. You gain an expertise die in Wisdom saving throws.",
+            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT > 4), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 + your level psychic damage whenever it fails an attack roll, saving throw, or important skill check. Additionally, you learn the target's greatest fear.",
+            "7. Centre of the Maze: 1/week; 10mins; Your self-mastery is such that you are able to redefine yourself as needed. You may quietly contemplate for the usage time to reassign 1 skill proficiency or expertise to a different skill.",
+            "8. T1 now heals 6 HP instead.",
             "9. Your Hand on the Wall feature can now be used at-will.",
-            "10. You no longer allow your inner demons into your mind when you heal upon failing important rolls."
+            "10. T1 now heals 9 HP instead."
         ]
     },
     {
@@ -2147,16 +2147,16 @@
         "name": "Carries a Quiver",
         "description": "mastering bow weapons",
         "tiers": [
-            "1. To be truly deadly with a bow, you must know where to aim. You can self-inflict any amount of hit points before dealing damage with a bow. Every 2 hit points adds 1d8 damage.",
-            "2. You gain prof/+2 in Woodworking.",
+            "1. To be truly deadly with a bow, you must know where to aim. Before making an attack with a bow, you may spend any number of bonus actions to add 1d8 base damage to the attack for each bonus action spent.",
+            "2. You gain an expertise die in Woodworking.",
             "3. Covering Fire: At-will; free action; When you hit a creature with an attack from your bow, that creature has disadvantage on attack rolls until the end of their next turn.",
-            "4. You gain +2 in Woodworking.",
-            "5. You gain +2 AB with bows.",
+            "4. You gain an expertise die in Woodworking.",
+            "5. You gain an expertise die on attacks with bows.",
             "6. If you score a critical hit with a bow attack, instead of dealing critical damage, you can make another attack with your bow. This attack reuses the same bonuses (if any) affecting the first attack.",
-            "7. You gain +2 in Woodworking.",
-            "8. You gain +2 AB with bows.",
-            "9. Powerful Shot: 2/min; free action; You inflict 1d8 additional damage with a hit from a bow attack.",
-            "10. You can now self-inflict 1 hit point for 1d12 additional damage, instead of 2 for 1d8."
+            "7. You gain an expertise die in Woodworking.",
+            "8. You gain an expertise die on attacks with bows.",
+            "9. Powerful Shot: 2/min; free action; You inflict 1d8 additional damage with a hit from a bow attack. You must decide to use this feature before you make the attack, but its usage is refunded if the attack misses.",
+            "10. T1 now grants 2d8 damage per bonus action."
         ]
     },
     {

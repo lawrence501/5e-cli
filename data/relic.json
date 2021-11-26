@@ -893,11 +893,11 @@
             {
                 "description": "at the end of each LR, you can pray to Gawdian to remove a glyph path tier from yourself",
                 "pointValue": "-",
-                "upgrade": "-"
+                "upgrade": "+1 rad dmg/1"
             },
             {
-                "description": "while you have less than 10 glyph path tiers, gain 16 temp HP at end of each LR",
-                "pointValue": "2",
+                "description": "while you have less than 10 glyph path tiers, gain 24 temp HP at end of each LR",
+                "pointValue": "3",
                 "upgrade": "+8/1"
             },
             {
@@ -2215,6 +2215,228 @@
                 "description": "10. gain bonus teleport distance equal to your bonus dmg that applies to spells",
                 "pointValue": "2",
                 "upgrade": "+1 spell dmg/1"
+            }
+        ]
+    },
+    {
+        "name": "Grim Ward",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your wep dmg ignores res",
+                "pointValue": "4",
+                "upgrade": "+1 wep dmg/1"
+            },
+            {
+                "description": "+5 max HP",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. Your wep dmg ignores imm",
+                "pointValue": "4",
+                "upgrade": "+1 wep dmg/4"
+            },
+            {
+                "description": "2. +1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "4. on block, heal 3 HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 wep dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. -1 wep crit req",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. +1 proj dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. your weps have +1 dmg die size",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. in first round of combat, +2 bonus actions",
+                "pointValue": "3",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Odd Mushroom",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "your negative res for wep dmg is halved",
+                "pointValue": "2",
+                "upgrade": "+1 res for wep dmg you have negative res for/1"
+            },
+            {
+                "description": "whenever you apply negative res that applies to weps to a creature, they also get -2 wep dmg until the end of their next turn",
+                "pointValue": "2",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "on sub hit, give target -2 wep dmg res for combat",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on hit, give target -1 wep dmg res for combat",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "2. +1 incoming temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 proj AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. on block, recover 1 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. your sub hits deal +2 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on sub hit, heal 2 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. -1 wep AB; distribute 5pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 5pts/1"
+            },
+            {
+                "description": "8. +3 trap dmg res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "9. if you've sub hit since start of your last turn, +1 AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. whenever you apply negative res to a creature, gain -1 wep dmg res for the same duration; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 3pts/1"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "your negative res for wep dmg is halved",
+                "pointValue": "2",
+                "upgrade": "+1 res for wep dmg you have negative res for/1"
+            },
+            {
+                "description": "whenever you apply negative res that applies to weps to a creature, they also get -2 wep dmg until the end of their next turn",
+                "pointValue": "2",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "on sub hit, give target -2 wep dmg res for combat",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on hit, give target -1 wep dmg res for combat",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "2. +1 incoming temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 proj AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. on block, recover 1 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. your sub hits deal +2 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on sub hit, heal 2 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. -1 wep AB; distribute 5pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 5pts/1"
+            },
+            {
+                "description": "8. +3 trap dmg res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "9. if you've sub hit since start of your last turn, +1 AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. whenever you apply negative res to a creature, gain -1 wep dmg res for the same duration; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 3pts/1"
             }
         ]
     }

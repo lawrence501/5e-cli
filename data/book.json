@@ -143,6 +143,30 @@
         {
             "name": "Erasing Mind Spike (2)",
             "description": "Damage increases to 3d12 against bloodied targets."
+        },
+        {
+            "name": "Fell Prayer of Healing (2)",
+            "description": "After casting, the targets gain temporary hit points equal to the amount healed as a tenuous connection to dark entities increases their tolerance to pain."
+        },
+        {
+            "name": "Amplified Prayer of Healing (2)",
+            "description": "You can increase the cast time to 1 hour to increase the healing die to 3d10."
+        },
+        {
+            "name": "Hunting Magic Aura (2)",
+            "description": "If the target is a creature, it has -1 crit req for the duration."
+        },
+        {
+            "name": "Invigorating Magic Aura (2)",
+            "description": "The target's modified information instead shows as nothing (non-magical aura, not a creature, and unaligned), and on cast the target is healed for 2d8 hit points."
+        },
+        {
+            "name": "Imbued Scorching Ray (2)",
+            "description": "Each ray is the colour of your choice and deal damage of the corresponding type: yellow (psn), green (acid), blue (cold), purple (psy), black (nec), white (light)."
+        },
+        {
+            "name": "Forking Scorching Ray (2)",
+            "description": "Creates an additional ray which must target a different creature than all other rays."
         }
     ],
     "manual": [
@@ -225,6 +249,30 @@
         {
             "name": "Generous Heavy Stance (1)",
             "description": "No longer affects you. Affects all creatures of your choice within 60'."
+        },
+        {
+            "name": "Intimidating Striding Swings (1)",
+            "description": "All creatures of your choice within 5' of you while moving deal 1 less damage whenever they deal damage until the end of your next turn."
+        },
+        {
+            "name": "Insatiable Striding Swings (1)",
+            "description": "On sub hit with any attack, heal 1d12 HP."
+        },
+        {
+            "name": "Powerful Imposing Glare (1)",
+            "description": "Your melee attacks deal 1d6 additional base damage while the target is frightened."
+        },
+        {
+            "name": "Iron Imposing Glare (1)",
+            "description": "Reduce all physical damage you take by 1 while the target is frightened."
+        },
+        {
+            "name": "Bleeding Anticipate Spell (1)",
+            "description": "On hit with the opportunity attack, target makes a CON save or gets 3 S DoT, stacking until passive CON save."
+        },
+        {
+            "name": "Impactful Anticipate Spell (1)",
+            "description": "On use, deals 1d6 base weapon damage to the target. Costs 1 additional exertion."
         }
     ]
 }

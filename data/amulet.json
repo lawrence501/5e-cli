@@ -156,7 +156,7 @@
   },
   {
     "name": "primalist - harmony of blades",
-    "mods": ["$weaponClass weps gain the light trait", "$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
+    "mods": ["$weaponClass weps gain the dual-wielding trait", "$weaponClass weps gain the dual-wielding trait", "-1 dmg res while dual-wielding"],
     "upgrade": "-1 dmg res and +3 {weaponClass} dmg ALT -1 dmg res and +3 {weaponClass} dmg"
   },
   {
@@ -201,7 +201,7 @@
   },
   {
     "name": "sentinel - gladiator",
-    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
+    "mods": ["$weaponClass weps gain the dual-wielding trait", "-1 dmg res while dual-wielding"],
     "upgrade": "-1 dmg res and +3 {weaponClass} dmg"
   },
   {
@@ -941,7 +941,7 @@
   },
   {
     "name": "spellblade - gemini",
-    "mods": ["$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
+    "mods": ["$weaponClass weps gain the dual-wielding trait", "-1 dmg res while dual-wielding"],
     "upgrade": "-1 dmg res and +3 {weaponClass} dmg"
   },
   {
@@ -1106,7 +1106,7 @@
   },
   {
     "name": "rogue - twin blade",
-    "mods": ["$weaponClass weps gain the light trait", "$weaponClass weps gain the light trait", "-1 dmg res while dual-wielding"],
+    "mods": ["$weaponClass weps gain the dual-wielding trait", "$weaponClass weps gain the dual-wielding trait", "-1 dmg res while dual-wielding"],
     "upgrade": "-1 dmg res and +3 {weaponClass1} dmg ALT -1 dmg res and +3 {weaponClass2} dmg"
   },
   {

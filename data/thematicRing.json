@@ -2278,5 +2278,90 @@
         "name": "exceptional performance",
         "mods": ["your powers have double duration"],
         "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "name": "command of steel",
+        "mods": ["+1 wep AC while holding a shield", "+1 wep dmg while holding a shield"],
+        "tags": ["wep ac", "holding shield", "wep dmg"]
+    },
+    {
+        "name": "profane chemistry",
+        "mods": ["+1 max HP", "+1 healing from healing surges", "first healing surge each turn is free"],
+        "tags": ["hp", "surge healing", "max surges"]
+    },
+    {
+        "name": "master of blades",
+        "mods": ["ignore {physType} res", "+1 {abilityScore}", "+1 {physType} dmg"],
+        "tags": ["phys dmg", "ability score"]
+    },
+    {
+        "name": "hired killer",
+        "mods": ["+6 max HP", "on KB, heal 2 HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "melding",
+        "mods": ["+1 max HP", "gain bonus incoming temp HP equal to double your bonus max HP"],
+        "tags": ["hp", "temp hp"]
+    },
+    {
+        "name": "true strike",
+        "mods": ["-1 crit req", "+1 crit dice"],
+        "tags": ["crit"]
+    },
+    {
+        "name": "potency of will",
+        "mods": ["your powers have double duration"],
+        "tags": ["spell dmg"]
+    },
+    {
+        "name": "champion of the cause",
+        "mods": ["+5' aura radius", "+1 aura effectiveness"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "quickstep",
+        "mods": ["+1 spell dmg res", "+5' sp"],
+        "tags": ["speed"]
+    },
+    {
+        "name": "ribcage crusher",
+        "mods": ["+1 {weaponClass} dmg", "+1 {weaponClass} dmg", "if you've condi'd since start of your last turn, +5' AoE sizes"],
+        "tags": ["weapon class", "condi", "aoe"]
+    },
+    {
+        "name": "breath of flames",
+        "mods": ["+1 DoT dmg", "+2 {nonPhysType} dmg"],
+        "tags": ["dot", "non-phys dmg"]
+    },
+    {
+        "name": "breath of lightning",
+        "mods": ["+1 {nonPhysType} dmg", "+1 mark effectiveness"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "breath of rime",
+        "mods": ["+1 {nonPhysType} dmg", "+1 to condi DCs"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "tempest blast",
+        "mods": ["+1d4 {nonPhysType} dmg to {weaponClass} weps"],
+        "tags": ["non-phys dmg", "weapon class"]
+    },
+    {
+        "name": "bravery",
+        "mods": ["+1 to {abilityScore} saves", "+1 {physType} res", "+2 max HP"],
+        "tags": ["save", "phys res", "hp"]
+    },
+    {
+        "name": "defiance",
+        "mods": ["+1 wep AC while holding a shield", "+1 wep dmg while holding a shield", "+1 AC while holding a shield"],
+        "tags": ["wep ac", "holding shield", "wep dmg", "spell ac"]
+    },
+    {
+        "name": "retribution",
+        "mods": ["+1 global dmg", "+1 minion dmg", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["wep dmg", "spell dmg", "minion dmg", "ability score"]
     }
 ]

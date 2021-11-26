@@ -452,27 +452,47 @@
         },
         {
             "name": "Air Charm",
-            "description": "a5e pg 228"
+            "description": "https://a5e.tools/node/806"
         },
         {
             "name": "Blackbird Pie",
-            "description": "a5e pg 240"
+            "description": "https://a5e.tools/node/841"
         },
         {
             "name": "Bottle of Fizz",
-            "description": "a5e pg 241"
+            "description": "https://a5e.tools/node/849"
         },
         {
             "name": "Box of Party Tricks",
-            "description": "a5e pg 241"
+            "description": "https://a5e.tools/node/852"
         },
         {
             "name": "Charcoal Stick of Aversion",
-            "description": "a5e pg 245"
+            "description": "https://a5e.tools/node/867"
         },
         {
             "name": "Clockwork Calendar",
-            "description": "a5e pg 247"
+            "description": "https://a5e.tools/node/877"
+        },
+        {
+            "name": "Inspiring Pahu",
+            "description": "https://a5e.tools/node/984"
+        },
+        {
+            "name": "Jarred Brain",
+            "description": "https://a5e.tools/node/1004"
+        },
+        {
+            "name": "Clockwork Tools",
+            "description": "https://a5e.tools/node/885"
+        },
+        {
+            "name": "Describing Gremlins",
+            "description": "https://a5e.tools/node/894"
+        },
+        {
+            "name": "Diary of a Mentally Unhinged Adventurer",
+            "description": "https://a5e.tools/node/1147"
         }
     ],
     "rare": [
