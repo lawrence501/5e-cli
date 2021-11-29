@@ -177,18 +177,18 @@
     },
     {
         "name": "Masters Defence",
-        "description": "Mastering defence",
+        "description": "mastering defence",
         "tiers": [
-            "1. While wielding a shield, you can add +2 to any DEX saves you make. However, if you do so, you have disadvantage on attack rolls until the end of your next turn.",
-            "2. +2 to STR saves.",
-            "3. Disadvantaged stealth from body armour becomes -2 stealth instead.",
+            "1. While wielding a shield, you can gain an expertise die on any saving throws you make. However, if you do so, you have disadvantage on attack rolls until the end of your next turn.",
+            "2. You gain an expertise die on CON saves.",
+            "3. Disadvantaged Stealth from body armour becomes -2 stealth instead.",
             "4. Dodge and Resist: 1/min; free action; After you make a saving throw, you can reroll it and take the better of the two results.",
             "5. Dodge and Respond: 1/min; free action; Whenever a melee attack misses you, you can immediately make 1 melee attack in return.",
-            "6. +2 to WIS saves and WIS +1.",
+            "6. You gain an expertise die on WIS saves and +1 WIS.",
             "7. Ignore stealth penalties from body armour.",
             "8. While affected by the Dodge action, +2 to all saving throws.",
-            "9. Whenever you succeed on a DEX save, you can immediately make 1 attack against your attacker if they are in range.",
-            "10. +1 AC while wearing light, medium, or heavy body armour."
+            "9. Whenever you succeed on a saving throw, you can immediately make 1 attack against the prompting creature if they are in range.",
+            "10. +1 AC while wearing armour."
         ]
     },
     {
@@ -881,18 +881,18 @@
     },
     {
         "name": "Guides the Lost",
-        "description": "guiding lost travellers",
+        "description": "guiding others to safety",
         "tiers": [
-            "1. Gain prof/+2 in survival.",
-            "2. You have +2 to history checks about 3 locations, each a particular region such as a desert or mountain range. Your knowledge specifically includes the places where magic may be found within each area.",
-            "3. You are so used to dealing with dangerous situations, that you have an innate sense about when one is about to happen. You enjoy advantage on initiative, and Dexterity saving throws which relate to averting a threat or trap.",
-            "4. Rescue: 1/min; free action; You manage to help an ally within 5' of you, pulling them up from a fall or pushing them down before a trap hits them.",
-            "5. Upon entering a new region, you may make a survival check with DC 15. If successful, you gain +2 to history checks about that region, representing your ability to quickly learn the nuances of the area.",
-            "6. Advice: 1/LR; bonus action; Before an expedition you may make a history check against a difficulty which reflects how dangerous the region is. If successful, your allies enjoy advantage on initiative, and Dexterity saving throws which relate to averting a threat or trap until their next long rests.",
-            "7. You can now use your Rescure feature at-will.",
-            "8. Gain expertise/+2 in survival, and the history check bonuses you have for specific locations is increased to +4.",
-            "9. +2 to survival.",
-            "10. +3 to history."
+            "1. Gain an expertise die in survival.",
+            "2. You gain an expertise die on history checks about 3 locations of your choice, each a particular region such as a desert or mountain range. Your knowledge specifically includes the places where magic may be found within each area.",
+            "3. You are so used to dealing with dangerous situations, that you have an innate sense about when one is about to happen. You enjoy advantage on initiative, and saving throws which relate to averting/avoiding a threat or trap.",
+            "4. Rescue: 1/min; free action; You manage to help an adjacent ally, pulling them up from prone or pushing them down before a trap hits them, which knocks the prone but gives them advantage on any Dexterity save for the trap.",
+            "5. Upon entering a new region for the first time, you may make a survival check with DC 15. If successful, you permanently gain an expertise die on history checks about that region, representing your ability to quickly learn the nuances of the area.",
+            "6. Advice: 1/LR; bonus action; Before an expedition you may make a history check against a difficulty which reflects how dangerous the region is. If successful, your allies enjoy advantage on initiative, and saving throws which relate to averting/avoiding a threat or trap until their next long rest.",
+            "7. You can now use your Rescue feature at-will.",
+            "8. Gain an expertise die in survival and the history checks from T2.",
+            "9. Gain an expertise die in survival.",
+            "10. Gain a 1d6 expertise die in history."
         ]
     },
     {
@@ -1011,16 +1011,16 @@
         "name": "Studies Anatomy",
         "description": "medicinal knowledge",
         "tiers": [
-            "1. Weak Spot: 2/min; free action; You can quickly identify, pinpoint, and expose a weak or sensitive spot on your target. Make a perception check against your target, contested by their stealth. If you succeed, reduce your attack score by 3 and, if you hit, reduce their damage resistance by 4 until their next long rest. This effect can only be applied to a target once.",
-            "2. Prof/+2 to medicine.",
-            "3. Treat Patient: 1/min; bonus action; You attempt to cure one negative effect (such as disease, poison, or injury) in a creature.",
-            "4. Poisons you use are considered 1 tier higher.",
-            "5. Holographic Medical Assistant: 1/SR; bonus action; In a corner of the Regulus Libris you have discovered a niche of relevant medical data of which you can materialise in a hologram. This hologram is a CR 1 humanoid with +5 in Intelligence and Wisdom, and expertise in medicine and arcana.",
-            "6. Expertise/+2 in medicine.",
-            "7. Nerve Pinch: 1/SR; bonus action; Make a grapple attempt against your target. If you succeed, make a medicine check contested by your target's Constitution saving throw. If you succeed, they fall unconscious for 20 minutes.",
-            "8. +2 to medicine.",
-            "9. Gene Therapy: 1/LR; bonus action; Through your immense studies of mutations you have discovered a way to bring forth a mutation, although you are never sure which one it is. A targeted creature gains a random beneficial mutation for 8 hours. A creature can only be affected by 1 mutation at a time.",
-            "10. Preserve Consciousness: 1/decade; bonus action; If an organic-brained creature had been recently slain, you have found a way to save its mind. Using a receptacle that you can constructed, you can sustain the creature's consciousness artifically. You can communicate with the consciousness by utilising magical projecters and amplifiers."
+            "1. Weak Spot: 2/min; free action; You can quickly identify, pinpoint, and expose a weak or sensitive spot on your target. Make a perception check against your target, contested by their stealth. If you succeed, they make a CON save with advantage. On a failed save, they take 1d8 additional damage from all sources until their next long rest. This effect can only be applied to a target once.",
+            "2. You gain an expertise die in Medicine.",
+            "3. Treat Patient: 1/min; bonus action; You attempt to cure one negative effect or condition (such as disease, poison, or injury) in a creature (DC 13 Medicine).",
+            "4. Damage blessings you use are considered 1 tier higher.",
+            "5. Holographic Medical Assistant: 1/SR; bonus action; You become aware of a corner of the Regulus Libris that contains a niche of relevant medical data of which you can materialise in a hologram. This hologram is a CR 1 construct with +5 in Intelligence and Wisdom, and expertise in medicine and arcana. You can only have 1 active at a time.",
+            "6. You gain an expertise die in medicine.",
+            "7. Nerve Pinch: 1/SR; bonus action; Use the Grapple maneuver against your target. If you succeed, make a medicine check contested by your target's Constitution saving throw. If you succeed, they become staggered for 20 minutes.",
+            "8. You gain an expertise die in medicine.",
+            "9. Gene Therapy: 1/LR; bonus action; Through your immense studies of mutations you have discovered a way to bring forth a mutation, although you are never sure which one it is. A targeted creature gains a random beneficial mutation for 8 hours.",
+            "10. Preserve Consciousness: 1/decade; bonus action; If an organic-brained creature had been slain in the past 24 hours, you have found a way to save its mind. Using a receptacle that you can construct, you can sustain the creature's consciousness artifically. You can communicate with the consciousness by utilising magical projecters and amplifiers."
         ]
     },
     {
@@ -1107,16 +1107,16 @@
         "name": "Makes Flesh a Canvas",
         "description": "magical tattoo artistry",
         "tiers": [
-            "1. You gain +2 to all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
-            "2. You create a tattoo or scar upon a subject during a time of change for them, reflecting their passage into a new way of life. Choose a skill when making this modification. The subject enjoys +1 to that skill for so long as they carry the art, or until they gain a new mark of passage. Once a new one has been completed, the last one loses its power.",
-            "3. Mark of Membership: 2/min; free action; You place body art upon your subject, marking them as beholden to others with the same mark, and thereby protected. Any 2 creatures who bear the same mark of membership may not affect each other with harmful spells. Characters may have, at most, 3 marks of membership, with any beyond that being simply ornamental.",
-            "4. You gain +2 to all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
+            "1. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
+            "2. You create a tattoo or scar upon a subject during a time of change for them, reflecting their passage into a new way of life. Choose a skill when making this modification. The subject gains an expertise die on that skill for so long as they carry the art, or until they gain a new mark of passage. Once a new one has been completed, the last one loses its power.",
+            "3. Mark of Membership: At-will; free action; You place body art upon your subject, marking them as beholden to others with the same mark, and thereby protected. Any 2 creatures who bear the same mark of membership may not affect each other with harmful spells. Characters may have, at most, 3 marks of membership, with any beyond that being simply ornamental.",
+            "4. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
             "5. Motto: 1/SR; free action; You inscribe words into the flesh, making those words powerful. Once per long rest, when the subject acts within the spirit of their motto, they may enjoy advantage on a related roll. A person may have more than one motto, but they may only gain the benefit of one between 2 long rests.",
             "6. Emblem: 1/LR; free action; You create a work of art upon the subject's flesh that serves as an expression of who they truly are. The subject gains the effects of a random beneficial mutation, without the aesthetic aspects. A creature may only have 1 emblem at any given time, with new emblems replacing the power of old ones.",
-            "7. Permanent Potion: 1/week; free action; You take a healing potion and impart it in the flesh. For the rest of their life the subject may use this potion as a bonus action. The cooldown on this usage is based on the potion's level. This potion takes up a healing potion slot. A person may only have one permanent potion at a time - a new one destroys the power of the old one.",
-            "8. You gain +2 to all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
-            "9. Your marks of passage now grant +3 to the chosen skill instead of +1.",
-            "10. You can now use your Mark of Membership feature at-will. Additionally, its protective powers also apply to ranged weapon attacks."
+            "7. Permanent Blessing: 1/week; free action; You take a blessing that just occurred and impart it in the flesh. For the rest of their life the subject may use this blessing as a bonus action. The cooldown on this usage is based on the specific blessing. This blessing reduces the target's maximum healing surges by 1. A person may only have one permanent blessing at a time - a new one destroys the power of the old one.",
+            "8. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
+            "9. Your T2 marks grant an additional expertise die.",
+            "10. While a creature is adjacent to another creature with the same mark from your Mark of Membership feature, they add 2 to their AC."
         ]
     },
     {
@@ -1460,14 +1460,14 @@
         "description": "honing psychic powers",
         "tiers": [
             "1. Telepathic: At-will; bonus action; You can speak telepathically with others who are within 30'. Communication is 2-way, but the other party must be willing and able to communicate. You do not have to see the target, but you must know that it is within range. You can have more than 1 active contact at once, but you must establish contact with each target individually. Each contact lasts up to 10 minutes.",
-            "2. Mind Reading: 2/min; bonus action; You can read the surface thoughts of a creature within 30', even if the target does not want you to. You must be able to see your target. Once you have established contact, you can read the target's thoughts for up to 1 minute.",
+            "2. Mind Reading: 2/min; bonus action; You can read the surface thoughts of a creature within 30', even if the target does not want you to (WIS save). You must be able to see your target. Once you have established contact, you can read the target's thoughts for up to 1 minute.",
             "3. Psychic Burst: 1/min; bonus action; You blast waves of mental force into the minds of up to 3 targets within 30' (make an attack roll against each target). This burst inflicts 1d8 + your level true psychic damage.",
-            "4. Psychic Suggestion: 1/SR; bonus action; You attempt to make the target take the action you indicate on its next turn. If the action you wish the target to take would cause direct harm to the target or its allies, your mental attack has disadvantage.",
-            "5. Use Senses of Others: 1/SR; bonus action; You can see, hear, smell, touch, and taste through the senses of anyone with whome you have telepathic contact. You can attempt to use this ability on a willing or unwilling target within 120'; an unwilling target requires an attack. You do not need to see the target, but you must know that it is within range. Your shared senses last 10 minutes.",
-            "6. Precognition: 1/week; free action; You dimly sense the future for the next 10 minutes. This has the following effects until the duration expires: You have advantage on saving throws. You can predict the actions of those around you, gaining advantage on Insight checks to contest Deception, as well as on Perception checks to avoid traps and ambushes. You know what people are probably thinking and what they will say before they say it, which gives you an edge, gaining advantage on all Charisma-based skill checks.",
+            "4. Psychic Suggestion: 1/SR; bonus action; You attempt to make the target take the action you indicate on its next turn (WIS save). If the action you wish the target to take would cause direct harm to the target or its allies, the target has advantage on its save.",
+            "5. Use Senses of Others: 1/SR; bonus action; You can see, hear, smell, touch, and taste through the senses of anyone with whom you have telepathic contact. You can attempt to use this ability on a willing or unwilling target within 120'; an unwilling target makes a WIS save. You do not need to see the target, but you must know that it is within range. Your shared senses last 10 minutes.",
+            "6. Precognition: 1/week; free action; You dimly sense the future for the next 10 minutes. This has the following effects until the duration expires: You have advantage on saving throws. You can predict the actions of those around you, gaining advantage on Insight checks to contest Deception, as well as on Perception checks to notice traps and ambushes. You know what people are probably thinking and what they will say before they say it, which gives you an edge, gaining advantage on all social skill checks.",
             "7. Mind Control: 1/week; bonus action; You control the actions of another creature you touch. This effect lasts for 1 minute. The target must be of CR 2 or lower. Once you have established control, you maintain mental contact with the target and sense what it senses. You can allow it to act freely or override its control on a case-by-case basis. When the effect ends, the creature does not remember being controlled or anything it did while under your command.",
             "8. Telepathic Network: At-will; free action; When you wish it, you can contact up to 10 creatures known to you, no matter where they are. All targets must be willing and able to communicate. All creatures in the network are linked and can communicate telepathically with one another. They can also 'overhear' anything said in the network, if they wish. The network lasts until you choose to end it.",
-            "9. Your Telepathic feature now lasts for 24 hours.",
+            "9. Your Telepathic feature now has a range of 120'.",
             "10. Your Mind Reading feature can now be used at-will, has a range of 120', and you no longer need to be able to see the target (but you do need to know that they are within range)."
         ]
     },
@@ -2659,16 +2659,16 @@
         "name": "Spawns",
         "description": "fighting alongside your clone",
         "tiers": [
-            "1. Your clone accompanies you and follows your instructions. The clone looks, talks, and acts like you, but it is not as effective as you in many ways. It has the stats of a CR 1 humanoid creature. If your clone dies, you can spawn another in 1d6 days. A subtle psychic bond you share with your clone enables it to think, which restricts the number of active clones you can have at once to 1.",
-            "2. The psychic bond you share with your clone improves. Through the bond, you can communicate telepathically at any range within the same plane of existence. If you wish to temporarily intensify the bond, you can use a bonus action to sense what your clone senses until your next turn.",
+            "1. Your clone accompanies you and follows your instructions. The clone looks, talks, and acts like you, but it is not as effective as you in many ways. It is a CR 1 humanoid. If your clone dies, you can spawn another in 1d6 days. A subtle psychic bond you share with your clone enables it to think, which restricts the number of active clones you can have at once to 1.",
+            "2. The psychic bond you share with your clone improves. Through the bond, you can communicate telepathically at any range within the same plane of existence. If you wish to temporarily intensify the bond, you can use a bonus action to sense what your clone senses until the start of your next turn.",
             "3. If you attempt a task and get Help from your clone on a task you are not adding your proficiency bonus to, you instead do add your proficiency bonus.",
-            "4. Your clone is more concerned about your well-being than its own, and if it is standing next to you when you are subjected to a Dexterity save, you have advantage on the save. If you would have failed the save without the cover provided by your clone, they they take the effect as if they had failed the save.",
+            "4. Your clone is more concerned about your well-being than its own, and if it is standing next to you when you are subjected to a saving throw, you have advantage on the save. If you succeed but would have failed the save without the cover provided by your clone, they they take the effect as if they had failed the save.",
             "5. Your clone increases to CR 2.",
-            "6. Force Spawning: 1/LR; bonus action; You empower your clone, but this is very taxing. You gain a level of exhaustion. Your clone gains +4 all damage it deals and +6 to its current and maximum hit points for 1 minute.",
-            "7. Psychic Transfer: 1/LR; bonus action; You can switch minds between yourself and your clone within 120' through your psychic bond. You have access to all your features and powers while in the body of your clone. Your original body is treated as your clone (though it has all your equipment), and your mind in the clone body is treated as if it was you. You can make the switch permanent or switch back as a separate bonus action.",
+            "6. Force Spawning: 1/LR; bonus action; You empower your clone, but this is very taxing. You gain a level of exhaustion. Your clone adds 1d8 to all damage it deals and triple your level to its current and maximum hit points for 1 minute (it doesn't lose its current hit points at the end of the effect).",
+            "7. Psychic Transfer: 1/LR; bonus action; You can switch minds between yourself and your clone within 120' through your psychic bond. You have access to all your features and powers while in the body of your clone. Your original body is treated as your clone, and your mind in the clone body is treated as if it was you. You can make the switch permanent or switch back as a separate bonus action.",
             "8. Your clone increases to CR 3.",
             "9. Your clone increases to CR 4.",
-            "10. While you and your clone are both on the same plane of existence, you both have +1 to Wisdom saves. Additionally, you can always see through both your own senses and your clone's while on the same plane of existence."
+            "10. While you and your clone are both on the same plane of existence, you both gain an expertise die on Wisdom saves. Additionally, you can always see through both your own senses and your clone's while on the same plane of existence."
         ]
     },
     {

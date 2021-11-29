@@ -211,6 +211,14 @@
             "description": "+1 to all damage you deal to creatures you are grabbing on to."
         },
         {
+            "name": "Massive Knockdown (0)",
+            "description": "+1 basic damage for each condition on the target."
+        },
+        {
+            "name": "Crippling Knockdown (0)",
+            "description": "The target cannot stand up during their next turn."
+        },
+        {
             "name": "Keen Zealous Stance (1)",
             "description": "Your modified attacks also gain +1 crit dice."
         },
@@ -273,6 +281,30 @@
         {
             "name": "Impactful Anticipate Spell (1)",
             "description": "On use, deals 1d6 base weapon damage to the target. Costs 1 additional exertion."
+        },
+        {
+            "name": "Necromantic Bounding Strike (1)",
+            "description": "No longer make an attack. Instead, if an undead minion of yours is within your reach, add the check result to the damage of the first successful hit it makes during its next turn."
+        },
+        {
+            "name": "Striding Bounding Strike (1)",
+            "description": "The initial movement increases to 25'."
+        },
+        {
+            "name": "Able Victory Pose (1)",
+            "description": "The triggering critical hit also deals additional damage equal to the ability modifier used for the attack."
+        },
+        {
+            "name": "Inspiring Victory Pose (1)",
+            "description": "The targets also gain an expertise die on the boosted death save."
+        },
+        {
+            "name": "Improved Cleaving Swing (1)",
+            "description": "The new attack deals 1d6 additional base damage."
+        },
+        {
+            "name": "Reckless Cleaving Swing (1)",
+            "description": "If the new attack hits, you take 1d6 true damage and it deals 1d12 additional base damage."
         }
     ]
 }

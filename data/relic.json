@@ -2367,8 +2367,8 @@
         ]
     },
     {
-        "name": "",
-        "type": "armour",
+        "name": "Mark of Broken Oaths",
+        "type": "X",
         "startingMods": [
             {
                 "description": "your negative res for wep dmg is halved",

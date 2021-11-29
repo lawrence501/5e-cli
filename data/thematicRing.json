@@ -2217,7 +2217,7 @@
     {
         "name": "foresight",
         "mods": ["+3 incoming temp HP"],
-        "tags": ["temp HP"]
+        "tags": ["temp hp"]
     },
     {
         "name": "druidic rite",
@@ -2281,8 +2281,8 @@
     },
     {
         "name": "command of steel",
-        "mods": ["+1 wep AC while holding a shield", "+1 wep dmg while holding a shield"],
-        "tags": ["wep ac", "holding shield", "wep dmg"]
+        "mods": ["+1 wep AC while holding a shield", "+1 {hitForm} dmg while holding a shield"],
+        "tags": ["wep ac", "holding shield"]
     },
     {
         "name": "profane chemistry",
@@ -2356,12 +2356,52 @@
     },
     {
         "name": "defiance",
-        "mods": ["+1 wep AC while holding a shield", "+1 wep dmg while holding a shield", "+1 AC while holding a shield"],
-        "tags": ["wep ac", "holding shield", "wep dmg", "spell ac"]
+        "mods": ["+1 wep AC while holding a shield", "+1 {hitForm} dmg while holding a shield", "+1 AC while holding a shield"],
+        "tags": ["wep ac", "holding shield", "spell ac"]
     },
     {
         "name": "retribution",
         "mods": ["+1 global dmg", "+1 minion dmg", "+1 {abilityScore1}", "+1 {abilityScore2}"],
         "tags": ["wep dmg", "spell dmg", "minion dmg", "ability score"]
+    },
+    {
+        "name": "sanctity",
+        "mods": ["+1 {physType} res", "+1 incoming temp HP", "+1 passive regen", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["phys res", "temp hp", "hp", "ability score"]
+    },
+    {
+        "name": "light of divinity",
+        "mods": ["+1 spell dmg", "-1 spell crit req", "+5' darkvision", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["spell dmg", "crit", "ability score"]
+    },
+    {
+        "name": "robust",
+        "mods": ["+1 passive regen"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "barbarism",
+        "mods": ["+2 max HP", "+2 {nonPhysType} abs", "+2 {nonPhysType} res"],
+        "tags": ["hp", "non-phys res"]
+    },
+    {
+        "name": "juggernaut",
+        "mods": ["+2 {physType} res", "+4 max HP"],
+        "tags": ["phys res", "hp"]
+    },
+    {
+        "name": "retaliation",
+        "mods": ["+1 {hitForm} dmg while holding a shield", "+1 wep dmg while holding a shield", "+1 AC while holding a shield"],
+        "tags": ["holding shield", "wep dmg", "wep ac", "spell ac"]
+    },
+    {
+        "name": "storm weaver",
+        "mods": ["+1 {nonPhysType1} dmg", "+1 {nonPhysType2} dmg", "creatures marked or condi'd by you have -1 {dmgPolarity} res"],
+        "tags": ["non-phys dmg", "condi", "dmg polarity"]
+    },
+    {
+        "name": "blade of cunning",
+        "mods": ["+1 {weaponClass} AB", "-1 {weaponClass} crit req", "+1 {weaponClass} crit dice"],
+        "tags": ["weapon class", "ab", "crit"]
     }
 ]

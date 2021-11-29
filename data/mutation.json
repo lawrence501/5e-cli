@@ -22,7 +22,7 @@
         },
         {
             "name": "Gluey globs",
-            "description": "You can produce gluey globs at your fingertips. Adv on checks related to climbing and keeping grip. 5' range fling natural weapon, no damage but target's physical tasks have disadv until end of your next turn."
+            "description": "You can produce gluey globs at your fingertips. Adv on checks related to climbing and keeping grip. 30' range fling natural weapon, no damage but target's physical tasks have disadv until end of your next turn."
         },
         {
             "name": "Face dancing",
@@ -42,15 +42,15 @@
         },
         {
             "name": "Spit needles",
-            "description": "5' range spit natural weapon, 1d4 P and make second atk for 1d10 + lvl psn"
+            "description": "30' range spit natural weapon, 1d4 P and make second atk for 1d10 + lvl psn"
         },
         {
             "name": "Spit acid",
-            "description": "5' range spit natural weapon, 1d6 + lvl acid"
+            "description": "30' range spit natural weapon, 1d6 + lvl acid"
         },
         {
             "name": "Spit webs",
-            "description": "You can make up to 10' of a strong, ropelike material between long rests at the rate of 1'/min. Webbing has 9 AC and 30 HP. Also 5' range spit natural weapon, no dmg but target's physical tasks have disadv until end of your next turn."
+            "description": "You can make up to 10' of a strong, ropelike material between long rests at the rate of 1'/min. Webbing has 9 AC and 30 HP. Also 30' range spit natural weapon, no dmg but target's physical tasks have disadv until end of your next turn."
         },
         {
             "name": "Filtered lungs",
