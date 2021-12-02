@@ -256,7 +256,7 @@
   },
   {
     "name": "mage - rune of winter",
-    "mods": ["+1 to condi DCs", "your $nonPhysType and $nonPhysType spells are converted to $nonPhysType and gain 20% chance on hit to paralyse until end of your next turn"],
+    "mods": ["+1 to condi DCs", "your $nonPhysType and $nonPhysType spells are converted to $nonPhysType and gain 20% chance on hit to stagger until end of your next turn"],
     "upgrade": "+1 NOT para chance"
   },
   {
@@ -676,7 +676,7 @@
   },
   {
     "name": "sorcerer - arcane avalanche",
-    "mods": ["1/combat, when bloodied, 1 adj foe has 20% chance to be paralysed until end of their next turn"],
+    "mods": ["1/combat, when bloodied, 1 adj foe has 20% chance to be staggered until end of their next turn"],
     "upgrade": "+1 foe ALT +10%"
   },
   {

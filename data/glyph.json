@@ -483,16 +483,16 @@
         "name": "Sees Beyond",
         "description": "magical sight",
         "tiers": [
-            "1. You can automatically perceive creatures and objs that are normally invisible, out of phase, or only partially on this plane. When looking for things more conventionally hidden, you have advantage on the related check.",
-            "2. See Through Matter: 1/min; bonus action; You can see through matter as if it were transparent. You can see through up to 6 inches of material for 6 seconds. Doing so is a perception check whose DC is based on the quality of the material.",
-            "3. Find the Hidden: 1/SR; bonus action; You see the traceries of objects as they move through space and time. You can sense the distance and direction of any specific inanimate object that you have touched. This takes anywhere between 1 second and hours of unbroken Concentration, depending on what the DM feels is appropriate due to time, distance, or other mitigating circumstances. However, you do not know in advance how long it will take.",
-            "4. Sensor: 1/SR; bonus action; You create an immobile, invisible sensor within 5' of you that lasts for 24 hours. At any time during that duration, you can Concentrate to see, hear, and smell through the sensor, no matter how far you move from it. The sensor does not grant you sensory capabilities beyond the norm.",
-            "5. Remote Viewing: 1/week; bonus action; Distance is an illusion, as all space is one space. With great Concentration, you can see another place. This ability can be used in one of two different ways. First, pick a spot a specific direction away from you and in a specific direction. You can see from that vantage point as if you had used your Sensor feature there, but only for one minute. Secondly, think of a place that you have seen before, either conventionally or using the application of this feature. You can see from that vantage point as if you had used your Sensor feature there, but only for up to 12 seconds. Either of these applications takes anywhere from 1 second to hours of Concentration, depending on what the DM feels is appropriate due to time, distance, or other mitigating circumstances. However, you don't know in advance how long it will take.",
-            "6. See Through Time: 1/month; bonus action; Time is an illusion, as all time is one time. With great Concentration, you can see into another time. You specify a time period regarding the place where you now stand. Interestingly, the easiest time to view is about 100 years in the past or future. Viewing farther back or ahead is a nearly impossible task. This takes anywhere from 1 second to hours of Concentration, depending on what the DM feels is appropriate due to time, distance, or other mitigating circumstances. However, you don't know in advance how long it will take.",
-            "7. Mental Projection: 1/week; bonus action; Your mind fully leaves your body and manifests anywhere you choose within 5' of you. Your projected mind can remain apart from your body for up to 24 hours. This effect ends early if your HP is reduced to 0 or if your projection touches your resting body. Your disembodied mind is a psychic construct that looks like you, though its frayed edges trail off into nothingness. You control this body as if it were your normal body and can act and move as you normally would with a few exceptions. You can move through solid objects, and you ignore any terrain feature that would impede your movement. Your attacks inflict -6 damage (to a minimum of 1) and you take -6 damage from physical sources, unless they can affect transplanar or phased beings. Regardless of the source, you take all damage as psychic damage. Your mind can travel up to 1 mile (1.5km) from your body. Your physical body is helpless until this effect ends. You cannot use your physical senses to perceive anything (including recognising when your body is taking damage). If this effect is ended early by your body reaching 0 HP, you are stunned until the end of your next turn as you try to reorient yourself to your predicament.",
-            "8. You possess such a high level of awareness that it is very difficult to surprise, hide from, or sneak up on you. You gain +6 to all initiative and perception checks.",
-            "9. Gain proficiency/+2 in perception.",
-            "10. You can now use your See Through Matter feature at-will."
+            "1. You can automatically perceive creatures and objs that are normally invisible or only partially visible on this plane. When looking for things more conventionally hidden, you have advantage on the related check.",
+            "2. See Through Matter: 1/min; bonus action; You can attempt to see through matter as if it were transparent. You can attempt to see through up to 6 inches of material for 6 seconds. Doing so is a perception check with a DC based on the quality of the material.",
+            "3. Find the Hidden: 1/SR; bonus action; You see the traces of objects as they move through space and time. You can sense the distance and direction of any specific inanimate object that you have touched. This takes anywhere between 1 second and hours of unbroken Concentration, depending on what the DM feels is appropriate due to the object's distance or other mitigating circumstances. However, you do not know in advance how long it will take.",
+            "4. Sensor: 1/SR; bonus action; You create an immobile, invisible sensor within 5' of you that lasts for 24 hours. At any time during that duration, you can Concentrate to see, hear, and smell through the sensor, no matter how far you move from it.",
+            "5. Remote Viewing: 1/week; bonus action; Distance is an illusion, as all space is one space. With concentration, you can see another place. This ability can be used in one of two different ways. First, pick a spot a specific distance away from you and in a specific direction. You can see from that vantage point as if you had used your Sensor feature there, but only for one minute. Secondly, think of a place that you have seen before, either conventionally or using the application of this feature. You can see from that vantage point as if you had used your Sensor feature there, but only for up to 12 seconds. Either of these applications takes anywhere from 1 second to hours of concentration, depending on what the DM feels is appropriate due to distance or other mitigating circumstances. However, you don't know in advance how long it will take.",
+            "6. See Through Time: 1/month; bonus action; Time is an illusion, as all time is one time. With concentration, you can see into another time. You specify a time period regarding the place where you now stand. Interestingly, the easiest time to view is about 100 years in the past or future. Viewing farther back or ahead is a nearly impossible task. This takes anywhere from 1 second to hours of Concentration, depending on what the DM feels is appropriate due to the time difference or other mitigating circumstances. However, you don't know in advance how long it will take.",
+            "7. Mental Projection: 1/week; bonus action; Your mind fully leaves your body and manifests anywhere you choose within 5' of you. Your projected mind can remain apart from your body for up to 24 hours. This effect ends early if your HP is reduced to 0 or if your projection touches your resting body. Your disembodied mind is a psychic construct that looks like you, though its frayed edges trail off into nothingness. You control this body as if it were your normal body and can act and move as you normally would with a few exceptions. You can move through solid objects, and you ignore any terrain feature that would impede your movement. Your attacks inflict -6 damage (to a minimum of 1) and you take -6 non-magical physical damage. You take all damage as psychic damage. Your mind can travel up to 1 mile (1.5km) from your body. Your physical body is helpless until this effect ends. You cannot use your physical senses to perceive anything (including recognising when your body is taking damage). If this effect is ended early by your body reaching 0 HP, you are debilitated until the end of your next turn as you try to reorient yourself to your predicament.",
+            "8. You possess such a high level of awareness that it is very difficult to surprise, hide from, or sneak up on you. You gain a d8 expertise die on all initiative and perception checks.",
+            "9. You gain an expertise die in perception.",
+            "10. Your See Through Matter feature is always active and automatically succeeds."
         ]
     },
     {
@@ -595,15 +595,15 @@
         "name": "Lets it Ride",
         "description": "gambling and leaning into luck",
         "tiers": [
-            "1. Snake Eyes: At-will; bonus action; The laws of probability change around you, granting you double advantage on gambling-related skill checks for the next 10 minutes.",
+            "1. The laws of probability change around you, granting you double advantage on gambling-related skill checks.",
             "2. The spirits of the air favour you. You have critical requirement -1 for all d20 rolls.",
             "3. The DM must inform you one turn in advance when you are about to be specifically targeted in combat.",
             "4. Whenever you score a critical on any d20 roll in combat, you gain a bonus action.",
             "5. Hot Cards: 1/LR; bonus action; You infuse a held object with luck. For the next 10 minutes, all d20 rolls involving the object have critical requirement -2.",
             "6. Impossible Play: 1/month; free action; You may only use this feature while attempting an action that would normally have a DC of 30 or higher. You treat the DC as 15 for this action.",
-            "7. You Snake Eyes feature now lasts 1 hour.",
+            "7. T1 now grants automatic success.",
             "8. You have critical requirement -1 for all d20 rolls.",
-            "9. Whenever you are informed in advance of being targeted in combat, you also find out which creature will be targeting you.",
+            "9. Whenever you are informed in advance of being targeted in combat, you also find out which creature(s) will be targeting you.",
             "10. Whenever you score a critical on any d20 roll in combat, you gain 2 bonus actions."
         ]
     },
@@ -1395,16 +1395,16 @@
         "name": "Crafts Powerful Poisons",
         "description": "crafting poisons",
         "tiers": [
-            "1. Your character gains a Poison Pool, which starts with 10 points. This pool represents your ability to carry the appropriate ingredients and use them for various Mixtures. You can spend your Poison pool on Mixtures; these are recipes that you have learned to quickly concoct with your on-hand supplies. Mixtures are commonly augments on to a weapon. However, Mixtures could be used as a bonus action on their own. Once a poisoner runs out of Poison Points, they must restock their supplies. A poisoner can restore their Poison Pool through foraging or shopping. If foraging, the poisoner will need to roll a Survival check, recovering half the check's score in points. This process takes 2 hours. For shopping, a Persuasion check is made instead, granting points equal to the check's score, but the process takes 1 hour and 30 gold. By paying 50 gold instead, you can gain advantage on your Persuasion check.",
+            "1. Your character gains a Poison Pool, which starts with 10 points. This pool represents your ability to carry the appropriate ingredients and use them for various Mixtures. You can spend your Poison pool on Mixtures; these are recipes that you have learned to quickly concoct with your on-hand supplies. Mixtures are commonly augments for a weapon. However, Mixtures could be used as a bonus action on their own. Once a poisoner runs out of Poison Points, they must restock their supplies. A poisoner can restore their Poison Pool through foraging or shopping. If foraging, the poisoner will need to roll a Survival check, recovering half the check's score in points. This process takes 2 hours. For shopping, a Persuasion check is made instead, granting points equal to the check's score, but the process takes 1 hour and 30 gold. By paying 50 gold instead, you can gain advantage on your Persuasion check.",
             "2. You learn the Damage Mixture (1 poison point, victim gains a 2 damage poison DoT) and the Loose Lips Mixture (1 poison point, all social interactions with the victim have advantage for 10 minutes).",
-            "3. You gain +2 in the cooking craft. You gain +2 to saves against poisons, and +2 poison resistance.",
-            "4. You gain +2 to saves against poisons, and +2 poison resistance.",
-            "5. You learn the Slow Mixture (2 poison points, victim's speed is halved for 5 minutes) and the Impair Mixture (3 poison points, victim is poisoned until healed).",
+            "3. You gain an expertise die in the cooking craft. You gain an expertise die in saves against poisons, and +2 poison resistance.",
+            "4. You gain an expertise die in saves against poisons, and +2 poison resistance.",
+            "5. You learn the Slow Mixture (2 poison points, victim's is slowed for 5 minutes) and the Impair Mixture (3 poison points, victim is poisoned until healed).",
             "6. Your poison pool increases to 20 points. You learn the Slay Mixture (8 poison points, if victim's CR is less than 2, they die).",
-            "7. You learn the Sleep Mixture (3 poison points, victim falls asleep for 10 minutes. If used in combat, victim needs 2 doses for poison to take effect. The first does will only poison the target) and the Blindness Mixture (5 poison points, victim is blinded for 3 rounds).",
+            "7. You learn the Sleep Mixture (3 poison points, victim falls asleep for 10 minutes, or until damaged/shaken awake as an action. If used in combat, victim needs 2 doses for poison to take effect. The first does will only poison the target) and the Blindness Mixture (5 poison points, victim is blinded for 3 rounds).",
             "8. Your poison pool increases to 25 points.",
-            "9. You gain +2 in the cooking craft. You learn the Magical Disjunction Mixture (6 poison points, victim is unable to cast spells for 3 rounds).",
-            "10. You learn the Paralysis Mixture (6 poison points, victim is paralysed for 2 rounds)."
+            "9. You gain an expertise die in the cooking craft. You learn the Magical Disjunction Mixture (6 poison points, victim is unable to cast spells for 3 rounds).",
+            "10. You learn the Staggering Mixture (6 poison points, victim is staggered for 2 rounds)."
         ]
     },
     {
@@ -2451,15 +2451,15 @@
         "name": "Metamorphises",
         "description": "shapeshifting into insect form",
         "tiers": [
-            "1. Battle Chrysalid: 2/min; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +4 STR and +3 DEX. Claws sprout from your hands, serving as a natural weapon with a damage die of 1d6. You can revert your form with a bonus action.",
+            "1. Battle Chrysalid: At-will; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +4 STR and +3 DEX. Claws sprout from your hands, serving as a glyphic natural weapon that deal 1d6 slashing damage. You can revert your form with a bonus action.",
             "2. You can never have disadvantage on an attack from a chrysalid form.",
-            "3. Devourer Battle Chrysalid: 1/min; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +6 STR, +4 DEX, and +1 AC. Mouth stalks protrude from your body, which serve as a natural weapon with a damage die of 1d6. If you are knocked unconscious, you lose control over your own voracious appetite when you awaken. At the start of each of your turns, you automatically self-inflict 1d4 damage as your mouth stalks self-cannibalise. You can revert as a bonus action.",
-            "4. You gain +2 AB with attacks from chrysalid forms.",
-            "5. Flyer Battle Chrysalid: 1/LR; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain a flying speed of 30', and you gain +4 STR and +3 DEX. Wingblades sprout from your arms, allowing you to fly and serving as a natural weapon with a damage die of 1d6. You can revert as a bonus action.",
-            "6. You gain +2 AB with attacks from chrysalid forms.",
-            "7. Monstrous Battle Chrysalid: 1/month; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +9 STR, +7 DEX, and +2 AC. Your arms become huge, hammerlike appendages, serving as a natural weapon with a damage die of 1d8. Your body is also covered with spikes, so that if anyone strikes you in melee, they suffer 2 thorns damage. Further, you can throw spikes as a 30' ranged natural weapon with a damage die of 1d6. You can revert as a bonus action.",
+            "3. Devourer Battle Chrysalid: At-will; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +6 STR, +4 DEX, and +1 AC. Mouth stalks protrude from your body, which serve as a glyphic natural weapon that deal 1d6 piercing damage. If you are knocked unconscious, you lose control over your own voracious appetite when you awaken. At the start of each of your turns, you automatically self-inflict 1d4 damage as your mouth stalks self-cannibalise. You can revert as a bonus action.",
+            "4. You gain an expertise die with attacks from chrysalid forms.",
+            "5. Flyer Battle Chrysalid: 1/LR; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain a flying speed of 30', and you gain +4 STR and +3 DEX. Wingblades sprout from your arms, allowing you to fly and serving as a glyphic natural weapon that deals 1d6 slashing damage. You can revert as a bonus action.",
+            "6. You gain an expertise die with attacks from chrysalid forms.",
+            "7. Monstrous Battle Chrysalid: 1/month; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +9 STR, +7 DEX, and +2 AC. Your arms become huge, hammerlike appendages, serving as a glyphic natural weapon that deals 1d8 bludgeoning damage. Your body is also covered with spikes, so that if anyone strikes you in melee, they suffer 2 thorns damage. Further, you can throw spikes as a 30' range glyphic natural weapon that deals 1d6 piercing damage. You can revert as a bonus action.",
             "8. Your Battle Chrysalid feature now has a damage die of 1d10 for its claws.",
-            "9. You gain +2 AB with attacks from chrysalid forms that would usually have disadvantage.",
+            "9. You gain an expertise die with attacks from chrysalid forms that would usually have disadvantage.",
             "10. Your Devourer Battle Chrysalid feature now has a damage die of 1d12 for its mouth stalks."
         ]
     },
@@ -2597,8 +2597,8 @@
         "tiers": [
             "1. You gain +1 to an ability score of your choice.",
             "2. You are skilled at keeping your evolved parts well kept, whether those parts are in your brain or your body. You have 1 additional maximum healing surge.",
-            "3. Thanks to your evolution, you gain prof/+2 in Perception.",
-            "4. You gain +5' speed, +2 to Athletics for climbing and swimming, +2 to Acrobatics for balancing, and +5' jump distance.",
+            "3. Thanks to your evolution, you gain an expertise die in Perception.",
+            "4. You gain +5' speed, an expertise die in Athletics for climbing and swimming, an expertise die in Acrobatics for balancing, and +5' jump distance.",
             "5. You have 1 one-handed melee or ranged weapon of your choice built into your body. You have proficiency with this weapon. The weapon is concealed unless you wish to use it.",
             "6. Your new evolutions allow you to alter your body almost at will. Once per long rest, you can transfer 1 point between your ability scores.",
             "7. Your new evolutions allow you to alter your body almost at will. Once per long rest, you can transfer up to 2 points between your ability scores in any combination.",

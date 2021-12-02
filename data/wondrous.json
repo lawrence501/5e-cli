@@ -493,6 +493,26 @@
         {
             "name": "Diary of a Mentally Unhinged Adventurer",
             "description": "https://a5e.tools/node/1147"
+        },
+        {
+            "name": "Earth Charm",
+            "description": "https://a5e.tools/node/907"
+        },
+        {
+            "name": "Efficient Quiver",
+            "description": "https://a5e.tools/node/909"
+        },
+        {
+            "name": "Family Scrapbook",
+            "description": "https://a5e.tools/node/926"
+        },
+        {
+            "name": "Fire Charm",
+            "description": "https://a5e.tools/node/932"
+        },
+        {
+            "name": "Gallow Hand",
+            "description": "https://a5e.tools/node/943"
         }
     ],
     "rare": [

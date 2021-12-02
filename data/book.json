@@ -105,20 +105,20 @@
             "description": "When the mirth fades, the target is affected with crushing grief, sadness, and despair, causing it to sob uncontrollably. The target has disadvantage on the first d20 roll it makes after the spell ends."
         },
         {
-            "name": "X (1)",
-            "description": ""
+            "name": "Exciting Healing Word (1)",
+            "description": "Target has an additional bonus action during their next turn."
         },
         {
-            "name": "X (1)",
-            "description": ""
+            "name": "Warding Healing Word (1)",
+            "description": "If you roll at least one 4 on healing dice, gain 1d8 temporary hit points."
         },
         {
-            "name": "X (1)",
-            "description": ""
+            "name": "Unnerving Bane (1)",
+            "description": "Targets are rattled for the duration."
         },
         {
-            "name": "X (1)",
-            "description": ""
+            "name": "Tormenting Bane (1)",
+            "description": "Targets have disadvantage on their next saving throw against the frightened condition."
         },
         {
             "name": "X (1)",
