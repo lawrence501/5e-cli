@@ -121,12 +121,12 @@
             "description": "Targets have disadvantage on their next saving throw against the frightened condition."
         },
         {
-            "name": "X (1)",
-            "description": ""
+            "name": "Rapid Ray of Sickness (1)",
+            "description": "Casting time becomes 'Bonus action'."
         },
         {
-            "name": "X (1)",
-            "description": ""
+            "name": "Valiant Ray of Sickness (1)",
+            "description": "Damage die increases to 4d6 against bosses."
         },
         {
             "name": "Purging Lemure Transformation (2)",
