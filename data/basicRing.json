@@ -125,14 +125,14 @@
         "tag": "conc"
     },
     {
-        "description": "+1 healing from healing surges",
+        "description": "+1 healing from hit dice",
         "upgraded": "-",
-        "tag": "surge healing"
+        "tag": "hit die healing"
     },
     {
-        "description": "+1 max healing surge",
+        "description": "+1 max hit die",
         "upgraded": "-",
-        "tag": "max surges"
+        "tag": "max hit dice"
     },
     {
         "description": "+3 max HP",

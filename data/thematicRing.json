@@ -791,8 +791,8 @@
     },
     {
         "name": "brewed for potency",
-        "mods": ["+1 DoT dmg", "+1 healing from healing surges", "+1 max healing surge"],
-        "tags": ["dot", "surge healing", "max surges"]
+        "mods": ["+1 DoT dmg", "+1 healing from hit dice", "+1 max hit die"],
+        "tags": ["dot", "hit die healing", "max hit dice"]
     },
     {
         "name": "astonishing affliction",
@@ -1066,8 +1066,8 @@
     },
     {
         "name": "peak vigour",
-        "mods": ["+2 max HP", "+2 healing from healing surges"],
-        "tags": ["hp", "surge healing"]
+        "mods": ["+2 max HP", "+2 healing from hit dice"],
+        "tags": ["hp", "hit die healing"]
     },
     {
         "name": "fettle",
@@ -1301,8 +1301,8 @@
     },
     {
         "name": "winter prowler",
-        "mods": ["+1 {nonPhysType} abs", "+1 healing from healing surges"],
-        "tags": ["non-phys res", "surge healing"]
+        "mods": ["+1 {nonPhysType} abs", "+1 healing from hit dice"],
+        "tags": ["non-phys res", "hit die healing"]
     },
     {
         "name": "hibernator",
@@ -1316,8 +1316,8 @@
     },
     {
         "name": "alchemist",
-        "mods": ["+1 {nonPhysType} res", "+1 global dmg", "+1 healing from healing surges"],
-        "tags": ["non-phys res", "wep dmg", "spell dmg", "surge healing"]
+        "mods": ["+1 {nonPhysType} res", "+1 global dmg", "+1 healing from hit dice"],
+        "tags": ["non-phys res", "wep dmg", "spell dmg", "hit die healing"]
     },
     {
         "name": "antifreeze",
@@ -1636,8 +1636,8 @@
     },
     {
         "name": "herbalism",
-        "mods": ["+1 healing from healing surges", "+1 max healing surge", "+1 max HP"],
-        "tags": ["surge healing", "max surges", "hp"]
+            "mods": ["+1 healing from hit dice", "+1 max hit die", "+1 max HP"],
+        "tags": ["hit die healing", "max hit dice", "hp"]
     },
     {
         "name": "mana flows",
@@ -2221,8 +2221,8 @@
     },
     {
         "name": "druidic rite",
-        "mods": ["+1 max healing surge"],
-        "tags": ["max surges"]
+        "mods": ["+1 max hit die"],
+        "tags": ["max hit dice"]
     },
     {
         "name": "forces of nature",
@@ -2286,8 +2286,8 @@
     },
     {
         "name": "profane chemistry",
-        "mods": ["+1 max HP", "+1 healing from healing surges", "first healing surge each turn is free"],
-        "tags": ["hp", "surge healing", "max surges"]
+        "mods": ["+1 max HP", "+1 healing from hit dice", "first hit die each short rest is free"],
+        "tags": ["hp", "hit die healing", "max hit dice"]
     },
     {
         "name": "master of blades",

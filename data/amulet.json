@@ -151,7 +151,7 @@
   },
   {
     "name": "primalist - primal medicine",
-    "mods": ["+2 minion dmg", "on 1+ healing surge, minions heal 2 HP"],
+    "mods": ["+2 minion dmg", "on being healed, minions heal 1 HP"],
     "upgrade": "+1"
   },
   {
@@ -521,7 +521,7 @@
   },
   {
     "name": "forge guard - infinite bulwark",
-    "mods": ["if you've used 1+ healing surges since start of your last turn, +1 phys res", "your 1 loot rolls become 2s (blessing)"],
+    "mods": ["if you've been healed since start of your last turn, +1 phys res", "your 1 loot rolls become 2s (trap -> blessing)"],
     "upgrade": "+1 phys res"
   },
   {
@@ -726,8 +726,8 @@
   },
   {
     "name": "necromancer - elixir of hunger",
-    "mods": ["+3 max HP", "if you've healing surged since start of your last turn, your minions have +1 dmg and heal 2 HP on hit"],
-    "upgrade": "+2 HP ALT +1 turn since surge"
+    "mods": ["+2 max HP", "if you've been healed since start of your last turn, your minions have +1 dmg and heal 2 HP on hit"],
+    "upgrade": "+1 HP ALT +1 turn since heal"
   },
   {
     "name": "necromancer - risen army",
@@ -1056,8 +1056,8 @@
   },
   {
     "name": "lich - elixir of death",
-    "mods": ["on 1+ healing surge, +5 $physType res and +2 $nonPhysType res and -1 passive regen until end of your next turn"],
-    "upgrade": "-1 passive regen and +20 physType ALT -1 passive regen and +4 nonPhysType"
+    "mods": ["on being healed, +4 $physType res and +2 $nonPhysType res and -1 passive regen until end of your next turn"],
+    "upgrade": "-1 passive regen and +16 physType ALT -1 passive regen and +4 nonPhysType"
   },
   {
     "name": "lich - decaying form",
