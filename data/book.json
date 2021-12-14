@@ -129,6 +129,30 @@
             "description": "Damage die increases to 4d6 against bosses."
         },
         {
+            "name": "Glowing Heroism (1)",
+            "description": "Target glows with bright light in a 10' radius and dim light for an additional 5'. When a creature within the target's glow regains hit points, it regains 1d4 additional points."
+        },
+        {
+            "name": "Inspiring Heroism (1)",
+            "description": "Creatures of your choice within 60' of the target also cannot be frightened."
+        },
+        {
+            "name": "Elongated Phantasmal Talons (1)",
+            "description": "Your unarmed attacks also have +5' reach for the duration."
+        },
+        {
+            "name": "Leeching Phantasmal Talons (1)",
+            "description": "On scoring a critical hit with your unarmed attacks during the duration, heal 1 hit point."
+        },
+        {
+            "name": "Sapping Shield (1)",
+            "description": "Whenever you block a hit during the duration, the attacker is slowed until the end of your next turn."
+        },
+        {
+            "name": "Curved Shield (1)",
+            "description": "Now provides 3 additional AC, but does not function while you are being flanked."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },

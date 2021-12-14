@@ -513,6 +513,26 @@
         {
             "name": "Gallow Hand",
             "description": "https://a5e.tools/node/943"
+        },
+        {
+            "name": "Glasses of Rodentius",
+            "description": "https://a5e.tools/node/951"
+        },
+        {
+            "name": "Gremlin Translator",
+            "description": "https://a5e.tools/node/960"
+        },
+        {
+            "name": "Guide to Respecting Social Mores",
+            "description": "https://a5e.tools/node/961"
+        },
+        {
+            "name": "Instrument of Irresistable Symphonies",
+            "description": "https://a5e.tools/node/986"
+        },
+        {
+            "name": "Ironweed Rope",
+            "description": "https://a5e.tools/node/1001"
         }
     ],
     "rare": [
