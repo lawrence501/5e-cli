@@ -279,3 +279,8 @@ var dmgPolarity = func() error {
 	log.Printf("Damage polarity: %s", DAMAGE_POLARITIES[rand.Intn(len(DAMAGE_POLARITIES))])
 	return nil
 }
+
+var partyMember = func() error {
+	log.Printf("Party member: %s", PARTY_MEMBERS[rand.Intn(len(PARTY_MEMBERS))])
+	return nil
+}

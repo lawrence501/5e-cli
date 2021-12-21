@@ -54,6 +54,7 @@ var COMMAND_MAP = map[string]func() error{
 	"aquatic":       aquatic,
 	"insight":       insight,
 	"dmg polarity":  dmgPolarity,
+	"party member":  partyMember,
 }
 
 func main() {

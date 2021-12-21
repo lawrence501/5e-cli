@@ -17,30 +17,6 @@
             "description": "All creatures of your choice within 5' of the target also suffer the disadvantage effect."
         },
         {
-            "name": "Voltaic Produce Flame (0)",
-            "description": "You conjure a ball of lightning instead of flame. The bright light radius increases to 20'. Damage is converted to lightning."
-        },
-        {
-            "name": "Charging Produce Flame (0)",
-            "description": "While you are holding the flame, dealing damage with a melee or touch attack grants +1 damage per cantrip tier to the flame. Throwing it consumes all additional damage."
-        },
-        {
-            "name": "Detonating Acid Splash (0)",
-            "description": "Leaves behind an unstable orb of acid. Casting time is now 'full turn action'. At the start of your next turn, all spaces where a target of this spell was suffer DEX save or take acid splash's dmg again."
-        },
-        {
-            "name": "Improved Acid Splash (0)",
-            "description": "All base damage dice increase to 1d8."
-        },
-        {
-            "name": "Minor Guidance (0)",
-            "description": "No longer requires concentration, and can be cast as a bonus action. The bonus to the check is reduced to +1."
-        },
-        {
-            "name": "Aggressive Guidance (0)",
-            "description": "If the boosted check is made against a creature, that creature takes 1 additional psychic damage per cantrip tier from all sources until the end of your next turn."
-        },
-        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -57,36 +33,12 @@
             "description": "Your other spells are always upcast 1 level for free for the duration."
         },
         {
-            "name": "Ruinous Magic Missile (1)",
-            "description": "Creatures damaged make a STR save or are rattled until the end of your next turn."
-        },
-        {
-            "name": "Rapid Magic Missile (1)",
-            "description": "Casting time is now 'Bonus action'."
-        },
-        {
-            "name": "Heavy Caustic Brew (1)",
-            "description": "Ongoing damage increases to 1d12 while wielding a melee weapon."
-        },
-        {
-            "name": "Stable Caustic Brew (1)",
-            "description": "No longer requires concentration."
-        },
-        {
             "name": "Precarious Longstrider (1)",
             "description": "Targets ignore non-magical difficult terrain for the duration."
         },
         {
             "name": "Cautious Longstrider (1)",
             "description": "Effect ends on a target when they become bloodied, and heals them for 2d8 hit points."
-        },
-        {
-            "name": "Intensifying Magnify Gravity (1)",
-            "description": "If a creature moves 5'+ while slowed, it gets 1 force DoT, stacking until passive CON save."
-        },
-        {
-            "name": "Orchestrated Magnify Gravity (1)",
-            "description": "If you have exactly 2 minions on cast, 60% chance to deal critical damage."
         },
         {
             "name": "Contaminating Searing Equation (1)",
@@ -121,14 +73,6 @@
             "description": "Targets have disadvantage on their next saving throw against the frightened condition."
         },
         {
-            "name": "Rapid Ray of Sickness (1)",
-            "description": "Casting time becomes 'Bonus action'."
-        },
-        {
-            "name": "Valiant Ray of Sickness (1)",
-            "description": "Damage die increases to 4d6 against bosses."
-        },
-        {
             "name": "Glowing Heroism (1)",
             "description": "Target glows with bright light in a 10' radius and dim light for an additional 5'. When a creature within the target's glow regains hit points, it regains 1d4 additional points."
         },
@@ -143,14 +87,6 @@
         {
             "name": "Leeching Phantasmal Talons (1)",
             "description": "On scoring a critical hit with your unarmed attacks during the duration, heal 1 hit point."
-        },
-        {
-            "name": "Sapping Shield (1)",
-            "description": "Whenever you block a hit during the duration, the attacker is slowed until the end of your next turn."
-        },
-        {
-            "name": "Curved Shield (1)",
-            "description": "Now provides 3 additional AC, but does not function while you are being flanked."
         },
         {
             "name": "Purging Lemure Transformation (2)",
@@ -191,30 +127,6 @@
         {
             "name": "Erasing Mind Spike (2)",
             "description": "Damage increases to 3d12 against bloodied targets."
-        },
-        {
-            "name": "Fell Prayer of Healing (2)",
-            "description": "After casting, the targets gain temporary hit points equal to the amount healed as a tenuous connection to dark entities increases their tolerance to pain."
-        },
-        {
-            "name": "Amplified Prayer of Healing (2)",
-            "description": "You can increase the cast time to 1 hour to increase the healing die to 3d10."
-        },
-        {
-            "name": "Hunting Magic Aura (2)",
-            "description": "If the target is a creature, it has -1 crit req for the duration."
-        },
-        {
-            "name": "Invigorating Magic Aura (2)",
-            "description": "The target's modified information instead shows as nothing (non-magical aura, not a creature, and unaligned), and on cast the target is healed for 2d8 hit points."
-        },
-        {
-            "name": "Imbued Scorching Ray (2)",
-            "description": "Each ray is the colour of your choice and deal damage of the corresponding type: yellow (psn), green (acid), blue (cold), purple (psy), black (nec), white (light)."
-        },
-        {
-            "name": "Forking Scorching Ray (2)",
-            "description": "Creates an additional ray which must target a different creature than all other rays."
         }
     ],
     "manual": [

@@ -996,9 +996,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "on block, 20% chance to heal 5 HP",
+        "description": "on block, heal 3 HP",
         "pointValue": "1",
-        "upgrade": "10%/1 OR 5/1",
+        "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {

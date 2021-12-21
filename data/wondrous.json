@@ -533,6 +533,26 @@
         {
             "name": "Ironweed Rope",
             "description": "https://a5e.tools/node/1001"
+        },
+        {
+            "name": "Luminescent Gum",
+            "description": "https://a5e.tools/node/1015"
+        },
+        {
+            "name": "Peal of Power",
+            "description": "https://a5e.tools/node/1066"
+        },
+        {
+            "name": "Message Stones",
+            "description": "https://a5e.tools/node/1031"
+        },
+        {
+            "name": "Meteorological Map",
+            "description": "https://a5e.tools/node/1033"
+        },
+        {
+            "name": "Perfume Vile",
+            "description": "https://a5e.tools/node/1069"
         }
     ],
     "rare": [

@@ -1,0 +1,76 @@
+{
+    "Vinton": {
+        "name": "Vinton's Footwork",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "if you've hit with a melee atk this turn, +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "+1 phys dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+5 wep dmg while waterborne or on a ship",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 melee dmg",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. +1 to survival checks to track",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 to sleight of hand while being helped by Tymm",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 persuasion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +10' sp while on a ship",
+                "pointValue": "2",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "6. +1 intim",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1d4 P dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "9. on being downed, react to instead take half dmg",
+                "pointValue": "1",
+                "upgrade": "+2 max HP/1"
+            },
+            {
+                "description": "10. your Fancy Footwork feature also prevents the creature from making opp atks against Tymm until end of Tymm's next turn",
+                "pointValue": "3",
+                "upgrade": "+5' sp/2"
+            }
+        ]
+    }
+}
