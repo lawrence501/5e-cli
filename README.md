@@ -31,15 +31,15 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 1. 1st base affix
 2. 2nd base affix
 3. 3rd base affix
-4. Class
-5. Backstory
-6. Feats
-7. Current artifacts
-8. Thematic
-9. Pathfinder
+4. Thematic
+5. Class
+6. Backstory
+7. Race
+8. Feats
+9. Current artifacts
 10. Glyph path
-11. Party member
-12. Race
+11. Pathfinder
+12. Reroll with disadv
 
 ### Point value cheatsheet
 

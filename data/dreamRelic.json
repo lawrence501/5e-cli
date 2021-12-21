@@ -4,7 +4,7 @@
         "type": "weapon",
         "startingMods": [
             {
-                "description": "if you've hit with a melee atk this turn, +5' sp",
+                "description": "while your Fancy Footwork feature is triggered, +5' sp",
                 "pointValue": "2",
                 "upgrade": "+5'/2"
             },
@@ -32,9 +32,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. +1 to sleight of hand while being helped by Tymm",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "description": "3. +1 phys res while wearing light body armour",
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "4. +1 persuasion",
@@ -67,9 +67,231 @@
                 "upgrade": "+2 max HP/1"
             },
             {
-                "description": "10. your Fancy Footwork feature also prevents the creature from making opp atks against Tymm until end of Tymm's next turn",
+                "description": "10. +2 charge atk dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    "Tymm": {
+        "name": "Tymm's Pact",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "your Book of Shadows contains 1 additional Wizard cantrips",
                 "pointValue": "3",
-                "upgrade": "+5' sp/2"
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+1 spell save DC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+2 arcana",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 spell dmg vs healthy targets",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. +3 spell dmg vs creatures you can see the magical auras of",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. +5' long/high jump distance",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "4. 1/min as bonus action, next instantaneous 2nd or lower-lvl spell you cast refunds its spell points",
+                "pointValue": "2",
+                "upgrade": "+1 spell lvl/2"
+            },
+            {
+                "description": "5. your spells with additional effects on post-casting bonus actions can use those effects as free actions instead, a number of times equal to your bonus actions",
+                "pointValue": "1",
+                "upgrade": "+1 bonus action each turn/3"
+            },
+            {
+                "description": "6. as action, you can attempt Arcana DC 13 to cast Detect Magic for free, up to 1min",
+                "pointValue": "2",
+                "upgrade": "-1 DC/1"
+            },
+            {
+                "description": "7. +1 intim",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. 20% chance on identifying a wondrous item with arcana to increase its potency by 1 step",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "9. +1 eldritch blast dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 persuasion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    "Eva": {
+        "name": "Eva's Binding",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "the summoning range of your Bind Spirits feature is doubled",
+                "pointValue": "3",
+                "upgrade": "+1 multi/3"
+            },
+            {
+                "description": "+2 animal handling for placating beasts",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on reaching 50% HP, gain effects of the dodge action",
+                "pointValue": "1",
+                "upgrade": "+1 AC during dodge action/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to your lowest AS",
+                "pointValue": "2",
+                "upgrade": "1/2"
+            },
+            {
+                "description": "2. +2 dmg res vs constructs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on reaching 50% HP, gain 2 dmg res until start of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. adj allies have +1 dmg res",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 investigation for finding loot",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 nature for identifying plants",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +15' darkvision",
+                "pointValue": "1",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "8. your Bound Spirits are immune to dazed",
+                "pointValue": "4",
+                "upgrade": "+1 to Bound Spirit condi saves/3"
+            },
+            {
+                "description": "9. +1 dmg res while both of your Bound Spirits are 60+' away",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. on reaching 50% HP, you may teleport your Bound Spirits up to 10' away from you",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            }
+        ]
+    },
+    "Fillipo": {
+        "name": "Fillipo's Culture",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 history",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 AoE dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on limited spellcast, heal 3 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. learn the Spider Climb spell, always prepared",
+                "pointValue": "2",
+                "upgrade": "+1 upcast lvl/3"
+            },
+            {
+                "description": "2. +1 AoE dmg abs",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 to your lowest AS",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +1 dmg res",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 dmg res while outside any city's borders",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. +1 to your second-highest AS",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. +1 thunder abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 percep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +2 dmg res vs humanoids",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 performance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
             }
         ]
     }

@@ -179,92 +179,12 @@
             "description": "The target cannot stand up during their next turn."
         },
         {
-            "name": "Keen Zealous Stance (1)",
-            "description": "Your modified attacks also gain +1 crit dice."
-        },
-        {
-            "name": "Cautious Zealous Stance (1)",
-            "description": "Incoming modified attacks deal 3 less damage."
-        },
-        {
-            "name": "Siphoning Cavalier Stance (1)",
-            "description": "On block while active, heal 1 hit point."
-        },
-        {
-            "name": "Improved Cavalier Stance (1)",
-            "description": "All damage you take while active is reduced by 1."
-        },
-        {
-            "name": "Fleeting Lean Into It (1)",
-            "description": "Only the first attack made knocks prone. The first attack made deals 1d6 additional base damage."
-        },
-        {
-            "name": "Devilish Lean Into It (1)",
-            "description": "Each hit forces the target to make a DEX save or gain 3 fire DoT, stacking until passive DEX save."
-        },
-        {
-            "name": "Deadly Exploit Footing (1)",
-            "description": "While a creature is prone, all damage you deal is increased by 1."
-        },
-        {
-            "name": "Shattering Exploit Footing (1)",
-            "description": "When the prone creature stands up, shrapnel erupts from it, staggering all creatures of your choice adjacent to it until the end of your next turn."
-        },
-        {
-            "name": "Resolute Heavy Stance (1)",
-            "description": "You gain an additional expertise die on saving throws made to resist combat maneuvers. Gains a 6+ recharge."
-        },
-        {
-            "name": "Generous Heavy Stance (1)",
-            "description": "No longer affects you. Affects all creatures of your choice within 60'."
-        },
-        {
-            "name": "Intimidating Striding Swings (1)",
-            "description": "All creatures of your choice within 5' of you while moving deal 1 less damage whenever they deal damage until the end of your next turn."
-        },
-        {
-            "name": "Insatiable Striding Swings (1)",
-            "description": "On sub hit with any attack, heal 1d12 HP."
-        },
-        {
-            "name": "Powerful Imposing Glare (1)",
-            "description": "Your melee attacks deal 1d6 additional base damage while the target is frightened."
-        },
-        {
-            "name": "Iron Imposing Glare (1)",
-            "description": "Reduce all physical damage you take by 1 while the target is frightened."
-        },
-        {
             "name": "Bleeding Anticipate Spell (1)",
             "description": "On hit with the opportunity attack, target makes a CON save or gets 3 S DoT, stacking until passive CON save."
         },
         {
             "name": "Impactful Anticipate Spell (1)",
             "description": "On use, deals 1d6 base weapon damage to the target. Costs 1 additional exertion."
-        },
-        {
-            "name": "Necromantic Bounding Strike (1)",
-            "description": "No longer make an attack. Instead, if an undead minion of yours is within your reach, add the check result to the damage of the first successful hit it makes during its next turn."
-        },
-        {
-            "name": "Striding Bounding Strike (1)",
-            "description": "The initial movement increases to 25'."
-        },
-        {
-            "name": "Able Victory Pose (1)",
-            "description": "The triggering critical hit also deals additional damage equal to the ability modifier used for the attack."
-        },
-        {
-            "name": "Inspiring Victory Pose (1)",
-            "description": "The targets also gain an expertise die on the boosted death save."
-        },
-        {
-            "name": "Improved Cleaving Swing (1)",
-            "description": "The new attack deals 1d6 additional base damage."
-        },
-        {
-            "name": "Reckless Cleaving Swing (1)",
-            "description": "If the new attack hits, you take 1d6 true damage and it deals 1d12 additional base damage."
         }
     ]
 }
