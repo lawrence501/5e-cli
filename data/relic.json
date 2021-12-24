@@ -15,7 +15,7 @@
             },
             {
                 "description": "on hit, fire a glyphic arrow atk at creature of your choice within 120' dealing 1d4 P",
-                "pointValue": "6",
+                "pointValue": "3",
                 "upgrade": "+1 die size/1"
             }
         ],
@@ -1379,8 +1379,8 @@
             },
             {
                 "description": "6. on hit, give target 1 psn DoT, stacking until CON save",
-                "pointValue": "4",
-                "upgrade": "+1/4"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "7. +1 weapon dmg vs DoT'd targets",
@@ -1932,7 +1932,7 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "on hit, target gets -1 psn res until end of their next turn",
+                "description": "on hit, target gets -2 psn res until end of their next turn",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -2316,8 +2316,8 @@
         "thematicMods": [
             {
                 "description": "1. on hit, give target -1 wep dmg res for combat",
-                "pointValue": "2",
-                "upgrade": "-1/2"
+                "pointValue": "1",
+                "upgrade": "-1/1"
             },
             {
                 "description": "2. +1 incoming temp HP",
@@ -2443,6 +2443,376 @@
     {
         "name": "Wild Strike",
         "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+1d4 S dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on wep hit, -1 wep AB for combat",
+                "pointValue": "-8",
+                "upgrade": "-8 and 9pts distributed/1"
+            },
+            {
+                "description": "on wep miss, +2 wep AB for combat",
+                "pointValue": "16",
+                "upgrade": "+1/8"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on basic wep hit, +1 limited feature wep dmg for combat",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. on wep miss, +1 wep dmg for combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. on block, -2 wep dmg for combat; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 3pts/1"
+            },
+            {
+                "description": "5. on wep miss, target takes 1d4 glyphic fire dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 bonus action on each turn",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. on bonus action use, -1 to dmg dealt with a bonus action for combat; distribute 2pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 2pts/1"
+            },
+            {
+                "description": "8. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. on wep hit, gain 1 fire DoT, stacking until DEX save; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "+1 and distribute 3pts/1"
+            },
+            {
+                "description": "10. on wep hit, splash 1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Mindtide",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 psy dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 CON",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. +1 STR",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +5' sp if you haven't done anything other than move this turn",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "4. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "5. +1 to saves vs debilitate",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. +1 to saves vs daze",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. +1 to saves vs restrain",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. +1 phys dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +1 dmg with martial weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. you always count as being waterborne",
+                "pointValue": "3",
+                "upgrade": "+1 dmg res while waterborne/1"
+            }
+        ]
+    },
+    {
+        "name": "Sea Angel",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "after being dmg'd by a creature for the first time in a round, whenever another creature dmg's you that round, the dmg is dealt to an ally within 60' instead",
+                "pointValue": "1",
+                "upgrade": "-1 dmg redirected/2"
+            },
+            {
+                "description": "+1 to saves vs uncon",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "you radiate a 5' aura of +5' sp for allies",
+                "pointValue": "4",
+                "upgrade": "+5' sp/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 B res",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. +2 cold res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +2 fire res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. you radiate a 5' aura of -5' sp for foes",
+                "pointValue": "4",
+                "upgrade": "-5' sp/4"
+            },
+            {
+                "description": "5. while adj to Eva, +1 aura effectiveness",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. +1 AoE dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 cold dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. while adj to Tymm, +2 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. on spell hit while adj to Fillipo, target makes CON save or staggered until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1 to stagger DCs/3"
+            }
+        ]
+    },
+    {
+        "name": "Visage",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1 exp gain",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+1 to social skills",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "gain dmg res equal to 20% of your lvl",
+                "pointValue": "4",
+                "upgrade": "+10%/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to positive social skills",
+                "pointValue": "2",
+                "upgrade": "1/2"
+            },
+            {
+                "description": "2. gain a bonus to social skills equal to 10% of your lvl",
+                "pointValue": "4",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "3. gain exp gained equal to 10% of your lvl",
+                "pointValue": "4",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. +1 exp gained from non-combat sources",
+                "pointValue": "2",
+                "upgrade": "1/2"
+            },
+            {
+                "description": "5. +10' sp while trying to flee from combat",
+                "pointValue": "2",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "6. +1 exp gained from combats",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. +1 aura effectiveness",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +1 to negative social skills",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. spend 14 hit points per point of exertion instead of spending exertion",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "10. spend 8 hit points per spell lvl instead of consuming spell slots",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            }
+        ]
+    },
+    {
+        "name": "X",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1d4 S dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on wep hit, -1 wep AB for combat",
+                "pointValue": "-8",
+                "upgrade": "-8 and 9pts distributed/1"
+            },
+            {
+                "description": "on wep miss, +2 wep AB for combat",
+                "pointValue": "16",
+                "upgrade": "+1/8"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on basic wep hit, +1 limited feature wep dmg for combat",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "2. on wep miss, +1 wep dmg for combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. on block, -2 wep dmg for combat; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 3pts/1"
+            },
+            {
+                "description": "5. on wep miss, target takes 1d4 glyphic fire dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 bonus action on each turn",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. on bonus action use, -1 to dmg dealt with a bonus action for combat; distribute 2pts",
+                "pointValue": "1",
+                "upgrade": "-1 and distribute 2pts/1"
+            },
+            {
+                "description": "8. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. on wep hit, gain 1 fire DoT, stacking until DEX save; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "+1 and distribute 3pts/1"
+            },
+            {
+                "description": "10. on wep hit, splash 1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "X",
+        "type": "armour",
         "startingMods": [
             {
                 "description": "+1d4 S dmg to weps",

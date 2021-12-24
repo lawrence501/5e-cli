@@ -979,13 +979,13 @@
         "name": "Talks to Machines",
         "description": "communicating with constructs",
         "tiers": [
-            "1. You gain +2 with skill checks involving magical objects or constructs. Additionally, you create a construct to accompany you and act as you direct, up to CR 1. If destroyed, it takes you 1 month to create a new one.",
+            "1. You gain an expertise die in skill checks involving magical objects or constructs. Additionally, you create a construct to accompany you and act as you direct, up to CR 1. If destroyed, it takes you 1 month to create a new one.",
             "2. Distant Activation: At-will; bonus action; You can activate or deactivate any magical object or construct you can see within 30' of you, even if normally you would have to touch or manually operate it. To use this feature, you must understand the function of the object or construct, it must be your size or smaller, and cannot be connected to another intelligence (or be intelligent itself)",
             "3. Coaxing Power: 2/min; bonus action; You boost the power or function of a magical object or construct for 1 hour. For an item, it gains a temporary enhancement point, or artifacts and relics gain a temporary level (always the same effect). A construct increases its CR by 1.",
             "4. Charm Construct: 2/min; bonus action; You convince an unintelligent magical object or construct to 'like' you. They then are 50% less likely to function if said function would cause you harm.",
             "5. Command Construct: 1/SR; bonus action; If you have charmed an unintelligent magical object or construct or have spoken telepathically with one, you can command it to take one action within its capabilities on its next turn. If you command an intelligent object or construct with this feature, it likely becomes hostile to you afterward.",
-            "6. Intelligent Interface: 1/min; free action; You can speak telepathically with any intelligent magical object or construct within 120' of you. Further, you gain +2 with all social interactions with intelligent objects and constructs. Such objects and constructs that normally would never communicate with a humanoid might talk to you.",
-            "7. Your construct minion can now be up to CR 2 and gains either the ability to gain a fly speed of 120' (and carry you) for up to 10 minutes at a time, or carry an additional healing potion for you beyond your limit. When you first gain this feature, you can immediately replace your existing construct minion with a new one, or build one instantly if you did not have one.",
+            "6. Intelligent Interface: 1/min; free action; You can speak telepathically with any intelligent magical object or construct within 120' of you. Further, you gain an expertise die in all social interactions with intelligent objects and constructs. Such objects and constructs that normally would never communicate with a humanoid might talk to you.",
+            "7. Your construct minion can now be up to CR 2 and gains either the ability to gain a fly speed of 120' (and carry you) for up to 10 minutes at a time, or grant you an additional hit die between long rests beyond your limit. When you first gain this feature, you can immediately replace your existing construct minion with a new one, or build one instantly if you did not have one.",
             "8. You have advantage on attacks and saving throws against magical constructs.",
             "9. Information Gathering: 1/LR; bonus action; You speak telepathically with any or all magical objects and constructs within 1.5km. You can ask 1 basic question about themselves or anything happening near them and receive a simple answer.",
             "10. Control Construct: 1/week; bonus action; You can control the functions of any magical object or construct, intelligent or otherwise, within 30' of you for 10 minutes."
@@ -1780,13 +1780,13 @@
         "description": "channelling the power of a chosen xiloan",
         "tiers": [
             "1. Choose a Xiloan: The Cloud, Aroshi, P'all, Mensis, or Gawdian. All instances of damage you deal are increased by 1d6 [cold, acid, slashing, psychic, radiant] damage.",
-            "2. Based on your Xiloan, gain prof/+2 in [Stealth, Performance, Persuasion, Intimidation, Insight].",
-            "3. Prayer: 1/SR; bonus action; You call upon your Xiloan in a moment of difficulty - completely recovering all hit points. Your Xiloan disapproves of your dependence, causing your next attack roll, saving throw, or ability check to have double disadvantage.",
+            "2. Based on your Xiloan, gain an expertise die in [Stealth, Performance, Persuasion, Intimidation, Insight].",
+            "3. Prayer: 1/SR; bonus action; You call upon your Xiloan in a moment of difficulty - completely recovering all hit points. Your Xiloan disapproves of your dependence, causing your next d20 roll to have double disadvantage.",
             "4. You gain a follower who is a devoted member of your religion. They are a CR 4 humanoid who will do anything you ask, so long as it does not violate the precepts of your faith. They count as a minion.",
-            "5. You receive visions of your Xiloan in the surface of nearly every magical object you encounter. Once per long rest you may attempt a Religion check of DC 18 to decipher these messages. If successful, you gain double advantage on the next check you make for the skill you gained prof/+2 for from your Xiloan.",
-            "6. You are a mortal embodiment of your Xiloan on the ground. You gain +1 to each ability score, and all of your damage now ignores resistance and immunities.",
-            "7. The 1d6 bonus you add to your damage is increased to 1d10.",
-            "8. Gain +2 in the skill you gained prof/+2 in from your Xiloan.",
+            "5. You receive visions of your Xiloan in the surface of nearly every magical object you encounter. Once per long rest you may attempt a Religion check of DC 18 to decipher these messages. If successful, you gain double advantage on the next check you make for the skill you enhanced with T2.",
+            "6. You are a mortal embodiment of your Xiloan. You gain +1 to each ability score, and all of your damage now ignores resistance and immunities.",
+            "7. The 1d6 bonus you add to your damage from T1 is increased to 1d10.",
+            "8. Gain an expertise die in the skill you enhanced with T2.",
             "9. You can now use your Prayer feature once per minute.",
             "10. Your follower's stats are replaced with those of a CR 6 humanoid."
         ]
@@ -1941,13 +1941,13 @@
         "tiers": [
             "1. You gain +2 CON.",
             "2. You are fluent in an additional language of your choice.",
-            "3. You have +2 to Survival checks to find cooking ingredients in places where such things are difficult to find. This does not just mean out in the wilderness. On the streets of an unfriendly city without any currency, you still might be able to find enough ingredients to craft.",
+            "3. You gain an expertise die in Survival checks to find cooking ingredients in places where such things are difficult to find. This does not just mean out in the wilderness. On the streets of an unfriendly city without any currency, you still might be able to find enough ingredients to craft.",
             "4. You are fluent in an additional language of your choice.",
-            "5. You can go 36 hours without resting before exhaustion begins to take effect.",
-            "6. Because you must always keep an eye out when you are on the road, you gain prof/+2 in Perception and have +2 to Survival checks to navigate.",
-            "7. You are so adept at languages that after hearing any language spoken for a few minutes, you can pick up a few words. It does not take long for you to be able to (crudely) make yourself understood and to understand what is being said around you.",
-            "8. In your travels, you have been exposed to all sorts of dangerous things and are developing a general resistance. You gain +1 to AC and prof/+2 in CON saves.",
-            "9. Living on the road long enough, you learn to do a little of everything. Anytime a circumstance (such as weather, inability to see, terrain, and so on) would increase the difficulty of a task for you, you can ignore the penalty. Further, anytime you finish a long rest, you can choose one skill to be prof/+2 in. This lasts until your next long rest.",
+            "5. You can go 48 hours without resting before exhaustion begins to take effect.",
+            "6. Because you must always keep an eye out when you are on the road, you gain an expertise die in Perception and Survival checks to navigate.",
+            "7. You are so adept at languages that after hearing any language spoken for 5 minutes, you can pick up a few words. It does not take long for you to be able to (crudely) make yourself understood and to understand what is being said around you.",
+            "8. In your travels, you have been exposed to all sorts of dangerous things and are developing a general resistance. You gain +1 to AC and an expertise die in CON saves.",
+            "9. Living on the road long enough, you learn to do a little of everything. Anytime an environmental circumstance (such as weather, inability to see in darkness, terrain, and so on) would increase the difficulty of a task for you, you can ignore the penalty. Further, anytime you finish a long rest, you can choose one skill to gain an expertise die in. This lasts until your next long rest.",
             "10. You gain +3 CON."
         ]
     },
@@ -1987,14 +1987,14 @@
         "name": "Snares Deadly Prey",
         "description": "trapping",
         "tiers": [
-            "1. You gain +2 to all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
-            "2. Set a Snare: 2/min; bonus action; You can move up to 30', set a simple trap, and move up to 120' away from it.",
-            "3. Mechanical Hare: 1/SR; bonus action; You craft a simple device, no larger than you, whose sole purpose is to distract 1 foe that you choose. When a foe is distracted, all tasks they attempt have disadvantage for 3 rounds.",
+            "1. You gain an expertise die in all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            "2. Set a Snare: 2/min; bonus action; You can move up to 30', set a simple trap (1 trigger, 1 effect), and move up to 120' away from it.",
+            "3. Mechanical Hare: 1/SR; bonus action; You craft a simple device in an unoccupied space adjacent to you, no larger than you, whose sole purpose is to distract 1 foe that you choose who can see the device before crumbling to nothing after 3 rounds. When a foe is distracted, all tasks they attempt have disadvantage.",
             "4. Whenever 1 of your traps deals damage to a distracted foe, it inflicts 1d6 additional damage.",
-            "5. Eternal Cage: 1/SR; bonus action; You create a cage with 12 AC and 40 hit points (10' by 10' by 20') that traps, but does not harm, a creature of CR 2 or below.",
-            "6. Improved Set a Snare: 1/SR; bonus action; You can move up to 30', set a complex trap, and move up to 120' away from it.",
-            "7. You gain a further +2 to all tasks involving traps.",
-            "8. You gain a further +2 to all tasks involving traps.",
+            "5. Eternal Cage: 1/SR; bonus action; You create a cage in an area that contains at least 1 space adjacent to you with 12 AC and 40 hit points (10' by 10' by 20') that traps, but does not harm, a creature of CR 2 or below.",
+            "6. Improved Set a Snare: 1/SR; bonus action; You can move up to 30', set a complex trap (up to 3 triggers, up to 3 effects), and move up to 120' away from it.",
+            "7. You gain an expertise die with all tasks involving traps.",
+            "8. You gain an expertise die with all tasks involving traps.",
             "9. Your Set a Snare feature can now be used at-will.",
             "10. Your Mechanical Hare feature can now be used twice per minute."
         ]

@@ -283,6 +283,22 @@
         {
             "name": "Zlick's Message Cushion",
             "description": "https://a5e.tools/node/1250"
+        },
+        {
+            "name": "Bottle of Boundless Coffee",
+            "description": "https://5e.tools/items.html#bottle%20of%20boundless%20coffee_scc"
+        },
+        {
+            "name": "Cuddly Strixhaven Mascot",
+            "description": "https://5e.tools/items.html#cuddly%20strixhaven%20mascot_scc"
+        },
+        {
+            "name": "Masque Charm",
+            "description": "https://5e.tools/items.html#masque%20charm_scc"
+        },
+        {
+            "name": "Strixhaven Pennant",
+            "description": "https://5e.tools/items.html#strixhaven%20pennant_scc"
         }
     ],
     "uncommon": [

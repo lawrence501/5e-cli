@@ -161,17 +161,17 @@ var DAMAGE_POLARITIES []string = []string{
 }
 
 var PARTY_MEMBERS []string = []string{
-	"Adrian_tmp",
-	"Dekel_tmp",
-	"Bentley_tmp",
-	"Declan_tmp",
+	"Fillipo",
+	"Eva",
+	"Vinton",
+	"Tymm",
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Adrian_tmp":  0,
-	"Dekel_tmp":   0,
-	"Bentley_tmp": 0,
-	"Declan_tmp":  0,
+	"Fillipo": 0,
+	"Eva":     0,
+	"Vinton":  0,
+	"Tymm":    0,
 }
 
 var LIGHT_TYPES []string = []string{

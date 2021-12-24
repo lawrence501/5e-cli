@@ -481,7 +481,7 @@
     },
     {
         "name": "calamitous",
-        "mods": ["+1 {dmgPolarity} dmg with weps", "+2 to condi DCs"],
+        "mods": ["+1 {dmgPolarity} dmg with weps", "+1 to condi DCs"],
         "tags": ["dmg polarity", "wep dmg", "condi"]
     },
     {
@@ -2403,5 +2403,45 @@
         "name": "blade of cunning",
         "mods": ["+1 {weaponClass} AB", "-1 {weaponClass} crit req", "+1 {weaponClass} crit dice"],
         "tags": ["weapon class", "ab", "crit"]
+    },
+    {
+        "name": "tireless",
+        "mods": ["+5 max HP"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "sanctum of thought",
+        "mods": ["20% chance to negate crit dmg", "+1 {physType} res", "+1 incoming temp HP"],
+        "tags": ["phys res", "temp hp"]
+    },
+    {
+        "name": "bloodletting",
+        "mods": ["+2 DoT dmg", "+1 wep dmg vs DoT'd targets"],
+        "tags": ["dot", "wep dmg"]
+    },
+    {
+        "name": "flash freeze",
+        "mods": ["+1 {nonPhysType} dmg", "+1 to condi DCs"],
+        "tags": ["non-phys dmg", "condi"]
+    },
+    {
+        "name": "graceful assault",
+        "mods": ["+1 global dmg while buffed", "+5' sp while buffed", "on KB, 20% chance to gain +1 global dmg and +5' sp until end of your next turn", "+1 {physType} res while buffed", "+1 to {abilityScore} saves while buffed"],
+        "tags": ["wep dmg", "spell dmg", "buff", "speed", "phys res", "save"]
+    },
+    {
+        "name": "hematophagy",
+        "mods": ["+1 incoming healing", "if you've been healed this turn, +1 global dmg"],
+        "tags": ["hp", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "vitality void",
+        "mods": ["on wep hit, heal 1 HP", "+1 incoming healing"],
+        "tags": ["wep dmg", "hp"]
+    },
+    {
+        "name": "rampart",
+        "mods": ["while buffed, +1 wep dmg", "on boss hit, gain +2 dmg res until end of your next turn"],
+        "tags": ["buff", "wep dmg", "phys res", "non-phys res"]
     }
 ]
