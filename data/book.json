@@ -17,6 +17,62 @@
             "description": "All creatures of your choice within 5' of the target also suffer the disadvantage effect."
         },
         {
+            "name": "Dextrous Magic Stone (0)",
+            "description": "If a stone's thrower has 15+ DEX, it has +1 AB."
+        },
+        {
+            "name": "Heavy Magic Stone (0)",
+            "description": "The stones can now only be used to make melee spell atks, but on a hit, the target makes a CON save or is debilitated until the end of the attacker's next turn."
+        },
+        {
+            "name": "Possessive Mage Hand (0)",
+            "description": "As an action, you can attach the hand to a creature within 5' of it. Whenever a creature starts their turn with the hand attached to them, they gain a stacking +1 spell damage bonus, which lasts until the hand is detached from them. Can detach as part of the hand's usual activity."
+        },
+        {
+            "name": "Rapid Mage Hand (0)",
+            "description": "The hand can now exist up to 60' away from you, and when it moves you can move it up to 60'."
+        },
+        {
+            "name": "Empowering Minor Illusion (0)",
+            "description": "For the duration, you gain +1 global damage for each foe who is currently tricked by the illusion."
+        },
+        {
+            "name": "Distant Minor Illusion (0)",
+            "description": "Range increases to 60'."
+        },
+        {
+            "name": "Wintery Chill Touch (0)",
+            "description": "Damage is converted to cold, heal block is converted to slow, and undead is converted to fiend. Damage die is increased to d10."
+        },
+        {
+            "name": "Thorny Chill Touch (0)",
+            "description": "1/min, when a condition is inflicted on you, you may cast the spell instantly."
+        },
+        {
+            "name": "Greater True Strike (0)",
+            "description": "Duration increases to Concentration, up to 1 minute and you gain advantage with 3 additional attack rolls of your choice that are made before the spell ends. Once per round, you can choose to use one of these 4 advantages when you make your first attack roll on your turn."
+        },
+        {
+            "name": "Sapping True Strike (0)",
+            "description": "If you score a Killing Blow with the enhanced attack roll, the spell lasts an additional round, granting your next turn's first attack advantage as well. This extra duration does not require Concentration."
+        },
+        {
+            "name": "Taunting Vicious Mockery (0)",
+            "description": "On hit, the target has disadvantage on all attack rolls made before the end of its next turn, and if it makes an attack, it must target you. Persuasion checks you make against the target have disadvantage permanently."
+        },
+        {
+            "name": "Harrowing Vicious Mockery (0)",
+            "description": "On cast, all foes within 30' of the target, except the target, become frightened until the end of their next turn."
+        },
+        {
+            "name": "next (0)",
+            "description": ""
+        },
+        {
+            "name": "next (0)",
+            "description": ""
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },

@@ -2443,5 +2443,50 @@
         "name": "rampart",
         "mods": ["while buffed, +1 wep dmg", "on boss hit, gain +2 dmg res until end of your next turn"],
         "tags": ["buff", "wep dmg", "phys res", "non-phys res"]
+    },
+    {
+        "name": "explosive elements",
+        "mods": ["your pers areas ignore {dmgPolarity} res"],
+        "tags": ["pers area", "dmg polarity"]
+    },
+    {
+        "name": "shaman's dominion",
+        "mods": ["-1 minion crit req", "+1 minion crit dice"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "explosive impact",
+        "mods": ["+1 {nonPhysType} dmg", "+5' AoE sizes"],
+        "tags": ["non-phys dmg", "aoe"]
+    },
+    {
+        "name": "crackling speed",
+        "mods": ["+2 {nonPhysType} dmg", "+1 spell dmg"],
+        "tags": ["non-phys dmg", "spell dmg"]
+    },
+    {
+        "name": "snowforged",
+        "mods": ["+1 {nonPhysType1} dmg", "+1 {nonPhysType2} dmg", "targets DoT'd or condi'd by you lose their {dmgPolarity} resistances"],
+        "tags": ["non-phys dmg", "dot", "condi", "dmg polarity"]
+    },
+    {
+        "name": "unstoppable",
+        "mods": ["+5' sp", "+1 to condi saves"],
+        "tags": ["speed", "save"]
+    },
+    {
+        "name": "unbreakable",
+        "mods": ["+1 passive regen", "+1 dmg res", "+1 {physType} res while wearing light+ body armour", "on taking {physType} dmg, +1 passive regen for combat"],
+        "tags": ["hp", "phys res", "non-phys res"]
+    },
+    {
+        "name": "unyielding",
+        "mods": ["+1 global dmg per bonus dmg res", "+5' AoE sizes per bonus dmg res", "on condi, 20% chance to gain +1 dmg res for combat", "while you have any bonus dmg res, your condis have double duration"],
+        "tags": ["wep dmg", "spell dmg", "phys res", "non-phys res", "aoe", "condi"]
+    },
+    {
+        "name": "undeniable",
+        "mods": ["+1 {hitForm} AB", "+1 wep dmg per bonus {hitForm} AB", "+1 {hitForm} AB while your {abilityScore} is 15+"],
+        "tags": ["ab", "wep dmg", "ability score"]
     }
 ]

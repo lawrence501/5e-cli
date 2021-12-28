@@ -2737,148 +2737,148 @@
         ]
     },
     {
-        "name": "X",
+        "name": "Diamond Smite",
         "type": "armour",
         "startingMods": [
             {
-                "description": "+1d4 S dmg to weps",
+                "description": "+1 crit dice",
                 "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+3 global dmg vs undead",
+                "pointValue": "2",
                 "upgrade": "+1/1"
             },
             {
-                "description": "on wep hit, -1 wep AB for combat",
-                "pointValue": "-8",
-                "upgrade": "-8 and 9pts distributed/1"
-            },
-            {
-                "description": "on wep miss, +2 wep AB for combat",
-                "pointValue": "16",
-                "upgrade": "+1/8"
+                "description": "-1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
             }
             
         ],
         "thematicMods": [
             {
-                "description": "1. on basic wep hit, +1 limited feature wep dmg for combat",
-                "pointValue": "1",
-                "upgrade": "1/1"
-            },
-            {
-                "description": "2. on wep miss, +1 wep dmg for combat",
+                "description": "1. if you've crit since start of your last turn, -1 crit req",
                 "pointValue": "2",
-                "upgrade": "+1/2"
+                "upgrade": "1/2"
             },
             {
-                "description": "3. +1 wep AC",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "4. on block, -2 wep dmg for combat; distribute 3pts",
+                "description": "2. +1 global dmg vs targets you are flanking",
                 "pointValue": "1",
-                "upgrade": "-1 and distribute 3pts/1"
+                "upgrade": "+1/1"
             },
             {
-                "description": "5. on wep miss, target takes 1d4 glyphic fire dmg",
-                "pointValue": "3",
+                "description": "3. on crit, +2 dmg res until end of your next turn",
+                "pointValue": "2",
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. +1 bonus action on each turn",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "7. on bonus action use, -1 to dmg dealt with a bonus action for combat; distribute 2pts",
+                "description": "4. +6 block thorns vs undead",
                 "pointValue": "1",
-                "upgrade": "-1 and distribute 2pts/1"
+                "upgrade": "+6/1"
             },
             {
-                "description": "8. +1 wep AB",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "9. on wep hit, gain 1 fire DoT, stacking until DEX save; distribute 3pts",
-                "pointValue": "1",
-                "upgrade": "+1 and distribute 3pts/1"
-            },
-            {
-                "description": "10. on wep hit, splash 1 dmg",
+                "description": "5. +2 dmg res vs undead",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on crit, heal 3 HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "7. +6 block thorns vs fiends",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "8. +3 dmg with crits",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "9. -1 crit req vs undead",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "10. on crit vs undead, +3 dmg res until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+2/1"
             }
         ]
     },
     {
-        "name": "X",
+        "name": "War",
         "type": "armour",
         "startingMods": [
             {
-                "description": "+1d4 S dmg to weps",
-                "pointValue": "3",
+                "description": "+2 percep",
+                "pointValue": "2",
                 "upgrade": "+1/1"
             },
             {
-                "description": "on wep hit, -1 wep AB for combat",
-                "pointValue": "-8",
-                "upgrade": "-8 and 9pts distributed/1"
+                "description": "+2 fire dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
-                "description": "on wep miss, +2 wep AB for combat",
-                "pointValue": "16",
-                "upgrade": "+1/8"
+                "description": "+1 melee wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
             }
             
         ],
         "thematicMods": [
             {
-                "description": "1. on basic wep hit, +1 limited feature wep dmg for combat",
+                "description": "1. +1 B dmg",
                 "pointValue": "1",
                 "upgrade": "1/1"
             },
             {
-                "description": "2. on wep miss, +1 wep dmg for combat",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "3. +1 wep AC",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "4. on block, -2 wep dmg for combat; distribute 3pts",
+                "description": "2. +2 mutation dmg",
                 "pointValue": "1",
-                "upgrade": "-1 and distribute 3pts/1"
-            },
-            {
-                "description": "5. on wep miss, target takes 1d4 glyphic fire dmg",
-                "pointValue": "3",
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. +1 bonus action on each turn",
+                "description": "3. +1 to prone DCs",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
             {
-                "description": "7. on bonus action use, -1 to dmg dealt with a bonus action for combat; distribute 2pts",
-                "pointValue": "1",
-                "upgrade": "-1 and distribute 2pts/1"
+                "description": "4. +5' fly sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
             },
             {
-                "description": "8. +1 wep AB",
+                "description": "5. +1 to DEX save DCs",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
             {
-                "description": "9. on wep hit, gain 1 fire DoT, stacking until DEX save; distribute 3pts",
+                "description": "6. +1 AoE dmg",
                 "pointValue": "1",
-                "upgrade": "+1 and distribute 3pts/1"
+                "upgrade": "+1/1"
             },
             {
-                "description": "10. on wep hit, splash 1 dmg",
+                "description": "7. +1 to WIS save DCs",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. creatures dominated by you deal +1 global dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 S dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
