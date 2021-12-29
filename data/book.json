@@ -65,12 +65,12 @@
             "description": "On cast, all foes within 30' of the target, except the target, become frightened until the end of their next turn."
         },
         {
-            "name": "next (0)",
-            "description": ""
+            "name": "Rejuvenating Green-Flame Blade (0)",
+            "description": "If the weapon attack critically hits, you recover a 1st-level spell slot."
         },
         {
-            "name": "next (0)",
-            "description": ""
+            "name": "Sapping Green-Flame Blade (0)",
+            "description": "Any creature that takes damage makes a CON save or is sluggish until the end of your next turn."
         },
         {
             "name": "Major Cure Wounds (1)",
@@ -183,6 +183,38 @@
         {
             "name": "Erasing Mind Spike (2)",
             "description": "Damage increases to 3d12 against bloodied targets."
+        },
+        {
+            "name": "Lengthened Hold Person (2)",
+            "description": "Duration increases to Concentration, up to 1 hour."
+        },
+        {
+            "name": "Improved Hold Person (2)",
+            "description": "Is always upcast 1 level, but you have disadvantage on Concentration saves to maintain the spell."
+        },
+        {
+            "name": "Indiscriminate Animal Messenger (2)",
+            "description": "Can target any Tiny creature of Intelligence 3 or less."
+        },
+        {
+            "name": "Overcharged Animal Messenger (2)",
+            "description": "Has a minimum casting level of 3, and the message can be up to 50 words."
+        },
+        {
+            "name": "Efficient Shatter (2)",
+            "description": "Always upcast 1 level, but the range is reduced to 30'."
+        },
+        {
+            "name": "Slowing Shatter (2)",
+            "description": "On hit, a target must make a Constitution save or become slowed until the end of your next turn."
+        },
+        {
+            "name": "Extended Locate Animals or Plants (2)",
+            "description": "The range increases to on the same landmass as you."
+        },
+        {
+            "name": "Travelling Locate Animals or Plants (2)",
+            "description": "If an entity is detected, your party's overland travel speed is doubled for the next 24 hours."
         }
     ],
     "manual": [
@@ -241,6 +273,46 @@
         {
             "name": "Impactful Anticipate Spell (1)",
             "description": "On use, deals 1d6 base weapon damage to the target. Costs 1 additional exertion."
+        },
+        {
+            "name": "Blinding Point Blank Shot (1)",
+            "description": "On hit with the opportunity attack, the target is blinded until the end of your next turn."
+        },
+        {
+            "name": "Icy Point Blank Shot (1)",
+            "description": "On hit with a ranged attack against an adjacent target for the duration, the target makes a CON save or gets a 1 cold DoT, stacking until CON save. The opportunity attack is replaced with the target getting a 5 cold DoT, stacking until CON save."
+        },
+        {
+            "name": "Frozen Farshot Stance (1)",
+            "description": "Your ranged weapon attack base damage is converted to cold for the duration. +3 cold damage for the duration."
+        },
+        {
+            "name": "Tethered Farshot Stance (1)",
+            "description": "Your ranged weapon range decreases by 5' and damage increases by 1 per turn ended in the stance"
+        },
+        {
+            "name": "Exposing Painful Pickpocket (1)",
+            "description": "A creature you have looted has -1 damage resistance."
+        },
+        {
+            "name": "Berserking Painful Pickpocket (1)",
+            "description": "On successful Sleight of Hand vs Perception with this, you gain +1 dmg for your next melee attack. If that attack hits, this bonus continues to your next melee attack and increases by 1, stacking until you miss."
+        },
+        {
+            "name": "next (1)",
+            "description": ""
+        },
+        {
+            "name": "next (1)",
+            "description": ""
+        },
+        {
+            "name": "next (1)",
+            "description": ""
+        },
+        {
+            "name": "next (1)",
+            "description": ""
         }
     ]
 }
