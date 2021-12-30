@@ -302,3 +302,28 @@ var MUTATION_TYPES []string = []string{
 	"distinctive",
 	"harmful",
 }
+
+var RACES []string = []string{
+	"dragonborn",
+	"dwarf",
+	"elf",
+	"gnome",
+	"half-elf",
+	"halfling",
+	"half-orc",
+	"human",
+	"tiefling",
+}
+
+var GENDERS []string = []string{
+	"male",
+	"female",
+}
+
+var XILOANS []string = []string{
+	"cloud",
+	"aroshi",
+	"p'all",
+	"mensis",
+	"gawdian",
+}

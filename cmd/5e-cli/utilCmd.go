@@ -250,6 +250,11 @@ var insight = func() error {
 	return nil
 }
 
+var npc = func() error {
+	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
+	return nil
+}
+
 var skill = func() error {
 	log.Printf("Skill: %s", SKILLS[rand.Intn(len(SKILLS))])
 	return nil
@@ -282,5 +287,10 @@ var dmgPolarity = func() error {
 
 var partyMember = func() error {
 	log.Printf("Party member: %s", PARTY_MEMBERS[rand.Intn(len(PARTY_MEMBERS))])
+	return nil
+}
+
+var xiloan = func() error {
+	log.Printf("Xiloan: %s", XILOANS[rand.Intn(len(XILOANS))])
 	return nil
 }

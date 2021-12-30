@@ -1,7 +1,6 @@
 package main
 
 import (
-	"log"
 	"math/rand"
 	"regexp"
 	"strings"
@@ -30,10 +29,13 @@ var SUBSTITUTION_MAP = map[string][]string{
 	"$armourWeight":    ARMOUR_WEIGHTS,
 	"$enemyArmourForm": ENEMY_ARMOUR_FORMS,
 	"$rangeType":       RANGE_TYPES,
+	"$xiloan":          XILOANS,
+	"$gender":          GENDERS,
+	"$race":            RACES,
 }
 
 func processMod(modString string) string {
-	log.Printf("[DEBUG] modString: %s", modString)
+	// log.Printf("[DEBUG] modString: %s", modString)
 	matcher := regexp.MustCompile(`\$\w+`)
 	subs := matcher.FindAllString(modString, -1)
 	ret := modString

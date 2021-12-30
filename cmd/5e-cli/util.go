@@ -259,10 +259,14 @@ func fetchMundanes(t string) ([]Mundane, error) {
 }
 
 func generateEncounter(location string) (string, error) {
-	positiveChance := 20
+	chestChance := 10
+	positiveEncounterChance := 10 + chestChance
 	positiveRoll := rand.Intn(100)
-	if positiveRoll < positiveChance {
+	if positiveRoll < chestChance {
 		return "Legendary Chest", nil
+	}
+	if positiveRoll < positiveEncounterChance {
+		location = "positive"
 	}
 
 	allEncounters, err := fetchEncounters()
@@ -279,8 +283,10 @@ func generateEncounter(location string) (string, error) {
 		encounterList = allEncounters.Mountain
 	case "aquatic":
 		encounterList = allEncounters.Aquatic
+	case "positive":
+		encounterList = allEncounters.Positive
 	}
-	return encounterList[rand.Intn(len(encounterList))], nil
+	return processMod(encounterList[rand.Intn(len(encounterList))]), nil
 }
 
 func fetchEncounters() (Encounters, error) {
@@ -375,23 +381,23 @@ func fetchAmulets() ([]Amulet, error) {
 	return amulets, nil
 }
 
-func fetchBasicRings() ([]BasicRing, error) {
+func fetchSimpleGenerics(fileName string) ([]SimpleGeneric, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
-		return []BasicRing{}, err
+		return []SimpleGeneric{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "basicRing.json"))
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
 	if err != nil {
-		return []BasicRing{}, err
+		return []SimpleGeneric{}, err
 	}
 
-	rings := []BasicRing{}
-	err = json.Unmarshal([]byte(f), &rings)
+	simple := []SimpleGeneric{}
+	err = json.Unmarshal([]byte(f), &simple)
 	if err != nil {
-		return []BasicRing{}, err
+		return []SimpleGeneric{}, err
 	}
-	return rings, nil
+	return simple, nil
 }
 
 func fetchThematicRings() ([]ThematicRing, error) {

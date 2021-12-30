@@ -55,6 +55,9 @@ var COMMAND_MAP = map[string]func() error{
 	"insight":       insight,
 	"dmg polarity":  dmgPolarity,
 	"party member":  partyMember,
+	"npc":           npc,
+	"xiloan":        xiloan,
+	"positive":      positiveReward,
 }
 
 func main() {

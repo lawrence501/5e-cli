@@ -26,6 +26,7 @@ type Encounters struct {
 	Forest   []string `json:"forest"`
 	Mountain []string `json:"mountain"`
 	Aquatic  []string `json:"aquatic"`
+	Positive []string `json:"positive"`
 }
 
 type Books struct {
@@ -73,7 +74,7 @@ type Amulet struct {
 	Upgrade string   `json:"upgrade"`
 }
 
-type BasicRing struct {
+type SimpleGeneric struct {
 	Description string `json:"description"`
 }
 

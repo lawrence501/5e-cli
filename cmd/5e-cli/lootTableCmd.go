@@ -187,7 +187,7 @@ var blessing = func() error {
 }
 
 var ring = func() error {
-	rings, err := fetchBasicRings()
+	rings, err := fetchSimpleGenerics("basicRing")
 	if err != nil {
 		return err
 	}
@@ -195,6 +195,17 @@ var ring = func() error {
 	chosen := rings[rand.Intn(len(rings))]
 	chosen.Description = processMod(chosen.Description)
 	log.Printf("Basic ring\n%s", chosen.Description)
+	return nil
+}
+
+var positiveReward = func() error {
+	positiveRewards, err := fetchSimpleGenerics("positiveReward")
+	if err != nil {
+		return err
+	}
+
+	chosen := positiveRewards[rand.Intn(len(positiveRewards))]
+	log.Printf("Positive encounter reward\n%s", chosen.Description)
 	return nil
 }
 
