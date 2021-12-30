@@ -259,8 +259,8 @@ func fetchMundanes(t string) ([]Mundane, error) {
 }
 
 func generateEncounter(location string) (string, error) {
-	chestChance := 10
-	positiveEncounterChance := 10 + chestChance
+	chestChance := 5
+	positiveEncounterChance := 15 + chestChance
 	positiveRoll := rand.Intn(100)
 	if positiveRoll < chestChance {
 		return "Legendary Chest", nil
