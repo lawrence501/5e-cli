@@ -804,7 +804,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "triggered or secondary effects deal +2 dmg",
+        "description": "+1 item proc dmg",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["weapon"]
@@ -1119,12 +1119,6 @@
         "description": "+3 $hitForm thorns",
         "pointValue": "1",
         "upgrade": "2/1",
-        "tags": ["armour"]
-    },
-    {
-        "description": "+3 healing from hit dice in short rests",
-        "pointValue": "2",
-        "upgrade": "1/1",
         "tags": ["armour"]
     },
     {

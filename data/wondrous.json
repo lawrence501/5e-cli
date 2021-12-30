@@ -225,10 +225,6 @@
             "description": "https://a5e.tools/node/1084"
         },
         {
-            "name": "Potion of Healing",
-            "description": "https://a5e.tools/node/1090"
-        },
-        {
             "name": "Preserved Imp's Head",
             "description": "https://a5e.tools/node/1099"
         },
@@ -569,6 +565,26 @@
         {
             "name": "Perfume Vile",
             "description": "https://a5e.tools/node/1069"
+        },
+        {
+            "name": "Portraiture Gremlin",
+            "description": "https://a5e.tools/node/1080"
+        },
+        {
+            "name": "Pumpkin Bomb",
+            "description": "https://a5e.tools/node/1102"
+        },
+        {
+            "name": "Restorative Ointment",
+            "description": "https://a5e.tools/node/1106"
+        },
+        {
+            "name": "Second-light Lantern",
+            "description": "https://a5e.tools/node/1149"
+        },
+        {
+            "name": "Seeds of Necessity",
+            "description": "https://a5e.tools/node/1151"
         }
     ],
     "rare": [
