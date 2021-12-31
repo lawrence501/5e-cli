@@ -22,7 +22,7 @@
         "Acrobat ($gender $race): wants to see impressive routines/tricks, acro check",
         "Giant dog walker ($gender $race): has 4 dogs, they're squabbling, need to be calmed with animal handling check",
         "Magic box: many different sections sealed with magic rune puzzle, arcana check to unlock section",
-        "Athlete ($gender $race): wants the players to race, make aths checks and each success tier adds 5' to their speed. Rewards top 2 players",
+        "Bored traveller ($gender $race): wants the players to race, make aths checks and each success tier adds 5' to their speed. Rewards top 2 players",
         "Bored Traveller ($gender $race): wants to play a game of 2 truths and a lie (players talk), says they're very insightful. deception vs prof insight, any who win get reward",
         "Historian ($gender $race): wants to hear new trivia, history check",
         "Bored Traveller ($gender $race): wants to play a game of 2 truths and a lie (they talk), prof decep vs player insight, each success is rewarded",
@@ -36,6 +36,7 @@
         "Altar to $xiloan: pray with religion check for reward",
         "Lockbox: multiple locked sections, can be picked with sleight of hand",
         "Bored traveller ($gender $race): wants to play a game of Marco Polo. stealth vs perception (prof), last 2 players remaining will be rewarded",
-        "Hungry traveller ($gender $race): asks players to forage some food for them around, survival check"
+        "Hungry traveller ($gender $race): asks players to forage some food for them around, survival check",
+        "Generous traveller ($gender $race): Gives all players a reward for free"
     ]
 }
