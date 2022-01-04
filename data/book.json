@@ -73,6 +73,14 @@
             "description": "Any creature that takes damage makes a CON save or is sluggish until the end of your next turn."
         },
         {
+            "name": "Hasty Mending (0)",
+            "description": "Casting time is reduced to a bonus action, but there is a 20% chance for the object to be disintegrated into a pile of ashes."
+        },
+        {
+            "name": "Lasting Mending (0)",
+            "description": "The object cannot be damaged for the next minute."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -145,6 +153,14 @@
             "description": "On scoring a critical hit with your unarmed attacks during the duration, heal 1 hit point."
         },
         {
+            "name": "Rattling Faerie Fire (1)",
+            "description": "When an affected creature is damaged by a weapon attack it takes 1d4 additional psychic damage and is rattled until the end of its next turn."
+        },
+        {
+            "name": "Isolating Faerie Fire (1)",
+            "description": "On hit, all creatures of your choice adjacent to the target are pushed 5' away from the target."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -215,6 +231,14 @@
         {
             "name": "Travelling Locate Animals or Plants (2)",
             "description": "If an entity is detected, your party's overland travel speed is doubled for the next 24 hours."
+        },
+        {
+            "name": "Lasting Blindness/Deafness (2)",
+            "description": "Deafened targets cannot end the spell early."
+        },
+        {
+            "name": "Sapping Blindness/Deafness (2)",
+            "description": "On a failed initial save, a target makes an additional CON save or is also sluggish for the duration."
         }
     ],
     "manual": [

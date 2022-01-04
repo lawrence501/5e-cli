@@ -2488,5 +2488,40 @@
         "name": "undeniable",
         "mods": ["+1 {hitForm} AB", "+1 wep dmg per bonus {hitForm} AB", "+1 {hitForm} AB while your {abilityScore} is 15+"],
         "tags": ["ab", "wep dmg", "ability score"]
+    },
+    {
+        "name": "unflinching",
+        "mods": ["when hit, 20% chance to gain +1 dmg res for combat", "20% chance upon being buffed to double its effectiveness", "on turn start, if you've been hit since your last turn, gain +1 dmg res for combat", "+1 buff effectiveness"],
+        "tags": ["phys res", "non-phys res", "buff"]
+    },
+    {
+        "name": "unrelenting",
+        "mods": ["while buffed, +2 {physType} res", "while buffed, +1 {dmgPolarity} res", "while buffed, +1 {nonPhysType} res"],
+        "tags": ["buff", "phys res", "non-phys res"]
+    },
+    {
+        "name": "war bringer",
+        "mods": ["while buffed, +4 wep dmg if you've used a limited feature since start of your last turn"],
+        "tags": ["buff", "wep dmg"]
+    },
+    {
+        "name": "defy pain",
+        "mods": ["when hit, +5 {physType} res for combat", "while buffed, +2 incoming healing", "when you gain your 10th buff, drop to 0 hit points"],
+        "tags": ["phys res", "buff", "hp"]
+    },
+    {
+        "name": "flawless savagery",
+        "mods": ["if you've crit since start of your last turn, +1d4 {physType} dmg to your hits", "-1 crit req", "+1 crit dice"],
+        "tags": ["crit", "phys dmg"]
+    },
+    {
+        "name": "aspect of carnage",
+        "mods": ["-1 dmg res", "+3 global dmg"],
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "name": "blitz",
+        "mods": ["on crit, +4 wep dmg for combat", "on crit, +1 crit req for combat"],
+        "tags": ["crit", "wep dmg"]
     }
 ]

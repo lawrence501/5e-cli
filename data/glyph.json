@@ -515,16 +515,16 @@
         "name": "Tells Improbable Tales",
         "description": "telling stories and tall tales",
         "tiers": [
-            "1. You choose just the right words to make your audience believe what you're saying. You gain proficiency/+2 in deception and gain +2 to any checks made as a result of storytelling.",
+            "1. You choose just the right words to make your audience believe what you're saying. You gain an expertise die in deception and any checks made as a result of storytelling.",
             "2. You may become proficient in a new language with 10 hours of study with native speakers.",
-            "3. Upstaging: 2/min; bonus action; By spinning a story you draw the attention of a creature within 30' of you, causing them to focus on you rather than others. This can serve as a distraction in or out of combat.",
+            "3. Upstaging: 2/min; bonus action; By spinning a story you draw the attention of a creature within 30' of you, causing them to focus on you rather than others. In combat, they have disadvantage on attack rolls against creatures other than you until their next short or long rest.",
             "4. Suspension of Disbelief: 1/min; bonus action; You speak to a sentient target within 30' of you, retelling their current situation to them and causing them to believe it for the next 10 minutes. For example, saying 'you are not on fire, you are safe at home' may cause a target to calmly sit down while aflame.",
-            "5. You gain expertise/+2 in deception and gain a further +2 to any checks made as a result of storytelling.",
+            "5. You gain an expertise die in deception and any checks made as a result of storytelling.",
             "6. The tales you tell of your exploits quickly become folk legends. You and your companions find it much easier to acquire positions of authority, connections, wealth, and other benefits of your near-mythic reputation.",
             "7. Bard's Tongue: 1/year; bonus action; The things you say often come true. You may use this feature and make a proclamation, such as 'we will win the day' or 'you shall find the lost prince'. Unless you actively work to thwart this statement or much greater forces are at work against you, your statement will come true. You should work with the DM to find an interesting and story-worthy way for this to happen.",
-            "8. Deception +2.",
+            "8. You gain an expertise die in deception.",
             "9. Gain proficiency in reading and writing 2 new languages of your choice.",
-            "10. You can now use your Upstaging feature at-will, and it can affect up to 2 creatures per activation."
+            "10. Your Upstaging feature can now be used at-will, and you gain +1 AC against the attacks of its targets."
         ]
     },
     {
@@ -611,16 +611,16 @@
         "name": "Takes the Shape of Beasts",
         "description": "shapeshifting",
         "tiers": [
-            "1. Tiny Spy: At-will; bonus action; You change your form into that of a tiny beast. While in this form you gain advantage on stealth checks and +2 to Dexterity saving throws, but have double disadvantage on attack rolls. You use your own senses while in this creature form. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
-            "2. While in creature form your senses come to match those of your new body, rather than mimicking those of your regular form.",
+            "1. Tiny Spy: At-will; bonus action; You change your form into that of a tiny beast. While in this form you gain advantage on Stealth checks and an expertise die in saving throws, but have double disadvantage on attack rolls. You use your own senses while in this creature form. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
+            "2. While in beast form your senses come to match those of your new body, rather than mimicking those of your regular form.",
             "3. Bestial Form: 1/min; bonus action; You take the form of a beast of your own size or smaller and with a maximum CR equal to your level divided by 4. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
-            "4. While in creature form you gain one of the creature's special forms of attack of your choice. You can either enable the effects of one of its melee weapon attacks beyond the raw damage or enable another of its actions that is not a melee weapon attack, which works at full potential.",
+            "4. While in beast form you gain one of the creature's special forms of attack of your choice. You can either enable the effects of one of its melee weapon attacks beyond the raw damage or enable another of its actions that is not a melee weapon attack, which works at full potential.",
             "5. Half Shift: 1/LR; bonus action; You may partially transform into a creature so that you may use one of its passive features, senses, or actions. Unlike other changes, Half Shifts only last for 10 minutes at a time.",
-            "6. Monstrous Form: 1/week; bonus action; You change shape to that of any beast you have assisted in killing before. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
+            "6. Experienced Form: 1/week; bonus action; You change shape to that of any beast you have assisted in killing before. You can only use the raw damage of the beast's attacks, and only its melee weapon attacks.",
             "7. Your Tiny Spy feature now only has single disadvantage on its attack rolls.",
-            "8. While in creature form, your senses improve by one tier of sense.",
+            "8. While in beast form, your senses improve by one tier of sense.",
             "9. You can now use your Bestial Form feature twice per minute.",
-            "10. While in creature form, you can gain two more of the creature's special forms of attack of your choice."
+            "10. While in beast form, you can gain two more of the creature's special forms of attack of your choice, as per T4."
         ]
     },
     {
@@ -659,14 +659,14 @@
         "name": "Turns the Tables",
         "description": "turning dangerous situations into advantageous ones",
         "tiers": [
-            "1. Defensive Maneuvre: At-will; bonus action; You strike at an enemy with a melee weapon attack, and then move away from them up to 30'.",
+            "1. Defensive Maneuver: At-will; bonus action; You strike at an enemy with a melee weapon attack, and then move away from them up to 30'.",
             "2. You enjoy double advantage on initiative rolls.",
-            "3. Adapt: 1/min; free action; After suffering damage from an elemental source (fire, cold, lightning, or acid), you may use this feature to enjoy +2 AC vs that damage type for the next hour.",
-            "4. Once you have taken 20 or more damage in a battle, you become ferocious for the rest of the fight. While in this mode, you gain advantage on melee attack rolls when the attack is made against a creature who has done damage to you in this battle.",
+            "3. Adapt: 1/min; free action; After suffering damage from an elemental source (fire, cold, lightning, thunder, or acid), you may use this feature to enjoy +2 AC vs that damage type for the next hour.",
+            "4. Once you have taken 20+ damage in a combat, you become ferocious for the rest of the combat. While in this mode, you gain advantage on melee attack rolls when the attack is made against a creature who has done damage to you in this combat.",
             "5. Whenever you make an attack using a maneuver, you enjoy +1 to any values derived from your ability score(s).",
             "6. Observe Technique: 1/week; free action; After suffering damage from a particular action, spell, or feature by a humanoid, you may activate this feature, allowing you to employ the same power for the rest of the current combat.",
-            "7. Your Defensive Maneuvre now allows you to move up to 60'.",
-            "8. +2 to initiative.",
+            "7. Your Defensive Maneuver feature now allows you to move up to 60'.",
+            "8. You gain an expertise die in initiative.",
             "9. Your Adapt feature can now be used twice per minute.",
             "10. You now become ferocious after taking 5 or more damage in a combat."
         ]

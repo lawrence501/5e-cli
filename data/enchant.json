@@ -534,7 +534,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+4 wep dmg vs $creatureType",
+        "description": "+4 wep dmg vs $creatureType creatures",
         "pointValue": "1",
         "upgrade": "4/1",
         "tags": ["weapon"]
@@ -999,6 +999,12 @@
         "description": "on block, heal 3 HP",
         "pointValue": "1",
         "upgrade": "+2/1",
+        "tags": ["armour"]
+    },
+    {
+        "description": "on block, 20% chance to inflict $condition on offender until end of your next turn",
+        "pointValue": "1",
+        "upgrade": "+10%/1",
         "tags": ["armour"]
     },
     {

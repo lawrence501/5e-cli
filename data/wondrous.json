@@ -585,6 +585,30 @@
         {
             "name": "Seeds of Necessity",
             "description": "https://a5e.tools/node/1151"
+        },
+        {
+            "name": "Skeleton Key",
+            "description": "https://a5e.tools/node/1160"
+        },
+        {
+            "name": "Skull Liqueur",
+            "description": "https://a5e.tools/node/1161"
+        },
+        {
+            "name": "Spindle of Spinning",
+            "description": "https://a5e.tools/node/1171"
+        },
+        {
+            "name": "Stick Awl",
+            "description": "https://a5e.tools/node/1188"
+        },
+        {
+            "name": "Tome of Triumphant Tavern Keeping",
+            "description": "https://a5e.tools/node/1206"
+        },
+        {
+            "name": "Water Charm",
+            "description": "https://a5e.tools/node/1239"
         }
     ],
     "rare": [
