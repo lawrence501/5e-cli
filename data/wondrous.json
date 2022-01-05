@@ -795,6 +795,46 @@
         {
             "name": "Spellwrought Tattoo Needle (5th)",
             "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(5th%20level)_tce"
+        },
+        {
+            "name": "Iron Bands of Binding",
+            "description": "https://a5e.tools/node/999"
+        },
+        {
+            "name": "Cord of Spirit Stealing",
+            "description": "https://a5e.tools/node/881"
+        },
+        {
+            "name": "Elemental Quiver",
+            "description": "https://a5e.tools/node/912"
+        },
+        {
+            "name": "Impossible Cube",
+            "description": "https://a5e.tools/node/981"
+        },
+        {
+            "name": "Madam Yolanda's Prison",
+            "description": "https://a5e.tools/node/1019"
+        },
+        {
+            "name": "Orb of Chaotic Assault",
+            "description": "https://a5e.tools/node/1051"
+        },
+        {
+            "name": "Orb of the Dragon Breaker",
+            "description": "https://a5e.tools/node/1053"
+        },
+        {
+            "name": "Poisoner's Almanac",
+            "description": "https://a5e.tools/node/1078"
+        },
+        {
+            "name": "Pouch of Emergency Healing",
+            "description": "https://a5e.tools/node/1098"
+        },
+        {
+            "name": "Spirit Lantern",
+            "description": "https://a5e.tools/node/1172"
         }
     ],
     "very rare": [

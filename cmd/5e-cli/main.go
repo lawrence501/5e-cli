@@ -58,6 +58,7 @@ var COMMAND_MAP = map[string]func() error{
 	"npc":           npc,
 	"xiloan":        xiloan,
 	"positive":      positiveReward,
+	"weapon class":  weaponClass,
 }
 
 func main() {

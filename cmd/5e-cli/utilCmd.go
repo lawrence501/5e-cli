@@ -294,3 +294,8 @@ var xiloan = func() error {
 	log.Printf("Xiloan: %s", XILOANS[rand.Intn(len(XILOANS))])
 	return nil
 }
+
+var weaponClass = func() error {
+	log.Printf("Weapon class: %s", WEAPON_CLASSES[rand.Intn(len(WEAPON_CLASSES))])
+	return nil
+}

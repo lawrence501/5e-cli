@@ -162,7 +162,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "on reaching 50% HP, gain effects of the dodge action",
+                "description": "when bloodied, gain effects of the dodge action",
                 "pointValue": "1",
                 "upgrade": "+1 AC during dodge action/3"
             }
@@ -180,7 +180,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. on reaching 50% HP, gain 2 dmg res until start of your next turn",
+                "description": "3. when bloodied, gain 2 dmg res until start of your next turn",
                 "pointValue": "2",
                 "upgrade": "+1/1"
             },
@@ -215,7 +215,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "10. on reaching 50% HP, you may teleport your Bound Spirits up to 10' away from you",
+                "description": "10. when bloodied, you may teleport your Bound Spirits up to 10' away from you",
                 "pointValue": "1",
                 "upgrade": "+5'/1"
             }

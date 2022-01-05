@@ -2523,5 +2523,155 @@
         "name": "blitz",
         "mods": ["on crit, +4 wep dmg for combat", "on crit, +1 crit req for combat"],
         "tags": ["crit", "wep dmg"]
+    },
+    {
+        "name": "arohongui, moon's presence",
+        "mods": ["+1 minion {nonPhysType} abs", "foes adj to your minions have -1 global dmg", "foes adj to your minions have -1 {physType} and -1 {nonPhysType} res", "+5' AoE sizes while you have an active minion"],
+        "tags": ["minion hp", "phys res", "non-phys res", "phys dmg", "non-phys dmg", "aoe"]
+    },
+    {
+        "name": "ngamahu, flame's advance",
+        "mods": ["your {physType} dmg is converted to {nonPhysType}", "in first rnd of combat, on originally {physType} hit, deal 1d8 extra {nonPhysType} dmg"],
+        "tags": ["non-phys dmg", "phys dmg"]
+    },
+    {
+        "name": "hinekora, death's fury",
+        "mods": ["on {nonPhysType} hit, heal 1 HP", "on boss hit, target slowed until CON save", "on boss hit, target gets -1 {nonPhysType} res for combat", "+1 {abilityScore}"],
+        "tags": ["non-phys dmg", "hp", "condi", "ability score"]
+    },
+    {
+        "name": "tasalio, cleansing water",
+        "mods": ["+2 {nonPhysType} res", "incoming {physType} dmg is converted to {nonPhysType}", "if you've taken {nonPhysType} dmg since your last turn, +1 incoming healing", "+1 to DoT saves"],
+        "tags": ["non-phys res", "hp", "save"]
+    },
+    {
+        "name": "tukohama, war's herald",
+        "mods": ["on minion hit, heal 1 HP", "+1 minion buff effectiveness", "your minions can remain active at double distance"],
+        "tags": ["minion dmg", "hp"]
+    },
+    {
+        "name": "tawhoa, forest's strength",
+        "mods": ["1/turn, on AoE wep power while adj to a foe, the power is repeated after completion"],
+        "tags": ["aoe", "wep dmg"]
+    },
+    {
+        "name": "ramako, sun's light",
+        "mods": ["+1 DoT dmg", "on {nonPhysType} hit, 20% chance to inflict 1 {nonPhysType} DoT, stacking until CON save", "ignore {nonPhysType} res"],
+        "tags": ["dot", "non-phys dmg"]
+    },
+    {
+        "name": "valako, storm's embrace",
+        "mods": ["+1 passive regen per bonus dmg res", "if you've lost a buff this combat, +1 global dmg", "on turn start, if you applied a buff during your last turn, +1 dmg res for combat", "+1 dmg res"],
+        "tags": ["hp", "phys res", "non-phys res", "buff"]
+    },
+    {
+        "name": "way of the poacher",
+        "mods": ["on KB, 20% chance to gain +2 global dmg for combat", "on boss hit, 20% chance to gain +1 global dmg for combat", "+1 global dmg"],
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "name": "avatar of the slaughter",
+        "mods": ["+1 to {abilityScore} saves per bonus global dmg", "+5' sp per bonus global dmg", "+1 wep dmg per bonus global dmg"],
+        "tags": ["save", "wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "rapid assault",
+        "mods": ["+1 global dmg", "+5' sp"],
+        "tags": ["wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "avatar of the chase",
+        "mods": ["+1 effectiveness of buffs on you", "while buffed, +1 to {abilityScore} saves"],
+        "tags": ["buff", "save"]
+    },
+    {
+        "name": "quartz infusion",
+        "mods": ["+1 spell dmg res", "you can move through spaces of foes as if they were allies"],
+        "tags": ["phys res", "non-phys res", "speed"]
+    },
+    {
+        "name": "avatar of the veil",
+        "mods": ["while buffed, +1 to condi saves", "while buffed, adj foes have -1 {dmgPolarity} res"],
+        "tags": ["buff", "save", "dmg polarity"]
+    },
+    {
+        "name": "focal point",
+        "mods": ["+1 mark effectiveness", "+1 dmg res vs creatures adj to other creatures marked by you", "your marks remain on corpses"],
+        "tags": ["condi", "phys res", "non-phys res"]
+    },
+    {
+        "name": "ricochet",
+        "mods": ["your projs chain once", "your projs have 20% chance to chain off of objs and structures"],
+        "tags": ["proj"]
+    },
+    {
+        "name": "endless munitions",
+        "mods": ["+1 proj AB"],
+        "tags": ["proj", "ab"]
+    },
+    {
+        "name": "far shot",
+        "mods": ["-2 proj dmg vs adj targets", "+2 proj dmg vs targets per 20' away from you they are"],
+        "tags": ["proj"]
+    },
+    {
+        "name": "rupturing",
+        "mods": ["on crit vs target affected by your DoT, they instantly take the DoT's dmg and are able to reattempt its save", "+5 DoT dmg"],
+        "tags": ["crit", "dot"]
+    },
+    {
+        "name": "gathering winds",
+        "mods": ["on limited feature use, +2 effect of buffs on you until end of your next turn"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "occupying force",
+        "mods": ["+5' minion sp", "+4 minion dmg", "you cannot summon minions while adj to one of your minions"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "wind ward",
+        "mods": ["while buffed, +3 dmg res", "when hit, lose all buffs"],
+        "tags": ["phys res", "non-phys res", "buff"]
+    },
+    {
+        "name": "nature's adrenaline",
+        "mods": ["while you have less than max hit dice, +5' sp and +1 wep dmg"],
+        "tags": ["speed", "wep dmg"]
+    },
+    {
+        "name": "master surgeon",
+        "mods": ["on SR, lose all condis and diseases", "on crit, recover 1 hit die", "+1 healing from hit dice"],
+        "tags": ["crit", "max hit dice", "hit die healing"]
+    },
+    {
+        "name": "nature's boon",
+        "mods": ["+1 {dmgPolarity} res", "on SR end, recover 1 hit die", "20% for each hit die spent to be refunded"],
+        "tags": ["phys res", "non-phys res", "max hit dice"]
+    },
+    {
+        "name": "master alchemist",
+        "mods": ["on SR, lose all condis", "while you have less than max hit dice, +1 to condi DCs"],
+        "tags": ["condi"]
+    },
+    {
+        "name": "veteran bowyer",
+        "mods": ["on {physType} hit, deal 1d4 extra dmg of a random non-phys type", "ignore {dmgPolarity} res", "on KB vs condi'd target, recover 1 hit die"],
+        "tags": ["phys dmg", "non-phys dmg", "condi", "max hit dice"]
+    },
+    {
+        "name": "nature's reprisal",
+        "mods": ["your {physType} dmg is converted to {nonPhysType}", "+1 wep {nonPhysType} dmg", "+5' {nonPhysType} AoE sizes"],
+        "tags": ["non-phys dmg", "aoe", "wep dmg"]
+    },
+    {
+        "name": "master toxicist",
+        "mods": ["on KB vs DoT'd target while you have less than max hit dice, adj foes are inflicted with 1 {nonPhysType} DoT, stacking until CON save", "on DoT while you have less than max hit dice, 20% chance for DoT to deal triple dmg"],
+        "tags": ["dot", "non-phys dmg"]
+    },
+    {
+        "name": "profane bloom",
+        "mods": [""],
+        "tags": []
     }
 ]
