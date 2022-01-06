@@ -101,7 +101,7 @@
     },
     {
         "name": "purposeful harbinger",
-        "mods": ["+1 buff effectiveness for each buff on you, up to 3"],
+        "mods": ["+1 buff effectiveness for each buff on you"],
         "tags": ["buff"]
     },
     {
@@ -186,7 +186,7 @@
     },
     {
         "name": "vast power",
-        "mods": ["+5' AoE sizes per crit req below 20, up to +15'", "+1 AoE dmg"],
+        "mods": ["+5' AoE sizes per crit req below 20", "+1 AoE dmg"],
         "tags": ["aoe", "crit"]
     },
     {
@@ -2671,7 +2671,42 @@
     },
     {
         "name": "profane bloom",
-        "mods": [""],
-        "tags": []
+        "mods": ["+1 to curse DCs", "on KB or minion KB vs cursed target, 30% chance for them to explode in 5'x5' glyphic atk, dealing 1d4 {nonPhysType}"],
+        "tags": ["condi", "minion dmg", "non-phys dmg"]
+    },
+    {
+        "name": "malediction",
+        "mods": ["you can concentrate on 2 curses at once", "+1 curse effectiveness", "creatures cursed by you have -1 global dmg and -1 dmg res"],
+        "tags": ["conc", "condi", "wep dmg", "spell dmg", "phys res", "non-phys res"]
+    },
+    {
+        "name": "vile bastion",
+        "mods": ["+1 passive temp HP gen", "if you or a minion have KB'd since start of your last turn, +2 passive temp HP gen", "+1 to condi saves while you have temp HP"],
+        "tags": ["temp hp", "minion dmg", "save"]
+    },
+    {
+        "name": "void beacon",
+        "mods": ["foes adj to you have -1 {nonPhysType1} res, -1 {nonPhysType2} res, and -1 passive regen"],
+        "tags": ["non-phys dmg", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "forbidden power",
+        "mods": ["+5' AoE sizes per crit req below 20", "+1 global dmg per crit req below 20", "on limited feature, -1 crit req for combat", "-1 crit req"],
+        "tags": ["aoe", "crit", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "withering presence",
+        "mods": ["+1 {nonPhysType} res", "+1 {nonPhysType} dmg", "on turn start, adj foes get -1 {nonPhysType} res, stacking until CON save", "adj condi'd foes have -1 DoT dmg"],
+        "tags": ["non-phys res", "non-phys dmg", "condi"]
+    },
+    {
+        "name": "frigid wake",
+        "mods": ["+1 to condi saves", "+1 {nonPhysType} dmg", "on turn start, 20% chance to stagger adj, condi'd, non-boss foes until end of your turn", "on turn start, stagger adj, condi'd, bosses until end of your turn", "adj condi'd foes have -1 global dmg"],
+        "tags": ["save", "non-phys dmg", "condi", "phys res", "non-phys res"]
+    },
+    {
+        "name": "liege of the primordial",
+        "mods": ["+1 minion buff effectiveness", "on minion death, they are resummoned at the end of your next turn, still requiring conc", "+1 minion dmg", "+1 minion HP"],
+        "tags": ["minion hp", "minion dmg"]
     }
 ]

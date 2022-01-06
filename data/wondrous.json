@@ -956,7 +956,19 @@
         },
         {
             "name": "Absurdist Web",
-            "description": "a5e pg 227"
+            "description": "https://a5e.tools/node/803"
+        },
+        {
+            "name": "Grappling Gun",
+            "description": "https://a5e.tools/node/959"
+        },
+        {
+            "name": "Manual of Guardians",
+            "description": "https://a5e.tools/node/1024"
+        },
+        {
+            "name": "Red Cloak of Riding",
+            "description": "https://a5e.tools/node/1105"
         }
     ],
     "legendary": [
