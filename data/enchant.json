@@ -1422,13 +1422,13 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+2 wep dmg vs targets behind you in init tracker",
+        "description": "+2 wep dmg vs targets behind you in turn tracker",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["weapon"]
     },
     {
-        "description": "+1 dmg res vs creatures behind you in init tracker",
+        "description": "+1 dmg res vs creatures behind you in turn tracker",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]
@@ -1440,9 +1440,21 @@
         "tags": ["armour"]
     },
     {
-        "description": "incoming $physType dmg is converted to $nonPhysType",
+        "description": "incoming $dmgType dmg is converted to $dmgType",
         "pointValue": "1",
-        "upgrade": "+1 {nonPhysType} res/1",
+        "upgrade": "+1 {new type} res/1",
+        "tags": ["armour"]
+    },
+    {
+        "description": "+1 minion $dmgPolarity res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["armour"]
+    },
+    {
+        "description": "+3 minion $dmgType res",
+        "pointValue": "1",
+        "upgrade": "+2/1",
         "tags": ["armour"]
     }
 ]

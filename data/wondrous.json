@@ -1031,6 +1031,18 @@
         {
             "name": "Emerald Pen",
             "description": "https://5e.tools/items.html#emerald%20pen_ftd"
+        },
+        {
+            "name": "How to Make Fiends and Influence People",
+            "description": "https://a5e.tools/node/977"
+        },
+        {
+            "name": "Liquid Luck",
+            "description": "https://a5e.tools/node/1009"
+        },
+        {
+            "name": "Orb of Elsewhere",
+            "description": "https://a5e.tools/node/1052"
         }
     ]
 }

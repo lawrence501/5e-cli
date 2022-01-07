@@ -81,6 +81,22 @@
             "description": "The object cannot be damaged for the next minute."
         },
         {
+            "name": "Reverberating Altered Strike (0)",
+            "description": "After damage is rolled, it is halved and instead applied as a DoT, stacking until the target makes a DEX save."
+        },
+        {
+            "name": "Cataclysmic Altered Strike (0)",
+            "description": "Damage dealt by the attack is converted to fire. Any resistance reductions applied by the attack are converted to fire DoTs of the same number, stacking until the target makes a DEX save. The attack deals 2 additional fire damage per cantrip tier."
+        },
+        {
+            "name": "Exhaling Circular Breathing (0)",
+            "description": "You can end the spell early as a free action on your turn to exhale, releasing a forceful breath in a 5' self-burst only affecting foes as a wep atk, dealing 1d4 B"
+        },
+        {
+            "name": "Protective Circular Breathing (0)",
+            "description": "+1 dmg res for the duration."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -161,6 +177,22 @@
             "description": "On hit, all creatures of your choice adjacent to the target are pushed 5' away from the target."
         },
         {
+            "name": "Penetrating Detect Magic (1)",
+            "description": "Your first cantrip cast after casting the spell ignores resistances."
+        },
+        {
+            "name": "Refining Detect Magic (1)",
+            "description": "Your minions you can see with a magic aura have -1 crit req."
+        },
+        {
+            "name": "Ravaging Dissonant Whispers (1)",
+            "description": "On sub hit, radiate an aura for the remainder of combat that gives you -1 passive regen and deals 3 psy spell dmg"
+        },
+        {
+            "name": "Hellish Dissonant Whispers (1)",
+            "description": "Damage is converted to fire. Instead of using their reaction, the target gets 1 fire DoT, stacking until DEX save. The next instance of fire dmg you deal does 1d4 additional fire dmg."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -239,6 +271,22 @@
         {
             "name": "Sapping Blindness/Deafness (2)",
             "description": "On a failed initial save, a target makes an additional CON save or is also sluggish for the duration."
+        },
+        {
+            "name": "Persistent Shattering Barrage (2)",
+            "description": "The shards of broken glass fall, turning the area they occupy into difficult terrain, instead of dissolving harmlessly."
+        },
+        {
+            "name": "Molten Shattering Barrage (2)",
+            "description": "If you hit with 1+ orb, your minions add 2d8 fire dmg to their hits until the end of their next turn."
+        },
+        {
+            "name": "Chilling Shadow Blade (2)",
+            "description": "On hit with the weapon, target makes a CON save or is sluggish until the end of your next turn."
+        },
+        {
+            "name": "Vorpal Shadow Blade (2)",
+            "description": "Critical hits with the weapon deal 1d8 additional psy dmg (not multiplied by crit)."
         }
     ],
     "manual": [
@@ -337,6 +385,30 @@
         {
             "name": "Leeching Covering Fire (1)",
             "description": "For each opportunity attack a creature would have otherwise provoked, heal 1 HP."
+        },
+        {
+            "name": "Sapping Deceptive Stance (1)",
+            "description": "On Killing Blow while active, 20% chance to refund exertion spent on maneuver."
+        },
+        {
+            "name": "Mental Deceptive Stance (1)",
+            "description": "On use, a psychic rift erupts from you as a 5' self-burst spell atk only targeting foes, dealing 1d4 psy"
+        },
+        {
+            "name": "Minor Doubleshot (1)",
+            "description": "20% chance to refund exertion cost, but the attack must be made this turn"
+        },
+        {
+            "name": "Proactive Doubleshot (1)",
+            "description": "If used during the first round of a combat, the attack deals 1d20 additional base damage."
+        },
+        {
+            "name": "Icy Speed Over Strength (1)",
+            "description": "The attack's damage is converted to cold. On hit with the attack, target makes a CON save or is staggered until the end of your next turn."
+        },
+        {
+            "name": "Immolating Speed Over Strength (1)",
+            "description": "On hit with the attack, target makes a DEX save or gets 3 fire DoT, stacking until DEX save."
         }
     ]
 }

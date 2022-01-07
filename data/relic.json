@@ -14,7 +14,7 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "on hit, fire a glyphic arrow atk at creature of your choice within 120' dealing 1d4 P",
+                "description": "on hit, fire a glyphic arrow atk at creature of your choice within 120', dealing 1d4 P",
                 "pointValue": "3",
                 "upgrade": "+1 die size/1"
             }
@@ -3011,7 +3011,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "7. on spell hit, 20% chance to shoot spell bolt atk, dealing 1d4 force",
+                "description": "7. on spell hit, 20% chance to shoot spell bolt atk at target, dealing 1d4 force",
                 "pointValue": "3",
                 "upgrade": "+10%/1 OR +1 die size/1"
             },
@@ -4017,7 +4017,7 @@
         ],
         "thematicMods": [
             {
-                "description": "1. on spell hit, 20% chance for lightning to chain to all foes as a glyphic atk, dealing 1d4 light",
+                "description": "1. on spell hit, 20% chance for lightning to chain to all foes from target as a glyphic atk, dealing 1d4 light",
                 "pointValue": "4",
                 "upgrade": "+10%/1 OR +1 dmg/1"
             },
@@ -4387,7 +4387,7 @@
         ],
         "thematicMods": [
             {
-                "description": "1. on hit, 20% chance to call down a firestorm, a pers area glyphic atk with no friendly fire, dealing 1d4 fire",
+                "description": "1. on hit, 20% chance to call down a firestorm on target, a 5'x5' pers area glyphic atk with no friendly fire, dealing 1d4 fire",
                 "pointValue": "4",
                 "upgrade": "+10%/1 OR +1 dmg/1"
             },
@@ -4422,9 +4422,9 @@
                 "upgrade": "+2/1"
             },
             {
-                "description": "8. on taking fire dmg, leave a trail of fire behind you as you move until end of your next turn, a pers area glyphic atk with no friendly fire, dealing 1d4 fire",
-                "pointValue": "3",
-                "upgrade": "+1/1"
+                "description": "8. on taking fire dmg, 20% chance to leave a trail of fire behind you as you move until end of your next turn, a pers area glyphic atk with no friendly fire, dealing 1d4 fire",
+                "pointValue": "4",
+                "upgrade": "+10%/1 OR +1 dmg/1"
             },
             {
                 "description": "9. on lvl, heal 6 HP",
@@ -4433,6 +4433,228 @@
             },
             {
                 "description": "10. +2 fire res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Valkyrie",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 spell dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 dmg res vs fiends",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 dmg abs vs fiends",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 wep dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. whenever an allied minion dies within 60' of you, react to resurrect it as your own minion",
+                "pointValue": "1",
+                "upgrade": "+4 minion HP/1"
+            },
+            {
+                "description": "3. +1 spell dmg abs",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +4 spell dmg res vs fiends",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "5. +1 dmg abs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. +1 spell AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. +1 AC vs fiends",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +2 spell dmg abs vs fiends",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 spell AC vs fiends",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Second Wind",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "1/LR, on becoming bloodied, heal 20 HP",
+                "pointValue": "1",
+                "upgrade": "+10/1"
+            },
+            {
+                "description": "+10' swim sp",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "+3 B res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +4 B res while waterborne",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "2. +1 B abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 to escape checks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 dmg res vs creatures ahead of you in turn tracker",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. 1/LR, on becoming bloodied, gain +11 B res until your next turn",
+                "pointValue": "1",
+                "upgrade": "+11/1"
+            },
+            {
+                "description": "6. on psn hit vs cursed target, 20% chance to inflict 3 psn DoT, stacking until CON save",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +2 dmg/1"
+            },
+            {
+                "description": "7. +1 proj dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 AoE dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. while bloodied, +1 dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Mercurius",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "while healthy, +3 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on turn start, 20% chance to gain +8 wep dmg per bonus wep dmg res for that turn",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +4 dmg/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. while healthy, +5' sp",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "2. while healthy, +2 wep dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. while healthy, +2 spell dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. while healthy, allies within 10' wielding swords have +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. while healthy, allies within 10' wielding swords have +5' sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "6. while healthy, allies within 10' wielding swords have +1 wep dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. while healthy, allies within 10' wielding swords have +1 spell dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. while healthy, allies within 10' wielding spears have +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. while healthy, allies within 10' wielding spears have +5' sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "10. while healthy, allies within 10' wielding spears have +1 wep dmg res",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }

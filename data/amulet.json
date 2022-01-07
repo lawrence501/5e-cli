@@ -351,8 +351,8 @@
   },
   {
     "name": "shaman - sky armour",
-    "mods": ["+1 phys res", "when hit, 20% chance to give hitter sluggish until end of your next turn", "when hit, 20% chance to give hitter -1 dmg res until end of your next turn"],
-    "upgrade": "+1"
+    "mods": ["+1 phys res", "when hit, 20% chance to give hitter sluggish until end of your next turn", "when hit, 20% chance to give hitter -1 $nonPhysType res and -1 to condi saves until end of your next turn"],
+    "upgrade": "+1 phys res ALT +10% ALT +10% NOT mark effects"
   },
   {
     "name": "shaman - ironbark",
