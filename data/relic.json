@@ -4659,5 +4659,227 @@
                 "upgrade": "+1/1"
             }
         ]
+    },
+    {
+        "name": "Arms Sunderer",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on wep hit, 20% chance to give -1 global AB for combat",
+                "pointValue": "8",
+                "upgrade": "+10%/1 OR -1 AB/8"
+            },
+            {
+                "description": "+10% item proc chance per bonus B dmg",
+                "pointValue": "2",
+                "upgrade": "+5%/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on KB, +4 B dmg until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "2. +1 dmg with 2h weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on 2h wep hit, 20% chance to debil target until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. on wep hit, 20% chance to give -2 wep dmg res for combat",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR -1 res/1"
+            },
+            {
+                "description": "5. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. -1 wep crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "7. +1 wep crit dice",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +1 B dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on wep hit, heal 1 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 item proc dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Corrupted Sigil",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 B res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 to min loot rolls",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on gaining loot rolls, 20% chance to gain 1 more",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "2. +1 1st lvl spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot/3 OR +1 lvl/3"
+            },
+            {
+                "description": "3. 20% chance to nullify extra crit dmg",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. +1 dmg res while healthy",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +3 max HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. -2 light res; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "7. +2 psn res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 spell dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 to aths for climbing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Wake of Ruin",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "you always count as having no magical or alignment aura",
+                "pointValue": "1",
+                "upgrade": "+1 to saves vs divination spells/4"
+            },
+            {
+                "description": "you always count as being in all terrain types",
+                "pointValue": "3",
+                "upgrade": "+1 dmg res while waterborne/1"
+            },
+            {
+                "description": "+2 spell slots that can only be used to cast a cantrip, but as if it were 1 tier higher",
+                "pointValue": "2",
+                "upgrade": "+1 slot/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. while you have no spell slots, -1 dmg res; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 3pts distributed/1"
+            },
+            {
+                "description": "2. +1 cold abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 spell AB while waterborne",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. on hit while your 2 highest ASs are equal, target gets -1 global dmg until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "-1 dmg/2"
+            },
+            {
+                "description": "5. +1 persuasion vs neutral aligned creatures",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. as bonus, can shift to opposite side of ally within 5'",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "7. +1 environmental dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +3 spell slots while waterborne that can only be used to cast a cantrip, but as if it were 1 tier higher",
+                "pointValue": "1",
+                "upgrade": "+2 slots/1"
+            },
+            {
+                "description": "9. +2 dmg res while waterborne",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 to saves vs divination spells",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
     }
 ]

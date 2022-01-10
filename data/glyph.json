@@ -1523,15 +1523,15 @@
         "name": "Murders",
         "description": "assassination",
         "tiers": [
-            "1. If attacking before an opponent has acted, you gain advantage on your attack. On a successful hit with a similar attack, or one with advantage from surprise, you inflict +1d6 base damage.",
-            "2. You gain prof/+2 in Stealth and Deception.",
+            "1. If attacking before an opponent has acted in a combat, you gain advantage on your attack. On a successful hit with a similar attack, or one with advantage from surprise, you inflict +1d6 base damage.",
+            "2. You gain an expertise die in Stealth and Deception.",
             "3. Quick Death: 2/min; bonus action; You know how to kill quickly. When you hit with an attack, you deal +1d10 base damage. You cannot use this feature in 2 consecutive rounds.",
-            "4. You gain +2 in Deception.",
-            "5. Awareness: 1/min; bonus action; You become hyperaware of your surroundings in order to better locate your next victim. For 10 minutes, you are aware of all living things within 120' (including their general position), and by concentrating during this time, you can attempt to learn the remaining hit point percentage and CR of any one of them.",
-            "6. You gain +2 to arcana, medicine, and nature for sensing and identifying poisons, and +2 to Constitution saving throws to resist them. You also gain +10 poison resistance.",
-            "7. If attacking from a hidden vantage, with surprise, or before an opponent has acted, your attack has double advantage. On a successful hit with a similar attack, you inflict +1d10 base damage instead of 1d6.",
+            "4. You gain an expertise die in Deception.",
+            "5. Awareness: At-will; bonus action; You become hyperaware of your surroundings in order to better locate your next victim. For 10 minutes, you are aware of all living things within 120' (including their general position), and by concentrating during this time, you can attempt to learn the remaining hit point percentage and CR of any one of them.",
+            "6. You gain an expertise die in Arcana, Medicine, and Nature for sensing and identifying poisons, and in Constitution saving throws to resist them. You also gain +10 poison resistance.",
+            "7. If attacking from a hidden vantage, with surprise, or before an opponent has acted in a combat, your attack has double advantage. On a successful hit with a similar attack, you inflict +1d10 base damage instead of 1d6.",
             "8. Slayer: 1/LR; bonus action; With a swift and sudden attack, you strike a foe in a vital spot. If the target is of CR 2 or lower, it is killed outright.",
-            "9. When you kill a foe, you can attempt a free Hide action, assuming that a suitable hiding place is nearby.",
+            "9. On a Killing Blow, you can attempt a free Hide action, assuming that a suitable hiding place is within 5'.",
             "10. Murderer: 1/year; bonus action; With a swift and sudden attack, you strike a foe in a vital spot. If the target is CR 3 or lower, it is killed outright."
         ]
     },
@@ -1940,7 +1940,7 @@
         "description": "mastering travel",
         "tiers": [
             "1. You gain +2 CON.",
-            "2. You are fluent in an additional language of your choice.",
+            "2. You gain proficiency in an additional language of your choice.",
             "3. You gain an expertise die in Survival checks to find cooking ingredients in places where such things are difficult to find. This does not just mean out in the wilderness. On the streets of an unfriendly city without any currency, you still might be able to find enough ingredients to craft.",
             "4. You are fluent in an additional language of your choice.",
             "5. You can go 48 hours without resting before exhaustion begins to take effect.",
@@ -1971,16 +1971,16 @@
         "name": "Speaks in Exaltation",
         "description": "gaining and empowering a minion of Aroshi in the form of an extra mouth",
         "tiers": [
-            "1. A secondary intelligence takes up residence somewhere on your body and serves as a kind of companion. It takes the form of a second mouth with textured green-black lips and a tongue composed of blue energy. You can use a bonus action to position the mouth on your body as you choose, though when you are not paying attention it sometimes moves around on its own. To use the mouth most effectively, it must not be covered. You can treat the ancillary mouth as a CR 1 creature that speaks your language as well as all the languages ever spoken in the Brilliant Board of the Cosmic Game. It sometimes speaks its own mind, but usually follows your lead. It cannot help you in combat, but it can help you with knowledge, persuasion, and intimidation checks by providing advantage on those tasks when you allow the mouth to speak and provide support. When you sleep, the mouth sometimes hums strange tunes, never the same one twice.",
-            "2. The Mouth of Exaltation has whispered glories in your ear, and you were strengthened by it, becoming something more and better than you were before. You gain 2 additional points to distribute into your ability scores as you wish. Each time you gain a level, you can choose to redistribute these 2 points as you wish.",
-            "3. Infused with words of encouragement straight from Aroshi, you gain confidence and skill in speaking. You gain prof/+2 in Persuasion.",
-            "4. Ask the Mouth: 1/SR; bonus action; Your ancillary mouth, as an extension of the Mouth of Exaltation, is always right. You can ask the DM one question and get a very short answer from the mouth.",
-            "5. Scream of Exaltation: 1/SR; bonus action; Your ancillary mouth utters a modulated scream that you can channel a few different ways. First, you can emit a ray of focused sonic energy at a target within 30' that deals 2d8 + level thunder damage. Alternatively, you can blast sound in all direction, deafening all creatures within 30' that fail a Constitution saving throw for 1 minute. Finally, you can elicit a song of encouragement from the ancillary mouth, which bolsters you and your allies each round while the mouth continues to sing (bonus action each round). Allies gain advantage on 1 specific type of task you decide each round, whether that is attacks, saving throws, knowledge checks, and so on.",
-            "6. Tongue Lashing: 1/LR; bonus action; You can use this attack in 1 of 2 ways. The first it to attack a foe within 30' using your ancillary mouth's lashing tongue. This natural weapon has finesse, and if successful, it deals 1d8 + 1d6 + level slashing damage. The second way is to use the lashing tongue against an inanimate object within 5' no larger than half your size. Instantly destroy the object.",
-            "7. Return to Aroshi: 1/year; bonus action; You call upon your devotion to the Mouth of Exaltation. Your ancillary mouth triggers a portal to open before you. If you step through it, you are instantaneously transmitted to the chamber in the Brilliant Board of the Cosmic Game that contains Aroshi. The portal remains open for as many rounds as you specify, up to 1 minute. Your allies can use it as well. You can also use this feature to travel back, returning to the exact spot you left. You can use this ability to travel to other locations in the Cosmic Game, though this requires a religion check of DC 3 and specific knowledge of the alternative destination.",
-            "8. The Mouth of Exaltation on your body can now make any Bite attacks it may have as part of your Attack actions.",
+            "1. A secondary intelligence takes up residence somewhere on your body and serves as a kind of companion. It takes the form of a second mouth with textured green-black lips and a tongue composed of blue energy. You can use a bonus action to position the mouth on your body as you choose, though when you are not paying attention it sometimes moves around on its own. To use the mouth most effectively, it must not be covered. You can treat the ancillary mouth as a CR 1 minion that speaks your language as well as all the languages ever spoken in the Brilliant Board of the Cosmic Game. It sometimes speaks its own mind, but usually follows your lead. It cannot help you in combat, but it can help you with knowledge, Persuasion, and Intimidation checks by providing advantage on those tasks when you allow the mouth to speak and provide support. When you sleep, the mouth sometimes hums strange tunes, never the same one twice.",
+            "2. The Gambler has whispered glories to you, and you were strengthened by it, becoming something more and better than you were before. You gain 2 additional points to distribute into your ability scores as you wish. Each time you gain a level, you can choose to redistribute these 2 points as you wish.",
+            "3. Infused with words of encouragement straight from Aroshi, you gain confidence and skill in speaking. You gain an expertise die in Persuasion.",
+            "4. Ask the Mouth: 1/SR; bonus action; Your ancillary mouth, as an extension of the Gambler, is always right. You can ask the DM one question and get a very short answer from the mouth.",
+            "5. Scream of Exaltation: 1/SR; bonus action; Your ancillary mouth utters a modulated scream that you can channel a few different ways. First, you can emit a ray of focused sonic energy at a target within 30', an attack that deals 2d8 + level thunder damage. Alternatively, you can blast sound in all directions, deafening all creatures within 30' that fail a Constitution saving throw for 1 minute. Finally, you can elicit a song of encouragement from the ancillary mouth, which bolsters you and your allies within 60' each round while the mouth continues to sing (bonus action each round). Allies gain advantage on 1 specific type of task you decide each round, whether that is attacks, saving throws, knowledge checks, and so on.",
+            "6. Tongue Lashing: 1/LR; bonus action; You can use this attack in 1 of 2 ways. The first is to attack a foe within 30' using your ancillary mouth's lashing tongue. This deals 1d8 + 1d6 + level slashing damage. The second way is to use the lashing tongue against an inanimate object within 5' no larger than half your size. Instantly destroy the object.",
+            "7. Return to Aroshi: 1/year; bonus action; You call upon your devotion to the Gambler. Your ancillary mouth triggers a portal to open before you. If you step through it, you are instantaneously transmitted to the chamber in the Brilliant Board of the Cosmic Game that currently contains Aroshi. The portal remains open for as many rounds as you specify, up to 1 minute. Your allies can use it as well. You can also use this feature to travel back, returning to the exact spot you left. You can use this ability to travel to other locations in the Cosmic Game, though this requires a religion check of DC 3 and specific knowledge of the alternative destination.",
+            "8. The ancillary mouth on your body can now make any Bite attacks it may have as part of your Attack actions.",
             "9. You gain 2 additional points to distribute into your ability scores as you wish. Each time you gain a level, you can choose to redistribute these 2 points as you wish.",
-            "10. You gain +3 to Persuasion."
+            "10. You gain a d6 expertise die in Persuasion."
         ]
     },
     {

@@ -1456,5 +1456,11 @@
         "pointValue": "1",
         "upgrade": "+2/1",
         "tags": ["armour"]
+    },
+    {
+        "description": "you can summon minions as a bonus action",
+        "pointValue": "3",
+        "upgrade": "+1 minion dmg/1",
+        "tags": ["armour"]
     }
 ]

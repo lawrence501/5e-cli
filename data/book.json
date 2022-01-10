@@ -409,6 +409,30 @@
         {
             "name": "Immolating Speed Over Strength (1)",
             "description": "On hit with the attack, target makes a DEX save or gets 3 fire DoT, stacking until DEX save."
+        },
+        {
+            "name": "Hasty Perplexing Flurry (1)",
+            "description": "You make an additional attack, but it has disadvantage."
+        },
+        {
+            "name": "Slippery Perplexing Flurry (1)",
+            "description": "While the target is affected, you can move through its space."
+        },
+        {
+            "name": "Cornered Eye Slash (1)",
+            "description": "While bloodied, the attack deals +1d12 base dmg."
+        },
+        {
+            "name": "Infectious Eye Slash (1)",
+            "description": "While the target is affected, it radiates a 5' aura that affects your foes, triggering a CON save or be slowed until their next turn."
+        },
+        {
+            "name": "Empowered Swift Stance (1)",
+            "description": "Your speed increases by a further 5' for every 2 bonus global damage you have."
+        },
+        {
+            "name": "Lightweight Swift Stance (1)",
+            "description": "Your speed increases by a further 5', but you have -1 global dmg for the duration."
         }
     ]
 }
