@@ -454,7 +454,7 @@
             {
                 "description": "your resistances and vulnerabilities are swapped",
                 "pointValue": "1",
-                "upgrade": "-1 dmg res/2"
+                "upgrade": "-1 dmg res AND 3pts distributed/1"
             },
             {
                 "description": "when you Help with an attack, the atk deals +5 dmg",
@@ -485,7 +485,7 @@
                 "upgrade": "+1/4"
             },
             {
-                "description": "5. when you end a condi on yourself while adj to an ally, gain condi imm for combat",
+                "description": "5. when you end a condi on yourself while adj to an ally, gain condi imm until end of your next turn",
                 "pointValue": "3",
                 "upgrade": "+1 to condi saves while adj to an ally/3"
             },
@@ -896,7 +896,7 @@
                 "upgrade": "+1 rad dmg/1"
             },
             {
-                "description": "while you have less than 10 glyph path tiers, gain 24 temp HP at end of each LR",
+                "description": "while you have less than 5 glyph path tiers, gain 24 temp HP at end of each LR",
                 "pointValue": "3",
                 "upgrade": "+8/1"
             },
@@ -919,7 +919,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. while you have less than 8 glyph path tiers, +1 AC",
+                "description": "3. while you have less than 4 glyph path tiers, +1 AC",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
@@ -4879,6 +4879,894 @@
                 "description": "10. +1 to saves vs divination spells",
                 "pointValue": "4",
                 "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Beast's Lament",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on KB vs beast, can choose only this mod to become 'on hit, 20% chance to give target 5 psn DoT, stacking until CON save'",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "on KB vs beast, can choose only this mod to become '+1d12 S dmg to weps'",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. on KB vs beast, can choose only this mod to become 'on hit, 20% chance for a scalding geyser to form beneath them as a 5x5' pers area that makes spell atks, dealing 1d4 fire dmg",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "3. on KB vs beast, can choose only this mod to become 'on hit, silence target until WIS save'",
+                "pointValue": "1",
+                "upgrade": "+1 global dmg vs silenced targets/1"
+            },
+            {
+                "description": "4. on KB vs beast, can choose only this mod to become 'on hit, 80% chance to slow until CON save'",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "5. on KB vs beast, can choose only this mod to become '+3 global dmg'",
+                "pointValue": "1",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. 2/min, as bonus, create any holdable misc item. if not 'consumed' beforehand, dissolves into sludge at end of next turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. +1 animal handling",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on KB vs beast, can choose only this mod to become '+2 wep AB'",
+                "pointValue": "3",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. -1 wep crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+        ]
+    },
+    {
+        "name": "Shard of the Sun",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 rad dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "objs/structures you create last for double duration",
+                "pointValue": "3",
+                "upgrade": "+1 multi/3"
+            },
+            {
+                "description": "+1 AC with summoned armour",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 dmg with summoned weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 percep for sight",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. bright light you cause to emit has double radius",
+                "pointValue": "3",
+                "upgrade": "+1 multi/3"
+            },
+            {
+                "description": "4. +1 rad AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 dmg res vs disadv atks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. -2 dmg res vs atks not dependent on sight; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "7. dim light you cause to emit has double radius",
+                "pointValue": "3",
+                "upgrade": "+1 multi/3"
+            },
+            {
+                "description": "8. +1 global dmg while invis",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +2 stealth while invis",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 to saves while invis",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Delight",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "bonuses to global dmg are converted to bonuses to condi DCs",
+                "pointValue": "6",
+                "upgrade": "+1 global dmg/2"
+            },
+            {
+                "description": "bonuses to global dmg are converted to bonus DoT dmg at double effectiveness",
+                "pointValue": "2",
+                "upgrade": "+1 global dmg/2"
+            },
+            {
+                "description": "+1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "2. +2 cold res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 survival for finding ingredients",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 persuasion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 to charm DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. bonuses to global dmg are converted to bonus dmg res",
+                "pointValue": "2",
+                "upgrade": "+1 global dmg/2"
+            },
+            {
+                "description": "7. +1 to saves vs disease",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. 20% chance on meeting someone new for their impression of you to become 1 tier more positive",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "9. bonuses to global dmg are converted to bonus dmg abs",
+                "pointValue": "4",
+                "upgrade": "+1 global dmg/2"
+            },
+            {
+                "description": "10. +1 to positive social checks",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "The Slice",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 wep dmg while dual-wielding",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 wep AB while dual-wielding",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+2 item proc dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 item proc dmg while dual-wielding",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1d4 S dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 item proc AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. -1 wep crit req while dual-wielding",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "6. +1 wep crit dice while dual-wielding",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on taking up to 4 wep dmg, reduce it to 1",
+                "pointValue": "1",
+                "upgrade": "+2 dmg/1"
+            },
+            {
+                "description": "9. +1 dmg with offhand weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. -1 item proc crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+        ]
+    },
+    {
+        "name": "Giant Cell",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "-2 minion passive regen while they are healthy",
+                "pointValue": "-2",
+                "upgrade": "-1 AND 2pts distributed/1"
+            },
+            {
+                "description": "gain minion dmg equal to half your lvl",
+                "pointValue": "9",
+                "upgrade": "+1/2 multi/9"
+            },
+            {
+                "description": "+8 minion HP",
+                "pointValue": "2",
+                "upgrade": "+4/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. when hit, summon a tiny CR 1/8 minion of yourself",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. when hit, your minions are healed 3 HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. +3 minion P res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +3 minion force res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. gain minion melee dmg equal to your bonus melee dmg",
+                "pointValue": "1",
+                "upgrade": "+1 melee dmg/1"
+            },
+            {
+                "description": "6. gain minion fly sp equal to double your bonus fly sp",
+                "pointValue": "4",
+                "upgrade": "+5' fly sp/3"
+            },
+            {
+                "description": "7. gain dmg res equal to 1/8 of your lvl",
+                "pointValue": "4",
+                "upgrade": "+1/8 mutli/4"
+            },
+            {
+                "description": "8. gain wep AC equal to 1/16 of your lvl",
+                "pointValue": "4",
+                "upgrade": "+1/16 multi/4"
+            },
+            {
+                "description": "9. +1 AC while you have an active minion",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. -5' sp; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-5' AND 3pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Antisentinel",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 global dmg vs constructs",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 dmg res vs constructs",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "while you have less than 5 glyph tiers, +2 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. while you have less than 10 glyph tiers, +1 inspiration on init",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. while you have less than 5 glyph tiers, you can give 1 instance of your Off disadv to heal 6 HP",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "3. while you have 10+ glyph tiers, +2 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. 2/min while you have 5+ glyph tiers, give incoming Off instance disadv",
+                "pointValue": "1",
+                "upgrade": "+1 use/1"
+            },
+            {
+                "description": "5. while you have 10+ glyph tiers, you can give an incoming Off instance adv to heal 6 HP",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "6. +1 AC vs constructs",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. while you have less than 5 glyph tiers, +2 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "9. +2 dmg abs vs constructs",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "The Jelly",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "when hit by proj, 20% chance to reduce its dmg by 5",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +2 res/1"
+            },
+            {
+                "description": "when hit by melee, 20% chance to reduce its dmg by 5",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +2 res/1"
+            },
+            {
+                "description": "when hit by melee, 20% chance for offender to be pushed 15' away from you",
+                "pointValue": "2",
+                "upgrade": "+5'/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +3 fall dmg caused by you",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "2. when you push a creature into another creature such that they would take fall dmg, the other creature also takes half that dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2 multi/2"
+            },
+            {
+                "description": "3. gain fall dmg caused by you equal to 1/4 of your lvl",
+                "pointValue": "2",
+                "upgrade": "+1/4 multi/2"
+            },
+            {
+                "description": "4. when hit by proj, 20% chance for proj to bounce back to offender, making same hit form atk, dealing 1d4 dmg of same type",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "5. on taking environmental dmg, 20% chance to reduce it by 3",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "6. when hit by AoE, 20% chance to reduce it by 3",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "7. +1 proj dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +3 proj thorns",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "9. +3 fall dmg res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "10. +5' push distance",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            }
+        ]
+    },
+    {
+        "name": "The Gift",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on melee atk, 20% chance to trigger an ice nova, a 5'-radius self-burst spell atk, dealing 1d4 cold",
+                "pointValue": "8",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "+1d4 cold dmg to hits",
+                "pointValue": "6",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on melee atk, 20% chance to stagger target until end of their next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "2. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on wep hit, 20% chance to debilitate target until end of their next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. +2 cold res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 to min loot roll",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. on cold hit, +1 wep AC until your next turn",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. +1 dmg with 2h weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 curse effectiveness",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. +1 decep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 spell AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "The Casting",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "on init, recover 2 spell slot lvls",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your spell projs splash 2 dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on spell proj hit, it leaves a 5x5' pers area of flashing fog that triggers WIS save or debil until they leave the fog",
+                "pointValue": "8",
+                "upgrade": "+5' size/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. 1/rnd, can cast a spell (up to action cast time) in place of one of the atks in your Attack action",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. 1/SR, on charge atk hit, can cast a spell (up to action cast time)",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. -1 dmg res; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 3pts distributed/1"
+            },
+            {
+                "description": "4. your proj spells are converted to 5'-radius self-bursts",
+                "pointValue": "1",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "5. your self-burst spells push foes 5' away from you on hit",
+                "pointValue": "4",
+                "upgrade": "+5'/4"
+            },
+            {
+                "description": "6. -1 crit req with self-burst spells",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "7. on self-burst spell cast, +3 block thorns until your next turn",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "8. on self-burst spell hit, target gets -1 global dmg until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "9. 1/SR, on self-burst spell cast, leaves behind 5x5' pers area of flashing fog that triggers WIS save or debil until they leave the fog",
+                "pointValue": "4",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "10. on self-burst spell hit, 20% chance to give target sluggish until end of your next turn",
+                "pointValue": "4",
+                "upgrade": "+10%/1"
+            }
+        ]
+    },
+    {
+        "name": "The Gaze",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "1 DEX",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "when your projs hit an obj or structure, they have a 20% chance to chain per class you have lvls in. these chained hits deal half dmg",
+                "pointValue": "5",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "+2 dmg res per class you have lvls in",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 acro",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. you cannot gain DEX from ASIs (retroactive); 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 DEX and 5pts distributed/1"
+            },
+            {
+                "description": "3. while your DEX is 15+, your projs have 20% chance to chain. these chained hits deal half dmg",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. your projs have 20% chance to chain. these chains deal half dmg",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "5. +1 dmg abs per class you have lvls in",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. while you have 15+ DEX, +1 exp gain",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. while you have 15+ DEX, +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +2 stealth per class you have lvls in",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. while you have 15+ DEX, +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            }
+        ]
+    },
+    {
+        "name": "The Banisher",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 force dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 wep dmg vs bloodied targets",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 dmg with readied actions",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. while you have less than max hit dice, your maneuvers have a 20% chance to cost 1 less exertion (min 1)",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "3. +2 minion dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 wep AB vs bloodied targets",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +1 STR",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. -1 wep crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "8. 1/LR, can cast fog cloud centred on you",
+                "pointValue": "1",
+                "upgrade": "+1 lvl upcast/1"
+            },
+            {
+                "description": "9. +1 force AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. on init, recover 1 exertion",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Blessing of Dragons",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on hit, 20% chance to give 2 S DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "+2 S dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 psn res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. 20% chance to negate extra crit dmg",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "3. on hit, 20% chance to give 2 psn DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "4. +1 minion dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. on hit, 40% chance to inflict slow until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "6. +1 psn dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +2 nec res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 nec dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on hit, target gets -1 psn res until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "10. on melee hit, heal 1 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
             }
         ]
     }

@@ -44,7 +44,7 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 ### Point value cheatsheet
 
 - Stagger/Debil/double disadv condi: 5
-- Single disadv condi/sluggish: 3
+- Single disadv condi/sluggish/silence: 3
 - Prone/similar: 2
 - Slow: 1
 - Condi lasts until save/longer: x2

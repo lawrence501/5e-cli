@@ -2708,5 +2708,50 @@
         "name": "liege of the primordial",
         "mods": ["+1 minion buff effectiveness", "on minion death, they are resummoned at the end of your next turn, still requiring conc", "+1 minion dmg", "+1 minion HP"],
         "tags": ["minion hp", "minion dmg"]
+    },
+    {
+        "name": "mastermind of discord",
+        "mods": ["+1 to all negative res you apply"],
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "name": "heart of destruction",
+        "mods": ["on boss hit, +2 {dmgPolarity} dmg until end of your next turn", "while not buffed, +5' AoE sizes"],
+        "tags": ["dmg polarity", "aoe"]
+    },
+    {
+        "name": "bastion of elements",
+        "mods": ["your temp HP only affects {dmgPolarity} dmg", "+5 incoming temp HP", "you don't trigger thorns effects with {dmgPolarity} dmg"],
+        "tags": ["temp hp", "dmg polarity", "phys res", "non-phys res"]
+    },
+    {
+        "name": "elemancer",
+        "mods": ["+1 minion {dmgPolarity} res", "+1 minion buff effectiveness per active minion", "+1 minion dmg", "+1 minion HP"],
+        "tags": ["minion hp", "minion dmg"]
+    },
+    {
+        "name": "shaper of flames",
+        "mods": ["on hit, target gets 1 {nonPhysType} DoT, stacking until DEX save", "+1 DoT dmg"],
+        "tags": ["non-phys dmg", "dot"]
+    },
+    {
+        "name": "shaper of storms",
+        "mods": ["on hit, target gets -1 dmg res until end of your next turn", "+1 mark effectiveness"],
+        "tags": ["wep dmg", "spell dmg", "condi"]
+    },
+    {
+        "name": "shaper of winter",
+        "mods": ["on hit, target is sluggish until end of your next turn", "+1 to condi DCs"],
+        "tags": ["condi"]
+    },
+    {
+        "name": "mindless aggression",
+        "mods": ["+10' minion sp", "+2 minion dmg"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "unnatural strength",
+        "mods": ["+4 minion dmg"],
+        "tags": ["minion dmg"]
     }
 ]

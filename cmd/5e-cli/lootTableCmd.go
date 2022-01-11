@@ -14,6 +14,11 @@ var book = func() error {
 	} else {
 		t = "Manual"
 	}
+	critRoll := rand.Intn(100)
+	if critRoll < 10 {
+		log.Printf("Critical book!\nBlank %s", t)
+		return nil
+	}
 	books, err := fetchBooks(t)
 	if err != nil {
 		return err

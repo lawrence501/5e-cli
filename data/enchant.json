@@ -1462,5 +1462,11 @@
         "pointValue": "3",
         "upgrade": "+1 minion dmg/1",
         "tags": ["armour"]
+    },
+    {
+        "description": "+1 dmg with rare powers",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["armour"]
     }
 ]
