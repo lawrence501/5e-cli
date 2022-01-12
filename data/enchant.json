@@ -727,8 +727,8 @@
     },
     {
         "description": "+5' shove distance",
-        "pointValue": "3",
-        "upgrade": "5'/3",
+        "pointValue": "2",
+        "upgrade": "5'/2",
         "tags": ["weapon"]
     },
     {

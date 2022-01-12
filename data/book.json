@@ -113,6 +113,14 @@
             "description": "For the duration, you have +1 passive temp HP gen per cantrip tier."
         },
         {
+            "name": "Cautious Friends (0)",
+            "description": "If the target becomes hostile from the spell, you have +1 dmg res per cantrip tier against them until your next rest"
+        },
+        {
+            "name": "Deep Friends (0)",
+            "description": "The bonus also applies to knowledge checks made about the target for the duration."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -225,6 +233,14 @@
             "description": "When the effect ends, you can cast a cantrip on the target (max cast time of action)."
         },
         {
+            "name": "Glowing Heroism (1)",
+            "description": "The target glows with bright light in a 10' radius and dim light for an additional 5'. When a creature within this glow regains hit points, it regains 1d4 additional hit points."
+        },
+        {
+            "name": "Improved Heroism (1)",
+            "description": "The temporary hit points granted is increased by 1."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -335,6 +351,14 @@
         {
             "name": "Recovering Silence (2)",
             "description": "If dispelled, the spell returns as if it were not dispelled at the end of your next turn."
+        },
+        {
+            "name": "Supplementary Zone of Truth (2)",
+            "description": "If you have a spell slot available to cast the spell, it has no spell slot cost when initially cast, but consumes its normal cost (if possible) at the end of its duration."
+        },
+        {
+            "name": "Intimidating Zone of Truth (2)",
+            "description": "When a creature fails the save, it also becomes frightened of you for the duration. This ends if the creature or any of its allies it can sense take damage."
         }
     ],
     "manual": [
