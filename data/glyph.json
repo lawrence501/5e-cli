@@ -819,15 +819,15 @@
         "name": "Chases the Wind",
         "description": "chasing chaos and its blessings",
         "tiers": [
-            "1. Great risks mean great rewards. You can choose to roll twice on any d20 roll and pick the best result, but if you fail, you and all creatures within 30' of you must make a DC 15 Dexterity saving throw or take 1d12 + 1d10 + your level slashing damage from a hurricane of shrapnel. You also have a knack of knowing when an eruption of power is getting close, granting you prof/+2 in Dexterity saving throws.",
+            "1. Great risks mean great rewards. You can choose to roll twice on any d20 roll and pick the best result, but if you fail, you and all creatures within 30' of you must make a DC 15 Dexterity saving throw or take 1d12 + 1d10 + your level slashing damage from a hurricane of shrapnel. You also have a knack of knowing when an eruption of power is getting close, granting you an expertise die in saving throws.",
             "2. Blessingsense: 2/min; free action; You know how to find blessings better than anyone and by feeling out for that all-familiar buzz in the back of your mind, you can replace any loot roll result (before finding out what you have found) with a blessing (2) roll.",
-            "3. Quick Reactions: 2/min; bonus action; You need to be ready for anything when you are chasing down chaos, so you have honed your reactions to a razor-sharp edge. You can react to events almost before they happen, granting you advantage on Dexterity saving throws until the end of your next turn.",
+            "3. Quick Reactions: 2/min; bonus action; You need to be ready for anything when you are chasing down chaos, so you have honed your reactions to a razor-sharp edge. You can react to events almost before they happen, granting you advantage on saving throws until the end of your next turn.",
             "4. All chaos chasers are brothers and sisters, some moreso than others. Your adventures chasing chaos have earned you a contact. You can call upon them for information about new hauls, deals, or for a favour, though they will expect you to pay them back in kind.",
-            "5. You deal in the trade of magic, the scavenging of items from the wreckage of destruction. As such, you have become used to needing to heal more than the average person. Your maximum dice increases by 2.",
-            "6. Quick Breather: 1/SR; free action; As a chaos chaser, you are always ready to heal yourself. You can consume and heal from any number of your remaining hit dice.",
+            "5. You deal in the trade of magic, the scavenging of items from the wreckage of destruction. As such, you have become used to needing to heal more than the average person. Your maximum hit dice increases by 2.",
+            "6. Quick Breather: 1/SR; bonus action; As a chaos chaser, you are always ready to heal yourself. You can consume and heal from any number of your remaining hit dice.",
             "7. Improvisation: 1/LR; bonus action; You have developed a knack for thinking on your feet and experimenting on the fly with blessings. You have learned how to, with some effort, replace a blessing with a new one that just might be a bit more helpful. You replace a found blessing with a new random one of 1 tier lower.",
-            "8. Sometimes chasing chaos gets ugly and you need to lay low and shelter from the storm, or sometimes get as far away as possible from some dangerous horror your journeys have whipped up. You gain +2 to any skill checks related to finding shelter, hiding, and survival. You also increase your speed by 5'.",
-            "9. You have had so many close calls with chaos, you have actually learned how to tap into the latent instability. You can choose any number of hit dice to gain at the end of a long rest without limit, but every time you use one while you have more than your usual limit, there is a 10% chance for every hit die above your limit you have remaining for it to detonate and instead deal its healing as necrotic damage to you and all creatures within 30' of you.",
+            "8. Sometimes chasing chaos gets ugly and you need to lay low and shelter from the storm, or sometimes get as far away as possible from some dangerous horror your journeys have whipped up. You gain an expertise die in any skill checks related to finding shelter, hiding, and survival. You also increase your speed by 5'.",
+            "9. You have had so many close calls with chaos, you have actually learned how to tap into the latent instability. You can choose any number of hit dice to gain at the end of a long rest without limit, but every time you use one while you have more than your usual limit, there is a 10% chance per hit die above your limit you have remaining for it to detonate and instead deal its healing as necrotic damage to you and all creatures within 30' of you.",
             "10. The damage of the shrapnel hurricane you can accidentally summon is reduced to 2d8 + your level for creatures of your choice, but remains the same for any others."
         ]
     },
@@ -1363,16 +1363,16 @@
         "name": "Explores Yesterday",
         "description": "investigating ancient ruins and artifacts",
         "tiers": [
-            "1. You gain prof/+2 in perception and arcana, and +2 to athletics checks for climbing.",
-            "2. In your explorations of uncivilised regions, you have been exposed to all sorts of terrible things and have developed a general resistance. You gain +1 AC and prof/+2 in Constitution saving throws.",
+            "1. You gain an expertise die in Perception and Arcana, and in Athletics checks for climbing.",
+            "2. In your explorations of uncivilised regions, you have been exposed to all sorts of terrible things and have developed a general resistance. You gain +1 AC and an expertise die in Constitution saving throws.",
             "3. You gain a CR 1 humanoid follower of your choice.",
-            "4. Excavating the past means entering ruins that are often filled with dangers, some of which can be overcome by force. Choose one class of weapon. You gain a +2 bonus to damage with that weapon.",
-            "5. Got a Feeling: 1/SR; bonus action; Your experience excavating the ruins of the prior worlds gives you an uncanny intuition when it comes to finding things. While exploring, you can extend your senses up to 1 mile in any direction and ask the DM a very simple, general question (usually a yes/no question) about that area. If the answer you seek is not in the area, you receive no information.",
+            "4. Excavating the past means entering ruins that are often filled with dangers, some of which can be overcome by force. Choose one class of weapon. You gain a +2 bonus to damage with that class.",
+            "5. Got a Feeling: 1/SR; bonus action; Your experience excavating the ruins of the past gives you an uncanny intuition when it comes to finding things. While exploring, you can extend your senses up to 1 mile in any direction and ask the DM a very simple, general yes/no question about that area. If the answer you seek is not in the area, you receive no information.",
             "6. You have advantage on athletics checks to climb, acrobatics checks to balance, and your long/high jump distance increases by 10'.",
             "7. Incredible Recovery: 1/week; bonus action; You shake off any unwanted ongoing condition.",
             "8. Quick Hands: 1/LR; free action; Being quick with a chosen weapon is important for excavators who come across an unexpected and aggressive threat. Choose one class of weapon. You can make an additional attack with it whenever you take the Attack action.",
-            "9. Gain +2 in perception and arcana, and +2 to athletics checks for climbing.",
-            "10. You gain +1 AC and +3 to Constitution saving throws."
+            "9. Gain an expertise die in Perception and Arcana, and Athletics checks for climbing.",
+            "10. You gain +1 AC and a d6 expertise die in Constitution saving throws."
         ]
     },
     {

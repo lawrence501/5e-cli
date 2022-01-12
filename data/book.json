@@ -97,6 +97,22 @@
             "description": "+1 dmg res for the duration."
         },
         {
+            "name": "Rushed Message (0)",
+            "description": "Can be cast as a free action, but for the duration you have -1 dmg resistance"
+        },
+        {
+            "name": "Volatile Message (0)",
+            "description": "A psychic rift erupts from the target, and all foes within 5' of them receive a spell atk, dealing 1d4 psy per cantrip tier."
+        },
+        {
+            "name": "Forceful Calculate (0)",
+            "description": "On cast, creatures of your choice are pushed up to 5' away from you per cantrip tier."
+        },
+        {
+            "name": "Energising Calculate (0)",
+            "description": "For the duration, you have +1 passive temp HP gen per cantrip tier."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -193,6 +209,22 @@
             "description": "Damage is converted to fire. Instead of using their reaction, the target gets 1 fire DoT, stacking until DEX save. The next instance of fire dmg you deal does 1d4 additional fire dmg."
         },
         {
+            "name": "Vengeful Hellish Rebuke (1)",
+            "description": "Deals additional fire dmg equal to the number of times you have been hit by the target in the past minute."
+        },
+        {
+            "name": "Infernal Hellish Rebuke (1)",
+            "description": "The next time the target hits you, it makes a DEX save or gets 6 fire DoT, stacking until DEX save."
+        },
+        {
+            "name": "Intense Charm Person (1)",
+            "description": "The target is extremely friendly towards you, but the duration is reduced to 1 minute."
+        },
+        {
+            "name": "Enlightening Charm Person (1)",
+            "description": "When the effect ends, you can cast a cantrip on the target (max cast time of action)."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -287,6 +319,22 @@
         {
             "name": "Vorpal Shadow Blade (2)",
             "description": "Critical hits with the weapon deal 1d8 additional psy dmg (not multiplied by crit)."
+        },
+        {
+            "name": "Guarded Enhance Ability (2)",
+            "description": "When the target makes a save using the chosen ability, it can react to end the spell and gain adv on the save."
+        },
+        {
+            "name": "Stable Enhance Ability (2)",
+            "description": "No longer requires concentration."
+        },
+        {
+            "name": "Hunting Silence (2)",
+            "description": "As action for the duration, you can move the bubble up to 120' in any direction, so long as you can still see at least 1 space of it at all times and its centre remains within 120' of you."
+        },
+        {
+            "name": "Recovering Silence (2)",
+            "description": "If dispelled, the spell returns as if it were not dispelled at the end of your next turn."
         }
     ],
     "manual": [
