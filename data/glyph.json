@@ -84,13 +84,13 @@
         "description": "Scaling high structures",
         "tiers": [
             "1. You are immune to any fear-based effects.",
-            "2. +2 athletics and acrobatics.",
+            "2. You gain an expertise die in Athletics and Acrobatics.",
             "3. Eye for a Challenge: 2/minute; bonus action; you can calculate the distance of any surface or expanse you can see and also learn the DC of the climb.",
-            "4. +2 survival. Additionally, you gain +2 DEX and +1 WIS.",
-            "5. You gain resistance to weather-related damage. Additionally, you have advantage on Strength saving throws against natural elements.",
+            "4. You gain an expertise die in Survival. Additionally, you gain +2 DEX and +1 WIS.",
+            "5. You gain resistance to weather-related damage. Additionally, you have advantage on Constitution saving throws against natural elements.",
             "6. Reflexive Grab: 1/minute; free action; you automatically succeed on a Dexterity check or saving throw to stop yourself or someone else from falling.",
             "7. You gain resistance to falling damage.",
-            "8. +2 to athletics and acrobatics",
+            "8. You gain an expertise die in Athletics and Acrobatics",
             "9. Great Assistance: 1/LR; free action; your check to climb something also counts as the climb roll for a creature climbing immediately behind you.",
             "10. You recover all lost hit points whenever you climb up to a particularly beautiful vista, or succeed in overcoming a particularly difficult ascent."
         ]
@@ -132,10 +132,10 @@
         "description": "Drawing magic circles",
         "tiers": [
             "1. Circle of Warding: At-will; bonus action; You draw a circle of magical protection on the ground within 30' of you, roughly 5' in diameter. Magical effects do not work within this circle, which lasts for one hour.",
-            "2. Circle of Control: 2/min; bonus action; You draw an arcane circle on the ground within 30' of you, 5' in diameter, potentially capturing a magical effect or creature within it. The circle holds the phenomenon for up to an hour, during which time it cannot leave or affect the outside world.",
-            "3. Angelic Weapon: 1/min; bonus action; By inscribing a magical symbol upon a weapon or other handheld object, you make it able to affect creatures where pure material alone could not. Your weapon ignores physical resistances and immunities, and can also pass through forcefields and other energy barriers, for 10 minutes.",
+            "2. Circle of Control: 2/min; bonus action; You draw an arcane circle on the ground within 30' of you, 5' in diameter, potentially capturing a magical effect or creature within it. The circle holds the phenomenon for up to an hour, during which time it cannot leave or physically affect/be affected by the outside world.",
+            "3. Angelic Weapon: 1/min; bonus action; By inscribing a magical symbol upon a weapon you wield, you make it able to affect creatures where pure material alone could not. Your weapon ignores physical resistances and immunities, and can also pass through forcefields and other energy barriers, for 10 minutes.",
             "4. Inscribe Spell: 1/SR; bonus action; You take a spell from your mind and inscribe it onto an object or surface. In this way it becomes easy for you to allow others to cast your spells, even if they could not usually do so. The user still needs to expend the required resources to cast the spells.",
-            "5. Hang Spell: 1/LR; bonus action; You take a spell from your mind, just as you would with your Inscribe Spell feature, annd place it onn an object or surface. However, instead of being readable by other creatures, it casts against the next creature other than you to come within 5' of the inscription.",
+            "5. Hang Spell: 1/LR; bonus action; You take a spell from your mind, just as you would with your Inscribe Spell feature, annd place it on an object or surface. However, instead of being readable by other creatures, it casts against the next creature other than you to come within 5' of the inscription.",
             "6. Capture Angel: 1/week; bonus action; You inscribe a circle on the ground, 10' in diameter, which summons and then contains a powerful celestial. The celestial remains trapped there for 10 minutes, during which time you may speak with it. These celestials are capable of bestowing spells and magical items to those they deem worthy.",
             "7. Your Circle of Warding feature now creates a circle of diameter 10'.",
             "8. Your Circle of Control feature can now be used at-will.",

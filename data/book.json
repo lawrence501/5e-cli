@@ -121,6 +121,22 @@
             "description": "The bonus also applies to knowledge checks made about the target for the duration."
         },
         {
+            "name": "Anchored Dancing Lights (0)",
+            "description": "Duration becomes 1 hour, without concentration, but the lights can no longer be moved once cast."
+        },
+        {
+            "name": "Plentiful Dancing Lights (0)",
+            "description": "Creates up to 4 additional lights."
+        },
+        {
+            "name": "Improved Prestidigitation (0)",
+            "description": "All numeric values in effects increase by 1 per cantrip tier."
+        },
+        {
+            "name": "Complex Prestidigitation (0)",
+            "description": "On cast, you can choose 1 additional effect to occur per cantrip tier. The max effects active at once increases to 4."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -241,6 +257,22 @@
             "description": "The temporary hit points granted is increased by 1."
         },
         {
+            "name": "Shady Disguise Self (1)",
+            "description": "You have +1 to Stealth checks for the duration."
+        },
+        {
+            "name": "Blinding Disguise Self (1)",
+            "description": "On cast, all creatures of your choice within 30' of you are blinded until the end of your turn."
+        },
+        {
+            "name": "Ebbing Arms of Hadar (1)",
+            "description": "Every 2nd casting of the spell in a single combat doubles its radius."
+        },
+        {
+            "name": "True Arms of Hadar (1)",
+            "description": "Each target rolls a d20 if they don't crit fail the save. On a 1, the spell critically hits them."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -359,6 +391,22 @@
         {
             "name": "Intimidating Zone of Truth (2)",
             "description": "When a creature fails the save, it also becomes frightened of you for the duration. This ends if the creature or any of its allies it can sense take damage."
+        },
+        {
+            "name": "Elusive Misty Step (2)",
+            "description": "Until the start of your next turn after casting, attack rolls against you are made with disadvantage."
+        },
+        {
+            "name": "Signature Misty Step (2)",
+            "description": "Can be cast as a 1st-lvl spell, but you have -1 passive regen while you have no 1st-lvl spell slots remaining."
+        },
+        {
+            "name": "Staunching Lesser Restoration (2)",
+            "description": "Can also remove a DoT from the target."
+        },
+        {
+            "name": "Siphoning Lesser Restoration (2)",
+            "description": "The removed effect is manifested as a CR 1/2 shadow minion that deals a dmg type based on the effect removed (nec, rad, thunder, light, psn)."
         }
     ],
     "manual": [

@@ -1456,5 +1456,17 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
+    },
+    {
+        "description": "+1 environmental dmg res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["armour"]
+    },
+    {
+        "description": "+1 environmental dmg you cause",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
     }
 ]
