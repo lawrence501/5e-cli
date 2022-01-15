@@ -110,7 +110,7 @@ Shares condition immunity with paralysis.
 
 A staggered creature suffers the following effects:
 - Incoming attack damage is always critical.
-- All incoming attacks have advantage.
+- Disadvantage with damaging Defence.
 - All speeds are set to 0 feet.
 
 ## Terminology

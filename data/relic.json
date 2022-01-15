@@ -571,7 +571,7 @@
             {
                 "description": "7. temp HP you grant yourself also applies to allies",
                 "pointValue": "4",
-                "upgrade": "+2->1 incoming temp HP/1"
+                "upgrade": "1 incoming temp HP/1"
             },
             {
                 "description": "8. on AoE hit, knock target prone",
@@ -719,7 +719,7 @@
             {
                 "description": "7. gain prof in elvish",
                 "pointValue": "3",
-                "upgrade": "+3->2 persuasion in elvish/1"
+                "upgrade": "2 persuasion in elvish/1"
             },
             {
                 "description": "8. your 1 loot rolls have 20% chance to be converted into 9s",
@@ -1809,7 +1809,7 @@
             {
                 "description": "3. creatures DoTted by you are frightened",
                 "pointValue": "3",
-                "upgrade": "+3->2 DoT dmg vs frightened targets/1"
+                "upgrade": "+2 DoT dmg vs frightened targets/1"
             },
             {
                 "description": "4. -2 cold res; distribute 2pts",
@@ -5989,6 +5989,672 @@
                 "description": "10. +1 P dmg",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Ogre Power",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "your STR is 15",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "3/LR, reroll any crit fail",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on consuming a corpse as a resource, summon a CR 1/8 ogre minion from it",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on init, recover 2 spell slot lvls",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. ignore diff terrain",
+                "pointValue": "3",
+                "upgrade": "+5' sp in diff terrain/1"
+            },
+            {
+                "description": "3. -3 persuasion vs halflings; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-2 AND 2pts distributed/1"
+            },
+            {
+                "description": "4. gain prof in giant language",
+                "pointValue": "3",
+                "upgrade": "+2 persuasion in giant/1"
+            },
+            {
+                "description": "5. +1d4 B dmg to minion hits",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +3 persuasion in giant",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "7. 1/LR, +6 dmg with a STR-based hit",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "8. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. if you've consumed a corpse as a resource since start of your last turn, you and adj allies have +1 passive regen",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Frozen Ground",
+        "type": "wep",
+        "startingMods": [
+            {
+                "description": "+2 cold dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 self-burst AoE dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on cold hit, 20% chance to stagger target until CON save",
+                "pointValue": "8",
+                "upgrade": "+10%/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on cold hit vs wet target, recover 1 spell slot lvl",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. ignore cold res",
+                "pointValue": "3",
+                "upgrade": "+1 cold dmg/1"
+            },
+            {
+                "description": "4. projs and AoEs pierce solid ice",
+                "pointValue": "1",
+                "upgrade": "+2 spell dmg in icy terrain/1"
+            },
+            {
+                "description": "5. +1 AoE dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. your cold hits splash 1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 dmg res vs your own spells",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +3 cold dmg vs wet targets",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "9. on hit vs wet targets, they are staggered until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+2 spell dmg vs staggered targets/1"
+            },
+            {
+                "description": "10. +2 cold dmg vs staggered targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Armour of the Elementalist",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 cold res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 psn res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 fire res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 dmg with summoned weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 non-phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. on KB, heal 3 HP per bonus global dmg",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +1 psn abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 light res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 cold abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. +1 light dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1d4 light dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. -1 dmg res per bonus global dmg; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 3pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Throne of Ambition",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "1/turn, on boss hit, +2 fire dmg until you end your turn without triggering this",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "1/turn, on boss hit, +2 cold dmg until you end your turn without triggering this",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "1/turn, on boss hit, +1 phys res until you end your turn without triggering this",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. 1/turn, +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +3 wep dmg vs bosses",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. 1/turn, on boss hit, +2 wep dmg until you end your turn without triggering this",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. 1/turn, on boss hit, +1 crit dice until you end your turn without triggering this",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +1 wep AB vs bosses",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. +1 phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. -1 crit req vs bosses",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "9. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 proj dmg per 20' between you and target",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Legacy",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "allies adj to your minions have +3 light res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "when hit by your minion, +3 global dmg until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your minions have double spell range",
+                "pointValue": "2",
+                "upgrade": "+1 multi/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 minion dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +2 minion dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. you can have max 1 active minion; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. when your minions hit their allies, they heal 6 HP instead of dealing dmg",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "5. when your minions hit their allies, they grant 7 temp HP instead of dealing dmg",
+                "pointValue": "1",
+                "upgrade": "+7/1"
+            },
+            {
+                "description": "6. +4 minion HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "7. +1 minion AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. when hit by your minion, they have triple spell range until end of their next turn",
+                "pointValue": "2",
+                "upgrade": "+1 multi/1"
+            },
+            {
+                "description": "9. your minions deal -1 dmg against you per 20' between you and them",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 dmg res vs your minions",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Duality of Flames",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "every other fire spell you cast has -2 crit dice",
+                "pointValue": "-2",
+                "upgrade": "-1 AND distribute 2pts/1"
+            },
+            {
+                "description": "on hit, 20% chance to give 2 fire DoT, stacking until DEX save",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "every other fire spell you cast has -1 crit req",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 spell fire dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. -1 crit dice; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 4pts distributed/1"
+            },
+            {
+                "description": "3. +2 mutation dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. your temp auras also convey for foes CON save or prone while in the aura",
+                "pointValue": "2",
+                "upgrade": "+1 to prone DCs/3"
+            },
+            {
+                "description": "5. +1 to DoT DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. every other fire spell you cast has 20% chance on hit to give 2 fire DoT, stacking until DEX save",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "7. +1 dmg res while adj to an ally",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1d4 fire dmg to hits for every 3 negative fire res on target",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 dmg res while shapeshifted",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. if you've reduced fire res since start of your last turn, you and adj allies have +1 fire res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Tomb Binding",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "on nec spell hit, target gets -1 passive regen until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "on nec spell hit, target gets 1 nec DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. if you've been hit since your last turn, +3 nec dmg",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. 20% chance to refund spell slots for nec dmg spells",
+                "pointValue": "4",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. +1 nec spell dmg",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "5. +1 spell AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 spell dmg for each foe in 60'",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. +1 nec dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. you cannot benefit from bonus crit dice, but you have +1 crit multi",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. -1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "10. +3 undead minion dmg",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Blessing of Supply",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "equipment you loot is more likely to be gloves",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "equipment you loot is more likely to be a caster wep",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "equipment you loot has a 20% chance to be on a belt instead of its usual base (affixes cannot be moved to/from)",
+                "pointValue": "8",
+                "upgrade": "+10%/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. equipment you loot has +1 defence affinity",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. books you loot have a 20% chance to become blank",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "3. your 1 loot rolls (trap) have a 20% chance to become dream mirrors",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. equipment you loot is more likely to be a shield",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "5. equipment you loot is more likely to be a helmet",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "6. equipment you loot is more likely to be body armour",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "7. your 1 loot rolls (trap) have a 20% chance to reroll until an equipment roll is made",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "8. 1/turn, when hit, 20% chance to radiate a 5' aura of fire until end of your next turn that inflicts 1 fire DoT dmg immediately",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +1 dmg/2"
+            },
+            {
+                "description": "9. your 2 loot rolls (blessing) have a 20% chance to reroll until an equipment roll is made",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "10. affixes on belts you loot have +1 upgrade point",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Blessing of the Storm",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 light dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 1st-lvl spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot/3 OR +1 lvl/3"
+            },
+            {
+                "description": "+1 mark effectiveness",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to stagger DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +2 light res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on hit, 20% chance to debil until end of target's next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. on hit, 20% chance to give -3 light res until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR -2 res/1"
+            },
+            {
+                "description": "5. on hit, 20% chance to give -1 to debil saves until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR -1 saves/1"
+            },
+            {
+                "description": "6. on SR end, +1 temp HP per hit die used in the SR",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. when hit, 20% chance to gain 4 temp HP",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +4 temp/1"
+            },
+            {
+                "description": "8. +1 cold dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 passive temp HP gen",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. +1 passive regen",
+                "pointValue": "3",
+                "upgrade": "+1/3"
             }
         ]
     }

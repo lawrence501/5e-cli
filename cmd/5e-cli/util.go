@@ -518,7 +518,7 @@ func fetchMutations() ([]Generic, error) {
 
 func getLootSearchResults(skill string) (int, error) {
 	rollP := promptui.Prompt{
-		Label:    skill + " results",
+		Label:    skill + " results (space separated)",
 		Validate: validateSpaceSeparated,
 	}
 	rolls, err := rollP.Run()

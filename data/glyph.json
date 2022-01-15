@@ -1811,15 +1811,15 @@
         "name": "Works Miracles",
         "description": "healing others",
         "tiers": [
-            "1. Healing Touch: At-will; bonus action; With a touch, you restore 2d6 hit points to any creature. This is a DC 6 Medicine check. Each time you attempt to heal the same creature, the DC increases by 3. The DC resets after that creature takes a long rest.",
+            "1. Healing Touch: At-will; bonus action; With a touch, you restore 1d6 hit points to any creature. This is a DC 6 Medicine check. Each time you attempt to heal the same creature, the DC increases by 3. The DC resets after that creature takes a long rest.",
             "2. Alleviate: 1/min; bonus action; You cancel or cure one disease or poison in one creature within 60' of you.",
-            "3. With your approval, other creatures can touch you and regain 2d6 hit points. This healing costs them 4 hit points. A single creature can benefit from this feature only once per long rest.",
-            "4. When you would go down, you can attempt a Constitution check to resist, with a DC equal to double the CR of the foe or effect that harmed you. If successful, you do not go down and you regain 6 hit points. You cannot use this feature again until after your next long rest.",
+            "3. With your approval, other creatures can touch you and regain 1d6 hit points. This healing costs them 2 hit points. A single creature can benefit from this feature only once per long rest.",
+            "4. When you would go down, you can attempt a Constitution check to resist, with a DC equal to double the CR of the foe or effect that harmed you. If successful, you do not go down and you regain 3 hit points. You cannot use this feature again until after your next long rest.",
             "5. Inspiration: 1/SR; bonus action; Through mental inspiration and the manipulation of time, one creature you choose within 30' is granted an additional, immediate bonus action, which it can take out of turn.",
             "6. Undo: 1/LR; bonus action; You turn back time a few seconds, effectively undoing a single creature's most recent action. That creature can then immediately repeat the same action or try something different.",
             "7. Greater Healing Touch: 1/SR; bonus action; You touch a creature and restore all of its hit points. A single creature can benefit from this feature only once per long rest.",
             "8. Restore Life: 1/decade; bonus action; You can attempt to restore life to a dead creature of up to CR 2, as long as the corpse is no more than a day old and is mostly intact. You can also attempt to restore life to a corpse that is much older but is especially well preserved. The difficulty of the Medicine check is equal to 6 times the CR of the creature you are attempting to restore to life. When first restored to life, a creature is dazed until they take a long rest, and all tasks they attempt have disadvantage.",
-            "9. Your Healing Touch feature now heals 2d8 hit points instead of 2d6.",
+            "9. Your Healing Touch feature now heals 1d10 hit points.",
             "10. You can now use your Alleviate feature at-will."
         ]
     },
