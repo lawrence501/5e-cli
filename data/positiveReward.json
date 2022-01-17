@@ -21,16 +21,16 @@
         "description": "100gp"
     },
     {
-        "description": "Manifest Precise Wisp of Gratitude (single-target ally) for next encounter"
+        "description": "Manifest Precise Wisp of Gratitude (single-target ally) for next encounter. Starts at -2 effectiveness, +1 per player success"
     },
     {
-        "description": "Loot roll, rerolling until a non-jewellery equipment roll"
+        "description": "Loot roll, rerolling until an equipment roll"
     },
     {
         "description": "Scroll of civil teleportation: instantly teleport party to city square of any Hospusal city"
     },
     {
-        "description": "Manifest Defending Wisp of Gratitude (defending ally) for next encounter"
+        "description": "Manifest Defending Wisp of Gratitude (defending ally) for next encounter. Starts at -2 effectiveness, +1 per player success"
     },
     {
         "description": "Scroll of Divine Knowledge: learn additional spell from cleric spell list"
@@ -51,7 +51,7 @@
         "description": "can ask a yes/no question and get a truthful answer"
     },
     {
-        "description": "can reroll a chosen property on a magic item, known feature, or known power (lower, same, higher)"
+        "description": "can reroll a chosen numeric value on a magic item, known feature, or known power (lower, same, higher)"
     },
     {
         "description": "can reroll an ability score (4d6 drop lowest)"
@@ -72,7 +72,7 @@
         "description": "Scroll of Edlritch Knowledge: learn additional spell from warlock spell list (always prepared)"
     },
     {
-        "description": "manifest Healing Wisp of Gratitude (healing ally) for next encounter"
+        "description": "manifest Healing Wisp of Gratitude (healing ally) for next encounter. Starts at -2 effectiveness, +1 per player success"
     },
     {
         "description": "Scroll of civilisation: establish new city here, fully automated via constructs. Can choose 1 service for it to have per instance of this reward, combining into 1"
@@ -81,7 +81,7 @@
         "description": "Scroll of lucrative battle: summons a random encounter with normal loot + 200*x gp reward, all instances of this gained increase x by 1, combining into 1"
     },
     {
-        "description": "manifest Annihilating Wisp of Gratitude (AoE ally) for next encounter"
+        "description": "manifest Annihilating Wisp of Gratitude (AoE ally) for next encounter. Starts at -2 effectiveness, +1 per player success"
     },
     {
         "description": "Scroll of Arcane Knowledge: learn additional spell from wizard spell list (always prepared)"
@@ -93,7 +93,7 @@
         "description": "Adv loot roll"
     },
     {
-        "description": "Scroll of Natural Knowledge: learn additional spell from druid spell list (always prepared"
+        "description": "Scroll of Natural Knowledge: learn additional spell from druid spell list (always prepared)"
     },
     {
         "description": "Scroll of general teleportation: instanty teleport party to any location on map (not precise)"

@@ -1483,7 +1483,7 @@
         "type": "weapon",
         "startingMods": [
             {
-                "description": "on wep hit, +4 splash dmg",
+                "description": "your wep hits splash 4 dmg",
                 "pointValue": "4",
                 "upgrade": "+1/1"
             },

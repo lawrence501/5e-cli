@@ -3,6 +3,8 @@ package main
 import (
 	"log"
 	"math/rand"
+	"reflect"
+	"sort"
 	"strconv"
 	"strings"
 
@@ -234,8 +236,14 @@ var insight = func() error {
 	}
 	socialCheck := rand.Intn(20) + socialBonusInt
 	log.Printf("SocialCheck: %d", socialCheck)
-	for k, v := range INSIGHTS {
-		insightCheck := rand.Intn(20) + v
+	insightReflect := reflect.ValueOf(INSIGHTS).MapKeys()
+	var insightKeys []string
+	for _, v := range insightReflect {
+		insightKeys = append(insightKeys, v.Interface().(string))
+	}
+	sort.Strings(insightKeys)
+	for _, p := range insightKeys {
+		insightCheck := rand.Intn(20) + INSIGHTS[p]
 		var result string
 		if insightCheck > socialCheck+2 {
 			result = "succeeds"
@@ -244,7 +252,7 @@ var insight = func() error {
 		} else {
 			result = "is unsure"
 		}
-		log.Printf("%s %s", k, result)
+		log.Printf("%s %s", p, result)
 		log.Printf("%d", insightCheck)
 	}
 	return nil
