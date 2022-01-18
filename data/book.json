@@ -137,6 +137,14 @@
             "description": "On cast, you can choose 1 additional effect to occur per cantrip tier. The max effects active at once increases to 4."
         },
         {
+            "name": "Decaying Create Bonfire (0)",
+            "description": "On hit, target makes a CON save or gets -1 per cantrip tier to saves to end ongoing effects until the end of their next turn"
+        },
+        {
+            "name": "Revolutionary Create Bonfire (0)",
+            "description": "On boss hit, target makes a CON save or a 15x15' flaming ground pers area is left beneath them until the end of their next turn, making spell atks against foes dealing 1d4 fire per cantrip tier"
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -273,6 +281,14 @@
             "description": "Each target rolls a d20 if they don't crit fail the save. On a 1, the spell critically hits them."
         },
         {
+            "name": "Liberating Protection From Evil and Good (1)",
+            "description": "The target also gains the condition protection against restrained."
+        },
+        {
+            "name": "Unstable Protection From Evil and Good (1)",
+            "description": "If you lose concentration on the spell, a psychic rift erupts from the target, making a spell atk against all foes within 5' of them, dealing 1d4 psy."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -407,6 +423,14 @@
         {
             "name": "Siphoning Lesser Restoration (2)",
             "description": "The removed effect is manifested as a CR 1/2 shadow minion that deals a dmg type based on the effect removed (nec, rad, thunder, light, psn)."
+        },
+        {
+            "name": "Major Enthrall (2)",
+            "description": "The spell now has a minimum casting level of 3. It also grants you advantage on all Deception checks against the targets, and the targets disadvantage on all Insight checks against you."
+        },
+        {
+            "name": "Minor Enthrall (2)",
+            "description": "Can now be cast as a 1st-lvl spell. The targets also need to be able to see you for the spell to be cast and maintained."
         }
     ],
     "manual": [

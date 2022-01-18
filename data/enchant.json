@@ -642,7 +642,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 global dmg while shapeshifted",
+        "description": "+2 wep dmg while shapeshifted",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["weapon"]

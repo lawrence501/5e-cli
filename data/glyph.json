@@ -371,16 +371,16 @@
         "name": "Leads",
         "description": "Leading, inspiring, and commanding",
         "tiers": [
-            "1. +2 to all social skills.",
+            "1. You gain an expertise die in all social skills.",
             "2. Anyone can help an ally, easing whatever task they are attempting. You, however, have the benefit of clarity and wisdom. When you use the Help action on another creature, they gain double advantage.",
-            "3. No one is going to allow themselves to be governed by someone not willing to lay it on the line themselves. Thus, you constantly test yourself, and this toughens you. CON +1.",
-            "4. One creature up to CR 1 joins you and your allies. They count as a minion.",
+            "3. No one is going to allow themselves to be governed by someone not willing to lay it on the line themselves. Thus, you constantly test yourself, and this toughens you. +1 CON.",
+            "4. A minion up to CR 1 joins you and your allies.",
             "5. Command: 1/min; bonus action; Through sheer force of will and charisma, you issue a simple command to a single living creature, which attempts to carry out your command during its next turn. The creature must be within 30' and be able to understand you. The command cannot inflict direct harm on the creature or its allies. In addition, the command can require the creature to take only one turn's worth of actions. A commanded creature can still take reactions as normal.",
-            "6. You can replace the ally from this glyph path's statistics with those of a similar creature of up to CR 2.",
+            "6. The ally from T4 becomes CR 2.",
             "7. Captivate or Inspire: At-will; free action; You can use this feature in one of two ways. Either your words keep the attention of all NPCs that hear them for as long as you speak, or your words inspire all NPCs that hear them to gain a +1 bonus to AC and global AB for the next hour. In either case, you choose which NPCs are affected. If anyone in the crowd is attacked while you are speaking to them, you lose the crowd's attention.",
             "8. Leaders inspire confidence, and confidence comes from real ability. You gain 3 points to distribute among your ability scores as you wish.",
-            "9. You can replace the ally from this glyph path's statistics with those of a similar creature of up to CR 8.",
-            "10. Mind of a Leader: 1/week; bonus action; When you develop a plan that involves the ally from this glyph path, you can ask the DM one very general question about what is likely to happen if you carry out the plan, getting a simple, brief answer."
+            "9. The ally from T4 becomes CR 8.",
+            "10. Mind of a Leader: 1/week; bonus action; When you develop a plan that involves the minion from T4, you can ask the DM one very general question about what is likely to happen if you carry out the plan, getting a simple, brief answer."
         ]
     },
     {
@@ -1395,7 +1395,7 @@
         "name": "Crafts Powerful Poisons",
         "description": "crafting poisons",
         "tiers": [
-            "1. Your character gains a Poison Pool, which starts with 10 points. This pool represents your ability to carry the appropriate ingredients and use them for various Mixtures. You can spend your Poison pool on Mixtures; these are recipes that you have learned to quickly concoct with your on-hand supplies. Mixtures are commonly augments for a weapon. However, Mixtures could be used as a bonus action on their own. Once a poisoner runs out of Poison Points, they must restock their supplies. A poisoner can restore their Poison Pool through foraging or shopping. If foraging, the poisoner will need to roll a Survival check, recovering half the check's score in points. This process takes 2 hours. For shopping, a Persuasion check is made instead, granting points equal to the check's score, but the process takes 1 hour and 30 gold. By paying 50 gold instead, you can gain advantage on your Persuasion check.",
+            "1. Your character gains a Poison Pool, which starts with 10 points. This pool represents your ability to carry the appropriate ingredients and use them for various Mixtures. You can spend your Poison pool on Mixtures; these are recipes that you have learned to quickly concoct with your on-hand supplies. Mixtures are commonly augments for a weapon. However, Mixtures could be used as a bonus action on their own. Once a poisoner runs out of Poison Points, they must restock their supplies. A poisoner can restore their Poison Pool through foraging or shopping. If foraging, the poisoner will need to roll a Nature check, recovering half the check's score in points. This process takes 2 hours. For shopping, a Persuasion check is made instead, granting points equal to the check's score, but the process takes 1 hour and 30 gold. By paying 50 gold instead, you can gain advantage on your Persuasion check.",
             "2. You learn the Damage Mixture (1 poison point, victim gains a 2 damage poison DoT) and the Loose Lips Mixture (1 poison point, all social interactions with the victim have advantage for 10 minutes).",
             "3. You gain an expertise die in the cooking craft. You gain an expertise die in saves against poisons, and +2 poison resistance.",
             "4. You gain an expertise die in saves against poisons, and +2 poison resistance.",
@@ -2132,14 +2132,14 @@
         "description": "mathematics",
         "tiers": [
             "1. Predictive Equation: 2/min; bonus action; You observe or study a creature, object, or location for at least 1 round. The next time you interact with it, a related task (such as persuading the creature, attacking it, or making a saving throw against one of its spells) has advantage.",
-            "2. You have +2 to mathematics checks.",
+            "2. You gain an expertise die in mathematics checks.",
             "3. Predictive Model: 2/min; bonus action; If you have used your Predictive Equation feature on a creature, object, or location within the last 3 days, you can learn 1 random fact about the subject that is pertinent to a topic you designate.",
-            "4. Your subconscious constantly runs predictive models for avoiding danger. You gain advantage on you Dexterity saves.",
+            "4. Your subconscious constantly runs predictive models for avoiding danger. You gain advantage on your saving throws.",
             "5. You gain +1 INT.",
             "6. During combat, your brain shifts into a sort of battle mode where all potential attacks you could make are plotted on vector graphs in your mind's eye, which always provides the best option. Your attacks have advantage.",
             "7. You gain +3 INT.",
-            "8. You have +2 to mathmatics checks.",
-            "9. Knowing the Unknown: 1/week; bonus action; Through calculations, you can ask the DM 1 question and get a general answer. The DM assigns a DC to the quesiton, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location has a DC 3, and obscure knowledge of the past has a DC 21. Gaining knowledge of the future is impossible.",
+            "8. You gain an expertise die in mathmatics checks.",
+            "9. Knowing the Unknown: 1/week; bonus action; Through calculations, you can ask the DM 1 question and get a general answer. The DM assigns a DC to the question as a History check, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location has a DC 3, and obscure knowledge of the past has a DC 21. Gaining knowledge of the future is impossible.",
             "10. You gain +3 INT."
         ]
     },
