@@ -496,12 +496,12 @@
     },
     {
         "name": "drive the destruction",
-        "mods": ["on wep hit, heal 3 HP", "+3 wep dmg while on full HP", "on wep hit, 20% chance to slow until end of your next turn"],
+        "mods": ["on wep hit, heal 2 HP", "+3 wep dmg while on full HP", "on wep hit, 20% chance to slow until end of your next turn"],
         "tags": ["wep dmg", "hp", "condi"]
     },
     {
         "name": "feed the fury",
-        "mods": ["on wep hit, heal 2 HP", "+2 wep dmg if you've healed yourself since start of your last turn"],
+        "mods": ["on wep hit, heal 1 HP", "+2 wep dmg if you've healed yourself since start of your last turn"],
         "tags": ["hp", "wep dmg"]
     },
     {
@@ -616,7 +616,7 @@
     },
     {
         "name": "cold-blooded killer",
-        "mods": ["+4 DoT dmg", "on KB vs condi'd target, heal 3 HP"],
+        "mods": ["+4 DoT dmg", "on KB vs condi'd target, heal 2 HP"],
         "tags": ["dot", "condi", "hp"]
     },
     {
@@ -956,12 +956,12 @@
     },
     {
         "name": "life from death",
-        "mods": ["+4 minion HP", "on minion death, heal 4 HP"],
+        "mods": ["+4 minion HP", "on minion death, heal 3 HP"],
         "tags": ["minion hp", "hp"]
     },
     {
         "name": "feasting fiends",
-        "mods": ["+3 minion HP", "+2 minion dmg", "on minion hit, they heal 3 HP"],
+        "mods": ["+3 minion HP", "+2 minion dmg", "on minion hit, they heal 2 HP"],
         "tags": ["minion hp", "minion dmg"]
     },
     {
@@ -1076,7 +1076,7 @@
     },
     {
         "name": "feast of flesh",
-        "mods": ["+3 max HP", "on wep hit, heal 2 HP"],
+        "mods": ["+3 max HP", "on wep hit, heal 1 HP"],
         "tags": ["hp", "wep dmg"]
     },
     {
@@ -1291,7 +1291,7 @@
     },
     {
         "name": "blacksmith",
-        "mods": ["+1 {nonPhysType} res", "+2 {physType} res", "on {nonPhysType} hit, heal 2 HP"],
+        "mods": ["+1 {nonPhysType} res", "+2 {physType} res", "on {nonPhysType} hit, heal 1 HP"],
         "tags": ["non-phys res", "phys res", "non-phys dmg", "hp"]
     },
     {
@@ -1681,7 +1681,7 @@
     },
     {
         "name": "blood siphon",
-        "mods": ["+2 max HP", "+1 {abilityScore}", "on KB, heal 2 HP"],
+        "mods": ["+2 max HP", "+1 {abilityScore}", "on KB, heal 1 HP"],
         "tags": ["hp", "ability score"]
     },
     {
@@ -2156,12 +2156,12 @@
     },
     {
         "name": "clever thief",
-        "mods": ["on wep hit, heal 3 HP"],
+        "mods": ["on wep hit, heal 2 HP"],
         "tags": ["wep dmg", "hp"]
     },
     {
         "name": "blood drinker",
-        "mods": ["+4 max HP", "on KB, heal 4 HP"],
+        "mods": ["+4 max HP", "on KB, heal 2 HP"],
         "tags": ["hp"]
     },
     {
@@ -2296,7 +2296,7 @@
     },
     {
         "name": "hired killer",
-        "mods": ["+6 max HP", "on KB, heal 2 HP"],
+        "mods": ["+6 max HP", "on KB, heal 1 HP"],
         "tags": ["hp"]
     },
     {

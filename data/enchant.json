@@ -636,9 +636,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "20% chance on wep hit to heal 3 HP",
-        "pointValue": "1",
-        "upgrade": "2/1",
+        "description": "20% chance on wep hit to heal 2 HP",
+        "pointValue": "2",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -840,9 +840,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "on KB, heal 4 HP",
+        "description": "on KB, heal 2 HP",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -996,9 +996,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "on block, heal 3 HP",
-        "pointValue": "1",
-        "upgrade": "+2/1",
+        "description": "on block, heal 2 HP",
+        "pointValue": "2",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
@@ -1086,15 +1086,15 @@
         "tags": ["armour"]
     },
     {
-        "description": "on init, heal 4 HP",
+        "description": "on init, heal 2 HP",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
-        "description": "at the end of each combat, heal 4 HP",
+        "description": "at the end of each combat, heal 2 HP",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
@@ -1242,9 +1242,9 @@
         "tags": []
     },
     {
-        "description": "on limited feature use, heal 2 HP",
+        "description": "on limited feature use, heal 1 HP",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {

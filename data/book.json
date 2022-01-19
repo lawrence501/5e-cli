@@ -145,6 +145,14 @@
             "description": "On boss hit, target makes a CON save or a 15x15' flaming ground pers area is left beneath them until the end of their next turn, making spell atks against foes dealing 1d4 fire per cantrip tier"
         },
         {
+            "name": "Extended Poison Spray (0)",
+            "description": "Range increases to 30'."
+        },
+        {
+            "name": "Major Poison Spray (0)",
+            "description": "Can target 1 additional target in range, but is now a 1st-lvl spell."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -266,7 +274,7 @@
         },
         {
             "name": "Shady Disguise Self (1)",
-            "description": "You have +1 to Stealth checks for the duration."
+            "description": "You gain an expertise die in Stealth checks for the duration."
         },
         {
             "name": "Blinding Disguise Self (1)",
@@ -287,6 +295,14 @@
         {
             "name": "Unstable Protection From Evil and Good (1)",
             "description": "If you lose concentration on the spell, a psychic rift erupts from the target, making a spell atk against all foes within 5' of them, dealing 1d4 psy."
+        },
+        {
+            "name": "Signature Illusory Script (1)",
+            "description": "20% chance to refund the spell slot cost, but casting time is increased to 1hr."
+        },
+        {
+            "name": "General Illusory Script (1)",
+            "description": "Instead of designating specific creatures to be able to read the true message, you can instead designate categories of creatures."
         },
         {
             "name": "Purging Lemure Transformation (2)",
@@ -431,6 +447,14 @@
         {
             "name": "Minor Enthrall (2)",
             "description": "Can now be cast as a 1st-lvl spell. The targets also need to be able to see you for the spell to be cast and maintained."
+        },
+        {
+            "name": "Minor Suggestion (2)",
+            "description": "Can now be cast as a 1st-lvl spell. You can no longer make suggestions based off of triggers."
+        },
+        {
+            "name": "Shady Suggestion (2)",
+            "description": "You gain an expertise die in Stealth checks while active."
         }
     ],
     "manual": [

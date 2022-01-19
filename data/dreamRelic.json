@@ -236,7 +236,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "on limited spellcast, heal 3 HP",
+                "description": "on limited spellcast, heal 2 HP",
                 "pointValue": "2",
                 "upgrade": "+1/1"
             }

@@ -98,7 +98,7 @@
         },
         {
             "name": "Drain power",
-            "description": "At-will; bonus action; Can drain power from artifacts and relics, allowing you to heal 2 HP per round for number of rounds equal to level of item. Must concentrate on this each round."
+            "description": "At-will; bonus action; Can drain power from artifacts and relics, allowing you to heal 1 HP per round for number of rounds equal to level of item. Must concentrate on this each round."
         },
         {
             "name": "Regeneration",
@@ -106,7 +106,7 @@
         },
         {
             "name": "Feed off pain",
-            "description": "1/round, when creature within 5' suffers 6+ dmg in 1 hit, you can recover 2 HP."
+            "description": "1/round, when creature within 5' suffers 6+ dmg in 1 hit, you can recover 1 HP."
         },
         {
             "name": "Hump",

@@ -545,8 +545,8 @@
             },
             {
                 "description": "2. on AoE hit, allies heal 1 HP",
-                "pointValue": "2",
-                "upgrade": "+1/2"
+                "pointValue": "4",
+                "upgrade": "+1/4"
             },
             {
                 "description": "3. +1 outgoing healing per AoE dmg bonus",
@@ -732,9 +732,9 @@
                 "upgrade": "+1 to the adv/3"
             },
             {
-                "description": "10. on taking no dmg from a hit, heal 5 HP",
-                "pointValue": "1",
-                "upgrade": "+5/1"
+                "description": "10. on taking no dmg from a hit, heal 3 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             }
         ]
     },
@@ -1414,9 +1414,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "when allied minion leaves play, heal 8 HP",
+                "description": "when allied minion leaves play, heal 3 HP",
                 "pointValue": "2",
-                "upgrade": "+4/1"
+                "upgrade": "+1/1"
             },
             {
                 "description": "+1 dmg res",
@@ -2114,8 +2114,8 @@
             },
             {
                 "description": "5. on fire hit, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "6. +1 question when successfully learning creature stats",
@@ -2256,9 +2256,9 @@
                 "upgrade": "+5'/2"
             },
             {
-                "description": "4. on block, heal 3 HP",
-                "pointValue": "1",
-                "upgrade": "+2/1"
+                "description": "4. on block, heal 2 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
                 "description": "5. +1 wep AB",
@@ -2340,7 +2340,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. on sub hit, heal 2 HP",
+                "description": "6. on sub hit, heal 1 HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2784,9 +2784,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. on crit, heal 3 HP",
-                "pointValue": "1",
-                "upgrade": "+2/1"
+                "description": "6. on crit, heal 2 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
                 "description": "7. +6 block thorns vs fiends",
@@ -3100,7 +3100,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "10. on heal ally, heal 2 HP",
+                "description": "10. on heal ally, heal 1 HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -3121,9 +3121,9 @@
                 "upgrade": "+2/1"
             },
             {
-                "description": "on wep hit, heal 2 HP",
+                "description": "on wep hit, heal 1 HP",
                 "pointValue": "2",
-                "upgrade": "+1/1"
+                "upgrade": "+1/2"
             }
             
         ],
@@ -3155,8 +3155,8 @@
             },
             {
                 "description": "6. on hit, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "7. +1 dmg res",
@@ -3164,9 +3164,9 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "8. when dmg'd, heal 3 HP",
-                "pointValue": "1",
-                "upgrade": "+2/1"
+                "description": "8. when dmg'd, heal 2 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
                 "description": "9. +1 nec dmg",
@@ -3293,8 +3293,8 @@
             },
             {
                 "description": "4. on non-trivial succ knowledge check, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "5. +1 to your lowest AS",
@@ -3351,9 +3351,9 @@
         ],
         "thematicMods": [
             {
-                "description": "1. on block, heal 3 HP",
-                "pointValue": "1",
-                "upgrade": "+2/1"
+                "description": "1. on block, heal 2 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
                 "description": "2. +1 phys res",
@@ -3667,14 +3667,14 @@
                 "upgrade": "-1/4"
             },
             {
-                "description": "5. on limited feature hit, heal 2 HP",
+                "description": "5. on limited feature hit, heal 1 HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
                 "description": "6. on hit, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "7. +1 dmg with 1h weps",
@@ -3687,12 +3687,12 @@
                 "upgrade": "+1/3"
             },
             {
-                "description": "9. 1/LR, as bonus, heal self for 7 HP",
+                "description": "9. 1/LR, as bonus, heal self for 3 HP",
                 "pointValue": "1",
-                "upgrade": "+7/1"
+                "upgrade": "+2/1"
             },
             {
-                "description": "10. on limited feature use, heal 2 HP",
+                "description": "10. on limited feature use, heal 1 HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -3727,8 +3727,8 @@
             },
             {
                 "description": "2. on hit, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "3. +2 psn res",
@@ -3894,9 +3894,9 @@
                 "upgrade": "+1 psn dmg vs condi'd targets/1"
             },
             {
-                "description": "6. on taking psn dmg, heal 4 HP",
-                "pointValue": "1",
-                "upgrade": "+4/1"
+                "description": "6. on taking psn dmg, heal 2 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
                 "description": "7. +15 gold find",
@@ -3905,8 +3905,8 @@
             },
             {
                 "description": "8. on psn hit, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "9. on hit, 20% chance to deal 1d4 extra psn dmg",
@@ -4180,7 +4180,7 @@
                 "upgrade": "+1/3"
             },
             {
-                "description": "4. on minion hit, they heal 2 HP",
+                "description": "4. on minion hit, they heal 1 HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -4392,9 +4392,9 @@
                 "upgrade": "+10%/1 OR +1 dmg/1"
             },
             {
-                "description": "2. on turn start, consume an adj corpse to heal 3 HP",
+                "description": "2. on turn start, consume an adj corpse to heal 2 HP",
                 "pointValue": "1",
-                "upgrade": "+2/1"
+                "upgrade": "+1/1"
             },
             {
                 "description": "3. on turn start, consume an adj corpse to recover 1 spell slot lvl",
@@ -4427,9 +4427,9 @@
                 "upgrade": "+10%/1 OR +1 dmg/1"
             },
             {
-                "description": "9. on lvl, heal 6 HP",
+                "description": "9. on lvl, heal 3 HP",
                 "pointValue": "1",
-                "upgrade": "+6/1"
+                "upgrade": "+2/1"
             },
             {
                 "description": "10. +2 fire res",
@@ -4517,13 +4517,13 @@
         "type": "armour",
         "startingMods": [
             {
-                "description": "1/LR, on becoming bloodied, heal 20 HP",
-                "pointValue": "1",
-                "upgrade": "+10/1"
+                "description": "1/LR, on becoming bloodied, heal 5 HP",
+                "pointValue": "2",
+                "upgrade": "+2/1"
             },
             {
-                "description": "+10' swim sp",
-                "pointValue": "1",
+                "description": "+15' swim sp",
+                "pointValue": "2",
                 "upgrade": "+5'/1"
             },
             {
@@ -4724,8 +4724,8 @@
             },
             {
                 "description": "9. on wep hit, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "10. +1 item proc dmg",
@@ -5206,9 +5206,9 @@
                 "upgrade": "+1/3"
             },
             {
-                "description": "2. when hit, your minions are healed 3 HP",
+                "description": "2. when hit, your minions are healed 2 HP",
                 "pointValue": "1",
-                "upgrade": "+2/1"
+                "upgrade": "+1/1"
             },
             {
                 "description": "3. +3 minion P res",
@@ -5280,9 +5280,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. while you have less than 5 glyph tiers, you can give 1 instance of your Off disadv to heal 6 HP",
+                "description": "2. while you have less than 5 glyph tiers, you can give 1 instance of your Off disadv to heal 3 HP",
                 "pointValue": "1",
-                "upgrade": "+6/1"
+                "upgrade": "+2/1"
             },
             {
                 "description": "3. while you have 10+ glyph tiers, +2 dmg res",
@@ -5295,9 +5295,9 @@
                 "upgrade": "+1 use/1"
             },
             {
-                "description": "5. while you have 10+ glyph tiers, you can give an incoming Off instance adv to heal 6 HP",
+                "description": "5. while you have 10+ glyph tiers, you can give an incoming Off instance adv to heal 3 HP",
                 "pointValue": "1",
-                "upgrade": "+6/1"
+                "upgrade": "+2/1"
             },
             {
                 "description": "6. +1 AC vs constructs",
@@ -5765,8 +5765,8 @@
             },
             {
                 "description": "10. on melee hit, heal 1 HP",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "pointValue": "2",
+                "upgrade": "+1/2"
             }
         ]
     },
@@ -5973,7 +5973,7 @@
             {
                 "description": "7. you become prof in Tlincalli language",
                 "pointValue": "1",
-                "upgrade": "+2 persuasion in Tlincalli/1"
+                "upgrade": "+2->1 persuasion in Tlincalli/1"
             },
             {
                 "description": "8. +1 S dmg",
@@ -6032,7 +6032,7 @@
             {
                 "description": "4. gain prof in giant language",
                 "pointValue": "3",
-                "upgrade": "+2 persuasion in giant/1"
+                "upgrade": "+2->1 persuasion in giant/1"
             },
             {
                 "description": "5. +1d4 B dmg to minion hits",
@@ -6173,9 +6173,9 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "3. on KB, heal 3 HP per bonus global dmg",
-                "pointValue": "1",
-                "upgrade": "+2/1"
+                "description": "3. on KB, heal 2 HP per bonus global dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
             },
             {
                 "description": "4. +1 psn abs",
@@ -6326,9 +6326,9 @@
                 "upgrade": "+1/4"
             },
             {
-                "description": "4. when your minions hit their allies, they heal 6 HP instead of dealing dmg",
-                "pointValue": "1",
-                "upgrade": "+6/1"
+                "description": "4. when your minions hit their allies, they heal the target for 4 HP instead of dealing dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
                 "description": "5. when your minions hit their allies, they grant 7 temp HP instead of dealing dmg",
@@ -6655,6 +6655,302 @@
                 "description": "10. +1 passive regen",
                 "pointValue": "3",
                 "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Panache",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "allies within 60' of you have +1 on their adv skill checks",
+                "pointValue": "9",
+                "upgrade": "+1/9"
+            },
+            {
+                "description": "allies within 60' of you have +1 on their adv saves",
+                "pointValue": "9",
+                "upgrade": "+1/9"
+            },
+            {
+                "description": "-1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 crit req while your stealth is impeded by your body armour; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 5pts distributed/1"
+            },
+            {
+                "description": "2. +1 to atk rolls vs targets with 21+ AC",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "3. +1 to saves vs DCs of 21+",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +1 to skill checks with DCS of 21+",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. on atk hit vs target with 21+ AC, a foe within 60' has -1 global AB until end of their next turn",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "6. on succ save vs DC of 21+, a foe within 60' has -1 global AB until end of their next turn",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "7. on succ skill check of DC 21+, a foe within 60' has -1 global AB until end of their next turn",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "8. on atk hit vs target with 21+ AC, a foe within 60' has -1 to saves until end of their next turn",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "9. on succ save vs DC of 21+, a foe within 60' has -1 to saves until end of their next turn",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "10. on succ skill check of DC 21+, a foe within 60' has -1 to saves until end of their next turn",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+        ]
+    },
+    {
+        "name": "Silverfrond",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+5 plant minion psn abs",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+5 dmg for manually-summoned plant minions",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+10 HP for manually-summoned plant minions",
+                "pointValue": "2",
+                "upgrade": "+5/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on manually-summoning a plant minion, you are teleported to an adj space to it",
+                "pointValue": "3",
+                "upgrade": "+4 minion HP/1"
+            },
+            {
+                "description": "2. summoning plant minions costs 1 additional resource tier; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 AND 4pts distributed/1"
+            },
+            {
+                "description": "3. +3 plant minion wep dmg",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +3 plant minion spell dmg",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. +3 psn abs for manually-summoned plant minions",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "6. +4 plant minion psn res",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "7. +2 minion psn abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. your crit req is always 19-20",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "9. +2 dmg res for manually-summoned plant minions",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 AC for manually-summoned minions",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Blessing of Cover",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+3 minion dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on hit, 20% chance to give target -2 global dmg until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR -1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. on hit, 20% chance to give target -3 fire res until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR -2/1"
+            },
+            {
+                "description": "3. +1 dmg res while bloodied",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 fire dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 fire res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 to your debil DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. +1 phys res while concentrating",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on hit, 20% chance to give target -3 nec res until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR -2/1"
+            },
+            {
+                "description": "9. +10' minion teleport range",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "10. +1 phys abs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Chimaera's Essence",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+20' sp while shapeshifted",
+                "pointValue": "4",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "+4 global dmg while shapeshifted",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "-2 dmg res while shapeshifted",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "2. gain prof in sylvan",
+                "pointValue": "3",
+                "upgrade": "+2->1 persuasion in sylvan/1"
+            },
+            {
+                "description": "3. +10' swim sp",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "4. +1 AC while shapeshifted",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 incoming healing while shapeshifted",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. +1 S dmg, which increases by 1 whenever its type is changed by an essence",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on hit, 20% chance to give 2 psn DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "9. +1 psn dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. while your DEX is 15+, +1 psn dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
             }
         ]
     }

@@ -161,7 +161,7 @@
   },
   {
     "name": "primalist - hunter's restoration",
-    "mods": ["+1 max HP", "1/turn, on hit, heal 2 HP"],
+    "mods": ["+1 max HP", "1/turn, on hit, heal 1 HP"],
     "upgrade": "+1"
   },
   {
@@ -391,8 +391,8 @@
   },
   {
     "name": "beastmaster - call of the pack",
-    "mods": ["+4 max HP", "+1 minion HP", "on summon minion, heal 3 HP"],
-    "upgrade": "+4 ALT +1 ALT +2"
+    "mods": ["+4 max HP", "+1 minion HP", "on summon minion, heal 2 HP"],
+    "upgrade": "+4 ALT +1 ALT +1"
   },
   {
     "name": "beastmaster - the chase",
@@ -421,13 +421,13 @@
   },
   {
     "name": "beastmaster - life in the wilderness",
-    "mods": ["+1 $abilityScore", "+5% HP threshold for you and your minions being bloodied"],
+    "mods": ["+1 $abilityScore", "+1 HP threshold for you and your minions being bloodied"],
     "upgrade": "+1"
   },
   {
     "name": "beastmaster - the circle of life",
-    "mods": ["on KB, 30% chance to gain +2 melee dmg until end of your next turn", "on KB, heal 6 HP"],
-    "upgrade": "+10% ALT +6 NOT melee dmg"
+    "mods": ["on KB, 20% chance to gain +3 melee dmg until end of your next turn", "on KB, heal 3 HP"],
+    "upgrade": "+10% ALT +2 NOT melee dmg"
   },
   {
     "name": "beastmaster - viper fangs",
@@ -436,7 +436,7 @@
   },
   {
     "name": "beastmaster - avian shelter",
-    "mods": ["+10% HP threshold to be considered bloodied", "+1 $physType res", "+1 minion {physType} res"],
+    "mods": ["+2 HP threshold to be considered bloodied", "+1 $physType res", "+1 minion {physType} res"],
     "upgrade": "+1"
   },
   {
@@ -621,8 +621,8 @@
   },
   {
     "name": "druid - healing nova",
-    "mods": ["first hit of each combat procs healing nova, you and adj allies heal 3 HP"],
-    "upgrade": "+2"
+    "mods": ["first hit of each combat procs healing nova, you and adj allies heal 1 HP"],
+    "upgrade": "+1"
   },
   {
     "name": "druid - ursine maw",
@@ -726,7 +726,7 @@
   },
   {
     "name": "necromancer - elixir of hunger",
-    "mods": ["+2 max HP", "if you've been healed since start of your last turn, your minions have +1 dmg and heal 2 HP on hit"],
+    "mods": ["+2 max HP", "if you've been healed since start of your last turn, your minions have +1 dmg and heal 1 HP on hit"],
     "upgrade": "+1 HP ALT +1 turn since heal"
   },
   {
@@ -776,7 +776,7 @@
   },
   {
     "name": "necromancer - effigies",
-    "mods": ["when hit while bloodied, 20% chance to kill minion, healing yourself for its HP", "+1 minion $nonPhysType dmg", "+1 minion ranged wep dmg"],
+    "mods": ["when hit while bloodied, 20% chance to kill minion, healing yourself for its HP", "+1 minion $nonPhysType dmg", "+2 minion ranged wep dmg"],
     "upgrade": "+1"
   },
   {
@@ -1151,7 +1151,7 @@
   },
   {
     "name": "bladedancer - skiasynthesis",
-    "mods": ["on minion summon, heal 2 HP", "+2 minion dmg"],
+    "mods": ["on minion summon, heal 2 HP", "+1 minion dmg"],
     "upgrade": "+1"
   },
   {
@@ -1181,7 +1181,7 @@
   },
   {
     "name": "bladedancer - cloaked reaper",
-    "mods": ["on KB, heal 1 HP per buff on you", "on hit vs boss, heal 2 HP per buff on you"],
+    "mods": ["on KB, heal 1 HP per buff on you", "on hit vs boss, heal 1 HP per buff on you"],
     "upgrade": "+1"
   },
   {
@@ -1256,7 +1256,7 @@
   },
   {
     "name": "marksman - thief's quiver",
-    "mods": ["+1 max HP", "on proj hit, heal 2 HP"],
+    "mods": ["+1 max HP", "on proj hit, heal 1 HP"],
     "upgrade": "+1"
   },
   {

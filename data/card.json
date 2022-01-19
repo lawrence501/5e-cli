@@ -24,8 +24,8 @@
         {
             "name": "1. Kher'evo",
             "set": "Primordial Elementals",
-            "primary": "on hit, heal 5 HP",
-            "secondary": "on hit, heal 2 HP",
+            "primary": "on hit, heal 5 HP (EDIT TO 3)",
+            "secondary": "on hit, heal 2 HP (EDIT TO 1)",
             "foil": "+3 max HP"
         },
         {

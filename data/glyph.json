@@ -22,7 +22,7 @@
             "1. When you die, you instead add one point to your Immortality Pool and enter a coma for 24 hours. If your body is completely destroyed, it reforms again in the nearest safe place, but your equipment does not go with it. When you awake, you heal up to 40 + double your Immortality Pool hit points.",
             "2. +2 history",
             "3. Because you know you cannot die, you have developed strange techniques for dealing with foes. When attacked by a creature within 5', you can elect to take the hit by hurling yourself on the attacker's weapon. When doing this, you leave the creature shocked by your seemingly insane actions, stunning them until the end of their next turn. If you succeed on a STR save with DC 8 + the creature's attacks' AB, you disarm them by lodging the weapon inside your own body. They must succeed on a contested STR check against you to recover it.",
-            "4. Channelling your immortality, you can spend points from your Immortality Pool to heal 2 HP per point as a free action at any time.",
+            "4. Channelling your immortality, you can spend points from your Immortality Pool to heal 1 HP per point as a free action at any time.",
             "5. When you die, you can choose to spend 5 Immortality points to instantly regenerate instead of waiting 24 hours.",
             "6. Your experience, memories, and ability to survive have granted you many perks. Your maximum HP is increased by 10 and your built-up scar tissue grants you +1 AC.",
             "7. Past Life: 1/week; bonus action; Peering into your past, you can pull forth the memory of an ability from a previous life, feeling memories flowing back into your mind. You can cast any cantrip.",
@@ -500,10 +500,10 @@
         "description": "summoning a minion from your flesh",
         "tiers": [
             "1. Spawn: 2/min; bonus action; Your flesh bunches up and buds off a small, CR 1/2 creature that can survive independently for 10 minutes before it shrivels and dies. The creature obeys basic commands, but is not intelligent enough to perform tasks complex enough that they would require a skill check. The creature is strong enough to pick up small items, but not enough to wield weapons. Creatures not actively following a command follow their own motives, whatever those may be. The creatures have 11 AC, 10 maximum HP, +3 AB, and deal 1d4 + 1 B damage. All spawn have a speed of 30'.",
-            "2. You can reabsorb your creatures from your Spawn feature, healing 1d6 HP for each one reintegrated into your flesh.",
+            "2. You can reabsorb your creatures from your Spawn feature, healing 1d4 HP for each one reintegrated into your flesh.",
             "3. Willful Mutation: 1/SR; bonus action; You can force your body to develop a random beneficial mutation temporarily for 10 minutes.",
             "4. You can now spawn CR 1 creatures with your Spawn feature. Optionally, you can elect to leave them as CR 1/2 creatures, but they can fly with stubby, malformed wings. The CR 1 creatures have 12 AC, 20 maximum HP, +4 AB, and deal 1d6 + 2 B damage. All flying spawn have a flying speed of 120'.",
-            "5. Forceful Absorption: 1/SR; bonus action; With some effort, you can try to forcibly absorb a CR 1 or lower creature of your size of smaller, as long as it is organic and from the same plane as you, by defeating them in a contested CHA check. Absorbing a creature causes you to heal 1d6 HP.",
+            "5. Forceful Absorption: 1/SR; bonus action; With some effort, you can try to forcibly absorb a CR 1 or lower creature of your size of smaller, as long as it is organic and from the same plane as you, by defeating them in a contested CHA check. Absorbing a creature causes you to heal 1d4 HP.",
             "6. Whispers Within: 1/SR; bonus action; The things within your flesh listen and learn and plot. Sometimes you overhear them and sometimes you can interrogate them. Things you may have forgotten or missed, things you couldn't see behind you, secret, silent thoughts you are not sensitive enough to receive - the things inside you hear and see all. Your mind can slip inside yourself and ask a question of the riders within, which they must answer to the best of their abilities, though whether they tell you the whole truth or not is another matter.",
             "7. You can now spawn CR 2 creatures with your Spawn feature. Optionally, you can elect to leave them as CR 1 creatures, but they can fly with stubby, malformed wings. The CR 2 creatures have 13 AC, 30 maximum HP, +5 AB, and deal 1d8 + 3 B damage.",
             "8. Your increasing ability to control the creatures you set free from your body now extends their lives. Through force of will, you can reshape your own form, budding off a portion of your flesh and permanently reducing your maximum HP by 2 to make a new, permanent spawn. When the spawn dies, you regain the lost maximum HP.",
@@ -1187,16 +1187,16 @@
         "name": "Wanders the Inner Labyrinth",
         "description": "understanding the nature of sentience",
         "tiers": [
-            "1. You open yourself up to your own flaws. You heal 2 HP whenever you fail an attack roll, saving throw, or important skill check.",
+            "1. You open yourself up to your own flaws. You heal 1 HP whenever you fail an attack roll, saving throw, or important skill check.",
             "2. Hand on the Wall: 2/min; free action; You rely on your training and insights to guide you through a tough situation, granting you advantage on a task that involves your Wisdom, such as casting a Wisdom-based spell or making a Wisdom saving throw.",
-            "3. T1 now heals 4 HP instead, but on doing so your inner demons get the better of you, forcing you to succumb to a base emotion for the next hour: roll a d6, 1-2. temptation, 3-4. anger, 5-6. sloth.",
+            "3. T1 now heals 2 HP instead, but on doing so your inner demons get the better of you, forcing you to succumb to a base emotion for the next hour: roll a d6, 1-2. temptation, 3-4. anger, 5-6. sloth.",
             "4. Echoing Corridors: 1/SR; bonus action; For the next 10 minutes you broadcast your thoughts for all adjacent living creatures to hear in their minds telepathically.",
             "5. You gain an expertise die in Wisdom saving throws.",
             "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT > 4), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 + your level psychic damage whenever it fails an attack roll, saving throw, or important skill check. Additionally, you learn the target's greatest fear.",
             "7. Centre of the Maze: 1/week; 10mins; Your self-mastery is such that you are able to redefine yourself as needed. You may quietly contemplate for the usage time to reassign 1 skill proficiency or expertise to a different skill.",
-            "8. T1 now heals 6 HP instead.",
+            "8. T1 now heals 4 HP instead.",
             "9. Your Hand on the Wall feature can now be used at-will.",
-            "10. T1 now heals 9 HP instead."
+            "10. T1 now heals 7 HP instead."
         ]
     },
     {
@@ -2501,7 +2501,7 @@
         "tiers": [
             "1. Find Origin: At-will; bonus action; You can study a creature or plant and learn 1 thing about where it came from. You may uncover its place of origin, its creator (if it has one), or the way in which it was formed.",
             "2. Hush Now: 2/min; bonus action; Through voice and actions, you temporarily convince a non-humanoid creature within 30' that you are its parent or creator. It remains calm for up to 2 rounds, as long as you focus all your attention on it. The DM has final say over what counts as a non-humanoid creature, but unless some kind of deception is at work, you should know whether you can affect a creature before you attempt to use this feature on it. The creature must have at least some biological components to be affected by this feature.",
-            "3. Creature Comfort: 2/min; bonus action; You always carry a portable healing lab. It includes a variety of salves, patches, devices, and injections that you have created to heal non-human creatures. If you spend a bonus action using one of these, you can heal a willing creature for 6 HP. The lab can be used 3 times before it needs to be restocked (which takes about 24 hours).",
+            "3. Creature Comfort: 2/min; bonus action; You always carry a portable healing lab. It includes a variety of salves, patches, devices, and injections that you have created to heal non-human creatures. If you spend a bonus action using one of these, you can heal a willing creature for 3 HP. The lab can be used 3 times before it needs to be restocked (which takes about 24 hours).",
             "4. You gain +2 to checks to create or grow life forms, including farming, birthing, animal husbandry, hatching eggs, and raising young.",
             "5. Grow: 1/min; bonus action; You take 10 minutes to create a serum that causes a single non-humanoid creature (CR 2 or lower) to mature to its fully grown size, strength, weight, and so on in just 48 hours. The effect is permanent.",
             "6. Splice: 1/SR; bonus action; If you have the right tools (lab, serums, samples, and so on) and spend at least a week working on it, you can create the necessary technology to splice the genes of 1 non-humanoid creature into another. The 2 (or more) creatures must be decided ahead of time and all must be CR 2 or lower. Using the device to do the splicing is a bonus action. Your changes give the creature either +1 or -1 to all rolls it makes, and raises its CR by 1. The effect is permanent.",
