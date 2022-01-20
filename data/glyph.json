@@ -193,17 +193,17 @@
     },
     {
         "name": "Absorbs Energy",
-        "description": "Absorbing and utilising kinetic energy",
+        "description": "absorbing and utilising kinetic energy",
         "tiers": [
             "1. You absorb a portion of the energy of a physical attack or impact. You negate 2 points of damage you would have suffered and store it as energy. You can store a maximum of 2 energy at a time.",
-            "2. Release Energy: At-will; bonus action; You release 2 points of energy you've absorbed, magnifying and focusing into a blast of energy that strikes a single foe within 120' of you for 2d6 + your level force damage.",
-            "3. Energise Object: At-will; bonus action; You infuse energy you have absorbed into an object. The object holds the energy until it is touched by anyone but you. The energy inflicts 6 points of the object's base damage on the creature touched in addition to any damage the object itself may do. You cannot have more than one energised object on your person at a time.",
-            "4. You can now absorb and store energy from damage made with arcane energy or from conduits that direct energy, if you can make direct contact. This functions in the same way as physical absorption.",
+            "2. Release Energy: At-will; bonus action; You release 2 points of energy you've absorbed, magnifying and focusing it into a blast of energy that attacks a single foe within 120' of you, dealing 2d6 + your level force damage on a hit.",
+            "3. Energise Object: At-will; bonus action; You infuse energy you have absorbed into an object. The object holds the energy until it is touched by anyone but you. The energy inflicts 1d12 force damage on the touching creature in addition to any damage the object itself may do. You cannot have more than one energised object on your person at a time.",
+            "4. You can now absorb and store energy from damage made with arcane energy or from conduits that direct energy, if you can make direct contact. This functions in the same way as T1.",
             "5. Instead of being able to absorb 2 points of damage from various sources, you can absorb 4 points. You can also store up to 4 points of energy from any source.",
-            "6. When you use your Release Energy feature, it inflicts an additional 4 points of damage.",
+            "6. The damage of your Release Energy feature is increased to 2d10 + your level.",
             "7. Energise Creature: 1/week; bonus action; You extend your absorption abilities to one creature within 5' of you so that they also can absorb up to 4 points of damage from the same sources for 1 hour. That creature, however, cannot store the energy for any purpose.",
             "8. Energise Crowd: once ever; bonus action; You can use your Energise Creature feature on up to 30 creatures within 30' of you.",
-            "9. You can infuse 2 points of energy you have stored into a magical piece of equipment as a free action, increasing a weapon's dmg dice size by 3 for its next attack, or a piece of armour's AC bonus by 3 until you are next attacked.",
+            "9. You can infuse 2 points of energy you have stored into a magical piece of equipment as a free action, increasing a weapon's dmg dice size by 3 for its next attack, or a piece of armour's AC bonus by 3 until its wearer is next attacked.",
             "10. You can now store up to 8 points of energy at a time."
         ]
     },
@@ -963,16 +963,16 @@
         "name": "Enchants Devices",
         "description": "modifying items",
         "tiers": [
-            "1. By spending 10 minutes with it, you can distort the workings of any magic item, allowing you to change its properties. You can reroll 1 of the item's affixes. This change lasts 1 hour.",
-            "2. With a blast of shining runes you protect yourself against attacks. So long as your hands are only holding magical items, you have +2 to all saving throws.",
-            "3. Customisation: 2/min; free action; Through a careful manipulation of an object's inherent properties, you are able to modify any potion. Doing so takes 10 minutes, and allows you to change the potion's physical shape and size. You can even integrate the potion into another, larger object.",
-            "4. Enchanting Touch: 1/min; bonus action; By force of will you push glowing magical runes through your fingertips. For the next hour, any artifact or relic you use gains a temporary level and grants advantage on tasks related to its use. The temporary level always does the same thing.",
-            "5. Runes of Protection: 1/SR; free action; By spending an hour inscribing arcane symbols across a magical object, you may protect it from harm. For the next month, while it is on your person, a weapon cannot have its damage reduced and and armour cannot have its AC reduced.",
-            "6. Enchantment flows through your very presence, enhancing magic in your vicinity. All potions within 5' of you count as 1 tier higher and all artifacts and relics within the same radius gain a temporary level while in that area. This temporary level always does the same thing.",
-            "7. Caress of Conductivity: 1/week; bonus action; Golden sigils spread from your fingers onto a mundane object you touch, like a glittering technological disease. The object is permanently made into an artifact, causing it to be affected by any features you have that temporarily increase the levels of artifacts. While enhanced by your temporary level aura, a weapon made with this feature deals +2 damage and a similar armour grants +2 damage resistance.",
-            "8. When you spend 10 minutes distorting the workings of a magic item, you can reroll 2 of the item's affixes instead of just 1.",
-            "9. So long as your hands are only holding magical items, you have a further +1 to all saving throws.",
-            "10. Your Customisation feature now works instantly."
+            "1. By spending 10 minutes with it, you can distort the workings of any magic item, allowing you to change its properties. You can reroll 1 of the item's affixes. This can only be done once per item.",
+            "2. With a blast of shining runes you protect yourself against attacks. So long as your hands are only holding magical items, you gain an expertise die in all saving throws.",
+            "3. Customisation: 2/min; free action; Through a careful manipulation of an object's inherent properties, you are able to modify any amulet. Doing so takes 10 minutes, and allows you to change one of its aspects. This can only be done once per item.",
+            "4. Enchanting Touch: 1/min; bonus action; By force of will you push glowing magical runes through your fingertips. A relic gains a parallel level, but can now only be equipped by you, and grants advantage on tasks related to its use. This can only be done once per item",
+            "5. Runes of Protection: 1/SR; free action; By spending an hour inscribing arcane symbols across a magical object, you may protect it from harm. For the next month, while it is on your person, a weapon cannot have its damage reduced and an armour cannot have its AC reduced.",
+            "6. Enchantment flows through your very presence, enhancing magic in your vicinity. All blessings found by your party count as 1 tier higher and all relics you equip gain a parallel level.",
+            "7. Caress of Conductivity: 1/week; bonus action; Golden sigils spread from your fingers onto a mundane object you touch, like a glittering magical disease. The object is permanently made into an relic. While enhanced by T6, a weapon made with this feature deals +1d4 base damage and a similar armour grants +2 damage resistance.",
+            "8. When you distort an item with T1, you can reroll 2 of the item's affixes instead of just 1.",
+            "9. So long as your hands are only holding magical items, you gain an expertise die in all saving throws.",
+            "10. Your Customisation feature can now be used three times per item."
         ]
     },
     {
@@ -1153,18 +1153,18 @@
     },
     {
         "name": "Seeks Paradise",
-        "description": "artificially terraforming the world",
+        "description": "stealing nature's resources",
         "tiers": [
             "1. Abundance: At-will; bonus action; You create a quantity of water and food. Enough to nourish you and the rest of your party with a random effect until your next long rests. Somewhere nearby all plant and animal life in a 15' cube is poisoned or otherwise harmed by the aftereffects of your power.",
-            "2. You gain prof/+2 in deception.",
-            "3. You may always scavenge any dead non-sentient creature of CR 2 or more for loot. Scavenging in this way takes 10 minutes per creature, and gives an arcana check to you which functions the same as an investigation check for loot.",
-            "4. Depletion: 1/min; bonus action; One creature you see within 120' of you is drained of life by terraformation magic, taking 1d10 + your level necrotic damage.",
-            "5. Oasis: 1/SR; bonus action; You become surrounded by shade, water, and sources of food created by the terraformation magic in the area. This magic draws the raw materials for this small, 15' cube oasis from all of the plants and small creatures within 120' of the site. The food and water are enough to nourish up to 20 creatures with a random effect for up to 1 long rest later each (so 4 creatures could each be nourished for 5 days each, for example), and each portion heals 2d6 hit points. These portions cannot be removed from the oasis.",
+            "2. You gain an expertise die in Deception.",
+            "3. You gain an expertise die in Survival checks to scavenge monster parts.",
+            "4. Depletion: 1/min; bonus action; Make an attack against a creature you see within 120' of you. On a hit, it is drained of life by terraformation magic, taking 1d10 + your level necrotic damage.",
+            "5. Oasis: 1/SR; bonus action; You become surrounded by shade, water, and sources of food created by your terraformation magic. This magic draws the raw materials for this small, 15' cube oasis from all of the plants and small or smaller creatures within 120' of the site. The food and water are enough to nourish up to 20 creatures with a random effect for up to 1 long rest later each (so 4 creatures could each be nourished for 5 days each, for example), and each portion heals 1d6 hit points. These portions cannot be removed from the oasis.",
             "6. Forbidden Fruits: 1/LR; bonus action; You turn a corpse or carcass of a creature of CR 3 or higher into a biologically-based healing potion of tier equal to the creature's CR.",
-            "7. Devil's Deal: 1/week; bonus action; With a wave of your hand you alter the landscape of a region, both for good and ill. Up to 2.6 square kilometres of desolate land may be converted into a verdant region, abundant with life that lasts for one month. However, an equivalent amount of land within view must be made poisoned and ruined, never again viable for vegetation.",
+            "7. Devil's Deal: 1/week; bonus action; With a wave of your hand you alter the landscape of a region, both for good and ill. Up to 2 square kilometres of desolate land may be converted into a verdant region, abundant with life that lasts for one month. However, an equivalent amount of land within view must be made poisoned and ruined, never again viable for vegetation.",
             "8. The food created with your Abundance feature is now produced 1 tier higher.",
-            "9. +2 to deception.",
-            "10. You can now scavenge any non-sentient creature for loot, regardless of their CR."
+            "9. You gain an expertise die in Deception.",
+            "10. You gain a d6 expertise die in Survival checks to scavenge monster parts."
         ]
     },
     {

@@ -6953,5 +6953,227 @@
                 "upgrade": "+1/1"
             }
         ]
+    },
+    {
+        "name": "Adversity",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1 DEX",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+1 AC",
+                "pointValue": "5",
+                "upgrade": "+1/5"
+            },
+            {
+                "description": "+3 glyphic dmg outside of your turn",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on KB, heal 2 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 to your features' CR thresholds",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "3. +1 init",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 to checks to gain clues when stuck",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 CON",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 to your double adv atks",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. +1 to your double adv saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +1 to your double adv skill checks",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. +1 to checks/saves to resist other creatures attempting to discern your thoughts",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. +1 to WIS saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "The Incinerator",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "for each rnd you've spent concentrating on an effect, +5' cone length",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "during the last rnd you can concentrate on an effect, +12 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "during the last rnd you can concentrate on an effect, your hits give 3 fire DoT, stacking until DEX save",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 fire dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1d4 fire dmg to your spells",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. -1 to the max number of rnds you can concentrate on an effect for; distribute 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 AND distribute 3pts/1"
+            },
+            {
+                "description": "4. during the last rnd you can concentrate on an effect, +6 DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. for each rnd you've spent concentrating on an effect, +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. buffs on allies from your item procs also affect you",
+                "pointValue": "3",
+                "upgrade": "+1 buff effectiveness/3"
+            },
+            {
+                "description": "7. +1 incoming temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 spell AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. random mods added to this wep have +1 point",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Tainted Keeper",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "whenever you finish a LR, summon a CR 1/2 tiny Imp minion, dealing psn dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "as bonus, you may consume any amount of gold to heal an equal amount of hit points",
+                "pointValue": "9",
+                "upgrade": "+15 gold find/1"
+            },
+            {
+                "description": "your relic lvl costs are always 1 lvl higher",
+                "pointValue": "-3",
+                "upgrade": "+1 AND 4pts distributed/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. finish LRs with -4 HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-4 AND 2pts distributed/1"
+            },
+            {
+                "description": "2. +1 proj AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. on KB, target's corpse drops 30gp that disappears at the end of the turn",
+                "pointValue": "1",
+                "upgrade": "+90/1"
+            },
+            {
+                "description": "4. whenever you finish a SR, summon a CR 1/8 tiny, flying aberration minion, dealing B dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. on looting gold, 20% chance to find 45gp more",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +30gp/1"
+            },
+            {
+                "description": "6. -1 proj crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "7. -5' sp; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-5' AND 3pts distributed/1"
+            },
+            {
+                "description": "8. on KB, target's corpse drops 20gp",
+                "pointValue": "1",
+                "upgrade": "+20/1"
+            },
+            {
+                "description": "9. +15 gold find",
+                "pointValue": "1",
+                "upgrade": "+15/1"
+            },
+            {
+                "description": "10. -1 healing from hit dice; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 3pts distributed/1"
+            }
+        ]
     }
 ]
