@@ -5919,7 +5919,7 @@
         ]
     },
     {
-        "name": "Tlincalli's Shell",
+        "name": "Tlincalli's  (scorpion centaurs)",
         "type": "armour",
         "startingMods": [
             {
@@ -7173,6 +7173,228 @@
                 "description": "10. -1 healing from hit dice; 3pts distributed",
                 "pointValue": "1",
                 "upgrade": "-1 AND 3pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Hymn of Shadows",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "when atk'd, atker takes 1 nec thorns dmg per bonus spell dmg you have",
+                "pointValue": "2",
+                "upgrade": "+1 spell dmg/1"
+            },
+            {
+                "description": "when atk'd, atker takes 2 nec thorns dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "gain nec dmg equal to your bonus spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1 spell dmg/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 nec dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +15' darkvision",
+                "pointValue": "1",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "3. +1 to percep for detecting hidden creatures",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +10' blindsight",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "5. gain percep for detecting hidden creatures equal to your bonus spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1 spell dmg/1"
+            },
+            {
+                "description": "6. gain 5' blindsight per bonus spell dmg you have",
+                "pointValue": "1",
+                "upgrade": "+1 spell dmg/1"
+            },
+            {
+                "description": "7. you radiate a 5' aura that deals 1 nec spell dmg",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. while you have no spell slots, your auras are disabled; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 1st-lvl spell slot AND 4pts distributed/1"
+            },
+            {
+                "description": "9. gain aura dmg equal to your bonus spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1 spell dmg/1"
+            },
+            {
+                "description": "10. +1 to saves vs debil",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Deadly Arts",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on succ picking a pocket, also heal 1 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on succ picking a pocket, also deal 1d4 wep B dmg",
+                "pointValue": "5",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 global dmg per condi on target",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +1 psn DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 to your psn DoT DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. when you deal dmg with a pickpocket, also give 2 psn DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +10 gold find from pickpocketing",
+                "pointValue": "1",
+                "upgrade": "+5/1"
+            },
+            {
+                "description": "6. recover 1 exertion on succ pickpocket",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. +1 global dmg vs bloodied targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on succ pickpocket, give 1 psn DoT, stacking until CON save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on hit while on 0 HP, give 2 psn DoT, stacking until CON save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 global dmg while wielding a knife wep",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Yathon's Hide (bat orcs)",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 P dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+5' fly sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "when hit by melee atk from atker you can see, can react to give atk -1 AB",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on melee wep miss, can react to give atk +1 AB",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +1 wep AC while unarmoured",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +1 spell AC while unarmoured",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +1 STR",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. -1 CHA; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 5pts distributed/1"
+            },
+            {
+                "description": "6. +10' blindsight",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "7. -1 to saves vs blind; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 3pts distributed/1"
+            },
+            {
+                "description": "8. gain prof in Orc language",
+                "pointValue": "3",
+                "upgrade": "+3->2 persuasion in Orc/1"
+            },
+            {
+                "description": "9. -1 to saves vs blind while deaf; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 2pts distributed/1"
+            },
+            {
+                "description": "10. +1 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
             }
         ]
     }

@@ -157,13 +157,13 @@
                 "upgrade": "+1 multi/3"
             },
             {
-                "description": "+2 animal handling for placating beasts",
-                "pointValue": "2",
+                "description": "+3 to animal handling for placating beasts",
+                "pointValue": "3",
                 "upgrade": "+1/1"
             },
             {
                 "description": "on becoming bloodied, gain effects of the dodge action",
-                "pointValue": "1",
+                "pointValue": "0",
                 "upgrade": "+1 AC during dodge action/3"
             }
             

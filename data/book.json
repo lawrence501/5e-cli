@@ -153,6 +153,14 @@
             "description": "Can target 1 additional target in range, but is now a 1st-lvl spell."
         },
         {
+            "name": "Extended Thunderclap (0)",
+            "description": "Range increases to 10'."
+        },
+        {
+            "name": "Hexed Thunderclap (0)",
+            "description": "Damage die increases to 1d8 vs cursed targets."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -305,6 +313,14 @@
             "description": "Instead of designating specific creatures to be able to read the true message, you can instead designate categories of creatures."
         },
         {
+            "name": "Traumatic Hex (1)",
+            "description": "Your next hit against the target prompts a CON save or debils them until the end of their next turn"
+        },
+        {
+            "name": "Cleansing Hex (1)",
+            "description": "On cast, remove all negative conditions, diseases, curses, and marks from yourself."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -455,6 +471,14 @@
         {
             "name": "Shady Suggestion (2)",
             "description": "You gain an expertise die in Stealth checks while active."
+        },
+        {
+            "name": "Synergistic Locate Object (2)",
+            "description": "You can share this spell's concentration with that of the Locate Creature spell."
+        },
+        {
+            "name": "Instant Locate Object (2)",
+            "description": "Also tells you the distance of the located object from you. The maximum duration is reduced 6 seconds. Instead of learning its trajectory while travelling, you instead learn how many metres above the ground the object is."
         }
     ],
     "manual": [

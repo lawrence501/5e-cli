@@ -336,7 +336,7 @@
     },
     {
         "name": "wound aggravation",
-        "mods": ["+2 dmg with {weaponClass} weps", "+1 DoT dmg while holding a {weaponClass}"],
+        "mods": ["+2 dmg with {weaponClass} weps", "+1 DoT dmg while holding a {weaponClass} wep"],
         "tags": ["weapon class", "dot"]
     },
     {
@@ -361,12 +361,12 @@
     },
     {
         "name": "fan of blades",
-        "mods": ["while holding a {weaponClass}, +1 proj AB", "+1 dmg with {weaponClass} weps"],
+        "mods": ["while holding a {weaponClass} wep, +1 proj AB", "+1 dmg with {weaponClass} weps"],
         "tags": ["proj", "ab", "weapon class"]
     },
     {
         "name": "disease vector",
-        "mods": ["while holding a {weaponClass}, +1 DoT dmg", "creatures with your DoTs cannot be healed"],
+        "mods": ["while holding a {weaponClass} wep, +1 DoT dmg", "creatures with your DoTs cannot be healed"],
         "tags": ["weapon class", "dot"]
     },
     {
@@ -376,12 +376,12 @@
     },
     {
         "name": "tempered arrowheads",
-        "mods": ["while holding a {weaponClass}, +1 DoT dmg and your buffs and DoTs last double duration"],
+        "mods": ["while holding a {weaponClass} wep, +1 DoT dmg and your buffs and DoTs last double duration"],
         "tags": ["weapon class", "dot", "buff"]
     },
     {
         "name": "broadside",
-        "mods": ["while holding a {weaponClass}, +10' AoE sizes"],
+        "mods": ["while holding a {weaponClass} wep, +10' AoE sizes"],
         "tags": ["weapon class", "aoe"]
     },
     {
@@ -491,7 +491,7 @@
     },
     {
         "name": "fuel the fight",
-        "mods": ["+2 wep dmg", "+2 wep dmg if you've healed yourself since start of your last turn"],
+        "mods": ["+2 wep dmg", "+2 wep dmg if you've been healed since start of your last turn"],
         "tags": ["wep dmg", "hp"]
     },
     {
@@ -501,7 +501,7 @@
     },
     {
         "name": "feed the fury",
-        "mods": ["on wep hit, heal 1 HP", "+2 wep dmg if you've healed yourself since start of your last turn"],
+        "mods": ["on wep hit, heal 1 HP", "+2 wep dmg if you've been healed since start of your last turn"],
         "tags": ["hp", "wep dmg"]
     },
     {
@@ -1096,7 +1096,7 @@
     },
     {
         "name": "adrenaline",
-        "mods": ["+3 max HP", "on hit, heal 1 HP", "if you've healed yourself since start of your last turn, +2 wep dmg"],
+        "mods": ["+3 max HP", "on hit, heal 1 HP", "if you've been healed since start of your last turn, +2 wep dmg"],
         "tags": ["hp", "wep dmg", "spell dmg"]
     },
     {
@@ -2753,5 +2753,95 @@
         "name": "unnatural strength",
         "mods": ["+4 minion dmg"],
         "tags": ["minion dmg"]
+    },
+    {
+        "name": "bone barrier",
+        "mods": ["as bonus, can give yourself and your minions 1 temp HP", "while you or your minions have temp HP, +2 to DoT saves", "+1 {physType} res per active minion", "+1 incoming healing per active minion", "+1 incoming temp HP per active minion", "+2 minion HP"],
+        "tags": ["minion hp", "temp hp", "save", "phys res", "hp"]
+    },
+    {
+        "name": "mistress of sacrifice",
+        "mods": ["buffs you apply to your minions also affect you", "-1 to effectiveness of buffs on you", "your buffs have triple duration"],
+        "tags": ["buff", "minion dmg"]
+    },
+    {
+        "name": "essence glutton",
+        "mods": ["for each corpse adj to you, you and adj allies have +2 passive temp HP gen", "on consuming a corpse as a resource, gain +1 passive temp HP gen until end of your next turn"],
+        "tags": ["temp hp"]
+    },
+    {
+        "name": "commander of darkness",
+        "mods": ["your auras also grant you and your allies +1 global dmg", "you and adj allies have +1 global dmg", "you and adj allies have +1 {dmgPolarity} res"],
+        "tags": ["wep dmg", "spell dmg", "phys res", "non-phys res"]
+    },
+    {
+        "name": "plaguebringer",
+        "mods": ["if you've consumed a corpse as a resource since start of your last turn, you and your minions have +10' AoE sizes", "while adj to a corpse, you and adj allies have +1 global dmg", "while adj to a corpse, adj foes have -1 global dmg"],
+        "tags": ["aoe", "minion dmg", "wep dmg", "spell dmg", "phys res", "non-phys res"]
+    },
+    {
+        "name": "corpse pact",
+        "mods": ["on consuming a corpse as a resource, +1 global dmg until end of your next turn", "foes adj to corpses created by you are sluggish and have -1 dmg res", "corpses you create are 1 size larger"],
+        "tags": ["wep dmg", "spell dmg", "condi"]
+    },
+    {
+        "name": "headsman",
+        "mods": ["+3 global dmg vs bloodied targets", "on boss KB, +1 wep dmg for combat", "on KB, +5' sp for combat"],
+        "tags": ["wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "overwhelm",
+        "mods": ["-1 wep crit req", "+1 crit die per adj foe", "adj foes have 20% chance to not deal extra crit dmg"],
+        "tags": ["wep dmg", "crit"]
+    },
+    {
+        "name": "bane of legends",
+        "mods": ["if you've KB'd since start of your last turn, +3 global dmg", "you don't trigger thorns effects with {physType} dmg", "+1 boss dmg"],
+        "tags": ["wep dmg", "spell dmg", "phys dmg"]
+    },
+    {
+        "name": "endless hunger",
+        "mods": ["on KB, heal 2 HP", "if you've been healed since start of your last turn, +1 wep dmg", "if you've been healed since start of your last turn, +1 to condi saves", "if you've been healed since start of your last turn, +1 DoT res"],
+        "tags": ["hp", "wep dmg", "save"]
+    },
+    {
+        "name": "brutal fervour",
+        "mods": ["+1 incoming healing", "excess healing is gained as temp HP", "if you've been healed since start of your last turn, +1 dmg res"],
+        "tags": ["hp", "temp hp", "phys res", "non-phys res"]
+    },
+    {
+        "name": "impact",
+        "mods": ["+1 {hitForm} AB", "+5' reach", "on KB, +5' AoE sizes until end of your next turn", "+1 melee dmg vs adj targets"],
+        "tags": ["ab", "melee", "aoe"]
+    },
+    {
+        "name": "masterful form",
+        "mods": ["+1 dmg res per bonus global dmg", "+1 global dmg"],
+        "tags": ["phys res", "non-phys res", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "gratuitous violence",
+        "mods": ["on KB vs DoT'd target, corpse explodes, making glyphic atk to all foes within 5', dealing 1d4 {physType}", "+1 DoT dmg"],
+        "tags": ["dot", "aoe", "phys dmg"]
+    },
+    {
+        "name": "blood in the eyes",
+        "mods": ["on wep hit, 20% chance to give 1 {physType} DoT, stacking until CON save", "on wep hit vs DoT'd target, target slowed until end of your next turn", "on hit vs DoT'd target, 20% chance to blind them until end of your next turn", "creatures slowed by you have -2 {physType} res"],
+        "tags": ["wep dmg", "dot", "condi", "phys dmg"]
+    },
+    {
+        "name": "outmatch and outlast",
+        "mods": ["on onhand KB, 20% chance to gain +2 global dmg for combat", "on offhand KB, 20% chance to gain +1 dmg res for combat", "while buffed, +1 {physType} dmg", "while buffed, +2 {physType} res"],
+        "tags": ["dual-wielding", "wep dmg", "spell dmg", "phys res", "non-phys res", "buff", "phys dmg"]
+    },
+    {
+        "name": "painforged",
+        "mods": ["+1 wep AC", "if you've blocked since your last turn, +1 bonus action", "+1 to thorns dmg"],
+        "tags": ["wep ac", "spell ac", "speed"]
+    },
+    {
+        "name": "violent retaliation",
+        "mods": ["if you've blocked this combat, +1 wep dmg", "if you've blocked this combat, ignore {physType} res"],
+        "tags": ["wep ac", "spell ac", "wep dmg", "phys dmg"]
     }
 ]

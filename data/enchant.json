@@ -594,9 +594,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+3 wep dmg vs $condition creatures",
+        "description": "+2 wep dmg vs $condition creatures",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -1404,13 +1404,13 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+2 wep dmg vs targets behind you in turn tracker",
+        "description": "+2 wep dmg vs targets [ahead or behind] you in turn tracker",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["weapon"]
     },
     {
-        "description": "+1 dmg res vs creatures behind you in turn tracker",
+        "description": "+1 dmg res vs creatures [ahead or behind] you in turn tracker",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]
