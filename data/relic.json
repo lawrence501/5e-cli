@@ -3264,7 +3264,7 @@
                 "upgrade": "+1/4"
             },
             {
-                "description": "on non-crit fail knowledge check, receive 1 piece of true information and 1 piece of false information, with no distinction",
+                "description": "on non-critically failing a knowledge check, receive 1 piece of true information and 1 piece of false information, with no distinction",
                 "pointValue": "3",
                 "upgrade": "+1 true piece/3"
             },
@@ -5563,9 +5563,9 @@
                 "upgrade": "+10%/1"
             },
             {
-                "description": "+2 dmg res per class you have lvls in",
-                "pointValue": "2",
-                "upgrade": "+1/1"
+                "description": "+1 dmg res per class you have lvls in",
+                "pointValue": "4",
+                "upgrade": "+1/4"
             }
             
         ],
@@ -5591,7 +5591,7 @@
                 "upgrade": "+10%/1"
             },
             {
-                "description": "5. +1 dmg abs per class you have lvls in",
+                "description": "5. +1 dmg abs for every 2 classes you have lvls in",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
@@ -5611,9 +5611,9 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "9. +2 stealth per class you have lvls in",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "description": "9. +1 stealth per class you have lvls in",
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "10. while you have 15+ DEX, +5' sp",
@@ -7393,6 +7393,450 @@
             },
             {
                 "description": "10. +1 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Ballistics",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+3 sphere AoE dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 fire dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 item proc AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on atk, 20% chance to fire a flare at target which it explodes in a 5' radius around them, a ranged lyphic atk dealing 1d4 fire to foes only",
+                "pointValue": "4",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "2. +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. in first round of combat, +2 bonus actions",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +2 wep dmg vs marked targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 item proc dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 proj dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 proj AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. -1 proj crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "9. +1 proj crit dice",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "10. +1 spell save DC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "The Rattler",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 natural wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "-1 natural wep crit req",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "on natural wep hit, target gets 2 P DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 natural wep AB",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. if you are adj to an ally, creatures that would target that ally must target you instead",
+                "pointValue": "1",
+                "upgrade": "+1 dmg res while adj to an ally/1"
+            },
+            {
+                "description": "3. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +3 dmg thorns",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +5' sp when moving toward a foe",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "7. you count as a beast",
+                "pointValue": "1",
+                "upgrade": "+1 AC vs beasts/2"
+            },
+            {
+                "description": "8. +1 natural wep crit dice",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +2 buff effectiveness during first rnd of combat",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Elixir",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "-1 healing from hit dice",
+                "pointValue": "-2",
+                "upgrade": "-1 AND 3pts distributed/1"
+            },
+            {
+                "description": "during first combat after a SR, +6 dmg res",
+                "pointValue": "12",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "-1 max hit dice",
+                "pointValue": "-3",
+                "upgrade": "-1 AND 4pts distributed/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. lose all temp HP at end of a SR; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 incoming temp HP AND 2pts distributed/1"
+            },
+            {
+                "description": "2. during first combat after a SR, -1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "3. during first combat after a SR, +2 global dmg",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +3 minion psn res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. +1 to animal handling for staying atop a mount",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. take 5 psn dmg at end of each SR; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+5 AND 2pts distributed/1"
+            },
+            {
+                "description": "7. this item's prof requirement is reduced by 1 tier",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. on first init after a SR, heal 3 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 dmg res while you have less than max hit dice",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. your party is more likely to be caught while SRing in a hostile location; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "more AND 5pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Roots",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 proj AB while shapeshifted",
+                "pointValue": "6",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+5' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "-10' sp while shapeshifted",
+                "pointValue": "-2",
+                "upgrade": "-5' AND 2pts distributed/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 global dmg while shapeshifted",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 passive regen while shapeshifted",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +5' burrow sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "4. +1 dmg res while shapeshifted",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 dmg res with lvls in 2+ classes",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. on hit, 20% chance to fire a thorn at target, a ranged spell atk dealing 1d4 P",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "7. +1 proj dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. -1 exp gain; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 5pts distributed/1"
+            },
+            {
+                "description": "9. 1/SR, as bonus, can shapeshift into a CR 1/2 spriggan plant (minion stats) with a 60' range thorn spell atk",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Leviathan Carver",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 melee S dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1d4 S dmg to melee weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "30% chance to nullify extra crit dmg",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. ignore S res",
+                "pointValue": "3",
+                "upgrade": "+1 S dmg/1"
+            },
+            {
+                "description": "2. when non-critically hit, 5% chance to turn it into a crit; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "+5% AND 5pts distributed/1"
+            },
+            {
+                "description": "3. +1 melee AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +1 maneuver dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +4 wep dmg vs monstrosities",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "7. +1 melee dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. -1 item proc dmg; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 2pts distributed/1"
+            },
+            {
+                "description": "9. +1 wep AB vs monstrosities",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. on nullifying a crit's extra dmg, heal 4 HP",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Blessing of Demand",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "equipment you loot is more likely to be a caster weapon",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "your 1 loot rolls are converted into amulet ones (12)",
+                "pointValue": "3",
+                "upgrade": "+1 starting tier of amulets you loot/1"
+            },
+            {
+                "description": "your 2 loot rolls are converted into wondrous item ones(4)",
+                "pointValue": "2",
+                "upgrade": "increased rarity of wondrous items you loot/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. equipment you loot is more likely to be a spear weapon",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "2. equipment you loot is more likely to be a bow weapon",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "3. equipment you loot has +1 condi affinity",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. equipment you loot has +1 spell affinity",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. equipment you loot is more likely to be a staff",
+                "pointValue": "1",
+                "upgrade": "more/1"
+            },
+            {
+                "description": "6. your 3 loot rolls are converted into ring ones (13)",
+                "pointValue": "3",
+                "upgrade": "more control over which mod basic rings you loot have/1"
+            },
+            {
+                "description": "7. your 4 loot rolls are converted into blessing ones (2)",
+                "pointValue": "1",
+                "upgrade": "+1 tier to blessings you loot/1"
+            },
+            {
+                "description": "8. +1 dmg with caster weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 incoming temp HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }

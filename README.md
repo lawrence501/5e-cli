@@ -45,7 +45,7 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 
 - Stagger/Debil/double disadv condi: 5
 - Single disadv condi/sluggish/silence: 3
-- Prone/similar: 2
+- Prone/taunt/similar: 2
 - Slow: 1
 - Condi lasts until save/longer: x2
 - Limited feature conditional: -1
@@ -112,6 +112,12 @@ A staggered creature suffers the following effects:
 - Incoming attack damage is always critical.
 - Disadvantage with damaging Defence.
 - All speeds are set to 0 feet.
+
+### Taunted
+
+Shares condition immunity with charmed.
+
+A taunted creature must target at least their taunter with all offensive actions.
 
 ## Terminology
 

@@ -368,7 +368,7 @@
     {
         "description": "in first round of combat, +2 bonus actions",
         "pointValue": "3",
-        "upgrade": "1/2",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
@@ -411,13 +411,13 @@
         "description": "adj allies have +1 $hitForm dmg",
         "pointValue": "1",
         "upgrade": "1/1",
-        "tags": []
+        "tags": ["weapon"]
     },
     {
         "description": "adj allies have +1 dmg res",
         "pointValue": "3",
         "upgrade": "1/3",
-        "tags": []
+        "tags": ["armour"]
     },
     {
         "description": "1/LR, can cast [random 1st lvl spell], using INT, WIS, or CHA",
@@ -1450,5 +1450,17 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
+    },
+    {
+        "description": "+2 natural wep dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 natural wep dmg res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["armour"]
     }
 ]

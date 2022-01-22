@@ -1967,7 +1967,7 @@
     {
         "name": "devotion",
         "mods": ["+2 max HP", "+1 aura effectiveness"],
-        "tags": ["hp"]
+        "tags": ["hp", "pers area"]
     },
     {
         "name": "discipline and training",
@@ -1977,7 +1977,7 @@
     {
         "name": "leadership",
         "mods": ["+5' aura radius", "+1 aura effectiveness"],
-        "tags": ["aoe"]
+        "tags": ["aoe", "pers area"]
     },
     {
         "name": "unnatural calm",
@@ -2112,17 +2112,17 @@
     {
         "name": "influence",
         "mods": ["+1 aura effectiveness"],
-        "tags": ["buff"]
+        "tags": ["pers area"]
     },
     {
         "name": "charisma",
         "mods": ["+1 aura effectiveness"],
-        "tags": ["buff"]
+        "tags": ["pers area"]
     },
     {
         "name": "sovereignty",
         "mods": ["+1 aura effectiveness"],
-        "tags": ["buff"]
+        "tags": ["pers area"]
     },
     {
         "name": "entropy",
@@ -2136,8 +2136,8 @@
     },
     {
         "name": "corruption",
-        "mods": ["negative {nonPhysType} res you apply has triple effect"],
-        "tags": ["non-phys dmg"]
+        "mods": ["+1 mark effectiveness"],
+        "tags": ["condi"]
     },
     {
         "name": "decay ward",
@@ -2237,7 +2237,7 @@
     {
         "name": "revelry",
         "mods": ["+1 aura effectiveness against foes"],
-        "tags": ["condi"]
+        "tags": ["pers area"]
     },
     {
         "name": "avatar of the hunt",
@@ -2317,7 +2317,7 @@
     {
         "name": "champion of the cause",
         "mods": ["+5' aura radius", "+1 aura effectiveness"],
-        "tags": ["aoe"]
+        "tags": ["aoe", "pers area"]
     },
     {
         "name": "quickstep",
@@ -2646,7 +2646,7 @@
     },
     {
         "name": "nature's boon",
-        "mods": ["+1 {dmgPolarity} res", "on SR end, recover 1 hit die", "20% for each hit die spent to be refunded"],
+        "mods": ["+1 {dmgPolarity} res", "on SR end, recover 1 hit die", "20% chance for each hit die spent to be refunded"],
         "tags": ["phys res", "non-phys res", "max hit dice"]
     },
     {
@@ -2711,8 +2711,8 @@
     },
     {
         "name": "mastermind of discord",
-        "mods": ["+1 to all negative res you apply"],
-        "tags": ["wep dmg", "spell dmg"]
+        "mods": ["+1 mark effectiveness"],
+        "tags": ["condi"]
     },
     {
         "name": "heart of destruction",
@@ -2772,7 +2772,7 @@
     {
         "name": "commander of darkness",
         "mods": ["your auras also grant you and your allies +1 global dmg", "you and adj allies have +1 global dmg", "you and adj allies have +1 {dmgPolarity} res"],
-        "tags": ["wep dmg", "spell dmg", "phys res", "non-phys res"]
+        "tags": ["wep dmg", "spell dmg", "phys res", "non-phys res", "pers area"]
     },
     {
         "name": "plaguebringer",
@@ -2843,5 +2843,85 @@
         "name": "violent retaliation",
         "mods": ["if you've blocked this combat, +1 wep dmg", "if you've blocked this combat, ignore {physType} res"],
         "tags": ["wep ac", "spell ac", "wep dmg", "phys dmg"]
+    },
+    {
+        "name": "reigning veteran",
+        "mods": ["+1 wep AC", "gain {physType} res equal to your bonus wep AC", "gain a bonus to {abilityScore} saves equal to double your bonus wep AC"],
+        "tags": ["wep ac", "phys res", "save"]
+    },
+    {
+        "name": "arena challenger",
+        "mods": ["on single-target boss hit, 20% chance to gain +1 wep dmg and +10' sp for combat", "on AoE KB, gain +2 wep dmg and +5' sp for combat"],
+        "tags": ["wep dmg", "speed", "aoe"]
+    },
+    {
+        "name": "fortitude",
+        "mods": ["+1 dmg res", "your bonus dmg res is doubled"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "unstoppable hero",
+        "mods": ["while buffed, +1 wep dmg", "while buffed, +1 {physType} res", "while buffed, +1 to {abilityScore} saves", "while buffed, +1 to condi saves"],
+        "tags": ["buff", "wep dmg", "phys res", "save"]
+    },
+    {
+        "name": "conqueror",
+        "mods": ["on hit, taunt target until end of your next turn", "if you've taunted since start of your last turn, +2 dmg res", "creatures taunted by you have -1 global dmg vs non-you targets"],
+        "tags": ["condi", "phys res", "non-phys res"]
+    },
+    {
+        "name": "worthy foe",
+        "mods": ["creatures taunted by you have -1 dmg res", "creatures taunted by you have -1 AC"],
+        "tags": ["condi", "wep dmg", "spell dmg", "ab"]
+    },
+    {
+        "name": "inspirational",
+        "mods": ["+1 aura effectiveness", "you and allies affected by your auras have +1 passive regen per other creature affected by the same aura", "+1 aura effectiveness while you have a pers area active"],
+        "tags": ["buff", "hp", "pers area"]
+    },
+    {
+        "name": "first to strike, last to fall",
+        "mods": ["on hit vs full HP target, give -1 wep dmg res for combat", "on becoming bloodied while not buffed, gain +1 global dmg, +5' sp, and +1 {physType} res for combat", "when buffed, heal 1 HP", "when buffed, cleanse yourself of all condis and DoTs"],
+        "tags": ["wep dmg", "spell dmg", "speed", "phys res", "hp", "save"]
+    },
+    {
+        "name": "master of metal",
+        "mods": ["your marks have double duration", "if you've marked since start of your last turn, you and adj allies have +1 {physType} res", "you and adj allies have +1d4 {physType} dmg to hits per mark on target"],
+        "tags": ["phys res", "phys dmg"]
+    },
+    {
+        "name": "righteous providence",
+        "mods": ["-1 crit req while both your {abilityScore1} and {abilityScore2} are 15+", "+1 {abilityScore1}", "+1 {abilityScore2}"],
+        "tags": ["crit", "ability score"]
+    },
+    {
+        "name": "inevitable judgement",
+        "mods": ["ignore {dmgPolarity} res"],
+        "tags": ["dmg polarity"]
+    },
+    {
+        "name": "augury of penitence",
+        "mods": ["adj foes have -1 {dmgPolarity} dmg", "adj foes have -1 {dmgPolarity} res"],
+        "tags": ["phys res", "non-phys res", "dmg polarity"]
+    },
+    {
+        "name": "sanctuary",
+        "mods": ["foes in your pers areas have -1 dmg res", "if you haven't moved since start of your last turn, you radiate a 5' aura that grants you and allies +1 passive regen"],
+        "tags": ["pers area", "wep dmg", "spell dmg", "hp"]
+    },
+    {
+        "name": "pious path",
+        "mods": ["your pers areas grant you and your allies passive temp HP gen equal to your passive regen", "+1 pers area effectiveness", "your pers areas have double duration"],
+        "tags": ["pers area", "temp hp", "hp"]
+    },
+    {
+        "name": "instruments of zeal",
+        "mods": ["when buffed, replace the buff's effect/duration with +3 manually-casted spell dmg and +5' manually-casted spell AoE sizes until end of your next turn", "1/turn, on atk, 50% chance to gain a buff that does nothing"],
+        "tags": ["buff", "spell dmg", "aoe"]
+    },
+    {
+        "name": "instruments of virtue",
+        "mods": ["on manual spellcast, +1 wep dmg for combat", "your onhand wep's base dmg is added to your spell dmg"],
+        "tags": ["spell dmg", "wep dmg"]
     }
 ]

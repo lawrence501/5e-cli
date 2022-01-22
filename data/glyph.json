@@ -5,14 +5,14 @@
         "tiers": [
             "1. Eldritch Connection: at will; bonus action; uncannily, you learn the name of any one person, place, or thing you can see",
             "2. You gain a random beneficial mutation",
-            "3. Tenebrous Prophesy: 1/minute; bonus action; Your mind is filled with a jumble of prophetic images and sensations, granting you a dangerous peek at the predicted future. You gain double advantage on your next roll, but something negative will occur in the near future",
-            "4. Soul of the Hound: 1/LR; bonus action; You allow the stored instincts of a vicious creature to enter your mind psychically through your connection to the outer worlds, granting you enhanced, barely controlled reflexes. For the next 10 minutes, you gain +2 to natural weapon AB, but you cannot end hostile combats until you kill at least one creature in them, even if no enemies remain",
-            "5. You are overrun by the unnatural urges of eldritch beings, pushing you to violence and madness. Whenever you actively engage in lustful, violent, or otherwise animalistic acts for at least 10 minutes, you heal 2d6 + 2x your level hit points",
-            "6. You gain a standard mutation of your choice (DM will balance from description)",
+            "3. Tenebrous Prophesy: 1/min; bonus action; Your mind is filled with a jumble of prophetic images and sensations, granting you a dangerous peek at the predicted future. You gain double advantage on your next roll, but something negative will occur in the near future",
+            "4. Soul of the Demon: 1/LR; bonus action; You allow the stored instincts of a vicious creature to enter your mind psychically through your connection to the Black Cathedral, granting you enhanced, barely controlled reflexes. For the next 10 minutes, you gain an expertise die in natural weapon atks, but you cannot end hostile combats until you kill at least one creature in them, even if no enemies remain",
+            "5. You are overrun by the unnatural urges of eldritch beings, pushing you to violence and madness. Whenever you actively engage in lustful, violent, or otherwise animalistic acts for at least 10 minutes, you heal 1d6 + your level hit points",
+            "6. You gain a distinctive mutation of your own design (DM will balance from description)",
             "7. Your Eldritch Connection feature is now a free action",
             "8. Gain a random beneficial mutation",
             "9. Your Tenebrous Prophesy feature can now be used twice per minute",
-            "10. Your Soul of the Hound feature can now be used once per minute"
+            "10. Your Soul of the Demon feature can now be used at-will."
         ]
     },
     {
@@ -1795,16 +1795,16 @@
         "name": "Wears a Sheen of Ice",
         "description": "utilising the power of a sheen of ice growing around you",
         "tiers": [
-            "1. Ice Armour: At-will; free action; When you wish it, your body is covered in a sheen of ice for 10 minutes that gives you +1 to AC. While the sheen is active, you feel no discomfort from normal cold temperatures and have +4 resistance to cold damage.",
-            "2. Frost Touch: At-will; bonus action; Your hands become so cold that the next time you touch a creature, you inflict 1d8 + level cold damage. Alternatively, you can use this power on a weapon, and for 10 minutes, it inflicts 1d4 additional cold damage.",
-            "3. Freezing Touch: 1/SR; bonus action; Your hands become so cold that, in addition to inflicted damage as described under your Frost Touch feature, your touch freezes solid a living target of your size or smaller, rendering it unable to act for 1 round.",
-            "4. Ice Creation: 1/SR; bonus action; You create a solid object of ice that is your size or smaller. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. Your ice objects are as strong as iron, but if you are not in constant contact with them, they function for only 1d6 + 6 rounds before breaking or melting. For example, you can make and wield an ice sword, but if you give it to another creature, the sword will not last as long for that character.",
+            "1. Ice Armour: At-will; free action; When you wish it, your body is covered in a sheen of ice that lasts as long as you wish and gives you +1 to AC. While the sheen is active, you feel no discomfort from normal cold temperatures and have +4 resistance to cold damage.",
+            "2. Frost Touch: At-will; bonus action; Your hands become so cold that the next time you touch a creature, you can attack them to inflict 1d8 + level cold damage. Alternatively, you can use this power on a weapon, which then inflicts 1d4 additional cold damage. This can only be done once per weapon.",
+            "3. Freezing Touch: 1/SR; bonus action; Your hands become so cold that, in addition to inflicted damage as described under your Frost Touch feature, your touch chills to the core a living target of your size or smaller, staggering it until the end of your next turn.",
+            "4. Ice Creation: 1/SR; bonus action; You create a solid object of ice that is your size or smaller. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. Your ice objects are as strong as iron, but if you are not in constant contact with them, they function for only 1 minute before breaking or melting. For example, you can make and wield an ice sword, but if you give it to another creature, the sword will not last as long for them.",
             "5. The sheen of ice you generate using your Ice Armour feature gives you an additional +1 to AC.",
-            "6. Cold Burst: 1/LR; bonus action; You emit a burst of cold in all directions, up to 30'. All within the burst take 1d12 + level cold damage.",
+            "6. Cold Burst: 1/LR; bonus action; You emit a burst of cold in all directions, up to 30' in radius. Make an attack against all within the burst, dealing 1d12 + level cold damage.",
             "7. You make an additional Intelligence-based attack as part of your Cold Burst feature's attack, and if successful, you blind foes for up to 1 minute with a layer of freezing ice. All tasks of creatures blinded in this way have double disadvantage.",
             "8. When you use your Frost Touch feature, the damage is increased to 1d12 + level if you touch a creature, and 1d6 if you infuse a weapon. In addition, damaged targets are frozen in place (if standing on a solid surface) and cannot move from their location until they use a bonus action to break free.",
             "9. While affected by your Ice Armour feature, you are immune to all severe cold weather conditions.",
-            "10. When you use your Frost Touch feature, the damage is increased to 1d8 + 1d6 + level if you touch a creature, and 1d8 if you infuse a weapon."
+            "10. When you use your Frost Touch feature, the damage is increased to 1d8 + 1d6 + level if you touch a creature, and 1d10 if you infuse a weapon."
         ]
     },
     {
@@ -2054,12 +2054,12 @@
             "1. Your flesh becomes stone. You gain +1 AC and +4 CON. You do not need to eat, drink, or breathe. You move more stiffly than a creature of flesh, which means you can never add your proficiency bonus to Dexterity saves. Furthermore, your fists now deal 1d6 bludgeoning damage.",
             "2. Your stone form is more difficult to repair than flesh, which means you cannot heal with hit dice.",
             "3. Golem Grip: 1/min; free action; Your attack with your stone fists has advantage. If you hit, you can grapple the target until the end of its next turn. While it is grappled, the target's attacks and escape attempts have disadvantage. If the target fails to break free, you can continue to hold it each round as a bonus action, automatically inflicting 1d10 bludgeoning damage each round by squeezing.",
-            "4. You gain +4 AB with your stone fists.",
+            "4. You gain a d6 expertise die in attacks with your stone fists.",
             "5. Golem Stomp: 1/SR; bonus action; You stomp on the ground with all of your strength, creating a shock wave that attacks all creatures in 5'. Affected creatures take 1d8 + level bludgeoning damage and are either pushed 5' away from you or knocked prone (your choice).",
             "6. 1 one-handed weapon of your choice is built into your body, and you gain proficiency with it. The weapon is concealed until you wish to use it.",
-            "7. Deep Reserves: 1/LR; bonus action; When others are exhausted, you can push through. You can expend any number of hit points to remove 1 level of exhaustion per 10 hit points.",
-            "8. Mind Surge: 1/LR; bonus action; You recover 2d6 + 12 hit points.",
-            "9. Still as a Statue: 1/LR; bonus action; Drawing upon the power of your golem body, you freeze in place, burying your essence deep in your stone core. During this time, you lose all mobility as well as the ability to take physical actions. You cannot sense what is happening around you, and no time seems to pass for you. While still as a statue, you gain +10 AC. Under normal circumstances, you automatically rouse to nromal wakefulness and mobility a day later. If an ally you trust shakes you hard enough (DC 6 Strength), you rouse earlier.",
+            "7. Deep Reserves: 1/LR; bonus action; When others are exhausted, you can push through. You can expend any number of hit points to remove 1 level of exhaustion from yourself per 10 hit points.",
+            "8. Mind Surge: 1/LR; bonus action; You recover 1d6 + 6 hit points.",
+            "9. Still as a Statue: 1/LR; bonus action; Drawing upon the power of your golem body, you freeze in place, burying your essence deep in your stone core. During this time, you lose all mobility as well as the ability to take physical actions. You cannot sense what is happening around you, and no time seems to pass for you. While still as a statue, you gain +10 AC. Under normal circumstances, you automatically rouse to normal wakefulness and mobility 24 hours later. If an ally you trust shakes you hard enough (DC 6 Strength), you rouse earlier.",
             "10. You gain +1 AC and +2 CON, DEX, and WIS."
         ]
     },
