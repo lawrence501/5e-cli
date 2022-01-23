@@ -7778,12 +7778,12 @@
                 "upgrade": "more/1"
             },
             {
-                "description": "your 1 loot rolls are converted into amulet ones (12)",
+                "description": "your 1 loot rolls are converted into amulet rolls (12)",
                 "pointValue": "3",
                 "upgrade": "+1 starting tier of amulets you loot/1"
             },
             {
-                "description": "your 2 loot rolls are converted into wondrous item ones(4)",
+                "description": "your 2 loot rolls are converted into wondrous item rolls (4)",
                 "pointValue": "2",
                 "upgrade": "increased rarity of wondrous items you loot/1"
             }
@@ -7816,12 +7816,12 @@
                 "upgrade": "more/1"
             },
             {
-                "description": "6. your 3 loot rolls are converted into ring ones (13)",
+                "description": "6. your 3 loot rolls are converted into ring rolls (13)",
                 "pointValue": "3",
                 "upgrade": "more control over which mod basic rings you loot have/1"
             },
             {
-                "description": "7. your 4 loot rolls are converted into blessing ones (2)",
+                "description": "7. your 4 loot rolls are converted into blessing rolls (2)",
                 "pointValue": "1",
                 "upgrade": "+1 tier to blessings you loot/1"
             },
@@ -7839,6 +7839,228 @@
                 "description": "10. +1 incoming temp HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Domain of Dragons",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "foes within 60' have +1 spell dmg",
+                "pointValue": "-2",
+                "upgrade": "+1 AND 3pts distributed/1"
+            },
+            {
+                "description": "on init for a combat including any dragons, random breath atk is used on your party from an unseen entity",
+                "pointValue": "-4",
+                "upgrade": "-5 breath atk res AND 2pts distributed/1"
+            },
+            {
+                "description": "on KB vs dragon, gain 12 exp",
+                "pointValue": "12",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. all bosses are considered dragons",
+                "pointValue": "1",
+                "upgrade": "+2->1 dmg res vs dragons/1"
+            },
+            {
+                "description": "2. +3 dmg res vs dragon bosses",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. foes within 60' have +1 wep dmg AND 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 AND 3pts distributed/1"
+            },
+            {
+                "description": "4. all non-boss foes are considered dragons",
+                "pointValue": "1",
+                "upgrade": "+2->1 dmg res vs dragons/1"
+            },
+            {
+                "description": "5. all random encounter foes are considered dragons",
+                "pointValue": "1",
+                "upgrade": "+2->1 dmg res vs dragons/1"
+            },
+            {
+                "description": "6. +1 loot roll from random encounters",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. your 2 loot rolls are converted into danger rolls (1); 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-3->2 trap dmg res AND 2pts distributed/1"
+            },
+            {
+                "description": "8. on KB vs dragon, it drops 2 monster parts",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. incoming breath atks are considered spells",
+                "pointValue": "1",
+                "upgrade": "-5 breath atk res AND 2pts distributed/1"
+            },
+            {
+                "description": "10. +1 exp gain",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Erase",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "creatures marked by you have -2 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "creatures marked by you take 2 force DoT dmg on turn start for each magical condi on them",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "gain DoT dmg equal to your bonus spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1 spell dmg/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. when DoT'd, a random foe within 50' gets -1 to saves vs ongoing effects until end of their next turn",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "2. when DoT'd, 20% chance for a random foe within 50' to get halved duration of buffs on them for combat",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 multi/3"
+            },
+            {
+                "description": "3. if a creature marked by you gains its 6th magical condi (including reapplications) since the mark, summon a CR 1/2 herald of oblivion aberration minion that deals spell force dmg",
+                "pointValue": "2",
+                "upgrade": "-1 condi/2 OR +1 CR/2"
+            },
+            {
+                "description": "4. gain minion dmg equal to your bonus spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1 spell dmg/1"
+            },
+            {
+                "description": "5. gain minion dmg equal to 1/4 of your lvl",
+                "pointValue": "4",
+                "upgrade": "+1 exp gain/4"
+            },
+            {
+                "description": "6. gain minion dmg equal to double your global dmg",
+                "pointValue": "1",
+                "upgrade": "+1 global dmg/2"
+            },
+            {
+                "description": "7. your minions ignore the same res and imm as you",
+                "pointValue": "4",
+                "upgrade": "ignore force res->imm/3"
+            },
+            {
+                "description": "8. gain minion crit req redux equal to your bonus crit req redux",
+                "pointValue": "1",
+                "upgrade": "-1 crit req/4"
+            },
+            {
+                "description": "9. gain minion crit dice equal to double your bonus crit dice",
+                "pointValue": "4",
+                "upgrade": "+1 crit dice/3"
+            },
+            {
+                "description": "10. +2 minion force dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Blade Seal",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 psn res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 P dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 acid res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on hit, inflict 1 S DoT, stacking until CON save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +1 S DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 non-phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. +1 aura effectiveness",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. while buffed by an aura, +1d4 P dmg to weps",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. while buffed by an aura, +2 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. while buffed by an aura, +1 global AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. while buffed by an aura, -1 crit req",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "10. while buffed by an aura, +3 P res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
             }
         ]
     }

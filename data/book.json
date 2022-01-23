@@ -161,6 +161,30 @@
             "description": "Damage die increases to 1d8 vs cursed targets."
         },
         {
+            "name": "Mobilising Toll the Dead (0)",
+            "description": "On dealing the bonus dmg, gain +5' sp per cantrip tier until the end of the turn."
+        },
+        {
+            "name": "Heavy Toll the Dead (0)",
+            "description": "On hit, the target is slowed until the end of your next turn."
+        },
+        {
+            "name": "Heavy Booming Blade (0)",
+            "description": "On hit with the weapon atk, the target is slowed until the end of your next turn."
+        },
+        {
+            "name": "Reverberating Booming Blade (0)",
+            "description": "The dmg die of the on-move effect increases to 1d10."
+        },
+        {
+            "name": "Handcasted Light (0)",
+            "description": "Regardless of conditions, the bright light's radius is increased by 5' for each dmg res on your gloves."
+        },
+        {
+            "name": "Tempting Light (0)",
+            "description": "If a creature of your choice can see the bright light but is not inside it, they must move into the light as soon as possible. When forced to move in this way, a creature does not provoke opp atks."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -314,11 +338,35 @@
         },
         {
             "name": "Traumatic Hex (1)",
-            "description": "Your next hit against the target prompts a CON save or debils them until the end of their next turn"
+            "description": "Your next hit against the target prompts a CON save or debils them until the end of their next turn."
         },
         {
             "name": "Cleansing Hex (1)",
             "description": "On cast, remove all negative conditions, diseases, curses, and marks from yourself."
+        },
+        {
+            "name": "Vengeful Armour of Agathys (1)",
+            "description": "If the incoming atk is a crit, the thorns dmg increases to 8."
+        },
+        {
+            "name": "Repelling Armour of Agathys (1)",
+            "description": "After receiving a triggering hit, the atker is pushed 5' away from you."
+        },
+        {
+            "name": "Replenishing Feather Fall (1)",
+            "description": "While a creature is falling, it has +1 passive regen."
+        },
+        {
+            "name": "Rapid Feather Fall (1)",
+            "description": "The target's descent rate instead slows to 120' per round."
+        },
+        {
+            "name": "Insightful Speak with Animals (1)",
+            "description": "Whenever you start conversing with a beast, they must make an Insight check against your spell save DC. On a failure, you can use an action any time during the duration to view the memories of an event the beast is describing."
+        },
+        {
+            "name": "Nostalgic Speak with Animals (1)",
+            "description": "Beasts can now tell you about things they have perceived since their birth."
         },
         {
             "name": "Purging Lemure Transformation (2)",
@@ -479,6 +527,30 @@
         {
             "name": "Instant Locate Object (2)",
             "description": "Also tells you the distance of the located object from you. The maximum duration is reduced 6 seconds. Instead of learning its trajectory while travelling, you instead learn how many metres above the ground the object is."
+        },
+        {
+            "name": "Absorbing Warding Wind (2)",
+            "description": "Instead of hedging out vapour, gas, and fog, their effects are absorbed into the wind and apply to all creatures of your choice within the wind's area."
+        },
+        {
+            "name": "Fiery Warding Wind (2)",
+            "description": "Instead of extinguishing flames, they are absorbed into the wind, which gives the wind a persistent area effect on foes of CON save or 1d4 fire dmg."
+        },
+        {
+            "name": "Sure-Footed Spider Climb (2)",
+            "description": "The target automatically succeeds on checks and saves made to keep its balance for the duration."
+        },
+        {
+            "name": "Improved Spider Climb (2)",
+            "description": "The climbing speed granted is now equal to double the target's base speed."
+        },
+        {
+            "name": "Specific Detect Thoughts (2)",
+            "description": "You can scan the thoughts of all creatures within range and locate one creature currently thinking about a single subject you choose when you cast the spell. You can read its thoughts as described in the spell's description. This spell does not reveal which creature is having these thoughts, and until you determine which creature it is you cannot probe further."
+        },
+        {
+            "name": "Synergistic Detect Thoughts (2)",
+            "description": "Whenever you successfully probe a creature's mind and they do not shake off the spell, you may cast any other spell on the target as a free action, respecting range limitations but ignoring any of the new spell's casting components."
         }
     ],
     "manual": [
