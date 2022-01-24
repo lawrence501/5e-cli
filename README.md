@@ -98,6 +98,12 @@ Shares condition immunity with debilitation.
 
 A rattled creature cannot benefit from expertise dice and cannot take reactions.
 
+### Slowed
+
+Shares condition immunity with exhaustion.
+
+A slowed creature's speed is halved.
+
 ### Sluggish
 
 Shares condition immunity with exhaustion.

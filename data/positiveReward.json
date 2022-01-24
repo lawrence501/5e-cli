@@ -105,7 +105,7 @@
         "description": "Permanent +1 to random dmg type"
     },
     {
-        "description": "Scroll of soul: learn random feature from a random class (50% vanilla, 50% from compendium). Each instance of this contributes to 1, with adv on the class roll (not feature roll)"
+        "description": "Scroll of soul: learn random feature from a random class (1. vanilla; 2. homebrew compendium; 3. 3rd party; 4. UA). Each instance of this contributes to 1, with adv on the class roll (not feature roll)"
     },
     {
         "description": "Scroll of chaotic knowledge: learn random 1st-lvl spell that can be cast 1/LR"
