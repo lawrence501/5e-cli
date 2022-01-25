@@ -611,22 +611,6 @@
             "description": "On use, deals 1d6 base weapon damage to the target. Costs 1 additional exertion."
         },
         {
-            "name": "Blinding Point Blank Shot (1)",
-            "description": "On hit with the opportunity attack, the target is blinded until the end of your next turn."
-        },
-        {
-            "name": "Icy Point Blank Shot (1)",
-            "description": "On hit with a ranged attack against an adjacent target for the duration, the target makes a CON save or gets a 1 cold DoT, stacking until CON save. The opportunity attack is replaced with the target getting a 5 cold DoT, stacking until CON save."
-        },
-        {
-            "name": "Frozen Farshot Stance (1)",
-            "description": "Your ranged weapon attack base damage is converted to cold for the duration. +3 cold damage for the duration."
-        },
-        {
-            "name": "Tethered Farshot Stance (1)",
-            "description": "Your ranged weapon range decreases by 5' and damage increases by 1 per turn ended in the stance"
-        },
-        {
             "name": "Exposing Painful Pickpocket (1)",
             "description": "A creature you have looted has -1 damage resistance."
         },
@@ -643,28 +627,12 @@
             "description": "The attack is replaced with the target making a DEX save or getting a 7 fire DoT, stacking until DEX save"
         },
         {
-            "name": "Extended Covering Fire (1)",
-            "description": "Range increases to your weapon's long range."
-        },
-        {
-            "name": "Leeching Covering Fire (1)",
-            "description": "For each opportunity attack a creature would have otherwise provoked, heal 1 HP."
-        },
-        {
             "name": "Sapping Deceptive Stance (1)",
             "description": "On Killing Blow while active, 20% chance to refund exertion spent on maneuver."
         },
         {
             "name": "Mental Deceptive Stance (1)",
             "description": "On use, a psychic rift erupts from you as a 5' self-burst spell atk only targeting foes, dealing 1d4 psy"
-        },
-        {
-            "name": "Minor Doubleshot (1)",
-            "description": "20% chance to refund exertion cost, but the attack must be made this turn"
-        },
-        {
-            "name": "Proactive Doubleshot (1)",
-            "description": "If used during the first round of a combat, the attack deals 1d20 additional base damage."
         },
         {
             "name": "Icy Speed Over Strength (1)",

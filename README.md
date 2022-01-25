@@ -38,7 +38,7 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 8. Feats
 9. Current artifacts
 10. Glyph path
-11. Pathfinder
+11. o5e/Pathfinder
 12. Reroll with disadv
 
 ### Point value cheatsheet

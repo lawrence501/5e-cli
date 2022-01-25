@@ -1001,12 +1001,12 @@
     },
     {
         "name": "chip away",
-        "mods": ["1/turn, you can move your movable pers areas as a free action", "+10' pers area sp"],
+        "mods": ["1/turn, you can move your movable pers areas as a free action", "+10' pers area movement speed"],
         "tags": ["pers area"]
     },
     {
         "name": "seeker runes",
-        "mods": ["+1 pers area dmg", "+10' pers area sp"],
+        "mods": ["+1 pers area dmg", "+10' pers area movement speed"],
         "tags": ["pers area"]
     },
     {
@@ -1016,7 +1016,7 @@
     },
     {
         "name": "brand loyalty",
-        "mods": ["+5' pers area sp", "foes have -1 pers area dmg res for each pers area they are in"],
+        "mods": ["+5' pers area movement speed", "foes have -1 pers area dmg res for each pers area they are in"],
         "tags": ["pers area"]
     },
     {
@@ -1026,7 +1026,7 @@
     },
     {
         "name": "grand design",
-        "mods": ["+1 pers area dmg", "+5' pers area sp", "your pers areas have double duration"],
+        "mods": ["+1 pers area dmg", "+5' pers area movement speed", "your pers areas have double duration"],
         "tags": ["pers area"]
     },
     {
@@ -1041,7 +1041,7 @@
     },
     {
         "name": "guerilla tactics",
-        "mods": ["+2 pers area dmg", "+10' pers area sp", "if you've created a pers area since start of your last turn, +5' sp"],
+        "mods": ["+2 pers area dmg", "+10' pers area movement speed", "if you've created a pers area since start of your last turn, +5' sp"],
         "tags": ["pers area", "speed"]
     },
     {
@@ -2923,5 +2923,35 @@
         "name": "instruments of virtue",
         "mods": ["on manual spellcast, +1 wep dmg for combat", "your onhand wep's base dmg is added to your spell dmg"],
         "tags": ["spell dmg", "wep dmg"]
+    },
+    {
+        "name": "pursuit of faith",
+        "mods": ["your minions have triple duration", "+1 minion dmg", "+1 minion HP"],
+        "tags": ["minion dmg", "minion hp"]
+    },
+    {
+        "name": "ritual of awakening",
+        "mods": ["+1 global dmg per active minion", "you and your minions have +1 passive regen for each of your active minions"],
+        "tags": ["wep dmg", "spell dmg", "hp", "minion hp"]
+    },
+    {
+        "name": "conviction of power",
+        "mods": ["+1 dmg res", "-1 crit req"],
+        "tags": ["phys res", "non-phys res", "crit"]
+    },
+    {
+        "name": "illuminated devotion",
+        "mods": ["while buffed, +1 to condi saves", "while buffed, +5' AoE sizes", "on spell hit while buffed, heal 1 HP"],
+        "tags": ["buff", "save", "aoe", "spell dmg", "hp"]
+    },
+    {
+        "name": "arcane blessing",
+        "mods": ["while buffed, +1 spell dmg", "when you or your minions hit with a spell, +2 spell dmg until end of your next turn"],
+        "tags": ["buff", "spell dmg", "minion dmg"]
+    },
+    {
+        "name": "sign of purpose",
+        "mods": ["your pers areas deal +2 dmg in the second half of their duration", "+10' pers area movement speed"],
+        "tags": ["pers area"]
     }
 ]

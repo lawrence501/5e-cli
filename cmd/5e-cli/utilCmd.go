@@ -237,23 +237,27 @@ var insight = func() error {
 	socialCheck := rand.Intn(20) + socialBonusInt
 	log.Printf("SocialCheck: %d", socialCheck)
 	insightReflect := reflect.ValueOf(INSIGHTS).MapKeys()
-	var insightKeys []string
+	var players []string
 	for _, v := range insightReflect {
-		insightKeys = append(insightKeys, v.Interface().(string))
+		players = append(players, v.Interface().(string))
 	}
-	sort.Strings(insightKeys)
-	for _, p := range insightKeys {
-		insightCheck := rand.Intn(20) + INSIGHTS[p]
-		var result string
-		if insightCheck > socialCheck+2 {
-			result = "succeeds"
-		} else if insightCheck < socialCheck-2 {
-			result = "fails"
-		} else {
-			result = "is unsure"
+	sort.Strings(players)
+	for _, p := range players {
+		var results []string
+		for i := 0; i < 2; i++ {
+			insightCheck := rand.Intn(20) + INSIGHTS[p]
+			// log.Printf("%s's Insight #%d: %d", p, i+1, insightCheck)
+			var result string
+			if insightCheck > socialCheck+2 {
+				result = "succeeds"
+			} else if insightCheck < socialCheck-2 {
+				result = "fails"
+			} else {
+				result = "is unsure"
+			}
+			results = append(results, result)
 		}
-		log.Printf("%s %s", p, result)
-		log.Printf("%d", insightCheck)
+		log.Printf("%s %s (or %s with reroll)", p, results[0], results[1])
 	}
 	return nil
 }
