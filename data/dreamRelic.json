@@ -148,76 +148,76 @@
         ]
     },
     "Eva": {
-        "name": "Eva's Binding",
+        "name": "1. Eva's Presence",
         "type": "armour",
         "startingMods": [
             {
-                "description": "the summoning range of your Bind Spirits feature is doubled",
-                "pointValue": "3",
-                "upgrade": "+1 multi/3"
+                "description": "while a creature is distracted by your Offputting Presence feature, you have +10' sp",
+                "pointValue": "2",
+                "upgrade": "+5'/1"
             },
             {
-                "description": "+3 to animal handling for placating beasts",
-                "pointValue": "3",
+                "description": "+5 persuasion in draconic",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+2 dmg res while adj to at least one of your minions",
+                "pointValue": "2",
                 "upgrade": "+1/1"
-            },
-            {
-                "description": "on becoming bloodied, gain effects of the dodge action",
-                "pointValue": "0",
-                "upgrade": "+1 AC during dodge action/3"
             }
             
         ],
         "thematicMods": [
             {
-                "description": "1. +1 to your lowest AS",
-                "pointValue": "2",
-                "upgrade": "1/2"
-            },
-            {
-                "description": "2. +2 dmg res vs constructs",
+                "description": "1. +1 nature",
                 "pointValue": "1",
-                "upgrade": "+1/1"
+                "upgrade": "1/1"
             },
             {
-                "description": "3. on becoming bloodied, gain 2 dmg res until start of your next turn",
-                "pointValue": "2",
-                "upgrade": "+1/1"
+                "description": "2. -1 day from overworld travelling distances (min 1)",
+                "pointValue": "3",
+                "upgrade": "-1/3"
             },
             {
-                "description": "4. adj allies have +1 dmg res",
+                "description": "3. +1 AC while adj to at least one of your minions",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
             {
-                "description": "5. +1 investigation for finding loot",
+                "description": "4. creatures distracted by your Offputting Presence feature have -1 global dmg until the end of their next turn",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "5. +3 decep in draconic",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "6. +2 dmg res vs dragons",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. +1 nature for identifying plants",
+                "description": "7. on init, +2 dmg res until your next turn",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "7. +15' darkvision",
-                "pointValue": "1",
-                "upgrade": "+10'/1"
-            },
-            {
-                "description": "8. your Bound Spirits are immune to dazed",
-                "pointValue": "4",
-                "upgrade": "+1 to Bound Spirit condi saves/3"
-            },
-            {
-                "description": "9. +1 dmg res while both of your Bound Spirits are 60+' away",
+                "description": "8. +1 persuasion",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "10. on becoming bloodied, you may teleport your Bound Spirits up to 10' away from you",
-                "pointValue": "1",
-                "upgrade": "+5'/1"
+                "description": "9. +1 AC vs dragons",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. +3 dmg res while adj to a dragon",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             }
         ]
     },
