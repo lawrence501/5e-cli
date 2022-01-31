@@ -222,76 +222,76 @@
         ]
     },
     "Fillipo": {
-        "name": "Fillipo's Culture",
-        "type": "armour",
+        "name": "1. Fillipo's Legend",
+        "type": "weapon",
         "startingMods": [
             {
-                "description": "+2 history",
+                "description": "random encounters within 1 day of a city exposed to your Bardic Legend feature grant +1 loot roll reward when you return to the city",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+3 outgoing temp HP",
                 "pointValue": "2",
                 "upgrade": "+1/1"
             },
             {
-                "description": "+2 AoE dmg res",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "on limited spellcast, heal 2 HP",
-                "pointValue": "2",
-                "upgrade": "+1/1"
+                "description": "while holding a string instrument, +1 buff effectiveness",
+                "pointValue": "3",
+                "upgrade": "+1/3"
             }
             
         ],
         "thematicMods": [
             {
-                "description": "1. learn the Spider Climb spell, always prepared",
-                "pointValue": "2",
-                "upgrade": "+1 upcast lvl/3"
-            },
-            {
-                "description": "2. +1 AoE dmg abs",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "3. +1 to your lowest AS",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "4. +1 dmg res",
+                "description": "1. allies with temp HP from you have +1 global dmg",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
             {
-                "description": "5. +1 dmg res while outside any city's borders",
-                "pointValue": "2",
-                "upgrade": "+1/2"
+                "description": "2. +2 persuasion in a city exposed to your Bardic Legend feature",
+                "pointValue": "1",
+                "upgrade": "+1/1"
             },
             {
-                "description": "6. +1 to your second-highest AS",
+                "description": "3. +1 max Bardic Inspiration die",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
             {
-                "description": "7. +1 thunder abs",
+                "description": "4. +1 CHA",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +2 buff effectiveness during 1st rnd of combat",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 persuasion",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "8. +1 percep",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "description": "7. while holding a string instrument, your buffs have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
             },
             {
-                "description": "9. +2 dmg res vs humanoids",
+                "description": "8. after a LR in a city exposed to your Bardic Legend feature, gain 8 temp HP",
                 "pointValue": "1",
-                "upgrade": "+1/1"
+                "upgrade": "+8/1"
             },
             {
-                "description": "10. +1 performance",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "description": "9. +1 buff effectiveness during random encounters",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. learn the Blade Ward cantrip",
+                "pointValue": "3",
+                "upgrade": "+1 phys res/2"
             }
         ]
     }

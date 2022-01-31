@@ -1139,16 +1139,16 @@
         "name": "Brings Sculptures to Life",
         "description": "animating sculptures",
         "tiers": [
-            "1. You have +2 on sculpture-related skill checks and history checks related to fine art.",
-            "2. You animate a humanoid sculpture, creating a pocket-sized creature no larger than a human head. The servant lasts for as long as you wish and may perform simple tasks. It has a maximum CR of 1/2, and can understand you when you command it, but it cannot make effective attacks in combat. You may only ever have 1 such servant - creating a new one destroys the magic in the old one.",
+            "1. You gain an expertise die in sculpture-related skill checks and history checks related to fine art.",
+            "2. You animate a humanoid sculpture, creating a pocket-sized creature no larger than a human head. The servant lasts for as long as you wish and may perform simple tasks. It is a CR 1/2 minion, and can understand you when you command it, but it cannot make effective attacks in combat. You may only ever have 1 such servant - creating a new one destroys the magic in the old one.",
             "3. Move Structure: 2/min; bonus action; You are able to briefly animate a section of wall or load-bearing beam, causing it to shake and buckle. In this way you can weaken or even destroy sections of buildings or caves. This power only works on large pieces of stone, clay, crystal, or metal.",
-            "4. You have +2 on sculpture-related skill checks and history checks related to fine art.",
-            "5. Golem: 1/SR; free action; You bring to life a humanoid sculpture, between 1 and 5 cubic metres in volume. The golem is a maximum CR 1 creature with +2 AC which follows you and obeys your orders, but that cannot speak or act with autonomy. The golem moves rather slowly - 5' speed, and overland travel speed can be dramatically reduced if the golem is not carried in a cart or other conveyance. You may only have 1 golem at a time.",
+            "4. You gain an expertise die in sculpture-related skill checks and history checks related to fine art.",
+            "5. Golem: 1/SR; free action; You bring to life a humanoid sculpture, between 1 and 5 cubic metres in volume. The golem is a CR 1 minion with +2 AC which follows you and obeys your orders, but that cannot speak or act with autonomy. The golem moves rather slowly (5' speed), and overworld travel speed can be dramatically reduced if the golem is not carried in a cart or other conveyance. You may only have 1 golem at a time.",
             "6. Inscription: 1/LR; free action; By inscribing arcane symbols into the forehead of your golem or animated servant, you are able to grant it special powers. It gains the effects, but no aesthetic qualities, of a random beneficial mutation. Any given animated creature may only benefit from one inscription at a time.",
-            "7. You may now construct a golem of any size, so long as you have the raw materials to do so. If you make your golem giant (10 or more cubmic metres of material), it will be up to CR 2 with +3 AC and a speed of 30'. Otherwise its statistics are those described in your Golem feature.",
-            "8. You have +2 on sculpture-related skill checks and history checks related to fine art.",
-            "9. Your animated servants can now be up to CR 1.",
-            "10. Your Move Structure feature can now be used at-will and always destroys its target."
+            "7. You may now construct a golem of any size, so long as you have the raw materials to do so. If you make your golem huge (10 or more cubmic metres of material), it will be up to CR 2 with +3 AC and a speed of 30'. Otherwise its statistics are those described in your Golem feature.",
+            "8. You gain an expertise die in sculpture-related skill checks and history checks related to fine art.",
+            "9. Your animated servants can now make attacks.",
+            "10. Your Move Structure feature can now be used at-will and you can now choose to either weaken or destroy the target."
         ]
     },
     {
@@ -1941,10 +1941,10 @@
         "tiers": [
             "1. You gain +2 CON.",
             "2. You gain proficiency in an additional language of your choice.",
-            "3. You gain an expertise die in Survival checks to find cooking ingredients in places where such things are difficult to find. This does not just mean out in the wilderness. On the streets of an unfriendly city without any currency, you still might be able to find enough ingredients to craft.",
-            "4. You are fluent in an additional language of your choice.",
+            "3. You gain an expertise die in Survival checks to navigate.",
+            "4. You gain proficiency in an additional language of your choice.",
             "5. You can go 48 hours without resting before exhaustion begins to take effect.",
-            "6. Because you must always keep an eye out when you are on the road, you gain an expertise die in Perception and Survival checks to navigate.",
+            "6. Because you must always keep an eye out when you are on the road, you gain an expertise die in Perception, and Survival checks to navigate.",
             "7. You are so adept at languages that after hearing any language spoken for 5 minutes, you can pick up a few words. It does not take long for you to be able to (crudely) make yourself understood and to understand what is being said around you.",
             "8. In your travels, you have been exposed to all sorts of dangerous things and are developing a general resistance. You gain +1 to AC and an expertise die in CON saves.",
             "9. Living on the road long enough, you learn to do a little of everything. Anytime an environmental circumstance (such as weather, inability to see in darkness, terrain, and so on) would increase the difficulty of a task for you, you can ignore the penalty. Further, anytime you finish a long rest, you can choose one skill to gain an expertise die in. This lasts until your next long rest.",

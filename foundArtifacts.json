@@ -1,5 +1,81 @@
 {
     "Eva": [
         
+    ],
+    "Vinton": [
+        {
+            "name": "Witch Doctor",
+            "type": "weapon",
+            "startingMods": [
+                {
+                    "description": "+1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "on KB, recover 2 spell slot lvls",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 non-phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 fire spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "1/1"
+                },
+                {
+                    "description": "2. +1 light spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 cold spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +3 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. +1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot/3 OR +1 lvl/3"
+                },
+                {
+                    "description": "6. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. on spell hit, 20% chance to shoot ranged  spell bolt atk at target, dealing 1d4 force",
+                    "pointValue": "3",
+                    "upgrade": "+10%/1 OR +1 die size/1"
+                },
+                {
+                    "description": "8. on dmg, +1 spell dmg until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. on KB, +2 non-phys res until your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        }
     ]
 }
