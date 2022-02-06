@@ -2953,5 +2953,50 @@
         "name": "sign of purpose",
         "mods": ["your pers areas deal +2 dmg in the second half of their duration", "+10' pers area movement speed"],
         "tags": ["pers area"]
+    },
+    {
+        "name": "time of need",
+        "mods": ["+1 to saves vs curses", "+1 passive regen"],
+        "tags": ["save", "hp"]
+    },
+    {
+        "name": "radiant faith",
+        "mods": ["while emitting an aura, you and adj allies gain +1 {physType} res", "while emitting an aura, you and adj allies have +1 incoming temp HP"],
+        "tags": ["pers area", "phys res", "temp hp"]
+    },
+    {
+        "name": "bastion of hope",
+        "mods": ["1/rnd, +1 wep AC", "if you've blocked this combat, you and adj allies have +1 to condi saves", "if you've made a wep atk since start of your last turn, you and adj allies have +1 wep AC", "if you've cast a spell since start of your last turn, you and adj allies have +1 spell AC"],
+        "tags": ["wep ac", "save", "wep dmg", "spell dmg", "spell ac"]
+    },
+    {
+        "name": "harmony of purpose",
+        "mods": ["-1 effectiveness of buffs on foes adj to you", "you and adj allies share your buffs with each other", "on hit, 20% chance to gain either -1 crit req, +1 global dmg, or +1 dmg res for combat"],
+        "tags": ["buff", "crit", "wep dmg", "spell dmg", "phys res", "non-phys res"]
+    },
+    {
+        "name": "unwavering faith",
+        "mods": ["your auras also grant you and allies +1 {physType} res", "your auras also grant you and allies +1 passive regen"],
+        "tags": ["phys res", "hp", "pers area"]
+    },
+    {
+        "name": "radiant crusade",
+        "mods": ["+1 {dmgPolarity} res", "while adj to an ally, you and adj allies have +1 global dmg and +5' sp"],
+        "tags": ["phys res", "non-phys res", "wep dmg", "spell dmg", "speed"]
+    },
+    {
+        "name": "unwavering crusade",
+        "mods": ["adj allies have +1 global dmg and +5' sp", "adj allies have +5' AoE sizes", "adj allies give -1 dmg res until end of their next turn on hit"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "unstable infusion",
+        "mods": ["on hit, 20% chance to gain -1 crit req for combat", "while buffed, -1 crit req"],
+        "tags": ["crit", "buff"]
+    },
+    {
+        "name": "deadly infusion",
+        "mods": ["+1 crit dice per crit req below 20", "while buffed, -1 crit req"],
+        "tags": ["crit", "buff"]
     }
 ]
