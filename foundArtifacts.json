@@ -78,16 +78,169 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Mark of Broken Oaths (L3)",
+            "type": "weapon",
+            "startingMods": [
+                {
+                    "description": "-1 minion crit req",
+                    "pointValue": "3",
+                    "upgrade": "-1/3"
+                },
+                {
+                    "description": "+5 minion wep dmg",
+                    "pointValue": "3",
+                    "upgrade": "1/1"
+                },
+                {
+                    "description": "+1 minion crit dice",
+                    "pointValue": "2 + 1/2",
+                    "upgrade": "+1/2"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 DoT res",
+                    "pointValue": "1",
+                    "upgrade": "1/1"
+                },
+                {
+                    "description": "2. +3 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "3. +1 minion AB",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "4. 20% chance on minion summon to summon version with +4 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1 OR +4 dmg/1"
+                },
+                {
+                    "description": "5. +5 minion HP",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "6. +2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 to minion recharge rolls",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. +1 minion phys dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +2 minion nec dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +2 P res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Giant Cell (L3)",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "-3 minion passive regen while they are healthy",
+                    "pointValue": "-3",
+                    "upgrade": "-1 AND 2pts distributed/1"
+                },
+                {
+                    "description": "gain minion dmg equal to half your lvl",
+                    "pointValue": "9 + 2/9",
+                    "upgrade": "+1/2 multi/9"
+                },
+                {
+                    "description": "+8 minion HP",
+                    "pointValue": "2",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "+1 AC while you have an active minion",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. when hit, summon a tiny CR 1/8 minion of yourself",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "2. when hit, your minions are healed 2 HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +3 minion P res",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "4. +3 minion force res",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. gain minion melee dmg equal to your bonus melee dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 melee dmg/1"
+                },
+                {
+                    "description": "6. gain minion fly sp equal to double your bonus fly sp",
+                    "pointValue": "4",
+                    "upgrade": "+5' fly sp/3"
+                },
+                {
+                    "description": "7. gain dmg res equal to 1/8 of your lvl",
+                    "pointValue": "4",
+                    "upgrade": "+1/8 mutli/4"
+                },
+                {
+                    "description": "8. gain wep AC equal to 1/16 of your lvl",
+                    "pointValue": "4",
+                    "upgrade": "+1/16 multi/4"
+                },
+                {
+                    "description": "9. +1 AC while you have an active minion",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. -5' sp; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-5' AND 3pts distributed/1"
+                }
+            ]
         }
     ],
     "Fillipo": [
         {
-            "name": "1. Fillipo's Legend (L3)",
+            "name": "1. Fillipo's Legend (L4)",
             "type": "weapon",
             "startingMods": [
                 {
-                    "description": "random encounters within 1 day of a city exposed to your Bardic Legend feature grant +1 loot roll reward when you return to the city",
-                    "pointValue": "2 + 1/2",
+                    "description": "random encounters within 1 day of a city exposed to your Bardic Legend feature grant +2 loot roll rewards when you return to the city",
+                    "pointValue": "4",
                     "upgrade": "+1/2"
                 },
                 {
@@ -243,7 +396,7 @@
     ],
     "Vinton": [
         {
-            "name": "Witch Doctor",
+            "name": "Witch Doctor (L1)",
             "type": "weapon",
             "startingMods": [
                 {
@@ -313,6 +466,79 @@
                     "description": "10. +2 minion dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "1. Vinton's Scouting (L2)",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "+2 stealth",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "when you use your cunning action to hide, you can hide in plain sight while in darkness",
+                    "pointValue": "2",
+                    "upgrade": "not in bright light -> not in sunlight -> always/2"
+                },
+                {
+                    "description": "+2 sleight of hand",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. as action against target in your reach, can make sleight of hand vs percep to give target -1 global AB for combat",
+                    "pointValue": "2",
+                    "upgrade": "-1/2"
+                },
+                {
+                    "description": "2. +2 dmg res while on a ship",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 acro",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 knife wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 to sleight of hand for picking pockets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +2 dmg res in darkness",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 to sleight of hand for picking locks",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 to sleight of hand for planting objects on others",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 stealth while using cunning action",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. as action against target in your reach, can make sleight of hand vs percep to immediately steal 50gp from them. Once per target",
+                    "pointValue": "1",
+                    "upgrade": "+50/1"
                 }
             ]
         }
