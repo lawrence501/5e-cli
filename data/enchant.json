@@ -1468,5 +1468,17 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["armour"]
+    },
+    {
+        "description": "+2 wep dmg while mounted",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 dmg res while mounted",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["armour"]
     }
 ]

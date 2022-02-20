@@ -7915,5 +7915,153 @@
                 "upgrade": "+1/3"
             }
         ]
+    },
+    {
+        "name": "Beast Controller",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "your beast minions have +5 dmg",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "your beast minions have +5 percep",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+1 global AB while mounted",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. your beast minions have +5 max HP",
+                "pointValue": "1",
+                "upgrade": "+5/1"
+            },
+            {
+                "description": "2. +1 animal handling",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 performance for conveying concepts through action",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 global dmg while mounted",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 global dmg while adj to a beast minion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 AC while adj to a beast minion",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. your beast minions have +1 AC while adj to you",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. your beast minions have +1 global AB",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +1 global AB while adj to a beast minion",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. +2 dmg res while adj to a beast minion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Spark",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "whenever a foe within 60' of you spends their action non-offensively, they take 2 light spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 to saves vs uncon",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 light dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. on spell hit, your spell slot lvl costs increase by 1 for combat; 7pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 AND 7pts distributed/1"
+            },
+            {
+                "description": "3. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 B dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 wep dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 acid dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 AoE dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. first hostile recharge roll made within 60' of you each rnd has -1",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "9. +1 init",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +5' truesight",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            }
+        ]
     }
 ]

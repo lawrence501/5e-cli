@@ -531,10 +531,10 @@
         "name": "Controls Beasts",
         "description": "gaining a beast minion",
         "tiers": [
-            "1. A beast of up to CR 1 of your size or smaller accompanies you and follows your instructions. The beast companion acts on your turn. If your beast companion dies, you can hunt in the wild for 1d6 days to find a new one.",
+            "1. A beast of CR 1 of your size or smaller accompanies you and follows your instructions. The beast companion acts on your turn. If your beast companion dies, you can hunt in the wild for 1d6 days to find a new one.",
             "2. Soothe the Savage: 2/min; bonus action; You calm a beast within 30' of you. You must speak to it (although it does not need to understand your words), and it must see you. It remains calm for 1 minute or for as long as you Concentrate on this feature.",
-            "3. Communication: 2/min; bonus action; You can convey a basic concept to a creature that normally cannot speak or understand speech. The creature can also give you a very basic answer to a simple question.",
-            "4. A beast larger than you of up to CR 1 serves you as a mount and follows your instructions. While you are mounted on it, the creature can move and you can attack on your turn, which grants your attack advantage. The mount acts on your turn. If the mount dies, you can hunt in the wild for 3d6 days to find a new one.",
+            "3. Communication: 2/min; bonus action; You can convey a basic concept to a creature that normally cannot understand speech. The creature can also give you a very basic answer to a simple question.",
+            "4. A beast larger than you of CR 1 serves you as a mount and follows your instructions. While you are mounted on it, your attacks have advantage.",
             "5. When you and your beast companion are within 5' of each other, you gain +4 global damage and both of you grant disadvantage to incoming attacks.",
             "6. Beast Eyes: 1/min; bonus action; You can sense through your beast companion's senses if it is within 1.5km (1 mile) of you. This effect lasts up to 10 minutes.",
             "7. Your beast companion can now be a beast of up to CR 2 of your size or smaller.",
@@ -2563,16 +2563,16 @@
         "name": "Regenerates Tissue",
         "description": "regeneration",
         "tiers": [
-            "1. Regeneration: At-will; bonus action; You restore 2d6 + 2 hit points. This is a DC 6 Medicine check. Each additional time you use this feature, the DC increases by 3. The DC resets to 6 after a long rest.",
+            "1. Regeneration: At-will; bonus action; You restore 1d6 + 1 hit points. This is a DC 6 Medicine check. Each additional time you use this feature, the DC increases by 3. The DC resets to 6 after a long rest.",
             "2. You are immune to disease and poisons from creatures of CR less than your level. When you make a saving throw to resist a higher-CR toxin, the save has double advantage.",
-            "3. Induce Regeneration: 1/LR; bonus action; You cut a piece of your flesh free and apply it to another creature's wound. Your transplanted regenerating flesh restores 2d6 hit points to the creature. This is a DC 9 Medicine check.",
+            "3. Induce Regeneration: 1/LR; bonus action; You cut a piece of your flesh free and apply it to another creature's wound. Your transplanted regenerating flesh restores 1d6 hit points to the creature. This is a DC 9 Medicine check.",
             "4. Generate Carapace: 1/SR; bonus action; The outer layers of your skin calcify, giving you +2 AC until it sheds after 10 minutes.",
             "5. Greater Regeneration: 1/week; bonus action; You restore your hit points to their maximum value. This is a DC 6 Medicine check.",
             "6. Your consciousness and knowledge are concentrated into a rhizome tendril that protrudes 7cm from the back of your neck. You function normally, although the seat of your consciousness is located in the rhizome, not your brain. This shift provides several benefits: Your mental saving throws have advantage; you can detach the rhizome as a bonus action and mentally and remotely control your body at 120' range; You can shift your point of view between the rhizome and your body (or vice versa) as a bonus action (but if you shift your point of view away from your body, your body falls limp until your attention 'returns'); If your body is slain and the rhizome escapes, it can take root and regrow you completely in 3 days. The rhizome seed, while detached from your body, is a mobile creature. As the seed, you have 6 HP, and you can inflict 1d4 + level piercing damage with a spike. You have 13 AC and 5' speed, though you can deploy a fluffy vegetable 'wing' to drift on strong winds. If the rhizome seed is destroyed while detached from your body, you die.",
             "7. Your Regeneration feature's DC only increases by 1 on use.",
             "8. You are immune to disease and poisons from all creatures.",
             "9. You can now use your Induce Regeneration feature once per short rest.",
-            "10. You can now use your Generate Carapace feature once per minute, and it grants +3 AC instead of 2."
+            "10. Your can now use your Generate Carapace feature at-will, and it grants +3 AC instead of 2."
         ]
     },
     {

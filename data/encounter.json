@@ -1,18 +1,21 @@
 {
     "plains": [
-        "Queen: Silver Dragon Wyrmling (4)",
-        "JACK: Indigo Faerie Dragon (2)",
-        "JACK: Harpy (3)"
+        "QUEEN: Silver Dragon Wyrmling (4)",
+        "QUEEN: Indigo Faerie Dragon (5)",
+        "QUEEN: Harpy (6)",
+        "JACK: Garra (7)"
     ],
     "forest": [
-        "JACK: Indigo Faerie Dragon (2)"
+        "JACK: Garra (7)",
+        "JACK: Cueyatl Sea Priest (8)"
     ],
     "mountain": [
-        "JACK: Indigo Faerie Dragon (2)",
-        "JACK: Harpy (3)"
+        "QUEEN: Harpy (6)",
+        "JACK: Garra (7)",
+        "JACK: Cueyatl Sea Priest (8)"
     ],
     "aquatic": [
-        "JACK: Harpy (3)"
+        "JACK: Cueyatl Sea Priest (8)"
     ],
     "positive": [
         "Zachary: wants a game of ropes and rafters, will give reward for each player who beats him (prof in DEX saves + aths)",
