@@ -185,6 +185,22 @@
             "description": "If a creature of your choice can see the bright light but is not inside it, they must move into the light as soon as possible. When forced to move in this way, a creature does not provoke opp atks."
         },
         {
+            "name": "Friendly Sword Burst (0)",
+            "description": "Now only targets creatures of your choice."
+        },
+        {
+            "name": "Prismatic Sword Burst (0)",
+            "description": "On 1+ hit, you have +1 non-phys res per cantrip tier until your next turn."
+        },
+        {
+            "name": "Cruel Mind Sliver (0)",
+            "description": "The damage is increased by 2 per cantrip tier if the target is suffering from a DoT."
+        },
+        {
+            "name": "Exposing Mind Sliver (0)",
+            "description": "On hit, the target gets -1 phys res per cantrip tier. If you cast the spell as a full turn action, this increases to -2 per cantrip tier."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -369,6 +385,22 @@
             "description": "Beasts can now tell you about things they have perceived since their birth."
         },
         {
+            "name": "Chaining Wind Up (1)",
+            "description": "Is now a 2nd-lvl spell. On making the melee attack, also make the same form of atk against a creature adj to the target, dealing 1d4 dmg of the same type as the triggering atk."
+        },
+        {
+            "name": "Major Wind Up (1)",
+            "description": "Is now a 2nd-lvl spell. The melee attack now automatically hits and critically hits."
+        },
+        {
+            "name": "Improved Silvery Barbs (1)",
+            "description": "The triggering creature's additional roll is reduced by 1."
+        },
+        {
+            "name": "Healing Silvery Barbs (1)",
+            "description": "The secondary target is also healed for 1d4 hit points."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -551,6 +583,22 @@
         {
             "name": "Synergistic Detect Thoughts (2)",
             "description": "Whenever you successfully probe a creature's mind and they do not shake off the spell, you may cast any other spell on the target as a free action, respecting range limitations but ignoring any of the new spell's casting components."
+        },
+        {
+            "name": "Minor Gift of Gab (2)",
+            "description": "Can now be cast as a 1st-lvl spell. When you do so, you cannot replace what you said with new words, and instead the targets just believe you paused in thought."
+        },
+        {
+            "name": "Targeted Gift of Gab (2)",
+            "description": "Now only targets a single creature within 5'. If the new words provoke a persuasion or deception check, you have advantage on it."
+        },
+        {
+            "name": "Shrouded Invigorated Strikes (2)",
+            "description": "The target also has +1 to DEX saves for the duration."
+        },
+        {
+            "name": "Momentous Invigorated Strikes (2)",
+            "description": "Whenever the target deals the additional damage, the next triggering atk they make increases the additional damage to 1d6."
         }
     ],
     "manual": [

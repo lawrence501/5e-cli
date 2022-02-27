@@ -21,7 +21,7 @@ var COMMAND_MAP = map[string]func() error{
 	"9":             cards,
 	"14":            doubleEnchant,
 	"11":            highGold,
-	"10":            func() error { log.Println("Reroll twice/upgrade die size with +1 colour!"); return nil },
+	"10":            func() error { log.Println("Reroll twice/upgrade result with +1 colour!"); return nil },
 	"12":            amulet,
 	"2":             blessing,
 	"13":            ring,

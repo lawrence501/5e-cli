@@ -312,6 +312,80 @@
                     "upgrade": "+1 phys res/2"
                 }
             ]
+        },
+        {
+            "name": "Traitor's Due (L1)",
+            "type": "weapon",
+            "startingMods": [
+                {
+                    "description": "+2 init",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on wep hit, 20% chance to blind until end of target's next turn",
+                    "pointValue": "3",
+                    "upgrade": "+10%/1"
+                },
+                {
+                    "description": "+1 WIS",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 CON",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. on crit, give sluggish until end of target's next turn",
+                    "pointValue": "1",
+                    "upgrade": "-1 crit req/4"
+                },
+                {
+                    "description": "3. -5' sp; +3 pts distributed",
+                    "pointValue": "-",
+                    "upgrade": "-5' and +3 pts distributed/1"
+                },
+                {
+                    "description": "4. +3 wep dmg vs targets you have healed before",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. +1 percep",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 DEX",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "8. +1 survival",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 wep AB vs targets you have healed before",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "10. +2 limited feature dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "Tymm": [
@@ -486,6 +560,11 @@
                 {
                     "description": "+2 sleight of hand",
                     "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 stealth while using cunning action",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],

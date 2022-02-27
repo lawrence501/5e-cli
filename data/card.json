@@ -15,7 +15,7 @@
             "foil": "+1 global dmg while shapeshifted"
         },
         {
-            "name": "3. P'all",
+            "name": "3. 1 MYTH DUST",
             "set": "Xiloans",
             "primary": "+5 global dmg while flanking",
             "secondary": "+2 global dmg while flanking",
@@ -169,7 +169,7 @@
             "foil": "+1 proj dmg"
         },
         {
-            "name": "4. Xorp",
+            "name": "4. 1 MYTH DUST",
             "set": "Crikathian Champions I",
             "primary": "+7 dmg while shapeshifted",
             "secondary": "+4 dmg while shapeshifted",
@@ -225,7 +225,7 @@
             "foil": "+1 dmg with DEX-based hits"
         },
         {
-            "name": "3. Constitution",
+            "name": "3. 1 MYTH DUST",
             "set": "Ability Scores",
             "primary": "+13 max HP",
             "secondary": "+7 max HP",
@@ -297,7 +297,7 @@
     ],
     "uncommon": [
         {
-            "name": "4. Mensis",
+            "name": "4. 3 MYTH DUST",
             "set": "Xiloans",
             "primary": "+2 AC in darkness",
             "secondary": "+1 AC in darkness",
@@ -318,14 +318,14 @@
             "foil": "+1 axe/sword dmg"
         },
         {
-            "name": "7. Illusion",
+            "name": "7. 3 MYTH DUST",
             "set": "Magic Schools",
             "primary": "+2 AC while concentrating on an illusion spell",
             "secondary": "+1 AC while concentrating on an illusion spell",
             "foil": "+1 dmg res while concentrating on an illusion spell"
         },
         {
-            "name": "4. Lucius",
+            "name": "4. 3 MYTH DUST",
             "set": "Evorbisan Champions",
             "primary": "gain a powerful mutation for each mutation you have",
             "secondary": "gain a beneficial mutation for each mutation you have",

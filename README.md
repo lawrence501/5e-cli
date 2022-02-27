@@ -44,7 +44,7 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 ### Point value cheatsheet
 
 - Stagger/Debil/double disadv condi: 5
-- Single disadv condi/sluggish/silence: 3
+- Single disadv condi/sluggish/silence/charm: 3
 - Prone/taunt/similar: 2
 - Slow: 1
 - Condi lasts until save/longer: x2
@@ -136,3 +136,7 @@ Splash damage is always optional. It deals its damage, up to the amount of the o
 ### Cavalier Stance
 
 While riding your mount, your AC increases by 1.
+
+## Ideas for next campaign
+
+- Increase base value of dmg + res from 1 to 2 (dmg because it's usually multiplied by extra atk or single-target) (res because early on it's super powerful, and later it's multiplied by multiatk)

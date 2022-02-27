@@ -1591,7 +1591,7 @@
     },
     {
         "name": "adder's touch",
-        "mods": ["+2 {weaponClass} crit dice", "on {weaponClass} crit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save", "+1 DoT dmg", "on crit fail to end your DoTs, dmg of DoT increases by 1"],
+        "mods": ["+1 {weaponClass} crit dice", "on {weaponClass} crit, give 1 {nonPhysType} DoT, stacking until CON save", "+1 DoT dmg", "on crit fail to end your DoTs, dmg of DoT increases by 1"],
         "tags": ["weapon class", "crit", "dot"]
     },
     {
@@ -2998,5 +2998,90 @@
         "name": "deadly infusion",
         "mods": ["+1 crit dice per crit req below 20", "while buffed, -1 crit req"],
         "tags": ["crit", "buff"]
+    },
+    {
+        "name": "ambush and assassinate",
+        "mods": ["+1 global dmg vs bloodied targets", "-1 crit req vs targets on full HP", "+1 crit dice vs targets on full HP", "-1 crit req vs bloodied targets", "+1 crit dice vs bloodied targets"],
+        "tags": ["wep dmg", "spell dmg", "crit"]
+    },
+    {
+        "name": "opportunistic",
+        "mods": ["your crits don't trigger thorns effects", "+1 global dmg in non-boss combats", "+1 dmg res in boss combats"],
+        "tags": ["crit", "wep dmg", "spell dmg", "phys res", "non-phys res"]
+    },
+    {
+        "name": "toxic delivery",
+        "mods": ["on crit fail to end your DoTs, dmg of DoT increases by 2", "-1 crit req vs DoT'd targets"],
+        "tags": ["dot", "crit"]
+    },
+    {
+        "name": "noxious strike",
+        "mods": ["on hit, 20% chance to give 2 {nonPhysType} DoT, stacking until CON save", "if you've DoT'd since start of your last turn, +1 to DoT end DCs", "on KB vs DoT'd target, heal 1 HP"],
+        "tags": ["non-phys dmg", "dot", "hp"]
+    },
+    {
+        "name": "mistwalker",
+        "mods": ["on crit, +5' sp and +1 to {abilityScore} saves until your next turn", "while buffed, +5' sp", "while buffed, +1 to {abilityScore} saves", "while buffed, take no extra dmg from crits"],
+        "tags": ["crit", "speed", "save", "buff"]
+    },
+    {
+        "name": "swift killer",
+        "mods": ["+1 global dmg", "-1 crit req", "on KB, 20% chance to gain +1 global dmg and -1 crit req for combat", "while buffed, +1 global dmg", "whenever you start your turn concentrating, equal chance to either gain +1 global dmg or -1 crit req for combat"],
+        "tags": ["wep dmg", "spell dmg", "crit", "conc", "buff"]
+    },
+    {
+        "name": "patient reaper",
+        "mods": ["on KB, heal 3 HP", "on KB, gain 4 temp HP"],
+        "tags": ["hp", "temp hp"]
+    },
+    {
+        "name": "heartstopper",
+        "mods": ["during even rnds, +6 DoT res"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "escape artist",
+        "mods": ["+1 to {abilityScore} saves if your helm is a relic", "+1 incoming temp HP if your body armour is a relic"],
+        "tags": ["save", "temp hp"]
+    },
+    {
+        "name": "prolonged pain",
+        "mods": ["+1 to DoT end DCs", "+1 DoT dmg res", "+1 DoT dmg"],
+        "tags": ["dot", "phys res", "non-phys res"]
+    },
+    {
+        "name": "weave the arcane",
+        "mods": ["if you've teleported since start of your last turn, +2 global dmg"],
+        "tags": ["speed", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "harness the void",
+        "mods": ["on non-{nonPhysType} hit, 20% chance to deal 1d8 additional {nonPhysType} dmg"],
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "name": "pyromaniac",
+        "mods": ["+1 to saves vs DoT", "+1 to saves vs marks", "for each of your pers areas that has ticked since start of your last turn, +1 passive regen"],
+        "tags": ["save", "pers area", "hp"]
+    },
+    {
+        "name": "born in the shadows",
+        "mods": ["+1 to condi saves", "+1 dmg res vs blinded targets", "adj foes are blind", "on hit, blind target until end of your next turn"],
+        "tags": ["save", "phys res", "non-phys res", "condi"]
+    },
+    {
+        "name": "explosives expert",
+        "mods": ["+1 crit dice vs DoT'd targets", "-1 crit req vs marked targets", "your dmg ignores res vs condi'd targets"],
+        "tags": ["crit", "dot", "condi", "phys dmg", "non-phys dmg"]
+    },
+    {
+        "name": "bomb specialist",
+        "mods": ["+5' AoE sizes per active pers area", "if one of your pers areas have ticked since start of your last turn, +1 pers area dmg", "your pers areas have half duration", "+1 pers area dmg"],
+        "tags": ["aoe", "pers area"]
+    },
+    {
+        "name": "perfect crime",
+        "mods": ["+1 global dmg per active pers area", "+1 pers area dmg"],
+        "tags": ["wep dmg", "spell dmg", "pers area"]
     }
 ]

@@ -1035,80 +1035,6 @@
         ]
     },
     {
-        "name": "Traitor's Due",
-        "type": "weapon",
-        "startingMods": [
-            {
-                "description": "+2 init",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "on wep hit, 20% chance to blind until end of target's next turn",
-                "pointValue": "3",
-                "upgrade": "+10%/1"
-            },
-            {
-                "description": "+1 WIS",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            }
-            
-        ],
-        "thematicMods": [
-            {
-                "description": "1. +1 CON",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "2. on crit, give sluggish until end of target's next turn",
-                "pointValue": "1",
-                "upgrade": "-1 crit req/4"
-            },
-            {
-                "description": "3. -5' sp; +3 pts distributed",
-                "pointValue": "-",
-                "upgrade": "-5' and +3 pts distributed/1"
-            },
-            {
-                "description": "4. +3 wep dmg vs targets you have healed before",
-                "pointValue": "1",
-                "upgrade": "+2/1"
-            },
-            {
-                "description": "5. +1 percep",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "6. +1 wep dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "7. +1 DEX",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "8. +1 survival",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "9. +1 wep AB vs targets you have healed before",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "10. +2 limited feature dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            }
-        ]
-    },
-    {
         "name": "Emotion Chip",
         "type": "weapon",
         "startingMods": [
@@ -4454,8 +4380,8 @@
             },
             {
                 "description": "+10% item proc chance per bonus B dmg",
-                "pointValue": "2",
-                "upgrade": "+5%/1"
+                "pointValue": "4",
+                "upgrade": "+5%/2"
             }
             
         ],
@@ -6529,7 +6455,6 @@
                 "pointValue": "2",
                 "upgrade": "+10%/1 OR -1/1"
             }
-            
         ],
         "thematicMods": [
             {
@@ -8061,6 +7986,968 @@
                 "description": "10. +5' truesight",
                 "pointValue": "2",
                 "upgrade": "+5'/2"
+            }
+        ]
+    },
+    {
+        "name": "Eternal Rose",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "debil mods on equipment you loot have +3 upgrade pts",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "equipment you loot has +1 KB affinity",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+5 dmg res vs 1st time you are hit in a boss combat",
+                "pointValue": "2",
+                "upgrade": "+2 res/1 OR +1 time/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. boss mods on equipment you loot have +2 upgrade pt",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. on psy hit vs sluggish target, 20% chance to stagger them until end of their next turn",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. 1/combat, when dmg'd, +3 dmg res until your next turn",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. equipment you loot has +1 dmg affinity",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +1 survival for harvesting monster parts",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +3 max HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "8. first hit you take each combat deals 2 less dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. after you take your first hit in a boss combat, make a glyphic atk with unlimited reach against the offender, dealing 1d8 + 1d6 psy",
+                "pointValue": "1",
+                "upgrade": "+6 die sizes/1"
+            },
+            {
+                "description": "10. +1 to debil DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Head Injury",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "-1 healing from hit dice",
+                "pointValue": "-2",
+                "upgrade": "-1 AND 3pts distributed/1"
+            },
+            {
+                "description": "on init, pass a CON save DC 15 or lose 12 HP",
+                "pointValue": "-2",
+                "upgrade": "+1 DC AND 3pts distributed/1 OR +6 HP AND 2pts distributed/1"
+            },
+            {
+                "description": "on init, pass a CON save DC 15 or gain adv Off and Def until save",
+                "pointValue": "15",
+                "upgrade": "-1 to CON saves AND 4pts distributed/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on init, pass a CON save DC 15 or take 6 psy dmg; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 DC AND 2pts distributed/1 OR +6 dmg AND 2pts distributed/1"
+            },
+            {
+                "description": "2. on init, pass a CON save DC 15 or move 2 spaces down in the turn tracker",
+                "pointValue": "1",
+                "upgrade": "+1 DC AND 2pts distributed/1 OR +1 space AND 2pts distributed/1"
+            },
+            {
+                "description": "3. -3 max HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-2 AND 2pts distributed/1"
+            },
+            {
+                "description": "4. +2 B res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. -1 max hit dice; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 4pts distributed/1"
+            },
+            {
+                "description": "6. +3 dmg with wondrous items",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "7. -2 psy res; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 AND 2pts distributed/1"
+            },
+            {
+                "description": "8. +1 dmg res while buffed",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +1 INT",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. +1 medicine",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Void Between Worlds",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on LR end, make WIS save DC 16 or time outside of your party moves forward 3 days",
+                "pointValue": "-4",
+                "upgrade": "+1 DC and 3pts distributed/1 OR +2 days and 5pts distributed"
+            },
+            {
+                "description": "on succ WIS save, make percep DC 15 or lose 10 HP",
+                "pointValue": "-2",
+                "upgrade": "+1 DC AND 3pts distributed/1 OR +5 HP AND 2pts distributed/1"
+            },
+            {
+                "description": "on succ from this item's percep check, gain 2 global AB until next combat end",
+                "pointValue": "16",
+                "upgrade": "+1 percep/1 OR +1 AB/8"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on succ from this item's percep check, gain 2 exp",
+                "pointValue": "4",
+                "upgrade": "+1 percep/1 OR +1 exp/2"
+            },
+            {
+                "description": "2. on LR end, make WIS save DC 16 or take 8 psy dmg; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 DC and 2pts distributed/1 OR +4 dmg and 2pts distributed/1"
+            },
+            {
+                "description": "3. on LR end, make WIS save DC 15 or get -1 global AB until next combat end",
+                "pointValue": "3",
+                "upgrade": "+1 DC and 4pts distributed/1 OR -1 AB and 4pts distributed/1"
+            },
+            {
+                "description": "4. on succ WIS save, make CON save DC 15 to gain 1 global AB until next turn end",
+                "pointValue": "1",
+                "upgrade": "-1 DC/1 OR +1 AB/1"
+            },
+            {
+                "description": "5. on succ WIS save, make CON save DC 15 to gain 2 exp",
+                "pointValue": "4",
+                "upgrade": "-1 DC/4 OR +1 exp/2"
+            },
+            {
+                "description": "6. on succ WIS save, make CON save DC 15 or blind until end of your next turn; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 DC and 2pts distributed/1"
+            },
+            {
+                "description": "7. on LR end, make CON save DC 15 or blind until save; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 DC and 4pts distributed/1"
+            },
+            {
+                "description": "8. on succ CON save, make WIS save DC 16 to gain 1 global AB until next combat end",
+                "pointValue": "3",
+                "upgrade": "-1 DC/6 OR +1 AB/3"
+            },
+            {
+                "description": "9. on succ CON save, make WIS save DC 16 to gain 2 exp",
+                "pointValue": "2",
+                "upgrade": "-1 DC/4 OR +1 exp/1"
+            },
+            {
+                "description": "10. on succ CON save, make WIS save DC 16 or poisoned until rest; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 DC and 3pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Gall",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+1 CHA",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+1 to saves vs fright",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 to CHA checks vs creatures larger than you",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 intim",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 decep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 maneuver dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +2 wep dmg vs targets larger than you",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. your touch can make any liquid comfortably warm",
+                "pointValue": "1",
+                "upgrade": "+5 wep dmg in warm water/1"
+            },
+            {
+                "description": "6. +1 perf",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. your touch can make any liquid comfortably cool",
+                "pointValue": "1",
+                "upgrade": "+3->2 wep dmg in cool water/1"
+            },
+            {
+                "description": "8. +1 persuasion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 to CHA checks",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. as action, can make persuasion check vs WIS save of a creature who can hear and understand you to charm them for combat",
+                "pointValue": "2",
+                "upgrade": "+1 persuasion/1"
+            }
+        ]
+    },
+    {
+        "name": "Blast Formation",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "if your Attack action has multiple atks, the final atk deals +3 dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+5 wep dmg vs bosses",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "your base wep dmg is converted to fire",
+                "pointValue": "1",
+                "upgrade": "+1 fire dmg/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on wep hit, give 1 fire DoT, stacking until DEX save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. your wep hits splash 1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. if your Attack action has multiple atks, after the last one, make an additional glyphic atk against your target, dealing 1d4 dmg of your weapon's type",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. after Attack action, for each creature hit, +5' sp until end of your next turn",
+                "pointValue": "4",
+                "upgrade": "+5'/4"
+            },
+            {
+                "description": "5. on wep hit, 20% chance to recover 1 exertion",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 exertion/3"
+            },
+            {
+                "description": "6. on wep hit, 20% chance to stagger until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "7. +1 fire dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. your pers areas have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. if your Attack action has multiple atks, +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Stygian Architect",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on wep hit, heal 2 HP",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "-5 max HP",
+                "pointValue": "-2",
+                "upgrade": "-2 and 2pts distributed/1"
+            },
+            {
+                "description": "+4 wep dmg",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. -1 wep AB; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "2. +5' aura radius",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "3. foes in your auras are slowed",
+                "pointValue": "4",
+                "upgrade": "+5' aura radius/3"
+            },
+            {
+                "description": "4. +3 wep dmg vs metal-armoured foes",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. your wep atks with reach deal +1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. your wep atks with reach have -1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "7. before you make a maneuver atk, you can move up to 5' toward your target",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "8. on maneuver atk, +1 dmg res until your next turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on maneuver atk, +1 to conc saves until your next turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +2 charge atk dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Rune-Etched Ward",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on init, recover 1 exertion",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on init, recover 2 spell slot lvls",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "20% chance to refund spent exertion",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. 20% chance to refund spent spell slots",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "2. +4 minion HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "3. when hit, spend 1 exertion to reduce dmg by 1",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 survival for harvesting monster parts",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. your minions have double duration",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. on block, recover 1 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. on block, spend 1 exertion to heal 2 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. your hits have a 20% chance to ignore res",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "9. you are 1 size larger",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "10. -2 minion dmg; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Fiendscale Blockade",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 nec dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on curse application, 20% chance to daze target until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "1/turn, when hit, make spell atk against offender to deal 1d4 nec and inflict Contagion disease, which is 1 nec DoT, stacking until CON save, and spreads to an adj creature of your choice on fail",
+                "pointValue": "7",
+                "upgrade": "+1 hit dmg/1 OR +1 DoT dmg/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 S DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 nec DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +3 max HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +2 B res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 psy res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 to saves vs S DoTs",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. your curses have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. your curses also apply 1 psn DoT, stacking until CON save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 to DoT end DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "10. +2 curse dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Anamnesis Reaver",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 spell dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+8 spell dmg vs targets with full HP",
+                "pointValue": "2",
+                "upgrade": "+4/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. as bonus, give adj creature +3 spell dmg until end of their next turn",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "2. on spell hit while bloodied, make another spell atk, dealing 1d4 dmg of the original spell's type",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. while holding a conduit wep, +1 exp gain",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +1 spell AB vs targets with full HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +4 spell dmg res vs creatures with full HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "6. +1 spell AB",
+                "pointValue": "2",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. +4 NPC ally effectiveness",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "8. +1 spell save DC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. -1 spell crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "10. while dual-wielding, +1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "The Terminal",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on init, -10 max HP until LR",
+                "pointValue": "-2",
+                "upgrade": "-5 and 2pts distributed/1"
+            },
+            {
+                "description": "+5 passive temp HP gen",
+                "pointValue": "10",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on taking HP dmg, -1 passive temp HP gen for combat",
+                "pointValue": "-2",
+                "upgrade": "-1 and 3pts distributed/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 incoming temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 dmg res while you have temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +5' telepathy",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "4. +1 AC while you have temp HP",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 incoming healing while you have temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +5' teleport range",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "7. -1 passive regen; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 4pts distributed/1"
+            },
+            {
+                "description": "8. on taking HP dmg, take 1 additional dmg; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 3pts distributed/1"
+            },
+            {
+                "description": "9. on taking HP dmg, gain 3 temp HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "10. on block, gain 3 temp HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Survivalism",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "1/combat, when downed, gain +16 wep dmg until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+8/1"
+            },
+            {
+                "description": "1/combat, when downed, instead set your min HP to 1 until the end of your next turn. Still triggers 'when downed' effects",
+                "pointValue": "4",
+                "upgrade": "+1 min/1"
+            },
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "+2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on KB, turn invisible until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1 dmg res while invisible/1"
+            },
+            {
+                "description": "2. on KB, +4 wep dmg until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "3. 1/turn, on basic wep hit, 20% chance to make another wep atk against target, dealing 1d4 dmg of the original atk's type",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "4. 1/turn, on wep hit while bloodied, make another wep atk against target, dealing 1d4 dmg of the original atk's type",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 wep dmg while bloodied",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 AoE dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. when downed, +1 dmg res for combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +2 dmg res while under the effects of the dodge action",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. on block, trigger 'when downed' effects",
+                "pointValue": "2",
+                "upgrade": "+1 wep AC/4"
+            }
+        ]
+    },
+    {
+        "name": "Defence",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 dmg res while on full HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 AC in desert terrain",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+2 wep dmg res",
+                "pointValue": "+2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 B dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on wep hit, 20% chance to stagger until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. +1 wep AB vs targets smaller than you",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 thunder dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 wep dmg vs grounded targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 wep AB vs grounded targets",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. +5' AoE sizes",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. -1 wep AB on grassy plains terrain; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "10. -5' sp; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-5' and 3pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Fighting Fish",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "you always hover 5' off the ground at minimum",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 B dmg",
+                "pointValue": "+2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. this wep deals double dmg to objs and structs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 light dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 spell AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 spell save DC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. on wep hit, 20% chance to stagger until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "7. on wep hit, 20% chance to recover 1 lvl of exhaustion",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 lvl/3"
+            },
+            {
+                "description": "8. on wep atk, you can only use your actions to take the Attack action for rest of combat; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 dmg res and 3pts distributed/1"
+            },
+            {
+                "description": "9. on combat end, become dazed until next turn end; distributed 3pts",
+                "pointValue": "1",
+                "upgrade": "-1 global dmg while dazed and 2pts distributed/1"
+            },
+            {
+                "description": "10. on Attack action, each atk made against a random foe in your reach; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 dmg res and 3pts distributed/1"
             }
         ]
     }
