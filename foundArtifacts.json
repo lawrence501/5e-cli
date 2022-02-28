@@ -466,6 +466,80 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "1. Tymm's Tormenting (L1)",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "+2 intim",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "as bonus against target who can sense you, can make intim vs WIS save to frighten target until WIS save",
+                    "pointValue": "3",
+                    "upgrade": "+1 intim/1"
+                },
+                {
+                    "description": "+2 to intim during interrogations",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +15' darkvision",
+                    "pointValue": "1",
+                    "upgrade": "10'/1"
+                },
+                {
+                    "description": "2. +1 to intim when the target cannot see you",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 to intim when the target cannot hear you",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +3 to intim vs non-humanoids",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. +1 to intim vs humanoids",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot/3 OR +1 lvl/3"
+                },
+                {
+                    "description": "7. +3 persuasion in infernal",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "8. 1/LR, spend 1 min to recover 4 spell points",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "9. +1 deception during interrogations",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +2 dmg res while within 1 day of Aeston City",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "Vinton": [

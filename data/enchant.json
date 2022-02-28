@@ -1038,7 +1038,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "on block, gain 4 temp HP",
+        "description": "on block, gain 3 temp HP",
         "pointValue": "1",
         "upgrade": "4/1",
         "tags": ["armour"]
