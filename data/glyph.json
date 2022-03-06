@@ -134,12 +134,12 @@
             "1. Circle of Warding: At-will; bonus action; You draw a circle of magical protection on the ground within 30' of you, roughly 5' in diameter. Magical effects do not work within this circle, which lasts for one hour.",
             "2. Circle of Control: 2/min; bonus action; You draw an arcane circle on the ground within 30' of you, 5' in diameter, potentially capturing a magical effect or creature within it. The circle holds the phenomenon for up to an hour, during which time it cannot leave or physically affect/be affected by the outside world.",
             "3. Angelic Weapon: 1/min; bonus action; By inscribing a magical symbol upon a weapon you wield, you make it able to affect creatures where pure material alone could not. Your weapon ignores physical resistances and immunities, and can also pass through forcefields and other energy barriers, for 10 minutes.",
-            "4. Inscribe Spell: 1/SR; bonus action; You take a spell from your mind and inscribe it onto an object or surface. In this way it becomes easy for you to allow others to cast your spells, even if they could not usually do so. The user still needs to expend the required resources to cast the spells.",
-            "5. Hang Spell: 1/LR; bonus action; You take a spell from your mind, just as you would with your Inscribe Spell feature, annd place it on an object or surface. However, instead of being readable by other creatures, it casts against the next creature other than you to come within 5' of the inscription.",
+            "4. Inscribe Spell: 1/SR; bonus action; You take a spell from your mind and inscribe it onto an object or surface. In this way it becomes easy for you to allow others to cast your spells, even if they could not usually do so. The user still needs to expend the required resources to cast the spells. You can only have 1 inscribed spell at a time.",
+            "5. Hang Spell: 1/LR; bonus action; You take a spell from your mind, just as you would with your Inscribe Spell feature, annd place it on an object or surface. However, instead of being readable by other creatures, it casts against the next creature other than you to come within 5' of the inscription. You can only have 1 hung spell at a time.",
             "6. Capture Angel: 1/week; bonus action; You inscribe a circle on the ground, 10' in diameter, which summons and then contains a powerful celestial. The celestial remains trapped there for 10 minutes, during which time you may speak with it. These celestials are capable of bestowing spells and magical items to those they deem worthy.",
             "7. Your Circle of Warding feature now creates a circle of diameter 10'.",
             "8. Your Circle of Control feature can now be used at-will.",
-            "9. Your Angelic Weapon feature can now be used 2/min.",
+            "9. Your Angelic Weapon feature can now be used at-will.",
             "10. Your Inscribe Spell feature can now be used 2/min."
         ]
     },
@@ -420,10 +420,10 @@
         "description": "manipulating space through fey magic",
         "tiers": [
             "1. Blink: At-will; bonus action; By squeezing through a weak point in space you teleport 5' in any direction.",
-            "2. You are able to walk the longer trods of the fey, allowing you to take shortcuts through the cracks in space when travelling. Overworld travel times are halved for you and your party and you can move as a bonus action.",
+            "2. You are able to walk the longer trods of the fey, allowing you to take shortcuts through the cracks in space when travelling. Overworld travel times are halved for you and your party and you can take the Dash action as a bonus action.",
             "3. Fairy Ring: 1/min; bonus action; You find the spot within 120' of you where the coherency of 3-dimensional space is weakest. Once found, anyone who enters this space (usually a 5' cube) teleports to a location tied to this ring. You do not know where the ring leads, travel is one-way, and it only lasts for 10 minutes once found.",
             "4. Corpse Road: 1/SR; bonus action; You find a path between space tread frequently by the fairies and other spirits of the Feywild. For the next 10 minutes, so long as you are following the direction of this road, you may travel up to 120' every 6 seconds as a free action.",
-            "5. Crossroads: 1/LR; bonus action; You locate a gateway into a realm of the fey, a tiny extradimensional space. The gateway only lasts for 10 minutes after you find it, taking the form of an archway, doorway, or other opening. Anyone can enter the crossroads once found. Inside is a spherical room with enough space for 5 medium creatures to sit comfortably. Those inside can leave at any time with but a though, but anything they place within will go away once no one inhabits that particular pocket reality anymore.",
+            "5. Crossroads: 1/LR; bonus action; You locate a gateway into a realm of the fey, a tiny extradimensional space. The gateway only lasts for 10 minutes after you find it, taking the form of an archway, doorway, or other opening. Anyone can enter the crossroads once found. Inside is a spherical room with enough space for 5 medium creatures to sit comfortably. Those inside can leave at any time with but a thought, but anything they place within will go away once no one inhabits that particular pocket reality anymore.",
             "6. Catch a Sprite: 1/week; bonus action; You find an invisible fairy and cut it off from its trods, keeping it from escaping. The fairy in this condition becomes slightly visible as a luminous humanoid shape. At this point you may ask one task of the fairy, that it will execute upon release. This task must be relatively simple and straightforward such as 'get the key from the jailer' or 'trip the man on his way down the stairs'. The fairy cannot engage in combat for you, but it can pull mischievious tricks that border on dangerous.",
             "7. Your Blink feature now teleports you up to 10'.",
             "8. You gain +10' of speed.",
@@ -1331,16 +1331,16 @@
         "name": "Rides the Lightning",
         "description": "harnessing the power of lightning",
         "tiers": [
-            "1. Shock: At-will; bonus action; Your hands crackle with electricity, and the next time you touch a creature, you inflict 1d8 + your level lightning damage. Alternatively, if you wield a weapon, for 10 minutes it crackles with electricity and inflicts 1d6 additional lightning damage per attack.",
+            "1. Shock: At-will; bonus action; Your hands crackle with electricity, and the next time you touch a creature, make an attack to inflict 1d8 + your level lightning damage. Alternatively, if you wield a weapon, for 10 minutes it crackles with electricity and inflicts 1d6 additional lightning damage per attack if held by you.",
             "2. Charge: At-will; bonus action; You can charge an artifact or relic so that it gains the benefits of a level without levelling up. This can only be done once for each item.",
             "3. Bolt Rider: 1/SR; bonus action; You can move up to 120' from 1 location to another almost instantaneously, carried by a bolt of lightning. You must be able to see the new location, and there must be no intervening barriers.",
-            "4. You can drain the power from an artifact or relic, allowing you to regain an amount of hit points equal to double the item's level. This requires a full turn action with concentration.",
-            "5. Electric Armour: 1/SR; free action; When you wish it, electricity cracles across your body for 10 minutes, granting you +1 AC. While electrified, you have an additional +4 to lightning resistance, and you inflict 1d6 lightning damage on any creature that touches you or attacks you with a melee weapon that conducts electricity.",
+            "4. You can drain the power from an artifact or relic, allowing you to regain an amount of hit points equal to the item's level. This requires a full turn action with concentration.",
+            "5. Electric Armour: 1/SR; free action; When you wish it, electricity crackles across your body for 10 minutes, granting you +1 AC. While electrified, you have an additional +4 to lightning resistance, and you inflict 1d6 lightning damage on any creature that touches you or attacks you with a metal melee weapon.",
             "6. You gain +2 to Dexterity.",
-            "7. Bolts of Power: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge inflicts 1d10 + your level lightning damage.",
+            "7. Bolts of Power: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge is an attack inflicting 1d10 + your level lightning damage.",
             "8. Electrical Flight: 1/LR; bonus action; You exude an aura of crackling electricity that grants you a fly speed of 120' for 10 minutes. You cannot carry other creatures with you.",
             "9. Flash Across the Miles: 1/week; bonus action; You move to an open location on your current planet that you are familiar with almost instantaneously, transformed into a bolt of lightning.",
-            "10. Wall of Lightning: 1/week; bonus action; You create a barrier of crackling electricity in a square up to 2500' long, shaped as you wish. The wall is a magical barrier. Anyone within 5' of the wall automatically takes 1d12 + 1d10 + your level lightning damage. The wall lasts for 1 hour."
+            "10. Wall of Lightning: 1/week; bonus action; You create a barrier of crackling electricity in a square up to 2500' long, shaped as you wish. The wall is a magical barrier. Anyone within 5' of the wall is automatically attacked, dealing 1d12 + 1d10 + your level lightning damage. The wall lasts for 1 hour."
         ]
     },
     {
@@ -1955,13 +1955,13 @@
         "name": "Siphons Power",
         "description": "draining power from objects and creatures",
         "tiers": [
-            "1. Drain Magic: 1/min; bonus action; You can drain the power from magical objects and constructs that you touch. If the target is a construct, you inflict 1d8 + level force damage and recover 6 hit points. If the target is an object, you recover 6 hit points. If the target is not an artifact or relic, it is fully drained and useless. Artifacts and relics have a 10% chance to be drained.",
-            "2. Drain Creature: 1/min; bonus action; You can drain energy from a living creature you touch, inflicting 1d8 + level necrotic damage and recovering 6 hit points.",
+            "1. Drain Magic: 1/min; bonus action; You can drain the power from magical objects and constructs that you touch. If the target is a construct, make an attack dealing 1d8 + level force damage and recover 6 hit points on a hit. If the target is an object, you recover 6 hit points. If the target is not a relic, it is fully drained and useless. Relics have a 10% chance to be destroyed.",
+            "2. Drain Creature: 1/min; bonus action; You can drain energy from a living creature you touch, making an attack dealing 1d8 + level necrotic damage and recovering 6 hit points on a hit.",
             "3. Your Drain Magic and Drain Creature features work on a target within 30'.",
-            "4. You can drain energy from a living creature by touching it and concentrating for a minute or more. Each minute you spend in contact with and concentrating on the creature deals to it 1d4 + level true necrotic damage and restores 2 hit points to you. Because of the extended contact required for this feature, normally you can use it only on a willing or helpless creature. If the creature takes enough damage to knock it unconscious or kill it, it crumbles into ash, dust, or some other inert material.",
+            "4. You can drain energy from a living creature by touching it and concentrating for a minute or more. Each minute you spend in contact with and concentrating on the creature deals to it 1d4 + level true necrotic damage and restores 2 hit points to you. If the creature takes enough damage to knock it unconscious or kill it, it crumbles into ash, dust, or some other inert material.",
             "5. When you drain energy with your features from this glyph path, you can store some of it for later in a Siphon Pool. You can spend points from your Siphon Pool as if they were your hit points, or use a bonus action to spend them to restore an equal number of hit points. Your Siphon Pool can safely store up to 6 hit points; each point beyond that adds a level of disadvantage to all your d20 rolls.",
-            "6. When you drain energy, you can transfer it to another creature, restoring hit points to them instead of yourself. You can spend points from your Siphon Pool in the same way. The creature you want to heal must be within 30' of you.",
-            "7. Explosive Release: 1/week; bonus action; You can amplify the energy stored in your Siphon Pool and release it in a massive blast that affects either 1 target within 30' or everything within 5'. If you choose a single target, it takes 1d6 damage for every point in your siphon pool, plus your level, all as force. If you choose an area, everything in the area (except you) takes 1d4 damage for every point in your Siphon Pool, plus your level, all as force (or half that if your attack misses). This drains your Siphon Pool to 0 points.",
+            "6. When you drain energy with your features from this glyph path, you can transfer it to another creature, restoring hit points to them instead of yourself. You can spend points from your Siphon Pool in the same way. The creature you want to heal must be within 30' of you.",
+            "7. Explosive Release: 1/week; bonus action; You can amplify the energy stored in your Siphon Pool and release it in a massive blast that affects either 1 target within 30' or everything within 5'. Regardless, this is an attack. If you choose a single target, it takes 1d6 damage for every point in your siphon pool, plus your level, all as force. If you choose an area, everything in the area (except you) takes 1d4 damage for every point in your Siphon Pool, plus your level, all as force (or half that if your attack misses). This drains your Siphon Pool to 0 points.",
             "8. Your Siphon Pool's safe limit increases by 6 points. If you spend an hour in sunlight (or an hour in contact with suitable powerful energy source), you automatically fill your Siphon Pool to its safe limit. You cannot refill your Siphon Pool this way again until after your next long rest.",
             "9. You can now use your Drain Magic feature twice per minute.",
             "10. You can now use your Drain Creature feature at-will."
@@ -2275,13 +2275,13 @@
         "name": "Exists in Two Places at Once",
         "description": "duplicating yourself",
         "tiers": [
-            "1. Duplicate: 2/min; bonus action; You cause a duplicate of yourself to appear at any point you can see within 30'. The duplicate has no clothing or possessions when it appears. The duplicate is a CR 1 humanoid. The duplicate obeys your commands and does as you direct it. The duplicate remains until you dismiss it using a bonus action or until it is killed. When the duplicate disappears, it leaves behind anything it was wearing or carying. If the duplicate disappears because it was killed, you take 1d10 true damage, and you lose your bonus action next turn.",
+            "1. Duplicate: 2/min; bonus action; You cause a duplicate of yourself to appear at any point you can see within 30'. The duplicate has no clothing or possessions when it appears. The duplicate is a CR 1 humanoid minion. The duplicate obeys your commands and does as you direct it. The duplicate remains until you dismiss it using a bonus action or until it is killed. When the duplicate disappears, it leaves behind anything it was wearing or carying. If the duplicate disappears because it was killed, you take 1d10 true damage, and you lose your bonus action next turn. You can only have 1 duplicate at a time.",
             "2. While your duplicate is in existence and within 1 mile, you know everything it experiences and can communicate with it telepathically.",
-            "3. Superior Duplicate: 2/min; free action; When you use your Duplicate feature, you can create a superior duplicate instead of a normal duplicate. A superior duplicate is a CR 2 humanoid.",
+            "3. Superior Duplicate: 2/min; free action; When you use your Duplicate feature, you can create a superior duplicate instead of a normal duplicate. A superior duplicate is a CR 2 humanoid minion.",
             "4. Increase the maximum hit points of any duplicate you create by 10.",
             "5. When you or your duplicate would take damage, you can transfer up to 2 points of damage from one to the other provided that you and the duplicate are within 1 mile of each other.",
-            "6. Coordinated Effort: 1/min; bonus action; When you and your duplicate would attack the same creature, you can choose to make 1 attack roll with advantage. If you hit, you inflict damage with both attacks as if they were 1 attack for the purpose of the target's damage resistance.",
-            "7. Multiplicity: 1/week; bonus action; This feature functions as your Duplicate feature, except you can create 2 duplicates.",
+            "6. Coordinated Effort: 1/min; free action; When your duplicate attacks the same creature you attacked on your last turn, you can choose to make the attack roll with advantage.",
+            "7. Multiplicity: 1/week; bonus action; This feature functions as your Duplicate feature, except you can create 2 duplicates. You can only have 2 duplicates from this feature at a time.",
             "8. Increase the maximum hit points of any duplicate you create by 10.",
             "9. You can now use your Duplicate feature at-will.",
             "10. You now know everything your duplicate experiences and can communicate with it telepathically, regardless of where you are."
@@ -2483,16 +2483,16 @@
         "name": "Operates Undercover",
         "description": "undercover infiltration",
         "tiers": [
-            "1. You gain prof/+2 in Perception and Deception, and have +2 to checks to discover clues in text and interact with magical devices.",
-            "2. You gain +2 to checks to disguise yourself. You can alter your posture, voice, mannerisms, and hair to look like someone else for as long as you keep up a disguise, but this requires a disguise kit.",
-            "3. Choose one of the following to gain +2 to: attacks with a weapon class of your choice, DCs for avoiding your explosives, or both Stealth and lockpicking checks.",
+            "1. You gain an expertise die in Perception and Deception, and in checks to discover clues in text and interact with magical devices.",
+            "2. You gain an expertise die in checks to disguise yourself. You can alter your posture, voice, mannerisms, and hair to look like someone else for as long as you keep up a disguise, but this requires a disguise kit.",
+            "3. Choose one of the following to gain an expertise die in: attacks with a weapon class of your choice or both Stealth and lockpicking checks. Alternatively, you can instead choose to gain +2 to DCs to avoid your explosives.",
             "4. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you gain advantage on related checks.",
             "5. Using What's Available: 1/SR; bonus action; If you have the time and the freedom to scrounge for everyday materials in your environment, you can fashion a temporary asset that will grant you advantage once on a specific task. For example, if you need to climb a wall, you could create some sort of climbing assistance device; if you need to break out of a cell, you can find something to use as lockpicks; if you need to create a small distraction, you could put together something to make a loud bang and flash; and so on. The asset lasts up to a maximum of 1 minute, or until used for the purpose you fashion it.",
             "6. Trust to Luck: 1/min; free action; Sometimes, you just have to roll the dice and hope things add up in your favour. When you use this feature, roll a d6. On any even result, the task you are attempting gains double advantage. On a roll of 1, the task gains disadvantage.",
             "7. Assassin: 1/LR; bonus action; If you strike a creature of CR 2 or less with a weapon you are proficient in, you kill the target instantly.",
-            "8. +2 to checks to discover clues in text.",
-            "9. +2 to checks to disguise yourself.",
-            "10. You have +3 to DCs for avoiding your explosives."
+            "8. Gain an expertise die in checks to discover clues in text.",
+            "9. Gain an expertise die in checks to disguise yourself.",
+            "10. +3 to DCs for avoiding your explosives."
         ]
     },
     {

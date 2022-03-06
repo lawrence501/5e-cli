@@ -546,7 +546,7 @@
     },
     {
         "name": "corrosive elements",
-        "mods": ["on {nonPhysType} hit, target gets -1 {nonPhysType} res until end of your next turn", "on {nonPhysType} hit, target gets -1 {nonPhysType} res until end of your next turn", "on {nonPhysType} hit, target gets -1 {nonPhysType} res until end of your next turn", "+1 {dmgPolarity dmg}"],
+        "mods": ["on {nonPhysType1} hit, 20% chance for target to get -2 {nonPhysType1} res until end of your next turn", "on {nonPhysType2} hit, 20% chance for target to get -2 {nonPhysType2} res until end of your next turn", "on {nonPhysType3} hit, 20% chance for target to get -1 {nonPhysType3} res until end of your next turn", "+2 {dmgPolarity dmg}"],
         "tags": ["non-phys dmg", "dmg polarity"]
     },
     {
@@ -3083,5 +3083,100 @@
         "name": "perfect crime",
         "mods": ["+1 global dmg per active pers area", "+1 pers area dmg"],
         "tags": ["wep dmg", "spell dmg", "pers area"]
+    },
+    {
+        "name": "demolitions specialist",
+        "mods": ["on pers area summon, contained foes are slowed until end of their next turn", "+1 aura effectiveness"],
+        "tags": ["pers area", "condi"]
+    },
+    {
+        "name": "chain reaction",
+        "mods": ["+1 pers area dmg", "+5' pers area AoE size", "if one of your pers areas is adj to another of yours, they both gain +1 dmg"],
+        "tags": ["pers area", "aoe"]
+    },
+    {
+        "name": "will of blades",
+        "mods": ["-1 crit req", "+1 {physType} dmg"],
+        "tags": ["crit", "phys dmg"]
+    },
+    {
+        "name": "path of the ranger",
+        "mods": ["+1 to DEX-based skills"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "path of the witch",
+        "mods": ["+1 to INT-based skills"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "path of the marauder",
+        "mods": ["+3 to STR-based skills"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "path of the duelist",
+        "mods": ["+1 to CHA-based skills"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "path of the shadow",
+        "mods": ["+1 to WIS-based skills"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "path of the templar",
+        "mods": ["+2 to conc saves"],
+        "tags": ["conc"]
+    },
+    {
+        "name": "growth and decay",
+        "mods": ["+1 DoT dmg", "+1 passive regen"],
+        "tags": ["dot", "hp"]
+    },
+    {
+        "name": "atrophy",
+        "mods": ["+1 {nonPhysType} dmg", "+1 to DoT end DCs"],
+        "tags": ["non-phys dmg", "dot"]
+    },
+    {
+        "name": "force shaper",
+        "mods": ["on {physType} hit, +1d4 {nonPhysType} dmg", "+1 global dmg"],
+        "tags": ["phys dmg", "non-phys dmg", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "aspect of the lynx",
+        "mods": ["+1 wep dmg", "+5' sp", "-1 wep crit req"],
+        "tags": ["wep dmg", "speed", "crit"]
+    },
+    {
+        "name": "fatal toxins",
+        "mods": ["+2 DoT dmg", "+2 {nonPhysType} res"],
+        "tags": ["dot", "non-phys res"]
+    },
+    {
+        "name": "elemental focus",
+        "mods": ["your condis have double duration", "+1 {dmgPolarity} dmg", "+1 to condi DCs"],
+        "tags": ["condi", "dmg polarity"]
+    },
+    {
+        "name": "unstable munitions",
+        "mods": ["+1 pers area dmg", "+5' pers area AoE size"],
+        "tags": ["pers area", "aoe"]
+    },
+    {
+        "name": "hasty reconstruction",
+        "mods": ["+3 pers area dmg"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "expeditious munitions",
+        "mods": ["+5' pers area AoE size", "+1 pers area dmg"],
+        "tags": ["pers area", "aoe"]
+    },
+    {
+        "name": "destructive apparatus",
+        "mods": ["+1 pers area dmg", "your pers areas have double duration"],
+        "tags": ["pers area"]
     }
 ]

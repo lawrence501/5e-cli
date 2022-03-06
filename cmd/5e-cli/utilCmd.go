@@ -311,3 +311,13 @@ var weaponClass = func() error {
 	log.Printf("Weapon class: %s", WEAPON_CLASSES[rand.Intn(len(WEAPON_CLASSES))])
 	return nil
 }
+
+var physType = func() error {
+	log.Printf("Physical damage type: %s", PHYS_TYPES[rand.Intn(len(PHYS_TYPES))])
+	return nil
+}
+
+var nonPhysType = func() error {
+	log.Printf("Non-physical damage type: %s", NON_PHYS_TYPES[rand.Intn(len(NON_PHYS_TYPES))])
+	return nil
+}

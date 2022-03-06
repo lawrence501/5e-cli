@@ -201,6 +201,14 @@
             "description": "On hit, the target gets -1 phys res per cantrip tier. If you cast the spell as a full turn action, this increases to -2 per cantrip tier."
         },
         {
+            "name": "Commanded Infestation (0)",
+            "description": "The spell's effects count as coming from a minion instead of you. Still counts as you casting a spell."
+        },
+        {
+            "name": "Weaving Infestation (0)",
+            "description": "If you have hit a target with this spell since the start of your last turn, your weapon hits against that target grant you 1 temp HP per cantrip tier."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -401,6 +409,14 @@
             "description": "The secondary target is also healed for 1d4 hit points."
         },
         {
+            "name": "Retreating Sleep (1)",
+            "description": "While the spell is active, you have +5' sp."
+        },
+        {
+            "name": "Isolating Sleep (1)",
+            "description": "While there is at least 1 creature asleep from this spell, you have +1 to DEX saves."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -599,6 +615,222 @@
         {
             "name": "Momentous Invigorated Strikes (2)",
             "description": "Whenever the target deals the additional damage, the next triggering atk they make increases the additional damage to 1d6."
+        },
+        {
+            "name": "Panicked Kinetic Jaunt (2)",
+            "description": "While bloodied, the speed bonus increases to 20'."
+        },
+        {
+            "name": "Taunting Kinetic Jaunt (2)",
+            "description": "The first time each round that you would provoke an opportunity attack from each creature, you heal 1 HP."
+        },
+        {
+            "name": "Focused Incite Greed (3)",
+            "description": "The range decreases to 15' and the DC for substantial failures increases by 2."
+        },
+        {
+            "name": "Wide Incite Greed (3)",
+            "description": "The range increases to 60'."
+        },
+        {
+            "name": "Dependable Glyph of Warding (3)",
+            "description": "When the glyph is triggered, the spell does not end. Instead, the glyph's effects are suppressed for 24hrs, after which it can be triggered again."
+        },
+        {
+            "name": "Flexible Glyph of Warding (3)",
+            "description": "The glyph is no longer dispelled based on movement from its original position or proximity to another glyph."
+        },
+        {
+            "name": "Distant Vampiric Touch (3)",
+            "description": "Instead of making a melee spell attacks, you make ranged spell attacks (range 10/20') in the form of shadowy lines that streak from your hand."
+        },
+        {
+            "name": "Called Vampiric Touch (3)",
+            "description": "Damage dice increase to d10s vs marked targets."
+        },
+        {
+            "name": "Sustained Sending (3)",
+            "description": "The target has up to 1 minute to respond to you."
+        },
+        {
+            "name": "Interplanar Sending (3)",
+            "description": "When the target is on a different plane, the message and response can be of any length, so long as it could be spoken within 1 minute."
+        },
+        {
+            "name": "Punishing Blood-Writ Bargain (3)",
+            "description": "If the pact is broken, the other party releases a 30' nova of either rad or nec dmg (determined by the pact's enforcers) that only affects the offending party. The nova is a spell attack, dealing 7d6 damage."
+        },
+        {
+            "name": "Synergistic Blood-Writ Bargain (3)",
+            "description": "As part of casting this spell, you can also cast another spell without any change to the verbal or somatic components. The casting time is added on to this one's. Creatures familiar with this spell may notice the change in casting time."
+        },
+        {
+            "name": "Durable Major Image (3)",
+            "description": "The image can now take up to 30 damage (AC 10, +0 to saves) before being revealed as an illusion."
+        },
+        {
+            "name": "Enticing Major Image (3)",
+            "description": "The sounds and smells caused by the image are pleasant and soothing, granting the image +1 to positive social checks."
+        },
+        {
+            "name": "Shredding Crushing Haymaker (3)",
+            "description": "On hit, 20% chance to give the target -3 phys res until the end of your next turn."
+        },
+        {
+            "name": "Reaching Crushing Haymaker (3)",
+            "description": "The reach of the attack increases to 10'."
+        },
+        {
+            "name": "Interrupting Counterspell (3)",
+            "description": "The target creature must also end their turn immediately if they reshape their spell into a new one."
+        },
+        {
+            "name": "Detonating Counterspell (3)",
+            "description": "If the target creature reshapes their spell into a new one, make a spell attack against them as the arcane feedback detonates, dealing 7d6 force dmg."
+        },
+        {
+            "name": "Focused Catnap (3)",
+            "description": "Only 1 creature can now be targeted, but any dmg that wakes them is increased by 50%."
+        },
+        {
+            "name": "Peaceful Catnap (3)",
+            "description": "The targets can no longer be woken by shaking (etc.), but any dmg that wakes them is halved."
+        },
+        {
+            "name": "Temporal Summon Shadowspawn (3)",
+            "description": "The maximum duration is increased to 24hrs, but the spirit's speed is halved."
+        },
+        {
+            "name": "Frosty Summon Shadowspawn (3)",
+            "description": "After making its last attack, the shadowspawn creates a torrent of frigid air in a 30' line in the target's direction, a spell atk dealing 1d6 cold dmg."
+        },
+        {
+            "name": "Overwhelming Plant Growth (3)",
+            "description": "No longer requires the presence of pre-existing vegetation to take effect, but must use the Rapid option, and the new plants only last for 24hrs before fading away."
+        },
+        {
+            "name": "Thorny Plant Growth (3)",
+            "description": "For each space a creature moves through the Rapid option's plants, they gain 1 S DoT, stacking until CON save."
+        },
+        {
+            "name": "Arcane Hypnotic Pattern (3)",
+            "description": "Minimum casting level increases to 4th, but on use, recover 2 spell slot levels."
+        },
+        {
+            "name": "Debilitating Hypnotic Pattern (3)",
+            "description": "Targets are also debilitated while charmed."
+        },
+        {
+            "name": "Repelling Poison Skin (3)",
+            "description": "When a creature fails the initial saving throw, it is pushed 10' away from the target."
+        },
+        {
+            "name": "Toxic Poison Skin (3)",
+            "description": "When a creature fails the initial saving throw, an illusory toad hovers in the air above the target. Creatures within 60' of the toad take 1 additional dmg from this spell's DoT. The toad is dispelled when it takes dmg."
+        },
+        {
+            "name": "Confiscating Dispel Magic (3)",
+            "description": "When you dispel a spell that was cast using a spell slot at least 2 lvls lower than the one used for this spell, you can use your reaction to expend a spell slot of equal lvl to the dispelled spell to immediately cast it at a new target."
+        },
+        {
+            "name": "Protective Dispel Magic (3)",
+            "description": "On successfully dispelling a spell, gain 3 temp HP."
+        },
+        {
+            "name": "Improved Summon Lesser Demons (3)",
+            "description": "The demons deal 1d4 additional S dmg with all hits."
+        },
+        {
+            "name": "Distracting Summon Lesser Demons (3)",
+            "description": "While at least 1 of the demons is alive, you have +3 to medicine checks to stabilise downed creatures."
+        },
+        {
+            "name": "Synergistic Magic Circle (3)",
+            "description": "As part of this spell's casting, you can cast another spell without modifying the verbal or somatic components. The new spell's casting time is added to this one's. A creature familiar with this spell may notice the modified casting time."
+        },
+        {
+            "name": "Defended Magic Circle (3)",
+            "description": "At the centre of the circle, an illusion of yourself appears that grants the affected creatures -1 to attack rolls. The illusion is dispelled when it takes dmg."
+        },
+        {
+            "name": "Intense Enemies Abound (3)",
+            "description": "The maximum duration decreases to the end of the target's next turn, but all dmg they deal to your foes is increased by 1d12."
+        },
+        {
+            "name": "Rapid Enemies Abound (3)",
+            "description": "Can now be cast as a bonus action."
+        },
+        {
+            "name": "Dyed Stinking Cloud (3)",
+            "description": "Choose a colour for the cloud on cast. When a creature makes a save against this spell it is dyed that colour until it uses an action to wipe away the residue."
+        },
+        {
+            "name": "Minor Stinking Cloud (3)",
+            "description": "Can now be cast as a 2nd-lvl spell, but when you do so its fail DC is reduced by 1."
+        },
+        {
+            "name": "Close Clairvoyance (3)",
+            "description": "The range is now Self, and the sensor forms just above your head. The sensor allows you to see invisible creatures."
+        },
+        {
+            "name": "Duplicated Clairvoyance (3)",
+            "description": "You can concentrate on 2 instances of this spell. Instead of switching between senses for a sensor, you can instead switch between sensors."
+        },
+        {
+            "name": "Enduring Bestow Curse (3)",
+            "description": "The duration is now permanent, no longer requires your concentration, and the curse cannot be dispelled. The curse is only removed when a specific condition of your choice upon casting is met, which must be possible for the target to achieve, at the DM's discretion."
+        },
+        {
+            "name": "Decaying Bestow Curse (3)",
+            "description": "When using the ability score option, the target also has -1 from the relevant rolls."
+        },
+        {
+            "name": "Military Fast Friends (3)",
+            "description": "The target no longer gains adv on the save if you are in combat with it."
+        },
+        {
+            "name": "Draining Fast Friends (3)",
+            "description": "When the spell ends after at least 1 minute duration, the target gains 2 lvls of exhaustion."
+        },
+        {
+            "name": "Bolstering Remove Curse (3)",
+            "description": "Every second curse you remove from the same creature grants them curse immunity for 1min."
+        },
+        {
+            "name": "Minor Remove Curse (3)",
+            "description": "Can now be cast as a 2nd-lvl spell, but when you do so, the max spell slot lvl of the curse's origin becomes 2nd and the max CR for feature curses becomes 4."
+        },
+        {
+            "name": "Broad Tiny Hut (3)",
+            "description": "The radius increases to 40' and can now contain up to Huge creatures, but the hut is no longer opaque from the outside."
+        },
+        {
+            "name": "Shielding Tiny Hut (3)",
+            "description": "If a creature finishes a rest with full HP inside the hut, it gains 18 temp HP"
+        },
+        {
+            "name": "Comforting Nondetection (3)",
+            "description": "When the spell ends, the target is healed for 3 HP."
+        },
+        {
+            "name": "Alerting Nondetection (3)",
+            "description": "The target knows whenever this spell blocks an effect."
+        },
+        {
+            "name": "Generous Intellect Fortress (3)",
+            "description": "Can no longer target yourself. Also grants +2 to mental saves."
+        },
+        {
+            "name": "Hasty Intellect Fortress (3)",
+            "description": "The target also has +10' sp for the duration."
+        },
+        {
+            "name": "Explosive Thunder Step (3)",
+            "description": "The minimum casting lvl for this spell increases to 4th, but the radius of the boom increases to 40'."
+        },
+        {
+            "name": "Major Thunder Step (3)",
+            "description": "The minimum casting lvl for this spell increases to 4th, but the dmg dice increase to d12s."
         }
     ],
     "manual": [

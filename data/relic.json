@@ -300,8 +300,8 @@
         "startingMods": [
             {
                 "description": "when marked, all foes within 5' also get the same mark",
-                "pointValue": "6",
-                "upgrade": "+5'/6"
+                "pointValue": "4",
+                "upgrade": "+5'/4"
             },
             {
                 "description": "+5 psn res while healthy",
@@ -6811,13 +6811,13 @@
         "startingMods": [
             {
                 "description": "when atk'd, atker takes 1 nec thorns dmg per bonus spell dmg you have",
-                "pointValue": "2",
+                "pointValue": "4",
                 "upgrade": "+1 spell dmg/1"
             },
             {
-                "description": "when atk'd, atker takes 2 nec thorns dmg",
+                "description": "when atk'd, atker takes 1 nec thorns dmg",
                 "pointValue": "2",
-                "upgrade": "+1/1"
+                "upgrade": "+1/2"
             },
             {
                 "description": "gain nec dmg equal to your bonus spell dmg",
@@ -8948,6 +8948,672 @@
                 "description": "10. on Attack action, each atk made against a random foe in your reach; 4pts distributed",
                 "pointValue": "1",
                 "upgrade": "-1 dmg res and 3pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Storm Bulwark",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "while your INT is 15+, +1d4 light dmg to your spells",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 light spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "you ignore light res",
+                "pointValue": "3",
+                "upgrade": "+1 light dmg/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 INT",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. while your INT is 15+, 20% chance on hit to give target -1 to condi saves until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR -1 saves/2"
+            },
+            {
+                "description": "3. while your INT is 15+, 20% chance on hit to give target -3 light res until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR -2 res/1"
+            },
+            {
+                "description": "4. your spell dmg is converted to light",
+                "pointValue": "1",
+                "upgrade": "+1 light spell dmg/1"
+            },
+            {
+                "description": "5. +1 light dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 1st-lvl spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot/3 OR +1 lvl/3"
+            },
+            {
+                "description": "7. while your INT is 15+, your marks have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +2 light res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. your limited glyphic features have 20% chance to refund their usage",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            }
+        ]
+    },
+    {
+        "name": "Wolfborn Crusader",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "you gain proficiency with all club weps",
+                "pointValue": "3",
+                "upgrade": "+1 club dmg/1"
+            },
+            {
+                "description": "while holding a club wep, your condis have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "while not holding a 2h wep, +1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. -1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "2. while holding a sword wep in your onhand, +1 sword dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on block, +2 outgoing healing for combat",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 club dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. while holding a club wep, your buffs have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +1 wep dmg while holding a non-dual-wielding wep in your offhand",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +2 dmg with effects you are concentrating on",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 AB with 1h clubs",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. +1 AB with club weps",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. +10' swim sp",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            }
+        ]
+    },
+    {
+        "name": "Sparkmoon",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 light spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 light abs",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 fire spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 cold spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +4 minion HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "5. +1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 fire abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 cold abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on melee atk, 20% chance to shoot a 30' cone of firebolts as a glyphic atk, dealing 1d4 fire",
+                "pointValue": "4",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "9. +1 light spell abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +2 light res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Brimstone Protector",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+1d4 fire dmg to your weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1d4 fire dmg to your hits",
+                "pointValue": "6",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "1/turn, on atk, 20% chance to launch fireballs at all foes in LoS within 30', spell atks dealing 1d4 fire with a 20% chance on hit to debil until end of target's next turn",
+                "pointValue": "9",
+                "upgrade": "+10% proc/1 OR +1 dmg/1 OR +10% debil/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on hit, target gets 1 fire DoT, stacking until DEX save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +1 fire dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 fire DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. your base wep dmg is converted to fire",
+                "pointValue": "1",
+                "upgrade": "+1 fire wep dmg/1"
+            },
+            {
+                "description": "5. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 wep P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. while buffed, +1d4 P dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. while buffed, +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. while buffed, +1 P DoT dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. while buffed, +1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Ratfolk Hide",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on charged atk hit, can throw dart at different target as wep atk w/o disadv as bonus, dealing 1d4 P",
+                "pointValue": "6",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "you can move through the space of any creature larger than you",
+                "pointValue": "2",
+                "upgrade": "+5' sp/2"
+            },
+            {
+                "description": "+1 global AB vs targets adj to a conscious ally",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 melee wep dmg vs targets adj to a conscious ally",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. if you are adj to a creature employing you, you can react to give them +2 AC when they are atk'd for that atk",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +10' swim sp",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "4. +1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 to INT saves",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 acro",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 decep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 intim",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 percep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 stealth",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Jabberwock Hide",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "1/LR, gain +3 on a failed save",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "while grounded, if you would be hit by a proj, you may react to fly up to your fly sp, giving the proj -2 AB if you moved",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "when creature you can see melee atks you, can react to bite them as wep atk, dealing 1d4 S",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 reaction each turn",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +1 passive regen",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "3. while bloodied, incoming hits have a 5% chance to become crits; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "+5% and 4pts distributed/1"
+            },
+            {
+                "description": "4. while airborne, -1 wep AB; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 4pts distributed/1"
+            },
+            {
+                "description": "5. while airborne, +1 AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. when a creature escapes your grapple, can react to claw at them as wep atk, dealing 1d4 S",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +5' fly sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "8. +1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. +1 to CON saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "10. +1 to WIS saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "The Mindkey",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on hit, 30% chance to cause target to use all its movement next turn moving away from you until it loses LoS",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "+1 passive regen",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+2 to history for recalling memories you personally experienced",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 dmg with spells on the wizard spell list",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +2 psy res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on hit, +1 dmg res until your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. 20% chance on getting any loot to gain +1 loot roll",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "5. +1 incoming healing",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. 1/LR, as bonus, you can raise a small psychic rift from the ground within 60' of you, which is a 5x5' pers area that only affects a random foe adj to it with a spell atk from spitting energy out, dealing 1d4 psy",
+                "pointValue": "4",
+                "upgrade": "+1 dmg/1"
+            },
+            {
+                "description": "7. +1 passive regen while adj to a foe",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. first wearer chooses a language, this item gives that prof",
+                "pointValue": "3",
+                "upgrade": "+3->2 persuasion in language/1"
+            },
+            {
+                "description": "9. +1 psy abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. on hit, +1 spell AC until your next turn",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "The Vertex",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "30% chance to refund spent spell slots",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "+2 incoming temp HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +2 psn res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +2 limited feature dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. while you have temp HP, +1 dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 to knowledge skills",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +2 cube AoE dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 to wep saves",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. +1 cube AoE dmg abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. adj foes are slowed",
+                "pointValue": "1",
+                "upgrade": "+1 dmg res vs slowed creatures/1"
+            },
+            {
+                "description": "10. +1 AC vs metal-armoured creatures",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "The Wall",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 wep dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 B dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 wep dmg vs rest targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. -1 wep dmg vs non-rest targets; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "3. +2 B res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. -1 spell dmg; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "5. -1 spell dmg res; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "6. +1 to aths for climbing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. on init, all foes in 60' get -2 spell dmg until end of their next turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +2 wep dmg vs targets smaller than you",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1d4 B dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 wep AB vs targets smaller than you",
+                "pointValue": "3",
+                "upgrade": "+1/3"
             }
         ]
     }

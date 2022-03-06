@@ -59,6 +59,8 @@ var COMMAND_MAP = map[string]func() error{
 	"xiloan":        xiloan,
 	"positive":      positiveReward,
 	"weapon class":  weaponClass,
+	"phys type":     physType,
+	"non-phys type": nonPhysType,
 }
 
 func main() {
