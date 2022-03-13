@@ -185,6 +185,17 @@ var tpk = func() error {
 	return nil
 }
 
+var empower = func() error {
+	empowerments, err := fetchGenerics("enemyEmpowerment")
+	if err != nil {
+		return err
+	}
+
+	chosen := empowerments[rand.Intn(len(empowerments))]
+	log.Printf("The encounter will be %s:\n%s", chosen.Name, processMod(chosen.Description))
+	return nil
+}
+
 var plains = func() error {
 	encounter, err := generateEncounter("plains")
 	if err != nil {

@@ -709,14 +709,14 @@
         "tiers": [
             "1. Rather than the usual benefits of the Help action, you enjoy double advantage on the check if the helper is proficient in the check.",
             "2. You gain a connection to a lord of your home city (or the nearest equivalent) who watches over you and attempts to make sure you do well in the world.",
-            "3. Helping Hand: 2/min; bonus action; You sublimate your reflexes, trusting to the instincts of your lord back home. For the next 10 minutes you deal +2 damage with any weapon with which you are proficient. At the end of this time, you deal -2 damage on all attacks for 1 hour.",
-            "4. Psychic Shield: 1/min; bonus action; You call upon your lord to shield you from psychic attacks, granting you +2 to Wisdom saving throws for the next hour.",
-            "5. Extended Sublimation: 1/SR; bonus action; The DM takes over your character for 3 rounds, during which time your lord acts as they will through your body. Generally, your lord cannot attack through you, but can speak and have proficiency in all social interaction tasks and a +5 modifier in Charisma.",
-            "6. You gain proficiency in meditation. If you succeed in entering a meditative state during a short rest, you recover 12 additional hit points.",
-            "7. One Mind: 1/week; bonus action; You completely merge minds with your lord. While in this strange mental state all of your ability scores have a +2 bonus. Lasts for 1 hour.",
-            "8. +2 to checks with which you are receiving the Help action.",
+            "3. Helping Hand: At-will; bonus action; You sublimate your reflexes, trusting to the instincts of your lord back home. For the next 10 minutes you deal +2 damage with any weapon with which you are proficient. At the end of this time, you deal -2 damage globally for 1 hour.",
+            "4. Psychic Shield: At-will; bonus action; You call upon your lord to shield you from psychic attacks, granting you an expertise die in Wisdom saving throws for the next hour.",
+            "5. Extended Sublimation: 1/SR; bonus action; The DM takes over your character for 18s, during which time your lord acts as they will through your body. Generally, your lord cannot attack through you, but can speak and has proficiency in all social interaction tasks and a +5 modifier in Charisma that overrides your own.",
+            "6. You gain proficiency in Wisdom (Meditation). If you succeed in entering a meditative state during a short rest (DC 13), you recover 6 additional hit points.",
+            "7. One Mind: 1/week; bonus action; You completely merge minds with your lord. While in this strange mental state all of your ability score modifiers have a +1 bonus. Lasts for 1 hour.",
+            "8. You gain an expertise die in checks with which you are receiving the Help action.",
             "9. Your lord gains sway and status in another city of your choice.",
-            "10. You can now use your Helping Hand feature at-will, and the damage penalty it grants is reduced to -1."
+            "10. Your Helping Hand feature no longer has a damage penalty after its use, and its damage bonus increases to +3."
         ]
     },
     {
@@ -851,15 +851,15 @@
         "name": "Works the Back Alleys",
         "description": "gaining the favour and powers of back-alley criminals",
         "tiers": [
-            "1. Gain prof/+2 in stealth and sleight of hand.",
+            "1. Gain an expertise die in stealth and sleight of hand.",
             "2. You know many people in a variety of communities who engage in illegal activities. These people are not necessarily your friends and might not be trustworthy, but they recognise you as a peer.",
             "3. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you have advantage on the check.",
             "4. Your maneuvers that have durations last twice as long. Your maneuvers that have ranges between 30' and 120' have their range increased to 120'. Your maneuvers that deal damage deal +2 damage.",
-            "5. +10' climb speed, +2 to checks to checks to escape restrains or grapples, and you can squeeze one size smaller.",
+            "5. +10' climb speed, gain an expertise die on saves and checks to escape restrains or grapples, and you can squeeze one size smaller.",
             "6. Dirty Fighter: 2/min; bonus action; You distract, annoy, hamper, or otherwise interfere with a foe, giving their attacks and saving throws disadvantage for 1 minute.",
             "7. Alley Rat: 1/week; bonus action; While in a city, you find or create a significant shortcut, secret entrance, or emergency escape route where it looked like non existed. Doing so requires that you succeed on a History check with DC based on the situation.",
-            "8. All-out Con: 1/month; bonus action; You put everything into it. You gain triple advantage on the next task you attempt.",
-            "9. +2 to stealth and sleight of hand.",
+            "8. All-out Con: 1/month; bonus action; You put everything into it. You automatically roll a 19 for the next task you attempt.",
+            "9. Gain an expertise die in stealth and sleight of hand.",
             "10. You are now a trusted and revered figure in the criminal community where you have connections. You can treat it as an additional city for you and your allies and can rely on its members as allies."
           ]
     },
@@ -1044,10 +1044,10 @@
         "description": "dual-wielding",
         "tiers": [
             "1. While dual-wielding, you no longer need to expend a bonus action for your offhand attack. It instead becomes part of your Attack action.",
-            "2. Double Strike: 1/min; bonus action; When you wield two weapons, you can choose to make one attack roll against a foe. If you hit, you inflict damage with both weapons +4, and because you made a single attack, the target's resistances and other defensive effects apply only once.",
-            "3. You can now dual-wield any non-heavy, one-handed weapons.",
-            "4. You inflict +2 damage with light weapons.",
-            "5. While dual-wielding, you have +2 to Dexterity saving throws.",
+            "2. Double Strike: 1/min; bonus action; When you wield two weapons, you can choose to make one attack roll against a foe. If you hit, you inflict damage with both weapons +4. This counts as a single hit.",
+            "3. All non-heavy 1h weapons gain the dual-wielding trait for you.",
+            "4. You inflict +2 damage with dual-wielding weapons.",
+            "5. While dual-wielding, you gain an expertise die in Dexterity saving throws.",
             "6. When you hit an opponent while dual-wielding, their next attack has disadvantage and your next attack against that same foe has advantage.",
             "7. Disarming Attack: 1/LR; bonus action; You attempt a sleight of hand check to disarm a foe as part of your melee attack, using 8 + their AB as the DC. If you succeed, your attack inflicts +6 damage and the target's weapon is knocked from their grip, landing up to 20' away. If you fail, you still attempt your normal attack, but you do not inflict the extra damage or disarm the opponent if you hit.",
             "8. While dual-wielding, you can attack up to 6 times in one round as a single Attack action, but you must make each attack against a different foe. Make a separate attack roll for each attack. Each attack alternates which weapon you are using.",
@@ -1555,16 +1555,16 @@
         "name": "Taints",
         "description": "corruption",
         "tiers": [
-            "1. Withering Touch: At-will; bonus action; With a skin-to-touch touch, you drain the life essence of a living, organic being. For each round you are in contact, you deal 4 necrotic damage and give all Strength-based d20 rolls against them advantage.",
-            "2. Poisonous Touch: When you make physical skin-to-skin contact with an organic being, you must roll an attack. On a hit, you cause them to take 4 true poison damage each round until they succeed on a DC 12 Constitution saving throw.",
+            "1. With a skin-to-touch touch (an unwilling target makes a DEX save against your maneuver DC) or a grapple, you drain the life essence of a living, organic being. For each round you are in contact, you deal 4 necrotic damage and give all Strength-based d20 rolls against them advantage. To maintain contact, you must be grappling the target.",
+            "2. When you make physical skin-to-skin contact with an organic being, you must make an attack. On a hit, you cause them to take 4 true poison damage each round until they succeed on a DC 12 Constitution saving throw.",
             "3. Corrupting Touch: 2/min; bonus action; You can inflict a random cosmetic mutation on any organic creature with a skin-to-skin touch for 24 hours. The effect takes place rapidly, manifesting within a few minutes.",
-            "4. Leech's Mark: 1/min; bonus action; You open your palm into a leech-like mouth to bite an organic target, dealing no damage, but injecting a small, black leech that burrows under the skin. The target takes 4 true piercing damage per round for 3 rounds. After 3 rounds, the leech exit the targets body and immediately flees by burrowing into the earth, but can be eaten to regain 2 hit points if captured.",
-            "5. Souldrain: 1/SR; bonus action; You can skin-to-skin touch someone, draining them of any will or hope and converting it into healing energy for yourself. All Charisma-based skill checks against them have double advantage and heal you for 4 hit points if successful. This effect remains in effect only as long as you retain physical skin-to-skin contact.",
-            "6. Decay: 1/LR; bonus action; You rapidly increase entropy in whatever you touch with your skin, causing an object of your size or smaller to become weakened, granting advantage to checks to break it. Living targets age rapidly by 1 year, granting advantage to all d20 rolls against them, and take 2 necrotic damage.",
-            "7. When you consume a healing potion, you can elect to deal 8 necrotic damage to all organic life within 30' to recover an additional 8 hit points back, leaving the earth around you blackened and barren, unable to support life and leaving all other organics within range poisoned until they take a short or long rest.",
-            "8. Your corrupting influence has seeped so deeply into your being that it now manifests through your other powers. Any ranged spells or powers can now also be used to inflict Withering Touch, Poisonous Touch, or Corrupting Touch, instead of making physical contact.",
-            "9. Your Withering Touch feature now grants double advantage to Strength-based d20 rolls against the target.",
-            "10. Your Poisonous Touch feature now deals 6 true poison damage and has a recovery DC of 14"
+            "4. Leech's Mark: 1/min; bonus action; You open your palm into a leech-like mouth to bite an organic target, dealing no damage, but injecting a small, black leech that burrows under the skin. The target takes 4 true piercing damage per round for 3 rounds. After 3 rounds, the leech exits the target's body and immediately flees by burrowing into the earth, but can be eaten to regain 1 hit point if captured.",
+            "5. Souldrain: 1/SR; bonus action; You can skin-to-skin touch someone, draining them of any will or hope and converting it into healing energy for yourself. All non-trivial Charisma-based skill checks against them have double advantage and heal you for 2 hit points if successful. This effect remains in effect only as long as you retain physical skin-to-skin contact.",
+            "6. Decay: 1/LR; bonus action; You rapidly increase entropy in whatever you touch with your skin, causing an object of your size or smaller to become weakened, granting advantage to checks to break it. Living targets age rapidly by 1 year, granting advantage to all d20 rolls against them, and take 1d6 + your lvl necrotic damage.",
+            "7. During a short rest, you can elect to deal 8 necrotic damage to all organic life within 30' to recover an additional 4 hit points back, leaving the earth around you blackened and barren, unable to support life and leaving all other organic creatures within range poisoned until they take a short or long rest.",
+            "8. Your corrupting influence has seeped so deeply into your being that it now manifests through your other powers. Any damaging projectile powers can now also be used to inflict the effects of T1, T2, or T3, instead of needing to make physical contact.",
+            "9. Your T1 feature now grants double advantage to Strength-based d20 rolls against the target.",
+            "10. Your T2 feature now deals 7 true poison damage."
         ]
     },
     {
@@ -2248,11 +2248,11 @@
             "3. Gain prof in any weapon type.",
             "4. Improvise: 1/min; bonus action; When you perform a task with which you do not have proficiency, you can gain advantage on the task.",
             "5. Gain prof in any 2 skills.",
-            "6. Gain prof/+2 in any saving throw.",
+            "6. You gain an expertise die in any saving throw of your choice.",
             "7. You gain +3 WIS.",
-            "8. Drawing on Life's Experiences: 1/week; bonus action; You have seen a lot and done a lot, and that experience comes in handy. Ask the DM 1 question, and you will receive a general answer. The DM assigns a DC to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location is DC 3, and obscure knowledge of the past is DC 21.",
+            "8. Drawing on Life's Experiences: 1/week; bonus action; You have seen a lot and done a lot, and that experience comes in handy. Ask the DM 1 question, and you will receive a general answer. The DM assigns a History DC to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location is DC 3, and obscure knowledge of the past is DC 21.",
             "9. When performing a task based on Wisdom, you can base it on Dexterity instead.",
-            "10. Gain prof/+2 in any 3 skills."
+            "10. Gain an expertise die in any 3 skills."
         ]
     },
     {

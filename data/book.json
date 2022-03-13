@@ -209,6 +209,14 @@
             "description": "If you have hit a target with this spell since the start of your last turn, your weapon hits against that target grant you 1 temp HP per cantrip tier."
         },
         {
+            "name": "Chaotic Pestilence (0)",
+            "description": "Becomes a 1st-lvl spell. When cast, has a 25% chance to have its dmg doubled, and a 25% chance for it to be tripled. Still scales with caster lvls."
+        },
+        {
+            "name": "Draining Pestilence (0)",
+            "description": "Dmg is converted to necrotic. The CON save is converted into a CHA save. Dmg dice are increased to d6s."
+        },
+        {
             "name": "Major Cure Wounds (1)",
             "description": "Healing die is increased to 2d8. Gains a 6+ recharge."
         },
@@ -417,6 +425,30 @@
             "description": "While there is at least 1 creature asleep from this spell, you have +1 to DEX saves."
         },
         {
+            "name": "Massive Corpse Explosion (1)",
+            "description": "The area is increased to 20'-radius."
+        },
+        {
+            "name": "Focused Corpse Explosion (1)",
+            "description": "The area is decreased to 5'-radius, but the dmg dice increase to d10s."
+        },
+        {
+            "name": "Minor Distort Value (1)",
+            "description": "Can be cast as a cantrip, but only for light items."
+        },
+        {
+            "name": "Charming Distort Value (1)",
+            "description": "As part of the casting, you may also cast Charm Person for free on a creature within 10' of the target as a free action."
+        },
+        {
+            "name": "Dialectic Comprehend Languages (1)",
+            "description": "Languages closely related to one you know are now trivial to understand."
+        },
+        {
+            "name": "Casual Comprehend Languages (1)",
+            "description": "The bonus increases to +16 during a rest."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -458,7 +490,7 @@
         },
         {
             "name": "Lengthened Hold Person (2)",
-            "description": "Duration increases to Concentration, up to 1 hour."
+            "description": "Duration increases to Concentration, up to 8 hours."
         },
         {
             "name": "Improved Hold Person (2)",
@@ -623,6 +655,30 @@
         {
             "name": "Taunting Kinetic Jaunt (2)",
             "description": "The first time each round that you would provoke an opportunity attack from each creature, you heal 1 HP."
+        },
+        {
+            "name": "Shattering Earthbind (2)",
+            "description": "After the target takes 20 damage while affected, the spell ends on them and they shoot a bolt of gravity at a creature of your choice within 60' of them, a ranged spell atk dealing 1d4 force."
+        },
+        {
+            "name": "Group Earthbind (2)",
+            "description": "You can now target up to 3 creatures, but their flying speed is just halved."
+        },
+        {
+            "name": "Rapid Knock (2)",
+            "description": "Can now be cast as a bonus action, and arcane locks are only suppressed until the end of your next turn."
+        },
+        {
+            "name": "Shielded Knock (2)",
+            "description": "Suppressed arcane locks are only suppressed for creatures of your choice."
+        },
+        {
+            "name": "Desperate Borrowed Knowledge (2)",
+            "description": "The chosen skill also ignores penalties from conditions."
+        },
+        {
+            "name": "Varied Borrowed Knowledge (2)",
+            "description": "whenever you make a check with the chosen skill, you have a 20% chance to gain +1 to all other skills for the duration. Max once/rnd."
         },
         {
             "name": "Focused Incite Greed (3)",
@@ -831,6 +887,30 @@
         {
             "name": "Major Thunder Step (3)",
             "description": "The minimum casting lvl for this spell increases to 4th, but the dmg dice increase to d12s."
+        },
+        {
+            "name": "Frostbitten Aspect of the Moon (3)",
+            "description": "On hit with the claws, inflict 2 cold DoT, stacking until CON save."
+        },
+        {
+            "name": "Reaching Aspect of the Moon (3)",
+            "description": "The claws now have an additional 5' of reach."
+        },
+        {
+            "name": "Courageous Battlecry Ballad (3)",
+            "description": "Targets gain an expertise die on saves against fear for the duration."
+        },
+        {
+            "name": "Penetrating Battlecry Ballad (3)",
+            "description": "At 2+ stacks, all targets' dmg ignores resistances."
+        },
+        {
+            "name": "Overgrowing Speak with Plants (3)",
+            "description": "As part of the casting, you can also cast the Plant Growth spell as part of the same action. It still costs its usual resources."
+        },
+        {
+            "name": "Grappling Speak with Plants (3)",
+            "description": "Bloodied creatures in the difficult terrain the spell can cause are instead grappled, with your spell save DC as the escape DC."
         }
     ],
     "manual": [

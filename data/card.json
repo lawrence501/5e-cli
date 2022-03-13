@@ -392,8 +392,8 @@
         {
             "name": "8. Flail & Pick",
             "set": "Weapon Classes",
-            "primary": "on flail/pick sub hit, deal 8 additional base dmg per crit die with this wep",
-            "secondary": "on flail/pick sub hit, deal 4 additional base dmg per crit die with this wep",
+            "primary": "on flail/pick sub hit, deal 8 additional base dmg per crit die with that wep",
+            "secondary": "on flail/pick sub hit, deal 4 additional base dmg per crit die with that wep",
             "foil": "+1 flail/pick dmg"
         },
         {

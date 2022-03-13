@@ -3178,5 +3178,50 @@
         "name": "destructive apparatus",
         "mods": ["+1 pers area dmg", "your pers areas have double duration"],
         "tags": ["pers area"]
+    },
+    {
+        "name": "overcharged",
+        "mods": ["on KB, 20% chance to either gain -1 crit req, +1 global dmg, or +1 dmg res, all for combat"],
+        "tags": ["crit", "wep dmg", "spell dmg", "phys res", "non-phys res"]
+    },
+    {
+        "name": "winter spirit",
+        "mods": ["on {physType} hit, deal 1d4 additional {nonPhysType} dmg"],
+        "tags": ["phys dmg", "non-phys dmg"]
+    },
+    {
+        "name": "primeval force",
+        "mods": ["while you have less than max hit dice, +1 {dmgPolarity} dmg", "+1 wep {dmgPolarity} dmg"],
+        "tags": ["dmg polarity", "wep dmg"]
+    },
+    {
+        "name": "insightfulness",
+        "mods": ["+3 incoming temp HP"],
+        "tags": ["temp hp"]
+    },
+    {
+        "name": "counterweight",
+        "mods": ["while holding a {weaponClass} wep, -1 crit req", "while holding a {weaponClass} wep, +1 crit dice"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "dirty techniques",
+        "mods": ["+6 DoT dmg", "-1 to DoT end DCs"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "toxic strikes",
+        "mods": ["+3 DoT dmg", "on hit, 20% chance to give 1 {nonPhysType} DoT, stacking until CON save"],
+        "tags": ["dot", "non-phys dmg"]
+    },
+    {
+        "name": "devastating devices",
+        "mods": ["-1 crit req with pers areas", "+1 crit dice with pers areas", "when your pers area's tick hits 1+ creature, 20% chance to gain -1 crit req for combat"],
+        "tags": ["crit", "pers area"]
+    },
+    {
+        "name": "righteous army",
+        "mods": ["+1 passive regen", "+1 minion dmg", "+1 minion passive regen"],
+        "tags": ["hp", "minion dmg", "minion hp"]
     }
 ]

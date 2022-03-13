@@ -1153,7 +1153,7 @@
     },
     {
         "description": "on becoming bloodied, gain effects of the dodge action",
-        "pointValue": "1",
+        "pointValue": "3",
         "upgrade": "+1 AC during dodge action/3",
         "tags": ["armour"]
     },
