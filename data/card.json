@@ -218,7 +218,7 @@
             "foil": "+1 dmg with STR-based hits"
         },
         {
-            "name": "2. Dexterity",
+            "name": "2. 1 MYTH DUST",
             "set": "Ability Scores",
             "primary": "-2 crit req while flanking",
             "secondary": "-1 crit req while flanking",
@@ -353,7 +353,7 @@
             "foil": "+1 dmg res with height adv"
         },
         {
-            "name": "5. Wisdom",
+            "name": "5. 3 MYTH DUST",
             "set": "Ability Scores",
             "primary": "on perceiving a creature in combat, learn its res and imms automatically",
             "secondary": "on perceiving a creature in combat, learn its res automatically",

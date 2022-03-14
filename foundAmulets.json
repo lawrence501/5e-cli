@@ -1,0 +1,14 @@
+{
+    "Vinton": {
+        "spellblade - awe strike (T1)": [
+            "+1d4 lightning dmg to your melee hits",
+            "+1 mark effectiveness"
+        ]
+    },
+    "Fillipo": {
+        "void knight - eternal form (T1)": [
+            "+1 INT",
+            "+1 max HP"
+        ]
+    }
+}
