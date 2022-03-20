@@ -9,7 +9,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "when you use your cunning action to hide, you can hide in plain sight while in darkness",
+                "description": "when you use your cunning action to hide while in darkness, you can hide in plain sight",
                 "pointValue": "2",
                 "upgrade": "not in bright light -> not in sunlight -> always/2"
             },
@@ -72,80 +72,156 @@
             }
         ]
     },
-    "Tymm": {
-        "name": "1. Tymm's Tormenting",
-        "type": "armour",
-        "startingMods": [
-            {
-                "description": "+2 intim",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "as bonus against target who can sense you, can make intim vs WIS save to frighten target until WIS save",
-                "pointValue": "3",
-                "upgrade": "+1 intim/1"
-            },
-            {
-                "description": "+2 to intim during interrogations",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            }
-            
-        ],
-        "thematicMods": [
-            {
-                "description": "1. +15' darkvision",
-                "pointValue": "1",
-                "upgrade": "10'/1"
-            },
-            {
-                "description": "2. +1 to intim when the target cannot see you",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "3. +1 to intim when the target cannot hear you",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "4. +3 to intim vs non-humanoids",
-                "pointValue": "1",
-                "upgrade": "+2/1"
-            },
-            {
-                "description": "5. +1 to intim vs humanoids",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "6. +1 1st-lvl spell slot",
-                "pointValue": "3",
-                "upgrade": "+1 slot/3 OR +1 lvl/3"
-            },
-            {
-                "description": "7. +3 persuasion in infernal",
-                "pointValue": "1",
-                "upgrade": "+2/1"
-            },
-            {
-                "description": "8. 1/LR, spend 1 min to recover 4 spell points",
-                "pointValue": "2",
-                "upgrade": "+2/1"
-            },
-            {
-                "description": "9. +1 deception during interrogations",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "10. +2 dmg res while within 1 day of Aeston City",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            }
-        ]
-    },
+    "Tymm": [
+        {
+            "name": "1. Tymm's Tormenting",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "+2 intim",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "as bonus against target who can sense you, can make intim vs WIS save to frighten target until WIS save",
+                    "pointValue": "3",
+                    "upgrade": "+1 intim/1"
+                },
+                {
+                    "description": "+2 to intim during interrogations",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +15' darkvision",
+                    "pointValue": "1",
+                    "upgrade": "10'/1"
+                },
+                {
+                    "description": "2. +1 to intim when the target cannot see you",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 to intim when the target cannot hear you",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +3 to intim vs non-humanoids",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. +1 to intim vs humanoids",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot/3 OR +1 lvl/3"
+                },
+                {
+                    "description": "7. +3 persuasion in infernal",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "8. 1/LR, spend 1 min to recover 4 spell points",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "9. +1 deception during interrogations",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +2 dmg res while within 1 day of Aeston City",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "1. Tymm's Repulsion",
+            "type": "weapon",
+            "startingMods": [
+                {
+                    "description": "you may trigger your Repelling Blast even when a creature succeeds on their save against Eldritch Blast",
+                    "pointValue": "5",
+                    "upgrade": "+5' push distance/2"
+                },
+                {
+                    "description": "your force dmg ignores imm",
+                    "pointValue": "3",
+                    "upgrade": "+1 force dmg/1"
+                },
+                {
+                    "description": "+2 max spell pts",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on init, recover 4 spell pts",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "2. your Repelling Blast ignores push imm",
+                    "pointValue": "3",
+                    "upgrade": "+5' push distance/2"
+                },
+                {
+                    "description": "3. on KB, recover 4 spell pts",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "4. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. you may have your Repelling Blast pull its target toward you instead of push (still counts as a push)",
+                    "pointValue": "1",
+                    "upgrade": "+5' push distance/2"
+                },
+                {
+                    "description": "6. +1 Eldritch Disturbance dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. your Repelling Blast pushes an additional 5' vs targets with higher sp than you",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "8. +3 spell dmg while within 1 day of Aeston City",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "9. you learn the Mind Sliver cantrip",
+                    "pointValue": "3",
+                    "upgrade": "+1 psy dmg/1"
+                },
+                {
+                    "description": "10. minions created with your Golem glyphic power have +10' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/1"
+                }
+            ]
+        }
+    ],
     "Eva": {
         "name": "1. Eva's Presence",
         "type": "armour",
@@ -220,78 +296,154 @@
             }
         ]
     },
-    "Fillipo": {
-        "name": "1. Fillipo's Legend",
-        "type": "weapon",
-        "startingMods": [
-            {
-                "description": "random encounters within 1 day of a city exposed to your Bardic Legend feature grant +1 loot roll reward when you return to the city",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "+3 outgoing temp HP",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "while holding a string instrument, +1 buff effectiveness",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            }
-            
-        ],
-        "thematicMods": [
-            {
-                "description": "1. allies with temp HP from you have +1 global dmg",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "2. +2 persuasion in a city exposed to your Bardic Legend feature",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "3. +1 max Bardic Inspiration die",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "4. +1 CHA",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "5. +2 buff effectiveness during 1st rnd of combat",
-                "pointValue": "3",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "6. +1 persuasion",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "7. while holding a string instrument, your buffs have double duration",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "8. after a LR in a city exposed to your Bardic Legend feature, gain 8 temp HP",
-                "pointValue": "1",
-                "upgrade": "+8/1"
-            },
-            {
-                "description": "9. +1 buff effectiveness during random encounters",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "10. learn the Blade Ward cantrip",
-                "pointValue": "3",
-                "upgrade": "+1 phys res/2"
-            }
-        ]
-    }
+    "Fillipo": [
+        {
+            "name": "1. Fillipo's Legend",
+            "type": "weapon",
+            "startingMods": [
+                {
+                    "description": "random encounters within 1 day of a city exposed to your Bardic Legend feature grant +1 loot roll reward when you return to the city",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+3 outgoing temp HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "while holding a string instrument, +1 buff effectiveness",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. allies with temp HP from you have +1 global dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "2. +2 persuasion in a city exposed to your Bardic Legend feature",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 max Bardic Inspiration die",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "4. +1 CHA",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +2 buff effectiveness during 1st rnd of combat",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 persuasion",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. while holding a string instrument, your buffs have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. after a LR in a city exposed to your Bardic Legend feature, gain 8 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+8/1"
+                },
+                {
+                    "description": "9. +1 buff effectiveness during random encounters",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "10. learn the Blade Ward cantrip",
+                    "pointValue": "3",
+                    "upgrade": "+1 phys res/2"
+                }
+            ]
+        },
+        {
+            "name": "2. Fillipo's Rhythm",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "your Overbearing Rhythm now grants incoming atks -4 AB instead of disadv (stacks with disadv; modified by buff effectiveness)",
+                    "pointValue": "4",
+                    "upgrade": "-1/3"
+                },
+                {
+                    "description": "creatures affected by your Overbearing Rhythm have +1 AC while adj to another affected creature",
+                    "pointValue": "8",
+                    "upgrade": "+1/8"
+                },
+                {
+                    "description": "+2 performance",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +2 persuasion vs creatures you have successfully performed to",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. -1 dmg res vs disadv atks; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "3. creatures affected by your Overbearing Rhythm have +1 dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. the additional Inspiration usages from your Endless Legends feature can now only be used for your Battle Hymns, but it grants you 1 additional usage",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. you can now use your Greater Regeneration glyphic feature once per LR",
+                    "pointValue": "3",
+                    "upgrade": "+1 incoming healing/2"
+                },
+                {
+                    "description": "6. allies have +1 dmg res while adj to a creature affected by your Overbearing Rhythm",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. your Overbearing Rhythm now also grants targets +2 performance",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +2 outgoing temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 dmg res while wearing light body armour",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "10. when a reaction would break your conc, you have a 20% chance to retain conc",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1"
+                }
+            ]
+        }
+    ]
 }

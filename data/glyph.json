@@ -197,13 +197,13 @@
         "tiers": [
             "1. You absorb a portion of the energy of a physical attack or impact. You negate 2 points of damage you would have suffered and store it as energy. You can store a maximum of 2 energy at a time.",
             "2. Release Energy: At-will; bonus action; You release 2 points of energy you've absorbed, magnifying and focusing it into a blast of energy that attacks a single foe within 120' of you, dealing 2d6 + your level force damage on a hit.",
-            "3. Energise Object: At-will; bonus action; You infuse energy you have absorbed into an object. The object holds the energy until it is touched by anyone but you. The energy inflicts 1d12 force damage on the touching creature in addition to any damage the object itself may do. You cannot have more than one energised object on your person at a time.",
+            "3. Energise Object: At-will; bonus action; You infuse energy you have absorbed into an object. The object holds the energy until it is touched by anyone but you. The energy inflicts 1d12 force damage on the touching creature in addition to any damage the object itself may do. A creature cannot have more than one energised object on their person at a time.",
             "4. You can now absorb and store energy from damage made with arcane energy or from conduits that direct energy, if you can make direct contact. This functions in the same way as T1.",
             "5. Instead of being able to absorb 2 points of damage from various sources, you can absorb 4 points. You can also store up to 4 points of energy from any source.",
             "6. The damage of your Release Energy feature is increased to 2d10 + your level.",
-            "7. Energise Creature: 1/week; bonus action; You extend your absorption abilities to one creature within 5' of you so that they also can absorb up to 4 points of damage from the same sources for 1 hour. That creature, however, cannot store the energy for any purpose.",
+            "7. Energise Creature: 1/week; bonus action; You extend your absorption abilities to one creature within 5' of you so that they also can absorb up to 4 points of damage from the same sources for 1 hour. That creature, however, cannot store the energy for any other purpose.",
             "8. Energise Crowd: once ever; bonus action; You can use your Energise Creature feature on up to 30 creatures within 30' of you.",
-            "9. You can infuse 2 points of energy you have stored into a magical piece of equipment as a free action, increasing a weapon's dmg dice size by 3 for its next attack, or a piece of armour's AC bonus by 3 until its wearer is next attacked.",
+            "9. You can infuse 2 points of energy you have stored into a magical piece of equipment as a free action, increasing a weapon's dmg by 1d8 for its next attack, or a piece of armour's AC bonus by 3 until its wearer is next attacked.",
             "10. You can now store up to 8 points of energy at a time."
         ]
     },
@@ -388,15 +388,15 @@
         "description": "Fighting with style and flamboyancy",
         "tiers": [
             "1. With your attacks, you add stylish moves, entertaining quips, or a certain 'something' that entertains or impresses others. One creature you choose within 30' of you who can see you gains adv on their next d20 roll if taken within 2 rounds.",
-            "2. While wielding a non-heavy weapon, +2 to DEX saving throws.",
-            "3. Acrobatic Attack: At-will; free action; You leap into the attack, twisting or flipping through the air. If you roll a natural 17 or 18, you can treat the attack as a critical hit if it hits. You cannot use this feature while your stealth is impeded by your body armour.",
-            "4. Flamboyant Boast: At-will; free action; You boastfully describe an act that you will accomplish right before you attempt it. If an average person would find the action difficult, or impossible, and you succeed on it, creatures who witnessed it and are not your allies have disadvantage on all d20 rolls until the end of their next turn. If you fail at the task, all of your attempts to affect or attack onlookers who saw you have disadvantage for 10 minutes.",
-            "5. Mobile Fighter: 1/min; free action; As part of your attack, you can leap on or over obstacles, swing from ropes, run along narrow surfaces, or otherwise move around the battlefield at your normal speed as if the tasks were trivial. You cannot use this feature while your stealth is impeded by your body armour.",
-            "6. While wielding a non-heavy weapon, you can block attacks made against an ally near you. Choose one creature within 5' of you. They have advantage on DEX saving throws until you choose to end this effect or you are no longer within range of each other. You have -2 to DEX saving throws while this effect persists.",
-            "7. When attempting a DEX saving throw, you can instead treat it as a CHA saving throw.",
+            "2. While wielding a non-heavy weapon, gain an expertise die in DEX saving throws.",
+            "3. Acrobatic Attack: At-will; free action; You leap into an attack you are about to make, twisting or flipping through the air. The attack has -2 to its critical hit requirement. You cannot use this feature while your stealth is impeded by your body armour.",
+            "4. Flamboyant Boast: At-will; free action; You boastfully describe an act that you will accomplish right before you attempt it. If an average person would find the action difficult, or impossible, and you succeed on it, creatures of your choice who witnessed it have disadvantage on all d20 rolls until the end of their next turn. If you fail at the task, all of your attempts to affect or attack onlookers who saw you have disadvantage for 10 minutes.",
+            "5. Mobile Fighter: 1/min; free action; As part of an attack you are about to make, you can leap on or over obstacles, swing from ropes, run along narrow surfaces, or otherwise move around the battlefield at your normal speed as if the tasks were trivial. You cannot use this feature while your stealth is impeded by your body armour.",
+            "6. While wielding a non-heavy weapon, you can help an ally near you avoid danger. Choose one creature within 5' of you. They have advantage on DEX saving throws until you choose to end this effect or you are no longer within range of each other. You have -2 to DEX saving throws while this effect persists.",
+            "7. When attempting a DEX saving throw, you can use your CHA in place of your DEX. It still counts as a DEX save.",
             "8. Return to Sender: 1/min; free action; If you block a melee attack, you can immediately make an attack of opportunity against the attacker.",
-            "9. Allies in combat with you have +2 on their advantaged rolls.",
-            "10. While wielding a non-heavy weapon, +3 to CHA saving throws."
+            "9. Allies within 60' of you gain an expertise die on their advantaged rolls.",
+            "10. While wielding a non-heavy weapon, gain a d6 expertise die in DEX saving throws."
         ]
     },
     {
@@ -2567,7 +2567,7 @@
             "2. You are immune to disease and poisons from creatures of CR less than your level. When you make a saving throw to resist a higher-CR toxin, the save has double advantage.",
             "3. Induce Regeneration: 1/LR; bonus action; You cut a piece of your flesh free and apply it to another creature's wound. Your transplanted regenerating flesh restores 1d6 hit points to the creature. This is a DC 9 Medicine check.",
             "4. Generate Carapace: 1/SR; bonus action; The outer layers of your skin calcify, giving you +2 AC until it sheds after 10 minutes.",
-            "5. Greater Regeneration: 1/week; bonus action; You restore your hit points to their maximum value. This is a DC 6 Medicine check.",
+            "5. Greater Regeneration: 1/week; bonus action; You restore 50% of your maximum hit points. This is a DC 6 Medicine check.",
             "6. Your consciousness and knowledge are concentrated into a rhizome tendril that protrudes 7cm from the back of your neck. You function normally, although the seat of your consciousness is located in the rhizome, not your brain. This shift provides several benefits: Your mental saving throws have advantage; you can detach the rhizome as a bonus action and mentally and remotely control your body at 120' range; You can shift your point of view between the rhizome and your body (or vice versa) as a bonus action (but if you shift your point of view away from your body, your body falls limp until your attention 'returns'); If your body is slain and the rhizome escapes, it can take root and regrow you completely in 3 days. The rhizome seed, while detached from your body, is a mobile creature. As the seed, you have 6 HP, and you can inflict 1d4 + level piercing damage with a spike. You have 13 AC and 5' speed, though you can deploy a fluffy vegetable 'wing' to drift on strong winds. If the rhizome seed is destroyed while detached from your body, you die.",
             "7. Your Regeneration feature's DC only increases by 1 on use.",
             "8. You are immune to disease and poisons from all creatures.",

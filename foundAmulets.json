@@ -2,13 +2,17 @@
     "Vinton": {
         "spellblade - awe strike (T1)": [
             "+1d4 lightning dmg to your melee hits",
-            "+1 mark effectiveness"
+            "+1 mark effectiveness",
+            "[T3 locked] +1 non-phys dmg with limited features",
+            "[T5 locked] while you have an aura, +1 melee non-phys dmg"
         ]
     },
     "Fillipo": {
         "void knight - eternal form (T1)": [
             "+1 INT",
-            "+1 max HP"
+            "+1 max HP",
+            "[T3 locked] when hit, 20% chance to gain psychic aegis, granting +2 dmg res until you go down",
+            "[T5 locked] when psychic aegis breaks, it erupts in a psychic rift, making spell atks against adj foes, dealing 1d4 psy"
         ]
     }
 }

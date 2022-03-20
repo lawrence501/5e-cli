@@ -1,18 +1,18 @@
 {
     "plains": [
         "QUEEN: Silver Dragon Wyrmling (4)",
-        "QUEEN: Indigo Faerie Dragon (5)",
         "QUEEN: Harpy (6)",
-        "JACK: Garra (7)"
+        "KING: Faerie Dragon (9)",
+        "QUEEN: Garra (10)"
     ],
     "forest": [
-        "JACK: Garra (7)",
-        "JACK: Cueyatl Sea Priest (8)"
+        "JACK: Cueyatl Sea Priest (8)",
+        "QUEEN: Garra (10)"
     ],
     "mountain": [
         "QUEEN: Harpy (6)",
-        "JACK: Garra (7)",
-        "JACK: Cueyatl Sea Priest (8)"
+        "JACK: Cueyatl Sea Priest (8)",
+        "QUEEN: Garra (10)"
     ],
     "aquatic": [
         "JACK: Cueyatl Sea Priest (8)"
