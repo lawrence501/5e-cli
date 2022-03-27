@@ -213,7 +213,7 @@
             "description": "Becomes a 1st-lvl spell. When cast, has a 25% chance to have its dmg doubled, and a 25% chance for it to be tripled. Still scales with caster lvls."
         },
         {
-            "name": "Draining Pestilence (0)",
+            "name": "Draining Pestilence (0) [done]",
             "description": "Dmg is converted to necrotic. The CON save is converted into a CHA save. Dmg dice are increased to d6s."
         },
         {
@@ -449,6 +449,14 @@
             "description": "The bonus increases to +16 during a rest."
         },
         {
+            "name": "Mighty Force Punch (1)",
+            "description": "The target is pushed 5' away from you for every 10 damage dealt."
+        },
+        {
+            "name": "Strong Force Punch (1)",
+            "description": "Deals additional force damage equal to double your STR mod (min 0)."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -678,7 +686,15 @@
         },
         {
             "name": "Varied Borrowed Knowledge (2)",
-            "description": "whenever you make a check with the chosen skill, you have a 20% chance to gain +1 to all other skills for the duration. Max once/rnd."
+            "description": "Whenever you make a check with the chosen skill, you have a 20% chance to gain +1 to all other skills for the duration. Max once/rnd."
+        },
+        {
+            "name": "Projected Mental Grip (2)",
+            "description": "You can now only target one of your minions. In addition to the spell's effects, all foes adj to the target are also grappled while the target is grappled."
+        },
+        {
+            "name": "Shredding Mental Grip (2)",
+            "description": "Whenever a target ends their turn grappled, it gets -1 phys res until the end of its next turn."
         },
         {
             "name": "Focused Incite Greed (3)",
@@ -911,6 +927,14 @@
         {
             "name": "Grappling Speak with Plants (3)",
             "description": "Bloodied creatures in the difficult terrain the spell can cause are instead grappled, with your spell save DC as the escape DC."
+        },
+        {
+            "name": "Refined Summon Fey (3)",
+            "description": "Now has a casting time of a full turn action. The spirit's base max HP is increased to 48 + 16 per spell lvl above 3rd."
+        },
+        {
+            "name": "Decaying Summon Fey (3)",
+            "description": "The spirit's shortsword attack deals an additional 1d6 necrotic dmg."
         }
     ],
     "manual": [

@@ -600,8 +600,8 @@
                 "upgrade": "-1 turn/4"
             },
             {
-                "description": "on first turn of combat, as movement action, can gain dmg imm until start of your next turn",
-                "pointValue": "4",
+                "description": "on first turn of combat, as action, can gain dmg imm until start of your next turn",
+                "pointValue": "2",
                 "upgrade": "change to 1/combat->-1 action step/3"
             },
             {
@@ -613,7 +613,7 @@
         ],
         "thematicMods": [
             {
-                "description": "1. on condi inflict, give target 1 fire DoT, stacking until CON save",
+                "description": "1. on condi inflict, give target 1 fire DoT, stacking until DEX save",
                 "pointValue": "1",
                 "upgrade": "1/1"
             },
@@ -10950,7 +10950,7 @@
         ]
     },
     {
-        "name": "Sculptor of Gore (CURRENTLY DISABLED; REROLL)",
+        "name": "Sculptor of Gore",
         "type": "weapon",
         "startingMods": [
             {
@@ -11001,7 +11001,7 @@
                 "upgrade": "+1 casting lvl/1"
             },
             {
-                "description": "-2 minion dmg; 2pts distributed",
+                "description": "7. -2 minion dmg; 2pts distributed",
                 "pointValue": "1",
                 "upgrade": "-1 and 2pts distributed/1"
             },
@@ -11019,6 +11019,371 @@
                 "description": "10. on block, heal 2 HP",
                 "pointValue": "2",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Assassination",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on debil, target has -2 dmg res until end of your next turn",
+                "pointValue": "3",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "while buffed, +2 single-target dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on maneuver use vs psn'd target, 30% chance to refund its exertion cost",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. -1 crit req vs targets you started your turn hidden from",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "2. on init, recover 1 exertion",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. your 6th wep atk, across combats, deals +6 dmg",
+                "pointValue": "1",
+                "upgrade": "+6 dmg/1"
+            },
+            {
+                "description": "4. +1 mark effectiveness",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. 1/combat, on mark, your next wep atk deals +5 dmg",
+                "pointValue": "1",
+                "upgrade": "+5/1"
+            },
+            {
+                "description": "6. when creature marked by you dies, recover resources spent on the mark",
+                "pointValue": "1",
+                "upgrade": "+1 mark effectiveness/3"
+            },
+            {
+                "description": "7. on psn DoT tick, heal 1 HP",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "8. 1/combat, when downed, instead remain at 1 HP. still triggers when downed effects",
+                "pointValue": "2",
+                "upgrade": "+1 HP/1"
+            },
+            {
+                "description": "9. when downed, +2 dmg res until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. on debil, inflict 1 S DoT, stacking until CON save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Grim Bulwark",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on wep hit vs bloodied target, 20% chance to deal 8 additional dmg",
+                "pointValue": "2",
+                "upgrade": "+10%/1 OR +4 dmg/1"
+            },
+            {
+                "description": "your S dmg is converted to cold",
+                "pointValue": "1",
+                "upgrade": "+1 cold dmg/1"
+            },
+            {
+                "description": "on wep hit, target is pushed up to 5' in dir of your choice",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on wep hit, +1 wep dmg until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. on wep hit, heal 1 HP",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. on wep hit, recover 1 spell slot lvl",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. on wep hit, 20% chance to curse target with a random negated wep mod for combat (max 3pt mods)",
+                "pointValue": "4",
+                "upgrade": "+10%/1 OR +1 max mod value/2"
+            },
+            {
+                "description": "5. on wep hit, +1 dmg res until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. +1 dmg with flexible weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. +1 minion non-phys res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. on wep hit, +1 wep AC until end of your next turn",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "The Diamond",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 global dmg vs bosses",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on SR, 60% chance to recover 1 LR cooldown",
+                "pointValue": "2",
+                "upgrade": "+20%/1"
+            },
+            {
+                "description": "+1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +2 dmg res vs bosses",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +2 limited buff effectiveness while a boss is within 60'",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. 20% chance to negate incoming extra crit dmg",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. +1 spell dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 wep dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 AC vs bosses",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. on wep hit, push target up to 5' in dir of your choice",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "8. +1 spell AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. +1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. on SR end, +2 dmg res until LR",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Blink Puppy's Hide",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "up to 10' of your movement can be converted to teleportation",
+                "pointValue": "2",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "+2 percep for hearing",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 percep for smell",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 percep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +15' darkvision",
+                "pointValue": "1",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "3. gain prof in blink dog language",
+                "pointValue": "1",
+                "upgrade": "+3->2 persuasion in blink dog/1"
+            },
+            {
+                "description": "4. +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 dmg res vs creatures with strong odour",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. as action, you can attempt to smell an adj creature (percep vs their CHA save) to gain +2 dmg res vs them for combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +4 intim vs fey",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "8. +1 sleight of hand",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on turn start, can gain +2 melee wep AB for turn in exchange for -1 AC until next turn",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. on hit, target cursed with -1 P res for combat",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            }
+        ]
+    },
+    {
+        "name": "Deflector of Wonder",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "on using a power on a creature, 20% chance to cast stinking cloud (no conc required) centred on their space. no conc is required and the area is reduced to 15'.",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "on using a power on a creature, 20% chance to cast slow on them (no conc required)",
+                "pointValue": "8",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "on using a power on a creature, 20% chance for leaves to grow from them that last until their next LR",
+                "pointValue": "-1",
+                "upgrade": "+20%/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on using a power on a creature, 40% chance for their skin to turn blue permanently",
+                "pointValue": "1",
+                "upgrade": "+20%/1"
+            },
+            {
+                "description": "2. on using a power on a creature, 40% chance for their skin to turn green permanently",
+                "pointValue": "1",
+                "upgrade": "+20%/1"
+            },
+            {
+                "description": "3. on using a power on a creature, 40% chance for their skin to turn purple permanently",
+                "pointValue": "1",
+                "upgrade": "+20%/1"
+            },
+            {
+                "description": "4. on using a power on a creature, 20% chance to cast summon beast (land) on an empty space adj to them. no conc is required, and the spell counts as 1st lvl",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "5. on using a power on a creature, 40% chance for heavy rain to fall in a 60' radius around you until the end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+20%/1"
+            },
+            {
+                "description": "6. on using a power on a creature, 40% chance to conjure a harmless mouse in an empty space adj to them",
+                "pointValue": "1",
+                "upgrade": "+20%/1"
+            },
+            {
+                "description": "7. on using a power on a creature, 20% chance to cast hypnotic pattern centred on them that lasts until the end of your next turn (no conc required)",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "8. on using a power on a creature, 20% chance to cast mirror image on yourself. It only lasts until the end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "9. on using a power on a creature, 20% chance to cast gust of wind in their direction. It doesn't require conc and only lasts until the end of your next turn",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "10. on using a power on a creature, 40% chance for the closest unattended obj to them (up to 30 cubic feet) to turn ethereal permanently",
+                "pointValue": "1",
+                "upgrade": "+20%/1"
             }
         ]
     }

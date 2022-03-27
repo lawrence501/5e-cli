@@ -199,6 +199,7 @@ var CONDITIONS []string = []string{
 	"sluggish",
 	"dominate",
 	"rattle",
+	"taunt",
 }
 
 var AOE_SHAPES []string = []string{

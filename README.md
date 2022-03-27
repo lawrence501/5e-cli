@@ -94,7 +94,7 @@ A dominated creature is charmed. Additionally, the creature that dominated it co
 
 ### Rattled
 
-Shares condition immunity with debilitation.
+Shares condition immunity with frighten.
 
 A rattled creature cannot benefit from expertise dice and cannot take reactions.
 

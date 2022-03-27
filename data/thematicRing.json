@@ -91,8 +91,8 @@
     },
     {
         "name": "master of command",
-        "mods": ["20% chance to refund resources spend on buffs", "+1 mark effectiveness"],
-        "tags": ["buff"]
+        "mods": ["+1 mark effectiveness"],
+        "tags": ["condi"]
     },
     {
         "name": "first among equals",
@@ -261,7 +261,7 @@
     },
     {
         "name": "unwavering focus",
-        "mods": ["+1 dmg with effects you're concentrating on", "20% chance to refund resources spent on conc powers", "+1 to condi saves while concentrating"],
+        "mods": ["+1 dmg with effects you're concentrating on", "+1 to condi saves while concentrating"],
         "tags": ["conc", "save"]
     },
     {
@@ -3223,5 +3223,55 @@
         "name": "righteous army",
         "mods": ["+1 passive regen", "+1 minion dmg", "+1 minion passive regen"],
         "tags": ["hp", "minion dmg", "minion hp"]
+    },
+    {
+        "name": "spiritual command",
+        "mods": ["+1 minion dmg", "modifiers to the dmg of your minions' wep hits also affect your wep dmg"],
+        "tags": ["minion dmg", "wep dmg"]
+    },
+    {
+        "name": "redemption",
+        "mods": ["+4 minion dmg"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "spiritual aid",
+        "mods": ["modifiers to the dmg of your minions also applies to your dmg"],
+        "tags": ["minion dmg", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "admonisher",
+        "mods": ["+1 buff effectiveness"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "natural authority",
+        "mods": ["creatures taunted by you have -1 dmg res", "+1 buff effectiveness"],
+        "tags": ["condi", "wep dmg", "spell dmg", "buff"]
+    },
+    {
+        "name": "arcane will",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "runesmith",
+        "mods": ["+1 pers area dmg", "creatures have -1 dmg res for each of your pers areas they are in"],
+        "tags": ["pers area", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "explosive runes",
+        "mods": ["+1 pers area crit dice", "+5' pers area movement speed"],
+        "tags": ["pers area", "crit"]
+    },
+    {
+        "name": "ethereal feast",
+        "mods": ["on spell hit, gain 1 temp HP", "+2 incoming temp HP"],
+        "tags": ["spell dmg", "temp HP"]
+    },
+    {
+        "name": "light eater",
+        "mods": ["on spell hit, gain 1 temp HP", "+1 incoming temp HP", "+1 global dmg while you have temp HP"],
+        "tags": ["spell dmg", "temp HP", "wep dmg"]
     }
 ]
