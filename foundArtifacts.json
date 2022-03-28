@@ -404,7 +404,7 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "on hit, target gets 1 S DoT, stacking until CON save",
+                    "description": "on hit, target gets 1 force DoT, stacking until CON save",
                     "pointValue": "2",
                     "upgrade": "+1/2"
                 },
@@ -468,12 +468,12 @@
             ]
         },
         {
-            "name": "1. Tymm's Tormenting (L2)",
+            "name": "1. Tymm's Tormenting (L3)",
             "type": "armour",
             "startingMods": [
                 {
-                    "description": "+2 intim",
-                    "pointValue": "2",
+                    "description": "+3 intim",
+                    "pointValue": "3",
                     "upgrade": "+1/1"
                 },
                 {
@@ -538,6 +538,80 @@
                     "description": "10. +2 dmg res while within 1 day of Aeston City",
                     "pointValue": "2",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "2. Tymm's Repulsion (T4)",
+            "type": "weapon",
+            "startingMods": [
+                {
+                    "description": "you may trigger your Repelling Blast even when a creature succeeds on their save against Eldritch Blast; +5' push distance",
+                    "pointValue": "7",
+                    "upgrade": "+5' push distance/2"
+                },
+                {
+                    "description": "your force dmg ignores imm; +1 force dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 force dmg/1"
+                },
+                {
+                    "description": "+2 max spell pts",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on init, recover 4 spell pts",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "2. your Repelling Blast ignores push imm",
+                    "pointValue": "3",
+                    "upgrade": "+5' push distance/2"
+                },
+                {
+                    "description": "3. on KB, recover 4 spell pts",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "4. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. you may have your Repelling Blast pull its target toward you instead of push (still counts as a push)",
+                    "pointValue": "1",
+                    "upgrade": "+5' push distance/2"
+                },
+                {
+                    "description": "6. +1 Eldritch Disturbance dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. your Repelling Blast pushes an additional 5' vs targets with higher sp than you",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "8. +3 spell dmg while within 1 day of Aeston City",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "9. you learn the Mind Sliver cantrip",
+                    "pointValue": "3",
+                    "upgrade": "+1 psy dmg/1"
+                },
+                {
+                    "description": "10. minions created with your Golem glyphic power have +10' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/1"
                 }
             ]
         }
