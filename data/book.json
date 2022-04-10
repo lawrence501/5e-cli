@@ -457,6 +457,30 @@
             "description": "Deals additional force damage equal to double your STR mod (min 0)."
         },
         {
+            "name": "Subtle Dramatic Sting (1)",
+            "description": "On cast, make a Performance check contested by the target's Perception. On success, the target is affected by the spell but does not realise it is targeted by a spell. Each round at the start of its turn, the target gains an expertise die on a Perception check they make for free made against your original Performance check to realise it has been targeted by a spell."
+        },
+        {
+            "name": "Critical Dramatic Sting (1)",
+            "description": "If this spell's original application is critically failed against, the target has -7 DoT dmg res vs creatures other than you for the duration."
+        },
+        {
+            "name": "Treasured Identify (1)",
+            "description": "If a magic item you identify is a rare+ wondrous item, an aspect of it is improved."
+        },
+        {
+            "name": "Disabling Identify (1)",
+            "description": "After identifying something, you may temporarily disable the magical effects identified until the end of your turn."
+        },
+        {
+            "name": "Unsettling Arcane Riposte (1)",
+            "description": "When you deal 10+ damage, the target is rattled until the end of your next turn."
+        },
+        {
+            "name": "Deflecting Arcane Riposte (1)",
+            "description": "You can cast this as a 2nd level spell to also add 2 to your AC against the triggering attack (can be decided after hearing the result of the attack roll)."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -697,6 +721,30 @@
             "description": "Whenever a target ends their turn grappled, it gets -1 phys res until the end of its next turn."
         },
         {
+            "name": "Blinding Mirror Image (2)",
+            "description": "When one of your illusory copies is destroyed, it explodes in a brilliant flash of light. A creature that destroys an illusory copy makes a CON save or is blind until the start of its next turn."
+        },
+        {
+            "name": "Minor Mirror Image (2)",
+            "description": "Can be cast as a 1st-lvl spell, but requires concentration when cast in this way."
+        },
+        {
+            "name": "Nullifying Calm Emotions (2)",
+            "description": "You can increase the area to a 60' sphere, but can only choose to suppress hostile feelings with the spell when you do so."
+        },
+        {
+            "name": "Halting Calm Emotions (2)",
+            "description": "You have a 3rd option of how to apply this spell to creatures: Roots the target in place. This ends if a target or any of its allies it can sense are targeted by any other hostile effect."
+        },
+        {
+            "name": "Deadly Nathair's Mischief (2)",
+            "description": "Is now a 3rd-level spell. Whenever a creature becomes affected by this spell (fails a save or is slowed by molasses), they take 2d10 slashing damage from whirling blades in the area."
+        },
+        {
+            "name": "Reckless Nathair's Mischief (2)",
+            "description": "All creatures have -2 to their saves against this spell."
+        },
+        {
             "name": "Focused Incite Greed (3)",
             "description": "The range decreases to 15' and the DC for substantial failures increases by 2."
         },
@@ -935,6 +983,30 @@
         {
             "name": "Decaying Summon Fey (3)",
             "description": "The spirit's shortsword attack deals an additional 1d6 necrotic dmg."
+        },
+        {
+            "name": "Reaching Spirit Shroud (3)",
+            "description": "The range limit increases to 30'."
+        },
+        {
+            "name": "Shocking Spirit Shroud (3)",
+            "description": "The only dmg type that can be chosen is now lightning. The dmg die increases to a d12."
+        },
+        {
+            "name": "Feasting Fear (3)",
+            "description": "The spell affects every creature within 30' of you. When you first cast the spell and again at the start of each of your turns, you gain temporary hit points equal to the number of frightened creatures you can see within 30' of you."
+        },
+        {
+            "name": "Bolstering Fear (3)",
+            "description": "While at least 1 creature is affected, at the start of each of your turns, you gain 1 dmg resistance. This bonus lasts until a creature you frightened with this spell damages you after the spell's effects have ended completely."
+        },
+        {
+            "name": "Nostalgic Speak with Dead (3)",
+            "description": "You can ask 3 additional questions, but the target's memories only go up to 1 year prior to its death."
+        },
+        {
+            "name": "Insightful Speak with Dead (3)",
+            "description": "You have +3 to insight checks to determine if the target is lying."
         }
     ],
     "manual": [
@@ -959,7 +1031,7 @@
             "description": "Can be used as a bonus action if you've made an Attack action this turn."
         },
         {
-            "name": "Shadowy Disarm (0)",
+            "name": "Forceful Disarm (0)",
             "description": "You knock the item up to 60' away in a direction of your choice. Gains a 6+ recharge."
         },
         {

@@ -72,7 +72,7 @@
     {
         "name": "vicious skewering",
         "mods": ["+2 mark effectiveness on targets afflicted by DoTs", "20% chance on wep hit to give -1 {physType} res for combat", "20% chance on wep hit to give 1 {physType} DoT until CON save"],
-        "tags": ["dot", "phys dmg"]
+        "tags": ["dot", "phys dmg", "wep dmg"]
     },
     {
         "name": "grim oath",
@@ -1432,7 +1432,7 @@
     {
         "name": "blunt trauma",
         "mods": ["on {weaponClass} crit, target pushed 5' away from you", "+1 {weaponClass} AB", "-1 {weaponClass} crit req", "+1 {weaponClass} crit dice"],
-        "tags": ["weapon class", "crit", "ab"]
+        "tags": ["weapon class", "crit"]
     },
     {
         "name": "fending",
@@ -1462,7 +1462,7 @@
     {
         "name": "fusillade",
         "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB"],
-        "tags": ["weapon class", "ab"]
+        "tags": ["weapon class"]
     },
     {
         "name": "static blows",
@@ -1482,12 +1482,12 @@
     {
         "name": "nightstalker",
         "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "+1 {weaponClass} crit dice", "+5' sp", "+1 to {abilityScore} saves"],
-        "tags": ["weapon class", "ab", "crit", "speed", "save"]
+        "tags": ["weapon class", "crit", "speed", "save"]
     },
     {
         "name": "flaying",
         "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "+5' {weaponClass} reach"],
-        "tags": ["weapon class", "ab"]
+        "tags": ["weapon class"]
     },
     {
         "name": "claws of the magpie",
@@ -1497,7 +1497,7 @@
     {
         "name": "claws of the falcon",
         "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} crit dice", "+1 {weaponClass} AB"],
-        "tags": ["weapon class", "crit", "ab"]
+        "tags": ["weapon class", "crit"]
     },
     {
         "name": "grave intentions",
@@ -1597,7 +1597,7 @@
     {
         "name": "blade master",
         "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "+5' reach with {weaponClass} weps"],
-        "tags": ["weapon class", "ab"]
+        "tags": ["weapon class"]
     },
     {
         "name": "poisonous fangs",
@@ -1607,7 +1607,7 @@
     {
         "name": "from the shadows",
         "mods": ["+1 dmg with {weaponClass} weps", "+1 {weaponClass} AB", "on KB, 20% chance to become incorporeal and gain +5' sp until end of your next turn"],
-        "tags": ["weapon class", "ab", "speed"]
+        "tags": ["weapon class", "speed"]
     },
     {
         "name": "soul raker",
@@ -1827,7 +1827,7 @@
     {
         "name": "galvanic hammer",
         "mods": ["+1 {dmgPolarity} dmg with {weaponClass} weps", "+1 {weaponClass} AB", "weps ignore {dmgPolarity} res"],
-        "tags": ["dmg polarity", "weapon class", "ab"]
+        "tags": ["dmg polarity", "weapon class"]
     },
     {
         "name": "coordination",
@@ -2011,8 +2011,8 @@
     },
     {
         "name": "void barrier",
-        "mods": ["+1 to {abilityScore} saves", "+1 incoming temp HP", "while you have temp HP, +1 spell dmg res"],
-        "tags": ["save", "temp hp"]
+        "mods": ["+1 to {abilityScore} saves", "+1 incoming temp HP", "while you have temp HP, +1 {hitForm} dmg res"],
+        "tags": ["save", "temp hp", "phys res", "non-phys res"]
     },
     {
         "name": "cloth and chain",
@@ -2321,8 +2321,8 @@
     },
     {
         "name": "quickstep",
-        "mods": ["+1 spell dmg res", "+5' sp"],
-        "tags": ["speed"]
+        "mods": ["+1 {hitForm} dmg res", "+5' sp"],
+        "tags": ["speed", "phys res", "non-phys res"]
     },
     {
         "name": "ribcage crusher",
@@ -2402,7 +2402,7 @@
     {
         "name": "blade of cunning",
         "mods": ["+1 {weaponClass} AB", "-1 {weaponClass} crit req", "+1 {weaponClass} crit dice"],
-        "tags": ["weapon class", "ab", "crit"]
+        "tags": ["weapon class", "crit"]
     },
     {
         "name": "tireless",
@@ -2586,7 +2586,7 @@
     },
     {
         "name": "quartz infusion",
-        "mods": ["+1 spell dmg res", "you can move through spaces of foes as if they were allies"],
+        "mods": ["+1 {hitForm} dmg res", "you can move through spaces of foes as if they were allies"],
         "tags": ["phys res", "non-phys res", "speed"]
     },
     {
@@ -3273,5 +3273,255 @@
         "name": "light eater",
         "mods": ["on spell hit, gain 1 temp HP", "+1 incoming temp HP", "+1 global dmg while you have temp HP"],
         "tags": ["spell dmg", "temp HP", "wep dmg"]
+    },
+    {
+        "name": "taste for blood",
+        "mods": ["on wep hit, heal 1 HP", "+1 incoming healing"],
+        "tags": ["hp", "wep dmg"]
+    },
+    {
+        "name": "tolerance",
+        "mods": ["+1 to condi saves", "+1 to DoT saves"],
+        "tags": ["save"]
+    },
+    {
+        "name": "divine judgement",
+        "mods": ["+2 {dmgPolarity} dmg"],
+        "tags": ["dmg polarity"]
+    },
+    {
+        "name": "divine fury",
+        "mods": ["on {physType} hit, +1d4 {nonPhysType} dmg", "ignore {nonPhysType} res"],
+        "tags": ["phys dmg", "non-phys dmg"]
+    },
+    {
+        "name": "divine wrath",
+        "mods": ["on {physType} hit, +1d4 {nonPhysType} dmg", "ignore {nonPhysType} res"],
+        "tags": ["phys dmg", "non-phys dmg"]
+    },
+    {
+        "name": "resourcefulness",
+        "mods": ["+3 {hitForm} dmg res", "+1 incoming temp HP", "+1 max HP"],
+        "tags": ["phys res", "non-phys res", "temp hp", "hp"]
+    },
+    {
+        "name": "soul thief",
+        "mods": ["+2 to {abilityScore} saves", "+1 incoming temp HP", "on KB, gain 1 temp HP"],
+        "tags": ["save", "temp hp"]
+    },
+    {
+        "name": "mysticism",
+        "mods": ["+3 spell dmg while dual-wielding"],
+        "tags": ["spell dmg", "dual-wielding"]
+    },
+    {
+        "name": "dark arts",
+        "mods": ["+1 AC while dual-wielding", "+1 global dmg while dual-wielding"],
+        "tags": ["wep ac", "spell ac", "dual-wielding", "spell dmg"]
+    },
+    {
+        "name": "enigmatic defence",
+        "mods": ["while holding a {weaponClass} wep, +1 AC", "while holding a {weaponClass} wep, +1 spell dmg"],
+        "tags": ["weapon class", "wep ac", "spell ac", "spell dmg"]
+    },
+    {
+        "name": "enigmatic reach",
+        "mods": ["while holding a {weaponClass} wep, +1 global dmg", "+10' AoE sizes per crit req below 20"],
+        "tags": ["weapon class", "spell dmg", "aoe", "crit"]
+    },
+    {
+        "name": "arcane guarding",
+        "mods": ["while holding a shield, +1 spell AC", "while holding a shield, +1 incoming temp HP"],
+        "tags": ["holding shield", "spell ac", "temp hp"]
+    },
+    {
+        "name": "arcane sanctuary",
+        "mods": ["while holding a shield, +1 spell dmg", "while holding a shield, +1 to condi saves"],
+        "tags": ["holding shield", "spell dmg", "save"]
+    },
+    {
+        "name": "arcane expanse",
+        "mods": ["+5' spell AoE sizes"],
+        "tags": ["aoe", "spell dmg"]
+    },
+    {
+        "name": "swift venoms",
+        "mods": ["+1 DoT dmg", "+2 wep dmg"],
+        "tags": ["dot", "wep dmg"]
+    },
+    {
+        "name": "gladiator's perseverance",
+        "mods": ["while on full HP, +2 wep dmg", "on wep hit, heal 2 HP", "if you've been healed since start of your last turn, +1 wep dmg"],
+        "tags": ["hp", "wep dmg"]
+    },
+    {
+        "name": "brinkmanship",
+        "mods": ["+5' self-burst radii"],
+        "tags": ["aoe"]
+    },
+    {
+        "name": "fleetfoot",
+        "mods": ["+1 to {abilityScore} saves", "+5' sp"],
+        "tags": ["save", "speed"]
+    },
+    {
+        "name": "silent steps",
+        "mods": ["+1 to {abilityScore} saves", "+1 to condi DCs"],
+        "tags": ["save", "condi"]
+    },
+    {
+        "name": "freedom of movement",
+        "mods": ["while buffed, +1 to {abilityScore} saves", "while buffed, +5' sp", "+1 {abilityScore}"],
+        "tags": ["buff", "save", "speed", "ability score"]
+    },
+    {
+        "name": "inexorable",
+        "mods": ["when hit, 20% chance to gain +2 dmg res for combat", "if you haven't moved since start of your last turn, +3 {physType} res"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "adamant",
+        "mods": ["+1 {physType} res", "on Dodge action, remove a condi from yourself", "effects of the Dodge action last 1 additional rnd"],
+        "tags": ["phys res"]
+    },
+    {
+        "name": "dismembering",
+        "mods": ["-1 melee crit req", "+1 melee crit dice", "on wep crit, 20% chance to slow target until end of your next turn"],
+        "tags": ["melee", "crit", "condi"]
+    },
+    {
+        "name": "steadfast",
+        "mods": ["while buffed, +2 dmg res"],
+        "tags": ["buff", "phys res", "non-phys res"]
+    },
+    {
+        "name": "season of ice",
+        "mods": ["+1 DoT dmg", "+1 to condi DCs"],
+        "tags": ["dot", "condi"]
+    },
+    {
+        "name": "inveterate",
+        "mods": ["+3 {hitForm} dmg res"],
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "name": "merciless skewering",
+        "mods": ["your mark dmg ignores res", "on wep hit, 20% chance to mark target with -1 {physType} res for the next relevant hit", "+1 mark effectiveness"],
+        "tags": ["condi", "phys dmg", "wep dmg"]
+    },
+    {
+        "name": "forceful skewering",
+        "mods": ["your mark dmg ignores res", "on wep hit, 20% chance to mark target with -1 {physType} res for the next relevant hit", "+1 mark effectiveness"],
+        "tags": ["condi", "phys dmg", "wep dmg"]
+    },
+    {
+        "name": "magmatic strikes",
+        "mods": ["on {physType} hit, +1d4 {nonPhysType} dmg"],
+        "tags": ["phys dmg", "non-phys dmg"]
+    },
+    {
+        "name": "dazzling strikes",
+        "mods": ["-1 crit req vs condi'd targets", "on wep hit, 20% chance to blind target until end of your next turn", "+1 to condi DCs"],
+        "tags": ["crit", "condi", "wep dmg"]
+    },
+    {
+        "name": "disciple of the slaughter",
+        "mods": ["+1 global dmg", "on KB, 20% chance to gain +1 global dmg for combat", "while buffed, +1 global dmg"],
+        "tags": ["buff", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "disciple of the unyielding",
+        "mods": ["+1 dmg res", "on KB, 20% chance to gain +1 dmg res for combat", "while buffed, +1 dmg res"],
+        "tags": ["phys res", "non-phys res", "buff"]
+    },
+    {
+        "name": "longshot",
+        "mods": ["+1 proj AB", "+1 proj dmg vs targets 60+' away from you"],
+        "tags": ["proj", "ab"]
+    },
+    {
+        "name": "utmost swiftness",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "utmost might",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "utmost intellect",
+        "mods": ["+1 {abilityScore}"],
+        "tags": ["ability score"]
+    },
+    {
+        "name": "prismatic skin",
+        "mods": ["+1 non-phys abs"],
+        "tags": ["non-phys res"]
+    },
+    {
+        "name": "feller of foes",
+        "mods": ["+1 {weaponClass} dmg", "while holding a {weaponClass} wep, +1 crit dice", "while holding a {weaponClass} wep, +1 {hitForm} AB"],
+        "tags": ["weapon class", "crit", "ab"]
+    },
+    {
+        "name": "pain forger",
+        "mods": ["while holding a {weaponClass} wep, -1 crit req", "while holding a {weaponClass} wep, +1 to condi DCs", "on condi, 20% chance to gain -1 crit req for combat"],
+        "tags": ["weapon class", "crit", "condi"]
+    },
+    {
+        "name": "courage",
+        "mods": ["if you've been hit since your last turn, +1 {physType} res", "if you haven't been hit since your last turn, +2 to {abilityScore} saves", "if you've hit since start of your last turn, +1 {hitForm} dmg res"],
+        "tags": ["save", "phys res", "non-phys res"]
+    },
+    {
+        "name": "blacksmith's clout",
+        "mods": ["+1 {weaponClass} dmg", "while holding a {weaponClass} wep, +1 crit dice"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "spinecruncher",
+        "mods": ["+2 {weaponClass} dmg", "+1 to ongoing effect DCs vs targets on full HP"],
+        "tags": ["weapon class", "condi"]
+    },
+    {
+        "name": "entrench",
+        "mods": ["+1 {hitForm} dmg res", "on taking {hitForm} dmg, recover 1 hit die"],
+        "tags": ["phys res", "non-phys res", "max hit dice"]
+    },
+    {
+        "name": "bladedancer",
+        "mods": ["+1 {weaponClass} dmg", "while holding a {weaponClass} wep, +5' reach"],
+        "tags": ["weapon class"]
+    },
+    {
+        "name": "farsight",
+        "mods": ["+1 {weaponClass} dmg", "while holding a {weaponClass} wep, +1 wep AB"],
+        "tags": ["weapon class"]
+    },
+    {
+        "name": "claws of the hawk",
+        "mods": ["while holding a {weaponClass} wep, -1 crit req", "while holding a {weaponClass} wep, +1 crit dice"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "backstabbing",
+        "mods": ["while holding a {weaponClass} wep, -1 crit req", "while holding a {weaponClass} wep, +1 crit dice", "-1 crit req vs targets on full HP"],
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "name": "wasting",
+        "mods": ["+3 DoT dmg", "+2 {nonPhysType} res"],
+        "tags": ["dot", "non-phys res"]
+    },
+    {
+        "name": "disintegration",
+        "mods": ["while holding a {weaponClass} wep, -1 crit req", "while holding a {weaponClass} wep, +1 crit dice", "+1 {abilityScore}"],
+        "tags": ["weapon class", "crit", "ability score"]
+    },
+    {
+        "name": "titanic impacts",
+        "mods": ["while holding a {weaponHands} wep, +1 crit dice"],
+        "tags": ["weapon hands"]
     }
 ]

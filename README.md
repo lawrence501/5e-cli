@@ -137,6 +137,12 @@ Splash damage is always optional. It deals its damage, up to the amount of the o
 
 While riding your mount, your AC increases by 1.
 
-## Ideas for next campaign
+## Ideas for next campaign/things to discuss
 
 - Increase base value of dmg + res from 1 to 2 (dmg because it's usually multiplied by extra atk or single-target) (res because early on it's super powerful, and later it's multiplied by multiatk)
+
+- Ban homebrew classes? Still allow homebrew subclasses? Harder for a subclass to spiral out of defined balance constraints. Loads of subclass + class options nowadays
+
+- How do people feel about the themepark-ness structure of our campaigns? As opposed to more sandboxy concepts where the players define their own goals and ambitions (Downside is potentially campaign length). Subquestion if happy, how about streamlining exploration elements (eg. food/water/resources, searching for loot, etc.) (If wanting to bring them back, I'd want them to be more involved, and not just extra words for everyone to say)
+
+- How do people feel about current character customisation through loot? Currently lots of different elements involved, and periods of loot rolls + town stuff often takes over an hour due to many decision points
