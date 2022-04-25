@@ -464,7 +464,7 @@
     {
         "description": "you can breathe underwater",
         "pointValue": "1",
-        "upgrade": "+10' swim sp/1",
+        "upgrade": "+10'->5' swim sp/1",
         "tags": ["armour"]
     },
     {
@@ -1398,9 +1398,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "on KB, gain 5 temp HP",
+        "description": "on KB, gain 4 temp HP",
         "pointValue": "1",
-        "upgrade": "5/1",
+        "upgrade": "4/1",
         "tags": ["weapon"]
     },
     {

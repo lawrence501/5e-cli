@@ -306,7 +306,7 @@
         },
         {
             "name": "Ravaging Dissonant Whispers (1)",
-            "description": "On sub hit, radiate an aura for the remainder of combat that gives you -1 passive regen and deals 3 psy spell dmg"
+            "description": "On sub hit, radiate an aura for the remainder of combat that gives you -1 passive regen and deals 3 psy spell dmg to foes"
         },
         {
             "name": "Hellish Dissonant Whispers (1)",
@@ -479,6 +479,38 @@
         {
             "name": "Deflecting Arcane Riposte (1)",
             "description": "You can cast this as a 2nd level spell to also add 2 to your AC against the triggering attack (can be decided after hearing the result of the attack roll)."
+        },
+        {
+            "name": "Lasting Animal Friendship (1)",
+            "description": "So long as the target has a CR equal to or less than half your prof bonus, the spell's duration becomes permanent until it is dispelled or you cast it again."
+        },
+        {
+            "name": "Adorable Animal Friendship (1)",
+            "description": "If the target is Tiny, you have a +1 bonus to social checks while it is within 10' of you."
+        },
+        {
+            "name": "Contagious Cause Fear (1)",
+            "description": "Whenever the target fails its save to end the effect, a foe of yours adj to the target is targeted by this spell, using the same concentration as the original casting."
+        },
+        {
+            "name": "Debilitating Cause Fear (1)",
+            "description": "While the target is healthy, they are debilitated instead of frightened."
+        },
+        {
+            "name": "Dextrous Calculated Retribution (1)",
+            "description": "When you gain the retribution charge, you heal hit points equal to half your DEX mod (rounded up)."
+        },
+        {
+            "name": "Culling Calculated Retribution (1)",
+            "description": "The damage increases to 3d10 against bloodied targets."
+        },
+        {
+            "name": "Lasting Harmonic Resonance (1)",
+            "description": "The spell's effects continue for 1 round after it ends."
+        },
+        {
+            "name": "Passive Harmonic Resonance (1)",
+            "description": "No longer requires verbal or somatic components."
         },
         {
             "name": "Purging Lemure Transformation (2)",
@@ -745,6 +777,38 @@
             "description": "All creatures have -2 to their saves against this spell."
         },
         {
+            "name": "Refracting Skywrite (2)",
+            "description": "All creatures on your landmass can see the writing so long as they can see the open sky."
+        },
+        {
+            "name": "Influential Skywrite (2)",
+            "description": "You have +1 to persuasion and deception checks for topics that the receiving creature has read in the skywriting in the past week."
+        },
+        {
+            "name": "Swift Pyrotechnics (2)",
+            "description": "Can now be cast as a bonus action."
+        },
+        {
+            "name": "Blinding Pyrotechnics (2)",
+            "description": "Creatures reduce their saving throws by 1 against the Fireworks."
+        },
+        {
+            "name": "Penetrating See Invisibility (2)",
+            "description": "For the duration, you ignore physical resistances."
+        },
+        {
+            "name": "Revealing See Invisibility (2)",
+            "description": "This is now a 3rd-lvl spell. Invisible creatures and objects you see are stripped of their invisibility while you can see them."
+        },
+        {
+            "name": "Imparted Invisibility (2)",
+            "description": "Until the spell ends, any object that the target picks up becomes invisible even after it is dropped."
+        },
+        {
+            "name": "Instant Invisibility (2)",
+            "description": "No longer requires concentration, but only lasts until the end of your next turn. Is no longer broken by the target attacking or casting a spell."
+        },
+        {
             "name": "Focused Incite Greed (3)",
             "description": "The range decreases to 15' and the DC for substantial failures increases by 2."
         },
@@ -1007,6 +1071,38 @@
         {
             "name": "Insightful Speak with Dead (3)",
             "description": "You have +3 to insight checks to determine if the target is lying."
+        },
+        {
+            "name": "Swift Fly (3)",
+            "description": "The flying speed increases to 90'."
+        },
+        {
+            "name": "Cautious Fly (3)",
+            "description": "If the spell ends when the target is airborne, they teleport to an empty space within 5' of you, if possible, instead of falling."
+        },
+        {
+            "name": "Mass Tongues (3)",
+            "description": "You can now target up to 4 creatures."
+        },
+        {
+            "name": "Intimidating Tongues (3)",
+            "description": "The target has +3 to intimidation against creatures who do not speak common for the duration."
+        },
+        {
+            "name": "Shocking Summon Undead (3)",
+            "description": "Grave Bolt's necrotic damage is converted to lightning, and its dmg die increases to 3d4. The Putrid Form's sources of poisoned are converted into double disadv on saves against debilitated. Instead of inflicting frightened, Deathly Touch deals an additional 2d6 lightning damage."
+        },
+        {
+            "name": "Decaying Summon Undead (3)",
+            "description": "On hit, the spirit inflicts 2 damage over time of the hit's base type, stacking until CON save."
+        },
+        {
+            "name": "Desperate Gaseous Form (3)",
+            "description": "While the target has fewer hit points than you, it can attack while affected."
+        },
+        {
+            "name": "Scudding Gaseous Form (3)",
+            "description": "The target can now move through liquids, but they take 1 force dmg whenever they enter liquid or start their turn in liquid. The target can breathe any liquid for the duration."
         }
     ],
     "manual": [
@@ -1020,7 +1116,7 @@
         },
         {
             "name": "Shadowy Grapple (0)",
-            "description": "While grappling a target, gain an expertise die on DEX saves."
+            "description": "While grappling a target, gain +1 to DEX saves."
         },
         {
             "name": "Frosty Grapple (0)",

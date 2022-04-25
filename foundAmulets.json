@@ -2,16 +2,32 @@
     "Vinton": {
         "spellblade - awe strike (T2)": [
             "+1d6 lightning dmg to your melee hits [+1]",
-            "+1 mark effectiveness",
+            "+1 aura effectiveness",
             "[T3 locked] +1 non-phys dmg with limited features",
             "[T5 locked] while you have an aura, +1 melee non-phys dmg"
         ]
     },
     "Fillipo": {
+        "void knight - eternal form (T2 + 1/2)": [
+            "+2 CHA [+1]",
+            "+1 max HP",
+            "[T3 locked] when hit, 20% chance to gain psychic aegis, granting +2 dmg res until you are bloodied or go down",
+            "[T5 locked] when psychic aegis breaks, it erupts in a psychic rift, making spell atks against adj foes, dealing 1d4 psy"
+        ]
+    },
+    "Tymm": {
+        "beastmaster - the circle of life (T2)": [
+            "on KB, 30% chance to gain +3 melee dmg until end of your next turn [+10%]",
+            "on hit, heal 3 HP",
+            "[T3 locked] on KB effects on this amulet also trigger on boss hit",
+            "[T5 locked] melee dmg goes to +5"
+        ]
+    },
+    "Eva": {
         "void knight - eternal form (T1)": [
             "+1 INT",
             "+1 max HP",
-            "[T3 locked] when hit, 20% chance to gain psychic aegis, granting +2 dmg res until you go down",
+            "[T3 locked] when hit, 20% chance to gain psychic aegis, granting +2 dmg res until you are bloodied or go down",
             "[T5 locked] when psychic aegis breaks, it erupts in a psychic rift, making spell atks against adj foes, dealing 1d4 psy"
         ]
     }

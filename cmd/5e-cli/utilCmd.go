@@ -332,3 +332,8 @@ var nonPhysType = func() error {
 	log.Printf("Non-physical damage type: %s", NON_PHYS_TYPES[rand.Intn(len(NON_PHYS_TYPES))])
 	return nil
 }
+
+var class = func() error {
+	log.Printf("Class: %s", CLASSES[rand.Intn(len(CLASSES))])
+	return nil
+}

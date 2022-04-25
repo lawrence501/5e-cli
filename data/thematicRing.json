@@ -17,7 +17,7 @@
     {
         "name": "strike leader",
         "mods": ["+1 wep AC", "+1 {hitForm} dmg while holding a shield", "+5' wep reach while holding a shield"],
-        "tags": ["wep ac", "holding shield"]
+        "tags": ["wep ac", "holding shield", "melee"]
     },
     {
         "name": "powerful ward",
@@ -1402,7 +1402,7 @@
     {
         "name": "bone breaker",
         "mods": ["+1 dmg with {weaponClass} weps", "+5' AoE sizes", "+5' reach with {weaponClass} weps"],
-        "tags": ["weapon class", "aoe"]
+        "tags": ["weapon class", "aoe", "melee"]
     },
     {
         "name": "diamond skin",
@@ -3267,12 +3267,12 @@
     {
         "name": "ethereal feast",
         "mods": ["on spell hit, gain 1 temp HP", "+2 incoming temp HP"],
-        "tags": ["spell dmg", "temp HP"]
+        "tags": ["spell dmg", "temp hp"]
     },
     {
         "name": "light eater",
         "mods": ["on spell hit, gain 1 temp HP", "+1 incoming temp HP", "+1 global dmg while you have temp HP"],
-        "tags": ["spell dmg", "temp HP", "wep dmg"]
+        "tags": ["spell dmg", "temp hp", "wep dmg"]
     },
     {
         "name": "taste for blood",
@@ -3523,5 +3523,50 @@
         "name": "titanic impacts",
         "mods": ["while holding a {weaponHands} wep, +1 crit dice"],
         "tags": ["weapon hands"]
+    },
+    {
+        "name": "kinetic impacts",
+        "mods": ["+1 {weaponHands} wep dmg", "your condis have double duration", "on hit, 20% chance to increase dmg by 1"],
+        "tags": ["weapon hands", "condi", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "aggressive bastion",
+        "mods": ["while holding a shield, +1 wep AC", "while holding a shield, +1 wep dmg", "while holding a shield, on KB, 20% chance to gain +1 dmg res for combat"],
+        "tags": ["holding shield", "wep ac", "spell ac", "phys res", "non-phys res"]
+    },
+    {
+        "name": "safeguard",
+        "mods": ["+1 {dmgPolarity} res", "on blocking a spell, gain 1 temp HP", "while holding a {weaponClass} wep or shield, +1 spell AC"],
+        "tags": ["phys res", "non-phys res", "spell ac", "temp hp", "weapon class", "holding shield"]
+    },
+    {
+        "name": "warrior training",
+        "mods": ["+5' reach", "your melee hits splash 1 dmg"],
+        "tags": ["melee", "aoe"]
+    },
+    {
+        "name": "steelwood stance",
+        "mods": ["+1 {weaponClass} dmg", "if you've blocked since your last turn, +1 {physType} res", "while holding a {weaponClass} wep, +1 wep AC"],
+        "tags": ["weapon class", "wep ac", "spell ac", "phys res"]
+    },
+    {
+        "name": "one with the river",
+        "mods": ["while holding a {weaponClass} wep, +1 {dmgPolarity} dmg", "wep dmg ignores {dmgPolarity} res"],
+        "tags": ["weapon class", "dmg polarity"]
+    },
+    {
+        "name": "deadly draw",
+        "mods": ["while holding a {weaponClass} wep, +3 DoT dmg", "+3 DoT dmg", "-1 to your DoT end DCs"],
+        "tags": ["weapon class", "dot"]
+    },
+    {
+        "name": "arcane capacitor",
+        "mods": ["on KB, 20% chance to gain +6 spell dmg until end of your next turn"],
+        "tags": ["spell dmg"]
+    },
+    {
+        "name": "carrion",
+        "mods": ["foes cursed by you have -1 passive regen", "if you've hit a cursed target since start of your last turn, +1 passive regen"],
+        "tags": ["condi", "hp"]
     }
 ]

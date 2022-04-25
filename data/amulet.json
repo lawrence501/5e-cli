@@ -41,7 +41,7 @@
   },
   {
     "name": "paladin - prayer",
-    "mods": ["if you've used a healing power since start of your last turn, +1 global dmg and +1 outgoing healing"],
+    "mods": ["if you've healed an ally since start of your last turn, +1 global dmg and +1 outgoing healing"],
     "upgrade": "+1"
   },
   {
@@ -427,7 +427,7 @@
   {
     "name": "beastmaster - the circle of life",
     "mods": ["on KB, 20% chance to gain +3 melee dmg until end of your next turn", "on KB, heal 3 HP"],
-    "upgrade": "+10% ALT +2 NOT melee dmg"
+    "upgrade": "+10% ALT +2 HP NOT melee dmg"
   },
   {
     "name": "beastmaster - viper fangs",

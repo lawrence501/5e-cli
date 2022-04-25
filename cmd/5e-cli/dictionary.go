@@ -329,3 +329,21 @@ var XILOANS []string = []string{
 	"mensis",
 	"gawdian",
 }
+
+var CLASSES []string = []string{
+	"adept",
+	"bard",
+	"berserker",
+	"cleric",
+	"druid",
+	"fighter",
+	"herald",
+	"marshal",
+	"ranger",
+	"rogue",
+	"sorcerer",
+	"warlock",
+	"wizard",
+	"artificer",
+	"savant",
+}

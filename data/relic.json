@@ -8286,7 +8286,7 @@
         ]
     },
     {
-        "name": "The Stygian Architect",
+        "name": "Stygius",
         "type": "armour",
         "startingMods": [
             {
@@ -11822,6 +11822,1320 @@
                 "description": "10. +1 spell dmg res",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Black Bulwark",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 global dmg vs targets with full HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 global dmg to targets you are flanking",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 dmg res vs creatures with full HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. your projs have half range; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 4pts distributed/1"
+            },
+            {
+                "description": "2. +1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 acro for balancing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 dmg res while adj to Eva",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 wep AC while holding a shield",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. your projs splash 1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 spell AC while holding a shield",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. +2 minion dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. you count as an ooze",
+                "pointValue": "1",
+                "upgrade": "+1 AC vs oozes/2"
+            },
+            {
+                "description": "10. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "The Holy",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "on spending spell slot, 30% chance to refund it",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "your dazes are now debils",
+                "pointValue": "1",
+                "upgrade": "+1 to debil DCs/3"
+            },
+            {
+                "description": "your condis that are usually broken by dmg have a 20% chance to not be broken",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +5' push distance",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "2. on push, target slowed until CHA save",
+                "pointValue": "1",
+                "upgrade": "+1 to slow DCs/3"
+            },
+            {
+                "description": "3. on heal ally, 20% chance for your next heal to have +4 healing",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +4 healing/1"
+            },
+            {
+                "description": "4. on heal ally, 20% chance for your next heal to refund its cost",
+                "pointValue": "2",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "5. on spell hit, 20% chance for your next heal to have +3 healing",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +2 healing/1"
+            },
+            {
+                "description": "6. on spell hit, 20% chance for your next heal to refund its cost",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "7. on heal ally, adj allies heal 1 HP",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. on heal ally, +1 outgoing healing for combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on heal ally, 20% chance to grant them +1 passive regen for combat",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 regen/3"
+            },
+            {
+                "description": "10. +1 outgoing healing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Mentor's Hand",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "your wep crits deal 1d6 additional S dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "this wep's prof tier is reduced by 1",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "on wep crit fail atk, you have +1 to your next wep atk roll before end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 aths for climbing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 exp gain",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. -1 wep crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "6. +1 1h wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. on wep crit fail atk, target takes 1d4 S wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 crit fail threshold with martial weps; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 2pts distributed/1"
+            },
+            {
+                "description": "9. +1 martial wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 CON",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Endless Hunger",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1 to debil saves",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+2 init",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+40' minion darkvision",
+                "pointValue": "2",
+                "upgrade": "+20'/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 spell dmg res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 to minion debil saves",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. you are 1 size larger",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. you may react to an incoming condi to change it into debil",
+                "pointValue": "1",
+                "upgrade": "+1 to debil saves/2"
+            },
+            {
+                "description": "5. +1 dmg res vs creatures behind you in turn tracker",
+                "pointValue": "1",
+                "upgrade": "1/1"
+            },
+            {
+                "description": "6. +1 AC vs creatures behind you in turn tracker",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. +2 acid res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 to debil saves vs creatures behind you in turn tracker",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 max hit dice",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "10. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "The Confusion of All",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1 non-phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 to min loot rolls",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to your lowest AS",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. on resisting all dmg from a hostile, non-phys hit, 20% chance to gain 2 loot rolls on combat end",
+                "pointValue": "4",
+                "upgrade": "+10%/1 OR +1 roll/2"
+            },
+            {
+                "description": "3. on KB, 30% chance to gain a loot roll on combat end",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "4. +1 healing from hit dice",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. +5' self-burst AoE sizes",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "6. your light dmg is converted to psn",
+                "pointValue": "1",
+                "upgrade": "+1 psn dmg/1"
+            },
+            {
+                "description": "7. you can breathe underwater",
+                "pointValue": "1",
+                "upgrade": "+10'->5' swim sp/1"
+            },
+            {
+                "description": "8. +4 NPC ally effectiveness",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "9. +1 non-phys abs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "10. your hits have a 20% chance to deal +1d4 light dmg",
+                "pointValue": "4",
+                "upgrade": "+10%/1 OR +1 size/1"
+            }
+        ]
+    },
+    {
+        "name": "Sculptor of Power",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "1/LR, can cast Magic Missile at 2nd lvl",
+                "pointValue": "2",
+                "upgrade": "+1 lvl/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on crit fail wep atk, blast of energy in 30' self-burst, spell atk dealing 1d6 force",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. -1 AoE dmg res; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "3. +1 dmg res vs creatures debuffed by you",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. light created by you sheds +15' of light",
+                "pointValue": "1",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "5. +2 wep dmg with height adv",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +2 wep dmg while concentrating",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 to stagger DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +1 dmg res while concentrating",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 cold dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 fire dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Diviner's Heart",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 investigation if you can see",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "if this relic is lvl 10, you can cast Antimagic Field 1/LR",
+                "pointValue": "4",
+                "upgrade": "+1 time/4"
+            },
+            {
+                "description": "if this relic is lvl 5+, you can see into the ethereal plane",
+                "pointValue": "1",
+                "upgrade": "+5' truesight/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +15' darkvision",
+                "pointValue": "1",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "2. your darkvision is not impeded by magical darkness",
+                "pointValue": "3",
+                "upgrade": "+15'->10' darkvision/1"
+            },
+            {
+                "description": "3. +1 percep with sight",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. if this relic is lvl 5+, +20' blindsight",
+                "pointValue": "1",
+                "upgrade": "+20'/1"
+            },
+            {
+                "description": "5. if this relic is lvl 5+, you can see through 1' of stone",
+                "pointValue": "1",
+                "upgrade": "+1'/1"
+            },
+            {
+                "description": "6. if this relic is lvl 5+, you can see through 1 inch of metal",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. if this relic is lvl 5+, you can see through 3' of wood",
+                "pointValue": "1",
+                "upgrade": "+2'/1"
+            },
+            {
+                "description": "8. if this relic is lvl 5+, you can see through 3' of dirt",
+                "pointValue": "1",
+                "upgrade": "+2'/1"
+            },
+            {
+                "description": "9. if this relic is lvl 5+, +3 investigation if you can see",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "10. if this relic is lvl 10, +25' truesight",
+                "pointValue": "1",
+                "upgrade": "+25'/1"
+            }
+        ]
+    },
+    {
+        "name": "Planar Survival",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+5 survival while not in the material plane",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+2 environmental dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 dmg res while not in the material plane",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 AC while not in the material plane",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +1 to your necromancy spell DCs",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 dmg abs while not in the material plane",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. incoming fire dmg is converted to light",
+                "pointValue": "1",
+                "upgrade": "+2->1 light res/1"
+            },
+            {
+                "description": "6. +1 to death saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. +1 dmg abs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +1 to your WIS save DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. +2 incoming healing while not in the material plane",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +3 trap dmg res",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Crescent Moon",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "when hit, recover 2 spell slot lvls",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 force res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on hit, recover 1 spell slot lvl",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 1st-lvl spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot/3 OR +1 lvl/3"
+            },
+            {
+                "description": "2. on hit, heal 1 HP",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. -15' darkvision; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-10' and 2pts distributed/1"
+            },
+            {
+                "description": "4. +1 force abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. react to convert incoming dmg to force",
+                "pointValue": "1",
+                "upgrade": "+2->1 force res/1"
+            },
+            {
+                "description": "6. 20% chance to refund spent spell slots",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "7. +1 proj AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. on recover spell slot, heal 2 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 INT",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. on recover spell slot, +2 dmg res until your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Breaker of the Air Elemental",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1 wep AB with height adv",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+1 max exertion",
+                "pointValue": "5",
+                "upgrade": "+1/5"
+            },
+            {
+                "description": "+1 passive regen",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. your KBs splash 4 dmg",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "2. on wep hit, taunt your target until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1 dmg res vs taunted creatures/1"
+            },
+            {
+                "description": "3. +4 wep dmg during first rnd of combat",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "4. on boss hit, summon CR 1/8 air elemental minion (medium, B dmg)",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. -3 max HP; +2 pts distributed",
+                "pointValue": "1",
+                "upgrade": "-2 and 2pts distributed/1"
+            },
+            {
+                "description": "6. your maneuvers deal +1d4 fire dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. your maneuvers deal +1d4 acid dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 AB with maneuvers",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. learn the Knockdown Assault maneuver",
+                "pointValue": "1",
+                "upgrade": "+1 to your prone DCs/3"
+            }
+        ]
+    },
+    {
+        "name": "Ruin",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "you are 75% more likely to find random encounters while travelling",
+                "pointValue": "5",
+                "upgrade": "+15%/1"
+            },
+            {
+                "description": "random encounter rewards are always empowered 4 times",
+                "pointValue": "4",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "hostile random encounters are always empowered",
+                "pointValue": "-3",
+                "upgrade": "-1 environmental dmg res and 2pts distributed/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. hostile random encounters always reward 1 additional loot roll which the foes are using during the combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 to condi saves",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +1 min loot rolls",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. as a bonus action, you can shift to opposite side of ally within 5'",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "5. +1 to your lowest ability score",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. whenever your party kills a foe in a hostile random encounter after the first in a single rnd, +1 loot roll to the encounter's rewards",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. +1 survival for harvesting monster organs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on KB during hostile random encounter, cast a random spell on a target of your choice (chosen after spell revealed)",
+                "pointValue": "1",
+                "upgrade": "+1 spell dmg/1"
+            },
+            {
+                "description": "9. +1 investigation for looting",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +3 survival for harvesting monster organs after a hostile random encounter",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Fool's Superstition",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+3 global dmg vs undead",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 1st-lvl spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot/3 OR +1 lvl/3"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. on hit, recover 1 spell slot lvl",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "3. +1d4 cold to your weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 wep AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 wep AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. on hit, heal 1 HP",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "7. +1 min loot rolls",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. your curses have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "9. +4 spell dmg vs undead",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "10. +1 spell AB vs undead",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Blackiron Guard",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1 AC",
+                "pointValue": "5",
+                "upgrade": "+1/5"
+            },
+            {
+                "description": "+1 global dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +3 max HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "2. -1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "3. +1 dmg abs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. +1 crit dice",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 caster wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 survival for harvesting monster parts",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 hit dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 stealth",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 spell AC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. on block, +2 dmg res until your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Image Management",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+2 AoE dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "1/combat, on taking AoE dmg, you and allies within 60' heal 2 HP",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on heal ally, move 3 spaces up in turn tracker",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on using a std action that can't directly deal dmg, gain +1 outgoing healing for combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. 1/combat, on taking AoE dmg, gain +3 outgoing healing for combat",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. gain outgoing healing equal to half your bonus max HP",
+                "pointValue": "3",
+                "upgrade": "+3->2 max HP/1"
+            },
+            {
+                "description": "4. on spellcast, 20% chance to remove a condi from an ally within 60'",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "5. on spellcast, 20% chance to refund cost",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
+            },
+            {
+                "description": "6. +1 AoE dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. on spellcast, you and allies within 60' gain +1 dmg res until end of your next turn",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "8. on spellcast, an ally within 60' gains +1 to condi saves until end of your next turn",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. +1 persuasion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 outgoing healing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Professor of Order",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "1/LR, when a creature you can see within 60' casts a spell, can react to force a save using the spell's ability or the spell fails",
+                "pointValue": "2",
+                "upgrade": "+1 usage/2"
+            },
+            {
+                "description": "1/LR, can cast contact other plane to contact a long-dead spirit",
+                "pointValue": "4",
+                "upgrade": "+1 to INT saves/1"
+            },
+            {
+                "description": "+2 force res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to CON saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +1 to INT saves",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 to WIS saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. +1 to CHA saves",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 arcana",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 history",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 percep",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 force dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on spell hit vs Large or smaller target, they make STR save or pushed up to 10' away from you",
+                "pointValue": "2",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "10. on spell hit vs Large or smaller target, they make STR save or rest until start of your next turn",
+                "pointValue": "3",
+                "upgrade": "+1 to rest DCs/3"
+            }
+        ]
+    },
+    {
+        "name": "Storm Defender",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "-25' darkvision",
+                "pointValue": "-2",
+                "upgrade": "-10' and 2pts distributed/1"
+            },
+            {
+                "description": "+2 min loot rolls",
+                "pointValue": "6",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+1d4 S dmg to weps",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. your sidekick deals +3 dmg",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "2. your wep hits splash 1 dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on KB, 20% chance to throw javelins at all adj foes, a glyphic atk dealing 1d4 P dmg",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +1 dmg/1"
+            },
+            {
+                "description": "4. when hit, +3 wep dmg until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. ignore fire res",
+                "pointValue": "3",
+                "upgrade": "+1 fire dmg/1"
+            },
+            {
+                "description": "6. ignore light res",
+                "pointValue": "3",
+                "upgrade": "+1 light dmg/1"
+            },
+            {
+                "description": "7. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. ignore psn res",
+                "pointValue": "3",
+                "upgrade": "+1 psn dmg/1"
+            },
+            {
+                "description": "9. your limited feature wep hits deal +1d4 force dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 DEX",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Deadeye",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "whenever a creature marked by you dies, recover a LR cooldown",
+                "pointValue": "2",
+                "upgrade": "+2->1 wep dmg vs marked targets/1"
+            },
+            {
+                "description": "+3 wep dmg vs targets marked by you",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "while holding a bow wep, -1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. while buffed, +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. buffs on you have double duration",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "3. +2 wep dmg res vs creatures marked by you",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. on init, recover 1 exertion",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. on SR, +2 global dmg until next combat end",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. on SR, -1 crit req until next combat end",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "7. on SR, +3 dmg res until end of your next turn",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on SR, +1 passive regen until next combat end",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. on SR, +10' sp until next combat end",
+                "pointValue": "4",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "10. on mark, +2 wep dmg until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "High Brow",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on destroying an obj in combat, heal 2 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+5 spell dmg vs targets with a strong smell",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "on spell hit vs non-boss target, 20% chance to petrify them until they are dmg'd",
+                "pointValue": "3",
+                "upgrade": "+10%/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. on spell hit in an indoor room, the room's water lvl increases by 1",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. water your hands touch turns to blood",
+                "pointValue": "1",
+                "upgrade": "+2->1 dmg res while in blood/1"
+            },
+            {
+                "description": "3. +3 spell dmg vs bosses",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. on spell hit, all fires within 60' are extinguished",
+                "pointValue": "1",
+                "upgrade": "+1 dmg res in darkness/1"
+            },
+            {
+                "description": "5. on spell hit, all lava within 60' turns into rock",
+                "pointValue": "1",
+                "upgrade": "+1 dmg res while grounded/2"
+            },
+            {
+                "description": "6. on destroying an obj in combat, 20% chance for it to drop 20gp",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +20gp/1"
+            },
+            {
+                "description": "7. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. your proj ranges are halved; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 4pts distributed/1"
+            },
+            {
+                "description": "9. your projs ignore allies",
+                "pointValue": "4",
+                "upgrade": "+1 proj dmg/1"
+            },
+            {
+                "description": "10. when hit by melee, 30% chance to petrify offender until they are dmg'd",
+                "pointValue": "1",
+                "upgrade": "+10%/1"
             }
         ]
     }

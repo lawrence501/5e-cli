@@ -62,6 +62,7 @@ var COMMAND_MAP = map[string]func() error{
 	"phys type":     physType,
 	"non-phys type": nonPhysType,
 	"empower":       empower,
+	"class":         class,
 }
 
 func main() {

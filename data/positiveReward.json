@@ -27,9 +27,6 @@
         "description": "Loot roll, rerolling until an equipment roll (empowered = +1 colour)"
     },
     {
-        "description": "Scroll of civil teleportation: instantly teleport party to city square of any Hospusal city (empowered = scroll has +20% chance to not be consumed)"
-    },
-    {
         "description": "Manifest Defending Wisp of Gratitude (defending ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
     },
     {
@@ -96,30 +93,33 @@
         "description": "Scroll of Natural Knowledge: learn additional spell from druid spell list (always prepared) (empowered = +20% chance for spell to be rare)"
     },
     {
-        "description": "Scroll of general teleportation: instanty teleport party to any location on map (not precise) (empowered = more precise)"
+        "description": "Instanty teleport party to any location on map (empowered = 20% chance to be a scroll instead)"
     },
     {
-        "description": "Scroll of expansion: +1 bag carry capacity (empowered = +1 capacity)"
+        "description": "+1 bag carry capacity (empowered = +1 capacity)"
     },
     {
         "description": "Permanent +1 to random dmg type (empowered = +1 adv on type)"
     },
     {
-        "description": "Scroll of soul: learn random feature from a random class. Each instance of this contributes to 1, with adv on the class roll (not feature roll) (empowered = +1 adv on feature roll)"
+        "description": "Learn random feature from a random class (empowered = +1 adv on class roll)"
     },
     {
-        "description": "Scroll of chaotic knowledge: learn random 1st-lvl spell that can be cast 1/LR (empowered = +1 adv)"
+        "description": "Learn random 1st-lvl spell that can be cast 1/LR (empowered = +1 adv)"
     },
     {
-        "description": "Scroll of mercenaries: sidekick gains +1 to random AS (empowered = +1 adv)"
+        "description": "Sidekick gains +1 to random AS (empowered = +1 adv)"
     },
     {
-        "description": "Scroll of capacity: gain a 1st-lvl spell slot (if not spellcaster, gain basic spellcasting with mental score of choice) (empowered = +20% chance for +1 slot lvl)"
+        "description": "Gain a 1st-lvl spell slot (if not spellcaster, gain basic spellcasting with mental score of choice) (empowered = +20% chance for +1 slot lvl)"
     },
     {
-        "description": "Scroll of enhancement: uptier an amulet (empowered = +20% chance for another tier)"
+        "description": "Uptier an amulet (empowered = +20% chance for another tier)"
     },
     {
-        "description": "Scroll of refinement: Modify an aspect of an amulet (empowered = 20% chance to not be consumed)"
+        "description": "Modify an aspect of an amulet (empowered = 20% chance to not be consumed)"
+    },
+    {
+        "description": "Gain a random passive trait from a random monster (empowered = +1 adv on monster roll)"
     }
 ]
