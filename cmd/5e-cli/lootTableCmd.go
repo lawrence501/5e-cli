@@ -29,6 +29,12 @@ var book = func() error {
 	return nil
 }
 
+var lowGold = func() error {
+	amount := rand.Intn(20) + 11
+	log.Printf("Low gold: %dgp\n", amount)
+	return nil
+}
+
 var mediumGold = func() error {
 	amount := rand.Intn(20) + 51
 	log.Printf("Medium gold: %dgp\n", amount)
@@ -101,6 +107,12 @@ var wondrous = func() error {
 		}
 	}
 
+	if rarity == "common" {
+		if err := lowGold(); err != nil {
+			return err
+		}
+		return nil
+	}
 	wondrous, err := fetchWondrous(rarity)
 	if err != nil {
 		return err

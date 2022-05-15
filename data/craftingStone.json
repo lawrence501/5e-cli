@@ -50,5 +50,9 @@
     {
         "name": "2x Scourging",
         "description": "add random negative mod, then equivalent-value positive mod. Repeated uses on same item replace both mods, increasing the min pt value of the negative by 1."
+    },
+    {
+        "name": "Breeding",
+        "description": "use on 2 items that are both destroyed, randomly choose base of 1, then alternate between them (starting on non-base) pulling a random mod at a time from each until the point total is at least the highest one, then add a random mod"
     }
 ]

@@ -36,7 +36,7 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 6. Backstory
 7. Race
 8. Feats
-9. Current artifacts
+9. Current relics
 10. Glyph path
 11. o5e/Pathfinder
 12. Reroll with disadv
@@ -92,6 +92,10 @@ Shares condition immunity with charm.
 
 A dominated creature is charmed. Additionally, the creature that dominated it controls the dominated creature during the dominated creature's turn. It can take move actions as usual and can use its standard action to take any Attack action (or Multiattack, where relevant).
 
+### Frightened
+
+As before, but instead of removing a creature's ability to move towards the source of their fear, they become debilitated until the end of their turn when doing so.
+
 ### Rattled
 
 Shares condition immunity with frighten.
@@ -139,7 +143,9 @@ While riding your mount, your AC increases by 1.
 
 ## Ideas for next campaign/things to discuss
 
-- Increase base value of dmg + res from 1 to 2 (dmg because it's usually multiplied by extra atk or single-target) (res because early on it's super powerful, and later it's multiplied by multiatk)
+- Increase base value of dmg + res from 1 to 2? (dmg because it's usually multiplied by extra atk or single-target) (res because early on it's super powerful, and later it's multiplied by multiatk)
+
+- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely. Still upgradable through rare currency or something? Crit roll on body armour loot table option?
 
 - Ban homebrew classes? Still allow homebrew subclasses? Harder for a subclass to spiral out of defined balance constraints. Loads of subclass + class options nowadays
 

@@ -791,7 +791,7 @@
     },
     {
         "name": "brewed for potency",
-        "mods": ["+1 DoT dmg", "+1 healing from hit dice", "+1 max hit die"],
+        "mods": ["+1 DoT dmg", "+1 healing from hit dice", "+1 max hit dice"],
         "tags": ["dot", "hit die healing", "max hit dice"]
     },
     {
@@ -1636,7 +1636,7 @@
     },
     {
         "name": "herbalism",
-            "mods": ["+1 healing from hit dice", "+1 max hit die", "+1 max HP"],
+            "mods": ["+1 healing from hit dice", "+1 max hit dice", "+1 max HP"],
         "tags": ["hit die healing", "max hit dice", "hp"]
     },
     {
@@ -2221,7 +2221,7 @@
     },
     {
         "name": "druidic rite",
-        "mods": ["+1 max hit die"],
+        "mods": ["+1 max hit dice"],
         "tags": ["max hit dice"]
     },
     {
@@ -3568,5 +3568,195 @@
         "name": "carrion",
         "mods": ["foes cursed by you have -1 passive regen", "if you've hit a cursed target since start of your last turn, +1 passive regen"],
         "tags": ["condi", "hp"]
+    },
+    {
+        "name": "disciple of the forbidden",
+        "mods": ["-1 crit req", "on KB, 20% chance to gain -1 crit req for combat", "+1 global dmg per crit req below 20"],
+        "tags": ["crit", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "mystic bulwark",
+        "mods": ["+1 spell AC"],
+        "tags": ["spell ac"]
+    },
+    {
+        "name": "essence extraction",
+        "mods": ["+1 max hit dice"],
+        "tags": ["max hit dice"]
+    },
+    {
+        "name": "ravenous horde",
+        "mods": ["+15' minion sp", "on minion KB, they have 20% chance to gain +4 dmg and +10' sp until end of their next turn"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "enduring bond",
+        "mods": ["your buffs have double duration", "if you've summoned a minion since start of your last turn, +1 minion dmg", "your minions have double duration"],
+        "tags": ["buff", "minion dmg", "minion hp"]
+    },
+    {
+        "name": "fearsome force",
+        "mods": ["+5' minion AoE sizes", "if you've summoned a minion since start of your last turn, +10' minion AoE sizes"],
+        "tags": ["minion dmg"]
+    },
+    {
+        "name": "indomitable army",
+        "mods": ["+2 minion HP", "+3 minion dmg res", "+2 minion DoT res"],
+        "tags": ["minion hp"]
+    },
+    {
+        "name": "inspiring bond",
+        "mods": ["adj allies have +1 global dmg"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "golem commander",
+        "mods": ["+1 minion buff effectiveness", "+2 minion dmg", "+3 minion HP"],
+        "tags": ["minion dmg", "minion hp"]
+    },
+    {
+        "name": "field medicine",
+        "mods": ["+1 healing from hit dice", "1/turn, on hit, recover 1 hit die"],
+        "tags": ["hit die healing", "max hit dice"]
+    },
+    {
+        "name": "blast waves",
+        "mods": ["your pers areas deal +1 dmg if you've created a pers area since start of your last turn", "your pers areas have +10' AoE size if you've created a pers area since start of your last turn"],
+        "tags": ["pers area", "aoe"]
+    },
+    {
+        "name": "successive detonations",
+        "mods": ["your pers areas have -1 crit req per active pers area", "your pers areas have +1 crite dice per active pers area"],
+        "tags": ["pers area", "crit"]
+    },
+    {
+        "name": "efficient explosives",
+        "mods": ["on pers area tick, 20% chance to deal +5 dmg"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "searing heat",
+        "mods": ["+6 DoT dmg", "-1 to your DoT end DCs"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "dire torment",
+        "mods": ["+1 DoT dmg per crit req below 20", "-2 crit req"],
+        "tags": ["dot", "crit"]
+    },
+    {
+        "name": "watchtowers",
+        "mods": ["+2 minion dmg", "+1 minion proj dmg", "+2 minion HP", "+5' sp per active minion"],
+        "tags": ["minion dmg", "speed", "minion hp"]
+    },
+    {
+        "name": "surveillance",
+        "mods": ["+1 minion dmg", "+1 minion wep dmg", "foes adj to your minions have -2 dmg res"],
+        "tags": ["minion dmg", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "panopticon",
+        "mods": ["+3 minion dmg", "+2 minion proj dmg", "+1 minion HP", "+1 minion buff effectiveness"],
+        "tags": ["minion dmg", "minion hp"]
+    },
+    {
+        "name": "powerful bond",
+        "mods": ["your buffs on allies have +1 effectiveness while you are adj to them", "your buffs on allies have double duration while you are adj to them (going beyond their usual length breaks if you leave this range)"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "burning brutality",
+        "mods": ["+1 DoT dmg", "+2 wep dmg"],
+        "tags": ["dot", "wep dmg"]
+    },
+    {
+        "name": "deep breaths",
+        "mods": ["+1 buff effectiveness", "+5' buff AoE sizes"],
+        "tags": ["buff", "aoe"]
+    },
+    {
+        "name": "measured fury",
+        "mods": ["your buffs have double duration"],
+        "tags": ["buff"]
+    },
+    {
+        "name": "unfaltering",
+        "mods": ["+1 to condi saves", "+1 to saves to end ongoing condis", "if you haven't moved since start of your last turn, +1 passive regen"],
+        "tags": ["save", "hp"]
+    },
+    {
+        "name": "discord artisan",
+        "mods": ["+1 global dmg per buff on you", "+1 effectiveness of buffs on you"],
+        "tags": ["wep dmg", "spell dmg", "buff"]
+    },
+    {
+        "name": "adjacent animosity",
+        "mods": ["-1 proj AB", "+8 proj dmg vs adj targets"],
+        "tags": ["proj"]
+    },
+    {
+        "name": "window of opportunity",
+        "mods": ["your buffs last half their duration", "+2 to saves to end ongoing effects"],
+        "tags": ["save"]
+    },
+    {
+        "name": "undertaker",
+        "mods": ["if you've consumed a corpse as a resource since start of your last turn, +2 global dmg", "creatures your party kill leave an additional corpse", "if you've consumed a corpse as a resource since start of your last turn, +1 passive regen"],
+        "tags": ["wep dmg", "spell dmg", "hp"]
+    },
+    {
+        "name": "bannerman",
+        "mods": ["+1 aura effectiveness vs foes", "you and allies gain +1 wep dmg while inside your pers areas"],
+        "tags": ["pers area", "wep dmg"]
+    },
+    {
+        "name": "instinct",
+        "mods": ["+4 spell dmg res", "on taking spell dmg, gain 1 temp HP"],
+        "tags": ["phys res", "non-phys res", "temp hp"]
+    },
+    {
+        "name": "assured strike",
+        "mods": ["+1 melee dmg", "with 2+ adj foes, +5' reach"],
+        "tags": ["melee"]
+    },
+    {
+        "name": "anointed flesh",
+        "mods": ["+1 {dmgPolarity} abs", "+1 to saves to end ongoing condis", "+1 to condi saves"],
+        "tags": ["phys res", "non-phys res", "save"]
+    },
+    {
+        "name": "harpooner",
+        "mods": ["on {weaponHands} wep hit, 20% chance to give target -1 {physType} res for the next relevant hit", "+1 mark effectiveness vs unmarked targets", "your marks have double duration"],
+        "tags": ["weapon hands", "phys dmg", "condi"]
+    },
+    {
+        "name": "serpentine spellslinger",
+        "mods": ["creatures DoT'd by you have -1 {nonPhysType} res", "+3 DoT dmg"],
+        "tags": ["dot", "non-phys dmg"]
+    },
+    {
+        "name": "infused flesh",
+        "mods": ["when dmg'd, +2 passive regen during your next turn"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "brand equity",
+        "mods": ["+1 pers area dmg", "your pers areas have double duration", "you can move your movable pers areas as a bonus action"],
+        "tags": ["pers area"]
+    },
+    {
+        "name": "trick shot",
+        "mods": ["your chaining effects have double range"],
+        "tags": ["proj"]
+    },
+    {
+        "name": "split shot",
+        "mods": ["on proj hit, 20% chance to splash 5 dmg"],
+        "tags": ["proj", "aoe"]
+    },
+    {
+        "name": "deflection",
+        "mods": ["+1 wep AC while holding a shield", "on block, 20% chance to gain +1 dmg res for combat"],
+        "tags": ["wep ac", "holding shield", "phys res", "non-phys res"]
     }
 ]

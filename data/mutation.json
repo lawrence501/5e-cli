@@ -10,7 +10,7 @@
         },
         {
             "name": "No water",
-            "description": "you don't need to drink water to survive."
+            "description": "you don't need to eat, drink, or sleep to survive."
         },
         {
             "name": "Chameleon skin",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Savage bite",
-            "description": "Your moth widens surprisingly, and hidden, pointed teeth emerge when you wish it. Bite natural weapon, 1d8 + level P."
+            "description": "Your mouth widens surprisingly, and hidden, pointed teeth emerge when you wish it. Bite natural weapon as bonus, 1d8 + level P."
         },
         {
             "name": "Gluey globs",
@@ -34,19 +34,19 @@
         },
         {
             "name": "Stinger in finger",
-            "description": "Stinger natural weapon, 1d4 P and make second atk for 1d10 + lvl psn"
+            "description": "Stinger natural weapon as bonus, 1d4 P and make second atk for 1d10 + lvl psn"
         },
         {
             "name": "Stinger in elbow",
-            "description": "Stinger natural weapon, 1d6 P and make second atk for 1d10 + lvl psn"
+            "description": "Stinger natural weapon as bonus, 1d6 P and make second atk for 1d10 + lvl psn"
         },
         {
             "name": "Spit needles",
-            "description": "30' range spit natural weapon, 1d4 P and make second atk for 1d10 + lvl psn"
+            "description": "30' range spit natural weapon as bonus, 1d4 P and make second atk for 1d10 + lvl psn"
         },
         {
             "name": "Spit acid",
-            "description": "30' range spit natural weapon, 1d6 + lvl acid"
+            "description": "30' range spit natural weapon as bonus, 1d6 + lvl acid"
         },
         {
             "name": "Spit webs",
@@ -102,23 +102,11 @@
         },
         {
             "name": "Regeneration",
-            "description": "Every hour, recover 2 hit points."
+            "description": "Whenever you roll for initiative, recover 2 hit points."
         },
         {
             "name": "Feed off pain",
             "description": "1/round, when creature within 5' suffers 6+ dmg in 1 hit, you can recover 1 HP."
-        },
-        {
-            "name": "Hump",
-            "description": "[1-3] humps on back that store food + water. nourishment benefits last double duration"
-        },
-        {
-            "name": "Protected Senses",
-            "description": "[balance/direction, hearing, pain/touch, smell/taste, vision] is protected from over-stimulation, disorienting stimuli and atks have no effect on you"
-        },
-        {
-            "name": "Trunk",
-            "description": "Grows on face. Acts as another arm but with 4 Strength."
         }
     ],
     "beneficial": [
@@ -139,7 +127,7 @@
             "description": "+2 DEX"
         },
         {
-            "name": "Imrpvoed neural processes",
+            "name": "Improved neural processes",
             "description": "+2 INT"
         },
         {
@@ -217,14 +205,6 @@
         {
             "name": "Sense material",
             "description": "You can sense presence of any single substance within 30', although you don't learn details or precise location. You and DM work together to determine the substance when you mutate (eg. water, iron, steel, granite, wood, flesh, salt)."
-        },
-        {
-            "name": "Cocoon",
-            "description": "Can create out of bodily secretions, acts like a single-person leomund's hut"
-        },
-        {
-            "name": "Double Jointed",
-            "description": "Contortionism. Adv acro"
         }
     ],
     "distinctive": [
@@ -327,18 +307,6 @@
         {
             "name": "Wings",
             "description": "You have [feathered OR fleshy] wings on your back that allow you to glide, carried by the wind. They are not powerful enough to enable you to fly."
-        },
-        {
-            "name": "Heightened Senses of Smell and Taste",
-            "description": "Adv with percep for smell and taste. Can identify specific creatures by smell. Can taste contamination/poisons in food when tasted. Disadv on saves against inhaled effects, such as pheromones and gasses"
-        },
-        {
-            "name": "Iron Nails",
-            "description": "Iron nails + teeth. Can chew through leather."
-        },
-        {
-            "name": "Donkey Ears",
-            "description": "Fluffy"
         }
     ],
     "harmful": [
@@ -385,18 +353,6 @@
         {
             "name": "Useless ear",
             "description": "1 of your ears is [unusable OR missing]. Tasks involving hearing have disadv."
-        },
-        {
-            "name": "Weakness",
-            "description": "Any time you take damage, you take 2 additional damage."
-        },
-        {
-            "name": "Craven",
-            "description": "-4 to saves vs fright"
-        },
-        {
-            "name": "Brittle Spines",
-            "description": "Useless, floppy spins all over. Constantly shedding spines, and cannot wear armour. Disadv stealth."
         }
     ]
 }

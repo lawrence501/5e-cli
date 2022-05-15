@@ -123,7 +123,7 @@
             "6. DEX +2.",
             "7. Choose a second non-cantrip warlock spell that you can cast as a symbol spell.",
             "8. Your symbol spell is now upcast 1 level.",
-            "9. +1 spell save DCs",
+            "9. +1 to spell save DCs",
             "10. Your symbol spell's range is tripled."
         ]
     },
@@ -163,16 +163,16 @@
         "name": "Wields Words Like Weapons",
         "description": "Adding magical power to words",
         "tiers": [
-            "1. You have a sense of how people think. Choose one of persuasion, deception, or insight to gain +2 in.",
-            "2. Misdirect Blame: 2/min; bonus action; Using your clever words and knowledge of others, you can attempt to alter the narrative so that a creature of up to CR 2 within 30' of you becomes uncertain of its conviction in one simple area, such as their conviction that you just stole a fruit from their stand, or that they've never met you before. This effect usually lasts only for the period of time you spend speaking, and perhaps up to a minute longer, before the target realises its error. Afterward, all of your skill checks to socially interact with the target have disadvantage.",
+            "1. You have a sense of how people think. Choose one of persuasion, deception, or insight to gain an expertise die in.",
+            "2. Misdirect Blame: 2/min; bonus action; Using your clever words and knowledge of others, you can attempt to alter the narrative so that a creature of up to CR 2 within 30' of you becomes uncertain of its conviction in one simple area, such as their conviction that you just stole a fruit from their stand, or that they've never met you before. This effect usually lasts only for the period of time you spend speaking, and perhaps up to a minute longer, before the target realises its error. Afterwards, all of your skill checks to socially interact with the target have disadvantage.",
             "3. Negotiate: 1/min; bonus action; In any gathering where two or more people are trying to establish the truth or come to a decision, you can sway the verdict with masterful rhetoric. If you are given a few rounds or more to argue your point, either the decision goes your way or, if someone else effectively argues a competing point, you have double advantage on any associated persuasion or deception check.",
             "4. Command: 1/min; bonus action; Through sheer force of will and charisma, you issue a simple command to a single living creature, which attempts to carry out your command during its next turn. The creature must be within 30' of you and be able to understand you. The command cannot inflict direct harm on the creature or its allies. Additionally, the command can require the creature to only take one turn's worth of actions.",
             "5. CHA +2.",
             "6. Interruption: 1/SR; bonus action; Your vociferous, booming command prevents a creature within 30' of you from taking any actions for 1 round. During this time, it also has double disadvantage on all saving throws. Once you have used this feature on a creature, they become immune to it.",
-            "7. Gain +2 in 2 of the following skills: persuasion, deception, intimidation, investigation, any knowledge skill, or insight. Additionally, members of your party have +1 to the 2 skills you chose while they are adventuring with you.",
-            "8. Break Their Mind: 1/year; bonus action; Using your clever words and knowledge of others, and given a couple of rounds of conversation to gain a few specific pieces of context regarding your target, you can utter a sentence designed to cause your target immediate psychological distress. If the target can hear you, it takes 2d10 + your level psychic damage and forgets the last 24hrs of its life.",
-            "9. Through anecdotes, historical retellings, annd citing knowledge that few but you have previously understood, you enlighten your friends. After spending 24 hours with you, once per long rest, each of your friends can gain double advantage on a single d20 roll. If you leave someone's company for more than 24 hours, they must spend the 24 hours with you again to continue using this feature.",
-            "10. +3 to persuasion, deception, and insight"
+            "7. Gain an expertise die in 2 of the following skills: persuasion, deception, intimidation, investigation, any knowledge skill, or insight. Additionally, members of your party also gain an expertise die in the 2 skills you chose while they are adventuring with you.",
+            "8. Break Their Mind: 1/year; bonus action; Using your clever words and knowledge of others, and given a couple of rounds of conversation to gain a few specific pieces of context regarding your target, you can utter a sentence designed to cause your target immediate psychological distress. If the target can hear you, it immediately takes 2d10 + your level psychic damage and forgets the last 24hrs of its life.",
+            "9. Through anecdotes, historical retellings, and citing knowledge that few but you have previously understood, you enlighten your friends. After spending 24 hours with you, once per long rest, each of your party members can gain double advantage on a single d20 roll. If you leave someone's company for more than 24 hours, they must spend the 24 hours with you again to continue using this feature.",
+            "10. Gain a d6 expertise die in persuasion, deception, and insight"
         ]
     },
     {
@@ -1589,13 +1589,13 @@
         "tiers": [
             "1. Frenzy: At-will; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +2 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat is taking place within range of your senses.",
             "2. You gain +10 maximum hit points.",
-            "3. You gain proficiency in athletics.",
+            "3. You gain an expertise die in athletics.",
             "4. Your rage makes minor wounds seem insignificant. While your Frenzy feature is active, gain +1 AC.",
             "5. Power Strike: 1/min; free action; If you successfully hit a target, you knock it prone in addition to inflicting damage. The target must be your size or smaller.",
-            "6. While unarmoured, you gain +2 to DEX saving throws.",
-            "7. Greater Frenzy: 1/SR; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +4 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat if taking place within range of your senses. You can use this feature of your Frenzy feature, but you cannot use both at the same time.",
+            "6. While unarmoured, you gain an expertise die in saving throws.",
+            "7. Greater Frenzy: 1/SR; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +4 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat if taking place within range of your senses. You can use this feature or your Frenzy feature, but you cannot use both at the same time. Any effects based on your Frenzy feature also apply to this power.",
             "8. Rather than granting additional damage, critical strikes allow you the option of immediately making another attack.",
-            "9. When you would normally die, you instead fall unconscious for 1 round and then awaken. You immediately heal 2d6 + 12 hit points and gain a level of exhaustion. If you die again before you take a long rest, you are truly dead.",
+            "9. When you would normally die, you instead fall unconscious for 1 round and then awaken. You immediately heal 1d6 + 6 hit points and gain a level of exhaustion. If you die again before you take a long rest, you are truly dead.",
             "10. You gain +3 to CON and DEX."
         ]
     },
@@ -1765,9 +1765,9 @@
         "tiers": [
             "1. Plating: At-will; bonus action; You touch an object smaller than yourself and the surface of the item is turned entirely to steel. Generally speaking, plating will add 1 AC to an object that is normally soft, at your DM's discretion.",
             "2. Total Change: 2/min; bonus action; You transmute a non-living object smaller than you entirely into steel.",
-            "3. When transmuting using powers from this glyph path you are no longer limited to simply steel. Instead, you are able to choose any known metal material.",
-            "4. Grasp of Change: 1/SR; bonus action; As an attack you may touch a living creature and transmute part of it to a non-living substance. This causes 1d10 + level force damage. If the target is wearing armour, this alters part of it as well, causing it to become useless.",
-            "5. You are no longer limited to metal for transmutations. Instead, you may choose any solid substance you have ever encountered.",
+            "3. When transmuting using powers from this glyph path you are no longer limited to simply steel. Instead, you are able to choose any known metal material. At the DM's discretion, this transmutation bizarrely reverses when attempting to be sold or traded in an economic fashion.",
+            "4. Grasp of Change: 1/SR; bonus action; As an attack you may touch a living creature and transmute part of it to a non-living substance. This deals 1d10 + level force damage. If the target is wearing armour, this alters part of it as well, causing it to become useless.",
+            "5. You are no longer limited to metal for transmutations. Instead, you may choose any solid substance you have ever seen.",
             "6. You revisit your old specialty, granting you advantage on tasks whenever you attempt to transmute into steel. This includes attack rolls made using your Grasp of Change feature.",
             "7. Alter the World: 1/week; bonus action; By touching a surface with both hands you are able to transmute an area up to 150' radius in size. This transmutation is similar in effect to your Plating feature, in that it only alters the surface of the area.",
             "8. Your Plating feature now grants +1 AC to body armours you plate with steel.",

@@ -1,318 +1,4 @@
 {
-    "common": [
-        {
-            "name": "Bead of Refreshment",
-            "description": "https://5e.tools/items.html#bead%20of%20refreshment_xge"
-        },
-        {
-            "name": "Candle of the Deep",
-            "description": "https://5e.tools/items.html#candle%20of%20the%20deep_xge"
-        },
-        {
-            "name": "Cloak of Billowing",
-            "description": "https://5e.tools/items.html#cloak%20of%20billowing_xge"
-        },
-        {
-            "name": "Cloak of Many Fashions",
-            "description": "https://5e.tools/items.html#cloak%20of%20many%20fashions_xge"
-        },
-        {
-            "name": "Ear Horn of Hearing",
-            "description": "https://5e.tools/items.html#ear%20horn%20of%20hearing_xge"
-        },
-        {
-            "name": "Heward's Handry Spice Pouch",
-            "description": "https://5e.tools/items.html#heward's%20handy%20spice%20pouch_xge"
-        },
-        {
-            "name": "Horn of Silent Alarm",
-            "description": "https://5e.tools/items.html#horn%20of%20silent%20alarm_xge"
-        },
-        {
-            "name": "Lock of Trickery",
-            "description": "https://5e.tools/items.html#lock%20of%20trickery_xge"
-        },
-        {
-            "name": "Mystery Key",
-            "description": "https://5e.tools/items.html#mystery%20key_xge"
-        },
-        {
-            "name": "Orb of Direction",
-            "description": "https://5e.tools/items.html#orb%20of%20direction_xge"
-        },
-        {
-            "name": "Orb of Time",
-            "description": "https://5e.tools/items.html#orb%20of%20time_xge"
-        },
-        {
-            "name": "Perfume of Bewitching",
-            "description": "https://5e.tools/items.html#perfume%20of%20bewitching_xge"
-        },
-        {
-            "name": "Pipe of Smoke Monsters",
-            "description": "https://5e.tools/items.html#pipe%20of%20smoke%20monsters_xge"
-        },
-        {
-            "name": "Pole of Angling",
-            "description": "https://5e.tools/items.html#pole%20of%20angling_xge"
-        },
-        {
-            "name": "Pole of Collapsing",
-            "description": "https://5e.tools/items.html#pole%20of%20collapsing_xge"
-        },
-        {
-            "name": "Pot of Awakening",
-            "description": "https://5e.tools/items.html#pot%20of%20awakening_xge"
-        },
-        {
-            "name": "Rope of Mending",
-            "description": "https://5e.tools/items.html#rope%20of%20mending_xge"
-        },
-        {
-            "name": "Tankard of Sobriety",
-            "description": "https://5e.tools/items.html#tankard%20of%20sobriety_xge"
-        },
-        {
-            "name": "Moodmark Paint",
-            "description": "https://5e.tools/items.html#moodmark%20paint_ggr"
-        },
-        {
-            "name": "Cleansing Stone",
-            "description": "https://5e.tools/items.html#cleansing%20stone_erlw"
-        },
-        {
-            "name": "Everbright Lantern",
-            "description": "https://5e.tools/items.html#everbright%20lantern_erlw"
-        },
-        {
-            "name": "Feather Token",
-            "description": "https://5e.tools/items.html#feather%20token_erlw"
-        },
-        {
-            "name": "Shiftweave",
-            "description": "https://5e.tools/items.html#shiftweave_erlw"
-        },
-        {
-            "name": "Spellshard",
-            "description": "https://5e.tools/items.html#spellshard_erlw"
-        },
-        {
-            "name": "Breathing Bubble",
-            "description": "https://5e.tools/items.html#breathing%20bubble_egw"
-        },
-        {
-            "name": "Coin of Delving",
-            "description": "https://5e.tools/items.html#coin%20of%20delving_egw"
-        },
-        {
-            "name": "Vox Seeker",
-            "description": "https://5e.tools/items.html#vox%20seeker_egw"
-        },
-        {
-            "name": "Prosthetic Limb",
-            "description": "https://5e.tools/items.html#prosthetic%20limb_tce"
-        },
-        {
-            "name": "Spellwrought Tattoo Needle (Cantrip)",
-            "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(cantrip)_tce"
-        },
-        {
-            "name": "Spellwrought Tattoo Needle (1st)",
-            "description": "https://5e.tools/items.html#spellwrought%20tattoo%20(1st%20level)_tce"
-        },
-        {
-            "name": "Anthology of Enhanced Radiance",
-            "description": "https://a5e.tools/node/815"
-        },
-        {
-            "name": "Archaic Creed",
-            "description": "https://a5e.tools/node/817"
-        },
-        {
-            "name": "Atlas to Libation",
-            "description": "https://a5e.tools/node/828"
-        },
-        {
-            "name": "Bag of Cheese",
-            "description": "https://a5e.tools/node/831"
-        },
-        {
-            "name": "Barrow Bread",
-            "description": "https://a5e.tools/node/835"
-        },
-        {
-            "name": "Birdsong Whistle",
-            "description": "https://a5e.tools/node/840"
-        },
-        {
-            "name": "Compendium of Many Colours",
-            "description": "https://a5e.tools/node/878"
-        },
-        {
-            "name": "Draconic Diorama",
-            "description": "https://a5e.tools/node/897"
-        },
-        {
-            "name": "Enchanted Music Sheet",
-            "description": "https://a5e.tools/node/915"
-        },
-        {
-            "name": "Essay on Efficient Armour Management",
-            "description": "https://a5e.tools/node/916"
-        },
-        {
-            "name": "Explorer's Chalk",
-            "description": "https://a5e.tools/node/924"
-        },
-        {
-            "name": "Finder Gremlin",
-            "description": "https://a5e.tools/node/931"
-        },
-        {
-            "name": "Fizzy Lifter",
-            "description": "https://a5e.tools/node/933"
-        },
-        {
-            "name": "Fizzy Rocks",
-            "description": "https://a5e.tools/node/934"
-        },
-        {
-            "name": "Flask of Inebriation",
-            "description": "https://a5e.tools/node/936"
-        },
-        {
-            "name": "Humour Realignment Transfiguration",
-            "description": "https://a5e.tools/node/978"
-        },
-        {
-            "name": "Inkpot of the Thrifty Apprentice",
-            "description": "https://a5e.tools/node/983"
-        },
-        {
-            "name": "Library Scarf",
-            "description": "https://a5e.tools/node/1008"
-        },
-        {
-            "name": "Lockpicks of Memory",
-            "description": "https://a5e.tools/node/1011"
-        },
-        {
-            "name": "Marble of Direction",
-            "description": "https://a5e.tools/node/1026"
-        },
-        {
-            "name": "Maternal Cameo",
-            "description": "https://a5e.tools/node/1029"
-        },
-        {
-            "name": "Message Whistle",
-            "description": "https://a5e.tools/node/1032"
-        },
-        {
-            "name": "Midnight Pearls",
-            "description": "https://a5e.tools/node/1034"
-        },
-        {
-            "name": "Mug of Warming",
-            "description": "https://a5e.tools/node/1039"
-        },
-        {
-            "name": "Oil of Cosmetic Enhancement",
-            "description": "https://a5e.tools/node/1047"
-        },
-        {
-            "name": "Potion of Climbing",
-            "description": "https://a5e.tools/node/1084"
-        },
-        {
-            "name": "Preserved Imp's Head",
-            "description": "https://a5e.tools/node/1099"
-        },
-        {
-            "name": "Quick Canoe Paddle",
-            "description": "https://a5e.tools/node/1103"
-        },
-        {
-            "name": "Sack of Sacks",
-            "description": "https://a5e.tools/node/1141"
-        },
-        {
-            "name": "Scrap of Forbidden Text",
-            "description": "https://a5e.tools/node/1146"
-        },
-        {
-            "name": "Security Gremlin",
-            "description": "https://a5e.tools/node/1150"
-        },
-        {
-            "name": "Sinner's Ashes",
-            "description": "https://a5e.tools/node/1158"
-        },
-        {
-            "name": "Snake-Eye Bones",
-            "description": "https://a5e.tools/node/1162"
-        },
-        {
-            "name": "Timekeeper Gremlin",
-            "description": "https://a5e.tools/node/1202"
-        },
-        {
-            "name": "Tome of the Endless Tale",
-            "description": "https://a5e.tools/node/1205"
-        },
-        {
-            "name": "Tools of the Hidden Hand",
-            "description": "https://a5e.tools/node/1208"
-        },
-        {
-            "name": "Unliving Rune",
-            "description": "https://a5e.tools/node/1214"
-        },
-        {
-            "name": "Vial of Beauty",
-            "description": "https://a5e.tools/node/1216"
-        },
-        {
-            "name": "Waystone",
-            "description": "https://a5e.tools/node/1240"
-        },
-        {
-            "name": "Zlick's Message Cushion",
-            "description": "https://a5e.tools/node/1250"
-        },
-        {
-            "name": "Bottle of Boundless Coffee",
-            "description": "https://5e.tools/items.html#bottle%20of%20boundless%20coffee_scc"
-        },
-        {
-            "name": "Cuddly Strixhaven Mascot",
-            "description": "https://5e.tools/items.html#cuddly%20strixhaven%20mascot_scc"
-        },
-        {
-            "name": "Masque Charm",
-            "description": "https://5e.tools/items.html#masque%20charm_scc"
-        },
-        {
-            "name": "Strixhaven Pennant",
-            "description": "https://5e.tools/items.html#strixhaven%20pennant_scc"
-        },
-        {
-            "name": "Asomatous Canvas Projector",
-            "description": "This inches-wide, rounded cube packs in an incredible amount of arcanotechnological components. A nozzle on one side can project a vibrant, animated illusion. Asomatous canvas projectors have become popular across Lanjyr for civic color, theatrical entertainment, animated artwork and advertisements, and more. While the figment sheds light, it is nowhere as luminous as that of arctech everbright lamps and actual electric incandescent filament bulbs. Some talented artists have experimented with sets of multiple cubes intended to be played in sequence, creating an animated and audible story in five-minute segments; these exhibits have been called kinetograms. By touching the cube as an action and thinking upon a desired figment (or transferring an image from an alacritous camera), the user can set the cube to memorize the figment and then project it when the desired conditions are met, just as if casting a programmed illusion spell. The common wall projector can produce a 5-foot cube of image out to a range of 10 feet, while the uncommon stage projector can fill a 30-foot cube out to a range of 120 feet. This functions in many respects as a programmed illusion. However, the figment lasts indefinitely, sheds light as bright as a torch, and has a distinctly washed out, somewhat grainy and flickering character (similar to what we’d recognize as early silent films) that makes it completely obvious to even a common lizard that it’s an illusion. Since anyone can adjust the cube’s programming, asomatous canvas projectors are normally kept under literal lock and key, often in bronze filigreed boxes with a gap just large enough to allow the invisible strands of illusory magic to pour through. Unsurprisingly, these cubes are prime targets for pranksters and protestors."
-        },
-        {
-            "name": "Automatic Arithmetic Analyser",
-            "description": "Also known as the autosum, this advanced abacus finds use in many fields, from money-counting accountants, to trajectorycalculating artillerists; arcanoscientific alchemists who must calculate precise measurements, to occult ritualists who need to get the geometry of a magic circle just right. By pushing the neatly-labeled buttons on this apparatus, the user can perform arithmetic functions: addition, subtraction, multiplication, division, exponential functions, trigonometry, and more. The apparatus can also instantaneously divine the current time and date as per Teykfa’s objective readings, and with the flip of a few fine switches, the rotary tumblers can switch from solving equations to displaying the time and date. Some slightly bulkier models even include a bell and clacker, and can be set with an alarm. The temple of Ingatan in the Elfaivaran settlemenet Rumah Terakir has the peculiar distinction of being the largest buyer of these devices, and aficionados of the nascent field of ‘computational research’ are flocking there, hoping to develop analyzers of far greater capability."
-        },
-        {
-            "name": "Countermagical Handcuffs",
-            "description": "Colloquially called ‘mage cuffs,’ these steel handcuffs let law enforcement agencies, criminal groups, rebels, conspirators, and others restrain prisoners who might otherwise use magic to slip away. When they were first mass produced in 517 aov, incarceration reformists breathed collective sighs of relief as the need for stringent and often cruel countermagical security features was greatly reduced. Engraved runes and mystical geometries create Example Planarite—Earth One basic earth planarite is adamant, a dark rock that can be worked into metal to create adamantine. Urim is most renowned for its gold, but meteoric astrium is a metal infused with earth and space energy, which floats in tandem with other metal at distances from a quarter inch to up to a yard, allowing for novel gear patterns that won’t collide as easily. planar conduits to Urim, selected for its enhancement of the metaphysical concept of barriers. Urim’s planar energies pour into the steel, reinforcing it under certain conditions. Normally, these act as nothing more than regular manacles. If placed upon either a willing creature, or a creature at 0 hit points, a soft and aureate light begins to limn the handcuffs, signifying that they have been magically reinforced until the next time they are removed. While so magically reinforced, all DCs associated with circumventing the manacles increase to 30. Additionally, whenever the wearer uses any non-permanent magical effects (including but not limited to spells, charming gazes, frightening auras, invisibility, shapechanging, telepathy, teleportation, the Incorporeal Movement trait, legendary actions, or lair actions), they take 4d6 psychic damage and must make a Constitution saving throw or else the magic they attempted fails to happen. Similar to concentration, the DC is 10 or half the damage the wearer takes, whichever is higher. If someone attempts to break the cuffs, the wielder takes damage as if they tried to use magic. The cuffs have 30 hit points, and either resistance or immunity to most types of damage. The cuffs’ damage is nonlethal, and cannot kill the wearer. The cuffs, however, only have three charges each hour, so a very committed prisoner might manage to power through an escape attempt. For the most magically powerful foes, greater bindings that use similar principles might be employed. The uncommon ‘magebinding jacket’ deals 10d6 psychic damage to a wearer who uses magic, and also keeps them restrained. It too only has three charges per hour, but as yet no prisoner has ever been known to fight past more than two. Courtesy of Urim’s aureate energy, the jacket has 50 hit points. Some devoted incarceration facilities have countermagic cells, which function as magebinding jackets for anyone inside, but have no limit to the number of charges."
-        },
-        {
-            "name": "Gloam Bread",
-            "description": "Available from the few merchants who reside around the city’s market square, these dark, dense bread rolls are incredibly filling, but leave an unpleasant, greasy taste in your mouth. Each piece of Gloam Bread is considered one Supply. When consumed, you have advantage on Wisdom saving throws against the Fellspire Gloaming challenge for 24 hours. In addition, you can make a DC 16 Wisdom saving throw, reducing your strife by one level on a success. Once a creature reduces its strife in this way it cannot do so again until it has had a long rest."
-        }
-    ],
     "uncommon": [
         {
             "name": "Alchemy Jug",
@@ -673,6 +359,14 @@
         {
             "name": "Sending Wind",
             "description": "This invisible orb is woven of Caeloon planarite in windy, gaseous form. The sphere can be carried in your palm, or it can be left to float at any location, invisible except to those who know to look for it. Each orb is attuned to up to five tokens, which usually take the form of metal or wooden feathers. While holding one of these tokens, you can cast sending without components to one or more creatures carrying another token, as long as both you and your recipients are within thirty miles of the orb. The message takes time to be delivered, carried by an unseen breeze that travels at twenty miles an hour. The recipient can choose to send a reply, which also takes time to fly back. Each token can cast sending this way no more than once per hour."
+        },
+        {
+            "name": "Emerald Pen",
+            "description": "https://5e.tools/items.html#emerald%20pen_ftd"
+        },
+        {
+            "name": "Spectral Camera",
+            "description": "Favored by those who deal with hauntings, a spectral camera can capture the image of spirits on film. Any creature with incorporeal movement or on the Ethereal Plane (visible or not) that passes in front of the camera’s open aperture (up to 30 feet away) will trigger the camera to immediately take a monochrome picture. This has no effect on creatures affected by an invisibility spell. You can also take a picture manually as a reaction. Once a picture is taken, you must spend an action to prepare the camera for another. Unlike physical objects, incorporeal beings do not need to stay still to appear on the resulting photo, though the entire process takes 1 minute to complete. Such photos do not need to be developed and show ghostly subjects in crisp detail, while all mundane aspects (chairs, corporeal creatures, etc.) are at best mildly blurry. Each picture taken with a spectral camera costs 2 gp in materials, which are significantly rarer than those for a mundane photograph. (300 gp, 15 lbs.)"
         }
     ],
     "rare": [
@@ -943,6 +637,10 @@
         {
             "name": "Symbol of Sanguine Alleviation",
             "description": "This crimson crystalline fish hook of Ostean planarite was first crafted by hierarchs of the Clergy, renowned for their restorative magics. Non-Clericist symbols are simply medallions of three concentric rings; the inner rings float in place, unconnected to the rest of the symbol. While you are wearing the symbol, as an action, you can choose one living creature within 5 feet. You must spend 1 Hit Die to no effect, causing blood to arc from your pores and orifices and into those of the selected creature; if you chose yourself, the blood recirculates around your body externally. The recipient gains the benefits of a fifth level cure wounds spell and a lesser restoration spell. Once the symbol has conferred healing, it cannot do so again until the next dawn."
+        },
+        {
+            "name": "Bicycle Bell of Flight",
+            "description": "This beautifully-filigreed bell can turn into a mundane bicycle of Small or Medium size (chosen at the time of creation) when you activate it as an action. Returning the bicycle to bell form also requires an action. While riding this bicycle, you can ring its bell to gain a flying speed of 50 feet and the ability to hover. You can use the bike to fly for 2 hours, expending at least 10 minutes worth of time with each use. If you are flying when the time runs out, you fall at a rate of 60 feet and take no damage from landing. The bell regains 1 hour of flying time for every 12 hours it is not in use, regardless of which form it is in. CURSE: While far from malicious, the magic of the bell is exuberant to a fault. While you are using its flying speed it frequently rings of its own accord, giving you disadvantage on Stealth checks."
         }
     ],
     "very rare": [
@@ -1101,6 +799,10 @@
         {
             "name": "Portable Wayfarer's Lantern",
             "description": "This arcanotechnological lantern of adamantine and bulletproof glass is a smaller refinement of the first design of a wayfarer’s engine, which inspired all manner of planarite alchemy. The lantern’s arcanotechnological stabilizers allow you to hang it on your hip. The lantern functions as a regular lantern, but it sheds bright light out to 15 feet and dim light out to 30 feet. As a bonus action, you can use one hand to manipulate the lantern in one of the following ways: * Push a button to adjust a shutter over the lantern. This can cause it to shed light in all directions (bright to 15 feet, dim to 30 feet), to function as a bullseye lantern (bright in a 60-foot cone, dim another 60 feet), or to block all light. While the lantern’s magical effects normally go through obstacles, the lantern’s shutter does block or aim the light’s effect. * Push a button to set the lantern to indiscriminate mode, glyph-only mode, or no-glyph-only mode. * Draw a writing implement and use it to scribe a glyph onto a small sketching surface embedded atop the lantern. As an action, you can use one hand to draw one ounce of planarite worth 25 gp that has been processed into oil form (such as unensouled witchoil), pour it into the lantern’s special reservoir, and then push a button to activate the lantern’s most powerful function. The lantern immediately burns up the planarite, and you choose one of the following: * Using Dreaming or Bleak Gate planarite, you form a link to that plane. The oil burns for up to five minutes, during which time the brightly-lit area overlaps with an equivalent space on the destination plane. Each creature that is illuminated by the lamp gradually transitions to the destination plane, seeing the original plane become less solid as the destination becomes more real. Once a creature has spent at least 1 continuous minute in the illuminated area, it fully transitions, and it receives no saving throw to resist this. * The lantern burns for five minutes, and creatures and objects undergo a magical effect based on the planarite’s plane for as long as they are in the area. Certain combinations of planarite might produce particularly exotic effects. Depending on the lantern’s settings, this can affect either all creatures in the path of the light, creatures carrying a specific glyph, or creatures not carrying a specific glyph. If it affects only creatures carrying a specific glyph, while this planar light shines, only those creatures can see the lantern and its illumination. The effect varies based on the source of the planarite oil. ] The Dreaming: Vibrant, varicolored incandescence distorts memories. When the five minutes of light end, creatures that were in the light at any point must make a DC 18 Wisdom saving throw. On a failure, a creature forgets everything it had witnessed while within the light. ] The Bleak Gate: Like the “sun” of the Bleak Gate, this is not so much light as it is an eerie-looking devouring of darkness. If a creature that has a shadow or is made of darkness ends its turn in the light, the creature spawns a shadow that single-mindedly attacks the creature. The shadow lacks Sunlight Weakness, and has advantage on attack rolls, ability checks, and saving throws. The shadow cannot exist outside of the radius of the lantern’s light, and disappears once the five minutes of oil finishes burning. Once a creature has spawned a shadow this way, it cannot spawn another shadow from the same lantern for 5 minutes. ] Vona, the Sun: Helical rays expose all that is true and suppress invisibility and illusion. Creatures and objects in the light can be observed by viewers, even viewers outside of the light, as if the viewers had true seeing with indefinite range. This light does not count as true sunlight. ] Caeloon, the Paper Wind: Soothing green shine grants hope in the hour of need. If a creature is actively participating in combat and at half of its hit points (rounded up) or fewer, it can gain a powerful d10 expertise die on one roll. After doing so, it cannot gain the benefit again for five minutes. ] Urim, the Shattered Golden Chain: An aureate glow enforces a stalwart barrier of inertia. Creatures cannot teleport into, out of, or within the light. Creatures must spend twice as much movement as they otherwise would in order to move into, out of, or within the light. ] Jiese, the Fires of Industry: Red lantern flame bolsters cunning in all forms. Creatures gain an expertise die (1d4) on Intelligence, Wisdom, Deception, Sleight of Hand, and Stealth checks. ] Ostea, the Beating Heart: Blood-red brilliance bolsters vitality. Creatures have advantage on Constitution saving throws, and they cannot fail death saving throws. When damage reduces a creature to 0 hit points, the creature can choose to go to 1 hit point; once a creature avails of this, it cannot do so again from the same lantern for 5 minutes. ] Av, the Planes of Dreams and Reflections: Pale, white refulgence grants ingress into dreamscapes. As an action, a creature can cause themselves to fall asleep, and then cast their mind into the dreamscape of a naturally-slumbering creature also within the light. This journey only lasts so long as the lantern light glow, and the nature of the dreamscape is up to the Narrator. A creature that “dies” in the dreamscape wakes up; they suffer a level of strife, but all the damage they suffered in the dreamscape goes away unless it was psychic damage. If the dreamer awakens, those inside the dreamscape “die” this same way. ] Amrou, the Salt Waste: Pallid light transmutes subjects into pillars of salt. If a creature ends its turn in the light, it must make a DC 18 Constitution saving throw or be petrified while it remains in the light. It can repeat the saving throw at the end of each of its turns. Once a creature succeeds on this saving throw, it is immune to the same effect from the same lantern for 5 minutes. ] Iratha Ket, the Graveyard Revel: Bone-white refulgence inspires subjects to perform and dance. Creatures gain an expertise die (d4) on Performance checks. If a creature sings, its lyrics, however contrived, can be universally understood by any creature with a language, even if the listener is outside of the light. Creatures never provoke opportunity attacks, as they dance out of the way. ] Mavisha, the Mysterious Deep: An ocean-blue glow disrupts divinations and shrouds subjects. Creatures are under the effects of mind blank and nondetection. As an action, a creature can magically turn invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell); any equipment the creature wears or carries is invisible with it. This protection, however, feels like being deep underwater, and when the five minutes end, any creature that spent at least one round in it gains one level of fatigue. ] Ascetia, the Hidden Jungle: Lush green illumination brings history to the fore. Each creature can touch another creature’s head and share a vivid memory one time during the five minutes of light. ] Teykfa, the Ticking Pendulum: A dun radiance grants an awareness of time, yet physically stretches out the seconds. Creatures know the exact time of day, down to the second. A creature that ends its turn in the light must make a DC 18 Wisdom saving throw or suffer the effects of slow while it remains in the light. Once a creature succeeds on this saving throw, it is immune to the same effect from the same lantern for 5 minutes. Once the lantern has consumed planarite this way, it takes 8 hours for the light’s energy to fully fade. Buring planarite oil from a different plane during this time produces no magical effect."
+        },
+        {
+            "name": "Spirit-Trapping Camera",
+            "description": "Not to be mistaken for a simple spectral camera, this plain-looking but obviously finely-made piece gives off a subtle but reassuring feeling of peace. As an action, you can use one charge to focus the camera’s lens on a single creature within 30 feet and take its picture. If the targeted creature is an undead or a fiend, it must make a DC 17 Charisma saving throw or be instantly captured in a glass photographic plate. If the target is not an undead or fiendish creature the charge is wasted. Any other creatures shown in the photograph are unaffected, even if they are undead or fiends. The spirit-trapping camera can produce as many plates as it has charges, though each must be removed as a bonus action before you can use another charge. A trapped creature can be released by breaking the plate or it can be sent to its final judgment (in the case of an undead creature) or back to its native plane (in the case of a fiend) by immersing the plate in holy water for 1 hour, at which point it disappears. Creatures banished in this way cannot return to the plane they were sent away from for a year and a day by any means short of divine intervention. If neither of these actions are performed within 24 hours of the photograph being taken, the creature is banished as above, though it has no limitations on returning. The spirit-trapping camera has 3 charges and regains 1 each dawn. When the last charge is expended, roll a d20. On a 1, it becomes a mundane photochemical camera (see Adventures in ZEITGEIST or a5e.tools)."
         }
     ],
     "legendary": [
@@ -1159,10 +861,6 @@
         {
             "name": "Gold Canary Figurine of Wondrous Power",
             "description": "https://5e.tools/items.html#gold%20canary%20figurine%20of%20wondrous%20power_ftd"
-        },
-        {
-            "name": "Emerald Pen",
-            "description": "https://5e.tools/items.html#emerald%20pen_ftd"
         },
         {
             "name": "How to Make Fiends and Influence People",

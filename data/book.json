@@ -213,7 +213,7 @@
             "description": "Becomes a 1st-lvl spell. When cast, has a 25% chance to have its dmg doubled, and a 25% chance for it to be tripled. Still scales with caster lvls."
         },
         {
-            "name": "Draining Pestilence (0) [done]",
+            "name": "Draining Pestilence (0) [DONE]",
             "description": "Dmg is converted to necrotic. The CON save is converted into a CHA save. Dmg dice are increased to d6s."
         },
         {
@@ -513,6 +513,22 @@
             "description": "No longer requires verbal or somatic components."
         },
         {
+            "name": "Subtle Traveler's Ward (1)",
+            "description": "No longer triggers the flash, but the target gains a d6 expertise die on Perception checks contesting Sleight of Hand checks."
+        },
+        {
+            "name": "Perceptive Traveler's Ward (1)",
+            "description": "Is now a 2nd-level spell, but also grants advantage on Perception checks to see creatures attempting to hide. The flash occurs on such a creature if they are spotted by the target."
+        },
+        {
+            "name": "Improved Unseen Servant (1)",
+            "description": "The servant has a Strength of 10, allowing it to accomplish physical labours."
+        },
+        {
+            "name": "Trapped Unseen Servant (1)",
+            "description": "When the servant is destroyed by taking damage, it explodes. Make a spell attack against all foes adjacent to it, dealing 3d6 force damage on a hit. This counts as minion damage, not spell damage."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -742,7 +758,7 @@
         },
         {
             "name": "Varied Borrowed Knowledge (2)",
-            "description": "Whenever you make a check with the chosen skill, you have a 20% chance to gain +1 to all other skills for the duration. Max once/rnd."
+            "description": "Whenever you substantially succeed on a check with the chosen skill, you gain +1 to all other skills for the duration. Max once/rnd."
         },
         {
             "name": "Projected Mental Grip (2)",
@@ -809,6 +825,22 @@
             "description": "No longer requires concentration, but only lasts until the end of your next turn. Is no longer broken by the target attacking or casting a spell."
         },
         {
+            "name": "Extroverted Flex (2)",
+            "description": "The target's Charisma checks gain an additional +1 bonus for each creature the check is being made against."
+        },
+        {
+            "name": "Charming Flex (2)",
+            "description": "If a Charisma check made by the target is a positive social one, the target of the check is charmed for 1 minute if the check substantially succeeds."
+        },
+        {
+            "name": "Exposing Ray of Enfeeblement (2)",
+            "description": "The target also has -2 wep dmg res for the duration."
+        },
+        {
+            "name": "Waring Ray of Enfeeblement (2)",
+            "description": "The target deals -3 dmg with its halved dmg atks, after halving, against creatures with temporary hit points."
+        },
+        {
             "name": "Focused Incite Greed (3)",
             "description": "The range decreases to 15' and the DC for substantial failures increases by 2."
         },
@@ -858,7 +890,7 @@
         },
         {
             "name": "Shredding Crushing Haymaker (3)",
-            "description": "On hit, 20% chance to give the target -3 phys res until the end of your next turn."
+            "description": "On substantial hit, the target gets -6 phys res until the end of your next turn."
         },
         {
             "name": "Reaching Crushing Haymaker (3)",
@@ -1101,7 +1133,7 @@
             "description": "While the target has fewer hit points than you, it can attack while affected."
         },
         {
-            "name": "Scudding Gaseous Form (3)",
+            "name": "Scudding Gaseous Form (3) [DONE]",
             "description": "The target can now move through liquids, but they take 1 force dmg whenever they enter liquid or start their turn in liquid. The target can breathe any liquid for the duration."
         }
     ],
@@ -1180,7 +1212,7 @@
         },
         {
             "name": "Sapping Deceptive Stance (1)",
-            "description": "On Killing Blow while active, 20% chance to refund exertion spent on maneuver."
+            "description": "On substantial Killing Blow while active, refund any exertion spent on this maneuver."
         },
         {
             "name": "Mental Deceptive Stance (1)",

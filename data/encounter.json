@@ -1,18 +1,16 @@
 {
     "plains": [
         "QUEEN: Silver Dragon Wyrmling (4)",
-        "QUEEN: Harpy (6)",
+        "KING: Harpy (12)",
         "KING: Faerie Dragon (9)",
-        "QUEEN: Garra (10)"
+        "KING: Garra (11)"
     ],
     "forest": [
-        "JACK: Cueyatl Sea Priest (8)",
-        "QUEEN: Garra (10)"
+        "JACK: Cueyatl Sea Priest (8)"
     ],
     "mountain": [
-        "QUEEN: Harpy (6)",
-        "JACK: Cueyatl Sea Priest (8)",
-        "QUEEN: Garra (10)"
+        "KING: Harpy (12)",
+        "JACK: Cueyatl Sea Priest (8)"
     ],
     "aquatic": [
         "JACK: Cueyatl Sea Priest (8)"
@@ -25,7 +23,7 @@
         "Giant dog walker ($gender $race): has 4 dogs, they're squabbling, need to be calmed with animal handling check",
         "Magic box: many different sections sealed with magic rune puzzle, arcana check to unlock section",
         "Bored traveller ($gender $race): wants the players to race, make aths checks and each success tier adds 5' to their speed. Rewards top 2 players",
-        "Bored Traveller ($gender $race): wants to play a game of 2 truths and a lie (players talk), says they're very insightful. deception vs prof insight, any who win get reward",
+        "Bored Traveller ($gender $race): wants to play a game of 2 truths and a lie (players talk), says they're very insightful. deception vs +2 insight, any who win get reward",
         "Historian ($gender $race): wants to hear new trivia, history check",
         "Bored Traveller ($gender $race): wants to play a game where they state something to each player and each player must guess truth or lie, prof decep vs player insight, each success is rewarded",
         "Guardian soldiers transporting criminals: 4 criminals, the criminals aren't talking, so soldiers ask the players if they can try intimidating each of them to get more info out of them, will reward each successful",
@@ -37,7 +35,7 @@
         "Generous traveller ($gender $race): wants to give things away, but only to people who deserve them, are good people. persuasion vs insight (prof)",
         "Altar to $xiloan: pray with religion check for reward",
         "Lockbox: multiple locked sections, can be picked with sleight of hand",
-        "Bored traveller ($gender $race): wants to play a game of Marco Polo. stealth vs perception (prof), last 2 players remaining will be rewarded",
+        "Bored traveller ($gender $race): wants to play a game of Marco Polo. stealth vs +2 perception, last 2 players remaining will be rewarded",
         "Hungry traveller ($gender $race): asks players to forage some food for them around, survival check",
         "Generous traveller ($gender $race): Gives all players a reward for free"
     ]

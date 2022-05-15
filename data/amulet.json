@@ -386,8 +386,8 @@
   },
   {
     "name": "beastmaster - artor's loyalty",
-    "mods": ["+1 minion size stage", "+1 minion dmg", "-4 minion HP"],
-    "upgrade": "+1 ALT -4 minion HP and +2 minion dmg NOT size"
+    "mods": ["+1 minion size", "+1 minion dmg", "-4 minion HP"],
+    "upgrade": "+1 dmg ALT -4 minion HP and +3 minion dmg NOT size"
   },
   {
     "name": "beastmaster - call of the pack",
