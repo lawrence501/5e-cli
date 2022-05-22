@@ -1135,6 +1135,158 @@
         {
             "name": "Scudding Gaseous Form (3) [DONE]",
             "description": "The target can now move through liquids, but they take 1 force dmg whenever they enter liquid or start their turn in liquid. The target can breathe any liquid for the duration."
+        },
+        {
+            "name": "Incubated Greater Invisibility (4)",
+            "description": "The spell's effects do not start until the second round of its duration. During this first round, the target has adv Defence and takes half dmg from all sources."
+        },
+        {
+            "name": "Connected Greater Invisibility (4)",
+            "description": "If the target is one of your minions, its atk hits deal critical dmg for the duration."
+        },
+        {
+            "name": "Combative Sickening Radiance (4)",
+            "description": "If you are not wielding any wands or staves, the dmg increases to 6d10."
+        },
+        {
+            "name": "Efficient Sickening Radiance (4)",
+            "description": "If the spell scores any natural critical hits during its first round, its spell slot cost is refunded."
+        },
+        {
+            "name": "Matchmaking Charm Monster (4)",
+            "description": "Your minions gain +2 on all social interactions with the target."
+        },
+        {
+            "name": "Consequential Charm Monster (4)",
+            "description": "In addition to considering you friendly, the target idolises you as someone they respect and admire more than any other. When the spell ends, the target also learns of your exact location."
+        },
+        {
+            "name": "Splitting Raulothim's Psychic Lance (4)",
+            "description": "You can now target 2 different creatures in the same manner, but the dmg of each is reduced to 3d10."
+        },
+        {
+            "name": "Sacrificial Raulothim's Psychic Lance (4)",
+            "description": "If your target is one of your minions, after the damage is dealt, all foes within 5' of the minion take the same amount of damage (and any other effects inflicted, such as conditions)."
+        },
+        {
+            "name": "Reverse Dimension Door (4)",
+            "description": "Instead of teleporting yourself, you specify a single creature to bring to an empty space within 5' of you, with the same details as the teleportation (replacing the space target with a creature target). The target cannot bring any other creatures with them."
+        },
+        {
+            "name": "Personal Dimension Door (4)",
+            "description": "You can no longer bring other creatures with you, but as another action within 1 minute of casting the spell, you can return to your original casting location."
+        },
+        {
+            "name": "Reflective Freedom of Movement (4)",
+            "description": "When the spell ends, any magical conditions that were nullified by the spell are reflected to the creatures causing them."
+        },
+        {
+            "name": "Repulsive Freedom of Movement (4)",
+            "description": "On cast, all foes within 5' of the target are pushed 20' away from them."
+        },
+        {
+            "name": "Hissing Summon Aberration (4)",
+            "description": "If a creature has taken dmg from the spirit's Whispering Aura since your last turn, you have +3 crit dice."
+        },
+        {
+            "name": "Cruel Summon Aberration (4)",
+            "description": "The spirit deals 3d4 additional dmg with atks against bloodied targets."
+        },
+        {
+            "name": "Spreading Blight (4)",
+            "description": "On hit, the target makes another CON save. On a fail, they receive a 2 necrotic DoT, stacking until CON save. Whenever they fail the save to end this DoT, you may have a creature of your choice within 5' of them be inflicted with the same effect (including the spreading)."
+        },
+        {
+            "name": "Decaying Blight (4)",
+            "description": "On hit, the target makes another CON save. On a fail, they receive a 3 necrotic DoT, stacking until CON save."
+        },
+        {
+            "name": "Exhausting Confusion (4)",
+            "description": "Now inflicts 1 lvl of Exhaustion instead of Confused. No longer requires concentration."
+        },
+        {
+            "name": "Intense Confusion (4)",
+            "description": "The spell's DC is increased by 2, but the maximum duration is reduced to 18 seconds."
+        },
+        {
+            "name": "Shattering Polymorph (4)",
+            "description": "Whenever the target delivers a Killing Blow, a cold nova is released from the corpse, making a spell attack using your stats against all foes within 5' of the corpse, dealing 1d10 cold on a hit"
+        },
+        {
+            "name": "Heavy Polymorph (4)",
+            "description": "The target can only make a maximum of 1 attack per turn. If this would reduce their number of attacks, their attacks deal 1d6 additional base damage."
+        },
+        {
+            "name": "Revolutionary Divination (4)",
+            "description": "Your non-trivial skill checks directly related to changing the divined answer have advantage."
+        },
+        {
+            "name": "Prophetic Divination (4)",
+            "description": "You may convey the answer you received to any other creatures within 30' of you, so long as they could understand the higher power (as if they had cast the spell themselves)."
+        },
+        {
+            "name": "Brief Banishment (4)",
+            "description": "When the target is the only foe within 60', the duration is always exactly 1 round, and no concentration is required."
+        },
+        {
+            "name": "Challenging Banishment (4)",
+            "description": "If you are not wielding any staves or wands, you go with the target into the destination plane."
+        },
+        {
+            "name": "Generic Elemental Bane (4)",
+            "description": "You can now choose up to 3 dmg types, but the target takes no extra dmg from critical hits."
+        },
+        {
+            "name": "Thunderous Elemental Bane (4)",
+            "description": "If the chosen type is thunder, the dmg increases to 4d4."
+        },
+        {
+            "name": "Biding Shadow of Moil (4)",
+            "description": "If a triggering attack is a critical hit, the shadows deal critical damage, with +1 crit dice. The base dmg is reduced to 1d12."
+        },
+        {
+            "name": "Confronting Shadow of Moil (4)",
+            "description": "All 10' radius effects are reduced to 5', but the dmg increases to 6d4."
+        },
+        {
+            "name": "Pervading Tearful Sonnet (4)",
+            "description": "Deals double damage against frightened creatures."
+        },
+        {
+            "name": "Calming Tearful Sonnet (4)",
+            "description": "While a creature is crying, it is also sluggish."
+        },
+        {
+            "name": "Extended Locate Creature (4)",
+            "description": "If you maintain concentration for the full hour, the duration can be maintained for another 23hrs."
+        },
+        {
+            "name": "Polar Locate Creature (4)",
+            "description": "You also learn the number of metres the creature is vertically up or down from you."
+        },
+        {
+            "name": "Domicilian Hallucinatory Terrain (4)",
+            "description": "The spell can now affect manufactured structures, and the illusions can appear as manufactured designs."
+        },
+        {
+            "name": "Impersonating Hallucinatory Terrain (4)",
+            "description": "The spell can now affect creatures in the area, changing their clothes, equipment, and/or physical appearances."
+        },
+        {
+            "name": "Agile Accelerando (4)",
+            "description": "A target's additional action can now be used to escape a grapple, and targets have advantage on saves made to avoid or escape grapples."
+        },
+        {
+            "name": "Amplifying Accelerando (4)",
+            "description": "Targets gain a bonus to their weapon dmg equal to the number of rounds the spell has been maintained."
+        },
+        {
+            "name": "Absorbing Summon Greater Demon (4)",
+            "description": "Your DoTs heal the demon instead of dmging it."
+        },
+        {
+            "name": "Connected Summon Greater Demon (4) [DONE]",
+            "description": "Whenever the demon hits a creature other than you, you heal 2 HP."
         }
     ],
     "manual": [
@@ -1249,6 +1401,54 @@
         {
             "name": "Lightweight Swift Stance (1)",
             "description": "Your speed increases by a further 5', but you have -1 global dmg for the duration."
+        },
+        {
+            "name": "Shredding Agile Feint (2)",
+            "description": "If the atk substantially hits, the target gets -3 phys res until the end of your next turn"
+        },
+        {
+            "name": "Distant Agile Feint (2)",
+            "description": "The adv is only granted if the atk's target is 10'+ away from you, but the atk has -2 crit req."
+        },
+        {
+            "name": "Braced Force Hesitation (2)",
+            "description": "Now costs 3 exertion, but you have +8 res against the target's atks for the duration."
+        },
+        {
+            "name": "Projected Force Hesitation (2)",
+            "description": "If the target fails their save, all foes within 5' of them get -1 phys res until end of your next turn"
+        },
+        {
+            "name": "Warding Mugging Hit (2)",
+            "description": "If you successfully take something from the target with the sleight of hand check, gain 8 temp HP."
+        },
+        {
+            "name": "Frustrated Mugging Hit (2)",
+            "description": "Now costs 2 exertion, but if the target has nothing to take with the sleight of hand check, the atk deals 1d8 additional base dmg."
+        },
+        {
+            "name": "Sacrificial Parrying Counter (2)",
+            "description": "Now costs a free action, but you lose 1 hit point whenever you block any atk for the duration."
+        },
+        {
+            "name": "Worrying Parrying Counter (2)",
+            "description": "On hit with the counter atk, the target makes a WIS save or gets 3 psy DoT, stacking until WIS save."
+        },
+        {
+            "name": "Empowering Rapid Drink (2)",
+            "description": "The creature who drinks the potion has +2 to their stagger DCs until the end of their next turn."
+        },
+        {
+            "name": "Energising Rapid Drink (2)",
+            "description": "Now costs a standard action, but the creature who drinks the potion's next limited feature will refund its resource costs."
+        },
+        {
+            "name": "Rejuvenating Rolling Strike (2)",
+            "description": "If you move 10'+, halfway through your movement you leave a L1 healing globe on the ground that can only be collected by yourself or allies in that space as a bonus action. It remains there for the combat."
+        },
+        {
+            "name": "Vorpal Rolling Strike (2)",
+            "description": "The atk has -1 crit req."
         }
     ]
 }

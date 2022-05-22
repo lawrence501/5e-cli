@@ -43,7 +43,7 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 
 ### Point value cheatsheet
 
-- Stagger/Debil/exh/double disadv condi: 5
+- Stagger/Debil/exh/confused/double disadv condi: 5
 - Single disadv condi/sluggish/silence/charm: 3
 - Prone/taunt/similar/root: 2
 - Slow: 1
@@ -121,7 +121,6 @@ Shares condition immunity with paralysis.
 A staggered creature suffers the following effects:
 - Incoming attack damage is always critical.
 - Disadvantage with damaging Defence.
-- All speeds are set to 0 feet.
 
 ### Taunted
 
@@ -152,3 +151,6 @@ While riding your mount, your AC increases by 1.
 - How do people feel about the themepark-ness structure of our campaigns? As opposed to more sandboxy concepts where the players define their own goals and ambitions (Downside is potentially campaign length). Subquestion if happy, how about streamlining exploration elements (eg. food/water/resources, searching for loot, etc.) (If wanting to bring them back, I'd want them to be more involved, and not just extra words for everyone to say)
 
 - How do people feel about current character customisation through loot? Currently lots of different elements involved, and periods of loot rolls + town stuff often takes over an hour due to many decision points
+
+- Mage Slayer discussion - rework into "ranged slayer" (give new name), defensive changes to targeting you from 10+' away (except melee + touch?), remove conc, off changes to when creature within certain distance gets similar targeted you get accuracy bonus vs the offender until end of next turn OR shift up to sp toward offender
+- Change Specialist - to accuracy
