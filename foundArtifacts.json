@@ -231,6 +231,80 @@
                     "upgrade": "-5' AND 3pts distributed/1"
                 }
             ]
+        },
+        {
+            "name": "2. Eva's Instincts (L1)",
+            "type": "weapon",
+            "startingMods": [
+                {
+                    "description": "during the first round of combat, foes who start their turn within 5' of any Bound Spirits take 8 thorns dmg from you on hit",
+                    "pointValue": "2",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "+1 dmg res while you are gaining full resistance from Necromantic Aegis",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+1 AC while adj to one of your minions",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+                
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. during the first round of combat, +2 dmg res",
+                    "pointValue": "1",
+                    "upgrade": "1/1"
+                },
+                {
+                    "description": "2. +2 minion wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 1st-lvl spell slot and gain WIS spellcasting",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot OR +1 lvl/3"
+                },
+                {
+                    "description": "4. +1 spell AC while you are gaining full resistance from Necromantic Aegis",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +2 minion dmg while you are gaining full resistance from Necromantic Aegis",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 minion AB while you are gaining full resistance from Necromantic Aegis",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "7. +5 minion dmg vs humanoids",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "8. foes who start their turns within 5' of Bound Spirits have -2 minion dmg res until their next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +3 to your thorns dmg",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "10. the second time you Bind Spirits since rolling initiative, you can also add 1 to a boon chain",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ]
         }
     ],
     "Fillipo": [

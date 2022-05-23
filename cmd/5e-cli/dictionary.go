@@ -172,7 +172,7 @@ var INSIGHTS map[string]int = map[string]int{
 	"Eva":        6,
 	"Vinton":     -1,
 	"Tymm":       4,
-	"{Sidekick}": 0,
+	"Marguerita": 1,
 }
 
 var LIGHT_TYPES []string = []string{
