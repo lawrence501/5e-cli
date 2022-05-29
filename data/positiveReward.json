@@ -21,16 +21,13 @@
         "description": "100gp (empowered = +50gp)"
     },
     {
-        "description": "Manifest Precise Wisp of Gratitude (single-target ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
+        "description": "Manifest [Precise, Defending, Annihilating, Healing] Wisp of Gratitude (NPC ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
     },
     {
         "description": "Loot roll, rerolling until an equipment roll (empowered = +1 colour)"
     },
     {
-        "description": "Manifest Defending Wisp of Gratitude (defending ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
-    },
-    {
-        "description": "Scroll of Divine Knowledge: learn additional spell from cleric spell list (empowered = spell has +20% chance to be rare)"
+        "description": "Scroll of Knowledge: learn additional spell of choice from random spell list (empowered = spell has +20% chance to be rare)"
     },
     {
         "description": "Inspiration (empowered = inspiration has +20% chance to not be consumed)"
@@ -40,9 +37,6 @@
     },
     {
         "description": "Scroll of learning: 5 exp (empowered = +2 exp)"
-    },
-    {
-        "description": "Scroll of Heraldic Knowledge: learn additional spell from herald spell list (always prepared) (empowered = spell has +20% chance to be rare)"
     },
     {
         "description": "can ask a yes/no question and get a truthful answer (empowered = +20% chance for question to not be consumed)"
@@ -66,31 +60,16 @@
         "description": "Scroll of gambling: bet any multiple of 100gp and roll d100: 1-25 is lose it all, 26-50 is earn it back, 51-75 is earn double gold back, 76-99 is earn as loot rolls/50, 100 is 51 and 76 together (empowered = +1 adv)"
     },
     {
-        "description": "Scroll of Edlritch Knowledge: learn additional spell from warlock spell list (always prepared) (empowered = +20% chance for spell to be rare)"
-    },
-    {
-        "description": "manifest Healing Wisp of Gratitude (healing ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
-    },
-    {
         "description": "Scroll of civilisation: establish new city here, fully automated via constructs. Can choose 1 service for it to have per instance of this reward, combining into 1 (empowered = +10% discount from all services)"
     },
     {
         "description": "Scroll of lucrative battle: summons a random encounter with normal loot + 200*x gp reward, all instances of this gained increase x by 1, combining into 1 (empowered = +1 loot colour)"
     },
     {
-        "description": "manifest Annihilating Wisp of Gratitude (AoE ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
-    },
-    {
-        "description": "Scroll of Arcane Knowledge: learn additional spell from wizard spell list (always prepared) (empowered = +20% chance for spell to be rare)"
-    },
-    {
         "description": "Reroll with advantage (empowered = +1 adv)"
     },
     {
         "description": "Adv loot roll (empowered = +1 colour)"
-    },
-    {
-        "description": "Scroll of Natural Knowledge: learn additional spell from druid spell list (always prepared) (empowered = +20% chance for spell to be rare)"
     },
     {
         "description": "Instanty teleport party to any location on map (empowered = 20% chance to be a scroll instead)"
