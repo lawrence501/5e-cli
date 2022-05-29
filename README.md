@@ -142,9 +142,11 @@ While riding your mount, your AC increases by 1.
 
 ## Ideas for next campaign/things to discuss
 
-- Increase base value of dmg + res from 1 to 2? (dmg because it's usually multiplied by extra atk or single-target) (res because early on it's super powerful, and later it's multiplied by multiatk)
+- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
 
-- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely. Still upgradable through rare currency or something? Crit roll on body armour loot table option?
+- Replace rings: 2x slots, start as very basic single stat, single point values, put gems into them to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing of that type or rerolls it
+
+- Replace hard doubled mods with min 3pts
 
 - Ban homebrew classes? Still allow homebrew subclasses? Harder for a subclass to spiral out of defined balance constraints. Loads of subclass + class options nowadays
 
@@ -153,4 +155,4 @@ While riding your mount, your AC increases by 1.
 - How do people feel about current character customisation through loot? Currently lots of different elements involved, and periods of loot rolls + town stuff often takes over an hour due to many decision points
 
 - Mage Slayer discussion - rework into "ranged slayer" (give new name), defensive changes to targeting you from 10+' away (except melee + touch?), remove conc, off changes to when creature within certain distance gets similar targeted you get accuracy bonus vs the offender until end of next turn OR shift up to sp toward offender
-- Change Specialist - to accuracy
+- Change Specialist - to accuracy (next campaign is fine)
