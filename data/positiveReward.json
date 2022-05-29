@@ -51,6 +51,9 @@
         "description": "Scroll of valuable battle: summons a random encounter with upgraded loot, all instances of this gained at same time increase the colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
+        "description": "Scroll of empowered battle: summons a random encounter, empowered once, and also with +1 colour tier, all instances of this gained at same time increase the base colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
+    },
+    {
         "description": "Level 10-crafted food with chosen affinities (empowered = +1pt distributed)"
     },
     {
