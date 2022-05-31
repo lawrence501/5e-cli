@@ -233,7 +233,7 @@
             ]
         },
         {
-            "name": "2. Eva's Instincts (L1)",
+            "name": "2. Eva's Instincts (L5)",
             "type": "weapon",
             "startingMods": [
                 {
@@ -248,10 +248,19 @@
                 },
                 {
                     "description": "+1 AC while adj to one of your minions",
-                    "pointValue": "3",
+                    "pointValue": "3 + 2/3",
                     "upgrade": "+1/3"
+                },
+                {
+                    "description": "+1 STR",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +2 minion wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 }
-                
             ],
             "thematicMods": [
                 {
@@ -309,7 +318,7 @@
     ],
     "Fillipo": [
         {
-            "name": "1. Fillipo's Legend (L5)",
+            "name": "1. Fillipo's Legend (L6)",
             "type": "weapon",
             "startingMods": [
                 {
@@ -324,7 +333,7 @@
                 },
                 {
                     "description": "while holding a string instrument, +1 buff effectiveness",
-                    "pointValue": "3 + 1/3",
+                    "pointValue": "3 + 2/3",
                     "upgrade": "+1/3"
                 },
                 {
@@ -388,7 +397,7 @@
             ]
         },
         {
-            "name": "Traitor's Due (L2)",
+            "name": "Traitor's Due (L3)",
             "type": "weapon",
             "startingMods": [
                 {
@@ -397,8 +406,8 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "on wep hit, 30% chance to blind until end of target's next turn",
-                    "pointValue": "4",
+                    "description": "on wep hit, 40% chance to blind until end of target's next turn",
+                    "pointValue": "5",
                     "upgrade": "+10%/1"
                 },
                 {
@@ -703,7 +712,7 @@
                 {
                     "description": "when you use your cunning action to hide, you can hide in plain sight while in darkness",
                     "pointValue": "2",
-                    "upgrade": "not in bright light -> not in sunlight -> always/2"
+                    "upgrade": "not in sunlight -> always/2"
                 },
                 {
                     "description": "+3 sleight of hand",

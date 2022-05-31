@@ -78,7 +78,7 @@
             "foil": "+1 caster dmg"
         },
         {
-            "name": "6. Bow & Sling",
+            "name": "6. 1 MYTH DUST",
             "set": "Weapon Classes",
             "primary": "on bow/sling sub hit, target takes 3 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
             "secondary": "on bow/sling sub hit, target takes 1 P dmg for every 5' it moves or is moved/pushed until end of its next turn",
@@ -204,7 +204,7 @@
             "foil": "+1 to crafting creation checks"
         },
         {
-            "name": "2. Grengor",
+            "name": "2. 1 MYTH DUST",
             "set": "Osholoran Champions",
             "primary": "+4 global dmg with 2+ adj foes",
             "secondary": "+2 global dmg with 2+ adj foes",
@@ -274,7 +274,7 @@
             "foil": "+1 incoming temp HP"
         },
         {
-            "name": "4. Morric Noctan",
+            "name": "4. 1 MYTH DUST",
             "set": "Legendary Champions",
             "primary": "while bloodied, +8 global dmg",
             "secondary": "while bloodied, +4 global dmg",
@@ -397,7 +397,7 @@
             "foil": "+1 flail/pick dmg"
         },
         {
-            "name": "8. Necromancy",
+            "name": "8. 5 MYTH DUST",
             "set": "Magic Schools",
             "primary": "while concentrating on a necromancy spell, +8 dmg res",
             "secondary": "while concentrating on a necromancy spell, +4 dmg res",
