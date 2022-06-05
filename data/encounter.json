@@ -2,7 +2,7 @@
     "plains": [
         "The Jabberwocky (13)",
         "The Fateholder (14)",
-        "The Festering Sewer Tunnels (15)"
+        "The Shadowfell Gloaming (16)"
     ],
     "forest": [
         "JACK: Cueyatl Sea Priest (8)"
@@ -17,7 +17,7 @@
     "positive": [
         "Zachary: wants a game of ropes and rafters, will give reward for each player who beats him (prof in DEX saves + aths)",
         "Bored Traveller ($gender $race): excited by adventurers, wants to see them face-off against each other (will give full heal potions to each of them after) in tournament style. Top 2 get reward.",
-        "Flower Person ($gender $race): hurriedly hands each player a giant sunflower (heavy obj), then rides off in a canter, faster than the players",
+        "Flower Person ($gender $race): hurriedly hands each player a giant sunflower (2x heavy obj), then rides off in a canter, faster than the players",
         "Acrobat ($gender $race): wants to see impressive routines/tricks, acro check",
         "Giant dog walker ($gender $race): has 4 dogs, they're squabbling, need to be calmed with animal handling check",
         "Magic box: many different sections sealed with magic rune puzzle, arcana check to unlock section",

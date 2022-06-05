@@ -9470,80 +9470,6 @@
         ]
     },
     {
-        "name": "The Wall",
-        "type": "weapon",
-        "startingMods": [
-            {
-                "description": "+2 wep dmg res",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "+2 wep dmg",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "+2 B dmg",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            }
-            
-        ],
-        "thematicMods": [
-            {
-                "description": "1. +2 wep dmg vs rest targets",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "2. -1 wep dmg vs non-rest targets; 2pts distributed",
-                "pointValue": "1",
-                "upgrade": "-1 and 2pts distributed/1"
-            },
-            {
-                "description": "3. +2 B res",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "4. -1 spell dmg; 2pts distributed",
-                "pointValue": "1",
-                "upgrade": "-1 and 2pts distributed/1"
-            },
-            {
-                "description": "5. -1 spell dmg res; 2pts distributed",
-                "pointValue": "1",
-                "upgrade": "-1 and 2pts distributed/1"
-            },
-            {
-                "description": "6. +1 to aths for climbing",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "7. on init, all foes in 60' get -2 spell dmg until end of their next turn",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "8. +2 wep dmg vs targets smaller than you",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "9. +1d4 B dmg to weps",
-                "pointValue": "3",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "10. +1 wep AB vs targets smaller than you",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            }
-        ]
-    },
-    {
         "name": "Yeek Skin (noble halflings)",
         "type": "armour",
         "startingMods": [
@@ -14012,6 +13938,79 @@
                 "description": "10. +1 AoE dmg res",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Metaphysical",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "your weps count as all wep classes other than their actual class",
+                "pointValue": "2",
+                "upgrade": "+1 wep dmg/1"
+            },
+            {
+                "description": "your wep dmg ignores res",
+                "pointValue": "5",
+                "upgrade": "+1 wep dmg/1"
+            },
+            {
+                "description": "your wep dmg ignores imm",
+                "pointValue": "5",
+                "upgrade": "+1/5"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to percep to avoid being ambushed",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +3 wep dmg vs targets who would resist it",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. +3 brawling wep dmg vs targets who would be imm to it",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +1d4 light dmg to your weps while healthy",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 STR",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. while wielding more than 1 wep class, +1 wep dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1d4 cold dmg to your weps while healthy",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 phys dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "10. +1 wep AB vs targets who would resist it",
+                "pointValue": "2",
+                "upgrade": "+1/2"
             }
         ]
     }
