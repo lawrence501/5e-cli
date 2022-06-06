@@ -24,11 +24,11 @@
         ]
     },
     "Eva": {
-        "void knight - eternal form (T2)": [
-            "+2 INT [+1]",
-            "+1 max HP",
-            "[T3 locked] when hit, 20% chance to gain psychic aegis, granting +2 dmg res until you are bloodied or go down",
-            "[T5 locked] when psychic aegis breaks, it erupts in a psychic rift, making spell atks against adj foes, dealing 1d4 psy"
+        "druid - woodland bond (T2 + 1/2)": [
+            "+2 minion dmg [+1]",
+            "+2 minion outgoing healing",
+            "[T3 locked] ",
+            "[T5 locked] "
         ]
     }
 }
