@@ -332,10 +332,10 @@
             "foil": "+2 mutation dmg"
         },
         {
-            "name": "5. Jarrik, Eldritch Knight",
+            "name": "5. Jarrik, Eldritch Knight [ALTERED EFFECT]",
             "set": "Crikathian Champions I",
-            "primary": "on wep hit, +3 spell dmg until end of your next turn",
-            "secondary": "on wep hit, +1 spell dmg until end of your next turn",
+            "primary": "on wep hit, +6 spell dmg until end of your next turn",
+            "secondary": "on wep hit, +3 spell dmg until end of your next turn",
             "foil": "+1 melee dmg"
         },
         {

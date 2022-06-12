@@ -3758,5 +3758,55 @@
         "name": "deflection",
         "mods": ["+1 wep AC while holding a shield", "on block, 20% chance to gain +1 dmg res for combat"],
         "tags": ["wep ac", "holding shield", "phys res", "non-phys res"]
+    },
+    {
+        "name": "replenishing remedies",
+        "mods": ["+1 max hit dice", "on turn start, recover 1 hit die"],
+        "tags": ["max hit dice"]
+    },
+    {
+        "name": "acrimony",
+        "mods": ["+3 DoT dmg"],
+        "tags": ["dot"]
+    },
+    {
+        "name": "harvester of foes",
+        "mods": ["+1 {weaponClass} dmg", "+1 mark effectiveness"],
+        "tags": ["weapon class", "condi"]
+    },
+    {
+        "name": "malicious intent",
+        "mods": ["+1 curse effectiveness", "+1 global dmg vs cursed targets"],
+        "tags": ["condi", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "marked for death",
+        "mods": ["+3 global dmg vs bloodied targets who are marked by you"],
+        "tags": ["wep dmg", "spell dmg", "condi"]
+    },
+    {
+        "name": "mark the prey",
+        "mods": ["on KB vs targets marked by you, recover 2 hit dice", "creatures marked by you have -1 dmg res"],
+        "tags": ["condi", "max hit dice", "wep dmg", "spell dmg"]
+    },
+    {
+        "name": "hearty",
+        "mods": ["+1 incoming healing", "+1 passive regen"],
+        "tags": ["hp"]
+    },
+    {
+        "name": "vanquisher",
+        "mods": ["on hit vs full HP target, they get -2 {physType} res until end of your next turn", "+4 {physType} dmg"],
+        "tags": ["phys dmg"]
+    },
+    {
+        "name": "relentless",
+        "mods": ["if you've condi'd since start of your last turn, +1 passive regen", "+1 {physType} dmg"],
+        "tags": ["condi", "hp", "phys dmg"]
+    },
+    {
+        "name": "veteran soldier",
+        "mods": ["+1 DoT dmg", "+4 max HP"],
+        "tags": ["dot", "hp"]
     }
 ]

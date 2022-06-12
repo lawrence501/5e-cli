@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Summoned Gauntlets",
+        "target": "Powers that summon minions",
+        "description": "The minions gain the affixes of your $equipSlot.",
+        "meta": "manifest armour"
+    },
+    {
+        "name": "Shredding Summons",
+        "target": "Powers that summon minions",
+        "description": "When the minions hit with melee atks, their target's phys res is slightly reduced until the end of the minion's next turn."
+    },
+    {
+        "name": "Berserking Summons",
+        "target": "Powers that summon minions that can take phys dmg",
+        "description": "The minions deal substantially more damage, but have slightly less HP and barely reduced phys res."
+    },
+    {
+        "name": "Bleeding Summons",
+        "target": "Powers that summon minions",
+        "description": "When the minions hit with melee atks dealing $physType dmg, their target is inflicted with a DoT dealing slight {physType} dmg, stacking until CON save (minion's DC)"
+    },
+    {
+        "name": "Phlebotomising Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions deal more $physType damage over time."
+    },
+    {
+        "name": "Sapping Summons",
+        "target": "Powers that summon minions",
+        "description": "When the minions are hit, the offender is slowed until LR."
+    }
+]

@@ -1225,8 +1225,8 @@
     },
     {
         "description": "whenever you gain a buff, heal 1 HP",
-        "pointValue": "1",
-        "upgrade": "1/1",
+        "pointValue": "2",
+        "upgrade": "1/2",
         "tags": ["armour"]
     },
     {

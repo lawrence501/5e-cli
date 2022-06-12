@@ -1,0 +1,18 @@
+[
+    {
+        "effect": "if you've crit since start of your last turn, +1d4 {dmgType} dmg to your hits",
+        "upgrade": "+1/1",
+        "tags": ["crit", "dmg type", "wep dmg", "spell dmg"]
+    },
+    {
+        "effect": "while your {abilityScore} is above 15, +1d4 {dmgType} dmg to your weps",
+        "upgrade": "+1 dmg/1",
+        "tags": ["ability score", "dmg type", "wep dmg"]
+    },
+    {
+        "effect": "while buffed, +1 {dmgType} dmg",
+        "upgrade": "+1/1",
+        "tags": ["buff", "dmg type"],
+        "meta": "4 to 7 Added Cold Damage per Frenzy Charge"
+    }
+]

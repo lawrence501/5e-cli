@@ -600,7 +600,7 @@
     "upgrade": "+1 spell dmg ALT +10% NOT proc stats"
   },
   {
-    "name": "druid - woodland bond",
+    "name": "druid - woodland beings",
     "mods": ["+1 minion dmg", "+2 minion outgoing healing"],
     "upgrade": "+1"
   },

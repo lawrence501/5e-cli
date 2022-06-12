@@ -1,77 +1,152 @@
 {
-    "Vinton": {
-        "name": "1. Vinton's Scouting",
-        "type": "armour",
-        "startingMods": [
-            {
-                "description": "+2 stealth",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "when you use your cunning action to hide while in darkness, you can hide in plain sight",
-                "pointValue": "2",
-                "upgrade": "not in bright light -> not in sunlight -> always/2"
-            },
-            {
-                "description": "+2 sleight of hand",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            }
-        ],
-        "thematicMods": [
-            {
-                "description": "1. as action against target in your reach, can make sleight of hand vs percep to give target -1 global AB for combat",
-                "pointValue": "2",
-                "upgrade": "-1/2"
-            },
-            {
-                "description": "2. +2 dmg res while on a ship",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "3. +1 acro",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "4. +1 knife wep dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "5. +1 to sleight of hand for picking pockets",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "6. +2 dmg res in darkness",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "7. +1 to sleight of hand for picking locks",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "8. +1 to sleight of hand for planting objects on others",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "9. +1 stealth while using cunning action",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "10. as action against target in your reach, can make sleight of hand vs percep to immediately steal 50gp from them. Once per target",
-                "pointValue": "1",
-                "upgrade": "+50/1"
-            }
-        ]
-    },
+    "Vinton": [
+        {
+            "name": "1. Vinton's Scouting",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "+2 stealth",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "when you use your cunning action to hide while in darkness, you can hide in plain sight",
+                    "pointValue": "2",
+                    "upgrade": "not in bright light -> not in sunlight -> always/2"
+                },
+                {
+                    "description": "+2 sleight of hand",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. as action against target in your reach, can make sleight of hand vs percep to give target -1 global AB for combat",
+                    "pointValue": "2",
+                    "upgrade": "-1/2"
+                },
+                {
+                    "description": "2. +2 dmg res while on a ship",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 acro",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 knife wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 to sleight of hand for picking pockets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +2 dmg res in darkness",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 to sleight of hand for picking locks",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 to sleight of hand for planting objects on others",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 stealth while using cunning action",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. as action against target in your reach, can make sleight of hand vs percep to immediately steal 50gp from them. Once per target",
+                    "pointValue": "1",
+                    "upgrade": "+50/1"
+                }
+            ]
+        },
+        {
+            "name": "1. Vinton's Sneaking",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "on dealing sneak atk dmg with an adv atk, +2 dmg res until your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 stealth while using cunning action",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on dealing sneak atk dmg while hidden, +2 dmg res until your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +4 minion HP",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "2. on dealing sneak atk dmg while hidden, +1 AC until your next turn",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. +10' blindsight",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "4. +3 persuasion with dead creatures",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. on using cunning action, +1 dmg res until your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +1 healing from hit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. as action, can produce an immobile illusion of Faine the Cruel in a space you can see within 60'. All foes make invest check or have -1 global AB while adj to the illusion. Disappears if no one tricked",
+                    "pointValue": "4",
+                    "upgrade": "-1/4"
+                },
+                {
+                    "description": "8. +5' sp when moving as a reaction",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "9. +1 intim",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 to saves vs creatures 60'+ away from you",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        }
+    ],
     "Tymm": [
         {
             "name": "1. Tymm's Tormenting",

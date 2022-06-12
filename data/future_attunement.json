@@ -1,0 +1,39 @@
+{
+    "uncommon": [
+        {
+            "name": "Ring of the Adder",
+            "effects": [
+                "As a bonus action, you can say 'Coluber' to animate the ring's crest into a poisonous snake's head (counts as a minion) for 1 minute, or until you speak the command word again to revert it and recover all the minion's HP.",
+                "As an atk from the Attack action, you can have the minion make a melee weapon atk with an AB equal to your prof bonus. On a hit, it deals 1d6 P and the target must pass a CON save DC 15 or take 3d6 psn.",
+                "While animated, the minion can be attacked. It has 15 AC and 20 HP. If killed, the ring shatters and is destroyed."
+            ]
+        },
+        {
+            "name": "Amulet of Striding and Springing",
+            "effects": [
+                "You have a minimum of 30' speed.",
+                "Your jump distance is tripled, though this does not increase your maximum travel distance."
+            ]
+        },
+        {
+            "name": "Cape of the Python",
+            "effects": [
+                "As an action, you can say 'Pythonidae' and throw the cloak onto the ground within 10' of you. It becomes a Giant Constrictor Snake ( https://5e.tools/bestiary.html#giant%20constrictor%20snake_mm ) minion, until bonus action + speaking the command word again when it reverts to a cape in the minion's space and recovers all the minion's HP.",
+                "You must be conscious to command the minion.",
+                "If the minion is killed, it reverts to cape form, which is then shredded to tatters and destroyed."
+            ]
+        }
+    ],
+    "rare": [
+
+    ],
+    "very rare": [
+
+    ],
+    "legendary": [
+
+    ],
+    "artifact": [
+
+    ]
+}

@@ -70,6 +70,15 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 
 ## Condition definitions
 
+### Confused
+
+A confused creature cannot take reactions.
+
+On its turn, a confused creature rolls a d8 to determine what it does:
+1-4. Debilitated until the end of its turn.
+5-6. Dazed until the end of its turn.
+7+. Makes a melee weapon attack against a randomly-determined creature at the start of its turn as a free action.
+
 ### Dazed
 
 Shares condition immunity with incapacitation.
@@ -90,7 +99,7 @@ A debilitated creature suffers the following effects:
 
 Shares condition immunity with charm.
 
-A dominated creature is charmed. Additionally, the creature that dominated it controls the dominated creature during the dominated creature's turn. It can take move actions as usual and can use its standard action to take any Attack action (or Multiattack, where relevant).
+A dominated creature is charmed. Additionally, the dominated creature gains a free action that can be taken to both move up to its speed and make either a single weapon attack or cast a cantrip. This free action is completely controlled by the creature that dominated the victim.
 
 ### Frightened
 
@@ -142,9 +151,10 @@ While riding your mount, your AC increases by 1.
 
 ## Ideas for next campaign/things to discuss
 
-- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
+- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely. New crafting stone that awakens them
 
-- Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice).
+- Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice). new tags:
+    - choice of ability score; temp hp; choice of ab; choice of type res; speed; choice of weapon class; 1h; 2h; dual-wielding; holding shield; wep dmg; spell dmg; choice of dmg type; choice of dmg polarity; minion off; choice of res polarity; dot; debuff; buff; crit; minion def; aoe; proj; melee; pers area; conc; hit die healing; max hit dice; hp; choice of save; wep ac; spell ac
 
 - Remove amulets
 
@@ -152,11 +162,11 @@ While riding your mount, your AC increases by 1.
 
 - Replace hard doubled mods with min 3pts
 
+- Change books such that they are modifiers on generic types of powers, eg. your sphere AoE powers are now lines with length of their diameter
+
 - Ban homebrew classes? Still allow homebrew subclasses? Harder for a subclass to spiral out of defined balance constraints. Loads of subclass + class options nowadays
 
 - How do people feel about the themepark-ness structure of our campaigns? As opposed to more sandboxy concepts where the players define their own goals and ambitions (Downside is potentially campaign length). Subquestion if happy, how about streamlining exploration elements (eg. food/water/resources, searching for loot, etc.) (If wanting to bring them back, I'd want them to be more involved, and not just extra words for everyone to say)
-
-- How do people feel about current character customisation through loot? Currently lots of different elements involved, and periods of loot rolls + town stuff often takes over an hour due to many decision points
 
 - Mage Slayer discussion - rework into "ranged slayer" (give new name), defensive changes to targeting you from 10+' away (except melee + touch?), remove conc, off changes to when creature within certain distance gets similar targeted you get accuracy bonus vs the offender until end of next turn OR shift up to sp toward offender
 - Change Specialist - to accuracy (next campaign is fine)

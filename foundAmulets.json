@@ -24,11 +24,11 @@
         ]
     },
     "Eva": {
-        "druid - woodland bond (T2 + 1/2)": [
+        "druid - woodland beings (T2 + 1/2)": [
             "+2 minion dmg [+1]",
             "+2 minion outgoing healing",
-            "[T3 locked] ",
-            "[T5 locked] "
+            "[T3 locked] +4 minion HP",
+            "[T5 locked] +1 global dmg while you have an active minion"
         ]
     }
 }

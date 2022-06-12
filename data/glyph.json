@@ -647,10 +647,10 @@
             "2. Hover: At-will; bonus action; You float slowly into the air. You can Concentrate and use further bonus actions to remain motionless in the air, or float up to 30' from the ground, but no more; otherwise, you drift with the wind or with any momentum you have gained. This effect lasts up to 10 minutes.",
             "3. By manipulating gravity's pull on yourself, you gain +2 DEX.",
             "4. Define Down: 1/SR; bonus action; The natural gravity within a 30' cube that you are within 5' of changes directions so that it flows in the direction you determine for a few seconds, then snaps back. Affected creatures are tossed up to 20' in the chosen direction and take damage as if they had fallen that amount.",
-            "5. Gravity Cleave: 1/min; bonus action; You can harm a target within 30' of you by rapidly increasing gravity's pull on one portion of their body and decreasing it on another, dealing 2d8 + your level bludgeoning damage.",
-            "6. Field of Gravity: 1/SR; free action; When you wish it, a field of manipulated gravity around you pulls incoming ranged projectiles to the ground. You are immune to such attacks until the start of your next turn. You must be aware of an attack to foil it. This feature does not work on magic projectiles.",
+            "5. Gravity Cleave: 1/min; bonus action; You can harm a target within 30' of you as an attack by rapidly increasing gravity's pull on one portion of their body and decreasing it on another, dealing 2d8 + your level bludgeoning damage.",
+            "6. Field of Gravity: 1/SR; free action; When you wish it, a field of manipulated gravity around you pulls incoming projectiles to the ground. You are immune to such attacks until the start of your next turn. You must be aware of an attack to foil it. This feature does not work on magic projectiles.",
             "7. Flight: 1/SR; bonus action; You can float and fly through the air for 1 hour. You gain a flying speed of 85'.",
-            "8. Improved Gravity Cleave: 1/decade; bonus action; You can harm a group of targets within 120' of you by rapidly increasing gravity's pull on one portion of each of their bodies and decreasing it on another, dealing 2d8 + your level bludgeoning damage. The targets must be within 5' of each other.",
+            "8. Improved Gravity Cleave: 1/decade; bonus action; You can harm a group of targets within 120' of you as an attackby rapidly increasing gravity's pull on one portion of each of their bodies and decreasing it on another, dealing 2d8 + your level bludgeoning damage. The targets must be within 5' of each other.",
             "9. Weight of the World: 1/week; You can increase a target's weight dramatically. The target is pulled to the ground and cannot move physically under its own power for 1 minute. The target must be within 30' of you.",
             "10. Your Weighty feature now has a maximum range of 90'."
         ]
@@ -707,13 +707,13 @@
         "name": "Channels the Wisdom of the Philosophers",
         "description": "fostering a mental connection with a lord from your background",
         "tiers": [
-            "1. Rather than the usual benefits of the Help action, you enjoy double advantage on the check if the helper is proficient in the check.",
+            "1. Rather than the usual benefits of other creatures using the Help action on you, you enjoy double advantage on the check if the helper is proficient in the check.",
             "2. You gain a connection to a lord of your home city (or the nearest equivalent) who watches over you and attempts to make sure you do well in the world.",
             "3. Helping Hand: At-will; bonus action; You sublimate your reflexes, trusting to the instincts of your lord back home. For the next 10 minutes you deal +2 damage with any weapon with which you are proficient. At the end of this time, you deal -2 damage globally for 1 hour.",
             "4. Psychic Shield: At-will; bonus action; You call upon your lord to shield you from psychic attacks, granting you an expertise die in Wisdom saving throws for the next hour.",
-            "5. Extended Sublimation: 1/SR; bonus action; The DM takes over your character for 18s, during which time your lord acts as they will through your body. Generally, your lord cannot attack through you, but can speak and has proficiency in all social interaction tasks and a +5 modifier in Charisma that overrides your own.",
-            "6. You gain proficiency in Wisdom (Meditation). If you succeed in entering a meditative state during a short rest (DC 13), you recover 6 additional hit points.",
-            "7. One Mind: 1/week; bonus action; You completely merge minds with your lord. While in this strange mental state all of your ability score modifiers have a +1 bonus. Lasts for 1 hour.",
+            "5. Extended Sublimation: 1/SR; bonus action; The DM takes over your character for 18s, during which time your lord acts as they will through your body. Generally, your lord cannot attack through you, but can speak and has proficiency in all social interaction tasks and a +5 Charisma modifier that overrides your own.",
+            "6. You gain proficiency in Wisdom (Meditation). If you succeed in entering a meditative state during a short rest (DC 13), you recover 3 additional hit points per hit die spent.",
+            "7. One Mind: 1/week; bonus action; You completely merge minds with your lord. While in this strange mental state all of your ability score modifiers have a +1 bonus (up to +5). Lasts for 1 hour.",
             "8. You gain an expertise die in checks with which you are receiving the Help action.",
             "9. Your lord gains sway and status in another city of your choice.",
             "10. Your Helping Hand feature no longer has a damage penalty after its use, and its damage bonus increases to +3."
@@ -1123,16 +1123,16 @@
         "name": "Augments Flesh with Grafts",
         "description": "grafting objects on your body",
         "tiers": [
-            "1. You gain prof/+2 with medicine and become better at withstanding pain. You can perform surgeries on yourself, remaining conscious while you do so.",
-            "2. You use your knowledge to surgically attach a healing potion to your body, linking it to your nerves and muscles. Using this potion is as natural for you as breathing and doesn't require any action. A grafted potion still counts toward your healing potion limit, but is not consumed after use. Each time you use it, there is a 10% chance  for it to be destroyed. You may alternatively graft biological parts from other creatures, giving you a feature like one of the creature's. This is treated exactly the same as if it were a grafted potion, except for the graft to work you must make a medicine check with a DC determined by a combination of the creature's CR and how humanoid it is. A surgery takes 1 hour to complete.",
-            "3. Augment Graft: 2/min; free action; When you activate a grafted potion, add 1 to its tier. You cannot increase the grafted potion's level above 5.",
+            "1. You gain an expertise die in medicine and become better at withstanding pain. You can perform surgeries on yourself, remaining conscious while you do so.",
+            "2. You use your knowledge to surgically attach biological parts from other creatures to your body, giving you a passive feature like one of the creature's. For the graft to work, you must make a medicine check with a DC determined by a combination of the creature's CR and how humanoid its body structure is. The grafting surgery takes 1 hour to complete and you can only have 1 graft at a time. Whenever a combat ends, you have a 10% chance to lose the graft.",
+            "3. Augment Graft: 2/min; free action; When you utilise your grafted feature, you can enhance its potency.",
             "4. You gain +2 to CON.",
-            "5. Recharge Graft: 2/min; bonus action; You recharge a grafted potion that was destroyed in the past 10 minutes, allowing it to be used again. You must touch the graft, spend 1 max HP, and succeed at a medicine check (DC equal to 3x the potion's tier) to recharge it, otherwise the graft remains spent and useless.",
-            "6. You can surgically graft artifacts and relics to your body. These fused devices gain a free level that does not contribute to their maximum.",
-            "7. The number of healing potions you can bear (whether or not they are grafts) increases by 1.",
+            "5. Recharge Graft: 2/min; bonus action; You regraft a body part onto you that was lost in the past 10 minutes. You must touch the graft, permanently reduce your max HP by 1 (only if successful), and succeed at a medicine check (DC equal to 3x the original creature's CR) to recharge it, otherwise the graft remains spent and useless.",
+            "6. You can surgically graft relics to your body. These fused relics function as usual, but gain a free level that does not contribute toward their maximum level.",
+            "7. You can have up to 2 grafted parts at once.",
             "8. You have permanently altered your body to make it faster and easier to add or remove grafts. You gain advantage on surgical medicine checks, and adding or removing a graft takes only 1 minute instead of an hour.",
-            "9. By upgrading your nervous and immune systems, you gain prof/+2 with Constitution and Dexterity saving throws.",
-            "10. After a 8 hour surgical procedure where you upgrade or replace most of your internal organs with new ones, you gain +2 to 3 ability scores of your choice. You can only perform this surgery once."
+            "9. By upgrading your nervous and immune systems, you gain an expertise die in saving throws.",
+            "10. Perfecting Operation: once; 8hrs; You conduct a surgical procedure on yourself where you upgrade or replace most of your internal organs with new ones, gaining +2 to 3 ability scores of your choice."
         ]
     },
     {
@@ -1814,10 +1814,10 @@
             "1. Healing Touch: At-will; bonus action; With a touch, you restore 1d6 hit points to any creature. This is a DC 6 Medicine check. Each time you attempt to heal the same creature, the DC increases by 3. The DC resets after that creature takes a long rest.",
             "2. Alleviate: 1/min; bonus action; You cancel or cure one disease or poison in one creature within 60' of you.",
             "3. With your approval, other creatures can touch you and regain 1d6 hit points. This healing costs them 2 hit points. A single creature can benefit from this feature only once per long rest.",
-            "4. When you would go down, you can attempt a Constitution check to resist, with a DC equal to double the CR of the foe or effect that harmed you. If successful, you do not go down and you regain 3 hit points. You cannot use this feature again until after your next long rest.",
+            "4. Cheat Death: 1/LR; free action; When you would go down, you can attempt a Constitution check to resist, with a DC equal to double the CR of the foe or effect that harmed you. If successful, you do not go down and you regain 3 hit points.",
             "5. Inspiration: 1/SR; bonus action; Through mental inspiration and the manipulation of time, one creature you choose within 30' is granted an additional, immediate bonus action, which it can take out of turn.",
             "6. Undo: 1/LR; bonus action; You turn back time a few seconds, effectively undoing a single creature's most recent action. That creature can then immediately repeat the same action or try something different.",
-            "7. Greater Healing Touch: 1/SR; bonus action; You touch a creature and restore all of its hit points. A single creature can benefit from this feature only once per long rest.",
+            "7. Greater Healing Touch: 1/SR; bonus action; You touch a creature and restore 50% of its maximum hit points. A single creature can benefit from this feature only once per long rest.",
             "8. Restore Life: 1/decade; bonus action; You can attempt to restore life to a dead creature of up to CR 2, as long as the corpse is no more than a day old and is mostly intact. You can also attempt to restore life to a corpse that is much older but is especially well preserved. The difficulty of the Medicine check is equal to 6 times the CR of the creature you are attempting to restore to life. When first restored to life, a creature is dazed until they take a long rest, and all tasks they attempt have disadvantage.",
             "9. Your Healing Touch feature now heals 1d10 hit points.",
             "10. You can now use your Alleviate feature at-will."
@@ -2388,15 +2388,15 @@
         "description": "becoming famous",
         "tiers": [
             "1. You gain an entourage of a CR 4 humanoid (minion) who accompanies you wherever you go unless you purposefully dismiss them for a particular outing. You can ask them to deliver things for you, run messages and errands - anything you wish, within reason. They can also run interference if you are trying to avoid someone, help hide you from attention, help you muscle through a crowd, and so on. On the other hand, if a situation becomes physically violent, they retreat to safety.",
-            "2. You gain prof/+2 in Performance and have +2 to checks to either create a particular style of art or play a particular game, your choice.",
-            "3. You are adept at claiming the rewards that fame can generate. When you are recognised, you can be seated at any restaurant, be let into any government building, be invited to any event (even if it is sold out), get a seat at a private function of any sort, or get into any club, no matter how exclusive. When dealing with someone who cannot or will not immediately give in to your desire, you gain advantage on Persuasion checks if that person recognised you or is convinced that you are a celebrity even if they do no recognise you.",
+            "2. You gain an expertise die in Performance and checks to either create a particular style of art or play a particular game, your choice.",
+            "3. You are adept at claiming the rewards that fame can generate. When you are recognised, you can be seated at any restaurant, be let into any government building, be invited to any event (even if it is sold out), get a seat at a private function of any sort, or get into any club, no matter how exclusive. When dealing with someone who cannot or will not immediately give in to your desire, you gain advantage on Persuasion checks if that person recognised you or is convinced that you are a celebrity even if they do not recognise you.",
             "4. You are now immune to diseases and mutations of any kind.",
             "5. Choose a weapon class you are not proficient with. You become proficient with that weapon class.",
             "6. For as long as you speak, you keep the attention of all CR 1 or lower creatures who can hear you.",
             "7. You gain a CR 2 humanoid follower (minion).",
             "8. Do You Know Who I Am: 1/min; bonus action; Acting only as someone who is famous and used to privilege can, you verbally harangue a living foe who can hear and understand you so forcefully that it is unable to take any actions or reactions or move until the end of your next turn. Whether you succeed or fail, the next task the target attempts afterwards has disadvantage.",
             "9. Transcend the Script: 1/LR; bonus action; Whether they are lines you wrote, acted, reported on, or otherwise incorporated into your talent, you compose an oratory on the fly that is so wonderful that even you believe it. For each ally who hears it (and you too), a task attempted within the next hour has double advantage.",
-            "10. Your humanoid follower can be increased to CR 3."
+            "10. Your humanoid follower increases to CR 3."
         ]
     },
     {
@@ -2580,15 +2580,15 @@
         "description": "trickery",
         "tiers": [
             "1. Ledgermain: At-will; bonus action; You can perform small but seemingly impossible tricks. For example, you can make a small object in your hands disappear and move into a desired spot within reach (like your pocket). You can make someone believe that they have something in their posession that they do not (or vice versa). You can switch similar objects right in front of someone's eyes.",
-            "2. You have advantage when you attack a creature that has already been attacked this round and is within 5'.",
+            "2. You have advantage when you attack an adj creature that has already been attacked this round.",
             "3. Impersonate: 2/min; bonus action; You alter your voice, posture, and mannerisms, whip together a disguise, and have advantage on attempts to impersonate someone else, whether it is a specific individual or a general role (such as a city guard).",
-            "4. Choose whether you gain prof/+2 in Persuasion and Performance, or in Deception and Intimidation.",
-            "5. Poke and Run: 1/min; bonus action; When you attack a creature that has eyes, the attack has disadvantage. If you hit, the creature has trouble seeing for the next hour, and you can move or attempt to hide as part of the same action. Tasks the creature performs that rely on sight (which is most tasks) have disadvantage during this period.",
-            "6. Calm: 1/min; bonus action; Through jokes, song, or other art, you prevent a foe from attacking anyone or anything for 1 round.",
-            "7. You gain +2 to Sleight of Hand checks to create simple traps, especially varieties of deadfalls and snares using natural objects from the environment. You can create a trap in under a minute. When you lay a trap, decide whether you want to hold the victim in place (a snare) or inflict damage (a deadfall). Next, attempt a Sleight of Hand check with DC 9 (for a snare) or a DC equal to 1.5 times the number of points of damage you want to inflict (for a deadfall). For example, if you want to inflict 8 points of damage, that is a DC of 12. On a success, you create your trap, which has a detection, disarm, and escape DC of 9. If you are proficient in Stealth or Deception, this DC increases to 12. If you have expertise, it increases to 15.",
-            "8. Fake-Out: 1/year; free action; You are not really hurt at all! Choose to regain all hit points, replenish 2 hit dice, remove a condition from yourself, or change a failed die result to a natural 20.",
+            "4. Gain an expertise die in your choice of either Persuasion and Performance, or Deception and Intimidation.",
+            "5. Poke and Run: 1/min; bonus action; Impose disadvantage on an atk you are making against a creature with eyes. If the atk still hits, the creature has trouble seeing for the next hour, and you can move or attempt to hide as part of the same action. Tasks the creature performs that rely on sight (which is most tasks) have disadvantage during this period.",
+            "6. Calm: 1/min; bonus action; Through jokes, song, or other art, you prevent a foe from targeting anyone or anything with a hostile action for 1 round.",
+            "7. You gain an expertise die in Sleight of Hand checks to create simple traps, such as varieties of deadfalls and snares using natural objects from the environment. You can create a trap in a maximum of 1 minute. When you lay a trap, decide whether you want to hold the victim in place (a snare) or inflict damage (a deadfall). Next, attempt a Sleight of Hand check with DC 9 (for a snare) or a DC equal to 1.5 times the number of points of damage you want to inflict (for a deadfall). For example, if you want to inflict 8 points of damage, that is a DC of 12. The resulting damage also adds your level. On a success, you create your trap, which has a detection, disarm, and escape DC of 9. If you are proficient in Stealth or Deception, this DC increases to 12. If you have expertise, it increases to 15.",
+            "8. Fake-Out: 1/year; free action; You are not really hurt at all! Choose to either regain 50% of your maximum hit points, replenish 2 hit dice, remove a condition from yourself, or change a failed die result to a natural 20.",
             "9. You can now perform elaborate, complex tricks with your Ledgermain feature, so long as they don't involve any other creatures.",
-            "10. Your attack advantage's maximum range increases to 15'."
+            "10. T2's range increases from adjacent to 15'."
         ]
     },
     {
