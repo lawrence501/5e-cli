@@ -99,7 +99,7 @@ A debilitated creature suffers the following effects:
 
 Shares condition immunity with charm.
 
-A dominated creature is charmed. Additionally, the dominated creature gains a free action that can be taken to both move up to its speed and make either a single weapon attack or cast a cantrip. This free action is completely controlled by the creature that dominated the victim.
+A dominated creature is charmed. Additionally, the dominated creature gains a free action at the start of each of its turns that can be taken to both move up to its speed and make either a single weapon attack or cast a cantrip. This free action is completely controlled by the creature that dominated the victim.
 
 ### Frightened
 
@@ -170,3 +170,5 @@ While riding your mount, your AC increases by 1.
 
 - Mage Slayer discussion - rework into "ranged slayer" (give new name), defensive changes to targeting you from 10+' away (except melee + touch?), remove conc, off changes to when creature within certain distance gets similar targeted you get accuracy bonus vs the offender until end of next turn OR shift up to sp toward offender
 - Change Specialist - to accuracy (next campaign is fine)
+
+- Discuss party wipes --> single player death. Heroic sacrifice actions?

@@ -171,7 +171,7 @@ var INSIGHTS map[string]int = map[string]int{
 	"Fillipo":    4,
 	"Eva":        8,
 	"Vinton":     -1,
-	"Tymm":       4,
+	"Tymm":       6,
 	"Marguerita": 1,
 }
 

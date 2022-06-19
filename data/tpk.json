@@ -1,7 +1,7 @@
 [
     {
         "name": "Cloud",
-        "description": "As $partyMember begins to fade, they feel a chill come over them as an eldritch whisper enters their mind: 'Do you wish to save yourself and your friends? I think you have more purpose living than dying. I'm willing to offer you a contract at a later time. In exchange, I shall restore your vitality.'"
+        "description": "As $partyMember begins to fade, they feel a chill come over them as an eldritch whisper enters their mind: 'Do you wish to save yourself and your friends? I think you have more purpose living than dying. I will give you a contract at a later time. In exchange, I shall restore your vitality.'"
     },
     {
         "name": "Aroshi",
@@ -9,7 +9,7 @@
     },
     {
         "name": "P'all",
-        "description": "As $partyMember begins to fade, they feel as if thousands of insects begin to crawl over them as an eldritch whisper enters their mind: 'Your party have unity. You fought together, and were ready to die together. We can respect that. We will restore your vitality in exchange for you helping us at a later time build up our legion with those we don't respect as much.'"
+        "description": "As $partyMember begins to fade, they feel as if thousands of insects begin to crawl over them as an eldritch whisper enters their mind: 'Your party have unity. You fought together, and were ready to die together. We can respect that. We will restore your vitality in exchange for you helping us at a later time.'"
     },
     {
         "name": "Mensis",

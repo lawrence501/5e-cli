@@ -469,6 +469,79 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "2. Fillipo's Rhythm (L1)",
+            "type": "armour",
+            "startingMods": [
+                {
+                    "description": "your Overbearing Rhythm now grants incoming atks -4 AB instead of disadv (stacks with disadv; modified by buff effectiveness)",
+                    "pointValue": "4",
+                    "upgrade": "-1/3"
+                },
+                {
+                    "description": "creatures affected by your Overbearing Rhythm have +1 AC while adj to another affected creature",
+                    "pointValue": "8",
+                    "upgrade": "+1/8"
+                },
+                {
+                    "description": "+2 performance",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +2 persuasion vs creatures you have successfully performed to",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. -1 dmg res vs disadv atks; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "3. creatures affected by your Overbearing Rhythm have +1 dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. the additional Inspiration usages from your Endless Legends feature can now only be used for your Battle Hymns, but it grants you 1 additional usage",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. you can now use your Greater Regeneration glyphic feature once per LR",
+                    "pointValue": "3",
+                    "upgrade": "+1 incoming healing/2"
+                },
+                {
+                    "description": "6. allies have +1 dmg res while adj to a creature affected by your Overbearing Rhythm",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. your Overbearing Rhythm now also grants targets +2 performance",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +2 outgoing temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 dmg res while wearing light body armour",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "10. when a reaction would break your conc, you have a 20% chance to retain conc",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1"
+                }
+            ]
         }
     ],
     "Tymm": [
