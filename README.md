@@ -172,3 +172,5 @@ While riding your mount, your AC increases by 1.
 - Change Specialist - to accuracy (next campaign is fine)
 
 - Discuss party wipes --> single player death. Heroic sacrifice actions?
+
+- Discuss no side-gaming

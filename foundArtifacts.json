@@ -471,7 +471,7 @@
             ]
         },
         {
-            "name": "2. Fillipo's Rhythm (L1)",
+            "name": "2. Fillipo's Rhythm (L3)",
             "type": "armour",
             "startingMods": [
                 {
@@ -485,8 +485,8 @@
                     "upgrade": "+1/8"
                 },
                 {
-                    "description": "+2 performance",
-                    "pointValue": "2",
+                    "description": "+4 performance",
+                    "pointValue": "4",
                     "upgrade": "+1/1"
                 }
             ],
@@ -546,7 +546,7 @@
     ],
     "Tymm": [
         {
-            "name": "The Shardkeeper (L5)",
+            "name": "The Shardkeeper (L6)",
             "type": "weapon",
             "startingMods": [
                 {
@@ -568,6 +568,11 @@
                     "description": "+1 to DCs for ending ongoing effects",
                     "pointValue": "4",
                     "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 to intim during interrogations",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 }
             ],
             "thematicMods": [
@@ -698,76 +703,75 @@
             ]
         },
         {
-            "name": "2. Tymm's Repulsion (T4)",
-            "type": "weapon",
+            "name": "The Fire (L4)",
+            "type": "armour",
             "startingMods": [
                 {
-                    "description": "you may trigger your Repelling Blast even when a creature succeeds on their save against Eldritch Blast; +5' push distance",
-                    "pointValue": "7",
-                    "upgrade": "+5' push distance/2"
+                    "description": "-1 spell crit req for combat whenever an ally buffed by you within 60' crits",
+                    "pointValue": "6",
+                    "upgrade": "-1/6"
                 },
                 {
-                    "description": "your force dmg ignores imm; +1 force dmg",
+                    "description": "on crit, recover 2 SR cooldowns",
                     "pointValue": "4",
-                    "upgrade": "+1 force dmg/1"
+                    "upgrade": "+1/2"
                 },
                 {
-                    "description": "+2 max spell pts",
-                    "pointValue": "2",
+                    "description": "your AoEs leave behind a burning pers area for combat, a spell atk that deals 1d6 fire",
+                    "pointValue": "10",
                     "upgrade": "+1/1"
                 }
-                
             ],
             "thematicMods": [
                 {
-                    "description": "1. on init, recover 4 spell pts",
+                    "description": "1. 20% chance on spellcast to refund its cost",
                     "pointValue": "1",
-                    "upgrade": "+4/1"
+                    "upgrade": "+10%/1"
                 },
                 {
-                    "description": "2. your Repelling Blast ignores push imm",
-                    "pointValue": "3",
-                    "upgrade": "+5' push distance/2"
+                    "description": "2. foes entering your pers areas are dazed until end of your next turn",
+                    "pointValue": "4",
+                    "upgrade": "+5' pers area AoE sizes/3"
                 },
                 {
-                    "description": "3. on KB, recover 4 spell pts",
+                    "description": "3. whenever your daze ends on a creature, they become slowed until CON save",
                     "pointValue": "1",
-                    "upgrade": "+4/1"
+                    "upgrade": "+1 to slow DCs/2"
                 },
                 {
-                    "description": "4. +1 spell dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "5. you may have your Repelling Blast pull its target toward you instead of push (still counts as a push)",
-                    "pointValue": "1",
-                    "upgrade": "+5' push distance/2"
-                },
-                {
-                    "description": "6. +1 Eldritch Disturbance dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. your Repelling Blast pushes an additional 5' vs targets with higher sp than you",
-                    "pointValue": "1",
-                    "upgrade": "+5'/1"
-                },
-                {
-                    "description": "8. +3 spell dmg while within 1 day of Aeston City",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "9. you learn the Mind Sliver cantrip",
-                    "pointValue": "3",
-                    "upgrade": "+1 psy dmg/1"
-                },
-                {
-                    "description": "10. minions created with your Golem glyphic power have +10' sp",
+                    "description": "4. on spell hit, inflict 1 fire DoT, stacking until DEX save",
                     "pointValue": "2",
-                    "upgrade": "+5'/1"
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. your DoTs splash 1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 DoT dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. your spell dmg splashes 1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. on spell crit, recover 1 combat cooldown",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. on 2 crits in a row, 20% chance for your next spell this combat to deal +10 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1 OR +10 dmg/1"
                 }
             ]
         }
