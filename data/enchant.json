@@ -1176,9 +1176,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "on init roll, gain 5 temp HP",
+        "description": "on init roll, gain 4 temp HP",
         "pointValue": "1",
-        "upgrade": "5/1",
+        "upgrade": "4/1",
         "tags": ["armour"]
     },
     {

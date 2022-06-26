@@ -151,10 +151,10 @@ While riding your mount, your AC increases by 1.
 
 ## Ideas for next campaign/things to discuss
 
-- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely. New crafting stone that awakens them
+- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
 
 - Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice). new tags:
-    - choice of ability score; temp hp; choice of ab; choice of type res; speed; choice of weapon class; 1h; 2h; dual-wielding; holding shield; wep dmg; spell dmg; choice of dmg type; choice of dmg polarity; minion off; choice of res polarity; dot; debuff; buff; crit; minion def; aoe; proj; melee; pers area; conc; hit die healing; max hit dice; hp; choice of save; wep ac; spell ac
+    - choice of ability score; temp hp; choice of type res; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys res; non-phys res; dot; debuff; buff; crit; minion def; aoe; throw; melee; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
 
 - Remove amulets
 

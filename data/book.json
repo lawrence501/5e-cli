@@ -529,6 +529,22 @@
             "description": "When the servant is destroyed by taking damage, it explodes. Make a spell attack against all foes adjacent to it, dealing 3d6 force damage on a hit. This counts as minion damage, not spell damage."
         },
         {
+            "name": "Improved Expeditious Retreat (1)",
+            "description": "Now allows you take the Dash action as a free action, but only once per round."
+        },
+        {
+            "name": "Hasty Expeditious Retreat (1)",
+            "description": "You have +5' sp for the duration."
+        },
+        {
+            "name": "Shaking Thunderwave (1)",
+            "description": "A creature that takes 10+ dmg from this spell is knocked prone."
+        },
+        {
+            "name": "Propulsive Thunderwave (1)",
+            "description": "If a target substantially fails their save, the push distance increases to 20'."
+        },
+        {
             "name": "Purging Lemure Transformation (2)",
             "description": "On cast, remove any conditions of your choice from yourself."
         },
@@ -837,7 +853,7 @@
             "description": "The target also has -2 wep dmg res for the duration."
         },
         {
-            "name": "Waring Ray of Enfeeblement (2)",
+            "name": "Waring Ray of Enfeeblement (2) [DONE]",
             "description": "The target deals -3 dmg with its halved dmg atks, after halving, against creatures with temporary hit points."
         },
         {

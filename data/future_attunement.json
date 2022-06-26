@@ -22,6 +22,30 @@
                 "You must be conscious to command the minion.",
                 "If the minion is killed, it reverts to cape form, which is then shredded to tatters and destroyed."
             ]
+        },
+        {
+            "name": "Ring of Warmth",
+            "effects": [
+                "You have 50% resistance to cold damage.",
+                "You and everything you wear and carry are unharmed by extreme cold climates."
+            ]
+        },
+        {
+            "name": "Ring of Vengeance",
+            "effects": [
+                "+1 global damage.",
+                "[CURSE] While attuned, you become unwilling to part with the ring, keeping it on your person at all times. You have disadvantage on attack rolls while not wearing the ring.",
+                "[CURSE] While worn, whenever you are damaged by a creature, pass a WIS save (DC 15) or you must attempt to use your movement and actions each turn to make a melee weapon attack against the creature that damaged you until either you or it drops to 0 hit points, or until you cannot reach the creature to make the attack in a turn.",
+                "[CURSE] Curse can be broken with Banishment spell in addition to usual methods, forcing the vengeful spirit to leave."
+            ]
+        },
+        {
+            "name": "Amulet of the Winterlands",
+            "effects": [
+                "You have 50% resistance to cold damage.",
+                "You ignore difficult terrain from ice/snow.",
+                "You are unharmed by extreme cold climates."
+            ]
         }
     ],
     "rare": [

@@ -803,16 +803,16 @@
         "name": "Descends from Nobility",
         "description": "attaining nobility",
         "tiers": [
-            "1. You are adept at claiming the rewards that a noble background can generate. When recognised, you can be seated at any eating establishment no matter how full, get a room in an inn even if that means others are turned out, be let into any court or other structure where laws are decided or nobility rules, be invited to any gala, and get a seat at a private function of any sort. In addition, you gain prof/+2 in Persuasion.",
-            "2. Through wit, charm, humour, and grace (or sometimes rudeness, threatening posture, and obscenity), you are better able to talk others into what you want. You gain prof/+2 in all social skills.",
+            "1. You are adept at claiming the rewards that a noble background can generate. When recognised, you can be seated at any eating establishment no matter how full, get a room in an inn even if that means others are turned out, be let into any court or other structure where laws are decided or nobility rules, be invited to any gala, and get a seat at a private function of any sort. In addition, you gain an expertise die in Persuasion.",
+            "2. Through wit, charm, humour, and grace (or sometimes rudeness, threatening posture, and obscenity), you are better able to talk others into what you want. You gain an expertise die in all social skills.",
             "3. Command: 1/min; bonus action; Through sheer force of will, you can issue a simple imperative command to a single living creature, who then attempts to carry out your command during its next turn. The creature must be within 30' of you and be able to understand you. The command cannot inflict direct harm on the creature or its allies. A commanded creature can still defend itself normally and make attacks of opportunity.",
-            "4. Noble's Courage: 1/min; free action; Your noble affinity teaches that courage is necessary to do things that are difficult, tedious, or dangerous. When your mind would be negatively affected by an effect, whether something as overt as a psychic command or illness, or something as subtle as fear or boredom, your courage neutralises the effect for up to 1 minute or, if actively being attacked, until the next time you are attacked.",
+            "4. Noble's Courage: 1/min; free action; Your noble affinity teaches that courage is necessary to do things that are difficult, tedious, or dangerous. When your mind would be negatively affected by an effect, whether something as overt as a psychic command or illness, or something as subtle as fear or boredom, your courage neutralises the effect for up to 1 minute or, if you are in combat, until the next time you take damage.",
             "5. A CR 4 humanoid follower joins you as a minion.",
-            "6. Asserting your Privilege: 1/min; bonus action; Acting as only a privileged noble can, you verbally harangue a foe who can hear you so forcefully that they are unable to take any action, including attacks, for 1 round. Whether you succeed or fail, the next d20 roll the target makes has disadvantage.",
-            "7. Font of Inspiration: 1/month; bonus action; An allied character within 5' of you gains a use of Lucky they can use on their next turn.",
+            "6. Asserting your Privilege: 1/min; bonus action; Acting as only a privileged noble can, you attempt to verbally harangue a foe who can hear you, as an attack, so forcefully that they are unable to take any action, including attacks, for 1 round on a hit. Whether you succeed or fail, the next d20 roll the target makes has disadvantage.",
+            "7. Font of Inspiration: 1/month; bonus action; An allied character within 5' of you gains Inspiration that lasts until the end of their next turn.",
             "8. Mind of a Ruler: 1/week; bonus action; When you develop a course of action to deal with a future situation, you can ask the DM one very general question about what is likely to happen if you carry out the plan, and you will get a simple, brief answer.",
-            "9. +2 to Persuasion.",
-            "10. +3 to all social skills."
+            "9. Gain an expertise die in Persuasion.",
+            "10. Gain a d6 expertise die in all social skills."
         ]
     },
     {
@@ -1731,16 +1731,16 @@
         "name": "Bends Light and Space",
         "description": "distorting light and space",
         "tiers": [
-            "1. Blur: 2/min; bonus action; You blur light around you, granting you double advantage on Stealth checks for the next 10 minutes.",
-            "2. Halt: 2/min; free action; You slow your movement through space, preventing all damage from falling and allowing you to land on your feet at the end.",
+            "1. You blur light around you, granting you double advantage on Stealth checks.",
+            "2. Halt: 2/min; free action; You slow your movement through space, preventing all damage from falling and allowing you to land on your feet.",
             "3. Escape: 1/min; bonus action; As a desperate move you simply slip through space to wherever luck will take you. You are essentially teleported to a random location within 30'.",
-            "4. Intangible: 1/SR: bonus action; For the next 10 minutes you may not affect the world and world may not affect you. You cannot be seen, though you can see the world. You cannot move while intangible, but you can whisper to those who come near you.",
-            "5. Waft: 1/LR; free action; While under the effects of any other feature from this glyph path, you may activate this power to become unconstrained by gravity for the next 1d6 rounds. While affected, you can push off of objects to fly through the air up to 120' per turn.",
-            "6. Incongruence: 1/week; bonus action; For the next 10 minutes, anything you touch or pass through takes 1d8 + 1d6 + level force damage.",
-            "7. Your Blur feature now grants guaranteed success on Stealth checks.",
+            "4. Intangible: 1/SR: bonus action; For the next 10 minutes you may not affect the world and the world may not affect you. You cannot be seen, though you can see the world. You cannot move while intangible, but you can whisper to those who come near you.",
+            "5. Waft: 1/LR; free action; While under the effects of any other feature from this glyph path, you may activate this power to become unconstrained by gravity for the next 1d6 rounds. While affected, you can push off of objects to fly through the air up to 120' per turn as your movement action.",
+            "6. Incongruence: 1/week; bonus action; For the next 10 minutes, make an attack against anything you pass through (once per round), dealing 1d8 + 1d6 + level force damage on a hit. You also gain a bonus action natural weapon that makes the same attack.",
+            "7. T1 now grants guaranteed success on Stealth checks.",
             "8. Your Halt feature can now be used at-will.",
             "9. Your Escape feature can now be used twice per minute.",
-            "10. Your Intangible feature can now be used once per minute, and you can move at a speed of 5' while intangible."
+            "10. Your Intangible feature can now be used at-will, and you can move at a speed of 5' while intangible."
         ]
     },
     {
