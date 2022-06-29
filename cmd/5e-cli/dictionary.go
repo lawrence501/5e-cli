@@ -168,10 +168,10 @@ var PARTY_MEMBERS []string = []string{
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Fillipo":    4,
-	"Eva":        8,
+	"Fillipo":    5,
+	"Eva":        9,
 	"Vinton":     -1,
-	"Tymm":       6,
+	"Tymm":       7,
 	"Marguerita": 1,
 }
 

@@ -629,7 +629,7 @@
             ]
         },
         {
-            "name": "1. Tymm's Tormenting (L3)",
+            "name": "1. Tymm's Tormenting (L4)",
             "type": "armour",
             "startingMods": [
                 {
@@ -646,8 +646,12 @@
                     "description": "+3 to intim during interrogations",
                     "pointValue": "3",
                     "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 to intim vs humanoids",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 }
-                
             ],
             "thematicMods": [
                 {
@@ -717,7 +721,7 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "your AoEs leave behind a burning pers area for combat, a spell atk that deals 1d6 fire",
+                    "description": "your AoEs leave behind a burning pers area for combat, a spell atk that deals 1d6 force",
                     "pointValue": "10",
                     "upgrade": "+1/1"
                 }
@@ -861,27 +865,81 @@
             ]
         },
         {
-            "name": "1. Faerie Dragon's Prank (L1)",
-            "type": "armour",
+            "name": "Singularity (L4)",
+            "type": "weapon",
             "startingMods": [
                 {
-                    "description": "+1 to mag saves",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
+                    "description": "+7 hit dmg",
+                    "pointValue": "14",
+                    "upgrade": "+1/2"
                 },
                 {
-                    "description": "+1 to your DCs for seeing through your illusions",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
+                    "description": "+2 crit req",
+                    "pointValue": "-8",
+                    "upgrade": "+1 and 5pts distributed/1"
                 },
                 {
-                    "description": "gain prof in Sylvan",
-                    "pointValue": "3",
-                    "upgrade": "+3->2 persuasion in Sylvan/1"
+                    "description": "+5' push distances",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "adj allies have +1 spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
                 }
             ],
             "thematicMods": [
-                
+                {
+                    "description": "1. +1 non-crit hit dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. -1 crit dice; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 4pts distributed/1"
+                },
+                {
+                    "description": "3. -3 dmg with crits; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-2 and 2pts distributed/1"
+                },
+                {
+                    "description": "4. +1 dmg with illusion spells",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 to saves vs blind",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. on crit, lose 2 HP; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 2pts distributed/1"
+                },
+                {
+                    "description": "7. on hit, pull target up to 5' toward you",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "8. on crit, target heals 3 HP; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-2 and 2pts distributed/1"
+                },
+                {
+                    "description": "9. on push, target takes 2 glyphic force dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
             ]
         }
     ]

@@ -1,9 +1,9 @@
 {
     "Vinton": {
-        "spellblade - awe strike (T2)": [
+        "spellblade - awe strike (T3)": [
             "+1d6 lightning dmg to your melee hits [+1]",
             "+1 aura effectiveness",
-            "[T3 locked] +2 non-phys melee dmg with limited features",
+            "[T3] +2 non-phys melee dmg with limited features",
             "[T5 locked] +1 non-phys melee dmg while projecting an aura"
         ]
     },
