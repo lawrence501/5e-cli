@@ -1303,6 +1303,54 @@
         {
             "name": "Connected Summon Greater Demon (4) [DONE]",
             "description": "Whenever the demon hits a creature other than you, you heal 2 HP."
+        },
+        {
+            "name": "Muddling Synaptic Static (5)",
+            "description": "The muddled thoughts die increases to a d10."
+        },
+        {
+            "name": "Slowing Synaptic Static (5)",
+            "description": "If the spell targets 3+ creatures, choose one that was hit to become slowed for 1 minute."
+        },
+        {
+            "name": "Overwhelming Dominate Person (5)",
+            "description": "If the target fails their save but is already dominated, they instead release a psychic burst, forcing all creatures of your choice within 5' of them to make a WIS save or take 15d4 psy dmg."
+        },
+        {
+            "name": "Bursting Dominate Person (5)",
+            "description": "If the target fails their save, they release a psychic burst, forcing all creatures of your choice within 5' of them to make a WIS save or take 8d6 psy dmg."
+        },
+        {
+            "name": "Morphing Seeming (5)",
+            "description": "Changes to a target's body now hold up to physical inspection."
+        },
+        {
+            "name": "Deceptive Seeming (5)",
+            "description": "Creatures have disadvantage on insight checks against targets."
+        },
+        {
+            "name": "Assisted Contact Other Plane (5)",
+            "description": "Now requires a second creature to aid you in the casting. They must also pass the saving throw for the spell to work. If only 1 of you fails, the detrimental effects are halved. Each participant receives detrimental effects. If the spell is successful, the number of questions increases to 8."
+        },
+        {
+            "name": "Valuable Contact Other Plane (5)",
+            "description": "The first 2 times the answer to a question is either irrelevant or unclear, your question is refunded."
+        },
+        {
+            "name": "Mobilising Far Step (5)",
+            "description": "Whenever you use the bonus action on subsequent turns to teleport, all allies within 5' of your origin gain +15' sp during their next turn"
+        },
+        {
+            "name": "Enduring Far Step (5)",
+            "description": "If you maintain concentration for the full minute, the spell lasts an additional minute without requiring concentration. This only works if the spell was originally cast during combat."
+        },
+        {
+            "name": "Sobering Greater Restoration (5)",
+            "description": "The casting time is reduced to a bonus action, but only for charm or petrification effects."
+        },
+        {
+            "name": "Healing Greater Restoration (5)",
+            "description": "The target also heals hit points as if they had just healed with a hit die during a short rest."        
         }
     ],
     "manual": [

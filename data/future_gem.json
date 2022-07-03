@@ -60,5 +60,31 @@
         "upgrade": "+1/2",
         "tags": ["wep dmg", "spell dmg"],
         "meta": "rogue - marksman - concentration"
+    },
+    {
+        "effect": "while holding a {weaponClass} wep, +1 non-phys dmg",
+        "upgrade": "+1/2",
+        "tags": ["weapon class", "non-phys dmg"]
+    },
+    {
+        "effect": "while holding a {weaponClass} wep, +5' sp",
+        "upgrade": "+5'/2",
+        "tags": ["weapon class", "speed"]
+    },
+    {
+        "effect": "+1 DoT res",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "effect": "while holding a {weaponClass} wep, +1 DoT dmg",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "dot"]
+    },
+    {
+        "effect": "on hit, 20% chance to debuff target until end of your next turn with 25% chance when hit to make the hit a crit",
+        "upgrade": "+10%/1 OR +25%/1",
+        "tags": ["crit"],
+        "meta": "rogue - marksman - wound maker"
     }
 ]

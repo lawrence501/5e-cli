@@ -11533,79 +11533,6 @@
         ]
     },
     {
-        "name": "Singularity",
-        "type": "weapon",
-        "startingMods": [
-            {
-                "description": "+4 hit dmg",
-                "pointValue": "8",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "+1 crit req",
-                "pointValue": "-4",
-                "upgrade": "+1 and 5pts distributed/1"
-            },
-            {
-                "description": "+5' push distances",
-                "pointValue": "2",
-                "upgrade": "+5'/2"
-            }
-        ],
-        "thematicMods": [
-            {
-                "description": "1. +1 non-crit hit dmg",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "2. -1 crit dice; 4pts distributed",
-                "pointValue": "1",
-                "upgrade": "-1 and 4pts distributed/1"
-            },
-            {
-                "description": "3. -3 dmg with crits; 2pts distributed",
-                "pointValue": "1",
-                "upgrade": "-2 and 2pts distributed/1"
-            },
-            {
-                "description": "4. +1 dmg with illusion spells",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "5. +1 to saves vs blind",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "6. on crit, lose 2 HP; 3pts distributed",
-                "pointValue": "1",
-                "upgrade": "+1 and 2pts distributed/1"
-            },
-            {
-                "description": "7. on hit, pull target up to 5' toward you",
-                "pointValue": "2",
-                "upgrade": "+5'/2"
-            },
-            {
-                "description": "8. on crit, target heals 3 HP; 2pts distributed",
-                "pointValue": "1",
-                "upgrade": "-2 and 2pts distributed/1"
-            },
-            {
-                "description": "9. on push, target takes 2 glyphic force dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "10. +1 global dmg",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            }
-        ]
-    },
-    {
         "name": "Lightning Strike",
         "type": "armour",
         "startingMods": [
@@ -14230,6 +14157,79 @@
                 "description": "10. +1 incoming temp HP while it is not your turn",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Time",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "foes within 60' of you have -1 dmg res during daybreak",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "foes within 60' of you have +1 dmg res during nightfall",
+                "pointValue": "-3",
+                "upgrade": "+1 and 4pts distributed/1"
+            },
+            {
+                "description": "+1 crit dice vs bloodied targets",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 hit dmg per active minion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. +1 crit dice",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "3. foes within 60' of you have -1 dmg res",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "4. +1 global dmg while holding a shield",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. +1 stealth during daybreak",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. -1 crit req",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "7. foes within 60' of you have -1 hit dmg res",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "8. foes within 60' of you have -5' sp when moving away from you",
+                "pointValue": "1",
+                "upgrade": "-5'/1"
+            },
+            {
+                "description": "9. -5' sp during nightfall; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-5' and 2pts distributed/1"
+            },
+            {
+                "description": "10. you have -5% chance to find random encounters during daybreak",
+                "pointValue": "1",
+                "upgrade": "-5%/1"
             }
         ]
     }
