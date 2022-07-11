@@ -1350,7 +1350,159 @@
         },
         {
             "name": "Healing Greater Restoration (5)",
-            "description": "The target also heals hit points as if they had just healed with a hit die during a short rest."        
+            "description": "The target also heals hit points as if they had just healed with a hit die during a short rest."
+        },
+        {
+            "name": "Preparatory Scrying (5)",
+            "description": "If the target critically fails their save, they automatically fail all saving throws against the next concentration spell with a save you cast against them."
+        },
+        {
+            "name": "Studying Scrying (5)",
+            "description": "If the target fails their save, they have disadvantage on their next saving throw against one of your spells."
+        },
+        {
+            "name": "Augmented Awaken (5)",
+            "description": "When cast at higher levels, add 30 days to the charm effect of this spell for every 2 slot levels above 5th."
+        },
+        {
+            "name": "Slippery Awaken (5)",
+            "description": "Oozes can be targeted by this spell."
+        },
+        {
+            "name": "Deadly Danse Macabre (5)",
+            "description": "The minions have -2 crit req."
+        },
+        {
+            "name": "Cruel Danse Macabre (5)",
+            "description": "The minions deal +6 damage with weapon attacks against bloodied targets."
+        },
+        {
+            "name": "Protective Wall of Light (5)",
+            "description": "You have +3 phys res while the wall is active."
+        },
+        {
+            "name": "Blazing Wall of Light (5)",
+            "description": "Whenever the wall deals damage, it deals an additional 1d10 fire damage."
+        },
+        {
+            "name": "Informed Commune (5)",
+            "description": "If you have 15+ Intelligence, all subsequent casting 'no' percentages decrease by 25%."
+        },
+        {
+            "name": "Efficient Commune (5)",
+            "description": "20% chance to refund the spell's resource cost."
+        },
+        {
+            "name": "Terrible Dream (5)",
+            "description": "When you choose to terrorise a target and it fails its saving throw, it suffers an additional level of exhaustion from lack of sleep. The terrorising message maximum length also increases to 25."
+        },
+        {
+            "name": "Pleasant Dream (5)",
+            "description": "When the target awakens, they gain temporary hit points equal to their hit die healing amount."
+        },
+        {
+            "name": "Delving Commune with Nature (5)",
+            "description": "The spell no longer fails in non-civilised dungeons."
+        },
+        {
+            "name": "Toxicological Commune with Nature (5)",
+            "description": "You can also learn about any magical poisons or diseases in the area."
+        },
+        {
+            "name": "Summoning Negative Energy Flood (5)",
+            "description": "Risen zombies can now be controlled by you as if they were a standard minion, but the spell gains a 6+ recharge."
+        },
+        {
+            "name": "Conductive Negative Energy Flood (5)",
+            "description": "While a creature has temporary hit points from this spell, you have +10 spell dmg."
+        },
+        {
+            "name": "Cleaving Animate Objects (5)",
+            "description": "The minion's attacks splash 6 damage."
+        },
+        {
+            "name": "Unstable Animate Objects (5)",
+            "description": "After the minion's 3rd hit, it dies. Its damage changes to 7d6 + 4."
+        },
+        {
+            "name": "Corrective Raise Dead (5)",
+            "description": "If the target was a boss that you killed, it is affected by this spell even if its soul is not willing to return to its body."
+        },
+        {
+            "name": "Mass Raise Dead (5)",
+            "description": "Targets an additional creature you touch."
+        },
+        {
+            "name": "Channeled Enervation (5)",
+            "description": "The subsequent action dmg die increases to d12."
+        },
+        {
+            "name": "Toxic Enervation (5)",
+            "description": "Whenever this spell deals damage, except for when the save is successful, the target makes a CON save or gets a 3 psn DoT, stacking until CON save"
+        },
+        {
+            "name": "Pleasant Mislead (5)",
+            "description": "If your copy is interacting with a creature that considers you friendly, your copy has adv on all social checks against that creature."
+        },
+        {
+            "name": "Evasive Mislead (5)",
+            "description": "Your copy has your AC and saving throws, and if it blocks an attack or succeeds a save, the attacker does not realise it is an illusion automatically. Your copy's speed is reduced to your speed."
+        },
+        {
+            "name": "Debilitating Eldritch Cube (5)",
+            "description": "A creature that takes 20+ dmg from this spell in a single instance is debilitated until the end of its next turn."
+        },
+        {
+            "name": "Malignant Eldritch Cube (5)",
+            "description": "If a target critically fails its save, a new cube spawns around them, in a location of your choice such that the target is in at least 1 of its spaces. Creatures cannot critically fail the save for this new cube. The persistent areas do not stack."
+        },
+        {
+            "name": "Enduring Teleportation Circle (5)",
+            "description": "The portal now remains open for 1 minute."
+        },
+        {
+            "name": "Lingering Teleportation Circle (5)",
+            "description": "Whenever a creature emerges from the portal, they may immediately teleport back to the spell's origin after sensing their new surroundings."
+        },
+        {
+            "name": "Mass Hold Monster (5)",
+            "description": "You can target an additional creature within range."
+        },
+        {
+            "name": "Confusing Hold Monster (5)",
+            "description": "The stagger is converted to confusion, but the target can no longer repeat the save to end the effect early."
+        },
+        {
+            "name": "Cosmic Planar Binding (5)",
+            "description": "The spell can also target aberrations."
+        },
+        {
+            "name": "Mass Planar Binding (5)",
+            "description": "When you cast this spell, there is a 20% chance that you can target any number of targets within range."
+        },
+        {
+            "name": "Toxic Warrior's Instincts (5)",
+            "description": "If you block an atk during this spell's effect, the atker must make a CON save or get a 5 psn DoT, stacking until CON save."
+        },
+        {
+            "name": "Exsanguinating Warrior's Instincts (5)",
+            "description": "On hit with the boosted weapon atk, the target must make a CON save or get a 5 S DoT, stacking until CON save."
+        },
+        {
+            "name": "Enduring Geas (5)",
+            "description": "The duration increases to 1 year."
+        },
+        {
+            "name": "Protective Geas (5)",
+            "description": "While the target is affected, they gain a hit die heal of temporary hit points at the end of each long rest."
+        },
+        {
+            "name": "Modify Memory (5)",
+            "description": "You can target an additional creature within range."
+        },
+        {
+            "name": "Modify Memory (5)",
+            "description": "The stagger is converted to confusion, but the target can no longer repeat the save to end the effect early."
         }
     ],
     "manual": [
@@ -1364,7 +1516,7 @@
         },
         {
             "name": "Shadowy Grapple (0)",
-            "description": "While grappling a target, gain +1 to DEX saves."
+            "description": "While grappling a target, gain adv on DEX saves."
         },
         {
             "name": "Frosty Grapple (0)",
