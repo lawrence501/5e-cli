@@ -162,10 +162,10 @@
             "foil": "+1 global dmg while bloodied"
         },
         {
-            "name": "3. Yavine",
+            "name": "3. Yavine [MODIFIED]",
             "set": "Crikathian Champions I",
-            "primary": "+7 proj dmg vs targets 60+' away",
-            "secondary": "+4 proj dmg vs targets 60+' away",
+            "primary": "+7 proj dmg vs targets 30+' away",
+            "secondary": "+4 proj dmg vs targets 30+' away",
             "foil": "+1 proj dmg"
         },
         {

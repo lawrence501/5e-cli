@@ -14232,5 +14232,224 @@
                 "upgrade": "-5%/1"
             }
         ]
+    },
+    {
+        "name": "The Whispering Ice",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "as action, you can cast Ice Storm, an AoE spell atk dealing 1d4 cold dmg in a 5' radius centred on a point you can see within 60'.",
+                "pointValue": "5",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 WIS",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+2 spell dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. Whenever you learn a rare spell from a tome, you can apply the effect to Ice Storm instead",
+                "pointValue": "1",
+                "upgrade": "+1 dmg with rare spells/1"
+            },
+            {
+                "description": "2. if your WIS is 15+, +1 cold dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. your instantaneous AoE spells instead become pers areas that last 2 rnds (or +1 rnds with a similar mod)",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. +3 spell dmg for every 5' of bonus AoE size you have",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. if your WIS is 15+, your instantaneous AoE spells instead become pers areas that last 2 rnds (or +1 rnds with a similar mod)",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. your cold spells always require concentration; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 to conc saves and 3pts distributed/4"
+            },
+            {
+                "description": "7. if your WIS is 15+, +1 spell dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. Ice Storm no longer has a range limit",
+                "pointValue": "3",
+                "upgrade": "+2->1 dmg with Ice Storm vs targets 30+' away from you/1"
+            },
+            {
+                "description": "9. +2 wep dmg while you have temp HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 to your charm DCs",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Priest Hold",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+3 to saves vs debil",
+                "pointValue": "6",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "-1 to DEX saves",
+                "pointValue": "-3",
+                "upgrade": "-1 and 4pts distributed/1"
+            },
+            {
+                "description": "+7 max HP",
+                "pointValue": "3",
+                "upgrade": "+2/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 S dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +2 S res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. as react, can change incoming condi into debil",
+                "pointValue": "1",
+                "upgrade": "+1 to saves vs debil/2"
+            },
+            {
+                "description": "4. on succeeding a save to resist debil, heal 3 HP",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. -1 DEX; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "6. +1 passive regen",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "7. add an amount of flat S dmg to your weps equal to 1/5 of your char lvl",
+                "pointValue": "4",
+                "upgrade": "+1 lvl multi/4"
+            },
+            {
+                "description": "8. +1 incoming healing",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. on succeeding a save to resist debil, condi source takes 5 thorns dmg",
+                "pointValue": "1",
+                "upgrade": "+5/1"
+            },
+            {
+                "description": "10. +1 max hit dice",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Divine Wrath",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "on B hit, deal additional 1d4 light dmg",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "ignore light res",
+                "pointValue": "3",
+                "upgrade": "+1 light dmg/1"
+            },
+            {
+                "description": "+2 light dmg",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. ignore light imm",
+                "pointValue": "3",
+                "upgrade": "+1 light dmg/1"
+            },
+            {
+                "description": "2. +3 light dmg vs targets that would resist light",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "3. +2 global dmg vs targets that would resist light",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 flat B dmg to your hits",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. +1 B dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on block, 50% chance to grapple offender until end of your next turn",
+                "pointValue": "1",
+                "upgrade": "+40%/1"
+            },
+            {
+                "description": "7. 1/creature, on learning a creature's res, can react to change one of its res to light",
+                "pointValue": "1",
+                "upgrade": "+1 percep/1"
+            },
+            {
+                "description": "8. +1 light AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "9. if you haven't hit a boss since start of your last turn, +5' AoE sizes",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "10. +1 flat light dmg to your hits",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
     }
 ]

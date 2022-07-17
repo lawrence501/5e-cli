@@ -140,7 +140,7 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "10. +1 to saves vs creatures 60'+ away from you",
+                    "description": "10. +1 to saves vs creatures 30'+ away from you",
                     "pointValue": "4",
                     "upgrade": "+1/4"
                 }

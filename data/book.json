@@ -1497,12 +1497,44 @@
             "description": "While the target is affected, they gain a hit die heal of temporary hit points at the end of each long rest."
         },
         {
-            "name": "Modify Memory (5)",
-            "description": "You can target an additional creature within range."
+            "name": "Emergency Modify Memory (5)",
+            "description": "Within 1 minute after the spell ends, you may modify/create a single memory one more time, which occurs instantaneously."
         },
         {
-            "name": "Modify Memory (5)",
-            "description": "The stagger is converted to confusion, but the target can no longer repeat the save to end the effect early."
+            "name": "Contagious Modify Memory (5)",
+            "description": "The target will feel compelled to express the modified details of its memories to the next creature it communicates with. You can choose any number of creatures you can see to be exempt from triggering this."
+        },
+        {
+            "name": "Greater Infernal Calling (5)",
+            "description": "This spell becomes a 6th-lvl spell. The devil can carry out a single order for up to 24 hours, but outside of orders will still disappear when it usually would."
+        },
+        {
+            "name": "Stable Infernal Calling (5)",
+            "description": "This spell becomes a 6th-lvl spell. It no longer requires concentration."
+        },
+        {
+            "name": "Distant Skill Empowerment (5)",
+            "description": "The range increases to 30'."
+        },
+        {
+            "name": "Sudden Skill Empowerment (5)",
+            "description": "The expertise from this spell instead grants the skill quadruple proficiency, but only for a single check."
+        },
+        {
+            "name": "Huge Mass Cure Wounds (5)",
+            "description": "The maximum target count increases to 8."
+        },
+        {
+            "name": "Siphoning Mass Cure Wounds (5)",
+            "description": "You gain 6 temp HP per creature healed, but each target also gains -1 passive regen for 1 min."
+        },
+        {
+            "name": "Locating Legend Lore (5)",
+            "description": "If you learn about a creature you have seen before, you also learn its current direction and distance from you."
+        },
+        {
+            "name": "Rapid Legend Lore (5) [DONE]",
+            "description": "The casting time is reduced to 1 action."
         }
     ],
     "manual": [

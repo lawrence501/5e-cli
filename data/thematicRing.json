@@ -3436,7 +3436,7 @@
     },
     {
         "name": "longshot",
-        "mods": ["+1 proj AB", "+1 proj dmg vs targets 60+' away from you"],
+        "mods": ["+1 proj AB", "+1 proj dmg vs targets 30+' away from you"],
         "tags": ["proj", "ab"]
     },
     {
