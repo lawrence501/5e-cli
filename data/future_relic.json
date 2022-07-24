@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Guardian of Souls",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+1 spell AB while holding a shield",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "allies within 45' of you have +1 melee wep dmg",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "Recharge 6+: as bonus, heal an allied minion within 90' of you for 5 hit points",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 dmg with sword weps",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. -1 AC while holding a shield; 6pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 6pts distributed/1"
+            },
+            {
+                "description": "3. +5' fly sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "4. you cannot have adv or disadv on any saves",
+                "pointValue": "1",
+                "upgrade": "+1 saves that would be adv/4"
+            },
+            {
+                "description": "5. +1 spell AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 spell save DC",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "7. +1 bonus action each rnd",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. on KB, gain 4 temp HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "9. +1 spell save DC while holding a shield",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. +1 spell dmg while holding a shield",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    }
+]

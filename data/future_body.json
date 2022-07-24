@@ -1,0 +1,68 @@
+{
+    "unarmoured": [],
+    "light": [],
+    "medium": [
+        {
+            "name": "Starlit Brigandine",
+            "source": "druid - circle of stars",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You learn the Guidance cantrip. When you cast it, it adds a d6 expertise die.",
+                        "You learn the Guiding Bolt spell and always have it prepared. You can also cast it a number of times equal to your proficiency bonus without expending any resources, and when you do so it is upcast 1 lvl. You recover these uses whenever you finish a long rest."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can shapeshift into a celestial form for 10 minutes, or until you dismiss it early or are incapacitated. You can do this a number of times equal to half your proficiency bonus between long rests. While in your celestial form, you shed bright light in a 20' radius and dim light for an additional 20'."
+                    ],
+                    "variables": [
+                        "While in your celestial form, a constellation of an archer appears above you. When you enter this form and as a bonus action on subsequent turns while it lasts, you can make a ranged spell attack using the archer's bow against a creature within 60' of you. On a hit, it deals radiant dmg equal to 2d8 + your ability score modifier.",
+                        "While in your celestial form, a constellation of a chalice appears above you. Whenever you cast a levelled spell that restores hit points to a creature while in this form, you or another creature within 30' of you can regain hit points equal to 2d8 + your ability score modifier.",
+                        "While in your celestial form, a constellation of a dragon appears above you. While in this form, whenever you make an INT or WIS check, or a CON save to maintain concentration on a spell, you can treat a roll of 12 or lower on the d20 as a 13."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Primeval Chainmail",
+            "source": "druid - circle of the primeval",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain a d6 expertise die in History.",
+                        "Add 2d4 to your History checks."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action, you can conjure an ancient beast as a minion in an unoccupied space within 30' of you. You can do this a number of times equal to half your proficiency bonus between long rests. You can only have one summoned at a time.",
+                        "The companion's stat block can be found here: https://homebrewery.naturalcrit.com/share/M3IJv2wp-9di"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Beastmaster's Lamellar",
+            "source": "ranger - beastmaster",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain a d6 expertise die in History.",
+                        "Add 2d4 to your History checks."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action, you can conjure an ancient beast as a minion in an unoccupied space within 30' of you. You can do this a number of times equal to half your proficiency bonus between long rests. You can only have one summoned at a time.",
+                        "The companion's stat block can be found here: https://homebrewery.naturalcrit.com/share/M3IJv2wp-9di"
+                    ]
+                }
+            ]
+        }
+    ],
+    "heavy": []
+}

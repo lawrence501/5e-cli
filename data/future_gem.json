@@ -1,7 +1,7 @@
 [
     {
         "effect": "on {weaponClass} atk, +1 wep dmg until you end a turn having not made such an atk",
-        "upgrade": "+1/3",
+        "upgrade": "+1/2",
         "tags": ["weapon class", "wep dmg"]
     },
     {
@@ -41,7 +41,7 @@
         "meta": "rogue - marksman - assassin's quiver"
     },
     {
-        "effect": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1d4 {dmgType} dmg to your next {weaponClass} atk",
+        "effect": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1d4 {dmgType} dmg to your next {weaponClass} hit",
         "upgrade": "+1/1",
         "tags": ["weapon class", "speed", "type dmg"]
     },
@@ -86,5 +86,103 @@
         "upgrade": "+10%/1 OR +25%/1",
         "tags": ["crit"],
         "meta": "rogue - marksman - wound maker"
+    },
+    {
+        "effect": "+1 {dmgType} dmg with {weaponClass} hits",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "type dmg"]
+    },
+    {
+        "effect": "+1 non-phys res per buff on you",
+        "upgrade": "+1/4",
+        "tags": ["non-phys res", "buff"]
+    },
+    {
+        "effect": "+1 to {abilityScore} saves",
+        "upgrade": "+1/1->3",
+        "tags": ["save"]
+    },
+    {
+        "effect": "+1 AC vs adj creatures",
+        "upgrade": "+1/4",
+        "tags": ["ac"],
+        "meta": "rogue - marksman - meditation"
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your {weaponClass} hits",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "type dmg"]
+    },
+    {
+        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to mark with -3 {dmgType} res until end of your next turn",
+        "upgrade": "+10%/1 OR -1 res/1",
+        "tags": ["weapon class", "type dmg"]
+    },
+    {
+        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give -1 to condi saves until end of your next turn",
+        "upgrade": "+10%/1 OR -1 save/4",
+        "tags": ["weapon class", "debuff"]
+    },
+    {
+        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give target 3 {dmgType} DoT, stacking until DEX save",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["weapon class", "type dmg", "dot"]
+    },
+    {
+        "effect": "if you haven't been hit by an adj creature since your last turn, +1 to {abilityScore} saves",
+        "upgrade": "+1/3",
+        "tags": ["save"]
+    },
+    {
+        "effect": "if you haven't been hit by an adj creature since your last turn, +5' sp",
+        "upgrade": "+5'/2",
+        "tags": ["speed"]
+    },
+    {
+        "effect": "when crit, 60% chance to nullify extra dmg",
+        "upgrade": "+40%/1",
+        "tags": ["hp"]
+    },
+    {
+        "effect": "+1 {weaponClass} crit dice",
+        "upgrade": "+1/3",
+        "tags": ["weapon class", "crit"],
+        "meta": "marksman - heightened senses"
+    },
+    {
+        "effect": "your phys-base {weaponClass} hits cannot benefit from any non-phys dmg, but grant your next {weaponClass} hit +1d8 {dmg type} dmg",
+        "upgrade": "+2/1",
+        "tags": ["weapon class", "phys dmg", "type dmg"]
+    },
+    {
+        "effect": "+3 dmg to {weaponClass} hits with added dmg dice",
+        "upgrade": "+2/1",
+        "tags": ["weapon class"]
+    },
+    {
+        "effect": "+1 {dmgType} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "effect": " on {weaponClass} hit, 20% chance to give target 2 {dmgType} DoT, stacking until CON save",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["weapon class", "type dmg", "dot"]
+    },
+    {
+        "effect": "the first time you atk each combat with a {weaponClass} wep, gain +4 {weaponClass} dmg until end of your turn",
+        "upgrade": "+4/1",
+        "tags": ["weapon class"]
+    },
+    {
+        "effect": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "effect": "on {weaponClass} hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["weapon class", "hp"],
+        "meta": "marksman - thief's quiver"
     }
 ]

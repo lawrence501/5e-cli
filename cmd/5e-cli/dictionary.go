@@ -9,11 +9,11 @@ var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"8":           "Double value 1E: Adv on mod",
 	"7":           "Book: Adv",
 	"14":          "2E: +1 upgrade point",
-	"12":          "Amulet: +1 starting tier",
+	"12":          "Amulet: +1 starting tier [FUTURE: attunement adv on rarity]",
 	"10":          "Colour reroll: +1 colour",
-	"11":          "1d20 + 150gp: +50% gold",
+	"11":          "1d20 + 150gp: +50% gold [FUTURE: replace with body, adv]",
 	"2":           "Blessing: +1 tier",
-	"13":          "Ring: Adv on mod",
+	"13":          "Ring: Adv on mod [FUTURE: rename to gem]",
 	"9":           "Myth Cards: Each card has adv rarity",
 	"16":          "3E: +1 upgrade point",
 	"15":          "Double value 2E: Adv on 1 mod",
@@ -33,6 +33,8 @@ var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"blunt":       "Blunt stone: another -1 die size, but +2x to the multi",
 	"brittle":     "Brittle stone: another -1 AC, but +3x to the multi",
 	"gambling":    "Gambling stone: adv reroll",
+	"scourging":   "Scourging stone: +1 reroll of final result",
+	"breeding":    "Breeding stone: +1 reroll of final result",
 }
 
 var PHYS_TYPES []string = []string{

@@ -46,10 +46,58 @@
                 "You ignore difficult terrain from ice/snow.",
                 "You are unharmed by extreme cold climates."
             ]
+        },
+        {
+            "name": "Cape of the Sewers",
+            "effects": [
+                "While attuned, all rats are indifferent toward you and will not attack you unless you threaten or harm them.",
+                "The cape has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
+                "As an action, can flick the cape out and expend a charge to cause a Swarm of Rats (https://5e.tools/bestiary.html#swarm%20of%20rats_mm) to fall out. The swarm is not a minion.",
+                "Whenever a Swarm of Rats that isn't under another creature's control is within 30' of you, you can make a CHA check contested by the swarm's WIS check. If you succeed, the swarm becomes your minion for as long as your maintain this effect as an action each turn. If either you lose control of the swarm or it succeeds the contested check, it is immune to these effects for 24hrs."
+            ]
+        },
+        {
+            "name": "Ring of Fish Command",
+            "effects": [
+                "The ring has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
+                "By expending 1 charge as an action, you can cast Dominate Beast (DC 15) on any creature that has an innate swim speed."
+            ]
+        },
+        {
+            "name": "Signet of P'all",
+            "effects": [
+                "The ring has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
+                "By expending 1 charge as an action, you can cast Charm Person (DC 13).",
+                "Aside from its magical properties, the ring is an indicator of P'all's recognition and favour."
+            ]
+        },
+        {
+            "name": "Ring of Jumping",
+            "effects": [
+                "You can cast Jump as a bonus action at-will, but can only target yourself when you do so."
+            ]
         }
     ],
     "rare": [
-
+        {
+            "name": "Sunforged Amulet",
+            "effects": [
+                "As an action, you can throw the amulet up to 120' to a point you can see. When it reaches that point, it erupts in an explosion. Each creature within 20' of the point must make a DC 15 DEX save, taking 6d6 fire dmg on a failed save, or half as much otherwise. Afterwards, you can use an action to cause the amulet to reappear around your neck. You cannot cause it to explode again until you finish a short or long rest. This counts as a throwing attack.",
+                "If you have not recalled the amulet back to you 24hrs after throwing it, it reforms at the point where it exploded and you lose your attunement to it."
+            ]
+        },
+        {
+            "name": "Ring of X-ray Vision",
+            "effects": [
+                "As an action, you can say 'Transparere'. For 1 minute afterwards, if you look through the ring, you can see into and through solid matter. This vision extends for 30'. To you, solid objs within that range appear transparent and do not prevent light from passing through them. The vision penetrates 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Anything thicker blocks the vision, as does any amount of lead."
+            ]
+        },
+        {
+            "name": "Cape of Force Resistance",
+            "effects": [
+                "You have 50% resistance force damage."
+            ]
+        }
     ],
     "very rare": [
 

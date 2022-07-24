@@ -41,6 +41,15 @@ During a long rest, a creature may pray to Aroshi to turn their Myth Dust into s
 11. o5e/Pathfinder
 12. Reroll with disadv
 
+### Manual value cheatsheet
+
+Always based on dmg where possible
+
+- Default/more: 30%
+- Slight: 15%
+- Substantial: 60%
+- Barely: 7%
+
 ### Point value cheatsheet
 
 - Stagger/Debil/exh/confused/double disadv condi: 5
@@ -154,7 +163,7 @@ While riding your mount, your AC increases by 1.
 - Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
 
 - Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice). new tags:
-    - choice of ability score; temp hp; choice of type res; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys res; non-phys res; dot; debuff; buff; crit; minion def; aoe; throw; melee; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
+    - choice of ability score; temp hp; choice of type res; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys res; non-phys res; dot; debuff; buff; crit; minion def; aoe; throw; choice of range type; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac; throw
 
 - Remove amulets
 
@@ -175,4 +184,6 @@ While riding your mount, your AC increases by 1.
 - Discuss party wipes --> single player death. Heroic sacrifice actions?
 
 - Discuss no side-gaming
+
+- Discuss Adrian's golden home with its perfectly balanced distances from all + we can get our dice blessed by Muffin
 

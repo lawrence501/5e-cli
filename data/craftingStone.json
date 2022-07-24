@@ -17,7 +17,7 @@
     },
     {
         "name": "Learning",
-        "description": "Instantly level worn relic; reroll if none"
+        "description": "Instantly level worn relic/attuned item; reroll if none"
     },
     {
         "name": "2x Cloning",
@@ -53,6 +53,6 @@
     },
     {
         "name": "Breeding",
-        "description": "use on 2 items that are both destroyed, randomly choose base of 1, then alternate between them (starting on non-base) pulling a random mod at a time from each until the point total is at least the highest one, then add a random mod"
+        "description": "use on 2 items that are both destroyed, randomly choose base of 1, then alternate between them (starting on non-base) pulling a random mod at a time from each until the point total is at least the highest one"
     }
 ]
