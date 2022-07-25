@@ -1,7 +1,7 @@
 {
     "Eva": [
         {
-            "name": "1. Eva's Presence (L4)",
+            "name": "1. Eva's Presence (L5)",
             "type": "armour",
             "startingMods": [
                 {
@@ -10,8 +10,8 @@
                     "upgrade": "+5'/1"
                 },
                 {
-                    "description": "+7 persuasion in draconic",
-                    "pointValue": "2",
+                    "description": "+9 persuasion in draconic",
+                    "pointValue": "4",
                     "upgrade": "+2/1"
                 },
                 {
@@ -318,7 +318,7 @@
     ],
     "Fillipo": [
         {
-            "name": "1. Fillipo's Legend (L6)",
+            "name": "1. Fillipo's Legend (L7)",
             "type": "weapon",
             "startingMods": [
                 {
@@ -332,8 +332,8 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "while holding a string instrument, +1 buff effectiveness",
-                    "pointValue": "3 + 2/3",
+                    "description": "while holding a string instrument, +2 buff effectiveness",
+                    "pointValue": "6",
                     "upgrade": "+1/3"
                 },
                 {
@@ -471,7 +471,7 @@
             ]
         },
         {
-            "name": "2. Fillipo's Rhythm (L3)",
+            "name": "2. Fillipo's Rhythm (L4)",
             "type": "armour",
             "startingMods": [
                 {
@@ -488,6 +488,11 @@
                     "description": "+4 performance",
                     "pointValue": "4",
                     "upgrade": "+1/1"
+                },
+                {
+                    "description": "adj allies have +1 dmg res",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
                 }
             ],
             "thematicMods": [
@@ -707,7 +712,7 @@
             ]
         },
         {
-            "name": "The Fire (L5)",
+            "name": "The Fire (L6)",
             "type": "armour",
             "startingMods": [
                 {
