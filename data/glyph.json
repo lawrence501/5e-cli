@@ -598,13 +598,13 @@
             "1. The laws of probability change around you, granting you double advantage on gambling-related skill checks.",
             "2. The spirits of the air favour you. You have critical requirement -1 for all d20 rolls.",
             "3. The DM must inform you one turn in advance when you are about to be specifically targeted in combat.",
-            "4. Whenever you score a critical on any d20 roll in combat, you gain a bonus action.",
+            "4. Whenever you score a critical on any d20 roll in combat, you gain a bonus action that can be used until the end of your next turn.",
             "5. Hot Cards: 1/LR; bonus action; You infuse a held object with luck. For the next 10 minutes, all d20 rolls involving the object have critical requirement -2.",
             "6. Impossible Play: 1/month; free action; You may only use this feature while attempting an action that would normally have a DC of 30 or higher. You treat the DC as 15 for this action.",
             "7. T1 now grants automatic success.",
             "8. You have critical requirement -1 for all d20 rolls.",
             "9. Whenever you are informed in advance of being targeted in combat, you also find out which creature(s) will be targeting you.",
-            "10. Whenever you score a critical on any d20 roll in combat, you gain 2 bonus actions."
+            "10. Whenever you score a critical on any d20 roll in combat, you gain 2 bonus actions that can be used until the end of your next turn."
         ]
     },
     {
@@ -1192,8 +1192,8 @@
             "3. T1 now heals 2 HP instead, but on doing so your inner demons get the better of you, forcing you to succumb to a base emotion for the next hour: roll a d6, 1-2. temptation, 3-4. anger, 5-6. sloth. Only one of these can be active at a time, though you can still continue to heal in this way.",
             "4. Echoing Corridors: 1/SR; bonus action; For the next 10 minutes you broadcast your thoughts for all adjacent living creatures to hear in their minds telepathically.",
             "5. You gain an expertise die in Wisdom saving throws.",
-            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT > 4), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 + your level psychic damage whenever it fails an attack roll, saving throw, or important skill check. Additionally, you learn the target's greatest fear.",
-            "7. Centre of the Maze: 1/week; 10mins; Your self-mastery is such that you are able to redefine yourself as needed. You may quietly contemplate for the usage time to reassign 1 skill proficiency or expertise to a different skill.",
+            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT > 4), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 psychic damage whenever it fails an attack roll, saving throw, or important skill check. Additionally, you learn the target's greatest fear.",
+            "7. Centre of the Maze: 1/week; 10mins; Your self-mastery is such that you are able to redefine yourself as needed. You may quietly contemplate for the usage time to reassign 1 skill proficiency to a different skill.",
             "8. T1 now heals 4 HP instead.",
             "9. Your Hand on the Wall feature can now be used at-will.",
             "10. T1 now heals 7 HP instead."
@@ -1595,7 +1595,7 @@
             "6. While unarmoured, you gain an expertise die in saving throws.",
             "7. Greater Frenzy: 1/SR; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +4 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat if taking place within range of your senses. You can use this feature or your Frenzy feature, but you cannot use both at the same time. Any effects based on your Frenzy feature also apply to this power.",
             "8. Rather than granting additional damage, critical strikes allow you the option of immediately making another attack.",
-            "9. When you would normally die, you instead fall unconscious for 1 round and then awaken. You immediately heal 1d6 + 6 hit points and gain a level of exhaustion. If you die again before you take a long rest, you are truly dead.",
+            "9. When you would normally die, you instead fall unconscious for 1 round and then awaken. You immediately heal 1d6 + 6 hit points and gain a level of fatigue. If you die again before you take a long rest, you are truly dead.",
             "10. You gain +3 to CON and DEX."
         ]
     },
@@ -1943,7 +1943,7 @@
             "2. You gain proficiency in an additional language of your choice.",
             "3. You gain an expertise die in Survival checks to navigate.",
             "4. You gain proficiency in an additional language of your choice.",
-            "5. You can go 48 hours without resting before exhaustion begins to take effect.",
+            "5. You can go 48 hours without resting before fatigue begins to take effect.",
             "6. Because you must always keep an eye out when you are on the road, you gain an expertise die in Perception, and Survival checks to navigate.",
             "7. You are so adept at languages that after hearing any language spoken for 5 minutes, you can pick up a few words. It does not take long for you to be able to (crudely) make yourself understood and to understand what is being said around you.",
             "8. In your travels, you have been exposed to all sorts of dangerous things and are developing a general resistance. You gain +1 to AC and an expertise die in CON saves.",
@@ -2057,7 +2057,7 @@
             "4. You gain a d6 expertise die in attacks with your stone fists.",
             "5. Golem Stomp: 1/SR; bonus action; You stomp on the ground with all of your strength, creating a shock wave that attacks all creatures in 5'. Affected creatures take 1d8 + level bludgeoning damage and are either pushed 5' away from you or knocked prone (your choice).",
             "6. 1 one-handed weapon of your choice is built into your body, and you gain proficiency with it. The weapon is concealed until you wish to use it.",
-            "7. Deep Reserves: 1/LR; bonus action; When others are exhausted, you can push through. You can expend any number of hit points to remove 1 level of exhaustion from yourself per 10 hit points.",
+            "7. Deep Reserves: 1/LR; bonus action; When others are exhausted, you can push through. You can expend any number of hit points to remove 1 level of fatigue from yourself per 10 hit points.",
             "8. Mind Surge: 1/LR; bonus action; You recover 1d6 + 6 hit points.",
             "9. Still as a Statue: 1/LR; bonus action; Drawing upon the power of your golem body, you freeze in place, burying your essence deep in your stone core. During this time, you lose all mobility as well as the ability to take physical actions. You cannot sense what is happening around you, and no time seems to pass for you. While still as a statue, you gain +10 AC. Under normal circumstances, you automatically rouse to normal wakefulness and mobility 24 hours later. If an ally you trust shakes you hard enough (DC 6 Strength), you rouse earlier.",
             "10. You gain +1 AC and +2 CON, DEX, and WIS."
@@ -2259,7 +2259,7 @@
         "name": "Embraces Ancient Ancestry",
         "description": "unlocking the powers of Brozian gods",
         "tiers": [
-            "1. Choose a god from Brozias' pantheon. This god indicates what your ancestors served and what now manifests in you as a related semi-divine ability. You gain the first 2 tiers of that god's prayer path.",
+            "1. Choose a god from Dekel's pantheon. This god indicates what your ancestors served and what now manifests in you as a related semi-divine ability. You gain the first 2 tiers of that god's prayer path.",
             "2. You gain prof/+2 in Religion.",
             "3. Mythlight Lance: 2/min; bonus action; You can fashion a lance of divine radiance from your mythlight and hurl it at a target. This is a ranged attack of range 30' that deals 1d10 + level radiant damage.",
             "4. Sentinel: 1/min; bonus action; A target you select within 5' is marked with a rune of celestial protection for 1 minute. You can mark only 1 such target at a time. If the target would be targeted specifically by any attack or effect, make a Religion check against the effect's DC or attack roll. If successful, the source must choose a different target.",
@@ -2634,7 +2634,7 @@
             "5. +4 AB with greatswords and lances.",
             "6. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage.",
             "7. You have +2 to Animal Handling checks to ride a mount.",
-            "8. You do not suffer the normal penalties of exhaustion, except for death. While on 0 hit points, you can continue to take turns as normal, however all tasks you attempt have disadvantage.",
+            "8. You do not suffer the normal penalties of fatigue, except for death. While on 0 hit points, you can continue to take turns as normal, however all tasks you attempt have disadvantage.",
             "9. Slayer: 2/min; free action; You inflict 1d8 additional base damage with a greatsword or lance.",
             "10. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage."
         ]
@@ -2664,7 +2664,7 @@
             "3. If you attempt a task and get Help from your clone on a task you are not adding your proficiency bonus to, you instead do add your proficiency bonus.",
             "4. Your clone is more concerned about your well-being than its own, and if it is standing next to you when you are subjected to a saving throw, you have advantage on the save. If you succeed but would have failed the save without the cover provided by your clone, they they take the effect as if they had failed the save.",
             "5. Your clone increases to CR 2.",
-            "6. Force Spawning: 1/LR; bonus action; You empower your clone, but this is very taxing. You gain a level of exhaustion. Your clone adds 1d8 to all damage it deals and triple your level to its current and maximum hit points for 1 minute (it doesn't lose its current hit points at the end of the effect).",
+            "6. Force Spawning: 1/LR; bonus action; You empower your clone, but this is very taxing. You gain a level of fatigue. Your clone adds 1d8 to all damage it deals and triple your level to its current and maximum hit points for 1 minute (it doesn't lose its current hit points at the end of the effect).",
             "7. Psychic Transfer: 1/LR; bonus action; You can switch minds between yourself and your clone within 120' through your psychic bond. You have access to all your features and powers while in the body of your clone. Your original body is treated as your clone, and your mind in the clone body is treated as if it was you. You can make the switch permanent or switch back as a separate bonus action.",
             "8. Your clone increases to CR 3.",
             "9. Your clone increases to CR 4.",

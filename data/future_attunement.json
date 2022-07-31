@@ -97,6 +97,26 @@
             "effects": [
                 "You have 50% resistance force damage."
             ]
+        },
+        {
+            "name": "Molten Bronze Skin",
+            "effects": [
+                "While attuned, the bronze coats your entire body. You have 50% resistance to fire damage."
+            ]
+        },
+        {
+            "name": "Devotee's Amulet",
+            "effects": [
+                "Whenever you hit with a weapon attack, the attack deals 1d8 additional radiant damage.",
+                "As a bonus action once per long rest, you can say 'Devotio'. For 1 minute afterwards, the amulet emanates a thin cloud of incense out to 10'. At the start of each of your turns, you and any other creatures in the incense each regain 1d4 hit points."
+            ]
+        },
+        {
+            "name": "Mind Loop",
+            "effects": [
+                "Whenever you hit with a weapon attack, the attack deals 2d4 additional psychic damage.",
+                "Any creature that takes psychic damage from your weapon attacks must succeed on a DC 15 WIS save or had disadvantage on INT, WIS, and CHA saves for 1 minute, or until it passes a passive save."
+            ]
         }
     ],
     "very rare": [

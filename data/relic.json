@@ -743,7 +743,7 @@
         "type": "armour",
         "startingMods": [
             {
-                "description": "your exh is treated as -1 lvl",
+                "description": "your fatigue is treated as -1 lvl",
                 "pointValue": "5",
                 "upgrade": "+1/5"
             },
@@ -771,7 +771,7 @@
                 "upgrade": "+1/4"
             },
             {
-                "description": "3. you can never die of exhaustion",
+                "description": "3. you can never die of fatigue",
                 "pointValue": "2",
                 "upgrade": "+1 to death saves/3"
             },
@@ -791,12 +791,12 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "7. +1 to exh saves",
+                "description": "7. +1 to fatigue saves",
                 "pointValue": "2",
                 "upgrade": "1/2"
             },
             {
-                "description": "8. if you're cleansing exh lvls in a LR, can spend +2hrs doing light activity",
+                "description": "8. if you're cleansing fatigue lvls in a LR, can spend +2hrs doing light activity",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -806,9 +806,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "10. if you spend 8hrs doing nothing but light activity, you can cleanse your exh lvls",
+                "description": "10. if you spend 8hrs doing nothing but light activity, you can cleanse fatigue lvls as if you had taken a long rest",
                 "pointValue": "3",
-                "upgrade": "+1 to exh saves/2"
+                "upgrade": "+1 to fatigue saves/2"
             }
         ]
     },
@@ -6363,79 +6363,6 @@
         ]
     },
     {
-        "name": "Blessing of Cover",
-        "type": "weapon",
-        "startingMods": [
-            {
-                "description": "+3 minion dmg",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "+1 phys res",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            },
-            {
-                "description": "on hit, 20% chance to give target -2 global dmg until end of your next turn",
-                "pointValue": "2",
-                "upgrade": "+10%/1 OR -1/1"
-            }
-        ],
-        "thematicMods": [
-            {
-                "description": "1. +1 to DEX saves",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "2. on hit, 20% chance to give target -3 fire res until end of your next turn",
-                "pointValue": "1",
-                "upgrade": "+10%/1 OR -2/1"
-            },
-            {
-                "description": "3. +1 dmg res while bloodied",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "4. +1 fire dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "5. +2 fire res",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "6. +1 to your debil DCs",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "7. +1 phys res while concentrating",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "8. on hit, 20% chance to give target -3 nec res until end of your next turn",
-                "pointValue": "1",
-                "upgrade": "+10%/1 OR -2/1"
-            },
-            {
-                "description": "9. +10' minion teleport range",
-                "pointValue": "1",
-                "upgrade": "+5'/1"
-            },
-            {
-                "description": "10. +1 phys abs",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            }
-        ]
-    },
-    {
         "name": "Chimaera's Essence",
         "type": "armour",
         "startingMods": [
@@ -8856,7 +8783,7 @@
                 "upgrade": "+10%/1"
             },
             {
-                "description": "7. on wep hit, 20% chance to recover 1 lvl of exhaustion",
+                "description": "7. on wep hit, 20% chance to recover 1 lvl of fatigue",
                 "pointValue": "3",
                 "upgrade": "+10%/1 OR +1 lvl/3"
             },
@@ -8948,80 +8875,6 @@
                 "description": "10. your limited glyphic features have 20% chance to refund their usage",
                 "pointValue": "3",
                 "upgrade": "+10%/1"
-            }
-        ]
-    },
-    {
-        "name": "Wolfborn Crusader",
-        "type": "weapon",
-        "startingMods": [
-            {
-                "description": "you gain proficiency with all club weps",
-                "pointValue": "3",
-                "upgrade": "+1 club dmg/1"
-            },
-            {
-                "description": "while holding a club wep, your condis have double duration",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "while not holding a 2h wep, +1 global dmg",
-                "pointValue": "2",
-                "upgrade": "+1/2"
-            }
-            
-        ],
-        "thematicMods": [
-            {
-                "description": "1. -1 crit req",
-                "pointValue": "4",
-                "upgrade": "-1/4"
-            },
-            {
-                "description": "2. while holding a sword wep in your onhand, +1 sword dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "3. on block, +2 outgoing healing for combat",
-                "pointValue": "2",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "4. +1 club dmg",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "5. while holding a club wep, your buffs have double duration",
-                "pointValue": "3",
-                "upgrade": "+1/3"
-            },
-            {
-                "description": "6. +1 wep dmg while holding a non-dual-wielding wep in your offhand",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "7. +2 dmg with effects you are concentrating on",
-                "pointValue": "1",
-                "upgrade": "+1/1"
-            },
-            {
-                "description": "8. +1 AB with 1h clubs",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "9. +1 AB with club weps",
-                "pointValue": "4",
-                "upgrade": "+1/4"
-            },
-            {
-                "description": "10. +10' swim sp",
-                "pointValue": "1",
-                "upgrade": "+5'/1"
             }
         ]
     },
@@ -10834,7 +10687,7 @@
                 "upgrade": "+5'/1"
             },
             {
-                "description": "3. as action, target within 60' makes WIS save or gains +2 lvls of exhaustion",
+                "description": "3. as action, target within 60' makes WIS save or gains +2 lvls of strife",
                 "pointValue": "3",
                 "upgrade": "+1/1"
             },
@@ -14449,6 +14302,152 @@
                 "description": "10. +1 flat light dmg to your hits",
                 "pointValue": "2",
                 "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Hyperborean Crystal",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "on init, recover 2 spell slot lvls",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "after rolling a d20 for any non-spell reason, you may expend a spell slot to reroll the d20",
+                "pointValue": "3",
+                "upgrade": "+1 1st-lvl spell slot/3"
+            },
+            {
+                "description": "+1 INT",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 dmg with INT-based hits",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. on non-boss KB, 20% chance to gain 2 exp",
+                "pointValue": "3",
+                "upgrade": "+10%/1 OR +1 exp/1"
+            },
+            {
+                "description": "3. -1 global dmg while bloodied; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "4. -1 DEX; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "5. 20% chance on being lvl'd to increase wep base dmg die size by 5",
+                "pointValue": "1",
+                "upgrade": "+10%/1 OR +5 size/1"
+            },
+            {
+                "description": "6. become prof in deep speech",
+                "pointValue": "1",
+                "upgrade": "+40%/1"
+            },
+            {
+                "description": "7. has no relic lvl limit (further lvls count as lvl 9->10)",
+                "pointValue": "1",
+                "upgrade": "+15 gold find/1"
+            },
+            {
+                "description": "8. you have adv on init",
+                "pointValue": "3",
+                "upgrade": "+1 init/1"
+            },
+            {
+                "description": "9. +1 cold dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 arcana",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Pristine Water",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+3 psn res",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "allies within 60' of you have +1 to death saves",
+                "pointValue": "6",
+                "upgrade": "+1/6"
+            },
+            {
+                "description": "+1 to saves vs DoTs",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. when an ally within 60' of you makes a save vs a debuff, can react to give them +1",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. allies within 60' of you have +1 to saves vs slow",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. allies within 60' of you have +1 to saves vs stagger",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. allies within 60' of you have +1 to saves vs DoTs",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 1st-lvl spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot/3 OR +1 lvl/3"
+            },
+            {
+                "description": "6. -3 max HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-2 and 2pts distributed/1"
+            },
+            {
+                "description": "7. +3 wep dmg while you have an active beast minion",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "8. +1 psn abs",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. on making a save against a condi, can react to change the condi into an equivalently-pointed DoT",
+                "pointValue": "1",
+                "upgrade": "+1 to saves vs DoTs/2"
+            },
+            {
+                "description": "10. -4 minion HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-4 and 2pts distributed/1"
             }
         ]
     }

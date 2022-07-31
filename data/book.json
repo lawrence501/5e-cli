@@ -1022,7 +1022,7 @@
         },
         {
             "name": "Draining Fast Friends (3)",
-            "description": "When the spell ends after at least 1 minute duration, the target gains 2 lvls of exhaustion."
+            "description": "When the spell ends after at least 1 minute duration, the target gains 2 lvls of strife."
         },
         {
             "name": "Bolstering Remove Curse (3)",
@@ -1218,7 +1218,7 @@
         },
         {
             "name": "Exhausting Confusion (4)",
-            "description": "Now inflicts 1 lvl of Exhaustion instead of Confused. No longer requires concentration."
+            "description": "Now inflicts 1 lvl of strife instead of Confused. No longer requires concentration."
         },
         {
             "name": "Intense Confusion (4)",
@@ -1394,7 +1394,7 @@
         },
         {
             "name": "Terrible Dream (5)",
-            "description": "When you choose to terrorise a target and it fails its saving throw, it suffers an additional level of exhaustion from lack of sleep. The terrorising message maximum length also increases to 25."
+            "description": "When you choose to terrorise a target and it fails its saving throw, it suffers an additional level of fatigue from lack of sleep. The terrorising message maximum length also increases to 25."
         },
         {
             "name": "Pleasant Dream (5)",

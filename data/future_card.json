@@ -255,16 +255,23 @@
         {
             "name": "1. Kreon",
             "set": "Antagonists",
-            "primary": "while bloodied, +5 glyphic dmg",
+            "primary": "while bloodied, +6 glyphic dmg",
             "secondary": "while bloodied, +3 glyphic dmg",
             "foil": "+1 glyphic dmg"
         },
         {
             "name": "2. Ekhan Keasalor",
             "set": "Antagonists",
-            "primary": "you can't wield magic weps; crafted weps are considered mundane for you; +12 to crafting creation checks; +12 to crafting magic equipment rolls",
+            "primary": "you can't wield magic weps; crafted weps are considered mundane for you; +15 to crafting creation checks; +15 to crafting magic equipment rolls",
             "secondary": "you can't wield magic weps; crafted weps are considered mundane for you; +6 to crafting creation checks; +6 to crafting magic equipment rolls",
             "foil": "+1 spell dmg res"
+        },
+        {
+            "name": "3. Godworms",
+            "set": "Antagonists",
+            "primary": "1/combat, on hit, dominate target until end of their next turn",
+            "secondary": "1/LR, on sub hit, dominate target until end of their next turn",
+            "foil": "creatures charmed by you have -1 dmg res"
         },
         {
             "name": "1. Vidar, Shadow Spy",
@@ -381,11 +388,11 @@
             "foil": "+1 dmg with WIS-based hits"
         },
         {
-            "name": "3. Godworms",
+            "name": "4. The Queen of Rot",
             "set": "Antagonists",
-            "primary": "1/LR, on sub hit, dominate target until end of their next turn",
-            "secondary": "1/LR successfully, on sub hit, target makes CON save or dominated until end of their next turn",
-            "foil": "creatures charmed by you have -1 dmg res"
+            "primary": "you have a 5' aura that deals 3 glyphic nec dmg to foes",
+            "secondary": "you have a 5' aura that deals 1 glyphic nec dmg to foes",
+            "foil": "foes in your pers areas have -1 dmg res"
         },
         {
             "name": "7. Petros Corphanis",
@@ -467,11 +474,11 @@
             "foil": "+1 dmg with CHA-based hits"
         },
         {
-            "name": "4. The Queen of Rot",
+            "name": "5. Trauma Demon",
             "set": "Antagonists",
-            "primary": "you have a 5' aura that deals 2 glyphic nec dmg to foes",
-            "secondary": "you have a 5' aura that deals 1 glyphic nec dmg to foes",
-            "foil": "foes in your pers areas have -1 dmg res"
+            "primary": "-11 max HP; +21 dmg thorns",
+            "secondary": "-5 max HP; +9 dmg thorns",
+            "foil": "+3 dmg thorns"
         },
         {
             "name": "8. Heath Rouven",

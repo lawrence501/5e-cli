@@ -93,9 +93,9 @@
         "tags": ["weapon class", "type dmg"]
     },
     {
-        "effect": "+1 non-phys res per buff on you",
-        "upgrade": "+1/4",
-        "tags": ["non-phys res", "buff"]
+        "effect": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1 non-phys res until your next {weaponClass} hit",
+        "upgrade": "+1/1",
+        "tags": ["non-phys res", "weapon class", "speed"]
     },
     {
         "effect": "+1 to {abilityScore} saves",
@@ -184,5 +184,36 @@
         "upgrade": "+1/2",
         "tags": ["weapon class", "hp"],
         "meta": "marksman - thief's quiver"
+    },
+    {
+        "effect": "on {weaponClass} hit, 20% chance to give target 2 {dmgType} DoT, stacking until CON save",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["weapon class", "type dmg", "dot"]
+    },
+    {
+        "effect": "ignore {dmgType} res",
+        "upgrade": "+1 {dmgType} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "effect": "-1 dmg res vs adj creatures, and +1d4 {dmgType} dmg to your {weaponClass} hits",
+        "upgrade": "-1 res and +2 size/1 OR +1 size/1",
+        "tags": ["type dmg", "weapon class"]
+    },
+    {
+        "effect": "the first time you atk each combat with a {weaponClass} wep, gain +2 to your next {abilityScore} save this combat",
+        "upgrade": "+1 (or 2 for non-DEX/CON/WIS)/1",
+        "tags": ["weapon class", "save"]
+    },
+    {
+        "effect": "on succ {abilityScore} save, gain 5 temp HP",
+        "upgrade": "+5/1",
+        "tags": ["save", "temp hp"]
+    },
+    {
+        "effect": "on hit vs target 30+' away from you, 20% chance to gain +2 {weaponClass} dmg for combat",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["weapon class"],
+        "meta": "marksman - sharpshooter"
     }
 ]

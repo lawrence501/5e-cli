@@ -1492,5 +1492,17 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": []
+    },
+    {
+        "description": "-1 crit req for journey activity checks",
+        "pointValue": "4",
+        "upgrade": "-1/4",
+        "tags": []
+    },
+    {
+        "description": "+6 wep dmg vs surprised targets",
+        "pointValue": "1",
+        "upgrade": "+6/1",
+        "tags": ["weapon"]
     }
 ]
