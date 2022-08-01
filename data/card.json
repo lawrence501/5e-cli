@@ -50,7 +50,7 @@
             "foil": "+1 club/hammer dmg"
         },
         {
-            "name": "2. Dart & Knife",
+            "name": "2. 1 MYTH DUST",
             "set": "Weapon Classes",
             "primary": "on dart/knife sub hit, target gets 3 P DoT, stacking until CON save",
             "secondary": "on dart/knife sub hit, target gets 1 P DoT, stacking until CON save",
@@ -425,7 +425,7 @@
             "foil": "+1 incoming temp HP"
         },
         {
-            "name": "4. Rug",
+            "name": "4. 5 MYTH DUST",
             "set": "Osholoran Champions",
             "primary": "on hit, +2 dmg with that dmg type until end of the turn",
             "secondary": "on hit, +1 dmg with that dmg type until end of the turn",
