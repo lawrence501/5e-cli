@@ -215,5 +215,195 @@
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["weapon class"],
         "meta": "marksman - sharpshooter"
+    },
+    {
+        "effect": "+2 {weaponClass} dmg with limited features",
+        "upgrade": "+1/1",
+        "tags": ["weapon class"]
+    },
+    {
+        "effect": "if you've made a {weaponClass} atk since start of your last turn, -1 crit req",
+        "upgrade": "-1/4",
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "effect": "the first time you atk each combat with a {weaponClass} wep, 20% chance for {weaponClass} weps to rain from the sky around the target - make a glyphic {weaponClass} atk against all foes within 5' of the target, including them, dealing 1d4 base type on hit",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["weapon class"]
+    },
+    {
+        "effect": "on hit vs target 30+' away from you, 20% chance to gain '+10% chance on hit to debil until end of target's next turn', for combat",
+        "upgrade": "+10% proc/1 OR +10% buff/1",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "on hit vs target 30+' away from you, 20% chance to gain '+10% chance on hit to give -2 phys res until end of your next turn', for combat",
+        "upgrade": "+10% proc/1 OR +10% buff/1 OR -1 res/1",
+        "tags": ["phys dmg"],
+        "meta": "marksman - death from afar"
+    },
+    {
+        "effect": "your {rangeType} hits splash 2 dmg",
+        "upgrade": "+1/1",
+        "tags": ["range"]
+    },
+    {
+        "effect": "your AoEs that trigger off of hits have +5' size",
+        "upgrade": "+5'/3",
+        "tags": ["aoe"]
+    },
+    {
+        "effect": "your pers areas have +5' AoE sizes",
+        "upgrade": "+5'/3",
+        "tags": ["pers area"]
+    },
+    {
+        "effect": "if you've made a {weaponClass} atk since start of your last turn, +1 crit dice",
+        "upgrade": "+1/3",
+        "tags": ["weapon class", "crit"]
+    },
+    {
+        "effect": "on {weaponClass} atk, '+1 HP healed on crit' until you end a turn having not made such an atk",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "hp", "crit"],
+        "meta": "marskman - COMPLETE"
+    },
+    {
+        "effect": "+1 {abilityScore}",
+        "upgrade": "+1/4",
+        "tags": ["ability score"]
+    },
+    {
+        "effect": "while you have an active minion, +1 non-phys res",
+        "upgrade": "+1/1",
+        "tags": ["minion off", "minion def", "non-phys res"]
+    },
+    {
+        "effect": "+1 {abilityScore}",
+        "upgrade": "+1/4",
+        "tags": ["ability score"]
+    },
+    {
+        "effect": "you ignore {dmgType} res",
+        "upgrade": "+1 {dmgType} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "effect": "your minions ignore {dmgType} res",
+        "upgrade": "+2->1 minion {dmgType} dmg/1",
+        "tags": ["minion off"]
+    },
+    {
+        "effect": "+1 global dmg",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "effect": "on hit, 20% chance to debil target until end of their next turn",
+        "upgrade": "+10%/1",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "effect": "on minion hit, 20% chance to debil target until end of their next turn",
+        "upgrade": "+10%/1",
+        "tags": ["debuff", "minion off"]
+    },
+    {
+        "effect": "while you have an active minion, +1 phys res",
+        "upgrade": "+1/1",
+        "tags": ["minion off", "minion def", "phys res"],
+        "meta": "shaman - silent protector"
+    },
+    {
+        "effect": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "effect": "on hit, 20% chance to give -3 {dmgType} res until end of your next turn",
+        "upgrade": "+10%/1 OR -2 res/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "effect": "on hit, 20% chance to give -1 to condi saves until end of your next turn",
+        "upgrade": "+10%/1 OR -1 saves/2",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "on hit, 20% chance to give sluggish until end of your next turn",
+        "upgrade": "+10%/1",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your {rangeType} hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "range"]
+    },
+    {
+        "effect": "when hit, 20% chance for energy to strike the foe nearest to you from above, a spell atk dealing 1d4 {dmgType} dmg",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "effect": "while you have an active minion, +2 wep dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off", "minion def", "wep dmg"]
+    },
+    {
+        "effect": "while you have an active minion, +2 spell dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off", "minion def", "spell dmg"],
+        "meta": "shaman - totemic fury"
+    },
+    {
+        "effect": "+1 {dmgType} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "effect": "+1 to {abilityScore} saves",
+        "upgrade": "+1/1->3",
+        "tags": ["save"]
+    },
+    {
+        "effect": "+2 {dmgType} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "effect": "+2 minion {dmgType} dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "effect": "+3 minion {dmgType} res",
+        "upgrade": "+2/1",
+        "tags": ["minion def"]
+    },
+    {
+        "effect": "+1 {abilityScore}",
+        "upgrade": "+1/4",
+        "tags": ["ability score"]
+    },
+    {
+        "effect": "+1 to condi saves",
+        "upgrade": "+1/4",
+        "tags": ["save"]
+    },
+    {
+        "effect": "on hit, 20% chance to debil target until end of their next turn",
+        "upgrade": "+10%/1",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"],
+        "meta": "shaman - fate carver"
     }
 ]

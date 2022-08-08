@@ -53,10 +53,9 @@ Always based on dmg where possible
 ### Point value cheatsheet
 
 - Dominate: 8
-- Stagger/Debil/exh/confused/double disadv condi: 5
-- Single disadv condi/sluggish/silence/charm: 3
-- Prone/taunt/similar/root: 2
-- Slow: 1
+- Stagger/Debil/exh/confused/uncon/double disadv condi: 5
+- Single disadv condi/sluggish/silence/charm/root: 3
+- Prone/taunt/similar/slow: 2
 - Condi lasts until save/longer: x2
 - Limited feature conditional: -1
 - General conditional: -2
@@ -174,7 +173,7 @@ While riding your mount, your AC increases by 1.
 
 - Change books such that they are modifiers on generic types of powers, eg. your sphere AoE powers are now lines with length of their diameter
 
-- Change crafting stones to be instant-use, but allow rollback (Shrines). Separate them into minor and major shrines, and put the minor ones instead of the gold-replacements for commons on the wondrous/attunement rolls. Those slots can only roll minor shrines, actual crafting table slot can roll any, but will give 2x minors
+- Change crafting stones to be instant-use, but allow rollback (Shrines). Put them instead of the gold-replacements for commons on the wondrous/attunement rolls. Those slots give 1 shrine, actual crafting table slot gives 2.
 
 - Ban homebrew classes? Still allow homebrew subclasses? Harder for a subclass to spiral out of defined balance constraints. Loads of subclass + class options nowadays
 

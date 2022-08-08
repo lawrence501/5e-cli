@@ -76,6 +76,13 @@
             "effects": [
                 "You can cast Jump as a bonus action at-will, but can only target yourself when you do so."
             ]
+        },
+        {
+            "name": "Periapt of Wound Closure",
+            "effects": [
+                "You stabilise whenever you start your turn dying.",
+                "Double the amount of HP you heal from hit dice."
+            ]
         }
     ],
     "rare": [
@@ -117,15 +124,64 @@
                 "Whenever you hit with a weapon attack, the attack deals 2d4 additional psychic damage.",
                 "Any creature that takes psychic damage from your weapon attacks must succeed on a DC 15 WIS save or had disadvantage on INT, WIS, and CHA saves for 1 minute, or until it passes a passive save."
             ]
+        },
+        {
+            "name": "Cape of Building",
+            "effects": [
+                "You can cast Mending as an action.",
+                "You can flourish the cape as a reaction when an obj or structure you can see within 300' of you takes dmg, causing it to be imm to that dmg and any further dmg of the same type until the start of your next turn.",
+                "You can flourish the cape as an action to cast Fabricate, Move Earth, Passwall, or Summon Construct, and that spell canot be cast from the cape again until you finish a long rest."
+            ]
         }
     ],
     "very rare": [
 
     ],
     "legendary": [
-
+        {
+            "name": "Ring of Djinni Summoning",
+            "effects": [
+                "You can say 'Jinn' as an action to summon a particular Djinni from the Elemental Plane of Air. It appears in an unoccupied space you choose within 120' of you, and remains as long as you concentrate, to a maximum of 1hr, or until it drops to 0 HP. It then returns to its home plane. If it returned above 0 HP, it cannot be summoned again for 24hrs. Otherwise, the ring becomes mundane.",
+                "While summoned, the Djinni is friendly to you and your companions. It obeys any commands you give it, no matter what language you use. If you fail to command it, the Djinni defends itself against attackers but takes no other actions."
+            ]
+        }
     ],
     "artifact": [
-
+        {
+            "name": "Cape of the Black Crown",
+            "effects": [
+                "The cape is a sentient lawful evil object with INT 20, WIS 12, and CHA 18. It has hearing and darkvision of 120'. It communicates telepathically with its wearer and is prof in common + infernal.",
+                "A greedy Erinyes named Xartaza lives within the cape. She wants to recruit more souls for Asmodeus, so the cape pushes its wearer toward lawful evil actions by manipulating their dreams. A former war general, Xartaza hates demons and Mensis, and relishes crafting sound battle plans in any conflict.",
+                "You gain prof in Infernal.",
+                "As a bonus action, you can say 'Xartaza' to cause the cape to erupt into flame, shedding bright/dim light for 40'/40'. While ablaze, your wep hits deal 1d6 (L11+: 2d6) additional fire dmg. Flames last until you use another bonus action or are no longer wearing the cape.",
+                "1/LR, as action, can summon Imp (L11+: Bearded Devil) minion that lasts 10mins.",
+                "L11+: You have 50% resistance to psn dmg."
+            ]
+        },
+        {
+            "name": "Dekella, Ring of Thassa",
+            "effects": [
+                "Thassa's ring thrums with the icy currents of the deep ocean. Whenever you hit with a wep atk, the target takes an additional 2d10 cold dmg.",
+                "If you devote yourself spiritually to Thassa, you can breathe underwater and gain a swimming speed of 60'.",
+                "If you do not devote yourself spiritually to Thassa, you have -1 global AB and -1 to your DCs.",
+                "1/LR, as an action, you can change the condition of the sea within 1 mile of you, creating strong winds and heavy rain that cause violent waves or calming a storm. In either case, the unnatural weather lasts 1hr before returning to normal.",
+                "1/LR, you can cast Dominate Monster (DC 18), but only on beasts and monstrosities with an innate swim speed.",
+                "1/LR, you can case True Polymorph (DC 18), but you must cast it on a creature to turn it into a kind of creature that has an innate swim speed."
+            ]
+        },
+        {
+            "name": "Amulet of Iggwilv",
+            "effects": [
+                "The amulet has 8 charges, of which it recovers 1d8 at the end of each long rest.",
+                "As an action, you may cast Hideous Laughter (DC 20).",
+                "You may expend charges from the amulet to cast any of the following spells (all DC 20): Magic Circle (1 charge), Magic Jar (3 charges), Planar Ally (3 charges), Planar Binding (2 charges), Plane Shift (to the Infinite Rooms of the Black Cathedral only; 3 charges), or Summon Fiend (Demon only; 3 charges)",
+                "Whenever you make an Intelligence check to discern information about demons or a Survival check related to the Black Cathedral, you can add double your prof bonus to the check.",
+                "When you make a dmg roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling.",
+                "Whenever you cast Magic Circle and only name fiends, or Planar Binding targeting a fiend, the spell is upcast to 9th lvl. Additionally, the fiend has disadvantage on its save against the spell.",
+                "As an action once per long rest, you can target a fiend you can see that is trapped within a Magic Circle. It must pass a DC 20 CHA save with disadvantage or become trapped within the amulet. You know a creature's widely-known name and its depravities while it is trapped.",
+                "Whenever you finish a long rest, the creature trapped in the amulet of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
+                "When you first find the amulet, it already contains 1d4 random demons."
+            ]
+        }
     ]
 }

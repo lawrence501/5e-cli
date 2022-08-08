@@ -290,5 +290,151 @@
                 "upgrade": "+1/4"
             }
         ]
+    },
+    {
+        "name": "Doppelrat's Bite",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+2 percep with smell",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on wep hit, target makes CON save or diseased with daze until CON save",
+                "pointValue": "8",
+                "upgrade": "+1 to disease DCs/3"
+            },
+            {
+                "description": "+2 stealth",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +5' climb sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "2. +10' swim sp",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "3. +1 DEX",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. -1 STR; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "5. -1 INT; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "6. -1 CHA; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "7. +1 to DEX saves",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "8. +15' darkvision",
+                "pointValue": "1",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "9. -1 wep dmg; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "10. 1/SR, as action, summon clone of yourself as CR 1/4 minion. Atks with dmg type of your choice of one of your weps or cantrips. Looks identical to you, and Nature/Percep checks required to identify which is real",
+                "pointValue": "4",
+                "upgrade": "+1 CR/4"
+            }
+        ]
+    },
+    {
+        "name": "Sprite's Sight",
+        "type": "weapon",
+        "startingMods": [
+            {
+                "description": "+5 percep",
+                "pointValue": "5",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "-2 wep dmg",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "gain prof in Elvish",
+                "pointValue": "3",
+                "upgrade": "+3->2 persuasion in Elvish/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +5' fly sp",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "2. +1 stealth",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. gain prof in Sylvan",
+                "pointValue": "3",
+                "upgrade": "+3->2 persuasion in Sylvan/1"
+            },
+            {
+                "description": "4. on wep hit, target makes CON save or psn'd until CON save",
+                "pointValue": "4",
+                "upgrade": "+1 to psn DCs/3"
+            },
+            {
+                "description": "5. on wep hit, target makes CON save. on sub fail, uncon until dmg'd/shaken",
+                "pointValue": "2",
+                "upgrade": "+1 to uncon DCs/3"
+            },
+            {
+                "description": "6. as action, touch creature to learn its current emotional state + it makes CHA save or you also learn its alignment. Celestials/fiends/undead auto fail save",
+                "pointValue": "1",
+                "upgrade": "+1 to CHA save DCs/3"
+            },
+            {
+                "description": "7. as action, turn invis (conc) until atk/cast",
+                "pointValue": "1",
+                "upgrade": "+1 wep AB while invis/3"
+            },
+            {
+                "description": "8. +1 to scout journey checks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. +1 DEX",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "10. -1 STR; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            }
+        ]
     }
 ]

@@ -367,6 +367,14 @@
         {
             "name": "Spectral Camera",
             "description": "Favored by those who deal with hauntings, a spectral camera can capture the image of spirits on film. Any creature with incorporeal movement or on the Ethereal Plane (visible or not) that passes in front of the camera’s open aperture (up to 30 feet away) will trigger the camera to immediately take a monochrome picture. This has no effect on creatures affected by an invisibility spell. You can also take a picture manually as a reaction. Once a picture is taken, you must spend an action to prepare the camera for another. Unlike physical objects, incorporeal beings do not need to stay still to appear on the resulting photo, though the entire process takes 1 minute to complete. Such photos do not need to be developed and show ghostly subjects in crisp detail, while all mundane aspects (chairs, corporeal creatures, etc.) are at best mildly blurry. Each picture taken with a spectral camera costs 2 gp in materials, which are significantly rarer than those for a mundane photograph. (300 gp, 15 lbs.)"
+        },
+        {
+            "name": "Bouquet of Wisdom",
+            "description": "This stunningly-crafted bouquet contains 2d10 magically-fresh flowers - most commonly roses. As an action, you may pluck one from the bouquet while concentrating on your intent. The flower may function as a scroll of Identify, Detect Poison and Disease, or Detect Magic. The effect lasts for 1 minute, after which the flower withers and dies. If the bouquet is made up of seven roses or more, you can burn it to cast a Divination spell, revealing the answer to the question asked in the sweetly-scented smoke. Doing so destroys the bouquet."
+        },
+        {
+            "name": "Cravat of Strangling",
+            "description": "This red silk cravat appears to be - and, technically, is - extremely luxurious. While holding it, you can change its colour or pattern as a bonus action. Unfortunately, it is also cursed. When you put it on, it immediately tightens. You must make a DC 14 CON save each round or begin to suffocate. On subsequent turns, you or an ally may make a DC 15 Aths check to attempt to remove it. Doing so has a 50% chance of destroying the cravat. Attempts to cut, burn, or magically rip it off deal half damage to the wearer and half to the cravat (10 HP), which only releases its hold once destroyed."
         }
     ],
     "rare": [
@@ -641,6 +649,10 @@
         {
             "name": "Bicycle Bell of Flight",
             "description": "This beautifully-filigreed bell can turn into a mundane bicycle of Small or Medium size (chosen at the time of creation) when you activate it as an action. Returning the bicycle to bell form also requires an action. While riding this bicycle, you can ring its bell to gain a flying speed of 50 feet and the ability to hover. You can use the bike to fly for 2 hours, expending at least 10 minutes worth of time with each use. If you are flying when the time runs out, you fall at a rate of 60 feet and take no damage from landing. The bell regains 1 hour of flying time for every 12 hours it is not in use, regardless of which form it is in. CURSE: While far from malicious, the magic of the bell is exuberant to a fault. While you are using its flying speed it frequently rings of its own accord, giving you disadvantage on Stealth checks."
+        },
+        {
+            "name": "Chariot a la Calabaza",
+            "description": "The original Chariot was created by a powerful wizard with a penchant for transmutation and riding in style. It is pulled by 2 spectral stallions with flowing manes and tails, who function as per the Phantom Steed spell. As an action, you may speak the command word to transform the chariot into a pumpkin 2' in diameter. Speaking the command word again transforms the pumpkin into a carriage and resummons the horses. While in pumpkin form, the chariot is, in truth, a pumpkin, except that it does not naturally decay. Attempts to carve, smash, or draw upon the pumpkin are reflected onto the chariot's form when it reappears, although the horses seem to remain unscathed regardless of such events."
         }
     ],
     "very rare": [

@@ -48,7 +48,7 @@
     {
         "name": "Whirling Summons",
         "target": "Powers that summon minions",
-        "description": "1/combat, as an action, the minions can move up to half their speed. During this movement, they can move through hostile creatures' spaces. For each creature they either move through or through an adj space of, they may attack them, dealing less dmg as $physType on a hit."
+        "description": "1/combat, as an action, the minions can move up to half their speed. During this movement, they can move through hostile creatures' spaces. For each creature they either move through or through an adj space of, they may make a melee wep atk against them, dealing slightly less dmg as $physType on a hit."
     },
     {
         "name": "Empowered Summons",
@@ -56,8 +56,33 @@
         "description": "The minions add $nonPhysType dmg to their hits."
     },
     {
-        "name": "Decaying Summons (heated metal)",
+        "name": "Decaying Summons",
         "target": "Powers that summon minions",
-        "description": "When the minions hit with melee atks, their target is inflicted with a DoT dealing slight {nonPhysType} dmg, stacking until DEX save (minion's DC)."
+        "description": "When the minions hit with melee atks, their target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save (minion's DC)."
+    },
+    {
+        "name": "Dracotouched Summons",
+        "target": "Powers that summon minions",
+        "description": "1/combat, as a bonus action, the minions breathe a cone of magical energy in a 15' cone, making a spell atk against all foes inside, dealing less dmg as $nonPhysType on a hit."
+    },
+    {
+        "name": "Destructive Summons",
+        "target": "Powers that summon minions",
+        "description": "The limited features of the minions deal slightly more dmg and have slightly larger AoE sizes."
+    },
+    {
+        "name": "Overcharged Summons",
+        "target": "Powers that summon minions",
+        "description": "The limited features of the minions have their cooldowns increased by 1 step, but inflict a DoT dealing $nonPhysType dmg, stacking until DEX save (minion's DC), on hit"
+    },
+    {
+        "name": "Reflective Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions gain substantial dmg thorns."
+    },
+    {
+        "name": "Regenerating Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions gain barely any passive regen."
     }
 ]

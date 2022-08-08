@@ -1,50 +1,46 @@
-{
-    "minor": [
-        {
-            "name": "Cloning",
-            "description": "replace random mod with exact copy of another random mod"
-        },
-        {
-            "name": "Scourging",
-            "description": "add random negative mod, then equivalent-value positive mod. Repeated uses on same item replace both mods, increasing the min pt value of the negative by 1."
-        }
-    ],
-    "major": [
-        {
-            "name": "Combination",
-            "description": "the mods of 2 chosen items are randomly distributed across the 2 items, ignoring baselimitations. each item then gains 1 random mod"
-        },
-        {
-            "name": "Fate",
-            "description": "lock in a mod and reroll all others"
-        },
-        {
-            "name": "Empowerment",
-            "description": "randomly apply 1 upgrade point; if impossible, adds new random mod"
-        },
-        {
-            "name": "Enhancement",
-            "description": "Add new random mod"
-        },
-        {
-            "name": "Attunement",
-            "description": "Turn any non-relic into a relic, dynamically building thematic affixes as needed"
-        },
-        {
-            "name": "Learning",
-            "description": "Instantly level worn relic/attuned item; reroll if none"
-        },
-        {
-            "name": "Negation",
-            "description": "Chosen mod is negated, resultant points are distributed randomly"
-        },
-        {
-            "name": "Sacrifice",
-            "description": "Use on any lootable object or pile of gold, destroying it; roll on loot table, rerolling results lower than object's equivalent roll"
-        },
-        {
-            "name": "Brittleness",
-            "description": "body armour gets -1 AC and random hard tripled enchant"
-        }
-    ]
-}
+[
+    {
+        "name": "Cloning",
+        "description": "replace random mod with exact copy of another random mod"
+    },
+    {
+        "name": "Scourging",
+        "description": "add random negative mod, then equivalent-value positive mod. Repeated uses on same item replace both mods, increasing the min pt value of the negative by 1."
+    },
+    {
+        "name": "Combination",
+        "description": "the mods of 2 chosen items are randomly distributed across the 2 items, ignoring baselimitations. each item then gains 1 random mod"
+    },
+    {
+        "name": "Fate",
+        "description": "lock in a mod and reroll all others"
+    },
+    {
+        "name": "Empowerment",
+        "description": "randomly apply 1 upgrade point; if impossible, adds new random mod"
+    },
+    {
+        "name": "Enhancement",
+        "description": "Add new random mod"
+    },
+    {
+        "name": "Attunement",
+        "description": "Turn any non-relic into a relic, dynamically building thematic affixes as needed"
+    },
+    {
+        "name": "Learning",
+        "description": "Instantly level worn relic/attuned item; reroll if none"
+    },
+    {
+        "name": "Negation",
+        "description": "Chosen mod is negated, resultant points are distributed randomly"
+    },
+    {
+        "name": "Sacrifice",
+        "description": "Use on any lootable object or pile of gold, destroying it; roll on loot table, rerolling results lower than object's equivalent roll"
+    },
+    {
+        "name": "Brittleness",
+        "description": "body armour gets -1 AC and random hard tripled enchant"
+    }
+]

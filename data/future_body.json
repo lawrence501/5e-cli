@@ -1,16 +1,92 @@
 {
-    "unarmoured": [],
-    "light": [],
-    "medium": [
+    "unarmoured": [
         {
-            "name": "Starlit Brigandine",
-            "source": "druid - circle of stars",
+            "name": "Illusory Wrap",
+            "source": "wizard - illusion",
+            "mods": [
+                "You learn the Minor Illusion cantrip. When you cast it, you can create both sound and image with a single casting."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Forceful Wrap",
+            "source": "wizard - graviturgy",
+            "mods": [
+                "As an action, you can alter the weight of an object or creature you can see within 30' of you. The target must be Large or smaller. Its weight it halved or doubled for up to 1 minute, or until your concentration on this power ends.",
+                "While a creature's weight is halved, its speed increases by 10', its jump distance is doubled, and it has disadvantage on STR checks and saves.",
+                "While a creature's weight is doubled, its speed is reduced by 10' and it has advantage on STR checks and saves."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Ascendant Garb",
+            "source": "monk - ascendant dragon",
             "mods": [],
             "variables": [
                 {
                     "mods": [
-                        "You learn the Guidance cantrip. When you cast it, it adds a d6 expertise die.",
-                        "You learn the Guiding Bolt spell and always have it prepared. You can also cast it a number of times equal to your proficiency bonus without expending any resources, and when you do so it is upcast 1 lvl. You recover these uses whenever you finish a long rest."
+                        "Once per long rest, when you fail an Intimidation or Persuasion check, you may use your reaction to reroll the check.",
+                        "When you damage a target with an unarmed strike, you can change the dmg type to acid, cold, fire, light, or psn.",
+                        "You gain proficiency in Draconic."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Whenever you take the Attack action on your turn, you can replace 1 of the attacks with an exhalation of draconic energy in either a 20' cone or 30' line. Choose a dmg type from acid, cold, fire, light, or psn. Each creature in that area must make a DEX save, taking 2d4 spell dmg of the chosen type on a failed save, or half as much on a success.",
+                        "You can use this breath attack a number of times equal to your prof bonus, and regain all uses when you finish a short or long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drunken Silks",
+            "source": "monk - drunken master",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Performance.",
+                        "You gain an expertise die in Entertain Journey checks with the ability to magically produce ale."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once per short or long rest, upon making an attack with your bonus action, you may gain the benefits of the Disengage action and your speed increases by 10' for the rest of the turn."
+                    ]
+                }
+            ]
+        }
+    ],
+    "light": [
+        {
+            "name": "Attendant Vest",
+            "source": "savant - steward",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Persuasion.",
+                        "You gain proficiency in Sylvan."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can communicate one of your features to a creature of your choice who can understand you within 10' of you. Before the end of your next turn, the first time that feature would be relevant for the target, it affects them as if it were their feature (still using your ability scores for any calculations). If the feature has a cooldown or resource cost, you expend it as usual even if only the target benefits from the feature."
+                    ]
+                }
+            ]
+        }
+    ],
+    "medium": [
+        {
+            "name": "Starlit Brigandine",
+            "source": "druid - stars",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You learn the Guidance cantrip.",
+                        "You learn the Guiding Bolt spell and always have it prepared. You can also cast it a number of times equal to your proficiency bonus without expending any resources. You recover these uses whenever you finish a long rest."
                     ]
                 },
                 {
@@ -18,47 +94,80 @@
                         "As a bonus action, you can shapeshift into a celestial form for 10 minutes, or until you dismiss it early or are incapacitated. You can do this a number of times equal to half your proficiency bonus between long rests. While in your celestial form, you shed bright light in a 20' radius and dim light for an additional 20'."
                     ],
                     "variables": [
-                        "While in your celestial form, a constellation of an archer appears above you. When you enter this form and as a bonus action on subsequent turns while it lasts, you can make a ranged spell attack using the archer's bow against a creature within 60' of you. On a hit, it deals radiant dmg equal to 2d8 + your ability score modifier.",
-                        "While in your celestial form, a constellation of a chalice appears above you. Whenever you cast a levelled spell that restores hit points to a creature while in this form, you or another creature within 30' of you can regain hit points equal to 2d8 + your ability score modifier.",
-                        "While in your celestial form, a constellation of a dragon appears above you. While in this form, whenever you make an INT or WIS check, or a CON save to maintain concentration on a spell, you can treat a roll of 12 or lower on the d20 as a 13."
+                        "While in your celestial form, a constellation of an archer appears above you. When you enter this form and as a bonus action on subsequent turns while it lasts, you can make a ranged spell attack using the archer's bow against a creature within 60' of you. On a hit, it deals radiant dmg equal to 1d8 + your ability score modifier.",
+                        "While in your celestial form, a constellation of a chalice appears above you. Whenever you cast a levelled spell that restores hit points to a creature while in this form, you or another creature within 30' of you can regain hit points equal to 1d8 + your ability score modifier.",
+                        "While in your celestial form, a constellation of a dragon appears above you. While in this form, whenever you make an INT or WIS check, or a CON save to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10."
                     ]
                 }
             ]
         },
         {
-            "name": "Primeval Chainmail",
-            "source": "druid - circle of the primeval",
+            "name": "Lunar Chainmail",
+            "source": "druid - moon",
             "mods": [],
             "variables": [
                 {
                     "mods": [
-                        "You gain a d6 expertise die in History.",
-                        "Add 2d4 to your History checks."
+                        "Shapeshifting powers you have that take a standard action now only take a bonus action.",
+                        "While shapeshifted, you may spend a bonus action and 1 spell slot to heal 1d8 hit points per level of the slot expended."
                     ]
                 },
                 {
                     "mods": [
-                        "As an action, you can conjure an ancient beast as a minion in an unoccupied space within 30' of you. You can do this a number of times equal to half your proficiency bonus between long rests. You can only have one summoned at a time.",
-                        "The companion's stat block can be found here: https://homebrewery.naturalcrit.com/share/M3IJv2wp-9di"
+                        "When you shapeshift based on CR, you can shapeshift into a creature 2 CRs higher than usual."
                     ]
                 }
             ]
         },
         {
-            "name": "Beastmaster's Lamellar",
-            "source": "ranger - beastmaster",
+            "name": "Spiked Hauberk",
+            "source": "berserker - battlerager",
+            "mods": [
+                "This hauberk has 3 charges, all of which are recovered whenever you finish a long rest.",
+                "Whenever you roll for initiative, you can choose to expend one of the hauberk's charges to have spikes portrude from it for 1 minute.",
+                "While the spikes are active, you can use a bonus action to make a melee weapon attack with the hauberk against a target within 5' of you. If it hits, it deals piercing dmg equal to 1d4 + your ability score modifier.",
+                "Whenever you successfully use the Grapple maneuver while the spikes are active, it deals 3 additional piercing damage."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Totemic Vest",
+            "source": "berserker - totem warrior",
             "mods": [],
             "variables": [
                 {
                     "mods": [
-                        "You gain a d6 expertise die in History.",
-                        "Add 2d4 to your History checks."
+                        "You can cast the Speak with Animals spell at no cost."
                     ]
                 },
                 {
                     "mods": [
-                        "As an action, you can conjure an ancient beast as a minion in an unoccupied space within 30' of you. You can do this a number of times equal to half your proficiency bonus between long rests. You can only have one summoned at a time.",
-                        "The companion's stat block can be found here: https://homebrewery.naturalcrit.com/share/M3IJv2wp-9di"
+                        "This vest has 3 charges, all of which are recovered whenever you finish a long rest.",
+                        "Whenever you roll for initiative, you can choose to expend one of the vest's charges to adopt a bestial form for 1 minute."
+                    ],
+                    "variables": [
+                        "While in your bestial form, you have 50% resistance to all non-psychic damage.",
+                        "While in your bestial form, opportunity attacks have disadvantage against you, and you can take the Dash action as a bonus action on your turns.",
+                        "While in your bestial form, your speed increases by 15'.",
+                        "While in your bestial form, add 10' to your long jump distance and 3' to your high jump distance.",
+                        "While in your bestial form, melee attacks against any creatures of your choice adjacent to you have advantage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Frontline Ringmail",
+            "source": "savant - vanguard",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You have proficiency with all martial weapons."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Features and effects that trigger from your melee weapon attacks now also trigger from ranged weapon attacks against targets within 30'."
                     ]
                 }
             ]
