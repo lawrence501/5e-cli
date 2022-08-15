@@ -75,6 +75,24 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Vocal Tunic",
+            "source": "savant - vox",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Insight.",
+                        "You gain proficiency in Infernal."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action, you can trigger any effects that would usually trigger from a melee wep atk on a creature that can understand you within 30'."
+                    ]
+                }
+            ]
         }
     ],
     "medium": [

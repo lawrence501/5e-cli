@@ -996,7 +996,7 @@
         "tags": ["armour"]
     },
     {
-        "description": "+3 [block or dmg] thorns",
+        "description": "+3 dmg thorns",
         "pointValue": "1",
         "upgrade": "2/1",
         "tags": ["armour"]
@@ -1488,21 +1488,27 @@
         "tags": []
     },
     {
-        "description": "+1 to journey activity checks",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": []
-    },
-    {
         "description": "-1 crit req for journey activity checks",
         "pointValue": "4",
         "upgrade": "-1/4",
         "tags": []
     },
     {
-        "description": "+6 wep dmg vs surprised targets",
+        "description": "+5 wep dmg vs surprised targets",
         "pointValue": "1",
-        "upgrade": "+6/1",
+        "upgrade": "+5/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+2 wep AB vs surprised targets",
+        "pointValue": "4",
+        "upgrade": "+1/2",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "-2 crit req vs surprised targets",
+        "pointValue": "4",
+        "upgrade": "-1/2",
         "tags": ["weapon"]
     }
 ]

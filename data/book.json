@@ -1684,7 +1684,7 @@
         },
         {
             "name": "Empowering Rapid Drink (2)",
-            "description": "The creature who drinks the potion has +2 to their stagger DCs until the end of their next turn."
+            "description": "The creature who drinks the potion has +1 to their condi DCs until the end of their next turn."
         },
         {
             "name": "Energising Rapid Drink (2)",

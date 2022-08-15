@@ -1,6 +1,6 @@
 [
     {
-        "name": "Summoned Gauntlets",
+        "name": "Equipped Summons",
         "target": "Powers that summon minions",
         "description": "The minions gain the affixes of your $equipSlot.",
         "meta": "manifest armour"
@@ -38,7 +38,7 @@
     {
         "name": "Rugged Summons",
         "target": "Powers that summon minions",
-        "description": "The minions gain an expertise die on saves vs condis"
+        "description": "The minions gain an expertise die on saves vs debuffs"
     },
     {
         "name": "Taunting Summons",
@@ -84,5 +84,141 @@
         "name": "Regenerating Summons",
         "target": "Powers that summon minions",
         "description": "The minions gain barely any passive regen."
+    },
+    {
+        "name": "Bulky Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions gain more maximum hit points."
+    },
+    {
+        "name": "Reparable Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions gain a slight amount of incoming healing."
+    },
+    {
+        "name": "Solid Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions gain slightly more dmg for each phys dmg type they are either resistant or immune to."
+    },
+    {
+        "name": "Efficiency",
+        "target": "Powers that can deal dmg and have a non-cooldown resource cost",
+        "description": "The power's cost is 1 step lower, but it deals less dmg.",
+        "meta": "glacier (start breaking point)"
+    },
+    {
+        "name": "Massive Power",
+        "target": "Powers that have multiple areas",
+        "description": "The power's largest area deals substantially more dmg."
+    },
+    {
+        "name": "Assassination",
+        "target": "Powers that can deal dmg",
+        "description": "The power deals substantially more dmg against bosses."
+    },
+    {
+        "name": "Focused Power",
+        "target": "Powers that have multiple areas",
+        "description": "The power's smallest area deals substantially more dmg."
+    },
+    {
+        "name": "Spread Power",
+        "target": "Powers that have multiple areas",
+        "description": "The power deals more AoE dmg."
+    },
+    {
+        "name": "Focused Area",
+        "target": "Powers that have multiple areas",
+        "description": "The power's areas all conform to the same shape and area as one of the original areas of your choice, but it no longer deals any extra crit dmg."
+    },
+    {
+        "name": "Keen Shielding",
+        "target": "Powers that can crit",
+        "description": "Whenever the power crits, you gain a substantial amount of temp HP."
+    },
+    {
+        "name": "Dull Criticals",
+        "target": "Powers with an atk roll",
+        "description": "The power has -2 crit req, but it no longer deals any extra crit dmg."
+    },
+    {
+        "name": "Keen Recovery",
+        "target": "Powers that have a non-cooldown resource cost",
+        "description": "Whenever the power crits, its resource cost is refunded."
+    },
+    {
+        "name": "Murderous Recovery",
+        "target": "Powers that have a non-cooldown resource cost",
+        "description": "Whenever the power scores a killing blow, its resource cost is refunded."
+    },
+    {
+        "name": "Dull Infliction",
+        "target": "Powers that can deal dmg and can apply debuffs",
+        "description": "The power deals less dmg, but any debuffs it can apply have +2 to their DCs."
+    },
+    {
+        "name": "Sapping",
+        "target": "Powers that can hit",
+        "description": "Whenever the power hits, the target becomes sluggish until the end of your next turn."
+    },
+    {
+        "name": "Focused Sapping",
+        "target": "Powers that have multiple areas that can hit",
+        "description": "Whenever the power's smallest area hits, the target becomes sluggish until the end of your next turn."
+    },
+    {
+        "name": "Cruelty",
+        "target": "Powers that can deal dmg and can apply debuffs",
+        "description": "Any debuffs the power can apply have +1 to their DCs, and the power deals slightly more dmg to debuffed targets."
+    },
+    {
+        "name": "Massive Infliction",
+        "target": "Powers that have multiple areas that can hit",
+        "description": "Whenever the power's largest area hits, it deals more dmg and the target becomes sluggish until the end of your next turn."
+    },
+    {
+        "name": "Spread Infliction",
+        "target": "Powers that have multiple areas that can hit",
+        "description": "Whenever the power hits, it deals slightly more dmg and the target become sluggish until the end of your next turn."
+    },
+    {
+        "name": "Whirling Energy",
+        "target": "Powers that have a non-persistent area",
+        "description": "After the area resolves, it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal slight $nonPhysType dmg."
+    },
+    {
+        "name": "Lingering Infliction",
+        "target": "Any power",
+        "description": "If you have used the power since the start of your last turn, your DoTs deal barely more dmg and your debuff DCs have a +1 bonus."
+    },
+    {
+        "name": "Focused Whirling",
+        "target": "Powers that have multiple non-persistent areas",
+        "description": "Whenever the power's smallest area resolves it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal $nonPhysType dmg."
+    },
+    {
+        "name": "Greater Triggers",
+        "target": "Any power",
+        "description": "Any effects triggered from the power have slightly more dmg and slightly more area."
+    },
+    {
+        "name": "Massive Energy",
+        "target": "Powers that have multiple non-persistent areas",
+        "description": "Whenever the power's largest area resolves it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal slight $nonPhysType dmg. Additionally, any buffs triggered from the power have slightly more effectiveness."
+    },
+    {
+        "name": "Spread Energy",
+        "target": "Powers that have multiple non-persistent areas",
+        "description": "Whenever the power's areas resolve, they leave vortices of energy, pers areas that last until the end of your next turn, making spell atks that deal barely any $nonPhysType dmg. Additionally, any buffs triggered from the power have barely more duration."
+    },
+    {
+        "name": "Focused Efficiency",
+        "target": "Powers that have multiple areas and a non-cooldown resource cost",
+        "description": "The power's cost is 1 step lower, but its largest area deals substantially less dmg."
+    },
+    {
+        "name": "Major Spread",
+        "target": "Powers that have multiple areas and a non-cooldown resource cost",
+        "description": "The power's areas deal massively more dmg, but its cost is 1 step higher."
     }
 ]

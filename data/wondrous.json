@@ -653,6 +653,10 @@
         {
             "name": "Chariot a la Calabaza",
             "description": "The original Chariot was created by a powerful wizard with a penchant for transmutation and riding in style. It is pulled by 2 spectral stallions with flowing manes and tails, who function as per the Phantom Steed spell. As an action, you may speak the command word to transform the chariot into a pumpkin 2' in diameter. Speaking the command word again transforms the pumpkin into a carriage and resummons the horses. While in pumpkin form, the chariot is, in truth, a pumpkin, except that it does not naturally decay. Attempts to carve, smash, or draw upon the pumpkin are reflected onto the chariot's form when it reappears, although the horses seem to remain unscathed regardless of such events."
+        },
+        {
+            "name": "Unparalleled Pianoforte",
+            "description": "This elegant pianoforte has been painted white, with gold filigree adorning its lid and the tops of its keys. Originally commissioned by a noble with particularly musically-incompetent children. It allows you to add an expertise die to Performance attempts to play it, and this die increases by one step if you have proficiency in Performance. If you succeed at a DC 17 Performance check while playing this instrument, you may choose up to 6 creatures within 30' that can hear the pianoforte. For the next hour, these creatures have a d8 Bardic Inspiration die which can be spent on any 1 attack roll, ability check, or saving throw."
         }
     ],
     "very rare": [

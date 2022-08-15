@@ -16,11 +16,11 @@
             ]
         },
         {
-            "name": "Cape of the Python",
+            "name": "Ring of the Python",
             "effects": [
-                "As an action, you can say 'Pythonidae' and throw the cloak onto the ground within 10' of you. It becomes a Giant Constrictor Snake ( https://5e.tools/bestiary.html#giant%20constrictor%20snake_mm ) minion, until bonus action + speaking the command word again when it reverts to a cape in the minion's space and recovers all the minion's HP.",
+                "As an action, you can say 'Pythonidae' and throw the ring onto the ground within 10' of you. It becomes a Giant Constrictor Snake ( https://5e.tools/bestiary.html#giant%20constrictor%20snake_mm ) minion, until bonus action + speaking the command word again when it reverts to a ring in the minion's space and recovers all the minion's HP.",
                 "You must be conscious to command the minion.",
-                "If the minion is killed, it reverts to cape form, which is then shredded to tatters and destroyed."
+                "If the minion is killed, it reverts to ring form, which is then shattered and destroyed."
             ]
         },
         {
@@ -48,11 +48,11 @@
             ]
         },
         {
-            "name": "Cape of the Sewers",
+            "name": "Amulet of the Sewers",
             "effects": [
                 "While attuned, all rats are indifferent toward you and will not attack you unless you threaten or harm them.",
-                "The cape has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
-                "As an action, can flick the cape out and expend a charge to cause a Swarm of Rats (https://5e.tools/bestiary.html#swarm%20of%20rats_mm) to fall out. The swarm is not a minion.",
+                "The amulet has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
+                "As an action, can squeeze the amulet and expend a charge to cause a Swarm of Rats (https://5e.tools/bestiary.html#swarm%20of%20rats_mm) to fall out from your other hand. The swarm is not a minion.",
                 "Whenever a Swarm of Rats that isn't under another creature's control is within 30' of you, you can make a CHA check contested by the swarm's WIS check. If you succeed, the swarm becomes your minion for as long as your maintain this effect as an action each turn. If either you lose control of the swarm or it succeeds the contested check, it is immune to these effects for 24hrs."
             ]
         },
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "name": "Cape of Force Resistance",
+            "name": "Ring of Force Resistance",
             "effects": [
                 "You have 50% resistance force damage."
             ]
@@ -126,34 +126,69 @@
             ]
         },
         {
-            "name": "Cape of Building",
+            "name": "Amulet of Building",
             "effects": [
                 "You can cast Mending as an action.",
-                "You can flourish the cape as a reaction when an obj or structure you can see within 300' of you takes dmg, causing it to be imm to that dmg and any further dmg of the same type until the start of your next turn.",
-                "You can flourish the cape as an action to cast Fabricate, Move Earth, Passwall, or Summon Construct, and that spell canot be cast from the cape again until you finish a long rest."
+                "You can touch the amulet as a reaction when an obj or structure you can see within 300' of you takes dmg, causing it to be imm to that dmg and any further dmg of the same type until the start of your next turn.",
+                "You can touch the amulet as an action to cast Fabricate, Move Earth, Passwall, or Summon Construct, and that spell canot be cast from the cape again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Amulet of Rulership",
+            "effects": [
+                "Once per long rest, as an action, you may present the amulet and command obedience from each creature of your choice that you can see within 120'. Each target must succeed on a DC 15 WIS save or be charmed by you for 8hrs, or until it is harmed by you or your companions, or commanded to do something contrary to its nature.",
+                "While a creature is charmed by this amulet, it regards you as its trusted leader."
             ]
         }
     ],
     "very rare": [
-
+        {
+            "name": "Amulet of Fire Giant Strength",
+            "effects": [
+                "Your Strength is always equal to 25."
+            ]
+        },
+        {
+            "name": "Piercer [ring]",
+            "effects": [
+                "You regain the maximum possible number of hit points from expended hit dice.",
+                "[CURSE] You have disadvantage on Journey activity checks."
+            ]
+        }
     ],
     "legendary": [
         {
             "name": "Ring of Djinni Summoning",
             "effects": [
-                "You can say 'Jinn' as an action to summon a particular Djinni from the Elemental Plane of Air. It appears in an unoccupied space you choose within 120' of you, and remains as long as you concentrate, to a maximum of 1hr, or until it drops to 0 HP. It then returns to its home plane. If it returned above 0 HP, it cannot be summoned again for 24hrs. Otherwise, the ring becomes mundane.",
+                "You can say 'Jinn' as an action to summon a particular Djinni from the Elemental Plane of Air. It appears in an unoccuddd space you choose within 120' of you, and remains as long as you concentrate, to a maximum of 1hr, or until it drops to 0 HP. It then returns to its home plane. If it returned above 0 HP, it cannot be summoned again for 24hrs. Otherwise, the ring becomes mundane.",
                 "While summoned, the Djinni is friendly to you and your companions. It obeys any commands you give it, no matter what language you use. If you fail to command it, the Djinni defends itself against attackers but takes no other actions."
+            ]
+        },
+        {
+            "name": "Ring of Invulnerability",
+            "effects": [
+                "You have resistance to non-magical dmg.",
+                "Once per long rest, you can use an action to make yourself immunte to non-magical dmg for 10mins."
+            ]
+        },
+        {
+            "name": "Stormclasp",
+            "effects": [
+                "You have 50% resistance to light and thunder dmg.",
+                "Your Strength is always equal to 21 [L11+: 23], unless it would usually be higher.",
+                "1/LR, as an action, you may become a Storm Avatar for 1min, gaining the following benefits: immunity to light and thunder dmg; when you hit with a wep atk that normally deals B dmg, it deals thunder instead. P and S are similarly converted to light; As a bonus action, you can choose 1 creature you can see within 30' to be struck by lightning, forcing them to pass a DC 15 DEX save or take 3d6 [L11+: 4d6] light, or half as much on a success.",
+                "L11+: While transformed into a Storm Avatar, you gain 30' of fly speed and can hover."
             ]
         }
     ],
     "artifact": [
         {
-            "name": "Cape of the Black Crown",
+            "name": "Ring of the Black Crown",
             "effects": [
-                "The cape is a sentient lawful evil object with INT 20, WIS 12, and CHA 18. It has hearing and darkvision of 120'. It communicates telepathically with its wearer and is prof in common + infernal.",
-                "A greedy Erinyes named Xartaza lives within the cape. She wants to recruit more souls for Asmodeus, so the cape pushes its wearer toward lawful evil actions by manipulating their dreams. A former war general, Xartaza hates demons and Mensis, and relishes crafting sound battle plans in any conflict.",
+                "The ring is a sentient lawful evil object with INT 20, WIS 12, and CHA 18. It has hearing and darkvision of 120'. It communicates telepathically with its wearer and is prof in common + infernal.",
+                "A greedy Erinyes named Xartaza lives within the ring. She wants to recruit more souls for Asmodeus, so the ring pushes its wearer toward lawful evil actions by manipulating their dreams. A former war general, Xartaza hates demons and Mensis, and relishes crafting sound battle plans in any conflict.",
                 "You gain prof in Infernal.",
-                "As a bonus action, you can say 'Xartaza' to cause the cape to erupt into flame, shedding bright/dim light for 40'/40'. While ablaze, your wep hits deal 1d6 (L11+: 2d6) additional fire dmg. Flames last until you use another bonus action or are no longer wearing the cape.",
+                "As a bonus action, you can say 'Xartaza' to cause the ring to erupt into flame, shedding bright/dim light for 40'/40'. While ablaze, your wep hits deal 1d6 (L11+: 2d6) additional fire dmg. Flames last until you use another bonus action or are no longer wearing the ring.",
                 "1/LR, as action, can summon Imp (L11+: Bearded Devil) minion that lasts 10mins.",
                 "L11+: You have 50% resistance to psn dmg."
             ]
@@ -179,6 +214,21 @@
                 "When you make a dmg roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling.",
                 "Whenever you cast Magic Circle and only name fiends, or Planar Binding targeting a fiend, the spell is upcast to 9th lvl. Additionally, the fiend has disadvantage on its save against the spell.",
                 "As an action once per long rest, you can target a fiend you can see that is trapped within a Magic Circle. It must pass a DC 20 CHA save with disadvantage or become trapped within the amulet. You know a creature's widely-known name and its depravities while it is trapped.",
+                "Whenever you finish a long rest, the creature trapped in the amulet of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
+                "When you first find the amulet, it already contains 1d4 random demons."
+            ]
+        },
+        {
+            "name": "Ring of Vecna",
+            "effects": [
+                "[CURSE] When you attune to the ring, your left eye rots away and falls out. You can see out of the ring.",
+                "[CURSE] If you unattune from the ring, you die.",
+                "[CURSE] Your Alignment changes to Neutral Evil.",
+                "You have truesight.",
+                "As an action, you can see into and through solid matter until you end the effects as a bonus action. This vision has a radius of 30', and can penetrate 1 foot of stone, 1 inch of common metal, and 3 feet of wood/dirt. Lead cannot be seen through.",
+                "The ring has 8 charges. 1d4 + 4 charges are recovered at the end of a long rest.",
+                "You can expend charges as an action to cast any of the following spells (DC 18): Clairvoyance (2 charges), Crown of Madness (1 charge), Disintegrate (4 charges), Dominate Monster (5 charges), or Eyebite (4 charges).",
+                "[CURSE] Whenever you cast a spell from this ring, there is a 5% chance that Vecn tears your soul from your body, devours it, and takes control of your body. You become an NPC under the DM's control.",
                 "Whenever you finish a long rest, the creature trapped in the amulet of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
                 "When you first find the amulet, it already contains 1d4 random demons."
             ]

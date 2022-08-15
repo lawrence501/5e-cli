@@ -499,16 +499,16 @@
         "name": "Commands Flesh",
         "description": "summoning a minion from your flesh",
         "tiers": [
-            "1. Spawn: 2/min; bonus action; Your flesh bunches up and buds off a small, CR 1/2 creature that can survive independently for 10 minutes before it shrivels and dies. The creature obeys basic commands, but is not intelligent enough to perform tasks complex enough that they would require a skill check. The creature is strong enough to pick up small items, but not enough to wield weapons. Creatures not actively following a command follow their own motives, whatever those may be. The creatures have 11 AC, 10 maximum HP, +3 AB, and deal 1d4 + 1 B damage. All spawn have a speed of 30'.",
-            "2. You can reabsorb your creatures from your Spawn feature, healing 1d4 HP for each one reintegrated into your flesh.",
+            "1. Spawn: 2/min; bonus action; Your flesh bunches up and buds off a small, CR 1/2 creature that can survive independently for 10 minutes before it shrivels and dies. The creature obeys basic commands, but is not intelligent enough to perform tasks complex enough that they would require a skill check. The creature is strong enough to pick up small items, but not enough to wield weapons. Creatures not actively following a command follow their own motives, whatever those may be. You can only have 1 active at a time.",
+            "2. You can reabsorb the creature from your Spawn feature, healing 1d4 HP.",
             "3. Willful Mutation: 1/SR; bonus action; You can force your body to develop a random beneficial mutation temporarily for 10 minutes.",
-            "4. You can now spawn CR 1 creatures with your Spawn feature. Optionally, you can elect to leave them as CR 1/2 creatures, but they can fly with stubby, malformed wings. The CR 1 creatures have 12 AC, 20 maximum HP, +4 AB, and deal 1d6 + 2 B damage. All flying spawn have a flying speed of 120'.",
-            "5. Forceful Absorption: 1/SR; bonus action; With some effort, you can try to forcibly absorb a CR 1 or lower creature of your size of smaller, as long as it is organic and from the same plane as you, by defeating them in a contested CHA check. Absorbing a creature causes you to heal 1d4 HP.",
-            "6. Whispers Within: 1/SR; bonus action; The things within your flesh listen and learn and plot. Sometimes you overhear them and sometimes you can interrogate them. Things you may have forgotten or missed, things you couldn't see behind you, secret, silent thoughts you are not sensitive enough to receive - the things inside you hear and see all. Your mind can slip inside yourself and ask a question of the riders within, which they must answer to the best of their abilities, though whether they tell you the whole truth or not is another matter.",
-            "7. You can now spawn CR 2 creatures with your Spawn feature. Optionally, you can elect to leave them as CR 1 creatures, but they can fly with stubby, malformed wings. The CR 2 creatures have 13 AC, 30 maximum HP, +5 AB, and deal 1d8 + 3 B damage.",
-            "8. Your increasing ability to control the creatures you set free from your body now extends their lives. Through force of will, you can reshape your own form, budding off a portion of your flesh and permanently reducing your maximum HP by 2 to make a new, permanent spawn. When the spawn dies, you regain the lost maximum HP.",
+            "4. You can now spawn a CR 1 creature with your Spawn feature. Optionally, you can elect to leave it as a CR 1/2 creature, but it can fly with stubby, malformed wings, granting it a flying speed of 120'.",
+            "5. Forceful Absorption: 1/SR; bonus action; With some effort, you can try to forcibly absorb a CR 1 or lower creature of your size of smaller, as long as it is organic and from the same plane as you, by hitting with an attack. Absorbing a creature kills it and causes you to heal 1 HP.",
+            "6. Whispers Within: 1/SR; bonus action; The things within your flesh listen and learn and plot. Sometimes you overhear them and sometimes you can interrogate them. Things you may have forgotten or missed, things you couldn't see behind you, secret, silent thoughts you are not sensitive enough to receive - the things inside you hear and see all. Your mind can slip inside itself and ask a question of the riders within, which they must answer to the best of their abilities, though whether they tell you the whole truth or not is another matter.",
+            "7. You can now spawn a CR 2 creature with your Spawn feature. Optionally, you can elect to leave it as a CR 1 creature, but it can fly with stubby, malformed wings, granting it a flying speed of 120'.",
+            "8. Your increasing ability to control the creatures you set free from your body now extends their lives. Through force of will, you can reshape your own form, budding off a portion of your flesh and permanently reducing your maximum HP by 2 to make a new, permanent spawn. When the spawn dies, you regain the lost maximum HP. This uses the same rules otherwise as your Spawn feature.",
             "9. Your body has become a perfect factory for generating creatures, CON +2.",
-            "10. You can use your Spawn feature at-will, and they can become CR 3 creatures. The CR 3 creatures have 14 AC, 40 maximum HP, +6 AB, and deal 1d10 + 4 B damage."
+            "10. You can use your Spawn feature at-will, and it can generate a CR 3 creature."
         ]
     },
     {
@@ -1683,16 +1683,16 @@
         "name": "Defends the Weaks",
         "description": "defending others",
         "tiers": [
-            "1. You gain prof/+2 in Wisdom saving throws and +2 to initiative.",
-            "2. You have +1 AC while you are using a shield. Additionally, you gain prof/+2 in Insight.",
-            "3. Devoted Defender: 2/min; bonus action; Choose 1 creature you can see. That creature becomes your ward. You gain +2 to all tasks involving finding, healing, interacting with, and protecting that character. You can have only 1 ward at a time.",
-            "4. You can have 2 wards from your Devoted Defender feature at a time. Choosing a 2nd ward can be its own action, or you can choose 2 wards with 1 bonus action. The wards must remain within 5' of each other. Benefits provided by your Devoted Defender feature apply to both your wards. If your wards separate, you choose which retains the benefit. If they come back together, both regain the benefit immediately.",
-            "5. True Defender: 1/week; bonus action; This feature functions as the Devoted Defender feature, except the benefit applies to up to 3 creatures you choose. If you choose juse 1 creature, the bonuses you receive increase to +4.",
+            "1. You gain an expertise die in Wisdom saving throws and initiative.",
+            "2. You have +1 AC while you are using a shield. Additionally, you gain an expertise die in Insight.",
+            "3. Devoted Defender: 2/min; bonus action; Choose 1 creature you can see. That creature becomes your ward. You gain an expertise die in all tasks involving finding, healing, interacting with, and protecting that character. You can have only 1 ward at a time.",
+            "4. You can have 2 wards from your Devoted Defender feature at a time. You can choose up to 2 wards with your Devoted Defender feature. The wards must remain within 5' of each other. Benefits provided by your Devoted Defender feature apply to both your wards. If your wards separate, you choose which retains the benefit. If they come back together, both regain the benefit immediately.",
+            "5. True Defender: 1/week; bonus action; This feature functions as the Devoted Defender feature, except the benefit applies to up to 3 creatures you choose. If you choose just 1 creature, the bonuses you receive increase to a d6 expertise die.",
             "6. True Guardian: 2/min; bonus action; You stand guard. Allies within 5' of you gain advantage on saving throws. This lasts until the end of your next turn.",
             "7. All attempted tasks that draw an attacker's attention to you (and away from someone else) have double advantage.",
-            "8. Willing Sacrifice: At-will; As a reaction when a creature within 5' of you is attacked, you can choose to take the attack instead. When you do so, you can choose to allow the attack to hit you automatically to reduce its damage by 1d4. Additionally, as part of the same reaction, you can take any further attacks directed at that same ally until your next turn.",
-            "9. Taunt Foe: 1/SR; free action; You can make an attack on a foe as part of your Willing Sacrifice reaction.",
-            "10. Resuscitate: 1/week; bonus action; You can resuscitate an unconscious creature on 0 hit points. The target heals 1 hit point. If a creature is dead but is otherwise in 1 pierce and less than a minute has passed since they died, you can resucitate them if you succeed at a DC 18 Medicine check."
+            "8. Willing Sacrifice: At-will; reaction; When a creature within 5' of you is attacked, you can choose to take the attack instead. When you do so, you can choose to allow the attack to hit you automatically to reduce its damage by 1d4. Additionally, as part of the same reaction, you can take any further attacks directed at that same ally until your next turn.",
+            "9. Taunt Foe: 1/SR; free action; You can make a weapon attack against or cast a cantrip on a foe as part of your Willing Sacrifice reaction.",
+            "10. Resuscitate: 1/week; bonus action; You can resuscitate an creature on 0 hit points you touch. The target heals 1 hit point. If a creature is dead but is otherwise in 1 piece and less than a minute has passed since they died, you can resuscitate them if you succeed at a DC 18 Medicine check."
         ]
     },
     {

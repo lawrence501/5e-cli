@@ -436,5 +436,151 @@
                 "upgrade": "-1 and 5pts distributed/1"
             }
         ]
+    },
+    {
+        "name": "Core of the Mountain",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "1/combat, when hit, gain +5 dmg res until your next turn",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+1 phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+2 dmg res while bloodied",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +1 to your lowest ability score",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +1 HP threshold for being bloodied",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +1 phys abs",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 to your debuff DCs",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. creatures marked by you have -1 dmg res",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "7. +2 S res",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. on wep hit vs creatures marked by you, heal 1 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "9. if your DEX is 15+, -2 light res; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "10. +1 dmg abs",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Valeroot",
+        "type": "armour",
+        "startingMods": [
+            {
+                "description": "+1d4 P dmg to your spell hits",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your thorns splash 5 dmg",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+2 dmg res while shapeshifted",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicMods": [
+            {
+                "description": "1. +3 max HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "2. +1 1st-lvl spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot/3 OR +1 lvl/3"
+            },
+            {
+                "description": "3. +3 dmg thorns",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +1 AC while shapeshifted",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 phys res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. +1 P dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "7. +1 to your splashed dmg",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "8. +1 dmg res",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "9. +2 P dmg thorns",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "10. +1 spell dmg while holding a wand",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
     }
 ]

@@ -48,6 +48,7 @@ Always based on dmg where possible
 - Default/more: 30%
 - Slight: 15%
 - Substantial: 60%
+- Massive: 120%
 - Barely: 7%
 
 ### Point value cheatsheet
@@ -169,7 +170,7 @@ While riding your mount, your AC increases by 1.
 
 - New loot option: attunement-requiring magic items. Any that fit into an equipment slot already in use are reflavoured to be on another slot. Can only attune to 1 at a time. Use existing wondrous weightings of rarities, but pushed 1 up (making the 2% Artifacts). Obviously, this means they will be pretty powerful, and must therefore be high on the loot table
 
-- Replace hard doubled mods with min 3pts
+- Replace hard doubled mods with min 3pts (or just use D4 system? min 3 -> min 2 -> min 1 for 1 affix, 2, and 3 respectively)
 
 - Change books such that they are modifiers on generic types of powers, eg. your sphere AoE powers are now lines with length of their diameter
 
