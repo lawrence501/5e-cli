@@ -220,5 +220,71 @@
         "name": "Major Spread",
         "target": "Powers that have multiple areas and a non-cooldown resource cost",
         "description": "The power's areas deal massively more dmg, but its cost is 1 step higher."
+    },
+    {
+        "name": "Keen Power",
+        "target": "Powers that make atk rolls",
+        "description": "The power deals barely more dmg and has -1 crit req.",
+        "meta": "ice barrage"
+    },
+    {
+        "name": "Slow Power",
+        "target": "Powers that deal dmg",
+        "description": "The power deals substantially more dmg, has +1 Accuracy, and has its usage time increased by 1 action step."
+    },
+    {
+        "name": "Fragmentation",
+        "target": "Powers that fire non-piercing projectiles",
+        "description": "Whenever the power's projs hit, the explode in a 15' cone originating from the opposite side of the target. The cone makes a spell atk against all foes, dealing slight $nonPhysType dmg on a hit."
+    },
+    {
+        "name": "Focused Energy",
+        "target": "Powers with a cooldown and a non-instantaneous duration",
+        "description": "The power deals more dmg and its cooldown is reduced by 1 step, but its duration is reduced by 1 step."
+    },
+    {
+        "name": "Slow Splitting",
+        "target": "Powers with a non-cooldown resource cost that fire projectiles",
+        "description": "The power fires 3 additional projs, each aiming 45 degrees in a different direction of your choice from the original projs, but its usage time is increased by 1 action step, its resoure cost is increased by 1 step, and it deals less dmg."
+    },
+    {
+        "name": "Spread",
+        "target": "Powers with cone areas",
+        "description": "The power's cones are 5' wider at all distances."
+    },
+    {
+        "name": "Piercing",
+        "target": "Powers that fire projectiles",
+        "description": "The power's projectiles are converted to line AoEs but it deals less dmg."
+    },
+    {
+        "name": "Decaying Penetration",
+        "target": "Powers with line areas",
+        "description": "Each creature hit by the power's lines gets a DoT dealing slight $nonPhysType dmg, stacking until CON save."
+    },
+    {
+        "name": "Endurance",
+        "target": "Powers with non-instantaneous durations",
+        "description": "The power's duration increases by 1 step, but it deals less dmg."
+    },
+    {
+        "name": "Reckless Power",
+        "target": "Powers that have Accuracy components",
+        "description": "The power deals substantially more dmg but has -1 Accuracy."
+    },
+    {
+        "name": "Building Assassination",
+        "target": "Powers that can hit",
+        "description": "Whenever the power hits a boss, it gains dmg for the remainder of its duration."
+    },
+    {
+        "name": "Building Power",
+        "target": "Powers with non-instantaneous durations",
+        "description": "Each turn of the power's duration, it gains slightly more dmg."
+    },
+    {
+        "name": "Unstable Speed",
+        "target": "Powers that do not require concentration",
+        "description": "The power's usage time is reduced by 2 action steps, but it now requires concentration and deals less dmg."
     }
 ]

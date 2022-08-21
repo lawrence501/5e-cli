@@ -154,6 +154,21 @@
                 "You regain the maximum possible number of hit points from expended hit dice.",
                 "[CURSE] You have disadvantage on Journey activity checks."
             ]
+        },
+        {
+            "name": "Brass Dragon Amulet",
+            "effects": [
+                "+1 AC.",
+                "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
+                "You have 50% resistance to fire dmg.",
+                "1/LR, as an action, you can magically discern the distance and direction of the nearest brass dragon within 30 miles of you."
+            ]
+        },
+        {
+            "name": "Ring of Frost Giant Strength",
+            "effects": [
+                "Your Strength is always equal to 23."
+            ]
         }
     ],
     "legendary": [
@@ -178,6 +193,20 @@
                 "Your Strength is always equal to 21 [L11+: 23], unless it would usually be higher.",
                 "1/LR, as an action, you may become a Storm Avatar for 1min, gaining the following benefits: immunity to light and thunder dmg; when you hit with a wep atk that normally deals B dmg, it deals thunder instead. P and S are similarly converted to light; As a bonus action, you can choose 1 creature you can see within 30' to be struck by lightning, forcing them to pass a DC 15 DEX save or take 3d6 [L11+: 4d6] light, or half as much on a success.",
                 "L11+: While transformed into a Storm Avatar, you gain 30' of fly speed and can hover."
+            ]
+        },
+        {
+            "name": "Ascendant Dragon-Touched Focus [ring]",
+            "effects": [
+                "You have adv on init rolls.",
+                "Your weapons gain the Conduit trait.",
+                "If your name starts with A-->I, whenever you use a spell slot to cast a spell that deals acid, cold, fire, light, or psn dmg, roll a d6, and you gain a bonus equal to the number rolled to one of the spell's dmg rolls.",
+                "If your name starts with A-->I, you can cast Hold Monster and Rime's Binding Ice, each once per long rest.",
+                "If your name starts with J-->R, whenever you use a spell slot to cast a spell, you can immediately teleport to an unoccupied space you can see within 15' of you.",
+                "If your name starts with J-->R, you can cast Rary's Telepathic Bond and Raulothim's Psychic Lance, each once per long rest.",
+                "If your name starts with S-->Z, whenever a creature you can see within 30' of you makes a save, you can use your reaction to give that creature adv on the save.",
+                "If your name starts with S-->Z, you can cast Fizban's Platinum Shield and Legend Lore, each once per long rest.",
+                "1/LR, when casting a lvl'd spell, you can treat the spell as if it were cast using a 9th-lvl spell slot."
             ]
         }
     ],

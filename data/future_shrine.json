@@ -13,7 +13,7 @@
     },
     {
         "name": "Fate",
-        "description": "lock in a mod and reroll all others"
+        "description": "reroll a random mod"
     },
     {
         "name": "Empowerment",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Negation",
-        "description": "Chosen mod is negated, resultant points are distributed randomly"
+        "description": "Random mod is negated, resultant points are distributed randomly"
     },
     {
         "name": "Sacrifice",

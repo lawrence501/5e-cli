@@ -189,6 +189,3 @@ While riding your mount, your AC increases by 1.
 - Discuss no side-gaming
 
 - Discuss Adrian's golden home with its perfectly balanced distances from all + we can get our dice blessed by Muffin
-
-- New card set: sidekicks
-

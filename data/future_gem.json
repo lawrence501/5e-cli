@@ -119,7 +119,7 @@
         "tags": ["weapon class", "type dmg"]
     },
     {
-        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give -1 to condi saves until end of your next turn",
+        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give -1 to debuff saves until end of your next turn",
         "upgrade": "+10%/1 OR -1 save/4",
         "tags": ["weapon class", "debuff"]
     },
@@ -330,7 +330,7 @@
         "tags": ["type dmg"]
     },
     {
-        "effect": "on hit, 20% chance to give -1 to condi saves until end of your next turn",
+        "effect": "on hit, 20% chance to give -1 to debuff saves until end of your next turn",
         "upgrade": "+10%/1 OR -1 saves/2",
         "tags": ["debuff"]
     },
@@ -391,7 +391,7 @@
         "tags": ["ability score"]
     },
     {
-        "effect": "+1 to condi saves",
+        "effect": "+1 to debuff saves",
         "upgrade": "+1/4",
         "tags": ["save"]
     },
@@ -405,5 +405,115 @@
         "upgrade": "+1/1",
         "tags": ["minion off"],
         "meta": "shaman - fate carver"
+    },
+    {
+        "effect": "on hit, 20% chance to make target sluggish until end of your next turn",
+        "upgrade": "+10%/1",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "+1 to debuff DCs",
+        "upgrade": "+1/4",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "+2 {dmgType} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "effect": "+2 minion spell dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "effect": "on summoning a minion, 20% chance to gain +15' sp until end of the turn",
+        "upgrade": "+10%/1 OR +10'/1",
+        "tags": ["minion off", "minion def", "speed"]
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your wep hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "wep dmg"]
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "effect": "+1 {abilityScore}",
+        "upgrade": "+1/4",
+        "tags": ["ability score"]
+    },
+    {
+        "effect": "your first {rangeType} atk each turn deals +1d4 {dmgType} dmg",
+        "upgrade": "+1/1",
+        "tags": ["range", "type dmg"]
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your minion spell hits",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "effect": "on hit, 20% chance to debil target until end of their next turn",
+        "upgrade": "+10%/1",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "on minion hit, 20% chance to debil target until end of their next turn",
+        "upgrade": "+10%/1",
+        "tags": ["minion def"]
+    },
+    {
+        "effect": "+2 minion {dmgType} dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "effect": "+1 to debuff DCs",
+        "upgrade": "+1/4",
+        "tags": ["debuff"]
+    },
+    {
+        "effect": "+1 to minion debuff DCs",
+        "upgrade": "+1/3",
+        "tags": ["minion off", "minion def"]
+    },
+    {
+        "effect": "+3 {dmgType} res while you have an active minion",
+        "upgrade": "+2/1",
+        "tags": ["type res", "minion off", "minion def"]
+    },
+    {
+        "effect": "+1 non-phys res while you have an active minion",
+        "upgrade": "+1/1",
+        "tags": ["non-phys res", "minion off", "minion def"]
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "effect": "+1d4 {dmgType} dmg to your minion spell hits",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "effect": "+1 non-phys {rangeType} dmg (SHAMAN - DERVISH)",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "range"]
+    },
+    {
+        "effect": "",
+        "upgrade": "+1/1",
+        "tags": []
     }
 ]
