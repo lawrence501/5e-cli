@@ -475,7 +475,7 @@
             ]
         },
         {
-            "name": "2. Fillipo's Rhythm (L4)",
+            "name": "2. Fillipo's Rhythm (L5)",
             "type": "armour",
             "startingMods": [
                 {
@@ -489,8 +489,8 @@
                     "upgrade": "+1/8"
                 },
                 {
-                    "description": "+4 performance",
-                    "pointValue": "4",
+                    "description": "+5 performance",
+                    "pointValue": "5",
                     "upgrade": "+1/1"
                 },
                 {
