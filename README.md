@@ -176,16 +176,10 @@ While riding your mount, your AC increases by 1.
 
 - Change crafting stones to be instant-use, but allow rollback (Shrines). Put them instead of the gold-replacements for commons on the wondrous/attunement rolls. Those slots give 1 shrine, actual crafting table slot gives 2.
 
+- Change myth cards into helmets, with set bonuses on combining the same set
+
 - Ban homebrew classes? Still allow homebrew subclasses? Harder for a subclass to spiral out of defined balance constraints. Loads of subclass + class options nowadays
 
 - How do people feel about the themepark-ness structure of our campaigns? As opposed to more sandboxy concepts where the players define their own goals and ambitions (Downside is potentially campaign length). Subquestion if happy, how about streamlining exploration elements (eg. food/water/resources, searching for loot, etc.) (If wanting to bring them back, I'd want them to be more involved, and not just extra words for everyone to say)
 
-- Mage Slayer discussion - rework into "ranged slayer" (give new name), defensive changes to targeting you from 10+' away (except melee + touch?), remove conc, off changes to when creature within certain distance gets similar targeted you get accuracy bonus vs the offender until end of next turn OR shift up to sp toward offender
-- Change Specialist - to accuracy (next campaign is fine)
-- Future changes: all armour mastery feats lose prof, gain half feat (DEX/CON, DEX/CON, STR/CON respectively); medium adds negative DEX doesn't reduce AC and changes CON thing to +2 half dmg pseudo-AC; heavy reduce to 2 and change to all atks; add to light 1st 2 pts of mobile, remove mobile; remove half feat from inspiring leader
-
 - Discuss party wipes --> single player death. Heroic sacrifice actions?
-
-- Discuss no side-gaming
-
-- Discuss Adrian's golden home with its perfectly balanced distances from all + we can get our dice blessed by Muffin
