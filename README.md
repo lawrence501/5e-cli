@@ -164,7 +164,7 @@ While riding your mount, your AC increases by 1.
 - Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
 
 - Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice). new tags:
-    - choice of ability score; temp hp; choice of type res; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys res; non-phys res; dot; debuff; buff; crit; minion def; aoe; throw; choice of range type; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac; throw
+    - choice of ability score; temp hp; choice of type res; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys res; non-phys res; dot; debuff; buff; crit; minion def; aoe; melee; proj; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
 
 - Remove amulets
 
@@ -176,10 +176,26 @@ While riding your mount, your AC increases by 1.
 
 - Change crafting stones to be instant-use, but allow rollback (Shrines). Put them instead of the gold-replacements for commons on the wondrous/attunement rolls. Those slots give 1 shrine, actual crafting table slot gives 2.
 
-- Change myth cards into helmets, with set bonuses on combining the same set
+- Change myth cards into amulets, with set bonuses on combining the same set
 
-- Ban homebrew classes? Still allow homebrew subclasses? Harder for a subclass to spiral out of defined balance constraints. Loads of subclass + class options nowadays
+- Future loot options suggestion (d100 roll)
+1. Traps
+2. Wondrous Items
+3. Tomes
+4. Helms
+5. Reroll twice w/ upgrade
+6. Jewellery
+7. Gems
+8. 1e magic items
+9. Shrines
+10. Dream Mirrors
+11. Glyphs
+12. Relics
+13. Body Armours
+14. Tarots
+15. 2e magic items
+16. 3e magic items
 
-- How do people feel about the themepark-ness structure of our campaigns? As opposed to more sandboxy concepts where the players define their own goals and ambitions (Downside is potentially campaign length). Subquestion if happy, how about streamlining exploration elements (eg. food/water/resources, searching for loot, etc.) (If wanting to bring them back, I'd want them to be more involved, and not just extra words for everyone to say)
+6% each, except 5 is 10%
 
-- Discuss party wipes --> single player death. Heroic sacrifice actions?
+Armour slots are now gloves, pants, boots

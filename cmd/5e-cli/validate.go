@@ -7,6 +7,9 @@ import (
 )
 
 var validateBase = func(input string) error {
+	if validateInt(input) == nil {
+		return nil
+	}
 	if _, valid := COMMAND_MAP[input]; !valid {
 		return errors.New("Invalid command.")
 	}
