@@ -5,11 +5,6 @@ type Generic struct {
 	Description string `json:"description"`
 }
 
-type Traps struct {
-	Standard []Generic `json:"standard"`
-	Crit     []Generic `json:"crit"`
-}
-
 type Mundanes struct {
 	Weapon []Mundane `json:"weapon"`
 	Armour []Mundane `json:"armour"`
@@ -21,17 +16,20 @@ type Mundane struct {
 	Tags        []string `json:"tags"`
 }
 
+type Relics struct {
+	Weapon []Relic `json:"weapon"`
+	Armour []Relic `json:"armour"`
+}
+
 type Encounters struct {
-	Plains   []string `json:"plains"`
-	Forest   []string `json:"forest"`
-	Mountain []string `json:"mountain"`
-	Aquatic  []string `json:"aquatic"`
+	Hostile  []string `json:"hostile"`
 	Positive []string `json:"positive"`
 }
 
-type Books struct {
-	Tome   []Generic `json:"tome"`
-	Manual []Generic `json:"manual"`
+type Tome struct {
+	Name        string `json:"name"`
+	Target      string `json:"target"`
+	Description string `json:"description"`
 }
 
 type Cards struct {
@@ -54,6 +52,19 @@ type Wondrous struct {
 	Legendary []Generic `json:"legendary"`
 }
 
+type Rings struct {
+	Uncommon  []Ring `json:"uncommon"`
+	Rare      []Ring `json:"rare"`
+	VeryRare  []Ring `json:"very rare"`
+	Legendary []Ring `json:"legendary"`
+	Artifact  []Ring `json:"artifact"`
+}
+
+type Ring struct {
+	Name    string   `json:"name"`
+	Effects []string `json:"effects"`
+}
+
 type Mutation struct {
 	Powerful    []Generic `json:"powerful"`
 	Beneficial  []Generic `json:"beneficial"`
@@ -68,10 +79,14 @@ type Enchant struct {
 	Tags        []string `json:"tags"`
 }
 
-type Amulet struct {
+type AmuletSet struct {
 	Name    string   `json:"name"`
-	Mods    []string `json:"mods"`
-	Upgrade string   `json:"upgrade"`
+	Amulets []Amulet `json:"amulets"`
+}
+
+type Amulet struct {
+	Name   string `json:"name"`
+	Effect string `json:"effect"`
 }
 
 type SimpleGeneric struct {
@@ -94,4 +109,22 @@ type Relic struct {
 	Name         string    `json:"name"`
 	Type         string    `json:"type"`
 	StartingMods []Enchant `json:"startingMods"`
+}
+
+type Bodies struct {
+	Unarmoured []Body `json:"unarmoured"`
+	Light      []Body `json:"light"`
+	Medium     []Body `json:"medium"`
+	Heavy      []Body `json:"heavy"`
+}
+
+type Body struct {
+	Name      string          `json:"name"`
+	Mods      []string        `json:"mods"`
+	Variables []BodyVariables `json:"variables"`
+}
+
+type BodyVariables struct {
+	Mods      []string `json:"mods"`
+	Variables []string `json:"variables"`
 }

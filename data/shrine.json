@@ -36,10 +36,6 @@
         "description": "Random mod is negated, resultant points are distributed randomly"
     },
     {
-        "name": "Sacrifice",
-        "description": "Use on any lootable object or pile of gold, destroying it; roll on loot table, rerolling results lower than object's equivalent roll"
-    },
-    {
         "name": "Brittleness",
         "description": "body armour gets -1 AC and random hard tripled enchant"
     }

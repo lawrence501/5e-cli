@@ -179,14 +179,12 @@ While riding your mount, your AC increases by 1.
 - Change myth cards into amulets, with set bonuses on combining the same set
 
 - Future loot options suggestion (d100 roll)
-1. Traps
 2. Wondrous Items
 3. Tomes
-4. Helms
+4. Rings
 5. Reroll twice w/ upgrade
-6. Jewellery
-7. Gems
-8. 1e magic items
+6. Amulets
+7. Soul Gems
 9. Shrines
 10. Dream Mirrors
 11. Glyphs
@@ -196,6 +194,4 @@ While riding your mount, your AC increases by 1.
 15. 2e magic items
 16. 3e magic items
 
-6% each, except 5 is 10%
-
-Armour slots are now gloves, pants, boots
+7% each, except 5 is 9%

@@ -3,7 +3,7 @@
         "description": "Legendary chest style loot roll (empowered = +1 roll from DM)"
     },
     {
-        "description": "Loot roll (empowered = +1 colour)"
+        "description": "Advantage loot roll (empowered = +1 advantage)"
     },
     {
         "description": "L3 healing potion (empowered = +1 tier)"
@@ -12,13 +12,13 @@
         "description": "Green loot roll (empowered = +1 colour)"
     },
     {
-        "description": "Min 16 loot roll (empowered = +1 colour)"
+        "description": "Min 50 loot roll (empowered = +10 min)"
     },
     {
-        "description": "Blessing that lasts until end of next encounter (empowered = +1 tier)"
+        "description": "Random tome effect empowers all your relevant powers until next encounter ends (empowered = +1 advantage on tome choice)"
     },
     {
-        "description": "100gp (empowered = +50gp)"
+        "description": "30gp (empowered = +15gp)"
     },
     {
         "description": "Manifest [Precise, Defending, Annihilating, Healing] Wisp of Gratitude (NPC ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
@@ -27,10 +27,10 @@
         "description": "Loot roll, rerolling until an equipment roll (empowered = +1 colour)"
     },
     {
-        "description": "Scroll of Knowledge: learn additional spell of choice from random spell list (empowered = spell has +20% chance to be rare)"
+        "description": "Scroll of Knowledge: learn additional spell of choice from random spell list (empowered = spell has +20% chance to be rare/empowered by a random relevant tome if no rare version)"
     },
     {
-        "description": "Inspiration (empowered = inspiration has +20% chance to not be consumed)"
+        "description": "Inspiration (empowered = inspiration has +20% chance to not be consumed on use)"
     },
     {
         "description": "Temp HP equal to half max HP which lasts until used (empowered = +25% temp HP)"
@@ -48,10 +48,10 @@
         "description": "can reroll an ability score (4d6 drop lowest) (empowered = +1 adv)"
     },
     {
-        "description": "Scroll of valuable battle: summons a random encounter with upgraded loot, all instances of this gained at same time increase the colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
+        "description": "Scroll of valuable battle: summons a random encounter with +1 colour loot, all instances of this gained at same time increase the colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
-        "description": "Scroll of empowered battle: summons a random encounter, empowered once, and also with +1 colour tier, all instances of this gained at same time increase the base colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
+        "description": "Scroll of empowered battle: summons a random encounter, empowered once, and also with +2 colour tiers, all instances of this gained at same time increase the base colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
         "description": "Level 10-crafted food with chosen affinities (empowered = +1pt distributed)"
@@ -60,19 +60,16 @@
         "description": "Level 10-crafted item of chosen craft with chosen affinities (empowered = +1pt distributed)"
     },
     {
-        "description": "Scroll of gambling: bet any multiple of 100gp and roll d100: 1-25 is lose it all, 26-50 is earn it back, 51-75 is earn double gold back, 76-99 is earn as loot rolls/50, 100 is 51 and 76 together (empowered = +1 adv)"
+        "description": "Scroll of gambling: bet any multiple of 20gp and roll d100: 1-25 is lose it all, 26-50 is earn it back, 51-75 is earn double gold back, 76-99 is earn as loot rolls/10, 100 is 51 and 76 together (empowered = +1 adv)"
     },
     {
-        "description": "Scroll of civilisation: establish new city here, fully automated via constructs. Can choose 1 service for it to have per instance of this reward, combining into 1 (empowered = +10% discount from all services)"
+        "description": "Scroll of civilisation: establish new city here, fully automated via constructs. Can choose/create 1 service for it to have per instance of this reward, combining into 1 (empowered = +10% discount from all services)"
     },
     {
-        "description": "Scroll of lucrative battle: summons a random encounter with normal loot + 200*x gp reward, all instances of this gained increase x by 1, combining into 1 (empowered = +1 loot colour)"
+        "description": "Scroll of lucrative battle: summons a random encounter with normal loot + 40*x gp reward, all instances of this gained increase x by 1, combining into 1 (empowered = +1 loot colour)"
     },
     {
         "description": "Reroll with advantage (empowered = +1 adv)"
-    },
-    {
-        "description": "Adv loot roll (empowered = +1 colour)"
     },
     {
         "description": "Instanty teleport party to any location on map (empowered = 20% chance to be a scroll instead)"
@@ -96,12 +93,12 @@
         "description": "Gain a 1st-lvl spell slot (if not spellcaster, gain basic spellcasting with mental score of choice) (empowered = +20% chance for +1 slot lvl)"
     },
     {
-        "description": "Uptier an amulet (empowered = +20% chance for another tier)"
-    },
-    {
-        "description": "Modify an aspect of an amulet (empowered = 20% chance to not be consumed)"
-    },
-    {
         "description": "Gain a random passive trait from a random monster (empowered = +1 adv on monster roll)"
+    },
+    {
+        "description": "+1% chance for positive encounters (legendary chest) (empowered = +1%)"
+    },
+    {
+        "description": "instant use of wish spell, 100% chance to fail, all combine into 1, each decreases fail chance by 20% (empowered = -20% chance to fail)"
     }
 ]

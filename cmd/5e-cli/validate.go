@@ -4,6 +4,8 @@ import (
 	"errors"
 	"regexp"
 	"strconv"
+
+	"golang.org/x/exp/slices"
 )
 
 var validateBase = func(input string) error {
@@ -31,15 +33,15 @@ var validateTagString = func(input string) error {
 	return nil
 }
 
-var validateBasicRing = func(input string) error {
-	if valid := sliceContains(RING_TAGS, input); !valid {
-		return errors.New("Invalid basic ring.")
+var validateGem = func(input string) error {
+	if valid := slices.Contains(GEM_TAGS, input); !valid {
+		return errors.New("Invalid gem tag.")
 	}
 	return nil
 }
 
 var validateMutationType = func(input string) error {
-	if valid := sliceContains(MUTATION_TYPES, input); !valid {
+	if valid := slices.Contains(MUTATION_TYPES, input); !valid {
 		return errors.New("Invalid mutation type.")
 	}
 	return nil
@@ -56,6 +58,13 @@ var validateSpaceSeparated = func(input string) error {
 var validateInt = func(input string) error {
 	if _, err := strconv.Atoi(input); err != nil {
 		return errors.New("Invalid integer input.")
+	}
+	return nil
+}
+
+var validateTarotCard = func(input string) error {
+	if valid := slices.Contains(TAROT_CARDS, input); !valid {
+		return errors.New("Invalid tarot card.")
 	}
 	return nil
 }

@@ -6,20 +6,9 @@ import (
 	"reflect"
 	"sort"
 	"strconv"
-	"strings"
 
 	"github.com/manifoldco/promptui"
 )
-
-var singleCard = func() error {
-	cards, err := getCards(1)
-	if err != nil {
-		return err
-	}
-
-	log.Printf("Myth card\n[%s] %s (%s)", cards[0].Rarity, cards[0].Name, cards[0].Set)
-	return nil
-}
 
 var colour = func() error {
 	rollP := promptui.Prompt{
@@ -56,33 +45,6 @@ var armourEnchant = func() error {
 
 	enchant := enchants[0]
 	log.Printf("Armour enchant\n%s [%s; %s]", enchant.Description, enchant.PointValue, enchant.Upgrade)
-	return nil
-}
-
-var upgradeRing = func() error {
-	basicP := promptui.Prompt{
-		Label:    "Basic ring type",
-		Validate: validateBasicRing,
-	}
-	b, err := basicP.Run()
-	if err != nil {
-		return err
-	}
-
-	rings, err := fetchThematicRings()
-	if err != nil {
-		return err
-	}
-
-	var ring ThematicRing
-	for true {
-		ring = rings[rand.Intn(len(rings))]
-		if sliceContains(ring.Tags, b) {
-			modString := strings.Join(ring.Mods, "\n- ")
-			log.Printf("Thematic ring (in addition to basic)\n- %s", modString)
-			return nil
-		}
-	}
 	return nil
 }
 
@@ -196,35 +158,8 @@ var empower = func() error {
 	return nil
 }
 
-var plains = func() error {
-	encounter, err := generateEncounter("plains")
-	if err != nil {
-		return err
-	}
-	log.Printf("Random encounter!\n%s", encounter)
-	return nil
-}
-
-var forest = func() error {
-	encounter, err := generateEncounter("forest")
-	if err != nil {
-		return err
-	}
-	log.Printf("Random encounter!\n%s", encounter)
-	return nil
-}
-
-var mountain = func() error {
-	encounter, err := generateEncounter("mountain")
-	if err != nil {
-		return err
-	}
-	log.Printf("Random encounter!\n%s", encounter)
-	return nil
-}
-
-var aquatic = func() error {
-	encounter, err := generateEncounter("aquatic")
+var randomEncounter = func() error {
+	encounter, err := generateEncounter()
 	if err != nil {
 		return err
 	}

@@ -1,69 +1,45 @@
 package main
 
 import (
+	"errors"
 	"log"
 	"math/rand"
 	"strings"
+
+	"github.com/manifoldco/promptui"
 )
 
-var book = func() error {
-	var t string
-	typeRoll := rand.Intn(2)
-	if typeRoll < 1 {
-		t = "Tome"
-	} else {
-		t = "Manual"
-	}
+var tome = func() error {
 	critRoll := rand.Intn(100)
 	if critRoll < 10 {
-		log.Printf("Critical book!\nBlank %s", t)
+		log.Println("Blank tome!")
 		return nil
 	}
-	books, err := fetchBooks(t)
+	tomes, err := fetchTomes()
 	if err != nil {
 		return err
 	}
-	chosen := books[rand.Intn(len(books))]
+	chosen := tomes[rand.Intn(len(tomes))]
 
-	log.Printf("Book\n%s of %s: %s", t, chosen.Name, chosen.Description)
+	log.Printf("Tome of %s - Can be applied to %s\nEffect: %s", chosen.Name, chosen.Target, chosen.Description)
 	return nil
 }
 
 var lowGold = func() error {
-	amount := rand.Intn(20) + 11
+	amount := rand.Intn(4) + 3
 	log.Printf("Low gold: %dgp\n", amount)
 	return nil
 }
 
 var mediumGold = func() error {
-	amount := rand.Intn(20) + 51
+	amount := rand.Intn(4) + 11
 	log.Printf("Medium gold: %dgp\n", amount)
 	return nil
 }
 
 var highGold = func() error {
-	amount := rand.Intn(20) + 151
+	amount := rand.Intn(4) + 31
 	log.Printf("High gold: %dgp\n", amount)
-	return nil
-}
-
-var trap = func() error {
-	t := "standard"
-	if rand.Intn(100) < 10 {
-		t = "crit"
-	}
-
-	traps, err := fetchTraps(t)
-	if err != nil {
-		return err
-	}
-
-	chosen := traps[rand.Intn(len(traps))]
-	title := "Trap!"
-	if t == "crit" {
-		title = "Special trap!"
-	}
-	log.Printf("%s (if applicable, otherwise 1gp)\n%s: %s", title, chosen.Name, chosen.Description)
 	return nil
 }
 
@@ -96,9 +72,10 @@ var mundane = func() error {
 }
 
 var WONDROUS_WEIGHTS = []int{50, 80, 92, 98, 100}
-var WONDROUS_RARITIES = []string{"common", "uncommon", "rare", "very rare", "legendary"}
+var WONDROUS_RARITIES = []string{"gold", "uncommon", "rare", "very rare", "legendary"}
 var wondrous = func() error {
 	rarityRoll := rand.Intn(100)
+	log.Println(rarityRoll)
 	var rarity string
 	for i := range WONDROUS_WEIGHTS {
 		if rarityRoll < WONDROUS_WEIGHTS[i] {
@@ -107,7 +84,7 @@ var wondrous = func() error {
 		}
 	}
 
-	if rarity == "common" {
+	if rarity == "gold" {
 		if err := lowGold(); err != nil {
 			return err
 		}
@@ -120,6 +97,39 @@ var wondrous = func() error {
 
 	chosen := wondrous[rand.Intn(len(wondrous))]
 	log.Printf("%s wondrous item\n%s: %s", rarity, chosen.Name, chosen.Description)
+	return nil
+}
+
+var RING_WEIGHTS = []int{50, 79, 91, 97, 99, 100}
+var RING_RARITIES = []string{"gold", "uncommon", "rare", "very rare", "legendary", "artifact"}
+var ring = func() error {
+	rarityRoll := rand.Intn(100)
+	var rarity string
+	for i := range RING_WEIGHTS {
+		if rarityRoll < RING_WEIGHTS[i] {
+			rarity = RING_RARITIES[i]
+			break
+		}
+	}
+
+	if rarity == "gold" {
+		if err := mediumGold(); err != nil {
+			return err
+		}
+		return nil
+	}
+	rings, err := fetchRings(rarity)
+	if err != nil {
+		return err
+	}
+
+	chosen := rings[rand.Intn(len(rings))]
+	var modDescriptions []string
+	for _, m := range chosen.Effects {
+		modDescriptions = append(modDescriptions, m)
+	}
+	modString := strings.Join(modDescriptions, "\n- ")
+	log.Printf("%s ring\n\n%s:\n- %s", rarity, chosen.Name, modString)
 	return nil
 }
 
@@ -175,19 +185,14 @@ var essence = func() error {
 }
 
 var amulet = func() error {
-	amulets, err := fetchAmulets()
+	sets, err := fetchAmulets()
 	if err != nil {
 		return err
 	}
 
-	chosen := amulets[rand.Intn(len(amulets))]
-	var mods []string
-	for _, m := range chosen.Mods {
-		mod := processMod(m)
-		mods = append(mods, mod)
-	}
-	modString := strings.Join(mods, "\n- ")
-	log.Printf("Amulet\n%s:\n- %s", chosen.Name, modString)
+	set := sets[rand.Intn(len(sets))]
+	chosen := set.Amulets[rand.Intn(len(set.Amulets))]
+	log.Printf("Amulet\nHeart of %s (%s): %s", chosen.Name, set.Name, chosen.Effect)
 	return nil
 }
 
@@ -203,15 +208,8 @@ var blessing = func() error {
 	return nil
 }
 
-var ring = func() error {
-	rings, err := fetchSimpleGenerics("basicRing")
-	if err != nil {
-		return err
-	}
-
-	chosen := rings[rand.Intn(len(rings))]
-	chosen.Description = processMod(chosen.Description)
-	log.Printf("Basic ring\n%s", chosen.Description)
+var gem = func() error {
+	log.Printf("Soul gem\n%s", GEM_TAGS[rand.Intn(len(GEM_TAGS))])
 	return nil
 }
 
@@ -256,24 +254,37 @@ var doubleValueDoubleEnchant = func() error {
 	return nil
 }
 
-var cards = func() error {
-	cards, err := getCards(2)
+var shrine = func() error {
+	shrines, err := fetchGenerics("shrine")
 	if err != nil {
 		return err
 	}
 
-	log.Printf("Myth cards\n1. [%s] %s (%s)\n2. [%s] %s (%s)", cards[0].Rarity, cards[0].Name, cards[0].Set, cards[1].Rarity, cards[1].Name, cards[1].Set)
+	chosen := shrines[rand.Intn(len(shrines))]
+	log.Printf("Shrine of %s: %s", chosen.Name, chosen.Description)
 	return nil
 }
 
-var craftingStone = func() error {
-	stones, err := fetchGenerics("craftingStone")
+var tarot = func() error {
+	cardP := promptui.Prompt{
+		Label:    "Card",
+		Validate: validateTarotCard,
+	}
+	card, err := cardP.Run()
 	if err != nil {
 		return err
 	}
 
-	chosen := stones[rand.Intn(len(stones))]
-	log.Printf("Crafting stone\n%s Stone: %s", chosen.Name, chosen.Description)
+	var cardIdx int
+	for i, t := range TAROT_CARDS {
+		if t == card {
+			cardIdx = i
+			break
+		}
+	}
+
+	c, err := fetchTarot(cardIdx)
+	log.Printf("Tarot card\n%s: %s", c.Name, c.Description)
 	return nil
 }
 
@@ -282,14 +293,62 @@ var relic = func() error {
 	if err != nil {
 		return err
 	}
+	typeRoll := rand.Intn(5)
+	options := relics.Armour
+	t := "armour"
+	if typeRoll < 2 {
+		options = relics.Weapon
+		t = "weapon"
+	}
 
-	chosen := relics[rand.Intn(len(relics))]
+	chosen := options[rand.Intn(len(options))]
 	var modDescriptions []string
 	for _, m := range chosen.StartingMods {
 		m.Description = processMod(m.Description)
 		modDescriptions = append(modDescriptions, m.Description)
 	}
 	modString := strings.Join(modDescriptions, "\n- ")
-	log.Printf("Relic\n%s (%s):\n- %s", chosen.Name, chosen.Type, modString)
+	log.Printf("Relic\n%s (%s):\n- %s", chosen.Name, t, modString)
+	return nil
+}
+
+var body = func() error {
+	bodies, err := fetchBodies()
+	if err != nil {
+		return err
+	}
+
+	weight := ARMOUR_WEIGHTS[rand.Intn(len(ARMOUR_WEIGHTS))]
+	var options []Body
+	switch weight {
+	case "unarmoured":
+		options = bodies.Unarmoured
+	case "light":
+		options = bodies.Light
+	case "medium":
+		options = bodies.Medium
+	case "heavy":
+		options = bodies.Heavy
+	default:
+		return errors.New("Somehow rolled invalid body armour weight: " + weight)
+	}
+
+	chosen := options[rand.Intn(len(options))]
+	var mods []string
+	for _, m := range chosen.Mods {
+		mods = append(mods, m)
+	}
+	if len(chosen.Variables) > 0 {
+		chosenVar := chosen.Variables[rand.Intn(len(chosen.Variables))]
+		for _, m := range chosenVar.Mods {
+			mods = append(mods, m)
+		}
+		if len(chosenVar.Variables) > 0 {
+			mods = append(mods, chosenVar.Variables[rand.Intn(len(chosenVar.Variables))])
+		}
+	}
+	modString := strings.Join(mods, "\n- ")
+
+	log.Printf("Body armour\n%s (%s):\n- %s", chosen.Name, weight, modString)
 	return nil
 }

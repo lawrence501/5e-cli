@@ -467,7 +467,7 @@
         "name": "Plays Thunderous Music",
         "description": "playing magical music",
         "tiers": [
-            "1. Warming Melody: At-will; bonus action; You perform as song that literally warms the air around you, with a focal point of your choice. Deal 1d6 + level fire damage to a target within 5' of you. This feature may be used to ignite small fires.",
+            "1. Warming Melody: At-will; bonus action; You perform a song that literally warms the air around you, with a focal point of your choice. Deal 1d6 + level fire damage to a target within 5' of you. This feature may be used to ignite small fires.",
             "2. You gain proficiency (or +2) in either playing a musical instrument of your choice, or performing songs with your voice. You may use this skill when making checks for features in this glyph path. Additionally, you gain +2 to History checks related to music.",
             "3. Chilling Chant: 2/min; bonus action; Your performance draws the heat out of the world, causing frost and ice to form all around you. You deal 2d4 + level cold damage to all creatures within 5' of you. If used near a body of water, sustained use of this feature can produce enough ice to walk on.",
             "4. Cacaphonous Signal: 1/min; bonus action; The song you play or sing sounds like atonal garbage to most, but invokes magic to charge the air around them. All creatures within 30' of you take 1d8 + level lightning damage. If used outdoors more than 3 times in an hour, this feature will summon a storm to the area.",
@@ -1411,7 +1411,7 @@
         "name": "Bears a Staff of Power",
         "description": "enhancing a staff",
         "tiers": [
-            "1. Instill Potion: At-will; free action; You absorb a blessing that is about to affect you, but instead of consuming it, its power is stored in a staff you hold. For so long as it is stored there, you (and only you) may use it as a bonus action without losing it. The blessing can be used on a cooldown dictated by its tier (ask DM). You may only ever have 1 staff instilled with a blessing and a staff may only ever hold 1 blessing in this way. Should you instill another one, the old one is lost.",
+            "1. Instill Blessing: At-will; free action; You absorb a blessing that is about to affect you, but instead of consuming it, its power is stored in a staff you hold. For so long as it is stored there, you (and only you) may use it as a bonus action without losing it. The blessing can be used on a cooldown dictated by its tier (ask DM). You may only ever have 1 staff instilled with a blessing and a staff may only ever hold 1 blessing in this way. Should you instill another one, the old one is lost.",
             "2. You gain an expertise die in attacks with staves.",
             "3. By chanting sonorous words of power you enhance your staff-stored blessing, increasing its tier by 1.",
             "4. Blessing Sacrifice: 1/min; free action; By harnessing the power of a blessing you hold, you can use your imbued staff blessing twice this turn with a single bonus action.",

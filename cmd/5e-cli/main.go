@@ -4,54 +4,47 @@ import (
 	"log"
 	"math/rand"
 	"os"
+	"sort"
+	"strconv"
 	"time"
 
 	"github.com/manifoldco/promptui"
 )
 
+var ROLL_RANGE_CEILINGS = map[int]func() error{
+	7:   wondrous,
+	14:  func() error { log.Println("Tarot card"); return nil },
+	21:  func() error { log.Printf("\nSoul gem\n%s", GEM_TAGS[rand.Intn(len(GEM_TAGS))]); return nil },
+	28:  amulet,
+	35:  doubleEnchant,
+	42:  tripleEnchant,
+	49:  ring,
+	58:  func() error { log.Println("Reroll twice/upgrade result with +1 colour!"); return nil },
+	65:  shrine,
+	72:  body,
+	79:  tome,
+	86:  relic,
+	93:  func() error { log.Println("Dream Mirror"); return nil },
+	100: func() error { log.Println("Glyph"); return nil },
+}
+
 var COMMAND_MAP = map[string]func() error{
 	"exit":          func() error { os.Exit(0); return nil },
 	"q":             func() error { os.Exit(0); return nil },
-	"1":             trap,
-	"7":             book,
-	"3":             mundane,
-	"4":             wondrous,
-	"6":             singleEnchant,
-	"5":             essence,
-	"9":             cards,
-	"14":            doubleEnchant,
-	"11":            highGold,
-	"10":            func() error { log.Println("Reroll twice/upgrade result with +1 colour!"); return nil },
-	"12":            amulet,
-	"2":             blessing,
-	"13":            ring,
-	"8":             doubleValueSingleEnchant,
-	"16":            tripleEnchant,
-	"15":            doubleValueDoubleEnchant,
-	"17":            craftingStone,
-	"18":            func() error { log.Println("Dream Mirror"); return nil },
-	"19":            func() error { log.Println("Glyph"); return nil },
-	"20":            relic,
 	"colour":        colour,
 	"wep":           weaponEnchant,
 	"arm":           armourEnchant,
-	"ring":          upgradeRing,
 	"glyph":         glyph,
 	"relic":         upgradeRelic,
 	"skill":         skill,
 	"dmg type":      dmgType,
 	"creature type": creatureType,
-	"card":          singleCard,
 	"ability score": abilityScore,
 	"loot":          loot,
 	"harvest":       harvest,
 	"condi":         condition,
 	"mutate":        mutation,
-	"tpk":           tpk,
-	"plains":        plains,
-	"forest":        forest,
-	"mountain":      mountain,
-	"aquatic":       aquatic,
+	"encounter":     randomEncounter,
 	"insight":       insight,
 	"dmg polarity":  dmgPolarity,
 	"party member":  partyMember,
@@ -63,6 +56,7 @@ var COMMAND_MAP = map[string]func() error{
 	"non-phys type": nonPhysType,
 	"empower":       empower,
 	"class":         class,
+	"tarot":         tarot,
 }
 
 func main() {
@@ -80,7 +74,24 @@ func main() {
 			return
 		}
 
-		err = COMMAND_MAP[input]()
+		inputInt, err := strconv.Atoi(input)
+		if err == nil {
+			ceilings := make([]int, len(ROLL_RANGE_CEILINGS))
+			i := 0
+			for k := range ROLL_RANGE_CEILINGS {
+				ceilings[i] = k
+				i++
+			}
+			sort.Ints(ceilings)
+			for _, c := range ceilings {
+				if inputInt <= c {
+					err = ROLL_RANGE_CEILINGS[c]()
+					break
+				}
+			}
+		} else {
+			err = COMMAND_MAP[input]()
+		}
 		if err != nil {
 			log.Printf("Error occurred during running of %s", input)
 			log.Fatal(err)
