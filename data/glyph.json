@@ -915,16 +915,16 @@
         "name": "Explores Dark Places",
         "description": "exploring dark places",
         "tiers": [
-            "1. Gain prof/+2 in investigation, perception, and acrobatics, and +10' climb speed and long/high jump distance.",
-            "2. Gain prof/+2 in sleight of hand and arcana.",
-            "3. You can see in dim light as though it were bright light. You can see in total darkness as if it were dim.",
-            "4. When you attack a foe in dim light or darkness, you have advantage on the attack.",
-            "5. You have advantage on all tasks involving escaping from grapples and restrains, and can squeeze one size smaller. Thanks to your experience, you also gain +2 to Dexterity saving throws while wearing light or no armour.",
-            "6. In your explorations of dark places, you have been exposed to all sorts of terrible things and are developing a general resistance. You gain +1 AC and prof/+2 in Constitution saving throws.",
-            "7. You ignore any penalties from dim light or cramped spaces. You gain +2 to stealth while in dim light or darkness.",
+            "1. Gain an expertise die in investigation, perception, and acrobatics, and +10' climb speed and long/high jump distance.",
+            "2. Gain an expertise die in sleight of hand and arcana.",
+            "3. You gain 500' of darkvision.",
+            "4. When you attack a foe in darkness, you have advantage on the attack.",
+            "5. You have advantage on all tasks involving escaping from grapples and restrains, and can squeeze one size smaller. Thanks to your experience, you also gain an expertise die in Dexterity saving throws while wearing light or no armour.",
+            "6. In your explorations of dark places, you have been exposed to all sorts of terrible things and are developing a general resistance. You gain +1 AC and an expertise die in Constitution saving throws.",
+            "7. You ignore any penalties from dim light. You gain an expertise die in stealth while in darkness.",
             "8. Blinding Attack: 1/min; bonus action; If you have a source of light, you can use it to make a melee attack against a target. If successful, the attack deals no damage, but the target is blinded for one minute.",
-            "9. Embraced by Darkness: 1/week; bonus action; For the next hour, you take on some characteristics of a shadow thanks to a fundamental adaptation of your flesh. Your appearance is a dark silhouette. You have advantage on stealth checks. During this time, you gain a fly speed of 30', and you can move through solid barriers (even those that are sealed to prevent the passage of light), but not magical barriers, at a rate of 1' per round. You can perceive while passing through a barrier or object. As a shadow, you cannot affect or be affected by material matter. Likewise, you cannot attack, touch, or otherwise affect anything. However, attacks and effects that rely on light can affect you, and sudden bursts of light can potentially incapacitate you.",
-            "10. +15' climb speed a long/high jump distance."
+            "9. Embraced by Darkness: 1/week; bonus action; For the next hour, you take on some characteristics of a shadow thanks to a fundamental adaptation of your flesh. Your appearance is a dark silhouette. You have advantage on stealth checks. During this time, you gain a fly speed of 30', and you can move through solid barriers (even those that are sealed to prevent the passage of light), but not magical barriers, at a rate of 1' per round. You can perceive while passing through a barrier or object. As a shadow, you cannot affect or be affected by material matter. Likewise, you cannot attack, touch, or otherwise affect anything. However, attacks and effects that rely on light can affect you.",
+            "10. +15' climb speed and long/high jump distance."
         ]
     },
     {
@@ -1155,14 +1155,14 @@
         "name": "Seeks Paradise",
         "description": "stealing nature's resources",
         "tiers": [
-            "1. Abundance: At-will; bonus action; You create a quantity of water and food. Enough to nourish you and the rest of your party with a random effect until your next long rests. Somewhere nearby all plant and animal life in a 15' cube is poisoned or otherwise harmed by the aftereffects of your power.",
+            "1. Abundance: 1/week; bonus action; You create a quantity of water and food. Enough to nourish you and the rest of your party, curing them each of 1 level of fatigue. Somewhere nearby all plant and animal life in a 15' cube is poisoned or otherwise harmed by the aftereffects of your power.",
             "2. You gain an expertise die in Deception.",
             "3. You gain an expertise die in Survival checks to scavenge monster parts.",
             "4. Depletion: 1/min; bonus action; Make an attack against a creature you see within 120' of you. On a hit, it is drained of life by terraformation magic, taking 1d10 + your level necrotic damage.",
-            "5. Oasis: 1/SR; bonus action; You become surrounded by shade, water, and sources of food created by your terraformation magic. This magic draws the raw materials for this small, 15' cube oasis from all of the plants and small or smaller creatures within 120' of the site. The food and water are enough to nourish up to 20 creatures with a random effect for up to 1 long rest later each (so 4 creatures could each be nourished for 5 days each, for example), and each portion heals 1d6 hit points. These portions cannot be removed from the oasis.",
+            "5. Oasis: 1/week; bonus action; You become surrounded by shade, water, and sources of food created by your terraformation magic. This magic draws the raw materials for this small, 15' cube oasis from all of the plants and small or smaller creatures within 120' of the site. The food and water are enough to nourish up to 20 creatures, curing each of them of 1 level of fatigue. These portions cannot be removed from the oasis.",
             "6. Forbidden Fruits: 1/LR; bonus action; You turn a corpse or carcass of a creature of CR 3 or higher into a biologically-based healing potion of tier equal to the creature's CR.",
             "7. Devil's Deal: 1/week; bonus action; With a wave of your hand you alter the landscape of a region, both for good and ill. Up to 2 square kilometres of desolate land may be converted into a verdant region, abundant with life that lasts for one month. However, an equivalent amount of land within view must be made poisoned and ruined, never again viable for vegetation.",
-            "8. The food created with your Abundance feature is now produced 1 tier higher.",
+            "8. The food created with your Abundance feature now cures 2 levels of fatigue.",
             "9. You gain an expertise die in Deception.",
             "10. You gain a d6 expertise die in Survival checks to scavenge monster parts."
         ]

@@ -9,7 +9,7 @@
             ]
         },
         {
-            "name": "Amulet of Striding and Springing",
+            "name": "Ring of Striding and Springing",
             "effects": [
                 "You have a minimum of 30' speed.",
                 "Your jump distance is tripled, though this does not increase your maximum travel distance."
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "name": "Amulet of the Winterlands",
+            "name": "Ring of the Winterlands",
             "effects": [
                 "You have 50% resistance to cold damage.",
                 "You ignore difficult terrain from ice/snow.",
@@ -48,11 +48,11 @@
             ]
         },
         {
-            "name": "Amulet of the Sewers",
+            "name": "Ring of the Sewers",
             "effects": [
                 "While attuned, all rats are indifferent toward you and will not attack you unless you threaten or harm them.",
-                "The amulet has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
-                "As an action, can squeeze the amulet and expend a charge to cause a Swarm of Rats (https://5e.tools/bestiary.html#swarm%20of%20rats_mm) to fall out from your other hand. The swarm is not a minion.",
+                "The ring has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
+                "As an action, can rub the ring and expend a charge to cause a Swarm of Rats (https://5e.tools/bestiary.html#swarm%20of%20rats_mm) to fall out from your other hand. The swarm is not a minion.",
                 "Whenever a Swarm of Rats that isn't under another creature's control is within 30' of you, you can make a CHA check contested by the swarm's WIS check. If you succeed, the swarm becomes your minion for as long as your maintain this effect as an action each turn. If either you lose control of the swarm or it succeeds the contested check, it is immune to these effects for 24hrs."
             ]
         },
@@ -87,10 +87,10 @@
     ],
     "rare": [
         {
-            "name": "Sunforged Amulet",
+            "name": "Sunforged Ring",
             "effects": [
-                "As an action, you can throw the amulet up to 120' to a point you can see. When it reaches that point, it erupts in an explosion. Each creature within 20' of the point must make a DC 15 DEX save, taking 6d6 fire dmg on a failed save, or half as much otherwise. Afterwards, you can use an action to cause the amulet to reappear around your neck. You cannot cause it to explode again until you finish a short or long rest. This counts as a throwing attack.",
-                "If you have not recalled the amulet back to you 24hrs after throwing it, it reforms at the point where it exploded and you lose your attunement to it."
+                "As an action, you can throw the ring up to 120' to a point you can see. When it reaches that point, it erupts in an explosion. Each creature within 20' of the point must make a DC 15 DEX save, taking 6d6 fire dmg on a failed save, or half as much otherwise. Afterwards, you can use an action to cause the ring to reappear on your finger. You cannot cause it to explode again until you finish a short or long rest. This counts as a throwing attack.",
+                "If you have not recalled the ring back to you 24hrs after throwing it, it reforms at the point where it exploded and you lose your attunement to it."
             ]
         },
         {
@@ -112,10 +112,10 @@
             ]
         },
         {
-            "name": "Devotee's Amulet",
+            "name": "Devotee's Ring",
             "effects": [
                 "Whenever you hit with a weapon attack, the attack deals 1d8 additional radiant damage.",
-                "As a bonus action once per long rest, you can say 'Devotio'. For 1 minute afterwards, the amulet emanates a thin cloud of incense out to 10'. At the start of each of your turns, you and any other creatures in the incense each regain 1d4 hit points."
+                "As a bonus action once per long rest, you can say 'Devotio'. For 1 minute afterwards, the ring emanates a thin cloud of incense out to 10'. At the start of each of your turns, you and any other creatures in the incense each regain 1d4 hit points."
             ]
         },
         {
@@ -126,24 +126,24 @@
             ]
         },
         {
-            "name": "Amulet of Building",
+            "name": "Ring of Building",
             "effects": [
                 "You can cast Mending as an action.",
-                "You can touch the amulet as a reaction when an obj or structure you can see within 300' of you takes dmg, causing it to be imm to that dmg and any further dmg of the same type until the start of your next turn.",
-                "You can touch the amulet as an action to cast Fabricate, Move Earth, Passwall, or Summon Construct, and that spell canot be cast from the cape again until you finish a long rest."
+                "You can rub the ring as a reaction when an obj or structure you can see within 300' of you takes dmg, causing it to be imm to that dmg and any further dmg of the same type until the start of your next turn.",
+                "You can rub the ring as an action to cast Fabricate, Move Earth, Passwall, or Summon Construct, and that spell canot be cast from the cape again until you finish a long rest."
             ]
         },
         {
-            "name": "Amulet of Rulership",
+            "name": "Ring of Rulership",
             "effects": [
-                "Once per long rest, as an action, you may present the amulet and command obedience from each creature of your choice that you can see within 120'. Each target must succeed on a DC 15 WIS save or be charmed by you for 8hrs, or until it is harmed by you or your companions, or commanded to do something contrary to its nature.",
-                "While a creature is charmed by this amulet, it regards you as its trusted leader."
+                "Once per long rest, as an action, you may present the ring and command obedience from each creature of your choice that you can see within 120'. Each target must succeed on a DC 15 WIS save or be charmed by you for 8hrs, or until it is harmed by you or your companions, or commanded to do something contrary to its nature.",
+                "While a creature is charmed by this ring, it regards you as its trusted leader."
             ]
         }
     ],
     "very rare": [
         {
-            "name": "Amulet of Fire Giant Strength",
+            "name": "Ring of Fire Giant Strength",
             "effects": [
                 "Your Strength is always equal to 25."
             ]
@@ -156,7 +156,7 @@
             ]
         },
         {
-            "name": "Brass Dragon Amulet",
+            "name": "Brass Dragon Ring",
             "effects": [
                 "+1 AC.",
                 "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
@@ -234,17 +234,17 @@
             ]
         },
         {
-            "name": "Amulet of Iggwilv",
+            "name": "Ring of Iggwilv",
             "effects": [
-                "The amulet has 8 charges, of which it recovers 1d8 at the end of each long rest.",
+                "The ring has 8 charges, of which it recovers 1d8 at the end of each long rest.",
                 "As an action, you may cast Hideous Laughter (DC 20).",
-                "You may expend charges from the amulet to cast any of the following spells (all DC 20): Magic Circle (1 charge), Magic Jar (3 charges), Planar Ally (3 charges), Planar Binding (2 charges), Plane Shift (to the Infinite Rooms of the Black Cathedral only; 3 charges), or Summon Fiend (Demon only; 3 charges)",
+                "You may expend charges from the ring to cast any of the following spells (all DC 20): Magic Circle (1 charge), Magic Jar (3 charges), Planar Ally (3 charges), Planar Binding (2 charges), Plane Shift (to the Infinite Rooms of the Black Cathedral only; 3 charges), or Summon Fiend (Demon only; 3 charges)",
                 "Whenever you make an Intelligence check to discern information about demons or a Survival check related to the Black Cathedral, you can add double your prof bonus to the check.",
                 "When you make a dmg roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling.",
                 "Whenever you cast Magic Circle and only name fiends, or Planar Binding targeting a fiend, the spell is upcast to 9th lvl. Additionally, the fiend has disadvantage on its save against the spell.",
-                "As an action once per long rest, you can target a fiend you can see that is trapped within a Magic Circle. It must pass a DC 20 CHA save with disadvantage or become trapped within the amulet. You know a creature's widely-known name and its depravities while it is trapped.",
-                "Whenever you finish a long rest, the creature trapped in the amulet of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
-                "When you first find the amulet, it already contains 1d4 random demons."
+                "As an action once per long rest, you can target a fiend you can see that is trapped within a Magic Circle. It must pass a DC 20 CHA save with disadvantage or become trapped within the ring. You know a creature's widely-known name and its depravities while it is trapped.",
+                "Whenever you finish a long rest, the creature trapped in the ring of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
+                "When you first find the ring, it already contains 1d4 random demons."
             ]
         },
         {
@@ -257,9 +257,7 @@
                 "As an action, you can see into and through solid matter until you end the effects as a bonus action. This vision has a radius of 30', and can penetrate 1 foot of stone, 1 inch of common metal, and 3 feet of wood/dirt. Lead cannot be seen through.",
                 "The ring has 8 charges. 1d4 + 4 charges are recovered at the end of a long rest.",
                 "You can expend charges as an action to cast any of the following spells (DC 18): Clairvoyance (2 charges), Crown of Madness (1 charge), Disintegrate (4 charges), Dominate Monster (5 charges), or Eyebite (4 charges).",
-                "[CURSE] Whenever you cast a spell from this ring, there is a 5% chance that Vecn tears your soul from your body, devours it, and takes control of your body. You become an NPC under the DM's control.",
-                "Whenever you finish a long rest, the creature trapped in the amulet of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
-                "When you first find the amulet, it already contains 1d4 random demons."
+                "[CURSE] Whenever you cast a spell from this ring, there is a 5% chance that Vecna tears your soul from your body, devours it, and takes control of your body. You are killed and your body becomes an NPC under the DM's control."
             ]
         }
     ]

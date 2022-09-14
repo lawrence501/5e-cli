@@ -57,6 +57,7 @@ var COMMAND_MAP = map[string]func() error{
 	"empower":       empower,
 	"class":         class,
 	"tarot":         tarot,
+	"gem":           gem,
 }
 
 func main() {

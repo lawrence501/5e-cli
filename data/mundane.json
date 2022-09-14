@@ -12,22 +12,17 @@
         },
         {
             "Name": "Gauntlet",
-            "Description": "1d4 B; light; concealable; dual-wielding; flexible (S); unarmed",
-            "Tags": ["weapon"]
-        },
-        {
-            "Name": "Light Mace",
-            "Description": "1d4 B; dual-wielding; finesse; shove",
+            "Description": "1d4 B; concealable; dual-wielding; flexible (S); unarmed",
             "Tags": ["weapon"]
         },
         {
             "Name": "Longspear",
-            "Description": "1d8 P; two-handed; reach",
+            "Description": "1d10 P; two-handed; reach",
             "Tags": ["weapon"]
         },
         {
             "Name": "Mace",
-            "Description": "1d6 B; deadly; shove",
+            "Description": "1d8 B; deadly",
             "Tags": ["weapon"]
         },
         {
@@ -37,12 +32,12 @@
         },
         {
             "Name": "Sickle",
-            "Description": "1d4 S; dual-wielding; finesse; trip",
+            "Description": "1d6 S; dual-wielding; finesse",
             "Tags": ["weapon"]
         },
         {
             "Name": "Spear",
-            "Description": "1d6 P; thrown (30'/80')",
+            "Description": "1d6 P; thrown (40'/120')",
             "Tags": ["weapon"]
         },
         {
@@ -57,17 +52,12 @@
         },
         {
             "Name": "Crossbow",
-            "Description": "1d8 P; 120'/400' range; 2h; loading",
+            "Description": "1d10 P; 120'/400' range; 2h; loading",
             "Tags": ["weapon"]
         },
         {
             "Name": "Hand Crossbow",
-            "Description": "1d8 P; 30'/80' range; loading",
-            "Tags": ["weapon"]
-        },
-        {
-            "Name": "Heavy Crossbow",
-            "Description": "1d10 P; 120'/400' range; 2h; heavy; loading",
+            "Description": "1d10 P; 30'/80' range; loading",
             "Tags": ["weapon"]
         },
         {
@@ -82,12 +72,12 @@
         },
         {
             "Name": "Bastard Sword",
-            "Description": "1d10 S; 2h; grapple; responsive",
+            "Description": "1d12 S; 2h; responsive",
             "Tags": ["weapon"]
         },
         {
             "Name": "Battle Axe",
-            "Description": "1d8 S; disarm; sweep",
+            "Description": "1d10 S; sweep",
             "Tags": ["weapon"]
         },
         {
@@ -97,7 +87,7 @@
         },
         {
             "Name": "Bo Staff",
-            "Description": "1d4 B; 2h; parrying; reach; trip",
+            "Description": "1d8 B; 2h; parrying; reach",
             "Tags": ["weapon"]
         },
         {
@@ -107,7 +97,7 @@
         },
         {
             "Name": "Flail",
-            "Description": "1d6 B; disarm; responsive; sweep; trip",
+            "Description": "1d8 B; responsive; sweep",
             "Tags": ["weapon"]
         },
         {
@@ -122,7 +112,7 @@
         },
         {
             "Name": "Greatclub",
-            "Description": "1d10 B; 2h; deadly; heavy; rapid; shove",
+            "Description": "1d10 B; 2h; deadly; heavy; rapid",
             "Tags": ["weapon"]
         },
         {
@@ -137,7 +127,7 @@
         },
         {
             "Name": "Guisarme",
-            "Description": "1d10 S; 2h; reach; trip",
+            "Description": "1d12 S; 2h; reach",
             "Tags": ["weapon"]
         },
         {
@@ -146,8 +136,8 @@
             "Tags": ["weapon"]
         },
         {
-            "Name": "Hatchet",
-            "Description": "1d6 S; disarm; dual-wielding; sweep; thrown (20'/60')",
+            "Name": "Handaxe",
+            "Description": "1d8 S; dual-wielding; sweep",
             "Tags": ["weapon"]
         },
         {
@@ -177,32 +167,27 @@
         },
         {
             "Name": "Maul",
-            "Description": "1d12 B; 2h; heavy; shove",
+            "Description": "3d4 B; 2h; heavy",
             "Tags": ["weapon"]
         },
         {
             "Name": "Nunchaku",
-            "Description": "1d4 B; 2h; compound; finesse",
+            "Description": "1d6 B; 2h; compound; finesse",
             "Tags": ["weapon"]
         },
         {
             "Name": "Pick",
-            "Description": "1d6 P; deadly; fatal (d10)",
-            "Tags": ["weapon"]
-        },
-        {
-            "Name": "Ranseur",
-            "Description": "1d10 P; 2h; disarm; reach",
+            "Description": "1d6 P; deadly; fatal (d8)",
             "Tags": ["weapon"]
         },
         {
             "Name": "Rapier",
-            "Description": "1d6 P; disarm; fatal (d8); finesse",
+            "Description": "1d8 P; deadly; finesse",
             "Tags": ["weapon"]
         },
         {
             "Name": "Ring Blade",
-            "Description": "1d8 S; 2h; disarm; finesse; sweep",
+            "Description": "1d10 S; 2h; finesse; sweep",
             "Tags": ["weapon"]
         },
         {
@@ -217,7 +202,7 @@
         },
         {
             "Name": "Scythe",
-            "Description": "1d10 S; 2h; deadly; trip",
+            "Description": "1d12 S; 2h; deadly",
             "Tags": ["weapon"]
         },
         {
@@ -232,32 +217,27 @@
         },
         {
             "Name": "Starknife",
-            "Description": "1d4 P; dual-wielding; fatal (d6); finesse; thrown (20'/60')",
+            "Description": "1d4 P; deadly; dual-wielding; finesse; thrown (20'/60')",
             "Tags": ["weapon"]
         },
         {
             "Name": "Tower Shield",
-            "Description": "1d8 B; 2h; heavy; shove; targe (2)",
+            "Description": "1d10 B; 2h; heavy; targe (2)",
             "Tags": ["weapon"]
         },
         {
             "Name": "Trident",
-            "Description": "1d8 P; thrown (30'/80')",
-            "Tags": ["weapon"]
-        },
-        {
-            "Name": "War Flail",
-            "Description": "1d10 B; 2h; disarm; heavy; sweep; trip",
+            "Description": "1d8 P; thrown (40'/120')",
             "Tags": ["weapon"]
         },
         {
             "Name": "Warhammer",
-            "Description": "1d8 B; deadly; shove",
+            "Description": "1d10 B; deadly",
             "Tags": ["weapon"]
         },
         {
             "Name": "Whip",
-            "Description": "1d4 S; disarm; finesse; non-lethal; reach; trip",
+            "Description": "1d8 S; finesse; non-lethal; reach",
             "Tags": ["weapon"]
         },
         {
@@ -267,7 +247,7 @@
         },
         {
             "Name": "Shortbow",
-            "Description": "1d6 P; 80'/320' range; 2h; fatal (d10)",
+            "Description": "1d6 P; 60'/320' range; 2h; fatal (d10)",
             "Tags": ["weapon"]
         }
     ],
@@ -290,11 +270,6 @@
         {
             "Name": "Boots",
             "Description": "Boots slot",
-            "Tags": ["armour"]
-        },
-        {
-            "Name": "Body Armour",
-            "Description": "Choice of Clothes, Studded Leather, Half Plate, or Plate",
             "Tags": ["armour"]
         }
     ]

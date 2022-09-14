@@ -355,3 +355,11 @@ var TAROT_CARDS []string = []string{
 	"swords",
 	"pentacles",
 }
+
+var EQUIP_SLOT []string = []string{
+	"onhand",
+	"offhand",
+	"helmet",
+	"gloves",
+	"boots",
+}

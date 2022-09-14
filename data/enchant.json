@@ -90,12 +90,6 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 to non-spell DCs",
-        "pointValue": "4",
-        "upgrade": "1/4",
-        "tags": ["weapon"]
-    },
-    {
         "description": "+1 exp gain",
         "pointValue": "4",
         "upgrade": "1/4",
@@ -150,9 +144,9 @@
         "tags": []
     },
     {
-        "description": "+1 min loot roll",
-        "pointValue": "3",
-        "upgrade": "1/3",
+        "description": "+2 min loot roll",
+        "pointValue": "1",
+        "upgrade": "1/1",
         "tags": []
     },
     {
@@ -342,10 +336,10 @@
         "tags": []
     },
     {
-        "description": "+1 tier to blessings you receive",
-        "pointValue": "3",
-        "upgrade": "1/3",
-        "tags": []
+        "description": "+1 dmg with upgraded powers",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["weapon"]
     },
     {
         "description": "+1 to history for recalling info you didn't personally experience",
@@ -595,8 +589,8 @@
     },
     {
         "description": "+1 wep crit dice",
-        "pointValue": "3",
-        "upgrade": "1/3",
+        "pointValue": "2",
+        "upgrade": "1/2",
         "tags": ["weapon"]
     },
     {
@@ -1291,8 +1285,8 @@
     },
     {
         "description": "+1 $rangeType crit dice",
-        "pointValue": "3",
-        "upgrade": "1/3",
+        "pointValue": "2",
+        "upgrade": "1/2",
         "tags": ["weapon"]
     },
     {
@@ -1440,12 +1434,6 @@
         "tags": ["armour"]
     },
     {
-        "description": "+1 dmg with rare powers",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": ["weapon"]
-    },
-    {
         "description": "+1 environmental dmg res",
         "pointValue": "1",
         "upgrade": "+1/1",
@@ -1510,5 +1498,29 @@
         "pointValue": "4",
         "upgrade": "-1/2",
         "tags": ["weapon"]
+    },
+    {
+        "description": "+1 use with consumable wondrous items",
+        "pointValue": "3",
+        "upgrade": "+1/3",
+        "tags": []
+    },
+    {
+        "description": "+1 dmg with powers from rings",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 wep dmg per ally bonus on your amulet",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 dmg res per ally bonus on your amulet",
+        "pointValue": "4",
+        "upgrade": "+1/4",
+        "tags": ["armour"]
     }
 ]

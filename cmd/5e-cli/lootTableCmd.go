@@ -159,7 +159,7 @@ var doubleEnchant = func() error {
 		return err
 	}
 
-	log.Printf("2E magic item\nBase: %s (%s)\n- %s [%spts; %s]\n- %s [%spts; %s]", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade, enchants[1].Description, enchants[1].PointValue, enchants[1].Upgrade)
+	log.Printf("2E magic item\nBase: %s (%s)\n- %s [%spts; %s] [MIN 2PTS]\n- %s [%spts; %s] [MIN 2PTS]", base.Name, base.Description, enchants[0].Description, enchants[0].PointValue, enchants[0].Upgrade, enchants[1].Description, enchants[1].PointValue, enchants[1].Upgrade)
 	return nil
 }
 
@@ -193,23 +193,6 @@ var amulet = func() error {
 	set := sets[rand.Intn(len(sets))]
 	chosen := set.Amulets[rand.Intn(len(set.Amulets))]
 	log.Printf("Amulet\nHeart of %s (%s): %s", chosen.Name, set.Name, chosen.Effect)
-	return nil
-}
-
-var blessing = func() error {
-	blessings, err := fetchBlessings()
-	if err != nil {
-		return err
-	}
-
-	chosen := blessings[rand.Intn(len(blessings))]
-	chosen = processMod(chosen)
-	log.Printf("Blessing\n%s", chosen)
-	return nil
-}
-
-var gem = func() error {
-	log.Printf("Soul gem\n%s", GEM_TAGS[rand.Intn(len(GEM_TAGS))])
 	return nil
 }
 

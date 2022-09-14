@@ -1,519 +1,519 @@
 [
     {
-        "effect": "on {weaponClass} atk, +1 wep dmg until you end a turn having not made such an atk",
+        "description": "on {weaponClass} atk, +1 wep dmg until you end a turn having not made such an atk",
         "upgrade": "+1/2",
         "tags": ["weapon class", "wep dmg"]
     },
     {
-        "effect": "+1 global dmg while holding a {weaponClass} wep",
+        "description": "+1 global dmg while holding a {weaponClass} wep",
         "upgrade": "+1/2",
         "tags": ["wep dmg", "spell dmg", "weapon class"]
     },
     {
-        "effect": "+1 {weaponClass} dmg",
+        "description": "+1 {weaponClass} dmg",
         "upgrade": "+1/1",
         "tags": ["weapon class"]
     },
     {
-        "effect": "on {weaponClass} hit, heal 1 HP",
+        "description": "on {weaponClass} hit, heal 1 HP",
         "upgrade": "+1/2",
         "tags": ["weapon class", "hp"]
     },
     {
-        "effect": "+1 {abilityScore}",
+        "description": "+1 {abilityScore}",
         "upgrade": "+1/4",
         "tags": ["ability score"]
     },
     {
-        "effect": "on boss hit, target gets -1 to $abilityScore saves for combat",
+        "description": "on boss hit, target gets -1 to $abilityScore saves for combat",
         "upgrade": "-1/4",
         "tags": ["debuff"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your {weaponClass} hits",
+        "description": "+1d4 {dmgType} dmg to your {weaponClass} hits",
         "upgrade": "+1/1",
         "tags": ["type dmg", "weapon class"]
     },
     {
-        "effect": "-1 crit req",
+        "description": "-1 crit req",
         "upgrade": "-1/4",
         "tags": ["crit"],
         "meta": "rogue - marksman - assassin's quiver"
     },
     {
-        "effect": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1d4 {dmgType} dmg to your next {weaponClass} hit",
+        "description": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1d4 {dmgType} dmg to your next {weaponClass} hit",
         "upgrade": "+1/1",
         "tags": ["weapon class", "speed", "type dmg"]
     },
     {
-        "effect": "+1 proj dmg",
+        "description": "+1 proj dmg",
         "upgrade": "+1/1",
         "tags": ["proj"]
     },
     {
-        "effect": "on hit, 20% chance to give target -2 phys res until end of your next turn",
+        "description": "on hit, 20% chance to give target -2 phys res until end of your next turn",
         "upgrade": "+10%/1 OR -1/1",
         "tags": ["phys dmg"]
     },
     {
-        "effect": "if you haven't been hit by an adj creature since your last turn, +1 global dmg",
+        "description": "if you haven't been hit by an adj creature since your last turn, +1 global dmg",
         "upgrade": "+1/2",
         "tags": ["wep dmg", "spell dmg"],
         "meta": "rogue - marksman - concentration"
     },
     {
-        "effect": "while holding a {weaponClass} wep, +1 non-phys dmg",
+        "description": "while holding a {weaponClass} wep, +1 non-phys dmg",
         "upgrade": "+1/2",
         "tags": ["weapon class", "non-phys dmg"]
     },
     {
-        "effect": "while holding a {weaponClass} wep, +5' sp",
+        "description": "while holding a {weaponClass} wep, +5' sp",
         "upgrade": "+5'/2",
         "tags": ["weapon class", "speed"]
     },
     {
-        "effect": "+1 DoT res",
+        "description": "+1 DoT res",
         "upgrade": "+1/1",
         "tags": ["hp"]
     },
     {
-        "effect": "while holding a {weaponClass} wep, +1 DoT dmg",
+        "description": "while holding a {weaponClass} wep, +1 DoT dmg",
         "upgrade": "+1/1",
         "tags": ["weapon class", "dot"]
     },
     {
-        "effect": "on hit, 20% chance to debuff target until end of your next turn with 25% chance when hit to make the hit a crit",
+        "description": "on hit, 20% chance to debuff target until end of your next turn with 25% chance when hit to make the hit a crit",
         "upgrade": "+10%/1 OR +25%/1",
         "tags": ["crit"],
         "meta": "rogue - marksman - wound maker"
     },
     {
-        "effect": "+1 {dmgType} dmg with {weaponClass} hits",
+        "description": "+1 {dmgType} dmg with {weaponClass} hits",
         "upgrade": "+1/1",
         "tags": ["weapon class", "type dmg"]
     },
     {
-        "effect": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1 non-phys res until your next {weaponClass} hit",
+        "description": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1 non-phys res until your next {weaponClass} hit",
         "upgrade": "+1/1",
         "tags": ["non-phys res", "weapon class", "speed"]
     },
     {
-        "effect": "+1 to {abilityScore} saves",
+        "description": "+1 to {abilityScore} saves",
         "upgrade": "+1/1->3",
         "tags": ["save"]
     },
     {
-        "effect": "+1 AC vs adj creatures",
+        "description": "+1 AC vs adj creatures",
         "upgrade": "+1/4",
         "tags": ["ac"],
         "meta": "rogue - marksman - meditation"
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your {weaponClass} hits",
+        "description": "+1d4 {dmgType} dmg to your {weaponClass} hits",
         "upgrade": "+1/1",
         "tags": ["weapon class", "type dmg"]
     },
     {
-        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to mark with -3 {dmgType} res until end of your next turn",
+        "description": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to mark with -3 {dmgType} res until end of your next turn",
         "upgrade": "+10%/1 OR -1 res/1",
         "tags": ["weapon class", "type dmg"]
     },
     {
-        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give -1 to debuff saves until end of your next turn",
+        "description": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give -1 to debuff saves until end of your next turn",
         "upgrade": "+10%/1 OR -1 save/4",
         "tags": ["weapon class", "debuff"]
     },
     {
-        "effect": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give target 3 {dmgType} DoT, stacking until DEX save",
+        "description": "if dmg from added dice is 7+ on {weaponClass} hit, 20% chance to give target 3 {dmgType} DoT, stacking until DEX save",
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["weapon class", "type dmg", "dot"]
     },
     {
-        "effect": "if you haven't been hit by an adj creature since your last turn, +1 to {abilityScore} saves",
+        "description": "if you haven't been hit by an adj creature since your last turn, +1 to {abilityScore} saves",
         "upgrade": "+1/3",
         "tags": ["save"]
     },
     {
-        "effect": "if you haven't been hit by an adj creature since your last turn, +5' sp",
+        "description": "if you haven't been hit by an adj creature since your last turn, +5' sp",
         "upgrade": "+5'/2",
         "tags": ["speed"]
     },
     {
-        "effect": "when crit, 60% chance to nullify extra dmg",
+        "description": "when crit, 60% chance to nullify extra dmg",
         "upgrade": "+40%/1",
         "tags": ["hp"]
     },
     {
-        "effect": "+1 {weaponClass} crit dice",
+        "description": "+1 {weaponClass} crit dice",
         "upgrade": "+1/3",
         "tags": ["weapon class", "crit"],
         "meta": "marksman - heightened senses"
     },
     {
-        "effect": "your phys-base {weaponClass} hits cannot benefit from any non-phys dmg, but grant your next {weaponClass} hit +1d8 {dmg type} dmg",
+        "description": "your phys-base {weaponClass} hits cannot benefit from any non-phys dmg, but grant your next {weaponClass} hit +1d8 {dmg type} dmg",
         "upgrade": "+2/1",
         "tags": ["weapon class", "phys dmg", "type dmg"]
     },
     {
-        "effect": "+3 dmg to {weaponClass} hits with added dmg dice",
+        "description": "+3 dmg to {weaponClass} hits with added dmg dice",
         "upgrade": "+2/1",
         "tags": ["weapon class"]
     },
     {
-        "effect": "+1 {dmgType} dmg",
+        "description": "+1 {dmgType} dmg",
         "upgrade": "+1/1",
         "tags": ["type dmg"]
     },
     {
-        "effect": " on {weaponClass} hit, 20% chance to give target 2 {dmgType} DoT, stacking until CON save",
+        "description": " on {weaponClass} hit, 20% chance to give target 2 {dmgType} DoT, stacking until CON save",
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["weapon class", "type dmg", "dot"]
     },
     {
-        "effect": "the first time you atk each combat with a {weaponClass} wep, gain +4 {weaponClass} dmg until end of your turn",
+        "description": "the first time you atk each combat with a {weaponClass} wep, gain +4 {weaponClass} dmg until end of your turn",
         "upgrade": "+4/1",
         "tags": ["weapon class"]
     },
     {
-        "effect": "+3 max HP",
+        "description": "+3 max HP",
         "upgrade": "+2/1",
         "tags": ["hp"]
     },
     {
-        "effect": "on {weaponClass} hit, heal 1 HP",
+        "description": "on {weaponClass} hit, heal 1 HP",
         "upgrade": "+1/2",
         "tags": ["weapon class", "hp"],
         "meta": "marksman - thief's quiver"
     },
     {
-        "effect": "on {weaponClass} hit, 20% chance to give target 2 {dmgType} DoT, stacking until CON save",
+        "description": "on {weaponClass} hit, 20% chance to give target 2 {dmgType} DoT, stacking until CON save",
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["weapon class", "type dmg", "dot"]
     },
     {
-        "effect": "ignore {dmgType} res",
+        "description": "ignore {dmgType} res",
         "upgrade": "+1 {dmgType} dmg/1",
         "tags": ["type dmg"]
     },
     {
-        "effect": "-1 dmg res vs adj creatures, and +1d4 {dmgType} dmg to your {weaponClass} hits",
+        "description": "-1 dmg res vs adj creatures, and +1d4 {dmgType} dmg to your {weaponClass} hits",
         "upgrade": "-1 res and +2 size/1 OR +1 size/1",
         "tags": ["type dmg", "weapon class"]
     },
     {
-        "effect": "the first time you atk each combat with a {weaponClass} wep, gain +2 to your next {abilityScore} save this combat",
+        "description": "the first time you atk each combat with a {weaponClass} wep, gain +2 to your next {abilityScore} save this combat",
         "upgrade": "+1 (or 2 for non-DEX/CON/WIS)/1",
         "tags": ["weapon class", "save"]
     },
     {
-        "effect": "on succ {abilityScore} save, gain 5 temp HP",
+        "description": "on succ {abilityScore} save, gain 5 temp HP",
         "upgrade": "+5/1",
         "tags": ["save", "temp hp"]
     },
     {
-        "effect": "on hit vs target 30+' away from you, 20% chance to gain +2 {weaponClass} dmg for combat",
+        "description": "on hit vs target 30+' away from you, 20% chance to gain +2 {weaponClass} dmg for combat",
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["weapon class"],
         "meta": "marksman - sharpshooter"
     },
     {
-        "effect": "+2 {weaponClass} dmg with limited features",
+        "description": "+2 {weaponClass} dmg with limited features",
         "upgrade": "+1/1",
         "tags": ["weapon class"]
     },
     {
-        "effect": "if you've made a {weaponClass} atk since start of your last turn, -1 crit req",
+        "description": "if you've made a {weaponClass} atk since start of your last turn, -1 crit req",
         "upgrade": "-1/4",
         "tags": ["weapon class", "crit"]
     },
     {
-        "effect": "the first time you atk each combat with a {weaponClass} wep, 20% chance for {weaponClass} weps to rain from the sky around the target - make a glyphic {weaponClass} atk against all foes within 5' of the target, including them, dealing 1d4 base type on hit",
+        "description": "the first time you atk each combat with a {weaponClass} wep, 20% chance for {weaponClass} weps to rain from the sky around the target - make a glyphic {weaponClass} atk against all foes within 5' of the target, including them, dealing 1d4 base type on hit",
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["weapon class"]
     },
     {
-        "effect": "on hit vs target 30+' away from you, 20% chance to gain '+10% chance on hit to debil until end of target's next turn', for combat",
+        "description": "on hit vs target 30+' away from you, 20% chance to gain '+10% chance on hit to debil until end of target's next turn', for combat",
         "upgrade": "+10% proc/1 OR +10% buff/1",
         "tags": ["debuff"]
     },
     {
-        "effect": "on hit vs target 30+' away from you, 20% chance to gain '+10% chance on hit to give -2 phys res until end of your next turn', for combat",
+        "description": "on hit vs target 30+' away from you, 20% chance to gain '+10% chance on hit to give -2 phys res until end of your next turn', for combat",
         "upgrade": "+10% proc/1 OR +10% buff/1 OR -1 res/1",
         "tags": ["phys dmg"],
         "meta": "marksman - death from afar"
     },
     {
-        "effect": "your proj hits splash 2 dmg",
+        "description": "your proj hits splash 2 dmg",
         "upgrade": "+1/1",
         "tags": ["proj"]
     },
     {
-        "effect": "your AoEs that trigger off of hits have +5' size",
+        "description": "your AoEs that trigger off of hits have +5' size",
         "upgrade": "+5'/3",
         "tags": ["aoe"]
     },
     {
-        "effect": "your pers areas have +5' AoE sizes",
+        "description": "your pers areas have +5' AoE sizes",
         "upgrade": "+5'/3",
         "tags": ["pers area"]
     },
     {
-        "effect": "if you've made a {weaponClass} atk since start of your last turn, +1 crit dice",
+        "description": "if you've made a {weaponClass} atk since start of your last turn, +1 crit dice",
         "upgrade": "+1/3",
         "tags": ["weapon class", "crit"]
     },
     {
-        "effect": "on {weaponClass} atk, '+1 HP healed on crit' until you end a turn having not made such an atk",
+        "description": "on {weaponClass} atk, '+1 HP healed on crit' until you end a turn having not made such an atk",
         "upgrade": "+1/1",
         "tags": ["weapon class", "hp", "crit"],
         "meta": "marskman - COMPLETE"
     },
     {
-        "effect": "+1 {abilityScore}",
+        "description": "+1 {abilityScore}",
         "upgrade": "+1/4",
         "tags": ["ability score"]
     },
     {
-        "effect": "while you have an active minion, +1 non-phys res",
+        "description": "while you have an active minion, +1 non-phys res",
         "upgrade": "+1/1",
         "tags": ["minion off", "minion def", "non-phys res"]
     },
     {
-        "effect": "+1 {abilityScore}",
+        "description": "+1 {abilityScore}",
         "upgrade": "+1/4",
         "tags": ["ability score"]
     },
     {
-        "effect": "you ignore {dmgType} res",
+        "description": "you ignore {dmgType} res",
         "upgrade": "+1 {dmgType} dmg/1",
         "tags": ["type dmg"]
     },
     {
-        "effect": "your minions ignore {dmgType} res",
+        "description": "your minions ignore {dmgType} res",
         "upgrade": "+2->1 minion {dmgType} dmg/1",
         "tags": ["minion off"]
     },
     {
-        "effect": "+1 global dmg",
+        "description": "+1 global dmg",
         "upgrade": "+1/2",
         "tags": ["wep dmg", "spell dmg"]
     },
     {
-        "effect": "on hit, 20% chance to debil target until end of their next turn",
+        "description": "on hit, 20% chance to debil target until end of their next turn",
         "upgrade": "+10%/1",
         "tags": ["debuff"]
     },
     {
-        "effect": "+2 minion dmg",
+        "description": "+2 minion dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
     {
-        "effect": "on minion hit, 20% chance to debil target until end of their next turn",
+        "description": "on minion hit, 20% chance to debil target until end of their next turn",
         "upgrade": "+10%/1",
         "tags": ["debuff", "minion off"]
     },
     {
-        "effect": "while you have an active minion, +1 phys res",
+        "description": "while you have an active minion, +1 phys res",
         "upgrade": "+1/1",
         "tags": ["minion off", "minion def", "phys res"],
         "meta": "shaman - silent protector"
     },
     {
-        "effect": "+3 max HP",
+        "description": "+3 max HP",
         "upgrade": "+2/1",
         "tags": ["hp"]
     },
     {
-        "effect": "on hit, 20% chance to give -3 {dmgType} res until end of your next turn",
+        "description": "on hit, 20% chance to give -3 {dmgType} res until end of your next turn",
         "upgrade": "+10%/1 OR -2 res/1",
         "tags": ["type dmg"]
     },
     {
-        "effect": "on hit, 20% chance to give -1 to debuff saves until end of your next turn",
+        "description": "on hit, 20% chance to give -1 to debuff saves until end of your next turn",
         "upgrade": "+10%/1 OR -1 saves/2",
         "tags": ["debuff"]
     },
     {
-        "effect": "on hit, 20% chance to give sluggish until end of your next turn",
+        "description": "on hit, 20% chance to give sluggish until end of your next turn",
         "upgrade": "+10%/1",
         "tags": ["debuff"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your melee hits",
+        "description": "+1d4 {dmgType} dmg to your melee hits",
         "upgrade": "+1/1",
         "tags": ["type dmg", "melee"]
     },
     {
-        "effect": "when hit, 20% chance for energy to strike the foe nearest to you from above, a spell atk dealing 1d4 {dmgType} dmg",
+        "description": "when hit, 20% chance for energy to strike the foe nearest to you from above, a spell atk dealing 1d4 {dmgType} dmg",
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["type dmg", "spell dmg"]
     },
     {
-        "effect": "while you have an active minion, +2 wep dmg",
+        "description": "while you have an active minion, +2 wep dmg",
         "upgrade": "+1/1",
         "tags": ["minion off", "minion def", "wep dmg"]
     },
     {
-        "effect": "while you have an active minion, +2 spell dmg",
+        "description": "while you have an active minion, +2 spell dmg",
         "upgrade": "+1/1",
         "tags": ["minion off", "minion def", "spell dmg"],
         "meta": "shaman - totemic fury"
     },
     {
-        "effect": "+1 {dmgType} dmg",
+        "description": "+1 {dmgType} dmg",
         "upgrade": "+1/1",
         "tags": ["type dmg"]
     },
     {
-        "effect": "+1 to {abilityScore} saves",
+        "description": "+1 to {abilityScore} saves",
         "upgrade": "+1/1->3",
         "tags": ["save"]
     },
     {
-        "effect": "+2 {dmgType} res",
+        "description": "+2 {dmgType} res",
         "upgrade": "+1/1",
         "tags": ["type res"]
     },
     {
-        "effect": "+2 minion {dmgType} dmg",
+        "description": "+2 minion {dmgType} dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
     {
-        "effect": "+3 minion {dmgType} res",
+        "description": "+3 minion {dmgType} res",
         "upgrade": "+2/1",
         "tags": ["minion def"]
     },
     {
-        "effect": "+1 {abilityScore}",
+        "description": "+1 {abilityScore}",
         "upgrade": "+1/4",
         "tags": ["ability score"]
     },
     {
-        "effect": "+1 to debuff saves",
+        "description": "+1 to debuff saves",
         "upgrade": "+1/4",
         "tags": ["save"]
     },
     {
-        "effect": "on hit, 20% chance to debil target until end of their next turn",
+        "description": "on hit, 20% chance to debil target until end of their next turn",
         "upgrade": "+10%/1",
         "tags": ["debuff"]
     },
     {
-        "effect": "+2 minion dmg",
+        "description": "+2 minion dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"],
         "meta": "shaman - fate carver"
     },
     {
-        "effect": "on hit, 20% chance to make target sluggish until end of your next turn",
+        "description": "on hit, 20% chance to make target sluggish until end of your next turn",
         "upgrade": "+10%/1",
         "tags": ["debuff"]
     },
     {
-        "effect": "+1 to debuff DCs",
+        "description": "+1 to debuff DCs",
         "upgrade": "+1/4",
         "tags": ["debuff"]
     },
     {
-        "effect": "+2 {dmgType} res",
+        "description": "+2 {dmgType} res",
         "upgrade": "+1/1",
         "tags": ["type res"]
     },
     {
-        "effect": "+2 minion spell dmg",
+        "description": "+2 minion spell dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
     {
-        "effect": "on summoning a minion, 20% chance to gain +15' sp until end of the turn",
+        "description": "on summoning a minion, 20% chance to gain +15' sp until end of the turn",
         "upgrade": "+10%/1 OR +10'/1",
         "tags": ["minion off", "minion def", "speed"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your wep hits",
+        "description": "+1d4 {dmgType} dmg to your wep hits",
         "upgrade": "+1/1",
         "tags": ["type dmg", "wep dmg"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your spell hits",
+        "description": "+1d4 {dmgType} dmg to your spell hits",
         "upgrade": "+1/1",
         "tags": ["type dmg", "spell dmg"]
     },
     {
-        "effect": "+1 {abilityScore}",
+        "description": "+1 {abilityScore}",
         "upgrade": "+1/4",
         "tags": ["ability score"]
     },
     {
-        "effect": "your first melee hit each turn deals +1d4 {dmgType} dmg",
+        "description": "your first melee hit each turn deals +1d4 {dmgType} dmg",
         "upgrade": "+1/1",
         "tags": ["melee", "type dmg"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your spell hits",
+        "description": "+1d4 {dmgType} dmg to your spell hits",
         "upgrade": "+1/1",
         "tags": ["type dmg", "spell dmg"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your minion spell hits",
+        "description": "+1d4 {dmgType} dmg to your minion spell hits",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
     {
-        "effect": "on hit, 20% chance to debil target until end of their next turn",
+        "description": "on hit, 20% chance to debil target until end of their next turn",
         "upgrade": "+10%/1",
         "tags": ["debuff"]
     },
     {
-        "effect": "on minion hit, 20% chance to debil target until end of their next turn",
+        "description": "on minion hit, 20% chance to debil target until end of their next turn",
         "upgrade": "+10%/1",
         "tags": ["minion def"]
     },
     {
-        "effect": "+2 minion {dmgType} dmg",
+        "description": "+2 minion {dmgType} dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
     {
-        "effect": "+1 to debuff DCs",
+        "description": "+1 to debuff DCs",
         "upgrade": "+1/4",
         "tags": ["debuff"]
     },
     {
-        "effect": "+1 to minion debuff DCs",
+        "description": "+1 to minion debuff DCs",
         "upgrade": "+1/3",
         "tags": ["minion off", "minion def"]
     },
     {
-        "effect": "+3 {dmgType} res while you have an active minion",
+        "description": "+3 {dmgType} res while you have an active minion",
         "upgrade": "+2/1",
         "tags": ["type res", "minion off", "minion def"]
     },
     {
-        "effect": "+1 non-phys res while you have an active minion",
+        "description": "+1 non-phys res while you have an active minion",
         "upgrade": "+1/1",
         "tags": ["non-phys res", "minion off", "minion def"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your spell hits",
+        "description": "+1d4 {dmgType} dmg to your spell hits",
         "upgrade": "+1/1",
         "tags": ["type dmg", "spell dmg"]
     },
     {
-        "effect": "+1d4 {dmgType} dmg to your minion spell hits",
+        "description": "+1d4 {dmgType} dmg to your minion spell hits",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
     {
-        "effect": "+1 non-phys melee dmg",
+        "description": "+1 non-phys melee dmg",
         "upgrade": "+1/1",
         "tags": ["non-phys dmg", "melee"],
         "meta": "Shaman - Dervish"
     },
     {
-        "effect": "",
+        "description": "",
         "upgrade": "+1/1",
         "tags": []
     }

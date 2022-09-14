@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"log"
 	"math/rand"
 	"reflect"
@@ -8,6 +9,7 @@ import (
 	"strconv"
 
 	"github.com/manifoldco/promptui"
+	"golang.org/x/exp/slices"
 )
 
 var colour = func() error {
@@ -206,6 +208,32 @@ var insight = func() error {
 		log.Printf("%s %s (or %s with reroll)", p, results[0], results[1])
 	}
 	return nil
+}
+
+var gem = func() error {
+	tagP := promptui.Prompt{
+		Label:    "Soul gem tag",
+		Validate: validateGem,
+	}
+	tag, err := tagP.Run()
+	if err != nil {
+		return err
+	}
+
+	gems, err := fetchGenericEnchants("gem")
+	if err != nil {
+		return err
+	}
+
+	var chosen Enchant
+	for true {
+		chosen = gems[rand.Intn(len(gems))]
+		if slices.Contains(chosen.Tags, tag) {
+			log.Printf("Gem affix: %s", chosen.Description)
+			return nil
+		}
+	}
+	return errors.New("No valid gem affix found for tag " + tag)
 }
 
 var npc = func() error {

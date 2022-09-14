@@ -91,6 +91,25 @@ func getEnchants(num int, tags []string) ([]Enchant, error) {
 	return enchants, nil
 }
 
+func fetchGenericEnchants(fileName string) ([]Enchant, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Enchant{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
+	if err != nil {
+		return []Enchant{}, err
+	}
+
+	enchants := []Enchant{}
+	err = json.Unmarshal([]byte(f), &enchants)
+	if err != nil {
+		return []Enchant{}, err
+	}
+	return enchants, nil
+}
+
 func getMundane(t string) (Mundane, error) {
 	mundanes, err := fetchMundanes(t)
 	if err != nil {
@@ -121,25 +140,6 @@ func fetchTomes() ([]Tome, error) {
 		return []Tome{}, err
 	}
 	return tomes, nil
-}
-
-func fetchBlessings() ([]string, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []string{}, err
-	}
-
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "blessing.json"))
-	if err != nil {
-		return []string{}, err
-	}
-
-	blessings := []string{}
-	err = json.Unmarshal([]byte(f), &blessings)
-	if err != nil {
-		return []string{}, err
-	}
-	return blessings, nil
 }
 
 func fetchMundanes(t string) ([]Mundane, error) {
