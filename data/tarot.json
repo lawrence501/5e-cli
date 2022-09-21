@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Ideas",
+        "description": "random ammy set bonus (lovers), negative and boost base (wheel of fortune), transform into different type of item (not equipment) (death), spell cast 1/LR (?)"
+    },
+    {
+        "name": "The Fool",
+        "description": "The item has no base modifier, but is Levellable."
+    },
+    {
+        "name": "The Magician",
+        "description": "The item has 1 additional modifier that grants a 1/LR free casting of a random spell of level up to your hypothetical highest."
+    },
+    {
+        "name": "The High Priestess",
+        "description": "The item has 1 additional modifier that is randomly chosen from a random glyph path."
+    },
+    {
+        "name": "The Empress",
+        "description": "The item has 1 additional modifier that is randomly chosen from a random relic."
+    },
+    {
+        "name": "The Emperor",
+        "description": "The item has 1 additional modifier that is a randomly chosen passive from a random monster of CR up to your level."
+    },
+    {
+        "name": "The Hierophant",
+        "description": "The item has 1 additional modifier of a chosen Affinity."
+    }
+]

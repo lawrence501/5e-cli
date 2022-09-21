@@ -655,7 +655,7 @@
             "description": "This elegant pianoforte has been painted white, with gold filigree adorning its lid and the tops of its keys. Originally commissioned by a noble with particularly musically-incompetent children. It allows you to add an expertise die to Performance attempts to play it, and this die increases by one step if you have proficiency in Performance. If you succeed at a DC 17 Performance check while playing this instrument, you may choose up to 6 creatures within 30' that can hear the pianoforte. For the next hour, these creatures have a d8 Bardic Inspiration die which can be spent on any 1 attack roll, ability check, or saving throw."
         },
         {
-            "name": "Scale Milk",
+            "name": "Scale Milk [LAST - GPG7]",
             "description": "Contained in a small, clear bottle, the cap to this item is carefully sealed with thick wax. The grey tinge to the milky liquid and the aroma of putrid fruit once it is opened are off-putting, but if it has not spoiled Scale Milk is a powerful restorative. If consumed within 1hr of breaking the wax seal, you receive the benefits of both the Greater Restoration and Heal spells. If you consume this potion after the first hour, make a DC 18 CON save. On a failure you take 6d8 psn dmg and are poisoned for the next hr. On a success you take half damage and are poisoned until the end of your next turn."
         }
     ],

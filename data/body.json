@@ -9,7 +9,7 @@
             "variables": []
         },
         {
-            "name": "Forceful Wrap",
+            "name": "Gravity Wrap",
             "source": "wizard - graviturgy",
             "mods": [
                 "As an action, you can alter the weight of an object or creature you can see within 30' of you. The target must be Large or smaller. Its weight it halved or doubled for up to 1 minute, or until your concentration on this power ends.",
@@ -20,7 +20,7 @@
         },
         {
             "name": "Ascendant Garb",
-            "source": "monk - ascendant dragon",
+            "source": "adept - ascendant dragon",
             "mods": [],
             "variables": [
                 {
@@ -33,14 +33,14 @@
                 {
                     "mods": [
                         "Whenever you take the Attack action on your turn, you can replace 1 of the attacks with an exhalation of draconic energy in either a 20' cone or 30' line. Choose a dmg type from acid, cold, fire, light, or psn. Each creature in that area must make a DEX save, taking 2d4 spell dmg of the chosen type on a failed save, or half as much on a success.",
-                        "You can use this breath attack a number of times equal to your prof bonus, and regain all uses when you finish a short or long rest."
+                        "You can use this breath attack twice, and regain all uses when you finish a short or long rest."
                     ]
                 }
             ]
         },
         {
             "name": "Drunken Silks",
-            "source": "monk - drunken master",
+            "source": "adept - drunken master",
             "mods": [],
             "variables": [
                 {
@@ -55,11 +55,82 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Elemental Garb",
+            "source": "adept - four elements",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As an action, you can briefly control elemental forces within 30' of you."
+                    ],
+                    "variables": [
+                        "When you do so, you create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.",
+                        "When you do so, you instantaneously light or snuff out a candle, a torch, or a small campfire.",
+                        "When you do so, you chill or warm up to 1 pound of non-living material for up to 1hr.",
+                        "When you do so, you cause earth, fire, water, or mist that can fit within a 1'-cube to shape itself into a crude form you designate for 1 minute."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can cast Thunderwave once per short or long rest."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can cast Gust of Wind once per short or long rest."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action up to twice per short or long rest, you can choose an area of ice or water no larger than 30' on a side within 120' of you. You can change water to ice within the area and vice-versa, and you can reshape the ice in the area in any manner you choose. You can raise or lower the ice's elevation, create or fill a trench, erect or flatten a wall, or form a pillar. The extent of any such changes cannot exceed half the area's largest dimension. You cannot shape the ice to trap or injure a creature in the area."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can cast Burning Hands once per short or long rest."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can create a blast of compressed air that strikes like a mighty fist as an action once per short or long rest. Choose a creature within 30' of you. They must make a STR save or take 3d10 B spell dmg, and you can push the creature up to 20' away from you and knock it prone. On a success, it takes half as much damage and no other effect."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action once per short or long rest you can create a whipe of water that shoves and pulls a creature to unbalance it. A creature you can see within 30' must make a DEX save or take 3d10 B spell dmg and you can either knock it prone or pull it up to 25' closer to you. On a success, it takes half as much damage and no other effect."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tranquil Cloak",
+            "source": "adept - tranquility",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You can cast the Sanctuary spell on yourself once per minute with a duration of 8hrs. A creature that succeeds the save against the spell is immune to it for 1hr."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You have a pool of 30 healing points. It replenishes whenever you complete a long rest.",
+                        "Your healing points cannot be used on undead or constructs.",
+                        "The first 3 times per short or long rest that you use the following action, it only costs a bonus action."
+                    ],
+                    "variables": [
+                        "As an action, you can touch a creature and expend any number of your healing points to restore that many hit points to that creature.",
+                        "As an action, you can touch a creature and expend any multiple of 5 healing points to cure the target of one disease or poison affecting it per 5 points expended."
+                    ]
+                }
+            ]
         }
     ],
     "light": [
         {
-            "name": "Attendant Vest",
+            "name": "Stewarding Vest",
             "source": "savant - steward",
             "mods": [],
             "variables": [
@@ -89,7 +160,72 @@
                 },
                 {
                     "mods": [
-                        "As an action, you can trigger any effects that would usually trigger from a melee wep atk on a creature that can understand you within 30'."
+                        "As an action, you can trigger any effects that would usually trigger from a melee wep atk/hit on a creature that can understand you within 30'."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Scouting Raiment",
+            "source": "rogue - scout",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You can move up to half your speed as a reaction when a hostile creature ends its turn adj to you. This movement does not provoke opp atks."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain a d6 expertise die in Nature and Survival."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Soulful Jerkin",
+            "source": "rogue - soulknife",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You have a number of Energy d6s equal to double your proficiency bonus. You regain all expended Energy dice whenever you finish a long rest.",
+                        "As a bonus action, you may replenish 1 Energy die. You cannot do so again until you complete a short or long rest."
+                    ],
+                    "variables": [
+                        "If you fail an ability check using a skill with which you have prof, you can roll an Energy die and add the result to the check. You expend the die only if the check succeeds.",
+                        "As an action, choose a number of creatures you can see up to your prof bonus, then roll an Energy die. For a number of hrs equal to the result, the chosen creatures can speak telepathically with you while you are within 1 mile of each other, and vice-versa. A creature can only use this telepathy if it can speak a language, and a creature can end the connection at any time. The first time you use this power after each long rest, you don't expend the Energy die, but all other times it is expended."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Whenever you take the Attack action, you may replace the base properties of your onhand weapon with a psychic blade that shimmers over it.",
+                        "The psychic blade deals 1d6 psy dmg, has the finesse and thrown (60'/60') traits, and leaves no signs of physical dmg on its targets.",
+                        "After attacking with the psychic blade, you can replace the base properties of your offhand weapon with another one as a bonus action, making an offhand weapon attack with this new blade. It has the same properties as the onhand blade, but deals 1d4 dmg instead.",
+                        "The blades disappear at the end of your turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Swift Raiment",
+            "source": "marshal - swift strategist",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Whenever an ally starts its turn within one of your auras, their speed is increased by 5' until the end of their turn."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once per round when you take the Attack action, you can forgo making 1 atk to allow an ally within range of one of your auras to move up to half its speed without provoking opp atks."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Your speed increases by 10' if you are not holding a shield.",
+                        "Whenever your movement would provoke an opp atk, the atk has disadv."
                     ]
                 }
             ]
@@ -104,12 +240,12 @@
                 {
                     "mods": [
                         "You learn the Guidance cantrip.",
-                        "You learn the Guiding Bolt spell and always have it prepared. You can also cast it a number of times equal to your proficiency bonus without expending any resources. You recover these uses whenever you finish a long rest."
+                        "You learn the Guiding Bolt spell and always have it prepared. You can also cast it twice without expending any resources. You recover these uses whenever you finish a long rest."
                     ]
                 },
                 {
                     "mods": [
-                        "As a bonus action, you can shapeshift into a celestial form for 10 minutes, or until you dismiss it early or are incapacitated. You can do this a number of times equal to half your proficiency bonus between long rests. While in your celestial form, you shed bright light in a 20' radius and dim light for an additional 20'."
+                        "As a bonus action, you can shapeshift into a celestial form for 10 minutes, or until you dismiss it early or are incapacitated. You can do this once between long rests. While in your celestial form, you shed bright light in a 20' radius and dim light for an additional 20'."
                     ],
                     "variables": [
                         "While in your celestial form, a constellation of an archer appears above you. When you enter this form and as a bonus action on subsequent turns while it lasts, you can make a ranged spell attack using the archer's bow against a creature within 60' of you. On a hit, it deals radiant dmg equal to 1d8 + your ability score modifier.",
@@ -174,7 +310,7 @@
             ]
         },
         {
-            "name": "Frontline Ringmail",
+            "name": "Vanguardian Ringmail",
             "source": "savant - vanguard",
             "mods": [],
             "variables": [
@@ -191,5 +327,23 @@
             ]
         }
     ],
-    "heavy": []
+    "heavy": [
+        {
+            "name": "Gambling Plate",
+            "source": "marshal - gambling general",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "While you are conscious, any ally within one of your auras that atks may take a -5 penalty to their attack roll to give it 2d6 additional base damage on a hit."
+                    ]
+                },
+                {
+                    "mods": [
+                        "While you are conscious, any ally that starts its turn within one of your auras may use an action to move up to twice its speed in a straight line and take the Attack action. Until the end of that ally's next turn, creatures they did not attack on their turn have advantage on attack rolls against them."
+                    ]
+                }
+            ]
+        }
+    ]
 }

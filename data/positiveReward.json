@@ -21,7 +21,7 @@
         "description": "30gp (empowered = +15gp)"
     },
     {
-        "description": "Manifest [Precise, Defending, Annihilating, Healing] Wisp of Gratitude (NPC ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
+        "description": "Manifest [Precise, Defending, Annihilating] Wisp of Gratitude (NPC ally) for next encounter. Starts at -2 effectiveness, +1 per player success (empowered = +1 effectiveness)"
     },
     {
         "description": "Loot roll, rerolling until an equipment roll (empowered = +1 colour)"

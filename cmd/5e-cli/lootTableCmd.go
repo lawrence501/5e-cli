@@ -260,7 +260,7 @@ var tarot = func() error {
 
 	var cardIdx int
 	for i, t := range TAROT_CARDS {
-		if t == card {
+		if strings.ToLower(t) == strings.ToLower(card) {
 			cardIdx = i
 			break
 		}

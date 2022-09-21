@@ -72,6 +72,12 @@
         "tags": []
     },
     {
+        "description": "reroll upgraded",
+        "pointValue": "-",
+        "upgrade": "-",
+        "tags": []
+    },
+    {
         "description": "+1 spell save DC",
         "pointValue": "4",
         "upgrade": "1/4",
@@ -582,13 +588,13 @@
         "tags": ["weapon"]
     },
     {
-        "description": "-1 wep crit req",
+        "description": "+1 wep crit range",
         "pointValue": "4",
         "upgrade": "1/4",
         "tags": ["weapon"]
     },
     {
-        "description": "+1 wep crit dice",
+        "description": "+3 wep crit dice",
         "pointValue": "2",
         "upgrade": "1/2",
         "tags": ["weapon"]
@@ -661,8 +667,8 @@
     },
     {
         "description": "wep hits increase resulting concentration save DCs by 1",
-        "pointValue": "3",
-        "upgrade": "1/3",
+        "pointValue": "2",
+        "upgrade": "1/2",
         "tags": ["weapon"]
     },
     {
@@ -924,6 +930,12 @@
         "tags": ["armour"]
     },
     {
+        "description": "+1 to saves vs condis",
+        "pointValue": "4",
+        "upgrade": "1/4",
+        "tags": ["armour"]
+    },
+    {
         "description": "20% chance to nullify extra crit dmg",
         "pointValue": "1",
         "upgrade": "10%/1",
@@ -966,7 +978,7 @@
         "tags": ["armour"]
     },
     {
-        "description": "-1 crit req with $weaponClass weapons",
+        "description": "+1 crit range with $weaponClass weapons",
         "pointValue": "4",
         "upgrade": "1/4",
         "tags": ["armour"]
@@ -1053,6 +1065,12 @@
         "description": "+1 to curse DCs",
         "pointValue": "3",
         "upgrade": "1/3",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 to saves vs curses",
+        "pointValue": "2",
+        "upgrade": "1/2",
         "tags": ["armour"]
     },
     {
@@ -1278,7 +1296,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "-1 $rangeType crit req",
+        "description": "+1 $rangeType crit range",
         "pointValue": "4",
         "upgrade": "1/4",
         "tags": ["weapon"]
@@ -1428,6 +1446,12 @@
         "tags": ["armour"]
     },
     {
+        "description": "+1 minion dmg res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["armour"]
+    },
+    {
         "description": "+3 minion $dmgType res",
         "pointValue": "1",
         "upgrade": "+2/1",
@@ -1476,9 +1500,9 @@
         "tags": []
     },
     {
-        "description": "-1 crit req for journey activity checks",
+        "description": "+1 crit range for journey activity checks",
         "pointValue": "4",
-        "upgrade": "-1/4",
+        "upgrade": "+1/4",
         "tags": []
     },
     {
@@ -1494,9 +1518,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "-2 crit req vs surprised targets",
+        "description": "+2 crit range vs surprised targets",
         "pointValue": "4",
-        "upgrade": "-1/2",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {

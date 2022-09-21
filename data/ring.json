@@ -78,16 +78,23 @@
             ]
         },
         {
-            "name": "Periapt of Wound Closure",
+            "name": "Band of Wound Closure",
             "effects": [
                 "You stabilise whenever you start your turn dying.",
                 "Double the amount of HP you heal from hit dice."
+            ]
+        },
+        {
+            "name": "Finder's Ring",
+            "effects": [
+                "Whenever you make an Insight check, you can roll a d4 and add the number rolled to the check.",
+                "As an action once per long rest, you can look through the ring to examine an object to identify the aura of the last creature that touched it. Make an Insight check against a DC of 13 + the number of days since the last contact occurred. On a success, you learn the creature's type and can immediately use the ring to cast Locate Creature to find that creature."
             ]
         }
     ],
     "rare": [
         {
-            "name": "Sunforged Ring",
+            "name": "Sunforger",
             "effects": [
                 "As an action, you can throw the ring up to 120' to a point you can see. When it reaches that point, it erupts in an explosion. Each creature within 20' of the point must make a DC 15 DEX save, taking 6d6 fire dmg on a failed save, or half as much otherwise. Afterwards, you can use an action to cause the ring to reappear on your finger. You cannot cause it to explode again until you finish a short or long rest. This counts as a throwing attack.",
                 "If you have not recalled the ring back to you 24hrs after throwing it, it reforms at the point where it exploded and you lose your attunement to it."
@@ -149,7 +156,7 @@
             ]
         },
         {
-            "name": "Piercer [ring]",
+            "name": "Piercer",
             "effects": [
                 "You regain the maximum possible number of hit points from expended hit dice.",
                 "[CURSE] You have disadvantage on Journey activity checks."
@@ -196,7 +203,7 @@
             ]
         },
         {
-            "name": "Ascendant Dragon-Touched Focus [ring]",
+            "name": "Ascendant Dragon-Touched Focus",
             "effects": [
                 "You have adv on init rolls.",
                 "Your weapons gain the Conduit trait.",
@@ -207,6 +214,19 @@
                 "If your name starts with S-->Z, whenever a creature you can see within 30' of you makes a save, you can use your reaction to give that creature adv on the save.",
                 "If your name starts with S-->Z, you can cast Fizban's Platinum Shield and Legend Lore, each once per long rest.",
                 "1/LR, when casting a lvl'd spell, you can treat the spell as if it were cast using a 9th-lvl spell slot."
+            ]
+        },
+        {
+            "name": "Ring of Mind Reading",
+            "effects": [
+                "While touching the ring, you can cast the Scrying spell (DC 17) with it.",
+                "You can use an action to cast the Detect Thoughts spell (DC 17) while Scrying is active through the ring, targeting creatures you can see within 30 feet of the spell's sensor. You do not need to concentrate on this Detect Thoughts to maintain it during its duration, but it ends if Scrying ends."
+            ]
+        },
+        {
+            "name": "Back Talker",
+            "effects": [
+                "You can use your reaction to make a melee weapon attack against any creature in your reach that deals damage to you. You have advantage on the attack roll, and any damage dealt by the attack ignores immunities and resistances."
             ]
         }
     ],

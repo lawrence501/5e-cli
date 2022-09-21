@@ -513,8 +513,44 @@
         "meta": "Shaman - Dervish"
     },
     {
-        "description": "",
+        "description": "+1 {abilityScore}",
+        "upgrade": "+1/4",
+        "tags": ["ability score"]
+    },
+    {
+        "description": "your first melee hit each turn deals +1d4 {dmgType} dmg",
         "upgrade": "+1/1",
-        "tags": []
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "on KB vs debuffed target, a random minion of yours heals 5 HP",
+        "upgrade": "+5/1",
+        "tags": ["debuff", "minion def"]
+    },
+    {
+        "description": "on KB vs debuffed target, a random minion of yours has its duration refreshed",
+        "upgrade": "+1 global dmg vs debuffed targets/1",
+        "tags": ["debuff", "minion def"]
+    },
+    {
+        "description": "on KB vs debuffed target, a random minion of yours gains +5 dmg until it dies",
+        "upgrade": "+5/1",
+        "tags": ["debuff", "minion off"]
+    },
+    {
+        "description": "on KB vs debuffed target, a random minion of yours gains +5 $nonPhysType dmg until it dies",
+        "upgrade": "+5/1",
+        "tags": ["debuff", "minion off"]
+    },
+    {
+        "description": "+2 melee dmg while you have an active minion",
+        "upgrade": "+1/1",
+        "tags": ["melee", "minion off", "minion def"]
+    },
+    {
+        "description": "on spell cast, 20% chance to call down a bolt of magic on the target, an atk dealing 1d4 spell {dmgType} dmg",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["spell dmg", "type dmg"],
+        "meta": "shaman - lagon's answer"
     }
 ]

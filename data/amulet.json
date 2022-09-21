@@ -11,6 +11,48 @@
             "ally": "Aroshi",
             "effect": "on crit, trigger a random, unmodifiable Action against target from a random CR 1/4 creature",
             "upgrade": "+1 CR step"
+          },
+          {
+            "ally": "P'all",
+            "effect": "+1 crit range vs targets you are flanking",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Mensis",
+            "effect": "+1 crit range in darkness",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Gawdian",
+            "effect": "+1 crit range vs targets who have dmg'd you since your last turn",
+            "upgrade": "+1"
+          }
+        ]
+      },
+      {
+        "name": "Aroshi",
+        "effect": "1/LR, bonus to shapeshift into random CR 2 creature until bonus to revert or HP lost",
+        "upgrade": "+2 global dmg while shapeshifted",
+        "setBonuses": [
+          {
+            "ally": "The Cloud",
+            "effect": "+1 crit range while shapeshifted",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "P'all",
+            "effect": "+1 crit range vs targets you are flanking",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Mensis",
+            "effect": "+2 crit range in darkness",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Gawdian",
+            "effect": "+2 crit range vs targets who have dmg'd you since your last turn",
+            "upgrade": "+1"
           }
         ]
       }

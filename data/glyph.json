@@ -1827,16 +1827,16 @@
         "name": "Breaks Down Walls",
         "description": "breaking through obstructions",
         "tiers": [
-            "1. You gain +2 to tasks related to damaging objects with the goal of breaking, piercing, or demolishing them.",
+            "1. You gain an expertise die in tasks related to damaging objects with the goal of breaking, piercing, or demolishing them.",
             "2. To damage an object normally, the tool or weapon used to attack the object must be at least as hard as the object itself. However, your hands and body automatically adjust so that, for the purposes of breaking things, they momentarily become at least as hard as the object you are attempting to damage or break. This feature does not apply if you are attempt to break through magical barriers.",
             "3. Field of Destruction: 1/SR; free action; When you damage or break an object, you gain 1 additional AC for 1 minute.",
-            "4. Break Through: 1/SR; bonus action; You can move up to 30' and attempt to break through a section of wall at some point along the way, with a DC based on the wall's hardness. Your attempt is 1 level of disadvantage for every 6 inches thickness of the wall. You cannot break through magical barriers using this feature. On a failed attempt, you take 1d10 bludgeoning damage. Even if you successfully break through, you still take 1d4 bludgeoning damage. This leaves a hold the size of your body in the barrier, which others can use to pass through it.",
+            "4. Break Through: 1/SR; bonus action; You can move up to 30' and attempt to break through a section of wall at some point along the way, with a DC based on the wall's hardness. Your attempt has 1 level of disadvantage for every 6 inches thickness of the wall. You cannot break through magical barriers using this feature. On a failed attempt, you take 1d10 bludgeoning damage. Even if you successfully break through, you still take 1d4 bludgeoning damage. This leaves a hole the size of your body in the barrier, which others can use to pass through it.",
             "5. You inflict 1d8 additional damage against constructs.",
             "6. You can break through magical barriers as if they were physical walls, including where it is explicitly stated that you cannot do so.",
-            "7. Jump Attack: 1/LR; free action; You attempt a DC 12 Athletics check to jump high into the air as part of a melee attack. If you succeed at the jump and your attack hits, you inflict 1d8 additional damage and knock the foe prone. If you fail at the jump, you still make your normal attack roll, but you do not inflict the extra damage orknock down the opponent on a hit.",
+            "7. Jump Attack: 1/LR; free action; You attempt a DC 12 Athletics check to jump high into the air as part of a melee attack. If you succeed at the jump and your attack hits, you inflict 1d8 additional damage and knock the foe prone. If you fail at the jump, you still make your normal attack roll, but you do not inflict the extra damage or knock down the opponent on a hit.",
             "8. Break the Ranks: 1/week; bonus action; You move up to 30' and attack up to 4 different foes as long as they are all along your path. Any modifiers that apply to one attack apply to all the attacks you make.",
             "9. Destroyer: 1/week; bonus action; If you succeed on a Strength-based task to damage an object, instead of damaging the object, it is destroyed.",
-            "10. You gain +3 to tasks related to damaging objects with the goal of breaking, piercing, or demolishing them."
+            "10. You gain a d6 expertise die in tasks related to damaging objects with the goal of breaking, piercing, or demolishing them."
         ]
     },
     {
@@ -2068,15 +2068,15 @@
         "description": "enduring environmental hazards",
         "tiers": [
             "1. You gain +1 AC and are immune to effects that automatically hit. Additionally, your damage resistance affects true damage.",
-            "2. You add 4 to all hit die heals you make.",
+            "2. You add 2 to all hit die heals you make.",
             "3. Breathe: 2/min; free action; You can breathe safely in any (or no) atmosphere or in any substance for 1 hour.",
             "4. Move: 1/min; free action; For 1 hour, you can move without hindrance through any type of terrain that is not a solid barrier.",
-            "5. Once per long rest, you can take a short rest as a bonus action. You need only 1 hour to complete a long rest.",
-            "6. You have resistance to any kind of environmental damage. This does not include direct attacks, but it does include ambient damage and damage from 'passive' sources. For example, you are protected from the damage of a raging fire, falls from a great height, crushing water pressure, acidic mist, and so forth.",
+            "5. You need only a bonus action to complete a short rest, and only 1 hour to complete a long rest.",
+            "6. You have resistance to any kind of environmental damage.",
             "7. You gain +1 AC. You also gain +1 CON, DEX, and WIS.",
-            "8. You do not need to eat, drink, or breathe to live, although if you go past the normal bounds of your body in this regard, all tasks have double disadvantage until you can eat, drink, and breathe normally.",
+            "8. You do not need to breathe to live, although if you go past the normal bounds of your body in this regard, all tasks have double disadvantage until you can breathe normally. Additionally, this also occurs at maximum fatigue.",
             "9. Your damage resistance applies at double effectiveness against true damage.",
-            "10. You add 6 to all hit die heals you make."
+            "10. You add 3 to all hit die heals you make."
         ]
     },
     {

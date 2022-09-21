@@ -28,7 +28,7 @@
     {
         "name": "Sapping Summons",
         "target": "Powers that summon minions",
-        "description": "When the minions are hit, the offender is slowed until LR."
+        "description": "When the minions are hit, the offender is slowed until CON save (minion's DC)."
     },
     {
         "name": "Charging Summons",
@@ -38,7 +38,7 @@
     {
         "name": "Rugged Summons",
         "target": "Powers that summon minions",
-        "description": "The minions gain an expertise die on saves vs debuffs"
+        "description": "The minions gain +1 to saves vs debuffs"
     },
     {
         "name": "Taunting Summons",
@@ -139,7 +139,7 @@
     {
         "name": "Dull Criticals",
         "target": "Powers with an atk roll",
-        "description": "The power has -2 crit req, but it no longer deals any extra crit dmg."
+        "description": "The power has +3 crit range, but no longer deals any extra crit dmg."
     },
     {
         "name": "Keen Recovery",
@@ -224,7 +224,7 @@
     {
         "name": "Keen Power",
         "target": "Powers that make atk rolls",
-        "description": "The power deals barely more dmg and has -1 crit req.",
+        "description": "The power deals barely more dmg and has +1 crit range.",
         "meta": "ice barrage"
     },
     {
@@ -264,7 +264,7 @@
     },
     {
         "name": "Endurance",
-        "target": "Powers with non-instantaneous durations",
+        "target": "Powers with non-instantaneous durations that can deal damage",
         "description": "The power's duration increases by 1 step, but it deals less dmg."
     },
     {
@@ -284,7 +284,62 @@
     },
     {
         "name": "Unstable Speed",
-        "target": "Powers that do not require concentration",
+        "target": "Powers that do not require concentration and can deal damage",
         "description": "The power's usage time is reduced by 2 action steps, but it now requires concentration and deals less dmg."
+    },
+    {
+        "name": "Swift Channelling",
+        "target": "Powers that require reactivation each round and can deal damage",
+        "description": "The power's reactivation time is reduced by 1 action step, but it now deals less dmg."
+    },
+    {
+        "name": "Shielding",
+        "target": "Powers that can hit",
+        "description": "Whenever the power hits, you gain a slight amount of temp HP. Instances of temp HP from this source stack with each other."
+    },
+    {
+        "name": "Tiring Exertion",
+        "target": "Powers with non-instantaneous durations that can deal damage",
+        "description": "For the power's duration, you project a 5' aura that inflicts sluggish on foes until the end of their turn, but the power deals less damage."
+    },
+    {
+        "name": "Intensity",
+        "target": "Powers with non-instantaneous durations",
+        "description": "The power deals massively more damage, but its duration is reduced by 1 step."
+    },
+    {
+        "name": "Focused Channelling",
+        "target": "Powers with non-instantaneous durations that require reactivation each round",
+        "description": "The power's reactivation time is reduced by 1 action step, but you are slowed for its duration."
+    },
+    {
+        "name": "Charged Shielding",
+        "target": "Powers with cooldowns that can have targeted directions",
+        "description": "If the power is directed at a non-self target, it projects a 10'-wide magical barrier for the combat that completely blocks projs, in the space in front of you in the targeted direction. The power's cooldown also increases by 1 step."
+    },
+    {
+        "name": "Charged Triggers",
+        "target": "Powers with cooldowns that can deal damage",
+        "description": "Any effects triggered from the power have their durations extended by 2 steps, but the power's cooldown is increased by 1 step and it deals less damage."
+    },
+    {
+        "name": "Empowering Triggers",
+        "target": "Any power",
+        "description": "While an effect triggered from the power is active, you deal slightly more $nonPhysType dmg and have slightly more {nonPhysType} res"
+    },
+    {
+        "name": "Volatile Triggers",
+        "target": "Powers that can deal damage",
+        "description": "When an effect with a non-instantaneous duration triggered from the power expires, it erupts in a magical explosion. All foes adj to the effect are staggered until the end of your next turn. The power deals massively less damage."
+    },
+    {
+        "name": "Building Ailments",
+        "target": "Powers with non-instantaneous durations that deal damage",
+        "description": "For each turn of the power's duration, any debuffs it can apply have +1 to their related DCs. The power deals less damage."
+    },
+    {
+        "name": "Explosive Power [FRIGID DOOM]",
+        "target": "Powers that can hit",
+        "description": "Whenever the power hits, a nova erupts from the target, attacking all foes within 5' of the target (including them), dealing 1d4 $nonPhysType spell dmg on a hit. The power deals substantially less dmg."
     }
 ]
