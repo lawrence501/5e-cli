@@ -1176,10 +1176,16 @@
         "tags": ["armour"]
     },
     {
-        "description": "+1 dmg res if you haven't moved since start of your last turn",
+        "description": "+1 dmg res if you haven't displaced distance since start of your last turn",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]
+    },
+    {
+        "description": "+2 wep dmg if you haven't displaced distance since start of your last turn",
+        "pointValue": "1",
+        "upgrade": "1/1",
+        "tags": ["weapon"]
     },
     {
         "description": "+1 AC while $healthStatus",

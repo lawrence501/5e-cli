@@ -229,6 +229,56 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Inquisitive Garb",
+            "source": "rogue - inquisitive",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Whenever you make an Insight check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8."
+                    ]
+                },
+                {
+                    "variables": [
+                        "As a bonus action, you can make a Perception check to spot a hidden creature or object.",
+                        "As a bonus action, you can make an Investigation check to uncover or decipher clues."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can make an Insight check against a creature you can see that is not incapacitated, contested by the target's Deception check. If you succeed, you treat that target as if you have adv with your atks against them, unless you have disadv on the atk.",
+                        "This benefit lasts for 1 minute or until your successfully use this power against a different target."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Raiment",
+            "source": "rogue - arcane trickster",
+            "mods": [
+                "Whenever you cast Mage Hand, you can make the spectral hand invisible.",
+                "You can use your Cunning Action to control the Mage Hand.",
+                "You can perform the following task with Mage Hand. If you succeed on a Sleight of Hand check contested by another creature's Perception check, you can make the task unnoticed by that creature."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "You can stow one object the hand is holding in a container worn or carried by another creature."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can retrieve an obj in a container worn or carried by another creature."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can pick locks and disarm traps with the hand as if you were doing it yourself."
+                    ]
+                }
+            ]
         }
     ],
     "medium": [
@@ -325,6 +375,42 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Bestial Chainmail",
+            "source": "ranger - beast trainer",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Animal Handling."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You have a CR 1/4 medium Beast minion. You must use a bonus action to command it, or an ally can do so as a bonus action with a successful DC 10 Animal Handling check.",
+                        "If the minion dies, you can revive it as an action and a 1st-lvl spell slot. It returns to full hit points 1min later."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Warding Brigandine",
+            "source": "ranger - grove warden",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Any effect that allows you to sense or detect certain creature types now also works on humanoids, and tells you their general direction, and roughly how many humanoids are together (1, 2-5, or 6+)."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can choose a creature you can see within 60' of you. Your next wep atk against that creature has adv as you draw on the essence of the land to hamper them.",
+                        "If this enhanced atk hits, the target's sp is reduced by 10' until the start of your next turn."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -341,6 +427,40 @@
                 {
                     "mods": [
                         "While you are conscious, any ally that starts its turn within one of your auras may use an action to move up to twice its speed in a straight line and take the Attack action. Until the end of that ally's next turn, creatures they did not attack on their turn have advantage on attack rolls against them."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Royal Plate",
+            "source": "herald - crown",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Once per short or long rest, as a bonus action, you can challenge any creatures of your choice that you can see within 30' of you by forcing them to make a WIS save. On a fail, they cannot willingly move more than 30' away from you. This effect ends on the creature if you are knocked unconscious, die, or if the creature is more than 30' away from you."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once per short or long rest, as a bonus action, you can bolster bloodied creatures of your choice that can hear you within 30' of you, healing them for 1d6 + your ability score modifier."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heroic Plate",
+            "source": "herald - heroism",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Once per short or long rest, as a bonus action, you can augment your athleticism, gaining adv on all Athletics and Acrobatics checks for 10mins."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once per short or long rest, as a bonus action, you can guide your atks for 1min, granting your wep atks +1 crit range."
                     ]
                 }
             ]

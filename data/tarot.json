@@ -1,7 +1,7 @@
 [
     {
         "name": "Ideas",
-        "description": "random ammy set bonus (lovers), negative and boost base (wheel of fortune), transform into different type of item (not equipment) (death), spell cast 1/LR (?)"
+        "description": "transform into different type of item (not equipment) (death), maneuver use 1/LR (strength), write new mod (stars), mimic a random card that isn't in the deck, incl other ones in this reading (?)"
     },
     {
         "name": "The Fool",
@@ -25,6 +25,30 @@
     },
     {
         "name": "The Hierophant",
+        "description": "THe item has 1 additional modifier that grants +2 to a random ability score's maximum value."
+    },
+    {
+        "name": "The Lovers",
+        "description": "The item has 1 additional modifier that is a randomly chosen ally bonus from a random amulet."
+    },
+    {
+        "name": "The Chariot",
         "description": "The item has 1 additional modifier of a chosen Affinity."
+    },
+    {
+        "name": "Justice",
+        "description": "The item has 1 additional modifier that is of the same Affinity as the base modifier."
+    },
+    {
+        "name": "The Hermit",
+        "description": "The item has 1 additional modifier that is a randomly chosen Knack from a random class."
+    },
+    {
+        "name": "Wheel of Fortune",
+        "description": "The item has 1 additional modifier that is negated, and the resulting points are granted to the base modifier."
+    },
+    {
+        "name": "Strength",
+        "description": "The item has 1 additional modifier that grants a 1/LR free usage of a random maneuver of degree up to your hypothetical highest."
     }
 ]

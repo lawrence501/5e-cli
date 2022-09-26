@@ -9,7 +9,7 @@
     },
     {
         "name": "Combination",
-        "description": "the mods of 2 chosen items are randomly distributed across the 2 items, ignoring baselimitations. each item then gains 1 random mod"
+        "description": "the mods of 2 chosen items are randomly distributed across the 2 items, ignoring base limitations. each item then gains 1 random mod"
     },
     {
         "name": "Fate",

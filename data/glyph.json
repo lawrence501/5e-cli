@@ -596,15 +596,15 @@
         "description": "gambling and leaning into luck",
         "tiers": [
             "1. The laws of probability change around you, granting you double advantage on gambling-related skill checks.",
-            "2. The spirits of the air favour you. You have critical requirement -1 for all d20 rolls.",
+            "2. The spirits of the air favour you. You have +1 crit range for all atks and ability checks.",
             "3. The DM must inform you one turn in advance when you are about to be specifically targeted in combat.",
-            "4. Whenever you score a critical on any d20 roll in combat, you gain a bonus action that can be used until the end of your next turn.",
-            "5. Hot Cards: 1/LR; bonus action; You infuse a held object with luck. For the next 10 minutes, all d20 rolls involving the object have critical requirement -2.",
+            "4. Whenever you score a critical on any d20 roll in combat, you gain a bonus action for the turn.",
+            "5. Hot Cards: 1/LR; bonus action; You infuse a held object with luck. For the next 10 minutes, all d20 rolls involving the object have +2 crit range.",
             "6. Impossible Play: 1/month; free action; You may only use this feature while attempting an action that would normally have a DC of 30 or higher. You treat the DC as 15 for this action.",
             "7. T1 now grants automatic success.",
-            "8. You have critical requirement -1 for all d20 rolls.",
+            "8. You have +1 crit range for all atks and ability checks.",
             "9. Whenever you are informed in advance of being targeted in combat, you also find out which creature(s) will be targeting you.",
-            "10. Whenever you score a critical on any d20 roll in combat, you gain 2 bonus actions that can be used until the end of your next turn."
+            "10. Whenever you score a critical on any d20 roll in combat, you gain 2 bonus actions for the turn."
         ]
     },
     {
@@ -790,11 +790,11 @@
             "1. Warp: At-will; bonus action; Using your wild connection to the magic that permeates everything in the universe, you launch a blast of energy to temporarily disrupt it (attack), causing it to randomly deform and warp all matter of a single target within 30' of you. The target takes 1d8 + your level true damage.",
             "2. Chaotic Touch: 1/min; bonus action; Your body is infused with chaos and with a touch, you can transfer a portion of that chaotic influence into another, inflicting a random beneficial or harmful mutation (your choice) on the target which lasts for 1hr.",
             "3. Your body is a silent storm of chaotic activity, constantly shifting and reforming beneath your skin. As a result, you gain +1 AC as your body shifts and adapts randomly.",
-            "4. Aura of Chaos: 1/SR; bonus action; Use your Warp feature as an area of effect that originates from you, damaging everything within 30' of you as you emit a swarming aura of magic.",
-            "5. Transmutation: 1/SR; 1 minute; You can consume a blessing you just found, destroying it and reforming it into a new, random blessing. Roll for a new blessing.",
+            "4. Aura of Chaos: 1/SR; bonus action; Use your Warp feature as an area of effect that originates from you, targeting everything within 30' of you as you emit a swarming aura of magic.",
+            "5. Transmutation: 1/SR; 1 minute; You can consume a wondrous item you just found, destroying it and reforming it into a new, random wondrous item. Roll for a new wondrous item.",
             "6. You can sense the presence of shifting matter and chaotic energies. All checks relating to sensing magic have double advantage.",
             "7. Changecraft: 1/LR; 1 minute; You have the ability to warp and reshape matter by using your wild magic. You can create mundane items from any material to which you have access, including the flesh of other creatures. Items are rarely well made, but are serviceable as simple weapons, trinkets, or tools. Whenever you use one, there is a 15% chance it will fall apart or crumble to dust. When creating an object with the flesh of a living creature, you must make an attack against them, and they take 1d6 + 1d8 + your level slashing damage on a hit. The craft fails on a miss.",
-            "8. Heart of the Storm: 1/week; bonus action; You burst into a magical vortex that changes the landscape and creatures within your reach. You lose your corporeal form and become immunte to physical damage. Make an attack against all creatures within 120' of you. All hits against creatures of CR 1 or lower destroy them with your warping effects and all others deal 1d6 + 1d8 + your level bludgeoning damage. New obstacles, entirely new creatures, or other random effects may take place at the DM's discretion. The effect lasts for 1 round, after which you revert to your previous form.",
+            "8. Heart of the Storm: 1/week; bonus action; You burst into a magical vortex that changes the landscape and creatures within your reach. You lose your corporeal form and become immune to physical damage. Make an attack against all creatures within 120' of you. All hits against creatures of CR 1 or lower destroy them with your warping effects and all others deal 1d6 + 1d8 + your level bludgeoning damage. New obstacles, entirely new creatures, or other random effects may take place at the DM's discretion. The effect lasts for 1 round, after which you revert to your previous form.",
             "9. Your Warp feature's damage increases to 1d12 + your level.",
             "10. Your Chaotic Touch feature can now be used at-will."
         ]
@@ -1332,15 +1332,15 @@
         "description": "harnessing the power of lightning",
         "tiers": [
             "1. Shock: At-will; bonus action; Your hands crackle with electricity, and the next time you touch a creature, make an attack to inflict 1d8 + your level lightning damage. Alternatively, if you wield a weapon, for 10 minutes it crackles with electricity and inflicts 1d6 additional lightning damage per attack if held by you.",
-            "2. Charge: At-will; bonus action; You can charge an artifact or relic so that it gains the benefits of a level without levelling up. This can only be done once for each item.",
+            "2. Charge: At-will; bonus action; You can charge a relic so that it gains the benefits of a level without levelling up. This can only be done once for each item.",
             "3. Bolt Rider: 1/SR; bonus action; You can move up to 120' from 1 location to another almost instantaneously, carried by a bolt of lightning. You must be able to see the new location, and there must be no intervening barriers.",
-            "4. You can drain the power from an artifact or relic, allowing you to regain an amount of hit points equal to the item's level. This requires a full turn action with concentration.",
+            "4. You can drain the power from a relic, allowing you to regain an amount of hit points equal to half the item's level. This requires a full turn action with concentration.",
             "5. Electric Armour: 1/SR; free action; When you wish it, electricity crackles across your body for 10 minutes, granting you +1 AC. While electrified, you have an additional +4 to lightning resistance, and you inflict 1d6 lightning damage on any creature that touches you or attacks you with a metal melee weapon.",
             "6. You gain +2 to Dexterity.",
             "7. Bolts of Power: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge is an attack inflicting 1d10 + your level lightning damage.",
             "8. Electrical Flight: 1/LR; bonus action; You exude an aura of crackling electricity that grants you a fly speed of 120' for 10 minutes. You cannot carry other creatures with you.",
             "9. Flash Across the Miles: 1/week; bonus action; You move to an open location on your current planet that you are familiar with almost instantaneously, transformed into a bolt of lightning.",
-            "10. Wall of Lightning: 1/week; bonus action; You create a barrier of crackling electricity in a square up to 2500' long, shaped as you wish. The wall is a magical barrier. Anyone within 5' of the wall is automatically attacked, dealing 1d12 + 1d10 + your level lightning damage. The wall lasts for 1 hour."
+            "10. Wall of Lightning: 1/week; bonus action; You create a barrier of crackling electricity in a square up to 2500' long, shaped as you wish. The wall is a magical barrier. Anyone within 5' of the wall is automatically attacked as if it were a persistent area, dealing 1d12 + 1d10 + your level lightning damage. The wall lasts for 1 hour."
         ]
     },
     {
@@ -1699,13 +1699,13 @@
         "name": "Thunders",
         "description": "controlling destructive sound",
         "tiers": [
-            "1. Thunder Beam: 2/min; bonus action; You direct a beam of focused sound at a target within 120', making an attack inflicting 1d6 + level thunder damage and inducing a resonant destructive wave in their body. Each round after this initial attack, you can make another attack for the destructive wave to inflict an additional 1d4 true thunder damage to the target. If you fail this attack, the destructive wave ends. Alternatively, you can set up a destructive resonance in a physical melee weapon for 1 minute or until you let go of it. All attacks made with the target weapon inflict +1d4 thunder damage.",
+            "1. Thunder Beam: 2/min; bonus action; You direct a beam of focused sound at a target within 120', making an attack inflicting 1d6 + level thunder damage and inducing a resonant destructive wave in their body. At the start of each of your turns after this initial attack, you can make another attack for the destructive wave to inflict an additional 1d4 true thunder damage to the target. If you fail this attack, the destructive wave ends. Alternatively, you can set up a destructive resonance in a physical melee weapon for 1 minute or until you let go of it. All attacks made with the target weapon inflict +1d4 thunder damage.",
             "2. Attacks that hit you are partially converted to surges of harmless noise similar to the sound of a wave crashing to shore. This feature grants you +1 AC and an additional +2 AC against spells.",
             "3. You are especially sensitive to sound and vibration, so much so that you can sense your surroundings within 30' regardless of your ability to see. This counts as blindsight.",
             "4. Nullify Sound: 1/min; bonus action; You pulse perfectly misaligned sounds around you to create a 5x5' zone of absolute quiet within 30' of you for 1 minute. All sound is cancelled in the zone.",
             "5. Shattering Shout: 1/LR; bonus action; Your focused shout sets up a destructive resonance in a creature (requires an attack) or object within 120'. Nothing happens on the round you use this power other than an ominous humming or buzzing sound emitted by the target. But on your next turn, the resonance shatters discrete inanimate objects, inflicts major damage to structures, or inflicts 1d10 + level true thunder damage on a creature. If you shatter a discrete object, it shatters explosively, inflicting 1d4 damage of an appropriate physical type to all creatures and objects within 5' of it.",
             "6. Subsonic Rumble: 2/min; bonus action; For 1 minute or until you use a different power from this glyph path, you emit a subsonic rumble that most living creatures cannot hear but which has an effect on them all the same. The effect lasts for 1 minute and affects all creatures you select within 30' of you. All tasks related to resisting persuasion, intimidation, and frighten have double disadvantage for affected targets.",
-            "7. Amplify Sounds: 2/min; bonus action; For 1 minute, you can amplify distant or small sounds so that you can hear them clearly, even if it is a conversation or the sound of a small animal moving through an underground burrow up to 240' away. You can attempt to perceive the sound even if interceding barriers block it or if the sound is very slight, though this requires concentration. To discriminate the sound you wish in a noisy environment might also require concentration as you audibly explore the surrounding soundscape. You can pinpoint every conversation, every breathing creature, and every device creating noise within 240'.",
+            "7. Amplify Sounds: 2/min; bonus action; For 1 minute, you can amplify distant or small sounds so that you can hear them clearly, even if it is a conversation or the sound of a small animal moving through an underground burrow up to 240' away. You can attempt to perceive the sound even if interceding barriers block it or if the sound is very slight, though this requires concentration. To discriminate the sound you wish in a noisy environment might also require concentration as you audibly explore the surrounding soundscape. You can pinpoint every conversation, every breathing creature, and every object creating noise within 240'.",
             "8. Earthquake: 1/month; bonus action; You direct your destructive resonance into the ground and trigger an earthquake centred on a spot you can see within 240'. The ground within 30' of that spot heaves and shakes for 5 minutes, causing damage to structures and terrain in the area. Buildings and terrain features shed debris and rubble. Each round, attack all creatures in the area, dealing either 1d8 + level bludgeoning damage due to the general shaking, or 1d8 + 1d6 + level bludgeoning damage if they are in or adjacent to a structure or terrain feature shedding debris.",
             "9. Lethal Vibration: 1/month; bonus action; You set up a lethal vibration in your own body and pass it to a creature you touch with a successful attack. If the target is CR 1 or lower, it explodes in a peal of thunder. If the target is CR 2 or higher, it takes 1d8 + 1d6 + level thunder damage and is debilitated until the end of its next turn.",
             "10. You can now use your Thunder Beam feature at-will. Additionally, its further true thunder damage increases from 1d4 to 1d6."
@@ -2115,16 +2115,16 @@
         "name": "Builds Constructs",
         "description": "crafting a construct minion",
         "tiers": [
-            "1. You build a CR 1 construct of your size or smaller to accompany you and follow your instructions. It cannot make attacks. If the construct is destroyed, you can repair the original with 3 days' worth of tinkering, or build a new one with a week's worth of labour.",
+            "1. You build a CR 1 construct minion of your size or smaller to accompany you and follow your instructions. It cannot make attacks. If the construct is destroyed, you can repair the original with 3 days' worth of tinkering, or build a new one with a week's worth of labour.",
             "2. You gain an expertise die in all tasks related to building and repairing constructs. You can use the Medicine skill on constructs you have built as if they were a living creature.",
             "3. Construct Control: 2/min; bonus action; You use your knowledge of construct command and control to affect any magical object or construct of CR 1 or lower within 30'. You can render several targets inactive for as long as you spend your entire turns concentrating on them. If you concentrate on just 1 target, you can attempt to take active control of it for 1 minute, commanding it to do simple tasks on your behalf while you concentrate.",
-            "4. Your built construct can now be a CR 2 construct with the same limitations.",
+            "4. Your built construct is now a CR 2 minion with the same limitations.",
             "5. Choose a saving throw you are not proficient in to become proficient in.",
             "6. You modify your built construct with combat capabilities. It can now use its attacks as usual.",
-            "7. Your built construct can now be a CR 5 construct.",
-            "8. Your built construct can now be a CR 6 construct.",
+            "7. Your built construct is now a CR 5 minion.",
+            "8. Your built construct is now a CR 6 minion.",
             "9. You modify your built construct with flight capabilities. It gains a flying speed of 120'.",
-            "10. Your built construct can now be a CR 8 construct."
+            "10. Your built construct is now a CR 8 minion."
         ]
     },
     {
@@ -2148,15 +2148,15 @@
         "description": "mastering bow weapons",
         "tiers": [
             "1. To be truly deadly with a bow, you must know where to aim. Before making an attack with a bow, you may spend any number of bonus actions to add 1d8 base damage to the attack for each bonus action spent.",
-            "2. You gain an expertise die in Woodworking.",
-            "3. Covering Fire: At-will; free action; When you hit a creature with an attack from your bow, that creature has disadvantage on attack rolls until the end of their next turn.",
-            "4. You gain an expertise die in Woodworking.",
+            "2. You gain an expertise die in creation checks for crafting bows.",
+            "3. Whenever you hit a creature with an attack from your bow, that creature has disadvantage on attack rolls until the end of their next turn.",
+            "4. You gain an expertise die in creation checks for crafting bows.",
             "5. You gain an expertise die on attacks with bows.",
             "6. If you score a critical hit with a bow attack, instead of dealing critical damage, you can make another attack with your bow. This attack reuses the same bonuses (if any) affecting the first attack.",
-            "7. You gain an expertise die in Woodworking.",
+            "7. You gain an expertise die in creation checks for crafting bows.",
             "8. You gain an expertise die on attacks with bows.",
             "9. Powerful Shot: 2/min; free action; You inflict 1d8 additional damage with a hit from a bow attack. You must decide to use this feature before you make the attack, but its usage is refunded if the attack misses.",
-            "10. T1 now grants 2d8 damage per bonus action."
+            "10. T1 now grants 1d8 + 1d6 damage per bonus action."
         ]
     },
     {

@@ -81,7 +81,7 @@
             "name": "Band of Wound Closure",
             "effects": [
                 "You stabilise whenever you start your turn dying.",
-                "Double the amount of HP you heal from hit dice."
+                "Double the amount of healing you recieve while conscious."
             ]
         },
         {
@@ -158,7 +158,7 @@
         {
             "name": "Piercer",
             "effects": [
-                "You regain the maximum possible number of hit points from expended hit dice.",
+                "You regain the maximum possible number of hit points from incoming healing while conscious.",
                 "[CURSE] You have disadvantage on Journey activity checks."
             ]
         },
@@ -245,9 +245,9 @@
         {
             "name": "Dekella, Ring of Thassa",
             "effects": [
-                "Thassa's ring thrums with the icy currents of the deep ocean. Whenever you hit with a wep atk, the target takes an additional 2d10 cold dmg.",
-                "If you devote yourself spiritually to Thassa, you can breathe underwater and gain a swimming speed of 60'.",
-                "If you do not devote yourself spiritually to Thassa, you have -1 global AB and -1 to your DCs.",
+                "+2d10 cold dmg to your wep hits.",
+                "If you devote yourself spiritually to The Cloud, you can breathe underwater and gain a swimming speed of 60'.",
+                "If you do not devote yourself spiritually to The Cloud, you have -1 global AB and -1 to your DCs.",
                 "1/LR, as an action, you can change the condition of the sea within 1 mile of you, creating strong winds and heavy rain that cause violent waves or calming a storm. In either case, the unnatural weather lasts 1hr before returning to normal.",
                 "1/LR, you can cast Dominate Monster (DC 18), but only on beasts and monstrosities with an innate swim speed.",
                 "1/LR, you can case True Polymorph (DC 18), but you must cast it on a creature to turn it into a kind of creature that has an innate swim speed."
@@ -278,6 +278,41 @@
                 "The ring has 8 charges. 1d4 + 4 charges are recovered at the end of a long rest.",
                 "You can expend charges as an action to cast any of the following spells (DC 18): Clairvoyance (2 charges), Crown of Madness (1 charge), Disintegrate (4 charges), Dominate Monster (5 charges), or Eyebite (4 charges).",
                 "[CURSE] Whenever you cast a spell from this ring, there is a 5% chance that Vecna tears your soul from your body, devours it, and takes control of your body. You are killed and your body becomes an NPC under the DM's control."
+            ]
+        },
+        {
+            "name": "The Bloody End",
+            "effects": [
+                "The ring is a sentient lawful evil item with 22 INT, 18 WIS, and 24 CHA. It has hearing and darkvision to a range of 120'. It communicates telepathically with its wearer and is prof in Common and Infernal for speaking aloud.",
+                "A tyrannical Pit Fiend named Izeelzee lives within the ring. It pushes its wielder to subjugate others and to never back down from a challenge. If the wearer doesn't demand fealty from others, the ring will do so on their behalf.",
+                "You become proficient in Infernal.",
+                "As an action, you can cast one of the following spells (DC 13 (L11+: DC 15)): Charm Person, Dominate Person, Fear. Each spell can only be cast 1/LR.",
+                "You have adv on Intimidation checks.",
+                "L11+: On wep KB, you can force each creature of your choice within 15' of you to make a DC 15 WIS save or be frightened of you until the end of your next turn. This can be done 1/LR.",
+                "L11+: When hit by a melee atk, you can react to deal 1d6 psy thorns dmg to the atker."
+            ]
+        },
+        {
+            "name": "Will of the Talon",
+            "effects": [
+                "The ring is a sentient lawful evil item with 14 INT, 15 WIS, and 19 CHA. It has hearing and darkvision out to 120'. It communicates telepathically with its wearer and is proficient in Common, Draconic, and Infernal for speaking aloud.",
+                "A short-tempered Bone Devil named Ashtyrion lives within the ring. It is greedy and values strong leadership. It demands that its wielder take decisive action to keep order in high-pressure situations - and to always take a fair of treasure in return.",
+                "You gain prof in Draconic and Infernal.",
+                "As a bonus action 1/LR, you can force each creature of your choice within 30' of you that is aware of you to make a DC 13 (L11+: DC 15) WIS save. On a fail, a creature becomes frightened of you until save. On succeeding against or ending the effect, it is immune to this power for 24hrs.",
+                "As an action, you can exhale destructive energy. Choose the properties of a Dragonborn breath weapon and exhale it. All affected creatures make a DC 13 (L11+: DC 15) save, taking 3d6 (L11+: 4d6) dmg on a fail or half as much on a success. You can only do this with each dmg type 1/LR.",
+                "L11+: You have 50% resistance to acid, cold, fire, light, and psn dmg."
+            ]
+        },
+        {
+            "name": "Khrusor, Ring of Heliod",
+            "effects": [
+                "+2d8 rad dmg to your wep hits.",
+                "If you devote yourself spiritually to Gawdian, you gain 15 temp HP at the end of each LR.",
+                "If you do not devote yourself spiritually to Gawdian, you have -1 global AB and -1 to your DCs.",
+                "The ring sheds sunlight in a 30' radius and dim light for an additional 30'.",
+                "1/LR, when you take dmg from an adj creature, you can react to make a melee wep atk against that creature. On a hit, the target is blinded until the start of its next turn.",
+                "The ring has 10 charges, 1d6 + 4 of which are replenished at the end of a long rest.",
+                "You can expend the ring's charges to cast the following spells (DC 18): Guiding Bolt (1 charge), Daylight (3 charges, targeting the ring only), Sunbeam (6 charges)."
             ]
         }
     ]

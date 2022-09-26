@@ -41,18 +41,72 @@
           },
           {
             "ally": "P'all",
-            "effect": "+1 crit range vs targets you are flanking",
-            "upgrade": "+1"
+            "effect": "+2 global dmg while shapeshifted vs targets you are flanking",
+            "upgrade": "+2"
           },
           {
             "ally": "Mensis",
-            "effect": "+2 crit range in darkness",
+            "effect": "+1 AC while shapeshifted in darkness",
             "upgrade": "+1"
           },
           {
             "ally": "Gawdian",
-            "effect": "+2 crit range vs targets who have dmg'd you since your last turn",
+            "effect": "+3 global dmg while shapeshifted vs targets who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "P'all",
+        "effect": "+3 global dmg vs targets you are flanking",
+        "upgrade": "+2 minion dmg",
+        "setBonuses": [
+          {
+            "ally": "The Cloud",
+            "effect": "+1 crit range vs targets you are flanking",
             "upgrade": "+1"
+          },
+          {
+            "ally": "Aroshi",
+            "effect": "during your turn while flanking a creature, you treat them as if they were affected by a random condition (chosen on turn start)",
+            "upgrade": "+1 adv on choice"
+          },
+          {
+            "ally": "Mensis",
+            "effect": "+1 AC vs creatures you are flanking while in darkness",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Gawdian",
+            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Mensis",
+        "effect": "+1 AC in darkness",
+        "upgrade": "+2 global dmg in darkness",
+        "setBonuses": [
+          {
+            "ally": "The Cloud",
+            "effect": "+1 crit range in darkness",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Aroshi",
+            "effect": "while in darkness, +2 block thorns of a random type",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "P'all",
+            "effect": "+3 global dmg in darkness vs targets you are flanking",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Gawdian",
+            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
+            "upgrade": "+2"
           }
         ]
       }

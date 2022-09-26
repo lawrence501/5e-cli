@@ -197,9 +197,9 @@
         "description": "Whenever the power's smallest area resolves it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal $nonPhysType dmg."
     },
     {
-        "name": "Greater Triggers",
-        "target": "Any power",
-        "description": "Any effects triggered from the power have slightly more dmg and slightly more area."
+        "name": "Persistent Power",
+        "target": "Any power with a persistent area",
+        "description": "The power's persistent areas have slightly more dmg and slightly more area."
     },
     {
         "name": "Massive Energy",
@@ -318,19 +318,19 @@
         "description": "If the power is directed at a non-self target, it projects a 10'-wide magical barrier for the combat that completely blocks projs, in the space in front of you in the targeted direction. The power's cooldown also increases by 1 step."
     },
     {
-        "name": "Charged Triggers",
-        "target": "Powers with cooldowns that can deal damage",
-        "description": "Any effects triggered from the power have their durations extended by 2 steps, but the power's cooldown is increased by 1 step and it deals less damage."
+        "name": "Charged Obstacles",
+        "target": "Powers that form objs or structs and can deal dmg",
+        "description": "Any objs or structs formed by the power have their durations extended by 2 steps, but the power's cooldown is increased by 1 step and it deals less damage."
     },
     {
-        "name": "Empowering Triggers",
-        "target": "Any power",
-        "description": "While an effect triggered from the power is active, you deal slightly more $nonPhysType dmg and have slightly more {nonPhysType} res"
+        "name": "Empowering Obstacles",
+        "target": "Powers that form objs or structs",
+        "description": "While an obj or struct formed by the power is active, you deal slightly more $nonPhysType dmg and have slightly more {nonPhysType} res."
     },
     {
-        "name": "Volatile Triggers",
-        "target": "Powers that can deal damage",
-        "description": "When an effect with a non-instantaneous duration triggered from the power expires, it erupts in a magical explosion. All foes adj to the effect are staggered until the end of your next turn. The power deals massively less damage."
+        "name": "Volatile Obstacles",
+        "target": "Powers that form objs or structs and can deal dmg",
+        "description": "When an obj or struct formed by the power expires, it erupts in a staggering explosion. All foes adj to the entity are staggered until the end of your next turn. The power deals massively less damage."
     },
     {
         "name": "Building Ailments",
@@ -338,8 +338,38 @@
         "description": "For each turn of the power's duration, any debuffs it can apply have +1 to their related DCs. The power deals less damage."
     },
     {
-        "name": "Explosive Power [FRIGID DOOM]",
+        "name": "Explosive Power",
         "target": "Powers that can hit",
         "description": "Whenever the power hits, a nova erupts from the target, attacking all foes within 5' of the target (including them), dealing 1d4 $nonPhysType spell dmg on a hit. The power deals substantially less dmg."
+    },
+    {
+        "name": "Ailments",
+        "target": "Any power",
+        "description": "Any debuffs the power can apply have +1 to their related DCs."
+    },
+    {
+        "name": "Empowering Ailments",
+        "target": "Any power",
+        "description": "Whenever the power inflicts a debuff, you deal more spell dmg until the end of your next turn."
+    },
+    {
+        "name": "Sudden Eruption",
+        "target": "Powers that require reactivation each round and do not have a cone AoE",
+        "description": "The power's duration is now instantaneous and only activates on casting, but now affects a cone area with length equal to the original range or area length. It also deals substantially more dmg."
+    },
+    {
+        "name": "Inflicting Eruption",
+        "target": "Powers with cone AoEs",
+        "description": "Any debuffs the power can apply have +1 to their related DCs, and the power deals barely more dmg."
+    },
+    {
+        "name": "Cruel Power",
+        "target": "Any power",
+        "description": "The power deals more dmg to debuffed targets."
+    },
+    {
+        "name": "Keen Cruelty [DONE]",
+        "target": "Any power",
+        "description": "The power has +1 crit range against debuffed targets."
     }
 ]

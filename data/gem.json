@@ -552,5 +552,67 @@
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["spell dmg", "type dmg"],
         "meta": "shaman - lagon's answer"
+    },
+    {
+        "description": "+1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "when hit, 40% chance to make offender sluggish until end of their next turn",
+        "upgrade": "+20%/1",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "when hit, 20% chance to give offender -5 {dmgType} res until end of their next turn",
+        "upgrade": "+10%/1 OR -5 res/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "when hit, 20% chance to give offender -2 to debuff saves until end of their next turn",
+        "upgrade": "+10%/1 OR -1 saves/2",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "1/combat, when hit, 20% chance to conjure a swirling storm of energy around you for combat, a 5' aura that makes glyphic atks against foes dealing 1d4 {dmgType} dmg on hit",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "on melee hit, 20% chance to call down energy from above on your target, a spell atk dealing 1d4 {dmgType} dmg",
+        "upgrade": "+10%/1 OR +1 dmg/1",
+        "tags": ["melee", "type dmg", "spell dmg"],
+        "meta": "shaman - thunder strike"
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+1 minion phys res",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "your minions have +1 to saves vs debuffs",
+        "upgrade": "+1/3",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+2 spell dmg while you have an active minion",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg", "minion off", "minion def"]
+    },
+    {
+        "description": "+1 soul gem proc dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "spell dmg"],
+        "meta": "shamana - done"
     }
 ]

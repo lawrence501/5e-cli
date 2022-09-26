@@ -179,6 +179,7 @@ var CONDITIONS []string = []string{
 	"dominate",
 	"rattle",
 	"taunt",
+	"confuse",
 }
 
 var AOE_SHAPES []string = []string{
