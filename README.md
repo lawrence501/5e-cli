@@ -54,8 +54,8 @@ Always based on dmg where possible
 ### Point value cheatsheet
 
 - Dominate: 8
-- Stagger/Debil/exh/confused/uncon/double disadv condi: 5
-- Single disadv condi/sluggish/silence/charm/root: 3
+- Stagger/Debil/exh/confused/uncon/silence/double disadv condi: 5
+- Single disadv condi/sluggish/charm/root: 3
 - Prone/taunt/similar/slow: 2
 - Condi lasts until save/longer: x2
 - Limited feature conditional: -1

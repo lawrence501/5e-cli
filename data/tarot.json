@@ -1,9 +1,5 @@
 [
     {
-        "name": "Ideas",
-        "description": "transform into different type of item (not equipment) (death), maneuver use 1/LR (strength), write new mod (stars), mimic a random card that isn't in the deck, incl other ones in this reading (?)"
-    },
-    {
         "name": "The Fool",
         "description": "The item has no base modifier, but is Levellable."
     },
@@ -50,5 +46,61 @@
     {
         "name": "Strength",
         "description": "The item has 1 additional modifier that grants a 1/LR free usage of a random maneuver of degree up to your hypothetical highest."
+    },
+    {
+        "name": "The Hanged Man",
+        "description": "The item has 1 additional modifier that is randomly chosen from the standard affix pool, and has a minimum point value of 3."
+    },
+    {
+        "name": "Death",
+        "description": "The item is transformed into a glyph, which when consumed replaces your next glyph path option with the item's effects."
+    },
+    {
+        "name": "Temperance",
+        "description": "The item is not created. Instead, the other 2 cards from this reading are added to your next reading."
+    },
+    {
+        "name": "The Devil",
+        "description": "The item is crafted as if its reading contained an additional card, which is randomly chosen from all cards that are currently in the possession of players, including from this reading."
+    },
+    {
+        "name": "The Tower",
+        "description": "The item has 1 additional modifier that is randomly generated."
+    },
+    {
+        "name": "The Stars",
+        "description": "The item has 1 additional modifier that you can define (DM will balance)."
+    },
+    {
+        "name": "The Moon",
+        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is negated and applied to creatures of your choice within a 5' aura."
+    },
+    {
+        "name": "The Sun",
+        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is applied to creatures of your choice within a 5' radius."
+    },
+    {
+        "name": "Judgement",
+        "description": "The item has 1 additional modifier that has a minimum point value of 5, but it is only applied to you after you go down for the first time between rests."
+    },
+    {
+        "name": "The World",
+        "description": "The item has 1 additional modifier that grants an expertise die in a random journey activity."
+    },
+    {
+        "name": "Ace of Wands",
+        "description": "The item's base mod modifier must have either the 'Spell' or 'Type' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+    },
+    {
+        "name": "Ace of Cups",
+        "description": "The item's base mod modifier must have either the 'HP' or 'Minion' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+    },
+    {
+        "name": "Ace of Swords",
+        "description": "The item's base mod modifier must have either the 'Weapon' or 'Damage over Time' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+    },
+    {
+        "name": "Ace of Pentacles",
+        "description": "The item's base mod modifier must have either the 'Defence' or 'Debuff' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     }
 ]

@@ -126,6 +126,37 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Arcane Vest",
+            "source": "wizard - arcanist",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "On casting a spell with instantaneous duration that deals dmg to an area, you can choose a number of creatures equal to your ability score mod in the area that you can see. Those creatures take no dmg from the spell."
+                    ]
+                },
+                {
+                    "mods": [
+                        "1/SR as a bonus action, you can roll a d20, record the result, and choose a creature within 30'. The next time that creature makes a d20 roll, it takes that d20 result instead of rolling.",
+                        "You may use this bonus action again while it is on cooldown if you expend a spell slot."
+                    ]
+                },
+                {
+                    "mods": [
+                        "On casting a levelled spell, you can immediately move up to 15' without provoking opp atks."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Magic Robes",
+            "source": "wizard - mage",
+            "mods": [
+                "1/SR as an action, you can replace one of your prepared spells with another from your spellbook."
+            ],
+            "variables": []
         }
     ],
     "light": [
@@ -411,6 +442,69 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Engineered Hauberk",
+            "source": "artificer - engineer",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Gain proficiency in piloting air, land, and water vehicles."
+                    ]
+                },
+                {
+                    "mods": [
+                        "With 8hrs of uninterrupted work, you can craft a custom vehicle. You can only have 1 at once (on creating a new one, the previous one crumbles from disrepair).",
+                        "During any LR, you can restore your custom vehicle to full HP and remove any malfunctions.",
+                        "The vehicle is your choice of Medium or Large, has AC equal to 10 + your ability score mod, 25 HP, and a speed of 30'. It can only carry 1 crew and has the Personal trait."
+                    ],
+                    "variables": [
+                        "The vehicle's AC increases by 2.",
+                        "The vehicle ignores diff terrain.",
+                        "1/LR, as a bonus action while piloting the vehicle, you can increases its speed by 30' for 1min.",
+                        "The vehicle can take the Stop action even with momentum, but loses all momentum upon doing so.",
+                        "On LR end, you can expend a spell slot to give the vehicle the ability to cast one of your spells of that lvl. Instead of consuming the spell slot, the vehicle gains an Integrity malfunction each time it casts the spell.",
+                        "The vehicle gains a climb sp of 30'.",
+                        "The vehicle's sp increases to 50'.",
+                        "The vehicle loses its Personal trait, and can carry you plus 1 Medium or smaller passenger.",
+                        "Whenever a collision occurs with the vehicle, the dmg it takes is reduced by 1d6, and dmg dealt to other impacted objs and vehicles is increased by 2d6.",
+                        "The vehicle becomes a water vehicle with a swim sp of 30' in addition to being a land vehicle. It swaps between types depending on the terrain it is travelling on.",
+                        "You gain +2 AC while piloting the vehicle."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stiched Brigandine",
+            "source": "artificer - stitcher",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Gain an expertise die in Crafting Creation checks for helms, gloves, and boots."
+                    ]
+                },
+                {
+                    "mods": [
+                        "With 8hrs of uninterrupted work on a humanoid corpse that has been dead no longer than 24hrs, you can create a flesh minion. You can only have 1 at a time.",
+                        "The minion can only atk on its own as a reaction to being atk'd. It can take other actions as normal, and makes death saves on reaching 0 hit points instead of dying outright. As a bonus action, you can command the minion to take any action.",
+                        "The minion uses the stats of a Zombie, but its type is Monstrosity, it gains 6 temp HP on init roll, its AC, AB, and dmg are each increased by 2, and it recovers all hit points at the end of a long rest."
+                    ],
+                    "variables": [
+                        "The minion does not make death saves, and instead explodes and is destroyed upon going down. Creatures within 10' of the minion must make a DEX save or take 2d6 psn dmg, or half as much on a success.",
+                        "The minion requires an additional similar humanoid corpse to be created, and it has 2 additional arms, granting it a climb sp of 20'. Additionally, its maneuver DC for escaping its grapples increases by your ability score mod.",
+                        "The minion requires an additional similar humanoid corpse to be created, and it has 2 additional legs, granting it +15' of speed.",
+                        "Make a sleight of hand check upon creating the minion. Creatures must make a Perception check of DC equal to your result to visually determine that the minion is a monstrosity and not a regular person.",
+                        "On LR end, you can expend a spell slot to give the minion the ability to cast one of your spells with your commanding bonus action. It can only do so once.",
+                        "On LR end, you can graft a 1h melee wep onto the minion to replace its basic Slam atk with that, which has the same AB. This replaces one of its hands, so it can no longer use the Grapple maneuver.",
+                        "The minion's Slam inflicts a 1d6 nec DoT that persists until the target regains HP or an action is used on it to pass a DC 15 Medicine check.",
+                        "Whenever the minion is hit by a melee atk, it inflicts 1d6 light thorns dmg on the offender.",
+                        "The minion's AC increases by 2.",
+                        "The minion can take the Dash action as its bonus action, but cannot do so again until it moves 0' on a turn."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -464,6 +558,25 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Talented Plate",
+            "source": "marshal - talented tactician",
+            "mods": [
+                "Whenever you roll for initiative, you gain a talent die, which is a d4.",
+                "While you have a talent die, any ally within 60' of you that can see or hear you can roll it as a bonus die when making an atk. The talent die is then lost until your next turn.",
+                "Whenever you start your turn with an unspent talent die, you can increase the talent die's size by 1.",
+                "You lose your talent die whenever combat ends."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Lionhearted Plate",
+            "source": "marshal - lionheart",
+            "mods": [
+                "Once per round when you hit with a melee atk, you can inspire a number of creatures of your choice equal to half your ability score mod within one of your auras. The inspired creatures gain an expertise die on their first atk before your next turn."
+            ],
+            "variables": []
         }
     ]
 }

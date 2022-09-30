@@ -1,0 +1,8 @@
+{
+    "trigger": [
+        "On hit"
+    ],
+    "effect": [
+        "Heal 1 HP"
+    ]
+}

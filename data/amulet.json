@@ -95,8 +95,8 @@
           },
           {
             "ally": "Aroshi",
-            "effect": "while in darkness, +2 block thorns of a random type",
-            "upgrade": "+2"
+            "effect": "while in darkness, +5 block thorns of a random type",
+            "upgrade": "+4"
           },
           {
             "ally": "P'all",
@@ -105,6 +105,173 @@
           },
           {
             "ally": "Gawdian",
+            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Gawdian",
+        "effect": "+3 global dmg vs targets who have dmg'd you since your last turn",
+        "upgrade": "+2 wep dmg res",
+        "setBonuses": [
+          {
+            "ally": "The Cloud",
+            "effect": "+1 crit range vs targets who have dmg'd you since your last turn",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Aroshi",
+            "effect": "+3 dmg thorns of a random type",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "P'all",
+            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Mensis",
+            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Primordial Elementals",
+    "amulets": [
+      {
+        "name": "Kher'evo, Aspect of Hunger",
+        "effect": "on hit, heal 2 HP",
+        "upgrade": "+5 max HP",
+        "setBonuses": [
+          {
+            "ally": "Somnius",
+            "effect": "on ending an ongoing condi, heal 2 HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Pherousa",
+            "effect": "when downed, +2 incoming healing for combat",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Mother",
+            "effect": "-2 incoming healing on odd turns, +4 incoming healing on even turns",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "The Primordial",
+            "effect": "+1 hit abs",
+            "upgrade": "+1"
+          }
+        ]
+      },
+      {
+        "name": "Somnius, Aspect of Aspiration",
+        "effect": "+1 to saves vs ongoing condis",
+        "upgrade": "+1 global dmg w/ no adj foes",
+        "setBonuses": [
+          {
+            "ally": "Kher'evo",
+            "effect": "on ending an ongoing condi, heal 2 HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Pherousa",
+            "effect": "your death saves count as ongoing condi saves",
+            "upgrade": "+1 to saves vs ongoing condis"
+          },
+          {
+            "ally": "Mother",
+            "effect": "-2 to saves vs ongoing condis on odd turns, +4 to saves vs ongoing condis on even turns",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "The Primordial",
+            "effect": "on taking non-phys dmg, you can make a save against an ongoing condi",
+            "upgrade": "+1 to saves vs ongoing condis"
+          }
+        ]
+      },
+      {
+        "name": "P'all",
+        "effect": "+3 global dmg vs targets you are flanking",
+        "upgrade": "+2 minion dmg",
+        "setBonuses": [
+          {
+            "ally": "The Cloud",
+            "effect": "+1 crit range vs targets you are flanking",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Aroshi",
+            "effect": "during your turn while flanking a creature, you treat them as if they were affected by a random condition (chosen on turn start)",
+            "upgrade": "+1 adv on choice"
+          },
+          {
+            "ally": "Mensis",
+            "effect": "+1 AC vs creatures you are flanking while in darkness",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Gawdian",
+            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Mensis",
+        "effect": "+1 AC in darkness",
+        "upgrade": "+2 global dmg in darkness",
+        "setBonuses": [
+          {
+            "ally": "The Cloud",
+            "effect": "+1 crit range in darkness",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Aroshi",
+            "effect": "while in darkness, +5 block thorns of a random type",
+            "upgrade": "+4"
+          },
+          {
+            "ally": "P'all",
+            "effect": "+3 global dmg in darkness vs targets you are flanking",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Gawdian",
+            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Gawdian",
+        "effect": "+3 global dmg vs targets who have dmg'd you since your last turn",
+        "upgrade": "+2 wep dmg res",
+        "setBonuses": [
+          {
+            "ally": "The Cloud",
+            "effect": "+1 crit range vs targets who have dmg'd you since your last turn",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Aroshi",
+            "effect": "+3 dmg thorns of a random type",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "P'all",
+            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Mensis",
             "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
             "upgrade": "+2"
           }

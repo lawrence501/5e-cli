@@ -90,6 +90,13 @@
                 "Whenever you make an Insight check, you can roll a d4 and add the number rolled to the check.",
                 "As an action once per long rest, you can look through the ring to examine an object to identify the aura of the last creature that touched it. Make an Insight check against a DC of 13 + the number of days since the last contact occurred. On a success, you learn the creature's type and can immediately use the ring to cast Locate Creature to find that creature."
             ]
+        },
+        {
+            "name": "Band of Thoughts",
+            "effects": [
+                "The band has 3 charges, 1d3 of which are restored at the end of a long rest.",
+                "As an action, you can expend 1 charge to cast Detect Thoughts (DC 13)."
+            ]
         }
     ],
     "rare": [
@@ -228,6 +235,13 @@
             "effects": [
                 "You can use your reaction to make a melee weapon attack against any creature in your reach that deals damage to you. You have advantage on the attack roll, and any damage dealt by the attack ignores immunities and resistances."
             ]
+        },
+        {
+            "name": "Holy Avenger",
+            "effects": [
+                "Your wep hits deal +2d10 rad dmg vs fiends and undead.",
+                "You project a 10' aura that grants allies adv on mag saves."
+            ]
         }
     ],
     "artifact": [
@@ -313,6 +327,27 @@
                 "1/LR, when you take dmg from an adj creature, you can react to make a melee wep atk against that creature. On a hit, the target is blinded until the start of its next turn.",
                 "The ring has 10 charges, 1d6 + 4 of which are replenished at the end of a long rest.",
                 "You can expend the ring's charges to cast the following spells (DC 18): Guiding Bolt (1 charge), Daylight (3 charges, targeting the ring only), Sunbeam (6 charges)."
+            ]
+        },
+        {
+            "name": "Sign of the Dwarvish Lords",
+            "effects": [
+                "+2 CON.",
+                "You have adv on Persuasion vs Dwarves.",
+                "50% chance at the end of each LR to grow a full beard, or a much thicker one if you already have one.",
+                "If you are not a Dwarf, you gain adv on saves vs psn'd and 50% resistance vs psn dmg.",
+                "You gain 60' of darkvision.",
+                "If you are not a Dwarf, you gain prof in Dwarvish.",
+                "Your weapons gain the Thrown (20'/60') trait.",
+                "+1d8 B dmg to your thrown wep hits, which increases to +2d8 vs giants.",
+                "+14 wep crit dmg.",
+                "On wep crit, 5% chance to chop off one of your target's limbs, if possible.",
+                "As a free action, you can say 'Dweorg' to have the ring shed 10' of bright light and 10' of dim until you say the word again.",
+                "If you are a Dwarf, you gain immunity to psn dmg.",
+                "If you are a Dwarf, you gain an expertise die in Crafting Creation checks for metal weapons and armour.",
+                "Once per long rest as an action, you can cast Conjure Elemental, summoning an Earth Elemental always.",
+                "As an action once every 3 days, you can touch the ring to a fixed piece of Dwarven stonework to cast Teleport. If your intended destination is underground, there is no chance of any error in the spell.",
+                "[CURSE] Whenever you finish a long rest, you look more and more like a Dwarf, and completely look like one after 7 days. Effect can be reversed by removing a curse from the wearer."
             ]
         }
     ]

@@ -362,5 +362,6 @@ var EQUIP_SLOT []string = []string{
 	"offhand",
 	"helmet",
 	"gloves",
+	"pants",
 	"boots",
 }

@@ -613,6 +613,47 @@
         "description": "+1 soul gem proc dmg",
         "upgrade": "+1/1",
         "tags": ["wep dmg", "spell dmg"],
-        "meta": "shamana - done"
+        "meta": "shaman - done"
+    },
+    {
+        "description": "on reverting from a shapeshift, +1 dmg res until your next turn",
+        "upgrade": "+1/1",
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 dmg res while bloodied",
+        "upgrade": "+1/1",
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "description": "+1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "+1 minion phys res",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 global dmg",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "while shapeshifted, ignore non-phys res",
+        "upgrade": "+1 non-phys dmg/2",
+        "tags": ["non-phys dmg"],
+        "meta": "druid - primordial resonance"
     }
 ]

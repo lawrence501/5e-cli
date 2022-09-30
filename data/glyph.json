@@ -6,7 +6,7 @@
             "1. Eldritch Connection: at will; bonus action; uncannily, you learn the name of any one person, place, or thing you can see",
             "2. You gain a random beneficial mutation",
             "3. Tenebrous Prophesy: 1/min; bonus action; Your mind is filled with a jumble of prophetic images and sensations, granting you a dangerous peek at the predicted future. You gain double advantage on your next roll, but something negative will occur in the near future",
-            "4. Soul of the Demon: 1/LR; bonus action; You allow the stored instincts of a vicious creature to enter your mind psychically through your connection to the Black Cathedral, granting you enhanced, barely controlled reflexes. For the next 10 minutes, you gain an expertise die in natural weapon atks, but you cannot end hostile combats until you kill at least one creature in them, even if no enemies remain",
+            "4. Soul of the Demon: 1/LR; bonus action; You allow the stored instincts of a vicious creature to enter your mind psychically through your connection to the Black Cathedral, granting you enhanced, barely controlled reflexes. For the next 10 minutes, you gain an expertise die in glyphic atks, but you cannot end hostile combats until you reduce at least one creature in them to 0 HP, even if no enemies remain.",
             "5. You are overrun by the unnatural urges of eldritch beings, pushing you to violence and madness. Whenever you actively engage in lustful, violent, or otherwise animalistic acts for at least 10 minutes, you heal 1d6 + your level hit points",
             "6. You gain a distinctive mutation of your own design (DM will balance from description)",
             "7. Your Eldritch Connection feature is now a free action",
@@ -243,16 +243,16 @@
         "name": "Resurrects Dead Gods",
         "description": "Resurrecting dead incarnations of Xiloans",
         "tiers": [
-            "1. +2 to skill checks to operate magical objects and constructs.",
-            "2. Resurrection: 1/min; free action; Through a combination of magical tricks and ingenuity you reconnect an immense magical intelligence, such as a dead incarnation of a Xiloan, to the ethereal plane. It takes a full hour of work to accomplish this feat ad successfully doing so may bring the wrath of living Xiloans.",
-            "3. Chant of the Dead: 2/min; bonus action; Invoking the power of the Xiloans you have freed, you break past the security on any simple magical security, causing it to open. You may use this feature once per long rest for each Xiloan you have resurrected.",
-            "4. Blessing of Lightness: 1/min; free action; You may fall any distance without taking damage. You may use this feature once per long rest for each Xiloan you have resurrected.",
-            "5. Invocation: 1/SR; bonus action; You speak the names of your Xiloans, causing magical entities who hear them to take pause. A number of magical entities up to the number of Xiloans you have resurrected of your choice within 5' of you are stunned for 1 minute.",
-            "6. Dead Conductors: 1/LR; bonus action; The Xiloans protect you for a time, wrapping you in the glowing sigils of their base magical properties. For the next 10 minutes, your AC increases by an amount equal to the number of Xiloans you have resurrected (max 5).",
-            "7. Summon a Xiloan: 1/week; You call upon on of the Xiloans you have aided, forcing it to take possession of a magical object or construct within 5' of you for the next hour. The Xiloan can control the object or construct and can greatly aid you in using it, but negotiating with such beings can be difficult, even for one such as you.",
-            "8. +2 to checks to operate magical objects and constructs.",
-            "9. You can now use your Resurrection feature twice per minute.",
-            "10. You can now use your Chant of the Dead feature at-will, with no limits based on the number of Xiloans you have resurrected."
+            "1. You gain an expertise die in ability checks to operate magical objects and constructs.",
+            "2. Resurrection: At-will; free action; Through a combination of magical tricks and ingenuity you reconnect an immense magical intelligence, a dead incarnation of a Xiloan, to the ethereal plane. It takes a full hour of work to accomplish this feat and doing so may bring the wrath of living Xiloans. You can only resurrect up to 5 Xiloan incarnations.",
+            "3. Chant of the Dead: X/LR; bonus action; Invoking the power of the Xiloans you have freed, you break past the security on any simple magical security, causing it to open. You may use this feature once per long rest for each Xiloan you have resurrected.",
+            "4. Blessing of Lightness: X/LR; free action; You may fall any distance without taking damage. You may use this feature once per long rest for each Xiloan you have resurrected.",
+            "5. Invocation: 1/SR; bonus action; You speak the names of your Xiloans, causing magical entities who hear them to take pause. A number of magical entities up to the number of Xiloans you have resurrected of your choice within 5' of you are debil'd for 1 minute.",
+            "6. Dead Conductors: 1/LR; bonus action; The Xiloans protect you for a time, wrapping you in the glowing sigils of their base magical properties. For the next 10 minutes, your AC increases by an amount equal to the number of Xiloans you have resurrected.",
+            "7. Summon a Xiloan: 1/week; You call upon one of the Xiloans you have aided, forcing it to take possession of a magical object or construct within 5' of you for the next hour. The Xiloan can control the object or construct and can greatly aid you in using it, but negotiating with such beings can be difficult, even for one such as you.",
+            "8. You gain an expertise die in checks to operate magical objects and constructs.",
+            "9. Your Resurrection feature now only takes 1min to conduct.",
+            "10. You can now use your Chant of the Dead feature X times per minute."
         ]
     },
     {
@@ -374,12 +374,12 @@
             "1. You gain an expertise die in all social skills.",
             "2. Anyone can help an ally, easing whatever task they are attempting. You, however, have the benefit of clarity and wisdom. When you use the Help action on another creature, they gain double advantage.",
             "3. No one is going to allow themselves to be governed by someone not willing to lay it on the line themselves. Thus, you constantly test yourself, and this toughens you. +1 CON.",
-            "4. A minion up to CR 1 joins you and your allies.",
+            "4. A humanoid minion of CR 1 joins you and your allies.",
             "5. Command: 1/min; bonus action; Through sheer force of will and charisma, you issue a simple command to a single living creature, which attempts to carry out your command during its next turn. The creature must be within 30' and be able to understand you. The command cannot inflict direct harm on the creature or its allies. In addition, the command can require the creature to take only one turn's worth of actions. A commanded creature can still take reactions as normal.",
             "6. The ally from T4 becomes CR 2.",
             "7. Captivate or Inspire: At-will; free action; You can use this feature in one of two ways. Either your words keep the attention of all NPCs that hear them for as long as you speak, or your words inspire all NPCs that hear them to gain a +1 bonus to AC and global AB for the next hour. In either case, you choose which NPCs are affected. If anyone in the crowd is attacked while you are speaking to them, you lose the crowd's attention.",
             "8. Leaders inspire confidence, and confidence comes from real ability. You gain 3 points to distribute among your ability scores as you wish.",
-            "9. The ally from T4 becomes CR 8.",
+            "9. The ally from T4 becomes CR 5.",
             "10. Mind of a Leader: 1/week; bonus action; When you develop a plan that involves the minion from T4, you can ask the DM one very general question about what is likely to happen if you carry out the plan, getting a simple, brief answer."
         ]
     },
@@ -1555,13 +1555,13 @@
         "name": "Taints",
         "description": "corruption",
         "tiers": [
-            "1. With a skin-to-touch touch (an unwilling target makes a DEX save against your maneuver DC) or a grapple, you drain the life essence of a living, organic being. For each round you are in contact, you deal 4 necrotic damage and give all Strength-based d20 rolls against them advantage. To maintain contact, you must be grappling the target.",
+            "1. With a grapple, you drain the life essence of a living, organic being. For each round you maintain the grapple, you deal 4 necrotic damage and give all Strength-based d20 rolls against them advantage.",
             "2. When you make physical skin-to-skin contact with an organic being, you must make an attack. On a hit, you cause them to take 4 true poison damage each round until they succeed on a DC 12 Constitution saving throw.",
-            "3. Corrupting Touch: 2/min; bonus action; You can inflict a random cosmetic mutation on any organic creature with a skin-to-skin touch for 24 hours. The effect takes place rapidly, manifesting within a few minutes.",
+            "3. Corrupting Touch: 2/min; bonus action; You can inflict a random cosmetic mutation on any organic creature with a skin-to-skin touch for 24 hours. The effect takes place rapidly, manifesting over 1min.",
             "4. Leech's Mark: 1/min; bonus action; You open your palm into a leech-like mouth to bite an organic target, dealing no damage, but injecting a small, black leech that burrows under the skin. The target takes 4 true piercing damage per round for 3 rounds. After 3 rounds, the leech exits the target's body and immediately flees by burrowing into the earth, but can be eaten to regain 1 hit point if captured.",
             "5. Souldrain: 1/SR; bonus action; You can skin-to-skin touch someone, draining them of any will or hope and converting it into healing energy for yourself. All non-trivial Charisma-based skill checks against them have double advantage and heal you for 2 hit points if successful. This effect remains in effect only as long as you retain physical skin-to-skin contact.",
-            "6. Decay: 1/LR; bonus action; You rapidly increase entropy in whatever you touch with your skin, causing an object of your size or smaller to become weakened, granting advantage to checks to break it. Living targets age rapidly by 1 year, granting advantage to all d20 rolls against them, and take 1d6 + your lvl necrotic damage.",
-            "7. During a short rest, you can elect to deal 8 necrotic damage to all organic life within 30' to recover an additional 4 hit points back, leaving the earth around you blackened and barren, unable to support life and leaving all other organic creatures within range poisoned until they take a short or long rest.",
+            "6. Decay: 1/LR; bonus action; You rapidly increase entropy in whatever you touch with your skin, causing an object of your size or smaller to become weakened, granting advantage to checks to break it. Living targets require an atk hit to be affected, aging rapidly by 1 year, granting advantage to all d20 rolls against them, and take 1d6 + your lvl necrotic damage.",
+            "7. During a short rest, you can elect to deal 8 necrotic damage to all organic life within 30' to recover an additional 4 hit points back, leaving the earth around you blackened and barren, unable to support life and leaving all other organic creatures within range poisoned until they take a short or long rest (not including the one they may be currently taking).",
             "8. Your corrupting influence has seeped so deeply into your being that it now manifests through your other powers. Any damaging projectile powers can now also be used to inflict the effects of T1, T2, or T3, instead of needing to make physical contact.",
             "9. Your T1 feature now grants double advantage to Strength-based d20 rolls against the target.",
             "10. Your T2 feature now deals 7 true poison damage."
@@ -1638,13 +1638,13 @@
             "1. Shroud of Flame: At-will; free action; At your command, your entire body becomes shrouded in a halo of flames until you wish for them to end. The fire does not burn you, but it automatically inflicts 1d6 fire damage to anyone who tries to touch you or strike you with a melee attack. Flames from another source can still hurt you. While the shroud is active, you gain +4 fire resistance.",
             "2. Hurl Flame: 2/min; bonus action; While your Shroud of Flame feature is active, you can reach into your halo and hurl a handful of fire at a target. This is an attack with range 30' that deals 1d10 + your level fire damage.",
             "3. When you cast a spell that deals damage, it deals an additional 1d4 fire damage.",
-            "4. Fiery Hand of Doom: At-will; bonus action; While your Shroud of Flame feature is active, you can reach into your halo and produce a hand made of animate flame that is twice the size of your hand. The hand acts as you direct, floating in the air. Directing the hand is a bonus action. Without a command, the hand does nothing. It can move up to 120' in a round, but it never moves farther away from you than 120'. The hand can grab, move, and carry things, but anything it touches takes 1d4 fire damage per round from the heat. The hand can also attack. It has +5 AB and deals 1d8 fire damage when it attacks. Once created, the hand lasts for 10 minutes, and you can only have 1 at a time.",
+            "4. Fiery Hand of Doom: At-will; bonus action; While your Shroud of Flame feature is active, you can reach into your halo and produce a hand made of animate flame that is twice the size of your hand. The hand acts as you direct, floating in the air. Directing the hand is a bonus action. Without a command, the hand does nothing. It can move up to 120' in a round, but it never moves farther away from you than 120'. The hand can grab, move, and carry things, but any objs it touches takes 1d4 fire damage per round from the heat. The hand can also attack. It has +5 AB and deals 1d8 fire damage when it attacks. Once created, the hand lasts for 10 minutes, and you can only have 1 at a time.",
             "5. Wings of Fire: 1/SR; bonus action; While your Shroud of Flame feature is active, you can spread wings of fire and levitate, gaining a flying speed of 20'. You can only take 1 other non-movement action on your turn while these wings are active.",
             "6. Flameblade: 1/SR; free action; When you wish it, you extend your halo of fire to cover a weapon you wield in flame for 1 hour. The flame ends if you stop holding or carrying the weapon. While the flame lasts, the weapon deals +1d6 fire damage.",
             "7. Fire Tendrils: 1/LR; free action; When you wish it, your halo sprouts 3 tendrils of flame that last for up to 10 minutes. As a bonus action, you can use the tendrils to attack, making a separate attack roll for each. Each tendril deals 1d10 + 1d8 fire damage. If you do not use the tendrils to attack, they remain but do nothing.",
-            "8. Fire Servant: 1/week; bonus action; You reach into your halo and produce an automaton of fire that is your general shape and size. It acts as you direct each round. Directing the servant is a bonus action, and you can command it only when you are within 120' of it. Without a command, the servant continues to follow your previous command. You can also give it a simple programmed action, such as 'wait here, and attack anyone who comes within 30' until they are dead.' The servant lasts for 10 minutes, has 16 AC, 50 hit points, 6 AB, and deals 8 fire damage when it attacks.",
+            "8. Fire Servant: 1/week; bonus action; You reach into your halo and produce an automaton of fire that is your general shape and size. It acts as you direct each round. Directing the servant is a bonus action, and you can command it only when you are within 120' of it. Without a command, the servant continues to follow your previous command. You can also give it a simple programmed action, such as 'wait here, and attack anyone who comes within 30' until they are dead.' The servant lasts for 10 minutes and is a CR 1 minion that deals fire dmg.",
             "9. Inferno Trail: 1/week; bonus action; For the next minute, you leave a trail of flame in your wake. The trail matches your path and lasts for up to a minute, creating a wall of flame about 6' high that inflicts 1d12 + your level fire damage to any creature that passes through it (requires an attack), catching them on fire on a substantial hit for an additional 1d4 fire damage each round until they spend a full turn action putting out the fire.",
-            "10. Your Shroud of Flame feature now deals 1d12 fire damage instead of 1d6."
+            "10. Your Shroud of Flame feature now deals 1d12 fire thorns damage instead of 1d6."
         ]
     },
     {
@@ -1859,15 +1859,15 @@
         "name": "Defends the Gate",
         "description": "defending and securing a position",
         "tiers": [
-            "1. Fortified Position: 2/min; bonus action; For the next minute, you gain +1 AC and advantage on Strength saving throws, as long as you have not moved more than 5' since the start of your last turn.",
+            "1. Fortified Position: At-will; bonus action; For the next minute, you gain +1 AC and advantage on Strength saving throws, as long as you have not moved more than 5' since the start of your last turn.",
             "2. Rally to Me: 2/min; bonus action; You cry out, blow a battle horn, or otherwise signal to everyone within 120' that you require aid. All allied creatures who respond by moving to within 5' of you within the next 3 rounds gain advantage on any 1 attack roll or saving throw within the next hour that you suggest, such as 'hold the gate', 'charge that group of kobolds', or something similar.",
             "3. When performing a task that would normally require expending a spell slot, you can spend hit points instead, and vice versa, at a rate of 1 spell slot level to 15 hit points.",
-            "4. Whenever you attempt a crafting task - or help in the crafting task - to build a wall or other fortification (regardless of whether it is commonplace or a magical installation designed as a fortification or defence), you have or grant double advantage on the check(s).",
+            "4. Whenever you attempt a construction task - or help in the construction task - to build a wall or other fortification (regardless of whether it is commonplace or a magical installation designed as a fortification or defence), you have or grant double advantage on the check(s).",
             "5. During idle moments in the month or more that you have been active in an allied community or horde, you trained a humanoid follower of up to CR 9. This follower does not accompany when you leave the horde or community, but rather remains behind to see that the community or horde remains safe. If you ever use your Rally to Me feature within earshot of your trained defender, they gain advantage on tasks related to defending the community for the remainder of the situation.",
             "6. You are mightier than others. Gain 2 CON.",
             "7. Reinforcing Field: 1/week; bonus action; You can reinforce any object or structure by infusing it with a force field for 1 hour. The force field increases the object or structure's DCs related to withstanding damage and destruction by 6.",
             "8. Generate Force Field: 1/decade; bonus action; You create six planes of solid force (each with AC 24 and 40 hit points), each 30' to a side, which persist for 1 hour. The planes must be contiguous, and they retain the position that you choose when initiating this feature. For instance, you could arrange the planes linearly, creating a wall 180' long, or you could create a closed cube. The planes conform to the space available.",
-            "9. Rout Horde: 1/decade; bonus action; With a display of energy, force, and shaking earth, you can attempt to block a horde of up to 100 creatures for 1 hour (or potentially longer if the horde has second thoughts about pressing its attack). A routed horde retreats several hundred yards and assesses its options.",
+            "9. Rout Horde: 1/decade; bonus action; With a display of energy, force, and shaking earth, you can attempt to block a horde of up to 100 creatures for 1 hour (or potentially longer if the horde has second thoughts about pressing its attack).",
             "10. Your Fortified Position feature now grants +3 to AC instead of +1."
         ]
     },

@@ -751,44 +751,116 @@
                     "upgrade": "-4 and 2pts distributed/1"
                 },
                 {
-                    "description": "3. +1 force spell dmg", [LAST]
+                    "description": "3. +1 force spell dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "4. +1 to your non-dmging illusion spell DCs",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "5. your non-instantaneous illusion spells last for +1 duration step",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "6. buffs applied to illusory images of you are instead applied to you",
-                    "pointValue": "1",
-                    "upgrade": "+1 effectiveness of buffs on illusory images of you/2"
-                },
-                {
-                    "description": "7. on creating an illusion, +1 global dmg for combat",
+                    "description": "4. +1 force spell crit range",
                     "pointValue": "4",
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "8. on successfully hiding, also conjure an illusory image of yourself as per the Silent Image spell",
-                    "pointValue": "4",
-                    "upgrade": "Major Image->Mislead->Project Image/4"
-                },
-                {
-                    "description": "9. your illusory images have +5' sp",
+                    "description": "5. +3 spell dmg vs creatures' images of themselves",
                     "pointValue": "1",
-                    "upgrade": "+5'/1"
+                    "upgrade": "+2/1"
                 },
                 {
-                    "description": "10. on creating an illusory image, +1 global dmg until end of your next turn",
+                    "description": "6. +1 to your Illusion spell DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "7. your non-dmging Illusion spells can target 1 additional target in range",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. +1 performance",
                     "pointValue": "1",
                     "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +3 spell dmg vs targets currently possessing another creature",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "10. +1 force spell crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Red Dragon's Rage",
+            "startingMods": [
+                {
+                    "description": "-2 wep dmg",
+                    "pointValue": "-2",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "your wep hits splash 3 dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+5 AoE wep dmg",
+                    "pointValue": "5",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 to your DC with the Disarm maneuver",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 basic dmg with the Disarm maneuver",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 fire AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. on wep hit, 20% chance to silence target until end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+10%/1"
+                },
+                {
+                    "description": "6. +1 wep dmg vs debuffed targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 AoE AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "9. your hits splash 1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 AoE wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 }
             ]
         }
@@ -1110,7 +1182,7 @@
                 {
                     "description": "2. you can no longer die from fatigue",
                     "pointValue": "1",
-                    "upgrade": "+1 to saves vs fatigue/2"
+                    "upgrade": "+1 to saves vs debuffs/4"
                 },
                 {
                     "description": "3. +1 incoming temp HP",
@@ -1163,9 +1235,9 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+2 to saves vs fire DoTs",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
+                    "description": "+1 to saves vs debuffs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 },
                 {
                     "description": "+1d4 P dmg to adv wep atks",
@@ -1293,6 +1365,222 @@
                 },
                 {
                     "description": "10. +2 aths during combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Warden's Mail",
+            "startingMods": [
+                {
+                    "description": "+1 phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+1 phys res per adj ally",
+                    "pointValue": "3",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "when downed, gain +2 global dmg until LR",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. -1 init; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. +1 phys abs",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "3. +1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. react to change incoming dmg into B",
+                    "pointValue": "1",
+                    "upgrade": "+2->1 B res/1"
+                },
+                {
+                    "description": "5. on hit, heal 1 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +3 fall dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "7. +1 phys AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "8. on taking phys dmg, offender takes 4 thorns dmg",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "9. -1 non-phys res; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 3pts distributed/1"
+                },
+                {
+                    "description": "10. whenever an ally within 60' takes phys dmg, react to take half of it",
+                    "pointValue": "1",
+                    "upgrade": "+1 phys res/2"
+                }
+            ]
+        },
+        {
+            "name": "Unity Crystal",
+            "startingMods": [
+                {
+                    "description": "you and all allies within 60' have +1 dmg res per ally within 10' of you",
+                    "pointValue": "8",
+                    "upgrade": "+1/8"
+                },
+                {
+                    "description": "on block, gain 5 temp HP",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "+1 dmg res per ally within 10' of you",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. you and all allies within 60' have +1 dmg res",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. when dmg'd, react to split the dmg with an ally within 60'",
+                    "pointValue": "1",
+                    "upgrade": "2->1 less dmg taken while sharing dmg/1"
+                },
+                {
+                    "description": "3. on block, 20% chance to heal 3 HP",
+                    "pointValue": "2",
+                    "upgrade": "+10%/1 OR +1 HP/1"
+                },
+                {
+                    "description": "4. +1 incoming temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. you and all allies within 60' have +1 incoming healing",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. on block, heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. on block, 20% chance to generate 5 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1 OR +5 HP/1"
+                },
+                {
+                    "description": "8. +5' fly sp",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "9. +1 AC while you have temp HP",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. on block, 20% chance for offender to take 4 thorns dmg",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1 OR +4 dmg/1"
+                }
+            ]
+        },
+        {
+            "name": "Crippling Wound",
+            "startingMods": [
+                {
+                    "description": "-2 init",
+                    "pointValue": "-2",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "-1 to saves to end ongoing debuffs",
+                    "pointValue": "-3",
+                    "upgrade": "-1 and 4pts distributed/1"
+                },
+                {
+                    "description": "+6 dmg res",
+                    "pointValue": "12",
+                    "upgrade": "+1/2"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on block, atker becomes slowed until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1 to your debuff DCs/4"
+                },
+                {
+                    "description": "2. +1 dmg res vs foes ahead of you in initiative",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 dmg abs",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "4. +1 to initial debuff saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. on block, atker gets 2 S DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "8. when dmg'd, atker becomes slowed until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1 to your debuff DCs/4"
+                },
+                {
+                    "description": "9. 20% chance to refund spent spell slots",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1"
+                },
+                {
+                    "description": "10. +1 DoT res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 }

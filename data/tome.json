@@ -368,8 +368,84 @@
         "description": "The power deals more dmg to debuffed targets."
     },
     {
-        "name": "Keen Cruelty [DONE]",
+        "name": "Keen Cruelty",
         "target": "Any power",
         "description": "The power has +1 crit range against debuffed targets."
+    },
+    {
+        "name": "Speed",
+        "target": "Powers that can deal dmg",
+        "description": "The power's usage time is reduced by 1 step, but it deals less dmg.",
+        "meta": "fireball"
+    },
+    {
+        "name": "Focused Speed",
+        "target": "Powers that have multiple individual targets",
+        "description": "The power's usage time is reduced by 1 step and it deals slightly more dmg for each additional individual target it has above 1, but it now only has 1 individual target."
+    },
+    {
+        "name": "Channeling",
+        "target": "Powers with an instantaneous duration and a non-self/melee range",
+        "description": "The power's duration becomes 'Concentration, up to 1 minute', and you can reactivate its effect as its usage time throughout the duration. Its range is also halved."
+    },
+    {
+        "name": "Overcharged Penetration",
+        "target": "Powers with a non-cooldown resource cost that require concentration and fire projectiles",
+        "description": "The power's projectiles are converted to 5'-wide line AoEs and deal more dmg, but its cost is increased by 1 step."
+    },
+    {
+        "name": "Efficient Channeling",
+        "target": "Powers with a non-cooldown resource cost that require concentration and deal dmg",
+        "description": "The power's cost is 1 step lower, but it deals less dmg."
+    },
+    {
+        "name": "Protective Channeling",
+        "target": "Powers that require concentration",
+        "description": "While concentrating on the power, you have barely more phys res and slightly more $nonPhysType res."
+    },
+    {
+        "name": "Distance",
+        "target": "Powers with a non-self/melee range",
+        "description": "The power's range is doubled."
+    },
+    {
+        "name": "Efficient Power",
+        "target": "Powers with a non-cooldown resource cost",
+        "description": "The power's cost is 1 step lower and it deals barely more dmg."
+    },
+    {
+        "name": "Shredding",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target's $nonPhysType res is reduced."
+    },
+    {
+        "name": "Unstable Focus",
+        "target": "Powers that have multiple individual targets",
+        "description": "If all of the power's individual targets are the same, a burst of energy erupts around the target, making a spell atk against all foes within 5' of the target (including them), dealing slight $nonPhysType dmg."
+    },
+    {
+        "name": "Reliable Explosions",
+        "target": "Powers with sphere areas that trigger from hits",
+        "description": "The power's sphere areas still trigger even if the required effects do not hit."
+    },
+    {
+        "name": "Telekinesis",
+        "target": "Powers that fire projectiles",
+        "description": "The power's projectiles have +1 Accuracy."
+    },
+    {
+        "name": "Decay",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save."
+    },
+    {
+        "name": "Spreading Decay",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing barely any $nonPhysType dmg, stacking until DEX save. Whenever this DoT ticks, it spreads to all creatures of your choice adj to the afflicted creature."
+    },
+    {
+        "name": "Powerful Decay [wildfire]",
+        "target": "Powers that inflict DoTs",
+        "description": "The power's DoTs deal more dmg."
     }
 ]

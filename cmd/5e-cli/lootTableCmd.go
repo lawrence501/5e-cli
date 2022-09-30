@@ -276,10 +276,10 @@ var relic = func() error {
 	if err != nil {
 		return err
 	}
-	typeRoll := rand.Intn(5)
+	typeRoll := rand.Intn(3)
 	options := relics.Armour
 	t := "armour"
-	if typeRoll < 2 {
+	if typeRoll < 1 {
 		options = relics.Weapon
 		t = "weapon"
 	}

@@ -18,7 +18,7 @@ var ROLL_RANGE_CEILINGS = map[int]func() error{
 	32:  amulet,
 	40:  ring,
 	48:  shrine,
-	60:  func() error { log.Println("Reroll twice/upgrade result with +1 colour!"); return nil },
+	60:  func() error { log.Println("Reroll with advantage and upgrade result with +1 colour!"); return nil },
 	68:  body,
 	76:  tome,
 	84:  relic,
