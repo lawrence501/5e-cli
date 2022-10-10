@@ -231,7 +231,7 @@ var WEAPON_TRAITS []string = []string{
 	"deadly",
 	"disarm",
 	"dual-wielding",
-	"fatal (+1 die size)",
+	"fatal (+2 die size)",
 	"flexible (random other)",
 	"forceful",
 	"grapple",

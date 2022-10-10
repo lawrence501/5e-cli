@@ -57,7 +57,7 @@
     },
     {
         "name": "Temperance",
-        "description": "The item is not created. Instead, the other 2 cards from this reading are added to your next reading."
+        "description": "The item is not created. Instead, the other 2 cards from this reading are added to your next reading, which can have up to 4 cards total in it (allowing you to perform a reading with 2 new cards)."
     },
     {
         "name": "The Devil",
@@ -93,14 +93,14 @@
     },
     {
         "name": "Ace of Cups",
-        "description": "The item's base mod modifier must have either the 'HP' or 'Minion' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The item's base modifier must have either the 'HP' or 'Minion' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     },
     {
         "name": "Ace of Swords",
-        "description": "The item's base mod modifier must have either the 'Weapon' or 'Damage over Time' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The item's base modifier must have either the 'Weapon' or 'Damage over Time' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     },
     {
         "name": "Ace of Pentacles",
-        "description": "The item's base mod modifier must have either the 'Defence' or 'Debuff' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The item's base modifier must have either the 'Defence' or 'Debuff' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     }
 ]

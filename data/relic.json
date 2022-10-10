@@ -426,9 +426,9 @@
                     "upgrade": "+10%/1 OR +1 HP/1"
                 },
                 {
-                    "description": "10. 1/turn, when hit, 20% chance to gain +2 passive regen until the end of your next turn",
+                    "description": "10. 1/turn, when hit, 20% chance to gain +3 incoming healing until the end of your next turn",
                     "pointValue": "2",
-                    "upgrade": "+1/1"
+                    "upgrade": "+10%/1 OR +1 healing/1"
                 }
             ]
         },
@@ -597,7 +597,7 @@
             ],
             "thematicMods": [
                 {
-                    "description": "1. +20% to item proc chances to trigger from limited features",
+                    "description": "1. +10% to item proc chances to trigger from limited features",
                     "pointValue": "1",
                     "upgrade": "+10%/1"
                 },
@@ -861,6 +861,294 @@
                     "description": "10. +1 AoE wep AB",
                     "pointValue": "4",
                     "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Queen of Pain",
+            "startingMods": [
+                {
+                    "description": "+2 thunder dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+3 cone AoE dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on glyphic hit, target pushed 5' away from you",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +5' teleport distance",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "2. on teleport, 20% chance to release a sonic boom at your origin, a glyphic atk against all foes adj to your origin dealing 1d4 thunder dmg",
+                    "pointValue": "3",
+                    "upgrade": "+10%/1 OR +1 dmg/1"
+                },
+                {
+                    "description": "3. on teleport, 20% chance to release a sonic boom at your destination, a glyphic atk against all foes adj to your destination dealing 1d4 thunder dmg",
+                    "pointValue": "3",
+                    "upgrade": "+10%/1 OR +1 dmg/1"
+                },
+                {
+                    "description": "4. on glyphic hit, 20% chance to silence target until end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+10%/1"
+                },
+                {
+                    "description": "5. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +2 sphere AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 P dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. on P hit, inflict 1 psn DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. creatures affected by your DoTs are slowed",
+                    "pointValue": "3",
+                    "upgrade": "+1 to your ongoing debuff DCs/3"
+                },
+                {
+                    "description": "10. on DoT tick, heal 1 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Auric Rune",
+            "startingMods": [
+                {
+                    "description": "+2 throwing dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "allies within 60' of you have +5' sp when moving toward foes",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "+2 melee dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on turn start, choose a creature within 15' of you to have -1 to debuff saves until your next turn",
+                    "pointValue": "4",
+                    "upgrade": "-1/4"
+                },
+                {
+                    "description": "2. on melee hit, choose a creature armed with a melee wep within 15' of you and roll a d6. On a 6, one of their melee weps of your choice gets -1 AB for combat. Can only be done once per wep.",
+                    "pointValue": "2",
+                    "upgrade": "-1 AB/2"
+                },
+                {
+                    "description": "3. +1 wep dmg for each foe in 60'",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. 1/combat, when hit, a spectral copy of your wep/its projs spiral around you, making a glyphic atk against all adj foes dealing 1d4 light dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "5. +1 melee crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. on turn start, if you haven't displaced distance since start of your last turn, get -5' sp until you either teleport or combat ends; 3pts distributed",
+                    "pointValue": "-2",
+                    "upgrade": "-5' and 3pts distributed/1"
+                },
+                {
+                    "description": "7. +3 wep dmg per 5' below 30' your sp is",
+                    "pointValue": "2",
+                    "upgrade": "-5' sp and 3pts distributed/1"
+                },
+                {
+                    "description": "8. +2 dmg res per 5' below 30' your sp is",
+                    "pointValue": "4",
+                    "upgrade": "-5' sp and 3pts distributed/1"
+                },
+                {
+                    "description": "9. on turn start, choose a creature within 50' of you to have +1 melee dmg until end of their next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 STR",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Iceborn Subjugation",
+            "startingMods": [
+                {
+                    "description": "whenever an adj creature dies, you raise their corpse as a Frozen Thrall, a CR 1/8 undead minion that deals cold dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "+3 undead minion dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "foes starting their turns adj to your undead minions are slowed",
+                    "pointValue": "6",
+                    "upgrade": "+3->2 minion dmg vs debuffed targets/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on undead minion hit, the minion explodes and dies, making a spell atk against all adj foes that deals 1d4 cold dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on spell hit, target is slowed until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+2->1 spell dmg vs debuffed targets/1"
+                },
+                {
+                    "description": "4. your projs pierce 1 target",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "5. after your projs pierce a target, they become 5' wider in a direction of your choice",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "6. +1 proj dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +2 sphere AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 cold dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. on spell hit, target rooted until end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+2->1 spell dmg vs debuffed targets/1"
+                },
+                {
+                    "description": "10. +2 line AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Windshaper",
+            "startingMods": [
+                {
+                    "description": "your line AoEs now create 5x5' pers areas beneath a creature of your choice within range equal to the line's length",
+                    "pointValue": "1",
+                    "upgrade": "+1 pers area dmg/1"
+                },
+                {
+                    "description": "whenever you create a pers area, choose a creature for it to follow. At the start of your turn, the area moves the smallest amount such that the creature is inside it. When it moves through other creatures it counts as them entering its area",
+                    "pointValue": "3",
+                    "upgrade": "+1 pers area dmg/1"
+                },
+                {
+                    "description": "+2 pers area dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. your pers areas deal +2 dmg during their first rnd of existence",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. your buff powers that target a single creature now instead target an empty space, granting the buff to all allies (including you) adj to the space",
+                    "pointValue": "3",
+                    "upgrade": "+1 buff effectiveness/3"
+                },
+                {
+                    "description": "3. +2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 to your pers area DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. your minions have double duration",
+                    "pointValue": "2",
+                    "upgrade": "+1 multi/2"
+                },
+                {
+                    "description": "6. +5' to your pers area sizes",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "7. +1 buff effectiveness",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. you ignore penalties from wind-based weather on your journey activities",
+                    "pointValue": "3",
+                    "upgrade": "+1 to journey activity checks in wind-based weather/3"
+                },
+                {
+                    "description": "9. your pers areas deal -3 dmg to allies",
+                    "pointValue": "1",
+                    "upgrade": "-2/1"
+                },
+                {
+                    "description": "10. your minions have +3 dmg res during their first rnd of existence",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
                 }
             ]
         }
@@ -1583,6 +1871,150 @@
                     "description": "10. +1 DoT res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Black Dragon Mail",
+            "startingMods": [
+                {
+                    "description": "+1 AC",
+                    "pointValue": "5",
+                    "upgrade": "+1/5"
+                },
+                {
+                    "description": "+1 to saves vs debuffs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+3 to saves vs dragons' breath weps",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +2 acid res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. 1/LR, as action, can learn the distance and direction to the closest black dragon within 30 miles",
+                    "pointValue": "1",
+                    "upgrade": "+2->1 dmg res vs dragons/1"
+                },
+                {
+                    "description": "3. +4 minion HP",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "4. +1 CHA",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1 decep while trying to non-trivially pass as another person",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. your minions have double duration",
+                    "pointValue": "2",
+                    "upgrade": "+1 multi/2"
+                },
+                {
+                    "description": "7. +1 to wep saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "8. +1 to spell saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "9. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. +1 to DEX saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ]
+        },
+        {
+            "name": "Feral Wilderness",
+            "startingMods": [
+                {
+                    "description": "+10' sp while shapeshifted",
+                    "pointValue": "2",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "on melee hit, 30% chance to refund the non-cooldown resource cost of your next limited feature",
+                    "pointValue": "2",
+                    "upgrade": "+10%/1"
+                },
+                {
+                    "description": "+10% to item proc chances",
+                    "pointValue": "2",
+                    "upgrade": "+10%/2"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on melee hit, 20% chance to give your next melee hit +3 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+10%/1 OR +2 dmg/1"
+                },
+                {
+                    "description": "2. +1 max exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "3. on hitting a 3rd time with a basic wep atk in the same turn, your next melee hit has +1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on basic melee wep hit, target gets 1 S DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. whenever a creature affected by your DoTs dies, you gain +1 global dmg for combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 melee dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. on basic melee wep hit, all your DoTs on the target have their dmg increased by 1",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "8. +2 spell dmg while shapeshifted",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. you can cast spells for exertion, at a cost of 2 exertion per slot lvl",
+                    "pointValue": "1",
+                    "upgrade": "-1/3"
+                },
+                {
+                    "description": "10. all your spells count as cantrips",
+                    "pointValue": "1",
+                    "upgrade": "+1 cantrip dmg/1"
                 }
             ]
         }

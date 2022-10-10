@@ -23,6 +23,11 @@ func isInt(str string) bool {
 	return err == nil
 }
 
+func roundFloat(val float64, precision uint) float64 {
+	ratio := math.Pow(10, float64(precision))
+	return math.Round(val*ratio) / ratio
+}
+
 func fetchTarot(cardIdx int) (Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
@@ -496,5 +501,31 @@ func getLootSearchResults(skill string) (int, error) {
 		return 0, nil
 	}
 
+	// TODO: update to 2 average after 13*count
 	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(playerCount)) + 1), nil
+}
+
+var DIE_SIZES []float64 = []float64{2.5, 3.5, 4.5, 5.5, 6.5}
+var DIE_FACES []string = []string{"d4", "d6", "d8", "d10", "d12"}
+
+func dmgToDice(dmg float64) string {
+	var lowestDie string
+	lowestMod := -1.0
+	lowestCount := 1.0
+	for idx, size := range DIE_SIZES {
+		mod := math.Mod(dmg, size)
+		if mod <= lowestMod || lowestMod < 0 {
+			count := math.Floor(dmg / size)
+			face := DIE_FACES[idx]
+			if (face == "d4" && count > 0 && count <= 5) || (face != "d4" && count > 0 && count <= 10) {
+				lowestDie = face
+				lowestMod = mod
+				lowestCount = count
+			}
+		}
+	}
+	if lowestMod < 0 {
+		return fmt.Sprintf("No elegant dice set found (1-10 dice) for %.1f damage.", dmg)
+	}
+	return fmt.Sprintf("%.0f%s", lowestCount, lowestDie)
 }

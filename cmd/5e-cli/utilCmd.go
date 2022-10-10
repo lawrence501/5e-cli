@@ -2,11 +2,13 @@ package main
 
 import (
 	"errors"
+	"fmt"
 	"log"
 	"math/rand"
 	"reflect"
 	"sort"
 	"strconv"
+	"strings"
 
 	"github.com/manifoldco/promptui"
 	"golang.org/x/exp/slices"
@@ -234,6 +236,75 @@ var gem = func() error {
 		}
 	}
 	return errors.New("No valid gem affix found for tag " + tag)
+}
+
+var craft = func() error {
+	crafts, err := fetchGenericEnchants("craft")
+	if err != nil {
+		return err
+	}
+
+	chosen := crafts[rand.Intn(len(crafts))]
+	log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
+	return nil
+}
+
+var targetCraft = func() error {
+	affP := promptui.Prompt{
+		Label:    "Affinities (space-separated)",
+		Validate: validateSpaceSeparated,
+	}
+	affString, err := affP.Run()
+	if err != nil {
+		return err
+	}
+
+	affinities := strings.Split(affString, " ")
+
+	crafts, err := fetchGenericEnchants("craft")
+	if err != nil {
+		return err
+	}
+
+	var chosen Enchant
+	for true {
+		chosen = crafts[rand.Intn(len(crafts))]
+		for _, affinity := range affinities {
+			if slices.Contains(chosen.Tags, affinity) {
+				log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
+				return nil
+			}
+		}
+	}
+	return nil
+}
+
+var dmgUpgrade = func() error {
+	dmgP := promptui.Prompt{
+		Label:    "Current average damage",
+		Validate: validateFloat,
+	}
+	dmgString, err := dmgP.Run()
+	if err != nil {
+		return err
+	}
+
+	multiP := promptui.Prompt{
+		Label:    "Damage multiplier",
+		Validate: validateFloat,
+	}
+	multiString, err := multiP.Run()
+	if err != nil {
+		return err
+	}
+
+	multiplier, _ := strconv.ParseFloat(multiString, 64)
+	multiplier *= 0.01
+	currentDmg, _ := strconv.ParseFloat(dmgString, 64)
+	newDmg := currentDmg * multiplier
+	fmt.Printf("New damage dice: %s", dmgToDice(newDmg))
+
+	return nil
 }
 
 var npc = func() error {

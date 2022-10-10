@@ -19,14 +19,14 @@
         "name": "Wakes From Death",
         "description": "Waking up from death",
         "tiers": [
-            "1. When you die, you instead add one point to your Immortality Pool and enter a coma for 24 hours. If your body is completely destroyed, it reforms again in the nearest safe place, but your equipment does not go with it. When you awake, you heal up to 40 + double your Immortality Pool hit points.",
-            "2. +2 history",
-            "3. Because you know you cannot die, you have developed strange techniques for dealing with foes. When attacked by a creature within 5', you can elect to take the hit by hurling yourself on the attacker's weapon. When doing this, you leave the creature shocked by your seemingly insane actions, stunning them until the end of their next turn. If you succeed on a STR save with DC 8 + the creature's attacks' AB, you disarm them by lodging the weapon inside your own body. They must succeed on a contested STR check against you to recover it.",
+            "1. When you die, you instead add one point to your Immortality Pool and enter a coma for 24 hours. If your body is completely destroyed, it reforms again in the nearest safe place, but your equipment does not go with it. When you awake, you heal up to 20 + double your Immortality Pool hit points.",
+            "2. You gain an expertise die in history",
+            "3. Because you know you cannot die, you have developed strange techniques for dealing with foes. When attacked by a creature within 5', you can elect to take the hit by hurling yourself on the attacker's weapon. When doing this, you leave the creature shocked by your seemingly insane actions, debilitating them until the end of their next turn. If you succeed on a STR save with DC 8 + the creature's AB, you disarm them by lodging the weapon inside your own body. They must succeed on a contested STR check against you as a bonus action to recover it.",
             "4. Channelling your immortality, you can spend points from your Immortality Pool to heal 1 HP per point as a free action at any time.",
             "5. When you die, you can choose to spend 5 Immortality points to instantly regenerate instead of waiting 24 hours.",
             "6. Your experience, memories, and ability to survive have granted you many perks. Your maximum HP is increased by 10 and your built-up scar tissue grants you +1 AC.",
             "7. Past Life: 1/week; bonus action; Peering into your past, you can pull forth the memory of an ability from a previous life, feeling memories flowing back into your mind. You can cast any cantrip.",
-            "8. Release of Death: at will; action; You have mastered the forces that grant you eternal life and have found a way to release the energy directly. On death, you can elect to release the forces that rebuild you as a burst of energy that converts your entire Immortality Pool into 6x the amount + your level as 5. against all creatures you choose within 120'.",
+            "8. Release of Death: at will; action; You have mastered the forces that grant you eternal life and have found a way to release the energy directly. On death, you can elect to release the forces that rebuild you as a burst of energy that converts your entire Immortality Pool into 6x the amount + your level as an attack against all creatures you choose within 120'.",
             "9. When using your Release of Death feature, you can choose to release yourself from the endless cycle of rebirth. All damage dealt is doubled, but you lose your immortality and die outright. Your next character retains this character's memories and starts with proficiency in history.",
             "10. Your coma when reviving now lasts 1 hour instead of 24."
         ]
@@ -37,14 +37,14 @@
         "tiers": [
             "1. You inflict 6 additional points of damage against constructs.",
             "2. You have studied your enemy and are trained in anticipating the actions that an automaton or machine is likely to take in a fight. You have advantage on saving throws against constructs' effects.",
-            "3. +2 to skill checks to track, spot, or otherwise find constructs. Additionally, gain +2 stealth.",
-            "4. Disable Mechanisms: 1/minute; bonus action; With a keen eye and quick moves, you can touch a construct within your reach to disrupt some of its functions and inflict upon it one of the following maladies: it has disdavantage on all d20 rolls for 1 min; its speed is halved until repaired; it is incapacitated (ignoring immunity) until the end of its next turn; it deals -4 global damage for 1 min",
-            "5. If attacking from stealth, with surprise, or before your target has acted in the current combat, your attack automatically hits. Additionally, a similar attack inflicts 4 additional points of damage.",
+            "3. You gain an expertise die in skill checks to track, spot, or otherwise find constructs. Additionally, you gain an expertise die in stealth.",
+            "4. Disable Mechanisms: 1/minute; bonus action; With a keen eye and quick moves, you can touch a construct within your reach to disrupt some of its functions and inflict upon it one of the following maladies: it has disdavantage on all d20 rolls for 1 min; its speed is halved until repaired; it is dazed (ignoring immunity) until the end of its next turn; it deals -4 global damage for 1 min",
+            "5. If attacking from stealth or before your target has acted in the current combat, your attack automatically hits. Additionally, a similar attack inflicts 4 additional points of damage.",
             "6. When fighting a construct, you have advantage on attack rolls against them and their attack rolls have disadvantage against you.",
-            "7. +2 AB against constructs.",
+            "7. You gain an expertise die in attack rolls against constructs.",
             "8. Drain Power: 1/LR; bonus action; you affect the main power source of a construct within your reach you touch, inflicting upon it all four conditions listed in your Disable Mechanisms feature.",
             "9. Blind Machine: 1/week; bonus action; You deactivate the sensory apparatus of a construct you either touch or hit with a ranged attack (which deals no damage if using this effect), blinding (ignoring immunity) it until it is repaired.",
-            "10. Deactivate Mechanisms: 1/LR; bonus action; Make a melee attack that inflicts no damage against a construct. Instead, if the attack hits, make a sleight of hand check against the target's AC. If successful, a construct of CR 3 or lower is unconscious (ignoring immunity) for 1 min."
+            "10. Deactivate Mechanisms: 1/LR; bonus action; Make a melee attack that inflicts no damage against a construct. Instead, if the attack hits, make a sleight of hand check against the target's AC. If successful, a construct of CR 3 or lower is dazed (ignoring immunity) for 1 min."
         ]
     },
     {
@@ -52,14 +52,14 @@
         "description": "Gain an esoteric computing system beneath your skin",
         "tiers": [
             "1. Conductivity: at will; bonus action; you connect with a magical object or construct within your reach, allowing you to access its usual abilities and interfaces by tapping glowing buttons and symbols that appear on your forearm, though actually knowing how to use these functions may still require an Arcana check. The connection lasts for 10 minutes or until you are further than 120' away from the object.",
-            "2. Mana Scan: 2/minute; bonus action; you scan an area up to 120' away for any magical objects or constructs you could interface with through your Conductivity feature.",
-            "3. You are able to access readouts for your own life signs through your interfaces. You have advantage on medicine checks used on yourself. The added information also grants you +2 to incoming healing while you can see your skin.",
+            "2. Mana Scan: 2/minute; bonus action; you scan an area up to 120' away for the distance and direction of any magical objects or constructs you could interface with through your Conductivity feature.",
+            "3. You are able to access readouts for your own life signs through your interfaces. You have advantage on medicine checks used on yourself. The added information also grants you +1 to incoming healing while you can see your skin.",
             "4. Deep Conducting: 1/SR; bonus action; after having used your Conductivity feature with an object, you may employ this feature, granting you access to its most guarded functions, such as autodestruct, hidden information, or complex operations. This connection lasts for the same duration as your use of Conductivity.",
-            "5. Reset: 1/LR; bonus action; you program your body to restart its own functions. You immediately fall unconscious for 1d6 rounds, at the end of which you reawaken, having removed all conditions, curses, and diseases afflicting you and healing 6 hit points.",
+            "5. Reset: 1/LR; bonus action; you program your body to restart its own functions. You immediately fall unconscious for 1d6 rounds, at the end of which you reawaken, having removed all debuffs afflicting you and healing 3 hit points.",
             "6. Redesign: 1/week; bonus action; you alter your internal functions for a time, granting you +1 to all ability score modifiers. This effect lasts for 1 hour.",
-            "7. Your Conductivity feature no longer has a range limit.",
+            "7. Your Conductivity feature now has a range of 30'.",
             "8. Your Mana Scan feature can now be used at will.",
-            "9. +2 medicine.",
+            "9. You gain an expertise die in medicine.",
             "10. Your Deep Conducting feature can now be used twice per minute."
         ]
     },
@@ -67,12 +67,12 @@
         "name": "Howls at the Moon",
         "description": "Becoming a lycanthrope",
         "tiers": [
-            "1. On five consecutive nights each month, you change into a monstrous beast for up to one hour each night. In this new form, you gain +6 STR and +3 DEX. While in beast form, you cannot cast spells. You can use a bonus action to attempt to revert to your normal form with a CHA save of DC 6 before the one hour is over. In addition, you attack any and every living creature within 30' of you. After you revert to your normal form, you have -1 to all d20 rolls for 1 hour. If you did not kill and eat at least one small or larger creature while in beast form, this penalty increases to -2 and lasts for 24 hours.",
+            "1. On five consecutive nights each month, you change into a monstrous beast for up to one hour each night. In this new form, you add +3 to your STR mod and +1 to your DEX mod. While in beast form, you cannot cast spells. You can use a bonus action to attempt to revert to your normal form with a CHA save of DC 6 before the one hour is over. In addition, you attack any and every living creature within 30' of you. After you revert to your normal form, you have -1 to all d20 rolls for 1 hour. If you did not kill and eat at least one small or larger creature while in beast form, this penalty increases to -2 and lasts for 24 hours.",
             "2. You can attempt to change into your beast form on any night you wish as a bonus action. You must succeed on a CHA check of DC 9 to do so. Any transformations you make using this feature are in addition to the 5 nights per month when you change involuntarily.",
-            "3. Your beast form grows larger than before, increasing its size by one stage. Being so large, your beast form gains the following additional benefits: AC +1, STR +2, and your unarmed attacks deal 1d12 damage if they don't already deal more. However, your DEX saves have disadvantage. While transformed, you also gain advantage on tasks that are easier for a larger creature to perform, like climbing, intimidating, wading rivers, and so on.",
-            "4. Your beast form gains the following additional bonuses: +2 STR and +3 DEX.",
+            "3. Your beast form grows larger than before, increasing its size by one stage. Being so large, your beast form gains the following additional benefits: AC +1, +1 STR mod, and your unarmed attacks deal 1d12 damage if they don't already deal more. However, your DEX saves have disadvantage. While transformed, you also gain advantage on tasks that are easier for a larger creature to perform, like climbing, intimidating, wading rivers, and so on.",
+            "4. Your beast form gains the following additional bonuses: +1 STR mod and +1 DEX mod.",
             "5. It is easier to change into and out of your beast form. Transforming either way now has a DC of 6.",
-            "6. Your beast form gains the following additional bonuses: +1 STR, +1 DEX, and +2 AC",
+            "6. Your beast form gains an additional +2 AC.",
             "7. Your attacks deal +10 damage while in beast form.",
             "8. You no longer need to make a roll to change into your beast form or your normal form. You can change back and forth as a bonus action. When you return to your normal form, you no longer take a penalty to your rolls.",
             "9. Your beast form now lasts for up to 8 hours.",
@@ -80,19 +80,19 @@
         ]
     },
     {
-        "name": "Scales the Impossible",
+        "name": "Scales the Impossible [LAST]",
         "description": "Scaling high structures",
         "tiers": [
-            "1. You are immune to any fear-based effects.",
+            "1. You are immune to the frightened condition.",
             "2. You gain an expertise die in Athletics and Acrobatics.",
             "3. Eye for a Challenge: 2/minute; bonus action; you can calculate the distance of any surface or expanse you can see and also learn the DC of the climb.",
             "4. You gain an expertise die in Survival. Additionally, you gain +2 DEX and +1 WIS.",
-            "5. You gain resistance to weather-related damage. Additionally, you have advantage on Constitution saving throws against natural elements.",
+            "5. You gain resistance to weather-related damage. Additionally, you have advantage on Constitution saving throws against natural elements and ignore penalties of weather on your journey activities.",
             "6. Reflexive Grab: 1/minute; free action; you automatically succeed on a Dexterity check or saving throw to stop yourself or someone else from falling.",
             "7. You gain resistance to falling damage.",
             "8. You gain an expertise die in Athletics and Acrobatics",
             "9. Great Assistance: 1/LR; free action; your check to climb something also counts as the climb roll for a creature climbing immediately behind you.",
-            "10. You recover all lost hit points whenever you climb up to a particularly beautiful vista, or succeed in overcoming a particularly difficult ascent."
+            "10. You recover half of your maximum hit points whenever you climb up to a particularly beautiful vista, or succeed in overcoming a particularly difficult ascent."
         ]
     },
     {
@@ -531,15 +531,15 @@
         "name": "Controls Beasts",
         "description": "gaining a beast minion",
         "tiers": [
-            "1. A beast of CR 1 of your size or smaller accompanies you and follows your instructions. The beast companion acts on your turn. If your beast companion dies, you can hunt in the wild for 1d6 days to find a new one.",
+            "1. A beast minion of CR 1 of your size or smaller accompanies you and follows your instructions. If your beast companion dies, you can find a new one the next time your party scores a substantial success on the Befriend Creature journey activity.",
             "2. Soothe the Savage: 2/min; bonus action; You calm a beast within 30' of you. You must speak to it (although it does not need to understand your words), and it must see you. It remains calm for 1 minute or for as long as you Concentrate on this feature.",
             "3. Communication: 2/min; bonus action; You can convey a basic concept to a creature that normally cannot understand speech. The creature can also give you a very basic answer to a simple question.",
-            "4. A beast larger than you of CR 1 serves you as a mount and follows your instructions. While you are mounted on it, your attacks have advantage.",
-            "5. When you and your beast companion are within 5' of each other, you gain +4 global damage and both of you grant disadvantage to incoming attacks.",
-            "6. Beast Eyes: 1/min; bonus action; You can sense through your beast companion's senses if it is within 1.5km (1 mile) of you. This effect lasts up to 10 minutes.",
-            "7. Your beast companion can now be a beast of up to CR 2 of your size or smaller.",
+            "4. A beast larger than you serves you as a mount and follows your instructions. While you are mounted on it, your attacks have advantage.",
+            "5. When you and your beast companion are adj to each other, you gain +4 global damage and both of you grant disadvantage to incoming attacks.",
+            "6. Beast Eyes: At-will; bonus action; You can sense through your beast companion's senses if it is within 1.5km (1 mile) of you. This effect lasts up to 10 minutes.",
+            "7. Your beast companion becomes CR 2.",
             "8. Beast Call: 1/LR; bonus action; You summon a beast of up to CR 2 to help you temporarily. This creature does your bidding for as long as you Concentrate on this feature, but you must use a bonus action to direct them. Creatures are native to the area and arrive under their own power, so if you are in an unreachable place, this feature will not work.",
-            "9. When you and your beast companion are within 5' of each other, you can share damage inflicted on either of you, with any distribution of your choice. Only the damage reduction of the target initially damaged comes into play. Additionally, your beast companion can now be a beast of up to CR 3 of your size or smaller.",
+            "9. When you and your beast companion are adj to each other, you can share damage inflicted on either of you, with any distribution of your choice. Only the damage reduction of the target initially damaged comes into play. Additionally, your beast companion is now CR 3.",
             "10. Control the Savage: 1/week; bonus action; You can control a calm beast within 30' of you. You control it for as long as you Concentrate on this feature, and cannot perform any types of actions during your turns."
         ]
     },
@@ -1059,15 +1059,15 @@
         "name": "Fights an Invisible War",
         "description": "stoking the conflict between schools of magic",
         "tiers": [
-            "1. Skirmish: At-will; bonus action; You cajole the magic around you into attacking that surrounding a creature within 120' of you. The creature becomes immersed in a cloud of ash from destroyed magic (granting ranged attacks made against them disadvantage). The target cannot cast spells for 1 minute as a magical skirmish continues to swarm around them.",
+            "1. Skirmish: At-will; bonus action; You cajole the magic around you into attacking the magic surrounding a creature within 120' of you. The creature becomes immersed in a cloud of ash from destroyed magic (granting ranged attacks made against them disadvantage). The target cannot cast spells for 1 minute as a magical skirmish continues to swarm around them.",
             "2. Reconnaissance: 2/min; bonus action; You tap into the magical networks around you, gathering information about their movements and activities. You immediately discover the spells of all creatures within 5' of you, as well as the effects of any ongoing magical effects in that area.",
-            "3. Battle: 1/min; bonus action; You instigate a major battle between the various types of magic in the area. In a 120'-radius sphere centred on you, no creature may cast spells. The area becomes shrouded in a massive cloud of ash, giving all ranged attacks disadvantage. This effect lasts for 1 hour, or until you leave the area.",
+            "3. Battle: At-will; bonus action; You instigate a major battle between the various types of magic in the area. In a 120'-radius sphere centred on you, no creature may cast spells. The area becomes shrouded in a massive cloud of ash, giving all ranged attacks disadvantage. This effect lasts for 1 hour, or until you leave the area.",
             "4. Take Prisoner: 1/SR; bonus action; Magic under your command temporarily disables certain magic within its midst, temporarily suppressing a spell effect within 120' of you. The effect stops working for up to 10 minutes, or until you choose to release it.",
-            "5. Magicide: 1/LR; bonus action; Your gestures and motions instruct the magic around you to eradicate 1 particular strain of their kind, permanently eliminating 1 spell effect within 120' of you. If this effect is on another creature, you must use this feature as an attack against them to succeed. In addition, that particular effect may not be recast within 120' of the target for the next 10 minutes.",
+            "5. Magicide: 1/LR; bonus action; Your gestures and motions instruct the magic around you to eradicate 1 particular strain of their kind, eliminating 1 spell effect within 120' of you. If this effect is on another creature, you must use this feature as an attack against them to succeed. In addition, that particular effect may not be recast within 120' of the target for the next 10 minutes.",
             "6. Total War: 1/week; bonus action; Virtually all magic within 120' of you is immediately destroyed as it works to destroy one another. Every spell effect in the area is immediately eradicated. No spells may be cast in this area for 1 hour. Additionally, the area is covered in a thick layer of ash, granting disadvantage on all ranged attacks.",
-            "7. Your Skirmish feature now has a range of sight.",
+            "7. Your Skirmish feature now has a range of 240'.",
             "8. Your Reconnaissance feature can now be used at-will.",
-            "9. Your Battle feature can now be used twice per minute.",
+            "9. Your Battle feature can now be centred on any point you can see within 240' of you.",
             "10. Your Take Prisoner feature can now be used twice per minute."
         ]
     },
@@ -1187,12 +1187,12 @@
         "name": "Wanders the Inner Labyrinth",
         "description": "understanding the nature of sentience",
         "tiers": [
-            "1. You open yourself up to your own flaws. You heal 1 HP whenever you fail an attack roll, saving throw, or important skill check.",
+            "1. You open yourself up to your own flaws. You heal 1 HP whenever you fail any non-trivial d20 roll.",
             "2. Hand on the Wall: 2/min; free action; You rely on your training and insights to guide you through a tough situation, granting you advantage on a task that involves your Wisdom, such as casting a Wisdom-based spell or making a Wisdom saving throw.",
             "3. T1 now heals 2 HP instead, but on doing so your inner demons get the better of you, forcing you to succumb to a base emotion for the next hour: roll a d6, 1-2. temptation, 3-4. anger, 5-6. sloth. Only one of these can be active at a time, though you can still continue to heal in this way.",
             "4. Echoing Corridors: 1/SR; bonus action; For the next 10 minutes you broadcast your thoughts for all adjacent living creatures to hear in their minds telepathically.",
             "5. You gain an expertise die in Wisdom saving throws.",
-            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT > 4), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 psychic damage whenever it fails an attack roll, saving throw, or important skill check. Additionally, you learn the target's greatest fear.",
+            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT > 4), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 psychic damage whenever it fails a non-trivial d20 roll. Additionally, you learn the target's greatest fear.",
             "7. Centre of the Maze: 1/week; 10mins; Your self-mastery is such that you are able to redefine yourself as needed. You may quietly contemplate for the usage time to reassign 1 skill proficiency to a different skill.",
             "8. T1 now heals 4 HP instead.",
             "9. Your Hand on the Wall feature can now be used at-will.",
@@ -1667,13 +1667,13 @@
         "name": "Unleashes Inner Power",
         "description": "harnessing the martial arts",
         "tiers": [
-            "1. Defensive Gestures: At-will; bonus action; You enter into a defensive fighting stance. While fighting in this way you gain +2 to Dexterity saving throws so long as both of your hands are empty.",
-            "2. Energy Blast: 2/min; bonus action; You make an unarmed strike, doing your usual unarmed damage and pushing your foe dramatically backwards 15'.",
-            "3. Distracting Gestures: 1/min; bonus action; You enter a distracting fighting stance. While fighting in this way your foe becomes distracted when your unarmed attacks hit, causing all physical attacks against them to have advantage until the end of your next turn.",
-            "4. Flying Attack: 1/SR; bonus action; You fly through the air, up to 30', and make an unarmed attack against a hostile target. This feature may not be used to simply travel a certain distance - a hostile foe must be the target.",
+            "1. Defensive Gestures: At-will; bonus action; You enter into a defensive fighting stance. While fighting in this way you gain an expertise die in Dexterity saving throws so long as both of your hands are empty.",
+            "2. Energy Blast: 2/min; bonus action; You make an unarmed strike, doing your usual unarmed damage and dramatically pushing your foe 15' away from you.",
+            "3. Distracting Gestures: 1/min; bonus action; You enter a distracting fighting stance. While fighting in this way your foe becomes distracted when your unarmed attacks hit, causing all weapon attacks against them to have advantage until the end of your next turn.",
+            "4. Flying Attack: 1/SR; bonus action; You fly through the air, up to 30', and make an unarmed attack against a hostile target.",
             "5. Offensive Gestures: 1/LR; bonus action; You enter into an offensive fighting stance. While fighting in this style your unarmed attacks deal +1d4 base damage.",
-            "6. Hidden Reserves: 1/week; bonus action; In a burst of light, you heal 12 hit points.",
-            "7. Your Defensive Gestures feature now grants +4 to Dexterity saving throws instead of +2.",
+            "6. Hidden Reserves: 1/week; bonus action; In a burst of light, you heal 6 hit points.",
+            "7. Your Defensive Gestures feature grants an additional expertise die.",
             "8. Your Energy Blast feature can now be used at-will.",
             "9. Your Distracting Gestures feature can now be used twice per minute.",
             "10. Your Flying Attack feature can now be used twice per minute."
@@ -1987,14 +1987,14 @@
         "name": "Snares Deadly Prey",
         "description": "trapping",
         "tiers": [
-            "1. You gain an expertise die in all tasks involving traps, including baiting, building, setting, spotting, disabling, and disguising.",
+            "1. You gain an expertise die in spotting, disabling, and disguising traps.",
             "2. Set a Snare: 2/min; bonus action; You can move up to 30', set a simple trap (1 trigger, 1 effect), and move up to 120' away from it.",
             "3. Mechanical Hare: 1/SR; bonus action; You craft a simple device in an unoccupied space adjacent to you, no larger than you, whose sole purpose is to distract 1 foe that you choose who can see the device before crumbling to nothing after 3 rounds. When a foe is distracted, all tasks they attempt have disadvantage.",
             "4. Whenever 1 of your traps deals damage to a distracted foe, it inflicts 1d6 additional damage.",
             "5. Eternal Cage: 1/SR; bonus action; You create a cage in an area that contains at least 1 space adjacent to you with 12 AC and 40 hit points (10' by 10' by 20') that traps, but does not harm, a creature of CR 2 or below.",
             "6. Improved Set a Snare: 1/SR; bonus action; You can move up to 30', set a complex trap (up to 3 triggers, up to 3 effects), and move up to 120' away from it.",
-            "7. You gain an expertise die with all tasks involving traps.",
-            "8. You gain an expertise die with all tasks involving traps.",
+            "7. You gain an expertise die in spotting, disabling, and disguising traps.",
+            "8. You gain an expertise die in spotting, disabling, and disguising.",
             "9. Your Set a Snare feature can now be used at-will.",
             "10. Your Mechanical Hare feature can now be used twice per minute."
         ]
@@ -2019,14 +2019,14 @@
         "name": "Taps the Void",
         "description": "manipulating void matter",
         "tiers": [
-            "1. Midnight Armour: At-will; bonus action; Void matter covers your skin, giving you the appearance of a lightless silhouette and giving you +1 AC for up to 1 hour. While your Midnight Armour remains active, you have advantage on Stealth checks while in dark areas.",
+            "1. Midnight Armour: At-will; bonus action; Void matter covers your skin, giving you the appearance of a lightless silhouette and giving you +1 AC for up to 1 hour. While your Midnight Armour remains active, you have advantage on Stealth checks while in darkness.",
             "2. Your glyphs grant 1 additional tier.",
-            "3. Shadow Dash: 1/min; bonus action; You move 30' and make an attack, leaving a trail of void matter in your wake like black lightning. If you hit your foe, you inflict 1d6 additional true necrotic damage from the void matter discharge.",
+            "3. Shadow Dash: 1/min; bonus action; You move 30' and make a weapon attack, leaving a trail of void matter in your wake like black lightning. If you hit your foe, you inflict 1d6 additional true necrotic damage from the void matter discharge.",
             "4. If you are wearing Midnight Armour when hit by a foe's melee attack, you can choose to retaliate immediately by discharging your void matter into your foe, inflicting 1d6 + level true necrotic damage; however, the benefit of your Midnight Armour immediately ends.",
-            "5. Void Fist: At-will; bonus action; A sheen of boiling void matter is fused to your fist for 1 minute. You can use your hand normally during this time. If you attack and successfully strike or touch a target with your fist, the void matter inflicts 1d6 true necrotic damage to the creature touched in addition to any other damage dealt.",
+            "5. Void Fist: At-will; bonus action; A sheen of boiling void matter is fused to your fist for 1 minute. If you attack and successfully strike or touch a target with your fist, the void matter inflicts 1d6 true necrotic damage to the creature touched in addition to any other damage dealt.",
             "6. Midnight Body: 1/SR; bonus action; For up to 1 hour, your body is converted to void matter, which provides all the advantages of Midnight Armour and Void Fist. Each time you use Void Discharge or Void Fist, there is a 5% chance that your void matter charge is used up and the effect ends. Alternatively, you can choose to expel all your void matter at once, which inflicts 1d12 + level true necrotic damage to all creatures within 5' and 2d6 true necrotic damage on you.",
             "7. Invisibility: 1/SR; bonus action; While your Midnight Armour or Midnight Body is active, you can tune the void matter covering (or infusing) you to bend light around you, which renders you invisible for up to 1 hour. While invisible, you gain an expertise die in Stealth and Dexterity saving throws. This effect ends if you attack or cast a spell. If you become visible, you can regain the remaining invisibility effect by taking a bonus action to focus on hiding your position.",
-            "8. Void Annihilation: 1/LR; bonus action; While your Midnight Body feature is active, with a touch, you disintegrate 1 non-living object that is smaller than you. If the DM feels it appropriate to the circumstances, you can disintegrate a portion of an object (the total volume of which is smaller than you) rather than the entire thing. If you use this power on a creature, it is an attack that deals 1d12 + 1d10 + level necrotic damage, and if it is killed, it is disintegrated. Using this power does not discharge the effect of your Midnight Body feature.",
+            "8. Void Annihilation: 1/LR; bonus action; While your Midnight Body feature is active, with a touch, you disintegrate 1 non-living object that is smaller than you. If the DM feels it appropriate to the circumstances, you can disintegrate a portion of an object (the total volume of which is smaller than you) rather than the entire thing. If you use this power on a creature, it is an attack that deals 1d12 + 1d10 + level necrotic damage, and if it is killed, it is disintegrated.",
             "9. Your Midnight Armour feature is now always active.",
             "10. Your glyphs grant an additional 2 tiers."
         ]

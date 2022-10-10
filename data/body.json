@@ -26,14 +26,18 @@
                 {
                     "mods": [
                         "Once per long rest, when you fail an Intimidation or Persuasion check, you may use your reaction to reroll the check.",
-                        "When you damage a target with an unarmed strike, you can change the dmg type to acid, cold, fire, light, or psn.",
+                        "When you damage a target with an unarmed strike, you can change the dmg type to $nonPhysType.",
                         "You gain proficiency in Draconic."
                     ]
                 },
                 {
                     "mods": [
-                        "Whenever you take the Attack action on your turn, you can replace 1 of the attacks with an exhalation of draconic energy in either a 20' cone or 30' line. Choose a dmg type from acid, cold, fire, light, or psn. Each creature in that area must make a DEX save, taking 2d4 spell dmg of the chosen type on a failed save, or half as much on a success.",
+                        "Whenever you take the Attack action on your turn, you can replace 1 of the attacks with an exhalation of draconic energy in a certain area. Each creature in that area must make a DEX save, taking 2d4 $nonPhysType spell dmg on a failed save, or half as much on a success.",
                         "You can use this breath attack twice, and regain all uses when you finish a short or long rest."
+                    ],
+                    "variables": [
+                        "The exhalation's area is a 30' line.",
+                        "The exhalation's area is a 20' cone."
                     ]
                 }
             ]
@@ -220,7 +224,7 @@
             "variables": [
                 {
                     "mods": [
-                        "You have a number of Energy d6s equal to double your proficiency bonus. You regain all expended Energy dice whenever you finish a long rest.",
+                        "You have 4 Energy dice, which are d6s. You regain all expended Energy dice whenever you finish a long rest.",
                         "As a bonus action, you may replenish 1 Energy die. You cannot do so again until you complete a short or long rest."
                     ],
                     "variables": [
@@ -245,12 +249,12 @@
             "variables": [
                 {
                     "mods": [
-                        "Whenever an ally starts its turn within one of your auras, their speed is increased by 5' until the end of their turn."
+                        "Whenever an ally starts its turn within 10' of you, their speed is increased by 5' until the end of their turn."
                     ]
                 },
                 {
                     "mods": [
-                        "Once per round when you take the Attack action, you can forgo making 1 atk to allow an ally within range of one of your auras to move up to half its speed without provoking opp atks."
+                        "Once per round when you take the Attack action, you can forgo making 1 atk to allow an ally within 10' of you to move up to half its speed without provoking opp atks."
                     ]
                 },
                 {
@@ -307,6 +311,47 @@
                 {
                     "mods": [
                         "You can pick locks and disarm traps with the hand as if you were doing it yourself."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Raven Vest",
+            "source": "warlock - raven queen",
+            "mods": [
+                "You have a Raven spirit minion that you can command telepathically while within 100' of it.",
+                "While the Raven is perched on your shoulder, you gain 30' of darkvision and a bonus to your Perception equal to your ability score mod. It also cannot take dmg or be targeted by any effect other than your spells, and is incap.",
+                "You can see and hear through the Raven while it is within 100' of you.",
+                "If the Raven is killed, you gain adv on all atk rolls against the killer until your next long rest.",
+                "The Raven can awaken you from sleep as a bonus action, and doesn't need its own sleep.",
+                "At the end of a rest, you can resurrect a dead Raven into an empty adj space."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Great Tunic",
+            "source": "warlock - great old one",
+            "mods": [
+                "You can telepathically speak to any creature you can see within 30'. They must be able to understand at least one language to understand your communication."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Satirical Tunic",
+            "source": "bard - satire",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Sleight of Hand and Persuasion."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can tumble to gain the following benefits for the rest of your turn:",
+                        "You gain the benefits of the Dash and Disengage actions.",
+                        "You gain a climb speed equal to your speed.",
+                        "You gain 50% resistance to fall dmg."
                     ]
                 }
             ]
@@ -505,6 +550,36 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Sharp Vest",
+            "source": "bard - swords",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain proficiency with sword weapons.",
+                        "All melee weapons you are proficient with gain the Conduit trait."
+                    ]
+                },
+                {
+                    "mods": [],
+                    "variables": [
+                        "While you are wielding a 1h melee wep and no other wep, you deal +2 dmg with that wep.",
+                        "While dual-wielding, you can add your ability modifier to your offhand's dmg."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Whenever you take the Attack action on your turn, your speed increases by 10' until the end of the turn."
+                    ],
+                    "variables": [
+                        "A number of times equal to half your ability score mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to both the hit's dmg and your AC until your next turn.",
+                        "A number of times equal to half your ability score mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to the hit's dmg, then you may also push the target up to 5' away from you, plus a number of feet equal to the d6's result. You may then immediately use your reaction to move up to your speed to an empty space adj to the target.",
+                        "A number of times equal to half your ability score mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to the hit's dmg, then you may also deal that much dmg to another creature of your choice adj to you that you can see."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -515,12 +590,12 @@
             "variables": [
                 {
                     "mods": [
-                        "While you are conscious, any ally within one of your auras that atks may take a -5 penalty to their attack roll to give it 2d6 additional base damage on a hit."
+                        "While you are conscious, any ally within 10' of you that atks may take a -5 penalty to their attack roll to give it 2d6 additional base damage on a hit."
                     ]
                 },
                 {
                     "mods": [
-                        "While you are conscious, any ally that starts its turn within one of your auras may use an action to move up to twice its speed in a straight line and take the Attack action. Until the end of that ally's next turn, creatures they did not attack on their turn have advantage on attack rolls against them."
+                        "While you are conscious, any ally that starts its turn within 10' of you may use an action to move up to twice its speed in a straight line and take the Attack action. Until the end of that ally's next turn, creatures they did not attack on their turn have advantage on attack rolls against them."
                     ]
                 }
             ]
@@ -574,9 +649,102 @@
             "name": "Lionhearted Plate",
             "source": "marshal - lionheart",
             "mods": [
-                "Once per round when you hit with a melee atk, you can inspire a number of creatures of your choice equal to half your ability score mod within one of your auras. The inspired creatures gain an expertise die on their first atk before your next turn."
+                "Once per round when you hit with a melee atk, you can inspire a number of creatures of your choice equal to half your ability score mod within 10' of you. The inspired creatures gain an expertise die on their first atk before your next turn."
             ],
             "variables": []
+        },
+        {
+            "name": "Cavalier Plate",
+            "source": "fighter - cavalier",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [],
+                    "variables": [
+                        "Gain an expertise die in Animal Handling.",
+                        "Gain an expertise die in History.",
+                        "Gain an expertise die in Insight.",
+                        "Gain an expertise die in Performance.",
+                        "Gain an expertise die in Persuasion.",
+                        "Gain an expertise die in Orcish."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You have adv on saves to avoid falling off your mount.",
+                        "Whenever you fall off your mount, you land of your feet if you are conscious.",
+                        "Mounting or dismounting only costs 5' of movement instead of half your speed."
+                    ]
+                },
+                {
+                    "mods": [
+                        "On melee wep hit, you may mark the target until the end of your next turn, or until you are knocked uncon.",
+                        "While a creature marked in this way is adj to you, it has disadv on atks against creatures other than you.",
+                        "If a creature marked in this way deals dmg to anyone other than you, you can make a melee wep atk against the marked creature as a bonus action on your next turn. You have adv on this atk and if it hits, it deals 1 additional base dmg. This special atk can only be made a number of times equal to your ability score mod between long rests."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sharpshooting Plate",
+            "source": "fighter - sharpshooter",
+            "mods": [
+                "As a bonus action up to thrice between rests, you can take careful aim at a creature you can see that is within range of a ranged wep you are wielding. Until the end of this turn, your ranged atks with that wep gain the following benefits against the target:",
+                "The atks ignore half and three-quarters cover.",
+                "On each hit, the wep deals 3 additional base dmg."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Green Plate",
+            "source": "herald - green knight",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Once per short or long rest, as an action, you can touch a plant to be recognised by nature as one of its protectors for 1hr. During this time, you have adv on Persuasion checks made to influence druids and beasts.",
+                        "Alternatively, you can end this effect early to gain adv on any Survival check for a journey activity."
+                    ],
+                    "variables": []
+                },
+                {
+                    "mods": [
+                        "Once per short or long rest, as a reaction to failing a Nature or Survival check, you can succeed instead."
+                    ],
+                    "variables": []
+                },
+                {
+                    "mods": [
+                        "You learn the Find Familiar spell and can cast it as a ritual.",
+                        "Whenever you take the Attack action, you can forgo one of your atks to allow your Familiar to make an attack as its reaction."
+                    ],
+                    "variables": [
+                        "Whenever you cast Find Familiar, you can choose for it to take the form of an Awakened Shrub.",
+                        "Whenever you cast Find Familiar, you can choose for it to take the form of a Shrieker.",
+                        "Whenever you cast Find Familiar, you can choose for it to take the form of a Sprite.",
+                        "Whenever you cast Find Familiar, you can choose for it to take the form of a Violet Fungus."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Holy Plate",
+            "source": "herald - holy champion",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Once per short or long rest, as an action, you can unleash a flood of negative energy on hostile creatures within 30' of you, forcing them to make a CON save. On a failed save, a creature takes 2d8 nec dmg and is pushed 5' away from you. On a success it takes half dmg and is not pushed back."
+                    ],
+                    "variables": []
+                },
+                {
+                    "mods": [
+                        "Once per short or long rest, as a bonus action, you can send out a flood of positive energy to heal friendly creatures (including yourself) within 30' of you, causing them to regain hit points equal to 2 + your ability score mod."
+                    ],
+                    "variables": []
+                }
+            ]
         }
     ]
 }

@@ -53,7 +53,7 @@
                 "While attuned, all rats are indifferent toward you and will not attack you unless you threaten or harm them.",
                 "The ring has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
                 "As an action, can rub the ring and expend a charge to cause a Swarm of Rats (https://5e.tools/bestiary.html#swarm%20of%20rats_mm) to fall out from your other hand. The swarm is not a minion.",
-                "Whenever a Swarm of Rats that isn't under another creature's control is within 30' of you, you can make a CHA check contested by the swarm's WIS check. If you succeed, the swarm becomes your minion for as long as your maintain this effect as an action each turn. If either you lose control of the swarm or it succeeds the contested check, it is immune to these effects for 24hrs."
+                "Whenever a Swarm of Rats that isn't under another creature's control is within 30' of you, you can make a CHA check contested by the swarm's WIS check. If you succeed, the swarm becomes your minion for as long as you maintain this effect as an action each turn. If either you lose control of the swarm or it succeeds the contested check, it is immune to these effects for 24hrs."
             ]
         },
         {
@@ -96,6 +96,14 @@
             "effects": [
                 "The band has 3 charges, 1d3 of which are restored at the end of a long rest.",
                 "As an action, you can expend 1 charge to cast Detect Thoughts (DC 13)."
+            ]
+        },
+        {
+            "name": "Band of Web",
+            "effects": [
+                "The band has 7 charges, 1d6 + 1 of which are recovered at the end of a long rest.",
+                "As an action, you can expend 1 charge to cast Web (DC 15).",
+                "If you expend the band's last charge, roll a d20. On a 1, the band crumbles into ash and is destroyed."
             ]
         }
     ],
@@ -153,6 +161,29 @@
                 "Once per long rest, as an action, you may present the ring and command obedience from each creature of your choice that you can see within 120'. Each target must succeed on a DC 15 WIS save or be charmed by you for 8hrs, or until it is harmed by you or your companions, or commanded to do something contrary to its nature.",
                 "While a creature is charmed by this ring, it regards you as its trusted leader."
             ]
+        },
+        {
+            "name": "Ring of Piercing Vulnerability",
+            "effects": [
+                "You have 50% resistance to P dmg.",
+                "[CURSE] You have 50% vulnerability to B and S dmg."
+            ]
+        },
+        {
+            "name": "Dragon's Wrath Sign",
+            "effects": [
+                "Whenever you roll a 20 on a wep atk, each foe adj to the atk's target takes 5 $nonPhysType dmg.",
+                "L11+: +1d6 {nonPhysType} dmg to your wep hits."
+            ]
+        },
+        {
+            "name": "Sign of Binding",
+            "effects": [
+                "The sign has 7 charges, 1d6 + 1 of which are recovered at the end of a long rest.",
+                "If you expend the sign's last charge, roll a d20. On a 1, the sign crumbles into ash and is destroyed.",
+                "As an action, you can expend the sign's charges to cast the following spells (DC 17): Hold Monster (5 charges) or Hold Person (2 charges).",
+                "As a reaction to making a save to avoid being staggered or restrained, you can expend 1 charge from the sign to gain adv on the save. You can do the same for checks/saves to escape grapples."
+            ]
         }
     ],
     "very rare": [
@@ -182,6 +213,30 @@
             "name": "Ring of Frost Giant Strength",
             "effects": [
                 "Your Strength is always equal to 23."
+            ]
+        },
+        {
+            "name": "Dimensional Loop",
+            "effects": [
+                "+1 to STR saves.",
+                "You gain 30' of darkvision.",
+                "As a bonus action 1/LR, you can send your body out of phase, granting adv on Stealth checks to hide, and imposing disadv on incoming atks.",
+                "As a free action 1/LR, you can choose a space within 60' of you to consider adj to you until the end of your turn. Amongst the standard benefits this provides, your movement through this fold ignores opp atks.",
+                "If the Loop is worn by a living creature, it triggers a Wild Magic Surge whenever one of its powers is used."
+            ]
+        },
+        {
+            "name": "Loop of Striking",
+            "effects": [
+                "The loop has 10 charges, 1d6 + 4 of which are regained at the end of a long rest.",
+                "On melee wep hit, you can expend up to 3 of the loop's charges to deal an addition 1d6 force dmg per charge expended.",
+                "If you expend the loop's last charge, roll a d20. On a 1, the loop loses all its magic."
+            ]
+        },
+        {
+            "name": "Ring of Telekinesis",
+            "effects": [
+                "You can cast Telekinesis at no cost, but can only target objs that are not being worn/carried."
             ]
         }
     ],
@@ -241,6 +296,16 @@
             "effects": [
                 "Your wep hits deal +2d10 rad dmg vs fiends and undead.",
                 "You project a 10' aura that grants allies adv on mag saves."
+            ]
+        },
+        {
+            "name": "Spell Ring",
+            "effects": [
+                "This ring can store 1 spell of up to 5th lvl at a time.",
+                "When first found, roll a d6 and subtract 1. That is the level of spell in the ring (randomly chosen).",
+                "While the ring contains no spell, any creature can cast a levelled spell up to 5th lvl into it by touching it while casting. The spell has no effect other than being stored.",
+                "While touching the ring, you can cast the spell stored in it, using the stats of the original caster. This consumes the contained spell and the ring becomes empty.",
+                "If the ring is empty when you see a creature casting a spell within 60' of you, you can touch the ring as a reaction to attempt to interrupt the spell. If the spell is of 3rd lvl or lower, it has no effect and is instead stored in the ring. A higher-levelled spell requires you to make an INT check of DC 10 + the spell's lvl. On a success, it has no effect other than being stored in the ring."
             ]
         }
     ],
@@ -348,6 +413,19 @@
                 "Once per long rest as an action, you can cast Conjure Elemental, summoning an Earth Elemental always.",
                 "As an action once every 3 days, you can touch the ring to a fixed piece of Dwarven stonework to cast Teleport. If your intended destination is underground, there is no chance of any error in the spell.",
                 "[CURSE] Whenever you finish a long rest, you look more and more like a Dwarf, and completely look like one after 7 days. Effect can be reversed by removing a curse from the wearer."
+            ]
+        },
+        {
+            "name": "Sign of Kas",
+            "effects": [
+                "The sign is a sentient chaotic evil ring with 15 INT, 13 WIS, and 16 CHA. It has hearing and darkvision out to 120'. It communicates telepathically with its wearer and can speak proficiently in Common.",
+                "The sign's purpose is to bring ruin to liches, their worshipers, minions, works, and artifacts.",
+                "You have +1 crit range with melee wep atks.",
+                "Your melee wep hits deal +2d10 S dmg against undead creatures.",
+                "If the sign isn't bathed in blood within 1min of you rolling init, you must make a DC 15 CHA save. On a success, you take 3d6 psy dmg. On a fail, you are dominated by the sign's sentience, which demands that it be bathed in blood. The spell's effect ends when this demand is met.",
+                "Add 1d10 to your init.",
+                "Whenever you would make a melee wep atk, you may transfer some or all of the wep's AB to your AC, which lasts until the start of your next turn.",
+                "Once per long rest each, as an action, you can cast one of the following spells (DC 18): Call Lightning, Divine Word, or Finger of Death."
             ]
         }
     ]

@@ -498,9 +498,9 @@
         "tags": []
     },
     {
-        "description": "imm to extreme climates",
-        "pointValue": "1",
-        "upgrade": "+5' sp in extreme climates/1",
+        "description": "imm to penalties from common weather",
+        "pointValue": "3",
+        "upgrade": "+3->2 to journey activity checks with penalties from the weather/1",
         "tags": ["armour"]
     },
     {
@@ -1436,7 +1436,7 @@
     {
         "description": "incoming $dmgType dmg is converted to $dmgType",
         "pointValue": "1",
-        "upgrade": "+1 {new type} res/1",
+        "upgrade": "+2->1 {new type} res/1",
         "tags": ["armour"]
     },
     {
@@ -1521,6 +1521,12 @@
         "description": "+2 crit range vs surprised targets",
         "pointValue": "4",
         "upgrade": "+1/2",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 pers area dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     }
 ]

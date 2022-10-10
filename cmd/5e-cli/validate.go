@@ -62,6 +62,13 @@ var validateInt = func(input string) error {
 	return nil
 }
 
+var validateFloat = func(input string) error {
+	if _, err := strconv.ParseFloat(input, 64); err != nil {
+		return errors.New("Invalid float input.")
+	}
+	return nil
+}
+
 var validateTarotCard = func(input string) error {
 	if valid := slices.Contains(TAROT_CARDS, input); !valid {
 		return errors.New("Invalid tarot card.")

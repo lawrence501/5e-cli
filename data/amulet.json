@@ -197,83 +197,223 @@
         ]
       },
       {
-        "name": "P'all",
-        "effect": "+3 global dmg vs targets you are flanking",
-        "upgrade": "+2 minion dmg",
+        "name": "Pherousa, Aspect of the Cycle",
+        "effect": "when downed, +3 global dmg until LR",
+        "upgrade": "+2 spell dmg res",
         "setBonuses": [
           {
-            "ally": "The Cloud",
-            "effect": "+1 crit range vs targets you are flanking",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Aroshi",
-            "effect": "during your turn while flanking a creature, you treat them as if they were affected by a random condition (chosen on turn start)",
-            "upgrade": "+1 adv on choice"
-          },
-          {
-            "ally": "Mensis",
-            "effect": "+1 AC vs creatures you are flanking while in darkness",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Gawdian",
-            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
+            "ally": "Kher'evo",
+            "effect": "when downed, +2 incoming healing until LR",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Somnius",
+            "effect": "instead of losing conc when you go down, you just make the save with disadv",
+            "upgrade": "+1 to conc saves"
+          },
+          {
+            "ally": "Mother",
+            "effect": "when downed on an odd turn, -3 global dmg until LR; when downed on an even turn, +6 global dmg until LR",
+            "upgrade": "-3 and +6"
+          },
+          {
+            "ally": "The Primordial",
+            "effect": "when downed, +1 non-phys abs until LR",
+            "upgrade": "+1"
           }
         ]
       },
       {
-        "name": "Mensis",
-        "effect": "+1 AC in darkness",
-        "upgrade": "+2 global dmg in darkness",
+        "name": "Mother, Aspect of Sentience",
+        "effect": "-3 global dmg on odd turns, +6 global dmg on even turns",
+        "upgrade": "+2 dmg res on odd turns",
         "setBonuses": [
           {
-            "ally": "The Cloud",
-            "effect": "+1 crit range in darkness",
+            "ally": "Kher'evo",
+            "effect": "-2 incoming healing on odd turns, +4 incoming healing on even turns",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Somnius",
+            "effect": "-2 to saves vs ongoing condis on odd turns, +4 to saves vs ongoing condis on even turns",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Pherousa",
+            "effect": "when downed on an odd turn, -3 global dmg until LR; when downed on an even turn, +6 global dmg until LR",
+            "upgrade": "-3 and +6"
+          },
+          {
+            "ally": "The Primordial",
+            "effect": "-2 non-phys abs on odd turns, +4 non-phys abs on even turns",
+            "upgrade": "-2 and +4"
+          }
+        ]
+      },
+      {
+        "name": "The Primordial",
+        "effect": "+1 non-phys abs",
+        "upgrade": "+2 spell dmg res",
+        "setBonuses": [
+          {
+            "ally": "Kher'evo",
+            "effect": "+1 hit abs",
             "upgrade": "+1"
           },
           {
-            "ally": "Aroshi",
-            "effect": "while in darkness, +5 block thorns of a random type",
+            "ally": "Somnius",
+            "effect": "on taking non-phys dmg, you can make a save against an ongoing condi",
+            "upgrade": "+1 to saves vs ongoing condis"
+          },
+          {
+            "ally": "Pherousa",
+            "effect": "when downed, +1 non-phys abs until LR",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Mother",
+            "effect": "-2 non-phys abs on odd turns, +4 non-phys abs on even turns",
+            "upgrade": "-2 and +4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Evorbisan Champions",
+    "amulets": [
+      {
+        "name": "Al'akir",
+        "effect": "at the end of each turn spent not moving, +1 global dmg that stacks until you move",
+        "upgrade": "+2 proj dmg",
+        "setBonuses": [
+          {
+            "ally": "Arvewal",
+            "effect": "on hit if you haven't displaced distance since start of your last turn, target gets -3 dmg res to types your hit deals until your next turn. doesn't stack",
+            "upgrade": "-2"
+          },
+          {
+            "ally": "The Rhox",
+            "effect": "if you haven't displaced distance since start of your last turn, +2 global dmg vs prone targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Lucius",
+            "effect": "at the end of each turn spent not moving, +2 glyphic dmg that stacks until you move",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Rhombur",
+            "effect": "at the end of each turn spent not moving, +1 dmg res that stacks until you move",
+            "upgrade": "+1"
+          }
+        ]
+      },
+      {
+        "name": "Arvewal",
+        "effect": "your minions deal +4 dmg with dmg types you dmg'd target with during your last turn",
+        "upgrade": "+3 minion dmg",
+        "setBonuses": [
+          {
+            "ally": "Al'akir",
+            "effect": "at the end of each turn spent not moving, +3 minion dmg that stacks until you move",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "The Rhox",
+            "effect": "+3 minion dmg vs prone targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Lucius",
+            "effect": "your minions deal +3 dmg vs targets you dealt glyphic dmg to during your last turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Rhombur",
+            "effect": "+5 minion dmg res with 2+ foes adj to them",
             "upgrade": "+4"
-          },
-          {
-            "ally": "P'all",
-            "effect": "+3 global dmg in darkness vs targets you are flanking",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Gawdian",
-            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
-            "upgrade": "+2"
           }
         ]
       },
       {
-        "name": "Gawdian",
-        "effect": "+3 global dmg vs targets who have dmg'd you since your last turn",
-        "upgrade": "+2 wep dmg res",
+        "name": "The Rhox",
+        "effect": "+1 crit range vs prone targets",
+        "upgrade": "+2 global dmg vs prone targets",
         "setBonuses": [
           {
-            "ally": "The Cloud",
-            "effect": "+1 crit range vs targets who have dmg'd you since your last turn",
+            "ally": "Al'akir",
+            "effect": "if you haven't displaced distance since start of your last turn, +2 global dmg vs prone targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Arvewal",
+            "effect": "creatures you knock prone have -2 dmg res",
+            "upgrade": "-2"
+          },
+          {
+            "ally": "Lucius",
+            "effect": "+2 glyphic dmg vs prone targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Rhombur",
+            "effect": "when dmg'd, offender is knocked prone",
+            "upgrade": "+1 dmg res vs standing targets"
+          }
+        ]
+      },
+      {
+        "name": "Lucius",
+        "effect": "gain a powerful mutation for each mutation you have",
+        "upgrade": "+2 glyphic dmg",
+        "setBonuses": [
+          {
+            "ally": "Al'akir",
+            "effect": "at the end of each turn spent not moving, +2 glyphic dmg that stacks until you move",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Arvewal",
+            "effect": "on glyphic hit, give target -1 dmg res until your next turn. doesn't stack",
+            "upgrade": "-1"
+          },
+          {
+            "ally": "The Rhox",
+            "effect": "+2 glyphic dmg vs prone targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Rhombur",
+            "effect": "+1 dmg res for each mutation you have",
+            "upgrade": "+1"
+          }
+        ]
+      },
+      {
+        "name": "Rhombur",
+        "effect": "+3 dmg res with 2+ adj foes",
+        "upgrade": "unintelligent creatures are more likely to target you",
+        "setBonuses": [
+          {
+            "ally": "Al'akir",
+            "effect": "at the end of each turn spent not moving, +1 dmg res that stacks until you move",
             "upgrade": "+1"
           },
           {
-            "ally": "Aroshi",
-            "effect": "+3 dmg thorns of a random type",
+            "ally": "Arvewal",
+            "effect": "+2 dmg res with 2+ adj allies",
             "upgrade": "+2"
           },
           {
-            "ally": "P'all",
-            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
-            "upgrade": "+2"
+            "ally": "The Rhox",
+            "effect": "when dmg'd, offender is knocked prone",
+            "upgrade": "+1 dmg res vs standing targets"
           },
           {
-            "ally": "Mensis",
-            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
-            "upgrade": "+2"
+            "ally": "Lucius",
+            "effect": "+1 dmg res for each mutation you have",
+            "upgrade": "+1"
           }
         ]
       }

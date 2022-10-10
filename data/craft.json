@@ -1287,7 +1287,7 @@
         "description": "+4 minion HP",
         "pointValue": "1",
         "upgrade": "+4/1",
-        "tags": ["minion"]
+        "tags": ["minion", "hp"]
     },
     {
         "description": "+1 dmg res while you have a minion",
@@ -1312,5 +1312,323 @@
         "pointValue": "2",
         "upgrade": "+1/1",
         "tags": ["defence"]
+    },
+    {
+        "description": "+1 dmg with $weaponTrait weps",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "on KB, gain 4 temp HP",
+        "pointValue": "1",
+        "upgrade": "+4/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 wep AB vs $creatureType creatures",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 spell AB vs $creatureType creatures",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["spell"]
+    },
+    {
+        "description": "+2 wep dmg vs targets [ahead or behind] you in the turn tracker",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+2 spell dmg vs targets [ahead or behind] you in the turn tracker",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["spell"]
+    },
+    {
+        "description": "+1 dmg res vs creatures [ahead or behind] you in the turn tracker",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["defence"]
+    },
+    {
+        "description": "incoming $dmgType dmg is converted to {type}",
+        "pointValue": "1",
+        "upgrade": "+2->1 {new type} res/1",
+        "tags": ["type", "defence"]
+    },
+    {
+        "description": "+1 minion {type polarity} res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["minion", "type", "defence"]
+    },
+    {
+        "description": "+1 minion dmg res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["minion", "defence"]
+    },
+    {
+        "description": "+3 minion {type} res",
+        "pointValue": "1",
+        "upgrade": "+2/1",
+        "tags": ["minion", "type", "defence"]
+    },
+    {
+        "description": "+1 environmental dmg res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["defence"]
+    },
+    {
+        "description": "+2 natural wep dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 natural wep dmg res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon", "defence"]
+    },
+    {
+        "description": "+2 wep dmg while mounted",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+2 spell dmg while mounted",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["spell"]
+    },
+    {
+        "description": "+1 dmg res while mounted",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["defence"]
+    },
+    {
+        "description": "+5 wep dmg vs surprised targets",
+        "pointValue": "1",
+        "upgrade": "+5/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+5 spell dmg vs surprised targets",
+        "pointValue": "1",
+        "upgrade": "+5/1",
+        "tags": ["spell"]
+    },
+    {
+        "description": "+2 wep AB vs surprised targets",
+        "pointValue": "4",
+        "upgrade": "+1/2",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+2 spell AB vs surprised targets",
+        "pointValue": "4",
+        "upgrade": "+1/2",
+        "tags": ["spell"]
+    },
+    {
+        "description": "your wep hits increase the dmg of DoTs on the target by 1",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["weapon", "dot"]
+    },
+    {
+        "description": "your spell hits increase the dmg of DoTs on the target by 1",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["spell", "dot"]
+    },
+    {
+        "description": "+2 DoT dmg while invis",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+2 DoT dmg while within a city's borders",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+1 to your DoT DCs vs targets $sizeDifference than you",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+2 DoT dmg while shapeshifted",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+1 to your DoT DCs",
+        "pointValue": "3",
+        "upgrade": "+1/3",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+1 DoT dmg vs targets you're flanking",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+1 to your ongoing DoT DCs",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+2 DoT res while adj to $partyMember",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["dot", "defence"]
+    },
+    {
+        "description": "+2 to your DoT DCs vs surprised targets",
+        "pointValue": "2",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+1 {type} DoT dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["type", "dot"]
+    },
+    {
+        "description": "on DoT tick, heal 1 HP",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["dot", "hp"]
+    },
+    {
+        "description": "+2 DoT dmg vs debuffed targets",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["dot", "debuff"]
+    },
+    {
+        "description": "+2 minion DoT dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["minion", "dot"]
+    },
+    {
+        "description": "+3 DoT dmg vs diseased targets",
+        "pointValue": "1",
+        "upgrade": "+2/1",
+        "tags": ["dot", "debuff"]
+    },
+    {
+        "description": "on {type} hit, heal 1 HP",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["type", "hp"]
+    },
+    {
+        "description": "+2 {type} dmg vs debuffed targets",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["type", "debuff"]
+    },
+    {
+        "description": "+2 {type} dmg while $healthStatus",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["type", "hp"]
+    },
+    {
+        "description": "+1 {type} AB vs targets $sizeDifference than you",
+        "pointValue": "3",
+        "upgrade": "+1/3",
+        "tags": ["type"]
+    },
+    {
+        "description": "+1 {type} AC",
+        "pointValue": "4",
+        "upgrade": "+1/4",
+        "tags": ["type", "defence"]
+    },
+    {
+        "description": "with 2+ adj foes, your minions have +3 dmg res",
+        "pointValue": "1",
+        "upgrade": "+2/1",
+        "tags": ["minion", "defence"]
+    },
+    {
+        "description": "+2 minion dmg if they haven't taken dmg since their last turn",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["minion", "defence"]
+    },
+    {
+        "description": "+2 minion environmental dmg res",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["minion", "defence"]
+    },
+    {
+        "description": "+1 minion AB vs targets $sizeDifference than them",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["minion"]
+    },
+    {
+        "description": "+1 to your minions' DCs",
+        "pointValue": "3",
+        "upgrade": "+1/3",
+        "tags": ["minion", "debuff"]
+    },
+    {
+        "description": "+4 minion dmg vs $enemyArmourForm targets",
+        "pointValue": "1",
+        "upgrade": "+4/1",
+        "tags": ["minion"]
+    },
+    {
+        "description": "+3 minion dmg while they are adj to $partyMember",
+        "pointValue": "1",
+        "upgrade": "+2/1",
+        "tags": ["minion"]
+    },
+    {
+        "description": "+1 minion AB vs targets they're flanking",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["minion"]
+    },
+    {
+        "description": "+1 minion crit dice",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["minion"]
+    },
+    {
+        "description": "on minion hit, they heal 1 HP",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["minion", "hp"]
+    },
+    {
+        "description": "+1 to your minions' DoT DCs",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["minion", "dot"]
     }
 ]

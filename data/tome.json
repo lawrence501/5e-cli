@@ -235,7 +235,7 @@
     {
         "name": "Fragmentation",
         "target": "Powers that fire non-piercing projectiles",
-        "description": "Whenever the power's projs hit, the explode in a 15' cone originating from the opposite side of the target. The cone makes a spell atk against all foes, dealing slight $nonPhysType dmg on a hit."
+        "description": "Whenever the power's projs hit, they explode in a 15' cone originating from the opposite side of the target. The cone makes a spell atk against all foes, dealing slight $nonPhysType dmg on a hit."
     },
     {
         "name": "Focused Energy",
@@ -268,7 +268,7 @@
         "description": "The power's duration increases by 1 step, but it deals less dmg."
     },
     {
-        "name": "Reckless Power",
+        "name": "Clumsy Power",
         "target": "Powers that have Accuracy components",
         "description": "The power deals substantially more dmg but has -1 Accuracy."
     },
@@ -295,7 +295,7 @@
     {
         "name": "Shielding",
         "target": "Powers that can hit",
-        "description": "Whenever the power hits, you gain a slight amount of temp HP. Instances of temp HP from this source stack with each other."
+        "description": "Whenever the power hits, you gain temp HP."
     },
     {
         "name": "Tiring Exertion",
@@ -444,8 +444,184 @@
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing barely any $nonPhysType dmg, stacking until DEX save. Whenever this DoT ticks, it spreads to all creatures of your choice adj to the afflicted creature."
     },
     {
-        "name": "Powerful Decay [wildfire]",
+        "name": "Powerful Decay",
         "target": "Powers that inflict DoTs",
         "description": "The power's DoTs deal more dmg."
+    },
+    {
+        "name": "Penetration",
+        "target": "Any power",
+        "description": "The power ignores dmg res."
+    },
+    {
+        "name": "Precision",
+        "target": "Powers that make atk rolls",
+        "description": "The power has +1 crit range."
+    },
+    {
+        "name": "Volatile Destruction",
+        "target": "Any power",
+        "description": "Whenever the power hits, it deals slight additional $nonPhysType dmg. Additionally, its crits deal more dmg."
+    },
+    {
+        "name": "Distant Power",
+        "target": "Powers with a non-self/melee range",
+        "description": "The power's range is doubled and it deals barely more dmg."
+    },
+    {
+        "name": "Overcharged Eruption",
+        "target": "Powers with a non-cooldown resource cost that fire a single projectile",
+        "description": "The power's proj is converted into a cone with a length equal to the proj's range and deals more dmg, but its cost is increased by 1 step."
+    },
+    {
+        "name": "Keen Lag",
+        "target": "Powers that make atk rolls",
+        "description": "The power has +3 crit range, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Dull Debilitation",
+        "target": "Any power",
+        "description": "The power can no longer crit, but whenever it usually would, it debilitates the target until CON save."
+    },
+    {
+        "name": "Stacked Focus",
+        "target": "Powers with cone areas",
+        "description": "The power's cone areas are now lines of the same length that activate twice over the same area, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Blunt Power",
+        "target": "Powers with line areas",
+        "description": "The power deals massively more dmg, but its line areas are converted to non-piercing projs with range equal to the line's length.",
+        "meta": "marrow shards"
+    },
+    {
+        "name": "Leeching Empowerment",
+        "target": "Any power",
+        "description": "Whenever you deal $physType dmg having used the power since the start of your last turn, heal a slight amount of HP."
+    },
+    {
+        "name": "Blunt Eruption",
+        "target": "Powers with line areas that have a non-cooldown resource cost",
+        "description": "The power's line areas are converted to non-piercing projs with range equal to the line's length and deal less dmg, and its cost is increased by 1 step. Additionally, whenever these projs hit, they splinter into a 15' cone AoE from the other side of the target, a spell atk dealing massive phys dmg."
+    },
+    {
+        "name": "Erupting Power",
+        "target": "Powers with cone areas",
+        "description": "The power's cone areas deal more dmg."
+    },
+    {
+        "name": "Massive Blasting",
+        "target": "Any power",
+        "description": "The power's cone areas are longer."
+    },
+    {
+        "name": "Erupting Exsanguination",
+        "target": "Powers with cone areas",
+        "description": "Whenever the power's cone areas hit, the target is inflicted with a DoT dealing slight $physType dmg, stacking until CON save."
+    },
+    {
+        "name": "Erupting Cruelty",
+        "target": "Powers with cone areas",
+        "description": "The power's cone areas deal more dmg against debuffed targets."
+    },
+    {
+        "name": "Keen Eruption",
+        "target": "Powers with cone areas that make atk rolls",
+        "description": "The power's cone areas have +1 crit range."
+    },
+    {
+        "name": "Destructive Eruption",
+        "target": "Powers with cone areas",
+        "description": "The power's cone areas deal more crit dmg."
+    },
+    {
+        "name": "Overcharged Splintering",
+        "target": "Powers with line areas and a non-cooldown resource cost",
+        "description": "Whenever the power's line areas end, they release a 15' long cone from that point in the same direction as the line, a spell atk against foes dealing substantial $physType dmg. The power's line areas have their lengths halved and its cost is increased by 1 step."
+    },
+    {
+        "name": "Targeted Conclusion",
+        "target": "Powers with line areas and a non-cooldown resource cost",
+        "description": "The power's line areas are always of a length of your choice, up to their original length, and deal substantially more dmg. The power's cost is increased by 1 step."
+    },
+    {
+        "name": "Close Power",
+        "target": "Powers with a non-self/melee range",
+        "description": "The power deals substantially more dmg but its range is halved."
+    },
+    {
+        "name": "Keen Destruction",
+        "target": "Powers that make atk rolls",
+        "description": "The power has +1 crit range and deals barely more crit dmg."
+    },
+    {
+        "name": "Destruction",
+        "target": "Any power",
+        "description": "The power deals more crit dmg."
+    },
+    {
+        "name": "Sacrificial Destruction",
+        "target": "Any power",
+        "description": "The power deals substantially more crit dmg, but whenever it crits you lose a slight amount of HP."
+    },
+    {
+        "name": "Keen Support",
+        "target": "Any power",
+        "description": "If you have an active minion when you use the power, you gain +1 crit range until the end of your next turn. This does not stack."
+    },
+    {
+        "name": "Overcharged Exsanguination",
+        "target": "Powers with a non-cooldown resource cost that can deal damage",
+        "description": "Whenever the power hits, the target is inflicted with a DoT that deals substantial $physType dmg, stacking until CON save. The power's cost is increased by 1 step and it deals less dmg."
+    },
+    {
+        "name": "Delayed Leeching",
+        "target": "Any power",
+        "description": "Whenever the power hits, you heal HP at the start of your next turn."
+    },
+    {
+        "name": "Healing",
+        "target": "Powers that heal",
+        "description": "The power heals more HP."
+    },
+    {
+        "name": "Efficient Healing",
+        "target": "Powers with a non-cooldown resource cost that heal",
+        "description": "The power's cost is reduced by 1 step, but it heals less HP."
+    },
+    {
+        "name": "Sacrificial Power",
+        "target": "Any power",
+        "description": "If you have an active minion when you use the power, the power deals massively more dmg but kills all of your minions."
+    },
+    {
+        "name": "Duplication",
+        "target": "Powers that can deal dmg",
+        "description": "Whenever you use the power, it is used again at no additional cost, but its dmg is substantially reduced."
+    },
+    {
+        "name": "Reckless Power",
+        "target": "Any power",
+        "description": "The power deals substantially more dmg to foes, but massively more dmg to allies."
+    },
+    {
+        "name": "Feasting",
+        "target": "Any power",
+        "description": "Whenever you reduce an ally to 0 HP with the power, you heal HP."
+    },
+    {
+        "name": "Bloodthirsty Empowerment",
+        "target": "Any power",
+        "description": "Whenever you deal $physType dmg have delivered a KB with the power since the start of your last turn, heal a slight amount of HP."
+    },
+    {
+        "name": "Keen Empowerment",
+        "target": "Any power",
+        "description": "If you have delivered a KB with the power since the start of your last turn, you have +1 crit range."
+    },
+    {
+        "name": "Armour Shredding [marrow shards done]",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target gets slightly reduced phys res until the end of your next turn."
     }
 ]

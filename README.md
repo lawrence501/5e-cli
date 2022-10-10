@@ -192,4 +192,4 @@ While riding your mount, your AC increases by 1.
 11. Body Armours
 12. Tarots
 
-8% each, except 4 is 12%
+8% each, except 4 is 12% (ideally would love 2 more options to drop 4 a bit)

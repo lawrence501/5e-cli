@@ -56,6 +56,9 @@ var COMMAND_MAP = map[string]func() error{
 	"class":         class,
 	"tarot":         tarot,
 	"gem":           gem,
+	"craft":         craft,
+	"target craft":  targetCraft,
+	"dmg upgrade":   dmgUpgrade,
 }
 
 func main() {
