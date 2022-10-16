@@ -80,7 +80,7 @@
         ]
     },
     {
-        "name": "Scales the Impossible [LAST]",
+        "name": "Scales the Impossible",
         "description": "Scaling high structures",
         "tiers": [
             "1. You are immune to the frightened condition.",
@@ -101,14 +101,14 @@
         "tiers": [
             "1. Adjure Creature: 2/min; bonus action; for 1 minute, you can verbally control a living monstrosity of up to CR 1 within 30', commanding it to do simple tasks on your behalf. Alternatively, you can force up to three such creatures within the same range to take no actions for as long as you hold concentration. Every round, each member of the group can attempt to escape your control by making a contested CHA save against your Concentration save.",
             "2. Gain an expertise die in Nature.",
-            "3. As an additional option with your Adjure Creature feature, you can attempt to capture a similar creature for the same duration. A captured creature becomes tame in your presence, joining you as a minion. You can only have 1 captured creature at a time.",
-            "4. Enrage Creature: 1/min; bonus action; with a touch and whispered word, you can trigger a biological response in a creature you've captured with your Adjure Creature feature, causing it to fly into a bone-ripping rage while it remains captured. During this rage, the creature gains +8 global damage. However, after this extreme effort, the creature either dies or becomes so enfeebled by its expenditure of energy that it becomes ineffective for 2d4 days.",
+            "3. As an additional option with your Adjure Creature feature, you can attempt to capture a similar creature for 1hr. A captured creature becomes tame in your presence, joining you as a minion. You can only have 1 captured creature at a time.",
+            "4. Enrage Creature: 1/min; bonus action; with a touch and whispered word, you can trigger a biological response in a creature you've captured with your Adjure Creature feature, causing it to fly into a bone-ripping rage while it remains captured. During this rage, the creature deals +1d10 base dmg with its hits. However, after this extreme effort, the creature either dies or becomes so enfeebled by its expenditure of energy that it becomes ineffective for 2d4 days.",
             "5. You have +1 max hit die.",
-            "6. You can use your Adjure Creature feature to control or capture creatures of up to CR 3.",
+            "6. You can use your Adjure Creature feature to control or capture creatures of up to CR 2.",
             "7. Lash of the Tamer: 1/SR; bonus action; you can demand more of the creatures that you have captured. One creature you have captured within 30' of you is granted an additional, immediate standard action which they can take out of turn.",
-            "8. Become the Leviathan: once ever; bonus action; You change shape into a monstrous creature of your design two sizes larger than you for one minute. When you do so, you become proficient in any natural weapons the form may possess. You also enter the form with 30 temporary hit points, have +6 to STR, and deal +8 damage with melee attacks. Becoming the leviathan is incredibly taxing. While doing so, you have double disadvantage on saving throws. After you revert to normal size, either after 1 minute or as a bonus action, you gain 1 level of fatigue and lose hit points equal to 25% of your maximum.",
+            "8. Become the Leviathan: once ever; bonus action; You change shape into a monstrous creature of your design two sizes larger than you for one minute. When you do so, you become proficient in any natural weapons the form may possess. You also enter the form with 30 temporary hit points, have +3 STR mod, and deal +1d10 base damage with melee hits. Becoming the leviathan is incredibly taxing. While doing so, you have double disadvantage on saving throws. After you revert to normal size, either after 1 minute or as a bonus action, you gain 1 level of fatigue and lose hit points equal to 25% of your maximum.",
             "9. You can use your Adjure Creature feature to have up to 5 creatures taking no actions at one time, instead of just 3.",
-            "10. You can now use your Adjure Creature feature at-will. Additionally, you can use its ability to prevent the actions of monstrosities on up to 7 creatures at a time."
+            "10. You can now use your Adjure Creature feature at-will. Additionally, you can use its ability to prevent the actions of up to 7 creatures at a time."
         ]
     },
     {
@@ -116,14 +116,14 @@
         "description": "Empowering signature spells while holding a wand",
         "tiers": [
             "1. Choose a non-cantrip warlock spell that affects a single target. Whenever you hold a wand, you may use it to draw a symbol for that spell in the air as a bonus action, casting that spell as though you knew it. Doing so still expends the spell's usual resource costs. The spell uses Dexterity as its casting ability.",
-            "2. +2 to any AB or save DC for your symbol spell.",
+            "2. You gain an expertise die in attack rolls with your symbol spell, and its DCs are increased by 2.",
             "3. Your symbol spell's range is doubled.",
             "4. After casting your symbol spell, you may instantly fly up to 5' in any direction. Alternatively, you can instead shroud yourself in magic, granting you advantage on all magical saving throws until the start of your next turn.",
-            "5. +2 to any AB or save DC for your symbol spell. Additionally, you no longer require line of sight to your target to cast it, so long as your target is known to be within the spell's range.",
+            "5. You gain an expertise die in attack rolls with your symbol spell, and its DCs are increased by 2. Additionally, you no longer require line of sight to your target to cast it, so long as your target is known to be within the spell's range.",
             "6. DEX +2.",
             "7. Choose a second non-cantrip warlock spell that you can cast as a symbol spell.",
             "8. Your symbol spell is now upcast 1 level.",
-            "9. +1 to spell save DCs",
+            "9. +1 to your symbol spell's DCs.",
             "10. Your symbol spell's range is tripled."
         ]
     },
@@ -132,14 +132,14 @@
         "description": "Drawing magic circles",
         "tiers": [
             "1. Circle of Warding: At-will; bonus action; You draw a circle of magical protection on the ground within 30' of you, roughly 5' in diameter. Magical effects do not work within this circle, which lasts for one hour.",
-            "2. Circle of Control: 2/min; bonus action; You draw an arcane circle on the ground within 30' of you, 5' in diameter, potentially capturing a magical effect or creature within it. The circle holds the phenomenon for up to an hour, during which time it cannot leave or physically affect/be affected by the outside world.",
-            "3. Angelic Weapon: 1/min; bonus action; By inscribing a magical symbol upon a weapon you wield, you make it able to affect creatures where pure material alone could not. Your weapon ignores physical resistances and immunities, and can also pass through forcefields and other energy barriers, for 10 minutes.",
-            "4. Inscribe Spell: 1/SR; bonus action; You take a spell from your mind and inscribe it onto an object or surface. In this way it becomes easy for you to allow others to cast your spells, even if they could not usually do so. The user still needs to expend the required resources to cast the spells. You can only have 1 inscribed spell at a time.",
-            "5. Hang Spell: 1/LR; bonus action; You take a spell from your mind, just as you would with your Inscribe Spell feature, annd place it on an object or surface. However, instead of being readable by other creatures, it casts against the next creature other than you to come within 5' of the inscription. You can only have 1 hung spell at a time.",
+            "2. Circle of Control: 2/min; bonus action; You draw an arcane circle on the ground within 30' of you, 5' in diameter, capturing any magical effects or magical creatures within it. The circle holds the phenomenon for up to an hour, during which time it cannot leave or physically affect/be affected by the outside world.",
+            "3. Angelic Weapon: At-will; bonus action; By inscribing a magical symbol upon a weapon you wield, you make it able to affect creatures where pure material alone could not. Your weapon ignores physical resistances and immunities, and can also pass through forcefields and other energy barriers, for 10 minutes.",
+            "4. Inscribe Spell: 1/SR; bonus action; You take a spell from your spell list and inscribe it onto an object or surface. In this way it becomes easy for you to allow others to cast your spells, even if they could not usually do so. They can do so whenever they have physical contact with the inscription. The user still needs to expend the required resources to cast the spell. You can only have 1 inscribed spell at a time.",
+            "5. Hang Spell: 1/LR; bonus action; You take a spell from your spell list, just as you would with your Inscribe Spell feature, annd place it on an object or surface. However, instead of being usable by other creatures, it casts against the next creature other than you to come within 5' of the inscription. You can only have 1 hung spell at a time.",
             "6. Capture Angel: 1/week; bonus action; You inscribe a circle on the ground, 10' in diameter, which summons and then contains a powerful celestial. The celestial remains trapped there for 10 minutes, during which time you may speak with it. These celestials are capable of bestowing spells and magical items to those they deem worthy.",
             "7. Your Circle of Warding feature now creates a circle of diameter 10'.",
             "8. Your Circle of Control feature can now be used at-will.",
-            "9. Your Angelic Weapon feature can now be used at-will.",
+            "9. Your Angelic Weapon feature now allows the affected weapon to ignore all resistances and immunities.",
             "10. Your Inscribe Spell feature can now be used 2/min."
         ]
     },
@@ -147,15 +147,15 @@
         "name": "Dances in Shadow",
         "description": "Controlling and utilising shadows",
         "tiers": [
-            "1. Shadow Weapon: At-will; bonus action; You can fashion a light, simple weapon out of the stuff of shadows. The shadow weapon will last for one hour. This feature cannot be used in direct light, and if a weapon is exposed to light it will begin to fade away, the first round dealing half damage, then disappearing completely in the second.",
-            "2. When fully encompassed in shadows, other creatures have disadvantage on their perception checks to spot you.",
-            "3. Gain prof/+2 in sleight of hand and performance.",
-            "4. Shadow Strike: 1/min; free action; The shadows between you and your opponent become even closer, allowing you to strike them from afar. Increase your reach to 30', and increase your melee damage by 4, both until the end of the current turn.",
-            "5. Shadow Rift: 1/min; bonus action; When fully encompassed in shadows, you can slip into the shadow dimension for 2 rounds. While in the shadow dimension, you are unable to attack, but are able to move in any direction. When re-emerging, you must come back through a shadow.",
-            "6. Gain +2 in sleight of hand and performance.",
-            "7. Shadow Trap: 1/LR; bonus action; You use your power over the shadows to immobilise an opponent. Make an attack based on your6. , WIS, or CHA against a target, reducing their speed to 0 on a success. This effect requires you to maintain concentration.",
+            "1. Shadow Weapon: At-will; bonus action; You can fashion a light, simple weapon out of the stuff of shadows. The shadow weapon will last for one hour and inherits the enchantment cluster of your onhand weapon. This feature cannot be used in direct light, and if a weapon is exposed to light it will begin to fade away, the first round dealing half damage, then disappearing completely in the second.",
+            "2. When completely within shadow, other creatures have disadvantage on their perception checks to spot you.",
+            "3. Gain an expertise die in sleight of hand and performance.",
+            "4. Shadow Strike: 1/min; free action; The shadows between you and your opponent become even closer, allowing you to strike them from afar. Increase your reach to 30', and add 1d6 base dmg to your melee hits, both until the end of the current turn.",
+            "5. Shadow Rift: 1/min; bonus action; When completely within shadow, you can slip into the Ethereal plane for 2 rounds. When re-emerging, you must come back through a shadow. If you fail to make it to one when you would return, you are trapped in the Ethereal plane until you find another way to escape.",
+            "6. Gain an expertise die sleight of hand and performance.",
+            "7. Shadow Trap: 1/LR; bonus action; You use your power over the shadows to immobilise an opponent. Make an attack, reducing their speed to 0 on a success. This effect lasts as long as you maintain concentration on it.",
             "8. Shadow Eyes: 2/min; bonus action; Select an area of shadows within your line of sight. You can juxtapose your vision to see as if you were standing in that location.",
-            "9. Shadow Clone: 1/LR; bonus action; Your shadow steps out from behind you and stands before you. Your shadow is a CR 2 creature with 15 AC, 40 hit points, +7 AB, and 2d8 necrotic damage. It follows your orders and can complete complex tasks. The clone takes 10 radiant damage for every turn it starts in direct light. It lasts for 2 hours or until it dies.",
+            "9. Shadow Clone: 1/LR; bonus action; Your shadow steps out from behind you and stands before you. Your shadow is a CR 1 minion that deals cold dmg. It follows your orders and can complete complex tasks. The clone takes 10 radiant damage for every turn it starts in direct light. It lasts for 2 hours or until it dies.",
             "10. Blind Darkness: 1/week; You create a shroud of darkness around you, extending up to 5' away. You can choose to either make this zone stationary or have it follow your movements. While in this zone, any creature other than you is blind and deaf. This effect lasts 1 minute."
         ]
     },
@@ -164,13 +164,13 @@
         "description": "Adding magical power to words",
         "tiers": [
             "1. You have a sense of how people think. Choose one of persuasion, deception, or insight to gain an expertise die in.",
-            "2. Misdirect Blame: 2/min; bonus action; Using your clever words and knowledge of others, you can attempt to alter the narrative so that a creature of up to CR 2 within 30' of you becomes uncertain of its conviction in one simple area, such as their conviction that you just stole a fruit from their stand, or that they've never met you before. This effect usually lasts only for the period of time you spend speaking, and perhaps up to a minute longer, before the target realises its error. Afterwards, all of your skill checks to socially interact with the target have disadvantage.",
-            "3. Negotiate: 1/min; bonus action; In any gathering where two or more people are trying to establish the truth or come to a decision, you can sway the verdict with masterful rhetoric. If you are given a few rounds or more to argue your point, either the decision goes your way or, if someone else effectively argues a competing point, you have double advantage on any associated persuasion or deception check.",
+            "2. Misdirect Blame: 2/min; free action; Using your clever words and knowledge of others, you can attempt to alter the narrative so that a creature of up to CR 2 within 30' of you becomes uncertain of its conviction in one simple area, such as their conviction that you just stole a fruit from their stand, or that they've never met you before. This effect usually lasts only for the period of time you spend speaking, and perhaps up to a minute longer, before the target realises its error. Afterwards, all of your skill checks to socially interact with the target have disadvantage.",
+            "3. Negotiate: 1/min; free action; In any gathering where two or more people are trying to establish the truth or come to a decision, you can sway the verdict with masterful rhetoric. If you are given 3 rounds to argue your point, either the decision goes your way or, if someone else effectively argues a competing point, you have double advantage on any associated persuasion or deception check.",
             "4. Command: 1/min; bonus action; Through sheer force of will and charisma, you issue a simple command to a single living creature, which attempts to carry out your command during its next turn. The creature must be within 30' of you and be able to understand you. The command cannot inflict direct harm on the creature or its allies. Additionally, the command can require the creature to only take one turn's worth of actions.",
             "5. CHA +2.",
             "6. Interruption: 1/SR; bonus action; Your vociferous, booming command prevents a creature within 30' of you from taking any actions for 1 round. During this time, it also has double disadvantage on all saving throws. Once you have used this feature on a creature, they become immune to it.",
             "7. Gain an expertise die in 2 of the following skills: persuasion, deception, intimidation, investigation, any knowledge skill, or insight. Additionally, members of your party also gain an expertise die in the 2 skills you chose while they are adventuring with you.",
-            "8. Break Their Mind: 1/year; bonus action; Using your clever words and knowledge of others, and given a couple of rounds of conversation to gain a few specific pieces of context regarding your target, you can utter a sentence designed to cause your target immediate psychological distress. If the target can hear you, it immediately takes 2d10 + your level psychic damage and forgets the last 24hrs of its life.",
+            "8. Break Their Mind: 1/year; bonus action; Using your clever words and knowledge of others, and given 2 rounds of conversation to gain a few specific pieces of context regarding your target, you can utter a sentence designed to cause your target immediate psychological distress. If the target can hear you, make an atk against it. On a hit, it immediately takes 2d10 + your level psychic damage and forgets the last 24hrs of its life.",
             "9. Through anecdotes, historical retellings, and citing knowledge that few but you have previously understood, you enlighten your friends. After spending 24 hours with you, once per long rest, each of your party members can gain double advantage on a single d20 roll. If you leave someone's company for more than 24 hours, they must spend the 24 hours with you again to continue using this feature.",
             "10. Gain a d6 expertise die in persuasion, deception, and insight"
         ]
@@ -183,11 +183,11 @@
             "2. You gain an expertise die on CON saves.",
             "3. Disadvantaged Stealth from body armour becomes -2 stealth instead.",
             "4. Dodge and Resist: 1/min; free action; After you make a saving throw, you can reroll it and take the better of the two results.",
-            "5. Dodge and Respond: 1/min; free action; Whenever a melee attack misses you, you can immediately make 1 melee attack in return.",
+            "5. Dodge and Respond: 1/min; free action; Whenever a melee attack misses you, you can immediately make 1 melee attack against the atker in return.",
             "6. You gain an expertise die on WIS saves and +1 WIS.",
             "7. Ignore stealth penalties from body armour.",
-            "8. While affected by the Dodge action, +2 to all saving throws.",
-            "9. Whenever you succeed on a saving throw, you can immediately make 1 attack against the prompting creature if they are in range.",
+            "8. While affected by the Dodge action, gain an expertise die in all saving throws.",
+            "9. Whenever you succeed on a saving throw, you can immediately make 1 attack against the offending creature if they are in reach/range.",
             "10. +1 AC while wearing armour."
         ]
     },
@@ -195,13 +195,13 @@
         "name": "Absorbs Energy",
         "description": "absorbing and utilising kinetic energy",
         "tiers": [
-            "1. You absorb a portion of the energy of a physical attack or impact. You negate 2 points of damage you would have suffered and store it as energy. You can store a maximum of 2 energy at a time.",
+            "1. You can absorb a portion of the energy of a weapon attack or impact. You negate 2 points of damage you would have suffered and store it as energy. You can store a maximum of 2 energy at a time.",
             "2. Release Energy: At-will; bonus action; You release 2 points of energy you've absorbed, magnifying and focusing it into a blast of energy that attacks a single foe within 120' of you, dealing 2d6 + your level force damage on a hit.",
             "3. Energise Object: At-will; bonus action; You infuse energy you have absorbed into an object. The object holds the energy until it is touched by anyone but you. The energy inflicts 1d12 force damage on the touching creature in addition to any damage the object itself may do. A creature cannot have more than one energised object on their person at a time.",
-            "4. You can now absorb and store energy from damage made with arcane energy or from conduits that direct energy, if you can make direct contact. This functions in the same way as T1.",
-            "5. Instead of being able to absorb 2 points of damage from various sources, you can absorb 4 points. You can also store up to 4 points of energy from any source.",
+            "4. You can now absorb and store energy from damage made by spells. This functions in the same way as T1.",
+            "5. Instead of being able to absorb 2 points of damage with this glyph path, you can absorb 4 points. You can also store up to 4 points of energy from any source.",
             "6. The damage of your Release Energy feature is increased to 2d10 + your level.",
-            "7. Energise Creature: 1/week; bonus action; You extend your absorption abilities to one creature within 5' of you so that they also can absorb up to 4 points of damage from the same sources for 1 hour. That creature, however, cannot store the energy for any other purpose.",
+            "7. Energise Creature: 1/week; bonus action; You extend your absorption abilities to one creature adj to you so that they also can absorb up to 4 points of damage from the same sources for 1 hour. That creature, however, cannot store the energy for any other purpose.",
             "8. Energise Crowd: once ever; bonus action; You can use your Energise Creature feature on up to 30 creatures within 30' of you.",
             "9. You can infuse 2 points of energy you have stored into a magical piece of equipment as a free action, increasing a weapon's dmg by 1d8 for its next attack, or a piece of armour's AC bonus by 3 until its wearer is next attacked.",
             "10. You can now store up to 8 points of energy at a time."
@@ -211,30 +211,30 @@
         "name": "Maps the World",
         "description": "Mapping and routing travel",
         "tiers": [
-            "1. +2 survival. If you have 1 hour and the necessary tools, you can draw a map of any area you have explored. This map grants advantage to any navigation-related skill checks in that area.",
+            "1. You gain an expertise die in Survival. If you have 1 hour and the necessary tools, you can draw a map of any overworld hex you have explored. This map grants advantage to any navigation-related skill checks in that hex.",
             "2. You can always navigate back to wherever your last long rest was.",
-            "3. Blaze Trails: 2/min; bonus action; For the next 4 hours of travel, you mark the landscape as you pass. The next time you come through the area you will automatically know it ad be able to pick up your old trail.",
-            "4. Makeshift Map: 2/min; bonus action; You spend 10 minutes crafting a map based on rumours you hear about the area in question. This map provides advantage on any navigation-related skill checks, just as a normal map would, but should one fail one of those checks they would likely find themselves very lost.",
-            "5. Gain +2 in survival. Additionally, whenever you explore a location you have never been to you gain advantage on initiative and perception rolls while there.",
-            "6. Perfect recall: 1/min; bonus action; You recall the details of any place you have been in the last 24 hours to such a degree that you can make new perception checks as though you were there.",
-            "7. Quickest Route: 1/SR; bonus action; For 24 hours you cut the long distance travel time in half for you and your party. If you possess a map of the area you may use this feature to lead a caravan or other large group.",
-            "8. Safest Route: 1/SR; bonus action; For 24 hours you double the long distance travel time for you and your party, protecting you from ambushes and difficult terrain. If you possess a map of the area you may use this feature to lead a caravan or other large group. This feature cannot be used at the same time as your Quickest Route feature.",
-            "9. Establish Connection: 1/LR; bonus action; You make friends with a local in the area, providing you with news, rumours, and a way to buy local goods. This may only be used in an inhabited area.",
-            "10. Trade Route: 1/year; bonus action; You establish a permanent trade route between your home region and the locals here. This feature may only be used in an inhabited location. This feature also grants you a dwelling in the chosen location. You can easily find sources of information and merchants to trade with."
+            "3. Blaze Trails: At-will; bonus action; For the next day of travel, you mark the landscape as you pass. The next time you come through the current overworld hex you will automatically know it and gain an expertise die on Journey Activity checks there.",
+            "4. Makeshift Map: 2/min; bonus action; You spend 10 minutes crafting a map based on rumours you hear about an area in question. This map provides advantage on any navigation-related skill checks, just as a normal map would, but should one fail one of those checks they would likely find themselves very lost.",
+            "5. Gain an expertise die in Survival. Additionally, whenever you explore a location you have never been to you gain advantage on initiative and Perception rolls while there.",
+            "6. Perfect recall: 1/min; bonus action; You recall the details of any place you have been in the last 24 hours to such a degree that you can make new Perception checks as though you were there.",
+            "7. Quickest Route: At-will; bonus action; The current day of travel for your party progresses you 1 additional day to your destination. If you possess a map of the area you may use this feature to lead a caravan or other large group.",
+            "8. Safest Route: At-will; bonus action; The current day of travel for your party only progresses you half a day to your destination, but prevents hostile random encounters and penalties from difficult terrain. If you possess a map of the area you may use this feature to lead a caravan or other large group. This feature cannot be used at the same time as your Quickest Route feature.",
+            "9. Establish Connection: 1/LR; bonus action; You make friends with a local in the area, providing you with news and rumours. This may only be used in a city.",
+            "10. Trade Route: 1/year; bonus action; You establish a permanent trade route between your hometown and the locals in the city you are currently in. This feature also grants you a dwelling in the city. You can easily find sources of information there as well."
         ]
     },
     {
         "name": "Shepherds the Community",
         "description": "Gaining influence and respect in a community",
         "tiers": [
-            "1. Community Knowledge: 2/min; bonus action; If you've invested yourself in a community and have spent at least a few months living there, you can learn things about it through a variety of methods. Sometimes contacts slip the information to you. Other times, you're able to draw conclusions simply by what you can see and hear. When you use this feature, you can ask the DM one question about the community and get a brief answer.",
-            "2. When speaking to others in the community you foster, +2 bonus to persuasion and intimidation checks about topics that directly relate to the community.",
-            "3. Gain proficiency in a weapon tier of your choice. If you already have all weapon tier proficiencies, gain +2 weapon AB.",
-            "4. While you are present within the community, and actively and personally working on behalf of the community, it gains +2 to any checks its members and leadership make to improve itself, except for in combat situations.",
-            "5. You inflict 6 additional points of damage when engaging in combat that directly relates to advancing the needs of a community you foster.",
+            "1. Community Knowledge: 2/min; bonus action; If you've invested yourself in a community and have spent at least a few months living there or with them, you can learn things about it through a variety of methods. Sometimes contacts slip the information to you. Other times, you're able to draw conclusions simply by what you can see and hear. When you use this feature, you can ask the DM one question about the community and get a brief answer.",
+            "2. When speaking to others in the community you foster, you gain an expertise die in Persuasion and Intimidation checks about topics that directly relate to the community.",
+            "3. Gain proficiency in a weapon type of your choice. If you already have all weapon proficiencies, gain an expertise die in weapon atks.",
+            "4. While you are present within the community, and actively and personally working on behalf of the community, it gains an expertise die in any checks its members and leadership make to improve itself, except for in combat situations.",
+            "5. You inflict 1d8 additional base damage with hits when engaging in combat that directly relates to advancing the needs of a community you foster.",
             "6. You cannot shepherd a community without immense stamina. You gain +1 CON and +1 WIS.",
             "7. Your devotion to keeping your community safe against all dangers has hardened you against all vicissitudes. +2 to all saving throws.",
-            "8. Gain +2 weapon AB.",
+            "8. Gain an expertise die in weapon atks.",
             "9. Protective Wall: 1/week; free action; When engaging in combat that directly relates to defending a community you are fostering, you can make 1 attack against up to 5 different foes within 5' of you as a single action. If you hit a creature, they are pushed 5' away.",
             "10. You can now ask up to 3 questions with your Community Knowledge feature."
         ]
@@ -259,32 +259,32 @@
         "name": "Repairs Ancient Devices",
         "description": "Repairing broken objects",
         "tiers": [
-            "1. +2 to all repairing skill checks. +2 to perception and investigation for noticing raw materials for use in repairs. For you, levelling artifacts counts as a repair check, with the difficulty of gaining additional effects based on the item's level.",
-            "2. Quick Fix: 1/round; free action; You make a broken object work for 6 more seconds. Alternatively, you can enhance a 1-point modifier on an artifact for 6 seconds.",
-            "3. Scour for Parts: 2/min; bonus action; You scour the area within 5' of you for all useful repair parts. Along the way, you detect any magic in the area.",
+            "1. You gain an expertise die in all repairing ability checks, as well as in Perception and Investigation for noticing raw materials for use in repairs. For you, levelling relics requires an Intelligence (Repair) check, with a DC equal to 3x the item's current lvl. If you succeed on this check, you get 1 additional option when levelling the item.",
+            "2. Quick Fix: At-will; free action; You make a broken object work for 6 more seconds. Alternatively, you can add 1pt of value to a 1-point modifier on a relic until your next turn.",
+            "3. Scour for Parts: 2/min; bonus action; You scour the area adj to you for all useful repair parts. Along the way, you detect any magic in the area.",
             "4. Whenever you find gold, you find double the amount you would have otherwise found.",
-            "5. +2 to all repairing skill checks. +2 to perception and investigation for noticing raw materials for use in repairs.",
-            "6. Whenever you use a consumeable with a duration, double that duration. Additionally, double the duration of buffs you gain from artifacts.",
+            "5. You gain an expertise die in all repairing ability checks, as well as in Perception and Investigation for noticing raw materials for use in repairs.",
+            "6. Whenever you use a wondrous item with a duration, double that duration. Additionally, double the duration of buffs you gain from relics.",
             "7. Multi-Step Process: 1/week; bonus action; Through careful planning you turn a nearly impossible repair task (DC 26 or higher) into 3 smaller jobs (DC 20 each).",
-            "8. Perception +2.",
-            "9. You can now use your Quick Fix feature twice per round.",
-            "10. You can now use your Scour for Parts feature at-will. Additionally, its radius from you is now 10'."
+            "8. You gain an expertise die in Perception.",
+            "9. Your Quick Fix feature can now make a broken object work for an additional minute.",
+            "10. You can now use your Scour for Parts feature at-will. Additionally, it now allows you to scour an area up to 30' away from you."
         ]
     },
     {
         "name": "Fights with a Horde",
         "description": "Acquiring and empowering an ally",
         "tiers": [
-            "1. Teamwork: 2/min; bonus action; Through example, acts of camaraderie, stories of martial prowess, or other forms of instruction, you and your allies work better together as a cohesive unit. You rally your team, granting you and all members of your party +2 global damage until the start of your next turn. A creature can only be considered a member of your team if they have spent the last 24 hours with you. It ends if you leave, but resumes if you return within 24 hours. If you leave for more than that, you must spend another 24 consecutive hours together to reactivate the benefit.",
+            "1. Teamwork: 2/min; bonus action; Through example, acts of camaraderie, stories of martial prowess, or other forms of instruction, you and your allies work better together as a cohesive unit. You rally your team, granting you and all members of your party +1d4 base damage with hits until the start of your next turn. A creature can only be considered a member of your team if they have spent the last 24 hours with you. It ends if you leave, but resumes if you return within 24 hours. If you leave for more than that, you must spend another 24 consecutive hours together to reactivate the benefit.",
             "2. One creature up to CR 1 associated with your past connections joins you and your allies. They count as a minion. They do not have to accompany you everywhere, but you can assign them specific tasks, such as guarding a community's perimeter for a day or accompanying you on an expedition.",
             "3. When the ally from your past is within 60' of you, they can use the Help action on you for any DEX-based task.",
             "4. When the ally from your past is within 60' of you, they can use the Help action on you for any STR-based task.",
-            "5. The ally increases to CR 3.",
-            "6. Horde Tactics: 1/month; free action; For up to 1 hour, you and the ally from your past can acts as a single creature. Use your statistics, but add +6 STR, +3 DEX, and +1 AC.",
+            "5. The ally increases to CR 2.",
+            "6. Horde Tactics: 1/month; free action; For up to 1 hour, you and the ally from your past can acts as a single creature. Use your statistics, but add +3 STR mod, +1 DEX mod, and +1 AC.",
             "7. Advance Rank: once ever; free action; For the next hour, all members of your party gain +1 AC and global AB.",
             "8. Charging Horde: 1/month; bonus action; You and the ally from your past can act as a single creature to make a charge attack. When you do, you both move up to 30', during which time you can target anything that comes within 5' of your path with any weapon, spell, or glyphic attack, with advantage on the attack rolls. Creatures who take damage take an additional 1d8 damage and are knocked prone.",
             "9. Your Teamwork feature can now be used at-will.",
-            "10. The ally increases to CR 5."
+            "10. The ally increases to CR 4."
         ]
     },
     {
@@ -292,46 +292,46 @@
         "description": "Deciphering writing and symbols",
         "tiers": [
             "1. You gain an expertise die in perception and investigation for noticing writing and symbols.",
-            "2. Whenever you trigger a trap or other unexpected magical effect, you gain an expertise die in saving throws to dodge or stop it.",
-            "3. You gain an expertise die in skill checks for deciphering the meaning of writing and symbols. You can determine the vague gist of a sentence trivially as a bonus action.",
+            "2. Whenever you trigger a trap, you gain an expertise die in saving throws to dodge or stop it.",
+            "3. You gain an expertise die in ability checks for deciphering the meaning of writing and symbols. You can determine the vague gist of a sentence trivially as a bonus action.",
             "4. Activator: 1/min; bonus action; You determine the purpose and means of using a magical object in your possession.",
-            "5. You gain an expertise die in skill checks for deciphering the meaning of writing and symbols.",
+            "5. You gain an expertise die in ability checks for deciphering the meaning of writing and symbols.",
             "6. Functionality: 1/LR; bonus action; You learn the purpose of a magical object or construct, just by glancing at it.",
             "7. Linguistic Genius: 1/week; bonus action; With a bit of sample text, you learn to read a particular language. From this point forward you can always read the language.",
             "8. You gain an expertise die in investigation.",
             "9. You gain an expertise die in saving throws.",
-            "10. YOu gain a d6 expertise die in arcana."
+            "10. You gain a d6 expertise die in arcana."
         ]
     },
     {
         "name": "Wields Dangrous Cyphers",
         "description": "Empowering received blessings",
         "tiers": [
-            "1. Aim True: Blessings you receive affects one other ally as well.",
-            "2. You handle blessings with care, allowing you to have one additional maximum hit die.",
-            "3. Blessings you find behave as though they were one tier higher.",
-            "4. Whenever you gain a random blessing, you receive 2 and choose which one to keep.",
-            "5. Whenever a blessing involves dice rolls, you can use the roll result of your choice.",
-            "6. You gain blessings on a loot roll of 1.",
-            "7. When you use your Aim True feature, the blessing affects 1 additional ally of your choice.",
-            "8. When you use your Aim True feature, the blessing affects 1 additional ally of your choice.",
-            "9. You can have 1 additional maximum hit die.",
-            "10. Blessings you find behave as though they were two tiers higher."
+            "1. Aim True: At-will; free action; A wondrous items you use counts as also being used by an ally within 60' of you.",
+            "2. +1 maximum hit dice.",
+            "3. Whenever you would find a wondrous item, you find one 1 rarity higher.",
+            "4. Whenever you find a wondrous item, you receive 2 and choose which one to keep.",
+            "5. Whenever a wondrous item's usage involves a random effect based on a die roll, you can use the die result of your choice.",
+            "6. Whenever you would find gold in the wondrous item loot slot, you instead find an uncommon wondrous item. This is not affected by T3.",
+            "7. When you use your Aim True feature, the duplication effect applies to 1 additional ally within 60' of you.",
+            "8. When you use your Aim True feature, the duplication effect applies to 1 additional ally within 60' of you.",
+            "9. +1 maximum hit dice.",
+            "10. T3 now increases the rarity of found wondrous items by 3 tiers."
         ]
     },
     {
-        "name": "Accesses Ancestral Memories",
+        "name": "Accesses Ancestral Memories [LAST]",
         "description": "Drawing from the power of your ancestors",
         "tiers": [
             "1. Glimpse of the Past: At-will; bonus action; You gain a minor piece of information about an ancient ruin or other previously inhabited location you are currently within. This comes to you in the form of a confusing memory.",
-            "2. Old Reflexes: 2/min; reaction; The memories of a thousand dodged mishaps and attacks flow into your mind, granting you advantage on a DEX saving throw.",
-            "3. Ancestral Echo: 1/min; bonus action; You integrate a piece of an ancestor's personality into your own for 1 hour, temporarily granting you +2 to a social skill of your choice.",
-            "4. Voice from the Past: 1/SR; bonus action; A whisper from an ancestor provides wisdom from the ancient past. You may make one knowledge check with a +2 bonus.",
-            "5. Strength of Blood: 1/LR; bonus action; Your ancestors flow through you through the cells in your blood, granting you strength beyond your usual capacities. For 1 hour you have +4 STR.",
-            "6. Ghostly Visage: 1/week; bonus action; You summon a particular ancestor to appear before you as a vision. Only you may see and hear what is essentially a hallucination. You may speak with the ancestor for up to 1 hour, granting you advantage on all skill checks related to the ancestor's life.",
+            "2. Old Reflexes: 2/min; free action; The memories of a thousand dodged mishaps and attacks flow into your mind, granting you advantage on a DEX saving throw.",
+            "3. Ancestral Echo: At-will; bonus action; You integrate a piece of an ancestor's personality into your own for 1 hour, temporarily granting you an expertise die in a social skill of your choice. You can only have 1 at a time.",
+            "4. Voice from the Past: 1/SR; bonus action; A whisper from an ancestor provides wisdom from the ancient past. You may make a knowledge check with an additional expertise die.",
+            "5. Strength of Blood: 1/LR; bonus action; Your ancestors flow through you through the cells in your blood, granting you strength beyond your usual capacities. For 1 hour you have +2 STR mod.",
+            "6. Ghostly Visage: 1/week; bonus action; You summon a particular ancestor to appear before you as a vision. Only you may see and hear what is essentially a hallucination. You are accompanied by the ancestor for up to 1 hour, granting you advantage on all skill checks related to the ancestor's life.",
             "7. The memories from your Glimpse of the Past feature are now more clear and obvious.",
             "8. You can now use your Old Reflexes feature at-will.",
-            "9. Your Ancestral Echo feature now provides a +4 bonus.",
+            "9. Your Ancestral Echo feature now provides a d6 expertise die.",
             "10. You can now use your Voice from the Past feature twice per minute."
         ]
     },

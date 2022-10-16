@@ -62,8 +62,6 @@ var GEM_TAGS []string = []string{
 	"proj",
 	"pers area",
 	"conc",
-	"hit die healing",
-	"max hit dice",
 	"hp",
 	"save",
 	"ac",

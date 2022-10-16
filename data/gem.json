@@ -35,8 +35,8 @@
         "tags": ["type dmg", "weapon class"]
     },
     {
-        "description": "-1 crit req",
-        "upgrade": "-1/4",
+        "description": "+1 crit range",
+        "upgrade": "+1/4",
         "tags": ["crit"],
         "meta": "rogue - marksman - assassin's quiver"
     },
@@ -222,8 +222,8 @@
         "tags": ["weapon class"]
     },
     {
-        "description": "if you've made a {weaponClass} atk since start of your last turn, -1 crit req",
-        "upgrade": "-1/4",
+        "description": "if you've made a {weaponClass} atk since start of your last turn, +1 crit range",
+        "upgrade": "+1/4",
         "tags": ["weapon class", "crit"]
     },
     {
@@ -837,6 +837,170 @@
         "description": "on hit, 20% chance to give 2 {dmgType} DoT, stacking until CON save",
         "upgrade": "+10%/1 OR +1 dmg/1",
         "tags": ["type dmg", "dot"],
-        "meta": "river spirits"
+        "meta": "druid - river spirits"
+    },
+    {
+        "description": "+1 crit range",
+        "upgrade": "+1/4",
+        "tags": ["crit"]
+    },
+    {
+        "description": "on crit, heal 2 HP",
+        "upgrade": "+1/1",
+        "tags": ["crit", "hp"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+2 minion outgoing healing",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "when hit, 20% chance to conjure a Healing Totem, a CR 1/8, immobile construct minion that autohits, deals half dmg, and heals instead of dmging, with 30' range",
+        "upgrade": "+10%/1 OR +1 CR/1",
+        "tags": ["minion def"],
+        "meta": "druid - totemic restoration"
+    },
+    {
+        "description": "+1 {abilityScore}",
+        "upgrade": "+1/4",
+        "tags": ["ability score"]
+    },
+    {
+        "description": "if your {abilityScore} is 15+, +1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["ability score", "phys res"]
+    },
+    {
+        "description": "if your {abilityScore} is 15+ while shapeshifed, +2 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["ability score", "melee"]
+    },
+    {
+        "description": "your hits ignore {type} res",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "your minions ignore $dmgType res",
+        "upgrade": "+2 minion {type} dmg/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+5' minion sp",
+        "upgrade": "+5'/1",
+        "tags": ["minion def", "minion off"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "description": "+1d4 $dmgType dmg to your minions' melee hits",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+1d4 $dmgType dmg to your minions' spell hits",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "on minion hit, 20% chance to give -2 phys res until end of their next turn",
+        "upgrade": "+10%/1 OR -1 res/1",
+        "tags": ["minion off", "phys dmg"]
+    },
+    {
+        "description": "+1 {abilityScore}",
+        "upgrade": "+1/4",
+        "tags": ["ability score"]
+    },
+    {
+        "description": "if your {abilityScore} is 15+, +20% chance to ignore extra crit dmg",
+        "upgrade": "+10%/1",
+        "tags": ["ability score"],
+        "meta": "druid - harmonious wisdom"
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+2 minion outgoing healing",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "while shapeshifted, +2 DoT dmg",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "while not shapeshifted, +1 DoT res",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "if you've shapeshifted/reverted this combat, +1 phys res",
+        "upgrade": "+1/1",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "if you've shapeshifted/reverted this combat, +1 global dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "spell dmg"],
+        "meta": "druid - primal shifter"
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "while you have an active minion, +1 global dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off", "minion def", "wep dmg", "spell dmg"]
+    },
+    {
+        "description": "while you have an active minion, +1 phys res",
+        "upgrade": "+1/1",
+        "tags": ["phys res", "minion off", "minion def"]
+    },
+    {
+        "description": "+1 passive regen",
+        "upgrade": "+1/3",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 passive regen",
+        "upgrade": "+1/3",
+        "tags": ["hp"]
+    },
+    {
+        "description": "if you've shapeshifted/reverted this combat, +1 crit range",
+        "upgrade": "+1/3",
+        "tags": ["crit"]
+    },
+    {
+        "description": "if you've shapeshifted/reverted this combat, +1 crit dice",
+        "upgrade": "+1/1",
+        "tags": ["crit"],
+        "meta": "druid - tiger spirit"
     }
 ]

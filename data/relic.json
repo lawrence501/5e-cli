@@ -1151,6 +1151,150 @@
                     "upgrade": "+2/1"
                 }
             ]
+        },
+        {
+            "name": "Peerless Fighter",
+            "startingMods": [
+                {
+                    "description": "+3 init while bloodied",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on turn start, foes within 10' get -1 wep dmg res until end of their next turn",
+                    "pointValue": "2",
+                    "upgrade": "-1/2"
+                },
+                {
+                    "description": "1/combat, on wep hit, heal 3 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on hit, target slowed until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+2 wep dmg vs debuffed targets/1"
+                },
+                {
+                    "description": "2. +1 wep dmg during your turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on wep hit, heal 1 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. adj allies have +1 dmg res",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. gain wep dmg equal to your bonus spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "7. +1 incoming healing",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "8. your maneuvers have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "9. +1 proj dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 exp gain",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Stone Golem",
+            "startingMods": [
+                {
+                    "description": "your construct minions have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "your construct minions have +1 STR mod",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "your construct minions have +1 DEX mod",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. your construct minions have +1 CON mod",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +2 construct minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. your construct minions have +1 to saves vs debuffs",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "4. your construct minions ignore res",
+                    "pointValue": "2",
+                    "upgrade": "+2->1 construct minion dmg/1"
+                },
+                {
+                    "description": "5. if you have 15+ INT, your construct minions have +1 STR mod",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. if you have 15+ INT, your construct minions have +1 DEX mod",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "7. +1 construct minion AB",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. on taking the Dodge action, adj foes have a 20% chance to become sluggish until end of your next turn",
+                    "pointValue": "4",
+                    "upgrade": "+10%/1"
+                },
+                {
+                    "description": "9. +2 cold res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. your minions have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                }
+            ]
         }
     ],
     "armour": [
@@ -2015,6 +2159,78 @@
                     "description": "10. all your spells count as cantrips",
                     "pointValue": "1",
                     "upgrade": "+1 cantrip dmg/1"
+                }
+            ]
+        },
+        {
+            "name": "Archfiend Ward",
+            "startingMods": [
+                {
+                    "description": "+2 wep dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+5 boss dmg",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 wep crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +1 to crafting creation checks",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1d4 S dmg to wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 wep AB vs bosses",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. +2 dmg res vs fiends",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 crit range vs bosses",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "8. +2 crit dice vs bosses",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "10. +1 AC vs fiends",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 }
             ]
         }

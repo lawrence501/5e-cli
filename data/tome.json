@@ -198,7 +198,7 @@
     },
     {
         "name": "Persistent Power",
-        "target": "Any power with a persistent area",
+        "target": "Powers with persistent areas",
         "description": "The power's persistent areas have slightly more dmg and slightly more area."
     },
     {
@@ -434,7 +434,7 @@
         "description": "The power's projectiles have +1 Accuracy."
     },
     {
-        "name": "Decay",
+        "name": "Infliction",
         "target": "Any power",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save."
     },
@@ -620,8 +620,165 @@
         "description": "If you have delivered a KB with the power since the start of your last turn, you have +1 crit range."
     },
     {
-        "name": "Armour Shredding [marrow shards done]",
+        "name": "Armour Shredding",
         "target": "Any power",
         "description": "Whenever the power hits, the target gets slightly reduced phys res until the end of your next turn."
+    },
+    {
+        "name": "Conversion",
+        "target": "Any power",
+        "description": "The power's base dmg is converted to $nonPhysType and it deals more dmg.",
+        "meta": "hail of arrows"
+    },
+    {
+        "name": "Compounding Decay",
+        "target": "Powers that deal damage over time",
+        "description": "Whenever the power's DoTs tick, it inflicts the target with a DoT dealing slight $nonPhysType dmg, stacking until CON save."
+    },
+    {
+        "name": "Focused Endurance",
+        "target": "Powers with non-instantaneous durations that do not require concentration",
+        "description": "The power's duration is increased by 1 step, but you can only have 1 instance of it active at a time."
+    },
+    {
+        "name": "Channeled Endurance",
+        "target": "Powers with non-instantaneous durations that do not require concentration",
+        "description": "The power now lasts for as long as you concentrate on it, and its usage time is reduced by 1 step."
+    },
+    {
+        "name": "Slowing Decay",
+        "target": "Powers that deal damage over time",
+        "description": "While a creature is affected by the power's DoT, it is slowed."
+    },
+    {
+        "name": "Sluggish Slowing",
+        "target": "Powers that can inflict slow",
+        "description": "The power's slow is converted to sluggish."
+    },
+    {
+        "name": "Staggering Decay",
+        "target": "Powers that deal damage over time",
+        "description": "While a creature is affected by the power's DoT, it is staggered. The power deals less dmg."
+    },
+    {
+        "name": "Decaying Affliction",
+        "target": "Powers that deal damage over time",
+        "description": "While a creature is affected by the power's DoT, it is staggered. The power also has +1 to its ongoing debuff DCs and deals substantially less dmg."
+    },
+    {
+        "name": "Efficient Intensity",
+        "target": "Powers with a non-cooldown resource cost and non-instantaneous durations",
+        "description": "The power's cost is 1 step lower and it deals more dmg, but its duration is reduced by 1 step."
+    },
+    {
+        "name": "Decaying Exsanguination",
+        "target": "Powers that deal damage over time",
+        "description": "Whenever the power's DoTs tick, it inflicts the target with a DoT dealing slight $physType dmg, stacking until CON save."
+    },
+    {
+        "name": "Drifting",
+        "target": "Powers with persistent areas",
+        "description": "The power's persistent areas move 5' away from where you were when they were created at the start of each of your turns."
+    },
+    {
+        "name": "Charged Intensity",
+        "target": "Powers with a cooldown and a non-instantaneous duration",
+        "description": "The power can be used an additional time within its cooldown and deals more dmg, but its duration is reduced by 1 step."
+    },
+    {
+        "name": "Slow Efficiency",
+        "target": "Powers with cooldown and non-cooldown resource costs",
+        "description": "The power's cooldown and cost are both reduced by 1 step, and it deals more dmg, but its usage time is increased by 2 steps."
+    },
+    {
+        "name": "Intense Power",
+        "target": "Powers with sphere areas",
+        "description": "The power's sphere areas deal substantially more dmg, but its sphere areas have less radius."
+    },
+    {
+        "name": "Leeching Decay",
+        "target": "Powers that deal damage over time",
+        "description": "Whenever the power's DoTs tick, heal a slight amount of HP."
+    },
+    {
+        "name": "Exposing Decay",
+        "target": "Powers that deal damage over time",
+        "description": "Whenever the power's DoTs tick, the target grants incoming atks +1 crit range until the end of your next turn."
+    },
+    {
+        "name": "Shredding Decay",
+        "target": "Powers that deal damage over time",
+        "description": "Whenever the power's DoTs tick, the target's phys res is slightly reduced until the end of your next turn."
+    },
+    {
+        "name": "Sapping Decay",
+        "target": "Powers that deal damage over time",
+        "description": "Whenever the power's DoTs tick, the target's global dmg is slightly reduced until the end of its next turn."
+    },
+    {
+        "name": "Explosive Area",
+        "target": "Powers with sphere areas",
+        "description": "The power's sphere areas have more radius."
+    },
+    {
+        "name": "Explosive Striking",
+        "target": "Powers with a non-cooldown resource cost",
+        "description": "Whenever the power creates a sphere area, that area is also assaulted with a barrage of energy from above, making a wep atk against all foes within the sphere that deals $physType dmg. Also, the power deals more dmg and its cost is increased by 1 step."
+    },
+    {
+        "name": "Explosive Rooting",
+        "target": "Any power",
+        "description": "Whenever the power creates a sphere area, all foes in that area are rooted until end of their next turn. If an affected foe is a boss, it is slowed instead."
+    },
+    {
+        "name": "Keen Explosions",
+        "target": "Powers with sphere areas that make atk rolls",
+        "description": "The power's sphere areas have +1 crit range."
+    },
+    {
+        "name": "Persistent Warding",
+        "target": "Any power",
+        "description": "Whenever you end your turn within the power's pers areas, you gain a barely any dmg res and +1 to DEX saves until your next turn."
+    },
+    {
+        "name": "Persistent Empowerment",
+        "target": "Any power",
+        "description": "Whenever an ally ends their turn within the power's pers areas, they gain barely any dmg res and +1 to DEX saves until their next turn. Also, the power deals substantially less dmg."
+    },
+    {
+        "name": "Striking",
+        "target": "Any power",
+        "description": "Whenever the power hits, it deals additional $physType dmg.",
+        "meta": "umbral blades"
+    },
+    {
+        "name": "Staggering",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target is staggered until the end of your next turn."
+    },
+    {
+        "name": "Affliction",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target is staggered and sluggish until the end of your next turn. The power also deals less dmg."
+    },
+    {
+        "name": "Inconsistent Eruption",
+        "target": "Powers with cone areas that require reactivation each round",
+        "description": "The power's duration is increased by 1 step, and every 3 reactivations its cone areas are larger and deal more dmg. Its other reactivations deal less dmg."
+    },
+    {
+        "name": "Irregular Eruption",
+        "target": "Powers with cone areas that require reactivation each round",
+        "description": "Every 3 reactivations, the power's cone areas are larger and deal substantially more dmg."
+    },
+    {
+        "name": "Weaving Eruption",
+        "target": "Powers with cone areas that require reactivation each round",
+        "description": "Every 2 reactivations, the power's cone areas are larger and deal more dmg."
+    },
+    {
+        "name": "Stored Energy [next - cut and leave]",
+        "target": "Powers with cone areas that require reactivation each round",
+        "description": "For each turn of the power's duration in which you do not reactivate it, your next reactivation's cone areas are larger and deal barely more dmg."
     }
 ]

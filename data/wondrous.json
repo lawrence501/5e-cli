@@ -375,6 +375,22 @@
         {
             "name": "Cravat of Strangling",
             "description": "This red silk cravat appears to be - and, technically, is - extremely luxurious. While holding it, you can change its colour or pattern as a bonus action. Unfortunately, it is also cursed. When you put it on, it immediately tightens. You must make a DC 14 CON save each round or begin to suffocate. On subsequent turns, you or an ally may make a DC 15 Aths check to attempt to remove it. Doing so has a 50% chance of destroying the cravat. Attempts to cut, burn, or magically rip it off deal half damage to the wearer and half to the cravat (10 HP), which only releases its hold once destroyed."
+        },
+        {
+            "name": "Gong of Alarm",
+            "description": "As an action, you can cast the Alarm spell through this brass gong. When cast this way, the spell's duraiton becomes 1 month. The gong cannot be used to cast Alarm again while the spell is active and for 24hrs thereafter."
+        },
+        {
+            "name": "Hunter's Quiver",
+            "description": "While you carry the quiver, if no hostile creatures are within 30' of you, you can use a bonus action to aim, gaining adv on ranged wep atks until the end of your turn."
+        },
+        {
+            "name": "Poison Breath Bottle",
+            "description": "You can use an action to throw this green vial at a point within 20'. The vial shatters on impact and creates a 5'-radius cloud of poison gas. A creature that starts its turn in the cloud must succeed on a DC 12 CON save or take 2d6 psn dmg and become poisoned until the end of its next turn. The area inside the cloud is lightly obscured. The cloud remains for 1min or until a strong wind disperses it."
+        },
+        {
+            "name": "Reloader Gremlin [LAST - DDG]",
+            "description": "A tiny, ethereal gremlin squats motionless in this silver picture frame, which from a distance appears to contain a painting of the gremlin. The gremlin watches a particular device or mechanism. 1min after the device is triggered, the gremlin emerges from its frame, performs whatever actions are necessary to reset the device, and returns to its frame. The gremlin is ethereal and unable to interact with objs and creatures on the Material Plane other than its frame and the device it watches."
         }
     ],
     "rare": [
@@ -655,8 +671,12 @@
             "description": "This elegant pianoforte has been painted white, with gold filigree adorning its lid and the tops of its keys. Originally commissioned by a noble with particularly musically-incompetent children. It allows you to add an expertise die to Performance attempts to play it, and this die increases by one step if you have proficiency in Performance. If you succeed at a DC 17 Performance check while playing this instrument, you may choose up to 6 creatures within 30' that can hear the pianoforte. For the next hour, these creatures have a d8 Bardic Inspiration die which can be spent on any 1 attack roll, ability check, or saving throw."
         },
         {
-            "name": "Scale Milk [LAST - GPG7]",
+            "name": "Scale Milk",
             "description": "Contained in a small, clear bottle, the cap to this item is carefully sealed with thick wax. The grey tinge to the milky liquid and the aroma of putrid fruit once it is opened are off-putting, but if it has not spoiled Scale Milk is a powerful restorative. If consumed within 1hr of breaking the wax seal, you receive the benefits of both the Greater Restoration and Heal spells. If you consume this potion after the first hour, make a DC 18 CON save. On a failure you take 6d8 psn dmg and are poisoned for the next hr. On a success you take half damage and are poisoned until the end of your next turn."
+        },
+        {
+            "name": "Clock of Opening",
+            "description": "This grandfather clock weighs 250lbs and tolls loudly every hr. Among its internal mechanisms are 12 keyholes of various sizes. Any key can be inserted into a keyhole. If you are proficient in Arcana, you can use an action to cause a lock withing 500 miles to magically lock or unlock by inserting the lock's key into the clock and adjusting the clock's mechanisms. Additionally, so long as the key remains in the clock, you can schedule the lock to lock or unlock at certain hrs of the day."
         }
     ],
     "very rare": [

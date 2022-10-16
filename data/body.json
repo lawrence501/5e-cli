@@ -161,6 +161,23 @@
                 "1/SR as an action, you can replace one of your prepared spells with another from your spellbook."
             ],
             "variables": []
+        },
+        {
+            "name": "Dueling Wrap",
+            "source": "fighter - duelist (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "A number of times equal to your ability score mod between long rests, when you spend exertion, you can reduce the cost by 1pt."
+                    ]
+                },
+                {
+                    "mods": [
+                        "While you are wielding a Finesse or Parrying wep, you have +1 AC."
+                    ]
+                }
+            ]
         }
     ],
     "light": [
@@ -580,6 +597,49 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Primeval Chainmail",
+            "source": "druid - primeval",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in History.",
+                        "Whenever you make a History check, you can roll a d4 and add it to the check."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action 1/SR, you can summon a Primeval Companion, a CR 1/2 beast minion. The companion requires your bonus action to be commanded, otherwise just taking the Dodge action each turn. The exception to this is if you are unconscious, when the companion can be controlled without your bonus action."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shepharding Scale",
+            "source": "druid - shepherd",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain prof in Sylvan.",
+                        "Beasts can understand your speech and you can decipher their noises and motions. Most beasts lack the INT to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action 1/SR, you can conjure an incorporeal spirit in a space you can see within 60' of you.",
+                        "As a bonus action, you can move the spirit up to 60' to a point you can see.",
+                        "The spirit disappears if you are knocked unconscious, or after 1min."
+                    ],
+                    "variables": [
+                        "The spirit is a bear's. You and your allies within 30' of the spirit when it appears gain 8 temp HP. In addition, while inside this area, you and your allies gain adv on STR checks and saves.",
+                        "The spirit is a hawk's. Whenever a creature makes an atk roll against a target within 30' of the spirit, you can react to grant the atk adv. Additionally, you and your allies have adv on Perception checks while within this area.",
+                        "The spirit is a unicorn's. You and your allies have adv on all ability checks made to detect creatures within 30' of the spirit. Additionally, if you cast a levelled spell that restores HP to a creature, each creature of your choice within this area also regains 3 HP."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -745,6 +805,14 @@
                     "variables": []
                 }
             ]
+        },
+        {
+            "name": "Brutish Plate",
+            "source": "fighter - brute (a5e)",
+            "mods": [
+                "On melee wep hit, you may expend up to 2 exertion to deal 1d8 additional B dmg per point spent."
+            ],
+            "variables": []
         }
     ]
 }

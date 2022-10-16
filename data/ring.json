@@ -105,6 +105,29 @@
                 "As an action, you can expend 1 charge to cast Web (DC 15).",
                 "If you expend the band's last charge, roll a d20. On a 1, the band crumbles into ash and is destroyed."
             ]
+        },
+        {
+            "name": "Occultant Band",
+            "effects": [
+                "Over a period of 1min 1/SR, you can study a creature killed by someone in your party within the last 24hrs, the grant the creature who slew it a d10. Once within the next hr, that creature can add the d10 to a d20 roll.",
+                "While touching the band 1/LR while adj to a creature killed within the past 24hrs, you can cast the Augury spell. The course of action you inquire about with the spell does not need to have any connection to the dead creature."
+            ]
+        },
+        {
+            "name": "Earworm",
+            "effects": [
+                "You gain prof in Deep Speech.",
+                "The ring has 4 charges, 1d4 of which are recovered at the end of a long rest.",
+                "You can cast the following spells by expending charges (DC 15): Detect Thoughts (2 charges) or Dissonant Whispers (1 charge). Whenever you cast Detect Thoughts in this way, the information gleaned is also sent to the nearest aberration on your plane.",
+                "[CURSE] You cannot unattune from the ring, as it burrows one end of its loop into your flesh."
+            ]
+        },
+        {
+            "name": "Fochlucan Worm",
+            "effects": [
+                "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Entangle, Faerie Fire, Shillelagh, and Speak with Animals. Each spell can only be cast 1/LR in this way.",
+                "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
+            ]
         }
     ],
     "rare": [
@@ -152,7 +175,7 @@
             "effects": [
                 "You can cast Mending as an action.",
                 "You can rub the ring as a reaction when an obj or structure you can see within 300' of you takes dmg, causing it to be imm to that dmg and any further dmg of the same type until the start of your next turn.",
-                "You can rub the ring as an action to cast Fabricate, Move Earth, Passwall, or Summon Construct, and that spell canot be cast from the cape again until you finish a long rest."
+                "You can rub the ring as an action to cast Fabricate, Move Earth, Passwall, or Summon Construct, and that spell canot be cast from the ring again until you finish a long rest."
             ]
         },
         {
@@ -183,6 +206,46 @@
                 "If you expend the sign's last charge, roll a d20. On a 1, the sign crumbles into ash and is destroyed.",
                 "As an action, you can expend the sign's charges to cast the following spells (DC 17): Hold Monster (5 charges) or Hold Person (2 charges).",
                 "As a reaction to making a save to avoid being staggered or restrained, you can expend 1 charge from the sign to gain adv on the save. You can do the same for checks/saves to escape grapples."
+            ]
+        },
+        {
+            "name": "Protective Sign",
+            "effects": [
+                "The ring is initially locked with a magical keyhole (DC 20 to pick). It does nothing else while locked by someone other than you.",
+                "As an action, you can touch the ring and cause it to lock as if you cast Arcane Lock on it.",
+                "Add the following spells to your spell list: Arcane Lock, Dispel Magic, Globe of Invulnerability, Glyph of Warding, Mordenkainen's Private Sanctum, Protection from Evil, and Symbol.",
+                "The sign has 3 charges, 1d3 of which are recovered at the end of a long rest.",
+                "If you spend 1min studying the sign, you can expend 1 charge to replace one of your prepared spells with an Abjuration one from your spell list.",
+                "Whenever you cast an Abjuration spell, you can expend 1 charge to grant a creature you can see within 30' of you 2d10 temp HP."
+            ]
+        },
+        {
+            "name": "Ring of Thunder Resistance",
+            "effects": [
+                "You have 50% resistance to thunder dmg."
+            ]
+        },
+        {
+            "name": "Sign of Fireballs",
+            "effects": [
+                "The sign has 7 charges, 1d6 + 1 of which are recovered at the end of a long rest.",
+                "As an action, you can expend charges to cast Fireball (DC 15). For 1 charge, you cast the 3rd-lvl version of the spell, and can increase the spell lvl by 1 for each additional charge you spend.",
+                "If you expend the sign's last charge, roll a d20. On a 1, the sign crumbles into ashes and is destroyed."
+            ]
+        },
+        {
+            "name": "Sign of Enemy Detection",
+            "effects": [
+                "The sign has 7 charges, 1d6 + 1 of which are recovered at the end of a long rest.",
+                "As an action, you can expend 1 charge and say 'Inimicus' to know the direction of the nearest hostile creature to you within 60' for the next min."
+            ]
+        },
+        {
+            "name": "Acheron Sign",
+            "effects": [
+                "You are immune to effects that turn undead.",
+                "As an action 1/LR, you can gain 1d4 + 4 temporary hit points.",
+                "1/LR, when you hit a creature with a melee wep atk, you can fill the target with unsettling dread, granting them disadvantage on their next save before the end of your next turn. This has no effect if the target is immune to the frightened condition."
             ]
         }
     ],
@@ -237,6 +300,21 @@
             "name": "Ring of Telekinesis",
             "effects": [
                 "You can cast Telekinesis at no cost, but can only target objs that are not being worn/carried."
+            ]
+        },
+        {
+            "name": "Golgari Keyrune",
+            "effects": [
+                "As an action, you can say 'Golgari' and place the ring on the ground in an empty space adj to you to cause it to transform into a Giant Scorpion. If there isn't enough space for the Scorpion, the ring doesn't transform. The Scorpion is your minion and lasts up to 6hrs before reverting into a ring.",
+                "The ring reverts early if the Scorpion drops to 0 HP or you say 'Golgari' again.",
+                "After the ring reverts for any reason, it cannot transform again for 2 days."
+            ]
+        },
+        {
+            "name": "Fire Absorbing Rune",
+            "effects": [
+                "You have 50% resistance to fire dmg.",
+                "On taking fire dmg 1/LR, you can react to gain imm to that instance of fire dmg, and you regain a number of hit points equal to half the dmg you would have taken."
             ]
         }
     ],
@@ -306,6 +384,23 @@
                 "While the ring contains no spell, any creature can cast a levelled spell up to 5th lvl into it by touching it while casting. The spell has no effect other than being stored.",
                 "While touching the ring, you can cast the spell stored in it, using the stats of the original caster. This consumes the contained spell and the ring becomes empty.",
                 "If the ring is empty when you see a creature casting a spell within 60' of you, you can touch the ring as a reaction to attempt to interrupt the spell. If the spell is of 3rd lvl or lower, it has no effect and is instead stored in the ring. A higher-levelled spell requires you to make an INT check of DC 10 + the spell's lvl. On a success, it has no effect other than being stored in the ring."
+            ]
+        },
+        {
+            "name": "Avenger of the Feral Guardian",
+            "effects": [
+                "+1 AC [L11+: +2].",
+                "While shapeshifted, you have a +1 bonus to melee atk and dmg rolls [L11+: +2].",
+                "While shapeshifted, +1 AC [L11+: +2].",
+                "As an action 1/LR, you can cast Polymorph on yourself to shapeshift into a Giant Owl [L11+: Cave Bear]. You retain your mental ability scores when using the spell in this way.",
+                "If the ring is empty when you see a creature casting a spell within 60' of you, you can touch the ring as a reaction to attempt to interrupt the spell. If the spell is of 3rd lvl or lower, it has no effect and is instead stored in the ring. A higher-levelled spell requires you to make an INT check of DC 10 + the spell's lvl. On a success, it has no effect other than being stored in the ring."
+            ]
+        },
+        {
+            "name": "Avenger of the Stilled Tongue",
+            "effects": [
+                "As a bonus action 1/LR, you can cast any spell from your spell list without expending a spell slot or using any verbal or somatic component.",
+                "[CURSE] Vecna watches anyone wearing this ring. He can write cryptic msgs on the inside of its band, which appear at midnight and fade after being read."
             ]
         }
     ],
@@ -426,6 +521,16 @@
                 "Add 1d10 to your init.",
                 "Whenever you would make a melee wep atk, you may transfer some or all of the wep's AB to your AC, which lasts until the start of your next turn.",
                 "Once per long rest each, as an action, you can cast one of the following spells (DC 18): Call Lightning, Divine Word, or Finger of Death."
+            ]
+        },
+        {
+            "name": "Mighty Sign of Leuk-o",
+            "effects": [
+                "As a free action 1/turn, you can shapeshift into a Mighty Servant of Leuk-o (https://5e.tools/bestiary.html#mighty%20servant%20of%20leuk-o_tce).",
+                "Two creatures can be attuned to the sign at once, but only one of them can be shapeshifted with it at a time.",
+                "[CURSE] If a creature shapeshifted into the Mighty Servant loses half the form's HP, each creature attuned to the sign must make a DC 20 WIS save or be charmed for 24hrs. When charmed in this way, a creature goes on a destructive spree, seeking to destroy structures and atk any unattuned creatures within sight, starting with those threatening the Mighty Servant form.",
+                "There is a hidden self-destruction code for the sign (DM knows). If 2 creatures attuned to it spend their actions for 3 consecutive turns thinking about the code while touching the ring, it explodes. All creatures within 100' of the ring must make a DC 25 DEX save. On a fail, a creature takes 25d6 force, 25d6 light, and 25d6 thunder dmg, or half as much on a succ. This deals triple dmg to objs and structs. The attuned creatures are both killed instantly and their corpses evaporate.",
+                "[CURSE] If the above self-destruction process begins, the charm effect from above is triggered, but only turning the attuned creatures against each other."
             ]
         }
     ]

@@ -245,6 +245,7 @@ var craft = func() error {
 	}
 
 	chosen := crafts[rand.Intn(len(crafts))]
+	chosen.Description = processMod(chosen.Description)
 	log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
 	return nil
 }
@@ -271,6 +272,7 @@ var targetCraft = func() error {
 		chosen = crafts[rand.Intn(len(crafts))]
 		for _, affinity := range affinities {
 			if slices.Contains(chosen.Tags, affinity) {
+				chosen.Description = processMod(chosen.Description)
 				log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
 				return nil
 			}

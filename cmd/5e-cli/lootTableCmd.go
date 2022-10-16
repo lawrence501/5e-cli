@@ -20,6 +20,7 @@ var tome = func() error {
 		return err
 	}
 	chosen := tomes[rand.Intn(len(tomes))]
+	chosen.Description = processMod(chosen.Description)
 
 	log.Printf("Tome of %s - Can be applied to %s\nEffect: %s", chosen.Name, chosen.Target, chosen.Description)
 	return nil

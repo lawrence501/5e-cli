@@ -29,11 +29,11 @@
     },
     {
         "name": "The Chariot",
-        "description": "The item has 1 additional modifier of a chosen Affinity."
+        "description": "The item has 1 additional modifier of a chosen Affinity, which has a minimum point value of 2."
     },
     {
         "name": "Justice",
-        "description": "The item has 1 additional modifier that is of the same Affinity as the base modifier."
+        "description": "The item has 1 additional modifier that is of the same Affinity as the base modifier, which has a minimum point value of 2."
     },
     {
         "name": "The Hermit",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Wheel of Fortune",
-        "description": "The item has 1 additional modifier that is negated, and the resulting points are granted to the base modifier."
+        "description": "The item has 1 additional modifier that has a minimum point value of 2 and is negated, then the resulting points are granted to the base modifier."
     },
     {
         "name": "Strength",
@@ -73,11 +73,11 @@
     },
     {
         "name": "The Moon",
-        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is negated and applied to creatures of your choice within a 5' aura."
+        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is negated and applied to creatures of your choice within a 30' aura."
     },
     {
         "name": "The Sun",
-        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is applied to creatures of your choice within a 5' radius."
+        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is applied to creatures of your choice within a 30' aura."
     },
     {
         "name": "Judgement",

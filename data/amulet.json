@@ -393,7 +393,7 @@
       {
         "name": "Rhombur",
         "effect": "+3 dmg res with 2+ adj foes",
-        "upgrade": "unintelligent creatures are more likely to target you",
+        "upgrade": "unintelligent creatures are much more likely to target you",
         "setBonuses": [
           {
             "ally": "Al'akir",
@@ -414,6 +414,203 @@
             "ally": "Lucius",
             "effect": "+1 dmg res for each mutation you have",
             "upgrade": "+1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crikathian Champions I",
+    "amulets": [
+      {
+        "name": "Leorian",
+        "effect": "creatures marked by you have -3 dmg res",
+        "upgrade": "+2 global dmg vs marked targets",
+        "setBonuses": [
+          {
+            "ally": "Vargh",
+            "effect": "-2 dmg res vs marked creatures; +4 global dmg vs marked targets",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Yavine",
+            "effect": "creatures 30+' away from you who are marked by you have -2 dmg res",
+            "upgrade": "-2"
+          },
+          {
+            "ally": "Xorp",
+            "effect": "creatures larger than you who are marked by you have -2 dmg res",
+            "upgrade": "-2"
+          },
+          {
+            "ally": "Jarrik, Eldritch Knight",
+            "effect": "on hit vs target marked by you, the mark's effectiveness increases by 1",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Nailo",
+            "effect": "adj allies have +2 global dmg vs targets marked by you",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Vargh",
+        "effect": "-2 dmg res; +4 global dmg",
+        "upgrade": "+2 global dmg while bloodied",
+        "setBonuses": [
+          {
+            "ally": "Leorian",
+            "effect": "vs marked creatures: -2 dmg res; +4 global dmg",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Yavine",
+            "effect": "vs creatures 30+' away from you: -2 dmg res; +4 global dmg",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Xorp",
+            "effect": "vs creatures larger than you: -2 dmg res; +4 global dmg",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Jarrik, Eldritch Knight",
+            "effect": "when hit, +2 global dmg until end of your next turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Nailo",
+            "effect": "adj allies have: -1 dmg res; +2 global dmg",
+            "upgrade": "-1 and +2"
+          }
+        ]
+      },
+      {
+        "name": "Yavine",
+        "effect": "+4 proj dmg vs targets 30+' away",
+        "upgrade": "+2 proj dmg",
+        "setBonuses": [
+          {
+            "ally": "Leorian",
+            "effect": "+3 proj dmg vs marked targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vargh",
+            "effect": "-2 proj dmg res; +4 proj dmg",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Xorp",
+            "effect": "+3 proj dmg vs targets larger than you",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Jarrik, Eldritch Knight",
+            "effect": "on melee hit, +2 proj dmg until end of your next turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Nailo",
+            "effect": "adj allies have +2 proj dmg",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Xorp",
+        "effect": "+4 global dmg while shapeshifted",
+        "upgrade": "+3 natural wep dmg",
+        "setBonuses": [
+          {
+            "ally": "Leorian",
+            "effect": "+2 global dmg while shapeshifted vs marked targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vargh",
+            "effect": "-2 dmg res while shapeshifted; +4 global dmg while shapeshifted",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Yavine",
+            "effect": "+3 proj dmg while shapeshifted",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Jarrik, Eldritch Knight",
+            "effect": "on hit while not shapeshifted, +2 global dmg while shapeshifted until end of your next turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Nailo",
+            "effect": "adj allies have +2 global dmg while shapeshifted",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Jarrik, Eldritch Knight",
+        "effect": "on wep hit, +3 spell dmg until end of your next turn",
+        "upgrade": "+2 melee dmg",
+        "setBonuses": [
+          {
+            "ally": "Leorian",
+            "effect": "on wep hit vs marked target, +3 spell dmg until end of your next turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vargh",
+            "effect": "-2 wep dmg res; +4 spell dmg",
+            "upgrade": "-2 and +4"
+          },
+          {
+            "ally": "Yavine",
+            "effect": "on melee hit, +2 proj dmg until end of your next turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Xorp",
+            "effect": "on wep hit vs target larger than you, +3 spell dmg until end of your next turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Nailo",
+            "effect": "adj allies have +2 melee dmg",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Nailo",
+        "effect": "adj allies have +1 dmg res",
+        "upgrade": "+2 global dmg vs fiends",
+        "setBonuses": [
+          {
+            "ally": "Leorian",
+            "effect": "adj allies have +2 global dmg vs marked targets",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vargh",
+            "effect": "adj allies have: -1 dmg res; +2 global dmg",
+            "upgrade": "-1 and +2"
+          },
+          {
+            "ally": "Yavine",
+            "effect": "adj allies have +2 proj dmg",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Xorp",
+            "effect": "adj allies have +2 global dmg vs targets larger than you",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Jarrik, Eldritch Knight",
+            "effect": "adj allies have +2 melee dmg",
+            "upgrade": "+2"
           }
         ]
       }
