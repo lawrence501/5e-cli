@@ -36,6 +36,7 @@
         "Lockbox: multiple locked sections, can be picked with sleight of hand",
         "Bored traveller ($gender $race): wants to play a game of Marco Polo. stealth vs +2 perception, last 2 players remaining will be rewarded",
         "Hungry traveller ($gender $race): asks players to forage some food for them around, survival check",
-        "Generous traveller ($gender $race): Gives all players a reward for free"
+        "Generous traveller ($gender $race): Gives all players a reward for free",
+        "Bored traveller ($gender $race): Each player must give a word, then roll 1d100. The two players who get below their roll but the highest numbers are rewarded."
     ]
 }

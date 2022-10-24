@@ -150,7 +150,7 @@
         "tags": []
     },
     {
-        "description": "+2 min loot roll",
+        "description": "you may adjust your loot roll results by up to 1",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": []
@@ -642,9 +642,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "20% chance on wep hit to heal 2 HP",
+        "description": "on wep hit, heal 1 HP",
         "pointValue": "2",
-        "upgrade": "+1/1",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {
@@ -786,9 +786,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+2 dmg with traps",
+        "description": "+3 dmg with traps",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "2/1",
         "tags": ["weapon"]
     },
     {
@@ -936,9 +936,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "20% chance to nullify extra crit dmg",
-        "pointValue": "1",
-        "upgrade": "10%/1",
+        "description": "+2 crit dmg res",
+        "pointValue": "2",
+        "upgrade": "1/1",
         "tags": ["armour"]
     },
     {
@@ -1014,9 +1014,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "on block, 20% chance to inflict $condition on offender until end of your next turn",
-        "pointValue": "1",
-        "upgrade": "+10%/1",
+        "description": "on block, inflict $condition on offender until end of your next turn",
+        "pointValue": "[varies - reroll dominated]",
+        "upgrade": "+1 spell AC/4",
         "tags": ["armour"]
     },
     {
@@ -1092,7 +1092,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 to saves to end ongoing effects",
+        "description": "+1 to saves to end ongoing debuffs",
         "pointValue": "4",
         "upgrade": "1/4",
         "tags": ["armour"]
@@ -1440,19 +1440,19 @@
         "tags": ["armour"]
     },
     {
-        "description": "+1 minion $dmgPolarity res",
+        "description": "+2 minion $dmgPolarity res",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
-        "description": "+1 minion dmg res",
+        "description": "+2 minion dmg res",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
-        "description": "+3 minion $dmgType res",
+        "description": "+2 minion $dmgType res",
         "pointValue": "1",
         "upgrade": "+2/1",
         "tags": ["armour"]

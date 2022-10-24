@@ -77,6 +77,7 @@ Always based on dmg where possible
 - 1/LR spellcast: 1/lvl
 - Learn spell: 1/lvl
 - Unlimited spellcast: 5/lvl
+- Minion creation: 5/CR
 
 ## Condition definitions
 
@@ -182,7 +183,7 @@ While riding your mount, your AC increases by 1.
 1. Wondrous Items
 2. Tomes
 3. Rings
-4. Reroll twice w/ upgrade
+4. Reroll w/ upgrade (put at bottom)
 5. Amulets
 6. Soul Gems
 7. Shrines

@@ -305,7 +305,7 @@
     },
     {
         "name": "Wields Dangrous Cyphers",
-        "description": "Empowering received blessings",
+        "description": "Empowering wondrous items",
         "tiers": [
             "1. Aim True: At-will; free action; A wondrous items you use counts as also being used by an ally within 60' of you.",
             "2. +1 maximum hit dice.",
@@ -320,7 +320,7 @@
         ]
     },
     {
-        "name": "Accesses Ancestral Memories [LAST]",
+        "name": "Accesses Ancestral Memories",
         "description": "Drawing from the power of your ancestors",
         "tiers": [
             "1. Glimpse of the Past: At-will; bonus action; You gain a minor piece of information about an ancient ruin or other previously inhabited location you are currently within. This comes to you in the form of a confusing memory.",
@@ -339,16 +339,16 @@
         "name": "Removes Barriers",
         "description": "Removing barriers and obstacles",
         "tiers": [
-            "1. Skeleton Key: 2/min; bonus action; You quickly pop open a non-magically locked door, window, or other portal, without the need for a skill check. If you have proficiency in sleight of hand, you can use this feature at-will. If you have expertise, you can use this feature as a free action.",
+            "1. Skeleton Key: 2/min; bonus action; You quickly pop open a non-magically locked door, window, or other portal, without the need for a skill check. If you have proficiency in sleight of hand, you can use this feature at-will. If you have any expertise dice in it, you can use this feature as a free action.",
             "2. Sprint Past: 2/min; free action; By using this feature when you take the Dash action, you do not trigger traps during your movement.",
-            "3. Explosive Bypass: 1/min; bonus action; You sacrifice a potion in your possession to create an explosive capable of opening nearly any locked door, even one reliant on magic. This explosion is powerful, but carefully placed for maximum effect. If used as a weapon, it deals force damage equal to its tier + your level to all creatures within 5' of the explosion.",
-            "4. You may hold one additional healing potion, so long as the potion's level does not exceed 2.",
-            "5. Master Disabler: 1/LR; bonus action; You shut down a magical object or construct by disabling its power source. You must have heavy tools and physical access to the power source in order to use this feature, but it requires no check if those conditions are met.",
+            "3. Explosive Bypass: 1/min; bonus action; You sacrifice a wondrous item in your possession to create an explosive capable of opening nearly any locked door, even one reliant on magic. This explosion is powerful, but carefully placed for maximum effect. If used as a weapon, it deals force damage equal to its rarity tier (uncommon = 2) + your level to all creatures within 5' of the explosion if you hit them with an atk.",
+            "4. +1 maximum hit dice.",
+            "5. Master Disabler: 1/LR; bonus action; You shut down a magical object or construct by disabling its power source. You must have physical access to the entity's power source in order to use this feature.",
             "6. Self Seal: 1/week; free action; Whenever you open a door or other portal using features from this Glyph Path, you may instantly seal it behind you, even if you opened it with an explosive.",
-            "7. Gain prof/expertise/+2 to sleight of hand.",
+            "7. Gain an expertise die in Sleight of Hand.",
             "8. You can now use your Sprint Past feature at-will.",
             "9. You can now use your Explosive Bypass feature twice per minute.",
-            "10. You may hold two additional healing potions, so long as the potions' levels do not exceed 2"
+            "10. +2 maximum hit dice."
         ]
     },
     {
@@ -360,8 +360,8 @@
             "3. Gain an expertise die in athletics for climbing. +5' long/high jump distances.",
             "4. +10 fall dmg resistance.",
             "5. DEX +2.",
-            "6. Gain an expertise die in all saving throws.",
-            "7. Quick Strike: 1/SR; bonus action; You make a melee attack with such speed that it is hard for your foe to defend against, and it knocks them off balance. Your attack roll has double advantage, and the target, if struck, takes normal damage and has disadvantage on all d20 rolls until the end of your next turn.",
+            "6. Gain an expertise die in DEX saving throws.",
+            "7. Quick Strike: 1/SR; bonus action; You make a melee attack with such speed that it is hard for your foe to defend against, and it knocks them off balance. Your attack roll has double advantage, and the target, if struck, has disadvantage on all d20 rolls until the end of your next turn.",
             "8. DEX +5.",
             "9. Gain an expertise die in attempts to escape a grapple or restrain.",
             "10. Burst of Action: 1/week; free action; You can take two standard actions this turn."
@@ -379,7 +379,7 @@
             "6. The ally from T4 becomes CR 2.",
             "7. Captivate or Inspire: At-will; free action; You can use this feature in one of two ways. Either your words keep the attention of all NPCs that hear them for as long as you speak, or your words inspire all NPCs that hear them to gain a +1 bonus to AC and global AB for the next hour. In either case, you choose which NPCs are affected. If anyone in the crowd is attacked while you are speaking to them, you lose the crowd's attention.",
             "8. Leaders inspire confidence, and confidence comes from real ability. You gain 3 points to distribute among your ability scores as you wish.",
-            "9. The ally from T4 becomes CR 5.",
+            "9. The ally from T4 becomes CR 3.",
             "10. Mind of a Leader: 1/week; bonus action; When you develop a plan that involves the minion from T4, you can ask the DM one very general question about what is likely to happen if you carry out the plan, getting a simple, brief answer."
         ]
     },
@@ -389,10 +389,10 @@
         "tiers": [
             "1. With your attacks, you add stylish moves, entertaining quips, or a certain 'something' that entertains or impresses others. One creature you choose within 30' of you who can see you gains adv on their next d20 roll if taken within 2 rounds.",
             "2. While wielding a non-heavy weapon, gain an expertise die in DEX saving throws.",
-            "3. Acrobatic Attack: At-will; free action; You leap into an attack you are about to make, twisting or flipping through the air. The attack has -2 to its critical hit requirement. You cannot use this feature while your stealth is impeded by your body armour.",
+            "3. Acrobatic Attack: At-will; free action; You leap into an attack you are about to make, twisting or flipping through the air. The attack has +2 to its critical hit range. You cannot use this feature while your stealth is impeded by your body armour.",
             "4. Flamboyant Boast: At-will; free action; You boastfully describe an act that you will accomplish right before you attempt it. If an average person would find the action difficult, or impossible, and you succeed on it, creatures of your choice who witnessed it have disadvantage on all d20 rolls until the end of their next turn. If you fail at the task, all of your attempts to affect or attack onlookers who saw you have disadvantage for 10 minutes.",
             "5. Mobile Fighter: 1/min; free action; As part of an attack you are about to make, you can leap on or over obstacles, swing from ropes, run along narrow surfaces, or otherwise move around the battlefield at your normal speed as if the tasks were trivial. You cannot use this feature while your stealth is impeded by your body armour.",
-            "6. While wielding a non-heavy weapon, you can help an ally near you avoid danger. Choose one creature within 5' of you. They have advantage on DEX saving throws until you choose to end this effect or you are no longer within range of each other. You have -2 to DEX saving throws while this effect persists.",
+            "6. While wielding a non-heavy weapon, you can help an ally near you avoid danger. Choose one creature adj to you. They have advantage on DEX saving throws until you choose to end this effect or you are no longer within range of each other. You have -2 to DEX saving throws while this effect persists.",
             "7. When attempting a DEX saving throw, you can use your CHA in place of your DEX. It still counts as a DEX save.",
             "8. Return to Sender: 1/min; free action; If you block a melee attack, you can immediately make an attack of opportunity against the attacker.",
             "9. Allies within 60' of you gain an expertise die on their advantaged rolls.",
@@ -403,16 +403,16 @@
         "name": "Speaks with a Silver Tongue",
         "description": "speaking manipulatively",
         "tiers": [
-            "1. +2 to all social skills. You also become proficient in reading and writing two new languages of your choice.",
-            "2. +2 to all social skills, animal handling, and performance.",
+            "1. You gain an expertise die in all social skills. You also become proficient with two new languages of your choice.",
+            "2. You gain an expertise die in all social skills and animal handling.",
             "3. Verbal Misdirection: 2/min; free action; With fast talk and bewildering words, you can confuse and distract anyone that you're speaking with, giving you advantage on social interactions with that person for 10 minutes.",
             "4. Play to the Crowd: 1/min; free action; You give a speech that is both rousing and terrifying. Those within 30' of you who can hear and understand you have either advantage or disadvantage (your choice for each individual) on their next d20 roll.",
             "5. Castigate: 1/SR; bonus action; You intimidate any opponent within 120' of you who understands speech (even if it is not your language) so much that all their d20 rolls have disadvantage for 1 minute.",
-            "6. Stay the Course: 1/LR; bonus action; When your companions are flagging, you can help inspire them with a well-timed word or two. Any ally within 5' of you can immediately heal as if they had just consumed a level 1 (+1 for each level tier) healing potion.",
+            "6. Stay the Course: 1/LR; bonus action; When your companions are flagging, you can help inspire them with a well-timed word or two. All adj allies can immediately heal as if they had just consumed a level 1 healing potion.",
             "7. Entrancing Speech: 1/week; bonus action; Everyone within 120' of you who can hear and understand you takes no actions for as long as you do not move and use your turns to speak soothing and calming words. If an affected creature is attacked during this time, they break out of the trance immediately.",
             "8. Command: 1/month; bonus action; A target within 30' of you obeys any command you give as long as they can hear and understand you. Furthermore, as long as you continue to do nothing but issue commands (taking no other actions), you can give that same target a new command. This effect ends when you stop issuing commands or they are out of range.",
-            "9. You become proficient in reading and writing two new languages of your choice.",
-            "10. +3 to animal handling."
+            "9. You become proficient with two new languages of your choice.",
+            "10. You gain a d6 expertise die in animal handling."
         ]
     },
     {
@@ -423,10 +423,10 @@
             "2. You are able to walk the longer trods of the fey, allowing you to take shortcuts through the cracks in space when travelling. Overworld travel times are halved for you and your party and you can take the Dash action as a bonus action.",
             "3. Fairy Ring: 1/min; bonus action; You find the spot within 120' of you where the coherency of 3-dimensional space is weakest. Once found, anyone who enters this space (usually a 5' cube) teleports to a location tied to this ring. You do not know where the ring leads, travel is one-way, and it only lasts for 10 minutes once found.",
             "4. Corpse Road: 1/SR; bonus action; You find a straight path in a direction of your choice between space tread frequently by the fairies and other spirits of the Feywild. For the next 10 minutes, so long as you are following the direction of this road, you may travel up to 120' every 6 seconds as a free action.",
-            "5. Crossroads: 1/LR; bonus action; You locate a gateway into a realm of the fey, a tiny extradimensional space. The gateway only lasts for 10 minutes after you find it, taking the form of an archway, doorway, or other opening. Anyone can enter the crossroads once found. Inside is a spherical room with enough space for 5 medium creatures to sit comfortably. Those inside can leave at any time with but a thought, but anything they place within will go away once no one inhabits that particular pocket reality anymore.",
+            "5. Crossroads: 1/LR; bonus action; You locate a gateway into a realm of the fey, a tiny extradimensional space. The gateway only lasts for 10 minutes after you find it, taking the form of an archway, doorway, or other opening. Anyone can enter the crossroads once found. Inside is a spherical room with enough space for 5 medium creatures to sit comfortably. Those inside can leave at any time with but a thought, but anything they place within will be destroyed once no one inhabits that particular pocket reality anymore.",
             "6. Catch a Sprite: 1/week; bonus action; You find an invisible fairy and cut it off from its trods, keeping it from escaping. The fairy in this condition becomes slightly visible as a luminous humanoid shape. At this point you may ask one task of the fairy, that it will execute upon release. This task must be relatively simple and straightforward such as 'get the key from the jailer' or 'trip the man on his way down the stairs'. The fairy cannot engage in combat for you, but it can pull mischievious tricks that could be considered dangerous.",
             "7. Your Blink feature now teleports you up to 10'.",
-            "8. You gain +10' of speed.",
+            "8. You gain +5' of speed.",
             "9. Your Fairy Ring feature can now be used twice per minute.",
             "10. Your Corpse Road feature can now be used twice per minute."
         ]
@@ -435,13 +435,13 @@
         "name": "Learns from Adversity",
         "description": "learning from and recollecting past adventures",
         "tiers": [
-            "1. Experience has honed your reaction times, because those who act first gain the advantage in most situations. You gain an expertise die in initiative and checks to solve puzzles.",
+            "1. Experience has honed your reaction times, because those who act first gain the advantage in most situations. You gain an expertise die in initiative and checks to acquire hints from your character's intelligence.",
             "2. Adversity has made you touger. CON +1. Additionally, even if you can do something well, you have learned that you can always do it better. Whenever you have advantage on a roll, it becomes double advantage.",
             "3. Life's trials have toughened you and made you hard to read. You gain an expertise die in any check or save to resist another creature's attempt to discern your true feelings, beliefs, or plans. You likewise have the same bonus for resisting torture, telepathic intrusion, and mind control.",
-            "4. Your mind is stronger for overcoming bad experience. WIS +1.",
+            "4. Your mind is stronger for overcoming bad experiences. WIS +1.",
             "5. You don't live as long as you have without learning what makes others tick. If a creature you can see has a special weakness, such as a vulnerability to loud noises, a negative Wisdom modifier, and so on, you know what it is (ask and DM will tell).",
             "6. Tall Tale: 1/min; bonus action; You tell a short anecdote to a an enemy that can understand you about something you have witnessed in your life that is so over the top, yet so convincing, that you make an attack against them. On a hit, they have disadv on all their d20 rolls for 1 minute.",
-            "7. Seize Opportunity: 1/SR; free action; You have learned that you have to react instantly when danger threatens. If you block an attack, you can instantly take a standard action. If you use this action to attack, you have advantage on the attack roll. If you use this action, you do not have a standard action during your next turn.",
+            "7. Seize Opportunity: 1/SR; free action; You have learned that you have to react instantly when danger threatens. If you block an attack, you can instantly take a standard action. If you use this action to take the Attack action, you have advantage on all of its attack rolls. If you use this action, you do not have a standard action during your next turn.",
             "8. Experience has taught you a lot, including that luck is sometimes something that you have to make for yourself. When you roll a 1 on a d20 roll, you can reroll it. You must use the new result.",
             "9. Learning from adversity includes recognising when to move quickly. DEX +1.",
             "10. Lethal Ploy: 1/LR; bonus action; Long experience has revealed to you that subterfuge is your friend in dangerous situations. You push, attack, or distract the target in some seemingly inconsequential way that leads to the target's death. The target must be of CR 1 or lower."
@@ -451,15 +451,15 @@
         "name": "Emerged from the Obelisk",
         "description": "becoming crystalline",
         "tiers": [
-            "1. You are composed of animate, translucent crystal the colour of amber. Your crystal body grants you +2 AC and +2 CON. However, you are not quick and you DEX saving throws have disadvantage. Certain conditions, like non-magical diseases and poisons, do not affect you.",
-            "2. Your crystalline body repairs itself more slowly than that of living flesh. You only have half of your usual hit dice available to you for healing.",
-            "3. Amber Levitation: 1/min; bonus action; You learn how to energise your crystalline form and lift away from the pull of gravity. You can levitate 5' in any direction each round for up to 1 minute.",
+            "1. You are composed of animate, translucent crystal the colour of amber. Your crystal body grants you +2 AC and +2 CON. However, you are not quick and you DEX saving throws have disadvantage. Non-magical diseases and poisons do not affect you.",
+            "2. Your crystalline body repairs itself more slowly than that of living flesh. You only have half of your usual hit dice available to you.",
+            "3. Amber Levitation: At-will; bonus action; You learn how to energise your crystalline form and lift away from the pull of gravity. You can levitate 5' in any direction each round for up to 1 minute.",
             "4. Inhabit Crystal: 1/SR; bonus action; You transfer your body and whatever you are carrying into a crystal at least the size of your index finger. While in the crystal, you are aware of what is going on around it, seeing and hearing through the crystal. You can even speak through the crystal and carry on conversations. You cannot take actions other than to exit the crystal as a bonus action. You remain within as long as you wish, but you are not in stasis and must exit to eat, drink, sleep, and so on as normal (breathing is not an issue). If the crystal is destroyed or takes major damage while you are within it, you immediately exit and become unconscious for 3 rounds.",
             "5. You can attempt a Strength saving throw of DC 9 to avoid being knocked down, pushed back, or moved against your will even if the affect attempting to move you does not allow it. Additionally, you gain STR +1.",
-            "6. Crystal Lens: At-will; bonus action; You can focus the inherent energy surging through your crystalline body. This allows you to fire a blast of energy that deals 2d8 + your level force damage to a target within 240' of you (uses your Glyph AB).",
-            "7. Resonant Frequency: At-will; bonus action; You can infuse an object that you can hold in one hand with a special vibration generated from your core. The object functions more efficiently and effectively for 1 minute. At the end of that minute, the resonant frequency ramps up exponentially until the object finally shatters from the energy buildup. Anything within 5' of the detonation takes 2d8 + your level force damage (uses your Glyph AB).",
+            "6. Crystal Lens: At-will; bonus action; You can focus the inherent energy surging through your crystalline body. This allows you to fire a blast of energy, an attack dealing 2d8 + your level force damage to a target within 240' of you.",
+            "7. Resonant Frequency: At-will; bonus action; You can infuse an object that you can hold in one hand with a special vibration generated from your core. The object functions more efficiently and effectively for 1 minute. At the end of that minute, the resonant frequency ramps up exponentially until the object finally shatters from the energy buildup. Make an attack against everything adj to the detonation that deals 2d8 + your level force damage.",
             "8. Resonant Quake: 1/month; bonus action; You can infuse the ground beneath you with a special vibration generated from your core. This creates a small quake whose epicentre you can select within 240' of you. Everyone within 30' of the epicentre is subject to an atk dealing 3d10 + your level bludgeoning damage. However, you have disadvantage on all of you d20 rolls until the end of your next turn.",
-            "9. Return to the Vein: 1/month; bonus action; You transfer your body and personal posessions into a crystal of any size and exit from another crystal of any size, including any mineral veins you are aware of. You must know of the crystal you are going to use as an exit before you enter the first crystal.",
+            "9. Return to the Vein: 1/month; bonus action; You transfer your body and personal possessions into a crystal of any size and exit from another crystal of any size, including any mineral veins you are aware of. You must know of the crystal you are going to use as an exit before you enter the first crystal.",
             "10. You gain +3 to CON."
         ]
     },
@@ -467,16 +467,16 @@
         "name": "Plays Thunderous Music",
         "description": "playing magical music",
         "tiers": [
-            "1. Warming Melody: At-will; bonus action; You perform a song that literally warms the air around you, with a focal point of your choice. Deal 1d6 + level fire damage to a target within 5' of you. This feature may be used to ignite small fires.",
-            "2. You gain proficiency (or +2) in either playing a musical instrument of your choice, or performing songs with your voice. You may use this skill when making checks for features in this glyph path. Additionally, you gain +2 to History checks related to music.",
-            "3. Chilling Chant: 2/min; bonus action; Your performance draws the heat out of the world, causing frost and ice to form all around you. You deal 2d4 + level cold damage to all creatures within 5' of you. If used near a body of water, sustained use of this feature can produce enough ice to walk on.",
-            "4. Cacaphonous Signal: 1/min; bonus action; The song you play or sing sounds like atonal garbage to most, but invokes magic to charge the air around them. All creatures within 30' of you take 1d8 + level lightning damage. If used outdoors more than 3 times in an hour, this feature will summon a storm to the area.",
-            "5. You gain expertise (or +4) in the instrument or vocal talent you previously chose. You also increase your bonus to History checks related to music to +4.",
-            "6. Penetrating Tone: 1/LR; bonus action; You hold a single long note that invokes magic to shake the earth around you. All creatures and large objects within 120' of you take 1d8 + level bludgeoning damage. Creatures and precarious objects affected are knocked prone.",
+            "1. Warming Melody: At-will; bonus action; You perform a song that literally warms the air around you, with a focal point of your choice. Make an attack against an adj creature, dealing 1d6 + level fire damage. This feature may be used to ignite small fires.",
+            "2. You gain proficiency in either playing a musical instrument of your choice, or performing songs with your voice. You may use this skill (Charisma-based) when making d20 rolls for features in this glyph path. Additionally, you gain an expertise die in History checks related to music.",
+            "3. Chilling Chant: 2/min; bonus action; Your performance draws the heat out of the world, causing frost and ice to form all around you. Make an attack against all adj creatures, dealing 2d4 + level cold damage. If used near a body of water, two uses of this feature within 1 minute can produce enough ice to walk on within its area.",
+            "4. Cacaphonous Signal: 1/min; bonus action; The song you play or sing sounds like atonal garbage to most, but invokes magic to charge the air around them. Make an attack against all creatures within 30' of you, dealing 1d8 + level lightning damage. If used outdoors more than 3 times in an hour, this feature will summon a storm to the area.",
+            "5. You gain an expertise die in the instrument or vocal talent you chose in T2. You also gain an expertise die in History checks related to music.",
+            "6. Penetrating Tone: 1/LR; bonus action; You hold a single long note that invokes magic to shake the earth around you. Make an attack against all creatures and structures within 120' of you, dealing 1d8 + level bludgeoning damage. Creatures are knocked prone on a hit, and precarious structures may be destroyed.",
             "7. At your discretion you may target a single creature with one of the area of effect features from this glyph path, rather than hitting the entire area.",
             "8. CHA +2.",
             "9. Your Warming Melody feature now deals 1d10 + level fire damage.",
-            "10. You increase your bonus to History checks related to music to +7."
+            "10. You gain a d6 expertise die in History checks related to music."
         ]
     },
     {
@@ -485,30 +485,30 @@
         "tiers": [
             "1. You can automatically perceive creatures and objs that are normally invisible or only partially visible on this plane. When looking for things more conventionally hidden, you have advantage on the related check.",
             "2. See Through Matter: 1/min; bonus action; You can attempt to see through matter as if it were transparent. You can attempt to see through up to 6 inches of material for 6 seconds. Doing so is a perception check with a DC based on the quality of the material.",
-            "3. Find the Hidden: 1/SR; bonus action; You see the traces of objects as they move through space and time. You can sense the distance and direction of any specific inanimate object that you have touched. This takes anywhere between 1 second and hours of unbroken Concentration, depending on what the DM feels is appropriate due to the object's distance or other mitigating circumstances. However, you do not know in advance how long it will take.",
-            "4. Sensor: 1/SR; bonus action; You create an immobile, invisible sensor within 5' of you that lasts for 24 hours. At any time during that duration, you can Concentrate to see, hear, and smell through the sensor, no matter how far you move from it.",
-            "5. Remote Viewing: 1/week; bonus action; Distance is an illusion, as all space is one space. With concentration, you can see another place. This ability can be used in one of two different ways. First, pick a spot a specific distance away from you and in a specific direction. You can see from that vantage point as if you had used your Sensor feature there, but only for one minute. Secondly, think of a place that you have seen before, either conventionally or using the application of this feature. You can see from that vantage point as if you had used your Sensor feature there, but only for up to 12 seconds. Either of these applications takes anywhere from 1 second to hours of concentration, depending on what the DM feels is appropriate due to distance or other mitigating circumstances. However, you don't know in advance how long it will take.",
-            "6. See Through Time: 1/month; bonus action; Time is an illusion, as all time is one time. With concentration, you can see into another time. You specify a time period regarding the place where you now stand. Interestingly, the easiest time to view is about 100 years in the past or future. Viewing farther back or ahead is a nearly impossible task. This takes anywhere from 1 second to hours of Concentration, depending on what the DM feels is appropriate due to the time difference or other mitigating circumstances. However, you don't know in advance how long it will take.",
-            "7. Mental Projection: 1/week; bonus action; Your mind fully leaves your body and manifests anywhere you choose within 5' of you. Your projected mind can remain apart from your body for up to 24 hours. This effect ends early if your HP is reduced to 0 or if your projection touches your resting body. Your disembodied mind is a psychic construct that looks like you, though its frayed edges trail off into nothingness. You control this body as if it were your normal body and can act and move as you normally would with a few exceptions. You can move through solid objects, and you ignore any terrain feature that would impede your movement. Your attacks inflict -6 damage (to a minimum of 1) and you take -6 non-magical physical damage. You take all damage as psychic damage. Your mind can travel up to 1 mile (1.5km) from your body. Your physical body is helpless until this effect ends. You cannot use your physical senses to perceive anything (including recognising when your body is taking damage). If this effect is ended early by your body reaching 0 HP, you are debilitated until the end of your next turn as you try to reorient yourself to your predicament.",
+            "3. Find the Hidden: 1/SR; free action; You see the traces of objects as they move through space and time. You can sense the distance and direction of any specific inanimate object that you have touched. This takes anywhere between 1 second and hours of unbroken Concentration, depending on what the DM feels is appropriate due to the object's distance from you. However, you do not know in advance how long it will take.",
+            "4. Sensor: 1/SR; bonus action; You create an immobile, invisible sensor in a space adj to you that lasts for 24 hours. At any time during that duration, you can Concentrate to see, hear, and smell through the sensor, no matter how far you move from it.",
+            "5. Remote Viewing: 1/week; bonus action; Distance is an illusion, as all space is one space. With concentration, you can see another place. This ability can be used in one of two different ways. First, pick a spot a specific distance away from you and in a specific direction. You can see from that vantage point as if you had used your Sensor feature there, but only for one minute. Secondly, think of a place that you have seen before. You can see from that vantage point as if you had used your Sensor feature there, but only for up to 12 seconds. Either of these applications takes anywhere from 1 second to hours of concentration, depending on what the DM feels is appropriate due to distance from you. However, you don't know in advance how long it will take.",
+            "6. See Through Time: 1/month; bonus action; Time is an illusion, as all time is one time. With concentration, you can see into another time. You specify a time period regarding the place where you now stand. Interestingly, the easiest time to view is about 100 years in the past or future. Viewing farther back or ahead is a nearly impossible task. This takes anywhere from 1 second to hours of Concentration, depending on what the DM feels is appropriate due to the time difference. However, you don't know in advance how long it will take.",
+            "7. Mental Projection: 1/week; bonus action; Your mind fully leaves your body and manifests anywhere you choose in a space adj to you. Your projected mind can remain apart from your body for up to 24 hours. This effect ends early if your HP is reduced to 0 or if your projection touches your resting body. Your disembodied mind is a psychic construct that looks like you, though its frayed edges trail off into nothingness. You control this body as if it were your normal body and can act and move as you normally would with a few exceptions. You can move through solid objects, and you ignore any terrain feature that would impede your movement. Your attacks inflict -6 damage (to a minimum of 1) and you take -6 physical damage. You take all damage as psychic damage. Your mind can travel up to 1 mile (1.5km) from your body. Your physical body is helpless until this effect ends. You cannot use your physical senses to perceive anything (including recognising when your body is taking damage). If this effect is ended early by your body reaching 0 HP, you are debilitated until the end of your next turn as you try to reorient yourself to your predicament.",
             "8. You possess such a high level of awareness that it is very difficult to surprise, hide from, or sneak up on you. You gain a d8 expertise die on all initiative and perception checks.",
             "9. You gain an expertise die in perception.",
-            "10. Your See Through Matter feature is always active and automatically succeeds."
+            "10. Your See Through Matter feature can now be used at-will."
         ]
     },
     {
         "name": "Commands Flesh",
         "description": "summoning a minion from your flesh",
         "tiers": [
-            "1. Spawn: 2/min; bonus action; Your flesh bunches up and buds off a small, CR 1/2 creature that can survive independently for 10 minutes before it shrivels and dies. The creature obeys basic commands, but is not intelligent enough to perform tasks complex enough that they would require a skill check. The creature is strong enough to pick up small items, but not enough to wield weapons. Creatures not actively following a command follow their own motives, whatever those may be. You can only have 1 active at a time.",
+            "1. Spawn: 2/min; bonus action; Your flesh bunches up and buds off a small, CR 1 construct minion that can survive independently for 10 minutes before it shrivels and dies. The creature obeys basic commands, but is not intelligent enough to perform tasks complex enough that they would require a d20 roll. The creature is strong enough to pick up small items, but not enough to wield weapons. Creatures not actively following a command follow their own motives, whatever those may be. You can only have 1 active at a time.",
             "2. You can reabsorb the creature from your Spawn feature, healing 1d4 HP.",
-            "3. Willful Mutation: 1/SR; bonus action; You can force your body to develop a random beneficial mutation temporarily for 10 minutes.",
-            "4. You can now spawn a CR 1 creature with your Spawn feature. Optionally, you can elect to leave it as a CR 1/2 creature, but it can fly with stubby, malformed wings, granting it a flying speed of 120'.",
+            "3. Willful Mutation: 1/SR; bonus action; You can force your body to develop a random beneficial mutation for 10 minutes.",
+            "4. You can now spawn a CR 2 creature with your Spawn feature. Optionally, you can elect to leave it as a CR 1 creature, but it can fly with stubby, malformed wings, granting it a flying speed of 120'.",
             "5. Forceful Absorption: 1/SR; bonus action; With some effort, you can try to forcibly absorb a CR 1 or lower creature of your size of smaller, as long as it is organic and from the same plane as you, by hitting with an attack. Absorbing a creature kills it and causes you to heal 1 HP.",
             "6. Whispers Within: 1/SR; bonus action; The things within your flesh listen and learn and plot. Sometimes you overhear them and sometimes you can interrogate them. Things you may have forgotten or missed, things you couldn't see behind you, secret, silent thoughts you are not sensitive enough to receive - the things inside you hear and see all. Your mind can slip inside itself and ask a question of the riders within, which they must answer to the best of their abilities, though whether they tell you the whole truth or not is another matter.",
-            "7. You can now spawn a CR 2 creature with your Spawn feature. Optionally, you can elect to leave it as a CR 1 creature, but it can fly with stubby, malformed wings, granting it a flying speed of 120'.",
+            "7. You can now spawn a CR 3 creature with your Spawn feature. Optionally, you can elect to leave it as a CR 2 creature, but it can fly with stubby, malformed wings, granting it a flying speed of 120'.",
             "8. Your increasing ability to control the creatures you set free from your body now extends their lives. Through force of will, you can reshape your own form, budding off a portion of your flesh and permanently reducing your maximum HP by 2 to make a new, permanent spawn. When the spawn dies, you regain the lost maximum HP. This uses the same rules otherwise as your Spawn feature.",
             "9. Your body has become a perfect factory for generating creatures, CON +2.",
-            "10. You can use your Spawn feature at-will, and it can generate a CR 3 creature."
+            "10. You can use your Spawn feature at-will, and it can generate a CR 4 creature."
         ]
     },
     {
@@ -535,7 +535,7 @@
             "2. Soothe the Savage: 2/min; bonus action; You calm a beast within 30' of you. You must speak to it (although it does not need to understand your words), and it must see you. It remains calm for 1 minute or for as long as you Concentrate on this feature.",
             "3. Communication: 2/min; bonus action; You can convey a basic concept to a creature that normally cannot understand speech. The creature can also give you a very basic answer to a simple question.",
             "4. A beast larger than you serves you as a mount and follows your instructions. While you are mounted on it, your attacks have advantage.",
-            "5. When you and your beast companion are adj to each other, you gain +4 global damage and both of you grant disadvantage to incoming attacks.",
+            "5. When you and your beast companion are adj to each other, your hits deal 1d6 additional damage and both of you grant disadvantage to incoming attacks.",
             "6. Beast Eyes: At-will; bonus action; You can sense through your beast companion's senses if it is within 1.5km (1 mile) of you. This effect lasts up to 10 minutes.",
             "7. Your beast companion becomes CR 2.",
             "8. Beast Call: 1/LR; bonus action; You summon a beast of up to CR 2 to help you temporarily. This creature does your bidding for as long as you Concentrate on this feature, but you must use a bonus action to direct them. Creatures are native to the area and arrive under their own power, so if you are in an unreachable place, this feature will not work.",
@@ -549,26 +549,26 @@
         "tiers": [
             "1. If you can see the stars, you always know which way is north.",
             "2. Your normal vision becomes darkvision.",
-            "3. Under a starry sky, you have advantage on all d20 rolls.",
+            "3. While directly beneath a starry sky, you have advantage on all d20 rolls.",
             "4. Regardless of where you are, you can always see what the sky above you looks like.",
-            "5. Rightly Guided: 1/min; Pick a destination, until your next long rest you will always know whether or not you are going toward it, and if a particular path will get you closer to your target.",
+            "5. Rightly Guided: 1/min; Pick a destination, until your next long rest you will always know whether or not you are going toward it, and if a particular path will get you closer to your target. This can be used once per journey to grant your party 1 additional day of travel towards their destination.",
             "6. Protected by the Stars: 1/week; free action; you may reroll a 1 on a d20 roll.",
             "7. In the Stars: 1/SR; free action; Your knowledge of the stars' positions gives you some ability to predict the future. When taking any type of action, you may use this feature to see if the intended action will have a negative consequence for you. You will also get basic knowledge of why the action has negative consequences.",
-            "8. When the Stars are Right: 1/year; free action; Your ability to understand the ways of the moving lights above helps you predict the most opportune moment to pursue a specific goal. After describing what you want to accomplish, roll 2d6. The result is how many days from today the best time to work toward your goal is. On that day, you gain advantage on all non-attack or saving throw d20 rolls.",
-            "9. You can never become lost while you can see the stars.",
+            "8. When the Stars are Right: 1/year; free action; Your ability to understand the ways of the moving lights above helps you predict the most opportune moment to pursue a specific goal. After describing what you want to accomplish, roll 2d6. The result is how many days from today the earliest, best time to work toward your goal is. On that day, you gain advantage on all ability checks.",
+            "9. You can travel at night on any day of a jourrney, granting all members of your party 1 level of fatigue, but gaining 1 additional day towards your destination.",
             "10. Your normal vision becomes truesight."
         ]
     },
     {
-        "name": "Creates Chaos",
+        "name": "Creates Chaos [LAST]",
         "description": "disrupting magic chaotically",
         "tiers": [
             "1. Disturbance: At-will; bonus action; You emit a magical pulse from your body, frazzling magic in the area. Any magical effects within 30' of you go haywire in ways you cannot predict. This disturbance lasts for 10 minutes and causes all spells cast within 30' of you to have disadvantage on Offence or any checks they make.",
             "2. Touch of Chaos: 2/min; bonus action; You touch an object or creature and disrupt the magic within and around them as an attack, dealing 1d10 + your level force damage.",
             "3. Spell Scramble: 1/min; reaction; You disrupt the magic within a specific nearby area, cancelling any one spell cast within 120' of you. This feature may only be used while the spell being targeted is being cast.",
-            "4. Wild Spell: 1/SR; bonus action; You empower the surrounding magic to do as it wishes, creating a powerful, though random, effect, similar to that of Wild Magic. The nature of the effect is determined by the DM, but any damage it deals will be force damage equal to 1d12 + your level.",
-            "5. You are no longer affected by Wild Magic effects, nor is anything or anyone within 5' of you.",
-            "6. Chaotic Form: 1/month; bonus action; You allow the magic around and inside of you to do as it pleases, adapting and modifying you at a terrifying rate and turning you into a roiling mass of randomly changing materials. You may move your ability score points around as you see fit while in this form, which lasts for one hour. You can breathe and otherwise exist in any conditions, and your AC becomes 17 and unmodifiable. Should you need a particular tool for any task, your body may take that shape.",
+            "4. Wild Spell: 1/SR; bonus action; You empower the surrounding magic to do as it wishes, creating a powerful, though random, effect by rolling on the Wild Magic table. Any damage it deals will be force damage equal to 1d12 + your level.",
+            "5. You are no longer affected by Wild Magic effects, nor is anything or anyone adj to you.",
+            "6. Chaotic Form: 1/month; bonus action; You allow the magic around and inside of you to do as it pleases, adapting and modifying you at a terrifying rate and turning you into a roiling mass of randomly changing materials. You may move your ability score points around as you see fit while in this form, which lasts for one hour. You can breathe and otherwise exist in any conditions, and your AC becomes 17 and unmodifiable. Should you need a particular mundane tool for any task, your body may take that shape.",
             "7. Your Disturbance feature now affects all spells cast within 60' of you.",
             "8. Your Touch of Chaos feature can now be used at will.",
             "9. Your Spell Scramble feature can now be used twice per minute.",

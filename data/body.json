@@ -178,6 +178,58 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Clockwork Wrap",
+            "source": "sorcerer - clockwork soul",
+            "mods": [
+                "2/LR, whenever you a creature you can see within 60' of you is about to roll a d20 with either adv or disadv, you can react to make the roll regular."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Lunar Cloak",
+            "source": "sorcerer - lunar magic",
+            "mods": [
+                "You learn the Sacred Flame cantrip. When you cast this spell, you can target up to 2 creatures in range that are adj to each other."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Draconic Silks",
+            "source": "sorcerer - draconist",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "+3 max HP."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain proficiency with Draconic.",
+                        "You have adv on CHA checks while communicating with dragons in Draconic."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Enigmatic Garb",
+            "source": "sorcerer - enigma",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die on ability checks made to identify spells being cast or sense the presence of lingering magic in any form."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can attempt to replace one of your prepared spells with another spell of the same or lower lvl from your spell list. This lasts until your next long rest. The new spell cannot be replaced again. To do so, declare which spell you're trying to replace and make a save with your ability score (DC 10 + the spell's level).",
+                        "If you fail the save, the spell you are attempting to replace is cast, expending no resources but targeting a creature or point within range of the DM's choice (possibly yourself). The spell is too wild to alter in any way (including from your equipment), and if it requires concentration it lasts its full duration with no concentration required instead. That spell is then unprepared until you finish a long rest."
+                    ]
+                }
+            ]
         }
     ],
     "light": [
@@ -637,6 +689,127 @@
                         "The spirit is a bear's. You and your allies within 30' of the spirit when it appears gain 8 temp HP. In addition, while inside this area, you and your allies gain adv on STR checks and saves.",
                         "The spirit is a hawk's. Whenever a creature makes an atk roll against a target within 30' of the spirit, you can react to grant the atk adv. Additionally, you and your allies have adv on Perception checks while within this area.",
                         "The spirit is a unicorn's. You and your allies have adv on all ability checks made to detect creatures within 30' of the spirit. Additionally, if you cast a levelled spell that restores HP to a creature, each creature of your choice within this area also regains 3 HP."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bestial Ringmail",
+            "source": "berserker - beast",
+            "mods": [
+                "As a bonus action 3/LR, you can shapeshift into a beast-hybrid form. This shapeshift lasts until you are knocked unconcscious, or for 1min.",
+                "While shapeshifted in this way, you manifest a natural weapon based on STR."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "Your mouth becomes a bestial muzzle or great mandibles, which deal 1d8 P dmg.",
+                        "Once per turn, when you dmg a creature with this bite atk while bloodied, you regain hit points equal to your prof bonus."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Your hands become claws, which subsume your weapons and take on their enchantments. They deal 1d6 S dmg.",
+                        "Once per turn, whenever you atk with this claw as part of your Attack action, you can make an additional claw atk."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You grow a lashing, spiny tail, which deals 1d8 P dmg and has the Reach trait.",
+                        "Whenever a creature you can see within 10' of you hits you with an atk, you can react to roll a d8 and add that amount to your AC for the atk, by defending with your tail."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wild Scale",
+            "source": "berserker - wild magic",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As an action 2/LR, you can know the location of any spell or magic item within 60' of you that isn't behind total cover, until the end of your next turn. When you sense a spell in this way, you learn which school of magic it belongs to."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action 3/LR, you can trigger a random magical effect using the following results:",
+                        "1. Shadowy tendrils lash around you. Each foe you can see within 30' must make a CON save or take 1d12 nec dmg. You then gain 1d12 temp HP.",
+                        "2. You teleport up to 30' to an empty space you can see. For the next min, you can use this effect again on each of your turns as a bonus action.",
+                        "3. An intangible spirit appears within 5' of a creature of your choice that you can see within 30' of you. At the end of the current turn, the spirit explodes, and each creature adj to it must pass a DEX save or take 1d6 force dmg. For the next minute, you can use this effect again on each of your turns as a bonus action. This counts as minion dmg.",
+                        "4. Magic infuses 1 wep of your choice that you are wielding. For the next minute, the weapon's dmg type changes to force and it gains the Dual-wielding and Thrown (20'/60') traits.",
+                        "5. Whenever a creature hits you with an atk during the next minute, that creature takes 1d6 force dmg as magic lashes out in retribution.",
+                        "6. For the next minute, you are surrounded by multi-coloured, protective lights which grant you and allies within 10' of you +1 AC.",
+                        "7. Flowers and vines temporarily grow around you. For the next minute, the ground within 15' of you is diff terrain for your foes.",
+                        "8. A bolt of light shoots from your chest. Another creature of your choice that you can see within 30' of you must pass a CON save or take 1d6 rad dmg and be blinded until the start of your nest turn. For the next minute, you can repeat this effect on each of your turns as a bonus action."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Subconscious Chainmail",
+            "source": "druid - dreams",
+            "mods": [
+                "You have a pool of fey energy represented by 3 d6s, all of which you recover on a long rest.",
+                "As a bonus action, you can choose a creature you can see within 120' of you and expend and roll a fey die. The target regains a number of hit points equal to the total, and 1 temporary hit point."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Fungal Chainmail",
+            "source": "druid - dreams",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You are surrounded by invisible, necrotic spores that are harmless until you unleash them. You have a 10' aura surrounding you. Whenever a creature you can see is in the aura, you can react to deal 1d4 nec spell dmg to them unless they succeed on a CON save."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action 1/SR, you can awaken invisible, necrotic spores surrounding you. You gain 12 temp HP, your auras always deal critical dmg, and your melee wep hits deal an additional 1d6 nec dmg. This lasts for 10mins, or until you lose all the temp HP."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gloaming Doublet",
+            "source": "ranger - gloom stalker",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain initiative equal to your ability score mod.",
+                        "During your first turn of a combat, you have +10' speed.",
+                        "If you take the Attack action during your first turn of a combat, you can make an additional wep atk as part of the action, which deals 1d8 additional base dmg."
+                    ]
+                },
+                {
+                    "mods": [
+                        "+60' darkvision.",
+                        "While in darkness, you are invis to creatures that rely on darkvision to see you."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hunting Vest",
+            "source": "ranger - hunter",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "1/turn, +1d8 wep dmg vs bloodied targets."
+                    ]
+                },
+                {
+                    "mods": [
+                        "On block vs an adj Large+ creature you can see, you can react to make an atk against the atker."
+                    ]
+                },
+                {
+                    "mods": [
+                        "1/round, on making a wep atk on your turn, you can make another atk with the same wep against another target adj to the original, so long as you could have atk'd them with the original atk."
                     ]
                 }
             ]

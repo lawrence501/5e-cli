@@ -3,7 +3,7 @@
     "name": "Xiloans",
     "amulets": [
       {
-        "name": "The Cloud",
+        "name": "The Cloud's Assassination",
         "effect": "+1 crit range with adv atks",
         "upgrade": "+5 crit dmg",
         "setBonuses": [
@@ -30,7 +30,7 @@
         ]
       },
       {
-        "name": "Aroshi",
+        "name": "Aroshi's Gamble",
         "effect": "1/LR, bonus to shapeshift into random CR 2 creature until bonus to revert or HP lost",
         "upgrade": "+2 global dmg while shapeshifted",
         "setBonuses": [
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "name": "P'all",
+        "name": "P'all's Army",
         "effect": "+3 global dmg vs targets you are flanking",
         "upgrade": "+2 minion dmg",
         "setBonuses": [
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "name": "Mensis",
+        "name": "Mensis' Cruelty",
         "effect": "+1 AC in darkness",
         "upgrade": "+2 global dmg in darkness",
         "setBonuses": [
@@ -111,7 +111,7 @@
         ]
       },
       {
-        "name": "Gawdian",
+        "name": "Gawdian's Vengeance",
         "effect": "+3 global dmg vs targets who have dmg'd you since your last turn",
         "upgrade": "+2 wep dmg res",
         "setBonuses": [
@@ -143,7 +143,7 @@
     "name": "Primordial Elementals",
     "amulets": [
       {
-        "name": "Kher'evo, Aspect of Hunger",
+        "name": "Kher'evo's Hunger'",
         "effect": "on hit, heal 2 HP",
         "upgrade": "+5 max HP",
         "setBonuses": [
@@ -170,7 +170,7 @@
         ]
       },
       {
-        "name": "Somnius, Aspect of Aspiration",
+        "name": "Somnius' Aspiration",
         "effect": "+1 to saves vs ongoing condis",
         "upgrade": "+1 global dmg w/ no adj foes",
         "setBonuses": [
@@ -197,7 +197,7 @@
         ]
       },
       {
-        "name": "Pherousa, Aspect of the Cycle",
+        "name": "Pherousa's Cycle",
         "effect": "when downed, +3 global dmg until LR",
         "upgrade": "+2 spell dmg res",
         "setBonuses": [
@@ -224,7 +224,7 @@
         ]
       },
       {
-        "name": "Mother, Aspect of Sentience",
+        "name": "Mother's Sentience",
         "effect": "-3 global dmg on odd turns, +6 global dmg on even turns",
         "upgrade": "+2 dmg res on odd turns",
         "setBonuses": [
@@ -251,7 +251,7 @@
         ]
       },
       {
-        "name": "The Primordial",
+        "name": "The Primordial's Origin",
         "effect": "+1 non-phys abs",
         "upgrade": "+2 spell dmg res",
         "setBonuses": [
@@ -283,7 +283,7 @@
     "name": "Evorbisan Champions",
     "amulets": [
       {
-        "name": "Al'akir",
+        "name": "Al'akir's Aim",
         "effect": "at the end of each turn spent not moving, +1 global dmg that stacks until you move",
         "upgrade": "+2 proj dmg",
         "setBonuses": [
@@ -310,7 +310,7 @@
         ]
       },
       {
-        "name": "Arvewal",
+        "name": "Arvewal's Duplication",
         "effect": "your minions deal +4 dmg with dmg types you dmg'd target with during your last turn",
         "upgrade": "+3 minion dmg",
         "setBonuses": [
@@ -337,7 +337,7 @@
         ]
       },
       {
-        "name": "The Rhox",
+        "name": "The Rhox's Gravity",
         "effect": "+1 crit range vs prone targets",
         "upgrade": "+2 global dmg vs prone targets",
         "setBonuses": [
@@ -364,7 +364,7 @@
         ]
       },
       {
-        "name": "Lucius",
+        "name": "Lucius' Corruption",
         "effect": "gain a powerful mutation for each mutation you have",
         "upgrade": "+2 glyphic dmg",
         "setBonuses": [
@@ -391,7 +391,7 @@
         ]
       },
       {
-        "name": "Rhombur",
+        "name": "Rhombur's Defiance",
         "effect": "+3 dmg res with 2+ adj foes",
         "upgrade": "unintelligent creatures are much more likely to target you",
         "setBonuses": [
@@ -423,7 +423,7 @@
     "name": "Crikathian Champions I",
     "amulets": [
       {
-        "name": "Leorian",
+        "name": "Leorian's Target",
         "effect": "creatures marked by you have -3 dmg res",
         "upgrade": "+2 global dmg vs marked targets",
         "setBonuses": [
@@ -455,7 +455,7 @@
         ]
       },
       {
-        "name": "Vargh",
+        "name": "Vargh's Recklessness",
         "effect": "-2 dmg res; +4 global dmg",
         "upgrade": "+2 global dmg while bloodied",
         "setBonuses": [
@@ -487,7 +487,7 @@
         ]
       },
       {
-        "name": "Yavine",
+        "name": "Yavine's Sniping",
         "effect": "+4 proj dmg vs targets 30+' away",
         "upgrade": "+2 proj dmg",
         "setBonuses": [
@@ -519,7 +519,7 @@
         ]
       },
       {
-        "name": "Xorp",
+        "name": "Xorp's Shifting",
         "effect": "+4 global dmg while shapeshifted",
         "upgrade": "+3 natural wep dmg",
         "setBonuses": [
@@ -551,7 +551,7 @@
         ]
       },
       {
-        "name": "Jarrik, Eldritch Knight",
+        "name": "Jarrik, Eldritch Knight's Weaving",
         "effect": "on wep hit, +3 spell dmg until end of your next turn",
         "upgrade": "+2 melee dmg",
         "setBonuses": [
@@ -583,7 +583,7 @@
         ]
       },
       {
-        "name": "Nailo",
+        "name": "Nailo's Aura",
         "effect": "adj allies have +1 dmg res",
         "upgrade": "+2 global dmg vs fiends",
         "setBonuses": [
@@ -611,6 +611,310 @@
             "ally": "Jarrik, Eldritch Knight",
             "effect": "adj allies have +2 melee dmg",
             "upgrade": "+2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crikathian Champions II",
+    "amulets": [
+      {
+        "name": "Aurifex's Craft",
+        "effect": "+3 item proc dmg",
+        "upgrade": "+2 to crafting creation checks",
+        "setBonuses": [
+          {
+            "ally": "Nixaar",
+            "effect": "on dealing item proc dmg, -2 item proc dmg and +2 to all other dmg until the end of your next turn",
+            "upgrade": "-2 and +2"
+          },
+          {
+            "ally": "Treefish",
+            "effect": "+3 item proc dmg vs targets smaller than you",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Librus",
+            "effect": "1/LR, after making a crafting creation check, can repeat it with a +12 bonus",
+            "upgrade": "+12"
+          },
+          {
+            "ally": "Jarrik, Samurai",
+            "effect": "+3 dmg with adv item proc atks",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Nixaar's Versatility",
+        "effect": "on dealing dmg, -3 to dmg of that type and +3 to all other dmg types until the end of your next turn",
+        "upgrade": "+2 persuasion with telepathy",
+        "setBonuses": [
+          {
+            "ally": "Aurifex",
+            "effect": "on dealing item proc dmg, -2 item proc dmg and +2 to all other dmg until the end of your next turn",
+            "upgrade": "-2 and +2"
+          },
+          {
+            "ally": "Treefish",
+            "effect": "on dealing dmg to a target smaller than you, -2 dmg vs that target and +2 dmg vs all other creatures until the end of your next turn",
+            "upgrade": "-2 and +2"
+          },
+          {
+            "ally": "Librus",
+            "effect": "1/LR, after making a persuasion check through telepathy, can repeat it with a +14 bonus",
+            "upgrade": "+14"
+          },
+          {
+            "ally": "Jarrik, Samurai",
+            "effect": "on dealing dmg with an adv atk, -3 dmg with adv atks and +3 dmg with all other atks until the end of your next turn",
+            "upgrade": "-2 and +2"
+          }
+        ]
+      },
+      {
+        "name": "Treefish's Dominance",
+        "effect": "+4 proj dmg vs targets smaller than you",
+        "upgrade": "+1 proj dmg",
+        "setBonuses": [
+          {
+            "ally": "Aurifex",
+            "effect": "+3 item proc dmg vs targets smaller than you",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Nixaar",
+            "effect": "on dealing dmg to a target smaller than you, -2 dmg vs that target and +2 dmg vs all other creatures until the end of your next turn",
+            "upgrade": "-2 and +2"
+          },
+          {
+            "ally": "Librus",
+            "effect": "1/LR, after making a proj atk, can repeat it with a +2 bonus",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Jarrik, Samurai",
+            "effect": "+2 dmg with adv proj atks",
+            "upgrade": "-2 and +2"
+          }
+        ]
+      },
+      {
+        "name": "Librus' Archive",
+        "effect": "1/LR, after making knowledge skill check, can repeat it with a +2 bonus",
+        "upgrade": "+1 history",
+        "setBonuses": [
+          {
+            "ally": "Aurifex",
+            "effect": "1/LR, after making a crafting creation check, can repeat it with a +12 bonus",
+            "upgrade": "+12"
+          },
+          {
+            "ally": "Nixaar",
+            "effect": "1/LR, after making an persuasion check, can repeat it with a +12 bonus",
+            "upgrade": "+12"
+          },
+          {
+            "ally": "Treefish",
+            "effect": "1/LR, after making an atk against a target smaller than you, can repeat it with a +2 bonus",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Jarrik, Samurai",
+            "effect": "1/LR, after making an aths check, can repeat it with a +12 bonus",
+            "upgrade": "+12"
+          }
+        ]
+      },
+      {
+        "name": "Jarrik, Samurai's Focus",
+        "effect": "+4 dmg with adv atks",
+        "upgrade": "+1 incoming temp HP",
+        "setBonuses": [
+          {
+            "ally": "Aurifex",
+            "effect": "+3 dmg with adv item proc atks",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Nixaar",
+            "effect": "on dealing dmg with an adv atk, -3 dmg with adv atks and +3 dmg with all other atks until the end of your next turn",
+            "upgrade": "-2 and +2"
+          },
+          {
+            "ally": "Treefish",
+            "effect": "+5 dmg with adv atks vs targets smaller than you",
+            "upgrade": "+4"
+          },
+          {
+            "ally": "Librus",
+            "effect": "1/LR, after making an aths check, can repeat it with a +12 bonus",
+            "upgrade": "+12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Osholoran Champions",
+    "amulets": [
+      {
+        "name": "Cherry's Attunement",
+        "effect": "+1 global dmg while all your weps are relics; +1 dmg res while your helm and gloves are relics",
+        "upgrade": "+2 to crafting creation checks",
+        "setBonuses": [
+          {
+            "ally": "Grengor",
+            "effect": "+1 global dmg while both of your hand enchantment clusters are relics",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Kashana",
+            "effect": "foes within 5' of you are cursed with -1 global dmg while your pants and boots are relics",
+            "upgrade": "-1"
+          },
+          {
+            "ally": "Rug",
+            "effect": "+1 global dmg while your gloves and boots are relics",
+            "upgrade": "+1"
+          }
+        ]
+      },
+      {
+        "name": "Grengor's Violence",
+        "effect": "+3 global dmg with 2+ adj foes",
+        "upgrade": "+3 max HP",
+        "setBonuses": [
+          {
+            "ally": "Cherry",
+            "effect": "+1 global dmg while both of your hand enchantment clusters are relics",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Kashana",
+            "effect": "foes adj to you have -1 global dmg",
+            "upgrade": "-1"
+          },
+          {
+            "ally": "Rug",
+            "effect": "on melee hit, +2 melee dmg until end of the turn",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Kashana's Malevolence",
+        "effect": "creatures cursed by you have -3 global dmg",
+        "upgrade": "+1 dmg res with height adv",
+        "setBonuses": [
+          {
+            "ally": "Cherry",
+            "effect": "foes within 5' of you are cursed with -1 global dmg while your pants and boots are relics",
+            "upgrade": "-1"
+          },
+          {
+            "ally": "Grengor",
+            "effect": "foes adj to you have -1 global dmg",
+            "upgrade": "-1"
+          },
+          {
+            "ally": "Rug",
+            "effect": "+1 curse effectiveness vs targets that have previously been cursed by you",
+            "upgrade": "+1"
+          }
+        ]
+      },
+      {
+        "name": "Rug's Relentlessness",
+        "effect": "on hit, +3 dmg with that type until end of the turn",
+        "upgrade": "+1 dmg with hits after your first in a turn",
+        "setBonuses": [
+          {
+            "ally": "Cherry",
+            "effect": "+1 global dmg while your gloves and boots are relics",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Grengor",
+            "effect": "on hit with 2+ adj foes, +2 global dmg until end of the turn",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Kashana",
+            "effect": "on hit, target gets -1 global dmg until end of their next turn",
+            "upgrade": "-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hospusalian Champions",
+    "amulets": [
+      {
+        "name": "Eva's Empathy",
+        "effect": "-2 global dmg; +8 minion dmg",
+        "upgrade": "+2 minion dmg",
+        "setBonuses": [
+          {
+            "ally": "T'ymm",
+            "effect": "your minions have +1 to ability checks outside of combat",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Vinton",
+            "effect": "your minions deal +5 dmg vs creatures they didn't target offensively during their last turn",
+            "upgrade": "+4"
+          },
+          {
+            "ally": "Fillipo",
+            "effect": "your minions buffed by you have +3 dmg res",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "T'ymm's Innovation",
+        "effect": "spells you cast outside of combat are upcast 1 lvl. if you roll for initiative, you lose the bonus effects of this free upcasting.",
+        "upgrade": "+1 cantrip dmg",
+        "setBonuses": [
+          {
+            "ally": "Eva",
+            "effect": "your Befriend Creature journey activities have a +3 bonus for the purpose of overcoming sub fails",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vinton",
+            "effect": "your Rob journey activities have a +3 bonus for the purpose of overcoming sub fails",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Fillipo",
+            "effect": "your Busk journey activities have a +3 bonus for the purpose of overcoming sub fails",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Vinton's Fluidity",
+        "effect": "+3 global dmg vs targets you didn't target offensively during your last turn",
+        "upgrade": "+1 to checks made to operate a vehicle",
+        "setBonuses": [
+          {
+            "ally": "Eva",
+            "effect": "aliies within 60' of you have +1 global dmg vs targets you didn't target offensively during your last turn",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "T'ymm",
+            "effect": "your Rob journey activities have a +3 bonus for the purpose of overcoming sub fails",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Fillipo",
+            "effect": "creatures buffed by you have +1 global dmg",
+            "upgrade": "+1"
           }
         ]
       }

@@ -535,7 +535,7 @@
                     "upgrade": "+5' long/high jump distance/1"
                 },
                 {
-                    "description": "3. +2 min loot roll",
+                    "description": "3. you may adjust your loot roll results by up to 1",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
@@ -1295,6 +1295,222 @@
                     "upgrade": "+1 multi/3"
                 }
             ]
+        },
+        {
+            "name": "Lost Writings of Gil",
+            "startingMods": [
+                {
+                    "description": "your 1st-lvl spells cost 1 slot lvl less",
+                    "pointValue": "5",
+                    "upgrade": "+1/5"
+                },
+                {
+                    "description": "+1 2nd-lvl spell slot",
+                    "pointValue": "6",
+                    "upgrade": "+1 slot/6 OR +1 lvl/3"
+                },
+                {
+                    "description": "+1 INT",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 init",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot/3 OR +1 lvl/3"
+                },
+                {
+                    "description": "3. on init, recover 2 spell slot lvls",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. if your INT is 15+, +1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "5. +1 proj crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. your spell dmg is converted to force",
+                    "pointValue": "1",
+                    "upgrade": "+1 force dmg/1"
+                },
+                {
+                    "description": "7. on init if your INT is 15+, recover 2 spell slot lvls",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. adj allies have +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. if your INT is 15+, +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. if your INT is 15+, +2 dmg with lvl'd spells",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Dance of Dominance",
+            "startingMods": [
+                {
+                    "description": "+5' to push distances",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "+5' fly sp",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "+2 wep dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. if you've made a wep hit since your last turn, +1 non-phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. +2 sphere AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on sphere AoE hit, push target 5' away from you",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "4. +1 dmg res while airborne",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +5' to push distances while airborne",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "6. +5' to push distances with height adv",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "7. on wep hit while airborne, push target 5' away from you",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "8. +2 wep dmg while airbone",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. on wep hit, push target 5' away from you",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                }
+            ]
+        },
+        {
+            "name": "Judgment",
+            "startingMods": [
+                {
+                    "description": "on wep hit, recover 1 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "on wep hit, target gets -1 dmg res for combat",
+                    "pointValue": "4",
+                    "upgrade": "-1/4"
+                },
+                {
+                    "description": "+3 wep dmg while airborne",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 wep crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +2 wep dmg vs prone targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. -1 wep dmg; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "4. on 2nd+ wep atk of turn, deal +1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 wep dmg vs grounded targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on wep hit while airborne, target gets -1 dmg res for combat",
+                    "pointValue": "3",
+                    "upgrade": "-1/3"
+                },
+                {
+                    "description": "7. on wep hit, heal 1 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "8. on wep hit while airborne, recover 1 exertion",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "9. on becoming bloodied, gain 4 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "10. +1 B dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
@@ -1312,7 +1528,7 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+2 persuasion while in a city's borders",
+                    "description": "+3 persuasion while in a city's borders",
                     "pointValue": "2",
                     "upgrade": "+1/1"
                 }
@@ -1391,9 +1607,9 @@
             ],
             "thematicMods": [
                 {
-                    "description": "1. when hit, 20% chance to heal 3 HP",
+                    "description": "1. when hit, heal 2 HP",
                     "pointValue": "2",
-                    "upgrade": "+10%/1 OR +1 HP/1"
+                    "upgrade": "+1 HP/1"
                 },
                 {
                     "description": "2. on limited feature use, heal 1 HP",
@@ -2099,21 +2315,21 @@
                     "upgrade": "+5'/1"
                 },
                 {
-                    "description": "on melee hit, 30% chance to refund the non-cooldown resource cost of your next limited feature",
-                    "pointValue": "2",
-                    "upgrade": "+10%/1"
+                    "description": "on melee hit, your next 1st-degree maneuver costs -1 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1 degree/3"
                 },
                 {
-                    "description": "+10% to item proc chances",
-                    "pointValue": "2",
-                    "upgrade": "+10%/2"
+                    "description": "+1 melee AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 }
             ],
             "thematicMods": [
                 {
-                    "description": "1. on melee hit, 20% chance to give your next melee hit +3 dmg",
+                    "description": "1. on melee hit, your next melee hit will deal +1 dmg",
                     "pointValue": "1",
-                    "upgrade": "+10%/1 OR +2 dmg/1"
+                    "upgrade": "+1/1"
                 },
                 {
                     "description": "2. +1 max exertion",
@@ -2231,6 +2447,366 @@
                     "description": "10. +1 AC vs fiends",
                     "pointValue": "2",
                     "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Bane of the Trapped",
+            "startingMods": [
+                {
+                    "description": "+2 global dmg vs debuffed targets",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "project a 10' aura that slows foes within it",
+                    "pointValue": "8",
+                    "upgrade": "+1 dmg res vs debuffed creatures/1"
+                },
+                {
+                    "description": "-3 psn res",
+                    "pointValue": "-2",
+                    "upgrade": "-1 and 2pts distributed/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 DEX",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. on init, recover 2 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 dmg res vs debuffed creatures",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +1 spell AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "7. +1 global AB vs debuffed targets",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "8. if no creatures are marked by you, on boss hit, mark them such that whenever someone delivers a KB to them, they recover 2 exertion.",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. -3 psn res vs debuffed targets; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-2 and 2pts distributed/1"
+                },
+                {
+                    "description": "10. +1 global dmg vs targets affected by your auras",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Sol",
+            "startingMods": [
+                {
+                    "description": "+3 to your min wep dmg die rolls",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "-3 to max wep dmg die rolls from incoming hits",
+                    "pointValue": "-2",
+                    "upgrade": "-1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 wep dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. +1 phys dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. +1 wep dmg abs",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. on KB, heal 2 HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. you are 1 size larger",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "7. +3 dmg thorns",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "8. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "9. +2 minion non-phys res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 hit dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Cover",
+            "startingMods": [
+                {
+                    "description": "+2 proj dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 proj AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 AC",
+                    "pointValue": "5",
+                    "upgrade": "+1/5"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +3 trap dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "2. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. your pers areas have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "4. +1 spell proj AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. on block, heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. -3 dmg with traps; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-2 and 2pts distributed/1"
+                },
+                {
+                    "description": "8. -1 init; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "9. your buffs on yourself have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "10. +5' blindsight",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                }
+            ]
+        },
+        {
+            "name": "Solipsism",
+            "startingMods": [
+                {
+                    "description": "-1 to CHA-based skills",
+                    "pointValue": "-4",
+                    "upgrade": "-1 and 5pts distributed/1"
+                },
+                {
+                    "description": "if your CHA is 15+, +1 to saves vs ongoing debuffs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "on crit, target is staggered until end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+1 crit range/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 CHA",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +1 to conc saves",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. -1 performance; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "4. -1 persuasion; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "5. +1 res to dmg from other creatures",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. -3 res to dmg from yourself; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-2 and 2pts distributed/1"
+                },
+                {
+                    "description": "7. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "8. your debuffs have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "9. if your CHA is 15+, -1 to CHA-based skills; 5pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 5pts distributed/1"
+                },
+                {
+                    "description": "10. +1 to saves vs ongoing debuffs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Desolation",
+            "startingMods": [
+                {
+                    "description": "+2 light DoT dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on hit, inflict 1 light DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+2 light dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1d4 light dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1d4 light dmg to your wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +3 crit dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "6. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +2 light res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. 1/rnd, when hit, static pulses from your feet, a glyphic atk against foes within 20' dealing 1d4 light dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "10. 1/rnd, when hit, foes within 20' are inflicted with 1 light DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1 dmg/2"
                 }
             ]
         }

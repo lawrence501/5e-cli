@@ -193,7 +193,7 @@ var amulet = func() error {
 
 	set := sets[rand.Intn(len(sets))]
 	chosen := set.Amulets[rand.Intn(len(set.Amulets))]
-	log.Printf("Amulet\nHeart of %s (%s): %s", chosen.Name, set.Name, chosen.Effect)
+	log.Printf("Amulet\n%s (%s): %s", chosen.Name, set.Name, chosen.Effect)
 	return nil
 }
 

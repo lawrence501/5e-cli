@@ -134,7 +134,7 @@
     {
         "name": "Keen Shielding",
         "target": "Powers that can crit",
-        "description": "Whenever the power crits, you gain a substantial amount of temp HP."
+        "description": "Whenever the power crits, you gain temp HP."
     },
     {
         "name": "Dull Criticals",
@@ -143,13 +143,13 @@
     },
     {
         "name": "Keen Recovery",
-        "target": "Powers that have a non-cooldown resource cost",
-        "description": "Whenever the power crits, its resource cost is refunded."
+        "target": "Powers that have a non-cooldown resource cost and can deal damage",
+        "description": "Whenever the power crits, its resource cost is refunded. The power deals less dmg."
     },
     {
         "name": "Murderous Recovery",
         "target": "Powers that have a non-cooldown resource cost",
-        "description": "Whenever the power scores a killing blow, its resource cost is refunded."
+        "description": "Whenever the power scores a killing blow, 1 step of its resource cost is refunded."
     },
     {
         "name": "Dull Infliction",
@@ -461,7 +461,7 @@
     {
         "name": "Volatile Destruction",
         "target": "Any power",
-        "description": "Whenever the power hits, it deals slight additional $nonPhysType dmg. Additionally, its crits deal more dmg."
+        "description": "Whenever the power hits, it deals slight additional $nonPhysType dmg. Additionally, its crits deal slightly more dmg."
     },
     {
         "name": "Distant Power",
@@ -777,8 +777,194 @@
         "description": "Every 2 reactivations, the power's cone areas are larger and deal more dmg."
     },
     {
-        "name": "Stored Energy [next - cut and leave]",
+        "name": "Stored Energy",
         "target": "Powers with cone areas that require reactivation each round",
         "description": "For each turn of the power's duration in which you do not reactivate it, your next reactivation's cone areas are larger and deal barely more dmg."
+    },
+    {
+        "name": "Empowering Exsanguiniation",
+        "target": "Powers that require reactivation each round",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing barely any $physType dmg, stacking until CON save. Additionally, every 3 reactivations, you gain +30' sp until the end of your next turn."
+    },
+    {
+        "name": "Decaying Traps",
+        "target": "Powers that lay traps",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing $nonPhysType dmg, stacking until CON save. Additionally, the power deals massively less dmg."
+    },
+    {
+        "name": "Inconsistent Power",
+        "target": "Powers that require reactivation each round",
+        "description": "Every 3 reactivations, the power deals massively more dmg. All other reactivations deal barely less dmg."
+    },
+    {
+        "name": "Inconsistent Sapping",
+        "target": "Powers that require reactivation each round",
+        "description": "Every 3 reactivations, the power's hits slow the target until the end of your next turn, and inflict a DoT dealing $physType dmg, stacking until CON save."
+    },
+    {
+        "name": "Inconsistent Cruelty",
+        "target": "Powers that require reactivation each round",
+        "description": "Every 3 reactivations, the power deals massively more dmg vs debuffed targets."
+    },
+    {
+        "name": "Gated Activation",
+        "target": "Powers that require reactivation each round",
+        "description": "Every 3 reactivations, you cannot directly reactivate the power. Instead, it reactivates the next time you teleport. The power deals substantially more dmg."
+    },
+    {
+        "name": "Rapid Shielding",
+        "target": "Powers that require reactivation each round",
+        "description": "The power's reactivation time is reduced by 1 step, but it deals substantially less dmg. Additionally, every 3 reactivations, the power's hits grant you a massive amount of temp HP."
+    },
+    {
+        "name": "Blunt Seeking",
+        "target": "Powers with line areas that require reactivation each round",
+        "description": "Every 3 reactivations, the power's line areas are converted into non-piercing projs that have +5 Accuracy."
+    },
+    {
+        "name": "Inconsistent Penetration",
+        "target": "Powers that fire non-piercing projectiles and require reactivation each round",
+        "description": "Every 3 reactivations, the power's projs are converted into line areas with length of the proj's range and deal more dmg."
+    },
+    {
+        "name": "Empowered Power",
+        "target": "Any power",
+        "description": "The power's dmg deals slightly more dmg while you are buffed. This bonus is doubled while you are in a pers area."
+    },
+    {
+        "name": "Splintering Summons",
+        "target": "Powers that summon minions",
+        "description": "Whenever the minions die, they leave behind a chunk of metal. The next time you reactivate a power that requires reactivation each round, the chunk flies at you, creating a line area between its location and you, making wep atks against all foes and dealing slight $physType dmg."
+    },
+    {
+        "name": "Bursting Empowerment",
+        "target": "Powers with an instantaneous duration",
+        "description": "Whenever a single use of the power hits 1+ target, you gain barely any dmg res and +1 to DEX saves until the end of your next turn."
+    },
+    {
+        "name": "Narrowed Power",
+        "target": "Powers with cone areas",
+        "description": "The power's cone areas are converted into 10'-wide line areas that deal barely more dmg."
+    },
+    {
+        "name": "Specialised Inevitability",
+        "target": "Any power",
+        "description": "While you are wielding a $weaponClass weapon, the power's hits give a stack of Invevitability. Whenever a creature reaches 4 stacks of Inevitability, make a wep atk against them, dealing massive $physType dmg."
+    },
+    {
+        "name": "Planted Whirling",
+        "target": "Powers with line areas",
+        "description": "Whenever the power's line areas end, they conjure a 5'x5' whirling chunk of metal that remains as a pers area until the end of your next turn. The area makes wep atks that deal barely any $physType dmg."
+    },
+    {
+        "name": "Overwhelming Persistence",
+        "target": "Powers with persistent areas",
+        "description": "The power's persistent areas have double duration and barely more area."
+    },
+    {
+        "name": "Creeping Persistence",
+        "target": "Powers with persistent areas",
+        "description": "The power's persistent areas move 5' towards their nearest foes at the start of each of your turns."
+    },
+    {
+        "name": "Controlled Power",
+        "target": "Powers with line areas",
+        "description": "You can change the power's line areas to be any length up to their maximum whenever you create them and they deal barely more dmg."
+    },
+    {
+        "name": "Careful Trapping",
+        "target": "Powers with line areas",
+        "description": "Whenever the power's line areas end, they leave behind a trap that triggers whenever a creature starts their turn or moves within 5' of it. The traps also trigger at the end of your next turn if they haven't done so already. The traps make a wep atk against all foes within 5' of them, dealing slight $physType dmg and slight $nonPhysType dmg. Also, the power's usage time is increased by 1 step."
+    },
+    {
+        "name": "Patient Trapping",
+        "target": "Powers that lay traps",
+        "description": "For every round that the trap is armed and not triggered, it gains barely more detonation area and barely more dmg."
+    },
+    {
+        "name": "Eruption",
+        "target": "Powers with a non-cooldown resource cost that target a single point",
+        "description": "A nova of metal erupts from the power's target, making a spell atk against all foes adj to the target dealing $physType dmg. Additionally, the power's cost is increased by 1 step.",
+        "meta": "sacrifice"
+    },
+    {
+        "name": "Explosive Exsanguination",
+        "target": "Powers with sphere areas",
+        "description": "Whenever the power's sphere areas hit, the target is inflicted with a DoT dealing slight $physType dmg, stacking until CON save."
+    },
+    {
+        "name": "Decaying Empowerment",
+        "target": "Any power",
+        "description": "If you have used the power since the start of your last turn, your DoTs deal more dmg."
+    },
+    {
+        "name": "Bombarding Penetration",
+        "target": "Powers that fire multiple non-piercing projectiles and deal damage",
+        "description": "The power's projs are converted to line areas with length equal to the proj's range, but they deal less dmg."
+    },
+    {
+        "name": "Blasting Power",
+        "target": "Powers with sphere areas",
+        "description": "The power's sphere areas deal more dmg."
+    },
+    {
+        "name": "Massive Debilitation",
+        "target": "Any power",
+        "description": "The power has barely more area and whenever it hits it debilitates the target until the end of your next turn."
+    },
+    {
+        "name": "Massive Support",
+        "target": "Any power",
+        "description": "If you have an active minion when you use the power, it gets more area."
+    },
+    {
+        "name": "Chaining Boons",
+        "target": "Powers with a non-cooldown resource cost that target a single ally",
+        "description": "The power can target 1 additional ally within range and deals more dmg, but its cost is increased by 1 step."
+    },
+    {
+        "name": "Supportive Power",
+        "target": "Any power",
+        "description": "If you have an active minion when you use the power, it gets more dmg."
+    },
+    {
+        "name": "Bloody Death",
+        "target": "Powers with a non-cooldown resource cost",
+        "description": "Whenever the power scores a killing blow, it consumes 1 additional step of its resource cost to conjure a CR 1 Blood Spectre from the corpse, which is an undead minion that deals $physType dmg."
+    },
+    {
+        "name": "Leeching Summons",
+        "target": "Powers that summon minions",
+        "description": "Whenever the minions hit, they heal a slight amount of HP."
+    },
+    {
+        "name": "Efficient Summons",
+        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "description": "The power's cost is reduced by 1 step, and whenever the minions hit, they inflict the target with a DoT dealing slight $physType dmg, stacking until CON save (minion's DC). Additionally, the minions deal substantially less dmg."
+    },
+    {
+        "name": "Powerful Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions have slightly more HP and deal slightly more dmg."
+    },
+    {
+        "name": "Gargantuan Summons",
+        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "description": "The minions have substantially more dmg, more HP, and are 1 step larger, but the power's cost is increased by 1 step."
+    },
+    {
+        "name": "Energy",
+        "target": "Any power",
+        "description": "Whenever the power hits, it deals additional $nonPhysType dmg."
+    },
+    {
+        "name": "Decay",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save."
+    },
+    {
+        "name": "Efficient Empowerment [next - soul shatter]",
+        "target": "Powers with a non-cooldown resource cost that deal damage",
+        "description": "The power's cost is reduced by 1 step, and if you have used the power since the start of your last turn, you deal more DoT dmg. Additionally, the power deals substantially less dmg."
     }
 ]
