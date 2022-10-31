@@ -247,6 +247,37 @@
                 "As an action 1/LR, you can gain 1d4 + 4 temporary hit points.",
                 "1/LR, when you hit a creature with a melee wep atk, you can fill the target with unsettling dread, granting them disadvantage on their next save before the end of your next turn. This has no effect if the target is immune to the frightened condition."
             ]
+        },
+        {
+            "name": "Butcher's Sign",
+            "effects": [
+                "1/turn, you can reroll the wep dmg dice for a melee wep atk.",
+                "+1 wep S crit range."
+            ]
+        },
+        {
+            "name": "Ring of Wonder",
+            "effects": [
+                "The ring has 7 charges, 1d6 + 1 of which are recovered at the end of a long rest.",
+                "As an action, you can expend 1 charge and choose a target within 120' of you. This target can be a creature, obj, or point in space. Roll a d100 and triger the following effect (DC 15). Ignore any range limits the effects may have, and any effects that allow you to chosen targets in an area instead select them randomly:",
+                "Table: https://5e.tools/items.html#wand%20of%20wonder_dmg"
+            ]
+        },
+        {
+            "name": "Shadowfell Brand",
+            "effects": [
+                "+60' darkvision.",
+                "You have adv on Stealth checks.",
+                "1/LR when dmg'd, you can react to take half dmg."
+            ]
+        },
+        {
+            "name": "Battering Ring",
+            "effects": [
+                "+1 AC.",
+                "The ring has 3 charges, 1d3 of which are recovered at the end of a long rest.",
+                "On pushing a creature within your reach away from you, you can expend 1 charge to push them an additional 10', also knock them prone, or both."
+            ]
         }
     ],
     "very rare": [
@@ -320,7 +351,7 @@
         {
             "name": "Dancing Rune",
             "effects": [
-                "As a bonus action, you can toss the ring into the air and say 'dancer' to transform it into a copy of your onhand weapon and animate it as a minion. The minion cannot be targeted or take dmg, and uses your AB and ability score mod for its dmg. It has a fly speed of 30', and you must use your bonus action to control it each turn (except when it is first summoned).",
+                "As a bonus action, you can toss the ring into the air and say 'dancer' to transform it into a copy of your onhand weapon and animate it as a minion. The minion cannot be targeted or take dmg, and uses your AB and ability mod for its dmg. It has a fly speed of 30', and you must use your bonus action to control it each turn (except when it is first summoned).",
                 "If the animated ring is ever more than 30' away from you, it reverts to ring form and falls to the ground.",
                 "After the animated ring's 4th atk, it flies back to you, reverts to ring form, and returns to your finger."
             ]
@@ -337,6 +368,20 @@
             "name": "Leadership",
             "effects": [
                 "+2 CHA."
+            ]
+        },
+        {
+            "name": "Psychic Absorbing Ring",
+            "effects": [
+                "You have 50% resistance to psy dmg.",
+                "1/LR, on taking psy dmg, you can react to gain imm to that instance and heal HP equal to half the original dmg."
+            ]
+        },
+        {
+            "name": "Anstruth Rune",
+            "effects": [
+                "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Control Weather, Cure Wounds (upcast to 5th lvl), and Wall of Thorns. Each spell can only be cast 1/LR in this way.",
+                "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
             ]
         }
     ],
@@ -386,7 +431,7 @@
             ]
         },
         {
-            "name": "Back Talker",
+            "name": "Focus of Answering",
             "effects": [
                 "You can use your reaction to make a melee weapon attack against any creature in your reach that deals damage to you. You have advantage on the attack roll, and any damage dealt by the attack ignores immunities and resistances."
             ]

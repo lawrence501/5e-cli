@@ -53,7 +53,7 @@
     },
     {
         "name": "Death",
-        "description": "The item is transformed into a glyph, which when consumed replaces your next glyph path option with the item's effects."
+        "description": "The item is transformed into a glyph, which when consumed replaces your next glyph path tier with the item's effects. Before you consume this glyph, you find out what your next glyph path tier would grant you."
     },
     {
         "name": "Temperance",
@@ -65,7 +65,7 @@
     },
     {
         "name": "The Tower",
-        "description": "The item has 1 additional modifier that is randomly generated."
+        "description": "The item has 1 additional chaotic modifier."
     },
     {
         "name": "The Stars",
@@ -73,11 +73,11 @@
     },
     {
         "name": "The Moon",
-        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is negated and applied to creatures of your choice within a 30' aura."
+        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is negated and applied to creatures of your choice within a 60' aura."
     },
     {
         "name": "The Sun",
-        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is applied to creatures of your choice within a 30' aura."
+        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is applied to creatures of your choice within a 60' aura."
     },
     {
         "name": "Judgement",

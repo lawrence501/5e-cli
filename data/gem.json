@@ -20,12 +20,12 @@
         "tags": ["weapon class", "hp"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
-        "description": "on boss hit, target gets -1 to $abilityScore saves for combat",
+        "description": "on boss hit, target gets -1 to $ability saves for combat",
         "upgrade": "-1/4",
         "tags": ["debuff"]
     },
@@ -98,7 +98,7 @@
         "tags": ["non-phys res", "weapon class", "speed"]
     },
     {
-        "description": "+1 to {abilityScore} saves",
+        "description": "+1 to {ability} saves",
         "upgrade": "+1/1->3",
         "tags": ["save"]
     },
@@ -129,7 +129,7 @@
         "tags": ["weapon class", "type dmg", "dot"]
     },
     {
-        "description": "if you haven't been hit by an adj creature since your last turn, +1 to {abilityScore} saves",
+        "description": "if you haven't been hit by an adj creature since your last turn, +1 to {ability} saves",
         "upgrade": "+1/3",
         "tags": ["save"]
     },
@@ -201,12 +201,12 @@
         "tags": ["type dmg", "weapon class"]
     },
     {
-        "description": "the first time you atk each combat with a {weaponClass} wep, gain +2 to your next {abilityScore} save this combat",
+        "description": "the first time you atk each combat with a {weaponClass} wep, gain +2 to your next {ability} save this combat",
         "upgrade": "+1 (or 2 for non-DEX/CON/WIS)/1",
         "tags": ["weapon class", "save"]
     },
     {
-        "description": "on succ {abilityScore} save, gain 5 temp HP",
+        "description": "on succ {ability} save, gain 5 temp HP",
         "upgrade": "+5/1",
         "tags": ["save", "temp hp"]
     },
@@ -269,9 +269,9 @@
         "meta": "marskman - COMPLETE"
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
         "description": "while you have an active minion, +1 non-phys res",
@@ -279,9 +279,9 @@
         "tags": ["minion off", "minion def", "non-phys res"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
         "description": "you ignore {dmgType} res",
@@ -289,8 +289,8 @@
         "tags": ["type dmg"]
     },
     {
-        "description": "your minions ignore {dmgType} res",
-        "upgrade": "+2->1 minion {dmgType} dmg/1",
+        "description": "your minions ignore $dmgType res",
+        "upgrade": "+2->1 minion {type} dmg/1",
         "tags": ["minion off"]
     },
     {
@@ -366,7 +366,7 @@
         "tags": ["type dmg"]
     },
     {
-        "description": "+1 to {abilityScore} saves",
+        "description": "+1 to {ability} saves",
         "upgrade": "+1/1->3",
         "tags": ["save"]
     },
@@ -376,7 +376,7 @@
         "tags": ["type res"]
     },
     {
-        "description": "+2 minion {dmgType} dmg",
+        "description": "+2 minion $dmgType dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
@@ -386,9 +386,9 @@
         "tags": ["minion def"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
         "description": "+1 to debuff saves",
@@ -442,9 +442,9 @@
         "tags": ["type dmg", "spell dmg"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
         "description": "your first melee hit each turn deals +1d4 {dmgType} dmg",
@@ -472,7 +472,7 @@
         "tags": ["minion def"]
     },
     {
-        "description": "+2 minion {dmgType} dmg",
+        "description": "+2 minion $dmgType dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
@@ -513,9 +513,9 @@
         "meta": "Shaman - Dervish"
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
         "description": "your first melee hit each turn deals +1d4 {dmgType} dmg",
@@ -662,7 +662,7 @@
         "tags": ["type dmg"]
     },
     {
-        "description": "+2 minion {dmgType} dmg",
+        "description": "+2 minion $dmgType dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
@@ -672,24 +672,24 @@
         "tags": ["type dmg"]
     },
     {
-        "description": "+2 minion {dmgType} dmg",
+        "description": "+2 minion $dmgType dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
-        "description": "+1 to your lowest ability score",
+        "description": "+1 to your lowest ability",
         "upgrade": "+1/2",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
         "description": "+1 {dmgType} dmg",
@@ -697,7 +697,7 @@
         "tags": ["type dmg"]
     },
     {
-        "description": "+2 minion {dmgType} dmg",
+        "description": "+2 minion $dmgType dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
@@ -819,7 +819,7 @@
         "tags": ["type dmg"]
     },
     {
-        "description": "+2 minion {dmgType} dmg",
+        "description": "+2 minion $dmgType dmg",
         "upgrade": "+1/1",
         "tags": ["minion off"]
     },
@@ -866,19 +866,19 @@
         "meta": "druid - totemic restoration"
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
-        "description": "if your {abilityScore} is 15+, +1 phys res",
+        "description": "if your {ability} is 15+, +1 phys res",
         "upgrade": "+1/2",
-        "tags": ["ability score", "phys res"]
+        "tags": ["ability", "phys res"]
     },
     {
-        "description": "if your {abilityScore} is 15+ while shapeshifed, +2 melee dmg",
+        "description": "if your {ability} is 15+ while shapeshifed, +2 melee dmg",
         "upgrade": "+1/1",
-        "tags": ["ability score", "melee"]
+        "tags": ["ability", "melee"]
     },
     {
         "description": "your hits ignore {type} res",
@@ -926,14 +926,14 @@
         "tags": ["minion off", "phys dmg"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
-        "description": "if your {abilityScore} is 15+, +3 crit dmg res",
+        "description": "if your {ability} is 15+, +3 crit dmg res",
         "upgrade": "+2/1",
-        "tags": ["ability score"],
+        "tags": ["ability"],
         "meta": "druid - harmonious wisdom"
     },
     {
@@ -1097,9 +1097,9 @@
         "tags": ["phys res"]
     },
     {
-        "description": "+1 {abilityScore}",
+        "description": "+1 {ability}",
         "upgrade": "+1/4",
-        "tags": ["ability score"]
+        "tags": ["ability"]
     },
     {
         "description": "+1 proj dmg",
@@ -1120,5 +1120,561 @@
         "description": "+1 $hitForm AC",
         "upgrade": "+3->2 max HP/1",
         "tags": ["ac"]
+    },
+    {
+        "description": "+1 to saves vs debuffs",
+        "upgrade": "+1/4",
+        "tags": ["save"]
+    },
+    {
+        "description": "+1 to saves vs ongoing debuffs",
+        "upgrade": "+1/4",
+        "tags": ["save"]
+    },
+    {
+        "description": "your first melee hit each turn deals +1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "your first proj hit each turn deals +1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["proj", "type dmg"]
+    },
+    {
+        "description": "+1 proj dmg",
+        "upgrade": "+1/1",
+        "tags": ["proj"]
+    },
+    {
+        "description": "on sub proj hit, target is debilitated until end of their next turn",
+        "upgrade": "+1 proj AB/4",
+        "tags": ["proj", "debuff"],
+        "meta": "forge guard - peltast"
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "on sub hit, debil target until end of their next turn",
+        "upgrade": "+1 global AB vs debuffed targets/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "on proj hit, target gets -1 {type} res until end of your next turn",
+        "upgrade": "-1/1",
+        "tags": ["proj", "type dmg"]
+    },
+    {
+        "description": "on block, +2 phys res until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["ac", "phys res"]
+    },
+    {
+        "description": "+1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "+3 dmg thorns",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "while holding a 2h wep, +1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["2h", "melee"]
+    },
+    {
+        "description": "+1 dmg res while holding a shield",
+        "upgrade": "+1/2",
+        "tags": ["phys res", "non-phys res", "shield"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your proj hits while holding a shield",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "proj", "shield"]
+    },
+    {
+        "description": "on sub hit, inflict target with 1 {type} DoT, stacking until CON save",
+        "upgrade": "+1/1",
+        "tags": ["dot", "type dmg"]
+    },
+    {
+        "description": "on sub hit, inflict target with 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["dot", "type dmg"]
+    },
+    {
+        "description": "on sub minion hit, they inflict target with 2 $physType DoT, stacking until CON save (minion's DC)",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "on sub minion hit, they inflict target with 2 $nonPhysType DoT, stacking until DEX save (minion's DC)",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "while holding a 2h wep, +1 DoT dmg",
+        "upgrade": "+1/1",
+        "tags": ["2h", "dot"],
+        "meta": "forge guard - smelter's might"
+    },
+    {
+        "description": "+2 dmg res and -1 global dmg",
+        "upgrade": "+2 and -1/1",
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "description": "on proj hit, -1 dmg res and +2 global dmg until end of your next turn",
+        "upgrade": "-1 and +2/1",
+        "tags": ["proj", "wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "+2 minion phys res",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "gain phys res equal to double your bonus {ability} save mod",
+        "upgrade": "+1 to {ability} saves/3",
+        "tags": ["phys res", "save"]
+    },
+    {
+        "description": "+1d4 $physType dmg to your minion hits",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"],
+        "meta": "forge guard - might"
+    },
+    {
+        "description": "+1 proj crit range",
+        "upgrade": "+1/4",
+        "tags": ["proj", "crit"]
+    },
+    {
+        "description": "if you've been healed since start of your last turn, +1 phys res",
+        "upgrade": "+1/1",
+        "tags": ["hp", "phys res"]
+    },
+    {
+        "description": "if you've been healed since start of your last turn, +1 incoming healing",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 phys res while holding a shield",
+        "upgrade": "+1/2",
+        "tags": ["phys res", "shield"]
+    },
+    {
+        "description": "+1 $hitForm AC while holding a shield",
+        "upgrade": "+1/4",
+        "tags": ["ac", "shield"]
+    },
+    {
+        "description": "+1 melee crit range",
+        "upgrade": "+1/4",
+        "tags": ["melee", "crit"]
+    },
+    {
+        "description": "+2 {type} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "description": "if you've blocked since your last turn, +2 global dmg",
+        "upgrade": "+1/1",
+        "tags": ["ac", "wep dmg", "spell dmg"],
+        "meta": "forge guard - osprixbane"
+    },
+    {
+        "description": "+1 proj crit dice",
+        "upgrade": "+1/2",
+        "tags": ["proj", "crit"]
+    },
+    {
+        "description": "+1 DoT res",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+2 {type} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "description": "if you've been healed since start of your last turn, +2 DoT res",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "if you've been healed since start of your last turn, +3 {type} res",
+        "upgrade": "+2/1",
+        "tags": ["hp", "type res"]
+    },
+    {
+        "description": "+1 non-phys res while holding a shield",
+        "upgrade": "+1/2",
+        "tags": ["non-phys res", "shield"]
+    },
+    {
+        "description": "+1 {type} DoT dmg while holding a shield",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "dot", "shield"]
+    },
+    {
+        "description": "+1 melee crit dice",
+        "upgrade": "+1/2",
+        "tags": ["melee", "crit"]
+    },
+    {
+        "description": "when hit, +2 melee dmg for combat",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "on sub block, conjure a ring of shields around you that count as a non-atking CR 1/8 construct minion that always receives atks before you",
+        "upgrade": "+1 CR/2",
+        "tags": ["ac", "minion def"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+2 minion phys res",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "while holding a 2h {weaponClass} wep, +1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["2h", "weapon class", "melee"]
+    },
+    {
+        "description": "on sub melee hit while holding a 2h {weaponClass} wep, inflict target with 1 {type} DoT, stacking until CON save",
+        "upgrade": "+1/1",
+        "tags": ["melee", "2h", "weapon class", "type dmg", "dot"]
+    },
+    {
+        "description": "while holding a 2h {weaponClass} wep, +1 wep dmg",
+        "upgrade": "+1/1",
+        "tags": ["2h", "weapon class"],
+        "meta": "forge guard DONE"
+    },
+    {
+        "description": "+1 spell crit range",
+        "upgrade": "+1/4",
+        "tags": ["spell dmg", "crit"]
+    },
+    {
+        "description": "+1 spell dmg",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "+1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "on spellcast, +1 spell dmg until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"],
+        "meta": "sorcerer - wisdom"
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on sub {type} hit, target is inflicted with 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "dot"]
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on sub hit, target is staggered until end of your next turn",
+        "upgrade": "+1 global AB vs debuffed targets/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on sub {type} hit, target gets -2 {type} res until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on sub {type} hit, target gets -1 to saves vs debuffs until end of your next turn",
+        "upgrade": "-1/3",
+        "tags": ["type dmg", "debuff"]
+    },
+    {
+        "description": "+1 spell dmg",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "when sub hit, offender becomes sluggish until end of their next turn",
+        "upgrade": "+1 dmg res/2",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "on sub hit, target gets sluggish until end of your next turn",
+        "upgrade": "+1 global AB vs debuffed targets/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "on sub {type} hit, target gets sluggish until end of your next turn",
+        "upgrade": "+1 {type} AB/4",
+        "tags": ["type dmg", "debuff"],
+        "meta": "sorceress - whirling snow"
+    },
+    {
+        "description": "your hits ignore {type} res",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on {type} hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["type dmg", "hp"]
+    },
+    {
+        "description": "+1 non-phys DoT dmg",
+        "upgrade": "+1/2",
+        "tags": ["non-phys dmg", "dot"]
+    },
+    {
+        "description": "+1 to your ongoing debuff DCs",
+        "upgrade": "+1/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "1/combat, when bloodied, adj foes are staggered until end of your next turn",
+        "upgrade": "+3->2 max HP/1",
+        "tags": ["hp", "debuff"]
+    },
+    {
+        "description": "+1 spell crit range",
+        "upgrade": "+1/4",
+        "tags": ["spell dmg", "crit"]
+    },
+    {
+        "description": "+1 {type} spell crit range",
+        "upgrade": "+1/4",
+        "tags": ["type dmg", "spell dmg", "crit"],
+        "meta": "sorcerer - crackling precision"
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "on sub hit, +1 non-phys dmg until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "description": "on sub hit, +2 incoming temp HP until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "+1 to your ongoing debuff DCs",
+        "upgrade": "+1/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "1/combat per unique dmg type, on hit, gain 1 temp HP",
+        "upgrade": "+1/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "+1 spell crit dice",
+        "upgrade": "+1/2",
+        "tags": ["spell dmg", "crit"]
+    },
+    {
+        "description": "your spell hits deal +1d4 base dmg",
+        "upgrade": "+1/3",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "+1 non-phys res",
+        "upgrade": "+1/2",
+        "tags": ["non-phys res"]
+    },
+    {
+        "description": "+1 non-phys dmg",
+        "upgrade": "+1/2",
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "description": "on sub non-phys hit, target is debil until end of your next turn",
+        "upgrade": "+1 non-phys AB/4",
+        "tags": ["non-phys dmg", "debuff"]
+    },
+    {
+        "description": "on crit vs target 30+' away from you, a nova of energy erupts from them, making a glyphic atk against all foes adj to the target that deals 1d4 {type} dmg",
+        "upgrade": "+1 dmg/1",
+        "tags": ["crit", "type dmg"],
+        "meta": "sorcerer - distant spark"
+    },
+    {
+        "description": "if your {ability} is 15+ when healed, gain 2 temp HP",
+        "upgrade": "+1/1",
+        "tags": ["ability", "hp", "temp hp"]
+    },
+    {
+        "description": "if you've scored a $nonPhysType hit since start of your last turn, +1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "type dmg"]
+    },
+    {
+        "description": "if you've scored a $nonPhysType hit since start of your last turn, your sub {type} hits give -2 {type} res until end of your next turn",
+        "upgrade": "-1/1",
+        "tags": ["non-phys dmg", "type dmg"]
+    },
+    {
+        "description": "if you've scored a $nonPhysType hit since start of your last turn, your sub {type} hits give -1 to debuff saves until end of your next turn",
+        "upgrade": "-1/3",
+        "tags": ["non-phys dmg", "type dmg", "debuff"]
+    },
+    {
+        "description": "if you've scored a $nonPhysType hit since start of your last turn, your sub {type} hits inflict 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "type dmg", "dot"]
+    },
+    {
+        "description": "if you've scored a $nonPhysType hit since start of your last turn, your sub {type} hits inflict sluggish until end of your next turn",
+        "upgrade": "+1 {type1} AB/4",
+        "tags": ["non-phys dmg", "type dmg", "debuff"]
+    },
+    {
+        "description": "+1 mark effectiveness",
+        "upgrade": "+1/3",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "debuffs inflicted by your {type} spells have +1 to their ongoing DCs",
+        "upgrade": "+1/4",
+        "tags": ["debuff", "type dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 global dmg",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "your $nonPhysType dmg is converted to {type}",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "your spell hits deal +1d4 base dmg",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg"],
+        "meta": "sorcerer DONE"
+    },
+    {
+        "description": "+1 global dmg",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "+2 minion phys res",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+2 {type} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "if you've summoned a minion this combat, +1 global dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off", "minion def", "wep dmg", "spell dmg"]
+    },
+    {
+        "description": "whenever an adj creature dies, gain 3 temp HP",
+        "upgrade": "+2/1",
+        "tags": ["temp hp"],
+        "meta": "acolyte - mania of mortality"
     }
 ]

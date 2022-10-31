@@ -329,8 +329,8 @@ var creatureType = func() error {
 	return nil
 }
 
-var abilityScore = func() error {
-	log.Printf("Ability score: %s", ABILITY_SCORES[rand.Intn(len(ABILITY_SCORES))])
+var ability = func() error {
+	log.Printf("Ability: %s", ABILITIES[rand.Intn(len(ABILITIES))])
 	return nil
 }
 
@@ -371,5 +371,10 @@ var nonPhysType = func() error {
 
 var class = func() error {
 	log.Printf("Class: %s", CLASSES[rand.Intn(len(CLASSES))])
+	return nil
+}
+
+var activity = func() error {
+	log.Printf("Journey activity: %s", JOURNEY_ACTIVITIES[rand.Intn(len(JOURNEY_ACTIVITIES))])
 	return nil
 }

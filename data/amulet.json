@@ -520,7 +520,7 @@
       },
       {
         "name": "Xorp's Shifting",
-        "effect": "+4 global dmg while shapeshifted",
+        "effect": "+3 global dmg while shapeshifted",
         "upgrade": "+3 natural wep dmg",
         "setBonuses": [
           {
@@ -585,7 +585,7 @@
       {
         "name": "Nailo's Aura",
         "effect": "adj allies have +1 dmg res",
-        "upgrade": "+2 global dmg vs fiends",
+        "upgrade": "+3 global dmg vs fiends",
         "setBonuses": [
           {
             "ally": "Leorian",
@@ -649,7 +649,7 @@
       {
         "name": "Nixaar's Versatility",
         "effect": "on dealing dmg, -3 to dmg of that type and +3 to all other dmg types until the end of your next turn",
-        "upgrade": "+2 persuasion with telepathy",
+        "upgrade": "+3 persuasion with telepathy",
         "setBonuses": [
           {
             "ally": "Aurifex",
@@ -676,7 +676,7 @@
       {
         "name": "Treefish's Dominance",
         "effect": "+4 proj dmg vs targets smaller than you",
-        "upgrade": "+1 proj dmg",
+        "upgrade": "+2 proj dmg",
         "setBonuses": [
           {
             "ally": "Aurifex",
@@ -703,7 +703,7 @@
       {
         "name": "Librus' Archive",
         "effect": "1/LR, after making knowledge skill check, can repeat it with a +2 bonus",
-        "upgrade": "+1 history",
+        "upgrade": "+2 history",
         "setBonuses": [
           {
             "ally": "Aurifex",
@@ -730,7 +730,7 @@
       {
         "name": "Jarrik, Samurai's Focus",
         "effect": "+4 dmg with adv atks",
-        "upgrade": "+1 incoming temp HP",
+        "upgrade": "+2 incoming temp HP",
         "setBonuses": [
           {
             "ally": "Aurifex",
@@ -784,7 +784,7 @@
       {
         "name": "Grengor's Violence",
         "effect": "+3 global dmg with 2+ adj foes",
-        "upgrade": "+3 max HP",
+        "upgrade": "+5 max HP",
         "setBonuses": [
           {
             "ally": "Cherry",
@@ -806,7 +806,7 @@
       {
         "name": "Kashana's Malevolence",
         "effect": "creatures cursed by you have -3 global dmg",
-        "upgrade": "+1 dmg res with height adv",
+        "upgrade": "+2 dmg res with height adv",
         "setBonuses": [
           {
             "ally": "Cherry",
@@ -828,7 +828,7 @@
       {
         "name": "Rug's Relentlessness",
         "effect": "on hit, +3 dmg with that type until end of the turn",
-        "upgrade": "+1 dmg with hits after your first in a turn",
+        "upgrade": "+2 dmg with hits after your first in a turn",
         "setBonuses": [
           {
             "ally": "Cherry",
@@ -855,7 +855,7 @@
       {
         "name": "Eva's Empathy",
         "effect": "-2 global dmg; +8 minion dmg",
-        "upgrade": "+2 minion dmg",
+        "upgrade": "+3 minion dmg",
         "setBonuses": [
           {
             "ally": "T'ymm",
@@ -877,7 +877,7 @@
       {
         "name": "T'ymm's Innovation",
         "effect": "spells you cast outside of combat are upcast 1 lvl. if you roll for initiative, you lose the bonus effects of this free upcasting.",
-        "upgrade": "+1 cantrip dmg",
+        "upgrade": "+2 cantrip dmg",
         "setBonuses": [
           {
             "ally": "Eva",
@@ -899,7 +899,7 @@
       {
         "name": "Vinton's Fluidity",
         "effect": "+3 global dmg vs targets you didn't target offensively during your last turn",
-        "upgrade": "+1 to checks made to operate a vehicle",
+        "upgrade": "+2 to checks made to operate a vehicle",
         "setBonuses": [
           {
             "ally": "Eva",
@@ -915,6 +915,509 @@
             "ally": "Fillipo",
             "effect": "creatures buffed by you have +1 global dmg",
             "upgrade": "+1"
+          }
+        ]
+      },
+      {
+        "name": "Fillipo's Rhythm",
+        "effect": "creatures buffed by you have +2 dmg res",
+        "upgrade": "+3 outgoing temp HP",
+        "setBonuses": [
+          {
+            "ally": "Eva",
+            "effect": "allies within 60' of you have +1 dmg res",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "T'ymm",
+            "effect": "your Busk journey activities have a +3 bonus for the purpose of overcoming sub fails",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vinton",
+            "effect": "creatures buffed by you have +1 global dmg",
+            "upgrade": "+1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Antagonists",
+    "amulets": [
+      {
+        "name": "Kreon's Madness",
+        "effect": "while bloodied, +4 glyphic dmg",
+        "upgrade": "+2 glyphic dmg",
+        "setBonuses": [
+          {
+            "ally": "Ekhan",
+            "effect": "while bloodied, +3 spell dmg res",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Godworms",
+            "effect": "1/LR, on hit while bloodied, dominate target until end of their next turn",
+            "upgrade": "+1 glyphic AB while bloodied"
+          },
+          {
+            "ally": "The Queen of Rot",
+            "effect": "while bloodied, you project a 5' aura that deals 2 glyphic nec dmg to foes",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Trauma Demon",
+            "effect": "while bloodied, -2 dmg res and +11 dmg thorns",
+            "upgrade": "-2 and +11"
+          }
+        ]
+      },
+      {
+        "name": "Ekhan's Insulation",
+        "effect": "you can't wield magic weps, but crafted weps are considered mundane for you. +2 to crafting creation checks and +2 to crafting magic equipment rolls.",
+        "upgrade": "+2 spell dmg res",
+        "setBonuses": [
+          {
+            "ally": "Kreon",
+            "effect": "while bloodied, +3 spell dmg res",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Godworms",
+            "effect": "1/combat, when hit with a spell, dominate offender until end of their next turn",
+            "upgrade": "+2 spell dmg res"
+          },
+          {
+            "ally": "The Queen of Rot",
+            "effect": "you project a 5' aura that deals 1 glyphic light dmg to foes",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Trauma Demon",
+            "effect": "-5 max HP; +9 spell thorns",
+            "upgrade": "-4 and +9"
+          }
+        ]
+      },
+      {
+        "name": "Godworms' Hunger",
+        "effect": "1/SR, on hit, dominate target until end of their next turn",
+        "upgrade": "creatures dominated by you have -2 dmg res",
+        "setBonuses": [
+          {
+            "ally": "Kreon",
+            "effect": "1/LR, on hit while bloodied, dominate target until end of their next turn",
+            "upgrade": "+1 glyphic AB while bloodied"
+          },
+          {
+            "ally": "Ekhan",
+            "effect": "1/combat, when hit with a spell, dominate offender until end of their next turn",
+            "upgrade": "+2 spell dmg res"
+          },
+          {
+            "ally": "The Queen of Rot",
+            "effect": "you project a 5' aura that deals 1 glyphic psy dmg to foes",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Trauma Demon",
+            "effect": "-5 max HP; creatures dominated by you take 5 thorns dmg from you on hit",
+            "upgrade": "-4 and +5"
+          }
+        ]
+      },
+      {
+        "name": "The Queen of Rot's Reign",
+        "effect": "you project a 5' aura that deals 2 glyphic nec dmg to foes",
+        "upgrade": "foes in your auras have -1 dmg res",
+        "setBonuses": [
+          {
+            "ally": "Kreon",
+            "effect": "while bloodied, your auras deal +3 dmg",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Ekhan",
+            "effect": "you project a 5' aura that deals 1 glyphic light dmg to foes",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Godworms",
+            "effect": "you project a 5' aura that deals 1 glyphic psy dmg to foes",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Trauma Demon",
+            "effect": "-5 max HP; foes in your auras take 2 thorns dmg from you on hit",
+            "upgrade": "-4 and +2"
+          }
+        ]
+      },
+      {
+        "name": "Trauma Demon's Fragility",
+        "effect": "-7 max HP; +13 dmg thorns",
+        "upgrade": "+4 dmg thorns",
+        "setBonuses": [
+          {
+            "ally": "Kreon",
+            "effect": "while bloodied, -2 dmg res and +11 dmg thorns",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Ekhan",
+            "effect": "-5 max HP; +9 spell thorns",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Godworms",
+            "effect": "-5 max HP; creatures debuffed by you take 5 thorns dmg from you on hit",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "The Queen of Rot",
+            "effect": "-5 max HP; adj foes take 3 thorns dmg from you on hit",
+            "upgrade": "-4 and +2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Legendary Champions",
+    "amulets": [
+      {
+        "name": "Vidar, Shadow Spy's Facade",
+        "effect": "+3 decep while non-trivially pretending to be someone else",
+        "upgrade": "+2 decep",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "+2 to sleight of hand checks to secretly add one substance to another",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "1/LR, when you fail a decep check, you can react to make the target think it was just a mistake",
+            "upgrade": "SR --> min --> no cooldown --> no react"
+          },
+          {
+            "ally": "Morric",
+            "effect": "+2 decep vs targets who have taken a life",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Clover",
+            "effect": "+2 persuasion vs targets you have non-trivially lied to before",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Surge",
+            "effect": "+2 deception vs creatures of the gender you are sexually attracted to",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Petros",
+            "effect": "+2 performance while non-trivially pretending to be someone else",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Heath",
+            "effect": "+3 decep vs targets native to a different plane from you",
+            "upgrade": "+2"
+          }
+        ]
+      },
+      {
+        "name": "Vidar, Assassin's Cruelty",
+        "effect": "on crit, inflict target with 3 psn DoT, stacking until CON save",
+        "upgrade": "+2 DoT dmg",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+2 to sleight of hand checks to secretly add one substance to another",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "on crit, gain 5 temp HP",
+            "upgrade": "+4"
+          },
+          {
+            "ally": "Morric",
+            "effect": "while bloodied, +3 DoT dmg",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Clover",
+            "effect": "while healthy, +2 DoT dmg; while bloodied, +2 DoT dmg res",
+            "upgrade": "+2 and +2"
+          },
+          {
+            "ally": "Surge",
+            "effect": "as a reaction to a creature starting their turn adj to you, you can inflict them with 2 psn DoT, stacking until CON save",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Petros",
+            "effect": "whenever a creature DoT'd by you hits a creature other than you, your DoTs on them tick twice",
+            "upgrade": "+1 tick"
+          },
+          {
+            "ally": "Heath",
+            "effect": "on crit, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          }
+        ]
+      },
+      {
+        "name": "Arndell's Barrier",
+        "effect": "on non-dmging spellcast, gain 2 stacking temp HP",
+        "upgrade": "+2 incoming temp HP",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "1/LR, when you fail a decep check, you can react to make the target think it was just a mistake",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "on crit, gain 2 stacking temp HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Morric",
+            "effect": "while bloodied, +3 incoming temp HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Clover",
+            "effect": "while healthy, +1 buff effectiveness; while bloodied, +2 incoming temp HP",
+            "upgrade": "+1 and +2"
+          },
+          {
+            "ally": "Surge",
+            "effect": "as a reaction to a creature starting their turn adj to you, you can gain 2 stacking temp HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Petros",
+            "effect": "unintelligent creatures are much more likely to target you",
+            "upgrade": "+much more"
+          },
+          {
+            "ally": "Heath",
+            "effect": "when hit while you have temp HP, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          }
+        ]
+      },
+      {
+        "name": "Morric's Sacrifice",
+        "effect": "while bloodied, +3 global dmg",
+        "upgrade": "+5 max HP",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+2 decep vs targets who have taken a life",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "while bloodied, +1 crit range",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "while bloodied, +3 incoming temp HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Clover",
+            "effect": "while healthy, +1 dmg res; while bloodied, +1 global dmg",
+            "upgrade": "+1 and +1"
+          },
+          {
+            "ally": "Surge",
+            "effect": "as a reaction to a foe taking dmg while adj to you and you are bloodied, heal 3 HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Petros",
+            "effect": "while bloodied, foes within 60' of you have -1 global dmg vs non-you targets",
+            "upgrade": "2"
+          },
+          {
+            "ally": "Heath",
+            "effect": "on becoming bloodied, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          }
+        ]
+      },
+      {
+        "name": "Clover's Incubation",
+        "effect": "while healthy, +2 global dmg; while bloodied, +2 dmg res",
+        "upgrade": "+2 global dmg vs targets you are flanking",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+2 persuasion vs targets you have non-trivially lied to before",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "while healthy, +1 crit range; while bloodied, +5 crit dmg res",
+            "upgrade": "+1 and +4"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "while healthy, +1 buff effectiveness; while bloodied, +2 incoming temp HP",
+            "upgrade": "+1 and +2"
+          },
+          {
+            "ally": "Morric",
+            "effect": "while healthy, +1 dmg res; while bloodied, +1 global dmg",
+            "upgrade": "+1 and +1"
+          },
+          {
+            "ally": "Surge",
+            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +2 dmg res vs adj creatures",
+            "upgrade": "+2 and +2"
+          },
+          {
+            "ally": "Petros",
+            "effect": "while healthy, unintelligent creatures are much more likely to target you; while bloodied, unintelligent creatures are much less likely to target you",
+            "upgrade": "+much more and +much more"
+          },
+          {
+            "ally": "Heath",
+            "effect": "on init, generate a random 2pt wep enchant and a random 2pt armour enchant. while healthy, you gain the effects of the wep one, and the armour one while bloodied",
+            "upgrade": "+2 and +2"
+          }
+        ]
+      },
+      {
+        "name": "Surge's Infestation",
+        "effect": "+3 to dmg made as a reaction",
+        "upgrade": "+2 AoE dmg",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+2 deception vs creatures of the gender you are sexually attracted to",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "on dealing dmg as a reaction, target is inflicted with 2 psn DoT, stacking until CON save",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "on dealing dmg as a reaction, gain 3 temp HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Morric",
+            "effect": "on dealing dmg as a reaction, heal 2 HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Clover",
+            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +2 dmg res vs adj creatures",
+            "upgrade": "+2 and +2"
+          },
+          {
+            "ally": "Petros",
+            "effect": "on dealing dmg as a reaction, target has -3 global dmg vs non-you targets until end of their next turn",
+            "upgrade": "-2"
+          },
+          {
+            "ally": "Heath",
+            "effect": "on dealing dmg as a reaction, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          }
+        ]
+      },
+      {
+        "name": "Petros' Distraction",
+        "effect": "on hit, target has -3 global dmg vs non-you targets until end of their next turn",
+        "upgrade": "+2 dmg res vs creatures you are flanking",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+2 performance while non-trivially pretending to be someone else",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "whenever an adj foe hits a creature other than you, they are inflicted with 1 psn DoT, stacking until CON save",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "unintelligent creatures are much more likely to target you",
+            "upgrade": "+much more"
+          },
+          {
+            "ally": "Morric",
+            "effect": "while bloodied, foes within 60' of you have -1 global dmg vs non-you targets",
+            "upgrade": "-1"
+          },
+          {
+            "ally": "Clover",
+            "effect": "while healthy, unintelligent creatures are much more likely to target you; while bloodied, unintelligent creatures are much less likely to target you",
+            "upgrade": "+much more and +much more"
+          },
+          {
+            "ally": "Surge",
+            "effect": "adj foes have -1 global dmg vs non-you targets",
+            "upgrade": "-1"
+          },
+          {
+            "ally": "Heath",
+            "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          }
+        ]
+      },
+      {
+        "name": "Heath's Mutation",
+        "effect": "on init, gain a random 3pt wep enchant until end of combat",
+        "upgrade": "+2 glyphic dmg",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+3 persuasion vs targets native to a different plane from you",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "on crit, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "when hit while you have temp HP, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          },
+          {
+            "ally": "Morric",
+            "effect": "on becoming bloodied, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+          },
+          {
+            "ally": "Clover",
+            "effect": "on init, generate a random 2pt wep enchant and a random 2pt armour enchant. while healthy, you gain the effects of the wep one, and the armour one while bloodied, for that combat",
+            "upgrade": "+2 and +2"
+          },
+          {
+            "ally": "Surge",
+            "effect": "on init, generate a random 2pt arm enchant, negate it, and apply it to all adj foes for that combat",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Petros",
+            "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
           }
         ]
       }

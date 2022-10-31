@@ -8,7 +8,7 @@ import (
 
 var SUBSTITUTION_MAP = map[string][]string{
 	"$dmgType":         DAMAGE_TYPES,
-	"$abilityScore":    ABILITY_SCORES,
+	"$ability":         ABILITIES,
 	"$hitForm":         HIT_FORMS,
 	"$physType":        PHYS_TYPES,
 	"$willAbility":     WILL_ABILITIES,
@@ -32,7 +32,8 @@ var SUBSTITUTION_MAP = map[string][]string{
 	"$xiloan":          XILOANS,
 	"$gender":          GENDERS,
 	"$race":            RACES,
-	"$equipSlot":       EQUIP_SLOT,
+	"$equipSlot":       EQUIP_SLOTS,
+	"$journeyActivity": JOURNEY_ACTIVITIES,
 }
 
 func processMod(modString string) string {

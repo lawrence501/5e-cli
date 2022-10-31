@@ -138,7 +138,7 @@
             "variables": [
                 {
                     "mods": [
-                        "On casting a spell with instantaneous duration that deals dmg to an area, you can choose a number of creatures equal to your ability score mod in the area that you can see. Those creatures take no dmg from the spell."
+                        "On casting a spell with instantaneous duration that deals dmg to an area, you can choose a number of creatures equal to your ability mod in the area that you can see. Those creatures take no dmg from the spell."
                     ]
                 },
                 {
@@ -169,7 +169,7 @@
             "variables": [
                 {
                     "mods": [
-                        "A number of times equal to your ability score mod between long rests, when you spend exertion, you can reduce the cost by 1pt."
+                        "A number of times equal to your ability mod between long rests, when you spend exertion, you can reduce the cost by 1pt."
                     ]
                 },
                 {
@@ -225,11 +225,121 @@
                 },
                 {
                     "mods": [
-                        "As a bonus action, you can attempt to replace one of your prepared spells with another spell of the same or lower lvl from your spell list. This lasts until your next long rest. The new spell cannot be replaced again. To do so, declare which spell you're trying to replace and make a save with your ability score (DC 10 + the spell's level).",
+                        "As a bonus action, you can attempt to replace one of your prepared spells with another spell of the same or lower lvl from your spell list. This lasts until your next long rest. The new spell cannot be replaced again. To do so, declare which spell you're trying to replace and make a save with your ability (DC 10 + the spell's level).",
                         "If you fail the save, the spell you are attempting to replace is cast, expending no resources but targeting a creature or point within range of the DM's choice (possibly yourself). The spell is too wild to alter in any way (including from your equipment), and if it requires concentration it lasts its full duration with no concentration required instead. That spell is then unprepared until you finish a long rest."
                     ]
                 }
             ]
+        },
+        {
+            "name": "Divine Jacket",
+            "source": "sorcerer - divine soul",
+            "mods": [
+                "1/SR, if you fail a save or atk, you can roll 2d4 and add it to the result, potentially changing the outcome."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Pyromantic Jacket",
+            "source": "sorcerer - divine soul",
+            "mods": [
+                "On casting a lvl'd spell that can deal fire dmg, fiery magic erupts from you, causing all foes you can see within 10' of you to take 1 spell fire dmg."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Shadowed Cloak",
+            "source": "adept - shadow",
+            "mods": [
+                "As an action 1/SR, you can cast either Darkness, Darkvision, Pass Without Trace, or Silence.",
+                "You learn the Minor Illusion cantrip."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Sharp Wrap",
+            "source": "adept - kensei",
+            "mods": [
+                "Gain proficiency in all weps that don't have the Heavy trait.",
+                "Whenever you make an unarmed atk as part of the Attack action on your turn, you gain +2 AC until the start of your next turn.",
+                "As a bonus action, you can grant your ranged wep atks with proficient weps +1d4 base dmg with their hits until the end of the turn."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Chronicle journey activities."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain an expertise die in Busk journey activities."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Brawling Wrap",
+            "source": "adept - brawler (a5e)",
+            "mods": [
+                "You gain proficiency with improvised weapons."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "On hit with an improvised weapon, you can spend 1 exertion to deal 1d4 additional base dmg."
+                    ]
+                },
+                {
+                    "mods": [
+                        "On hit with an improvised weapon, you can spend 1 exertion to also use a basic maneuver against the target."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Exalted Regalia",
+            "source": "adept - exalted athlete (a5e)",
+            "mods": [
+                "+1d4 to physical ability checks.",
+                "Whenever you fail a physical save, you can react to spend 2 exertion to reroll it."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Open Garb",
+            "source": "adept - open hand",
+            "mods": [
+                "1/SR, on hit with an offhand weapon:"
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "The target must make a DEX save or fall prone."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The target must make a STR save or be pushed 15' away from you."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The target cannot take reactions until the end of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Astral Vestment",
+            "source": "adept - astral self",
+            "mods": [
+                "As a bonus action 1/SR, you can manifest astral energy around your arms. When you do so, all foes you can see within 10' of you must make a DEX save or take 2d4 force dmg. The energy remains for 10mins, or until you are knocked unconscious.",
+                "You gain the following benefits while the energy surrounds your arms:",
+                "- You can use your ability mod in place of your Strength mod for Strength checks and saves.",
+                "- Your unarmed atks gain the Reach trait and their base dmg is converted to force.",
+                "- You can use your ability for the atk and dmg rolls of your unarmed atks."
+            ],
+            "variables": []
         }
     ],
     "light": [
@@ -246,7 +356,7 @@
                 },
                 {
                     "mods": [
-                        "As a bonus action, you can communicate one of your features to a creature of your choice who can understand you within 10' of you. Before the end of your next turn, the first time that feature would be relevant for the target, it affects them as if it were their feature (still using your ability scores for any calculations). If the feature has a cooldown or resource cost, you expend it as usual even if only the target benefits from the feature."
+                        "As a bonus action, you can communicate one of your features to a creature of your choice who can understand you within 10' of you. Before the end of your next turn, the first time that feature would be relevant for the target, it affects them as if it were their feature (still using your abilities for any calculations). If the feature has a cooldown or resource cost, you expend it as usual even if only the target benefits from the feature."
                     ]
                 }
             ]
@@ -389,7 +499,7 @@
             "source": "warlock - raven queen",
             "mods": [
                 "You have a Raven spirit minion that you can command telepathically while within 100' of it.",
-                "While the Raven is perched on your shoulder, you gain 30' of darkvision and a bonus to your Perception equal to your ability score mod. It also cannot take dmg or be targeted by any effect other than your spells, and is incap.",
+                "While the Raven is perched on your shoulder, you gain 30' of darkvision and a bonus to your Perception equal to your ability mod. It also cannot take dmg or be targeted by any effect other than your spells, and is incap.",
                 "You can see and hear through the Raven while it is within 100' of you.",
                 "If the Raven is killed, you gain adv on all atk rolls against the killer until your next long rest.",
                 "The Raven can awaken you from sleep as a bonus action, and doesn't need its own sleep.",
@@ -424,6 +534,70 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Spiritual Garb",
+            "source": "bard - spirits",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You learn the Guidance cantrip, which gains a range of 60'."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action a number of times between long rests equal to half your ability mod while you are holding a conduit weapon, you can roll a d6 to hear a tale from the spirits around you. You then retain the tale in your memory until you complete a short or long rest, or you grant the tale's effects to a creature. You can only retain 1 tale at a time.",
+                        "As an action, you can grant a creature of your choice within 30' of you the effects of the tale in your mind.",
+                        "1. Tale of the Clever Animal: for the next 10mins, whenever the target makes a mental ability check, they can roll an additional d6 after rolling the d20 to add to the result.",
+                        "2. Tale of the Renowned Duelist: make a touch spell atk against the target, dealing force dmg equal to 2d6 + your ability mod.",
+                        "3. Tale of the Beloved Friends: The target and another creature of its choice it can see adj to it gains temp HP equal to 1d6 + your ability mod.",
+                        "4. Tale of the Runaway: The target can immediately react to teleport up to 30' to an empty space it can see. When it does so, it can choose a number of creatures it can see within 30' of it up to half your ability mod to immediately use the same reaction.",
+                        "5. Tale of the Avenger: For 1min, any creature that hits the target with a melee atk takes 1d6 force dmg.",
+                        "6. Tale of the Traveler: The target gains 1d6 + 3 temp HP. While it has this temp HP, its speed increases by 10' and it gains +1 AC."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Alien Garb",
+            "source": "warlock - alienist (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As a bonus action 1/SR, you can curse a creature you can see within 30' of you for 1min or until you go down.",
+                        "Whenever you deal dmg to the cursed target, it takes +1d4 psy dmg.",
+                        "You gain a pool of beyond points, which begins empty and is emptied when you complete a short or long rest. Whenever the cursed creature fails a save, gain 1 beyond point.",
+                        "Whenever you make a save, you can spend 1 beyond point to add 1d4 to the roll."
+                    ]
+                },
+                {
+                    "mods": [
+                        "+30' telepathy.",
+                        "1/SR, on casting a spell, you can do so psionically, removing the need for verbal and somatic components."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Diabolical Coat",
+            "source": "warlock - diabolist (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "On KB, or a creature under one of your spell effects is reduced to 0 HP, you gain temp HP equal to 3 + your ability mod."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action 1/SR, you can curse a creature you can see within 30' of you for 1min or until you go down.",
+                        "When the cursed creature dies, you heal HP equal to 3 + your ability mod.",
+                        "Whenever you deal dmg to the cursed target, it takes +1d4 $nonPhysType dmg."
+                    ]
+                }
+            ]
         }
     ],
     "medium": [
@@ -443,8 +617,8 @@
                         "As a bonus action, you can shapeshift into a celestial form for 10 minutes, or until you dismiss it early or are incapacitated. You can do this once between long rests. While in your celestial form, you shed bright light in a 20' radius and dim light for an additional 20'."
                     ],
                     "variables": [
-                        "While in your celestial form, a constellation of an archer appears above you. When you enter this form and as a bonus action on subsequent turns while it lasts, you can make a ranged spell attack using the archer's bow against a creature within 60' of you. On a hit, it deals radiant dmg equal to 1d8 + your ability score modifier.",
-                        "While in your celestial form, a constellation of a chalice appears above you. Whenever you cast a levelled spell that restores hit points to a creature while in this form, you or another creature within 30' of you can regain hit points equal to 1d8 + your ability score modifier.",
+                        "While in your celestial form, a constellation of an archer appears above you. When you enter this form and as a bonus action on subsequent turns while it lasts, you can make a ranged spell attack using the archer's bow against a creature within 60' of you. On a hit, it deals radiant dmg equal to 1d8 + your ability modifier.",
+                        "While in your celestial form, a constellation of a chalice appears above you. Whenever you cast a levelled spell that restores hit points to a creature while in this form, you or another creature within 30' of you can regain hit points equal to 1d8 + your ability modifier.",
                         "While in your celestial form, a constellation of a dragon appears above you. While in this form, whenever you make an INT or WIS check, or a CON save to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10."
                     ]
                 }
@@ -474,7 +648,7 @@
             "mods": [
                 "This hauberk has 3 charges, all of which are recovered whenever you finish a long rest.",
                 "Whenever you roll for initiative, you can choose to expend one of the hauberk's charges to have spikes portrude from it for 1 minute.",
-                "While the spikes are active, you can use a bonus action to make a melee weapon attack with the hauberk against a target within 5' of you. If it hits, it deals piercing dmg equal to 1d4 + your ability score modifier.",
+                "While the spikes are active, you can use a bonus action to make a melee weapon attack with the hauberk against a target within 5' of you. If it hits, it deals piercing dmg equal to 1d4 + your ability modifier.",
                 "Whenever you successfully use the Grapple maneuver while the spikes are active, it deals 3 additional piercing damage."
             ],
             "variables": []
@@ -571,7 +745,7 @@
                     "mods": [
                         "With 8hrs of uninterrupted work, you can craft a custom vehicle. You can only have 1 at once (on creating a new one, the previous one crumbles from disrepair).",
                         "During any LR, you can restore your custom vehicle to full HP and remove any malfunctions.",
-                        "The vehicle is your choice of Medium or Large, has AC equal to 10 + your ability score mod, 25 HP, and a speed of 30'. It can only carry 1 crew and has the Personal trait."
+                        "The vehicle is your choice of Medium or Large, has AC equal to 10 + your ability mod, 25 HP, and a speed of 30'. It can only carry 1 crew and has the Personal trait."
                     ],
                     "variables": [
                         "The vehicle's AC increases by 2.",
@@ -607,7 +781,7 @@
                     ],
                     "variables": [
                         "The minion does not make death saves, and instead explodes and is destroyed upon going down. Creatures within 10' of the minion must make a DEX save or take 2d6 psn dmg, or half as much on a success.",
-                        "The minion requires an additional similar humanoid corpse to be created, and it has 2 additional arms, granting it a climb sp of 20'. Additionally, its maneuver DC for escaping its grapples increases by your ability score mod.",
+                        "The minion requires an additional similar humanoid corpse to be created, and it has 2 additional arms, granting it a climb sp of 20'. Additionally, its maneuver DC for escaping its grapples increases by your ability mod.",
                         "The minion requires an additional similar humanoid corpse to be created, and it has 2 additional legs, granting it +15' of speed.",
                         "Make a sleight of hand check upon creating the minion. Creatures must make a Perception check of DC equal to your result to visually determine that the minion is a monstrosity and not a regular person.",
                         "On LR end, you can expend a spell slot to give the minion the ability to cast one of your spells with your commanding bonus action. It can only do so once.",
@@ -643,9 +817,9 @@
                         "Whenever you take the Attack action on your turn, your speed increases by 10' until the end of the turn."
                     ],
                     "variables": [
-                        "A number of times equal to half your ability score mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to both the hit's dmg and your AC until your next turn.",
-                        "A number of times equal to half your ability score mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to the hit's dmg, then you may also push the target up to 5' away from you, plus a number of feet equal to the d6's result. You may then immediately use your reaction to move up to your speed to an empty space adj to the target.",
-                        "A number of times equal to half your ability score mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to the hit's dmg, then you may also deal that much dmg to another creature of your choice adj to you that you can see."
+                        "A number of times equal to half your ability mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to both the hit's dmg and your AC until your next turn.",
+                        "A number of times equal to half your ability mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to the hit's dmg, then you may also push the target up to 5' away from you, plus a number of feet equal to the d6's result. You may then immediately use your reaction to move up to your speed to an empty space adj to the target.",
+                        "A number of times equal to half your ability mod between long rests, on hit with an atk from your Attack action, you may roll a d6 and add its result to the hit's dmg, then you may also deal that much dmg to another creature of your choice adj to you that you can see."
                     ]
                 }
             ]
@@ -757,7 +931,7 @@
         },
         {
             "name": "Fungal Chainmail",
-            "source": "druid - dreams",
+            "source": "druid - spores",
             "mods": [],
             "variables": [
                 {
@@ -779,7 +953,7 @@
             "variables": [
                 {
                     "mods": [
-                        "You gain initiative equal to your ability score mod.",
+                        "You gain initiative equal to your ability mod.",
                         "During your first turn of a combat, you have +10' speed.",
                         "If you take the Attack action during your first turn of a combat, you can make an additional wep atk as part of the action, which deals 1d8 additional base dmg."
                     ]
@@ -813,6 +987,79 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Bestial Doublet",
+            "source": "ranger - beastmaster (a5e)",
+            "mods": [
+                "After someone in your party scores a sub success on the Befriend Creature journey activity, you gain a random beast minion of CR 1/4. It acts of its own volition, but is an ally to you and your party.",
+                "On init, the beast gains 6 temp HP. Additionally, its AC is increased by 2.",
+                "As a bonus action on your turn, you can order the beast to take a specific action on its turn. If the action involves any attacks, they add 2 to their atk and dmg rolls."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Guarding Ringmail",
+            "source": "druid - guardian (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You learn the Druidcraft cantrip, and whenever you cast it you can choose any of the following additional effects:",
+                        "- You can magically convey a simple concept to a beast or plant.",
+                        "- You can alter the weather within a 10' range of yourself by 1 step as per the Control Weather spell.",
+                        "- You can make a Medicine check to stabilise a dying creature."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain an expertise die in Persuasion.",
+                        "You may always use your ability when making Persuasion checks."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain an expertise die in Harvest journey activity checks and ignore any penalties from weather on them.",
+                        "1/turn, you can drink a potion as a free action. Alternatively, you can administer a potion to another creature as a bonus action."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shifting Vest",
+            "source": "druid - skinchanger (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Whenever you shapeshift into a creature with its own HP pool, you double its HP.",
+                        "Add your ability mod to your AC while shapeshifted."
+                    ]
+                },
+                {
+                    "mods": [
+                        "When you shapeshift based on CR, you can shapeshift into a creature 1 CR higher than usual."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Terran Doublet",
+            "source": "druid - land",
+            "mods": [
+                "1/LR, at the end of a short rest, you can recover 2 spell slot lvls."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Twilit Chainmail",
+            "source": "druid - twilight",
+            "mods": [
+                "You have a pool of 3 energy points, all of which are recovered at the end of a long rest.",
+                "Whenever you roll damage for a spell, you can expend an energy point to add 1d10 nec dmg to the spell.",
+                "If a spell augmented in this way kills any number of creatures, you or an ally you can see within 30' of you heals 2 HP, or 5 HP if any of the killed creatures were undead."
+            ],
+            "variables": []
         }
     ],
     "heavy": [
@@ -845,7 +1092,7 @@
                 },
                 {
                     "mods": [
-                        "Once per short or long rest, as a bonus action, you can bolster bloodied creatures of your choice that can hear you within 30' of you, healing them for 1d6 + your ability score modifier."
+                        "Once per short or long rest, as a bonus action, you can bolster bloodied creatures of your choice that can hear you within 30' of you, healing them for 1d6 + your ability modifier."
                     ]
                 }
             ]
@@ -882,7 +1129,7 @@
             "name": "Lionhearted Plate",
             "source": "marshal - lionheart",
             "mods": [
-                "Once per round when you hit with a melee atk, you can inspire a number of creatures of your choice equal to half your ability score mod within 10' of you. The inspired creatures gain an expertise die on their first atk before your next turn."
+                "Once per round when you hit with a melee atk, you can inspire a number of creatures of your choice equal to half your ability mod within 10' of you. The inspired creatures gain an expertise die on their first atk before your next turn."
             ],
             "variables": []
         },
@@ -913,7 +1160,7 @@
                     "mods": [
                         "On melee wep hit, you may mark the target until the end of your next turn, or until you are knocked uncon.",
                         "While a creature marked in this way is adj to you, it has disadv on atks against creatures other than you.",
-                        "If a creature marked in this way deals dmg to anyone other than you, you can make a melee wep atk against the marked creature as a bonus action on your next turn. You have adv on this atk and if it hits, it deals 1 additional base dmg. This special atk can only be made a number of times equal to your ability score mod between long rests."
+                        "If a creature marked in this way deals dmg to anyone other than you, you can make a melee wep atk against the marked creature as a bonus action on your next turn. You have adv on this atk and if it hits, it deals 1 additional base dmg. This special atk can only be made a number of times equal to your ability mod between long rests."
                     ]
                 }
             ]
@@ -936,7 +1183,7 @@
                 {
                     "mods": [
                         "Once per short or long rest, as an action, you can touch a plant to be recognised by nature as one of its protectors for 1hr. During this time, you have adv on Persuasion checks made to influence druids and beasts.",
-                        "Alternatively, you can end this effect early to gain adv on any Survival check for a journey activity."
+                        "Alternatively, you can end this effect early to gain adv on a Seek Shelter journey activity."
                     ],
                     "variables": []
                 },
@@ -973,7 +1220,7 @@
                 },
                 {
                     "mods": [
-                        "Once per short or long rest, as a bonus action, you can send out a flood of positive energy to heal friendly creatures (including yourself) within 30' of you, causing them to regain hit points equal to 2 + your ability score mod."
+                        "Once per short or long rest, as a bonus action, you can send out a flood of positive energy to heal friendly creatures (including yourself) within 30' of you, causing them to regain hit points equal to 2 + your ability mod."
                     ],
                     "variables": []
                 }
@@ -986,6 +1233,25 @@
                 "On melee wep hit, you may expend up to 2 exertion to deal 1d8 additional B dmg per point spent."
             ],
             "variables": []
+        },
+        {
+            "name": "Warding Plate",
+            "source": "ranger - warden (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [],
+                    "variables": [
+                        "You gain an expertise die in Animal Handling.",
+                        "You gain an expertise die in History."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Your mount can understand common and can act as a CR 1/8 beast minion outside of combat."
+                    ]
+                }
+            ]
         }
     ]
 }

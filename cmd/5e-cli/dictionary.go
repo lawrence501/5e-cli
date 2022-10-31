@@ -36,7 +36,7 @@ var NON_PHYS_TYPES []string = []string{
 var DAMAGE_TYPES []string = append(PHYS_TYPES, NON_PHYS_TYPES...)
 
 var GEM_TAGS []string = []string{
-	"ability score",
+	"ability",
 	"temp hp",
 	"type res",
 	"speed",
@@ -67,7 +67,7 @@ var GEM_TAGS []string = []string{
 	"ac",
 }
 
-var ABILITY_SCORES []string = []string{
+var ABILITIES []string = []string{
 	"strength",
 	"dexterity",
 	"constitution",
@@ -355,11 +355,26 @@ var TAROT_CARDS []string = []string{
 	"pentacles",
 }
 
-var EQUIP_SLOT []string = []string{
+var EQUIP_SLOTS []string = []string{
 	"onhand",
 	"offhand",
 	"helmet",
 	"gloves",
 	"pants",
 	"boots",
+}
+
+var JOURNEY_ACTIVITIES []string = []string{
+	"befriend",
+	"busk",
+	"chronicle",
+	"entertain",
+	"march",
+	"gather",
+	"gossip",
+	"harvest",
+	"pray",
+	"rob",
+	"scout",
+	"shelter",
 }

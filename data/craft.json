@@ -804,7 +804,7 @@
         "tags": ["defence"]
     },
     {
-        "description": "+1 to $abilityScore saves",
+        "description": "+1 to $ability saves",
         "pointValue": "1-3",
         "upgrade": "+1/1-3",
         "tags": ["defence"]

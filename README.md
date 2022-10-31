@@ -165,7 +165,7 @@ While riding your mount, your AC increases by 1.
 - Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
 
 - Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice). new tags:
-    - choice of ability score; temp hp; choice of type res; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys res; non-phys res; dot; debuff; buff; crit; minion def; aoe; melee; proj; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
+    - choice of ability; temp hp; choice of type res; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys res; non-phys res; dot; debuff; buff; crit; minion def; aoe; melee; proj; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
 
 - Remove amulets
 
@@ -180,7 +180,7 @@ While riding your mount, your AC increases by 1.
 - Change myth cards into amulets, with set bonuses on combining the same set
 
 - Future loot options suggestion (d100 roll)
-1. Wondrous Items
+1. Wondrous Items (low)
 2. Tomes
 3. Rings
 4. Reroll w/ upgrade (put at bottom)
@@ -192,5 +192,7 @@ While riding your mount, your AC increases by 1.
 10. Relics
 11. Body Armours
 12. Tarots
+13. Something (TODO)
+14. Something (TODO)
 
-8% each, except 4 is 12% (ideally would love 2 more options to drop 4 a bit)
+7% each, except 4 is 9%

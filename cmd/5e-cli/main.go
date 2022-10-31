@@ -18,7 +18,7 @@ var ROLL_RANGE_CEILINGS = map[int]func() error{
 	32:  amulet,
 	40:  ring,
 	48:  shrine,
-	60:  func() error { log.Println("Reroll twice and upgrade results with +1 colour!"); return nil },
+	60:  func() error { log.Println("Reroll and upgrade results with +1 colour!"); return nil },
 	68:  body,
 	76:  tome,
 	84:  relic,
@@ -37,7 +37,7 @@ var COMMAND_MAP = map[string]func() error{
 	"skill":         skill,
 	"dmg type":      dmgType,
 	"creature type": creatureType,
-	"ability score": abilityScore,
+	"ability":       ability,
 	"loot":          loot,
 	"harvest":       harvest,
 	"condi":         condition,
@@ -59,6 +59,9 @@ var COMMAND_MAP = map[string]func() error{
 	"craft":         craft,
 	"target craft":  targetCraft,
 	"dmg upgrade":   dmgUpgrade,
+	"activity":      activity,
+	"amulet":        amulet,
+	"relic new":     relic,
 }
 
 func main() {
