@@ -197,6 +197,17 @@ var amulet = func() error {
 	return nil
 }
 
+var belt = func() error {
+	belts, err := fetchGenerics("belt")
+	if err != nil {
+		return err
+	}
+
+	belt := belts[rand.Intn(len(belts))]
+	log.Printf("Utility Belt\n%s: %s", belt.Name, belt.Description)
+	return nil
+}
+
 var positiveReward = func() error {
 	positiveRewards, err := fetchSimpleGenerics("positiveReward")
 	if err != nil {

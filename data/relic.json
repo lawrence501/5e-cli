@@ -463,9 +463,9 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "3. on undead minion hit, 20% chance for you to heal 2 HP",
+                    "description": "3. on undead minion hit, you heal 1 HP",
                     "pointValue": "1",
-                    "upgrade": "+10%/1 OR +1 HP/1"
+                    "upgrade": "+1 HP/1"
                 },
                 {
                     "description": "4. +1d4 S dmg to your minion melee hits",
@@ -1727,6 +1727,78 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Screaming Serpent",
+            "startingMods": [
+                {
+                    "description": "on wep hit, inflict target with 1 psn DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+1 to your ongoing debuff saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+2 wep dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on KB, javelins shoot out of your body, making glyphic atks against all adj foes dealing 1d4 P dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. ignore psn res",
+                    "pointValue": "3",
+                    "upgrade": "+1 psn dmg/1"
+                },
+                {
+                    "description": "3. +1 psn abs",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. this item's prof req is 1 tier higher; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 4pts distributed/1"
+                },
+                {
+                    "description": "5. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. +1 psn dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +5' shove distance",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "8. +2 psn res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. on KB, heal 2 HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 CON",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ],
     "armour": [
@@ -2357,9 +2429,9 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "7. on block, 20% chance to generate 5 temp HP",
+                    "description": "7. on block, generate 3 temp HP",
                     "pointValue": "1",
-                    "upgrade": "+10%/1 OR +5 HP/1"
+                    "upgrade": "+2 HP/1"
                 },
                 {
                     "description": "8. +5' fly sp",
@@ -2372,9 +2444,9 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "10. on block, 20% chance for offender to take 4 thorns dmg",
+                    "description": "10. +2 block thorns",
                     "pointValue": "1",
-                    "upgrade": "+10%/1 OR +4 dmg/1"
+                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -2533,7 +2605,7 @@
                 {
                     "description": "on melee hit, your next 1st-degree maneuver costs -1 exertion",
                     "pointValue": "3",
-                    "upgrade": "+1 degree/3"
+                    "upgrade": "+1 degree/3 OR -1 exertion/3"
                 },
                 {
                     "description": "+1 melee AB",
@@ -3165,6 +3237,366 @@
                 },
                 {
                     "description": "10. +1 dmg res in Zone 1",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "The Beaver",
+            "startingMods": [
+                {
+                    "description": "you ignore the effects of buffs on foes",
+                    "pointValue": "5",
+                    "upgrade": "+1 dmg res vs buffed creatures/2"
+                },
+                {
+                    "description": "buffs on you have +2 effectiveness",
+                    "pointValue": "6",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "you ignore the effects of debuffs on foes",
+                    "pointValue": "-5",
+                    "upgrade": "-1 global dmg vs debuffed creatures and 2pts distributed/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. debuffs on you have +1 effectiveness; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 4pts distributed/1"
+                },
+                {
+                    "description": "2. on turn end, -1 global dmg for combat; 5pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 5pts distributed/1"
+                },
+                {
+                    "description": "3. on turn end, +1 dmg res for combat",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 survival for harvesting monster parts",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. if you haven't scored a KB since start of your last turn, +1 spell AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. +2 dmg res vs beasts",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 AC vs beasts",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "8. on block vs debuffed creature, +2 effectiveness of buffs on you until end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 dmg res vs buffed creatures",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "10. +1 buff effectiveness",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ]
+        },
+        {
+            "name": "Sun's Radiance",
+            "startingMods": [
+                {
+                    "description": "+2 init",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "1/turn, when an ally moves thru your space(s), it costs 0 movement and they gain +5' movement for that turn",
+                    "pointValue": "2",
+                    "upgrade": "+5' movement/1"
+                },
+                {
+                    "description": "on init while healthy, all foes in 60' get -2 init",
+                    "pointValue": "2",
+                    "upgrade": "-1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. while healthy, +2 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. while healthy, +2 init",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. while healthy, +2 wep dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. while healthy, +2 spell dmg res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. your min bonus wep dmg is 0",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. your min bonus init is 0",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. your min bonus wep dmg res is 0",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. your min bonus spell dmg res is 0",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. 1/combat, wep hit deals +4 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "10. on wep hit, lose 1 HP; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 3pts distributed/1"
+                }
+            ]
+        },
+        {
+            "name": "Perseverance",
+            "startingMods": [
+                {
+                    "description": "+3 cold res",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on inflicting debuff, +2 dmg res until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "while buffed, +1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +3 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "2. +3 wep dmg per the lowest of half your bonus S res and your bonus to DEX saves",
+                    "pointValue": "2",
+                    "upgrade": "+2->1 S res/1 OR +1 to DEX saves/3"
+                },
+                {
+                    "description": "3. while buffed, +5' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "4. +1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. +1 crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. on block, heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "8. +1 cold abs",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. your S DoTs ignore res",
+                    "pointValue": "3",
+                    "upgrade": "+1 S DoT dmg/1"
+                },
+                {
+                    "description": "10. +1 proj AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Bountiful Hunter",
+            "startingMods": [
+                {
+                    "description": "+1 hit dmg while buffed",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "while your minions are buffed, they have +3 hit dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "1/combat, when your minion uses a power, all of their allies adj to them heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 to conc saves",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. your minions have +1 to their conc saves",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. buffs applied by your minions have double duration",
+                    "pointValue": "2",
+                    "upgrade": "+1 multi/2"
+                },
+                {
+                    "description": "4. +1 minion passive regen",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. +5' minion AoE sizes",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. whenever your minions buff another creature, they also grant them +1 global dmg until end of the minion's next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. 1/combat, when dmg'd, all adj foes get -2 global dmg until end of their next turn",
+                    "pointValue": "1",
+                    "upgrade": "-1/1"
+                },
+                {
+                    "description": "8. 1/combat, when dmg'd, gain +3 dmg res until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "9. 1/combat, when hit while bloodied, heal 4 HP",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "10. 1/combat, when hit while bloodied, +4 hit dmg until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                }
+            ]
+        },
+        {
+            "name": "Steel Shadow",
+            "startingMods": [
+                {
+                    "description": "on your first hit each combat, gain 10 temp HP that only applies to either weps or spells, based on the target's primary capabilities",
+                    "pointValue": "2",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "+3 to incoming temp HP that only applies to either weps or spells, based on which of your dmg resistances is higher",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 wep dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. your first wep atk each turn has +1 AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. your first ranged wep atk each turn has double range",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "3. your first wep hit each turn deals +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. your first wep hit each turn grants you +5' sp until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "5. your second wep atk each turn has +1 AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. your second ranged wep atk each turn has double range",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "7. your second wep hit each turn deals +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. your second wep hit each turn grants you +5' sp until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "9. your second wep hit each turn deals true dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 true dmg/1"
+                },
+                {
+                    "description": "10. +2 cone AoE dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 }

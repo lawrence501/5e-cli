@@ -434,6 +434,25 @@ func fetchGenerics(fileName string) ([]Generic, error) {
 	return generics, nil
 }
 
+func fetchChaos() (Chaos, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return Chaos{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "chaos.json"))
+	if err != nil {
+		return Chaos{}, err
+	}
+
+	chaos := Chaos{}
+	err = json.Unmarshal([]byte(f), &chaos)
+	if err != nil {
+		return Chaos{}, err
+	}
+	return chaos, nil
+}
+
 func fetchMutations() ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {

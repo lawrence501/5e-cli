@@ -128,6 +128,13 @@
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Entangle, Faerie Fire, Shillelagh, and Speak with Animals. Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
             ]
+        },
+        {
+            "name": "Wolf's Bite",
+            "effects": [
+                "You have +1 to ability checks and saves.",
+                "[CURSE] You have werewolf lycanthropy."
+            ]
         }
     ],
     "rare": [
@@ -278,6 +285,29 @@
                 "The ring has 3 charges, 1d3 of which are recovered at the end of a long rest.",
                 "On pushing a creature within your reach away from you, you can expend 1 charge to push them an additional 10', also knock them prone, or both."
             ]
+        },
+        {
+            "name": "Flame Tongue",
+            "effects": [
+                "As a bonus action, you can say 'flamma' to cause harmless flames to erupt from the ring. The flames last until you say the word again as another bonus action.",
+                "The flames shed bright light for 40' and dim for another 40'.",
+                "While the ring is ablaze, your melee wep hits deal +2d6 fire dmg."
+            ]
+        },
+        {
+            "name": "Canaith Tongue",
+            "effects": [
+                "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Cure Wounds (3rd lvl), Dispel Magic, and Protection from Energy (light only). Each spell can only be cast 1/LR in this way.",
+                "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
+            ]
+        },
+        {
+            "name": "Ring of the Gods",
+            "effects": [
+                "You know whether there is a celestial or fiend within 30' of you, as well as its exact location, provided it isn't behind total cover.",
+                "At the end of each LR, you can pray to a Xiloan to receive and store in the ring their signature spell for that day: The Cloud (Ice Knife), Aroshi (Chaos Bolt), P'all (Find Familiar), Mensis (Searing Equation), Gawdian (Divine Favor).",
+                "The ring has 3 charges, 1d3 of which are recovered after a long rest. You can expend 1 charge to cast the spell stored in the ring."
+            ]
         }
     ],
     "very rare": [
@@ -383,6 +413,21 @@
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Control Weather, Cure Wounds (upcast to 5th lvl), and Wall of Thorns. Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
             ]
+        },
+        {
+            "name": "Copper Dragon Ring",
+            "effects": [
+                "+1 AC.",
+                "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
+                "You have 50% resistance to acid dmg.",
+                "1/LR, as an action, you can magically discern the distance and direction of the nearest copper dragon within 30 miles of you."
+            ]
+        },
+        {
+            "name": "Strength",
+            "effects": [
+                "+2 STR."
+            ]
         }
     ],
     "legendary": [
@@ -397,7 +442,7 @@
             "name": "Ring of Invulnerability",
             "effects": [
                 "You have resistance to non-magical dmg.",
-                "Once per long rest, you can use an action to make yourself immunte to non-magical dmg for 10mins."
+                "Once per long rest, you can use an action to make yourself immune to non-magical dmg for 10mins."
             ]
         },
         {
@@ -598,6 +643,17 @@
                 "[CURSE] If a creature shapeshifted into the Mighty Servant loses half the form's HP, each creature attuned to the sign must make a DC 20 WIS save or be charmed for 24hrs. When charmed in this way, a creature goes on a destructive spree, seeking to destroy structures and atk any unattuned creatures within sight, starting with those threatening the Mighty Servant form.",
                 "There is a hidden self-destruction code for the sign (DM knows). If 2 creatures attuned to it spend their actions for 3 consecutive turns thinking about the code while touching the ring, it explodes. All creatures within 100' of the ring must make a DC 25 DEX save. On a fail, a creature takes 25d6 force, 25d6 light, and 25d6 thunder dmg, or half as much on a succ. This deals triple dmg to objs and structs. The attuned creatures are both killed instantly and their corpses evaporate.",
                 "[CURSE] If the above self-destruction process begins, the charm effect from above is triggered, but only turning the attuned creatures against each other."
+            ]
+        },
+        {
+            "name": "Sign of Broken Mirrors",
+            "effects": [
+                "The sign is a sentient chaotic evil ring with 21 INT, 24 WIS, and 24 CHA. It has hearing and darkvision out to 120'. It comms telepathically with its wearer, and can speak/read/understand Abyssal and Common.",
+                "An insane Glabrezu demon named Ragazuu lives within the sign. The ring years to cause chaos. It learns its wearer's principles, then uses those ideals to encourage reckless action. It whispers ideas of revolution.",
+                "You gain prof in Abyssal.",
+                "On wep KB vs humanoid, Ragazuu remembers the target's appearance until the sign is attuned to a new creature.",
+                "As an action, you can change your form to match any humanoid Ragazuu remembers. You can revert as an action, and you do so when you die.",
+                "L11+: As an action, you can cast one of the following spells (DC 15, 1/LR each): Fabricate, Hallucinatory Terrain, Majro Image, or Phantasmal Killer."
             ]
         }
     ]

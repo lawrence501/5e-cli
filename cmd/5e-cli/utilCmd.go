@@ -309,6 +309,18 @@ var dmgUpgrade = func() error {
 	return nil
 }
 
+var chaos = func() error {
+	chaos, err := fetchChaos()
+	if err != nil {
+		return err
+	}
+
+	chaosTrigger := chaos.Trigger[rand.Intn(len(chaos.Trigger))]
+	chaosTarget := chaos.Target[rand.Intn(len(chaos.Target))]
+	log.Printf("Chaotic modifier: %s, cast [https://5e.tools/spells.html#blankhash,flstsubschool:maneuver=2] on %s", chaosTrigger, chaosTarget)
+	return nil
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil

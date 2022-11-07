@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Emergency Feed-Pouch",
+        "description": "On a Befriend Creature crit fail, the additional beast creature has -2 to its AC and saving throws."
+    },
+    {
+        "name": "Backup Feed-Pouch",
+        "description": "On a Befriend Creature sub fail, all foes in the triggered encounter has -1 to their AC and saving throws."
+    },
+    {
+        "name": "Feed-Pouch",
+        "description": "On a Befriend Creature succ, the temporary hit points increase by 1."
+    },
+    {
+        "name": "Superior Feed-Pouch",
+        "description": "On a Befriend Creature sub succ, the minion is 1 CR higher. Additionally, when upgraded, the minion gains 1 additional AC and AB."
+    },
+    {
+        "name": "Legendary Feed-Pouch",
+        "description": "On a Befriend Creature crit succ, you can roll twice on the Boon table and choose which result to take."
+    },
+    {
+        "name": "Emergency Music Box",
+        "description": "On a Busk crit fail, the amount of gold lost is reduced by 3."
+    },
+    {
+        "name": "Backup Music Box",
+        "description": "On a Busk sub fail, the amount of gold lost is reduced by 1."
+    },
+    {
+        "name": "Music Box",
+        "description": "On a Busk succ, 1 additional gold is gained."
+    },
+    {
+        "name": "Superior Music Box",
+        "description": "On a Busk sub succ, 3 additional gold is gained."
+    },
+    {
+        "name": "Legendary Music Box",
+        "description": "On a Busk crit succ, you can roll twice for the loot roll and choose which result to take."
+    }
+]

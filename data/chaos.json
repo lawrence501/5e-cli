@@ -80,7 +80,7 @@
         "On block vs creature $sizeDifference than you",
         "On short rest end",
         "On long rest end",
-        "On disengage",
+        "On leaving a foe's reach",
         "On using a bonus action",
         "On using a standard action",
         "On using an upgraded power",
@@ -191,10 +191,28 @@
         "On leaving a dungeon",
         "On entering a dungeon room",
         "On death",
-        "At a random IRL time (rolled by DM on session start) during the session",
-        "On power use"
+        "At a random IRL time (secretly rolled by DM on session start) during the session",
+        "On power use",
+        "On level up"
     ],
     "target": [
-        "yourself"
+        "yourself",
+        "all creatures within 60' of you",
+        "all other creatures within 60' of you, except you",
+        "all foes within 60' of you",
+        "all allies within 60' of you",
+        "all adj creatures",
+        "all adj creatures, except you",
+        "all adj foes",
+        "all adj allies",
+        "the creature closest to you (break ties randomly)",
+        "the ally closest to you (break ties randomly)",
+        "the foe closest to you (break ties randomly)",
+        "the creature furthest from you (break ties randomly)",
+        "the ally furthest from you (break ties randomly)",
+        "the foe furthest from you (break ties randomly)",
+        "the target/triggering entity (preferring other creatures)",
+        "$partyMember",
+        "the contents of a random space in the current area/room"
     ]
 }

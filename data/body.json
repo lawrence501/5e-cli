@@ -340,6 +340,23 @@
                 "- You can use your ability for the atk and dmg rolls of your unarmed atks."
             ],
             "variables": []
+        },
+        {
+            "name": "Solar Robes",
+            "source": "adept - sun soul",
+            "mods": [
+                "In place of any number of your Attack action atks, you can make a ranged spell atk with 30' range, adding your ability mod to its atk and dmg rolls. It deals 1d4 rad dmg.",
+                "As a bonus action 1/SR, after using this atk as part of your Attack action, you can use the atk again."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Long Robes",
+            "source": "adept - long death",
+            "mods": [
+                "On KB vs adj creature, gain temp HP equal to 3 + your ability mod."
+            ],
+            "variables": []
         }
     ],
     "light": [
@@ -992,7 +1009,7 @@
             "name": "Bestial Doublet",
             "source": "ranger - beastmaster (a5e)",
             "mods": [
-                "After someone in your party scores a sub success on the Befriend Creature journey activity, you gain a random beast minion of CR 1/4. It acts of its own volition, but is an ally to you and your party.",
+                "After someone in your party scores a sub success on the Befriend Creature journey activity, you gain a random beast minion of CR 1/4. It acts of its own volition, but is an ally to you and your party. You can only have 1 at a time.",
                 "On init, the beast gains 6 temp HP. Additionally, its AC is increased by 2.",
                 "As a bonus action on your turn, you can order the beast to take a specific action on its turn. If the action involves any attacks, they add 2 to their atk and dmg rolls."
             ],
@@ -1060,6 +1077,74 @@
                 "If a spell augmented in this way kills any number of creatures, you or an ally you can see within 30' of you heals 2 HP, or 5 HP if any of the killed creatures were undead."
             ],
             "variables": []
+        },
+        {
+            "name": "Raging Vest",
+            "source": "berserker - rager (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "1/SR, on going down, you can immediately make a death save. On a succ, you instead gain a number of hit points equal to your CON mod and do not go down."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The vest has 3 charges, all of which are recovered after a long rest.",
+                        "On init, you can expend 1 charge to gain an expertise die on your first atk each round. This lasts for 1 min or until you go down."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Healing Doublet",
+            "source": "cleric - healer (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You may add your ability mod to the healing of your lvl'd spells."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You learn the Spare the Dying cantrip."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Prophetic Vest",
+            "source": "cleric - oracle (a5e)",
+            "mods": [
+                "As an action 1/LR, you can touch a willing creature to grant them a premonition they will remember for 1hr.",
+                "A creature with a premonition can expend it to reroll a d20."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Explosive Hauberk",
+            "source": "artificer - bombardier (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As a bonus action, you can form an alchemical grenade in your onhand. These grenades inherit the affixes of your onhand weapon. A grenade will explode when it either hits a target or at the end of your next turn.",
+                        "Alchemical grenades used your ability for attack and damage rolls, and are ranged weapons with the Thrown (20'/60') trait which deal 1d6 force dmg. When a grenade explodes, all creatures adj to the grenade make a DEX save or take half as much dmg as the grenade's attack hit deals. A creature can only take dmg once from a single grenade. If you miss an atk with a grenade, it explodes in a harmless location."
+                    ],
+                    "variables": [
+                        "If you hit a creature with a grenade atk, they are inflcited with 1d4 acid DoT that doesn't stack and lasts until either the target is submerged in water or uses an action to wipe the acid off.",
+                        "1/LR, on hit with a grenade atk, the target takes 1d12 additional force dmg and makes an INT save or is rattled until the end of its next turn.",
+                        "If you hit a creature with a grenade atk, they take 1d6 additional fire dmg.",
+                        "If you hit a creature with a grenade atk, they make a CON save or are blinded until the end of their next turn."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain an expertise die in Seek Shelter journey activities by using explosives to help create cavernous havens."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -1249,6 +1334,24 @@
                 {
                     "mods": [
                         "Your mount can understand common and can act as a CR 1/8 beast minion outside of combat."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dreaded Plate",
+            "source": "berserker - dreadnought (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "On hit after a 20' charge, you can force the target to make a STR save or fall prone."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain adv on checks made to avoid being knocked prone.",
+                        "Whenever a creature you can see atks a non-you creature adj to you, you can react to impose disadv on the atk roll"
                     ]
                 }
             ]

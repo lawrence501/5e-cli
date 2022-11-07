@@ -12,18 +12,20 @@ import (
 )
 
 var ROLL_RANGE_CEILINGS = map[int]func() error{
-	8:   wondrous,
-	16:  func() error { log.Println("Tarot card"); return nil },
-	24:  func() error { log.Printf("\nSoul gem\n%s", GEM_TAGS[rand.Intn(len(GEM_TAGS))]); return nil },
-	32:  amulet,
-	40:  ring,
-	48:  shrine,
-	60:  func() error { log.Println("Reroll and upgrade results with +1 colour!"); return nil },
-	68:  body,
-	76:  tome,
-	84:  relic,
-	92:  func() error { log.Println("Dream Mirror"); return nil },
-	100: func() error { log.Println("Glyph"); return nil },
+	9:   func() error { log.Println("Reroll twice and upgrade results with +1 colour!"); return nil },
+	16:  wondrous,
+	23:  func() error { log.Printf("\nSoul gem\n%s", GEM_TAGS[rand.Intn(len(GEM_TAGS))]); return nil },
+	30:  belt,
+	37:  ring,
+	44:  amulet,
+	51:  shrine,
+	58:  body,
+	65:  tome,
+	72:  func() error { log.Println("2x Tarot Cards"); return nil },
+	79:  relic,
+	86:  func() error { log.Println("Dream Mirror"); return nil },
+	93:  func() error { log.Println("Glyph"); return nil },
+	100: func() error { log.Println("NYI!"); return nil },
 }
 
 var COMMAND_MAP = map[string]func() error{
@@ -62,6 +64,8 @@ var COMMAND_MAP = map[string]func() error{
 	"activity":      activity,
 	"amulet":        amulet,
 	"relic new":     relic,
+	"chaos":         chaos,
+	"wondrous":      wondrous,
 }
 
 func main() {

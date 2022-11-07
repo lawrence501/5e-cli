@@ -5,6 +5,23 @@ type Generic struct {
 	Description string `json:"description"`
 }
 
+type Chaos struct {
+	Trigger []string `json:"trigger"`
+	Target  []string `json:"target"`
+}
+
+type Boon struct {
+	Lucian    []string `json:"lucian"`
+	Noctros   []string `json:"noctros"`
+	Nautica   []string `json:"nautica"`
+	Nasus     []string `json:"nasus"`
+	Indulra   []string `json:"indulra"`
+	Captaros  []string `json:"captaros"`
+	Pugna     []string `json:"pugna"`
+	Festivina []string `json:"festivina"`
+	Celeritis []string `json:"celeritis"`
+}
+
 type Mundanes struct {
 	Weapon []Mundane `json:"weapon"`
 	Armour []Mundane `json:"armour"`

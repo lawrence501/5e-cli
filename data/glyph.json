@@ -656,7 +656,7 @@
         ]
     },
     {
-        "name": "Turns the Tables [LAST]",
+        "name": "Turns the Tables",
         "description": "turning dangerous situations into advantageous ones",
         "tiers": [
             "1. Defensive Maneuver: At-will; bonus action; You strike at an enemy with a melee weapon attack, and then move away from them up to 30'. You must at least move enough to leave their reach.",
@@ -676,15 +676,15 @@
         "description": "mutating and de-mutating rapidly",
         "tiers": [
             "1. At the end of each long rest, gain a beneficial mutation. You keep it until your next long rest.",
-            "2. Toolkit: 2/min; bonus action; With Concentration, you can shape your fingers, toes, or other appendages into simple tools with no moving parts such as lockpicks, hooks, or knives. These can be used as weapons to deal 1d6 + your level damage, and grant advantage on relevant checks for 10 minutes, whereafter your appendages revert to normal.",
+            "2. Toolkit: 2/min; bonus action; With Concentration, you can shape your fingers, toes, or other appendages into simple tools with no moving parts such as lockpicks, hooks, or knives. These can be used to make atks to deal 1d6 + your level damage, and grant advantage on ability checks related to their form for 10 minutes, whereafter your appendages revert to normal.",
             "3. Oddly Familiar: 1/min; free action; You can trigger a change in your physiology, changing your sex and appearance to match someone you have touched in the last 24 hours.",
-            "4. You have advantage on the beneficial mutation you gain at the end of each long rest.",
-            "5. Reactive Adaption: 1/min; free action; Your changes start forming reactively to your situation. When attacked, you can roll a d20: 1-5, attacked body part develops a bony coating, granting +3 AC against the current attack and the next one; 6-10, attacked body part phases out of existence for the duration of the attack; 11-15, attacked body part warps to grab the attacking weapon or projectile, disarming melee weapons but still taking damage, or negating damage from projectiles; 16-20, a bony spur juts out, inflicted 1d6 + your level damage on the attacker by flinging the weapon or projectile back at them.",
-            "6. Human Weapon: 1/SR; bonus action; You can change your body into a deadly weapon, growing spikes, blades, armour, or claws. Whilst transformed, you gain +3 AC and deal +4 damage with natural weapons until the start of your next turn. However, you look terrifying in this form and all pleasant social checks have double disadvantage.",
+            "4. The beneficial mutation you gain at the end of each long rest is improved by 1 step.",
+            "5. Reactive Adaption: 1/min; free action; Your changes start forming reactively to your situation. When attacked, you can roll a d20: 1-5, attacked body part develops a bony coating, granting +3 AC against the current attack and the next one; 6-10, attacked body part phases out of existence for the duration of the attack, causing it to miss; 11-15, attacked body part warps to grab the attacking weapon or projectile, disarming melee weapons and throwing them to the floor but still taking damage, or negating damage from projectiles; 16-20, a bony spur juts out, inflicted 1d6 thorns dmg on the attacker by flinging the weapon or projectile back at them.",
+            "6. Human Weapon: 1/SR; bonus action; You can change your body into a deadly weapon, growing spikes, blades, armour, or claws. Whilst transformed, you gain +3 AC and deal +1d6 base damage with natural weapon hits until the start of your next turn. However, you look terrifying in this form and all pleasant social checks have double disadvantage.",
             "7. When using your Oddly Familiar feature, you can now choose to adopt any appearance of your choice instead of those only recently touched.",
-            "8. You can now choose to gain a random powerful mutation instead of a beneficial one at the end of your long rests. You do not gain advantage for powerful mutations.",
-            "9. You have advantage on powerful mutations you can gain at the end of each long rest.",
-            "10. Your forever changing body reacts and adapts to whatever circumstances attempt to disrupt it. You can breathe underwater and are immune to the negative effects of being in high gravity. You are immune to environmental hazards other than extreme heat/cold and vacuums, and you can choose to not gain any mutations you would usually gain."
+            "8. You can now choose to gain a random powerful mutation instead of a beneficial one at the end of your long rests. These mutations do not benefit from T4.",
+            "9. The powerful mutation you can gain at the end of each long rest is improved by 1 step.",
+            "10. Your forever changing body reacts and adapts to whatever circumstances attempt to disrupt it. You can breathe underwater and are immune to the negative effects of being in high gravity. You are immune to environmental hazards other than extreme heat/cold and vacuums, and you can choose to not gain any mutations you would usually gain. This allows you to ignore the penalties of all natural weather on your journey activities."
         ]
     },
     {
@@ -694,13 +694,13 @@
             "1. You manifest a small plane of pure force, which takes on a shield-like shape with the barest flicker of a thought. You can dismiss it just as easily. To use the force shield, you must hold it in one of your hands. You are proficient in the use of this shield, as well as as a melee weapon (dealing 1d4 + your level force damage). While unconscious or sleeping, the force field dissipates. You can enchant this shield as if it were a regular shield.",
             "2. Force Bash: At-will; free action; You can use this feature whenever you deal damage with an attack from your shield. The attack deals -2 damage, but grants your target disadvantage on all d20 rolls until the end of their next turn.",
             "3. Your force shield produces an envelope of force that enfolds you while you are holding it, granting you +1 AC.",
-            "4. Healing Pulse: 1/min; You and all creatures you choose within 5' of you can expend a hit die to gain its healing benefits. Creatures you have already used all of their hit dice gain no benefit from this feature. Creatures who do not have hit dice regain a number of hit points equal to their CR.",
-            "5. You can throw your force shield up to 30' as a weapon, dealing the same damage.",
-            "6. Your force shield now pulses with dangerous energy whenever you manifest it. Each time you use your shield as a melee or thrown weapon, if inflict +6 damage.",
-            "7. Force Wall: 1/LR; bonus action; You can trigger the energy in your force shield to expand outward in all directions to create an immobile plane of solid force up in a 10' radius from the shield for up to 1 hour or until you choose. You cannot use the shield while this effect is occurring. The plane of force wall conforms to the space available. While the force wall remains in place, the only other feature from this glyph path is Healing Pulse.",
-            "8. If you throw your force shield as a weapon at a target within 30' of you, whether it hits or misses, it will attack up to 2 additional targets within 30'.",
-            "9. When you make a melee or thrown attack and hit with the force shield, it releases an explosion of energy, inflicting 4 additional damage on the target and all creatures within 5' of the target. If you use this feature with a melee attack, you and creatures behind you are not affected by this explosion.",
-            "10. The damage of your force shield is increased to 1d8 + your level."
+            "4. Healing Pulse: 1/min; You and all creatures you choose within 5' of you can expend a hit die to gain its healing benefits. Creatures who have already used all of their hit dice gain no benefit from this feature. Creatures who never have hit dice regain a number of hit points equal to their CR.",
+            "5. Your force shield gains the Thrown (30'/120') trait.",
+            "6. Your force shield now pulses with dangerous energy whenever you manifest it. Your force shield inflicts +1d8 damage with hits.",
+            "7. Force Wall: 1/LR; bonus action; You can trigger the energy in your force shield to expand outward in all directions to create an immobile plane of solid force up in a 10' radius from the shield for up to 1 hour or until you choose. You cannot use the shield as a weapon and lose its base AC bonus while this effect is occurring. The plane of force wall conforms to the space available. While the force wall remains in place, the only other feature from this glyph path is Healing Pulse.",
+            "8. When thrown, your force shield chains twice.",
+            "9. When you hit with the force shield, it releases an explosion of energy, making an additional attack that deals 1d6 + your level force damage on all creatures adj to the target. If you trigger this feature from a melee attack, you and creatures behind you are not affected by this explosion.",
+            "10. The damage of your force shield is increased to 1d10 + your level."
         ]
     },
     {
@@ -709,30 +709,30 @@
         "tiers": [
             "1. Rather than the usual benefits of other creatures using the Help action on you, you enjoy double advantage on the check if the helper is proficient in the check.",
             "2. You gain a connection to a lord of your home city (or the nearest equivalent) who watches over you and attempts to make sure you do well in the world.",
-            "3. Helping Hand: At-will; bonus action; You sublimate your reflexes, trusting to the instincts of your lord back home. For the next 10 minutes you deal +2 damage with any weapon with which you are proficient. At the end of this time, you deal -2 damage globally for 1 hour.",
+            "3. Helping Hand: At-will; bonus action; You sublimate your reflexes, trusting to the instincts of your lord back home. For the next 10 minutes you deal +1d4 damage with any weapon hits with which you are proficient. At the end of this time, you deal -2 damage globally for 1 hour.",
             "4. Psychic Shield: At-will; bonus action; You call upon your lord to shield you from psychic attacks, granting you an expertise die in Wisdom saving throws for the next hour.",
             "5. Extended Sublimation: 1/SR; bonus action; The DM takes over your character for 18s, during which time your lord acts as they will through your body. Generally, your lord cannot attack through you, but can speak and has proficiency in all social interaction tasks and a +5 Charisma modifier that overrides your own.",
             "6. You gain proficiency in Wisdom (Meditation). If you succeed in entering a meditative state during a short rest (DC 13), you recover 3 additional hit points per hit die spent.",
-            "7. One Mind: 1/week; bonus action; You completely merge minds with your lord. While in this strange mental state all of your ability score modifiers have a +1 bonus (up to +5). Lasts for 1 hour.",
+            "7. One Mind: 1/week; bonus action; You completely merge minds with your lord. While in this strange mental state all of your ability modifiers have a +1 bonus (up to +5). Lasts for 1 hour.",
             "8. You gain an expertise die in checks with which you are receiving the Help action.",
             "9. Your lord gains sway and status in another city of your choice.",
-            "10. Your Helping Hand feature no longer has a damage penalty after its use, and its damage bonus increases to +3."
+            "10. Your Helping Hand feature no longer has a damage penalty after its use, and its damage bonus increases to +1d8."
         ]
     },
     {
         "name": "Radiates Vitality",
         "description": "radiating a field of vitality",
         "tiers": [
-            "1. Your biomorphic field sustains you. +3 CON.",
-            "2. Your biomorphic field grants you an additional hit die after every long rest.",
+            "1. A biomorphic field sustains you. +3 CON.",
+            "2. Your biomorphic field grants you +1 max hit dice.",
             "3. Detect Life: 1/min; bonus action; You consciously send out a pulse of your biomorphic field. You detect all living creatures within 30' of you, even if they are behind cover, though not if they are behind a magical barrier. When you detect a creature, you detect its general location (to within 5').",
-            "4. Empathy: 1/SR; bonus action; You consciously send out a pulse of your biomorphic field and focus it on a living creature within 30' that you can see or know to be there. If you succeed, you learn that creature's CR, as well as its surface feelings and thoughts for up to the next minute. If it becomes aware of your empathic probe, it can attempt to escape your focus by moving out of range.",
+            "4. Empathy: 1/SR; bonus action; You consciously send out a pulse of your biomorphic field and focus it on a living creature within 30' that you can see or know to be there. If you succeed, you learn that creature's CR, as well as its surface feelings and thoughts for up to the next minute. If the creature moves outside of this range, the connection is lost.",
             "5. Biomorphic Healing: 1/SR; bonus action; You consciously send out a pulse of your biomorphic field and focus it on a living creature within 30' of you. The target immediately gains the effects of a level 1 healing potion. You cannot use this feature again on that creature until it completes a long rest.",
             "6. Your biomorphic field continues to function even if you die from violence, as long as your body is mostly intact. 1 minute after your death, your biomorphic field pulses and brings you back to life; however you come back with a permanent -1 to INT.",
-            "7. Biomorphic Detonation: 1/month; bonus action; You radiate a pulse of biomorphic energy up to 30' away, but you tune it to disrupt life in a 5' cube. Make an attack against all within the detonation, dealing 1d8 + 1d6 + your level true damage on a hit.",
+            "7. Biomorphic Detonation: 1/month; bonus action; You radiate a pulse of biomorphic energy up to 30' away, but you tune it to disrupt life in a 15' cube. Make an attack against all within the detonation, dealing 1d8 + 1d6 + your level true damage on a hit.",
             "8. Regenerate Other: 1/decade; free action; You can confer your regeneration after death feature on another creature that you touch and attempt to return it to life, as long as its body is mostly intact. This is a medicine skill check with a DC of 9 + 3 per day the target has been dead.",
             "9. +2 CON.",
-            "10. You gain 2 additional hit dice after every long rest."
+            "10. +3 max hit dice."
         ]
     },
     {
@@ -740,13 +740,13 @@
         "description": "becoming a cyborg",
         "tiers": [
             "1. You gain +1 AC, +1 STR, and +1 DEX.",
-            "2. Traditional healing skills, medicines and techniques work only half as well for you. The top 10 points your health can never be healed in these ways or recovered normally. Instead, you must use repairing skills and powers to restore those hit points.",
+            "2. Traditional healing skills, medicines and techniques work only half as well for you, so all incoming healing is halved. Additionally, the top 10 points your health can never be healed in these ways or recovered normally. Instead, you must use repairing powers to restore those hit points.",
             "3. By directly plugging into a magical object, you can identify and learn how to operate it with advantage.",
             "4. You can see in dim light and darkness as if it were bright light, and you can see up to 30' through fog, smoke, and other obscuring phenomena.",
             "5. One non-heavy weapon of your choice is built into your body, and you gain proficiency in it. The weapon is concealed until you wish to use it.",
-            "6. You can fuse your magical items with your body. Whenever you use a consumeable, it is treated as 1 tier higher. Additionally, artifacts and relics are automatically levelled once for free, and their maximum levels are increased by 1.",
+            "6. You can fuse your magical items with your body. Whenever you use a wondrous item, it is improved by 1 step. Additionally, relics you equip have 1 additional ephemeral level.",
             "7. Once per long rest, you can transfer up to 5 points between your ability scores in any combination, at a rate of 1 point per round.",
-            "8. Once per long rest, you can recover 2d6 + 12 hit points, ignoring the reduced healing you receive from this glyph path.",
+            "8. Once per long rest, you can recover 1d6 + 6 hit points, ignoring the halved healing you receive from this glyph path.",
             "9. You gain +1 AC and 2 ability score points to allocate freely.",
             "10. You gain +3 AC."
         ]
@@ -756,29 +756,29 @@
         "description": "modifying the shape and structure of bodies",
         "tiers": [
             "1. Self Expression: At-will; bonus action; You may alter your own body to take on a strange aspect. Gain a cosmetic mutation of your creation. This effect lasts for 1 hour.",
-            "2. You gain +2 to all diguise-related checks.",
-            "3. Disruptive Caress: 2/min; bonus action; You touch the body of another living person or creature, altering them just as you could with your Self Expression feature. This effect lasts for one hour.",
-            "4. Become More: 1/min; bonus action; By caressing your own body you alter its shape and nature, providing a random beneficial mutation. This effect lasts for 1 hour.",
-            "5. You gain +2 to all disuise-related checks.",
+            "2. You gain an expertise die in all diguise-related ability checks.",
+            "3. Disruptive Caress: 2/min; bonus action; You touch the body of another living creature, altering them just as you could with your Self Expression feature. This effect lasts for one hour.",
+            "4. Become More: At-will; bonus action; By caressing your own body you alter its shape and nature, providing a random beneficial mutation. This effect lasts for 1 hour and can only be active once at a time.",
+            "5. You gain an expertise die in all disuise-related ability checks.",
             "6. Creative Touch: 1/SR; bonus action; By touching another living creature you may grant your target a random harmful or beneficial mutation. The effect lasts for one hour.",
-            "7. Patch: 1/LR; bonus action; By manipulating the flesh and bone of another you can stop bleeding and make minor repairs. You heal them for 20% of their maximum hit points.",
-            "8. Flesh Dance: 1/week; bonus action; You alter yourself to take on the face, body type, and voice of a particular person for 1 hour.",
+            "7. Patch: 1/LR; bonus action; By manipulating the flesh and bone of another you can heal some injuries and make minor repairs. You heal them for 10% of their maximum hit points.",
+            "8. Flesh Dance: 1/week; bonus action; You alter yourself to take on the face, body type, and voice of a particular person for 1 hour. You must have sensed these qualities to adopt them.",
             "9. Your Self Expression feature now lasts 8 hours.",
-            "10. You gain +3 to all disguise-related checks."
+            "10. You gain a d6 expertise die in all disguise-related ability checks."
         ]
     },
     {
         "name": "Masters Weaponry",
         "description": "mastering a specific class of weaponry",
         "tiers": [
-            "1. You gain a +2 bonus to damage with a weapon class of your choice.",
-            "2. You gain an expertise die in the craft associated with your chosen weapon class.",
+            "1. You gain a +1d4 bonus to damage with a weapon class of your choice.",
+            "2. You gain an expertise die in weapon crafting.",
             "3. While a weapon of your chosen class is in your hand(s), you gain an expertise die in saving throws.",
             "4. Disarming Strike: 1/min; bonus action; Your attack inflicts -2 damage and disarms your target so that their weapon is now 10' away on the ground.",
             "5. Rapid Attack: 1/min; free action; You can make an attack with your chosen weapon class.",
             "6. If you roll a natural 1 when attacking with your chosen weapon class, you can still add your AB and other modifications to the score. You can never be disarmed of your chosen weapon class, nor will you ever drop it accidentally.",
             "7. Extreme Mastery: 1/week; free action; When using your chosen weapon class, you can reroll any attack roll you wish and take the better of the 2 results.",
-            "8. You gain a +6 bonus to damage with your chosen weapon class.",
+            "8. The bonus damage from T1 increases to +1d10.",
             "9. Death Dealer: 1/LR; bonus action; If you strike a creature of CR 1 or less with your chosen weapon class, you kill the target instantly.",
             "10. You gain an expertise die in attacks with your chosen weapon class."
         ]
@@ -790,11 +790,11 @@
             "1. Warp: At-will; bonus action; Using your wild connection to the magic that permeates everything in the universe, you launch a blast of energy to temporarily disrupt it (attack), causing it to randomly deform and warp all matter of a single target within 30' of you. The target takes 1d8 + your level true damage.",
             "2. Chaotic Touch: 1/min; bonus action; Your body is infused with chaos and with a touch, you can transfer a portion of that chaotic influence into another, inflicting a random beneficial or harmful mutation (your choice) on the target which lasts for 1hr.",
             "3. Your body is a silent storm of chaotic activity, constantly shifting and reforming beneath your skin. As a result, you gain +1 AC as your body shifts and adapts randomly.",
-            "4. Aura of Chaos: 1/SR; bonus action; Use your Warp feature as an area of effect that originates from you, targeting everything within 30' of you as you emit a swarming aura of magic.",
+            "4. Burst of Chaos: 1/SR; bonus action; Use your Warp feature as an area of effect that originates from you, targeting everything within 30' of you as you emit a swarming aura of magic.",
             "5. Transmutation: 1/SR; 1 minute; You can consume a wondrous item you just found, destroying it and reforming it into a new, random wondrous item. Roll for a new wondrous item.",
-            "6. You can sense the presence of shifting matter and chaotic energies. All checks relating to sensing magic have double advantage.",
+            "6. You can sense the presence of shifting matter and chaotic energies. Arcana checks for sensing magic have double advantage.",
             "7. Changecraft: 1/LR; 1 minute; You have the ability to warp and reshape matter by using your wild magic. You can create mundane items from any material to which you have access, including the flesh of other creatures. Items are rarely well made, but are serviceable as simple weapons, trinkets, or tools. Whenever you use one, there is a 15% chance it will fall apart or crumble to dust. When creating an object with the flesh of a living creature, you must make an attack against them, and they take 1d6 + 1d8 + your level slashing damage on a hit. The craft fails on a miss.",
-            "8. Heart of the Storm: 1/week; bonus action; You burst into a magical vortex that changes the landscape and creatures within your reach. You lose your corporeal form and become immune to physical damage. Make an attack against all creatures within 120' of you. All hits against creatures of CR 1 or lower destroy them with your warping effects and all others deal 1d6 + 1d8 + your level bludgeoning damage. New obstacles, entirely new creatures, or other random effects may take place at the DM's discretion. The effect lasts for 1 round, after which you revert to your previous form.",
+            "8. Heart of the Storm: 1/week; bonus action; You burst into a magical vortex that changes the landscape and creatures around you. You lose your corporeal form and become immune to physical damage. Make an attack against all creatures within 120' of you. All hits against creatures of CR 1 or lower destroy them with your warping effects and all others deal 1d6 + 1d8 + your level bludgeoning damage. New obstacles, entirely new creatures, or other random effects may take place at the DM's discretion. The effect lasts until the end of your next turn, after which you revert to your previous form.",
             "9. Your Warp feature's damage increases to 1d12 + your level.",
             "10. Your Chaotic Touch feature can now be used at-will."
         ]
@@ -804,29 +804,29 @@
         "description": "attaining nobility",
         "tiers": [
             "1. You are adept at claiming the rewards that a noble background can generate. When recognised, you can be seated at any eating establishment no matter how full, get a room in an inn even if that means others are turned out, be let into any court or other structure where laws are decided or nobility rules, be invited to any gala, and get a seat at a private function of any sort. In addition, you gain an expertise die in Persuasion.",
-            "2. Through wit, charm, humour, and grace (or sometimes rudeness, threatening posture, and obscenity), you are better able to talk others into what you want. You gain an expertise die in all social skills.",
+            "2. Through wit, charm, humour, and grace (or sometimes rudeness, threatening posture, and obscenity), you are better able to talk others into what you want. You gain an expertise die in all CHA ability checks.",
             "3. Command: 1/min; bonus action; Through sheer force of will, you can issue a simple imperative command to a single living creature, who then attempts to carry out your command during its next turn. The creature must be within 30' of you and be able to understand you. The command cannot inflict direct harm on the creature or its allies. A commanded creature can still defend itself normally and make attacks of opportunity.",
             "4. Noble's Courage: 1/min; free action; Your noble affinity teaches that courage is necessary to do things that are difficult, tedious, or dangerous. When your mind would be negatively affected by an effect, whether something as overt as a psychic command or illness, or something as subtle as fear or boredom, your courage neutralises the effect for up to 1 minute or, if you are in combat, until the next time you take damage.",
-            "5. A CR 4 humanoid follower joins you as a minion.",
-            "6. Asserting your Privilege: 1/min; bonus action; Acting as only a privileged noble can, you attempt to verbally harangue a foe who can hear you, as an attack, so forcefully that they are unable to take any action, including attacks, for 1 round on a hit. Whether you succeed or fail, the next d20 roll the target makes has disadvantage.",
-            "7. Font of Inspiration: 1/month; bonus action; An allied character within 5' of you gains Inspiration that lasts until the end of their next turn.",
+            "5. A CR 1 humanoid follower joins you as a minion.",
+            "6. Asserting your Privilege: 1/min; bonus action; Acting as only a privileged noble can, you attempt to verbally harangue a foe who can hear you, as an attack, so forcefully that they are dazed until the end of your next turn on a hit. Whether you succeed or fail, the next non-disadv d20 roll the target makes has disadvantage.",
+            "7. Font of Inspiration: 1/month; bonus action; An allied creature adj to you gains Inspiration that lasts until the end of their next turn.",
             "8. Mind of a Ruler: 1/week; bonus action; When you develop a course of action to deal with a future situation, you can ask the DM one very general question about what is likely to happen if you carry out the plan, and you will get a simple, brief answer.",
             "9. Gain an expertise die in Persuasion.",
-            "10. Gain a d6 expertise die in all social skills."
+            "10. Gain a d6 expertise die in all CHA ability checks."
         ]
     },
     {
         "name": "Chases the Wind",
         "description": "chasing chaos and its blessings",
         "tiers": [
-            "1. Great risks mean great rewards. You can choose to roll twice on any d20 roll and pick the best result, but if you fail, you and all creatures within 30' of you must make a DC 15 Dexterity saving throw or take 1d12 + 1d10 + your level slashing damage from a hurricane of shrapnel. You also have a knack of knowing when an eruption of power is getting close, granting you an expertise die in saving throws.",
-            "2. Blessingsense: 2/min; free action; You know how to find blessings better than anyone and by feeling out for that all-familiar buzz in the back of your mind, you can replace any loot roll result (before finding out what you have found) with a blessing (2) roll.",
-            "3. Quick Reactions: 2/min; bonus action; You need to be ready for anything when you are chasing down chaos, so you have honed your reactions to a razor-sharp edge. You can react to events almost before they happen, granting you advantage on saving throws until the end of your next turn.",
+            "1. Great risks mean great rewards. You can choose to roll twice on any d20 roll and pick the best result (stacks with advantage), but if you fail, make an attack against yourself and all creatures within 30' of you, dealing 1d12 + 1d10 + your level slashing damage on a hit from a hurricane of shrapnel. You also have a knack of knowing when an eruption of power is getting close, granting you an expertise die in saving throws.",
+            "2. Wondersense: 2/min; free action; You know how to find wondrous items better than anyone and by feeling out for that all-familiar buzz in the back of your mind, you can replace any loot roll result (before finding out what you have found) with a wondrous item roll.",
+            "3. Quick Reactions: 2/min; bonus action; You need to be ready for anything when you are chasing down chaos, so you have honed your reactions to a razor-sharp edge. You can react to events almost before they happen, granting you advantage on DEX saves until the end of your next turn.",
             "4. All chaos chasers are brothers and sisters, some moreso than others. Your adventures chasing chaos have earned you a contact. You can call upon them for information about new hauls, deals, or for a favour, though they will expect you to pay them back in kind.",
             "5. You deal in the trade of magic, the scavenging of items from the wreckage of destruction. As such, you have become used to needing to heal more than the average person. Your maximum hit dice increases by 2.",
             "6. Quick Breather: 1/SR; bonus action; As a chaos chaser, you are always ready to heal yourself. You can consume and heal from any number of your remaining hit dice.",
-            "7. Improvisation: 1/LR; bonus action; You have developed a knack for thinking on your feet and experimenting on the fly with blessings. You have learned how to, with some effort, replace a blessing with a new one that just might be a bit more helpful. You replace a found blessing with a new random one of 1 tier lower.",
-            "8. Sometimes chasing chaos gets ugly and you need to lay low and shelter from the storm, or sometimes get as far away as possible from some dangerous horror your journeys have whipped up. You gain an expertise die in any skill checks related to finding shelter, hiding, and survival. You also increase your speed by 5'.",
+            "7. Improvisation: 1/LR; bonus action; You have developed a knack for thinking on your feet and experimenting on the fly with wondrous items. You have learned how to, with some effort, replace a blessing with a new one that just might be a bit more helpful. You replace a found blessing of rare rarity or higher with a new random one of 1 rarity lower.",
+            "8. Sometimes chasing chaos gets ugly and you need to lay low and shelter from the storm, or sometimes get as far away as possible from some dangerous horror your journeys have whipped up. You gain an expertise die in Seek Shelter journey activities, Stealth checks for hiding, and Survival. You also increase your speed by 5'.",
             "9. You have had so many close calls with chaos, you have actually learned how to tap into the latent instability. You can choose any number of hit dice to gain at the end of a long rest without limit, but every time you use one while you have more than your usual limit, there is a 10% chance per hit die above your limit you have remaining for it to detonate and instead deal its healing as necrotic damage to you and all creatures within 30' of you.",
             "10. The damage of the shrapnel hurricane you can accidentally summon is reduced to 2d8 + your level for creatures of your choice, but remains the same for any others."
         ]
@@ -835,31 +835,31 @@
         "name": "Hunts",
         "description": "hunting",
         "tiers": [
-            "1. +2 to tracking checks",
-            "2. +10' climb speed, +10' swim speed, +10' long/high jump distance, and advantage on balancing checks.",
-            "3. You have advantage on stealth and initiative checks.",
-            "4. Quarry: 2/min; bonus action; Choose a single creature you can see. You gain +2 to all checks involving following, understanding, interacting with, or fighting that creature. You can have only one quarry at a time.",
-            "5. When 2 or more foes attack you at once in melee, you can use them against each other. You gain +2 to either Dexterity saving throws or attack rolls (your choice) against them.",
-            "6. Sprint and Grab: 2/min; bonus action; You can run up to 30' and make a grapple attempt on a creature your size or smaller.",
-            "7. If attacking from a hidden vantage, with surprise, or before your opponent has acted in the current combat, you have advantage on the attack. On a successful hit, you inflict 4 additional damage.",
-            "8. Hunter's Drive: 1/LR; free action; Through force of will, when you wish it, you grant yourself greater prowess in the hunt for 10 minutes. During this time, you gain advantage with all tasks involving your quarry, including attacks.",
-            "9. +2 AB with a weapon category of your choice.",
-            "10. Multiple Quarry: 1/week; bonus action; This feature functions like your Quarry feature except that you can select up to 3 creatures as quarry. You must be able to see all three creatures when you initiate this feature."
+            "1. You gain an expertise die on Survival checks to track.",
+            "2. +10' climb speed, +10' swim speed, +10' long/high jump distance, and advantage on Acrobatics checks to balance.",
+            "3. You have advantage on Stealth checks and initiative.",
+            "4. Quarry: 2/min; bonus action; Choose a single creature you can see. You gain an expertise die in all d20 rolls related to following, understanding, interacting with, or fighting that creature. You can have only one quarry at a time.",
+            "5. While 2 or more foes are adjacent to you, you can use them against each other. You gain an expertise die in either saving throws or attack rolls (your choice) against them.",
+            "6. Sprint and Grab: 2/min; bonus action; You can run up to 30' and use the Grapple maneuver on a creature your size or smaller.",
+            "7. If attacking before your target has acted in the current combat, you have advantage on the attack. On a successful hit, you inflict 1d6 additional base damage.",
+            "8. Hunter's Drive: 1/LR; free action; Through force of will, when you wish it, you grant yourself greater prowess in the hunt for 10 minutes. During this time, you gain advantage with all d20 rolls involving your quarry, including attacks.",
+            "9. You gain an expertise die in attacks with a weapon category of your choice.",
+            "10. Multiple Quarry: 1/week; bonus action; This feature functions like your Quarry feature except that you can select up to 3 creatures as quarry. You must be able to see all three creatures when you use this feature."
         ]
     },
     {
         "name": "Works the Back Alleys",
         "description": "gaining the favour and powers of back-alley criminals",
         "tiers": [
-            "1. Gain an expertise die in stealth and sleight of hand.",
+            "1. Gain an expertise die in Stealth and Sleight of Hand.",
             "2. You know many people in a variety of communities who engage in illegal activities. These people are not necessarily your friends and might not be trustworthy, but they recognise you as a peer.",
-            "3. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you have advantage on the check.",
-            "4. Your maneuvers that have durations last twice as long. Your maneuvers that have ranges between 30' and 120' have their range increased to 120'. Your maneuvers that deal damage deal +2 damage.",
+            "3. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, or sneaking something by a guard, you have advantage on the check.",
+            "4. Your maneuvers that have durations last twice as long. Your maneuvers that have ranges between 30' and 120' have their range increased to 120'. Your maneuvers that deal damage deal +1d4 base damage.",
             "5. +10' climb speed, gain an expertise die on saves and checks to escape restrains or grapples, and you can squeeze one size smaller.",
             "6. Dirty Fighter: 2/min; bonus action; You distract, annoy, hamper, or otherwise interfere with a foe, giving their attacks and saving throws disadvantage for 1 minute.",
-            "7. Alley Rat: 1/week; bonus action; While in a city, you find or create a significant shortcut, secret entrance, or emergency escape route where it looked like non existed. Doing so requires that you succeed on a History check with DC based on the situation.",
+            "7. Alley Rat: 1/week; bonus action; While in a city, you find or create a significant shortcut, secret entrance, or emergency escape route where it looked like non existed. Doing so requires that you succeed on a History check with DC based on your familiarity with the location.",
             "8. All-out Con: 1/month; bonus action; You put everything into it. You automatically roll a 19 for the next task you attempt.",
-            "9. Gain an expertise die in stealth and sleight of hand.",
+            "9. Gain an expertise die in Stealth and Sleight of Hand.",
             "10. You are now a trusted and revered figure in the criminal community where you have connections. You can treat it as an additional city for you and your allies and can rely on its members as allies."
           ]
     },
@@ -867,11 +867,11 @@
         "name": "Swears Oaths and Curses",
         "description": "swearing oaths and curses",
         "tiers": [
-            "1. Morning Oath: At-will; bonus action; You may swear a vow, at some time between sunrise and noon. You can only have one at a time. The effect of the sworn oath lasts until the next sunrise, or until you break the vow associated with it. Choose one of the following oaths when doing so, or create a new one with your DM: 'I shall harm no unarmed foe and accept surrender', you gain advantage on checks to convince a foe to surrender; 'I shall protect the innocent and defend the weak', you gain advantage on saving throws when protecting another character; 'I shall only speak the truth and hide no relevant fact', you gain advantage on social interaction checks, except for deception ones.",
-            "2. Jinx: 2/min; bonus action; With a screaming curse you cause a creature within 120' of you to immediately suffer some ill fate, such as dropping a weapon, falling down, or getting hit by a large falling object. This effect is decided by the DM based on the circumstances, but will usually inflict around 1d10 + your level damage and cause the victim to be in an unfortunate tactical position.",
-            "3. Evening Curse: 1/min; bonus action; You may swear a curse, at some time between sundown and midnight. You can only swear one at a time. The effect of the sworn curse lasts until the next sundown. Choose one of the following curses when doing so, or create a new one with your DM: Assassin's Crutch, anyone who attacks you from behind or from an unknown location immediately takes 1d12 + your level necrotic damage; Liar's Tongue, anyone who lies to you in any way stronger than a white lie immediately finds their tongue has shriveled within their mouth, greatly impairing speech. This effect lasts on the liar for 7 days; Thief's Lament, anyone who steals from you immediately finds that one of their hands has shriveled to a stub. This effect lasts on the thief for 7 days.",
-            "4. Bind the Vow: 1/SR; bonus action; You cast this curse upon a target within 30' of you, after having just heard them utter a vow, promise, or prediction. For the next 7 days, whenever the target breaks this vow, their next act of aggression against any other creature also affects them.",
-            "5. Karmic Vengeance: 1/LR; bonus action; You enter a state for 1 hour, in which the odds tend to get even for you. Whenever you roll a natural 1 or 20 for a task, the task is reflected in a negative way and it affects double the number of targets.",
+            "1. Morning Oath: 1/LR; free action; At the end of a long rest, you may swear a vow that lasts until your next LR, or until you break the vow associated with it. You may only have one oath at a time. Choose one of the following oaths when doing so, or create a new one with your DM: 'I shall harm no unarmed foe and accept surrender', you gain advantage on ability checks to convince a foe to surrender; 'I shall protect the innocent and defend the weak', you gain advantage on saving throws while adj to an ally; 'I shall only speak the truth and hide no relevant fact', you gain advantage on social interaction checks, except for deception ones.",
+            "2. Jinx: 2/min; bonus action; With a screaming curse you cause a creature within 120' of you to immediately suffer some ill fate, such as dropping a weapon, falling down, or getting hit by a large falling object. This effect is decided by the DM based on the circumstances, but will usually inflict around 1d10 + your level damage if an attack is involved and cause the victim to be in an unfortunate tactical position.",
+            "3. Evening Curse: 1/LR; bonus action; You may swear a curse at the start of a LR. You can only swear one at a time. The effect of the sworn curse lasts until your next LR. Choose one of the following curses when doing so, or create a new one with your DM: 'Assassin's Crutch', anyone who hits you while flanking you or from a hidden location immediately takes 1d12 necrotic damage; 'Liar's Tongue', anyone who lies to you in any way stronger than a white lie immediately finds their tongue has shriveled within their mouth, greatly impairing speech. This effect lasts on the liar for 7 days; 'Thief's Lament', anyone who steals from you immediately finds that one of their hands has shriveled to a stub. This effect lasts on the thief for 7 days.",
+            "4. Bind the Vow: 1/SR; reaction; You cast this curse upon a target within 30' of you, after having just heard them utter a vow, promise, or prediction. For the next 7 days, whenever the target breaks this vow, their next act of aggression against any other creature also affects them (stacking in further next instances).",
+            "5. Karmic Vengeance: 1/LR; bonus action; You enter a state for 1 hour, in which the odds tend to get even for you. Whenever you roll a natural 1 or 20 for a task, the task is reflected in a negated way and it affects double the number of targets, where relevant.",
             "6. Weave Fate: 1/week; bonus action; You channel the forces of the fey toward the task of making sure a given event takes place. From this point forward, whenever you perform a task directly related to this goal, you gain advantage on it. You may only weave fate towards one objective at any given time. Until your fey-enhanced fate is completed, you may not weave fate again.",
             "7. You can now swear 2 vows with your Morning Oath feature at a time.",
             "8. You can now use your Jinx feature at-will.",
@@ -883,31 +883,31 @@
         "name": "Guides the Lost",
         "description": "guiding others to safety",
         "tiers": [
-            "1. Gain an expertise die in survival.",
-            "2. You gain an expertise die on history checks about 3 locations of your choice, each a particular region such as a desert or mountain range. Your knowledge specifically includes the places where magic may be found within each area.",
-            "3. You are so used to dealing with dangerous situations, that you have an innate sense about when one is about to happen. You enjoy advantage on initiative, and saving throws which relate to averting/avoiding a threat or trap.",
-            "4. Rescue: 1/min; free action; You manage to help an adjacent ally, pulling them up from prone or pushing them down before a trap hits them, which knocks the prone but gives them advantage on any Dexterity save for the trap.",
-            "5. Upon entering a new region for the first time, you may make a survival check with DC 15. If successful, you permanently gain an expertise die on history checks about that region, representing your ability to quickly learn the nuances of the area.",
-            "6. Advice: 1/LR; bonus action; Before an expedition you may make a history check against a difficulty which reflects how dangerous the region is. If successful, your allies enjoy advantage on initiative, and saving throws which relate to averting/avoiding a threat or trap until their next long rest.",
+            "1. Gain an expertise die in Survival.",
+            "2. You gain an expertise die in History checks about 3 overworld hexes of your choice.",
+            "3. You are so used to dealing with dangerous situations, that you have an innate sense about when one is about to happen. You gain advantage on initiative and saving throws.",
+            "4. Rescue: 1/min; reaction; You manage to help an adjacent ally, pulling them up from prone or pushing them down before a trap hits them, which knocks them prone but gives them advantage on any Dexterity save for the trap.",
+            "5. Upon entering a new overworld hex for the first time, you may make a Survival check with DC 15. If successful, you permanently gain an expertise die on history checks about that region, representing your ability to quickly learn the nuances of the area.",
+            "6. Advice: 1/LR; bonus action; Before a journey, you may make a History check against a DC equal to 3 times the number of days in the journey. If successful, your allies gain advantage on initiative and saving throws for the duration of the journey.",
             "7. You can now use your Rescue feature at-will.",
-            "8. Gain an expertise die in survival and the history checks from T2.",
-            "9. Gain an expertise die in survival.",
-            "10. Gain a 1d6 expertise die in history."
+            "8. Gain an expertise die in Survival and the History checks from T2.",
+            "9. Gain an expertise die in Survival.",
+            "10. Gain a d6 expertise die in History."
         ]
     },
     {
         "name": "Acts Without Consequence",
         "description": "escaping trouble",
         "tiers": [
-            "1. Slip Into Shadow: 2/min; bonus action; You attempt to slip away from a selected target and hide from view in a nearby shadow, behind a tree or furnishing, or into the next room, even if in full view of the target.",
-            "2. Become prof/+2 in either deception or stealth.",
-            "3. Get Away: 2/min; free action; After your action on your turn, you move to up 30' or get behind or beneath cover within 5' of you.",
-            "4. Goad: 2/min; free action; After you successfully attack a creature, Dexterity saving throws by all others against the creature have advantage until the end of the creature's next turn.",
-            "5. Seize Opportunity: 1/SR; free action; If you succeed on a Dexterity saving throw, you gain an additional bonus action. You can use it immediately, even if it is not your turn. If you can make an attack with this bonus action, it has advantage.",
-            "6. Uncanncy Luck: 1/SR; free action; When you roll for a task and succeed, roll again. If the second number rolled is higher than the first, get a minor bonus related to the task. If you roll the same number, get a major bonus related to the task.",
-            "7. Invisibility: 1/SR; bonus action; You become invisible for 10 minutes. While invisible, you gain +4 to stealth and Dexterity saving throws. This effect ends if you do something to reveal your presence or position - attacking, casting a spell, moving a large object, and so on. If this occurs, you can regain the remaining invisibility time by taking a bonus action to hide your position.",
+            "1. Slip Into Shadow: 2/min; bonus action; You attempt to slip away from a selected target and hide from view in a nearby shadow of a creature or object larger than you, behind a tree or furnishing, or into the next room if you are adj to an access point into it, even if in full view of the target.",
+            "2. Gain an expertise die in either Deception or Stealth.",
+            "3. Get Away: 2/min; free action; After your action on your turn, you move up to 30' or get behind or beneath cover within 5' of you.",
+            "4. Goad: 2/min; free action; After you successfully attack a creature, saving throws by all others against the creature have advantage until the end of the creature's next turn.",
+            "5. Seize Opportunity: 1/SR; free action; Whenever you succeed on a saving throw, you gain an additional bonus action. You can use it immediately, even if it is not your turn, otherwise it is lost. If you make an attack with this bonus action, it has advantage.",
+            "6. Uncanny Luck: 1/SR; free action; When you roll for a task and succeed, roll again. If the second number rolled is higher than the first, get a minor bonus related to the task. If you roll the same number, get a major bonus related to the task.",
+            "7. Invisibility: 1/SR; bonus action; You become invisible for 10 minutes. While invisible, you gain a d6 expertise die in Stealth and saving throws. This effect ends if you do something to reveal your presence or position - attacking, casting a spell, moving a large object, and so on. If this occurs, you can regain the remaining invisibility time by taking a bonus action to hide your position.",
             "8. No Fate: 1/LR; free action; You don't believe in any luck except that which you make for yourself. If you fail on a task you can change the die result to a natural 20. This feature cannot be used if you roll a natural 1 for an attempted task.",
-            "9. When you roll a natural 1, you can reroll. You must use the new result, even it it is another 1.",
+            "9. When you roll a natural 1, you can reroll. You must use the new result.",
             "10. Your Slip Into Shadow feature can now be used at-will. Additionally, the shadow you hide in can be that of a creature of your size or smaller."
         ]
     },
@@ -917,11 +917,11 @@
         "tiers": [
             "1. Gain an expertise die in investigation, perception, and acrobatics, and +10' climb speed and long/high jump distance.",
             "2. Gain an expertise die in sleight of hand and arcana.",
-            "3. You gain 500' of darkvision.",
+            "3. Your vision is darkvision.",
             "4. When you attack a foe in darkness, you have advantage on the attack.",
-            "5. You have advantage on all tasks involving escaping from grapples and restrains, and can squeeze one size smaller. Thanks to your experience, you also gain an expertise die in Dexterity saving throws while wearing light or no armour.",
+            "5. You have advantage on all checks and saves to escape from grapples and restrains, and can squeeze one size smaller. Thanks to your experience, you also gain an expertise die in Dexterity saving throws while wearing light or no armour.",
             "6. In your explorations of dark places, you have been exposed to all sorts of terrible things and are developing a general resistance. You gain +1 AC and an expertise die in Constitution saving throws.",
-            "7. You ignore any penalties from dim light. You gain an expertise die in stealth while in darkness.",
+            "7. You gain an expertise die in stealth while in darkness.",
             "8. Blinding Attack: 1/min; bonus action; If you have a source of light, you can use it to make a melee attack against a target. If successful, the attack deals no damage, but the target is blinded for one minute.",
             "9. Embraced by Darkness: 1/week; bonus action; For the next hour, you take on some characteristics of a shadow thanks to a fundamental adaptation of your flesh. Your appearance is a dark silhouette. You have advantage on stealth checks. During this time, you gain a fly speed of 30', and you can move through solid barriers (even those that are sealed to prevent the passage of light), but not magical barriers, at a rate of 1' per round. You can perceive while passing through a barrier or object. As a shadow, you cannot affect or be affected by material matter. Likewise, you cannot attack, touch, or otherwise affect anything. However, attacks and effects that rely on light can affect you.",
             "10. +15' climb speed and long/high jump distance."
@@ -931,31 +931,31 @@
         "name": "Reanimates the Dead",
         "description": "reanimating undead",
         "tiers": [
-            "1. Familiar: At-will; bonus action; You animate the corpse of a deceased non-sentient creature of your size or less within 5' of you. The animated corpse can be, at maximum, CR 1. All of its speeds are reduced to 5'. It follows your verbal commands and does not act on its own. This animation lasts for 2 hours or until the creature is killed.",
-            "2. You gain prof/+2 in medicine.",
-            "3. Fresh Corpse: 1/min; bonus action; You animate the corpse of a recently deceased (1 hour or less) sentient being of your size or smaller within 5' of you. The animated corpse can be, at maximum, CR 1. All of its speeds are reduced to 5'. It follows your verbals commands and does not act on its own. This animation lasts for 5 hours or until the creature is killed.",
-            "4. Necrotic Protection: 1/SR; bonus action; Your body and mind become empowered by the dead around you. For the next hour, whenever one of your animated corpses is within 5' of you, you gain advantage on Constitution and Wisdom saving throws.",
-            "5. Skeletal Servant: 1/LR; bonus action; You animate the corpse of a sentient being of your size or smaller within 5' of you. It matters little how long the corpse has been dead, so long as its bones have not turned to dust. The animated corpse can be, at maximum, CR 2. All of its speeds are reduced to 5'. It follows your verbal commands and does not act on its own. This animation lasts for 10 hours or until the creature is killed.",
+            "1. Familiar: At-will; bonus action; You animate the corpse of a deceased non-sentient creature of your size or less adj to you as an undead minion. The animated corpse can be, at maximum, CR 1. All of its speeds are reduced to 5'. It follows your verbal commands and does not act on its own. This animation lasts for 2 hours or until the creature is killed. You can only have one animated minion at a time.",
+            "2. You gain an expertise die in medicine.",
+            "3. Fresh Corpse: 1/min; bonus action; Use your Familiar feature on a recently-deceased corpse (within the last 8hrs). Instead of only lasting 1hr, it can last up to 8hrs.",
+            "4. Necrotic Protection: At-will; bonus action; Your body and mind become empowered by the dead around you. For the next hour, whenever one of your animated corpses is adj to you, you gain advantage on Constitution and Wisdom saving throws.",
+            "5. Skeletal Servant: 1/LR; bonus action; Use your Familiar feature on any corpse, not just those of non-sentient creatures. The creature can be up to CR 2, and the animation lasts until the minion dies.",
             "6. The corpses you animate are more autonomous than before, acting on their own even when not given commands. Generally this will mean attacking any living thing they encounter other than you and your companions, though they can be commanded not to do so. As an eerie side effect, the faces of all creatures you animate are contorted to look like your face.",
             "7. Your Familiar feature now allows you to animate non-sentient creatures of up to CR 2.",
-            "8. +2 to medicine.",
+            "8. You gain an expertise die in medicine.",
             "9. Your Fresh Corpse feature can now be used twice per minute.",
-            "10. Your Necrotic Protection feature can now be used twice per minute."
+            "10. Your Necrotic Protection feature no longer requires an adj animated corpse."
         ]
     },
     {
-        "name": "Touches the Sky",
+        "name": "Touches the Sky [LAST]",
         "description": "flight and air control",
         "tiers": [
             "1. Hover: At-will; bonus action; You float slowly into the air. This requires Concentration to maintain. As a bonus action on successive turns, you can float up to 30'. You can only float up to 30' vertically from the ground. If you lose concentration, you drift with the wind or with any momentum you have gained.",
-            "2. When you wish it, a cyclone of wind surrounds your body, giving you +1 to AC and an additional +2 AC against physical projectiles specifically. While the cyclone is active, you feel no discomfort from the wind, and you can interact with other creatures and objects normally because the wind flow automatically diverts to enable such interaction.",
-            "3. Lightning Discharge: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge deals 1d12 + your level lightning damage.",
-            "4. Storm Seed: 1/min; bonus action; If outside or in a large-enough enclosed space, you can seed a natural storm of a kind common to the area. Doing so requires at least an hour of Concentration as you use your connection to the magic in the air to initiate proper conditions. Once the storm begins, it lasts for about 10 minutes. Once during that period, you can create a more dramatic and specific effect appropriate to that kind of storm, such as a lightning strike, a squall of giant hailstones, the brief touchdown of a twister, a single gust of hurricane-force winds, and so on. The effects must occur within 120' of you. You must spend your turn Concentrating to create the effect, which occurs at the start of your next turn. The effect inflicts 1d8 + 1d6 + your level damage of a relevant type, after which the storm begins to disperse.",
+            "2. When you wish it, a cyclone of wind surrounds your body, giving you +1 to AC and an additional +2 AC against non-magical projectiles. While the cyclone is active, you are immune to the penalties of wind-based weather on your journey activities, and you can interact with other creatures and objects normally because the wind flow automatically diverts to enable such interaction.",
+            "3. Lightning Discharge: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge makes attacks against all creatures in the area that deal 1d12 + your level lightning damage.",
+            "4. Storm Seed: 1/min; 1hr; If outside or in a large-enough enclosed space, you can seed a natural storm of a kind common to the area. Doing so requires at least an hour of Concentration as you use your connection to the magic in the air to initiate proper conditions. Once the storm begins, it lasts for about 10 minutes. Once during that period, you can create a more dramatic and specific effect appropriate to that kind of storm, such as a lightning strike, a squall of giant hailstones, the brief touchdown of a twister, a single gust of hurricane-force winds, and so on. The effects must occur within 120' of you. You must spend your turn Concentrating to create the effect, which occurs at the start of your next turn. The effect makes attacks that deal 1d8 + 1d6 + your level damage of a relevant type, after which the storm begins to disperse. If this is used during a journey, the day's you can treat one party member's journey activity as if it were done in Storm weather, rather than the day's usual weather.",
             "5. Windrider: 1/SR; bonus action; You summon winds that pick you up and grant you a fly speed of 120' for 1 minute.",
-            "6. Cold Burst: 1/LR; bonus action; You emit a blast of cold in a 30' radius. All within the burst take 1d8 + your level cold damage and have disadvantage on any d20 rolls they make until the end of their next turns.",
-            "7. Control Weather: 1/century; bonus action; You change the weather in your general region. If performed indoors, this create sminor effects such as mist, mild temperature changes, and so on. If performed outside, you can create rain, fog, snow, wind, or any other kind of normal (not overly severe) weather. The change lasts for a natural length of time so that a storm might last for an hour, fog for 2 hours, and snow for 3 hours. For the first 10 minutes after activating this feature, you can create more dramatic and specific effects, such as lightning strikes, hailstones, twisters, hurricane-force winds, and so on. These effects must occur within 1000' of you. You must spend your turn Concentrating to create an effect or maintain it in a new round. These effects inflict 1d8 + 1d6 + your level damage of a relevant type.",
-            "8. Wind Chariot: 1/month; bonus action; You summon winds that pick you up and grant you a fly speed of 120' during combat, or an overland speed of 1760' (320kph), for up to 10 hours.",
-            "9. Your Hover feature now allows you to float up to 60' as a bonus action.",
+            "6. Cold Burst: 1/LR; bonus action; You emit a blast of cold in a 30' radius. Make attacks against all within the burst, dealing 1d8 + your level cold damage and giving disadvantage on any d20 rolls the target makes until the end of their next turn.",
+            "7. Control Weather: 1/century; bonus action; You change the weather in your overworld hex. If performed indoors, this creates minor effects such as mist, mild temperature changes, and so on. If performed outside, you can change the current weather to any standard type of your choice. The change lasts long enough to change the weather for one party member of your choice's journey activities, or 1hr. For the first 10 minutes after activating this feature, you can create more dramatic and specific effects, such as lightning strikes, hailstones, twisters, hurricane-force winds, and so on. These effects must occur within 1000' of you. You must spend your turn Concentrating to create an effect or maintain it in a new round. These effects make attacks dealing 1d8 + 1d6 + your level damage of a relevant type.",
+            "8. Wind Chariot: 1/month; bonus action; You summon winds that pick you up and grant you a fly speed of 120' for up to 10 hours. If used during a journey, this grants your party an additional day of travel.",
+            "9. +5' fly speed.",
             "10. Your cyclone armour now grants +2 AC and a further +3 AC against physical projectiles."
         ]
     },

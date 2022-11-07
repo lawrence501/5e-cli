@@ -18,7 +18,7 @@
     {
         "name": "Exsanguinating Summons",
         "target": "Powers that summon minions",
-        "description": "When the minions hit with melee atks dealing $physType dmg, their target is inflicted with a DoT dealing slight {physType} dmg, stacking until CON save (minion's DC)."
+        "description": "When the minions hit with melee atks dealing $physType dmg, their target is inflicted with a DoT dealing slightly less {physType} dmg, stacking until CON save (minion's DC)."
     },
     {
         "name": "Phlebotomising Summons",
@@ -33,7 +33,7 @@
     {
         "name": "Charging Summons",
         "target": "Powers that summon minions",
-        "description": "As an action, the minions can move up to their speed. During this movement, they can move through hostile creatures' spaces. For each creature they move through, they may attack them, dealing half dmg as $physType on a hit and pushing them 5' in a direction of their choice."
+        "description": "As an action, the minions can move up to their speed. During this movement, they can move through hostile creatures' spaces. For each creature they move through, they may attack them, dealing slight dmg as $physType on a hit and pushing them 5' in a direction of their choice."
     },
     {
         "name": "Rugged Summons",
@@ -48,7 +48,7 @@
     {
         "name": "Whirling Summons",
         "target": "Powers that summon minions",
-        "description": "1/combat, as an action, the minions can move up to half their speed. During this movement, they can move through hostile creatures' spaces. For each creature they either move through or through an adj space of, they may make a melee wep atk against them, dealing slightly less dmg as $physType on a hit."
+        "description": "1/combat, as an action, the minions can move up to half their speed. During this movement, they can move through hostile creatures' spaces. For each creature they either move through or through an adj space of, they may make a melee wep atk against them, dealing slightly less $physType dmg on a hit."
     },
     {
         "name": "Empowered Summons",
@@ -918,7 +918,7 @@
         "description": "The power can target 1 additional ally within range and deals more dmg, but its cost is increased by 1 step."
     },
     {
-        "name": "Supportive Power",
+        "name": "Supported Power",
         "target": "Any power",
         "description": "If you have an active minion when you use the power, it gets more dmg."
     },
@@ -1106,7 +1106,7 @@
     {
         "name": "Persistent Exploitation",
         "target": "Powers with persistent areas",
-        "description": "Your minions within the power's pers areas inflict a DoT dealing $nonPhysType dmg, stacking until CON save (minion's DC), but are inflicted with a DoT dealing slight {type} dmg whenever the area ticks (your DC)."
+        "description": "Your minions within the power's pers areas inflict a DoT on hit dealing $nonPhysType dmg, stacking until CON save (minion's DC), but are inflicted with a DoT dealing slight {type} dmg, stacking until CON save, whenever the area ticks (your DC)."
     },
     {
         "name": "Persistent Control",
@@ -1251,8 +1251,144 @@
         "description": "Whenever the shapeshift or its minions crit, the shapeshift's maximum duration is doubled."
     },
     {
-        "name": "Summoning Shifting [next - slashing spiral]",
+        "name": "Summoning Shifting",
         "target": "Powers that shapeshift",
         "description": "The shapeshift's minions have less dmg and massively less max HP, but they have +10' reach and are 1 size larger."
+    },
+    {
+        "name": "Swarming Persistence",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's pers areas count as a swarm of untargetable minions dealing using the pers area's ticks instead of you."
+    },
+    {
+        "name": "Shifting Leeching",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift's pers areas tick, it heals a slight amount of HP."
+    },
+    {
+        "name": "Supported Decay",
+        "target": "Powers that shapeshift",
+        "description": "If the shapeshift has an active minion when it creates a pers area, the area deals slightly more dmg and for its duration, the shapeshift's hits inflict a DoT dealing barely any $nonPhysType dmg, stacking until CON save."
+    },
+    {
+        "name": "Pooling Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The durations of the shapeshift's pers areas are increased by 1 step. Additionally, its melee wep atks deal massively more dmg but their usage time is increased by 2 steps."
+    },
+    {
+        "name": "Persistent Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift scores a melee wep hit, the max durations of its active pers areas are quadrupled and you revert out of the shapeshift."
+    },
+    {
+        "name": "Savage Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's melee wep hits deal barely more dmg and double the max duration of the shapeshift."
+    },
+    {
+        "name": "Supportive Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift makes a melee wep atk, a random one of its active minions can react to make a single atk. The shapeshift deals substantially less dmg."
+    },
+    {
+        "name": "Defensive Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift and its minions have +1 to DEX saves and slightly more phys res, but it deals less dmg."
+    },
+    {
+        "name": "Heavy Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift has -1 to DEX saves and additional phys res."
+    },
+    {
+        "name": "Enduring Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift passes a DEX save, its max duration is doubled."
+    },
+    {
+        "name": "Swirling Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift makes a charged melee wep atk, its max duration is halved to surround itself with swirling energy, projecting a 5' aura that makes spell atks against foes dealing slight $nonPhysType dmg for combat (dmg stacks)."
+    },
+    {
+        "name": "Shifting Summons",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's minions have slightly more dmg and more max HP."
+    },
+    {
+        "name": "Rejuvenating Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift summons a minion, it heals a slight amount of HP and its max duration is doubled, but it deals less dmg."
+    },
+    {
+        "name": "Staggering Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift and its minions stagger targets for 1 round on hit."
+    },
+    {
+        "name": "Flagellating Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift hits its minions with a melee wep atk, the target gains substantially more dmg for the combat. Additionally, the shapeshift deals less dmg."
+    },
+    {
+        "name": "Summoned Bombs",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's minions can no longer take actions. Instead, at the start of each of their turns, they release a nova of metal, making spell atks against all foes adj to them dealing $physType dmg."
+    },
+    {
+        "name": "Rapid Summoning",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's powers that summon minions have their usage times reduced by 1 step. Additionally, the shapeshift's pers areas contain an untargetable, immobile CR 1/8 beast minion, a locust, at their centre that deals $physType dmg. The shapeshift deals substantially less dmg."
+    },
+    {
+        "name": "Summoning Reversion",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift summons a minion, you revert out of the shapeshift and the minion is replaced with an immobile Healing Totem, a CR 1/4 construct minion that deals a quarter of its dmg as healing."
+    },
+    {
+        "name": "Decaying Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift and its minions inflict their targets with a DoT dealing slight $nonPhysType dmg, stacking until CON save, on hit."
+    },
+    {
+        "name": "Shifting Alacrity",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's powers have their usage times reduced by 1 step, but they deal less dmg."
+    },
+    {
+        "name": "Exsanguinating Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's melee wep hits and minions inflict their targets with a DoT dealing slight $physType dmg, stacking until CON save, on hit."
+    },
+    {
+        "name": "Raw Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift creates a pers area, all debuffs the shapeshift has applied in this combat are removed and the pers area deals slightly more dmg and has slightly more area."
+    },
+    {
+        "name": "Reaching Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions have +5' reach and deal barely more dmg.",
+        "meta": "Summon Skeleton"
+    },
+    {
+        "name": "Roguish Summons",
+        "target": "Powers that summon minions",
+        "description": "As a movement action 1/combat, the minions can teleport to a space they can see that is adj to a foe. Additionally, as an action, they can throw metal at a target within 120', making a thrown wep atk that deals $physType dmg."
+    },
+    {
+        "name": "Summoned Decay",
+        "target": "Powers that summon minions",
+        "description": "As an action, the minions can throw metal at a target within 120', making a thrown wep atk dealing substantially less $physType dmg, inflicting the target with a DoT dealing slight $nonPhysType dmg, stacking until CON save (minion's DC), and giving them slightly less phys res until the end of the minion's next turn."
+    },
+    {
+        "name": "Solo Summons",
+        "target": "Powers that summon minions which have cooldowns",
+        "description": "The minions' cooldowns are reduced by 1 step and they deal more dmg, but their powers' usage times are increased by 1 step. Additionally, while the minion is active, you cannot have any other active minions."
+    },
+    {
+        "name": "Rebirth",
+        "target": "Powers that summon minions which deal damage",
+        "description": "Whenever the minions die, they are resummoned at the end of your next turn (after their turn would be). The minions deal less dmg."
     }
 ]

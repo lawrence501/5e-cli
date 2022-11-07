@@ -55,7 +55,7 @@ Always based on dmg where possible
 
 - Dominate: 8
 - Stagger/Debil/exh/confused/uncon/silence/double disadv condi: 5
-- Single disadv condi/sluggish/charm/root: 3
+- Single disadv condi/sluggish/charm/root/weak: 3
 - Prone/taunt/similar/slow: 2
 - Condi lasts until save/longer: x2
 - Limited feature conditional: -1
@@ -181,18 +181,18 @@ While riding your mount, your AC increases by 1.
 
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
-2. Tomes
-3. Rings
-4. Reroll w/ upgrade (put at bottom)
-5. Amulets
-6. Soul Gems
-7. Shrines
-8. Dream Mirrors
-9. Glyphs
-10. Relics
-11. Body Armours
-12. Tarots
-13. Something (TODO)
+2. Tomes (high)
+3. Rings (med)
+4. Reroll twice w/ upgrade (put at bottom)
+5. Amulets (med)
+6. Soul Gems (low)
+7. Shrines (med)
+8. Dream Mirrors (very high)
+9. Glyphs (very high)
+10. Relics (high)
+11. Body Armours (med)
+12. Tarots (high)
+13. Belt (med)
 14. Something (TODO)
-
+ 
 7% each, except 4 is 9%
