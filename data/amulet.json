@@ -149,7 +149,7 @@
         "setBonuses": [
           {
             "ally": "Somnius",
-            "effect": "on ending an ongoing condi, heal 2 HP",
+            "effect": "on ending an ongoing debuff, heal 2 HP",
             "upgrade": "+2"
           },
           {
@@ -171,28 +171,28 @@
       },
       {
         "name": "Somnius' Aspiration",
-        "effect": "+1 to saves vs ongoing condis",
+        "effect": "+1 to saves vs ongoing debuffs",
         "upgrade": "+1 global dmg w/ no adj foes",
         "setBonuses": [
           {
             "ally": "Kher'evo",
-            "effect": "on ending an ongoing condi, heal 2 HP",
+            "effect": "on ending an ongoing debuff, heal 2 HP",
             "upgrade": "+2"
           },
           {
             "ally": "Pherousa",
-            "effect": "your death saves count as ongoing condi saves",
-            "upgrade": "+1 to saves vs ongoing condis"
+            "effect": "your death saves count as ongoing debuff saves",
+            "upgrade": "+1 to saves vs ongoing debuffs"
           },
           {
             "ally": "Mother",
-            "effect": "-2 to saves vs ongoing condis on odd turns, +4 to saves vs ongoing condis on even turns",
+            "effect": "-2 to saves vs ongoing debuffs on odd turns, +4 to saves vs ongoing debuffs on even turns",
             "upgrade": "-2 and +4"
           },
           {
             "ally": "The Primordial",
-            "effect": "on taking non-phys dmg, you can make a save against an ongoing condi",
-            "upgrade": "+1 to saves vs ongoing condis"
+            "effect": "on taking non-phys dmg, you can make a save against an ongoing debuff",
+            "upgrade": "+1 to saves vs ongoing debuffs"
           }
         ]
       },
@@ -235,7 +235,7 @@
           },
           {
             "ally": "Somnius",
-            "effect": "-2 to saves vs ongoing condis on odd turns, +4 to saves vs ongoing condis on even turns",
+            "effect": "-2 to saves vs ongoing debuffs on odd turns, +4 to saves vs ongoing debuffs on even turns",
             "upgrade": "-2 and +4"
           },
           {
@@ -262,8 +262,8 @@
           },
           {
             "ally": "Somnius",
-            "effect": "on taking non-phys dmg, you can make a save against an ongoing condi",
-            "upgrade": "+1 to saves vs ongoing condis"
+            "effect": "on taking non-phys dmg, you can make a save against an ongoing debuff",
+            "upgrade": "+1 to saves vs ongoing debuffs"
           },
           {
             "ally": "Pherousa",

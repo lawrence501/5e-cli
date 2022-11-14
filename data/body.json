@@ -133,7 +133,7 @@
         },
         {
             "name": "Arcane Vest",
-            "source": "wizard - arcanist",
+            "source": "wizard - arcanist (a5e)",
             "mods": [],
             "variables": [
                 {
@@ -156,7 +156,7 @@
         },
         {
             "name": "Magic Robes",
-            "source": "wizard - mage",
+            "source": "wizard - mage (a5e)",
             "mods": [
                 "1/SR as an action, you can replace one of your prepared spells with another from your spellbook."
             ],
@@ -197,7 +197,7 @@
         },
         {
             "name": "Draconic Silks",
-            "source": "sorcerer - draconist",
+            "source": "sorcerer - draconist (a5e)",
             "mods": [],
             "variables": [
                 {
@@ -215,7 +215,7 @@
         },
         {
             "name": "Enigmatic Garb",
-            "source": "sorcerer - enigma",
+            "source": "sorcerer - enigma (a5e)",
             "mods": [],
             "variables": [
                 {
@@ -357,6 +357,126 @@
                 "On KB vs adj creature, gain temp HP equal to 3 + your ability mod."
             ],
             "variables": []
+        },
+        {
+            "name": "Pyromantic Wrap",
+            "source": "wizard - pyromancer (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Whenever you cast a lvl'd spell that can deal fire dmg, you can choose one creature that would take dmg from the spell. Instead of taking dmg from the spell, the creature is healed for a number of hit points equal to 2 + the spell's lvl."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can spend 10mins meditating while staring into a flame that fills at least a 5' cube to cast Augury for free."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Legacy Vest",
+            "source": "wizard - last raven (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Sleight of Hand checks to pick locks.",
+                        "1/LR, you can cast the Hex spell for free at the highest spell level you can cast.",
+                        "Whenever you cast Hex, you may choose an ally within 120' of you. The cursed target takes extra damage from that ally's atks instead of your own."
+                    ],
+                    "variables": [
+                        "You gain an expertise die in Deception and Intimidation.",
+                        "You gain an expertise die in Sleight of Hand and Stealth."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can prepare 1 additional spell at a time.",
+                        "At the end of a rest, you can choose a creature within 60' that you are aware of, even through solid barriers. You gain knowledge of all spells the creature has prepared, and you can replace your bonus prepared spell with one of those spells.",
+                        "Whenever a creature within 60' of you casts a spell, loses concentration on a spell, or has their spell countered/dispelled, you can replace your bonus prepared spell with that spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Traveling Regalia",
+            "source": "sorcerer - traveler (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain proficiency in Primordial.",
+                        "You can use your ability for Survival and History checks to navigate, survive in, or remember information about non-Material planes."
+                    ]
+                },
+                {
+                    "mods": [
+                        "After casting a levelled spell, you can teleport up to a number of feet to an unoccupied space you can see, equal to 5 + 5 times the level of the spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Annihilating Silks",
+            "source": "sorcerer - annihilator (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As an action, you can attempt to destroy a small obj you are touching, and that no one else is touching. Magic and adamantine objs are immune to this. To do so, make an ability check to smash the obj with your ability."
+                    ]
+                },
+                {
+                    "mods": [
+                        "At the end of each of your turns, if any creature was reduced to 0 HP within 30' of you since your last turn, you can choose another creature within that range, and deal 1d10 force dmg to it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ghetto Vestment",
+            "source": "wizard - enclavist (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain an expertise die in Stealth.",
+                        "You have the Sanctuary spell prepared."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action 1/SR, you can magically bond yourself to an area extending in a 15' radius, declaring it your domain. The area shidts slightly into the Feywild, making it count as both its actual plane and the Feywild. The environment becomes imbued with your mysticism, sprouting glowing, shimmering flowers of exaggerated colours. You may suppress this visual quality if neither you nor any of your allies are taking hostile actions within the domain. When this is done, the domain's presence cannot be detected.",
+                        "The area remains your domain until you move more than 3 miles away from it, or until you end it as an action. If you declare a new domain, your previous one is lost.",
+                        "You and your allies have adv on Stealth checks within your domain. Non-allied creatures that cast Divination spells that would affect or learn about the domain or creatures within it must succeed on an ability check with their casting ability. If they fail, the spell reveals an innocuous result.",
+                        "You can use your reaction to either grant advantage to a creature that you can see within your domain making a save, or cause a creature that you can see within the domain making an attack roll to do so with disadv.",
+                        "Whenever you use an action, you may have the environment within your domain briefly come alive to deal 2 spell B dmg to a creature within your domain."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oozing Garb",
+            "source": "wizard - oozemancer (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You have the Find Familiar spell prepared. When you cast it, in addition to its usual options, you can choose a Grey Ooze for the familiar's form.",
+                        "Whenever you take the Attack aciton, you can forgo one of your own attacks to allow your familiar to make an attack of its own.",
+                        "Your ooze minions have a minimum speed of 25'."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Whenever you receive a critical hit, the hit is treated as a normal hit instead.",
+                        "You are immune to Sneak Attack damage.",
+                        "You have advantage on ability checks and saves made to escape grapples."
+                    ]
+                }
+            ]
         }
     ],
     "light": [
@@ -473,13 +593,13 @@
                 },
                 {
                     "variables": [
-                        "As a bonus action, you can make a Perception check to spot a hidden creature or object.",
-                        "As a bonus action, you can make an Investigation check to uncover or decipher clues."
+                        "You have advantage on Perception checks to spot a hidden creature or object.",
+                        "You have advantage on Investigation checks to uncover or decipher clues."
                     ]
                 },
                 {
                     "mods": [
-                        "As a bonus action, you can make an Insight check against a creature you can see that is not incapacitated, contested by the target's Deception check. If you succeed, you treat that target as if you have adv with your atks against them, unless you have disadv on the atk.",
+                        "As a bonus action, you can make an Insight check against a creature you can see that is not incapacitated, contested by the target's Deception check. If you succeed, you count as flanking them.",
                         "This benefit lasts for 1 minute or until your successfully use this power against a different target."
                     ]
                 }
@@ -512,7 +632,7 @@
             ]
         },
         {
-            "name": "Raven Vest",
+            "name": "Ravenplume Vest",
             "source": "warlock - raven queen",
             "mods": [
                 "You have a Raven spirit minion that you can command telepathically while within 100' of it.",
@@ -612,6 +732,47 @@
                         "As a bonus action 1/SR, you can curse a creature you can see within 30' of you for 1min or until you go down.",
                         "When the cursed creature dies, you heal HP equal to 3 + your ability mod.",
                         "Whenever you deal dmg to the cursed target, it takes +1d4 $nonPhysType dmg."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Legendary Tunic",
+            "source": "bard - lore",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [],
+                    "varialbes": [
+                        "You gain an expertise die in Stealth, Medicine, and Arcana.",
+                        "You gain an expertise die in Sleight of Hand, Animal Handling, and Survival.",
+                        "You gain an expertise die in Survival, History, and Medicine."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The tunic has a number of charges equal to half your ability mod, all of which are recovered after a long rest.",
+                        "Whenever a creature that can hear you and that you can see within 60' of you makes an atk roll, ability check, or dmg roll, you can react and expend a charge to use your wit to distract, confuse, or otherwise sap the confidence and competence from them, rolling a d6 and subtracting the amount rolled from the creature's roll. You can choose to do this after the roll is made, but before its result is announced. Creatures immune to charm are unaffected by this."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Glamorous Vest",
+            "source": "bard - glamour",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "The vest has a number of charges equal to half your ability mod, all of which are recovered after a long rest.",
+                        "As a bonus action, you can expend a charge to grant yourself a wondrous appearance. When you do so, choose a number of creatures you can see and that can see you within 60' of you, up to a number equal to your ability mod. Each of them gains 5 temp HP and can immediately use its reaction to shift up to its speed."
+                    ],
+                    "varialbes": []
+                },
+                {
+                    "mods": [
+                        "1/SR, after performing for at least 1min, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60' of you who watched and listened to all of it, up to a number equal to your ability mod. Each target must succeed on a WIS save or be charmed by you. On a success, a creature does not know you tried to charm it.",
+                        "While charmed in this way, a creature idolises you, speaks glowingly of you to anyone who talks to it, and hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This ends on a target after 1hr, if it takes any dmg, if you atk it, or if it witnesses you atking or dmging any of its allies."
                     ]
                 }
             ]
@@ -1142,6 +1303,85 @@
                 {
                     "mods": [
                         "You gain an expertise die in Seek Shelter journey activities by using explosives to help create cavernous havens."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Peaceful Lamellar",
+            "source": "cleric - peace",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [],
+                    "variables": [
+                        "You gain an expertise die in Insight.",
+                        "You gain an expertise die in Performance.",
+                        "You gain an expertise die in Persuasion."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action 2/LR, choose up to 2 willing creatures within 30' of you, potentially including yourself. A magical bond is forged between them for 10mins or until you use this power again.",
+                        "While any bonded creature is within 30' of another, the creature can roll a d4 and add the number rolled to a d20 roll once per turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Ringmail",
+            "source": "cleric - arcana",
+            "mods": [
+                "You gain an expertise die in Arcana."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "You learn the Frostbite and Acid Splash cantrips."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You learn the Mind Sliver and Sword Burst cantrips."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Primeval Doublet",
+            "source": "ranger - primeval guardian",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As a bonus action, you can shapeshift into an ent. This lasts until you end it as a bonus action or are knocked unconscious.",
+                        "The ent form makes the following modifications to your character:",
+                        "- You become Large, unless you were already larger.",
+                        "- All speeds you have become 5'.",
+                        "- You gain +5' reach.",
+                        "- You gain 1 temp HP at the start of each of your turns. When you revert, you lose any of this temp HP remaining."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once during each of your turns, you can deal +1d6 P dmg with a wep hit."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Monstrous Vest",
+            "source": "ranger - monster slayer",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As an action, choose a creature you can see within 60' of you. You learn all of their immunities, resistances, and vulnerabilities, unless they are hidden from divination magic. You can do this a number of times equal to your ability mod between long rests."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can designate a creature you can see within 60' of you as your prey. The first time each turn that you hit your prey with a wep atk, your wep deals +1d6 base dmg. They remain your prey until you finish a rest, or if you designate another creature as your prey."
                     ]
                 }
             ]

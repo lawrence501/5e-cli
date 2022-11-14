@@ -63,7 +63,7 @@
     {
         "name": "Dracotouched Summons",
         "target": "Powers that summon minions",
-        "description": "1/combat, as a bonus action, the minions breathe a cone of magical energy in a 15' cone, making a spell atk against all foes inside, dealing less dmg as $nonPhysType on a hit."
+        "description": "1/combat, as an action, the minions breathe a cone of magical energy in a 15' cone, making a spell atk against all foes inside, dealing less dmg as $nonPhysType on a hit."
     },
     {
         "name": "Destructive Summons",
@@ -592,7 +592,7 @@
     {
         "name": "Duplication",
         "target": "Powers that can deal dmg",
-        "description": "Whenever you use the power, it is used again at no additional cost, but its dmg is substantially reduced."
+        "description": "Whenever you use the power, it is used again at no additional cost, but its dmg is reduced."
     },
     {
         "name": "Reckless Power",
@@ -1086,7 +1086,7 @@
     {
         "name": "Malevolent Shredding",
         "target": "Powers with non-instantaneous durations",
-        "description": "For the power's duration, whenever you are hit, the offender is cursed with slightly reduced dmg res for the rest of the combat."
+        "description": "For the power's duration, whenever you are hit, the offender is cursed with barely reduced dmg res for the rest of the combat."
     },
     {
         "name": "Sacrificial Decay",
@@ -1390,5 +1390,246 @@
         "name": "Rebirth",
         "target": "Powers that summon minions which deal damage",
         "description": "Whenever the minions die, they are resummoned at the end of your next turn (after their turn would be). The minions deal less dmg."
+    },
+    {
+        "name": "Efficient Summoning",
+        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "description": "The power's cost is reduced by 1 step and the minions have +1 crit range, but the minions deal substantially less dmg."
+    },
+    {
+        "name": "Effective Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions deal slightly more dmg and have slightly more HP."
+    },
+    {
+        "name": "Sacrificial Shielding",
+        "target": "Powers that summon minions",
+        "description": "Whenever the minions die, you gain a substantial amount of temp HP."
+    },
+    {
+        "name": "Sacrificial Casting",
+        "target": "Powers that summon minions",
+        "description": "If one of the minions have died since your last turn, you deal substantially more spell dmg."
+    },
+    {
+        "name": "Sacrificial Energy",
+        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "description": "Whenever the minions die, you recover 1 unit of the power's cost."
+    },
+    {
+        "name": "Energised Summons",
+        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "description": "The minions deal substantially more dmg and have more HP, but the power's cost is increased by 1 step."
+    },
+    {
+        "name": "Favoured Summons",
+        "target": "Powers that have multiple static minion summoning options",
+        "description": "The first minion option has more HP, and the second 2 deal more dmg."
+    },
+    {
+        "name": "Armoured Summons",
+        "target": "Powers that have multiple static minion summoning options",
+        "description": "1/combat, as a bonus action, the first minion option can surround themselves with Bone Armour, gaining dmg res until the end of their next turn."
+    },
+    {
+        "name": "Charged Summons",
+        "target": "Powers that summon minions that deal damage",
+        "description": "The limited features of the minions have their cooldowns reduced by 1 step, and their buffs on themselves have double duration. The minions deal less dmg."
+    },
+    {
+        "name": "Generous Summons",
+        "target": "Powers that summon minions",
+        "description": "The buff powers that the minion can usually only target themselves with can now target any ally within 120' of them that they can see. The buffs have -1 effectiveness on non-minion creatures. Additionally, the minions deal more dmg."
+    },
+    {
+        "name": "Learning Summons",
+        "target": "Powers that summon minions",
+        "description": "If one of the minions have died since your last turn, using the power grants the newly-summoned minion substantially more max HP."
+    },
+    {
+        "name": "Favoured Power",
+        "target": "Powers that have multiple static minion summoning options",
+        "description": "The second minion option is disabled, but the minions deal more dmg."
+    },
+    {
+        "name": "Massive Summons",
+        "target": "Powers that summon minions",
+        "description": "The minions deal more dmg and are 1 size step larger, but have less max HP."
+    },
+    {
+        "name": "Alacritous Summons",
+        "target": "Powers that summon minions that deal damage",
+        "description": "The minions' powers have their usage times reduced by 1 step and they have +10' speed, but they deal substantially less dmg."
+    },
+    {
+        "name": "Cruel Summons",
+        "target": "Powers that have multiple static minion summoning options",
+        "description": "As an action, the second minion option can shoot an energy bolt at a creature within 120', making a wep atk that deals substantially less $physType dmg and substantially less $nonPhysType dmg and inflicts a DoT dealing barely any $nonPhysType dmg, stacking until DEX save."
+    },
+    {
+        "name": "Splitting Summons",
+        "target": "Powers that summon minions with single-proj powers which have cooldowns",
+        "description": "The minions' single-proj powers fire an additional proj a 45 degree angle of your choice away from the original and deal more dmg, but their cooldowns are increased by 1 step."
+    },
+    {
+        "name": "Keen Favour",
+        "target": "Powers that have multiple static minion summoning options",
+        "description": "The minions have +1 crit range, but the first minion option deals less dmg and have less max HP."
+    },
+    {
+        "name": "Powerful Favour",
+        "target": "Powers that have multiple static minion summoning options",
+        "description": "The first minion option is disabled, but the minions deal more dmg."
+    },
+    {
+        "name": "Shifting Rejuvenation",
+        "target": "Powers that shapeshift into forms that can deal damage",
+        "description": "The shapeshift gains barely any passive regen and deals more DoT dmg, but deals less hit dmg.",
+        "meta": "Reaper Form"
+    },
+    {
+        "name": "Tethered Shifting",
+        "target": "Powers that shapeshift",
+        "description": "1/rnd, when the shapeshift is hit, it attempts to attach a blood tether to the offender by making a spell atk. On a hit, the tether deals less $physType dmg and the shapeshift heals barely any HP."
+    },
+    {
+        "name": "Armoured Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift gains a slight amount of phys res."
+    },
+    {
+        "name": "Resistant Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift gains $nonPhysType res and $nonPhysType res."
+    },
+    {
+        "name": "Lifebound Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift gains a slight amount of incoming healing."
+    },
+    {
+        "name": "Shifting Restoration",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift gains a slight amount of outgoing healing and heals barely any HP on hit."
+    },
+    {
+        "name": "Shielded Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift gains a slight amount of incoming temp HP and gains a slight amount of temp HP on hit."
+    },
+    {
+        "name": "Shifting Flagellation",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift hits its minions with a charged wep atk, it heals HP."
+    },
+    {
+        "name": "Shifting Empowerment",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift starts its turn, it gains a slight amount of spell dmg until it reverts."
+    },
+    {
+        "name": "Hyperpresent Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Effects that would trigger at the start of the shapeshift's turns also trigger at the end of its turns."
+    },
+    {
+        "name": "Shifting Decay",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift scores a KB with a charged wep atk, it releases bolts of energy that seek out all foes within 120' of it. Each bolt inflicts a DoT on its target dealing slight $nonPhysType dmg, stacking until CHA save."
+    },
+    {
+        "name": "Cruel Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's charged wep atks deal more dmg vs bloodied targets."
+    },
+    {
+        "name": "Charged Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's melee wep atks have their cooldowns reduced by 1 step, but they deal less dmg."
+    },
+    {
+        "name": "Blinking Shifting",
+        "target": "Powers that shapeshift into forms which have teleports with cooldowns",
+        "description": "The shapeshift's teleports have their usage time reduced by 1 step and travel farther, but their cooldowns are increased by 1 step."
+    },
+    {
+        "name": "Shifting Energy",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift deals a slight amount of additional $nonPhysType dmg with its hits. This bonus is doubled for charged wep atks."
+    },
+    {
+        "name": "Destructive Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift deals slightly more crit dmg. This bonus is doubled for charged wep atks."
+    },
+    {
+        "name": "Malevolent Shifting",
+        "target": "Powers that shapeshift into forms which can deal damage",
+        "description": "Whenever the shapeshift hits, the target is cursed with barely reduced dmg res for the combat. The curse's effect is doubled when it is triggered from a charged wep hit. Additionally, the shapeshift deals less dmg."
+    },
+    {
+        "name": "Blunt Decay",
+        "target": "Powers that shapeshift into forms which can make melee wep attacks",
+        "description": "The shapeshift's charged wep hits inflict a DoT dealing $nonPhysType dmg, stacking until CON save, but have -1 crit range."
+    },
+    {
+        "name": "Enduring Decay",
+        "target": "Powers that shapeshift into forms which can deal damage",
+        "description": "The shapeshift's charged wep hits inflict a DoT dealing slight $nonPhysType dmg, stacking until CON save. This DoT's ongoing debuff DC has a +1 bonus. Additionally, the shapeshift deals less dmg."
+    },
+    {
+        "name": "Bursting Decay",
+        "target": "Powers that shapeshift into forms which can deal damage",
+        "description": "Whenever you use the power, all adj foes are inflicted with a DoT dealing barley any $nonPhysType dmg, stacking until CON save. Additionally, the shapeshift's hits inflict a DoT dealing slight $nonPhysType dmg, stacking until CON save. The shapeshift deals less dmg."
+    },
+    {
+        "name": "Reaching Shifting",
+        "target": "Powers that shapeshift into forms which can deal damage",
+        "description": "The shapeshift's charged wep atks have +5' reach and it heals a slight amount of HP on charged wep hit, but it deals less dmg."
+    },
+    {
+        "name": "Feasting Shifting",
+        "target": "Powers that shapeshift into forms which have teleports with cooldowns",
+        "description": "Whenever the shapeshift scores a KB, it heals a slight amount of HP. This bonus is doubled for charged wep KBs."
+    },
+    {
+        "name": "Desperate Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift deals more dmg while bloodied."
+    },
+    {
+        "name": "Shifting Reach",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift's charged wep atks have +5' reach."
+    },
+    {
+        "name": "Alacritous Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift makes a charged wep atk while bloodied, it gains +10' sp until the end of its next turn."
+    },
+    {
+        "name": "Reckless Shifting",
+        "target": "Powers that shapeshift",
+        "description": "The shapeshift deals more dmg and has +1 crit range, but on a KB it loses HP."
+    },
+    {
+        "name": "Shifting Shielding",
+        "target": "Powers that shapeshift",
+        "description": "Whenever you use the power, the resulting shapeshift gains temp HP."
+    },
+    {
+        "name": "Undead Shifting",
+        "target": "Powers that shapeshift",
+        "description": "Whenever you use the power, you summon a Skeleton, a CR 1/8 undead minion with a 50% chance each (on summoning) to either have a melee or ranged (120') atk dealing $physType dmg. You can only have 1 of this minion at a time."
+    },
+    {
+        "name": "Shielded Reversion",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift reverts, you gain temp HP."
+    },
+    {
+        "name": "Alacritous Feasting [next - soul for a soul]",
+        "target": "Powers that shapeshift",
+        "description": "Whenever the shapeshift scores a KB, it gains +10' sp for the combat."
     }
 ]

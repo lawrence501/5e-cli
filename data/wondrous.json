@@ -358,7 +358,7 @@
         },
         {
             "name": "Sending Wind",
-            "description": "This invisible orb is woven of Caeloon planarite in windy, gaseous form. The sphere can be carried in your palm, or it can be left to float at any location, invisible except to those who know to look for it. Each orb is attuned to up to five tokens, which usually take the form of metal or wooden feathers. While holding one of these tokens, you can cast sending without components to one or more creatures carrying another token, as long as both you and your recipients are within thirty miles of the orb. The message takes time to be delivered, carried by an unseen breeze that travels at twenty miles an hour. The recipient can choose to send a reply, which also takes time to fly back. Each token can cast sending this way no more than once per hour."
+            "description": "This invisible orb is woven of planarite from the Elemental Plane of Air in windy, gaseous form. The sphere can be carried in your palm, or it can be left to float at any location, invisible except to those who know to look for it. Each orb is attuned to up to five tokens, which usually take the form of metal or wooden feathers. While holding one of these tokens, you can cast sending without components to one or more creatures carrying another token, as long as both you and your recipients are within thirty miles of the orb. The message takes time to be delivered, carried by an unseen breeze that travels at twenty miles an hour. The recipient can choose to send a reply, which also takes time to fly back. Each token can cast sending this way no more than once per hour."
         },
         {
             "name": "Emerald Pen",
@@ -389,8 +389,12 @@
             "description": "You can use an action to throw this green vial at a point within 20'. The vial shatters on impact and creates a 5'-radius cloud of poison gas. A creature that starts its turn in the cloud must succeed on a DC 12 CON save or take 2d6 psn dmg and become poisoned until the end of its next turn. The area inside the cloud is lightly obscured. The cloud remains for 1min or until a strong wind disperses it."
         },
         {
-            "name": "Reloader Gremlin [LAST - DDG]",
+            "name": "Reloader Gremlin",
             "description": "A tiny, ethereal gremlin squats motionless in this silver picture frame, which from a distance appears to contain a painting of the gremlin. The gremlin watches a particular device or mechanism. 1min after the device is triggered, the gremlin emerges from its frame, performs whatever actions are necessary to reset the device, and returns to its frame. The gremlin is ethereal and unable to interact with objs and creatures on the Material Plane other than its frame and the device it watches."
+        },
+        {
+            "name": "Skywing",
+            "description": "Folding into a specially designed backpack, a skywing is part mechanical, part magical. The apparatus can be deployed as a bonus action and gives you a glide speed of 20', but reduces your walking speed by half. Gliding allows you to move horizontally 1 foot for every 1 foot it descends, falling if you move less than 5' each turn. In addition, you can spend an action to make a DEX check. On a success, you gain 5' of height. The DC of this check is set by the DM based on the weather conditions."
         }
     ],
     "rare": [

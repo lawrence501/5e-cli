@@ -198,11 +198,11 @@
     "target": [
         "yourself",
         "all creatures within 60' of you",
-        "all other creatures within 60' of you, except you",
+        "all other creatures within 60' of you",
         "all foes within 60' of you",
         "all allies within 60' of you",
         "all adj creatures",
-        "all adj creatures, except you",
+        "all other adj creatures",
         "all adj foes",
         "all adj allies",
         "the creature closest to you (break ties randomly)",

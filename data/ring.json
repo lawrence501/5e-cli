@@ -44,7 +44,8 @@
             "effects": [
                 "You have 50% resistance to cold damage.",
                 "You ignore difficult terrain from ice/snow.",
-                "You are unharmed by extreme cold climates."
+                "You are unharmed by extreme cold climates.",
+                "You ignore the penalties of cold weather on your journey activities."
             ]
         },
         {
@@ -308,6 +309,14 @@
                 "At the end of each LR, you can pray to a Xiloan to receive and store in the ring their signature spell for that day: The Cloud (Ice Knife), Aroshi (Chaos Bolt), P'all (Find Familiar), Mensis (Searing Equation), Gawdian (Divine Favor).",
                 "The ring has 3 charges, 1d3 of which are recovered after a long rest. You can expend 1 charge to cast the spell stored in the ring."
             ]
+        },
+        {
+            "name": "Voyager Ring",
+            "effects": [
+                "+1 spell AB.",
+                "The ring has 10 charges, 1d6 + 4 of which are recovered after a long rest. If the last charge is expended, roll a d20. On a 1, the ring vanishes forever.",
+                "As an action, you can expend charges to cast one of the following spells, using your own spell save DC: Banishment (4 charges), Blink (3 charges), Misty Step (2 charges), Passwall (5 charges), or Teleport (7 charges)."
+            ]
         }
     ],
     "very rare": [
@@ -428,6 +437,19 @@
             "effects": [
                 "+2 STR."
             ]
+        },
+        {
+            "name": "Fortitude",
+            "effects": [
+                "+2 CON."
+            ]
+        },
+        {
+            "name": "Spellguard Ring",
+            "effects": [
+                "You have adv on magical saves.",
+                "Incoming spell atks have disadv."
+            ]
         }
     ],
     "legendary": [
@@ -513,6 +535,14 @@
             "effects": [
                 "As a bonus action 1/LR, you can cast any spell from your spell list without expending a spell slot or using any verbal or somatic component.",
                 "[CURSE] Vecna watches anyone wearing this ring. He can write cryptic msgs on the inside of its band, which appear at midnight and fade after being read."
+            ]
+        },
+        {
+            "name": "Anulus Infinitus",
+            "effects": [
+                "The following spells are added to your spell list: https://5e.tools/items.html#grimoire%20infinitus%20(awakened)_egw",
+                "You can have 1 [L11+: 2] additional spell prepared.",
+                "L11+: You have adv on magical saves."
             ]
         }
     ],
@@ -654,6 +684,26 @@
                 "On wep KB vs humanoid, Ragazuu remembers the target's appearance until the sign is attuned to a new creature.",
                 "As an action, you can change your form to match any humanoid Ragazuu remembers. You can revert as an action, and you do so when you die.",
                 "L11+: As an action, you can cast one of the following spells (DC 15, 1/LR each): Fabricate, Hallucinatory Terrain, Majro Image, or Phantasmal Killer."
+            ]
+        },
+        {
+            "name": "Ruin's Wake",
+            "effects": [
+                "The ring is a sentient chaotic evil item with 20 INT, 16 WIS, and 22 CHA. It has hearing and darkvision of 120', can communicate telepathically with its wearer, and can speak/read/understand Abyssal, Common, and Orcish.",
+                "A slaughter-loving Balor demon named Yarrowish lives within the ring. It desires only to draw blood and pushes its wearer to solve problems with violence.",
+                "You gain proficiency in Abyssal and Orcish.",
+                "+1d8 P [L11+: +2d8] dmg to your wep hits.",
+                "1/SR, as a reaction when you are hit by a melee atk, you can make a melee wep atk with adv against the atker.",
+                "L11+: 1/LR, when you make a thrown wep atk, you can say 'ruina' to transform the proj into a bolt of lightning, forming a line that extends to a creature you can see within 120' of you. Each creature in the line must make a DC 15 DEX save, taking 8d6 light dmg on a failed save, or half as much dmg on a success."
+            ]
+        },
+        {
+            "name": "Teeth of Ronald Gascon",
+            "effects": [
+                "As an action, you can pull a tooth from the ring, rolling 1d20 on the following chart: https://5e.tools/items.html#teeth%20of%20dahlver-nar_tce . Each tooth can only be pulled once (round down when rolling a missing tooth).",
+                "You may sow any tooth you pull from the ring. To do so, place it on the ground in an empty space within your reach, or throw it into an empty space within 10' of you in a body of water that is at least 50'x50'. Upon doing so, the tooth burrows into the ground or vanishes into the water, leaving no hole behind. The creatures in the Creatures Summoned column appear in an empty space as close to where the tooth was sown as possible. These are allies to you, speak all languages you speak, and linger for 10mins before disappearing, unless otherwise noted.",
+                "Alternatively, you may implant any tooth you pull from the ring. To do so, place it in your mouth, causing one of your own teeth to fall out, and the new one takes its place, resizing to fit your mouth. Once implanted, you gain the effect from the Implanted Effect column. The tooth cannot be removed voluntarily. If removed after your death, the tooth vanishes. You can have a maximum number of the teeth implanted at once equal to 1 + your CON mod. If exceeded, the new tooth replaces one of the previous teeth randomly.",
+                "Once all the teeth have been pulled from the ring, it vanishes. The ring then reforms will all its teeth in a random location at a random point on the Material Plane."
             ]
         }
     ]

@@ -231,7 +231,7 @@ var gem = func() error {
 	for true {
 		chosen = gems[rand.Intn(len(gems))]
 		if slices.Contains(chosen.Tags, tag) {
-			log.Printf("Gem affix: %s", chosen.Description)
+			log.Printf("Gem affix: %s", processMod(chosen.Description))
 			return nil
 		}
 	}

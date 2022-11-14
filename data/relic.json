@@ -1799,6 +1799,150 @@
                     "upgrade": "+1/4"
                 }
             ]
+        },
+        {
+            "name": "Suspended Rule",
+            "startingMods": [
+                {
+                    "description": "your cone AoEs are converted to pers areas of diameter equal to the cone's length, created with at least one of the area's edges bordering your space",
+                    "pointValue": "1",
+                    "upgrade": "+1 pers area dmg/1"
+                },
+                {
+                    "description": "your pers areas move 5' away from where you were when you created them at the start of each of your turns",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "at the start of each of your turns, all foes are pushed 5' towards your pers area closest to them (targets choose tie breaks)",
+                    "pointValue": "4",
+                    "upgrade": "+5'/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 pers area dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +5' pers area AoE sizes",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "3. +1 to your pers area DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 pers area crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. your first wep hit each turn deals +1 dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. on sphere AoE hit, target is inflicted with 1 fire DoT, stacking until DEX save",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 wep dmg during your turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 item proc dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +2 wep dmg while adj to one of your pers areas",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 religion",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "The Chief",
+            "startingMods": [
+                {
+                    "description": "on turn start, a chained hookspear shoots out from your body, make a ranged wep atk against a foes in your LoS and within 120' of you, dealing 1d4 P dmg and pushing them 5' toward you",
+                    "pointValue": "7",
+                    "upgrade": "+1 dmg/1 OR +5'/2"
+                },
+                {
+                    "description": "+2 dmg with axe weps",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 CHA",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 item proc dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 performance",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 AB with axe weps",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 P dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. all of your wep atks count as if they were using axe weps",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg with axe weps/1"
+                },
+                {
+                    "description": "6. +1 decep",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 animal handling for placating beasts",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 intim",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 crit range with axe weps",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. +1 crit dice with axe weps",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
@@ -3598,6 +3742,222 @@
                 {
                     "description": "10. +2 cone AoE dmg",
                     "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Swamp Lily's Petal",
+            "startingMods": [
+                {
+                    "description": "as an action, you can cast Detect Thoughts, but can only learn a creature's favourite food from their thoughts.",
+                    "pointValue": "6",
+                    "upgrade": "+1 dmg res vs creatures you know the favourite food of/1"
+                },
+                {
+                    "description": "+1 CON",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 AC while unarmoured",
+                    "pointValue": "5",
+                    "upgrade": "+1/5"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 psn abs",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 to debuff saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. +10' tremorsense",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "4. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +5' reach",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "6. +1 B dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. on wep hit, target makes CON save or the hit deals +1d4 psn dmg, else half",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 psn dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 to your debuff DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. +1 to your debuff DCs vs foes who you know the favourite foods of",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Pajarraco",
+            "startingMods": [
+                {
+                    "description": "+1 to debuff saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "while adj to [Adrian's char], +2 dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 init",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. -1 1st lvl spell slot; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 slot and 4pts distributed/1 OR +1 lvl and 4pts distributed/1"
+                },
+                {
+                    "description": "2. +1 B dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. -1 wep dmg; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "5. 1/combat, on sub wep hit, target is cured of 1 random debuff",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. +1 to your debuff DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "7. on wep hit, target gets -1 wep dmg res for combat",
+                    "pointValue": "2",
+                    "upgrade": "-1/2"
+                },
+                {
+                    "description": "8. +2 B res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. on succ save vs debuff, heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 to debuff saves vs creatures behind you in the turn tracker",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ]
+        },
+        {
+            "name": "The Immortal Will",
+            "startingMods": [
+                {
+                    "description": "+1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 non-phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+5 max HP",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. you always have an untargetable aberration minion that can do nothing except grant you +1 to debuff saves during odd turns",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. you always have an untargetable aberration minion that can do nothing except grant you +1 dmg res during odd turns",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on block, recover 1 spell slot lvl",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on block, recover 1 exertion",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +2 dmg with effects you are concentrating on",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 WIS",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "7. +1 to WIS saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "9. +1 to history for recalling info you didn't personally experience",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. on init, recover 2 spell slot lvls",
+                    "pointValue": "3",
                     "upgrade": "+1/1"
                 }
             ]

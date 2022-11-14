@@ -628,7 +628,7 @@
     {
         "description": "+1 dmg res while bloodied",
         "upgrade": "+1/1",
-        "tags": ["phys res", "non-phys res"]
+        "tags": ["phys res", "non-phys res", "hp"]
     },
     {
         "description": "+1 phys res",
@@ -1768,5 +1768,121 @@
         "upgrade": "+1/1",
         "tags": ["minion off"],
         "meta": "acolyte - DONE"
+    },
+    {
+        "description": "+1 global dmg while bloodied",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "spell dmg", "hp"]
+    },
+    {
+        "description": "if your {ability} is 15+, +1 outgoing healing",
+        "upgrade": "+1/1",
+        "tags": ["ability", "hp"]
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "ignore {type} res",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+1 non-phys res",
+        "upgrade": "+1/2",
+        "tags": ["non-phys res"]
+    },
+    {
+        "description": "+1 dmg res vs sub hits",
+        "upgrade": "+1/1",
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "description": "+1 to debuff saves",
+        "upgrade": "+1/4",
+        "tags": ["save"]
+    },
+    {
+        "description": "+1 $hitForm AC",
+        "upgrade": "+1/4",
+        "tags": ["ac"]
+    },
+    {
+        "description": "on sub melee hit, target is inflicted with 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg", "dot"]
+    },
+    {
+        "description": "on sub melee hit, a random adj foe is blasted with energy, a spell atk dealing 1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 outgoing healing",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "1/turn, on block, heal 2 HP",
+        "upgrade": "+1/1",
+        "tags": ["ac", "hp"],
+        "meta": "paladin - holy symbol"
+    },
+    {
+        "description": "on sub hit, target is blinded until end of your next turn",
+        "upgrade": "+1 global AB vs debuffed targets/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "+1 dmg res while bloodied",
+        "upgrade": "+1/1",
+        "tags": ["phys res", "non-phys res", "hp"]
+    },
+    {
+        "description": "while holding a shield, +1d4 {type} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["shield", "type dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "if you've scored a melee hit since start of your last turn, +1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "on melee crit, all adj foes are blasted with energy, glyphic atks dealing 1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee", "crit", "type dmg"]
+    },
+    {
+        "description": "+2 {type} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "1/turn, on block, adj allies heal 1 HP",
+        "upgrade": "+1/1",
+        "tags": ["hp", "ac"]
     }
 ]
