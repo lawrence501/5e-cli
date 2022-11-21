@@ -1,7 +1,7 @@
 [
     {
         "name": "The Fool",
-        "description": "The item has no base modifier, but is Levellable. For each improvement to the base modifier in this reading, the item starts 1 level higher."
+        "description": "The item has no base modifier, but is Levellable. For each improvement to the base modifier in this reading, the item starts with +1 upgrade point."
     },
     {
         "name": "The Magician",

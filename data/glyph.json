@@ -825,9 +825,9 @@
             "4. All chaos chasers are brothers and sisters, some moreso than others. Your adventures chasing chaos have earned you a contact. You can call upon them for information about new hauls, deals, or for a favour, though they will expect you to pay them back in kind.",
             "5. You deal in the trade of magic, the scavenging of items from the wreckage of destruction. As such, you have become used to needing to heal more than the average person. Your maximum hit dice increases by 2.",
             "6. Quick Breather: 1/SR; bonus action; As a chaos chaser, you are always ready to heal yourself. You can consume and heal from any number of your remaining hit dice.",
-            "7. Improvisation: 1/LR; bonus action; You have developed a knack for thinking on your feet and experimenting on the fly with wondrous items. You have learned how to, with some effort, replace a blessing with a new one that just might be a bit more helpful. You replace a found blessing of rare rarity or higher with a new random one of 1 rarity lower.",
+            "7. Improvisation: 1/LR; bonus action; You have developed a knack for thinking on your feet and experimenting on the fly with wondrous items. You have learned how to, with some effort, replace a wondrous item with a new one that just might be a bit more helpful. You replace a found wondrous item of rare rarity or higher with a new random one of 1 rarity lower.",
             "8. Sometimes chasing chaos gets ugly and you need to lay low and shelter from the storm, or sometimes get as far away as possible from some dangerous horror your journeys have whipped up. You gain an expertise die in Seek Shelter journey activities, Stealth checks for hiding, and Survival. You also increase your speed by 5'.",
-            "9. You have had so many close calls with chaos, you have actually learned how to tap into the latent instability. You can choose any number of hit dice to gain at the end of a long rest without limit, but every time you use one while you have more than your usual limit, there is a 10% chance per hit die above your limit you have remaining for it to detonate and instead deal its healing as necrotic damage to you and all creatures within 30' of you.",
+            "9. You have had so many close calls with chaos, you have actually learned how to tap into latent instability. You can choose any number of hit dice to gain at the end of a long rest without limit, but every time you use one while you have more than your usual limit, there is a 10% chance per hit die above your limit you have remaining for it to detonate and instead deal its healing as necrotic damage to you and all creatures within 30' of you.",
             "10. The damage of the shrapnel hurricane you can accidentally summon is reduced to 2d8 + your level for creatures of your choice, but remains the same for any others."
         ]
     },
@@ -1088,7 +1088,7 @@
         ]
     },
     {
-        "name": "Never Says Die [LAST]",
+        "name": "Never Says Die",
         "description": "refusing to die",
         "tiers": [
             "1. Any healing you receive on initiative roll or at the end of combats is converted into passive regeneration.",
@@ -1107,13 +1107,13 @@
         "name": "Makes Flesh a Canvas",
         "description": "magical tattoo artistry",
         "tiers": [
-            "1. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
+            "1. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification. In addition, you can take the Busk journey activity with Sleight of Hand by selling magical body art.",
             "2. You create a tattoo or scar upon a subject during a time of change for them, reflecting their passage into a new way of life. Choose a skill when making this modification. The subject gains an expertise die on that skill for so long as they carry the art, or until they gain a new mark of passage. Once a new one has been completed, the last one loses its power.",
             "3. Mark of Membership: At-will; free action; You place body art upon your subject, marking them as beholden to others with the same mark, and thereby protected. Any 2 creatures who bear the same mark of membership may not affect each other with harmful spells. Characters may have, at most, 3 marks of membership, with any beyond that being simply ornamental.",
             "4. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
-            "5. Motto: 1/SR; free action; You inscribe words into the flesh, making those words powerful. Once per long rest, when the subject acts within the spirit of their motto, they may enjoy advantage on a related roll. A person may have more than one motto, but they may only gain the benefit of one between 2 long rests.",
+            "5. Motto: 1/SR; free action; You inscribe words into the flesh, making those words powerful. Once per long rest, when the subject acts within the spirit of their motto, they may gain advantage on a related roll. A creature may only have one motto.",
             "6. Emblem: 1/LR; free action; You create a work of art upon the subject's flesh that serves as an expression of who they truly are. The subject gains the effects of a random beneficial mutation, without the aesthetic aspects. A creature may only have 1 emblem at any given time, with new emblems replacing the power of old ones.",
-            "7. Permanent Blessing: 1/week; free action; You take a blessing that just occurred and impart it in the flesh. For the rest of their life the subject may use this blessing as a bonus action. The cooldown on this usage is based on the specific blessing. This blessing reduces the target's maximum hit dice by 1. A person may only have one permanent blessing at a time - a new one destroys the power of the old one.",
+            "7. Permanent Wonder: 1/week; free action; You take a wondrous item and impart its magical essence in the flesh. For the rest of their life, the subject may use this wondrous item as a bonus action. The cooldown on this usage is based on the original item's usage limits. While a creature has one of these tattoos, they have -1 maximum hit dice. A person may only have one of these tattoos at a time - a new one destroys the power of the old one.",
             "8. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
             "9. Your T2 marks grant an additional expertise die.",
             "10. While a creature is adjacent to another creature with the same mark from your Mark of Membership feature, they add 2 to their AC."
@@ -1123,14 +1123,14 @@
         "name": "Augments Flesh with Grafts",
         "description": "grafting objects on your body",
         "tiers": [
-            "1. You gain an expertise die in medicine and become better at withstanding pain. You can perform surgeries on yourself, remaining conscious while you do so.",
-            "2. You use your knowledge to surgically attach biological parts from other creatures to your body, giving you a passive feature like one of the creature's. For the graft to work, you must make a medicine check with a DC determined by a combination of the creature's CR and how humanoid its body structure is. The grafting surgery takes 1 hour to complete and you can only have 1 graft at a time. Whenever a combat ends, you have a 10% chance to lose the graft.",
+            "1. You gain an expertise die in Medicine and become better at withstanding pain. You can perform surgeries on yourself, remaining conscious while you do so.",
+            "2. You use your knowledge to surgically attach biological parts from the corpses of other creatures to your body, giving you a passive feature like one of the creature's. For the graft to work, you must make a Medicine check with a DC determined by 3 times the creature's CR, +5 if is body structure is not humanoid-esque. The grafting surgery takes 1 hour to complete and you can only have 1 graft at a time. Whenever a combat ends, you have a 10% chance to lose the graft. You can spend another hour to remove any graft from your body.",
             "3. Augment Graft: 2/min; free action; When you utilise your grafted feature, you can enhance its potency.",
             "4. You gain +2 to CON.",
-            "5. Recharge Graft: 2/min; bonus action; You regraft a body part onto you that was lost in the past 10 minutes. You must touch the graft, permanently reduce your max HP by 1 (only if successful), and succeed at a medicine check (DC equal to 3x the original creature's CR) to recharge it, otherwise the graft remains spent and useless.",
-            "6. You can surgically graft relics to your body. These fused relics function as usual, but gain a free level that does not contribute toward their maximum level.",
+            "5. Recharge Graft: 2/min; bonus action; You regraft a body part onto you that was lost in the past 10 minutes. You must touch the graft, permanently reduce your max HP by 1 (only if successful), and succeed at a medicine check (DC equal to 3 times the original creature's CR) to reattach it, otherwise the graft remains lost and useless.",
+            "6. You can surgically graft relics to your body. These fused relics function as usual, but gain an ephemeral level.",
             "7. You can have up to 2 grafted parts at once.",
-            "8. You have permanently altered your body to make it faster and easier to add or remove grafts. You gain advantage on surgical medicine checks, and adding or removing a graft takes only 1 minute instead of an hour.",
+            "8. You have permanently altered your body to make it faster and easier to add or remove grafts. You gain advantage on surgical Medicine checks, and adding or removing a graft takes only 1 minute instead of an hour.",
             "9. By upgrading your nervous and immune systems, you gain an expertise die in saving throws.",
             "10. Perfecting Operation: once; 8hrs; You conduct a surgical procedure on yourself where you upgrade or replace most of your internal organs with new ones, gaining +2 to 3 ability scores of your choice."
         ]
@@ -1139,14 +1139,14 @@
         "name": "Brings Sculptures to Life",
         "description": "animating sculptures",
         "tiers": [
-            "1. You gain an expertise die in sculpture-related skill checks and history checks related to fine art.",
-            "2. You animate a humanoid sculpture, creating a pocket-sized creature no larger than a human head. The servant lasts for as long as you wish and may perform simple tasks. It is a CR 1/2 minion, and can understand you when you command it, but it cannot make effective attacks in combat. You may only ever have 1 such servant - creating a new one destroys the magic in the old one.",
+            "1. You gain an expertise die in sculpture-related skill checks and History checks related to fine art.",
+            "2. You animate part of a humanoid sculpture, creating a pocket-sized creature no larger than a human head. The servant lasts for as long as you wish and may perform simple tasks. It is a CR 1 minion, and can understand you when you command it, but it cannot make effective attacks in combat. You may only ever have 1 such servant - creating a new one destroys the magic in the old one.",
             "3. Move Structure: 2/min; bonus action; You are able to briefly animate a section of wall or load-bearing beam, causing it to shake and buckle. In this way you can weaken or even destroy sections of buildings or caves. This power only works on large pieces of stone, clay, crystal, or metal.",
-            "4. You gain an expertise die in sculpture-related skill checks and history checks related to fine art.",
+            "4. You gain an expertise die in sculpture-related skill checks and History checks related to fine art.",
             "5. Golem: 1/SR; free action; You bring to life a humanoid sculpture, between 1 and 5 cubic metres in volume. The golem is a CR 1 minion with +2 AC which follows you and obeys your orders, but that cannot speak or act with autonomy. The golem moves rather slowly (5' speed), and overworld travel speed can be dramatically reduced if the golem is not carried in a cart or other conveyance. You may only have 1 golem at a time.",
             "6. Inscription: 1/LR; free action; By inscribing arcane symbols into the forehead of your golem or animated servant, you are able to grant it special powers. It gains the effects, but no aesthetic qualities, of a random beneficial mutation. Any given animated creature may only benefit from one inscription at a time.",
             "7. You may now construct a golem of any size, so long as you have the raw materials to do so. If you make your golem huge (10 or more cubmic metres of material), it will be up to CR 2 with +3 AC and a speed of 30'. Otherwise its statistics are those described in your Golem feature.",
-            "8. You gain an expertise die in sculpture-related skill checks and history checks related to fine art.",
+            "8. You gain an expertise die in sculpture-related skill checks and History checks related to fine art.",
             "9. Your animated servants can now make attacks.",
             "10. Your Move Structure feature can now be used at-will and you can now choose to either weaken or destroy the target."
         ]
@@ -1157,12 +1157,12 @@
         "tiers": [
             "1. Abundance: 1/week; bonus action; You create a quantity of water and food. Enough to nourish you and the rest of your party, curing them each of 1 level of fatigue. Somewhere nearby all plant and animal life in a 15' cube is poisoned or otherwise harmed by the aftereffects of your power.",
             "2. You gain an expertise die in Deception.",
-            "3. You gain an expertise die in Survival checks to scavenge monster parts.",
+            "3. You gain an expertise die in Survival checks to harvest organs.",
             "4. Depletion: 1/min; bonus action; Make an attack against a creature you see within 120' of you. On a hit, it is drained of life by terraformation magic, taking 1d10 + your level necrotic damage.",
             "5. Oasis: 1/week; bonus action; You become surrounded by shade, water, and sources of food created by your terraformation magic. This magic draws the raw materials for this small, 15' cube oasis from all of the plants and small or smaller creatures within 120' of the site. The food and water are enough to nourish up to 20 creatures, curing each of them of 1 level of fatigue. These portions cannot be removed from the oasis.",
-            "6. Forbidden Fruits: 1/LR; bonus action; You turn a corpse or carcass of a creature of CR 3 or higher into a biologically-based healing potion of tier equal to the creature's CR.",
+            "6. Forbidden Fruits: 1/LR; bonus action; You turn a corpse of a creature of CR 3 or higher into a biologically-based healing potion of tier equal to half the creature's CR.",
             "7. Devil's Deal: 1/week; bonus action; With a wave of your hand you alter the landscape of a region, both for good and ill. Up to 2 square kilometres of desolate land may be converted into a verdant region, abundant with life that lasts for one month. However, an equivalent amount of land within view must be made poisoned and ruined, never again viable for vegetation.",
-            "8. The food created with your Abundance feature now cures 2 levels of fatigue.",
+            "8. The food created with your Abundance feature now cures up to 2 levels of fatigue.",
             "9. You gain an expertise die in Deception.",
             "10. You gain a d6 expertise die in Survival checks to scavenge monster parts."
         ]
@@ -1171,16 +1171,16 @@
         "name": "Builds Tomorrow",
         "description": "crafting",
         "tiers": [
-            "1. You gain prof/+2 in a craft of your choice.",
-            "2. You gain +1 to magic crafting table rolls for each of your levels in the craft.",
-            "3. You instantly gain 300gp.",
-            "4. Customise Creation: At-will; free action; You can spend 2 maximum hit points in order to increase your tier by 1 on the magic crafting table while crafting.",
+            "1. You gain an expertise die in a craft of your choice.",
+            "2. You gain a bonus to magic equipment table rolls equal to half your level in the craft.",
+            "3. You instantly gain 60gp.",
+            "4. Customise Creation: At-will; free action; You can permanently reduce your maximum hit points by 2 in order to increase your tier by 1 on the magic equipment table while crafting.",
             "5. Disable Magic: 1/min; bonus action; With a few deft touches, you infuse a magical object or construct of CR 1 or lower with conflicting properties. The target is destroyed or disabled for at least 1 minute, depending on its size and complexity.",
-            "6. Improvised Repair: 1/LR; bonus action; When a consumeable is consumed, you can temporarily restore it with just 1d4 rounds of tinkering. Once an object has benefited from this feature once, it cannot be restored again in the same manner.",
-            "7. You have advantage on crafting checks.",
-            "8. Your Customise Creation feature now increases your magic crafting table tier by 2.",
-            "9. When you use your Customise Creation feature, you can replace any number of tier increases it grants with additional points to be allocated on the resultant item.",
-            "10. Your Customise Creation feature now increases your magic crafting table tier by 3."
+            "6. Improvised Repair: 1/LR; 1d4 rnds; When a wondrous item is consumed, you can temporarily restore it with just 1d4 rounds of tinkering. Once an object has benefited from this feature once, it cannot be restored again in the same manner.",
+            "7. You have advantage on crafting creation checks.",
+            "8. Your Customise Creation feature now increases your magic equipment table tier by 2.",
+            "9. When you use your Customise Creation feature, you can replace any number of tier increases it grants with additional upgrade points to be allocated on the resultant item.",
+            "10. Your Customise Creation feature now increases your magic equipment table tier by 3."
         ]
     },
     {
@@ -1188,12 +1188,12 @@
         "description": "understanding the nature of sentience",
         "tiers": [
             "1. You open yourself up to your own flaws. You heal 1 HP whenever you fail any non-trivial d20 roll.",
-            "2. Hand on the Wall: 2/min; free action; You rely on your training and insights to guide you through a tough situation, granting you advantage on a task that involves your Wisdom, such as casting a Wisdom-based spell or making a Wisdom saving throw.",
+            "2. Hand on the Wall: 2/min; free action; You rely on your training and insights to guide you through a tough situation, granting you advantage on a task that involves your Wisdom, such as making a Wisdom-based attack or making a Wisdom saving throw.",
             "3. T1 now heals 2 HP instead, but on doing so your inner demons get the better of you, forcing you to succumb to a base emotion for the next hour: roll a d6, 1-2. temptation, 3-4. anger, 5-6. sloth. Only one of these can be active at a time, though you can still continue to heal in this way.",
             "4. Echoing Corridors: 1/SR; bonus action; For the next 10 minutes you broadcast your thoughts for all adjacent living creatures to hear in their minds telepathically.",
             "5. You gain an expertise die in Wisdom saving throws.",
-            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT > 4), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 psychic damage whenever it fails a non-trivial d20 roll. Additionally, you learn the target's greatest fear.",
-            "7. Centre of the Maze: 1/week; 10mins; Your self-mastery is such that you are able to redefine yourself as needed. You may quietly contemplate for the usage time to reassign 1 skill proficiency to a different skill.",
+            "6. Climb the Walls: 1/LR; bonus action; You forcibly open the mind of a living, thinking (INT 5+), creature within 30' of you. For the next 10 minutes that creature suffers 1d4 psychic damage whenever it fails a non-trivial d20 roll. Additionally, you learn the target's greatest fear.",
+            "7. Centre of the Maze: 1/week; 10mins; Your self-mastery is such that you are able to redefine yourself as needed. You may quietly contemplate for 10mins to reassign 1 skill proficiency to a different skill.",
             "8. T1 now heals 4 HP instead.",
             "9. Your Hand on the Wall feature can now be used at-will.",
             "10. T1 now heals 7 HP instead."
@@ -1203,16 +1203,16 @@
         "name": "Trades",
         "description": "merchantile",
         "tiers": [
-            "1. You gain prof/+2 in all social skills.",
-            "2. You instinctively know the value of any object you find. You have advantage on arcana checks to identify magic.",
-            "3. Trade Connections: 1/week; bonus action; You access your trade network. You roll a random potion, which you may buy for 15gp.",
-            "4. You gain +2 on persuasion checks to negotiate and haggle.",
+            "1. You gain an expertise die in all CHA ability checks.",
+            "2. You have advantage on Arcana checks to identify items.",
+            "3. Trade Connections: 1/week; bonus action; You access your trade network. You roll a random wondrous item, which you may buy for 3gp per rarity tier.",
+            "4. You gain an expertise die in Persuasion checks to negotiate.",
             "5. Whenever you find gold in loot, you have advantage on the amount of gold found.",
-            "6. You always know what the highest price someone will offer for an item, and the lowest price they are willing to accept when selling.",
-            "7. All purchases you make are at a 25% reduced cost.",
-            "8. Esoteric Trade Connections: 1/week; bonus action; You spend 1 max HP to get the opportunity to buy a random artifact for 30gp.",
-            "9. Heart's Desire: 1/LR; bonus action; You know what non-unique object a creature desires the most right now.",
-            "10. You gain +3 in all social skills."
+            "6. Whenever you sell an item, you earn +10% gold. Whenever you buy an item, it costs 10% less.",
+            "7. Whenever you buy an item, it costs 20% less.",
+            "8. Esoteric Trade Connections: 1/week; bonus action; You permanently reduce you max HP by 1 to get the opportunity to buy a random relic for 6gp.",
+            "9. Heart's Desire: 1/LR; bonus action; You know what non-unique object a creature you can see desires the most right now.",
+            "10. You gain a d6 expertise die in all CHA ability checks."
         ]
     },
     {
@@ -1220,14 +1220,14 @@
         "description": "imbuing your mind with powerful magitech",
         "tiers": [
             "1. You gain +2 to INT through the use of implants and tiny processing devices.",
-            "2. You gain prof/+2 in a knowledge skill of your choice.",
-            "3. Network Tap: 1/SR; bonus action; You can ask the DM 1 question and get a very short answer if you succeed on a relevant knowledge check against a DC assigned by the DM. The more obscure the answer, the more difficult the check. On a failed roll, feedback or perhaps some defence from the Regulus Libris itself inflict 1d10 + your level true damage on you.",
-            "4. Action Processor: 1/SR; bonus action; Drawing upon stored information and the ability to process incoming data at amazing speeds, you gain +2 in one physical task of your choice for 10 minutes. For example, you can choose climbing, a physical saving throw type, or attacks with a specific weapon category.",
+            "2. You gain an expertise die in a knowledge skill of your choice.",
+            "3. Information Tap: 1/SR; bonus action; You can ask the DM 1 question and get a very short answer if you succeed on a relevant knowledge check against a DC assigned by the DM. The more obscure the information, the more difficult the check. On a failed roll, feedback inflicts 1d10 + your level true damage on you.",
+            "4. Action Processor: 1/SR; bonus action; Drawing upon stored information and the ability to process incoming data at amazing speeds, you gain an expertise die in one physical task of your choice for 10 minutes. For example, you can choose climbing, a physical saving throw type, or attacks with a non-mental weapon.",
             "5. Machine Telepathy: 1/min; bonus action; You can read the surface thoughts of a magical construct you can see within 30' of you, even if the construct does not want you to. Once you have established contact, you can read the target's thoughts for up to 1 minute. If you or the target moves out of range, the connection is broken.",
             "6. +2 INT.",
-            "7. You gain prof/+2 in a knowledge skill of your choice.",
-            "8. See the Future: 1/week; free action; Based on all the variables you perceive, you can predict the next few minutes. This has the following effects: for the next 10 minutes, you saving throws have advantage; you have a sort of danger sense. For the next 10 minutes, you gain advantage on insight checks to detect lies, and perception and investigation checks to avoid traps and ambushes; You know what people are probably thinking and what they will say before they say it. For the next 10 minutes, you gain advantage on all persuasion and deception checks.",
-            "9. Any time you take an Intelligence-related task (skill check, attack, spell, etc.), you can either give the roll advantage or gain advantage on Dexterity saving throws until the start of your next turn as you foresee your foes' moves.",
+            "7. You gain an expertise die in a knowledge skill of your choice.",
+            "8. See the Future: 1/week; free action; Based on all the variables you perceive, you can predict the next 10 minutes. This has the following effects: your saving throws have advantage; you have a sort of danger sense, granting you advantage on Insight checks to detect lies, and Perception and Investigation checks to avoid/locate traps and ambushes; You know what people are probably thinking and what they will say before they say it, granting you advantage on all Persuasion and Deception checks.",
+            "9. Any time you take an INT-based task, you can either give the roll advantage or gain advantage on saving throws until the start of your next turn as you foresee your foes' moves.",
             "10. +3 INT."
         ]
     },
@@ -1235,16 +1235,16 @@
         "name": "Imparts Wisdom",
         "description": "teaching and inspiring",
         "tiers": [
-            "1. Learning the Path: 2/min; full turn action; You observe or study a creature, object, or location. The next time you interact with it, a related task (such as persuading, attacking, or defending against it) has advantage.",
+            "1. Learning the Path: 2/min; full turn action; You observe or study a creature, object, or location. The next time you interact with it, a related task (such as persuading, attacking, or saving against it) has advantage.",
             "2. You gain an expertise die in 2 knowledge skills of your choice.",
-            "3. Through example, teaching, and frank speech about piercing what only seems to be mysterious in the world, you impart wisdom to your allies. After spending 24 hours with you, each of your party members can gain advantage on a task once per long rest. This benefit is ongoing while you remain in the friend's company. It ends if you leave, but it resumes if you return to the friend's company within 24 hours. If you leave the friend's company for more than 24 hours, you must spend another 24 hours together to reactivate the benefit.",
+            "3. Through example, teaching, and frank speech about tackling what only seems to be mysterious in the world, you impart wisdom to your allies. After spending 24 hours with you, each of your party members can gain advantage on a task once per long rest. This benefit is ongoing while you remain in the friend's company. It ends if you leave, but it resumes if you return to the friend's company within 24 hours. If you leave the friend's company for more than 24 hours, you must spend another 24 hours together to reactivate the benefit.",
             "4. The more you accumulate wisdom, the sharper your mind becomes. +2 WIS.",
             "5. The body and the mind are all connected. Add 1d6 to all your outgoing healing.",
-            "6. Inspire Action: 1/SR; bonus action; If one ally can see and easily understand you, you can instruct that ally to take an action of your choice. If the ally chooses to take that exact action, they can take it as an additional action immediately. Doing so does not interfere with the ally taking a normal action on their turn.",
-            "7. Change the Paradigm: 1/week; full turn action; You sway the worldview of a creature you speak to, as long as it can understand you. The creature changes its mind on some significant belief, which could include something as straightforward as helping you instead of trying to kill you, or it could be something more esoteric. This effects lasts for 10 minutes, but it lasts 1hr if the creature was not previously your foe. During this time, the creature takes actions in accordance with the wisdom you have imparted to it. The target must be CR 1 or lower.",
+            "6. Inspire Action: 1/SR; bonus action; If an ally can see and easily understand you, you can instruct that ally to take an action of your choice. If the ally chooses to take that exact action, they can take it immediately.",
+            "7. Change the Paradigm: 1/week; full turn action; You sway the worldview of a creature you speak to, as long as it can understand you. The creature changes its mind on some significant belief, which could include something as straightforward as helping you instead of trying to kill you, or it could be something more esoteric. This effect lasts for 10 minutes, but it lasts 1hr if the creature was not previously your foe. During this time, the creature takes actions in accordance with the wisdom you have imparted to it. The target must be CR 1 or lower.",
             "8. Your Learning the Path feature works more effectively, allowing you to gain double advantage on a task or can provide double advantage for an ally's task against the target instead of your own.",
             "9. Undo: 1/LR; bonus action; What just happened isn't what actually happened; it was a thought experiment. Knowing better, you can effectively undo a single creature's most recent action. That creature can then immediately repeat the same action or try something different.",
-            "10. Your Learning the Path feature can now be used at-will. Additionally, it provides triple advantage instead of double."
+            "10. Your Learning the Path feature can now be used at-will. Additionally, it grants the task a minimum result of 15."
         ]
     },
     {
@@ -1258,38 +1258,38 @@
             "5. Sculpt Light: 1/SR; bonus action; You create an object of solid light in any shape you can imagine that is your size or smaller that persists for 1 hour. The object appears in an area within 5' of you. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. The object has the approximate mass of the real object and functions similarly to a mundane one.",
             "6. Mote of Sunlight: 1/SR; bonus action; A mote of light travels from you to a space you choose within 120'. When the mote reaches that spot, it flares and casts bright light in a 120' radius and dim light in a 1,000' radius. The light lasts until you use a bonus action to dismiss it or you use this feature again to create a new mote.",
             "7. Invisibility: 1/SR; bonus action; You become invisible for 10 minutes. While invisible, you gain a d6 expertise die in Stealth checks and saving throws. This effect ends if you do something to reveal your presence or position - attacking, casting a spell, moving a large object, and so on. If this occurs before the duration ends, you can regain the remaining invisibility effect by taking a bonus action to focus on hiding your position.",
-            "8. Living Light: 1/week; bonus action; Your body dissolves into a cloud of photons that instantly travel to a location you choose and then reform. You can choose any open space large enough to contain you that you can see within 120', or any place you have lit with your Mote of Sunlight feature that is still shining. You disappear and almost instantly reappear in the space you chose. It takes until the end of the round for your body to become fully solid, so until the start of your next turn, you take a maximum of 1 point of damage from any source of damage.",
+            "8. Living Light: 1/week; bonus action; Your body dissolves into a cloud of photons that instantly travel to a location you choose and then reform. You can choose any open space large enough to contain you that you can see within 120', or any place currently lit by your Mote of Sunlight feature. You disappear and almost instantly reappear in the space you chose. It takes until the end of the round for your body to become fully solid, so until the start of your next turn, you take a maximum of 1 point of damage from any source of damage.",
             "9. Improved Sculpt Light: 1/month; bonus action; You create an object of solid light in any shape you can imagine whose base size can fit within a 10' cube. The object appears in an area within 5' of you or floating freely in space up to 120' away, and the object lasts for 1 week. The object otherwise behaves similarly to your Sculpt Light feature.",
-            "10. You gain a d8 expertise die in Perception checks involving sight."
+            "10. You gain a d6 expertise die in Perception checks involving sight."
         ]
     },
     {
         "name": "Hones Body and Mind",
         "description": "training your mind as a physical muscle",
         "tiers": [
-            "1. Rhetoric: At-will; bonus action; You engage a creature who can understand you in extended conversation. The creature must be within 5' of you. During the conversation, neither of you can take offensive actions of any kind.",
-            "2. Honed Reflexes: At-will; bonus action; For the next hour, you gain an expertise die in attack rolls with the weapon you hold in your main hand upon activating this feature.",
+            "1. Rhetoric: At-will; bonus action; You engage a creature who can understand you in extended conversation. The creature must be adj to you. During the conversation, neither of you can take offensive actions of any kind.",
+            "2. You gain an expertise die in attack rolls with weapons as you hone your reflexes.",
             "3. You gain an expertise die in Athletics.",
-            "4. You enjoy advantage on all Persuasion checks due to your burgeoning psychic abilities.",
-            "5. Psychic Presence: 1/SR; bonus action; You create an aura of power and majesty around yourself for 1 hour. Unless you are the only possible target, no living, thinking, hostile creature will choose to attack you. They will always prioritise your companions.",
+            "4. You gain advantage on all Persuasion checks due to your burgeoning psychic abilities.",
+            "5. Psychic Presence: 1/SR; bonus action; You create an aura of power and majesty around yourself for 1 hour. Unless you are the only possible target, no living, thinking, hostile creature will choose to attack you. They will always prioritise your allies.",
             "6. Powerful Shout: 1/LR; bonus action; As you scream with psychic force, make an attack against all creatures of your choice within 5' of you, dealing 1d12 + your level psychic damage.",
-            "7. Psyche of War: 1/week; bonus action; You extend your presence over an army. This feature affects a battle unit of between 20 and 200 soldiers, all of whom enjoy double advantage on attacks for as long as you concentrate.",
+            "7. Psyche of War: 1/week; bonus action; You extend your presence over an army. This feature affects a battle unit of between 20 and 200 soldiers, all of whom gain double advantage on attacks for as long as you concentrate.",
             "8. Your Rhetoric feature now has a range of 30'.",
-            "9. Your Honed Reflexes feature now grants an additional expertise die.",
+            "9. T2 now grants an additional expertise die.",
             "10. You gain a d6 expertise die in Athletics."
         ]
     },
     {
-        "name": "Exists Partially out of Phase",
+        "name": "Exists Partially out of Phase [LAST]",
         "description": "becoming incorporeal",
         "tiers": [
             "1. Walk Through Walls: 2/min; bonus action; You can slowly pass through physical barriers at a rate of 1 inch per round. You cannot act (other than moving) or perceive anything until you pass entirely through the barrier. You cannot pass through magical barriers.",
             "2. Defensive Phasing: At-will; bonus action; You can change your phase so that some attacks pass through you harmlessly. For the next 10 minutes, incoming attacks have disadvantage, but during this time you lose any AC benefit from your body armour.",
             "3. Phased Attack: 1/min; free action; All damage you deal on this turn ignores your targets' resistance and immunities.",
             "4. Phase Door: 1/SR; bonus action; You can phase into a solid object's surface and then phase out of any other solid object within 120' of the first, even if the 2 objects are not connected. There must not be any intervening barriers between the 2 objects, and you must be aware of or able to see the destination object.",
-            "5. Ghost: 1/SR; bonus action; For the next 10 minutes, you gain advantage with stealth. During this time, you can move through solid barriers (but not magical ones) at a rate of 1 foot per round, and you can perceive while phased within a barrier or object, which allows you to peek through walls.",
+            "5. Ghost: 1/SR; bonus action; For the next 10 minutes, you gain advantage with Stealth. During this time, you can move through solid barriers (but not magical ones) at a rate of 1 foot per round, and you can perceive while phased within a barrier or object, which allows you to peek through walls.",
             "6. Untouchable: 1/week; bonus action; You change your phase state for the next minute so that you cannot affect or be affected by normal matter or magic. Only psychic or Xiloan magic can affect you, but likewise you cannot attack, touch, or otherwise affect anything.",
-            "7. Enhanced Phased Attack: 1/LR; free action; This feature works like your Phased Attack feature except that your damage also disrupts the targets' vitals, dealing an additional 1d12 force damage.",
+            "7. Enhanced Phased Attack: 1/LR; free action; This feature works like your Phased Attack feature except that your hits also disrupt their targets' vitals, dealing an additional 1d12 force damage.",
             "8. Phase Foe: 1/week; bonus action; You gather disrupting energy in your fingertip and touch a creature. If the target is of CR 2 or lower, it becomes phased as if it had used your Ghost feature. However, unless it can figure out how to control its movement while being phased, which most creatures cannot, it begins to sink through solid matter. If it cannot control itself or end the effect, it may be gone for good because when it becomes solid again after 10 minutes, it is probably deep in the earth.",
             "9. You can now use your Walk Through Walls feature at-will.",
             "10. Your Defensive Phasing feature grants you +3 AC during its activation."

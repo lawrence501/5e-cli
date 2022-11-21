@@ -1883,6 +1883,189 @@
     {
         "description": "1/turn, on block, adj allies heal 1 HP",
         "upgrade": "+1/1",
-        "tags": ["hp", "ac"]
+        "tags": ["hp", "ac"],
+        "meta": "paladin - holy nova"
+    },
+    {
+        "description": "if you've healed a creature with an action since the start of your last turn, +1 global dmg",
+        "upgrade": "+1/1",
+        "tags": ["hp", "wep dmg", "spell dmg"]
+    },
+    {
+        "description": "if you've healed a creature with an action since the start of your last turn, +2 outgoing healing",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "on sub melee hit, heal a random adj ally for 2 HP",
+        "upgrade": "+1/1",
+        "tags": ["hp", "melee"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+1 phys res while holding a shield",
+        "upgrade": "+1/2",
+        "tags": ["phys res", "shield"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your spell hits while holding a shield",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "spell dmg", "shield"]
+    },
+    {
+        "description": "+1 phys res",
+        "upgrade": "+1/2",
+        "tags": ["phys res"]
+    },
+    {
+        "description": "+3 crit dmg res",
+        "upgrade": "+2/1",
+        "tags": ["phys res", "non-phys res"]
+    },
+    {
+        "description": "the first time you heal a creature with an action each turn, it has +1 outgoing healing",
+        "upgrade": "+1/1",
+        "tags": ["hp"],
+        "meta": "paladin - alignment"
+    },
+    {
+        "description": "+1 $hitForm AC",
+        "upgrade": "+1/4",
+        "tags": ["ac"]
+    },
+    {
+        "description": "on block, heal 2 HP",
+        "upgrade": "+1/1",
+        "tags": ["ac", "hp"]
+    },
+    {
+        "description": "-1 to DEX saves; +1 AC",
+        "upgrade": "-1 saves and +1 AC/2",
+        "tags": ["ac"]
+    },
+    {
+        "description": "-1 to DEX saves; on block, heal 3 HP",
+        "upgrade": "-1 saves and +3 HP/1",
+        "tags": ["ac", "hp"]
+    },
+    {
+        "description": "+1 spell crit range",
+        "upgrade": "+1/4",
+        "tags": ["spell dmg", "crit"]
+    },
+    {
+        "description": "+1 proj crit range",
+        "upgrade": "+1/4",
+        "tags": ["proj", "crit"]
+    },
+    {
+        "description": "+1 {type} crit dice",
+        "upgrade": "+1/2",
+        "tags": ["type dmg", "crit"]
+    },
+    {
+        "description": "on sub melee hit, target is inflicted with 1 {type} DoT, stacking until CON save",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg", "dot"]
+    },
+    {
+        "description": "on sub proj hit, target is inflicted with 1 {type} DoT, stacking until CON save",
+        "upgrade": "+1/1",
+        "tags": ["proj", "type dmg", "dot"]
+    },
+    {
+        "description": "when sub hit by melee, you are inflicted with 1 {type} DoT, stacking until CON save; on sub melee hit, target is inflicted with 3 {type} DoT, stacking until CON save",
+        "upgrade": "+1 self and +3 outgoing/2",
+        "tags": ["melee", "type dmg", "dot"]
+    },
+    {
+        "description": "when sub hit by melee, you are inflicted with 1 {type} DoT, stacking until CON save; on sub proj hit, target is inflicted with 3 {type} DoT, stacking until CON save",
+        "upgrade": "+1 self and +3 outgoing/2",
+        "tags": ["proj", "type dmg", "dot"]
+    },
+    {
+        "description": "if you've cast a spell since the start of your last turn, +1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg", "type dmg", "melee"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 bloodied threshold",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "1/rnd, when healed while bloodied, gain +10' sp until end of your next turn",
+        "upgrade": "+5'/1",
+        "tags": ["hp", "speed"]
+    },
+    {
+        "description": "on healing a creature with an action, gain +1 phys res for combat",
+        "upgrade": "+1/3",
+        "tags": ["hp", "phys res"]
+    },
+    {
+        "description": "on healing a creature with an action, gain +1 outgoing healing for combat",
+        "upgrade": "+1/1",
+        "tags": ["hp", "non-phys res"]
+    },
+    {
+        "description": "if you've healed a creature with an action this combat, +1 to ongoing debuff saves",
+        "upgrade": "+1/3",
+        "tags": ["hp", "save"],
+        "meta": "paladin - divine essence"
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 global dmg",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 outgoing healing",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 DoT dmg",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "if you've been sub hit by melee since your last turn, +2 global dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "if you've cast a spell since the start of your last turn, your sub melee hits inflict targets with 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg", "melee", "type dmg", "dot"]
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+5' sp",
+        "upgrade": "+5'/2",
+        "tags": ["speed"]
+    },
+    {
+        "description": "1/combat, if you've healed a creature with an action this combat, when downed, instead remain at 3 HP (counts as healing)",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
     }
 ]

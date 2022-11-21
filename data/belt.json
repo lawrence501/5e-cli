@@ -17,7 +17,7 @@
     },
     {
         "name": "Legendary Feed-Pouch",
-        "description": "On a Befriend Creature crit succ, after rolling for your Boon, you can instead change the result to an Animal result (1). The resulting minion is 1 CR higher, and if upgraded, gains 1 additional AC and AB."
+        "description": "On a Befriend Creature crit succ, after rolling for your Boon, you can instead change the result to an Animal result (1). The resulting minion is 2 CR higher, and if upgraded, gains 2 additional AC and AB."
     },
     {
         "name": "Emergency Music Box",
@@ -118,5 +118,125 @@
     {
         "name": "Legendary Arcane Guidebook",
         "description": "On a Gather Components crit succ, 2 additional moderate metamagic points are granted."
+    },
+    {
+        "name": "Emergency Cultural Guidebook",
+        "description": "On a Gossip crit fail, you can choose 2 members of the party to not gain strife."
+    },
+    {
+        "name": "Backup Cultural Guidebook",
+        "description": "On a Gossip sub fail, you lose a level of strife the next time you score a substantial success or higher on any journey activity."
+    },
+    {
+        "name": "Cultural Guidebook",
+        "description": "On a Gossip succ, gain an additional 10% chance to avoid hostile encounters, or a further +1 to the next knowledge skill check."
+    },
+    {
+        "name": "Superior Cultural Guidebook",
+        "description": "On a Gossip sub succ, gain an additional 10% chance to avoid hostile encounters, or a further +1 to the next knowledge skill check."
+    },
+    {
+        "name": "Legendary Cultural Guidebook",
+        "description": "On a Gossip crit succ, after rolling for your Boon, you can instead change the result to a Follower result (4). The resulting follower is 1 tier higher."
+    },
+    {
+        "name": "Emergency Medicinal Guidebook",
+        "description": "On a Harvest crit fail, you can choose 2 members of the party to not gain fatigue."
+    },
+    {
+        "name": "Backup Medicinal Guidebook",
+        "description": "On a Harvest sub fail, you lose a level of fatigue the next time you score a substantial success or higher on any journey activity."
+    },
+    {
+        "name": "Medicinal Guidebook",
+        "description": "On a Harvest succ, gain an additional +1 to the next stabilise check."
+    },
+    {
+        "name": "Superior Medicinal Guidebook",
+        "description": "On a Harvest sub succ, the potion is tier 2 instead."
+    },
+    {
+        "name": "Legendary Medicinal Guidebook",
+        "description": "On a Harvest crit succ, the potion is tier 5 instead."
+    },
+    {
+        "name": "Emergency Offerings",
+        "description": "On a Pray crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
+    },
+    {
+        "name": "Backup Offerings",
+        "description": "On a Pray sub fail, the curse is slightly less impactful."
+    },
+    {
+        "name": "Offerings",
+        "description": "On a Pray succ, the blessing is slightly more impactful."
+    },
+    {
+        "name": "Superior Offerings",
+        "description": "On a Pray sub succ, the blessing is slightly more impactful."
+    },
+    {
+        "name": "Legendary Offerings",
+        "description": "On a Pray crit succ, after rolling for your Boon, you can instead change the result to a Blessing result (2). The resulting blessing is received twice."
+    },
+    {
+        "name": "Emergency Smoke Bomb",
+        "description": "On a Rob crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
+    },
+    {
+        "name": "Backup Smoke Bomb",
+        "description": "On a Rob sub fail, all foes in the triggered encounter have -1 to their AC and saving throws."
+    },
+    {
+        "name": "Smoke Bomb",
+        "description": "On a Rob succ, the amount of gold found is increased by 1."
+    },
+    {
+        "name": "Superior Smoke Bomb",
+        "description": "On a Rob sub succ, the amount of gold found is increased by 2."
+    },
+    {
+        "name": "Legendary Smoke Bomb",
+        "description": "On a Rob crit succ, after making your loot roll, you can instead change the result to an Ring, with its colour tier increased by 1."
+    },
+    {
+        "name": "Emergency Trailmarkers",
+        "description": "On a Scout crit fail, affected initiative rolls have a +2 bonus."
+    },
+    {
+        "name": "Backup Trailmarkers",
+        "description": "On a Scout sub fail, you lose a level of fatigue the next time you score a substantial success on any journey activity."
+    },
+    {
+        "name": "Trailmarkers",
+        "description": "On a Scout succ, an additional +1 to the next initiative roll is granted."
+    },
+    {
+        "name": "Superior Trailmarkers",
+        "description": "On a Scout sub succ, and additional +10% chance to surprise is granted."
+    },
+    {
+        "name": "Legendary Trailmarkers",
+        "description": "On a Scout crit succ, the positive encounter's reward is rolled with advantage."
+    },
+    {
+        "name": "Emergency Excavation Tools",
+        "description": "On a Seek Shelter crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
+    },
+    {
+        "name": "Backup Excavation Tools",
+        "description": "On a Seek Shelter sub fail, all foes in the triggered encounter have -1 to their AC and saving throws."
+    },
+    {
+        "name": "Excavation Tools",
+        "description": "On a Seek Shelter succ, the haven's effects are applied instantaneously, instead of needing to wait for the day's end."
+    },
+    {
+        "name": "Superior Excavation Tools",
+        "description": "On a Seek Shelter sub succ, the haven's effects are applied instantaneously, instead of needing to wait for the day's end."
+    },
+    {
+        "name": "Legendary Excavation Tools",
+        "description": "On a Seek Shelter crit succ, after rolling for your Boon, you can instead change the result to a Gold result (8). The resulting gold received is increased by 6."
     }
 ]

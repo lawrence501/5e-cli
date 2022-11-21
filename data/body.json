@@ -743,7 +743,7 @@
             "variables": [
                 {
                     "mods": [],
-                    "varialbes": [
+                    "variables": [
                         "You gain an expertise die in Stealth, Medicine, and Arcana.",
                         "You gain an expertise die in Sleight of Hand, Animal Handling, and Survival.",
                         "You gain an expertise die in Survival, History, and Medicine."
@@ -766,13 +766,55 @@
                     "mods": [
                         "The vest has a number of charges equal to half your ability mod, all of which are recovered after a long rest.",
                         "As a bonus action, you can expend a charge to grant yourself a wondrous appearance. When you do so, choose a number of creatures you can see and that can see you within 60' of you, up to a number equal to your ability mod. Each of them gains 5 temp HP and can immediately use its reaction to shift up to its speed."
-                    ],
-                    "varialbes": []
+                    ]
                 },
                 {
                     "mods": [
                         "1/SR, after performing for at least 1min, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60' of you who watched and listened to all of it, up to a number equal to your ability mod. Each target must succeed on a WIS save or be charmed by you. On a success, a creature does not know you tried to charm it.",
                         "While charmed in this way, a creature idolises you, speaks glowingly of you to anyone who talks to it, and hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This ends on a target after 1hr, if it takes any dmg, if you atk it, or if it witnesses you atking or dmging any of its allies."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eloquent Jerkin",
+            "source": "bard - eloquence",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Whenever you make a Persuasion or Deception check, you can treat a d20 roll of 9 or lower as a 10."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The jerkin has a number of charges equal to half your ability mod, all of which are recovered after a LR.",
+                        "As a bonus action, you can expend a charge to choose a creature you can see within 60' of you to be unsettled by your magic-laced words. The target must subtract 1d6 from the next save it makes before the start of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Creative Leather",
+            "source": "bard - creation",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "The leather has a number of charges equal to your ability mod, all of which are recovered after a LR.",
+                        "As a bonus action, you can expend a charge to grant an ally within 60' of you who can hear you a mote of potential. A creature can only have 1 mote of potential at a time."
+                    ],
+                    "variables": [
+                        "Whenever a creature with a mote of potential makes an ability check, they can expend the mote to roll a d6 with adv to add to their check.",
+                        "Whenever a creature with a mote of potential makes an atk, they can expend the mote to shatter it, causing all creatures of your choice adj to the target to pass a CON save or take 1d6 thunder dmg.",
+                        "Whenever a creature with a mote of potential makes a save, they can expend the mote to gain temp HP equal to 1d6 + your ability mod."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As an action 1/LR, you can create a mundane obj of your choice in an empty space within 10' of you. It must appear on a surface or in a liquid that can support it. The item must be Medium or smaller, glimmers softly, and a creature can faintly hear music when touching it. The item disappears after 2hrs.",
+                        "You can expend a spell slot of 2nd lvl or higher to recover the use of this power.",
+                        "You can only have 1 item created in this way at a time."
                     ]
                 }
             ]
@@ -1103,7 +1145,7 @@
             "source": "druid - dreams",
             "mods": [
                 "You have a pool of fey energy represented by 3 d6s, all of which you recover on a long rest.",
-                "As a bonus action, you can choose a creature you can see within 120' of you and expend and roll a fey die. The target regains a number of hit points equal to the total, and 1 temporary hit point."
+                "As a bonus action, you can choose a creature you can see within 120' of you and expend and roll a fey die. The target regains a number of hit points equal to the total, then gains 1 temporary hit point."
             ],
             "variables": []
         },
@@ -1477,7 +1519,7 @@
                 {
                     "mods": [
                         "You have adv on saves to avoid falling off your mount.",
-                        "Whenever you fall off your mount, you land of your feet if you are conscious.",
+                        "Whenever you fall off your mount, you land on your feet if you are conscious.",
                         "Mounting or dismounting only costs 5' of movement instead of half your speed."
                     ]
                 },
@@ -1592,6 +1634,67 @@
                     "mods": [
                         "You gain adv on checks made to avoid being knocked prone.",
                         "Whenever a creature you can see atks a non-you creature adj to you, you can react to impose disadv on the atk roll"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Psionic Plate",
+            "source": "fighter - psi warrior",
+            "mods": [
+                "You have a pool of 4 psionic dice, each of which is a d6. All are recovered after a long rest. Additionally, as a bonus action 1/SR, you can recover 1 psionic die."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "Whenever a creature you can see within 30' of you takes dmg, you can react to expend 1 psionic die, roll it, and reduce the dmg taken by the number rolled plus your ability mod as you create a momentary shield of telekinetic force."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30' of you with an atk and deal wep dmg to it, you can expend 1 psionic die, roll it, and deal additional force dmg to the target equal to the number rolled + your ability mod."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can move an obj or creature with your mind. As an action, target 1 loose obj that is Large or smaller, or 1 other willing creature. If you can see the target and it is within 30' of you, you can move it up to 30' to an empty space you can see. Alternatively, if a targeted obj is Tiny, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both.",
+                        "You can use this power 1/SR, but can replenish this usage by expending a psionic die."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Plate",
+            "source": "fighter - arcane archer",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [],
+                    "variables": [
+                        "You gain an expertise die in Arcana and learn the Prestidigitation cantrip.",
+                        "You gain an expertise die in Nature and learn the Druidcraft cantrip."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The plate has 2 charges, both of which are recovered after a short or long rest.",
+                        "Once per turn when you fire a proj from a bow wep as part of the Attack action, you can expend a charge to apply the following effect to the proj."
+                    ],
+                    "variables": [
+                        "You use abjuration magic to try to banish your target to a harmless location in the Feywild. The target must succeed on a CHA save or be banished as per the banishment spell, except with a duration of only 1d4 rounds, without concentration.",
+                        "Your enchantment magic causes this proj to temporarily beguile its target. The target takes an extra 2d6 psy dmg, and choose an ally within 30' of the target. The target must succeed on a WIS save, or it is charmed by the chosen ally until the start of your next turn. This effect ends early if the chosen ally atks the charmed target, deals dmg to it, or forces it to make a save.",
+                        "You imbue the proj with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits its target, all creatures within 10' of the target take 2d6 force dmg each.",
+                        "You weave necromantic magic into the proj. The target hit by it takes an extra 2d6 nec dmg and must succeed on a CON save or the dmg dealt by its wep atks it halved until the start of your next turn.",
+                        "When the proj strikes its target, conjuration magic creates grasping poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra 2d6 psn dmg, its sp is reduced by 10', and it takes 2d6 S dmg the first time on each turn it moves without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Athletics check against your DC. Otherwise, the brambles last for 1min or until you use this effect again.",
+                        "You use transmutation magic to give the proj an ethereal quality. When you use this option, you don't make an atk roll for the atk. Instead, the arrow shoots forward in a 30' line before disappearing. The arrow passes harmlessly through objs, ignoring all cover. Each creature in the line must make a DEX save. On a fail, they take the proj's dmg, plus an extra 1d6 P dmg. On a succcess, they take half as much dmg.",
+                        "Using divination magic, you grant the proj the ability to seek out a target. When you use this option, you don't make an atk roll for the atk. Instead, choose 1 creature you have seen in the past min. The proj flies toward that creature, moving around corners if necessary and ignoring 3/4 and half cover. If the target is within the wep's range and there is a parth large enough for the proj to travel to the target, the target must make a DEX save. On a failed save, the target takes the proj's dmg, plus an extra 1d6 force dmg, and you learn the target's current location. On a success, the target takes half as much dmg and you don't learn its location.",
+                        "You weave illusion magic into the proj, causing it to occlude your target's vision with shadows. The target hit by the proj takes an extra 2d6 psy dmg, and must succeed on a WIS save or be unable to see anything farther than 5' away until the start of your next turn."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can move an obj or creature with your mind. As an action, target 1 loose obj that is Large or smaller, or 1 other willing creature. If you can see the target and it is within 30' of you, you can move it up to 30' to an empty space you can see. Alternatively, if a targeted obj is Tiny, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both.",
+                        "You can use this power 1/SR, but can replenish this usage by expending a psionic die."
                     ]
                 }
             ]

@@ -384,7 +384,7 @@
         "description": "The power's usage time is reduced by 1 step and it deals slightly more dmg for each additional individual target it has above 1, but it now only has 1 individual target."
     },
     {
-        "name": "Channeling",
+        "name": "channelling",
         "target": "Powers with an instantaneous duration and a non-self/melee range",
         "description": "The power's duration becomes 'Concentration, up to 1 minute', and you can reactivate its effect as its usage time throughout the duration. Its range is also halved."
     },
@@ -394,12 +394,12 @@
         "description": "The power's projectiles are converted to 5'-wide line AoEs and deal more dmg, but its cost is increased by 1 step."
     },
     {
-        "name": "Efficient Channeling",
+        "name": "Efficient channelling",
         "target": "Powers with a non-cooldown resource cost that require concentration and deal dmg",
         "description": "The power's cost is 1 step lower, but it deals less dmg."
     },
     {
-        "name": "Protective Channeling",
+        "name": "Protective channelling",
         "target": "Powers that require concentration",
         "description": "While concentrating on the power, you have barely more phys res and slightly more $nonPhysType res."
     },
@@ -1569,7 +1569,7 @@
     },
     {
         "name": "Blunt Decay",
-        "target": "Powers that shapeshift into forms which can make melee wep attacks",
+        "target": "Powers that shapeshift",
         "description": "The shapeshift's charged wep hits inflict a DoT dealing $nonPhysType dmg, stacking until CON save, but have -1 crit range."
     },
     {
@@ -1628,8 +1628,150 @@
         "description": "Whenever the shapeshift reverts, you gain temp HP."
     },
     {
-        "name": "Alacritous Feasting [next - soul for a soul]",
+        "name": "Alacritous Feasting",
         "target": "Powers that shapeshift",
         "description": "Whenever the shapeshift scores a KB, it gains +10' sp for the combat."
+    },
+    {
+        "name": "Channeled Decay",
+        "target": "Powers that require concentration",
+        "description": "At the start of each of your turns while concentrating on the power, each adj foe is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save.",
+        "meta": "Rebuke"
+    },
+    {
+        "name": "Enduring Cruelty",
+        "target": "Powers that require concentration",
+        "description": "Debuffs you apply while concentrating on the power have +1 to their ongoing DCs."
+    },
+    {
+        "name": "Channeled Shredding",
+        "target": "Powers that require concentration",
+        "description": "At the start of each of your turns while concentrating on the power, each adj foe gets slightly reduced phys res until end of your next turn."
+    },
+    {
+        "name": "Channeled Contagion",
+        "target": "Powers that require concentration",
+        "description": "At the start of each of your turns while concentrating on the power, each adj foe is inflicted with a DoT dealing barely any $nonPhysType dmg, stacking until DEX save. Whenever a creature fails their save to escape this DoT, all creatures of your choice adj to them are inflicted with this DoT."
+    },
+    {
+        "name": "Powerful Mass",
+        "target": "Powers with areas",
+        "description": "The power deals substantially more dmg and has more area, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Powerful Energy",
+        "target": "Any power",
+        "description": "The power's hits deal additional $nonPhysType dmg."
+    },
+    {
+        "name": "Empowering Energy",
+        "target": "Powers that deal damage",
+        "description": "Whenever the power hits, you gain slightly increased $nonPhysType dmg, slightly increased melee dmg, and +1 to ongoing debuff saves for the remainder of combat. Additionally, the power deals massively less dmg."
+    },
+    {
+        "name": "Channeled Recovery",
+        "target": "Powers with a non-cooldown resource cost that require concentration and deal damage",
+        "description": "At the start of each of your turns while concentrating on the power, recover 1 unit of the power's cost. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Channeled Rejuvenation",
+        "target": "Powers that require concentration and deal damage",
+        "description": "While concentrating on the power, you and all adj allies gain barely any passive regen. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Building Rejuvenation",
+        "target": "Powers that heal and require concentration",
+        "description": "At the start of each of your turns while concentrating on the power, it heals slightly more HP for the remainder of its duration."
+    },
+    {
+        "name": "Rejuvenating Channelling",
+        "target": "Powers require concentration",
+        "description": "While concentrating on the power, you gain barely any passive regen."
+    },
+    {
+        "name": "Armoured Channelling",
+        "target": "Powers that require concentration",
+        "description": "While concentrating on the power, you gain a slight amount of phys res."
+    },
+    {
+        "name": "Enduring Channelling",
+        "target": "Powers that require concentration and deal damage",
+        "description": "When you end or lose concentration on the power, its effects persist for a number of additional rnds equal to the number of rnds you channeled for. Additionally, the power deals massively less dmg."
+    },
+    {
+        "name": "Channeled Alacrity",
+        "target": "Powers that require concentration, deal damage, and have Accuracy components",
+        "description": "When you end or lose concentration on the power, you gain +5' sp and all your power usage times are reduced by 1 step for a number of rounds equal to the number of rounds you channeled for. Additionally, the power deals massively less dmg and has -1 Accuracy."
+    },
+    {
+        "name": "Channeled Boons",
+        "target": "Powers that require concentration, apply buffs, and deal damage",
+        "description": "When you end or lose concentration on the power, its effects persist for 1 additional round. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Resistant Channelling",
+        "target": "Powers that require concentration",
+        "description": "While concentrating on the power, you gain a slight amount of non-phys res."
+    },
+    {
+        "name": "Major Charging",
+        "target": "Powers with a cooldown and a non-cooldown resource cost",
+        "description": "The power's cooldown is reduced by 1 step, but its resource cost is increased by 1 step. Additionally, it deals more dmg."
+    },
+    {
+        "name": "Overcharged Endurance",
+        "target": "Powers with a non-instantaneous duration and a cooldown",
+        "description": "The power's duration increases by 1 step, but its cooldown is increased by 1 step. Additionally, it deals more dmg."
+    },
+    {
+        "name": "Recovering Absorption",
+        "target": "Powers with a non-cooldown resource cost that require concentration and deal damage",
+        "description": "Whenever you are hit while concentrating on the power, recover 1 unit of the power's cost. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Debilitation",
+        "target": "Any power",
+        "description": "Whenever the power hits, the target is debilitated until the end of their next turn.",
+        "meta": "Meteor"
+    },
+    {
+        "name": "Keen Mass",
+        "target": "Powers that make attacks and deal damage",
+        "description": "The power has +1 crit range and more area, but deals less dmg."
+    },
+    {
+        "name": "Keen Aggression",
+        "target": "Powers with a non-cooldown resource cost",
+        "description": "If the power's resource is full when it is used, the power has +1 crit range."
+    },
+    {
+        "name": "Chaotic Bursting",
+        "target": "Powers with sphere areas and a non-cooldown resource cost",
+        "description": "The power's sphere areas are duplicated and deal more dmg, centred at a random location within 20' of the original centre, but its cost is increased by 1 step."
+    },
+    {
+        "name": "Powerful Spread",
+        "target": "Powers with multiple individual targets",
+        "description": "The power deals substantially more dmg, but can only target each creature once."
+    },
+    {
+        "name": "Chaotic Focus",
+        "target": "Powers with sphere areas",
+        "description": "The power's sphere areas are duplicated, centred at a random location within 20' of the original centre, but it has less area."
+    },
+    {
+        "name": "Orderly Spread",
+        "target": "Powers with multiple areas and a non-cooldown resource cost",
+        "description": "The power's areas are spread in a contiguous line in a direction of your choice and deal substantially more dmg, but its cost is increased by 1 step."
+    },
+    {
+        "name": "Chaos",
+        "target": "Powers with sphere areas that deal damage",
+        "description": "The power's sphere areas are duplicated, centred at a random location within 20' of the original centre, but it deals less dmg."
+    },
+    {
+        "name": "Delayed Recovery [next - craterborn]",
+        "target": "Powers with a non-cooldown resource cost that deal damage",
+        "description": "Whenever you use the power, you recover 1 unit of its cost at the end of your next turn."
     }
 ]

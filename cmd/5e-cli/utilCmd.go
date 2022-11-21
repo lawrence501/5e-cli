@@ -16,7 +16,7 @@ import (
 
 var colour = func() error {
 	rollP := promptui.Prompt{
-		Label:    "Loot roll",
+		Label:    "Loot type",
 		Validate: validateColourUpgrade,
 	}
 	r, err := rollP.Run()
@@ -24,7 +24,7 @@ var colour = func() error {
 		return err
 	}
 
-	log.Printf("Colour upgrade for %s:\n%s", r, COLOUR_UPGRADE_DESCRIPTIONS[r])
+	log.Printf("Colour upgrade:\n%s", COLOUR_UPGRADE_DESCRIPTIONS[r])
 	return nil
 }
 
@@ -317,7 +317,39 @@ var chaos = func() error {
 
 	chaosTrigger := chaos.Trigger[rand.Intn(len(chaos.Trigger))]
 	chaosTarget := chaos.Target[rand.Intn(len(chaos.Target))]
-	log.Printf("Chaotic modifier: %s, cast [https://5e.tools/spells.html#blankhash,flstsubschool:maneuver=2] on %s", chaosTrigger, chaosTarget)
+	log.Printf("Chaotic modifier: %s, cast [https://5e.tools/spells.html#blankhash,flstsubschool:maneuver=2] on %s", processMod(chaosTrigger), chaosTarget)
+	return nil
+}
+
+const FLARE_CHANCE = 10
+
+var combat = func() error {
+	roundMap := map[int][]string{
+		1:  {},
+		2:  {},
+		3:  {},
+		4:  {},
+		5:  {},
+		6:  {},
+		7:  {},
+		8:  {},
+		9:  {},
+		10: {},
+	}
+
+	log.Println("Combat breakdown:")
+	for i := 1; i <= 10; i++ {
+		flares := false
+		for _, char := range PARTY_MEMBERS {
+			if rand.Intn(100) < FLARE_CHANCE {
+				roundMap[i] = append(roundMap[i], char)
+				flares = true
+			}
+		}
+		if flares {
+			log.Printf("Round %d: the crystals of %v flare", i, roundMap[i])
+		}
+	}
 	return nil
 }
 

@@ -179,6 +179,15 @@ While riding your mount, your AC increases by 1.
 
 - Change myth cards into amulets, with set bonuses on combining the same set
 
+- Crystals: 
+    - Drop as a creature type, each starts at CR 1
+    - When a crystal is generated, its power is randomly chosen from the contained creature's powers (respecting cooldowns, etc)
+    - Combine a crystal with another of the same type to increase its CR by 1
+    - When a crystal is tiered up, you can choose to keep the existing creature (though it will gain no benefits from the tier up)
+    - Smash together 2 crystals to generate a new crystal of a type that wasn't smashed
+    - 10% chance each turn per player to "flare", using its power. Calc on combat start with script, don't tell players other than telling them when they flare
+    - The crystals count as the wearer's minions for the sake of their powers, but whenever they reference themselves, they affect the player instead
+
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
 2. Tomes (high)
@@ -193,6 +202,6 @@ While riding your mount, your AC increases by 1.
 11. Body Armours (med)
 12. Tarots (high)
 13. Belt (med)
-14. Something (TODO)
+14. Crystals (low)
  
 7% each, except 4 is 9%

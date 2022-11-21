@@ -136,6 +136,19 @@
                 "You have +1 to ability checks and saves.",
                 "[CURSE] You have werewolf lycanthropy."
             ]
+        },
+        {
+            "name": "Ring of Proof against Detection and Location",
+            "effects": [
+                "You cannot be targeted by Divination magic or perceived through magical scrying sensors."
+            ]
+        },
+        {
+            "name": "Ring of Archery",
+            "effects": [
+                "+2 bow weapon AB.",
+                "+2 bow weapon dmg."
+            ]
         }
     ],
     "rare": [
@@ -317,6 +330,17 @@
                 "The ring has 10 charges, 1d6 + 4 of which are recovered after a long rest. If the last charge is expended, roll a d20. On a 1, the ring vanishes forever.",
                 "As an action, you can expend charges to cast one of the following spells, using your own spell save DC: Banishment (4 charges), Blink (3 charges), Misty Step (2 charges), Passwall (5 charges), or Teleport (7 charges)."
             ]
+        },
+        {
+            "name": "Docent",
+            "effects": [
+                "The docent is a true neutral sentient item with 16 INT, 14 WIS, and 14 CHA. It perceives the world thru your senses, communicates telepathically with you, and can speak/read/understand Common, Giant, and 1d4 languages of the DM's choice.",
+                "A docent is designed to advise and assist its wearer. Its properties are under its own control, and if you have a bad relationship with your docent, it might refuse to assist you.",
+                "Whenever you end your turn with 0 HP, the docent can make a Medicine check with a +6 bonus against a DC of 13. On a success, you are stabilised.",
+                "Whenever the docent knows fewer than 6 languages and it hears or reads one through your senses, it can learn that language.",
+                "The docent has a +7 bonus to one of the following skills (d4): 1. Arcana, 2. History, 3. Investigation, or 4. Nature.",
+                "The docent knows one of the following spells and can cast it at-will (d6): 1-2. Detect Evil and Good or 3-6. Detect Magic."
+            ]
         }
     ],
     "very rare": [
@@ -450,6 +474,21 @@
                 "You have adv on magical saves.",
                 "Incoming spell atks have disadv."
             ]
+        },
+        {
+            "name": "Peregrine Ring",
+            "effects": [
+                "+60' fly speed.",
+                "You have adv on init rolls."
+            ]
+        },
+        {
+            "name": "Oathring",
+            "effects": [
+                "1/LR, when you make a ranged wep atk, you can say 'swift death to you who have wronged me' to designate the atk's target as your sworn enemy until it dies or for 1 week. You can have only 1 sworn enemy at a time.",
+                "Whenever you make a ranged wep atk against your sworn enemy, you have adv on the atk roll, the target has no benefit from non-total cover, and you suffer no disadv from long range. On a hit, the atk deals +3d6 P dmg.",
+                "[CURSE] While your sworn enemy lives, you have disadv on non-ranged wep atks."
+            ]
         }
     ],
     "legendary": [
@@ -543,6 +582,13 @@
                 "The following spells are added to your spell list: https://5e.tools/items.html#grimoire%20infinitus%20(awakened)_egw",
                 "You can have 1 [L11+: 2] additional spell prepared.",
                 "L11+: You have adv on magical saves."
+            ]
+        },
+        {
+            "name": "Regeneration",
+            "effects": [
+                "At the end of each short rest, you heal 15 HP if you are conscious.",
+                "At the end of each journey activity a member of your party undertakes, you heal 15 HP."
             ]
         }
     ],

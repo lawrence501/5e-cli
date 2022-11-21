@@ -27,7 +27,10 @@
         "description": "Loot roll, rerolling until an equipment roll (empowered = +1 colour)"
     },
     {
-        "description": "Scroll of Knowledge: learn additional spell of choice from random spell list (empowered = spell has +20% chance to be rare/empowered by a random relevant tome if no rare version)"
+        "description": "Scroll of Knowledge: learn additional spell of choice from random spell list (empowered = spell has +20% chance to be upgraded by a random relevant tome)"
+    },
+    {
+        "description": "Scroll of Training: learn additional maneuver of choice from random tradition (empowered = maneuver has +20% chance to be upgraded by a random relevant tome)"
     },
     {
         "description": "Inspiration (empowered = inspiration has +20% chance to not be consumed on use)"
@@ -48,13 +51,10 @@
         "description": "can reroll an ability score (4d6 drop lowest) (empowered = +1 adv)"
     },
     {
-        "description": "Scroll of valuable battle: summons a random encounter with +1 colour loot, all instances of this gained at same time increase the colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
+        "description": "Scroll of valuable battle: summons a hostile random encounter with +0 colour loot, all instances of this gained at same time increase the colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
-        "description": "Scroll of empowered battle: summons a random encounter, empowered once, and also with +2 colour tiers, all instances of this gained at same time increase the base colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
-    },
-    {
-        "description": "Level 10-crafted food with chosen affinities (empowered = +1pt distributed)"
+        "description": "Scroll of empowered battle: summons a hostile random encounter, empowered once, and also with +1 colour tiers, all instances of this gained at same time increase the base colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
         "description": "Level 10-crafted item of chosen craft with chosen affinities (empowered = +1pt distributed)"
@@ -87,10 +87,13 @@
         "description": "Learn random 1st-lvl spell that can be cast 1/LR (empowered = +1 adv)"
     },
     {
+        "description": "Learn random 1st-degree maneuver that can be used 1/LR (empowered = +1 adv)"
+    },
+    {
         "description": "Sidekick gains +1 to random AS (empowered = +1 adv)"
     },
     {
-        "description": "Gain a 1st-lvl spell slot (if not spellcaster, gain basic spellcasting with mental score of choice) (empowered = +20% chance for +1 slot lvl)"
+        "description": "Gain 1 max exertion (empowered = +20% chance for +1)"
     },
     {
         "description": "Gain a random passive trait from a random monster (empowered = +1 adv on monster roll)"
@@ -102,6 +105,15 @@
         "description": "instant use of wish spell, 100% chance to fail, all combine into 1, each decreases fail chance by 20% (empowered = -20% chance to fail)"
     },
     {
-        "description": "Gain a tarot-crafted item from a reading of 3 random cards currently in the deck."
+        "description": "Gain a tarot-crafted item from a reading of 3 random cards currently in the deck (empowered = +1 draw to choose from)"
+    },
+    {
+        "description": "Unlock a random ally bonus on your amulet (empowered = +1 adv)"
+    },
+    {
+        "description": "Add 1 customisation to your upcoming dream relic (empowered = +1 customisation)"
+    },
+    {
+        "description": "Your crystal tiers up (empowered = +20% chance to tier up again)"
     }
 ]
