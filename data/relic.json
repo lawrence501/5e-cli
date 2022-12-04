@@ -2015,6 +2015,78 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "Deep Woods Penetrator",
+            "startingMods": [
+                {
+                    "description": "+1 WIS",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "on succ DEX save, move 2 spaces up in the init tracker",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 to DEX saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 init",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. on succ DEX save, gain +2 global dmg until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 survival",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. -5' sp when moving away from foes; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-5' and 2pts distributed/1"
+                },
+                {
+                    "description": "5. as react, convert incoming save into DEX save",
+                    "pointValue": "1",
+                    "upgrade": "+1 to DEX saves/3"
+                },
+                {
+                    "description": "6. on succ DEX save, gain +1 global AB until end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "7. +1 medicine",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. adj allies have +1 dmg res",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "9. on succ DEX save, gain +1 to your DCs until end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "10. on succ DEX save, gain +1 crit range until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
@@ -4319,6 +4391,222 @@
                     "description": "10. +3 trap dmg vs debuffed targets",
                     "pointValue": "1",
                     "upgrade": "+2/1"
+                }
+            ]
+        },
+        {
+            "name": "Gawdian Cultist's Flesh",
+            "startingMods": [
+                {
+                    "description": "when hit by melee, you can react to expend a spell slot to deal nec spell dmg to the offender equal to 1d12 per slot lvl",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "you can act while surprised",
+                    "pointValue": "2",
+                    "upgrade": "+2->1 dmg res while surprised/1"
+                },
+                {
+                    "description": "+1 WIS",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. you can cast Slow 1/LR",
+                    "pointValue": "3",
+                    "upgrade": "+1 usage/3"
+                },
+                {
+                    "description": "2. you can cast Suggestion 1/LR",
+                    "pointValue": "2",
+                    "upgrade": "+1 usage/2"
+                },
+                {
+                    "description": "3. +5' teleport distance",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "4. you learn the Guidance cantrip",
+                    "pointValue": "3",
+                    "upgrade": "+1 buff effectiveness/3"
+                },
+                {
+                    "description": "5. you learn the Light cantrip",
+                    "pointValue": "3",
+                    "upgrade": "+5' light projection/1"
+                },
+                {
+                    "description": "6. you learn the Sacred Flame cantrip",
+                    "pointValue": "3",
+                    "upgrade": "+1 rad dmg/1"
+                },
+                {
+                    "description": "7. you learn the Spare the Dying cantrip",
+                    "pointValue": "3",
+                    "upgrade": "+1 Medicine for healing downed creatures/1"
+                },
+                {
+                    "description": "8. you learn the Thaumaturgy cantrip",
+                    "pointValue": "3",
+                    "upgrade": "your spells have double duration/3"
+                },
+                {
+                    "description": "9. you can cast Cure Wounds 1/LR",
+                    "pointValue": "1",
+                    "upgrade": "this casting is always upcast 1 lvl/1"
+                },
+                {
+                    "description": "10. you can cast Identify 1/LR",
+                    "pointValue": "1",
+                    "upgrade": "+1 usage/1"
+                }
+            ]
+        },
+        {
+            "name": "Unbreakable Barrier",
+            "startingMods": [
+                {
+                    "description": "+1 AC",
+                    "pointValue": "5",
+                    "upgrade": "+1/5"
+                },
+                {
+                    "description": "while defensively buffed, +1 to debuff saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "while defensively buffed, +2 incoming temp HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +2 acid res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. 1/turn, on hit vs creature who has been DoT'd for 2+ rnds, the target's DoTs tick twice and they can attempt to save out of them",
+                    "pointValue": "2",
+                    "upgrade": "+1 tick/1"
+                },
+                {
+                    "description": "5. +1 to your ongoing debuff DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "7. your spells have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "8. your non-instantaneous spells gain a 4+ recharge; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 recharge and 2pts distributed/1"
+                },
+                {
+                    "description": "9. +1 incoming temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. on block, heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Vampire Patrician's Flesh",
+            "startingMods": [
+                {
+                    "description": "+1d4 nec dmg to your melee wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "you ignore the effects of sunlight on you",
+                    "pointValue": "1",
+                    "upgrade": "-2 dmg res in sunlight and 3pts distributed/1"
+                },
+                {
+                    "description": "+1 passive regen while not in sunlight",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 melee wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. on death while not in sunlight, you instead transform into a cloud of mist and disperse into the atmosphere for 1 week, before healing to 1 HP and reforming in a location you consider safe on the same landmass (usually your home)",
+                    "pointValue": "1",
+                    "upgrade": "-1 to death saves and 4pts distributed/1"
+                },
+                {
+                    "description": "3. on death while not in running water, you instead transform into a cloud of mist and disperse into the atmosphere for 1 week, before healing to 1 HP and reforming in a location you consider safe on the same landmass (usually your home)",
+                    "pointValue": "1",
+                    "upgrade": "-1 to death saves and 4pts distributed/1"
+                },
+                {
+                    "description": "4. +1 passive regen while not in running water",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "5. +1 passive regen if you haven't taken rad dmg since your last turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +5' climb sp",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "7. you cannot enter residences without an invitation from an occupant; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 decep while within a city's borders and 2pts distributed/1"
+                },
+                {
+                    "description": "8. on ending your turn in running water, take 5 acid dmg; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+5 and 2pts distributed/1"
+                },
+                {
+                    "description": "9. when crit by P dmg, you are staggered until your next turn; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-2->-1 P res and 2pts distributed/1"
+                },
+                {
+                    "description": "10. on starting your turn in sunlight, take 3 rad dmg; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+2 and 2pts distributed/1"
                 }
             ]
         }

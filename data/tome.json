@@ -1,1777 +1,1888 @@
 [
     {
         "name": "Equipped Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions gain the affixes of your $equipSlot.",
         "meta": "manifest armour"
     },
     {
         "name": "Shredding Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "When the minions hit with melee atks, their target's phys res is slightly reduced until the end of the minion's next turn."
     },
     {
         "name": "Berserking Summons",
-        "target": "Powers that summon minions that can take phys dmg",
+        "target": "powers that summon minions that can take phys dmg",
         "description": "The minions deal substantially more damage, but have slightly less HP and barely reduced phys res."
     },
     {
         "name": "Exsanguinating Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "When the minions hit with melee atks dealing $physType dmg, their target is inflicted with a DoT dealing slightly less {physType} dmg, stacking until CON save (minion's DC)."
     },
     {
         "name": "Phlebotomising Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions deal more $physType damage over time."
     },
     {
         "name": "Sapping Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "When the minions are hit, the offender is slowed until CON save (minion's DC)."
     },
     {
         "name": "Charging Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "As an action, the minions can move up to their speed. During this movement, they can move through hostile creatures' spaces. For each creature they move through, they may attack them, dealing slight dmg as $physType on a hit and pushing them 5' in a direction of their choice."
     },
     {
         "name": "Rugged Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions gain +1 to saves vs debuffs."
     },
     {
         "name": "Taunting Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "At the end of the minions' turns, all adj creatures of their choice are taunted by the minion until the end of the minion's next turn."
     },
     {
         "name": "Whirling Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "1/combat, as an action, the minions can move up to half their speed. During this movement, they can move through hostile creatures' spaces. For each creature they either move through or through an adj space of, they may make a melee wep atk against them, dealing slightly less $physType dmg on a hit."
     },
     {
         "name": "Empowered Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions add $nonPhysType dmg to their hits."
     },
     {
         "name": "Decaying Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "When the minions hit with melee atks, their target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save (minion's DC)."
     },
     {
         "name": "Dracotouched Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "1/combat, as an action, the minions breathe a cone of magical energy in a 15' cone, making a spell atk against all foes inside, dealing less dmg as $nonPhysType on a hit."
     },
     {
         "name": "Destructive Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The limited features of the minions deal slightly more dmg and have slightly larger AoE sizes."
     },
     {
         "name": "Overcharged Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The limited features of the minions have their cooldowns increased by 1 step, but inflict a DoT dealing $nonPhysType dmg, stacking until DEX save (minion's DC), on hit"
     },
     {
         "name": "Reflective Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions gain substantial dmg thorns."
     },
     {
         "name": "Regenerating Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions gain barely any passive regen."
     },
     {
         "name": "Bulky Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions gain more maximum hit points."
     },
     {
         "name": "Reparable Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions gain a slight amount of incoming healing."
     },
     {
         "name": "Solid Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions gain slightly more dmg for each phys dmg type they are either resistant or immune to."
     },
     {
         "name": "Efficiency",
-        "target": "Powers that can deal dmg and have a non-cooldown resource cost",
+        "target": "powers that can deal dmg and have a non-cooldown resource cost",
         "description": "The power's cost is 1 step lower, but it deals less dmg.",
         "meta": "glacier (start breaking point)"
     },
     {
         "name": "Massive Power",
-        "target": "Powers that have multiple areas",
+        "target": "powers that have multiple areas",
         "description": "The power's largest area deals substantially more dmg."
     },
     {
         "name": "Assassination",
-        "target": "Powers that can deal dmg",
+        "target": "powers that can deal dmg",
         "description": "The power deals substantially more dmg against bosses."
     },
     {
         "name": "Focused Power",
-        "target": "Powers that have multiple areas",
+        "target": "powers that have multiple areas",
         "description": "The power's smallest area deals substantially more dmg."
     },
     {
         "name": "Spread Power",
-        "target": "Powers that have multiple areas",
+        "target": "powers that have multiple areas",
         "description": "The power deals more AoE dmg."
     },
     {
         "name": "Focused Area",
-        "target": "Powers that have multiple areas",
+        "target": "powers that have multiple areas",
         "description": "The power's areas all conform to the same shape and area as one of the original areas of your choice, but it no longer deals any extra crit dmg."
     },
     {
         "name": "Keen Shielding",
-        "target": "Powers that can crit",
+        "target": "powers that can crit",
         "description": "Whenever the power crits, you gain temp HP."
     },
     {
         "name": "Dull Criticals",
-        "target": "Powers with an atk roll",
+        "target": "powers with an atk roll",
         "description": "The power has +3 crit range, but no longer deals any extra crit dmg."
     },
     {
         "name": "Keen Recovery",
-        "target": "Powers that have a non-cooldown resource cost and can deal damage",
+        "target": "powers that have a non-cooldown resource cost and can deal damage",
         "description": "Whenever the power crits, its resource cost is refunded. The power deals less dmg."
     },
     {
         "name": "Murderous Recovery",
-        "target": "Powers that have a non-cooldown resource cost",
+        "target": "powers that have a non-cooldown resource cost",
         "description": "Whenever the power scores a killing blow, 1 step of its resource cost is refunded."
     },
     {
         "name": "Dull Infliction",
-        "target": "Powers that can deal dmg and can apply debuffs",
+        "target": "powers that can deal dmg and can apply debuffs",
         "description": "The power deals less dmg, but any debuffs it can apply have +2 to their DCs."
     },
     {
         "name": "Sapping",
-        "target": "Powers that can hit",
+        "target": "powers that can hit",
         "description": "Whenever the power hits, the target becomes sluggish until the end of your next turn."
     },
     {
         "name": "Focused Sapping",
-        "target": "Powers that have multiple areas that can hit",
+        "target": "powers that have multiple areas that can hit",
         "description": "Whenever the power's smallest area hits, the target becomes sluggish until the end of your next turn."
     },
     {
         "name": "Cruelty",
-        "target": "Powers that can deal dmg and can apply debuffs",
+        "target": "powers that can deal dmg and can apply debuffs",
         "description": "Any debuffs the power can apply have +1 to their DCs, and the power deals slightly more dmg to debuffed targets."
     },
     {
         "name": "Massive Infliction",
-        "target": "Powers that have multiple areas that can hit",
+        "target": "powers that have multiple areas that can hit",
         "description": "Whenever the power's largest area hits, it deals more dmg and the target becomes sluggish until the end of your next turn."
     },
     {
         "name": "Spread Infliction",
-        "target": "Powers that have multiple areas that can hit",
+        "target": "powers that have multiple areas that can hit",
         "description": "Whenever the power hits, it deals slightly more dmg and the target become sluggish until the end of your next turn."
     },
     {
         "name": "Whirling Energy",
-        "target": "Powers that have a non-persistent area",
+        "target": "powers that have a non-persistent area",
         "description": "After the area resolves, it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal slight $nonPhysType dmg."
     },
     {
         "name": "Lingering Infliction",
-        "target": "Any power",
+        "target": "any power",
         "description": "If you have used the power since the start of your last turn, your DoTs deal barely more dmg and your debuff DCs have a +1 bonus."
     },
     {
         "name": "Focused Whirling",
-        "target": "Powers that have multiple non-persistent areas",
+        "target": "powers that have multiple non-persistent areas",
         "description": "Whenever the power's smallest area resolves it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal $nonPhysType dmg."
     },
     {
         "name": "Persistent Mass",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "The power's persistent areas have slightly more dmg and slightly more area."
     },
     {
         "name": "Massive Energy",
-        "target": "Powers that have multiple non-persistent areas",
+        "target": "powers that have multiple non-persistent areas",
         "description": "Whenever the power's largest area resolves it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal slight $nonPhysType dmg. Additionally, any buffs triggered from the power have slightly more effectiveness."
     },
     {
         "name": "Spread Energy",
-        "target": "Powers that have multiple non-persistent areas",
+        "target": "powers that have multiple non-persistent areas",
         "description": "Whenever the power's areas resolve, they leave vortices of energy, pers areas that last until the end of your next turn, making spell atks that deal barely any $nonPhysType dmg. Additionally, any buffs triggered from the power have barely more duration."
     },
     {
         "name": "Focused Efficiency",
-        "target": "Powers that have multiple areas and a non-cooldown resource cost",
+        "target": "powers that have multiple areas and a non-cooldown resource cost",
         "description": "The power's cost is 1 step lower, but its largest area deals substantially less dmg."
     },
     {
         "name": "Major Spread",
-        "target": "Powers that have multiple areas and a non-cooldown resource cost",
+        "target": "powers that have multiple areas and a non-cooldown resource cost",
         "description": "The power's areas deal massively more dmg, but its cost is 1 step higher."
     },
     {
         "name": "Keen Power",
-        "target": "Powers that make atk rolls",
+        "target": "powers that make atk rolls",
         "description": "The power deals barely more dmg and has +1 crit range.",
         "meta": "ice barrage"
     },
     {
         "name": "Slow Power",
-        "target": "Powers that deal dmg",
+        "target": "powers that deal dmg",
         "description": "The power deals substantially more dmg, has +1 Accuracy, and has its usage time increased by 1 action step."
     },
     {
         "name": "Fragmentation",
-        "target": "Powers that fire non-piercing projectiles",
+        "target": "powers that fire non-piercing projectiles",
         "description": "Whenever the power's projs hit, they explode in a 15' cone originating from the opposite side of the target. The cone makes a spell atk against all foes, dealing slight $nonPhysType dmg on a hit."
     },
     {
         "name": "Focused Energy",
-        "target": "Powers with a cooldown and a non-instantaneous duration",
+        "target": "powers with a cooldown and a non-instantaneous duration",
         "description": "The power deals more dmg and its cooldown is reduced by 1 step, but its duration is reduced by 1 step."
     },
     {
         "name": "Slow Splitting",
-        "target": "Powers with a non-cooldown resource cost that fire projectiles",
+        "target": "powers with a non-cooldown resource cost that fire projectiles",
         "description": "The power fires 3 additional projs, each aiming 45 degrees in a different direction of your choice from the original projs, but its usage time is increased by 1 action step, its resoure cost is increased by 1 step, and it deals less dmg."
     },
     {
         "name": "Spread",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cones are 5' wider at all distances."
     },
     {
         "name": "Piercing",
-        "target": "Powers that fire projectiles",
+        "target": "powers that fire projectiles",
         "description": "The power's projectiles are converted to line AoEs but it deals less dmg."
     },
     {
         "name": "Decaying Penetration",
-        "target": "Powers with line areas",
+        "target": "powers with line areas",
         "description": "Each creature hit by the power's lines gets a DoT dealing slight $nonPhysType dmg, stacking until CON save."
     },
     {
         "name": "Endurance",
-        "target": "Powers with non-instantaneous durations that can deal damage",
+        "target": "powers with non-instantaneous durations that can deal damage",
         "description": "The power's duration increases by 1 step, but it deals less dmg."
     },
     {
         "name": "Clumsy Power",
-        "target": "Powers that have Accuracy components",
+        "target": "powers that have Accuracy components",
         "description": "The power deals substantially more dmg but has -1 Accuracy."
     },
     {
         "name": "Building Assassination",
-        "target": "Powers that can hit",
+        "target": "powers that can hit",
         "description": "Whenever the power hits a boss, it gains dmg for the remainder of its duration."
     },
     {
         "name": "Building Power",
-        "target": "Powers with non-instantaneous durations",
+        "target": "powers with non-instantaneous durations",
         "description": "Each turn of the power's duration, it gains slightly more dmg."
     },
     {
         "name": "Unstable Speed",
-        "target": "Powers that do not require concentration and can deal damage",
+        "target": "powers that do not require concentration and can deal damage",
         "description": "The power's usage time is reduced by 2 action steps, but it now requires concentration and deals less dmg."
     },
     {
         "name": "Swift Channelling",
-        "target": "Powers that require reactivation each round and can deal damage",
+        "target": "powers that require reactivation each round and can deal damage",
         "description": "The power's reactivation time is reduced by 1 action step, but it now deals less dmg."
     },
     {
         "name": "Shielding",
-        "target": "Powers that can hit",
+        "target": "powers that can hit",
         "description": "Whenever the power hits, you gain temp HP."
     },
     {
         "name": "Tiring Exertion",
-        "target": "Powers with non-instantaneous durations that can deal damage",
+        "target": "powers with non-instantaneous durations that can deal damage",
         "description": "For the power's duration, you project a 5' aura that inflicts sluggish on foes until the end of their turn, but the power deals less damage."
     },
     {
         "name": "Intensity",
-        "target": "Powers with non-instantaneous durations",
+        "target": "powers with non-instantaneous durations",
         "description": "The power deals massively more damage, but its duration is reduced by 1 step."
     },
     {
         "name": "Focused Channelling",
-        "target": "Powers with non-instantaneous durations that require reactivation each round",
+        "target": "powers with non-instantaneous durations that require reactivation each round",
         "description": "The power's reactivation time is reduced by 1 action step, but you are slowed for its duration."
     },
     {
         "name": "Charged Shielding",
-        "target": "Powers with cooldowns that can have targeted directions",
+        "target": "powers with cooldowns that can have targeted directions",
         "description": "If the power is directed at a non-self target, it projects a 10'-wide magical barrier for the combat that completely blocks projs, in the space in front of you in the targeted direction. The power's cooldown also increases by 1 step."
     },
     {
         "name": "Charged Obstacles",
-        "target": "Powers that form objs or structs and can deal dmg",
+        "target": "powers that form objs or structs and can deal dmg",
         "description": "Any objs or structs formed by the power have their durations extended by 2 steps, but the power's cooldown is increased by 1 step and it deals less damage."
     },
     {
         "name": "Empowering Obstacles",
-        "target": "Powers that form objs or structs",
+        "target": "powers that form objs or structs",
         "description": "While an obj or struct formed by the power is active, you deal slightly more $nonPhysType dmg and have slightly more {nonPhysType} res."
     },
     {
         "name": "Volatile Obstacles",
-        "target": "Powers that form objs or structs and can deal dmg",
+        "target": "powers that form objs or structs and can deal dmg",
         "description": "When an obj or struct formed by the power expires, it erupts in a staggering explosion. All foes adj to the entity are staggered until the end of your next turn. The power deals massively less damage."
     },
     {
         "name": "Building Ailments",
-        "target": "Powers with non-instantaneous durations that deal damage",
+        "target": "powers with non-instantaneous durations that deal damage",
         "description": "For each turn of the power's duration, any debuffs it can apply have +1 to their related DCs. The power deals less damage."
     },
     {
         "name": "Explosive Power",
-        "target": "Powers that can hit",
+        "target": "powers that can hit",
         "description": "Whenever the power hits, a nova erupts from the target, attacking all foes within 5' of the target (including them), dealing 1d4 $nonPhysType spell dmg on a hit. The power deals substantially less dmg."
     },
     {
         "name": "Ailments",
-        "target": "Any power",
+        "target": "any power",
         "description": "Any debuffs the power can apply have +1 to their related DCs."
     },
     {
         "name": "Empowering Ailments",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power inflicts a debuff, you deal more spell dmg until the end of your next turn."
     },
     {
         "name": "Sudden Eruption",
-        "target": "Powers that require reactivation each round and do not have a cone AoE",
+        "target": "powers that require reactivation each round and do not have a cone AoE",
         "description": "The power's duration is now instantaneous and only activates on casting, but now affects a cone area with length equal to the original range or area length. It also deals substantially more dmg."
     },
     {
         "name": "Inflicting Eruption",
-        "target": "Powers with cone AoEs",
+        "target": "powers with cone AoEs",
         "description": "Any debuffs the power can apply have +1 to their related DCs, and the power deals barely more dmg."
     },
     {
         "name": "Cruel Power",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power deals more dmg to debuffed targets."
     },
     {
         "name": "Keen Cruelty",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power has +1 crit range against debuffed targets."
     },
     {
         "name": "Speed",
-        "target": "Powers that can deal dmg",
+        "target": "powers that can deal dmg",
         "description": "The power's usage time is reduced by 1 step, but it deals less dmg.",
         "meta": "fireball"
     },
     {
         "name": "Focused Speed",
-        "target": "Powers that have multiple individual targets",
+        "target": "powers that have multiple individual targets",
         "description": "The power's usage time is reduced by 1 step and it deals slightly more dmg for each additional individual target it has above 1, but it now only has 1 individual target."
     },
     {
         "name": "channelling",
-        "target": "Powers with an instantaneous duration and a non-self/melee range",
+        "target": "powers with an instantaneous duration and a non-self/melee range",
         "description": "The power's duration becomes 'Concentration, up to 1 minute', and you can reactivate its effect as its usage time throughout the duration. Its range is also halved."
     },
     {
         "name": "Overcharged Penetration",
-        "target": "Powers with a non-cooldown resource cost that require concentration and fire projectiles",
+        "target": "powers with a non-cooldown resource cost that require concentration and fire projectiles",
         "description": "The power's projectiles are converted to 5'-wide line AoEs and deal more dmg, but its cost is increased by 1 step."
     },
     {
         "name": "Efficient channelling",
-        "target": "Powers with a non-cooldown resource cost that require concentration and deal dmg",
+        "target": "powers with a non-cooldown resource cost that require concentration and deal dmg",
         "description": "The power's cost is 1 step lower, but it deals less dmg."
     },
     {
         "name": "Protective channelling",
-        "target": "Powers that require concentration",
+        "target": "powers that require concentration",
         "description": "While concentrating on the power, you have barely more phys res and slightly more $nonPhysType res."
     },
     {
         "name": "Distance",
-        "target": "Powers with a non-self/melee range",
+        "target": "powers with a non-self/melee range",
         "description": "The power's range is doubled."
     },
     {
         "name": "Shredding",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target's $nonPhysType res is reduced until the end of your next turn."
     },
     {
         "name": "Unstable Focus",
-        "target": "Powers that have multiple individual targets",
+        "target": "powers that have multiple individual targets",
         "description": "If all of the power's individual targets are the same, a burst of energy erupts around the target, making a spell atk against all foes within 5' of the target (including them), dealing slight $nonPhysType dmg."
     },
     {
         "name": "Reliable Explosions",
-        "target": "Powers with sphere areas that trigger from hits",
+        "target": "powers with sphere areas that trigger from hits",
         "description": "The power's sphere areas still trigger even if the required effects do not hit."
     },
     {
         "name": "Telekinesis",
-        "target": "Powers that fire projectiles",
+        "target": "powers that fire projectiles",
         "description": "The power's projectiles have +1 Accuracy."
     },
     {
         "name": "Infliction",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save."
     },
     {
         "name": "Spreading Decay",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing barely any $nonPhysType dmg, stacking until DEX save. Whenever a creature fails to save out of this DoT, it spreads to all creatures of your choice adj to the afflicted creature."
     },
     {
         "name": "Powerful Decay",
-        "target": "Powers that inflict DoTs",
+        "target": "powers that inflict DoTs",
         "description": "The power's DoTs deal more dmg."
     },
     {
         "name": "Penetration",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power ignores dmg res."
     },
     {
         "name": "Precision",
-        "target": "Powers that make atk rolls",
+        "target": "powers that make atk rolls",
         "description": "The power has +1 crit range."
     },
     {
         "name": "Volatile Destruction",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, it deals slight additional $nonPhysType dmg. Additionally, its crits deal slightly more dmg."
     },
     {
         "name": "Distant Power",
-        "target": "Powers with a non-self/melee range",
+        "target": "powers with a non-self/melee range",
         "description": "The power's range is doubled and it deals barely more dmg."
     },
     {
         "name": "Overcharged Eruption",
-        "target": "Powers with a non-cooldown resource cost that fire a single projectile",
+        "target": "powers with a non-cooldown resource cost that fire a single projectile",
         "description": "The power's proj is converted into a cone with a length equal to the proj's range and deals more dmg, but its cost is increased by 1 step."
     },
     {
         "name": "Keen Lag",
-        "target": "Powers that make atk rolls",
+        "target": "powers that make atk rolls",
         "description": "The power has +3 crit range, but its usage time is increased by 1 step."
     },
     {
         "name": "Dull Debilitation",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power can no longer crit, but whenever it usually would, it debilitates the target until CON save."
     },
     {
         "name": "Stacked Focus",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cone areas are now lines of the same length that activate twice over the same area, but its usage time is increased by 1 step."
     },
     {
         "name": "Blunt Power",
-        "target": "Powers with line areas",
+        "target": "powers with line areas",
         "description": "The power deals massively more dmg, but its line areas are converted to non-piercing projs with range equal to the line's length.",
         "meta": "marrow shards"
     },
     {
         "name": "Leeching Empowerment",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever you deal $physType dmg having used the power since the start of your last turn, heal a slight amount of HP."
     },
     {
         "name": "Blunt Eruption",
-        "target": "Powers with line areas that have a non-cooldown resource cost",
+        "target": "powers with line areas that have a non-cooldown resource cost",
         "description": "The power's line areas are converted to non-piercing projs with range equal to the line's length and deal less dmg, and its cost is increased by 1 step. Additionally, whenever these projs hit, they splinter into a 15' cone AoE from the other side of the target, a spell atk dealing massive phys dmg."
     },
     {
         "name": "Erupting Power",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cone areas deal more dmg."
     },
     {
         "name": "Massive Blasting",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power's cone areas are longer."
     },
     {
         "name": "Erupting Exsanguination",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "Whenever the power's cone areas hit, the target is inflicted with a DoT dealing slight $physType dmg, stacking until CON save."
     },
     {
         "name": "Erupting Cruelty",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cone areas deal more dmg against debuffed targets."
     },
     {
         "name": "Keen Eruption",
-        "target": "Powers with cone areas that make atk rolls",
+        "target": "powers with cone areas that make atk rolls",
         "description": "The power's cone areas have +1 crit range."
     },
     {
         "name": "Destructive Eruption",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cone areas deal more crit dmg."
     },
     {
         "name": "Overcharged Splintering",
-        "target": "Powers with line areas and a non-cooldown resource cost",
+        "target": "powers with line areas and a non-cooldown resource cost",
         "description": "Whenever the power's line areas end, they release a 15' long cone from that point in the same direction as the line, a spell atk against foes dealing substantial $physType dmg. The power's line areas have their lengths halved and its cost is increased by 1 step."
     },
     {
         "name": "Targeted Conclusion",
-        "target": "Powers with line areas and a non-cooldown resource cost",
+        "target": "powers with line areas and a non-cooldown resource cost",
         "description": "The power's line areas are always of a length of your choice, up to their original length, and deal substantially more dmg. The power's cost is increased by 1 step."
     },
     {
         "name": "Close Power",
-        "target": "Powers with a non-self/melee range",
+        "target": "powers with a non-self/melee range",
         "description": "The power deals substantially more dmg but its range is halved."
     },
     {
         "name": "Keen Destruction",
-        "target": "Powers that make atk rolls",
+        "target": "powers that make atk rolls",
         "description": "The power has +1 crit range and deals barely more crit dmg."
     },
     {
         "name": "Destruction",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power deals more crit dmg."
     },
     {
         "name": "Sacrificial Destruction",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power deals substantially more crit dmg, but whenever it crits you lose a slight amount of HP."
     },
     {
         "name": "Keen Support",
-        "target": "Any power",
+        "target": "any power",
         "description": "If you have an active minion when you use the power, you gain +1 crit range until the end of your next turn. This does not stack."
     },
     {
         "name": "Overcharged Exsanguination",
-        "target": "Powers with a non-cooldown resource cost that can deal damage",
+        "target": "powers with a non-cooldown resource cost that can deal damage",
         "description": "Whenever the power hits, the target is inflicted with a DoT that deals substantial $physType dmg, stacking until CON save. The power's cost is increased by 1 step and it deals less dmg."
     },
     {
         "name": "Delayed Leeching",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, you heal HP at the start of your next turn."
     },
     {
         "name": "Healing",
-        "target": "Powers that heal",
+        "target": "powers that heal",
         "description": "The power heals more HP."
     },
     {
         "name": "Efficient Healing",
-        "target": "Powers with a non-cooldown resource cost that heal",
+        "target": "powers with a non-cooldown resource cost that heal",
         "description": "The power's cost is reduced by 1 step, but it heals less HP."
     },
     {
         "name": "Sacrificial Power",
-        "target": "Any power",
+        "target": "any power",
         "description": "If you have an active minion when you use the power, the power deals massively more dmg but kills all of your minions."
     },
     {
         "name": "Duplication",
-        "target": "Powers that can deal dmg",
+        "target": "powers that can deal dmg",
         "description": "Whenever you use the power, it is used again at no additional cost, but its dmg is reduced."
     },
     {
         "name": "Reckless Power",
-        "target": "Powers with areas that can damage allies",
+        "target": "powers with areas that can damage allies",
         "description": "The power deals substantially more dmg to foes, but massively more dmg to allies."
     },
     {
         "name": "Feasting",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever you reduce an ally to 0 HP with the power, you heal HP."
     },
     {
         "name": "Bloodthirsty Empowerment",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever you deal $physType dmg have delivered a KB with the power since the start of your last turn, heal a slight amount of HP."
     },
     {
         "name": "Keen Empowerment",
-        "target": "Any power",
+        "target": "any power",
         "description": "If you have delivered a KB with the power since the start of your last turn, you have +1 crit range."
     },
     {
         "name": "Armour Shredding",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target gets slightly reduced phys res until the end of your next turn."
     },
     {
         "name": "Conversion",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power's base dmg is converted to $nonPhysType and it deals more dmg.",
         "meta": "hail of arrows"
     },
     {
         "name": "Compounding Decay",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "Whenever the power's DoTs tick, it inflicts the target with a DoT dealing slight $nonPhysType dmg, stacking until CON save."
     },
     {
         "name": "Focused Endurance",
-        "target": "Powers with non-instantaneous durations that do not require concentration",
+        "target": "powers with non-instantaneous durations that do not require concentration",
         "description": "The power's duration is increased by 1 step, but you can only have 1 instance of it active at a time."
     },
     {
         "name": "Channeled Endurance",
-        "target": "Powers with non-instantaneous durations that do not require concentration",
+        "target": "powers with non-instantaneous durations that do not require concentration",
         "description": "The power now lasts for as long as you concentrate on it, and its usage time is reduced by 1 step."
     },
     {
         "name": "Slowing Decay",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "While a creature is affected by the power's DoT, it is slowed."
     },
     {
         "name": "Sluggish Slowing",
-        "target": "Powers that can inflict slow",
+        "target": "powers that can inflict slow",
         "description": "The power's slow is converted to sluggish."
     },
     {
         "name": "Staggering Decay",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "While a creature is affected by the power's DoT, it is staggered. The power deals less dmg."
     },
     {
         "name": "Decaying Affliction",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "While a creature is affected by the power's DoT, it is staggered. The power also has +1 to its ongoing debuff DCs and deals substantially less dmg."
     },
     {
         "name": "Efficient Intensity",
-        "target": "Powers with a non-cooldown resource cost and non-instantaneous durations",
+        "target": "powers with a non-cooldown resource cost and non-instantaneous durations",
         "description": "The power's cost is 1 step lower and it deals more dmg, but its duration is reduced by 1 step."
     },
     {
         "name": "Decaying Exsanguination",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "Whenever the power's DoTs tick, it inflicts the target with a DoT dealing slight $physType dmg, stacking until CON save."
     },
     {
         "name": "Drifting",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "The power's persistent areas move 5' away from where you were when they were created at the start of each of your turns."
     },
     {
         "name": "Charged Intensity",
-        "target": "Powers with a cooldown and a non-instantaneous duration",
+        "target": "powers with a cooldown and a non-instantaneous duration",
         "description": "The power can be used an additional time within its cooldown and deals more dmg, but its duration is reduced by 1 step."
     },
     {
         "name": "Slow Efficiency",
-        "target": "Powers with cooldown and non-cooldown resource costs",
+        "target": "powers with cooldown and non-cooldown resource costs",
         "description": "The power's cooldown and cost are both reduced by 1 step, and it deals more dmg, but its usage time is increased by 2 steps."
     },
     {
         "name": "Intense Power",
-        "target": "Powers with sphere areas",
+        "target": "powers with sphere areas",
         "description": "The power's sphere areas deal substantially more dmg, but its sphere areas have less radius."
     },
     {
         "name": "Leeching Decay",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "Whenever the power's DoTs tick, heal a slight amount of HP."
     },
     {
         "name": "Exposing Decay",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "Whenever the power's DoTs tick, the target grants incoming atks +1 crit range until the end of your next turn."
     },
     {
         "name": "Shredding Decay",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "Whenever the power's DoTs tick, the target's phys res is slightly reduced until the end of your next turn."
     },
     {
         "name": "Sapping Decay",
-        "target": "Powers that deal damage over time",
+        "target": "powers that deal damage over time",
         "description": "Whenever the power's DoTs tick, the target's global dmg is slightly reduced until the end of its next turn."
     },
     {
         "name": "Explosive Area",
-        "target": "Powers with sphere areas",
+        "target": "powers with sphere areas",
         "description": "The power's sphere areas have more radius."
     },
     {
         "name": "Explosive Striking",
-        "target": "Powers with a non-cooldown resource cost",
+        "target": "powers with a non-cooldown resource cost",
         "description": "Whenever the power creates a sphere area, that area is also assaulted with a barrage of energy from above, making a wep atk against all foes within the sphere that deals $physType dmg. Also, the power deals more dmg and its cost is increased by 1 step."
     },
     {
         "name": "Explosive Rooting",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power creates a sphere area, all foes in that area are rooted until end of their next turn. If an affected foe is a boss, it is slowed instead."
     },
     {
         "name": "Keen Explosions",
-        "target": "Powers with sphere areas that make atk rolls",
+        "target": "powers with sphere areas that make atk rolls",
         "description": "The power's sphere areas have +1 crit range."
     },
     {
         "name": "Persistent Warding",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever you end your turn within the power's pers areas, you gain a barely any dmg res and +1 to DEX saves until your next turn."
     },
     {
         "name": "Persistent Empowerment",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever an ally ends their turn within the power's pers areas, they gain barely any dmg res and +1 to DEX saves until their next turn. Also, the power deals substantially less dmg."
     },
     {
         "name": "Striking",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, it deals additional $physType dmg.",
         "meta": "umbral blades"
     },
     {
         "name": "Staggering",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is staggered until the end of your next turn."
     },
     {
         "name": "Affliction",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is staggered and sluggish until the end of your next turn. The power also deals less dmg."
     },
     {
         "name": "Inconsistent Eruption",
-        "target": "Powers with cone areas that require reactivation each round",
+        "target": "powers with cone areas that require reactivation each round",
         "description": "The power's duration is increased by 1 step, and every 3 reactivations its cone areas are larger and deal more dmg. Its other reactivations deal less dmg."
     },
     {
         "name": "Irregular Eruption",
-        "target": "Powers with cone areas that require reactivation each round",
+        "target": "powers with cone areas that require reactivation each round",
         "description": "Every 3 reactivations, the power's cone areas are larger and deal substantially more dmg."
     },
     {
         "name": "Weaving Eruption",
-        "target": "Powers with cone areas that require reactivation each round",
+        "target": "powers with cone areas that require reactivation each round",
         "description": "Every 2 reactivations, the power's cone areas are larger and deal more dmg."
     },
     {
         "name": "Stored Energy",
-        "target": "Powers with cone areas that require reactivation each round",
+        "target": "powers with cone areas that require reactivation each round",
         "description": "For each turn of the power's duration in which you do not reactivate it, your next reactivation's cone areas are larger and deal barely more dmg."
     },
     {
         "name": "Empowering Exsanguiniation",
-        "target": "Powers that require reactivation each round",
+        "target": "powers that require reactivation each round",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing barely any $physType dmg, stacking until CON save. Additionally, every 3 reactivations, you gain +30' sp until the end of your next turn."
     },
     {
         "name": "Decaying Traps",
-        "target": "Powers that lay traps",
+        "target": "powers that lay traps",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing $nonPhysType dmg, stacking until CON save. Additionally, the power deals massively less dmg."
     },
     {
         "name": "Inconsistent Power",
-        "target": "Powers that require reactivation each round",
+        "target": "powers that require reactivation each round",
         "description": "Every 3 reactivations, the power deals massively more dmg. All other reactivations deal barely less dmg."
     },
     {
         "name": "Inconsistent Sapping",
-        "target": "Powers that require reactivation each round",
+        "target": "powers that require reactivation each round",
         "description": "Every 3 reactivations, the power's hits slow the target until the end of your next turn, and inflict a DoT dealing $physType dmg, stacking until CON save."
     },
     {
         "name": "Inconsistent Cruelty",
-        "target": "Powers that require reactivation each round",
+        "target": "powers that require reactivation each round",
         "description": "Every 3 reactivations, the power deals massively more dmg vs debuffed targets."
     },
     {
         "name": "Gated Activation",
-        "target": "Powers that require reactivation each round",
+        "target": "powers that require reactivation each round",
         "description": "Every 3 reactivations, you cannot directly reactivate the power. Instead, it reactivates the next time you teleport. The power deals substantially more dmg."
     },
     {
         "name": "Rapid Shielding",
-        "target": "Powers that require reactivation each round",
+        "target": "powers that require reactivation each round",
         "description": "The power's reactivation time is reduced by 1 step, but it deals substantially less dmg. Additionally, every 3 reactivations, the power's hits grant you a massive amount of temp HP."
     },
     {
         "name": "Blunt Seeking",
-        "target": "Powers with line areas that require reactivation each round",
+        "target": "powers with line areas that require reactivation each round",
         "description": "Every 3 reactivations, the power's line areas are converted into non-piercing projs that have +5 Accuracy."
     },
     {
         "name": "Inconsistent Penetration",
-        "target": "Powers that fire non-piercing projectiles and require reactivation each round",
+        "target": "powers that fire non-piercing projectiles and require reactivation each round",
         "description": "Every 3 reactivations, the power's projs are converted into line areas with length of the proj's range and deal more dmg."
     },
     {
         "name": "Empowered Power",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power's dmg deals slightly more dmg while you are buffed. This bonus is doubled while you are in a pers area."
     },
     {
         "name": "Splintering Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "Whenever the minions die, they leave behind a chunk of metal. The next time you reactivate a power that requires reactivation each round, the chunk flies at you, creating a line area between its location and you, making wep atks against all foes and dealing slight $physType dmg."
     },
     {
         "name": "Bursting Empowerment",
-        "target": "Powers with an instantaneous duration",
+        "target": "powers with an instantaneous duration",
         "description": "Whenever a single use of the power hits 1+ target, you gain barely any dmg res and +1 to DEX saves until the end of your next turn."
     },
     {
         "name": "Narrowed Power",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cone areas are converted into 10'-wide line areas that deal barely more dmg."
     },
     {
         "name": "Specialised Inevitability",
-        "target": "Any power",
+        "target": "any power",
         "description": "While you are wielding a $weaponClass weapon, the power's hits give a stack of Invevitability. Whenever a creature reaches 4 stacks of Inevitability, make a wep atk against them, dealing massive $physType dmg."
     },
     {
         "name": "Planted Whirling",
-        "target": "Powers with line areas",
+        "target": "powers with line areas",
         "description": "Whenever the power's line areas end, they conjure a 5'x5' whirling chunk of metal that remains as a pers area until the end of your next turn. The area makes wep atks that deal barely any $physType dmg."
     },
     {
         "name": "Overwhelming Persistence",
-        "target": "Powers with persistent areas that deal damage",
+        "target": "powers with persistent areas that deal damage",
         "description": "The power's persistent areas' durations are increased by 1 step and have more area, but deal substantially less dmg."
     },
     {
         "name": "Creeping Persistence",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "The power's persistent areas move 5' towards their nearest foes at the start of each of your turns."
     },
     {
         "name": "Controlled Power",
-        "target": "Powers with line areas",
+        "target": "powers with line areas",
         "description": "You can change the power's line areas to be any length up to their maximum whenever you create them and they deal barely more dmg."
     },
     {
         "name": "Careful Trapping",
-        "target": "Powers with line areas",
+        "target": "powers with line areas",
         "description": "Whenever the power's line areas end, they leave behind a trap that triggers whenever a creature starts their turn or moves within 5' of it. The traps also trigger at the end of your next turn if they haven't done so already. The traps make a wep atk against all foes within 5' of them, dealing slight $physType dmg and slight $nonPhysType dmg. Also, the power's usage time is increased by 1 step."
     },
     {
         "name": "Patient Trapping",
-        "target": "Powers that lay traps",
+        "target": "powers that lay traps",
         "description": "For every round that the trap is armed and not triggered, it gains barely more detonation area and barely more dmg."
     },
     {
         "name": "Eruption",
-        "target": "Powers with a non-cooldown resource cost that target a single point",
+        "target": "powers with a non-cooldown resource cost that target a single point",
         "description": "A nova of metal erupts from the power's target, making a spell atk against all foes adj to the target dealing $physType dmg. Additionally, the power's cost is increased by 1 step.",
         "meta": "sacrifice"
     },
     {
         "name": "Explosive Exsanguination",
-        "target": "Powers with sphere areas",
+        "target": "powers with sphere areas",
         "description": "Whenever the power's sphere areas hit, the target is inflicted with a DoT dealing slight $physType dmg, stacking until CON save."
     },
     {
         "name": "Decaying Empowerment",
-        "target": "Any power",
+        "target": "any power",
         "description": "If you have used the power since the start of your last turn, your DoTs deal more dmg."
     },
     {
         "name": "Bombarding Penetration",
-        "target": "Powers that fire multiple non-piercing projectiles and deal damage",
+        "target": "powers that fire multiple non-piercing projectiles and deal damage",
         "description": "The power's projs are converted to line areas with length equal to the proj's range, but they deal less dmg."
     },
     {
         "name": "Blasting Power",
-        "target": "Powers with sphere areas",
+        "target": "powers with sphere areas",
         "description": "The power's sphere areas deal more dmg."
     },
     {
         "name": "Massive Debilitation",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power has barely more area and whenever it hits it debilitates the target until the end of your next turn."
     },
     {
         "name": "Massive Support",
-        "target": "Any power",
+        "target": "any power",
         "description": "If you have an active minion when you use the power, it gets more area."
     },
     {
         "name": "Chaining Boons",
-        "target": "Powers with a non-cooldown resource cost that target a single ally",
+        "target": "powers with a non-cooldown resource cost that target a single ally",
         "description": "The power can target 1 additional ally within range and deals more dmg, but its cost is increased by 1 step."
     },
     {
         "name": "Supported Power",
-        "target": "Any power",
+        "target": "any power",
         "description": "If you have an active minion when you use the power, it gets more dmg."
     },
     {
         "name": "Bloody Death",
-        "target": "Powers with a non-cooldown resource cost",
+        "target": "powers with a non-cooldown resource cost",
         "description": "Whenever the power scores a killing blow, it consumes 1 additional step of its resource cost to conjure a CR 1 Blood Spectre from the corpse, which is an undead minion that deals $physType dmg."
     },
     {
         "name": "Leeching Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "Whenever the minions hit, they heal a slight amount of HP."
     },
     {
         "name": "Efficient Summons",
-        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "target": "powers with a non-cooldown resource cost that summon minions",
         "description": "The power's cost is reduced by 1 step, and whenever the minions hit, they inflict the target with a DoT dealing slight $physType dmg, stacking until CON save (minion's DC). Additionally, the minions deal substantially less dmg."
     },
     {
         "name": "Powerful Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions have slightly more HP and deal slightly more dmg."
     },
     {
         "name": "Gargantuan Summons",
-        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "target": "powers with a non-cooldown resource cost that summon minions",
         "description": "The minions have substantially more dmg, more HP, and are 1 step larger, but the power's cost is increased by 1 step."
     },
     {
         "name": "Energy",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, it deals additional $nonPhysType dmg."
     },
     {
         "name": "Decay",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save."
     },
     {
         "name": "Efficient Empowerment",
-        "target": "Powers with a non-cooldown resource cost that deal damage",
+        "target": "powers with a non-cooldown resource cost that deal damage",
         "description": "The power's cost is reduced by 1 step, and if you have used the power since the start of your last turn, you deal more DoT dmg. Additionally, the power deals substantially less dmg."
     },
     {
         "name": "Investment",
-        "target": "Powers with a non-cooldown resource cost",
+        "target": "powers with a non-cooldown resource cost",
         "description": "The power deals massively more dmg, but its cost is increased by 1 step."
     },
     {
         "name": "Eradication",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power deals more dmg if the target cannot sense any of its own allies within 60' of it."
     },
     {
         "name": "Desperation",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power deals more dmg against healthy targets while you are bloodied."
     },
     {
         "name": "Mass Sapping",
-        "target": "Powers with a non-instantaneous duration",
+        "target": "powers with a non-instantaneous duration",
         "description": "You project an aura while the power is active that slows adj foes.",
         "meta": "Aura of Decay"
     },
     {
         "name": "Persistent Shredding",
-        "target": "Powers that create persistent areas",
+        "target": "powers that create persistent areas",
         "description": "Foes in the power's pers areas have slightly less phys res."
     },
     {
         "name": "Shredding Ailments",
-        "target": "Powers that inflict DoTs",
+        "target": "powers that inflict DoTs",
         "description": "Instead of inflicting DoTs, the power marks targets such that whenever they take phys dmg, they take additional base dmg equal to the DoT's original dmg."
     },
     {
         "name": "Persistent Exsanguination",
-        "target": "Powers that create persistent areas",
+        "target": "powers that create persistent areas",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $physType dmg, stacking until CON save."
     },
     {
         "name": "Ultimate Persistence",
-        "target": "Powers with a non-cooldown resource cost that create persistent areas and deal damage",
+        "target": "powers with a non-cooldown resource cost that create persistent areas and deal damage",
         "description": "The power's persistent areas tick thrice at the start of each of your turns, in addition to their usual tick, but whenever they do so, they consume the power's cost again. Additionally, the power deals less dmg."
     },
     {
         "name": "Sacrificial Persistence",
-        "target": "Powers that create persistent areas which can damage you",
+        "target": "powers that create persistent areas which can damage you",
         "description": "The power's persistent areas tick twice at the start of each of your turns, in additional to their usual tick, but whenever they do so, they tick once against you, regardless of your location. Additionally, the power deals less dmg."
     },
     {
         "name": "Intense Persistence",
-        "target": "Powers that create persistent areas and deal damage",
+        "target": "powers that create persistent areas and deal damage",
         "description": "The power's persistent areas tick at the start of each of your turns, in additional to their usual tick, but they deal less dmg."
     },
     {
         "name": "Persistent Doom",
-        "target": "Powers that create persistent areas which can damage you",
+        "target": "powers that create persistent areas which can damage you",
         "description": "The power's persistent areas tick thrice at the start of each of your turns, in additional to their usual tick, but whenever they do so, they tick a number of times against you equal to the number of complete rounds the area has been active, regardless of your location. Additionally, the power deals less dmg."
     },
     {
         "name": "Enduring Ailments",
-        "target": "Any power",
+        "target": "any power",
         "description": "Any debuffs the power can apply have +1 to their ongoing DCs."
     },
     {
         "name": "Terror",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever you use the power, all foes adj to you are frightened until the end of their next turn."
     },
     {
         "name": "Incubating Resilience",
-        "target": "Powers with a non-instantaneous duration",
+        "target": "powers with a non-instantaneous duration",
         "description": "For the power's duration, you have more $nonPhysType res. Additionally, whenever the power ends, you heal barely any HP."
     },
     {
         "name": "Explosive Decay",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever you use the power, energy erupts from you, inflicting a DoT dealing barely any $nonPhysType dmg, stacking until CON save, on all adj foes."
     },
     {
         "name": "Growth",
-        "target": "Powers with areas",
+        "target": "powers with areas",
         "description": "The power has more area."
     },
     {
         "name": "Contagious Decay",
-        "target": "Powers with a non-instantaneous duration that deal damage",
+        "target": "powers with a non-instantaneous duration that deal damage",
         "description": "For the power's duration, you project a 5' aura that inflicts foes with a DoT dealing barely any $nonPhysType dmg, stacking until CON save. Whenever a creature fails to save out of this DoT, it spreads to all creatures of your choice adj to them. Additionally, the power deals less dmg."
     },
     {
         "name": "Volatile Persistence",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "1/turn, when a creature dies within the power's pers areas, their corpse emits a nova of energy, which inflicts a DoT dealing slight $nonPhysType dmg, stacking until CON save, on all creatures of your choice adj to it."
     },
     {
         "name": "Charged Explosions",
-        "target": "Powers with sphere areas and a cooldown that deal damage",
+        "target": "powers with sphere areas and a cooldown that deal damage",
         "description": "The power's cooldown is reduced by 1 step, but it deals less damage."
     },
     {
         "name": "Resistance",
-        "target": "Powers with non-instantaneous durations",
+        "target": "powers with non-instantaneous durations",
         "description": "For the power's duration, you have substantially more $nonPhysType res."
     },
     {
         "name": "Persistent Erosion",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "Foes within the power's pers areas have less $nonPhysType res."
     },
     {
         "name": "Decaying Bolts",
-        "target": "Powers with non-instantaneous durations",
+        "target": "powers with non-instantaneous durations",
         "description": "At the start of each of your turns during the power's duration, you fire a bolt of energy at the nearest foe in LoS, inflicting a DoT dealing slight $nonPhysType dmg, stacking until CON save."
     },
     {
         "name": "Rapid Missiles",
-        "target": "Powers that fire projectiles and deal damage",
+        "target": "powers that fire projectiles and deal damage",
         "description": "The power's usage time is reduced by 1 step, but it deals less dmg."
     },
     {
         "name": "Persistent Sacrifice",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "You and foes within the power's pers areas have substantially less $nonPhysType res."
     },
     {
         "name": "Malevolent Shredding",
-        "target": "Powers with non-instantaneous durations",
+        "target": "powers with non-instantaneous durations",
         "description": "For the power's duration, whenever you are hit, the offender is cursed with barely reduced dmg res for the rest of the combat."
     },
     {
         "name": "Sacrificial Decay",
-        "target": "Powers with a non-instantaneous duration",
+        "target": "powers with a non-instantaneous duration",
         "description": "For the power's duration, whenever you are hit, the offender is inflicted with a DoT dealing substantial $nonPhysType dmg and you are inflicted with a DoT dealing $nonPhysType dmg, both stacking until CON save."
     },
     {
         "name": "Malevolent Absorption",
-        "target": "Powers with a non-instantaneous duration",
+        "target": "powers with a non-instantaneous duration",
         "description": "For the power's duration, whenever you are hit, you pull energy from all adj cursed foes, a spell atk dealing barely any $nonPhysType dmg and granting you temp HP for each target hit."
     },
     {
         "name": "Persistent Restoration",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "You and allies within the power's pers areas gain barely any passive regen. This regen is doubled while you are bloodied."
     },
     {
         "name": "Persistent Exploitation",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "Your minions within the power's pers areas inflict a DoT on hit dealing $nonPhysType dmg, stacking until CON save (minion's DC), but are inflicted with a DoT dealing slight {type} dmg, stacking until CON save, whenever the area ticks (your DC)."
     },
     {
         "name": "Persistent Control",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "Your minions within the power's pers areas deal more $nonPhysType dmg."
     },
     {
         "name": "Constant Trapping",
-        "target": "Powers with a non-instantaneous duration",
+        "target": "powers with a non-instantaneous duration",
         "description": "At the start of each of your turns during the power's duration, you drop an energy trap. At the start of your next turn, the trap is triggered and all foes adj to it are inflicted with a DoT dealing barely any $nonPhysType dmg, stacking until CON save."
     },
     {
         "name": "Stacked Intensity",
-        "target": "Powers with cone areas that deal damage",
+        "target": "powers with cone areas that deal damage",
         "description": "The power's cone areas are converted into 5'-wide lines of the same length that apply twice, but the power deals substantially less dmg.",
         "meta": "Shurikens"
     },
     {
         "name": "Focused Return",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cone areas are converted into 10'-wide line areas of the same length that apply again from their endpoint to your location at the start of your next turn, regardless of length. Additionally, the power deals substantially more dmg, but its usage time is increased by 2 steps."
     },
     {
         "name": "Building Penetration",
-        "target": "Powers with line areas that originate from you",
+        "target": "powers with line areas that originate from you",
         "description": "The power's line areas deal more dmg against targets 30+' away from you."
     },
     {
         "name": "Massive Overcharging",
-        "target": "Powers with cone areas and a non-cooldown resource cost",
+        "target": "powers with cone areas and a non-cooldown resource cost",
         "description": "The power's cone areas are massively longer, but its cost is increased by 1 step."
     },
     {
         "name": "Shielding Missiles",
-        "target": "Powers that fire projectiles",
+        "target": "powers that fire projectiles",
         "description": "The power's projs instead fly around you, atking as if they were a 5' aura. The projs can still only atk their usual number of times before being destroyed."
     },
     {
         "name": "Persistent Endurance",
-        "target": "Powers with persistent areas that deal damage",
+        "target": "powers with persistent areas that deal damage",
         "description": "The power's persistent areas' durations are increased by 1 step, but they deal less dmg."
     },
     {
         "name": "Armoured Persistence",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "While the power's persistent areas are active, you have slightly more phys res."
     },
     {
         "name": "Exposure",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target gets slighly reduced $physType and $nonPhysType res until the end of your next turn."
     },
     {
         "name": "Chaining",
-        "target": "Powers with cone areas and a non-cooldown resource cost",
+        "target": "powers with cone areas and a non-cooldown resource cost",
         "description": "The power's cone areas are converted to chaining projs with range equal to the cone's length, but its cost is increased by 1 step. Additionally, the power deals barely more crit dmg."
     },
     {
         "name": "Energy Exposure",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target's $nonPhysType res is barely reduced and it has -1 to debuff saves until the end of your next turn."
     },
     {
         "name": "Efficient Power",
-        "target": "Powers with a non-cooldown resource cost",
+        "target": "powers with a non-cooldown resource cost",
         "description": "The power deals more dmg and its cost is reduced by 1 step, but its usage time is increased by 1 step."
     },
     {
         "name": "Planned Retreat",
-        "target": "Powers with a targeted direction and a cooldown",
+        "target": "powers with a targeted direction and a cooldown",
         "description": "Whenever you use the power, you shift up 20' away from the targeted direction in a straight line, but its cooldown is increased by 1 step."
     },
     {
         "name": "Alacrity",
-        "target": "Any power",
+        "target": "any power",
         "description": "If the power is used and hits 1+ target, you gain +10' speed until the end of the turn."
     },
     {
         "name": "Blinding",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is blinded until the end of your next turn."
     },
     {
         "name": "Rooting",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is rooted until the end of their next turn."
     },
     {
         "name": "Erosion",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until CON save."
     },
     {
         "name": "Explosions",
-        "target": "Powers with cone areas",
+        "target": "powers with cone areas",
         "description": "The power's cone areas are converted into self-burst spheres with radius equal to the cone's length."
     },
     {
         "name": "Exsanguination",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $physType dmg, stacking until CON save."
     },
     {
         "name": "Potential",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power can have 2 additional tome upgrades applied to it.",
         "meta": "Swarmblade Form"
     },
     {
         "name": "Shifting Summoning",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift's melee wep atks hit, your active minions gain global dmg until you take a LR, but these melee wep atks gain a 4+ recharge. If the atks are unusable on a turn due to this cooldown, a new power can be used in its place that conjures a Locust, a CR 1/4 minion that deals $physType dmg and gains a permanent -1 passive regen at the start of each of its turns."
     },
     {
         "name": "Shifting Feasting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift's powers or minions score a KB, or hit a boss, you heal barely any HP and double the shapeshift's max duration."
     },
     {
         "name": "Shifting Tornadoes",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Every 5 hits the shapeshift's melee wep atks score, the max duration of the shapeshift is halved to conjure a tornado of energy in the target's space, a 5x5' pers area that moves 5' in a random dir at the start of each of your turns and makes spell atks that deal substantial $physType dmg."
     },
     {
         "name": "Persistent Power",
-        "target": "Powers with persistent areas",
+        "target": "powers with persistent areas",
         "description": "The power's pers areas deal more dmg."
     },
     {
         "name": "Shifting Unity",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift and its minions deal barely any additional $physType dmg with hits. Additionally, while it has an active minion, the shapeshift's DoTs deal barely more dmg."
     },
     {
         "name": "Keen Shifting",
-        "target": "Powers that shapeshift into forms that can deal dmg",
+        "target": "powers that shapeshift into forms that can deal dmg",
         "description": "The shapeshift and its minions have +1 crit range. Additionally, the shapeshift deals less dmg."
     },
     {
         "name": "Shifting Endurance",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift or its minions crit, the shapeshift's maximum duration is doubled."
     },
     {
         "name": "Summoning Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's minions have less dmg and massively less max HP, but they have +10' reach and are 1 size larger."
     },
     {
         "name": "Swarming Persistence",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's pers areas count as a swarm of untargetable minions dealing using the pers area's ticks instead of you."
     },
     {
         "name": "Shifting Leeching",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift's pers areas tick, it heals a slight amount of HP."
     },
     {
         "name": "Supported Decay",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "If the shapeshift has an active minion when it creates a pers area, the area deals slightly more dmg and for its duration, the shapeshift's hits inflict a DoT dealing barely any $nonPhysType dmg, stacking until CON save."
     },
     {
         "name": "Pooling Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The durations of the shapeshift's pers areas are increased by 1 step. Additionally, its melee wep atks deal massively more dmg but their usage time is increased by 2 steps."
     },
     {
         "name": "Persistent Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift scores a melee wep hit, the max durations of its active pers areas are quadrupled and you revert out of the shapeshift."
     },
     {
         "name": "Savage Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's melee wep hits deal barely more dmg and double the max duration of the shapeshift."
     },
     {
         "name": "Supportive Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift makes a melee wep atk, a random one of its active minions can react to make a single atk. The shapeshift deals substantially less dmg."
     },
     {
         "name": "Defensive Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift and its minions have +1 to DEX saves and slightly more phys res, but it deals less dmg."
     },
     {
         "name": "Heavy Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift has -1 to DEX saves and additional phys res."
     },
     {
         "name": "Enduring Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift passes a DEX save, its max duration is doubled."
     },
     {
         "name": "Swirling Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift makes a charged melee wep atk, its max duration is halved to surround itself with swirling energy, projecting a 5' aura that makes spell atks against foes dealing slight $nonPhysType dmg for combat (dmg stacks)."
     },
     {
         "name": "Shifting Summons",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's minions have slightly more dmg and more max HP."
     },
     {
         "name": "Rejuvenating Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift summons a minion, it heals a slight amount of HP and its max duration is doubled, but it deals less dmg."
     },
     {
         "name": "Staggering Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift and its minions stagger targets for 1 round on hit."
     },
     {
         "name": "Flagellating Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift hits its minions with a melee wep atk, the target gains substantially more dmg for the combat. Additionally, the shapeshift deals less dmg."
     },
     {
         "name": "Summoned Bombs",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's minions can no longer take actions. Instead, at the start of each of their turns, they release a nova of metal, making spell atks against all foes adj to them dealing $physType dmg."
     },
     {
         "name": "Rapid Summoning",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's powers that summon minions have their usage times reduced by 1 step. Additionally, the shapeshift's pers areas contain an untargetable, immobile CR 1/8 beast minion, a locust, at their centre that deals $physType dmg. The shapeshift deals substantially less dmg."
     },
     {
         "name": "Summoning Reversion",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift summons a minion, you revert out of the shapeshift and the minion is replaced with an immobile Healing Totem, a CR 1/4 construct minion that deals a quarter of its dmg as healing."
     },
     {
         "name": "Decaying Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift and its minions inflict their targets with a DoT dealing slight $nonPhysType dmg, stacking until CON save, on hit."
     },
     {
         "name": "Shifting Alacrity",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's powers have their usage times reduced by 1 step, but they deal less dmg."
     },
     {
         "name": "Exsanguinating Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's melee wep hits and minions inflict their targets with a DoT dealing slight $physType dmg, stacking until CON save, on hit."
     },
     {
         "name": "Raw Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift creates a pers area, all debuffs the shapeshift has applied in this combat are removed and the pers area deals slightly more dmg and has slightly more area."
     },
     {
         "name": "Reaching Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions have +5' reach and deal barely more dmg.",
         "meta": "Summon Skeleton"
     },
     {
         "name": "Roguish Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "As a movement action 1/combat, the minions can teleport to a space they can see that is adj to a foe. Additionally, as an action, they can throw metal at a target within 120', making a thrown wep atk that deals $physType dmg."
     },
     {
         "name": "Summoned Decay",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "As an action, the minions can throw metal at a target within 120', making a thrown wep atk dealing substantially less $physType dmg, inflicting the target with a DoT dealing slight $nonPhysType dmg, stacking until CON save (minion's DC), and giving them slightly less phys res until the end of the minion's next turn."
     },
     {
         "name": "Solo Summons",
-        "target": "Powers that summon minions which have cooldowns",
+        "target": "powers that summon minions which have cooldowns",
         "description": "The minions' cooldowns are reduced by 1 step and they deal more dmg, but their powers' usage times are increased by 1 step. Additionally, while the minion is active, you cannot have any other active minions."
     },
     {
         "name": "Rebirth",
-        "target": "Powers that summon minions which deal damage",
+        "target": "powers that summon minions which deal damage",
         "description": "Whenever the minions die, they are resummoned at the end of your next turn (after their turn would be). The minions deal less dmg."
     },
     {
         "name": "Efficient Summoning",
-        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "target": "powers with a non-cooldown resource cost that summon minions",
         "description": "The power's cost is reduced by 1 step and the minions have +1 crit range, but the minions deal substantially less dmg."
     },
     {
         "name": "Effective Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions deal slightly more dmg and have slightly more HP."
     },
     {
         "name": "Sacrificial Shielding",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "Whenever the minions die, you gain a substantial amount of temp HP."
     },
     {
         "name": "Sacrificial Casting",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "If one of the minions have died since your last turn, you deal substantially more spell dmg."
     },
     {
         "name": "Sacrificial Energy",
-        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "target": "powers with a non-cooldown resource cost that summon minions",
         "description": "Whenever the minions die, you recover 1 unit of the power's cost."
     },
     {
         "name": "Energised Summons",
-        "target": "Powers with a non-cooldown resource cost that summon minions",
+        "target": "powers with a non-cooldown resource cost that summon minions",
         "description": "The minions deal substantially more dmg and have more HP, but the power's cost is increased by 1 step."
     },
     {
         "name": "Favoured Summons",
-        "target": "Powers that have multiple static minion summoning options",
+        "target": "powers that have multiple static minion summoning options",
         "description": "The first minion option has more HP, and the second 2 deal more dmg."
     },
     {
         "name": "Armoured Summons",
-        "target": "Powers that have multiple static minion summoning options",
+        "target": "powers that have multiple static minion summoning options",
         "description": "1/combat, as a bonus action, the first minion option can surround themselves with Bone Armour, gaining dmg res until the end of their next turn."
     },
     {
         "name": "Charged Summons",
-        "target": "Powers that summon minions that deal damage",
+        "target": "powers that summon minions that deal damage",
         "description": "The limited features of the minions have their cooldowns reduced by 1 step, and their buffs on themselves have double duration. The minions deal less dmg."
     },
     {
         "name": "Generous Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The buff powers that the minion can usually only target themselves with can now target any ally within 120' of them that they can see. The buffs have -1 effectiveness on non-minion creatures. Additionally, the minions deal more dmg."
     },
     {
         "name": "Learning Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "If one of the minions have died since your last turn, using the power grants the newly-summoned minion substantially more max HP."
     },
     {
         "name": "Favoured Power",
-        "target": "Powers that have multiple static minion summoning options",
+        "target": "powers that have multiple static minion summoning options",
         "description": "The second minion option is disabled, but the minions deal more dmg."
     },
     {
         "name": "Massive Summons",
-        "target": "Powers that summon minions",
+        "target": "powers that summon minions",
         "description": "The minions deal more dmg and are 1 size step larger, but have less max HP."
     },
     {
         "name": "Alacritous Summons",
-        "target": "Powers that summon minions that deal damage",
+        "target": "powers that summon minions that deal damage",
         "description": "The minions' powers have their usage times reduced by 1 step and they have +10' speed, but they deal substantially less dmg."
     },
     {
         "name": "Cruel Summons",
-        "target": "Powers that have multiple static minion summoning options",
+        "target": "powers that have multiple static minion summoning options",
         "description": "As an action, the second minion option can shoot an energy bolt at a creature within 120', making a wep atk that deals substantially less $physType dmg and substantially less $nonPhysType dmg and inflicts a DoT dealing barely any $nonPhysType dmg, stacking until DEX save."
     },
     {
         "name": "Splitting Summons",
-        "target": "Powers that summon minions with single-proj powers which have cooldowns",
+        "target": "powers that summon minions with single-proj powers which have cooldowns",
         "description": "The minions' single-proj powers fire an additional proj a 45 degree angle of your choice away from the original and deal more dmg, but their cooldowns are increased by 1 step."
     },
     {
         "name": "Keen Favour",
-        "target": "Powers that have multiple static minion summoning options",
+        "target": "powers that have multiple static minion summoning options",
         "description": "The minions have +1 crit range, but the first minion option deals less dmg and have less max HP."
     },
     {
         "name": "Powerful Favour",
-        "target": "Powers that have multiple static minion summoning options",
+        "target": "powers that have multiple static minion summoning options",
         "description": "The first minion option is disabled, but the minions deal more dmg."
     },
     {
         "name": "Shifting Rejuvenation",
-        "target": "Powers that shapeshift into forms that can deal damage",
+        "target": "powers that shapeshift into forms that can deal damage",
         "description": "The shapeshift gains barely any passive regen and deals more DoT dmg, but deals less hit dmg.",
         "meta": "Reaper Form"
     },
     {
         "name": "Tethered Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "1/rnd, when the shapeshift is hit, it attempts to attach a blood tether to the offender by making a spell atk. On a hit, the tether deals less $physType dmg and the shapeshift heals barely any HP."
     },
     {
         "name": "Armoured Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift gains a slight amount of phys res."
     },
     {
         "name": "Resistant Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift gains $nonPhysType res and $nonPhysType res."
     },
     {
         "name": "Lifebound Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift gains a slight amount of incoming healing."
     },
     {
         "name": "Shifting Restoration",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift gains a slight amount of outgoing healing and heals barely any HP on hit."
     },
     {
         "name": "Shielded Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift gains a slight amount of incoming temp HP and gains a slight amount of temp HP on hit."
     },
     {
         "name": "Shifting Flagellation",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift hits its minions with a charged wep atk, it heals HP."
     },
     {
         "name": "Shifting Empowerment",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift starts its turn, it gains a slight amount of spell dmg until it reverts."
     },
     {
         "name": "Hyperpresent Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Effects that would trigger at the start of the shapeshift's turns also trigger at the end of its turns."
     },
     {
         "name": "Shifting Decay",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift scores a KB with a charged wep atk, it releases bolts of energy that seek out all foes within 120' of it. Each bolt inflicts a DoT on its target dealing slight $nonPhysType dmg, stacking until CHA save."
     },
     {
         "name": "Cruel Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's charged wep atks deal more dmg vs bloodied targets."
     },
     {
         "name": "Charged Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's melee wep atks have their cooldowns reduced by 1 step, but they deal less dmg."
     },
     {
         "name": "Blinking Shifting",
-        "target": "Powers that shapeshift into forms which have teleports with cooldowns",
+        "target": "powers that shapeshift into forms which have teleports with cooldowns",
         "description": "The shapeshift's teleports have their usage time reduced by 1 step and travel farther, but their cooldowns are increased by 1 step."
     },
     {
         "name": "Shifting Energy",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift deals a slight amount of additional $nonPhysType dmg with its hits. This bonus is doubled for charged wep atks."
     },
     {
         "name": "Destructive Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift deals slightly more crit dmg. This bonus is doubled for charged wep atks."
     },
     {
         "name": "Malevolent Shifting",
-        "target": "Powers that shapeshift into forms which can deal damage",
+        "target": "powers that shapeshift into forms which can deal damage",
         "description": "Whenever the shapeshift hits, the target is cursed with barely reduced dmg res for the combat. The curse's effect is doubled when it is triggered from a charged wep hit. Additionally, the shapeshift deals less dmg."
     },
     {
         "name": "Blunt Decay",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's charged wep hits inflict a DoT dealing $nonPhysType dmg, stacking until CON save, but have -1 crit range."
     },
     {
         "name": "Enduring Decay",
-        "target": "Powers that shapeshift into forms which can deal damage",
+        "target": "powers that shapeshift into forms which can deal damage",
         "description": "The shapeshift's charged wep hits inflict a DoT dealing slight $nonPhysType dmg, stacking until CON save. This DoT's ongoing debuff DC has a +1 bonus. Additionally, the shapeshift deals less dmg."
     },
     {
         "name": "Bursting Decay",
-        "target": "Powers that shapeshift into forms which can deal damage",
+        "target": "powers that shapeshift into forms which can deal damage",
         "description": "Whenever you use the power, all adj foes are inflicted with a DoT dealing barley any $nonPhysType dmg, stacking until CON save. Additionally, the shapeshift's hits inflict a DoT dealing slight $nonPhysType dmg, stacking until CON save. The shapeshift deals less dmg."
     },
     {
         "name": "Reaching Shifting",
-        "target": "Powers that shapeshift into forms which can deal damage",
+        "target": "powers that shapeshift into forms which can deal damage",
         "description": "The shapeshift's charged wep atks have +5' reach and it heals a slight amount of HP on charged wep hit, but it deals less dmg."
     },
     {
         "name": "Feasting Shifting",
-        "target": "Powers that shapeshift into forms which have teleports with cooldowns",
+        "target": "powers that shapeshift into forms which have teleports with cooldowns",
         "description": "Whenever the shapeshift scores a KB, it heals a slight amount of HP. This bonus is doubled for charged wep KBs."
     },
     {
         "name": "Desperate Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift deals more dmg while bloodied."
     },
     {
         "name": "Shifting Reach",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift's charged wep atks have +5' reach."
     },
     {
         "name": "Alacritous Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift makes a charged wep atk while bloodied, it gains +10' sp until the end of its next turn."
     },
     {
         "name": "Reckless Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "The shapeshift deals more dmg and has +1 crit range, but on a KB it loses HP."
     },
     {
         "name": "Shifting Shielding",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever you use the power, the resulting shapeshift gains temp HP."
     },
     {
         "name": "Undead Shifting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever you use the power, you summon a Skeleton, a CR 1/8 undead minion with a 50% chance each (on summoning) to either have a melee or ranged (120') atk dealing $physType dmg. You can only have 1 of this minion at a time."
     },
     {
         "name": "Shielded Reversion",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift reverts, you gain temp HP."
     },
     {
         "name": "Alacritous Feasting",
-        "target": "Powers that shapeshift",
+        "target": "powers that shapeshift",
         "description": "Whenever the shapeshift scores a KB, it gains +10' sp for the combat."
     },
     {
         "name": "Channeled Decay",
-        "target": "Powers that require concentration",
+        "target": "powers that require concentration",
         "description": "At the start of each of your turns while concentrating on the power, each adj foe is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until DEX save.",
         "meta": "Rebuke"
     },
     {
         "name": "Enduring Cruelty",
-        "target": "Powers that require concentration",
+        "target": "powers that require concentration",
         "description": "Debuffs you apply while concentrating on the power have +1 to their ongoing DCs."
     },
     {
         "name": "Channeled Shredding",
-        "target": "Powers that require concentration",
+        "target": "powers that require concentration",
         "description": "At the start of each of your turns while concentrating on the power, each adj foe gets slightly reduced phys res until end of your next turn."
     },
     {
         "name": "Channeled Contagion",
-        "target": "Powers that require concentration",
+        "target": "powers that require concentration",
         "description": "At the start of each of your turns while concentrating on the power, each adj foe is inflicted with a DoT dealing barely any $nonPhysType dmg, stacking until DEX save. Whenever a creature fails their save to escape this DoT, all creatures of your choice adj to them are inflicted with this DoT."
     },
     {
         "name": "Powerful Mass",
-        "target": "Powers with areas",
+        "target": "powers with areas",
         "description": "The power deals substantially more dmg and has more area, but its usage time is increased by 1 step."
     },
     {
         "name": "Powerful Energy",
-        "target": "Any power",
+        "target": "any power",
         "description": "The power's hits deal additional $nonPhysType dmg."
     },
     {
         "name": "Empowering Energy",
-        "target": "Powers that deal damage",
+        "target": "powers that deal damage",
         "description": "Whenever the power hits, you gain slightly increased $nonPhysType dmg, slightly increased melee dmg, and +1 to ongoing debuff saves for the remainder of combat. Additionally, the power deals massively less dmg."
     },
     {
         "name": "Channeled Recovery",
-        "target": "Powers with a non-cooldown resource cost that require concentration and deal damage",
+        "target": "powers with a non-cooldown resource cost that require concentration and deal damage",
         "description": "At the start of each of your turns while concentrating on the power, recover 1 unit of the power's cost. Additionally, the power deals less dmg."
     },
     {
         "name": "Channeled Rejuvenation",
-        "target": "Powers that require concentration and deal damage",
+        "target": "powers that require concentration and deal damage",
         "description": "While concentrating on the power, you and all adj allies gain barely any passive regen. Additionally, the power deals less dmg."
     },
     {
         "name": "Building Rejuvenation",
-        "target": "Powers that heal and require concentration",
+        "target": "powers that heal and require concentration",
         "description": "At the start of each of your turns while concentrating on the power, it heals slightly more HP for the remainder of its duration."
     },
     {
         "name": "Rejuvenating Channelling",
-        "target": "Powers require concentration",
+        "target": "powers require concentration",
         "description": "While concentrating on the power, you gain barely any passive regen."
     },
     {
         "name": "Armoured Channelling",
-        "target": "Powers that require concentration",
+        "target": "powers that require concentration",
         "description": "While concentrating on the power, you gain a slight amount of phys res."
     },
     {
         "name": "Enduring Channelling",
-        "target": "Powers that require concentration and deal damage",
+        "target": "powers that require concentration and deal damage",
         "description": "When you end or lose concentration on the power, its effects persist for a number of additional rnds equal to the number of rnds you channeled for. Additionally, the power deals massively less dmg."
     },
     {
         "name": "Channeled Alacrity",
-        "target": "Powers that require concentration, deal damage, and have Accuracy components",
+        "target": "powers that require concentration, deal damage, and have Accuracy components",
         "description": "When you end or lose concentration on the power, you gain +5' sp and all your power usage times are reduced by 1 step for a number of rounds equal to the number of rounds you channeled for. Additionally, the power deals massively less dmg and has -1 Accuracy."
     },
     {
         "name": "Channeled Boons",
-        "target": "Powers that require concentration, apply buffs, and deal damage",
+        "target": "powers that require concentration, apply buffs, and deal damage",
         "description": "When you end or lose concentration on the power, its effects persist for 1 additional round. Additionally, the power deals less dmg."
     },
     {
         "name": "Resistant Channelling",
-        "target": "Powers that require concentration",
+        "target": "powers that require concentration",
         "description": "While concentrating on the power, you gain a slight amount of non-phys res."
     },
     {
         "name": "Major Charging",
-        "target": "Powers with a cooldown and a non-cooldown resource cost",
+        "target": "powers with a cooldown and a non-cooldown resource cost",
         "description": "The power's cooldown is reduced by 1 step, but its resource cost is increased by 1 step. Additionally, it deals more dmg."
     },
     {
         "name": "Overcharged Endurance",
-        "target": "Powers with a non-instantaneous duration and a cooldown",
+        "target": "powers with a non-instantaneous duration and a cooldown",
         "description": "The power's duration increases by 1 step, but its cooldown is increased by 1 step. Additionally, it deals more dmg."
     },
     {
         "name": "Recovering Absorption",
-        "target": "Powers with a non-cooldown resource cost that require concentration and deal damage",
+        "target": "powers with a non-cooldown resource cost that require concentration and deal damage",
         "description": "Whenever you are hit while concentrating on the power, recover 1 unit of the power's cost. Additionally, the power deals less dmg."
     },
     {
         "name": "Debilitation",
-        "target": "Any power",
+        "target": "any power",
         "description": "Whenever the power hits, the target is debilitated until the end of their next turn.",
         "meta": "Meteor"
     },
     {
         "name": "Keen Mass",
-        "target": "Powers that make attacks and deal damage",
+        "target": "powers that make attacks and deal damage",
         "description": "The power has +1 crit range and more area, but deals less dmg."
     },
     {
         "name": "Keen Aggression",
-        "target": "Powers with a non-cooldown resource cost",
+        "target": "powers with a non-cooldown resource cost",
         "description": "If the power's resource is full when it is used, the power has +1 crit range."
     },
     {
         "name": "Chaotic Bursting",
-        "target": "Powers with sphere areas and a non-cooldown resource cost",
+        "target": "powers with sphere areas and a non-cooldown resource cost",
         "description": "The power's sphere areas are duplicated and deal more dmg, centred at a random location within 20' of the original centre, but its cost is increased by 1 step."
     },
     {
         "name": "Powerful Spread",
-        "target": "Powers with multiple individual targets",
+        "target": "powers with multiple individual targets",
         "description": "The power deals substantially more dmg, but can only target each creature once."
     },
     {
         "name": "Chaotic Focus",
-        "target": "Powers with sphere areas",
+        "target": "powers with sphere areas",
         "description": "The power's sphere areas are duplicated, centred at a random location within 20' of the original centre, but it has less area."
     },
     {
         "name": "Orderly Spread",
-        "target": "Powers with multiple areas and a non-cooldown resource cost",
+        "target": "powers with multiple areas and a non-cooldown resource cost",
         "description": "The power's areas are spread in a contiguous line in a direction of your choice and deal substantially more dmg, but its cost is increased by 1 step."
     },
     {
         "name": "Chaos",
-        "target": "Powers with sphere areas that deal damage",
+        "target": "powers with sphere areas that deal damage",
         "description": "The power's sphere areas are duplicated, centred at a random location within 20' of the original centre, but it deals less dmg."
     },
     {
-        "name": "Delayed Recovery [next - craterborn]",
-        "target": "Powers with a non-cooldown resource cost that deal damage",
+        "name": "Delayed Recovery",
+        "target": "powers with a non-cooldown resource cost that deal damage",
         "description": "Whenever you use the power, you recover 1 unit of its cost at the end of your next turn."
+    },
+    {
+        "name": "Empowering Slinging",
+        "target": "powers that deal damage",
+        "description": "If you've used the power since the start of your last turn, you deal more $nonPhysType dmg and your spells have their usage times reduced by 1 step. Additionally, the power deals substantially less dmg."
+    },
+    {
+        "name": "Empowering Barriers",
+        "target": "powers that grant buffs and deal damage",
+        "description": "While you are buffed by the power, your spell hits grant you temp HP and recover 1 spell slot lvl. Additionally, the power deals substantially less dmg."
+    },
+    {
+        "name": "Shrapnel",
+        "target": "powers that deal damage",
+        "description": "Whenever the power hits, it shatters into bolts of energy, making spell atks against all foes adj to its target which deal $nonPhysType dmg. Additionally, the power deals substantially less dmg."
+    },
+    {
+        "name": "Powerful Missiles",
+        "target": "powers that fire projectiles",
+        "description": "The power's projs deal more dmg."
+    },
+    {
+        "name": "Close Penetration",
+        "target": "powers that fire projectiles",
+        "description": "The power's projs are converted to line areas with length equal to half the proj's range, and deal more dmg."
+    },
+    {
+        "name": "Distant Missiles",
+        "target": "powers that fire projectiles",
+        "description": "The power's projs have double range."
+    },
+    {
+        "name": "Rapid Energy",
+        "target": "powers with a non-cooldown resource cost",
+        "description": "The power's usage time is reduced by 1 step and it deals more dmg, but its cost 1 increased by 1 step."
+    },
+    {
+        "name": "Aggressive Force",
+        "target": "any power",
+        "description": "The power deals more dmg. This bonus is doubled against targets on full HP."
+    },
+    {
+        "name": "Powerful Intensity",
+        "target": "any power",
+        "description": "The power deals massively more dmg, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Prismatic Power",
+        "target": "powers that deal damage",
+        "description": "The power deals more dmg of all types other than its base types."
+    },
+    {
+        "name": "Sacrificial Shredding",
+        "target": "powers that cost HP",
+        "description": "Whenever the power hits, the target gets reduced $nonPhysType res until the end of your next turn.",
+        "meta": "Death Seal"
+    },
+    {
+        "name": "Enduring Persistence",
+        "target": "powers with a non-instantaneous duration that deal damage",
+        "description": "If you have an active pers area when you use the power, the power's duration is increased by 1 step, but it deals less dmg."
+    },
+    {
+        "name": "Sacrificial Defence",
+        "target": "powers with a non-instantaneous duration that cost HP",
+        "description": "For the power's duration, you have increased $nonPhysType res and barely increased phys res."
+    },
+    {
+        "name": "Enduring Possession",
+        "target": "powers with a non-instantaneous duration",
+        "description": "At the start of each of your turns during the power's duration, you release a wisp of energy at the nearest foe, regardless of line of sight, that inflicts them with a DoT dealing slight $nonPhysType dmg, stacking until CHA save."
+    },
+    {
+        "name": "Regular Duplication",
+        "target": "powers that deal damage and have an effect that triggers once on each of your turns",
+        "description": "The power's effect triggers again on the opposite side of your turn, but it deals less dmg."
+    },
+    {
+        "name": "Generosity",
+        "target": "powers that buff you",
+        "description": "The power can no longer be used on yourself, but can instead be used on any minion of yours within 60' of you."
+    },
+    {
+        "name": "Generous Power",
+        "target": "powers that apply buffs and deal damage",
+        "description": "When you use the power to buff one of your minions, the minion also gains barely increased dmg and +1 crit range for the buff's duration. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Sacrificial Eruption",
+        "target": "powers that apply buffs and deal damage",
+        "description": "When you use the power to buff one of your minions, the minion is rooted for the buff's duration. When the buff ends, the minion dies and explodes, causing you to make a spell atk against all foes adj to the minion's corpse, dealing substantial $nonPhysType dmg. Additionally, the power deals substantially less dmg."
+    },
+    {
+        "name": "Enduring Sealing",
+        "target": "powers with a non-instantaneous duration",
+        "description": "For the power's duration, you have increased DoT dmg res."
+    },
+    {
+        "name": "Empowered Alacrity",
+        "target": "powers that apply buffs",
+        "description": "Whenever the power's buffs on you end, your sp increases by 5' for the same duration as the buff was on you."
+    },
+    {
+        "name": "Suppressed Power",
+        "target": "any power",
+        "description": "For each round of combat you don't use the power, you are inflicted with a DoT dealing $nonPhysType dmg, stacking until CHA save. Whenever you use the power while affected by this DoT, the DoT is removed and the power deals substantially more dmg."
+    },
+    {
+        "name": "Incubating Rejuvenation",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power, you heal HP for each round this combat since you last used the power. Additionally, the power deals massively less dmg."
     }
 ]

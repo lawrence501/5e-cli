@@ -818,6 +818,28 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Legendary Leather",
+            "source": "bard - loremaster (a5e)",
+            "mods": [
+                "The leather has a number of charges equal to half your ability mod, all of which are recovered after a long rest.",
+                "Whenever a creature you can see within 60' of you makes a d20 roll, you can expend a charge to subtract a d6 from the roll. If you roll a 1 or 6 on this d6, the creature is rattled until the end of your next turn.",
+                "You can choose to use this effect after the d20 roll is made, but before its result is announced.",
+                "Creatures that cannot hear you or are immune to being charmed are unaffected by this effect."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Entertaining Jerkin",
+            "source": "bard - minstrel (a5e)",
+            "mods": [
+                "The jerkin has a number of charges equal to your ability mod, all of which are recovered after a long rest.",
+                "As a bonus action, you can expend a charge to grant entertainment to an ally within 60' of you who can hear you. A creature can only have entertainment once at a time.",
+                "Whenever a creature with entertainment starts its turn with a debuff that it will make an ongoing save against at its turn's end, it can expend its entertainment to instead make the save now.",
+                "You can grant yourself entertainment, but instead of its usual effects, it can be expended when you make a Performance check to add 1d6 to the check."
+            ],
+            "variables": []
         }
     ],
     "medium": [

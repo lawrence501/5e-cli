@@ -12,20 +12,21 @@ import (
 )
 
 var ROLL_RANGE_CEILINGS = map[int]func() error{
-	9:   func() error { log.Println("Reroll twice and upgrade results with +1 colour!"); return nil },
-	16:  wondrous,
-	23:  func() error { log.Printf("Soul gem: %s", GEM_TAGS[rand.Intn(len(GEM_TAGS))]); return nil },
-	30:  func() error { log.Printf("Crystal: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))]); return nil },
-	37:  belt,
-	44:  ring,
-	51:  amulet,
-	58:  shrine,
-	65:  body,
-	72:  tome,
-	79:  func() error { log.Println("2x Tarot Cards"); return nil },
-	86:  relic,
-	93:  func() error { log.Println("Dream Mirror"); return nil },
-	100: func() error { log.Println("Glyph"); return nil },
+	8:   func() error { log.Println("Reroll twice and upgrade results with +1 colour!"); return nil },
+	15:  wondrous,
+	22:  func() error { log.Printf("Soul gem: %s", GEM_TAGS[rand.Intn(len(GEM_TAGS))]); return nil },
+	29:  func() error { log.Printf("Crystal: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))]); return nil },
+	36:  belt,
+	43:  ring,
+	50:  amulet,
+	57:  shrine,
+	64:  body,
+	71:  tome,
+	78:  func() error { log.Println("2x Tarot Cards"); return nil },
+	85:  relic,
+	92:  func() error { log.Println("Dream Mirror"); return nil },
+	99:  func() error { log.Println("Glyph"); return nil },
+	100: func() error { log.Println("Player's choice!"); return nil },
 }
 
 var COMMAND_MAP = map[string]func() error{

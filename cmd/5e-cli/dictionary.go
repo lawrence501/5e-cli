@@ -13,6 +13,7 @@ var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"mirror":    "Dream Mirror: +1 customisation option",
 	"glyph":     "Glyph: Counts as +1 glyph",
 	"belt":      "Belt: +1 adv on base activity",
+	"crystal":   "Crystal: +1 adv on creature type",
 }
 
 var PHYS_TYPES []string = []string{

@@ -2066,6 +2066,68 @@
     {
         "description": "1/combat, if you've healed a creature with an action this combat, when downed, instead remain at 3 HP (counts as healing)",
         "upgrade": "+1/1",
-        "tags": ["hp"]
+        "tags": ["hp"],
+        "meta": "paladin - DONE"
+    },
+    {
+        "description": "on melee hit, gain 1 temp HP",
+        "upgrade": "+1/1",
+        "tags": ["melee", "temp hp"]
+    },
+    {
+        "description": "+1 non-phys dmg",
+        "upgrade": "+1/2",
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "description": "+1 non-phys res",
+        "upgrade": "+1/2",
+        "tags": ["non-phys res"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee {type} hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "on non-phys melee hit, gain 1 temp HP",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "melee", "temp hp"]
+    },
+    {
+        "description": "at the end of a turn in which you displaced 30+', generate a 5' aura of energy until the end of your next turn that makes glyphic atks against foes, dealing 1d4 {type} dmg",
+        "upgrade": "+1 dmg/1",
+        "tags": ["speed", "type dmg"]
+    },
+    {
+        "description": "1/turn, on melee crit, generate a 5' aura of energy until the end of your next turn that makes glyphic atks against foes, dealing 1d4 {type} dmg",
+        "upgrade": "+1 dmg/1",
+        "tags": ["melee", "crit", "type dmg"]
+    },
+    {
+        "description": "+1 aura dmg while you only have 1 aura",
+        "upgrade": "+1/1",
+        "tags": ["aoe"]
+    },
+    {
+        "description": "on {type} melee sub hit, target is inflicted with 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee", "dot"]
+    },
+    {
+        "description": "on {type} melee sub hit, target is sluggish until end of your next turn",
+        "upgrade": "+1 melee AB vs debuffed targets/3",
+        "tags": ["type dmg", "melee", "debuff"]
+    },
+    {
+        "description": "on {type} melee sub hit, target gets -1 to debuff saves until end of your next turn",
+        "upgrade": "-1/3",
+        "tags": ["type dmg", "melee", "debuff"]
+    },
+    {
+        "description": "on {type} melee sub hit, target gets -2 {type} res until end of your next turn",
+        "upgrade": "-1/1",
+        "tags": ["type dmg", "melee"],
+        "meta": "spellblade - elemental strikes"
     }
 ]

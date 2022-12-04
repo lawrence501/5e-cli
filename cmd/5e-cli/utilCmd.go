@@ -301,10 +301,9 @@ var dmgUpgrade = func() error {
 	}
 
 	multiplier, _ := strconv.ParseFloat(multiString, 64)
-	multiplier *= 0.01
 	currentDmg, _ := strconv.ParseFloat(dmgString, 64)
 	newDmg := currentDmg * multiplier
-	fmt.Printf("New damage dice: %s", dmgToDice(newDmg))
+	fmt.Printf("New damage dice: %s (if mod-based: %s + 5)", dmgToDice(newDmg), dmgToDice(newDmg-5))
 
 	return nil
 }

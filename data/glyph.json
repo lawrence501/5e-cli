@@ -1280,7 +1280,7 @@
         ]
     },
     {
-        "name": "Exists Partially out of Phase [LAST]",
+        "name": "Exists Partially out of Phase",
         "description": "becoming incorporeal",
         "tiers": [
             "1. Walk Through Walls: 2/min; bonus action; You can slowly pass through physical barriers at a rate of 1 inch per round. You cannot act (other than moving) or perceive anything until you pass entirely through the barrier. You cannot pass through magical barriers.",
@@ -1300,14 +1300,14 @@
         "description": "manipulating the walls between material and ethereal",
         "tiers": [
             "1. Phase Sprint: At-will; full-turn action; You can run up to 120'. During this action and until the beginning of your next turn, you are partially phased, and some attacks pass through you harmlessly. While phased, all incoming attacks have disadvantage, but you lose any AC benefit from your body armour.",
-            "2. Disrupting Touch: At-will; free action; You can turn your Phase Sprint feature into a melee attack by purposefully grazing another creature as you run. When you do, make an attack, on a hit releasing a violent blast of energy that inflicts 1d6 + your level true force damage to the target. Whether you hit or miss, your movement ends immediately, which leaves you within 5' of your target.",
-            "3. Scratch Existence: At-will; free action; You can choose to phase in a way that 'scratches' normal matter in a long streak as you run using your Phase Sprint feature. When you use Phase Sprint, you can make an attack dealing 1d6 + your level true force damage to one target of your choice as you pass within 5' of them, without triggering Disrupting Touch.",
-            "4. Invisible Phasing: 1/SR; free action; You become invisible while Phase Sprinting and during the following round. While invisible, you gain double advantage on stealth checks and the disadvantage Phase Sprint usually gives to incoming attacks becomes double disadvantage. The first damaging effect you use during the Phase Sprint also has double advantage on its attack roll; however, if you damage a creature with it, Invisible Phasing ends immediately instead of lasting for 1 additional round.",
+            "2. Disrupting Touch: At-will; free action; You can turn your Phase Sprint feature into a melee attack by purposefully grazing another creature as you run. When you do, make an attack, releasing a violent blast of energy on a hit that inflicts 1d6 + your level true force damage to the target. Whether you hit or miss, your movement ends immediately, which leaves you in an empty space adj to your target.",
+            "3. Scratch Existence: At-will; free action; You can choose to phase in a way that 'scratches' normal matter in a long streak as you run using your Phase Sprint feature. When you use Phase Sprint, you can make an attack dealing 1d6 + your level true force damage to one target of your choice as you pass through a space adj to them.",
+            "4. Invisible Phasing: 1/SR; free action; You become invisible while Phase Sprinting and during the following round. While invisible, you gain double advantage on stealth checks and the disadvantage Phase Sprint usually gives to incoming attacks becomes double disadvantage. The first damaging effect you use during the Phase Sprint also has double advantage on its attack roll; however, if you damage a creature with it, Invisible Phasing ends immediately after the sprint instead of lasting for 1 additional round.",
             "5. Walk Through Walls: 2/min; bonus action; You can slowly pass through a physical barrier at a rate of 1 inch per round. You cannot act (other than moving) or perceive anything until you pass entirely through the barrier. You cannot pass through magical barriers.",
-            "6. Phase Detonation: 2/min; free action; When you use your Phase Sprint or Walk Through Walls features, you can choose to significantly damage normal matter around you with a blast of transplanar energy when you first go into or come out of phase (your choice). This detonation inflicts 1d10 + your level true force damage to all creatures it hits with an attack, and to any objects within 5' of you.",
+            "6. Phase Detonation: 2/min; free action; When you use your Phase Sprint or Walk Through Walls features, you can choose to significantly damage normal matter around you with a blast of transplanar energy when you either first go into or come out of phase (your choice). This detonation inflicts 1d10 + your level true force damage to all creatures it hits with an attack, and to any objects adj to you.",
             "7. When you use Phase Sprint, you can travel up to 500' instead of 120'.",
             "8. When you use Disrupting Touch, Scratch Existence, or Phase Detonation, you inflict an additional 1d12 + 1d10 points of damage.",
-            "9. Untouchable While Moving: 1/SR; bonus action; You change your phase state for the next minute so that you cannot affect or be affected by normal matter or magic, as long as you move at least 5' each round while phased. If you do not move on your turn, the effect ends. While you are phased, only psychic and Xiloan magic can affect you, but likewise you cannot attack, touch, or otherwise affect anything.",
+            "9. Untouchable While Moving: 1/SR; bonus action; You change your phase state for the next minute so that you cannot affect or be affected by normal matter or magic, as long as you displace at least 5' each round while phased. If you do not, the effect ends. While you are phased, only psychic and Xiloan magic can affect you, but likewise you cannot attack, touch, or otherwise affect anything.",
             "10. Phase Sprint now grants you an additional +3 AC during its partial phasing period."
         ]
     },
@@ -1316,14 +1316,14 @@
         "description": "physical mimicry",
         "tiers": [
             "1. You gain an expertise die in Deception and Performance.",
-            "2. Borrow Face: At-will; bonus action; You can temporarily alter your face to mimic that of someone you studied earlier that day. When activated, this feature lasts for 4 hours. While in this form, you gain advantage on checks to conceal your true nature. You only remember the face for a single day, after which you must study the face again. You can only remember one face at a time.",
-            "3. Mimic Voice: 2/min; bonus action; You can mimic a voice that you have studied with unnatural accuracy. To study a voice you must listen to your target's voice for about 5 minutes, after which you remember this voice for 4 hours. You can only memorise 1 voice at a time.",
+            "2. Borrow Face: At-will; bonus action; You can temporarily alter your face to mimic that of someone you saw earlier that day. When activated, this feature lasts for 4 hours. While in this form, you gain advantage on checks to conceal your true nature. You only remember the face until you take a long rest, after which you must see the face again. You can only remember one face at a time.",
+            "3. Mimic Voice: 2/min; bonus action; You can mimic a voice that you have studied with unnatural accuracy. To study a voice you must listen to your target's voice for about 5 minutes, after which you remember this voice for 4 hours. You can only remember 1 voice at a time.",
             "4. You can mirror your target's motions and attacks to gain a better understanding of the openings in their fighting styles and stances. You must be defending against your target's offence for 2 rounds and succeed on a History check against a DC of 8 + your target's AB. If successful, you gain advantage on attacks to hit your target and ignore any of their resistances and immunities for the rest of the combat.",
             "5. You gain an expertise die in Deception and Performance.",
-            "6. Your Borrow Face feature now functions for up to 8 hours.",
-            "7. Impersonate: 1/SR; action; After studying your target for a few moments, you can take on their look and form. For all visual inspection purposes, you are that individual, from dress and build to bodily scars. You are able to switch to this form any time you like. Your memory of the impersonation lasts for 8 hours.",
-            "8. You can remember a voice for your Mimic Voice feature for up to 8 hours.",
-            "9. Haunting Mask: 1/SR; bonus action; You can use your ability to shift your face to become a thing of nightmares and horrors, striking fear or panic into your enemies. Make an Intimidation check against your target's Wisdom saving throw. If you succeed, the victim is frightened of you until the end of their next turn. If you substantially succeed, the target is frightened for 1d6 rounds instead.",
+            "6. Your Borrow Face feature now functions for up to 24 hours.",
+            "7. Impersonate: 1/SR; action; You study your target, allowing you to take on their look and form. For all visual inspection purposes, you are that individual, from dress and build to bodily scars. You are able to switch to this form any time you like. Your memory of the impersonation lasts for 8 hours.",
+            "8. You can remember a voice for your Mimic Voice feature for up to 24 hours.",
+            "9. Haunting Mask: 1/SR; bonus action; You can use your talents to shift your face to become a thing of nightmares and horrors, striking fear or panic into your enemies. Make an Intimidation check the Wisdom saving throws of all creatures of your choice who can see you. If you succeed, the victim is frightened of you until the end of their next turn. If you substantially succeed, the target is frightened for 1d6 rounds instead.",
             "10. Perfect Replacement: 1/year; bonus action; After you have studied your target for a day, you are able to become an exact copy of them, making it impossible to tell you and the real person apart. You can only select one person at a time for this ability."
         ]
     },
@@ -1331,32 +1331,32 @@
         "name": "Rides the Lightning",
         "description": "harnessing the power of lightning",
         "tiers": [
-            "1. Shock: At-will; bonus action; Your hands crackle with electricity, and the next time you touch a creature, make an attack to inflict 1d8 + your level lightning damage. Alternatively, if you wield a weapon, for 10 minutes it crackles with electricity and inflicts 1d6 additional lightning damage per attack if held by you.",
-            "2. Charge: At-will; bonus action; You can charge a relic so that it gains the benefits of a level without levelling up. This can only be done once for each item.",
+            "1. Shock: At-will; bonus action; Your hands crackle with electricity, allowing you to touch a creature to make an attack to inflict 1d8 + your level lightning damage. Alternatively, if you wield a weapon, for 10 minutes it crackles with electricity and inflicts 1d6 additional lightning damage per hit if held by you.",
+            "2. Charge: At-will; bonus action; You can charge a relic so that it gains an ephemeral level. This can only be done once for each item.",
             "3. Bolt Rider: 1/SR; bonus action; You can move up to 120' from 1 location to another almost instantaneously, carried by a bolt of lightning. You must be able to see the new location, and there must be no intervening barriers.",
-            "4. You can drain the power from a relic, allowing you to regain an amount of hit points equal to half the item's level. This requires a full turn action with concentration.",
-            "5. Electric Armour: 1/SR; free action; When you wish it, electricity crackles across your body for 10 minutes, granting you +1 AC. While electrified, you have an additional +4 to lightning resistance, and you inflict 1d6 lightning damage on any creature that touches you or attacks you with a metal melee weapon.",
+            "4. You can absorb the power of a relic, allowing you to regain an amount of hit points equal to half the item's level. This requires a full turn action with concentration.",
+            "5. Electric Armour: 1/SR; free action; Electricity crackles across your body for 10 minutes, granting you +1 AC. While electrified, you have an additional +4 to lightning resistance, and you inflict 1d6 lightning damage on any creature that hits you with an unarmed attack or a metal melee weapon.",
             "6. You gain +2 to Dexterity.",
             "7. Bolts of Power: 1/LR; bonus action; You blast a fan of lightning out in a 30' cone. This discharge is an attack inflicting 1d10 + your level lightning damage.",
             "8. Electrical Flight: 1/LR; bonus action; You exude an aura of crackling electricity that grants you a fly speed of 120' for 10 minutes. You cannot carry other creatures with you.",
             "9. Flash Across the Miles: 1/week; bonus action; You move to an open location on your current planet that you are familiar with almost instantaneously, transformed into a bolt of lightning.",
-            "10. Wall of Lightning: 1/week; bonus action; You create a barrier of crackling electricity in a square up to 2500' long, shaped as you wish. The wall is a magical barrier. Anyone within 5' of the wall is automatically attacked as if it were a persistent area, dealing 1d12 + 1d10 + your level lightning damage. The wall lasts for 1 hour."
+            "10. Wall of Lightning: 1/week; bonus action; You create a barrier of crackling electricity in a square up to 2500' long, shaped as you wish. The wall is a magical barrier. Anyone adj to the wall is automatically attacked as if it were a persistent area, dealing 1d12 + 1d10 + your level lightning damage. The wall lasts for 1 hour."
         ]
     },
     {
         "name": "Focuses Mind Over Matter",
         "description": "telekinesis",
         "tiers": [
-            "1. Deflect Attacks: At-will; bonus action; Using your mind, you protect yourself from incoming attacks. For the next 10 minutes, you gain +2 with Dexterity saving throws.",
-            "2. Telekinesis: 2/min; bonus action; You can exert force on objects within 30'. Once activated, your telekinesis has an effective Strength of 16, and you can use it to move objects, push against objects, and so on. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations it is not a means of attack. You cannot use this feature on your own body. The power lasts for 1 hour.",
-            "3. Cloak of Opportunity: 1/LR; bonus action; You set small objects from the environment (rocks, etc.) swirling about you for up to 10 minutes, which grants you +2 AC.",
-            "4. Enhance Strength: 1/min; bonus action; For the next 10 minutes, you gain advantage on any non-skill-check task involving your Strength, such as moving a heavy object, smashing down a door, or hitting someone with a Strength-based weapon attack.",
-            "5. Apportation: 1/SR; bonus action; You call a physical object to you. You can choose any piece of mundane equipment, or (no more than once per long rest) you can allow the DM to determine the object randomly. If you call a random object, it has a 10% chance of being a magical item, artifact, or relic, a 10% chance of being a wondrous item, a 40% chance of being a mundane item, and a 40% chance of being worthless junk. You cannot use this feature to acquire a specific item that exists in the world.",
-            "6. Psychokinetic Attack: 1/LR; bonus action; You can use this attack in 1 of 2 ways. The first is to pick up a heavy object and hurl it at a creature within 30'. This attack deals 1d8 + 1d6 + your level bludgeoning damage to the target and to the hurled object (alternatively the object can be another creature, although that would require a grapple attempt using your Telekinesis feature's Strength if they are unwilling). The second way is to unleash a shattering burst of power that works only against an inanimated object smaller than you. It is an attack to instantly destroy the object, which you have triple advantage on compared to breaking it with brute strength.",
-            "7. Improved Apportation: 1/week; bonus action; You call a creature of up to CR 2, which appears next to you. You can choose a creature that you have previously encountered, or (no more than once per long rest) you can allow the DM to determine the creature randomly. If you call a random creature, it has a 10% chance of being a CR 3 creature. The creature has no memory of anything before being called by you, though it can speak and has the general knowledge a creature of its type should possess. The creature is receptive to communication and helping you (unless shown that it should do otherwise).",
-            "8. Reshape Matter: 1/week; bonus action; Your mastery of telekinesis is so great that you can reshape objects on a molecular level. You can affect a single object no larger than you, and the object must be visible and within your reach. You can use this feature to damage the object (as if using your Psychokinetic Attack feature, except the task has quadruple advantage instead of triple), or you can attempt a Crafting check to reshape the object into another form. The difficulty of this check depends on the complexity of the finished object.",
-            "9. Your Deflect Attacks feature now grants you +4 with Dexterity saving throws instead of +2.",
-            "10. Your Telekinesis feature's range increases to 120'."
+            "1. Using your mind, you protect yourself from incoming effects. You gain an expertise die in saving throws.",
+            "2. You can exert force on objects within 30' of you. Your telekinesis has an effective Strength of 16, and you can use it to move objects, push against objects, and so on. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations it is not a means of attack. You cannot use this feature on your own body.",
+            "3. Cloak of Opportunity: 1/LR; bonus action; You set small objects from the environment (rocks, etc.) swirling about you for 10 minutes, which grants you +2 AC.",
+            "4. You gain advantage on any non-skill-based Strength tasks, such as moving a heavy object, smashing down a door, or hitting someone with a Strength-based weapon attack.",
+            "5. Apportation: 1/SR; bonus action; You call a physical object to you. You can choose any piece of mundane equipment, or (no more than once per long rest) you can allow the DM to determine the object randomly. If you call a random object, it has a 10% chance of being a relic, a 10% chance of being a wondrous item, a 40% chance of being a mundane item, and a 40% chance of being worthless junk. You cannot use this feature to acquire a specific obj that exists in the world.",
+            "6. Psychokinetic Attack: 1/LR; bonus action; You can use this attack in 1 of 2 ways. The first is to pick up a heavy object and hurl it at a creature within 30' of it. This attack deals 1d8 + 1d6 + your level bludgeoning damage to the target and to the hurled object (alternatively the object can be another creature, although that would require a grapple attempt using your Telekinesis feature's Strength if they are unwilling). The second way is to unleash a shattering burst of power that works only against an inanimate object smaller than you. It is an attack to instantly destroy the object, which you have a minimum d20 roll of 15 on compared to breaking it with brute strength.",
+            "7. Improved Apportation: 1/week; bonus action; You call a creature of up to CR 1, which appears next to you. You can choose a creature that you have previously encountered, or (no more than once per long rest) you can allow the DM to determine the creature randomly. If you call a random creature, it has a 10% chance of being a CR 2 creature. The creature has no memory of anything before being called by you, though it can speak and has the general knowledge a creature of its type should possess. The creature is receptive to communication and helping you (unless shown that it should do otherwise).",
+            "8. Reshape Matter: 1/week; bonus action; Your mastery of telekinesis is so great that you can reshape objects on a molecular level. You can affect a single object no larger than you, and the object must be visible and within your reach. You can use this feature to damage the object (as if using your Psychokinetic Attack feature, except the attack automatically succeeds), or you can attempt a Crafting check (any affinity) to reshape the object into another form. The difficulty of this check depends on the complexity of the finished object.",
+            "9. Your T1 feature now grants you an additional expertise die in saving throws.",
+            "10. Your T2 feature's range increases to 120'."
         ]
     },
     {
@@ -1365,12 +1365,12 @@
         "tiers": [
             "1. You gain an expertise die in Perception and Arcana, and in Athletics checks for climbing.",
             "2. In your explorations of uncivilised regions, you have been exposed to all sorts of terrible things and have developed a general resistance. You gain +1 AC and an expertise die in Constitution saving throws.",
-            "3. You gain a CR 1 humanoid follower of your choice.",
-            "4. Excavating the past means entering ruins that are often filled with dangers, some of which can be overcome by force. Choose one class of weapon. You gain a +2 bonus to damage with that class.",
+            "3. You gain a follower, which is a humanoid CR 1 minion.",
+            "4. Excavating the past means entering ruins that are often filled with dangers, some of which can be overcome by force. Choose one weapon category. You gain a 1d4 bonus to base damage with those weapons.",
             "5. Got a Feeling: 1/SR; bonus action; Your experience excavating the ruins of the past gives you an uncanny intuition when it comes to finding things. While exploring, you can extend your senses up to 1 mile in any direction and ask the DM a very simple, general yes/no question about that area. If the answer you seek is not in the area, you receive no information.",
             "6. You have advantage on athletics checks to climb, acrobatics checks to balance, and your long/high jump distance increases by 10'.",
-            "7. Incredible Recovery: 1/week; bonus action; You shake off any unwanted ongoing condition.",
-            "8. Quick Hands: 1/LR; free action; Being quick with a chosen weapon is important for excavators who come across an unexpected and aggressive threat. Choose one class of weapon. You can make an additional attack with it whenever you take the Attack action.",
+            "7. Incredible Recovery: 1/week; bonus action; You shake off any debuff affecting you.",
+            "8. Quick Hands: 1/LR; free action; Being quick with a chosen weapon is important for excavators who come across an unexpected and aggressive threat. You can make an additional weapon attack upon taking the Attack action.",
             "9. Gain an expertise die in Perception and Arcana, and Athletics checks for climbing.",
             "10. You gain +1 AC and a d6 expertise die in Constitution saving throws."
         ]
@@ -1379,15 +1379,15 @@
         "name": "Wields a Mindstone",
         "description": "telekinetic force",
         "tiers": [
-            "1. True Telepathy: At-will; bonus action; You extend telepathy to 120', allowing you to communicate with any intelligent being for up to 10 minutes.",
-            "2. Psychokinesis: 2/min; bonus action; You can exert force on objects within 30'. Once used, your power has an effective Strength of 16, and you can use it to move objects, push against objects, and so on. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it is not a means of attack. You cannot use this feature on your own body. The power lasts for 1 hour.",
-            "3. Forceblast: 1/min; bonus action; You launch an attack of pure psychokinetic force at a target within 120', inflicting 1d8 + 1d6 + your level force damage.",
+            "1. You have 120' of telepathy, allowing you to communicate with any 5+ INT creature for up to 10 minutes.",
+            "2. You can exert force on objects within 30'. Your power has an effective Strength of 16, and you can use it to move objects, push against objects, and so on. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it is not a means of attack. You cannot use this feature on your own body.",
+            "3. Forceblast: 1/min; bonus action; You launch an attack of pure psychokinetic force at a target within 120' of you, inflicting 1d8 + 1d6 + your level force damage.",
             "4. Clairvoyance: 1/SR; bonus action; You can see a location familiar to you within 10 miles as if you were there. You can rotate your field of vision but you cannot move your point of view. This lasts as long as you concentrate on it.",
             "5. You surround yourself with a telekinetic force field. You gain +1 AC.",
-            "6. Multitasking: 1/LR; bonus action; You use your complex sensory organs and the neural network that runs through your arms, enhanced with the power of your mindstone, to gain an additional standard action in the round in which you use this feature.",
-            "7. Your telekinetic force field now offers +3 AC instead of +1.",
-            "8. Your True Telepathy feature now extends to 240'.",
-            "9. Your Psychokinesis feature's range increases to 60'.",
+            "6. Multitasking: 1/LR; bonus action; You use your mental power to gain an additional standard action in the round in which you use this feature.",
+            "7. Your T5 feature now offers +3 AC instead of +1.",
+            "8. Your T1 feature now extends to 240'.",
+            "9. Your T2 feature's range increases to 120'.",
             "10. Your Forceblast feature can now be used at-will."
         ]
     },
@@ -1395,15 +1395,15 @@
         "name": "Crafts Powerful Poisons",
         "description": "crafting poisons",
         "tiers": [
-            "1. Your character gains a Poison Pool, which starts with 10 points. This pool represents your ability to carry the appropriate ingredients and use them for various Mixtures. You can spend your Poison pool on Mixtures; these are recipes that you have learned to quickly concoct with your on-hand supplies. Mixtures are commonly augments for a weapon. However, Mixtures could be used as a bonus action on their own. Once a poisoner runs out of Poison Points, they must restock their supplies. A poisoner can restore their Poison Pool through foraging or shopping. If foraging, the poisoner will need to roll a Nature check, recovering half the check's score in points. This process takes 2 hours. For shopping, a Persuasion check is made instead, granting points equal to the check's score, but the process takes 1 hour and 30 gold. By paying 50 gold instead, you can gain advantage on your Persuasion check.",
-            "2. You learn the Damage Mixture (1 poison point, victim gains a 2 damage poison DoT) and the Loose Lips Mixture (1 poison point, all social interactions with the victim have advantage for 10 minutes).",
-            "3. You gain an expertise die in the cooking craft. You gain an expertise die in saves against poisons, and +2 poison resistance.",
+            "1. You gain a Poison Pool, which starts with 10 points. This pool represents your ability to carry the appropriate ingredients and use them for various Mixtures. You can spend your Poison pool to craft Mixtures at the end of any short or long rest; these are recipes that you have learned to quickly concoct with your on-hand supplies. Mixtures can be applied to any object as a bonus action, including weapons. Their effects only trigger once, based on the object they are applied to (for example, a Mixture applied to a weapon will trigger the next time that weapon hits a creature). You recover all of your poison points whenever a member of your party scores at least a sub success on a Harvest journey activity check.",
+            "2. You learn the Damage Mixture (1 poison point, victim gains a 2 damage poison DoT, stacking until CON save) and the Loose Lips Mixture (1 poison point, all social interactions with the victim have advantage for 10 minutes).",
+            "3. You gain an expertise die in Poison Type crafting. You gain an expertise die in saves against poisons, and +2 poison resistance.",
             "4. You gain an expertise die in saves against poisons, and +2 poison resistance.",
-            "5. You learn the Slow Mixture (2 poison points, victim's is slowed for 5 minutes) and the Impair Mixture (3 poison points, victim is poisoned until healed).",
+            "5. You learn the Slow Mixture (2 poison points, victim is slowed for 5 minutes) and the Impair Mixture (3 poison points, victim is poisoned until healed).",
             "6. Your poison pool increases to 20 points. You learn the Slay Mixture (8 poison points, if victim's CR is less than 2, they die).",
-            "7. You learn the Sleep Mixture (3 poison points, victim falls asleep for 10 minutes, or until damaged/shaken awake as an action. If used in combat, victim needs 2 doses for poison to take effect. The first does will only poison the target) and the Blindness Mixture (5 poison points, victim is blinded for 3 rounds).",
+            "7. You learn the Sleep Mixture (3 poison points, victim falls asleep for 10 minutes, or until damaged/shaken awake as an action. If used in combat, victim needs 2 doses for poison to take effect. The first does will only poison the target for the same duration) and the Blindness Mixture (5 poison points, victim is blinded for 3 rounds).",
             "8. Your poison pool increases to 25 points.",
-            "9. You gain an expertise die in the cooking craft. You learn the Magical Disjunction Mixture (6 poison points, victim is unable to cast spells for 3 rounds).",
+            "9. You gain an expertise die in Poison Type crafting. You learn the Magical Disjunction Mixture (6 poison points, victim is disadvantaged with Offence from spells for 3 rounds).",
             "10. You learn the Staggering Mixture (6 poison points, victim is staggered for 2 rounds)."
         ]
     },
@@ -1411,32 +1411,32 @@
         "name": "Bears a Staff of Power",
         "description": "enhancing a staff",
         "tiers": [
-            "1. Instill Blessing: At-will; free action; You absorb a blessing that is about to affect you, but instead of consuming it, its power is stored in a staff you hold. For so long as it is stored there, you (and only you) may use it as a bonus action without losing it. The blessing can be used on a cooldown dictated by its tier (ask DM). You may only ever have 1 staff instilled with a blessing and a staff may only ever hold 1 blessing in this way. Should you instill another one, the old one is lost.",
+            "1. Instill Wonder: At-will; free action; You implant a wondrous item in your possession into a staff you hold. For so long as it is stored there, you (and only you) may use it as a bonus action without consuming it or any of its charges. The item can be used on a cooldown dictated by its usual consumption system (ask DM). You may only ever have 1 staff instilled with a wondrous item and a staff may only ever hold 1 wondrous item in this way. Should you instill another one, the old one is lost.",
             "2. You gain an expertise die in attacks with staves.",
-            "3. By chanting sonorous words of power you enhance your staff-stored blessing, increasing its tier by 1.",
-            "4. Blessing Sacrifice: 1/min; free action; By harnessing the power of a blessing you hold, you can use your imbued staff blessing twice this turn with a single bonus action.",
-            "5. Energy Ground: 1/SR; free action; Through a held staff you redirect arcane energies, such as a spell, imbued blessing, or other magical effect. The effect is stopped and its energies forced into the ground by your staff (the effects of which are up to your DM). Only usable on effects that target you or your carried possessions.",
-            "6. Channel Power: 1/LR; free action; You draw the arcane power stored in your staff through your body and use it to affect the world. You must be holding a staff you have imbued with a blessing to use this feature, and doing so removes the blessing stored within. Doing so grants you great arcane power this round, providing double advantage on Offence and Defence.",
-            "7. Arcane Aura: 1/year; bonus action; The power imbued within your staff envelopes you, colouring everything you do. You are physically transformed, taking on a shape related to the power your staff holds, granting you +1 AC for the next hour. During this time, the blessing stored in your staff is considered 2 tiers higher.",
-            "8. You can now use your Instill Potion feature to store up to 2 blessings in a single staff.",
+            "3. By chanting sonorous words of power you enhance your staff-stored wondrous item, increasing its potency by 1 step.",
+            "4. Channel Power: 1/min; bonus action; You can use your imbued staff wondrous item twice.",
+            "5. Energy Ground: 1/SR; free action; Through a held staff you redirect arcane energies, such as a spell, imbued wondrous item, or other magical effect. The effect is stopped and its energies forced into the ground by your staff (the effects of which are up to your DM). This feature is only usable on effects that target you or your carried possessions.",
+            "6. Wondrous Sacrifice: 1/LR; free action; You draw the arcane power stored in your staff through your body and use it to affect the world. You must be holding a staff you have instilled with a wondrous item to use this feature, and doing so removes the wondrous item stored within. Doing so grants you great arcane power this round, providing double advantage on Offence and Defence.",
+            "7. Arcane Aura: 1/year; bonus action; The power imbued within your staff envelopes you, colouring everything you do. You are physically transformed, taking on a shape related to the power your staff holds, granting you +1 AC for the next hour. During this time, the potency of the wondrous item stored in your staff is increased by 2 steps.",
+            "8. You can now use your Instill Wonder feature to store up to 2 wondrous items in a single staff.",
             "9. You gain an expertise die in attacks with staves.",
-            "10. Your staff-stored blessings are considered to be 3 tiers higher."
+            "10. The potency of your staff-stored wondrous items are increased by 3 steps."
         ]
     },
     {
-        "name": "Crafts Illusions",
+        "name": "Crafts Illusions [LAST]",
         "description": "illusions",
         "tiers": [
-            "1. Minor Illusion: At-will; bonus aciton; You create a single image of a creature or object within 5' of you. The image must fit within a 10' cube. The image can move, but it cannot leave the area defined by the cube. The illusion includes sound but not smell. It lasts for 10 minutes, but if you want to change the original illusion significantly, such as making a creature appear to be wounded, you must use another bonus action. If you move beyond 5' from the cube, the illusion vanishes.",
+            "1. Minor Illusion: At-will; bonus aciton; You create a single image of a creature or object in a space within 5' of you. The image must fit within a 10' cube. The image can move, but it cannot leave the area defined by the cube. The illusion includes sound but not smell. It lasts for 10 minutes, but if you want to change the original illusion significantly, such as making a creature appear to be wounded, you must use another bonus action. If you move beyond 5' from the cube, the illusion vanishes.",
             "2. Disguise: 2/min; bonus action; You appear to be someone or something else, roughly of your size and shape, for up to 1 hour.",
             "3. You can increase the range at which you create your 5'-range illusions to anywhere within 30' that you can perceive.",
             "4. Major Illusion: 1/min; bonus action; You create a complex scene of images within 30' of you. The entire scene must fit within a 100' cube. The images can move, but they cannot leave the area defined by the cube. The illusion includes sound and smell. It lasts for 10 minutes and changes as you direct. If you move beyond 30' from the cube, the illusion vanishes.",
             "5. Illusory Selves: 1/SR; bonus action; You create 4 holographic duplicates of yourself within 30'. The duplicates last for 1 minute. You mentally direct their actions, and the duplicates are not mirror images - each one can do different things. If struck violently, they either disappear permanently or freeze motionless (your choice).",
-            "6. Terrifying Image: 1/week; bonus action; You use a bit of subtle telepathy to learn which images would appear terrifying to creatures that you choose within 120'. Those images appear within that area and menace the appropriate creatures. Make an attack roll against each creature you want to affect. Success means the creature flees in terror for 1 minute, pursued by its nightmares. Failure means the creature ignores the images, which do not hamper it in any way.",
-            "7. Grandiose Illusion: 1/year; bonus action; You create a fantastically complex scene of images that fit within a 1-mile cube that you are also within. You must be able to see the images when you create them. The images can move in the cub and act in accordance with your desires. They can also act logically, such as reacting appropriately to fire or attacks, when you are not directly observing them. The illusion includes sound and smell. The illusion lasts for 1 hour, or longer if you concentrate on it after that time.",
-            "8. Permanent Illusion: 1/century; free action; An illusion (or portion of an illusion) that you created that fits within 1 10' cube becomes permanent. You can permanently end the illusion as an action, but others must expend exceptional ingenuity to prevent the illusion from regenerating even if it has apparently been dispersed.",
-            "9. Your Minor Illusions can now include smell.",
-            "10. Your Disguise feature can now be used on 2 additional creatures. All disguised creatures must stay within sight of you or lose their disguise."
+            "6. Terrifying Image: 1/week; bonus action; You use a bit of subtle telepathy to learn which images would appear terrifying to creatures that you choose within 120' of you. Those images appear within that area and menace the appropriate creatures. Make an attack roll against each creature you want to affect. Success means the creature flees from you in terror for 1 minute with its full movement each turn, pursued by its nightmares. Failure means the creature ignores the images, which do not hamper it in any way.",
+            "7. Grandiose Illusion: 1/year; bonus action; You create a fantastically complex scene of images that fit within a 1-mile cube that you are also within. You must be able to see the images when you create them. The images can move in the cube and act in accordance with your desires. They can also act logically, such as reacting appropriately to fire or attacks, when you are not directly observing them. The illusion includes sound and smell. The illusion lasts for 1 hour, or longer if you concentrate on it after that time.",
+            "8. Permanent Illusion: 1/century; free action; An illusion (or portion of an illusion) that you created that fits within a 10' cube becomes permanent. You can permanently end the illusion as an action.",
+            "9. Your Minor Illusion feature can now include smell.",
+            "10. Your Disguise feature can now be used at-will, and on 1 additional creature other than you that you can see within 60' of you. All disguised creatures must stay within sight of you or lose their disguise."
         ]
     },
     {

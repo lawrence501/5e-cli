@@ -456,13 +456,13 @@
         "tags": ["spell"]
     },
     {
-        "description": "crit fails with weps always trigger a half dmg single-target NPC ally atk",
+        "description": "crit fails with wep atks always trigger a half dmg single-target NPC ally atk",
         "pointValue": "1",
         "upgrade": "+4 NPC ally dmg/1",
         "tags": ["weapon"]
     },
     {
-        "description": "crit fails with spells always trigger a half dmg single-target NPC ally atk",
+        "description": "crit fails with spell atks always trigger a half dmg single-target NPC ally atk",
         "pointValue": "1",
         "upgrade": "+4 NPC ally dmg/1",
         "tags": ["spell"]
