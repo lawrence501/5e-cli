@@ -477,6 +477,35 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Warring Cloak",
+            "source": "adept - warrior monk (a5e)",
+            "mods": [
+                "Whenever you use a maneuver that requires a weapon with a particular trait, your unarmed attacks count as having that trait."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Running Silks",
+            "source": "adept - durala carao (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain proficiency with bow weapons.",
+                        "You can use any melee-requiring maneuver with attacks from bow weapons.",
+                        "Being adj to a foe doesn't impose disadv on your bow weapon atks."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You can reroll crit fails on any bow weapon atk.",
+                        "You can draw and stow bow weapons as a free action.",
+                        "You ignore the Loading trait on bow weapons."
+                    ]
+                }
+            ]
         }
     ],
     "light": [

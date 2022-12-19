@@ -21,7 +21,7 @@
     },
     {
         "name": "Emergency Music Box",
-        "description": "On a Busk crit fail, the amount of gold lost is reduced by 2."
+        "description": "On a Busk crit fail, the amount of gold lost is reduced by 3."
     },
     {
         "name": "Backup Music Box",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Superior Music Box",
-        "description": "On a Busk sub succ, 2 additional gold is gained."
+        "description": "On a Busk sub succ, 3 additional gold is gained."
     },
     {
         "name": "Legendary Music Box",
@@ -193,11 +193,11 @@
     },
     {
         "name": "Superior Smoke Bomb",
-        "description": "On a Rob sub succ, the amount of gold found is increased by 2."
+        "description": "On a Rob sub succ, the amount of gold found is increased by 3."
     },
     {
         "name": "Legendary Smoke Bomb",
-        "description": "On a Rob crit succ, after making your loot roll, you can instead change the result to an Ring, with its colour tier increased by 1."
+        "description": "On a Rob crit succ, after making your loot roll, you can instead change the result to a Ring, with its colour tier increased by 1."
     },
     {
         "name": "Emergency Trailmarkers",

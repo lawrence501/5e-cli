@@ -2087,6 +2087,222 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "Conquering Magic",
+            "startingMods": [
+                {
+                    "description": "2/LR, you can cast the Divine Favour spell",
+                    "pointValue": "2",
+                    "upgrade": "+1 usage/1"
+                },
+                {
+                    "description": "your Divine Favour's dmg die increases by 2 sizes",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 rad dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. you can cast Divine Favour as a free action",
+                    "pointValue": "1",
+                    "upgrade": "+1 rad dmg/1"
+                },
+                {
+                    "description": "2. you can now target any adj creature you can see with Divine Favour",
+                    "pointValue": "3",
+                    "upgrade": "+1 target/3"
+                },
+                {
+                    "description": "3. your Divine Favour no longer has any required components",
+                    "pointValue": "1",
+                    "upgrade": "+1 rad dmg/1"
+                },
+                {
+                    "description": "4. your Divine Favour no longer requires concentration",
+                    "pointValue": "3",
+                    "upgrade": "+1 rad dmg/1"
+                },
+                {
+                    "description": "5. your Divine Favour now lasts up to 1hr",
+                    "pointValue": "3",
+                    "upgrade": "+1 duration step/3"
+                },
+                {
+                    "description": "6. you may reroll a 1 on the Divine Favour dmg die once per atk",
+                    "pointValue": "1",
+                    "upgrade": "+1 number of rerolls/1"
+                },
+                {
+                    "description": "7. your Divine Favour's dmg ignores res",
+                    "pointValue": "3",
+                    "upgrade": "+1 rad dmg/1"
+                },
+                {
+                    "description": "8. +1 History for recalling memories you personally experienced",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. you ignore rad res",
+                    "pointValue": "3",
+                    "upgrade": "+1 rad dmg/1"
+                },
+                {
+                    "description": "10. +1 Divine Favour dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "The Normaliser",
+            "startingMods": [
+                {
+                    "description": "1/LR, if you touch an unconscious creature continuously for 1min, you can permanently remove its ability to cast spells",
+                    "pointValue": "9",
+                    "upgrade": "+1 usage/9"
+                },
+                {
+                    "description": "+5' reach",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "+2 non-lethal spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +2 spell dmg vs targets with no spellcasting ability",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 non-lethal global dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 non-lethal melee dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. you are 1 size larger",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "6. +1 melee dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. your spell dmg ignores res",
+                    "pointValue": "3",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "8. +1 non-lethal spell AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "9. you score a crit on a nat 7 roll",
+                    "pointValue": "4",
+                    "upgrade": "+1 crit range/4"
+                },
+                {
+                    "description": "10. +1 spell AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "The Mauler",
+            "startingMods": [
+                {
+                    "description": "with 3+ foes within 20' of you, +2 axe dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on sub axe hit, +1 to debuff saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "on sub axe hit, all foes within 60' of you are pushed 5' toward you",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. on push, target is rooted until end of their next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1 to your shove DCs/2"
+                },
+                {
+                    "description": "2. on block while wielding an axe, +3 wep dmg until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "3. with 3+ foes within 20' of you, +1 dmg res while holding an axe",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. on axe hit, +1 wep dmg until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. 1/combat, on axe hit while bloodied, recover 2 exertion",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. while buffed, +1 dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. +5' push distance",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "8. on wep hit, heal 1 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "9. +1 axe dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. with 3+ foes within 20' of you, +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
@@ -4607,6 +4823,78 @@
                     "description": "10. on starting your turn in sunlight, take 3 rad dmg; 2pts distributed",
                     "pointValue": "1",
                     "upgrade": "+2 and 2pts distributed/1"
+                }
+            ]
+        },
+        {
+            "name": "P'all's Avatar",
+            "startingMods": [
+                {
+                    "description": "on init, recover 2 spell slot lvls",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 AC",
+                    "pointValue": "5",
+                    "upgrade": "+1/5"
+                },
+                {
+                    "description": "+2 fire spell dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +2 wall AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +2 sphere AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on hit, heal 1 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. +1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot OR +1 lvl/3"
+                },
+                {
+                    "description": "8. +1 non-phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "9. you count as undead",
+                    "pointValue": "1",
+                    "upgrade": "+4 persuasion vs undead/1"
+                },
+                {
+                    "description": "10. +2 cold res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 }
             ]
         }

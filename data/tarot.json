@@ -69,7 +69,7 @@
     },
     {
         "name": "The Stars",
-        "description": "The item has 1 additional modifier that you can define (DM will balance)."
+        "description": "The item has 1 additional modifier that you can define (DM will balance for max 4pts)."
     },
     {
         "name": "The Moon",

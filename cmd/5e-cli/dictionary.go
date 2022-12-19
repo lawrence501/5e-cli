@@ -14,6 +14,7 @@ var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"glyph":     "Glyph: Counts as +1 glyph",
 	"belt":      "Belt: +1 adv on base activity",
 	"crystal":   "Crystal: +1 adv on creature type",
+	"gold":      "Gold: +50%",
 }
 
 var PHYS_TYPES []string = []string{

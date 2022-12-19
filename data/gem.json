@@ -2129,5 +2129,132 @@
         "upgrade": "-1/1",
         "tags": ["type dmg", "melee"],
         "meta": "spellblade - elemental strikes"
+    },
+    {
+        "description": "+1 aura dmg",
+        "upgrade": "+1/1",
+        "tags": ["aoe"]
+    },
+    {
+        "description": "+5' aura radius",
+        "upgrade": "+5'/3",
+        "tags": ["aoe"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "on sub hit, target is staggered until end of your next turn",
+        "upgrade": "+1 global AB vs debuffed targets/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "if you've scored a melee hit since start of your last turn, +1 dmg res",
+        "upgrade": "+1/2",
+        "tags": ["melee", "phys res", "non-phys res"]
+    },
+    {
+        "description": "1/rnd, on melee hit, gain 1 temp HP",
+        "upgrade": "+1/1",
+        "tags": ["melee", "temp hp"]
+    },
+    {
+        "description": "on sub non-phys melee hit, a burst of energy erupts from you, making a spell atk against all adj foes that deals 1d4 dmg of the melee hit's type",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "melee", "spell dmg"]
+    },
+    {
+        "description": "your aura dmg is converted to {type}",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "foes in your auras are slowed",
+        "upgrade": "+2 aura dmg vs debuffed targets/1",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"],
+        "meta": "spellblade - fire blood"
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "your aura dmg is converted to {type}",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "on non-phys melee hit, gain 1 temp HP",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "melee", "temp hp"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "on {type} melee crit, target is imbued with energy, which erupts at the start of your next turn, making a glyphic atk against all foes adj to the target that deals 1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee", "crit"]
+    },
+    {
+        "description": "on melee hit, +1 phys res until end of your next turn",
+        "upgrade": "+1/2",
+        "tags": ["melee", "phys res"]
+    },
+    {
+        "description": "on melee hit, +1 dmg res until end of your next turn",
+        "upgrade": "+1/2",
+        "tags": ["melee", "phys res", "non-phys res"]
+    },
+    {
+        "description": "+1 incoming temp HP",
+        "upgrade": "+1/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "+2 sphere AoE dmg",
+        "upgrade": "+1/1",
+        "tags": ["aoe"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "{weaponClass} weps gain the dual-wielding trait",
+        "upgrade": "+1 {weaponClass} dmg/1",
+        "tags": ["weapon class"]
+    },
+    {
+        "description": "-1 dmg res while dual-wielding; +3 {weaponClass} dmg",
+        "upgrade": "-1 and +3/1",
+        "tags": ["weapon class"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee {type} hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"],
+        "meta": "spellblade - Prismatic Blade"
     }
 ]

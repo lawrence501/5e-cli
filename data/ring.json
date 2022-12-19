@@ -172,9 +172,9 @@
             ]
         },
         {
-            "name": "Molten Bronze Skin",
+            "name": "Molten Bronze Ring",
             "effects": [
-                "While attuned, the bronze coats your entire body. You have 50% resistance to fire damage."
+                "You have 50% resistance to fire damage."
             ]
         },
         {
@@ -341,6 +341,20 @@
                 "The docent has a +7 bonus to one of the following skills (d4): 1. Arcana, 2. History, 3. Investigation, or 4. Nature.",
                 "The docent knows one of the following spells and can cast it at-will (d6): 1-2. Detect Evil and Good or 3-6. Detect Magic."
             ]
+        },
+        {
+            "name": "Ring of Staggering",
+            "effects": [
+                "The ring has 7 charges, 1d6 + 1 of which are recovered after a long rest. If you expend the ring's last charge, roll a d20. On a 1, it crumbles into ash and is destroyed.",
+                "As an action, you expend 1 charge to cause a thin blue ray to streak from the ring to a creature you can see within 60' of you. The target must make a DC 15 CON save or be staggered until save."
+            ]
+        },
+        {
+            "name": "Ring of Seeing",
+            "effects": [
+                "The ring has 3 charges, 1d3 of which are recovered after a long rest.",
+                "As an action, you can say 'video' and expend 1 charge to gain 120' of truesight whenever you look through the ring, for 10mins."
+            ]
         }
     ],
     "very rare": [
@@ -488,6 +502,40 @@
                 "1/LR, when you make a ranged wep atk, you can say 'swift death to you who have wronged me' to designate the atk's target as your sworn enemy until it dies or for 1 week. You can have only 1 sworn enemy at a time.",
                 "Whenever you make a ranged wep atk against your sworn enemy, you have adv on the atk roll, the target has no benefit from non-total cover, and you suffer no disadv from long range. On a hit, the atk deals +3d6 P dmg.",
                 "[CURSE] While your sworn enemy lives, you have disadv on non-ranged wep atks."
+            ]
+        },
+        {
+            "name": "Duskvagrant's Ring",
+            "effects": [
+                "You have 50% resistance to psn and acid dmg.",
+                "You are imm to the psn'd condition.",
+                "As an action 1/LR, you can say 'Limus' to cause your body to assume the amorphous qualities of an ooze. For the next min, you can move through a space as narrow as 1 inch wide without squeezing.",
+                "As an action 1/LR, you can exhale acid in a 30' line that forces a DC 15 DEX save. Creatures take 8d8 acid dmg on a fail, or half as much on a succ.",
+                "[CURSE] You cannot unattune from the ring, as its power comes from ooze that it injects into your body. You become permanently poisoned while attuned to the ring without wearing it.",
+                "If you die while attuned to the ring, a Black Pudding erupts from your corpse and engulfs your corpse. It is allied with Aroshi."
+            ]
+        },
+        {
+            "name": "Ring of Stone Giant Strength",
+            "effects": [
+                "Your Strength is always equal to 23."
+            ]
+        },
+        {
+            "name": "Amethyst Lodestone",
+            "effects": [
+                "You have adv on Strength saves.",
+                "The ring has 6 charges, 1d6 of which are recovered after a long rest.",
+                "As a bonus action, you can expend 1 charge to gain a flying speed (hover) equal to your walking speed for 10mins.",
+                "As an action, you can expend 1 charge to focus gravity around a creature you can see within 60' of you. They must pass a DC 18 STR save or be pushed up to 20' in a direction of your choice.",
+                "As an action, you can expend 3 charges to cast the Reverse Gravity spell (DC 18)."
+            ]
+        },
+        {
+            "name": "Ring of Regeneration",
+            "effects": [
+                "+1 passive regen.",
+                "If you lose a body part, it regrows after 1d6 + 1 days if you have at least 1 HP the whole time, otherwise the process is interrupted and must be started again."
             ]
         }
     ],

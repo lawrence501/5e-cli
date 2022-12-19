@@ -1031,7 +1031,7 @@
     {
         "name": "Incubating Resilience",
         "target": "powers with a non-instantaneous duration",
-        "description": "For the power's duration, you have more $nonPhysType res. Additionally, whenever the power ends, you heal barely any HP."
+        "description": "For the power's duration, you gain $nonPhysType res. Additionally, whenever the power ends, you heal barely any HP."
     },
     {
         "name": "Explosive Decay",
@@ -1884,5 +1884,212 @@
         "name": "Incubating Rejuvenation",
         "target": "powers that deal damage",
         "description": "Whenever you use the power, you heal HP for each round this combat since you last used the power. Additionally, the power deals massively less dmg."
+    },
+    {
+        "name": "Flagellation",
+        "target": "any power",
+        "description": "Whenever the power hits one of your minions, that minion deals substantially more dmg until the end of their next turn."
+    },
+    {
+        "name": "Powerful Cruelty",
+        "target": "any power",
+        "description": "The power deals more dmg against bloodied targets."
+    },
+    {
+        "name": "Empowered Resilience",
+        "target": "powers that apply buffs",
+        "description": "Whenever the power's buffs on you end, you gain barely any dmg res for the same duration as the buff was on you."
+    },
+    {
+        "name": "Empowered Leeching",
+        "target": "powers that apply buffs",
+        "description": "While you are buffed by the power, the power's hits heal you for a slight amount of HP."
+    },
+    {
+        "name": "Empowered Decay",
+        "target": "powers that apply buffs",
+        "description": "While buffed by the power and bloodied, your hits inflict a DoT dealing slight $nonPhysType dmg, stacking until CON save."
+    },
+    {
+        "name": "Empowered Control",
+        "target": "powers that apply buffs and deal damage",
+        "description": "While buffed by the power and bloodied, you gain a slight amount of phys res and +1 to saves vs debuffs. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Controlled Sacrifice",
+        "target": "any power",
+        "description": "If you use the power while healthy, your HP drops to your bloodied threshold. Additionally, the power deals more dmg."
+    },
+    {
+        "name": "Empowered Vengeance",
+        "target": "powers that apply buffs and deal damage",
+        "description": "If you go down while buffed by the power, you release a wave of energy, a spell atk against all adj foes dealing substantial $nonPhysType dmg. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Sacrificial Recovery",
+        "target": "powers with a non-cooldown resource cost that apply buffs",
+        "description": "At the start of each of your turns while buffed by the power, you recover 1 unit of the power's cost and lose a slight amount of HP."
+    },
+    {
+        "name": "Powerful Empowerment",
+        "target": "powers that apply buffs",
+        "description": "While buffed by the power and bloodied, you deal more dmg."
+    },
+    {
+        "name": "Empowered Bursting",
+        "target": "powers that apply buffs",
+        "description": "At the start of each of your turns while buffed by the power, you release a wave of energy, making a spell atk against all adj foes that deals $nonPhysType dmg."
+    },
+    {
+        "name": "Keen Duplication",
+        "target": "powers that deal damage, make attacks, and have an effect that triggers once on each of your turns",
+        "description": "The power's effect triggers again on the opposite side of your turn and has +1 crit range, but deals substantially less dmg."
+    },
+    {
+        "name": "Shredding Cruelty",
+        "target": "powers that deal damage",
+        "description": "Whenever the power hits, the target gets reduced $nonPhysType res and -1 to debuff saves until the end of your next turn. Additionally, the power's hits debilitate until the end of the target's next turn and deal substantially less dmg.",
+        "meta": "Surge"
+    },
+    {
+        "name": "Delayed Eruption",
+        "target": "powers that deal damage",
+        "description": "Whenever the power hits, the target is charged with unstable energy, which erupts into an explosion of energy at the start of your next turn, making spell atks against all foes adj to the target that deal $nonPhysType dmg. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Cruel Technique",
+        "target": "powers that apply debuffs",
+        "description": "The power has +1 debuff effectiveness and any procs it triggers deal barely more dmg while you are dual-wielding."
+    },
+    {
+        "name": "Incubating Power",
+        "target": "powers with a cooldown",
+        "description": "While the power is on cooldown, scoring a melee hit grants slightly more dmg to your next usage of the power."
+    },
+    {
+        "name": "Mobile Technique",
+        "target": "powers that move you",
+        "description": "At the end of the power's movement, you can immediately use a maneuver with a usage time of 1 action, spending its exertion cost as usual."
+    },
+    {
+        "name": "Incubating Warding",
+        "target": "powers with a cooldown",
+        "description": "While the power is on cooldown, scoring a melee hit grants you a slight amount of temp HP the next time you use the power (stacking to 1 instance)."
+    },
+    {
+        "name": "Incubating Atmosphere",
+        "target": "powers with a cooldown",
+        "description": "While the power is on cooldown, scoring a melee hit causes your next usage of the power to project a 5' aura of energy that makes spell atks against foes dealing slight $nonPhysType dmg (dmg stacks into 1 aura)."
+    },
+    {
+        "name": "Mobile Magic",
+        "target": "powers that move you",
+        "description": "At the end of the power's movement, you can immediately cast a spell with a casting time of 1 action, spending spell slots as usual."
+    },
+    {
+        "name": "Magic Mobility",
+        "target": "powers that move you",
+        "description": "In the middle of the power's movement, you can immediately cast a spell with a casting time of 1 action, spending spell slots as usual."
+    },
+    {
+        "name": "Erratic Power",
+        "target": "powers that move you without teleportation",
+        "description": "The power's movement must now zig-zag, but it deals more dmg."
+    },
+    {
+        "name": "Sluggish Surging",
+        "target": "powers that move you",
+        "description": "At the end of the power's movement, a wave of energy continues in the same direction, making spell atks against foes in a 30' line that deal barely any $nonPhysType dmg and make targets sluggish until the end of your next turn."
+    },
+    {
+        "name": "Staggering Power",
+        "target": "any power",
+        "description": "Whenever the power hits, the target becomes staggered until the end of your next turn. Additionally, the power deals barely more dmg."
+    },
+    {
+        "name": "Mobility",
+        "target": "powers that move you",
+        "description": "The power's max movement distance is doubled."
+    },
+    {
+        "name": "Keen Warding",
+        "target": "powers that make attacks",
+        "description": "The power has +1 crit range and, whenever it scores a crit, you gain barely any temp HP."
+    },
+    {
+        "name": "Empowerment",
+        "target": "any power",
+        "description": "While you are buffed, the power deals more dmg."
+    },
+    {
+        "name": "Building Empowerment",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power, buffs on you have +1 effectiveness until you next lose a buff. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Mobile Substitution",
+        "target": "powers that move you and deal damage",
+        "description": "At the end of the power's movement, you can immediately cast a spell with a casting time of 1 action for free. Additionally, the power deals no dmg."
+    },
+    {
+        "name": "Incubating Empowerment",
+        "target": "powers that deal damage",
+        "description": "Whenever the power hits, buffs on you have +1 effectiveness until you next lose a buff. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Mobile Power",
+        "target": "powers that move you",
+        "description": "If the power displaces you 30+', it deals more dmg."
+    },
+    {
+        "name": "Crippled Power",
+        "target": "powers that move you",
+        "description": "The power deals substantially more dmg, but its max movement distance is halved."
+    },
+    {
+        "name": "Invulnerable Mobility",
+        "target": "powers that move you",
+        "description": "You are immune to dmg during the power's movement."
+    },
+    {
+        "name": "Flexible Mobility",
+        "target": "powers that move you",
+        "description": "You can take other actions midway through the power's movement."
+    },
+    {
+        "name": "Massive Chaining",
+        "target": "powers that chain",
+        "description": "The power can chain 1 additional time.",
+        "meta": "Abyssal Echoes"
+    },
+    {
+        "name": "Insulated Power",
+        "target": "powers that chain",
+        "description": "The power deals massively more dmg, but no longer chains."
+    },
+    {
+        "name": "Duplicating Rifts",
+        "target": "powers with sphere areas",
+        "description": "Whenever you use the power, an energy rift is opened at the its centre-point. At the start of your next turn, this rift will use the power centred on itself again before disappearing."
+    },
+    {
+        "name": "Persistence",
+        "target": "powers with persistent areas",
+        "description": "When the power's pers area ends, it ticks 1 more time."
+    },
+    {
+        "name": "Contagion",
+        "target": "powers that inflict DoTs",
+        "description": "At the start of your next turn after using the power, its DoT spreads to all foes adj to its victims. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Spreading",
+        "target": "powers with areas that grow each round",
+        "description": "The power's area grows further each round."
+    },
+    {
+        "name": "Immediate Power [next - crippling waves]",
+        "target": "powers that inflict DoTs",
+        "description": "The power deals massive additional $nonPhysType dmg when it succeeds at affecting its target, but deals substantially less DoT dmg."
     }
 ]

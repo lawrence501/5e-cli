@@ -525,7 +525,7 @@
         "setBonuses": [
           {
             "ally": "Leorian",
-            "effect": "+2 global dmg while shapeshifted vs marked targets",
+            "effect": "+2 global dmg vs marked targets while shapeshifted",
             "upgrade": "+2"
           },
           {
@@ -761,12 +761,12 @@
     "amulets": [
       {
         "name": "Cherry's Attunement",
-        "effect": "+1 global dmg while all your weps are relics; +1 dmg res while your helm and gloves are relics",
+        "effect": "+1 global dmg while both of your held enchantment clusters are relics; +1 dmg res while your helm and gloves are relics",
         "upgrade": "+2 to crafting creation checks",
         "setBonuses": [
           {
             "ally": "Grengor",
-            "effect": "+1 global dmg while both of your hand enchantment clusters are relics",
+            "effect": "+1 global dmg while both of your held enchantment clusters are relics",
             "upgrade": "+1"
           },
           {
