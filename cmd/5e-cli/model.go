@@ -145,3 +145,8 @@ type BodyVariables struct {
 	Mods      []string `json:"mods"`
 	Variables []string `json:"variables"`
 }
+
+type Weathers struct {
+	Common []string  `json:"common"`
+	Exotic []Generic `json:"exotic"`
+}

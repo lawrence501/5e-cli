@@ -13,7 +13,7 @@
     },
     {
         "name": "Consuming",
-        "description": "5' around boss deals lvl+2 $dmgType dmg and heals boss same amount"
+        "description": "5' around boss deals lvl $dmgType dmg and heals boss same amount"
     },
     {
         "name": "Claustrophobic",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Adaptive",
-        "description": "boss reflects 100% dmg of the type used to dmg them last"
+        "description": "boss reflects 50% dmg of the type used to dmg them last"
     },
     {
         "name": "Mirrored",
@@ -49,51 +49,51 @@
     },
     {
         "name": "Corroding",
-        "description": "on dmg boss, offending power gets dmg -[lvl+2] until end combat"
+        "description": "on hitting boss, offending power has its dmg halved until end combat (can stack)"
     },
     {
         "name": "Frigid",
-        "description": "sacred fire spawns over 1st player, moves 5' in random dir each turn start, leaving its 15' radius causes lvl+2 cold dmg"
+        "description": "sacred fire spawns over 1st player, moves 5' in random dir each turn start, leaving its 10' radius causes lvl cold dmg"
     },
     {
         "name": "Burning",
-        "description": "6 unlit torches around room, new arena action: random torch is lit. On player turn start, for each torch lit above 1, take lvl+2 fire dmg. Snuff torch as action"
+        "description": "6 unlit torches around room, new arena action: random torch is lit. On player turn start, for each torch above 1 lit, take fire dmg. Snuff adj torch as action"
     },
     {
         "name": "Unstable",
-        "description": "casting spells causes arcane backlash, dealing lvl+2 force dmg"
+        "description": "casting spells causes arcane backlash, dealing lvl force dmg"
     },
     {
         "name": "Conductive",
-        "description": "on dmg boss, offending creature sparks out at all allies within 10' of them for lvl+2 light dmg"
+        "description": "on hitting boss, offending creature sparks out at all allies within 10' of them for lvl light dmg"
     },
     {
         "name": "Pitch Black",
-        "description": "if player cannot see, take lvl+2 nec dmg, area has no light source, darkvision has no effect"
+        "description": "if player is in darkness, take lvl nec dmg, area has no light source"
     },
     {
         "name": "Venomous",
-        "description": "when boss hits player, drop 3x3 pers area of lvl+2 psn dmg beneath player"
+        "description": "when boss hits player, drop 3x3 pers area of lvl psn dmg beneath player (they are immune until end of their next turn)"
     },
     {
         "name": "Linked",
-        "description": "in init order, each player is linked to the next, if not within 5' of linked, take lvl+2 psy dmg"
+        "description": "in init order, each player is linked to the next, if not within 10' of linked, take lvl psy dmg"
     },
     {
         "name": "Blinding",
-        "description": "if player can see, take lvl+2 rad dmg, darkvision has no effect"
+        "description": "if player is not in darkness, take lvl rad dmg, area has no light source"
     },
     {
         "name": "Deafening",
-        "description": "on weapon hit, strike rings out at offender, dealing lvl+2 thunder dmg"
+        "description": "on weapon hit, strike rings out at offender, dealing lvl thunder dmg"
     },
     {
         "name": "Webbed",
-        "description": "on init, and then each arena action, crackling web of energy starts forming at either ground-, mid-, or overhead-lvl, start of next rnd a pers area fully forms, dealing lvl+2 $dmgType dmg at that height"
+        "description": "on init, and then each arena action, crackling web of energy starts forming at either ground-, mid-, or overhead-lvl, start of next rnd a pers area fully forms, dealing lvl $dmgType dmg at that height, until end of that rnd"
     },
     {
         "name": "Ritualistic",
-        "description": "3 bloody ritual circles around area, each arena turn they all intensify, if one reaches 3rd stage, boss gets either +1 AC, heals 10% HP, +1 to all saves, +1 AB, +1 dmg die sizes, or +2 flat dmg and circle resets. action to reset circle."
+        "description": "3 bloody ritual circles around area, each arena turn they all intensify, if one reaches 3rd stage, boss gets either +1 AC, heals 30% HP, +1 to all saves, +1 AB, +1 to DCs, or +2 flat dmg and circle resets. action to reset circle."
     },
     {
         "name": "Trapped",

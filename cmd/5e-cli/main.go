@@ -70,15 +70,17 @@ var COMMAND_MAP = map[string]func() error{
 	"wondrous":      wondrous,
 	"ring":          ring,
 	"combat":        combat,
+	"travel":        travel,
+	"ja":            journeyActivity,
 }
 
 func main() {
 	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
 	rand.Seed(time.Now().UnixNano())
 
-	for true {
+	for {
 		baseP := promptui.Prompt{
-			Label:    "Command",
+			Label:    "\nCommand",
 			Validate: validateBase,
 		}
 		input, err := baseP.Run()

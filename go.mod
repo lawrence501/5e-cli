@@ -4,6 +4,8 @@ go 1.19
 
 require github.com/manifoldco/promptui v0.8.0
 
+require github.com/golang-collections/collections v0.0.0-20130729185459-604e922904d3 // indirect
+
 require (
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e // indirect
 	github.com/juju/ansiterm v0.0.0-20180109212912-720a0952cc2a // indirect

@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"math"
 	"math/rand"
@@ -34,7 +33,7 @@ func fetchTarot(cardIdx int) (Generic, error) {
 		return Generic{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "tarot.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "tarot.json"))
 	if err != nil {
 		return Generic{}, err
 	}
@@ -48,25 +47,6 @@ func fetchTarot(cardIdx int) (Generic, error) {
 	return tarots[cardIdx], nil
 }
 
-func fetchCards() (Cards, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return Cards{}, err
-	}
-
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "card.json"))
-	if err != nil {
-		return Cards{}, err
-	}
-
-	cards := Cards{}
-	err = json.Unmarshal([]byte(f), &cards)
-	if err != nil {
-		return Cards{}, err
-	}
-	return cards, nil
-}
-
 func getEnchants(num int, tags []string) ([]Enchant, error) {
 	allEnchants, err := fetchEnchants()
 	if err != nil {
@@ -76,7 +56,7 @@ func getEnchants(num int, tags []string) ([]Enchant, error) {
 	var enchants []Enchant
 	for len(enchants) < num {
 		var e Enchant
-		for true {
+		for {
 			e = allEnchants[rand.Intn(len(allEnchants))]
 			valid := true
 			for _, t := range e.Tags {
@@ -102,7 +82,7 @@ func fetchGenericEnchants(fileName string) ([]Enchant, error) {
 		return []Enchant{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
 	if err != nil {
 		return []Enchant{}, err
 	}
@@ -115,26 +95,13 @@ func fetchGenericEnchants(fileName string) ([]Enchant, error) {
 	return enchants, nil
 }
 
-func getMundane(t string) (Mundane, error) {
-	mundanes, err := fetchMundanes(t)
-	if err != nil {
-		return Mundane{}, err
-	}
-
-	return mundanes[rand.Intn(len(mundanes))], nil
-}
-
-func getDamageType() string {
-	return DAMAGE_TYPES[rand.Intn(len(DAMAGE_TYPES))]
-}
-
 func fetchTomes() ([]Tome, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
 		return []Tome{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "tome.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "tome.json"))
 	if err != nil {
 		return []Tome{}, err
 	}
@@ -147,37 +114,10 @@ func fetchTomes() ([]Tome, error) {
 	return tomes, nil
 }
 
-func fetchMundanes(t string) ([]Mundane, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Mundane{}, err
-	}
-
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "mundane.json"))
-	if err != nil {
-		return []Mundane{}, err
-	}
-
-	mundanes := Mundanes{}
-	err = json.Unmarshal([]byte(f), &mundanes)
-	if err != nil {
-		return []Mundane{}, err
-	}
-
-	var ret []Mundane
-	typeRoll := rand.Intn(3)
-	if typeRoll < 1 {
-		ret = mundanes.Weapon
-	} else {
-		ret = mundanes.Armour
-	}
-	return ret, nil
-}
-
 func generateEncounter() (string, error) {
 	chestChance := 0
 	positiveEncounterChance := 20 + chestChance
-	positiveRoll := rand.Intn(100) + 1
+	positiveRoll := rand.Intn(100)
 	if positiveRoll < chestChance {
 		return "Legendary Chest", nil
 	}
@@ -199,7 +139,7 @@ func fetchEncounters() (Encounters, error) {
 		return Encounters{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "encounter.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "encounter.json"))
 	if err != nil {
 		return Encounters{}, err
 	}
@@ -212,13 +152,47 @@ func fetchEncounters() (Encounters, error) {
 	return encounters, nil
 }
 
+func fetchWeather() (Weathers, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return Weathers{}, err
+	}
+
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "weather.json"))
+	if err != nil {
+		return Weathers{}, err
+	}
+
+	weathers := Weathers{}
+	err = json.Unmarshal([]byte(f), &weathers)
+	if err != nil {
+		return Weathers{}, err
+	}
+	return weathers, nil
+}
+
+func generateWeather() (string, error) {
+	weathers, err := fetchWeather()
+	if err != nil {
+		return "", err
+	}
+
+	weatherRoll := rand.Intn(100)
+	if weatherRoll < 10 {
+		chosen := weathers.Exotic[rand.Intn(len(weathers.Exotic))]
+		return fmt.Sprintf("%s (%s)", chosen.Name, chosen.Description), nil
+	}
+	chosen := weathers.Common[rand.Intn(len(weathers.Common))]
+	return chosen, nil
+}
+
 func fetchWondrous(rarity string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
 		return []Generic{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "wondrous.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "wondrous.json"))
 	if err != nil {
 		return []Generic{}, err
 	}
@@ -242,7 +216,7 @@ func fetchWondrous(rarity string) ([]Generic, error) {
 	case "legendary":
 		ret = wondrous.Legendary
 	default:
-		return []Generic{}, fmt.Errorf("Invalid wondrous item rarity: %s", rarity)
+		return []Generic{}, fmt.Errorf("invalid wondrous item rarity: %s", rarity)
 	}
 	return ret, nil
 }
@@ -253,7 +227,7 @@ func fetchRings(rarity string) ([]Ring, error) {
 		return []Ring{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "ring.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "ring.json"))
 	if err != nil {
 		return []Ring{}, err
 	}
@@ -277,7 +251,7 @@ func fetchRings(rarity string) ([]Ring, error) {
 	case "artifact":
 		ret = rings.Artifact
 	default:
-		return []Ring{}, fmt.Errorf("Invalid ring rarity: %s", rarity)
+		return []Ring{}, fmt.Errorf("invalid ring rarity: %s", rarity)
 	}
 	return ret, nil
 }
@@ -288,7 +262,7 @@ func fetchEnchants() ([]Enchant, error) {
 		return []Enchant{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "enchant.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "enchant.json"))
 	if err != nil {
 		return []Enchant{}, err
 	}
@@ -307,7 +281,7 @@ func fetchAmulets() ([]AmuletSet, error) {
 		return []AmuletSet{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "amulet.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "amulet.json"))
 	if err != nil {
 		return []AmuletSet{}, err
 	}
@@ -326,7 +300,7 @@ func fetchSimpleGenerics(fileName string) ([]SimpleGeneric, error) {
 		return []SimpleGeneric{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
 	if err != nil {
 		return []SimpleGeneric{}, err
 	}
@@ -339,32 +313,13 @@ func fetchSimpleGenerics(fileName string) ([]SimpleGeneric, error) {
 	return simple, nil
 }
 
-func fetchThematicRings() ([]ThematicRing, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []ThematicRing{}, err
-	}
-
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "thematicRing.json"))
-	if err != nil {
-		return []ThematicRing{}, err
-	}
-
-	rings := []ThematicRing{}
-	err = json.Unmarshal([]byte(f), &rings)
-	if err != nil {
-		return []ThematicRing{}, err
-	}
-	return rings, nil
-}
-
 func fetchGlyphs() ([]GlyphPath, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
 		return []GlyphPath{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "glyph.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "glyph.json"))
 	if err != nil {
 		return []GlyphPath{}, err
 	}
@@ -383,7 +338,7 @@ func fetchRelics() (Relics, error) {
 		return Relics{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "relic.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "relic.json"))
 	if err != nil {
 		return Relics{}, err
 	}
@@ -402,7 +357,7 @@ func fetchBodies() (Bodies, error) {
 		return Bodies{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "body.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "body.json"))
 	if err != nil {
 		return Bodies{}, err
 	}
@@ -421,7 +376,7 @@ func fetchGenerics(fileName string) ([]Generic, error) {
 		return []Generic{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
 	if err != nil {
 		return []Generic{}, err
 	}
@@ -440,7 +395,7 @@ func fetchChaos() (Chaos, error) {
 		return Chaos{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "chaos.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "chaos.json"))
 	if err != nil {
 		return Chaos{}, err
 	}
@@ -459,7 +414,7 @@ func fetchMutations() ([]Generic, error) {
 		return []Generic{}, err
 	}
 
-	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "mutation.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "mutation.json"))
 	if err != nil {
 		return []Generic{}, err
 	}

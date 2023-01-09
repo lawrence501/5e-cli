@@ -1,7 +1,6 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"math/rand"
@@ -140,17 +139,6 @@ var mutation = func() error {
 	return nil
 }
 
-var tpk = func() error {
-	tpkNotes, err := fetchGenerics("tpk")
-	if err != nil {
-		return err
-	}
-
-	chosen := tpkNotes[rand.Intn(len(tpkNotes))]
-	log.Printf("TPK rescue offer from %s:\n\n%s", chosen.Name, processMod(chosen.Description))
-	return nil
-}
-
 var empower = func() error {
 	empowerments, err := fetchGenerics("enemyEmpowerment")
 	if err != nil {
@@ -228,14 +216,13 @@ var gem = func() error {
 	}
 
 	var chosen Enchant
-	for true {
+	for {
 		chosen = gems[rand.Intn(len(gems))]
 		if slices.Contains(chosen.Tags, tag) {
 			log.Printf("Gem affix: %s", processMod(chosen.Description))
 			return nil
 		}
 	}
-	return errors.New("No valid gem affix found for tag " + tag)
 }
 
 var craft = func() error {
@@ -268,7 +255,7 @@ var targetCraft = func() error {
 	}
 
 	var chosen Enchant
-	for true {
+	for {
 		chosen = crafts[rand.Intn(len(crafts))]
 		for _, affinity := range affinities {
 			if slices.Contains(chosen.Tags, affinity) {
@@ -278,7 +265,6 @@ var targetCraft = func() error {
 			}
 		}
 	}
-	return nil
 }
 
 var dmgUpgrade = func() error {
@@ -349,6 +335,78 @@ var combat = func() error {
 			log.Printf("Round %d: the crystals of %v flare", i, roundMap[i])
 		}
 	}
+	return nil
+}
+
+var travel = func() error {
+	charSlice := make([]string, len(PARTY_MEMBERS))
+	copy(charSlice, PARTY_MEMBERS)
+	rand.Shuffle(len(charSlice), func(i, j int) { charSlice[i], charSlice[j] = charSlice[j], charSlice[i] })
+
+	weather, err := generateWeather()
+	if err != nil {
+		return err
+	}
+
+	log.Printf("Journey travel day:\n\n")
+	log.Printf("WEATHER: %s\n\n", weather)
+	event := 1
+	for i := 0; i < 5; i++ {
+		encRoll := rand.Intn(100)
+		if encRoll < 5 {
+			encounter, err := generateEncounter()
+			if err != nil {
+				return err
+			}
+			log.Printf("%d. Random encounter: %s\n", event, encounter)
+			event++
+		}
+
+		if i < 4 {
+			log.Printf("%d. %s's activity", event, charSlice[i])
+			event++
+		}
+	}
+	return nil
+}
+
+var journeyActivity = func() error {
+	activityP := promptui.Prompt{
+		Label:    "Undertaken activity",
+		Validate: validateActivity,
+	}
+	activity, err := activityP.Run()
+	if err != nil {
+		return err
+	}
+	scoreP := promptui.Prompt{
+		Label:    "Score",
+		Validate: validateInt,
+	}
+	s, err := scoreP.Run()
+	if err != nil {
+		return err
+	}
+	score, err := strconv.Atoi(s)
+	if err != nil {
+		return err
+	}
+
+	var result string
+	if score == 100 {
+		result = "crit succ"
+	} else if score == -100 {
+		result = "crit fail"
+	} else if score >= 23 {
+		result = "sub succ"
+	} else if score >= 18 {
+		result = "succ"
+	} else if score >= 13 {
+		result = "fail"
+	} else {
+		result = "sub fail"
+	}
+	fmt.Printf("%s result (%s): %s", activity, result, ACTIVITY_RESULTS[activity]["result"])
 	return nil
 }
 
