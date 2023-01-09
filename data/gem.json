@@ -38,7 +38,7 @@
         "description": "+1 crit range",
         "upgrade": "+1/4",
         "tags": ["crit"],
-        "meta": "rogue - marksman - assassin's quiver"
+        "meta": "marksman - assassin's quiver"
     },
     {
         "description": "while holding a {weaponClass} wep, on displacing 15+' in a single turn, +1d4 {dmgType} dmg to your next {weaponClass} hit",
@@ -59,7 +59,7 @@
         "description": "if you haven't been hit by an adj creature since your last turn, +1 global dmg",
         "upgrade": "+1/2",
         "tags": ["wep dmg", "spell dmg"],
-        "meta": "rogue - marksman - concentration"
+        "meta": "marksman - concentration"
     },
     {
         "description": "while holding a {weaponClass} wep, +1 non-phys dmg",
@@ -85,7 +85,7 @@
         "description": "on sub hit, debuff target until end of your next turn with +1 crit range to incoming atks",
         "upgrade": "+1/3",
         "tags": ["crit"],
-        "meta": "rogue - marksman - wound maker"
+        "meta": "marksman - wound maker"
     },
     {
         "description": "+1 {dmgType} dmg with {weaponClass} hits",
@@ -106,7 +106,7 @@
         "description": "+1 AC vs adj creatures",
         "upgrade": "+1/4",
         "tags": ["ac"],
-        "meta": "rogue - marksman - meditation"
+        "meta": "marksman - meditation"
     },
     {
         "description": "+1d4 {dmgType} dmg to your {weaponClass} hits",
@@ -206,8 +206,8 @@
         "tags": ["weapon class", "save"]
     },
     {
-        "description": "on succ {ability} save, gain 5 temp HP",
-        "upgrade": "+5/1",
+        "description": "on succ {ability} save, gain 3 temp HP",
+        "upgrade": "+2/1",
         "tags": ["save", "temp hp"]
     },
     {
@@ -2100,9 +2100,9 @@
         "tags": ["speed", "type dmg"]
     },
     {
-        "description": "1/turn, on melee crit, generate a 5' aura of energy until the end of your next turn that makes glyphic atks against foes, dealing 1d4 {type} dmg",
+        "description": "1/turn, on sub melee hit, generate a 5' aura of energy until the end of your next turn that makes spell atks against foes, dealing 1d4 {type} dmg",
         "upgrade": "+1 dmg/1",
-        "tags": ["melee", "crit", "type dmg"]
+        "tags": ["melee", "type dmg"]
     },
     {
         "description": "+1 aura dmg while you only have 1 aura",
@@ -2256,5 +2256,241 @@
         "upgrade": "+1/1",
         "tags": ["type dmg", "melee"],
         "meta": "spellblade - Prismatic Blade"
+    },
+    {
+        "description": "+2 {type} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "description": "on sub melee hit, project a 5' aura until the end of your next turn that makes spell atks against foes, dealing 1d4 {type} dmg",
+        "upgrade": "+1 dmg/1",
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "+5' to your teleport distances",
+        "upgrade": "+5'/1",
+        "tags": ["speed"]
+    },
+    {
+        "description": "+1 to your debuff DCs",
+        "upgrade": "+1/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "on sub melee hit, target is inflicted with 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg", "dot"]
+    },
+    {
+        "description": "+1 DoT dmg",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "+1 debuff effectiveness",
+        "upgrade": "+1/3",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "+1d4 base dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "-2 spell dmg; +1d4 base dmg to your spell hits",
+        "upgrade": "-1 dmg and +2 die size/1",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "+1 passive temp HP gen",
+        "upgrade": "+1/2",
+        "tags": ["temp hp"],
+        "meta": "spellblade - mental fortitude"
+    },
+    {
+        "description": "while you are projecting an aura, +1 passive temp HP gen",
+        "upgrade": "+1/2",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 incoming temp HP",
+        "upgrade": "+1/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "+5' to your teleport distances",
+        "upgrade": "+5'/1",
+        "tags": ["speed"]
+    },
+    {
+        "description": "while you are projecting an aura, +1 non-phys melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "melee"]
+    },
+    {
+        "description": "if your {ability} is 15+, +1 passive temp HP gen",
+        "upgrade": "+1/2",
+        "tags": ["ability", "temp hp"],
+        "meta": "spellblade - DONE"
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 non-phys dmg",
+        "upgrade": "+1/2",
+        "tags": ["non-phys dmg"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+2 {type} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "description": "1/combat, on becoming bloodied, gain 7 temp HP",
+        "upgrade": "+7/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "your first non-phys spell hit each turn deals +1 dmg",
+        "upgrade": "+1/1",
+        "tags": ["non-phys dmg", "spell dmg"]
+    },
+    {
+        "description": "your first non-phys spell sub hit each turn inflicts slow on the target until end of your next turn",
+        "upgrade": "+1 spell AB/4",
+        "tags": ["non-phys dmg", "spell dmg", "debuff"],
+        "meta": "mage - preparation"
+    },
+    {
+        "description": "your first {type} hit each combat also causes bolts of energy to erupt from the target, making glyphic atks against all creatures of your choice adj to the target, dealing 1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+1 wep dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg"]
+    },
+    {
+        "description": "+1 spell dmg",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "your first {type} hit each combat causes all foes adj to the target to be coated in decay, inflicting a DoT dealing 1 {type} dmg, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "dot"]
+    },
+    {
+        "description": "+1 incoming temp HP",
+        "upgrade": "+1/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "+1 crit range",
+        "upgrade": "+1/4",
+        "tags": ["crit"]
+    },
+    {
+        "description": "+1 crit dice",
+        "upgrade": "+1/2",
+        "tags": ["crit"]
+    },
+    {
+        "description": "on sub hit, target is staggered until end of your next turn",
+        "upgrade": "+1 global AB vs debuffed targets/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "your spell dmg is converted to {type}",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["spell dmg", "type dmg"],
+        "meta": "mage - rune of winter"
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "the first time you deal each dmg type in a combat, gain 2 temp HP",
+        "upgrade": "+1/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "on {type} sub hit, target is made sluggish until end of your next turn",
+        "upgrade": "+1 {type} AB/4",
+        "tags": ["type dmg", "debuff"]
+    },
+    {
+        "description": "on {type} sub hit, target is inflicted with 1 {type} DoT, stacking until DEX save",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "dot"]
+    },
+    {
+        "description": "+1 incoming temp HP",
+        "upgrade": "+1/1",
+        "tags": ["temp hp"]
+    },
+    {
+        "description": "your first {type} hit each combat causes all foes adj to the target to become sluggish until the end of your next turn",
+        "upgrade": "+1 {type} AB/4",
+        "tags": ["type dmg", "debuff"],
+        "meta": "mage - DONE"
+    },
+    {
+        "description": "+1 wep dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg"]
+    },
+    {
+        "description": "your wep hits deal +1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "type dmg"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 to {ability} saves",
+        "upgrade": "+1/1-3",
+        "tags": ["save"]
+    },
+    {
+        "description": "+2 {type} res",
+        "upgrade": "+1/1",
+        "tags": ["type res"]
+    },
+    {
+        "description": "if you've displaced 30+' since the start of your last turn, +1 dmg res",
+        "upgrade": "+1/1",
+        "tags": ["speed", "phys res", "non-phys res"],
+        "meta": "rogue - evasion"
     }
 ]

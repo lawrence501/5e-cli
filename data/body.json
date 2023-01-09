@@ -251,10 +251,19 @@
             "name": "Shadowed Cloak",
             "source": "adept - shadow",
             "mods": [
-                "As an action 1/SR, you can cast either Darkness, Darkvision, Pass Without Trace, or Silence.",
                 "You learn the Minor Illusion cantrip."
             ],
-            "variables": []
+            "variables": [
+                {
+                    "mods": [],
+                    "variables": [
+                        "As an action 1/SR, you can cast the Darkness spell.",
+                        "As an action 1/SR, you can cast the Darkvision spell.",
+                        "As an action 1/SR, you can cast the Pass Without Trace spell.",
+                        "As an action 1/SR, you can cast the Silence spell."
+                    ]
+                }
+            ]
         },
         {
             "name": "Sharp Wrap",
@@ -1478,6 +1487,138 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Alchemical Ringmail",
+            "source": "artificer - alchemist",
+            "mods": [
+                "Whenever you complete a LR, roll a d6 and gain an Elixir based on the following results. The elixir's effects occur on consumption. Elixirs expire at the end of your next long rest.",
+                "1. Healing: The drinker heals HP equal to 2d4 + your ability mod.",
+                "2. Swiftness: The drinker's speed increases by 10' for 1hr.",
+                "3. Resilience: The drinker's AC increases by 1 for 10mins.",
+                "4. Boldness: The drinker adds 1d4 to each of their atks and saves for 1min.",
+                "5. Flight: The drinker gains 10' of fly speed for 10mins.",
+                "6. Transformation: The drinker targets themself with the Alter Self spell, which lasts for 10mins and doesn't require concentration.",
+                "Additionally, you can expend spell slots of any level to create additional elixirs as an action. When you do so, they must be of the following type:"
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "Healing."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Swiftness."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Resilience."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Boldness."
+                    ]
+                },{
+                    "mods": [
+                        "Flight."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Transformation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Battle Hauberk",
+            "source": "artificer - battle smith",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain proficiency with martial weapons.",
+                        "Whenever you atk with a relic weapon, you can use your ability instead of the weapon's usual primary ability."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain a Steel Defender minion (https://5e.tools/bestiary.html#steel%20defender_tce). You determine its appearance.",
+                        "You must use your bonus action for the Defender to take any action other than the Dodge action on its subsequent turn, unless you are unconscious, in which case it can take any action of its choice.",
+                        "If the Mending spell is cast on the Defender, it heals 2d6 HP. Additionally, you can revive a Defender that died in the past hour as an action and a spell slot, while adj to its corpse. It returns to life after 1 minute with all its HP.",
+                        "You can replace a dead Defender at the end of a long rest."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Resilience."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Boldness."
+                    ]
+                },{
+                    "mods": [
+                        "Flight."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Transformation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tempestuous Doublet",
+            "source": "berserker - tempest",
+            "mods": [
+                "As a bonus action 3/LR, you can empower a melee wep you touch for the next minute. You can only empower 1 weapon at a time, though you can use a bonus action to transfer the effect to a different weapon."
+            ],
+            "variables": [
+                {
+                    "mods": [],
+                    "variables": [
+                        "While you are holding the empowered weapon, it deals 1d6 additional light dmg.",
+                        "While you are holding the empowered weapon, it deals 1d6 additional thunder dmg."
+                    ]
+                },
+                {
+                    "mods": [],
+                    "variables": [
+                        "You gain 50% resistance to thunder dmg.",
+                        "You gain 50% resistance to light dmg."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Matriarchal Scale",
+            "source": "berserker - queen bee",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As a bonus action 3/LR, you can choose a creature within 10' of you to grow furious on your behalf for 1 minute. If the creature is unwilling, they make a WIS save. If it succeeds, they are immune to this power permanently. If it fails, it can repeat the save at the end of each of its turns.",
+                        "As a bonus action during this time, you can move the fury from one creature to another within 10' of you. This revokes the rage from the previous creature, and retains the same remaining duration.",
+                        "A furious creature has the following modifications:",
+                        "It has adv on STR checks and saves.",
+                        "It has disadv on Offence with spells and concentration saves.",
+                        "It adds 2 to any melee wep atks it makes."
+                    ]
+                },
+                {
+                    "mods": [
+                        "While you are holding a dual-wielding or finesse melee weapon and no shield, you treat that weapon's base dmg die as a d12, and you may give the weapon the Heavy trait while you hold it.",
+                        "You cannot attack with 2 different held weapons during the same turn.",
+                        "You cannot benefit from the Dueling fighting style."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -1746,6 +1887,42 @@
                     "mods": [
                         "You can move an obj or creature with your mind. As an action, target 1 loose obj that is Large or smaller, or 1 other willing creature. If you can see the target and it is within 30' of you, you can move it up to 30' to an empty space you can see. Alternatively, if a targeted obj is Tiny, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both.",
                         "You can use this power 1/SR, but can replenish this usage by expending a psionic die."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Plate",
+            "source": "herald - ancients",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Once per short or long rest, as an action, you can cause spectral vines to spring up and reach for a creature within 10' of you that you can see. They must pass a STR or DEX save (their choice) or be rest until save."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once per short or long rest, as an action, you can utter ancient words that are painful for fey and fiends to hear. Each one within 30' of you that can hear you must make a WIS save. On a failed save, the creature is turned for 1min or until it takes dmg.",
+                        "A turned creature must spend its turns trying to move as far away from you as it can, and it cannot willingly move to a space within 30' of you. It also cannot take reactions. For its actions, it can use only the Dash action or try to escape from an effet that prevents it from moving. If there is nowhere to move, the creature can take the Dodge action.",
+                        "If a turned creature is concealed by an illusion, shapeshifting, or other effect, its true form is revealed while it is turned."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Glorious Plate",
+            "source": "herald - glory",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "Once per short or long rest, as a bonus action, you can augment your athleticism for 10mins. You gain adv on Aths and Acro checks, you can carry/push/drag/lift twice as much weight as normal, and the distance of your long and high jumps increases by 10'."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once per short or long rest, as a bonus action after you deal damage with a levelled spell to a creature, you can distribute up to 2d8 + 3 temporary hit points, divided between any creatures of your choice within 30' of you however you wish."
                     ]
                 }
             ]

@@ -421,3 +421,8 @@ var activity = func() error {
 	log.Printf("Journey activity: %s", JOURNEY_ACTIVITIES[rand.Intn(len(JOURNEY_ACTIVITIES))])
 	return nil
 }
+
+var tag = func() error {
+	log.Printf("Gem tag: %s", GEM_TAGS[rand.Intn(len(GEM_TAGS))])
+	return nil
+}
