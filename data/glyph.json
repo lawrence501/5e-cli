@@ -1568,7 +1568,7 @@
         ]
     },
     {
-        "name": "Carries an Eldritch Blade [LAST]",
+        "name": "Carries an Eldritch Blade",
         "description": "enhancing a bladed weapon",
         "tiers": [
             "1. You can designate a bladed weapon relic or attuned item you possess as your Blade of Legend. This weapon can never break and always returns to its scabbard if knocked from your hand or otherwise lost. You gain an expertise die in attacks using this particular blade. You can only have 1 blade of legend at a time, but can change it at the end of any short or long rest.",
@@ -1587,13 +1587,13 @@
         "name": "Rages",
         "description": "rage",
         "tiers": [
-            "1. Frenzy: At-will; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +2 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat is taking place within range of your senses.",
+            "1. Frenzy: At-will; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +1 to your STR and DEX modifiers. This effect lasts as long as you wish, but it ends if no combat is taking place within range of your senses.",
             "2. You gain +10 maximum hit points.",
-            "3. You gain an expertise die in athletics.",
+            "3. You gain an expertise die in Athletics.",
             "4. Your rage makes minor wounds seem insignificant. While your Frenzy feature is active, gain +1 AC.",
             "5. Power Strike: 1/min; free action; If you successfully hit a target, you knock it prone in addition to inflicting damage. The target must be your size or smaller.",
             "6. While unarmoured, you gain an expertise die in saving throws.",
-            "7. Greater Frenzy: 1/SR; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +4 to STR and DEX. This effect lasts as long as you wish, but it ends if no combat if taking place within range of your senses. You can use this feature or your Frenzy feature, but you cannot use both at the same time. Any effects based on your Frenzy feature also apply to this power.",
+            "7. Greater Frenzy: 1/SR; free action; When you wish, while in combat, you can enter a state of frenzy. While in this state, you cannot cast spells, but you gain +2 to your STR and DEX modifiers. This effect lasts as long as you wish, but it ends if no combat if taking place within range of your senses. You can use this feature or your Frenzy feature, but you cannot use both at the same time. Any effects based on your Frenzy feature also apply to this power.",
             "8. Rather than granting additional damage, critical strikes allow you the option of immediately making another attack.",
             "9. When you would normally die, you instead fall unconscious for 1 round and then awaken. You immediately heal 1d6 + 6 hit points and gain a level of fatigue. If you die again before you take a long rest, you are truly dead.",
             "10. You gain +3 to CON and DEX."
@@ -1603,31 +1603,31 @@
         "name": "Serves a Hidden Master",
         "description": "connecting with Gawdian",
         "tiers": [
-            "1. You are trained in meditation. You may use it to enter a deep trance state, which allows you to better understand the information your link to the Shimmering Library provides. Entering a Knowledge Trance for 10 minutes grants you advantage on your next magitechnical task, such as repair, craft, or arcana. However, while in this trance you are essentially helpless and can perform no actions.",
-            "2. Answers: 2/min; bonus action; You ask Gawdian a question with a simple answer. The Xiloan will respond to you after you have compeleted a task for him. Gawdian provides you with instructions as to what you must do to please him. Should you dally in completing this task, you will lose access to the benefits of this glyph path until the task is done.",
+            "1. You are trained in meditation. You may use it to enter a deep trance state, which allows you to pray to Gawdian, granting you information via a link to the Shimmering Library. Entering a Knowledge Trance for 10 minutes grants you advantage on your next magitechnical task, such as repairing, crafting, or arcana. However, while in this trance you are essentially helpless and can perform no actions.",
+            "2. Answers: 2/min; bonus action; You ask Gawdian a question with a simple answer. The Xiloan will respond to you after you have compeleted a task for him. Gawdian provides you with instructions as to what you must do to please him. Should you take more than 1 week to complete this task, you will lose access to the benefits of this glyph path until the task is done.",
             "3. Unearth: 1/min; bonus action; You learn the direction and distance of the nearest magical object (ignoring lootable objects). Alternatively, you can instead set the cooldown to once per long rest and learn similar information about the nearest magical construct.",
             "4. Combat Trance: 1/SR; bonus action; You enter a waking trance for 10 minutes, during which time you become a killing machine. You lose fine control over yourself, always attempting to fight the creature nearest to you (you can choose tiebreaks), and dealing +1d6 additional base damage on each hit.",
             "5. Knowledge Flow: 1/LR; bonus action; You force your connection to the Shimmering Library out into a nearby magical object or construct, overloading it with information. The flow disables any magic in the target for 1 hour.",
-            "6. Cut Connection: 1/week; bonus action; You sever your connection to the Shimmering Library and Gawdian. Doing so has its disadvantages, but the upside is that you become attuned to the physical world, rather than the world of information. For the next 8 hours your INT is 2 lower and your DEX is 2 higher.",
+            "6. Cut Connection: 1/week; bonus action; You sever your connection to the Shimmering Library and Gawdian. Doing so has its disadvantages, but the upside is that you become attuned to the physical world, rather than the world of information. For the next 8 hours you have -1 to your INT modifier, and +1 to your DEX modifier.",
             "7. T1 now provides double advantage instead of advantage. Your Combat Trance feature now provides +2d6 damage on hit instead of +1d6.",
             "8. While using T1, you can take movement and bonus actions.",
             "9. There is no longer any penalty based on how long you take to complete your task for your Answers feature.",
-            "10. You can now use your Unearth feature at-will."
+            "10. You can now use your Unearth feature at-will. The construct version now has a cooldown of 1/min."
         ]
     },
     {
         "name": "Dances with Spirits",
         "description": "dancing to connect with spirits",
         "tiers": [
-            "1. You are somehow able to see the invisible spirits of the world. You can even see ultradimensional beings bordering on this reality. The universe is a far more complicated place than most people are aware.",
-            "2. You have +2 to Performance while dancing. You are knowledge in a variety of styles, including some that are very strange when done by a humanoid.",
-            "3. Dance of Sorrow: 2/min; free action; You enter into a dance for the sorrows of the world. While you are dancing in this way, any creature with at least 5 Intelligence who attacks you feels intense sadness, reducing the damage of their attack by 1d6.",
-            "4. Dance of Joy: 1/min; free action; You enter a dance of happiness. While in this stance you recover 2 hit points whenever you successfully strike a hostile foe with a weapon attack.",
-            "5. Dance of Summoning: 1/SR; free action; You enter a dance that gathers the spirits to your side and makes them somewhat visible to the uninitiated. While maintaining this dance you are able to speak to the spirits, potentially learning of their activities in the area.",
-            "6. Dance of Death: 1/LR; free action; You enter a dance in which the spirits guide your attacks, helping you to strike true. While in this dance you double all critical hit damage you deal with weapon attacks.",
-            "7. You may dance 2 dances at the same time, weaving the 2 stances into 1 unique expression. You may only add 1 stance per turn.",
+            "1. You are somehow able to see the invisible spirits of the world. You can even see ultradimensional beings bordering on this reality. The universe is a far more complicated place than most people are aware. This allows you to perceive wherever interplanar or teleportation magic was used in the past 24 hours.",
+            "2. You gain an expertise die in Performance for dancing. You are knowledgeable in a variety of styles, including some that are very strange when done by a humanoid. You can only perform one dance at a time.",
+            "3. Dance of Sorrow: 2/min; free action; You begin a dance for the sorrows of the world. While you are dancing in this way, any creature with at least 5 Intelligence who attacks you feels intense sadness, reducing the damage of their attack by 1d6.",
+            "4. Dance of Joy: 1/min; free action; You begin a dance of happiness. While in this stance you recover 1 hit point whenever you strike a creature with a weapon attack.",
+            "5. Dance of Summoning: 1/SR; free action; You begin a dance that gathers the spirits to your side and makes them somewhat visible to the uninitiated. While maintaining this dance you are able to speak to the spirits, potentially learning of nature's activities in the area, such as where and when a bomb was set off that destroyed a mountain.",
+            "6. Dance of Death: 1/LR; free action; You enter a dance in which the spirits guide your attacks, helping you to strike true. While in this dance you double all damage you deal with critical hits from weapons.",
+            "7. You may dance 2 dances at the same time, weaving both into one unique expression. You may only begin one dance per turn.",
             "8. Your visions of beings you should not be able to witness grant you advantage on saving throws against the frightened condition.",
-            "9. +2 to Performance.",
+            "9. You gain an expertise die in Performance.",
             "10. Your Dance of Sorrow can now be used at-will and now affects all creatures, regardless of their Intelligence."
         ]
     },
@@ -1635,15 +1635,15 @@
         "name": "Bears a Halo of Fire",
         "description": "empowering a halo of fire",
         "tiers": [
-            "1. Shroud of Flame: At-will; free action; At your command, your entire body becomes shrouded in a halo of flames until you wish for them to end. The fire does not burn you, but it automatically inflicts 1d6 fire damage to anyone who tries to touch you or strike you with a melee attack. Flames from another source can still hurt you. While the shroud is active, you gain +4 fire resistance.",
+            "1. Shroud of Flame: At-will; free action; At your command, your entire body becomes shrouded in a halo of flames until you wish for them to end. The fire does not burn you, but it automatically inflicts 1d6 fire damage to anyone who hits you with a melee attack. Flames from another source can still hurt you. While the shroud is active, you gain +4 fire resistance.",
             "2. Hurl Flame: 2/min; bonus action; While your Shroud of Flame feature is active, you can reach into your halo and hurl a handful of fire at a target. This is an attack with range 30' that deals 1d10 + your level fire damage.",
             "3. When you cast a spell that deals damage, it deals an additional 1d4 fire damage.",
-            "4. Fiery Hand of Doom: At-will; bonus action; While your Shroud of Flame feature is active, you can reach into your halo and produce a hand made of animate flame that is twice the size of your hand. The hand acts as you direct, floating in the air. Directing the hand is a bonus action. Without a command, the hand does nothing. It can move up to 120' in a round, but it never moves farther away from you than 120'. The hand can grab, move, and carry things, but any objs it touches takes 1d4 fire damage per round from the heat. The hand can also attack. It has +5 AB and deals 1d8 fire damage when it attacks. Once created, the hand lasts for 10 minutes, and you can only have 1 at a time.",
-            "5. Wings of Fire: 1/SR; bonus action; While your Shroud of Flame feature is active, you can spread wings of fire and levitate, gaining a flying speed of 20'. You can only take 1 other non-movement action on your turn while these wings are active.",
+            "4. Fiery Hand of Doom: 1/min; bonus action; While your Shroud of Flame feature is active, you can reach into your halo and produce a hand made of animate flame that is twice the size of your hand. The hand acts as you direct, floating in the air. Directing the hand is a bonus action. Without a command, the hand does nothing. The hand is a CR 1 minion that deals fire damage and replaces its speed with flying speed (hover). You can only have one hand active at a time.",
+            "5. Wings of Fire: 1/SR; bonus action; While your Shroud of Flame feature is active, you can spread wings of fire, gaining a flying speed of 20'. While these wings are active, you can only take either an action or a bonus action in a single turn, but not both. You can dismiss the wings as a free action.",
             "6. Flameblade: 1/SR; free action; When you wish it, you extend your halo of fire to cover a weapon you wield in flame for 1 hour. The flame ends if you stop holding or carrying the weapon. While the flame lasts, the weapon deals +1d6 fire damage.",
-            "7. Fire Tendrils: 1/LR; free action; When you wish it, your halo sprouts 3 tendrils of flame that last for up to 10 minutes. As a bonus action, you can use the tendrils to attack, making a separate attack roll for each. Each tendril deals 1d10 + 1d8 fire damage. If you do not use the tendrils to attack, they remain but do nothing.",
-            "8. Fire Servant: 1/week; bonus action; You reach into your halo and produce an automaton of fire that is your general shape and size. It acts as you direct each round. Directing the servant is a bonus action, and you can command it only when you are within 120' of it. Without a command, the servant continues to follow your previous command. You can also give it a simple programmed action, such as 'wait here, and attack anyone who comes within 30' until they are dead.' The servant lasts for 10 minutes and is a CR 1 minion that deals fire dmg.",
-            "9. Inferno Trail: 1/week; bonus action; For the next minute, you leave a trail of flame in your wake. The trail matches your path and lasts for up to a minute, creating a wall of flame about 6' high that inflicts 1d12 + your level fire damage to any creature that passes through it (requires an attack), catching them on fire on a substantial hit for an additional 1d4 fire damage each round until they spend a full turn action putting out the fire.",
+            "7. Fire Tendrils: 1/LR; free action; When you wish it, your halo sprouts 3 tendrils of flame that last for up to 10 minutes. As a bonus action, you can use the tendrils to attack, making a separate attack roll for each. Each tendril deals 1d10 + 1d8 + your level fire damage. If you do not use the tendrils to attack, they remain but do nothing.",
+            "8. Fire Servant: 1/week; bonus action; You reach into your halo and produce a being of elemental fire that is your general shape and size. It acts as you direct each round. Directing the servant is a bonus action, and you can command it only when you are within 120' of it. Without a command, the servant continues to follow your previous command. You can also give it a simple programmed action, such as 'wait here, and attack anyone who comes within 30' until they are dead.' The servant lasts for 10 minutes and is a CR 1 minion that deals fire dmg.",
+            "9. Inferno Trail: 1/week; bonus action; For the next minute, you leave a trail of flame in your wake. The trail matches your path and lasts for up to a minute, creating a wall of flame 5' high that inflicts 1d12 + your level fire damage to any creature that passes through it (requires an attack), catching them on fire on a substantial hit for an additional 1d4 fire damage each round until they spend a full turn action putting out the fire.",
             "10. Your Shroud of Flame feature now deals 1d12 fire thorns damage instead of 1d6."
         ]
     },
@@ -1653,25 +1653,25 @@
         "tiers": [
             "1. You inflict +1d6 base damage with unarmed attacks.",
             "2. You have +1 AC if you are unarmoured.",
-            "3. Advantage to Disadvantage: 1/min; bonus action; With a number of quick moves, you make an attack against an armed foe, inflicting damage and disarming them so that their weapon is now in your hands or 10' away on the ground - your choice. This disarming attack has disadvantage.",
+            "3. Advantage to Disadvantage: 1/min; bonus action; With a number of quick moves, you make an attack against an armed foe, inflicting damage and disarming them so that their weapon is now 10' away on the ground. This disarming attack has disadvantage.",
             "4. You gain an expertise die in unarmed attacks.",
-            "5. Dazing Attack: 1/min; bonus action; You make a melee weapon attack against your foe, attempting to strike in just the right spot, dazing them so that tasks they attempt on their next turn have disadvantage. This attack inflicts normal damage.",
+            "5. Distracting Attack: 1/min; bonus action; You make a melee weapon attack against your foe, attempting to strike in just the right spot, distracting them so that tasks they attempt on their next turn have disadvantage. This attack inflicts normal damage.",
             "6. You spin and move so that your defence and attacks are aided by your fluid motion. All your attacks and Dexterity saving throws gain advantage.",
             "7. Deflect Attacks: 1/SR; bonus action; For 1 minute, you automatically deflect or dodge any ranged projectile attacks. However, on your next turn after you are attacked with ranged projectiles, all tasks you attempt have disadvantage.",
-            "8. Stun Attack: 1/week; free action; You attempt a DC 15 Sleight of Hand check to stun a creature as part of your melee or ranged attack. If you succeed, your attack inflicts its normal damage and debilitates the creature until the end of its next turn.",
+            "8. Debilitating Attack: 1/week; free action; You attempt a DC 15 Sleight of Hand check to debilitate a creature as part of your melee or ranged attack. If you succeed, your attack inflicts its normal damage and debilitates the creature until the end of its next turn.",
             "9. You inflict +1d6 base damage with unarmed attacks.",
-            "10. Whirling Assault: 1/month; bonus action; For 1 minute, you can attack all targets within 5' of you whenever you make an attack. All of the attacks have to be the same type of attack. Make a separate attack roll for each foe. Anything that modifies your attack or damage applies to all of these attacks. All other tasks have disadvantage in any round in which you attack more than 1 foe using this feature."
+            "10. Whirling Assault: 1/month; bonus action; For 1 minute, you can attack all adj targets whenever you make an attack. All of the attacks have to be the same type of attack. Make a separate attack roll for each foe. Anything that modifies your attack or damage applies to all of these attacks. All other tasks have disadvantage in any round in which you attack more than 1 foe using this feature."
         ]
     },
     {
         "name": "Unleashes Inner Power",
         "description": "harnessing the martial arts",
         "tiers": [
-            "1. Defensive Gestures: At-will; bonus action; You enter into a defensive fighting stance. While fighting in this way you gain an expertise die in Dexterity saving throws so long as both of your hands are empty.",
-            "2. Energy Blast: 2/min; bonus action; You make an unarmed strike, doing your usual unarmed damage and dramatically pushing your foe 15' away from you.",
-            "3. Distracting Gestures: 1/min; bonus action; You enter a distracting fighting stance. While fighting in this way your foe becomes distracted when your unarmed attacks hit, causing all weapon attacks against them to have advantage until the end of your next turn.",
-            "4. Flying Attack: 1/SR; bonus action; You fly through the air, up to 30', and make an unarmed attack against a hostile target.",
-            "5. Offensive Gestures: 1/LR; bonus action; You enter into an offensive fighting stance. While fighting in this style your unarmed attacks deal +1d4 base damage.",
+            "1. Defensive Gestures: At-will; bonus action; You enter a defensive fighting form. You can only be in one form at a time, and they last until you are next unconscious. While fighting in this way, you gain an expertise die in Dexterity saving throws so long as both of your hands are unarmed.",
+            "2. Energy Blast: 2/min; bonus action; You make an unarmed attack, doing your usual unarmed damage and dramatically pushing your foe 15' away from you.",
+            "3. Distracting Gestures: 1/min; bonus action; You enter a distracting fighting form. While fighting in this way, your foe becomes distracted when your unarmed attacks hit, causing all weapon attacks against them to have advantage until the end of your next turn.",
+            "4. Flying Attack: 1/SR; bonus action; You fly through the air, up to 30', and make an unarmed attack against a target at the end of the movement.",
+            "5. Offensive Gestures: 1/LR; bonus action; You enter an offensive fighting form. While fighting in this style, your unarmed attacks deal +1d4 base damage.",
             "6. Hidden Reserves: 1/week; bonus action; In a burst of light, you heal 6 hit points.",
             "7. Your Defensive Gestures feature grants an additional expertise die.",
             "8. Your Energy Blast feature can now be used at-will.",
@@ -1684,47 +1684,47 @@
         "description": "defending others",
         "tiers": [
             "1. You gain an expertise die in Wisdom saving throws and initiative.",
-            "2. You have +1 AC while you are using a shield. Additionally, you gain an expertise die in Insight.",
+            "2. You have +1 AC while you are holding a shield. Additionally, you gain an expertise die in Insight.",
             "3. Devoted Defender: 2/min; bonus action; Choose 1 creature you can see. That creature becomes your ward. You gain an expertise die in all tasks involving finding, healing, interacting with, and protecting that character. You can have only 1 ward at a time.",
-            "4. You can have 2 wards from your Devoted Defender feature at a time. You can choose up to 2 wards with your Devoted Defender feature. The wards must remain within 5' of each other. Benefits provided by your Devoted Defender feature apply to both your wards. If your wards separate, you choose which retains the benefit. If they come back together, both regain the benefit immediately.",
+            "4. You can have 2 wards from your Devoted Defender feature at a time. You can choose up to 2 wards with your Devoted Defender feature. The wards must remain adj to each other, or else you must choose which one retains the benefit. If they come back together, both regain the benefit immediately.",
             "5. True Defender: 1/week; bonus action; This feature functions as the Devoted Defender feature, except the benefit applies to up to 3 creatures you choose. If you choose just 1 creature, the bonuses you receive increase to a d6 expertise die.",
-            "6. True Guardian: 2/min; bonus action; You stand guard. Allies within 5' of you gain advantage on saving throws. This lasts until the end of your next turn.",
+            "6. True Guardian: 2/min; bonus action; You stand guard. Adj allies gain advantage on saving throws. This lasts until the end of your next turn.",
             "7. All attempted tasks that draw an attacker's attention to you (and away from someone else) have double advantage.",
-            "8. Willing Sacrifice: At-will; reaction; When a creature within 5' of you is attacked, you can choose to take the attack instead. When you do so, you can choose to allow the attack to hit you automatically to reduce its damage by 1d4. Additionally, as part of the same reaction, you can take any further attacks directed at that same ally until your next turn.",
-            "9. Taunt Foe: 1/SR; free action; You can make a weapon attack against or cast a cantrip on a foe as part of your Willing Sacrifice reaction.",
-            "10. Resuscitate: 1/week; bonus action; You can resuscitate an creature on 0 hit points you touch. The target heals 1 hit point. If a creature is dead but is otherwise in 1 piece and less than a minute has passed since they died, you can resuscitate them if you succeed at a DC 18 Medicine check."
+            "8. Willing Sacrifice: At-will; reaction; When an adj creature is attacked, you can choose to receive the attack instead. When you do so, you can choose to allow the attack to hit you automatically to reduce its damage by 1d4. Additionally, as part of the same reaction, you can receive any further attacks directed at that same ally until your next turn.",
+            "9. Taunt Foe: 1/SR; free action; You can make a weapon attack against or cast a cantrip on a creature as part of your Willing Sacrifice reaction.",
+            "10. Resuscitate: 1/week; bonus action; You can resuscitate a creature you touch that is on 0 hit points. The target heals 1 hit point. If a creature is dead but is otherwise in 1 piece and less than a minute has passed since they died, you can resuscitate them if you succeed at a DC 18 Medicine check."
         ]
     },
     {
         "name": "Thunders",
         "description": "controlling destructive sound",
         "tiers": [
-            "1. Thunder Beam: 2/min; bonus action; You direct a beam of focused sound at a target within 120', making an attack inflicting 1d6 + level thunder damage and inducing a resonant destructive wave in their body. At the start of each of your turns after this initial attack, you can make another attack for the destructive wave to inflict an additional 1d4 true thunder damage to the target. If you fail this attack, the destructive wave ends. Alternatively, you can set up a destructive resonance in a physical melee weapon for 1 minute or until you let go of it. All attacks made with the target weapon inflict +1d4 thunder damage.",
-            "2. Attacks that hit you are partially converted to surges of harmless noise similar to the sound of a wave crashing to shore. This feature grants you +1 AC and an additional +2 AC against spells.",
+            "1. Thunder Beam: 2/min; bonus action; You direct a beam of focused sound at a target within 120', making an attack inflicting 1d6 + level thunder damage and inducing a resonant destructive wave in their body. At the start of each of your turns after this initial attack, you can make another attack for the destructive wave to inflict an additional 1d4 true thunder damage to the target. If you fail this attack, the destructive resonance ends. Alternatively, you can set up a destructive resonance in a melee weapon for 1 minute or until you let go of it. All attacks made with the target weapon inflict +1d4 thunder damage.",
+            "2. Some attacks that hit you are converted to surges of harmless noise similar to the sound of a wave crashing to shore. This feature grants you +1 AC and an additional +2 AC against spells.",
             "3. You are especially sensitive to sound and vibration, so much so that you can sense your surroundings within 30' regardless of your ability to see. This counts as blindsight.",
             "4. Nullify Sound: 1/min; bonus action; You pulse perfectly misaligned sounds around you to create a 5x5' zone of absolute quiet within 30' of you for 1 minute. All sound is cancelled in the zone.",
-            "5. Shattering Shout: 1/LR; bonus action; Your focused shout sets up a destructive resonance in a creature (requires an attack) or object within 120'. Nothing happens on the round you use this power other than an ominous humming or buzzing sound emitted by the target. But on your next turn, the resonance shatters discrete inanimate objects, inflicts major damage to structures, or inflicts 1d10 + level true thunder damage on a creature. If you shatter a discrete object, it shatters explosively, inflicting 1d4 damage of an appropriate physical type to all creatures and objects within 5' of it.",
+            "5. Shattering Shout: 1/LR; bonus action; Your focused shout sets up a destructive resonance in a creature (requires an attack) or object within 120'. Nothing happens on the round you use this power other than an ominous humming or buzzing sound emitted from the target. But on your next turn, the resonance shatters discrete inanimate objects, inflicts major damage to structures, or inflicts 1d10 + level true thunder damage on a creature. If you shatter a discrete object, it shatters explosively, inflicting 1d4 damage of an appropriate physical type to all adj creatures and objects.",
             "6. Subsonic Rumble: 2/min; bonus action; For 1 minute or until you use a different power from this glyph path, you emit a subsonic rumble that most living creatures cannot hear but which has an effect on them all the same. The effect lasts for 1 minute and affects all creatures you select within 30' of you. All tasks related to resisting persuasion, intimidation, and frighten have double disadvantage for affected targets.",
             "7. Amplify Sounds: 2/min; bonus action; For 1 minute, you can amplify distant or small sounds so that you can hear them clearly, even if it is a conversation or the sound of a small animal moving through an underground burrow up to 240' away. You can attempt to perceive the sound even if interceding barriers block it or if the sound is very slight, though this requires concentration. To discriminate the sound you wish in a noisy environment might also require concentration as you audibly explore the surrounding soundscape. You can pinpoint every conversation, every breathing creature, and every object creating noise within 240'.",
-            "8. Earthquake: 1/month; bonus action; You direct your destructive resonance into the ground and trigger an earthquake centred on a spot you can see within 240'. The ground within 30' of that spot heaves and shakes for 5 minutes, causing damage to structures and terrain in the area. Buildings and terrain features shed debris and rubble. Each round, attack all creatures in the area, dealing either 1d8 + level bludgeoning damage due to the general shaking, or 1d8 + 1d6 + level bludgeoning damage if they are in or adjacent to a structure or terrain feature shedding debris.",
+            "8. Earthquake: 1/month; bonus action; You direct your destructive resonance into the ground and trigger an earthquake centred on a spot you can see within 240' of you. The ground within 30' of that spot heaves and shakes for 5 minutes, causing damage to structures and terrain in the area. Buildings and terrain features shed debris and rubble. Each round, attack all creatures in the area, dealing either 1d8 + level bludgeoning damage due to the general shaking, or 1d8 + 1d6 + level bludgeoning damage if they are in or adjacent to a structure or terrain feature shedding debris.",
             "9. Lethal Vibration: 1/month; bonus action; You set up a lethal vibration in your own body and pass it to a creature you touch with a successful attack. If the target is CR 1 or lower, it explodes in a peal of thunder. If the target is CR 2 or higher, it takes 1d8 + 1d6 + level thunder damage and is debilitated until the end of its next turn.",
             "10. You can now use your Thunder Beam feature at-will. Additionally, its further true thunder damage increases from 1d4 to 1d6."
         ]
     },
     {
-        "name": "Sees Through Metal Eyes",
+        "name": "Sees Through Metal Eyes [LAST]",
         "description": "augmenting your eyes with magitech",
         "tiers": [
-            "1. Brain Scan: At-will; bonus action; You scan the brain waves of a living target within 30', learning their current mood.",
-            "2. Your eyes can glow in the dark, granting you full darkvision and advantage on Intimidation checks.",
+            "1. Brain Scan: At-will; bonus action; You scan the brain waves of a living target within 30' of you, learning their current mood.",
+            "2. Your eyes can glow in the dark, granting you complete darkvision and advantage on Intimidation checks.",
             "3. A heads up display assists your vision, granting you advantage on Perception checks.",
-            "4. Lie Detector: 1/min; bonus action; You study the brain waves of a living target within 5', determining if the last thing they said (within the last 6 seconds) was a lie.",
+            "4. Lie Detector: 1/min; bonus action; You study the brain waves of an adj living target, determining if the last thing they said (within the last 6 seconds) was a lie.",
             "5. Emotion Emulation: 1/SR; bonus action; You immediately feel the emotions of the closest intelligent creature to you. This grants you advantage on any social checks you make against them for the next 10 minutes.",
-            "6. Your heads-up display grants you advantage on ranged attack rolls and allows you to ignore disadvantage on attack rolls due to any sort of cover or obscuring entity.",
-            "7. Emotion Burst: 1/week; bonus action; You fire twin blasts of energy from your eyes at a target within 120', dealing 1d12 + level force damage and, if they are living, causing them to feel whatever emotion you are experiencing. If you are currently using your Emotion Emulation feature with the target, this can cause a kind of emotional feedback loop, stunning the target until the end of your next turn.",
+            "6. Your heads-up display grants you advantage on ranged attack rolls and allows you to ignore up to three-quarters cover.",
+            "7. Emotion Burst: 1/week; bonus action; You fire twin blasts of energy from your eyes at a target within 120', making an attack that deals 1d12 + your level force damage and, if they are living, causes them to feel whatever emotion you are experiencing. If you are currently using your Emotion Emulation feature with the target, this can cause a kind of emotional feedback loop, debilitating the target until the end of your next turn.",
             "8. Your Brain Scan feature can now be used against any type of creature.",
-            "9. You gain full blindsight.",
-            "10. +3 to Perception."
+            "9. You gain complete blindsight.",
+            "10. You gain a d6 expertise die in Perception."
         ]
     },
     {

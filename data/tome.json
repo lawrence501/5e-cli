@@ -2088,8 +2088,38 @@
         "description": "The power's area grows further each round."
     },
     {
-        "name": "Immediate Power [next - crippling waves]",
+        "name": "Immediate Power",
         "target": "powers that inflict DoTs",
         "description": "The power deals massive additional $nonPhysType dmg when it succeeds at affecting its target, but deals substantially less DoT dmg."
+    },
+    {
+        "name": "Slowing",
+        "target": "any power",
+        "description": "Whenever the power hits, the target is slowed until the end of your next turn."
+    },
+    {
+        "name": "Empowering Strikes",
+        "target": "any power",
+        "description": "Whenever you use the power, your next melee power deals more dmg against debuffed targets."
+    },
+    {
+        "name": "Merciful Alacrity",
+        "target": "powers that apply debuffs",
+        "description": "The power no longer applies debuffs, but instead for the duration the debuffs would have, you have +50' sp."
+    },
+    {
+        "name": "Immediate Decay",
+        "target": "powers that deal damage",
+        "description": "Whenever the power hits a DoT'd target, the DoT ticks (including its exit conditions) infinitely until it is removed. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Empowering Decay",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power, you gain increased DoT dmg and your wep powers have their usage times reduced by 1 step until the end of your next turn. Additionally, the power deals substantially less dmg."
+    },
+    {
+        "name": "Empowered Erosion",
+        "target": "powers that apply buffs",
+        "description": "Whenever you hit while buffed by the power, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until CHA save."
     }
 ]
