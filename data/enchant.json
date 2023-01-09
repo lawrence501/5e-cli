@@ -498,12 +498,6 @@
         "tags": []
     },
     {
-        "description": "imm to penalties from common weather",
-        "pointValue": "3",
-        "upgrade": "+3->2 to journey activity checks with penalties from the weather/1",
-        "tags": ["armour"]
-    },
-    {
         "description": "+1 to your lowest ability score",
         "pointValue": "2",
         "upgrade": "1/2",

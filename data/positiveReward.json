@@ -90,7 +90,7 @@
         "description": "Learn random 1st-degree maneuver that can be used 1/LR (empowered = +1 adv)"
     },
     {
-        "description": "Sidekick gains +1 to random AS (empowered = +1 adv)"
+        "description": "Sidekick gains +2 to random AS, ignoring maximums (empowered = +1 adv)"
     },
     {
         "description": "Gain 1 max exertion (empowered = +20% chance for +1)"

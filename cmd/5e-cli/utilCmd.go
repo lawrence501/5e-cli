@@ -357,7 +357,13 @@ var travel = func() error {
 	copy(charSlice, PARTY_MEMBERS)
 	rand.Shuffle(len(charSlice), func(i, j int) { charSlice[i], charSlice[j] = charSlice[j], charSlice[i] })
 
+	weather, err := generateWeather()
+	if err != nil {
+		return err
+	}
+
 	log.Printf("Journey travel day:\n\n")
+	log.Printf("WEATHER: %s\n\n", weather)
 	event := 1
 	for i := 0; i < 5; i++ {
 		encRoll := rand.Intn(100)

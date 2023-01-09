@@ -29,6 +29,14 @@ Golang CLI helper for my D&amp;D 5e campaigns
 11. o5e/Pathfinder
 12. Reroll with disadv
 
+### Dream relic customisations
+
+- Backstory
+- Race
+- Any one of your feats
+- Any one of your current items
+- Any one of your glyph paths
+
 ### Manual value cheatsheet
 
 Always based on dmg where possible

@@ -212,6 +212,40 @@ func fetchEncounters() (Encounters, error) {
 	return encounters, nil
 }
 
+func fetchWeather() (Weathers, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return Weathers{}, err
+	}
+
+	f, err := ioutil.ReadFile(filepath.Join(cwd, DATA_DIR, "weather.json"))
+	if err != nil {
+		return Weathers{}, err
+	}
+
+	weathers := Weathers{}
+	err = json.Unmarshal([]byte(f), &weathers)
+	if err != nil {
+		return Weathers{}, err
+	}
+	return weathers, nil
+}
+
+func generateWeather() (string, error) {
+	weathers, err := fetchWeather()
+	if err != nil {
+		return "", err
+	}
+
+	weatherRoll := rand.Intn(100)
+	if weatherRoll < 10 {
+		chosen := weathers.Exotic[rand.Intn(len(weathers.Exotic))]
+		return fmt.Sprintf("%s (%s)", chosen.Name, chosen.Description), nil
+	}
+	chosen := weathers.Common[rand.Intn(len(weathers.Common))]
+	return chosen.Name, nil
+}
+
 func fetchWondrous(rarity string) ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
