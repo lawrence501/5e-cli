@@ -147,26 +147,6 @@ type BodyVariables struct {
 }
 
 type Weathers struct {
-	Common []CommonWeather `json:"common"`
-	Exotic []Generic       `json:"exotic"`
-}
-
-type CommonWeather struct {
-	Name      string      `json:"name"`
-	Modifiers WeatherMods `json:"modifiers"`
-}
-
-type WeatherMods struct {
-	Befriend  int `json:"befriend"`
-	Busk      int `json:"busk"`
-	Chronicle int `json:"chronicle"`
-	Entertain int `json:"entertain"`
-	March     int `json:"march"`
-	Gather    int `json:"gather"`
-	Gossip    int `json:"gossip"`
-	Harvest   int `json:"harvest"`
-	Pray      int `json:"pray"`
-	Rob       int `json:"rob"`
-	Scout     int `json:"scout"`
-	Shelter   int `json:"shelter"`
+	Common []string  `json:"common"`
+	Exotic []Generic `json:"exotic"`
 }

@@ -1,13 +1,11 @@
 {
   "common": [
-    {
-      "name": "Clear",
-      "modifiers": {}
-    }
+    "Mild",
+    "Rainy"
   ],
   "exotic": [
     {
-      "name": "Mists of War",
+      "name": "Mists of Slaughter",
       "description": "+1 minimum hostile random encounter. All hostile random encounters are empowered."
     }
   ]
