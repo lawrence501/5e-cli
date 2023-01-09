@@ -78,8 +78,9 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 
 	for {
+		log.Println()
 		baseP := promptui.Prompt{
-			Label:    "\nCommand",
+			Label:    "Command",
 			Validate: validateBase,
 		}
 		input, err := baseP.Run()

@@ -1,9 +1,5 @@
 [
     {
-        "name": "Guarded",
-        "description": "+1 minion"
-    },
-    {
         "name": "Thorned",
         "description": "melee dmg is 50% reflected"
     },

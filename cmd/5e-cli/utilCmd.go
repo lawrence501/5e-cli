@@ -353,7 +353,7 @@ var travel = func() error {
 	event := 1
 	for i := 0; i < 5; i++ {
 		encRoll := rand.Intn(100)
-		if encRoll < 5 {
+		if encRoll < 4 {
 			encounter, err := generateEncounter()
 			if err != nil {
 				return err
