@@ -352,6 +352,32 @@ var combat = func() error {
 	return nil
 }
 
+var travel = func() error {
+	charSlice := make([]string, len(PARTY_MEMBERS))
+	copy(charSlice, PARTY_MEMBERS)
+	rand.Shuffle(len(charSlice), func(i, j int) { charSlice[i], charSlice[j] = charSlice[j], charSlice[i] })
+
+	log.Printf("Journey travel day:\n\n")
+	event := 1
+	for i := 0; i < 5; i++ {
+		encRoll := rand.Intn(100)
+		if encRoll < 5 {
+			encounter, err := generateEncounter()
+			if err != nil {
+				return err
+			}
+			log.Printf("%d. Random encounter: %s\n", event, encounter)
+			event++
+		}
+
+		if i < 4 {
+			log.Printf("%d. %s's activity", event, charSlice[i])
+			event++
+		}
+	}
+	return nil
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil

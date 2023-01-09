@@ -3,18 +3,6 @@ Golang CLI helper for my D&amp;D 5e campaigns
 
 ## Loot Rules
 
-### Myth Dust
-
-Upon finding duplicate Myth Cards, they are turned into an amount of Myth Dust based on their rarity:
-- Common: 1
-- Uncommon: 3
-- Rare: 5
-
-During a long rest, a creature may pray to Aroshi to turn their Myth Dust into specific cards at a cost based on the new card's rarity:
-- Common: 3
-- Uncommon: 9
-- Rare: 15
-
 ### Relic generation
 
 1. 1st base affix

@@ -1,26 +1,16 @@
 {
-    "plains": [
+    "hostile": [
         "The Jabberwocky (13)",
         "The Sewer Walker (18)",
         "The Shadowfell Gloaming (16)"
     ],
-    "forest": [
-        "JACK: Cueyatl Sea Priest (8)"
-    ],
-    "mountain": [
-        "KING: Harpy (12)",
-        "JACK: Cueyatl Sea Priest (8)"
-    ],
-    "aquatic": [
-        "JACK: Cueyatl Sea Priest (8)"
-    ],
     "positive": [
-        "Zachary: wants a game of ropes and rafters, will give reward for each player who beats him (prof in DEX saves + aths)",
-        "Bored Traveller ($gender $race): excited by adventurers, wants to see them face-off against each other (will give full heal potions to each of them after) in free-for-all style combat. Top 2 get reward.",
-        "Flower Person ($gender $race): hurriedly hands each player a giant sunflower (2x heavy obj), then rides off in a canter, faster than the players",
+        "Zachary: wants a game of ropes and rafters, will give reward for each player who beats him (prof in DEX saves + aths + sleight of hand)",
+        "Bored traveller ($gender $race): excited by adventurers, wants to see them face-off against each other (will give full heal potions to each of them after) in free-for-all style combat. Top 2 get reward.",
         "Bored traveller ($gender $race): wants the players to race, make aths checks and each success tier adds 5' to their speed. Rewards top 2 players",
         "Bored traveller ($gender $race): wants to play a game of Marco Polo. stealth vs prof perception, last 2 players remaining will be rewarded",
-        "Generous traveller ($gender $race): Gives all players a reward for free",
-        "Bored traveller ($gender $race): Each player must give a word, then roll 1d100. Convert each word into Cheiro sum. The two players who get below their roll but the highest numbers are rewarded."
+        "Generous traveller ($gender $race): gives all players a reward for free",
+        "Bored traveller ($gender $race): each player must give a number from 1 to 99, then DM rolls 1d100. The two players who get below their roll but the highest numbers are rewarded.",
+        "Skillmaster ($gender $race): wants all players to show their skill in $skill, rewards anyone who passes DC 13"
     ]
 }

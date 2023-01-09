@@ -69,6 +69,7 @@ var COMMAND_MAP = map[string]func() error{
 	"wondrous":      wondrous,
 	"ring":          ring,
 	"combat":        combat,
+	"travel":        travel,
 }
 
 func main() {
