@@ -13,7 +13,7 @@
     },
     {
         "name": "Superior Feed-Pouch",
-        "description": "On a Befriend Creature sub succ, the minion is 1 CR higher. Additionally, when upgraded, the minion gains 1 additional AC and AB."
+        "description": "On a Befriend Creature sub succ, a new minion is 1 CR higher. Alternatively, an upgraded one gains 1 additional AC and AB."
     },
     {
         "name": "Legendary Feed-Pouch",
@@ -80,28 +80,28 @@
         "description": "On an Entertain crit succ, the party also ignores the next level of fatigue and strife they would gain."
     },
     {
-        "name": "Emergency Waterskin",
-        "description": "On a Force March crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
+        "name": "Emergency Eldritch Essence",
+        "description": "On an Experiment crit fail, you can choose 2 members of the party to not gain fatigue or strife."
     },
     {
-        "name": "Backup Waterskin",
-        "description": "On a Force March sub fail, all foes in the triggered encounter have -1 to their AC and saving throws."
+        "name": "Backup Eldritch Essence",
+        "description": "On an Experiment sub fail, you lose a level of fatigue or strife, based on which you gained from this activity, the next time you score a substantial success or higher on any journey activity."
     },
     {
-        "name": "Waterskin",
-        "description": "On a Force March succ, the party gains an additional half day of travel."
+        "name": "Eldritch Essence",
+        "description": "On an Experiment succ, a new minion is 1 CR higher. Alternatively, an upgraded one gains additional max HP equal to half your level."
     },
     {
-        "name": "Superior Waterskin",
-        "description": "On a Force March sub succ, the party gains an additional half day of travel."
+        "name": "Superior Eldritch Essence",
+        "description": "On an Experiment sub succ, a new minion is 1 CR higher. Alternatively, an upgraded one gains 1 additional AB, 1 additional AC, 2 additional global dmg, or a further +2 to all saves, depending on which upgrade they received."
     },
     {
-        "name": "Legendary Waterskin",
-        "description": "On a Force March crit succ, the party gains an additional day of travel."
+        "name": "Legendary Eldritch Essence",
+        "description": "On an Experiment crit succ, the minion's CR is further increased by 1."
     },
     {
         "name": "Emergency Arcane Guidebook",
-        "description": "On a Gather Components crit fail, the amount of gold lost is reduced by 2."
+        "description": "On a Gather Components crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
     },
     {
         "name": "Backup Arcane Guidebook",

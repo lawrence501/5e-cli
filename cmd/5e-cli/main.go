@@ -55,7 +55,7 @@ var COMMAND_MAP = map[string]func() error{
 	"weapon class":  weaponClass,
 	"phys type":     physType,
 	"non-phys type": nonPhysType,
-	"empower":       empower,
+	"challenge":     challenge,
 	"class":         class,
 	"tarot":         tarot,
 	"gem":           gem,

@@ -54,7 +54,7 @@
         "description": "Scroll of valuable battle: summons a hostile random encounter with +0 colour loot, all instances of this gained at same time increase the colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
-        "description": "Scroll of empowered battle: summons a hostile random encounter, empowered once, all instances of this gained at same time increase the base reward colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
+        "description": "Scroll of challenging battle: summons a hostile random encounter with 1 additional Challenge, all instances of this gained at same time empower the combat's rewards once to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
         "description": "Level 10-crafted item of chosen craft with chosen affinities (empowered = +1pt distributed)"

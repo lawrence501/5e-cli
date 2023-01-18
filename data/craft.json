@@ -6,9 +6,9 @@
         "tags": ["type"]
     },
     {
-        "description": "+2 {type} res",
+        "description": "+5 {type} barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+5/1",
         "tags": ["type", "defence"]
     },
     {
@@ -66,9 +66,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "+1 dmg res while adj to $partyMember",
+        "description": "+3 dmg barrier while adj to $partyMember",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
@@ -84,9 +84,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "+1 dmg res while within a city's borders",
+        "description": "+3 dmg barrier while within a city's borders",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
@@ -138,9 +138,9 @@
         "tags": ["spell", "hp"]
     },
     {
-        "description": "+1 dmg res while $healthStatus",
+        "description": "+3 dmg barrier while $healthStatus",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence", "hp"]
     },
     {
@@ -156,9 +156,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "+2 dmg res during first rnd of combat",
+        "description": "+5 dmg barrier during first rnd of combat",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+5/1",
         "tags": ["defence"]
     },
     {
@@ -174,9 +174,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "adj allies have +1 dmg res",
-        "pointValue": "3",
-        "upgrade": "+1/3",
+        "description": "adj allies have +2 dmg barrier",
+        "pointValue": "1",
+        "upgrade": "+1/1",
         "tags": ["defence"]
     },
     {
@@ -204,9 +204,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "while buffed, +1 dmg res",
-        "pointValue": "2",
-        "upgrade": "+1/2",
+        "description": "while buffed, +2 dmg barrier",
+        "pointValue": "1",
+        "upgrade": "+1/1",
         "tags": ["defence"]
     },
     {
@@ -420,9 +420,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "+1 dmg res while shapeshifted",
+        "description": "+3 dmg barrier while shapeshifted",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
@@ -840,15 +840,15 @@
         "tags": ["hp"]
     },
     {
-        "description": "+2 dmg res vs $creatureType creatures",
+        "description": "+5 dmg barrier vs $creatureType creatures",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+5/1",
         "tags": ["defence"]
     },
     {
-        "description": "+1 dmg res",
-        "pointValue": "2",
-        "upgrade": "+1/2",
+        "description": "+2 dmg barrier",
+        "pointValue": "1",
+        "upgrade": "+1/1",
         "tags": ["defence"]
     },
     {
@@ -882,15 +882,15 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+2 dmg res during your turn",
-        "pointValue": "2",
-        "upgrade": "+1/1",
+        "description": "+4 dmg barrier during your turn",
+        "pointValue": "1",
+        "upgrade": "+4/1",
         "tags": ["defence"]
     },
     {
-        "description": "+1 {type polarity} res",
-        "pointValue": "2",
-        "upgrade": "+1/2",
+        "description": "+3 {type polarity} barrier",
+        "pointValue": "1",
+        "upgrade": "+2/1",
         "tags": ["type", "defence"]
     },
     {
@@ -906,27 +906,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 $rangeType dmg res",
+        "description": "+4 DoT barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": ["defence"]
-    },
-    {
-        "description": "+1 wep dmg res",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": ["weapon", "defence"]
-    },
-    {
-        "description": "+1 spell dmg res",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": ["spell", "defence"]
-    },
-    {
-        "description": "+1 DoT res",
-        "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+4/1",
         "tags": ["dot", "defence"]
     },
     {
@@ -1080,9 +1062,9 @@
         "tags": ["defence"]
     },
     {
-        "description": "+3 trap dmg res",
+        "description": "+6 trap dmg barrier",
         "pointValue": "1",
-        "upgrade": "+2/1",
+        "upgrade": "+6/1",
         "tags": ["defence"]
     },
     {
@@ -1092,15 +1074,15 @@
         "tags": ["hp", "defence"]
     },
     {
-        "description": "+3 fall dmg res",
+        "description": "+6 fall dmg barrier",
         "pointValue": "1",
-        "upgrade": "+2/1",
+        "upgrade": "+6/1",
         "tags": ["defence"]
     },
     {
-        "description": "+1 dmg res if you haven't displaced distance since start of your last turn",
+        "description": "+3 dmg barrier if you haven't displaced distance since start of your last turn",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
@@ -1134,9 +1116,9 @@
         "tags": ["type", "defence", "hp"]
     },
     {
-        "description": "+1 dmg res while you have temp HP",
+        "description": "+3 dmg barrier while you have temp HP",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence", "hp"]
     },
     {
@@ -1152,9 +1134,9 @@
         "tags": ["spell", "hp"]
     },
     {
-        "description": "+1 AoE dmg res",
+        "description": "+4 AoE dmg barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+4/1",
         "tags": ["defence"]
     },
     {
@@ -1188,9 +1170,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "when downed, gain +1 dmg res until LR",
+        "description": "when downed, gain +3 dmg barrier until LR",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
@@ -1200,9 +1182,9 @@
         "tags": ["hp"]
     },
     {
-        "description": "with 2+ adj foes, +1 dmg res",
+        "description": "with 2+ adj foes, +3 dmg barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
@@ -1290,9 +1272,9 @@
         "tags": ["minion", "hp"]
     },
     {
-        "description": "+1 dmg res while you have a minion",
+        "description": "+3 dmg barrier while you have a minion",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence", "minion"]
     },
     {
@@ -1308,9 +1290,9 @@
         "tags": ["defence"]
     },
     {
-        "description": "+2 dmg res while under the effects of the Dodge action",
-        "pointValue": "2",
-        "upgrade": "+1/1",
+        "description": "+4 dmg barrier while under the effects of the Dodge action",
+        "pointValue": "1",
+        "upgrade": "+4/1",
         "tags": ["defence"]
     },
     {
@@ -1350,39 +1332,39 @@
         "tags": ["spell"]
     },
     {
-        "description": "+1 dmg res vs creatures [ahead or behind] you in the turn tracker",
+        "description": "+3 dmg barrier vs creatures [ahead or behind] you in the turn tracker",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
         "description": "incoming $dmgType dmg is converted to {type}",
         "pointValue": "1",
-        "upgrade": "+2->1 {new type} res/1",
+        "upgrade": "+5 {new type} barrier/1",
         "tags": ["type", "defence"]
     },
     {
-        "description": "+1 minion {type polarity} res",
+        "description": "+4 minion {type polarity} barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+4/1",
         "tags": ["minion", "type", "defence"]
     },
     {
-        "description": "+1 minion dmg res",
+        "description": "+5 minion dmg barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+5/1",
         "tags": ["minion", "defence"]
     },
     {
-        "description": "+3 minion {type} res",
+        "description": "+6 minion {type} barrier",
         "pointValue": "1",
-        "upgrade": "+2/1",
+        "upgrade": "+6/1",
         "tags": ["minion", "type", "defence"]
     },
     {
-        "description": "+1 environmental dmg res",
+        "description": "+4 environmental dmg barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+4/1",
         "tags": ["defence"]
     },
     {
@@ -1390,12 +1372,6 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
-    },
-    {
-        "description": "+1 natural wep dmg res",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": ["weapon", "defence"]
     },
     {
         "description": "+2 wep dmg while mounted",
@@ -1410,9 +1386,9 @@
         "tags": ["spell"]
     },
     {
-        "description": "+1 dmg res while mounted",
+        "description": "+3 dmg barrier while mounted",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+2/1",
         "tags": ["defence"]
     },
     {
@@ -1494,9 +1470,9 @@
         "tags": ["dot"]
     },
     {
-        "description": "+2 DoT res while adj to $partyMember",
+        "description": "+5 DoT barrier while adj to $partyMember",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+5/1",
         "tags": ["dot", "defence"]
     },
     {
@@ -1566,9 +1542,9 @@
         "tags": ["type", "defence"]
     },
     {
-        "description": "with 2+ adj foes, your minions have +3 dmg res",
+        "description": "with 2+ adj foes, your minions have +6 dmg barrier",
         "pointValue": "1",
-        "upgrade": "+2/1",
+        "upgrade": "+6/1",
         "tags": ["minion", "defence"]
     },
     {
@@ -1578,9 +1554,9 @@
         "tags": ["minion", "defence"]
     },
     {
-        "description": "+2 minion environmental dmg res",
+        "description": "+5 minion environmental dmg barrier",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+5/1",
         "tags": ["minion", "defence"]
     },
     {

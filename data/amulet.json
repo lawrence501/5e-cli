@@ -113,7 +113,7 @@
       {
         "name": "Gawdian's Vengeance",
         "effect": "+3 global dmg vs targets who have dmg'd you since your last turn",
-        "upgrade": "+2 wep dmg res",
+        "upgrade": "+5 phys barrier",
         "setBonuses": [
           {
             "ally": "The Cloud",
@@ -199,7 +199,7 @@
       {
         "name": "Pherousa's Cycle",
         "effect": "when downed, +3 global dmg until LR",
-        "upgrade": "+2 spell dmg res",
+        "upgrade": "+5 non-phys barrier",
         "setBonuses": [
           {
             "ally": "Kher'evo",
@@ -226,7 +226,7 @@
       {
         "name": "Mother's Sentience",
         "effect": "-3 global dmg on odd turns, +6 global dmg on even turns",
-        "upgrade": "+2 dmg res on odd turns",
+        "upgrade": "+5 dmg barrier on odd turns",
         "setBonuses": [
           {
             "ally": "Kher'evo",
@@ -253,7 +253,7 @@
       {
         "name": "The Primordial's Origin",
         "effect": "+1 non-phys abs",
-        "upgrade": "+2 spell dmg res",
+        "upgrade": "+5 non-phys barrier",
         "setBonuses": [
           {
             "ally": "Kher'evo",
@@ -289,7 +289,7 @@
         "setBonuses": [
           {
             "ally": "Arvewal",
-            "effect": "on hit if you haven't displaced distance since start of your last turn, target gets -3 dmg res to types your hit deals until your next turn. doesn't stack",
+            "effect": "on hit if you haven't displaced distance since start of your last turn, target gets +3 dmg taken from types your hit deals until your next turn. doesn't stack",
             "upgrade": "-2"
           },
           {
@@ -304,8 +304,8 @@
           },
           {
             "ally": "Rhombur",
-            "effect": "at the end of each turn spent not moving, +1 dmg res that stacks until you move",
-            "upgrade": "+1"
+            "effect": "at the end of each turn spent not moving, +3 dmg barrier that stacks until you move",
+            "upgrade": "+2"
           }
         ]
       },
@@ -331,8 +331,8 @@
           },
           {
             "ally": "Rhombur",
-            "effect": "+5 minion dmg res with 2+ foes adj to them",
-            "upgrade": "+4"
+            "effect": "+12 minion dmg barrier with 2+ foes adj to them",
+            "upgrade": "+12"
           }
         ]
       },
@@ -348,7 +348,7 @@
           },
           {
             "ally": "Arvewal",
-            "effect": "creatures you knock prone have -2 dmg res",
+            "effect": "creatures you knock prone have +2 dmg taken",
             "upgrade": "-2"
           },
           {
@@ -359,13 +359,13 @@
           {
             "ally": "Rhombur",
             "effect": "when dmg'd, offender is knocked prone",
-            "upgrade": "+1 dmg res vs standing targets"
+            "upgrade": "+3->2 dmg barrier vs standing targets"
           }
         ]
       },
       {
         "name": "Lucius' Corruption",
-        "effect": "gain a powerful mutation for each mutation you have",
+        "effect": "gain a powerful mutation for every 5 glyphs you have consumed",
         "upgrade": "+2 glyphic dmg",
         "setBonuses": [
           {
@@ -375,7 +375,7 @@
           },
           {
             "ally": "Arvewal",
-            "effect": "on glyphic hit, give target -1 dmg res until your next turn. doesn't stack",
+            "effect": "on glyphic hit, give target +1 dmg taken until your next turn. doesn't stack",
             "upgrade": "-1"
           },
           {
@@ -385,35 +385,35 @@
           },
           {
             "ally": "Rhombur",
-            "effect": "+1 dmg res for each mutation you have",
+            "effect": "+2 dmg barrier for each mutation you have",
             "upgrade": "+1"
           }
         ]
       },
       {
         "name": "Rhombur's Defiance",
-        "effect": "+3 dmg res with 2+ adj foes",
+        "effect": "+5 dmg barrier with 2+ adj foes",
         "upgrade": "unintelligent creatures are much more likely to target you",
         "setBonuses": [
           {
             "ally": "Al'akir",
-            "effect": "at the end of each turn spent not moving, +1 dmg res that stacks until you move",
-            "upgrade": "+1"
+            "effect": "at the end of each turn spent not moving, +3 dmg barrier that stacks until you move",
+            "upgrade": "+2"
           },
           {
             "ally": "Arvewal",
-            "effect": "+2 dmg res with 2+ adj allies",
-            "upgrade": "+2"
+            "effect": "+5 dmg barrier with 2+ adj allies",
+            "upgrade": "+4"
           },
           {
             "ally": "The Rhox",
             "effect": "when dmg'd, offender is knocked prone",
-            "upgrade": "+1 dmg res vs standing targets"
+            "upgrade": "+3->2 dmg barrier vs standing targets"
           },
           {
             "ally": "Lucius",
-            "effect": "+1 dmg res for each mutation you have",
-            "upgrade": "+1"
+            "effect": "+2 dmg barrier for every 5 glyphs you have consumed",
+            "upgrade": "+2"
           }
         ]
       }
@@ -424,22 +424,22 @@
     "amulets": [
       {
         "name": "Leorian's Target",
-        "effect": "creatures marked by you have -3 dmg res",
+        "effect": "creatures marked by you have +3 dmg taken",
         "upgrade": "+2 global dmg vs marked targets",
         "setBonuses": [
           {
             "ally": "Vargh",
-            "effect": "-2 dmg res vs marked creatures; +4 global dmg vs marked targets",
-            "upgrade": "-2 and +4"
+            "effect": "+2 dmg taken from marked creatures; +4 global dmg vs marked targets",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Yavine",
-            "effect": "creatures 30+' away from you who are marked by you have -2 dmg res",
+            "effect": "creatures 30+' away from you who are marked by you have +2 dmg taken",
             "upgrade": "-2"
           },
           {
             "ally": "Xorp",
-            "effect": "creatures larger than you who are marked by you have -2 dmg res",
+            "effect": "creatures larger than you who are marked by you have +2 dmg taken",
             "upgrade": "-2"
           },
           {
@@ -456,23 +456,23 @@
       },
       {
         "name": "Vargh's Recklessness",
-        "effect": "-2 dmg res; +4 global dmg",
+        "effect": "-7 max HP; +3 global dmg",
         "upgrade": "+2 global dmg while bloodied",
         "setBonuses": [
           {
             "ally": "Leorian",
-            "effect": "vs marked creatures: -2 dmg res; +4 global dmg",
-            "upgrade": "-2 and +4"
+            "effect": "vs marked creatures: +2 dmg taken; +4 global dmg",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Yavine",
-            "effect": "vs creatures 30+' away from you: -2 dmg res; +4 global dmg",
-            "upgrade": "-2 and +4"
+            "effect": "vs creatures 30+' away from you: +2 dmg taken; +4 global dmg",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Xorp",
-            "effect": "vs creatures larger than you: -2 dmg res; +4 global dmg",
-            "upgrade": "-2 and +4"
+            "effect": "vs creatures larger than you: +2 dmg taken; +4 global dmg",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Jarrik, Eldritch Knight",
@@ -481,8 +481,8 @@
           },
           {
             "ally": "Nailo",
-            "effect": "adj allies have: -1 dmg res; +2 global dmg",
-            "upgrade": "-1 and +2"
+            "effect": "adj allies have: +1 dmg taken; +2 global dmg",
+            "upgrade": "+1 and +2"
           }
         ]
       },
@@ -498,8 +498,8 @@
           },
           {
             "ally": "Vargh",
-            "effect": "-2 proj dmg res; +4 proj dmg",
-            "upgrade": "-2 and +4"
+            "effect": "+2 proj dmg taken; +4 proj dmg",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Xorp",
@@ -530,8 +530,8 @@
           },
           {
             "ally": "Vargh",
-            "effect": "-2 dmg res while shapeshifted; +4 global dmg while shapeshifted",
-            "upgrade": "-2 and +4"
+            "effect": "+2 dmg taken while shapeshifted; +4 global dmg while shapeshifted",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Yavine",
@@ -562,8 +562,8 @@
           },
           {
             "ally": "Vargh",
-            "effect": "-2 wep dmg res; +4 spell dmg",
-            "upgrade": "-2 and +4"
+            "effect": "+2 wep dmg taken; +4 spell dmg",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Yavine",
@@ -584,7 +584,7 @@
       },
       {
         "name": "Nailo's Aura",
-        "effect": "adj allies have +1 dmg res",
+        "effect": "adj allies have +4 dmg barrier",
         "upgrade": "+3 global dmg vs fiends",
         "setBonuses": [
           {
@@ -594,8 +594,8 @@
           },
           {
             "ally": "Vargh",
-            "effect": "adj allies have: -1 dmg res; +2 global dmg",
-            "upgrade": "-1 and +2"
+            "effect": "adj allies have: +1 dmg taken; +2 global dmg",
+            "upgrade": "+1 and +2"
           },
           {
             "ally": "Yavine",
@@ -761,7 +761,7 @@
     "amulets": [
       {
         "name": "Cherry's Attunement",
-        "effect": "+1 global dmg while both of your held enchantment clusters are relics; +1 dmg res while your helm and gloves are relics",
+        "effect": "+1 global dmg while both of your held enchantment clusters are relics; +2 dmg barrier while your helm and gloves are relics",
         "upgrade": "+2 to crafting creation checks",
         "setBonuses": [
           {
@@ -806,7 +806,7 @@
       {
         "name": "Kashana's Malevolence",
         "effect": "creatures cursed by you have -3 global dmg",
-        "upgrade": "+2 dmg res with height adv",
+        "upgrade": "+5 dmg barrier with height adv",
         "setBonuses": [
           {
             "ally": "Cherry",
@@ -869,8 +869,8 @@
           },
           {
             "ally": "Fillipo",
-            "effect": "your minions buffed by you have +3 dmg res",
-            "upgrade": "+2"
+            "effect": "your minions buffed by you have +10 dmg barrier",
+            "upgrade": "+10"
           }
         ]
       },
@@ -920,13 +920,13 @@
       },
       {
         "name": "Fillipo's Rhythm",
-        "effect": "creatures buffed by you have +2 dmg res",
+        "effect": "creatures buffed by you have +4 dmg barrier",
         "upgrade": "+3 outgoing temp HP",
         "setBonuses": [
           {
             "ally": "Eva",
-            "effect": "allies within 60' of you have +1 dmg res",
-            "upgrade": "+1"
+            "effect": "allies within 60' of you have +2 dmg barrier",
+            "upgrade": "+2"
           },
           {
             "ally": "T'ymm",
@@ -952,8 +952,8 @@
         "setBonuses": [
           {
             "ally": "Ekhan",
-            "effect": "while bloodied, +3 spell dmg res",
-            "upgrade": "+2"
+            "effect": "while bloodied, +8 non-phys barrier",
+            "upgrade": "+8"
           },
           {
             "ally": "Godworms",
@@ -967,25 +967,25 @@
           },
           {
             "ally": "Trauma Demon",
-            "effect": "while bloodied, -2 dmg res and +11 dmg thorns",
-            "upgrade": "-2 and +11"
+            "effect": "while bloodied, +2 dmg taken and +11 dmg thorns",
+            "upgrade": "+2 and +11"
           }
         ]
       },
       {
         "name": "Ekhan's Insulation",
         "effect": "you can't wield magic weps, but crafted weps are considered mundane for you. +2 to crafting creation checks and +2 to crafting magic equipment rolls.",
-        "upgrade": "+2 spell dmg res",
+        "upgrade": "+5->4 non-phys barrier",
         "setBonuses": [
           {
             "ally": "Kreon",
-            "effect": "while bloodied, +3 spell dmg res",
-            "upgrade": "+2"
+            "effect": "while bloodied, +8 non-phys barrier",
+            "upgrade": "+8"
           },
           {
             "ally": "Godworms",
             "effect": "1/combat, when hit with a spell, dominate offender until end of their next turn",
-            "upgrade": "+2 spell dmg res"
+            "upgrade": "+5->4 non-phys barrier"
           },
           {
             "ally": "The Queen of Rot",
@@ -1002,7 +1002,7 @@
       {
         "name": "Godworms' Hunger",
         "effect": "1/SR, on hit, dominate target until end of their next turn",
-        "upgrade": "creatures dominated by you have -2 dmg res",
+        "upgrade": "creatures dominated by you have +2 dmg taken",
         "setBonuses": [
           {
             "ally": "Kreon",
@@ -1012,7 +1012,7 @@
           {
             "ally": "Ekhan",
             "effect": "1/combat, when hit with a spell, dominate offender until end of their next turn",
-            "upgrade": "+2 spell dmg res"
+            "upgrade": "+5->4 non-phys barrier"
           },
           {
             "ally": "The Queen of Rot",
@@ -1029,7 +1029,7 @@
       {
         "name": "The Queen of Rot's Reign",
         "effect": "you project a 5' aura that deals 2 glyphic nec dmg to foes",
-        "upgrade": "foes in your auras have -1 dmg res",
+        "upgrade": "foes in your auras have +1 dmg taken",
         "setBonuses": [
           {
             "ally": "Kreon",
@@ -1060,7 +1060,7 @@
         "setBonuses": [
           {
             "ally": "Kreon",
-            "effect": "while bloodied, -2 dmg res and +11 dmg thorns",
+            "effect": "while bloodied, +2 dmg taken and +11 dmg thorns",
             "upgrade": "+2"
           },
           {
@@ -1149,8 +1149,8 @@
           },
           {
             "ally": "Clover",
-            "effect": "while healthy, +2 DoT dmg; while bloodied, +2 DoT dmg res",
-            "upgrade": "+2 and +2"
+            "effect": "while healthy, +2 DoT dmg; while bloodied, +5 non-phys barrier",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Surge",
@@ -1165,7 +1165,7 @@
           {
             "ally": "Heath",
             "effect": "on crit, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
           }
         ]
       },
@@ -1207,7 +1207,7 @@
           {
             "ally": "Heath",
             "effect": "when hit while you have temp HP, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
           }
         ]
       },
@@ -1233,8 +1233,8 @@
           },
           {
             "ally": "Clover",
-            "effect": "while healthy, +1 dmg res; while bloodied, +1 global dmg",
-            "upgrade": "+1 and +1"
+            "effect": "while healthy, +3 dmg barrier; while bloodied, +1 global dmg",
+            "upgrade": "+2 and +1"
           },
           {
             "ally": "Surge",
@@ -1249,13 +1249,13 @@
           {
             "ally": "Heath",
             "effect": "on becoming bloodied, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
           }
         ]
       },
       {
         "name": "Clover's Incubation",
-        "effect": "while healthy, +2 global dmg; while bloodied, +2 dmg res",
+        "effect": "while healthy, +2 global dmg; while bloodied, +4 dmg barrier",
         "upgrade": "+2 global dmg vs targets you are flanking",
         "setBonuses": [
           {
@@ -1265,8 +1265,8 @@
           },
           {
             "ally": "Vidar, Assassin",
-            "effect": "while healthy, +1 crit range; while bloodied, +5 crit dmg res",
-            "upgrade": "+1 and +4"
+            "effect": "while healthy, +1 crit range; while bloodied, +3 dmg barrier",
+            "upgrade": "+1 and +2"
           },
           {
             "ally": "Arndell",
@@ -1275,13 +1275,13 @@
           },
           {
             "ally": "Morric",
-            "effect": "while healthy, +1 dmg res; while bloodied, +1 global dmg",
-            "upgrade": "+1 and +1"
+            "effect": "while healthy, +3 dmg barrier; while bloodied, +1 global dmg",
+            "upgrade": "+2 and +1"
           },
           {
             "ally": "Surge",
-            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +2 dmg res vs adj creatures",
-            "upgrade": "+2 and +2"
+            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +5 dmg barrier vs adj creatures",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Petros",
@@ -1322,8 +1322,8 @@
           },
           {
             "ally": "Clover",
-            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +2 dmg res vs adj creatures",
-            "upgrade": "+2 and +2"
+            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +5 dmg barrier vs adj creatures",
+            "upgrade": "+2 and +4"
           },
           {
             "ally": "Petros",
@@ -1333,14 +1333,14 @@
           {
             "ally": "Heath",
             "effect": "on dealing dmg as a reaction, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
           }
         ]
       },
       {
         "name": "Petros' Distraction",
         "effect": "on hit, target has -3 global dmg vs non-you targets until end of their next turn",
-        "upgrade": "+2 dmg res vs creatures you are flanking",
+        "upgrade": "+5->4 dmg barrier vs creatures you are flanking",
         "setBonuses": [
           {
             "ally": "Vidar, Shadow Spy",
@@ -1375,7 +1375,7 @@
           {
             "ally": "Heath",
             "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
           }
         ]
       },
@@ -1392,17 +1392,17 @@
           {
             "ally": "Vidar, Assassin",
             "effect": "on crit, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
           },
           {
             "ally": "Arndell",
             "effect": "when hit while you have temp HP, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
           },
           {
             "ally": "Morric",
             "effect": "on becoming bloodied, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
           },
           {
             "ally": "Clover",
@@ -1417,7 +1417,7 @@
           {
             "ally": "Petros",
             "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +1 dmg res vs Wild Magic Surges"
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
           }
         ]
       }

@@ -180,7 +180,7 @@ func generateWeather() (string, error) {
 	weatherRoll := rand.Intn(100)
 	if weatherRoll < 5 {
 		chosen := weathers.Exotic[rand.Intn(len(weathers.Exotic))]
-		return fmt.Sprintf("%s (+1 minimum hostile random encounter. %s)", chosen.Name, chosen.Description), nil
+		return fmt.Sprintf("%s (+1 hostile random encounter. %s)", chosen.Name, chosen.Description), nil
 	}
 	chosen := weathers.Common[rand.Intn(len(weathers.Common))]
 	return chosen, nil

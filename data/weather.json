@@ -26,15 +26,15 @@
     },
     {
       "name": "Bloody Sky",
-      "description": "+1 minimum hostile random encounter."
+      "description": "+1 hostile random encounter."
     },
     {
       "name": "Cruel Haze",
-      "description": "During combat, all player characters have reduced passive regen equal to the round number."
+      "description": "During combat, all adventurers have reduced passive regen equal to the round number."
     },
     {
       "name": "Golden Sky",
-      "description": "+1 minimum positive random encounter."
+      "description": "+1 positive random encounter."
     },
     {
       "name": "Freaky Day",
@@ -42,15 +42,15 @@
     },
     {
       "name": "Strange Music on the Wind",
-      "description": "At the start of each player character's turn in combat, they swap spaces with another random creature in the combat."
+      "description": "At the start of each adventurer's turn in combat, they swap spaces with another random creature in the combat."
     },
     {
       "name": "Gaze of the Assassin",
-      "description": "All hostile random encounters are empowered."
+      "description": "All hostile random encounters have 1 additional Challenge and have their rewards empowered."
     },
     {
       "name": "Gaze of the Gambler",
-      "description": "Whenever a player character casts a spell or uses a maneuver, they trigger a Wild Magic Surge."
+      "description": "Whenever a adventurer casts a spell or uses a maneuver, they trigger a Wild Magic Surge."
     },
     {
       "name": "Gaze of the Legion",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Gaze of the Manipulator",
-      "description": "Each player sends the DM a message with the name of the a player in the current session, with no discussion. If any player's name is received multiple times, that player's character has disadvantage with all journey activities, and all other player characters have advantage."
+      "description": "Each player sends the DM a message with the name of a player in the current session, with no discussion. If any player's name is received twice, that player's character has disadvantage with all journey activities, and all other adventurers have advantage. If a player's name appears more than twice, they get double advantage and all others get disadvantage instead."
     },
     {
       "name": "Gaze of the Creator",
-      "description": "Each player character's maximum HP is halved, but all damage they and their minions deal is doubled."
+      "description": "Each adventurer's maximum HP is halved, but all damage they and their minions deal is doubled."
     },
     {
       "name": "Mists of Slaughter",
@@ -70,11 +70,15 @@
     },
     {
       "name": "Winds of Chaos",
-      "description": "Instead of using their usual skill bonuses for journey activities, each player character instead rolls a d20 and uses that result. This is rolled after the player has chosen their activity."
+      "description": "Instead of using their usual skill bonuses for journey activities, each adventurer instead rolls a d20 and uses that result. This is rolled after the player has chosen their activity."
     },
     {
       "name": "Feywild Trickery",
-      "description": "Players cannot choose their own journey activities. Instead, random ones are chosen for each player character and the check becomes a 50/50 chance of either critical failure or critical success. All player characters must attempt a journey activity."
+      "description": "Players cannot choose their own journey activities. Instead, random ones are chosen for each adventurer and the check becomes a 50/50 chance of either critical failure or critical success. All adventurers must attempt a journey activity."
+    },
+    {
+      "name": "Delirious Fog",
+      "description": "Each adventurer gains a Chaotic modifier."
     }
   ]
 }

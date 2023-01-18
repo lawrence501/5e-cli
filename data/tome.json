@@ -8,12 +8,12 @@
     {
         "name": "Shredding Summons",
         "target": "powers that summon minions",
-        "description": "When the minions hit with melee atks, their target's phys res is slightly reduced until the end of the minion's next turn."
+        "description": "When the minions hit with melee atks, their target gets slightly increased phys dmg taken until the end of the minion's next turn."
     },
     {
         "name": "Berserking Summons",
         "target": "powers that summon minions that can take phys dmg",
-        "description": "The minions deal substantially more damage, but have slightly less HP and barely reduced phys res."
+        "description": "The minions deal substantially more damage, but have slightly less HP and barely increased phys dmg taken."
     },
     {
         "name": "Exsanguinating Summons",
@@ -204,7 +204,7 @@
     {
         "name": "Massive Energy",
         "target": "powers that have multiple non-persistent areas",
-        "description": "Whenever the power's largest area resolves it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal slight $nonPhysType dmg. Additionally, any buffs triggered from the power have slightly more effectiveness."
+        "description": "Whenever the power's largest area resolves it leaves a vortex of energy, a pers area that lasts until the end of your next turn, making spell atks that deal slight $nonPhysType dmg. Additionally, any buffs triggered from the power have +1 effectiveness."
     },
     {
         "name": "Spread Energy",
@@ -325,7 +325,7 @@
     {
         "name": "Empowering Obstacles",
         "target": "powers that form objs or structs",
-        "description": "While an obj or struct formed by the power is active, you deal slightly more $nonPhysType dmg and have slightly more {nonPhysType} res."
+        "description": "While an obj or struct formed by the power is active, you deal slightly more $nonPhysType dmg and have massively more {nonPhysType} barrier."
     },
     {
         "name": "Volatile Obstacles",
@@ -401,7 +401,7 @@
     {
         "name": "Protective channelling",
         "target": "powers that require concentration",
-        "description": "While concentrating on the power, you have barely more phys res and slightly more $nonPhysType res."
+        "description": "While concentrating on the power, you have substantially more phys barrier and massively more $nonPhysType barrier."
     },
     {
         "name": "Distance",
@@ -411,7 +411,7 @@
     {
         "name": "Shredding",
         "target": "any power",
-        "description": "Whenever the power hits, the target's $nonPhysType res is reduced until the end of your next turn."
+        "description": "Whenever the power hits, the target takes increased $nonPhysType dmg until the end of your next turn."
     },
     {
         "name": "Unstable Focus",
@@ -617,7 +617,7 @@
     {
         "name": "Armour Shredding",
         "target": "any power",
-        "description": "Whenever the power hits, the target gets slightly reduced phys res until the end of your next turn."
+        "description": "Whenever the power hits, the target takes slightly increased phys dmg until the end of your next turn."
     },
     {
         "name": "Conversion",
@@ -703,7 +703,7 @@
     {
         "name": "Shredding Decay",
         "target": "powers that deal damage over time",
-        "description": "Whenever the power's DoTs tick, the target's phys res is slightly reduced until the end of your next turn."
+        "description": "Whenever the power's DoTs tick, the target takes slightly more phys dmg until the end of your next turn."
     },
     {
         "name": "Sapping Decay",
@@ -733,12 +733,12 @@
     {
         "name": "Persistent Warding",
         "target": "any power",
-        "description": "Whenever you end your turn within the power's pers areas, you gain a barely any dmg res and +1 to DEX saves until your next turn."
+        "description": "Whenever you end your turn within the power's pers areas, you gain a slight amount of dmg barrier and +1 to DEX saves until your next turn."
     },
     {
         "name": "Persistent Empowerment",
         "target": "any power",
-        "description": "Whenever an ally ends their turn within the power's pers areas, they gain barely any dmg res and +1 to DEX saves until their next turn. Also, the power deals substantially less dmg."
+        "description": "Whenever an ally ends their turn within the power's pers areas, they gain a slight amount of dmg barrier and +1 to DEX saves until their next turn. Also, the power deals substantially less dmg."
     },
     {
         "name": "Striking",
@@ -834,7 +834,7 @@
     {
         "name": "Bursting Empowerment",
         "target": "powers with an instantaneous duration",
-        "description": "Whenever a single use of the power hits 1+ target, you gain barely any dmg res and +1 to DEX saves until the end of your next turn."
+        "description": "Whenever a single use of the power hits 1+ target, you gain a slight amount of dmg barrier and +1 to DEX saves until the end of your next turn."
     },
     {
         "name": "Narrowed Power",
@@ -986,7 +986,7 @@
     {
         "name": "Persistent Shredding",
         "target": "powers that create persistent areas",
-        "description": "Foes in the power's pers areas have slightly less phys res."
+        "description": "Foes in the power's pers areas take slightly more phys dmg."
     },
     {
         "name": "Shredding Ailments",
@@ -1031,7 +1031,7 @@
     {
         "name": "Incubating Resilience",
         "target": "powers with a non-instantaneous duration",
-        "description": "For the power's duration, you gain $nonPhysType res. Additionally, whenever the power ends, you heal barely any HP."
+        "description": "For the power's duration, you gain a massive amount of $nonPhysType barrier. Additionally, whenever the power ends, you heal barely any HP."
     },
     {
         "name": "Explosive Decay",
@@ -1061,12 +1061,12 @@
     {
         "name": "Resistance",
         "target": "powers with non-instantaneous durations",
-        "description": "For the power's duration, you have substantially more $nonPhysType res."
+        "description": "For the power's duration, you have massively more $nonPhysType barrier."
     },
     {
         "name": "Persistent Erosion",
         "target": "powers with persistent areas",
-        "description": "Foes within the power's pers areas have less $nonPhysType res."
+        "description": "Foes within the power's pers areas take substantially more $nonPhysType dmg."
     },
     {
         "name": "Decaying Bolts",
@@ -1081,12 +1081,12 @@
     {
         "name": "Persistent Sacrifice",
         "target": "powers with persistent areas",
-        "description": "You and foes within the power's pers areas have substantially less $nonPhysType res."
+        "description": "You and foes within the power's pers areas take substantially more $nonPhysType dmg."
     },
     {
         "name": "Malevolent Shredding",
         "target": "powers with non-instantaneous durations",
-        "description": "For the power's duration, whenever you are hit, the offender is cursed with barely reduced dmg res for the rest of the combat."
+        "description": "For the power's duration, whenever you are hit, the offender is cursed with barely increased dmg taken for the rest of the combat."
     },
     {
         "name": "Sacrificial Decay",
@@ -1152,12 +1152,12 @@
     {
         "name": "Armoured Persistence",
         "target": "powers with persistent areas",
-        "description": "While the power's persistent areas are active, you have slightly more phys res."
+        "description": "While the power's persistent areas are active, you have massively more phys barrier."
     },
     {
         "name": "Exposure",
         "target": "any power",
-        "description": "Whenever the power hits, the target gets slighly reduced $physType and $nonPhysType res until the end of your next turn."
+        "description": "Whenever the power hits, the target gets slighly increased $physType and $nonPhysType dmg taken until the end of your next turn."
     },
     {
         "name": "Chaining",
@@ -1167,7 +1167,7 @@
     {
         "name": "Energy Exposure",
         "target": "any power",
-        "description": "Whenever the power hits, the target's $nonPhysType res is barely reduced and it has -1 to debuff saves until the end of your next turn."
+        "description": "Whenever the power hits, the target gets barely more $nonPhysType dmg taken and it has -1 to debuff saves until the end of your next turn."
     },
     {
         "name": "Efficient Power",
@@ -1293,12 +1293,12 @@
     {
         "name": "Defensive Shifting",
         "target": "powers that shapeshift",
-        "description": "The shapeshift and its minions have +1 to DEX saves and slightly more phys res, but it deals less dmg."
+        "description": "The shapeshift and its minions have +1 to DEX saves and massively more phys barrier, but it deals less dmg."
     },
     {
         "name": "Heavy Shifting",
         "target": "powers that shapeshift",
-        "description": "The shapeshift has -1 to DEX saves and additional phys res."
+        "description": "The shapeshift has -1 to DEX saves and massively more phys barrier."
     },
     {
         "name": "Enduring Shifting",
@@ -1379,7 +1379,7 @@
     {
         "name": "Summoned Decay",
         "target": "powers that summon minions",
-        "description": "As an action, the minions can throw metal at a target within 120', making a thrown wep atk dealing substantially less $physType dmg, inflicting the target with a DoT dealing slight $nonPhysType dmg, stacking until CON save (minion's DC), and giving them slightly less phys res until the end of the minion's next turn."
+        "description": "As an action, the minions can throw metal at a target within 120', making a thrown wep atk dealing substantially less $physType dmg, inflicting the target with a DoT dealing slight $nonPhysType dmg, stacking until CON save (minion's DC), and giving them slightly increased phys dmg taken until the end of the minion's next turn."
     },
     {
         "name": "Solo Summons",
@@ -1429,7 +1429,7 @@
     {
         "name": "Armoured Summons",
         "target": "powers that have multiple static minion summoning options",
-        "description": "1/combat, as a bonus action, the first minion option can surround themselves with Bone Armour, gaining dmg res until the end of their next turn."
+        "description": "1/combat, as a bonus action, the first minion option can surround themselves with Bone Armour, gaining a substantial amount of dmg barrier until the end of their next turn."
     },
     {
         "name": "Charged Summons",
@@ -1495,12 +1495,12 @@
     {
         "name": "Armoured Shifting",
         "target": "powers that shapeshift",
-        "description": "The shapeshift gains a slight amount of phys res."
+        "description": "The shapeshift gains a massive amount of phys barrier."
     },
     {
         "name": "Resistant Shifting",
         "target": "powers that shapeshift",
-        "description": "The shapeshift gains $nonPhysType res and $nonPhysType res."
+        "description": "The shapeshift gains a massive amount of $nonPhysType barrier and a substantial amount of $nonPhysType barrier."
     },
     {
         "name": "Lifebound Shifting",
@@ -1565,7 +1565,7 @@
     {
         "name": "Malevolent Shifting",
         "target": "powers that shapeshift into forms which can deal damage",
-        "description": "Whenever the shapeshift hits, the target is cursed with barely reduced dmg res for the combat. The curse's effect is doubled when it is triggered from a charged wep hit. Additionally, the shapeshift deals less dmg."
+        "description": "Whenever the shapeshift hits, the target is cursed with barely increased dmg taken for the combat. The curse's effect is doubled when it is triggered from a charged wep hit. Additionally, the shapeshift deals less dmg."
     },
     {
         "name": "Blunt Decay",
@@ -1646,7 +1646,7 @@
     {
         "name": "Channeled Shredding",
         "target": "powers that require concentration",
-        "description": "At the start of each of your turns while concentrating on the power, each adj foe gets slightly reduced phys res until end of your next turn."
+        "description": "At the start of each of your turns while concentrating on the power, each adj foe gets slightly increased phys dmg taken until end of your next turn."
     },
     {
         "name": "Channeled Contagion",
@@ -1691,7 +1691,7 @@
     {
         "name": "Armoured Channelling",
         "target": "powers that require concentration",
-        "description": "While concentrating on the power, you gain a slight amount of phys res."
+        "description": "While concentrating on the power, you gain a massive amount of phys barrier."
     },
     {
         "name": "Enduring Channelling",
@@ -1711,7 +1711,7 @@
     {
         "name": "Resistant Channelling",
         "target": "powers that require concentration",
-        "description": "While concentrating on the power, you gain a slight amount of non-phys res."
+        "description": "While concentrating on the power, you gain a massive amount of non-phys barrier."
     },
     {
         "name": "Major Charging",
@@ -1827,7 +1827,7 @@
     {
         "name": "Sacrificial Shredding",
         "target": "powers that cost HP",
-        "description": "Whenever the power hits, the target gets reduced $nonPhysType res until the end of your next turn.",
+        "description": "Whenever the power hits, the target gets increased $nonPhysType dmg taken until the end of your next turn.",
         "meta": "Death Seal"
     },
     {
@@ -1838,7 +1838,7 @@
     {
         "name": "Sacrificial Defence",
         "target": "powers with a non-instantaneous duration that cost HP",
-        "description": "For the power's duration, you have increased $nonPhysType res and barely increased phys res."
+        "description": "For the power's duration, you have substantially increased $nonPhysType barrier and phys barrier."
     },
     {
         "name": "Enduring Possession",
@@ -1868,7 +1868,7 @@
     {
         "name": "Enduring Sealing",
         "target": "powers with a non-instantaneous duration",
-        "description": "For the power's duration, you have increased DoT dmg res."
+        "description": "For the power's duration, you have massively increased DoT dmg barrier."
     },
     {
         "name": "Empowered Alacrity",
@@ -1898,7 +1898,7 @@
     {
         "name": "Empowered Resilience",
         "target": "powers that apply buffs",
-        "description": "Whenever the power's buffs on you end, you gain barely any dmg res for the same duration as the buff was on you."
+        "description": "Whenever the power's buffs on you end, you gain dmg barrier for the same duration as the buff was on you."
     },
     {
         "name": "Empowered Leeching",
@@ -1913,7 +1913,7 @@
     {
         "name": "Empowered Control",
         "target": "powers that apply buffs and deal damage",
-        "description": "While buffed by the power and bloodied, you gain a slight amount of phys res and +1 to saves vs debuffs. Additionally, the power deals less dmg."
+        "description": "While buffed by the power and bloodied, you gain a massive amount of phys barrier and +1 to saves vs debuffs. Additionally, the power deals less dmg."
     },
     {
         "name": "Controlled Sacrifice",
@@ -1948,7 +1948,7 @@
     {
         "name": "Shredding Cruelty",
         "target": "powers that deal damage",
-        "description": "Whenever the power hits, the target gets reduced $nonPhysType res and -1 to debuff saves until the end of your next turn. Additionally, the power's hits debilitate until the end of the target's next turn and deal substantially less dmg.",
+        "description": "Whenever the power hits, the target gets increased $nonPhysType dmg taken and -1 to debuff saves until the end of your next turn. Additionally, the power's hits debilitate until the end of the target's next turn and deal substantially less dmg.",
         "meta": "Surge"
     },
     {
@@ -2121,5 +2121,45 @@
         "name": "Empowered Erosion",
         "target": "powers that apply buffs",
         "description": "Whenever you hit while buffed by the power, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until CHA save."
+    },
+    {
+        "name": "Enduring Shredding",
+        "target": "powers that deal damage and apply debuffs which can be consumed early",
+        "description": "The power's debuff also gives the target slightly increased $physType dmg taken, and the debuff can no longer be consumed early. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Frail Decay",
+        "target": "powers that inflict DoTs",
+        "description": "The power's DoT is converted into a mark that causes the target to take the DoT's tick whenever they are hit. This still scales as if it were a DoT."
+    },
+    {
+        "name": "Eroding Decay",
+        "target": "powers that inflict DoTs",
+        "description": "Creatures inflicted by the power's DoT have increased DoT dmg taken."
+    },
+    {
+        "name": "Shredding Affliction",
+        "target": "powers that inflict DoTs",
+        "description": "Whenever you inflict a creature with the power's DoT, they have slightly increased phys dmg taken until the end of your next turn."
+    },
+    {
+        "name": "Intense Affliction",
+        "target": "powers that apply debuffs",
+        "description": "The power's debuffs have +1 effectiveness."
+    },
+    {
+        "name": "Forced Recovery",
+        "target": "powers with a cooldown and a non-cooldown resource cost",
+        "description": "The power no longer has a cooldown and deals more dmg, but its cost is increased by 2 steps."
+    },
+    {
+        "name": "Persistent Awakening",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power, each allied pers area adj to you ticks. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Projection [abyssal echoes DONE]",
+        "target": "powers with self-burst areas",
+        "description": "The power's self-burst area is converted into a sphere area that you can cast centred on any point you can see within 60' of you."
     }
 ]

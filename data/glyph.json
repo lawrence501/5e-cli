@@ -51,7 +51,7 @@
         "name": "Employs a Cutaneous Interface",
         "description": "Gain an esoteric computing system beneath your skin",
         "tiers": [
-            "1. Conductivity: at will; bonus action; you connect with a magical object or construct within your reach, allowing you to access its usual abilities and interfaces by tapping glowing buttons and symbols that appear on your forearm, though actually knowing how to use these functions may still require an Arcana check. The connection lasts for 10 minutes or until you are further than 120' away from the object.",
+            "1. Conductivity: at will; bonus action; you connect with a magical object or construct within your reach, allowing you to access its usual abilities and interfaces by tapping glowing buttons and symbols that appear on your forearm, though actually knowing how to use these functions may still require an Engineering check. The connection lasts for 10 minutes or until you are further than 120' away from the object.",
             "2. Mana Scan: 2/minute; bonus action; you scan an area up to 120' away for the distance and direction of any magical objects or constructs you could interface with through your Conductivity feature.",
             "3. You are able to access readouts for your own life signs through your interfaces. You have advantage on medicine checks used on yourself. The added information also grants you +1 to incoming healing while you can see your skin.",
             "4. Deep Conducting: 1/SR; bonus action; after having used your Conductivity feature with an object, you may employ this feature, granting you access to its most guarded functions, such as autodestruct, hidden information, or complex operations. This connection lasts for the same duration as your use of Conductivity.",
@@ -588,7 +588,7 @@
             "7. You gain an expertise die in any ability checks pertaining to or interacting with the ocean.",
             "8. At-one with the Sea: 1/LR; bonus action; For the next 20 minutes, you gain +50' swim speed. During this time, water-based creatures will not hurt you, unless you use an offensive action against them first.",
             "9. You have +2 incoming healing while in water.",
-            "10. You gain +3 dmg res while in water."
+            "10. You gain +6 dmg barrier while in water."
         ]
     },
     {
@@ -916,7 +916,7 @@
         "description": "exploring dark places",
         "tiers": [
             "1. Gain an expertise die in investigation, perception, and acrobatics, and +10' climb speed and long/high jump distance.",
-            "2. Gain an expertise die in sleight of hand and arcana.",
+            "2. Gain an expertise die in Sleight of Hand and Engineering.",
             "3. Your vision is darkvision.",
             "4. When you attack a foe in darkness, you have advantage on the attack.",
             "5. You have advantage on all checks and saves to escape from grapples and restrains, and can squeeze one size smaller. Thanks to your experience, you also gain an expertise die in Dexterity saving throws while wearing light or no armour.",
@@ -1015,7 +1015,7 @@
             "2. You gain an expertise die in Medicine.",
             "3. Treat Patient: 1/min; bonus action; You attempt to cure one negative effect or condition (such as disease, poison, or injury) in a creature (DC 13 Medicine).",
             "4. The damage dice of your wondrous items is increased by 1 size.",
-            "5. Holographic Medical Assistant: 1/SR; bonus action; You become aware of a corner of the Shimmering Library that contains a niche of relevant medical data of which you can materialise in a hologram. This hologram is a CR 1 construct with 20 Intelligence and Wisdom, and an expertise die in Medicine and Arcana. You can only have 1 active at a time.",
+            "5. Holographic Medical Assistant: 1/SR; bonus action; You become aware of a corner of the Shimmering Library that contains a niche of relevant medical data of which you can materialise in a hologram. This hologram is a CR 1 construct with 20 Intelligence and Wisdom, and an expertise die in Medicine and Engineering. You can only have 1 active at a time.",
             "6. You gain an expertise die in Medicine.",
             "7. Nerve Pinch: 1/SR; bonus action; Use the Grapple maneuver against your target. If you succeed, make a medicine check contested by your target's Constitution saving throw. If you succeed, they become staggered for 20 minutes.",
             "8. You gain an expertise die in Medicine.",
@@ -1603,7 +1603,7 @@
         "name": "Serves a Hidden Master",
         "description": "connecting with Gawdian",
         "tiers": [
-            "1. You are trained in meditation. You may use it to enter a deep trance state, which allows you to pray to Gawdian, granting you information via a link to the Shimmering Library. Entering a Knowledge Trance for 10 minutes grants you advantage on your next magitechnical task, such as repairing, crafting, or arcana. However, while in this trance you are essentially helpless and can perform no actions.",
+            "1. You are trained in meditation. You may use it to enter a deep trance state, which allows you to pray to Gawdian, granting you information via a link to the Shimmering Library. Entering a Knowledge Trance for 10 minutes grants you advantage on your next magitechnical task, such as repairing, crafting, Arcana, or Engineering. However, while in this trance you are essentially helpless and can perform no actions.",
             "2. Answers: 2/min; bonus action; You ask Gawdian a question with a simple answer. The Xiloan will respond to you after you have compeleted a task for him. Gawdian provides you with instructions as to what you must do to please him. Should you take more than 1 week to complete this task, you will lose access to the benefits of this glyph path until the task is done.",
             "3. Unearth: 1/min; bonus action; You learn the direction and distance of the nearest magical object (ignoring lootable objects). Alternatively, you can instead set the cooldown to once per long rest and learn similar information about the nearest magical construct.",
             "4. Combat Trance: 1/SR; bonus action; You enter a waking trance for 10 minutes, during which time you become a killing machine. You lose fine control over yourself, always attempting to fight the creature nearest to you (you can choose tiebreaks), and dealing +1d6 additional base damage on each hit.",
@@ -1926,7 +1926,7 @@
             "1. A free-floating hand-like construct of textured green-black material accompanies you and follows your instructions. It is twice the size of your own hand. The third hand can move up to 120' from you, lift something about as heavy as you could lift with one hand, manipulate objects with about as much grace as you could, and so on. The hand is a CR 1 construct. It cannot make attacks, but Helps yours. If the third hand is destroyed, a new one forms after 3 days and follows you like the previous one.",
             "2. You gain +2 to Survival checks related to finding your way using your third hand to feel the way ahead of you.",
             "3. Deflect Attacks: 2/min; bonus action; Using your third hand, you protect yourself from incoming attacks. The hand intercedes against one attack made against you each round for the next hour, granting you advantage on Dexterity saving throws. During any round in which you use the hand to do something else, you cannot use it for this feature.",
-            "4. Umbilical Finger: 1/min; free action; You can touch a construct with your third hand to provide a connection. If a connection is established (which is an Arcana task), you can speak telepathically with the connected construct. Further, you are trained in all social interactions with intelligent constructs to which you are connected through your third hand. Such constructs that normally would never communicate with a humanoid might talk to you in this fashion.",
+            "4. Umbilical Finger: 1/min; free action; You can touch a construct with your third hand to provide a connection. If a connection is established (which is an Engineering task), you can speak telepathically with the connected construct. Further, you are trained in all social interactions with intelligent constructs to which you are connected through your third hand. Such constructs that normally would never communicate with a humanoid might talk to you in this fashion.",
             "5. Stronger Hand: 1/SR; bonus action; Your ancillary hand can move heavy things around as you wish. You can target a creature or object (up to twice your mass) within 30' with the floating hand. If the target is successfully caught in the hand's grip, you can move the target up to 30' in any direction each round that you retain your hold. A creature in your ancillary hand's grip can take actions, but it cannot move under its own power. Each round after the initial attack, you can attempt to keep your grip on the target by spending 4 hit points and succeeding at a DC 6 Intelligence check. If you release the target, they drop back to the ground and your ancillary hand returns to you.",
             "6. Your third hand increases to a CR 2 construct.",
             "7. Disharmonic Touch: 1/week; standard action; If you successfully touch a target within 120' with your third hand (which requires an attack roll if the target resists), the hand gains a sense of the target's resonant frequency. If you touch the target again with the third hand on a succeeding round within 1 minute, the hand releases a disharmonic pulse tuned destructively to the target, inflicting 2d10 + 1d8 + level true thunder damage. Alternatively, instead of harming a target you have touched within the last minute, you can restore 12 hit points with a harmonic pulse.",
@@ -2132,14 +2132,14 @@
         "description": "mathematics",
         "tiers": [
             "1. Predictive Equation: 2/min; bonus action; You observe or study a creature, object, or location for at least 1 round. The next time you interact with it, a related task (such as persuading the creature, attacking it, or making a saving throw against one of its spells) has advantage.",
-            "2. You gain an expertise die in mathematics checks.",
+            "2. You gain an expertise die in Engineering.",
             "3. Predictive Model: 2/min; bonus action; If you have used your Predictive Equation feature on a creature, object, or location within the last 3 days, you can learn 1 random fact about the subject that is pertinent to a topic you designate.",
             "4. Your subconscious constantly runs predictive models for avoiding danger. You gain advantage on your saving throws.",
             "5. You gain +1 INT.",
             "6. During combat, your brain shifts into a sort of battle mode where all potential attacks you could make are plotted on vector graphs in your mind's eye, which always provides the best option. Your attacks have advantage.",
             "7. You gain +3 INT.",
-            "8. You gain an expertise die in mathmatics checks.",
-            "9. Knowing the Unknown: 1/week; bonus action; Through calculations, you can ask the DM 1 question and get a general answer. The DM assigns a DC to the question as a History check, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location has a DC 3, and obscure knowledge of the past has a DC 21. Gaining knowledge of the future is impossible.",
+            "8. You gain an expertise die in Engineering.",
+            "9. Knowing the Unknown: 1/week; bonus action; Through calculations, you can ask the DM 1 question and get a general answer. The DM assigns a DC to the question as an Engineering check, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location has a DC 3, and obscure knowledge of the past has a DC 21. Gaining knowledge of the future is impossible.",
             "10. You gain +3 INT."
         ]
     },
@@ -2196,12 +2196,12 @@
         "description": "science and experimentation",
         "tiers": [
             "1. Lab Analysis: 1/min; bonus action; You analyse the scene of a crime, the site of a mysterious incident, or a series of unexplained phenomena, and you maybe learn a surprising amount of information about the perpetrators, the participants, or the force(s) responsible. To do so, you must collect samples from the scene. Samples are paint or wood scrapings, dirt, images of the area, hair, an entire corpse, and so on. With samples in hand, you can discover up to 3 pertinent pieces of information about the scene, possibly clearing up a lesser mystery, and pointing the way to solving a greater one. The DM will decide what you learn and what the DC for learning it might be. For comparison, discovering that a victim was killed not by a fall, as seems immediately obvious, but rather by electrocution has a DC 9. You have advantage on the task if you take the time to transport the samples to a permanent lab , as opposed to conducting the analysis in the field.",
-            "2. You gain prof/+2 in Arcana.",
-            "3. Modify Object: 1/SR; bonus action; You jury-rig a magical object to make it function above its standard power for a very limited time. To do so, you must use 1d6 x 100gp and succeed at a DC 9 Arcana check. When complete, all associated tasks with that object have advantage, until the object inevitably breaks. Each time such a task is made, the object has a 25% chance to be depleted of its magical properties.",
+            "2. You gain prof/+2 in Engineering.",
+            "3. Modify Object: 1/SR; bonus action; You jury-rig a magical object to make it function above its standard power for a very limited time. To do so, you must use 1d6 x 100gp and succeed at a DC 9 Engineering check. When complete, all associated tasks with that object have advantage, until the object inevitably breaks. Each time such a task is made, the object has a 25% chance to be depleted of its magical properties.",
             "4. Better Living Through Chemistry: 1/SR; bonus action; You have developed drug cocktails specifically designed to work with your own biochemistry. Depending on which one you inject, it makes you smarter, faster, or tougher, but when it wears off, the crash is a doozy. You gain +4 to CON, DEX, or INT for 1 minute, after which you cannot gain the benefit again for 1 hour. During this hour, every time you lose hit points, lose an additional 2.",
             "5. You gain prof/+2 in any knowledge skill of your choice.",
             "6. You gain prof/+2 in Intelligence saving throws.",
-            "7. Weird Science Breakthrough: 1/LR; bonus action; Your research leads to a breakthrough, and you capture a fragment of the universe within an object, imbuing it with a truly amazing property, though you can use the object only once. To do so, you must spend 1d6 x 100gp and succeed at a DC 12 Arcana check to create a random tier 1 potion. You can give yourself double disadvantage on the check to attempt to create a specific potion.",
+            "7. Weird Science Breakthrough: 1/LR; bonus action; Your research leads to a breakthrough, and you capture a fragment of the universe within an object, imbuing it with a truly amazing property, though you can use the object only once. To do so, you must spend 1d6 x 100gp and succeed at a DC 12 Engineering check to create a random tier 1 potion. You can give yourself double disadvantage on the check to attempt to create a specific potion.",
             "8. Incredible Feat of Science: once; full day; You do something amazing in a lab. This takes 1d6 x 10,000gp. Possible incredible feats include: creating an engine that runs on perpetual motion; creating an inapposite gate that remains open for 1 minute; transmuting 1 substance into another; curing 1 person with an incurable disease or condition; creating a weapon designed to hurt something that cannot otherwise be hurt; creating a defence designed to protect against something that cannot otherwise be stopped.",
             "9. When you successfully use your Weird Science Breakthrough feature, you can create a potion of up to tier 3.",
             "10. You can discover all details of a scene with your Lab Analysis feature."

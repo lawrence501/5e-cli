@@ -139,14 +139,14 @@ var mutation = func() error {
 	return nil
 }
 
-var empower = func() error {
-	empowerments, err := fetchGenerics("enemyEmpowerment")
+var challenge = func() error {
+	challenges, err := fetchSimpleGenerics("challenge")
 	if err != nil {
 		return err
 	}
 
-	chosen := empowerments[rand.Intn(len(empowerments))]
-	log.Printf("The encounter will be %s:\n%s", chosen.Name, processMod(chosen.Description))
+	chosen := challenges[rand.Intn(len(challenges))]
+	log.Printf("Challenge: %s", chosen)
 	return nil
 }
 
