@@ -35,7 +35,7 @@
             "effects": [
                 "+1 global damage.",
                 "[CURSE] While attuned, you become unwilling to part with the ring, keeping it on your person at all times. You have disadvantage on attack rolls while not wearing the ring.",
-                "[CURSE] While worn, whenever you are damaged by a creature, pass a WIS save (DC 15) or you must attempt to use your movement and actions each turn to make a melee weapon attack against the creature that damaged you until either you or it drops to 0 hit points, or until you cannot reach the creature to make the attack in a turn.",
+                "[CURSE] While worn, whenever you are damaged by a creature, pass a DC 15 WIS save or you must attempt to use your movement and actions each turn to make a melee weapon attack against the creature that damaged you until either you or it drops to 0 hit points, or until you cannot reach the creature to make the attack in a turn.",
                 "[CURSE] Curse can be broken with Banishment spell in addition to usual methods, forcing the vengeful spirit to leave."
             ]
         },
@@ -148,6 +148,12 @@
             "effects": [
                 "+2 bow weapon AB.",
                 "+2 bow weapon dmg."
+            ]
+        },
+        {
+            "name": "+1 Ring of the War Mage",
+            "effects": [
+                "+1 spell AB."
             ]
         }
     ],
@@ -295,7 +301,6 @@
         {
             "name": "Battering Ring",
             "effects": [
-                "+1 AC.",
                 "The ring has 3 charges, 1d3 of which are recovered at the end of a long rest.",
                 "On pushing a creature within your reach away from you, you can expend 1 charge to push them an additional 10', also knock them prone, or both."
             ]
@@ -386,7 +391,6 @@
         {
             "name": "Brass Dragon Ring",
             "effects": [
-                "+1 AC.",
                 "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
                 "You have 50% resistance to fire dmg.",
                 "1/LR, as an action, you can magically discern the distance and direction of the nearest brass dragon within 30 miles of you."
@@ -476,7 +480,6 @@
         {
             "name": "Copper Dragon Ring",
             "effects": [
-                "+1 AC.",
                 "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
                 "You have 50% resistance to acid dmg.",
                 "1/LR, as an action, you can magically discern the distance and direction of the nearest copper dragon within 30 miles of you."
@@ -561,10 +564,15 @@
         {
             "name": "Bronze Dragon Ring",
             "effects": [
-                "+1 AC.",
                 "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
                 "You have 50% resistance to light dmg.",
                 "1/LR, as an action, you can magically discern the distance and direction of the nearest bronze dragon within 30 miles of you."
+            ]
+        },
+        {
+            "name": "Arcane Propulsion Ring",
+            "effects": [
+                "You gain a STR-based natural melee weapon that projects from the ring. It deals 1d8 force dmg and has the Thrown (20'/60') trait."
             ]
         }
     ],
@@ -639,7 +647,6 @@
         {
             "name": "Avenger of the Feral Guardian",
             "effects": [
-                "+1 AC [L11+: +2].",
                 "While shapeshifted, you have a +1 bonus to melee atk and dmg rolls [L11+: +2].",
                 "While shapeshifted, +1 AC [L11+: +2].",
                 "As an action 1/LR, you can cast Polymorph on yourself to shapeshift into a Giant Owl [L11+: Cave Bear]. You retain your mental ability scores when using the spell in this way.",
@@ -842,14 +849,28 @@
         {
             "name": "Grovelthrash",
             "effects": [
-                "Grovelthrash is a sentient, neutral evil ring with 18 INT, 15 WIS, and 19 CHA. It has hearing and darkvision of 120'. It communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Infernal.",
-                "A covetous Ultraloth named Ciria lives within Grovelthrash. The ring values material possessions and doling out pain. It compliments its wielder whenever they claim treasure and takes pleasure in harming others.",
+                "Grovelthrash is a sentient, neutral evil ring with 18 INT, 15 WIS, and 19 CHA. It has hearing and darkvision of 120'. It communicates telepathically with its wearer and can speak, read, and understand Abyssal, Common, and Infernal.",
+                "A covetous Ultraloth named Ciria lives within Grovelthrash. The ring values material possessions and doling out pain. It compliments its wearer whenever they claim treasure and takes pleasure in harming others.",
                 "You gain prof in Abyssal and Infernal.",
                 "You can have your melee wep hits deal +2d6 B dmg, but then you take 1d6 psy dmg.",
                 "Your melee wep hits deal double dmg to objs and structs.",
                 "You have adv on Insight checks made to discern a lie spoken in a language you understand.",
                 "L11+: You gain an burrowing speed equal to your speed. You can use this speed to move through ice.",
                 "L11+ 1/LR, when a creature you can see within 30' of you hits you with an atk, you can react to deal an amount of psy dmg to the atker equal to the dmg you took from the atk."
+            ]
+        },
+        {
+            "name": "Silken Spite",
+            "effects": [
+                "Silken Spite is a sentient, chaotic evil ring with 13 INT, 15 WIS, and 15 CHA. It has hearing and darkvision of 120'. It communicates telepathically with its wearer and can speak, read, and understand Abyssal, Common, Elvish, and Undercommon.",
+                "A murderous Yochlol named Sinnafex lives within Silken Spite. The ring speaks in whispers, pushing its wearer to trust no one and to kill those who cause the slightest personal offence.",
+                "You gain prof in Abyssal, Elvish, and Undercommon.",
+                "You gain +60' darkvision.",
+                "As an action, you can coat your weapon in poison until it scores a hit. That hit forces its target to make a DC 13 (L11+: DC 15) CON save or become psn'd for 1hr. On a sub fail, it is also uncon until it takes dmg or is woken as an action.",
+                "You can walk on vertical surfaces and upside down.",
+                "You gain climbing sp equal to your sp.",
+                "You cannot be caught in webs of any sort and can move through them as if they were diff terrain.",
+                "L11+: As an action, you can cast each of the following spells 1/LR each (DC 15): Cloudkill, Darkness, Levitate, or Web."
             ]
         }
     ]

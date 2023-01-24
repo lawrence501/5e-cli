@@ -2303,6 +2303,78 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "The Tidehunter",
+            "startingMods": [
+                {
+                    "description": "+2 spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+3 sphere AoE dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on sphere AoE hit, target is debilitated until end of your next turn",
+                    "pointValue": "4",
+                    "upgrade": "+1 to sphere AoE DCs/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. you can project your self-burst AoEs to be centred on a point you can see within 60' of you",
+                    "pointValue": "1",
+                    "upgrade": "+2->1 sphere AoE dmg/1"
+                },
+                {
+                    "description": "2. on spell hit, target is slowed until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1 spell AB/4"
+                },
+                {
+                    "description": "3. on spell hit, target gets +1 wep dmg taken until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 proj dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. your projs are converted into line AoEs with length equal to the original range",
+                    "pointValue": "1",
+                    "upgrade": "+2->1 line AoE dmg/1"
+                },
+                {
+                    "description": "6. +2 line AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 pers area dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. your pers areas deal +2 dmg vs adj targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. on pers area hit, target gets -1 wep dmg until end of their turn",
+                    "pointValue": "1",
+                    "upgrade": "-1/1"
+                }
+            ]
         }
     ],
     "armour": [

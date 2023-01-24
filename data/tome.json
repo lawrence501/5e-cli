@@ -78,7 +78,7 @@
     {
         "name": "Reflective Summons",
         "target": "powers that summon minions",
-        "description": "The minions gain substantial dmg thorns."
+        "description": "The minions gain a massive amount of dmg thorns."
     },
     {
         "name": "Regenerating Summons",
@@ -209,7 +209,7 @@
     {
         "name": "Spread Energy",
         "target": "powers that have multiple non-persistent areas",
-        "description": "Whenever the power's areas resolve, they leave vortices of energy, pers areas that last until the end of your next turn, making spell atks that deal barely any $nonPhysType dmg. Additionally, any buffs triggered from the power have barely more duration."
+        "description": "Whenever the power's areas resolve, they leave vortices of energy, pers areas that last until the end of your next turn, making spell atks that deal barely any $nonPhysType dmg. Additionally, any buffs triggered from the power have their durations increased by 1 step."
     },
     {
         "name": "Focused Efficiency",
@@ -314,7 +314,7 @@
     },
     {
         "name": "Charged Shielding",
-        "target": "powers with cooldowns that can have targeted directions",
+        "target": "powers with a cooldown that can have targeted directions",
         "description": "If the power is directed at a non-self target, it projects a 10'-wide magical barrier for the combat that completely blocks projs, in the space in front of you in the targeted direction. The power's cooldown also increases by 1 step."
     },
     {
@@ -682,7 +682,7 @@
     },
     {
         "name": "Slow Efficiency",
-        "target": "powers with cooldown and non-cooldown resource costs",
+        "target": "powers with a cooldown and a non-cooldown resource cost",
         "description": "The power's cooldown and cost are both reduced by 1 step, and it deals more dmg, but its usage time is increased by 2 steps."
     },
     {
@@ -867,12 +867,12 @@
         "description": "You can change the power's line areas to be any length up to their maximum whenever you create them and they deal barely more dmg."
     },
     {
-        "name": "Careful Trapping",
+        "name": "Careful Traps",
         "target": "powers with line areas",
         "description": "Whenever the power's line areas end, they leave behind a trap that triggers whenever a creature starts their turn or moves within 5' of it. The traps also trigger at the end of your next turn if they haven't done so already. The traps make a wep atk against all foes within 5' of them, dealing slight $physType dmg and slight $nonPhysType dmg. Also, the power's usage time is increased by 1 step."
     },
     {
-        "name": "Patient Trapping",
+        "name": "Patient Traps",
         "target": "powers that lay traps",
         "description": "For every round that the trap is armed and not triggered, it gains barely more detonation area and barely more dmg."
     },
@@ -1114,7 +1114,7 @@
         "description": "Your minions within the power's pers areas deal more $nonPhysType dmg."
     },
     {
-        "name": "Constant Trapping",
+        "name": "Constant Traps",
         "target": "powers with a non-instantaneous duration",
         "description": "At the start of each of your turns during the power's duration, you drop an energy trap. At the start of your next turn, the trap is triggered and all foes adj to it are inflicted with a DoT dealing barely any $nonPhysType dmg, stacking until CON save."
     },
@@ -2158,8 +2158,104 @@
         "description": "Whenever you use the power, each allied pers area adj to you ticks. Additionally, the power deals less dmg."
     },
     {
-        "name": "Projection [abyssal echoes DONE]",
+        "name": "Projection",
         "target": "powers with self-burst areas",
         "description": "The power's self-burst area is converted into a sphere area that you can cast centred on any point you can see within 60' of you."
+    },
+    {
+        "name": "Disruptive Traps",
+        "target": "powers that lay traps",
+        "description": "Whenever the power's trap is laid, it emits a disruptive wave that causes all foes adj to it to get barely reduced global dmg and barely increased phys dmg taken until the end of your next turn.",
+        "meta": "Decoy"
+    },
+    {
+        "name": "Tactical Haste",
+        "target": "powers that apply debuffs",
+        "description": "The power's debuffs also grant +20' sp to allies."
+    },
+    {
+        "name": "Afflicted Shredding",
+        "target": "powers that apply debuffs",
+        "description": "The power's debuffs also give slightly increased phys dmg taken and their durations are 1 step longer. Additionally, the power's usage time is increased by 1 step."
+    },
+    {
+        "name": "Terrifying Affliction",
+        "target": "powers that apply debuffs",
+        "description": "The power's debuffs also frighten the target until the end of their next turn."
+    },
+    {
+        "name": "Reflective Obstacles",
+        "target": "powers that form objs or structs",
+        "description": "The power's objs and structs gain a massive amount of dmg thorns."
+    },
+    {
+        "name": "Enduring Power",
+        "target": "powers with a cooldown and a non-instantaneous duration",
+        "description": "The power's duration is increased by 1 step and it deals more dmg, but its cooldown is increased by 1 step."
+    },
+    {
+        "name": "Evasive Traps",
+        "target": "powers that lay traps",
+        "description": "While the power's trap is armed and not triggered, you have +1 to DEX saves."
+    },
+    {
+        "name": "Trapped Decay",
+        "target": "powers that lay traps and have a non-cooldown resource cost",
+        "description": "At the start of each of your turns while the power's trap is armed and not triggered, it gives all adj foes a DoT dealing $nonPhysType dmg, stacking until DEX save. Additionally, the power's cost is increased by 1 step and it deals more dmg."
+    },
+    {
+        "name": "Persistent Decay",
+        "target": "powers that create persistent areas which can inflict DoTs",
+        "description": "The power's persistent areas also apply DoTs on turn ends, but the DoTs deal less dmg."
+    },
+    {
+        "name": "Destructive Traps",
+        "target": "powers that lay traps",
+        "description": "When the power's trap triggers, you gain increased crit dmg until the end of your next turn."
+    },
+    {
+        "name": "Explosive Obstacles",
+        "target": "powers that form objs or structs",
+        "description": "Whenever the power's objs and structs are hit, they erupt in an explosion of energy, making wep atks against all adj foes that deal $nonPhysType dmg."
+    },
+    {
+        "name": "Triggered Traps",
+        "target": "powers that lay traps",
+        "description": "Using the power again while it already has a trap armed but not triggered causes all of its armed traps to trigger, considering the nearest creature within 60' as the triggerer, where relevant."
+    },
+    {
+        "name": "Compounding Efficiency",
+        "target": "powers with a non-cooldown resource cost",
+        "description": "The power's cost is reduced by 1 step if you have used it since the start of your last turn, unless that usage had its cost reduced by this effect."
+    },
+    {
+        "name": "Massive Traps",
+        "target": "powers that lay traps and have an area",
+        "description": "The power's traps deal slightly more dmg and have slightly more area."
+    },
+    {
+        "name": "Intense Traps",
+        "target": "powers with a non-instantaneous duration that lay Traps",
+        "description": "The power's traps deal massively more dmg, but their duration is reduced by 1 step."
+    },
+    {
+        "name": "Summoning Traps",
+        "target": "powers that lay traps",
+        "description": "Whenever the power's traps trigger, they also summon a CR 1/8 construct minion."
+    },
+    {
+        "name": "Trapped Ailments",
+        "target": "powers that lay traps",
+        "description": "Whenever the power's traps hit, they inflict a DoT dealing slight $nonPhysType dmg, stacking until DEX save."
+    },
+    {
+        "name": "Overcharged Traps",
+        "target": "powers with a non-cooldown resource cost that lay traps",
+        "description": "The power's traps deal massively more dmg, but the power's cost is increased by 1 step."
+    },
+    {
+        "name": "Clustered Traps [decoy DONE]",
+        "target": "powers that lay traps",
+        "description": "Whenever you lay the power's traps, you instead lay 1 additional trap and each one is shifted 5' in a random direction along its surface."
     }
 ]

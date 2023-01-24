@@ -515,6 +515,37 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Arachnid Robes",
+            "source": "adept - arachnid guardian (a5e)",
+            "mods": [
+                "You gain an expertise die in Stealth and Perception.",
+                "You can move through any webs without treating them as diff terrain or risking becoming stuck.",
+                "You gain +10' of tremorsense."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Quickstepping Robes",
+            "source": "adept - quickstepper (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "The robes have a number of charges equal to your ability mod, all of which are recovered after a long rest.",
+                        "After observing a creature in combat for at least 1 round, you can expend a charge to make a quip at it. Make an Intimidation check opposed by the WIS save of a creature within 30' that can hear and understand you. On a fail, it is taunted by you and must take offensive actions when possible. On a sub fail, the creature also has disadv Offence while taunted in this way.",
+                        "While a creature is taunted in this way, you can also take the Dodge action as a bonus action.",
+                        "The taunt ends after the creature hits you, when you offensively target a different creature, or if the creature is unable to take an offensive action against you."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain an expertise die in Intimidation.",
+                        "You can always use your ability for Intimidation checks."
+                    ]
+                }
+            ]
         }
     ],
     "light": [
@@ -1619,6 +1650,48 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Planar Hauberk",
+            "source": "ranger - horizon walker",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As an action, you detect the distance and direction to the closest planar portal within 1 mile of you.",
+                        "Once you use this feature, you cannot use it again until you finish a rest."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, choose a creature you can see within 30' of you. The next time you hit them this turn with a wep atk, all dmg dealt is converted to force, and the atk deals +1d8 force dmg."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Swarming Doublet",
+            "source": "ranger - swarmkeeper",
+            "mods": [
+                "While you are alive, a swarm of insects crawls over you, flies around you, and skitters on the ground around your feet."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "Once on each of your turns, immediately after you hit with an atk, you can have the swarm deal 1d6 P dmg to the target."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once on each of your turns, immediately after you hit with an atk, you can have the target make a STR save or be moved by the swarm up to 15' horizontally in a direction of your choicce."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Once on each of your turns, immediately after you hit with an atk, you can have yourself moved 5' horizontally in a direction of your choice by the swarm."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -1923,6 +1996,44 @@
                 {
                     "mods": [
                         "Once per short or long rest, as a bonus action after you deal damage with a levelled spell to a creature, you can distribute up to 2d8 + 3 temporary hit points, divided between any creatures of your choice within 30' of you however you wish."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gladiatorial Plate",
+            "source": "fighter - gladiator (a5e)",
+            "mods": [
+                "You have advantage on Intimidation and Performance checks made with your weapon."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "Whenever you score a critical hit with a wep atk, you may make an Intimidation check. Each foe within 20' of you make a WIS save against a DC equal to the result of your check. On a fail, a creature becomes frightened of you until end of your next turn."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Whenever you score a critical hit with a wep atk, you may make a Performance check. Each foe within 20' of you makes a CHA save against a DC equal to the result of your check. On a fail, a creature becomes charmed by you until end of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Knightly Plate",
+            "source": "fighter - knight (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You ignore all penalties of wearing heavy armour or targe shields."
+                    ]
+                },
+                {
+                    "mods": [],
+                    "variables": [
+                        "While you are in good standing with the leadership of your hometown (or equivalent) and are within their area of influence, creatures with a CR lower than yours that are also loyal to that authority may perform simple tasks at your request. You lose good standing with the authority if you go against their wishes.",
+                        "You gain an expertise die on Persuasion checks, unless you have [harmed a creature that has surrendered/stolen from a living creature/spoken a lie] in the past 7 days, when you instead get disadvantage on Persuasion checks. Whenever you do so, you also suffer a level of strife."
                     ]
                 }
             ]

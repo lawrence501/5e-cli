@@ -1712,7 +1712,7 @@
         ]
     },
     {
-        "name": "Sees Through Metal Eyes [LAST]",
+        "name": "Sees Through Metal Eyes",
         "description": "augmenting your eyes with magitech",
         "tiers": [
             "1. Brain Scan: At-will; bonus action; You scan the brain waves of a living target within 30' of you, learning their current mood.",
@@ -1735,9 +1735,9 @@
             "2. Halt: 2/min; free action; You slow your movement through space, preventing all damage from falling and allowing you to land on your feet.",
             "3. Escape: 1/min; bonus action; As a desperate move you simply slip through space to wherever luck will take you. You are essentially teleported to a random location within 30'.",
             "4. Intangible: 1/SR: bonus action; For the next 10 minutes you may not affect the world and the world may not affect you. You cannot be seen, though you can see the world. You cannot move while intangible, but you can whisper to those who come near you.",
-            "5. Waft: 1/LR; free action; While under the effects of any other feature from this glyph path, you may activate this power to become unconstrained by gravity for the next 1d6 rounds. While affected, you can push off of objects to fly through the air up to 120' per turn as your movement action.",
-            "6. Incongruence: 1/week; bonus action; For the next 10 minutes, make an attack against anything you pass through (once per round), dealing 1d8 + 1d6 + level force damage on a hit. You also gain a bonus action natural weapon that makes the same attack.",
-            "7. T1 now grants guaranteed success on Stealth checks.",
+            "5. Waft: 1/LR; free action; While under the effects of any other power from this glyph path, you may activate this power to become unconstrained by gravity for the next 1d6 rounds. While affected, you can push off of objects to fly through the air up to 120' per turn as your movement action.",
+            "6. Incongruence: 1/week; bonus action; For the next 10 minutes, make an attack against any creature you pass through (once per round), dealing 1d8 + 1d6 + level force damage on a hit. You also gain a bonus action natural weapon that makes the same attack.",
+            "7. Your Stealth checks have a minimum d20 roll of 15.",
             "8. Your Halt feature can now be used at-will.",
             "9. Your Escape feature can now be used twice per minute.",
             "10. Your Intangible feature can now be used at-will, and you can move at a speed of 5' while intangible."
@@ -1747,30 +1747,30 @@
         "name": "Employs Magnetism",
         "description": "magnetism",
         "tiers": [
-            "1. Move Metal: At-will; bonus action; You can exert force on metal objects within 30'. Once activated, your power has an effective Strength of 16, and you can use it to move metal objects, push against metal objects, and so on. For example, in your round, you could lift and pull a light metal object anywhere within range to yourself or move a heavy object about 10'. This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it's not a means of attack. You cannot use this ability on your own body. The power lasts for 1 hour.",
+            "1. You can exert force on metal objects within 30'of you. This force has an effective Strength of 16, and you can use it to move metal objects, push against metal objects, and so on, as if it were part of your body. This force lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it's not a means of attack. You cannot use this force on your own body.",
             "2. By manipulating magnetism, you gain an expertise die in saving throws against any incoming effect that utilises metal.",
-            "3. Destroy Metal: 1/min; bonus action; You instantly tear, rip, or burst a metal object you can see within 30', and no bigger than half your size.",
-            "4. Guide Bolt: 1/SR; free action; When you make an attack with a projectile with any metal component on a target within 30', you can improve the attack's aim and velocity, which grants it advantage and inflicts +1d6 base damage.",
-            "5. Magnetic Field: 1/SR; free action; When you wish it, a field of magnetism around you pulls incoming metallic projectile attacks to the ground. You are immune to such attacks for 1 round. You must be aware of an attack to foil it.",
-            "6. Command Metal: 1/LR; bonus action; You reshape a metallic object you can see as you desire. The object must be within 30', and its mass can be no greater than your own. You can affect multiple objects at once as long as their combined mass falls within these limits. You can fuse multiple items together. You can use this power to destroy a metal object (as your Destroy Metal feature), or you can craft it into another desired shape (crudely). You can then move the new object anywhere within range. For example, you could take a few metal shields, fuse them together, and use the resulting shape to block a doorway. You can use this ability to make an attack (causing a foe's armour to constrict, rendering a metal item into shards that you fling across the battlefield, and so on) against 1 target within 30'. Regardless of the form of the attack, it deals 2d8 + level damage of a relevant physical type.",
-            "7. You magnetise any non-metallic object within 30' so that it can be affected by your other features. Thus, with Move Metal, you can move any object. You gain an expertise die in all saving throws, regardless of whether the incoming effect uses metal. And so on.",
-            "8. Iron Punch: 1/LR; bonus action; You pick up a heavy object within 30' and hurl it at a creature within the same area, an attack that deals 1d8 + 1d6 + level damage of a relevant physical type to the target and to the hurled object.",
-            "9. Your Move Metal feature now has a range of 60'.",
-            "10. You gain an expertise die in saving throws against any incoming effects that utilise metal."
+            "3. Destroy Metal: 1/min; bonus action; You instantly tear, rip, or burst a metal object you can see within 30' of you, and no bigger than half your size.",
+            "4. Guide Bolt: 1/SR; free action; When you make an attack with a projectile with any metal component on a target within 30' of you, you can improve the attack's aim and velocity, which grants it advantage and inflicts +1d6 base damage.",
+            "5. Magnetic Field: 1/SR; free action; When you wish it, a field of magnetism around you pulls incoming metallic projectiles to the ground. You are immune to such projectiles for 1 round. You must be aware of an attack to foil it.",
+            "6. Command Metal: 1/LR; bonus action; You reshape a metallic object you can see as you desire. The object must be within 30' of you, and its mass can be no greater than your own. You can affect multiple objects at once as long as their combined mass falls within these limits. You can fuse multiple items together. You can use this power to destroy a metal object (as your Destroy Metal feature), or you can craft it into another desired shape (crudely). You can then move the new object anywhere within range. You can use this ability to make an attack (causing a foe's armour to constrict, rendering a metal item into shards that you fling across the battlefield, and so on) against 1 target within 30' of you. Regardless of the form of the attack, it deals 2d8 + level damage of a relevant physical type.",
+            "7. You persistently magnetise any non-metallic objects of your choice within 30' of you so that they can be affected by your other features.",
+            "8. Iron Punch: 1/LR; bonus action; You pick up a heavy object within 30' of you and hurl it at a creature within the same area, an attack that deals 1d8 + 1d6 + level damage of a relevant physical type to the target and to the hurled object.",
+            "9. Your T1 now has a range of 60'.",
+            "10. You gain a d6 expertise die in saving throws against any incoming effects that utilise metal."
         ]
     },
     {
         "name": "Transmutes Matter",
         "description": "transmuting materials",
         "tiers": [
-            "1. Plating: At-will; bonus action; You touch an object smaller than yourself and the surface of the item is turned entirely to steel. Generally speaking, plating will add 1 AC to an object that is normally soft, at your DM's discretion.",
-            "2. Total Change: 2/min; bonus action; You transmute a non-living object smaller than you entirely into steel.",
-            "3. When transmuting using powers from this glyph path you are no longer limited to simply steel. Instead, you are able to choose any known metal material. At the DM's discretion, this transmutation bizarrely reverses when attempting to be sold or traded in an economic fashion.",
-            "4. Grasp of Change: 1/SR; bonus action; As an attack you may touch a living creature and transmute part of it to a non-living substance. This deals 1d10 + level force damage. If the target is wearing armour, this alters part of it as well, causing it to become useless.",
+            "1. Plating: At-will; bonus action; You touch an object smaller than yourself and the surface of the item is turned entirely to steel.",
+            "2. Total Change: 2/min; bonus action; You transmute an object smaller than you entirely into steel.",
+            "3. When transmuting using powers from this glyph path, you are no longer limited to simply steel. Instead, you are able to choose any known metal material. At the DM's discretion, this transmutation bizarrely reverses when attempting to be sold or traded in an economic fashion.",
+            "4. Grasp of Change: 1/SR; bonus action; As an attack you may touch a living creature and transmute part of it to a non-living substance. This deals 1d10 + level force damage. If the target is wearing armour, this alters part of it as well, granting the target -3 AC until it finds new armour.",
             "5. You are no longer limited to metal for transmutations. Instead, you may choose any solid substance you have ever seen.",
-            "6. You revisit your old specialty, granting you advantage on tasks whenever you attempt to transmute into steel. This includes attack rolls made using your Grasp of Change feature.",
+            "6. You revisit your old specialty, granting you advantage on tasks whenever you attempt to transmute into steel.",
             "7. Alter the World: 1/week; bonus action; By touching a surface with both hands you are able to transmute an area up to 150' radius in size. This transmutation is similar in effect to your Plating feature, in that it only alters the surface of the area.",
-            "8. Your Plating feature now grants +1 AC to body armours you plate with steel.",
+            "8. Your Plating feature now grants +1 AC to unarmoured and light body armours you plate with steel.",
             "9. Your Total Change feature can now be used at-will.",
             "10. When transmuting using powers from this glyph path you are no longer limited to solid materials. Instead, you are able to transmute into water."
         ]
@@ -1779,46 +1779,46 @@
         "name": "Channels a Xiloan",
         "description": "channelling the power of a chosen xiloan",
         "tiers": [
-            "1. Choose a Xiloan: The Cloud, Aroshi, P'all, Mensis, or Gawdian. All instances of damage you deal are increased by 1d6 [cold, acid, slashing, psychic, radiant] damage.",
+            "1. Choose a Xiloan: The Cloud, Aroshi, P'all, Mensis, or Gawdian. Your hits deal 1d6 additional [cold, acid, slashing, psychic, radiant] damage.",
             "2. Based on your Xiloan, gain an expertise die in [Stealth, Performance, Persuasion, Intimidation, Insight].",
-            "3. Prayer: 1/SR; bonus action; You call upon your Xiloan in a moment of difficulty - recover half of your max hit points. Your Xiloan disapproves of your dependence, causing your next d20 roll to have double disadvantage.",
-            "4. You gain a follower who is a devoted member of your religion. They are a CR 4 humanoid who will do anything you ask, so long as it does not violate the precepts of your faith. They count as a minion.",
-            "5. You receive visions of your Xiloan in the surface of nearly every magical object you encounter. Once per long rest you may attempt a Religion check of DC 18 to decipher these messages. If successful, you gain double advantage on the next check you make for the skill you enhanced with T2.",
+            "3. Prayer: 1/SR; bonus action; You call upon your Xiloan in a moment of difficulty - recover half of your max hit points. Your Xiloan disapproves of your dependence, causing your next non-trivial d20 roll to have double disadvantage.",
+            "4. You gain a follower who is a devoted member of your religion. They are a CR 1 humanoid minion who will do anything you ask, so long as it does not violate the precepts of your faith.",
+            "5. You receive visions from your Xiloan in nearly every reflective surface you encounter. Once per long rest you may attempt a Religion check of DC 18 to decipher these messages. If successful, you gain double advantage on the next check you make for the skill you enhanced with T2.",
             "6. You are a mortal embodiment of your Xiloan. You gain +1 to each ability score, and all of your damage now ignores resistance and immunities.",
             "7. The 1d6 bonus you add to your damage from T1 is increased to 1d10.",
             "8. Gain an expertise die in the skill you enhanced with T2.",
             "9. You can now use your Prayer feature once per minute.",
-            "10. Your follower's stats are replaced with those of a CR 6 humanoid."
+            "10. Your follower becomes CR 2."
         ]
     },
     {
         "name": "Wears a Sheen of Ice",
         "description": "utilising the power of a sheen of ice growing around you",
         "tiers": [
-            "1. Ice Armour: At-will; free action; When you wish it, your body is covered in a sheen of ice that lasts as long as you wish and gives you +1 to AC. While the sheen is active, you feel no discomfort from normal cold temperatures and have +4 resistance to cold damage.",
-            "2. Frost Touch: At-will; bonus action; Your hands become so cold that the next time you touch a creature, you can attack them to inflict 1d8 + level cold damage. Alternatively, you can use this power on a weapon, which then inflicts 1d4 additional cold damage. This can only be done once per weapon.",
+            "1. Ice Armour: At-will; free action; When you wish it, your body is covered in a sheen of ice that lasts as long as you wish and gives you +1 to AC. While the sheen is active, you have +4 resistance to cold damage.",
+            "2. Frost Touch: At-will; bonus action; Your hands become so cold that you can attack a creature you touch to inflict 1d8 + level cold damage. Alternatively, you can use this power on a weapon, which then inflicts 1d4 additional cold damage permanently. This can only be done once per weapon.",
             "3. Freezing Touch: 1/SR; bonus action; Your hands become so cold that, in addition to inflicted damage as described under your Frost Touch feature, your touch chills to the core a living target of your size or smaller, staggering it until the end of your next turn.",
-            "4. Ice Creation: 1/SR; bonus action; You create a solid object of ice that is your size or smaller. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. Your ice objects are as strong as iron, but if you are not in constant contact with them, they function for only 1 minute before breaking or melting. For example, you can make and wield an ice sword, but if you give it to another creature, the sword will not last as long for them.",
+            "4. Ice Creation: 1/SR; bonus action; You create a solid object of ice that is your size or smaller. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. Your ice objects are as strong as iron, but if you are not in constant contact with them, they function for only 1 minute before breaking or melting.",
             "5. The sheen of ice you generate using your Ice Armour feature gives you an additional +1 to AC.",
             "6. Cold Burst: 1/LR; bonus action; You emit a burst of cold in all directions, up to 30' in radius. Make an attack against all within the burst, dealing 1d12 + level cold damage.",
-            "7. You make an additional Intelligence-based attack as part of your Cold Burst feature's attack, and if successful, you blind foes for up to 1 minute with a layer of freezing ice. All tasks of creatures blinded in this way have double disadvantage.",
-            "8. When you use your Frost Touch feature, the damage is increased to 1d12 + level if you touch a creature, and 1d6 if you infuse a weapon. In addition, damaged targets are frozen in place (if standing on a solid surface) and cannot move from their location until they use a bonus action to break free.",
-            "9. While affected by your Ice Armour feature, you are immune to all severe cold weather conditions.",
+            "7. You make an additional attack as part of your Cold Burst feature's attack against any foes it targets, and if successful, you blind a target for up to 1 minute with a layer of freezing ice. All tasks of creatures blinded in this way have double disadvantage.",
+            "8. When you use your Frost Touch feature, the damage is increased to 1d12 + level if you touch a creature, and 1d6 if you infuse a weapon. In addition, damaged targets are frozen in place (if standing on a solid surface) and are rooted until they use a bonus action to break free.",
+            "9. While affected by your Ice Armour feature, you are immune to penalties from cold weather on your journey activities.",
             "10. When you use your Frost Touch feature, the damage is increased to 1d8 + 1d6 + level if you touch a creature, and 1d10 if you infuse a weapon."
         ]
     },
     {
-        "name": "Works Miracles",
+        "name": "Works Miracles [LAST]",
         "description": "healing others",
         "tiers": [
             "1. Healing Touch: At-will; bonus action; With a touch, you restore 1d6 hit points to any creature. This is a DC 6 Medicine check. Each time you attempt to heal the same creature, the DC increases by 3. The DC resets after that creature takes a long rest.",
             "2. Alleviate: 1/min; bonus action; You cancel or cure one disease or poison in one creature within 60' of you.",
             "3. With your approval, other creatures can touch you and regain 1d6 hit points. This healing costs them 2 hit points. A single creature can benefit from this feature only once per long rest.",
-            "4. Cheat Death: 1/LR; free action; When you would go down, you can attempt a Constitution check to resist, with a DC equal to double the CR of the foe or effect that harmed you. If successful, you do not go down and you regain 3 hit points.",
-            "5. Inspiration: 1/SR; bonus action; Through mental inspiration and the manipulation of time, one creature you choose within 30' is granted an additional, immediate bonus action, which it can take out of turn.",
+            "4. Cheat Death: 1/LR; free action; When you would go down, you can attempt a Constitution check to resist, with a DC equal to double the CR of the foe or effect that harmed you. If successful, you do not go down and instead heal 3 hit points.",
+            "5. Inspiration: 1/SR; bonus action; Through mental inspiration and the manipulation of time, one creature you choose within 30' of you is granted an additional, immediate bonus action, which it can take out of turn.",
             "6. Undo: 1/LR; bonus action; You turn back time a few seconds, effectively undoing a single creature's most recent action. That creature can then immediately repeat the same action or try something different.",
             "7. Greater Healing Touch: 1/SR; bonus action; You touch a creature and restore 50% of its maximum hit points. A single creature can benefit from this feature only once per long rest.",
-            "8. Restore Life: 1/decade; bonus action; You can attempt to restore life to a dead creature of up to CR 2, as long as the corpse is no more than a day old and is mostly intact. You can also attempt to restore life to a corpse that is much older but is especially well preserved. The difficulty of the Medicine check is equal to 6 times the CR of the creature you are attempting to restore to life. When first restored to life, a creature is dazed until they take a long rest, and all tasks they attempt have disadvantage.",
+            "8. Restore Life: 1/decade; bonus action; You can attempt to restore life to a dead creature of up to CR 2, as long as the corpse is no more than a day old and is mostly intact. You can also attempt to restore life to a corpse that is much older but is especially well-preserved. The difficulty of the Medicine check is equal to 6 times the CR of the creature you are attempting to restore to life. When first restored to life, a creature is dazed until they take a long rest, and all tasks they attempt have disadvantage.",
             "9. Your Healing Touch feature now heals 1d10 hit points.",
             "10. You can now use your Alleviate feature at-will."
         ]

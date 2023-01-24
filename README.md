@@ -44,8 +44,8 @@ Always based on dmg where possible
 - Default/more: 30%
 - Slight: 15%
 - Substantial: 60%
-- Massive: 120%
-- Barely: 7%
+- Massive: 90%
+- Barely: 1%
 
 ### Point value cheatsheet
 
