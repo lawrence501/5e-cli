@@ -475,8 +475,7 @@ func getLootSearchResults(skill string) (int, error) {
 		return 0, nil
 	}
 
-	// TODO: update to 2 average after 13*count
-	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(playerCount)) + 1), nil
+	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(2*playerCount)) + 1), nil
 }
 
 var DIE_SIZES []float64 = []float64{2.5, 3.5, 4.5, 5.5, 6.5}

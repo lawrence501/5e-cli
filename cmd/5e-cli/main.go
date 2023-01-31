@@ -72,6 +72,11 @@ var COMMAND_MAP = map[string]func() error{
 	"combat":        combat,
 	"travel":        travel,
 	"ja":            journeyActivity,
+	"feat":          feat,
+	"simple wep":    simpleWeapon,
+	"martial wep":   martialWeapon,
+	"posi enc":      positiveEncounter,
+	"language":      language,
 }
 
 func main() {

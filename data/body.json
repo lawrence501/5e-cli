@@ -1044,7 +1044,7 @@
         },
         {
             "name": "Engineered Hauberk",
-            "source": "artificer - engineer",
+            "source": "artificer - engineer (a5e)",
             "mods": [],
             "variables": [
                 {
@@ -1303,9 +1303,9 @@
             "name": "Bestial Doublet",
             "source": "ranger - beastmaster (a5e)",
             "mods": [
-                "After someone in your party scores a sub success on the Befriend Creature journey activity, you gain a random beast minion of CR 1/4. It acts of its own volition, but is an ally to you and your party. You can only have 1 at a time.",
-                "On init, the beast gains 6 temp HP. Additionally, its AC is increased by 2.",
-                "As a bonus action on your turn, you can order the beast to take a specific action on its turn. If the action involves any attacks, they add 2 to their atk and dmg rolls."
+                "After someone in your party scores a sub success on the Befriend Creature journey activity, you gain a random beast minion of CR 1/4. It acts of its own volition, but is an ally to you and your party. You can only have 1 at a time. The beast has 2 additional AC.",
+                "On init, the beast gains 6 temp HP.",
+                "As a bonus action on your turn, you can order the beast to take a specific action on its turn. If the action involves any attacks, they add 2 to their atk and dmg rolls for those atks."
             ],
             "variables": []
         },
@@ -1530,7 +1530,7 @@
                 "4. Boldness: The drinker adds 1d4 to each of their atks and saves for 1min.",
                 "5. Flight: The drinker gains 10' of fly speed for 10mins.",
                 "6. Transformation: The drinker targets themself with the Alter Self spell, which lasts for 10mins and doesn't require concentration.",
-                "Additionally, you can expend spell slots of any level to create additional elixirs as an action. When you do so, they must be of the following type:"
+                "Additionally, you can expend spell slots of any level to create an equal number of additional elixirs as an action. When you do so, they must be of the following type:"
             ],
             "variables": [
                 {
@@ -1689,6 +1689,111 @@
                 {
                     "mods": [
                         "Once on each of your turns, immediately after you hit with an atk, you can have yourself moved 5' horizontally in a direction of your choice by the swarm."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wild Chainmail",
+            "source": "ranger - wildborn (a5e)",
+            "mods": [
+                "You learn the Primal Savagery and Resistance cantrips."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Titanist Brigandine",
+            "source": "ranger - titanist (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [],
+                    "variables": [
+                        "You gain 50% resistance to fire dmg. You can safely breathe and see through smoke. You can speak with canine beasts. Your party leaves no tracks in forests unless you wish to.",
+                        "You gain 50% resistance to light and thunder dmg. You cannot be deafened. You can speak with hooved animals. Your party leaves no tracks in plains unless you wish to.",
+                        "+60' darkvision. You can speak with cave-dwelling animals. Your party leaves no tracks in caves and mountainous terrain unless you wish to.",
+                        "You gain an expertise die in aths checks to swim. +2 to your Grapple maneuver DC. You do not suffer disadv with Offence while underwater. You can breathe underwater. You can speak with marine animals and animals with tentacles. Your party leaves no tracks in aquatic or coastal terrain unless you wish to.",
+                        "You have adv on death saves. You have 50% resistance to nec dmg and dmg from effects that leech HP. You can speak with arachnid beasts. Your party leaves no tracks in swamps unless you wish to. You can cast Spider Climb at-will, though whenever you do so, you must self-inflict 1 hit die of dmg. When cast in this way, Spider Climb doesn't require concentration."
+                    ]
+                },
+                {
+                    "mods": [
+                        "As a bonus action, you can designate a creature you can see within 60' as the target of your ire until your next rest, or if you designate a new target. Whenever you take the Attack action while the target of your ire is within 60' of you, you can make a ranged spell atk against it."
+                    ],
+                    "variables": [
+                        "The spell deals 1d8 P dmg as a wolf-like figure of ash and cinders bite the target.",
+                        "The spell deals 1d8 light dmg as a bolt of lightning falls from above.",
+                        "The spell deals 1d4 B dmg as a random misfortune pelts the foe with whatever is at hand. The target also has disadv on the first atk roll it makes during its next turn.",
+                        "The spell deals 1d4 psy dmg as a haunting song wriggles through the target's consciousness. The target also cannot take reactions until the start of its next turn.",
+                        "The spell deals 1d6 P dmg as a swarm of insects bite and impale the target, and if the target is living, you gain temp HP equal to the P dmg dealt."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Trollscale Armour",
+            "source": "berserker - troll slayer (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As a bonus action 3/LR, you can acquire the fury of a troll for the next minute, or until you are knocked unconscious."
+                    ],
+                    "variables": [
+                        "While you have this fury, +1d6 fire dmg to your melee wep hits.",
+                        "While you have this fury, you gain long, sharp troll claws that are a natural wep with 1d6 S dmg and the Finesse and Dual-wielding traits. Additionally, your maneuvers have -1 exertion cost (min 1)."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You have adv on Percep checks for smell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Defiant Hauberk",
+            "source": "berserker - defiant (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain adv on saves vs divination magic.",
+                        "You gain imm to any effect that would force you to reroll a die against your will."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain an expertise die in any disadvantaged ability checks and saves.",
+                        "+2 dmg with disadvantaged atks.",
+                        "Whenever you have disadv on a d20 roll, you can spend 2 exertion to roll normally instead.",
+                        "Whenever you roll the same number on a adv/disadv d20 roll, the first wep atk you make before the end of your next turn has +1 dmg die."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Artillery Chainmail",
+            "source": "artificer - artillerist",
+            "mods": [
+                "As an action 1/LR, you can create a small or tiny eldritch cannon in an empty, horizontal surface in an adj space. A small cannon occupies its space and a tiny one can be held in one hand. You can reset this cooldown by expending a spell slot. You can only have one active cannon at a time.",
+                "The cannon is a construct minion with 18 AC and 15 HP. It is imm to psn and psy dmg, and all condis. All its ability scores are 10. If the mending spell is cast on it, it recovers 2d6 HP. It disappears when killed or after 1hr.",
+                "As a bonus action, you can activate the cannon if you are within 60' of it. As part of the same bonus action, you can direct the cannon to sprout spider-like legs and walk or climb up to 15' to an unoccupied space."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "When activated, the cannon exhales fire in a 15' cone. Each creature in the area must make a DEX save or take 2d8 fire dmg, or half as much on a pass. This ignits any flammable objs in the area that aren't worn or carried."
+                    ]
+                },
+                {
+                    "mods": [
+                        "When activated, the cannot makes a ranged spell atk against a creature or obj within 120' of it. On a hit, it deals 2d8 force dmg and the target is pushed 5' away from the cannon."
+                    ]
+                },
+                {
+                    "mods": [
+                        "When activated, the cannon emits a burst of positive energy that grants itself and all allies within 10' of it an amount of temp HP equal to 1d8 + your ability mod."
                     ]
                 }
             ]
@@ -2034,6 +2139,26 @@
                     "variables": [
                         "While you are in good standing with the leadership of your hometown (or equivalent) and are within their area of influence, creatures with a CR lower than yours that are also loyal to that authority may perform simple tasks at your request. You lose good standing with the authority if you go against their wishes.",
                         "You gain an expertise die on Persuasion checks, unless you have [harmed a creature that has surrendered/stolen from a living creature/spoken a lie] in the past 7 days, when you instead get disadvantage on Persuasion checks. Whenever you do so, you also suffer a level of strife."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Armoured Chainmail",
+            "source": "artificer - armourer",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You ignore the Strength requirements of wearing heavy armour.",
+                        "This chainmail replaces any limbs you may be missing, replacing them with armoured prosthetics."
+                    ]
+                },
+                {
+                    "mods": [],
+                    "variables": [
+                        "Your unarmed weapons have their base dmg replaced with 1d8 thunder. On unarmed wep hit, the target has disadv on atks against non-you targets until the start of your next turn. As a bonus action 2/LR, you can gain 3 temp HP.",
+                        "Your unarmed weapons become ranged weapons (90'/300') and have their base dmg replaced with 1d6 light. 1/turn, your unarmed wep hits deal +1d6 light dmg. +5' sp. You have adv on Stealth checks and ignore the Stealth penalties of wearing heavy armour."
                     ]
                 }
             ]

@@ -110,7 +110,7 @@
         {
             "name": "Occultant Band",
             "effects": [
-                "Over a period of 1min 1/SR, you can study a creature killed by someone in your party within the last 24hrs, the grant the creature who slew it a d10. Once within the next hr, that creature can add the d10 to a d20 roll.",
+                "Over a period of 1min 1/SR, you can study a creature killed by someone in your party within the last 24hrs, then grant the creature who slew it a d10. Once within the next hr, that creature can add the d10 to a d20 roll.",
                 "While touching the band 1/LR while adj to a creature killed within the past 24hrs, you can cast the Augury spell. The course of action you inquire about with the spell does not need to have any connection to the dead creature."
             ]
         },
@@ -574,6 +574,16 @@
             "effects": [
                 "You gain a STR-based natural melee weapon that projects from the ring. It deals 1d8 force dmg and has the Thrown (20'/60') trait."
             ]
+        },
+        {
+            "name": "Chronolometer",
+            "effects": [
+                "+1 to INT saves.",
+                "The first time you attune to this ring, choose a language you don't know. You know that language while attuned to the ring.",
+                "1/LR, on turn start, roll a d6. On a 1-3, you slow down time, gaining an additional standard action and doubling your speed for the turn. On a 4+, you go forward in time to warn yourself of what is to come. The next time you fail a d20 roll, you can reroll the check and take either result.",
+                "1/LR, when a creature you can see within 30' of you takes dmg, you can react to grant that creature an immediate standard action that it can take.",
+                "[CURSE] While the ring is outside of the Shimmering Library, its magic can function sporadically or with unpredictable side effects, as determined by the DM."
+            ]
         }
     ],
     "legendary": [
@@ -683,6 +693,27 @@
                 "As an action, you can expend charges to cast one of the following spells (DC 16): Charm Person (1 charge), Disintegrate (6 charges), Fear (3 charges), Finger of Death (7 charges), Flesh to Stone (6 charges), Hold Person (2 charges), Ray of Enfeeblement (2 charges), Sleep (1 charge), Slow (3 charges), or Telekinesis (5 charges).",
                 "[CURSE] When you attune to the stone, tendrils erupt from it and burrow into your flesh. You cannot remove it willingly.",
                 "[CURSE] While you are in the Colossal Tower, P'all can see through your eyes."
+            ]
+        },
+        {
+            "name": "Blackloop",
+            "effects": [
+                "Blackloop is a sentient chaotic evil ring with 17 INT, 10 WIS, and 19 CHA. It has hearing and darkvision of 120'. It communicates telepathically with its wearer, its voice deep and echoing, and can also speak/read/understand Common and any other languages you know.",
+                "Blackloop speaks with an imperious tone, as thought accustomed to being obeyed. Its purpose is to consume souls. It doesn't care whose souls it eats, including yours. The ring believes that all matter and energy sprang from a void of negative energy and will one day return to it. Blackloop is meant to hurry that process along.",
+                "On wep KB, the ring devours the target's soul, unless it is a construct or undead. A creature whose soul has been devoured by the ring can only be restored to life by the Wish spell.",
+                "Whenever the ring devours a soul, you gain temp HP equal to the creature's max HP. While you have this temp HP, you also have adv on any d20 rolls.",
+                "You are aware of the presence of any creatures within 60' of you that are not constructs or undead.",
+                "You cannot be charmed or frightened.",
+                "The ring can cast Haste 1/LR. It decides when to cast the spell and has its own concentration for it.",
+                "[CURSE] On wep hit vs undead, you take 1d10 nec dmg and the undead heals 1d10 HP. If this nec dmg reduces you to 0 HP, the ring devours your soul.",
+                "[CURSE] If the ring goes 3+ days without consuming any souls, a conflict between it and you occurs during your next long rest."
+            ]
+        },
+        {
+            "name": "Talarith",
+            "effects": [
+                "+1d6 force dmg to your wep hits.",
+                "1/SR, as an action, you can summon a golem minion that looks identical to you. The golem has the same statistics as you, including all of your equipment, except for this ring. The golem vanishes if it reaches 0 HP, or after 1hr."
             ]
         }
     ],

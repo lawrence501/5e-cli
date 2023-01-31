@@ -11,6 +11,7 @@
         "Bored traveller ($gender $race): wants to play a game of Marco Polo. stealth vs prof perception, last 2 players remaining will be rewarded",
         "Generous traveller ($gender $race): gives all players a reward for free",
         "Bored traveller ($gender $race): each player must give a number from 1 to 99, then DM rolls 1d100. The two players who get below their roll but the highest numbers are rewarded.",
-        "Skillmaster ($gender $race): wants all players to show their skill in $skill, rewards anyone who passes DC 13"
+        "Skillmaster ($gender $race): wants all players to show their skill in $skill, rewards anyone who passes DC 13",
+        "Linguist ($gender $race): will say a sentence in random languages until at least 1 party member understands the language, then he will reward all understanders"
     ]
 }

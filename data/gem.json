@@ -227,8 +227,8 @@
         "tags": ["weapon class", "crit"]
     },
     {
-        "description": "the first time you atk each combat with a {weaponClass} wep, 20% chance for {weaponClass} weps to rain from the sky around the target - make a glyphic {weaponClass} atk against all foes within 5' of the target, including them, dealing 1d4 base type on hit",
-        "upgrade": "+10%/1 OR +1 dmg/1",
+        "description": "the first time you atk each combat with a {weaponClass} wep, {weaponClass} weps rain from the sky around the target - make a glyphic {weaponClass} atk against all foes within 5' of the target, dealing 1d4 base type on hit",
+        "upgrade": "+1/1",
         "tags": ["weapon class"]
     },
     {
@@ -417,8 +417,8 @@
         "tags": ["minion off"]
     },
     {
-        "description": "on summoning a minion, 20% chance to gain +15' sp until end of the turn",
-        "upgrade": "+10%/1 OR +10'/1",
+        "description": "on summoning a minion, gain +5' sp until end of the turn",
+        "upgrade": "+5'/1",
         "tags": ["minion off", "minion def", "speed"]
     },
     {
@@ -533,8 +533,8 @@
         "tags": ["melee", "minion off", "minion def"]
     },
     {
-        "description": "on spell cast, 20% chance to call down a bolt of magic on the target, an atk dealing 1d4 spell {dmgType} dmg",
-        "upgrade": "+10%/1 OR +1 dmg/1",
+        "description": "on spell cast, call down a bolt of magic on the target, a glyphic atk dealing 1d4 {dmgType} dmg",
+        "upgrade": "+1/1",
         "tags": ["spell dmg", "type dmg"],
         "meta": "shaman - lagon's answer"
     },
@@ -994,8 +994,8 @@
         "tags": ["minion off"]
     },
     {
-        "description": "on KB, 20% chance to conjure a Vine, a stationary CR 1/4 minion that deals $physType dmg",
-        "upgrade": "+10%/1 OR +1 CR/4",
+        "description": "on KB, conjure a Vine from the corpse, a stationary CR 1/8 minion with 30' reach that deals $physType dmg",
+        "upgrade": "+1 CR/2",
         "tags": ["minion off", "minion def"]
     },
     {
@@ -2468,5 +2468,189 @@
         "upgrade": "+1/1",
         "tags": ["hp"],
         "meta": "rogue - DONE"
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "on melee sub hit, target is debilitated until end of their next turn",
+        "upgrade": "+1 melee AB/4",
+        "tags": ["melee", "debuff"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+5 {type} barrier",
+        "upgrade": "+5/1",
+        "tags": ["type barrier"]
+    },
+    {
+        "description": "+1 passive regen",
+        "upgrade": "+1/3",
+        "tags": ["hp"]
+    },
+    {
+        "description": "1/turn, when sub hit, strike out around you, making a wep atk against all adj foes that deals 1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "type dmg"]
+    },
+    {
+        "description": "+1 global dmg",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 to debuff saves",
+        "upgrade": "+1/4",
+        "tags": ["save"]
+    },
+    {
+        "description": "+3 phys barrier",
+        "upgrade": "+2/1",
+        "tags": ["phys barrier"]
+    },
+    {
+        "description": "+3 dmg barrier vs adj foes",
+        "upgrade": "+2/1",
+        "tags": ["phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "+2 dmg barrier",
+        "upgrade": "+1/1",
+        "tags": ["phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "+1 $hitForm AC",
+        "upgrade": "+1/4",
+        "tags": ["ac"],
+        "meta": "sentinel - gladiator"
+    },
+    {
+        "description": "+5' to your teleport distances",
+        "upgrade": "+5'/1",
+        "tags": ["speed"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "+1 melee crit range",
+        "upgrade": "+1/4",
+        "tags": ["melee", "crit"]
+    },
+    {
+        "description": "on basic wep hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "hp"]
+    },
+    {
+        "description": "on cantrip hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["spell dmg", "hp"]
+    },
+    {
+        "description": "on sub block, heal 2 HP",
+        "upgrade": "+1/1",
+        "tags": ["ac", "hp"],
+        "meta": "sentinel - aegis of renewal"
+    },
+    {
+        "description": "on sub hit, throw a bolt of power at the nearest foe (you choose tiebreaks), making a wep atk that deals 1d4 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["proj", "wep dmg", "type dmg"]
+    },
+    {
+        "description": "+1 global dmg while holding a {weaponClass} wep",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg", "weapon class"],
+        "meta": "sentinel - DONE"
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "+1 to {ability} saves",
+        "upgrade": "+1/1->3",
+        "tags": ["save"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+2 dmg barrier",
+        "upgrade": "+1/1",
+        "tags": ["phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "+1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "+1 proj dmg",
+        "upgrade": "+1/1",
+        "tags": ["proj"]
+    },
+    {
+        "description": "+5' sp",
+        "upgrade": "+5'/2",
+        "tags": ["speed"]
+    },
+    {
+        "description": "every 4th unique power you use deals +4 dmg",
+        "upgrade": "+4/1",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your proj hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "proj"]
+    },
+    {
+        "description": "if you've been hit since your last turn, +1->3 to {ability} saves",
+        "upgrade": "+1->2/1",
+        "tags": ["save"]
+    },
+    {
+        "description": "+1 DoT dmg",
+        "upgrade": "+1/1",
+        "tags": ["dot"]
+    },
+    {
+        "description": "on sub hit while holding a {weaponClass} wep, target is inflicted with a DoT dealing 1 {type} dmg, stacking until CON save",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "dot", "type dmg"]
+    },
+    {
+        "description": "on summoning a minion, heal 1 HP",
+        "upgrade": "+1/1",
+        "tags": ["minion off", "minion def", "hp"],
+        "meta": "bladedancer - skiasynthesis"
     }
 ]

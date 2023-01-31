@@ -903,7 +903,7 @@
         "setBonuses": [
           {
             "ally": "Eva",
-            "effect": "aliies within 60' of you have +1 global dmg vs targets you didn't target offensively during your last turn",
+            "effect": "allies within 60' of you have +1 global dmg vs targets you didn't target offensively during your last turn",
             "upgrade": "+1"
           },
           {

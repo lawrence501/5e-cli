@@ -1012,7 +1012,7 @@
             "name": "Iceborn Subjugation",
             "startingMods": [
                 {
-                    "description": "whenever an adj creature dies, you raise their corpse as a Frozen Thrall, a CR 1/8 undead minion that deals cold dmg",
+                    "description": "whenever an adj creature dies, you raise their corpse as a Frozen Thrall, a CR 1/8 undead minion that deals cold dmg. Max 1 at a time",
                     "pointValue": "3",
                     "upgrade": "+1/3"
                 },
@@ -2241,12 +2241,12 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "on sub axe hit, +1 to debuff saves",
+                    "description": "on sub axe hit, +1 to debuff saves until the end of your next turn",
                     "pointValue": "3",
                     "upgrade": "+1/3"
                 },
                 {
-                    "description": "on sub axe hit, all foes within 60' of you are pushed 5' toward you",
+                    "description": "on sub axe hit, all foes within 60' of you are pushed 5' towards you",
                     "pointValue": "3",
                     "upgrade": "+5'/3"
                 }
@@ -3390,7 +3390,7 @@
             "name": "Sol",
             "startingMods": [
                 {
-                    "description": "+3 to your min wep dmg die rolls",
+                    "description": "+2 to your min wep dmg die rolls",
                     "pointValue": "2",
                     "upgrade": "+1/1"
                 },
@@ -3400,7 +3400,7 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "-3 to max wep dmg die rolls from incoming hits",
+                    "description": "-2 to max wep dmg die rolls from incoming hits",
                     "pointValue": "-2",
                     "upgrade": "-1/1"
                 }
@@ -5039,6 +5039,222 @@
                     "description": "10. when one of your debuffs that has been active for at least 1 rnd ends on a creature, that creature is charmed by you until the end of their next turn",
                     "pointValue": "1",
                     "upgrade": "+1 to your ongoing debuff DCs/4"
+                }
+            ]
+        },
+        {
+            "name": "Aspect of the Protector",
+            "startingMods": [
+                {
+                    "description": "+1 passive temp HP gen",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+10 dmg barrier vs undead creatures",
+                    "pointValue": "2",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "+1 AC vs undead creatures",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 persuasion",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 to debuff saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. +1 spell AC vs the first incoming atk each rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 passive regen",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "6. +1 deception",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. after an undead creature dmgs your temp HP, you increase your temp HP by 4",
+                    "pointValue": "2",
+                    "upgrade": "+2->1/1"
+                },
+                {
+                    "description": "8. +1 wep AC vs the first incoming atk each rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "9. +1 to death saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "10. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Fewmet Leather",
+            "startingMods": [
+                {
+                    "description": "+10 psn barrier",
+                    "pointValue": "2",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "1/turn, on atk, all adj foes are inflicted with a DoT dealing 1 psn dmg, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+2 spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. +3 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "3. levelling relics costs 4gp less",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "4. +5 acid barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "5. +5 nec barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "6. +3 to your thorns dmg",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "7. 1/turn, on atk, all adj foes receive your dmg thorns",
+                    "pointValue": "3",
+                    "upgrade": "+3->2 dmg thorns/1"
+                },
+                {
+                    "description": "8. 1/turn, on atk, make a glyphic atk against all adj foes, dealing 1d4 acid dmg on hit",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. 1/turn, on atk, make a glyphic atk against all adj foes, dealing 1d4 nec dmg on hit",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. 1/turn, on atk, all adj foes are psn'd until the end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+3->2 dmg barrier vs creatures debuffed by you/1"
+                }
+            ]
+        },
+        {
+            "name": "Case of the Diamond",
+            "startingMods": [
+                {
+                    "description": "+1 incoming healing",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "when healed, +5 dmg barrier until the end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "+1 passive regen",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. -1 investigation for finding loot; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. +1 AC while healthy",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. when healed while healthy, teleport 10' in a random dir",
+                    "pointValue": "3",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "4. when healed while bloodied, teleport 10' in a random dir",
+                    "pointValue": "3",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "5. +2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on block, heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. +1 AC vs unarmoured creatures",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. +1 AC while you have global dmg barrier",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "9. when dmg'd, heal 2 HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +5' touch spell reach",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
                 }
             ]
         }

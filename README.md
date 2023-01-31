@@ -3,6 +3,26 @@ Golang CLI helper for my D&amp;D 5e campaigns
 
 ## Loot Rules
 
+### Sell values
+
+- Mundane: 5gp
+- Body: 20gp
+- Tome: 10gp
+- Amulet: 1gp
+- Relic: 60gp
+
+### Relic level costs
+
+2. 20
+3. 30
+4. 50
+5. 80
+6. 120
+7. 170
+8. 230
+9. 300
+10. 400
+
 ### Relic generation
 
 1. 1st base affix
@@ -180,7 +200,7 @@ While riding your mount, your AC increases by 1.
     - When a crystal is generated, its power is randomly chosen from the contained creature's powers (respecting cooldowns, etc)
     - Combine a crystal with another of the same type to increase its CR by 1
     - When a crystal is tiered up, you can choose to keep the existing creature (though it will gain no benefits from the tier up)
-    - Smash together 2 crystals to generate a new crystal of a type that wasn't smashed
+    - Smash together 2 crystals to generate a new crystal of a type that a player is using (if anyone has none, can be anything)
     - 10% chance each turn per player to "flare", using its power. Calc on combat start with script, don't tell players other than telling them when they flare
     - The crystals count as the wearer's minions for the sake of their powers, but whenever they reference themselves, they affect the player instead
 

@@ -159,6 +159,15 @@ var randomEncounter = func() error {
 	return nil
 }
 
+var positiveEncounter = func() error {
+	allEncounters, err := fetchEncounters()
+	if err != nil {
+		return err
+	}
+	log.Println(processMod(allEncounters.Positive[rand.Intn(len(allEncounters.Positive))]))
+	return nil
+}
+
 var insight = func() error {
 	socialP := promptui.Prompt{
 		Label:    "Social bonus of speaker",
@@ -358,7 +367,11 @@ var travel = func() error {
 			if err != nil {
 				return err
 			}
-			log.Printf("%d. Random encounter: %s\n", event, encounter)
+			ambush := ""
+			if event >= 5 {
+				ambush = "(NIGHT AMBUSH)"
+			}
+			log.Printf("%d. Random encounter %s: %s\n", event, ambush, encounter)
 			event++
 		}
 
@@ -482,5 +495,25 @@ var activity = func() error {
 
 var tag = func() error {
 	log.Printf("Gem tag: %s", GEM_TAGS[rand.Intn(len(GEM_TAGS))])
+	return nil
+}
+
+var feat = func() error {
+	log.Printf("Feat: %s", FEATS[rand.Intn(len(FEATS))])
+	return nil
+}
+
+var simpleWeapon = func() error {
+	log.Printf("Simple Weapon: %s", SIMPLE_WEAPONS[rand.Intn(len(SIMPLE_WEAPONS))])
+	return nil
+}
+
+var martialWeapon = func() error {
+	log.Printf("Martial Weapon: %s", MARTIAL_WEAPONS[rand.Intn(len(MARTIAL_WEAPONS))])
+	return nil
+}
+
+var language = func() error {
+	log.Printf("Language: %s", LANGUAGES[rand.Intn(len(LANGUAGES))])
 	return nil
 }
