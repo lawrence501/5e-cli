@@ -1182,7 +1182,7 @@
         "tags": ["armour"]
     },
     {
-        "description": "+1 $dmgType abs",
+        "description": "+2 $dmgType res",
         "pointValue": "1",
         "upgrade": "1/1",
         "tags": ["armour"]

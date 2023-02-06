@@ -143,7 +143,7 @@
     "name": "Primordial Elementals",
     "amulets": [
       {
-        "name": "Kher'evo's Hunger'",
+        "name": "Kher'evo's Hunger",
         "effect": "on hit, heal 2 HP",
         "upgrade": "+5 max HP",
         "setBonuses": [
@@ -218,8 +218,8 @@
           },
           {
             "ally": "The Primordial",
-            "effect": "when downed, +1 non-phys abs until LR",
-            "upgrade": "+1"
+            "effect": "when downed, +2 non-phys res until LR",
+            "upgrade": "+2"
           }
         ]
       },
@@ -245,14 +245,14 @@
           },
           {
             "ally": "The Primordial",
-            "effect": "-2 non-phys abs on odd turns, +4 non-phys abs on even turns",
-            "upgrade": "-2 and +4"
+            "effect": "+2 non-phys dmg taken on odd turns, +4 non-phys res on even turns",
+            "upgrade": "+2 and +4"
           }
         ]
       },
       {
         "name": "The Primordial's Origin",
-        "effect": "+1 non-phys abs",
+        "effect": "+2 non-phys res",
         "upgrade": "+5 non-phys barrier",
         "setBonuses": [
           {
@@ -267,13 +267,13 @@
           },
           {
             "ally": "Pherousa",
-            "effect": "when downed, +1 non-phys abs until LR",
-            "upgrade": "+1"
+            "effect": "when downed, +2 non-phys res until LR",
+            "upgrade": "+2"
           },
           {
             "ally": "Mother",
-            "effect": "-2 non-phys abs on odd turns, +4 non-phys abs on even turns",
-            "upgrade": "-2 and +4"
+            "effect": "+2 non-phys dmg taken on odd turns, +4 non-phys res on even turns",
+            "upgrade": "+2 and +4"
           }
         ]
       }
@@ -1000,7 +1000,7 @@
         ]
       },
       {
-        "name": "Godworms' Hunger",
+        "name": "Godworms' Drive",
         "effect": "1/SR, on hit, dominate target until end of their next turn",
         "upgrade": "creatures dominated by you have +2 dmg taken",
         "setBonuses": [

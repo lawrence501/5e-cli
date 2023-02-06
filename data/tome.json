@@ -114,7 +114,7 @@
     {
         "name": "Assassination",
         "target": "powers that can deal dmg",
-        "description": "The power deals substantially more dmg against bosses."
+        "description": "The power deals more dmg against bosses."
     },
     {
         "name": "Focused Power",
@@ -330,7 +330,7 @@
     {
         "name": "Volatile Obstacles",
         "target": "powers that form objs or structs and can deal dmg",
-        "description": "When an obj or struct formed by the power expires, it erupts in a staggering explosion. All foes adj to the entity are staggered until the end of your next turn. The power deals massively less damage."
+        "description": "When an obj or struct formed by the power is destroyed, it erupts in a staggering explosion. All foes adj to the entity are staggered until the end of your next turn. The power deals massively less damage."
     },
     {
         "name": "Building Ailments",
@@ -1459,7 +1459,7 @@
     {
         "name": "Cruel Summons",
         "target": "powers that have multiple static minion summoning options",
-        "description": "As an action, the second minion option can shoot an energy bolt at a creature within 120', making a wep atk that deals substantially less $physType dmg and substantially less $nonPhysType dmg and inflicts a DoT dealing barely any $nonPhysType dmg, stacking until DEX save."
+        "description": "As an action, the second minion option can shoot an energy bolt at a creature within 120', making a wep atk that deals barely any $physType dmg and barely any $nonPhysType dmg, and inflicts a DoT dealing barely any $nonPhysType dmg, stacking until DEX save."
     },
     {
         "name": "Splitting Summons",
@@ -1680,7 +1680,7 @@
     },
     {
         "name": "Rejuvenating Channelling",
-        "target": "powers require concentration",
+        "target": "powers that require concentration",
         "description": "While concentrating on the power, you gain barely any passive regen."
     },
     {
@@ -1963,8 +1963,8 @@
     },
     {
         "name": "Mobile Technique",
-        "target": "powers that move you",
-        "description": "At the end of the power's movement, you can immediately use a maneuver with a usage time of 1 action, spending its exertion cost as usual."
+        "target": "powers that move you and deal damage",
+        "description": "At the end of the power's movement, you can immediately use a maneuver with a usage time of 1 action, spending its exertion cost as usual. Additionally, the power deals less dmg."
     },
     {
         "name": "Incubating Warding",
@@ -1978,13 +1978,13 @@
     },
     {
         "name": "Mobile Magic",
-        "target": "powers that move you",
-        "description": "At the end of the power's movement, you can immediately cast a spell with a casting time of 1 action, spending spell slots as usual."
+        "target": "powers that move you and deal damage",
+        "description": "At the end of the power's movement, you can immediately cast a spell with a casting time of 1 action, spending spell slots as usual. Additionally, the power deals less dmg."
     },
     {
         "name": "Magic Mobility",
-        "target": "powers that move you",
-        "description": "In the middle of the power's movement, you can immediately cast a spell with a casting time of 1 action, spending spell slots as usual."
+        "target": "powers that move you and deal damage",
+        "description": "At the halfway point of the power's movement, you can immediately cast a spell with a casting time of 1 action, spending spell slots as usual. Additionally, the power deals less dmg."
     },
     {
         "name": "Erratic Power",
@@ -2320,8 +2320,160 @@
         "description": "The power's sphere areas are replicated, once immediately beyond its usual area from you, and once immediately before its usual area, closer to you. A creature can only be affected by a single area. Additionally, the power deals more dmg and its cost is increased by 1 step."
     },
     {
-        "name": "Fanning Penetration [acid flask DONE]",
+        "name": "Fanning Penetration",
         "target": "powers with line areas that originate from you",
         "description": "The power's line areas now run perpendicular to you, up to a distance away from you equal to the line's length."
+    },
+    {
+        "name": "Great Power",
+        "target": "any power",
+        "description": "The power's hits deals additional $nonPhysType dmg while you are holding a 2h wep.",
+        "meta": "Warpath"
+    },
+    {
+        "name": "Echoing Mobility",
+        "target": "powers that move you and deal damage",
+        "description": "At the end of the power's movement, an illusory clone of you appears at the movement's halfway point that uses the power again without moving. This usage scales with your minion stats instead of your own. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Close Cruelty",
+        "target": "powers with a melee range",
+        "description": "The power deals more dmg against bloodied targets."
+    },
+    {
+        "name": "Summoning Mobility",
+        "target": "powers that move you",
+        "description": "At the end of the power's movement, you summon a Flying Sword, a CR 1/8 construct minion with a fly (hover) speed."
+    },
+    {
+        "name": "Mobile Summoning",
+        "target": "powers with line areas that originate from you",
+        "description": "At the halfway point of the power's movement, you summon a Flying Sword, a CR 1/8 construct minion with a fly (hover) speed."
+    },
+    {
+        "name": "Incubating Mobility",
+        "target": "powers that move you",
+        "description": "At the end of the power's movement, you unleash a circular attack, making a wep atk against all foes in a radius equal to half the distance the power moved you. The atk deals slight $physType dmg."
+    },
+    {
+        "name": "Exposed Efficiency",
+        "target": "powers with a non-cooldown resource cost that require concentration",
+        "description": "The power's cost is reduced by 1 step, but you have slgihtly increased non-phys dmg taken while concentrating on it."
+    },
+    {
+        "name": "Massive Channeling",
+        "target": "powers with an area that require concentration and have a non-cooldown resource cost",
+        "description": "At the start of each of your turns while concentrating on the power, the power gains slightly more dmg and more area, stacking until you lose concentration on it. Additionally, the power's cost is increased by 1 step."
+    },
+    {
+        "name": "Enduring Exsanguination",
+        "target": "any power",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing 0 $physType dmg, stacking until CON save. Additionally, any debuffs the power applies have +1 to their ongoing DCs."
+    },
+    {
+        "name": "Cruel Combat",
+        "target": "powers with a melee range",
+        "description": "The power deals barely increased dmg against debuffed targets. Additionally, any debuffs the power apply have +1 effectiveness."
+    },
+    {
+        "name": "Channeled Magic",
+        "target": "powers that require concentration",
+        "description": "While concentrating on the power, your spell hits deal more dmg."
+    },
+    {
+        "name": "Magical Channeling",
+        "target": "powers that require concentration and deal damage",
+        "description": "At the start of each of your turns while concentrating on the power, you can immediately cast a spell with a casting time of 1 action, spending spell slots as usual. Additionally, the power deals massively less dmg."
+    },
+    {
+        "name": "Channeled Healing",
+        "target": "powers that require concentration",
+        "description": "At the start of each of your turns while concentrating on the power, you and allies within the power's area are healed barely any HP."
+    },
+    {
+        "name": "Mobile Decay",
+        "target": "powers that move you",
+        "description": "As the power moves you, you leave behind a trail of energy whenever you exit a space that lasts for the remainder of combat. The trail is a persistent area that only affects foes and inflicts a DoT dealing barely any $nonPhysType dmg, stacking until DEX save."
+    },
+    {
+        "name": "Offence",
+        "target": "any power",
+        "description": "The power deals more dmg while you are either holding a 2h wep or dual-wielding."
+    },
+    {
+        "name": "Great Mass",
+        "target": "any power",
+        "description": "The power has increased area while you are holding a 2h wep."
+    },
+    {
+        "name": "Great Recovery",
+        "target": "powers with a non-cooldown resource cost that require concentration and deal damage",
+        "description": "At the start of each of your turns while concentrating on the power, recover 1 unit of the power's cost if you are holding a 2h wep. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Channeled Defence",
+        "target": "powers that require concentration",
+        "description": "While concentrating on the power, you gain +1 AC and a slight amount of dmg barrier."
+    },
+    {
+        "name": "Keen Healing",
+        "target": "powers that require concentration",
+        "description": "Whenever the power crits, you heal a slight amount of HP.",
+        "meta": "Flurry"
+    },
+    {
+        "name": "Powerful Incubation",
+        "target": "single-target powers with multiple hits in the same action",
+        "description": "The power's first two hits deal less dmg, but the third deals massively more dmg."
+    },
+    {
+        "name": "Flurried Slowing",
+        "target": "single-target powers with multiple hits in the same action",
+        "description": "The power's third hit inflicts slow until the end of your next turn."
+    },
+    {
+        "name": "Close Waves",
+        "target": "powers with a melee range",
+        "description": "Whenever the power hits, a wave of power follows through, making a wep atk against any foes in the space on the other side of the target, dealing $physType dmg on a hit."
+    },
+    {
+        "name": "Length",
+        "target": "powers with line areas",
+        "description": "The power has more area."
+    },
+    {
+        "name": "Varied Affliction",
+        "target": "single-target powers with multiple hits in the same action that deal damage",
+        "description": "The power's first hit inflicts a DoT dealing slight $nonPhysType dmg, stacking until CON save. The power's second hit inflicts a DoT dealing barely any $physType dmg, stacking until CON save. The power's third hit gives the target barely increased {nonPhysType} and {physType} dmg taken until the end of your next turn. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Relentless Alacrity",
+        "target": "powers that deal damage",
+        "description": "If you hit with the power during your last turn, the power's usage time is reduced by 1 step. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Relentless Power",
+        "target": "powers with an accuracy component",
+        "description": "If you hit with the power during your last turn, the power deals more dmg and its usage time is reduced by 1 step. Additionally, the power has -2 Accuracy."
+    },
+    {
+        "name": "Relentless Exsanguination",
+        "target": "any power",
+        "description": "If you hit with the power during your last turn, the power's hits inflict a DoT dealing slight $nonPhysType dmg, stacking until CON save."
+    },
+    {
+        "name": "Enduring Boons",
+        "target": "any power",
+        "description": "Any 1rnd duration buffs the power grants you last 1 additional round."
+    },
+    {
+        "name": "Brief Boons",
+        "target": "any power",
+        "description": "Any 1rnd duration buffs the power grants you have +1 effectiveness."
+    },
+    {
+        "name": "Relentless Assassination [next - alacrity]",
+        "target": "any power",
+        "description": "If you hit with the power during your last turn, the power deals more dmg against bosses."
     }
 ]

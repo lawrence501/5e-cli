@@ -155,6 +155,12 @@
             "effects": [
                 "+1 spell AB."
             ]
+        },
+        {
+            "name": "Slumbering Dragon-Touched Focus",
+            "effects": [
+                "You have adv on init."
+            ]
         }
     ],
     "rare": [
@@ -584,6 +590,16 @@
                 "1/LR, when a creature you can see within 30' of you takes dmg, you can react to grant that creature an immediate standard action that it can take.",
                 "[CURSE] While the ring is outside of the Shimmering Library, its magic can function sporadically or with unpredictable side effects, as determined by the DM."
             ]
+        },
+        {
+            "name": "Loop of the Veil",
+            "effects": [
+                "+2 WIS and WIS max.",
+                "+60' darkvision.",
+                "You have adv on percep checks to find hidden doors and paths.",
+                "[CURSE] All non-magical flames within 30' of you automatically extinguish.",
+                "[CURSE] Your fire dmg is halved."
+            ]
         }
     ],
     "legendary": [
@@ -714,6 +730,13 @@
             "effects": [
                 "+1d6 force dmg to your wep hits.",
                 "1/SR, as an action, you can summon a golem minion that looks identical to you. The golem has the same statistics as you, including all of your equipment, except for this ring. The golem vanishes if it reaches 0 HP, or after 1hr."
+            ]
+        },
+        {
+            "name": "Loop of Telepathy",
+            "effects": [
+                "You can cast Scrying (save DC 17) at-will.",
+                "While scrying with the loop, you can communicate telepathically with creatures you can see within 30' of the spell's sensor. As an action 1/LR, you can also cast Suggestion (DC 17) through the sensor on one of those creatures. You don't need to concentrate on Suggestion when it is cast in this way, though it ends if the Scrying ends."
             ]
         }
     ],

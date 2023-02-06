@@ -552,55 +552,25 @@
         {
             "name": "Stewarding Vest",
             "source": "savant - steward",
-            "mods": [],
-            "variables": [
-                {
-                    "mods": [
-                        "You gain an expertise die in Persuasion.",
-                        "You gain proficiency in Sylvan."
-                    ]
-                },
-                {
-                    "mods": [
-                        "As a bonus action, you can communicate one of your features to a creature of your choice who can understand you within 10' of you. Before the end of your next turn, the first time that feature would be relevant for the target, it affects them as if it were their feature (still using your abilities for any calculations). If the feature has a cooldown or resource cost, you expend it as usual even if only the target benefits from the feature."
-                    ]
-                }
+            "mods": [
+                "As a bonus action, you can communicate one of your features to a creature of your choice who can understand you within 10' of you. Before the end of your next turn, the first time that feature would be relevant for the target, it affects them as if it were their feature (still using your abilities for any calculations). If the feature has a cooldown or resource cost, you expend it as usual even if only the target benefits from the feature."
             ]
         },
         {
             "name": "Vocal Tunic",
             "source": "savant - vox",
-            "mods": [],
-            "variables": [
-                {
-                    "mods": [
-                        "You gain an expertise die in Insight.",
-                        "You gain proficiency in Infernal."
-                    ]
-                },
-                {
-                    "mods": [
-                        "As an action, you can trigger any effects that would usually trigger from a melee wep atk/hit on a creature that can understand you within 30'."
-                    ]
-                }
-            ]
+            "mods": [
+                "As an action, you can trigger any effects that would usually trigger from a melee wep atk/hit on a creature that can understand you within 30'."
+            ],
+            "variables": []
         },
         {
             "name": "Scouting Raiment",
             "source": "rogue - scout",
-            "mods": [],
-            "variables": [
-                {
-                    "mods": [
-                        "You can move up to half your speed as a reaction when a hostile creature ends its turn adj to you. This movement does not provoke opp atks."
-                    ]
-                },
-                {
-                    "mods": [
-                        "You gain a d6 expertise die in Nature and Survival."
-                    ]
-                }
-            ]
+            "mods": [
+                "You can move up to half your speed as a reaction when a hostile creature ends its turn adj to you. This movement does not provoke opp atks."
+            ],
+            "variables": []
         },
         {
             "name": "Soulful Jerkin",
@@ -1797,6 +1767,25 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Knowledgeable Ringmail",
+            "source": "cleric - knowledge",
+            "mods": [
+                "You become proficient in Sylvan and Primordial."
+            ],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain a d6 expertise die in History and Nature."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain a d6 expertise die in Arcana and Religion."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [
@@ -2162,6 +2151,40 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Forged Plate",
+            "source": "cleric - forge",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "On LR end, you can touch a body armour to grant it +1 AC until the end of your next long rest or your death."
+                    ]
+                },
+                {
+                    "mods": [
+                        "On LR end, you can touch a weapon to grant it +1 to atk and dmg rolls, and cause its physical dmg to be considered magical, until the end of your next long rest or your death."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sharpshooting Plate",
+            "source": "fighter - sharpshooter (a5e)",
+            "mods": [
+                "You do not get disadv on ranged atks due to being adj to a foe or atking at long range.",
+                "Your ranged wep atks ignore half and three-quarters cover."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Technological Plate",
+            "source": "fighter - gadgeteer (a5e)",
+            "mods": [
+                "At the end of a rest, you can craft a random uncommon wondrous item."
+            ],
+            "variables": []
         }
     ]
 }

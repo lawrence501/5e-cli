@@ -1110,10 +1110,10 @@
         "tags": ["hp"]
     },
     {
-        "description": "+1 {type} abs",
+        "description": "+2 {type} res",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "tags": ["type", "defence", "hp"]
+        "tags": ["type", "defence"]
     },
     {
         "description": "+3 dmg barrier while you have temp HP",

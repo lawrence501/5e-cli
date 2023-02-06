@@ -498,7 +498,7 @@
                     "upgrade": "+1/3"
                 },
                 {
-                    "description": "10. +1 fire abs",
+                    "description": "10. +2 fire res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 }
@@ -1589,17 +1589,17 @@
             "startingMods": [
                 {
                     "description": "as bonus, you can make an Arcana check of DC 15. On succ, gain 1 strife",
-                    "pointValue": "-4",
-                    "upgrade": "+1 DC/1 OR +1 strife and 5pts distributed/1"
+                    "pointValue": "-2",
+                    "upgrade": "-1 DC and 2pts distributed/1 OR +1 strife and 6pts distributed/1"
                 },
                 {
-                    "description": "on passing this item's Arcana check, gain +7 to a skill of your choice until end of your next turn",
-                    "pointValue": "6",
+                    "description": "on passing this item's Arcana check, gain +6 to a skill of your choice until end of your next turn",
+                    "pointValue": "5",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "creatures debuffed by you have +4 dmg taken",
-                    "pointValue": "4",
+                    "description": "creatures debuffed by you have +3 dmg taken",
+                    "pointValue": "3",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1759,7 +1759,7 @@
                     "upgrade": "+1 psn dmg/1"
                 },
                 {
-                    "description": "3. +1 psn abs",
+                    "description": "3. +2 psn res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
@@ -2375,6 +2375,150 @@
                     "upgrade": "-1/1"
                 }
             ]
+        },
+        {
+            "name": "The Peacemaker",
+            "startingMods": [
+                {
+                    "description": "+1 crit range while holding a 2h wep",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+2 wep dmg while holding a 2h wep",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 wep dmg while holding a ranged wep",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 wep dmg while dual-wielding",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +2 wep dmg vs bloodied targets while holding a ranged wep",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 crit range while dual-wielding",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 crit range while holding a ranged wep",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. you cannot hold 2h weps; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 dmg with 1h weps and 2pts distributed/1"
+                },
+                {
+                    "description": "6. your minions have half duration; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 multi and 3pts distributed/1"
+                },
+                {
+                    "description": "7. +1 crit dice while holding a ranged wep",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "8. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. +1 dmg with 2h weps",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Slumbering Dragon's Wrath",
+            "startingMods": [
+                {
+                    "description": "on wep crit, all foes adj to target take 2 wep thunder dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 thunder dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 wep crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 thunder AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +5' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "3. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1 crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +1 wep crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. +10' swim sp",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "8. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "9. +1 to thunder DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. +1 thunder crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ],
     "armour": [
@@ -2486,7 +2630,7 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "4. +1 force abs",
+                    "description": "4. +2 force res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
@@ -2558,9 +2702,9 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "4. +1 phys abs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
+                    "description": "4. +1 phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 },
                 {
                     "description": "5. +1 to your debuff DCs",
@@ -2588,9 +2732,9 @@
                     "upgrade": "+1 and 2pts distributed/1"
                 },
                 {
-                    "description": "10. +1 dmg abs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
+                    "description": "10. +1 dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 }
             ]
         },
@@ -2908,9 +3052,9 @@
                     "upgrade": "-1 and 2pts distributed/1"
                 },
                 {
-                    "description": "2. +1 phys abs",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
+                    "description": "2. +1 phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 },
                 {
                     "description": "3. +1 global dmg",
@@ -3057,9 +3201,9 @@
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "3. +1 dmg abs",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
+                    "description": "3. +1 dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 },
                 {
                     "description": "4. +1 to initial debuff saves",
@@ -3422,7 +3566,7 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "4. +1 wep dmg abs",
+                    "description": "4. +1 phys res",
                     "pointValue": "2",
                     "upgrade": "+1/2"
                 },
@@ -4018,7 +4162,7 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "8. +1 cold abs",
+                    "description": "8. +2 cold res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
@@ -4199,7 +4343,7 @@
             ],
             "thematicMods": [
                 {
-                    "description": "1. +1 psn abs",
+                    "description": "1. +2 psn res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
@@ -4460,9 +4604,9 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "10. -1 non-phys abs; 4pts distributed",
+                    "description": "10. +1 non-phys dmg taken; 3pts distributed",
                     "pointValue": "1",
-                    "upgrade": "-1 and 4pts distributed/1"
+                    "upgrade": "+1 and 3pts distributed/1"
                 }
             ]
         },
@@ -5255,6 +5399,150 @@
                     "description": "10. +5' touch spell reach",
                     "pointValue": "3",
                     "upgrade": "+5'/3"
+                }
+            ]
+        },
+        {
+            "name": "Aspect of the Battle Bear",
+            "startingMods": [
+                {
+                    "description": "while shapeshifted, +5 dmg barrier",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "while bloodied, +5 dmg barrier",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "+1 effectiveness of your buffs on allies",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. while shapeshifted, +1 AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. adj allies have +2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 dmg with brawling weps",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. your shapeshifts with a separate HP pool have +4 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "5. this item emits 5' bright light",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "6. your buffs on allies have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "7. +2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. while shapeshifted, +1 buff effectiveness",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "9. on debuffing a boss, recover 2 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 dmg res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Aegis",
+            "startingMods": [
+                {
+                    "description": "+2 incoming temp HP",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "gain incoming temp HP equal to your bonus spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "temp HP on you lasts for double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. when actively healed, gain 2 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. gain incoming temp HP equal to double your bonus incoming healing",
+                    "pointValue": "2",
+                    "upgrade": "+1 incoming healing/2"
+                },
+                {
+                    "description": "3. +1 incoming healing",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. gain incoming healing equal to your bonus spell dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "5. +3 dmg barrier while you have temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "6. +1 passive temp HP gen",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "7. +1 passive regen",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "8. whenever your minions become bloodied, they are instantly destroyed, releasing a fiery explosion, an atk by the minion against all foes adj to the corpse dealing 1d10 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1d10 dmg/1"
+                },
+                {
+                    "description": "9. +1 AC while you have temp HP",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "10. +4 dmg barrier during your turn",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
                 }
             ]
         }

@@ -2652,5 +2652,66 @@
         "upgrade": "+1/1",
         "tags": ["minion off", "minion def", "hp"],
         "meta": "bladedancer - skiasynthesis"
+    },
+    {
+        "description": "when sub hit, gain +2 to {ability} saves until the end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["save"]
+    },
+    {
+        "description": "when sub hit, gain +5 dmg barrier until the end of your next turn",
+        "upgrade": "+5/1",
+        "tags": ["phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "+2 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on sub melee hit, target is inflicted with 1 {type} DoT, stacking until CON save",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg", "dot"]
+    },
+    {
+        "description": "on sub proj hit, target is inflicted with 1 {type} DoT, stacking until CON save",
+        "upgrade": "+1/1",
+        "tags": ["proj", "type dmg", "dot"]
+    },
+    {
+        "description": "on using a unique power (reset by using a 4th one), +1 melee dmg until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "on using a unique power (reset by using a 4th one), +1 proj dmg until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["proj"]
+    },
+    {
+        "description": "+1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "on sub melee hit, gain +1 to {ability} saves until end of your next turn",
+        "upgrade": "+1/1->2",
+        "tags": ["melee", "save"]
+    },
+    {
+        "description": "on sub melee hit, gain +3 dmg barrier until end of your next turn",
+        "upgrade": "+2/1",
+        "tags": ["melee", "phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "every 5th unique power you use always crits",
+        "upgrade": "+1 crit dice/2",
+        "tags": ["crit"]
+    },
+    {
+        "description": "every 5th unique power you use inflicts a DoT dealing 3 {type} dmg, stacking until CON save",
+        "upgrade": "+2/1",
+        "tags": ["dot", "type dmg"],
+        "meta": "bladedancer - pulse"
     }
 ]
