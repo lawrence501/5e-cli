@@ -2713,5 +2713,71 @@
         "upgrade": "+2/1",
         "tags": ["dot", "type dmg"],
         "meta": "bladedancer - pulse"
+    },
+    {
+        "description": "your bonus to {ability} saves is converted into double the amount of dmg barrier",
+        "upgrade": "+1 to {ability} saves/1->3",
+        "tags": ["phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "-1 to {ability} saves; +3 dmg barrier",
+        "upgrade": "-1 and +2/1",
+        "tags": ["phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "on sub melee hit, your sub hits inflict 2 {type} DoT, stacking until CON save, until the end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg", "dot"]
+    },
+    {
+        "description": "on sub melee hit, +5 DoT barrier until end of your next turn",
+        "upgrade": "+5/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "every unique power you use (reset by using a 4th one) deals +1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "every unique power you use (reset by using a 4th one) has +1 melee crit dice",
+        "upgrade": "+1/2",
+        "tags": ["crit", "melee"]
+    },
+    {
+        "description": "+1 to {ability} saves",
+        "upgrade": "+1/1->3",
+        "tags": ["save"]
+    },
+    {
+        "description": "+2 global dmg while on full HP",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "spell dmg", "hp"]
+    },
+    {
+        "description": "on melee hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["melee", "hp"]
+    },
+    {
+        "description": "+1 incoming healing",
+        "upgrade": "+1/2",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 global dmg while dual-wielding",
+        "upgrade": "+1/2",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 melee dmg while dual-wielding",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "+1 proj dmg while dual-wielding",
+        "upgrade": "+1/1",
+        "tags": ["proj"],
+        "meta": "bladedancer - flash of steel"
     }
 ]

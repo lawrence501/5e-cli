@@ -12,7 +12,7 @@ import (
 )
 
 var ROLL_RANGE_CEILINGS = map[int]func() error{
-	8:   func() error { log.Println("Reroll twice and upgrade results with +1 colour!"); return nil },
+	8:   func() error { log.Println("Reroll and upgrade result with +1 colour!"); return nil },
 	15:  wondrous,
 	22:  func() error { log.Printf("Soul gem: %s", GEM_TAGS[rand.Intn(len(GEM_TAGS))]); return nil },
 	29:  func() error { log.Printf("Crystal: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))]); return nil },
@@ -75,7 +75,7 @@ var COMMAND_MAP = map[string]func() error{
 	"feat":          feat,
 	"simple wep":    simpleWeapon,
 	"martial wep":   martialWeapon,
-	"posi enc":      positiveEncounter,
+	"posi enc":      posiEnc,
 	"language":      language,
 }
 

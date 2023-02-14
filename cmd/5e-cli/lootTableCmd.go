@@ -11,7 +11,7 @@ import (
 
 var tome = func() error {
 	critRoll := rand.Intn(100)
-	if critRoll < 10 {
+	if critRoll < 5 {
 		log.Println("Blank tome!")
 		return nil
 	}

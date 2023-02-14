@@ -114,23 +114,31 @@ func fetchTomes() ([]Tome, error) {
 	return tomes, nil
 }
 
-func generateEncounter() (string, error) {
-	chestChance := 0
-	positiveEncounterChance := 20 + chestChance
-	positiveRoll := rand.Intn(100)
-	if positiveRoll < chestChance {
-		return "Legendary Chest", nil
-	}
-
+func positiveEncounter() (string, error) {
 	allEncounters, err := fetchEncounters()
 	if err != nil {
 		return "", err
 	}
-	encounterList := allEncounters.Hostile
-	if positiveRoll < positiveEncounterChance {
-		encounterList = allEncounters.Positive
+	return processMod(allEncounters.Positive[rand.Intn(len(allEncounters.Positive))]), nil
+}
+
+func hostileEncounter(tag string) (string, error) {
+	allEncounters, err := fetchEncounters()
+	if err != nil {
+		return "", err
 	}
-	return processMod(encounterList[rand.Intn(len(encounterList))]), nil
+	var encounter HostileEncounter
+	for true {
+		encounter = allEncounters.Hostile[rand.Intn(len(allEncounters.Hostile))]
+		if tag != "" {
+			if slices.Contains(encounter.Tags, tag) {
+				break
+			}
+		} else {
+			break
+		}
+	}
+	return fmt.Sprintf("%s (%d)", encounter.Name, encounter.ID), nil
 }
 
 func fetchEncounters() (Encounters, error) {
@@ -180,7 +188,7 @@ func generateWeather() (string, error) {
 	weatherRoll := rand.Intn(100)
 	if weatherRoll < 5 {
 		chosen := weathers.Exotic[rand.Intn(len(weathers.Exotic))]
-		return fmt.Sprintf("%s (+1 hostile random encounter. %s)", chosen.Name, chosen.Description), nil
+		return fmt.Sprintf("%s (+2 minimum hostile random encounters [before %d and %d]. %s)", chosen.Name, rand.Intn(5)+1, rand.Intn(5)+1, chosen.Description), nil
 	}
 	chosen := weathers.Common[rand.Intn(len(weathers.Common))]
 	return chosen, nil

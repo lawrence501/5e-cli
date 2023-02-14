@@ -5,7 +5,7 @@
     },
     {
         "name": "Scourging",
-        "description": "add random negative mod, then equivalent-value positive mod. Repeated uses on same item replace both mods, increasing the min pt value of the negative by 1."
+        "description": "add random negative mod, then min equivalent-value positive mod."
     },
     {
         "name": "Combination",

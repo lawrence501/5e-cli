@@ -1,8 +1,20 @@
 {
     "hostile": [
-        "The Jabberwocky (13)",
-        "The Sewer Walker (18)",
-        "The Shadowfell Gloaming (16)"
+        {
+            "name": "The Jabberwocky",
+            "id": 13,
+            "tags": ["monstrous"]
+        },
+        {
+            "name": "The Sewer Walker",
+            "id": 18,
+            "tags": ["monstrous", "night"]
+        },
+        {
+            "name": "Test Humanoid",
+            "id": 1,
+            "tags": ["humanoid"]
+        }
     ],
     "positive": [
         "Zachary: wants a game of ropes and rafters, will give reward for each player who beats him (prof in DEX saves + aths + sleight of hand)",

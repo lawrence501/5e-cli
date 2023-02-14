@@ -161,6 +161,22 @@
             "effects": [
                 "You have adv on init."
             ]
+        },
+        {
+            "name": "Ring of Mind Shielding",
+            "effects": [
+                "You are immune to magic that reads your thoughts, determines whether you are lying, or learns your creature type.",
+                "Creatures can only telepathically communicate with you if you allow it.",
+                "As an action, you can make the ring invisible until you either use another action to make it visible, take it off, or die.",
+                "If you die while wearing the ring, your soul enters it unless it already houses a soul. You can remain in the ring or depart for the afterlife. While you are inside the ring, you can telepathically communicate with any creature wearing it, which the wearer cannot prevent."
+            ]
+        },
+        {
+            "name": "Loop of Object Reading",
+            "effects": [
+                "While looking through the ring, you have adv on Arcana checks made to reveal information about a creature or obj you can see.",
+                "1/LR, you can cast the Identify spell while looking through the ring."
+            ]
         }
     ],
     "rare": [
@@ -378,6 +394,12 @@
             "effects": [
                 "+1 AC."
             ]
+        },
+        {
+            "name": "Ring of Acid Resistance",
+            "effects": [
+                "You have 50% resistance to acid dmg."
+            ]
         }
     ],
     "very rare": [
@@ -492,13 +514,13 @@
             ]
         },
         {
-            "name": "Strength",
+            "name": "Strength Stone",
             "effects": [
                 "+2 STR."
             ]
         },
         {
-            "name": "Fortitude",
+            "name": "Fortitude Stone",
             "effects": [
                 "+2 CON."
             ]
@@ -599,6 +621,14 @@
                 "You have adv on percep checks to find hidden doors and paths.",
                 "[CURSE] All non-magical flames within 30' of you automatically extinguish.",
                 "[CURSE] Your fire dmg is halved."
+            ]
+        },
+        {
+            "name": "Nine Lives Stealer",
+            "effects": [
+                "The ring has 1d8 + 1 charges when found, which cannot be recovered.",
+                "On crit vs a creature with fewer than 100 HP, it must succeed on a DC 15 CON save or be slain instantly as the ring rips its life force from its body. Constructs and undead are immune to this effect. If a creature is slain by this effect, the ring loses 1 charge.",
+                "When the ring's last charge is expended, it becomes mundane."
             ]
         }
     ],
@@ -737,6 +767,30 @@
             "effects": [
                 "You can cast Scrying (save DC 17) at-will.",
                 "While scrying with the loop, you can communicate telepathically with creatures you can see within 30' of the spell's sensor. As an action 1/LR, you can also cast Suggestion (DC 17) through the sensor on one of those creatures. You don't need to concentrate on Suggestion when it is cast in this way, though it ends if the Scrying ends."
+            ]
+        },
+        {
+            "name": "Defender",
+            "effects": [
+                "The first time you make a wep atk on each of your turns, you can reduce your wep AB by up to 3 in order to gain that much AC, both until the start of your next turn. You must choose to do this before you make your atk roll."
+            ]
+        },
+        {
+            "name": "Wreath of the Prism",
+            "effects": [
+                "+60' of darkvision.",
+                "On atk hit vs a beast, dragon, or monstrosity of up to CR 5 (L11+: CR 10), or when you grapple one, you can cast Dominate Monster (DC 13 (L11+: DC 15)) on the target. On a successful save, the creature is immune to this effect until it completes a LR. Otherwise, a larger, shimmering image of the ring appears as a collar around the target's neck until it is no longer affected by the spell. You can only have 1 creatured affected by the spell at once, but it doesn't require your concentration."
+            ]
+        },
+        {
+            "name": "Ring of Air Elemental Command",
+            "effects": [
+                "You have adv on atks vs elementals from the Elemental Plane of Air, and they have disadv on atks vs you.",
+                "The ring has 5 charges, 1d4 + 1 of which are recovered after a LR.",
+                "You can expend 2 charges to cast Dominate Monster (DC 17) on an Air Elemental.",
+                "You are imm to fall dmg.",
+                "You gain proficiency in Auran.",
+                "If your party kills an Air Elemental, you gain 50% resistance to light dmg, a fly sp (hover) equal to your sp, and can cast the following spells by expending charges (DC 17): Chain Lightning (3 charges), Gust of Wind (2 charges), Wind Wall (1 charge)."
             ]
         }
     ],

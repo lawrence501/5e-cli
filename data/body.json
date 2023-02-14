@@ -457,7 +457,7 @@
                 },
                 {
                     "mods": [
-                        "As a bonus action 1/SR, you can magically bond yourself to an area extending in a 15' radius, declaring it your domain. The area shidts slightly into the Feywild, making it count as both its actual plane and the Feywild. The environment becomes imbued with your mysticism, sprouting glowing, shimmering flowers of exaggerated colours. You may suppress this visual quality if neither you nor any of your allies are taking hostile actions within the domain. When this is done, the domain's presence cannot be detected.",
+                        "As a bonus action 1/SR, you can magically bond yourself to an area extending in a 15' radius, declaring it your domain. The area shifts slightly into the Feywild, making it count as both its actual plane and the Feywild. The environment becomes imbued with mysticism, sprouting glowing, shimmering flowers of exaggerated colours. You may suppress this visual quality if neither you nor any of your allies are taking hostile actions within the domain. When this is done, the domain's presence cannot be detected.",
                         "The area remains your domain until you move more than 3 miles away from it, or until you end it as an action. If you declare a new domain, your previous one is lost.",
                         "You and your allies have adv on Stealth checks within your domain. Non-allied creatures that cast Divination spells that would affect or learn about the domain or creatures within it must succeed on an ability check with their casting ability. If they fail, the spell reveals an innocuous result.",
                         "You can use your reaction to either grant advantage to a creature that you can see within your domain making a save, or cause a creature that you can see within the domain making an attack roll to do so with disadv.",
@@ -877,6 +877,14 @@
                 "As a bonus action, you can expend a charge to grant entertainment to an ally within 60' of you who can hear you. A creature can only have entertainment once at a time.",
                 "Whenever a creature with entertainment starts its turn with a debuff that it will make an ongoing save against at its turn's end, it can expend its entertainment to instead make the save now.",
                 "You can grant yourself entertainment, but instead of its usual effects, it can be expended when you make a Performance check to add 1d6 to the check."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Deceptive Leather",
+            "source": "bard - mountebank (a5e)",
+            "mods": [
+                "On init, if you are not surprised, you can cast a spell with a verbal component and casting time of 1 action. If you do so, its effects occur at the start of the first turn of the combat, and on your first turn you have no standard action."
             ],
             "variables": []
         }
@@ -1785,6 +1793,19 @@
                         "You gain a d6 expertise die in Arcana and Religion."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Warchanting Brigandine",
+            "source": "bard - warchanter (a5e)",
+            "mods": [
+                "The brigandine has a number of charges equal to half your ability mod, all of which are recovered after a long rest.",
+                "At the start of each of your turns, you can expend a charge to grant the following effect to a creature within 30' of you. This effect lasts until the start of your next turn and requires your concentration."
+            ],
+            "variables": [
+                "The creature gains a bonus to saves equal to your ability mod.",
+                "The creature gains 1 additional dmg die on its wep atks. If it makes wep atks during this effect and scores no hits, you can sustain this effect for a further turn.",
+                "The creature gains an expertise die on INT, WIS, and CHA ability checks."
             ]
         }
     ],

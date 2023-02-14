@@ -151,7 +151,15 @@ var challenge = func() error {
 }
 
 var randomEncounter = func() error {
-	encounter, err := generateEncounter()
+	tagP := promptui.Prompt{
+		Label:    "Encounter tag",
+		Validate: validateEncounter,
+	}
+	tag, err := tagP.Run()
+	if err != nil {
+		return err
+	}
+	encounter, err := hostileEncounter(tag)
 	if err != nil {
 		return err
 	}
@@ -159,12 +167,12 @@ var randomEncounter = func() error {
 	return nil
 }
 
-var positiveEncounter = func() error {
-	allEncounters, err := fetchEncounters()
+var posiEnc = func() error {
+	encounter, err := positiveEncounter()
 	if err != nil {
 		return err
 	}
-	log.Println(processMod(allEncounters.Positive[rand.Intn(len(allEncounters.Positive))]))
+	log.Printf("Positive encounter: %s", encounter)
 	return nil
 }
 
@@ -359,22 +367,47 @@ var travel = func() error {
 
 	log.Printf("Journey travel day:\n\n")
 	log.Printf("WEATHER: %s\n\n", weather)
+
+	hostileRoll := rand.Intn(100)
+	hostile1, hostile2 := -1, -1
+	if hostileRoll < 5 {
+		for hostile1 == hostile2 {
+			hostile1 = rand.Intn(5)
+			hostile2 = rand.Intn(5)
+		}
+	}
+	positiveRoll := rand.Intn(100)
+	positive := -1
+	if positiveRoll < 5 {
+		for positive == -1 || (positive == hostile1 || positive == hostile2) {
+			positive = rand.Intn(5)
+		}
+	}
+
 	event := 1
 	for i := 0; i < 5; i++ {
-		encRoll := rand.Intn(100)
-		if encRoll < 4 {
-			encounter, err := generateEncounter()
+		if i == hostile1 || i == hostile2 {
+			ambush := ""
+			tag := ""
+			if event >= 6 {
+				ambush = " (NIGHT AMBUSH)"
+				tag = "night"
+			}
+			encounter, err := hostileEncounter(tag)
 			if err != nil {
 				return err
 			}
-			ambush := ""
-			if event >= 5 {
-				ambush = "(NIGHT AMBUSH)"
+
+			log.Printf("%d. Random encounter%s: %s\n", event, ambush, encounter)
+			event++
+		} else if i == positive {
+			encounter, err := positiveEncounter()
+			if err != nil {
+				return err
 			}
-			log.Printf("%d. Random encounter %s: %s\n", event, ambush, encounter)
+			log.Printf("%d. Positive encounter: %s\n", event, encounter)
 			event++
 		}
-
 		if i < 4 {
 			log.Printf("%d. %s's activity", event, charSlice[i])
 			event++
@@ -419,7 +452,7 @@ var journeyActivity = func() error {
 	} else {
 		result = "sub fail"
 	}
-	fmt.Printf("%s result (%s): %s", activity, result, ACTIVITY_RESULTS[activity]["result"])
+	fmt.Printf("%s result (%s): %s", activity, result, ACTIVITY_RESULTS[activity][result])
 	return nil
 }
 

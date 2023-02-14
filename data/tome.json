@@ -384,7 +384,7 @@
         "description": "The power's usage time is reduced by 1 step and it deals slightly more dmg for each additional individual target it has above 1, but it now only has 1 individual target."
     },
     {
-        "name": "channelling",
+        "name": "Channelling",
         "target": "powers with an instantaneous duration and a non-self/melee range",
         "description": "The power's duration becomes 'Concentration, up to 1 minute', and you can reactivate its effect as its usage time throughout the duration. Its range is also halved."
     },
@@ -394,12 +394,12 @@
         "description": "The power's projectiles are converted to 5'-wide line AoEs and deal more dmg, but its cost is increased by 1 step."
     },
     {
-        "name": "Efficient channelling",
+        "name": "Efficient Channelling",
         "target": "powers with a non-cooldown resource cost that require concentration and deal dmg",
         "description": "The power's cost is 1 step lower, but it deals less dmg."
     },
     {
-        "name": "Protective channelling",
+        "name": "Protective Channelling",
         "target": "powers that require concentration",
         "description": "While concentrating on the power, you have substantially more phys barrier and massively more $nonPhysType barrier."
     },
@@ -2472,8 +2472,53 @@
         "description": "Any 1rnd duration buffs the power grants you have +1 effectiveness."
     },
     {
-        "name": "Relentless Assassination [next - alacrity]",
+        "name": "Relentless Assassination",
         "target": "any power",
         "description": "If you hit with the power during your last turn, the power deals more dmg against bosses."
+    },
+    {
+        "name": "Overcharged Channelling",
+        "target": "powers with an instantaneous duration and a non-cooldown resource cost",
+        "description": "The power's duration becomes 'Concentration, up to 1 minute', and you can reactivate its effect as its usage time throughout the duration. Additionally, its cost is increased by 1 step and it deals more dmg."
+    },
+    {
+        "name": "Defensive Channelling",
+        "target": "any power",
+        "description": "While concentrating on the power, you have substantially more $physType barrier and more non-phys barrier."
+    },
+    {
+        "name": "Channeled Strikes",
+        "target": "powers with a non-cooldown resource cost that require reactivation each round",
+        "description": "While you are holding a $weaponClass wep, every 2nd reactivation of the power is replaced with another weapon power of your choice that has a usage time of 1 action, for no change in resource cost. Additionally, the power deals substantially more dmg and its cost is increased by 1 step."
+    },
+    {
+        "name": "Haste",
+        "target": "powers with an accuracy component",
+        "description": "While you are holding a $weaponClass wep, the power's usage time is reduced by 1 step, but it has -1 Accuracy."
+    },
+    {
+        "name": "Powerful Development",
+        "target": "powers that require concentration",
+        "description": "At the start of each of your turns while concentrating on the power, the power gains slightly more dmg, stacking until you lose concentration on it."
+    },
+    {
+        "name": "Flurried Leeching",
+        "target": "single-target powers with multiple hits in the same action",
+        "description": "Whenever the power hits, you heal a slight amount of HP."
+    },
+    {
+        "name": "Leeching",
+        "target": "any power",
+        "description": "Whenever the power hits, you heal a slight amount of HP."
+    },
+    {
+        "name": "Recovery",
+        "target": "powers with a non-cooldown resource cost that deal damage",
+        "description": "Whenever the power hits, you recover 1 unit of its cost. Additionally, it deals less dmg."
+    },
+    {
+        "name": "Murderous Bursting [flurry DONE]",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, a burst of power is released around the corpse, making a wep atk against all foes adj to the corpse that deals substantial $physType dmg. Additionally, the power deals less dmg."
     }
 ]

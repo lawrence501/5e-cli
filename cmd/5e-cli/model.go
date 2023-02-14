@@ -39,8 +39,14 @@ type Relics struct {
 }
 
 type Encounters struct {
-	Hostile  []string `json:"hostile"`
-	Positive []string `json:"positive"`
+	Hostile  []HostileEncounter `json:"hostile"`
+	Positive []string           `json:"positive"`
+}
+
+type HostileEncounter struct {
+	Name string   `json:"name"`
+	ID   int      `json:"id"`
+	Tags []string `json:"tags"`
 }
 
 type Tome struct {

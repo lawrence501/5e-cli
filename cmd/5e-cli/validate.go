@@ -25,6 +25,16 @@ var validateActivity = func(input string) error {
 	return nil
 }
 
+var validateEncounter = func(input string) error {
+	if input == "" {
+		return nil
+	}
+	if valid := slices.Contains(ENCOUNTER_TAGS, input); !valid {
+		return errors.New("invalid encounter tag")
+	}
+	return nil
+}
+
 var validateColourUpgrade = func(input string) error {
 	if _, valid := COLOUR_UPGRADE_DESCRIPTIONS[input]; !valid {
 		return errors.New("invalid colour upgrade target. Must be a loot type")

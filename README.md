@@ -207,6 +207,9 @@ While riding your mount, your AC increases by 1.
 - Replace res with barrier?
     - Values increased by 3, so dmg res goes from 1 per 2pts to 2 per 1pt + single pt resistances go to 4 per pt. Single type res goes to 5 per pt, polarity res is 3 per pt.
 
+- Drop the Looking for Trouble journey activity, force all players to always choose at least 1 journey activity per day, and make the DC for them a static 18. This allows other journey activities to become possible as your character levels up, as you may not always be able to use your primary activity when the weather, etc. is bad for it.
+    - Because of redistributing the negatives from weather, even a standardly-maxed activity should drop below 50% success (+5 ability, +5 prof at L13, -4 from weather results in +6 bonus, which is 45% success chance)
+
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
 2. Tomes (high)

@@ -58,7 +58,7 @@
     },
     {
       "name": "Gaze of the Manipulator",
-      "description": "Each player sends the DM a message with the name of a player in the current session, with no discussion. If any player's name is received twice, that player's character has disadvantage with all journey activities, and all other adventurers have advantage. If a player's name appears more than twice, they get double advantage and all others get disadvantage instead."
+      "description": "Each player sends the DM a message with the name of an adventurer in the current session, with no discussion. If any adventurer's name is received twice, that adventurer has disadvantage with all journey activities, and all other adventurers have advantage. If an adventurer's name appears more than twice, they get double advantage and all others get disadvantage instead. If no adventurer's name appears more than once, all adventurer get disadvantage."
     },
     {
       "name": "Gaze of the Creator",
@@ -66,11 +66,27 @@
     },
     {
       "name": "Mists of Slaughter",
-      "description": "All hostile random encounters are pooled into one massive combat at the end of the day where all non-player creatures are hostile with all other creatures. All creatures start in random locations at the start of the combat."
+      "description": "All hostile random encounters are pooled into one massive combat at the end of the day where all monsters are hostile with all other creatures. All creatures start in random locations at the start of the combat."
+    },
+    {
+      "name": "Eyes in the Mist",
+      "description": "Creatures always have line of sight to all other creatures within 60' of them."
+    },
+    {
+      "name": "Distant Tolling",
+      "description": "All adventurers start each combat with 1 failed death save and all monsters have 25% fewer maximum hit points."
+    },
+    {
+      "name": "The Scent of Meat",
+      "description": "Each monster killed by the party drops 1 additional organ."
+    },
+    {
+      "name": "Lonely Haze",
+      "description": "At the start of combat, each player randomly is assigned 1 random, unassigned monster until there are no unassigned monsters left. Each adventurer and their assigned monster will be separated into their own pocket dimension to fight. An adventurer's dimension, and all creatures in it, merge into another random adventurer's dimension whenenever either all adventurers in that dimension are unconscious or there are no monsters in it."
     },
     {
       "name": "Winds of Chaos",
-      "description": "Instead of using their usual skill bonuses for journey activities, each adventurer instead rolls a d20 and uses that result. This is rolled after the player has chosen their activity."
+      "description": "Instead of using their usual skill bonuses for journey activities, each adventurer instead rolls a d20 and uses that result as their bonus. This is rolled after the player has chosen their activity."
     },
     {
       "name": "Feywild Trickery",
