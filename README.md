@@ -209,6 +209,8 @@ While riding your mount, your AC increases by 1.
 
 - Drop the Looking for Trouble journey activity, force all players to always choose at least 1 journey activity per day, and make the DC for them a static 18. This allows other journey activities to become possible as your character levels up, as you may not always be able to use your primary activity when the weather, etc. is bad for it.
     - Because of redistributing the negatives from weather, even a standardly-maxed activity should drop below 50% success (+5 ability, +5 prof at L13, -4 from weather results in +6 bonus, which is 45% success chance)
+    - All players MUST take at least 1 skill prof for their highest ability on char creation
+    - All journey activities score a sub fail on a roll of 2.
 
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)

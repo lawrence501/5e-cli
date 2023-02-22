@@ -489,8 +489,8 @@ var ACTIVITY_MODIFIERS map[string]map[string]int = map[string]map[string]int{
 		"rainy":      -1,
 		"chilly":     1,
 		"snowy":      0,
-		"hailing":    -3,
-		"sunny":      2,
+		"hailing":    2,
+		"sunny":      -3,
 		"humid":      -2,
 		"sweltering": -4,
 	},
@@ -544,8 +544,8 @@ var ACTIVITY_MODIFIERS map[string]map[string]int = map[string]map[string]int{
 		"rainy":      2,
 		"chilly":     -2,
 		"snowy":      1,
-		"hailing":    -4,
-		"sunny":      2,
+		"hailing":    2,
+		"sunny":      -4,
 		"humid":      1,
 		"sweltering": -3,
 	},
@@ -733,4 +733,5 @@ var LANGUAGES []string = []string{
 var ENCOUNTER_TAGS []string = []string{
 	"monstrous",
 	"humanoid",
+	"night",
 }

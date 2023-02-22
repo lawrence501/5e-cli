@@ -887,6 +887,37 @@
                 "On init, if you are not surprised, you can cast a spell with a verbal component and casting time of 1 action. If you do so, its effects occur at the start of the first turn of the combat, and on your first turn you have no standard action."
             ],
             "variables": []
+        },
+        {
+            "name": "Wastrel Leather",
+            "source": "bard - vagabond (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain proficiency in Abyssal, Goblin, and Primordial.",
+                        "You always succeed on attempts to forge legal documents to satisfy port/border authorities.",
+                        "In major cities, you can always find a contact to tell you about good paths to evade patrols on borders or along shores within that city.",
+                        "You gain proficiency with Staves, which have their dmg die size increased by 1 when used by you."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You learn the Misty Step spell, and always have it prepared.",
+                        "The leather has a number of charges equal to half your ability mod, all of which are recovered after a LR.",
+                        "As a bonus action, you can expend a charge to grant a creature other than yourself within 60' of you that can see or hear you the ability to teleport up to 30' as a bonus action once within the next 10mins, as if they had cast Misty Step."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Noisy Jerkin",
+            "source": "bard - sound sculptor (a5e)",
+            "mods": [
+                "As a bonus action, you can sing, stomp, or play a musical instrument, concentrating on your music as if it were a spell.",
+                "Until the start of your next turn, any creature within 300' of you that can hear you automatically detects your presence, but you also gain +30' blindsight."
+            ],
+            "variables": []
         }
     ],
     "medium": [
@@ -1803,9 +1834,21 @@
                 "At the start of each of your turns, you can expend a charge to grant the following effect to a creature within 30' of you. This effect lasts until the start of your next turn and requires your concentration."
             ],
             "variables": [
-                "The creature gains a bonus to saves equal to your ability mod.",
-                "The creature gains 1 additional dmg die on its wep atks. If it makes wep atks during this effect and scores no hits, you can sustain this effect for a further turn.",
-                "The creature gains an expertise die on INT, WIS, and CHA ability checks."
+                {
+                    "mods": [
+                        "The creature gains a bonus to saves equal to your ability mod."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The creature gains 1 additional dmg die on its wep atks. If it makes wep atks during this effect and scores no hits, you can sustain this effect for a further turn."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The creature gains an expertise die on INT, WIS, and CHA ability checks."
+                    ]
+                }
             ]
         }
     ],

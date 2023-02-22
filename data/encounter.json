@@ -3,12 +3,12 @@
         {
             "name": "The Jabberwocky",
             "id": 13,
-            "tags": ["monstrous"]
+            "tags": []
         },
         {
             "name": "The Sewer Walker",
             "id": 18,
-            "tags": ["monstrous", "night"]
+            "tags": ["night"]
         },
         {
             "name": "Test Humanoid",

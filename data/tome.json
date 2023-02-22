@@ -2517,8 +2517,39 @@
         "description": "Whenever the power hits, you recover 1 unit of its cost. Additionally, it deals less dmg."
     },
     {
-        "name": "Murderous Bursting [flurry DONE]",
+        "name": "Murderous Bursting",
         "target": "powers that deal damage",
         "description": "Whenever the power scores a killing blow, a burst of power is released around the corpse, making a wep atk against all foes adj to the corpse that deals substantial $physType dmg. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Improved Shielding",
+        "target": "powers that grant temporary hit points",
+        "description": "The power grants more temp HP.",
+        "meta": "Soul Feast"
+    },
+    {
+        "name": "Shielding Revolution",
+        "target": "powers that grant temporary hit points",
+        "description": "The power grants more temp HP when a boss is within 60' of you."
+    },
+    {
+        "name": "Shielding Recovery",
+        "target": "powers with a non-cooldown resource cost that grant temporary hit points",
+        "description": "Whenever the power grants you temp HP while a boss is within 60' of you, you also recover 1 unit of its cost. Additionally, the power grants less temp HP."
+    },
+    {
+        "name": "Healing Shielding",
+        "target": "powers that grant temporary hit points",
+        "description": "The temp HP the power grants is converted into healing HP, but it grants less temp HP."
+    },
+    {
+        "name": "Decaying Leeching",
+        "target": "any power",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing barely any $physType dmg, stacking until CON save. Whenever this DoT ticks, you heal barely any HP."
+    },
+    {
+        "name": "Murderous Splattering [next - Grim Affliction]",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, a splatter of power erupts from the corpse, making a spell atk against all foes adj to it, dealing substantial $physType dmg on a hit. Additionally, the power deals less dmg."
     }
 ]
