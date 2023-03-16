@@ -918,6 +918,32 @@
                 "Until the start of your next turn, any creature within 300' of you that can hear you automatically detects your presence, but you also gain +30' blindsight."
             ],
             "variables": []
+        },
+        {
+            "name": "Storied Raiment",
+            "source": "bard - lore weaver (a5e)",
+            "mods": [
+                "1/LR, as an action, you can wield your knowledge of narrative to create a quasi-prophecy of imminent success. Choose another creature within 60' of you that can see or hear you, then narrate a single action that creature could take during their turn. If the creature attempts that action before the end of your next turn, it can add an additional d6 to its d20 roll."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Talented Coat",
+            "source": "bard - hotshot (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "The coat has a number of charges equal to half your ability mod, all of which are recovered after a long rest.",
+                        "As a bonus action, you can expend a charge to grant a creature within 60' of you that can see or hear you the ability to take the Dodge action as a bonus action once within the next minute."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Whenever you cast a spell while mounted, you can choose to make an ally who can see you the origin for that spell's casting. You must be able to see any targets of the spell when you do so."
+                    ]
+                }
+            ]
         }
     ],
     "medium": [
@@ -2247,6 +2273,32 @@
             "source": "fighter - gadgeteer (a5e)",
             "mods": [
                 "At the end of a rest, you can craft a random uncommon wondrous item."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Expeditious Plate",
+            "source": "marshal - expedition leader (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "1/LR, as a bonus action, choose a creature within 30' of you. They gain an expertise die on a save they make it the next min. They must decide whether or not to use the bonus before making the save."
+                    ]
+                },
+                {
+                    "mods": [
+                        "Allies within 10' of you gain an expertise die on ability checks made to avoid, locate, or disable traps."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chieftain Plate",
+            "source": "marshal - chief enforcer (a5e)",
+            "mods": [
+                "While within your home city (or equivalent), you gain an expertise die for each ally within 10' of you when making Deception, Intimidation, or Insight checks, to a maximum of 1d10.",
+                "You may designate a new city after spending at least 1 week integrating yourself into its local crime scene."
             ],
             "variables": []
         }

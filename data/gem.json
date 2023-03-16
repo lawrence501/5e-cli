@@ -2850,5 +2850,163 @@
         "upgrade": "+1/3",
         "tags": ["crit"],
         "meta": "bladedancer - critical eye"
+    },
+    {
+        "description": "on sub hit, your target gets +1 phys dmg taken until the end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["phys dmg"]
+    },
+    {
+        "description": "+1 debuff effectiveness",
+        "upgrade": "+1/3",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "on melee sub hit, target gets -1 global dmg until end of your next turn",
+        "upgrade": "-1/1",
+        "tags": ["melee", "debuff"]
+    },
+    {
+        "description": "+3 dmg barrier while bloodied",
+        "upgrade": "+2/1",
+        "tags": ["phys barrier", "non-phys barrier", "hp"]
+    },
+    {
+        "description": "+1 crit range while bloodied",
+        "upgrade": "+1/3",
+        "tags": ["crit", "hp"]
+    },
+    {
+        "description": "+2 global dmg while on full HP",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "spell dmg", "hp"]
+    },
+    {
+        "description": "on melee hit while on full HP, +2 global dmg until either you are hit or the combat ends",
+        "upgrade": "+1/2",
+        "tags": ["melee", "hp", "wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+1 crit dice",
+        "upgrade": "+1/2",
+        "tags": ["crit"]
+    },
+    {
+        "description": "-1 non-crit dmg; +1 crit dice",
+        "upgrade": "-1 and +1/1",
+        "tags": ["crit"]
+    },
+    {
+        "description": "-1 DoT dmg; +1 crit dice",
+        "upgrade": "-1 and +1/1",
+        "tags": ["crit"],
+        "meta": "bladedancer DONE"
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+5 {type} barrier",
+        "upgrade": "+5/1",
+        "tags": ["type barrier"]
+    },
+    {
+        "description": "+1 passive regen",
+        "upgrade": "+1/3",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+2 minion dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "whenever you are actively healed, your minions heal 2 HP",
+        "upgrade": "+1/1",
+        "tags": ["hp", "minion def"]
+    },
+    {
+        "description": "1/turn, on hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["hp"],
+        "meta": "primalist - hunter's restoration"
+    },
+    {
+        "description": "+1 spell dmg",
+        "upgrade": "+1/1",
+        "tags": ["spell dmg"]
+    },
+    {
+        "description": "+2 minion spell dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "+1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "on melee hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["melee", "hp"]
+    },
+    {
+        "description": "+2 minion melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "on minion melee hit, they heal 1 HP",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+2 {type} dmg while you have an active minion",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "minion off", "minion def"]
+    },
+    {
+        "description": "1/turn, when you hit, your minions heal 1 HP",
+        "upgrade": "+1/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "1/turn, on hit, +2 minion dmg until end of your next turn",
+        "upgrade": "+1/1",
+        "tags": ["minion off"],
+        "meta": "primalist - hunter's emanation"
     }
 ]
