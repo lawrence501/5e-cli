@@ -3008,5 +3008,51 @@
         "upgrade": "+1/1",
         "tags": ["minion off"],
         "meta": "primalist - hunter's emanation"
+    },
+    {
+        "description": "+1d4 {type} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "description": "+1d4 $dmgType dmg to your minion spell hits",
+        "upgrade": "+1/1",
+        "tags": ["minion off"]
+    },
+    {
+        "description": "while holding a {weaponClass} wep, +1d4 {type} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "type dmg", "spell dmg"]
+    },
+    {
+        "description": "while holding a {weaponClass} wep, +1d4 $dmgType dmg to your minion spell hits",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "minion off"]
+    },
+    {
+        "description": "while bloodied, +2 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["hp", "melee"]
+    },
+    {
+        "description": "while bloodied, +3 dmg barrier",
+        "upgrade": "+2/1",
+        "tags": ["hp", "phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "+4 minion HP",
+        "upgrade": "+4/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "+6 minion $dmgType dmg barrier",
+        "upgrade": "+6/1",
+        "tags": ["minion def"]
+    },
+    {
+        "description": "while holding a {weaponClass} wep, +1d4 {type} dmg to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["weapon class", "type dmg", "melee"],
+        "meta": "primalist - DONE"
     }
 ]

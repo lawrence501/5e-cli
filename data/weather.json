@@ -95,6 +95,14 @@
     {
       "name": "Delirious Fog",
       "description": "Each adventurer gains a Chaotic modifier."
+    },
+    {
+      "name": "Echoing Silence",
+      "description": "Players cannot communicate with each other (only with the DM) and must have their eyes closed unless either it is their turn or they are being affected by a monster in some way."
+    },
+    {
+      "name": "Chaos Storm",
+      "description": "At the start of each creature's turn in combat, they gain a random condition."
     }
   ]
 }

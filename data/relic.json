@@ -2663,6 +2663,78 @@
                     "upgrade": "+2->1 minion cold dmg/1"
                 }
             ]
+        },
+        {
+            "name": "Winter's Breath",
+            "startingMods": [
+                {
+                    "description": "1/LR, as action, you can force all creatures in a 15' cone to make a DEX save or take 4d8 cold spell dmg and fall prone, else 1/2",
+                    "pointValue": "3",
+                    "upgrade": "+1 dmg die/1"
+                },
+                {
+                    "description": "+2 spell dmg after your dmg is halved by a save",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+3 cone AoE dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +1 AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +5' cone AoE length",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "3. +5' AoE sizes",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "4. +1 to your spell save DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1 cold dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "7. creatures knocked prone by you have +1 dmg taken",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "8. +1 to your prone DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1 CR/4"
+                },
+                {
+                    "description": "9. +1 spell dmg vs targets who have halved your dmg with a save since the start of your last turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "10. +1 spell AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ],
     "armour": [
