@@ -1876,6 +1876,36 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Bearhide Chainmail",
+            "source": "berserker - bear-bonded (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You learn the Beast Friend exploration knack with the following changes:",
+                        "It only applies to bears.",
+                        "The minion uses the stat block of a Black Bear (without Multiattack).",
+                        "On init, and after a rest, the minion gains 6 temp HP.",
+                        "Once on each of your turns, you can direct the minion to take an action on its turn."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The chainmail has 3 charges, all of which are recovered after a long rest.",
+                        "As a bonus action, you can expend 1 charge to grant all your healthy minions the following effects for 1 minute, or until they become bloodied:",
+                        "They have adv on STR checks and saves.",
+                        "They have 50% resistance to phys dmg.",
+                        "They gain +2 global dmg."
+                    ]
+                },
+                {
+                    "mods": [
+                        "The creature gains an expertise die on INT, WIS, and CHA ability checks."
+                    ]
+                }
+            ]
         }
     ],
     "heavy": [

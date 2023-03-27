@@ -369,24 +369,27 @@ var travel = func() error {
 	log.Printf("WEATHER: %s\n\n", weather)
 
 	hostileRoll := rand.Intn(100)
-	hostilePosition := -1
+	hostile1, hostile2 := -1, -1
 	if hostileRoll < 5 {
-		hostilePosition = rand.Intn(5)
+		for hostile1 == hostile2 {
+			hostile1 = rand.Intn(5)
+			hostile2 = rand.Intn(5)
+		}
 	}
 	positiveRoll := rand.Intn(100)
-	positivePosition := -1
+	positive := -1
 	if positiveRoll < 10 {
-		for positivePosition == -1 || positivePosition == hostilePosition {
-			positivePosition = rand.Intn(5)
+		for positive == -1 || (positive == hostile1 || positive == hostile2) {
+			positive = rand.Intn(5)
 		}
 	}
 
 	event := 1
 	for i := 0; i < 5; i++ {
-		if i == hostilePosition {
+		if i == hostile1 || i == hostile2 {
 			ambush := ""
 			tag := ""
-			if event >= 5 {
+			if event >= 6 {
 				ambush = " (NIGHT AMBUSH)"
 				tag = "night"
 			}
@@ -397,7 +400,7 @@ var travel = func() error {
 
 			log.Printf("%d. Random encounter%s: %s\n", event, ambush, encounter)
 			event++
-		} else if i == positivePosition {
+		} else if i == positive {
 			encounter, err := positiveEncounter()
 			if err != nil {
 				return err

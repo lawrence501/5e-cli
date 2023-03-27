@@ -2192,7 +2192,7 @@
         ]
     },
     {
-        "name": "Conducts Weird Science [LAST]",
+        "name": "Conducts Weird Science",
         "description": "science and experimentation",
         "tiers": [
             "1. Lab Analysis: 1/min; bonus action; You analyse the scene of a crime, the site of a mysterious incident, or a series of unexplained phenomena, and you maybe learn a surprising amount of information about the perpetrators, the participants, or the force(s) responsible. To do so, you must collect samples from the scene. Samples are paint or wood scrapings, dirt, images of the area, hair, an entire corpse, and so on. With samples in hand, you can discover up to 3 pertinent pieces of information about the scene, possibly clearing up a lesser mystery, and pointing the way to solving a greater one. The DM will decide what you learn and what the DC for learning it might be. For comparison, discovering that a victim was killed not by a fall, as seems immediately obvious, but rather by electrocution has a DC 9. You have advantage on the task if you take the time to transport the samples to a permanent lab, as opposed to conducting the analysis in the field.",
@@ -2211,48 +2211,48 @@
         "name": "Consorts with the Dead",
         "description": "communicating with the dead",
         "tiers": [
-            "1. Speaker for the Dead: 2/min; bonus action; You can ask a question of a dead being whose corpse you are touching. Because the answer comes through the filter of the being's understanding and personality, it cannot answer questions that it would not have understood in life, and it cannot provide answers that it would not have known in life. In fact, the being is not compelled to answer at all, so you may need to interact with it in a way that would have convinced it to answer while it was alive.",
-            "2. Necromancy: 1/min; bonus action; You animate the body of a dead creature of your size or smaller up to CR 1/2. It has none of the intelligence, memories, non-basic actions, or passive traits that it had in life. The creature follows your verbal commands for 1 hour, after which it becomes an inert corpse. Unless the creature is killed by damage, you can reanimate it again when its time expires, but any damage it had when it became inert applies to its newly animated state. You can only have one creature animated at a time.",
+            "1. Speaker for the Dead: 2/min; bonus action; You can ask a question of a dead humanoid whose corpse you are touching. Because the answer comes through the filter of the being's understanding and personality, it cannot answer questions that it would not have understood in life, and it cannot provide answers that it would not have known in life. In fact, the being is not compelled to answer at all, so you may need to interact with it in a way that would have convinced it to answer while it was alive.",
+            "2. Necromancy: 1/min; bonus action; You animate the body of a dead creature of your size or smaller up to CR 1. It has none of the intelligence, memories, non-basic actions, or passive traits that it had in life. The creature follows your verbal commands for 1 hour, after which it becomes an inert corpse. Unless the creature is killed by damage, you can reanimate it again when its time expires, but any damage it had when it became inert applies to its newly animated state. You can only have one creature animated at a time.",
             "3. Reading the Room: 1/min; bonus action; You gain knowledge about an area by speaking with dead spirits or reading residual energies from the past. You can ask the DM a single, matter-of-fact question about the location and get an answer if you succeed on a History check. 'What killed the cattle in this barn?' is a good example of a simple question. 'Why were these cattle killed?' is not an appropriate question because it has more to do with the mindset of the killer than the barn. Simple questions usually have a DC of 6, but extremely technical questions or those that involve facts meant to be kept secret can have a much higher DC.",
-            "4. Repair Flesh: 1/min; bonus action; When you touch a creature with less than 50% of their maximum hit points, you can give them a free halved hit die worth of healing. Alternatively, if you use this feature on a creature during a short rest, you grant them an expertise die bonus to each of their hit die rolls.",
+            "4. Repair Flesh: 1/min; bonus action; When you touch a bloodied creature, you can give them a free halved hit die worth of healing. Alternatively, if you use this feature on a creature during a short rest, you grant them an expertise die bonus to each of their hit die rolls.",
             "5. Greater Necromancy: 1/LR; bonus action; This power works like your Necromancy feature, except that it can reanimate creatures up to CR 2.",
-            "6. Terrifying Gaze: 1/week; bonus action; You project a chilling gaze at all living creatures within 30' who can see you. Success means that the creature is frozen in fear, not moving or taking actions for 1 minute or until it takes damage. Some creatures without minds (such as constructs) might be immune to this power.",
+            "6. Terrifying Gaze: 1/week; bonus action; You project a chilling gaze at all living creatures within 30' who can see you, making an attack against each. A hit means that the creature is frozen in fear, immobilised and unable to act for 1 minute, or until it takes damage. Creatures with less than 5 INT are immune to this power.",
             "7. True Necromancy: 1/year; bonus action; This power works like your Necromancy feature, except that it can reanimate creatures up to CR 3.",
-            "8. Word of Death: 1/LR; bonus action; Your attack is the utterance of a magic word so terrible that it snuffs the life from a living target within 30'. The target must be CR 1/2 or lower.",
+            "8. Word of Death: 1/LR; bonus action; You make an attack that is the utterance of a magic word so terrible that it snuffs the life from a living target within 30'. The target must be CR 1 or lower.",
             "9. You can now use your Speaker for the Dead feature at-will.",
-            "10. Your Necromancy feature can now reanimate creatures of up to CR 2, Greater Necromancy up to CR 4, and True Necromancy up to CR 5."
+            "10. Your Necromancy feature can now reanimate creatures of up to CR 2, Greater Necromancy up to CR 3, and True Necromancy up to CR 4."
         ]
     },
     {
         "name": "Crafts Unique Objects",
         "description": "crafting items",
         "tiers": [
-            "1. You gain prof in 2 crafts of your choice.",
+            "1. You gain an expertise die in 2 crafting affinities of your choice.",
             "2. You gain an expertise die in Arcana checks for identifying magical objects.",
-            "3. If you spend at least 24 hours tinkering with a relic in your possession, it gains a free level. This can only occur once per item. They retain this bonus only for you.",
+            "3. If you spend at least 24 hours tinkering with a relic in your possession, it gains an ephemeral level. This can only occur once per item. It retains the effects of this level only for you.",
             "4. Quick Work: 1/min; bonus action; 1 use of any wondrous item is empowered by 1 step if you use it within the next minute.",
-            "5. You gain an expertise die in 2 crafts of your choice.",
-            "6. Built-in Weaponry: At-will; bonus action; Biomechanical implants now provide you with inherent weaponry. This allows you to fire a blast of energy up to 120', making an attack that inflicts 1d12 + level force damage.",
-            "7. All blessings you receive function at 1 tier higher than normal. When you receive a blessing, you can change it to a different blessing category of 1 tier lower (ie. its original tier).",
+            "5. You gain an additional expertise die in the 2 affinities from T1.",
+            "6. Built-in Weaponry: At-will; bonus action; Magitechnical implants now provide you with inherent weaponry. This allows you to fire a blast of energy up to 120', making an attack that inflicts 1d12 + level force damage.",
+            "7. Whenever you find a wondrous item, you can either upgrade it by 1 rarity tier, or reroll it to a different item within its rarity.",
             "8. You can modify any relic to reduce its level, but not its stats, by 1. This can only be done once per relic.",
-            "9. You can craft the mundane bases of items for free, but doing so renders them unmarketable.",
+            "9. Crafting an item costs 10gp less.",
             "10. You have biometal implants in major portions of your body. These changes give you +1 AC."
         ]
     },
     {
-        "name": "Does Not Do Much",
+        "name": "Does Not Do Much [LAST]",
         "description": "embracing genericism",
         "tiers": [
-            "1. Gain prof in any 2 skills.",
+            "1. Gain an expertise die in any 2 skills.",
             "2. +1 maximum hit dice.",
-            "3. Gain prof in any weapon type.",
+            "3. Gain an expertise die in attacks with a weapon type of your choice.",
             "4. Improvise: 1/min; bonus action; When you perform a task with which you do not have proficiency, you can gain advantage on the task.",
-            "5. Gain prof in any 2 skills.",
+            "5. Gain an additional expertise die in the 2 skills from T1.",
             "6. You gain an expertise die in any saving throw of your choice.",
             "7. You gain +3 WIS.",
             "8. Drawing on Life's Experiences: 1/week; bonus action; You have seen a lot and done a lot, and that experience comes in handy. Ask the DM 1 question, and you will receive a general answer. The DM assigns a History DC to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location is DC 3, and obscure knowledge of the past is DC 21.",
-            "9. When performing a task based on Wisdom, you can base it on Dexterity instead.",
-            "10. Gain an expertise die in any 3 skills."
+            "9. When performing a task based on Dexterity, you can base it on Wisdom instead.",
+            "10. Gain two additional expertise dice in the 2 skills from T1."
         ]
     },
     {

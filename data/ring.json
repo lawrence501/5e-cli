@@ -124,7 +124,7 @@
             ]
         },
         {
-            "name": "Fochlucan Worm",
+            "name": "Erdnase Ring",
             "effects": [
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Entangle, Faerie Fire, Shillelagh, and Speak with Animals. Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
@@ -336,7 +336,7 @@
             ]
         },
         {
-            "name": "Canaith Tongue",
+            "name": "Erdnase Ring",
             "effects": [
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Cure Wounds (3rd lvl), Dispel Magic, and Protection from Energy (light only). Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
@@ -399,6 +399,20 @@
             "name": "Ring of Acid Resistance",
             "effects": [
                 "You have 50% resistance to acid dmg."
+            ]
+        },
+        {
+            "name": "Ring of Evasion",
+            "effects": [
+                "The ring has 3 charges, 1d3 of which are recovered after a LR.",
+                "Whenever you fail a DEX save, you may react to spend 1 charge and succeed on that save instead."
+            ]
+        },
+        {
+            "name": "Erdnase Ring",
+            "effects": [
+                "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Stone Shape, Wall of Fire, and Wind Wall. Each spell can only be cast 1/LR in this way.",
+                "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
             ]
         }
     ],
@@ -486,7 +500,7 @@
             ]
         },
         {
-            "name": "Leadership",
+            "name": "Leadership Stone",
             "effects": [
                 "+2 CHA."
             ]
@@ -499,7 +513,7 @@
             ]
         },
         {
-            "name": "Anstruth Rune",
+            "name": "Erdnase Ring",
             "effects": [
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Control Weather, Cure Wounds (upcast to 5th lvl), and Wall of Thorns. Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
@@ -629,6 +643,14 @@
                 "The ring has 1d8 + 1 charges when found, which cannot be recovered.",
                 "On crit vs a creature with fewer than 100 HP, it must succeed on a DC 15 CON save or be slain instantly as the ring rips its life force from its body. Constructs and undead are immune to this effect. If a creature is slain by this effect, the ring loses 1 charge.",
                 "When the ring's last charge is expended, it becomes mundane."
+            ]
+        },
+        {
+            "name": "Living Ring",
+            "effects": [
+                "[CURSE] When you put the ring on, tendrils sprout from it and burrow into your finger from the ring's inner side. You cannot remove the ring willingly.",
+                "You gain 50% resistance to nec, psn, and psy dmg.",
+                "[CURSE] Whenever you complete a LR, you must either feed half your hit dice to the ring (rounded up) or gain 1 level of fatigue."
             ]
         }
     ],
@@ -791,6 +813,27 @@
                 "You are imm to fall dmg.",
                 "You gain proficiency in Auran.",
                 "If your party kills an Air Elemental, you gain 50% resistance to light dmg, a fly sp (hover) equal to your sp, and can cast the following spells by expending charges (DC 17): Chain Lightning (3 charges), Gust of Wind (2 charges), Wind Wall (1 charge)."
+            ]
+        },
+        {
+            "name": "Nightfall Ring",
+            "effects": [
+                "1/LR, by spending 10 minutes activating the ring, you can cause night to fall within 10 miles of you. The artificial nightfall lasts for 24hrs, until you cancel it as an action, or until you take the ring off."
+            ]
+        },
+        {
+            "name": "Ring of Lordly Might",
+            "effects": [
+                "The ring has 6 buttons on it, each numbered 1-6. You can press one as a bonus action, and its effects last until you push a different button or until you cancel it by pressing the same button again.",
+                "1. Flames erupt from your melee weapons, shedding bright light for 40' and dim light for a further 40'. Add 2d6 fire dmg to your melee weapon hits.",
+                "2. Two crescent-shaped blades spring out from your melee weapons, changing their dmg dice to 1d10 S and replacing all of their traits with just the Sweep trait.",
+                "3. A spear point springs from your melee weapons, changing their dmg dice to 1d8 P and replacing all of their traits with just Thrown (40'/120').",
+                "4. The ring transforms into a ladder up to 50' tall that can bear up to 4 tonnes.",
+                "5. The ring transforms into a handheld battering ram that grants you +10 to STR checks to break through barriers.",
+                "6. The ring gives you a constant indication of where north is, as well as your approximate vertical distance from surface ground.",
+                "1/LR, on melee wep hit, you can force the target to make a DC 17 CON save. On a fail, they take 4d6 additional nec dmg and you regain HP equal to half that dmg.",
+                "1/LR, on melee wep hit, you can force the target to make a DC 17 STR save. On a fail, they are staggered until save.",
+                "1/LR, on melee wep hit, you can force the target to make a DC 17 WIS save. On a fail, they are fright of you until save."
             ]
         }
     ],
@@ -971,7 +1014,7 @@
             "name": "Silken Spite",
             "effects": [
                 "Silken Spite is a sentient, chaotic evil ring with 13 INT, 15 WIS, and 15 CHA. It has hearing and darkvision of 120'. It communicates telepathically with its wearer and can speak, read, and understand Abyssal, Common, Elvish, and Undercommon.",
-                "A murderous Yochlol named Sinnafex lives within Silken Spite. The ring speaks in whispers, pushing its wearer to trust no one and to kill those who cause the slightest personal offence.",
+                "[CURSE] A murderous Yochlol named Sinnafex lives within Silken Spite. The ring speaks in whispers, pushing its wearer to trust no one and to kill those who cause the slightest personal offence.",
                 "You gain prof in Abyssal, Elvish, and Undercommon.",
                 "You gain +60' darkvision.",
                 "As an action, you can coat your weapon in poison until it scores a hit. That hit forces its target to make a DC 13 (L11+: DC 15) CON save or become psn'd for 1hr. On a sub fail, it is also uncon until it takes dmg or is woken as an action.",
@@ -979,6 +1022,15 @@
                 "You gain climbing sp equal to your sp.",
                 "You cannot be caught in webs of any sort and can move through them as if they were diff terrain.",
                 "L11+: As an action, you can cast each of the following spells 1/LR each (DC 15): Cloudkill, Darkness, Levitate, or Web."
+            ]
+        },
+        {
+            "name": "Band of the Wanderer",
+            "effects": [
+                "+1 AC.",
+                "[CURSE] Every month, your alignment shifts one grid space towards chaotic neutral, and you become more and more compelled to engage with and explore the most dangerous planes.",
+                "The band has 7 charges, 1d4 + 4 of which are recovered after a LR.",
+                "As an action, you can expend charges to cast one of the following spells (DC 17): Contact Other Plane (3 charges), Demiplane (6 charges), Gate (7 charges), Plane Shift (5 charges), or Teleportation Circle (3 charges)."
             ]
         }
     ]

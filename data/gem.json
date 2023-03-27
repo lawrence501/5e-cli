@@ -3054,5 +3054,76 @@
         "upgrade": "+1/1",
         "tags": ["weapon class", "type dmg", "melee"],
         "meta": "primalist - DONE"
+    },
+    {
+        "description": "+1 melee {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "1/LR, on using a power that doesn't move you, it is used again targeting the exact same location at the start of your next turn",
+        "upgrade": "SR -> min -> round -> unlimited/4",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+5 {type} barrier",
+        "upgrade": "+5/1",
+        "tags": ["type barrier"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your first hit of each combat",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "your spell dmg is converted to {type}",
+        "upgrade": "+1 {type} dmg/1",
+        "tags": ["spell dmg", "type dmg"]
+    },
+    {
+        "description": "debuffs you inflict are converted into the slowed condition",
+        "upgrade": "+1 global dmg vs debuffed targets/1",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "-2 outgoing healing; +1d4 {type} dmg to your hits",
+        "upgrade": "-1 healing and +2 dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "-1 outgoing healing; +2 {type} dmg",
+        "upgrade": "-1 healing and +2 dmg/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "-1 outgoing healing; +2 global dmg vs debuffed targets",
+        "upgrade": "-1 healing and +2 dmg/1",
+        "tags": ["wep dmg", "spell dmg", "debuff"]
+    },
+    {
+        "description": "if you've scored a KB since the start of your last turn, +2 global dmg",
+        "upgrade": "+1/1",
+        "tags": ["wep dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on melee hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["melee", "hp"]
+    },
+    {
+        "description": "on {type} hit, heal 1 HP",
+        "upgrade": "+1/2",
+        "tags": ["type dmg", "hp"],
+        "meta": "void knight - world eater"
     }
 ]
