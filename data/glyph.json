@@ -2240,7 +2240,7 @@
         ]
     },
     {
-        "name": "Does Not Do Much [LAST]",
+        "name": "Does Not Do Much",
         "description": "embracing genericism",
         "tiers": [
             "1. Gain an expertise die in any 2 skills.",
@@ -2257,18 +2257,18 @@
     },
     {
         "name": "Embraces Ancient Ancestry",
-        "description": "unlocking the powers of Brozian gods",
+        "description": "unlocking the divine powers from another universe",
         "tiers": [
-            "1. Choose a god from Dekel's pantheon. This god indicates what your ancestors served and what now manifests in you as a related semi-divine ability. You gain the first 2 tiers of that god's prayer path.",
-            "2. You gain prof/+2 in Religion.",
-            "3. Mythlight Lance: 2/min; bonus action; You can fashion a lance of divine radiance from your mythlight and hurl it at a target. This is a ranged attack of range 30' that deals 1d10 + level radiant damage.",
-            "4. Sentinel: 1/min; bonus action; A target you select within 5' is marked with a rune of celestial protection for 1 minute. You can mark only 1 such target at a time. If the target would be targeted specifically by any attack or effect, make a Religion check against the effect's DC or attack roll. If successful, the source must choose a different target.",
-            "5. Arbiter: 1/min; bonus action; A target you select within 30' is marked with a rune of celestial abandonement for 1 minute. You can mark only 1 such target at a time. During that time, all attacks upon it have advantage.",
-            "6. Glory of the Divine: 1/min; bonus action; Your mythlight pulses with divine radiance, which ignores flesh and directly assails the immortal spirits of up to 3 targets within 30'. This burst inflicts 1d8 + level true radiant damage.",
-            "7. Apportation: 1/SR; bonus action; You call a physical object in Brozias to you. You can choose any mundane piece of equipment, or (no more than once per long rest) you can allow the DM to determine the object randomly. If you call a random object, it has a 15% chance of being a Brozias loot roll, a 45% chance of being a mundane item, and a 40% chance of being worthless junk. You cannot use this power to take an item held by another creature.",
-            "8. Flight: 1/SR; bonus action; You can fly through the air for 1 hour, during which time your mythlight blazes. You gain a flying speed of 120'.",
-            "9. You gain the 3rd tier of your god's prayer path.",
-            "10. You gain +3 to Religion."
+            "1. Choose a divine path from Dekel's loot system. This path indicates what now manifests in you as semi-divine ability. You gain the first tier of that divine path.",
+            "2. You gain an expertise die in Religion.",
+            "3. Divine Lance: 2/min; bonus action; You can fashion a lance of energy from your divinity and hurl it at a target. This is an attack with range 30' that deals 1d10 + level damage of a type based on your divine path.",
+            "4. Sentinel: 1/min; bonus action; An adjacent target you choose is marked with a rune of divine protection for 1 minute. You can mark only 1 such target at a time. If the marked target would be targeted specifically by any effect, make a Religion check against the effect's DC or attack roll. If successful, the source must choose a different target if possible.",
+            "5. Arbiter: 1/min; bonus action; A target you choose within 30' is marked with a rune of divine abandonement for 1 minute. You can mark only 1 such target at a time. During that time, all attacks against it have advantage.",
+            "6. Glory of the Divine: 1/min; bonus action; Your divinity pulses with energy, which ignores flesh and directly assails the immortal spirits of up to 3 targets within 30'. This burst makes an attack at each target, inflicting 1d8 + level true damage of a type based on your divine path.",
+            "7. Apportation: 1/SR; bonus action; You call a physical object in the other universe to you. You can choose any mundane piece of equipment, or (no more than once per long rest) you can allow the DM to determine the object randomly. If you call a random object, it has a 15% chance of being a loot roll from Dekel's system, a 45% chance of being a mundane item, and a 40% chance of being worthless junk. You cannot use this power to take an item held by another creature.",
+            "8. Flight: 1/SR; bonus action; You can fly through the air for 1 hour, during which time your divinity blazes. You gain a flying speed of 120'.",
+            "9. You gain the 2nd tier of your divine path.",
+            "10. You gain a d6 expertise die in Religion."
         ]
     },
     {
@@ -2276,7 +2276,7 @@
         "description": "duplicating yourself",
         "tiers": [
             "1. Duplicate: 2/min; bonus action; You cause a duplicate of yourself to appear at any point you can see within 30'. The duplicate has no clothing or possessions when it appears. The duplicate is a CR 1 humanoid minion. The duplicate obeys your commands and does as you direct it. The duplicate remains until you dismiss it using a bonus action or until it is killed. When the duplicate disappears, it leaves behind anything it was wearing or carying. If the duplicate disappears because it was killed, you take 1d10 true damage, and you lose your bonus action next turn. You can only have 1 duplicate at a time.",
-            "2. While your duplicate is in existence and within 1 mile, you know everything it experiences and can communicate with it telepathically.",
+            "2. While your duplicate is within 1 mile, you know everything it experiences and can communicate with it telepathically.",
             "3. Superior Duplicate: 2/min; free action; When you use your Duplicate feature, you can create a superior duplicate instead of a normal duplicate. A superior duplicate is a CR 2 humanoid minion.",
             "4. Increase the maximum hit points of any duplicate you create by 10.",
             "5. When you or your duplicate would take damage, you can transfer up to 2 points of damage from one to the other provided that you and the duplicate are within 1 mile of each other.",
@@ -2292,26 +2292,26 @@
         "description": "fighting dirty",
         "tiers": [
             "1. You gain an expertise die in Survival checks to track. You deal 1d4 additional base damage with hits.",
-            "2. +5' to movement speed, swimming speed, and long/high jump distance. Also you have advantage on Acrobatics checks to balance.",
+            "2. +5' to movement speed, swimming speed, and long/high jump distance. Also, you have advantage on Acrobatics checks to balance, which doesn't apply to Entertain journey activity checks.",
             "3. You gain an expertise die in Stealth and initiative.",
             "4. Quarry: 2/min; bonus action; Choose a single creature you can see. You gain an expertise die in all tasks involving following, understanding, interacting with, or fighting that creature. You can have only 1 quarry at a time.",
-            "5. Any time you convince a foe that you are not a threat and then attack it without provocation, the attack deals +1d10 base damage.",
-            "6. If attacking from hidden, during a surprise round, or before your target has acted in a combat, you gain an expertise die on the attack roll. On a successful hit, you inflict 1d6 additional base damage.",
+            "5. Any time a creature believes that you are not an active threat and then you attack it without provocation, the attack deals +1d10 base damage.",
+            "6. If attacking from hidden or before your target has acted in a combat, you gain an expertise die on the attack roll. On a successful hit, you inflict 1d6 additional base damage.",
             "7. Mind Games: 1/min; bonus action; You use lies and trickery, mockery, and perhaps even hateful, obscene language against a foe that can understand you (attack). If successful, the foe is debilitated until the end of your next turn, and it has disadvantage on all tasks for a further round.",
             "8. Murderer: 1/year; bonus action; With a swift and sudden attack, you strike a foe in a vital spot. If the target is CR 2 or lower, it is killed outright.",
-            "9. Using the Environment: 1/SR; bonus action; You find some way to use the environment to your advantage in a fight. For the next 10 minutes, attack rolls and Dexterity saves have advantage.",
-            "10. Twisting the Knife: 1/SR; bonus action; If you successfully struck a foe with a melee weapon since the start of your last turn, you can opt to automatically deal damage to the same foe with that same weapon without any modifications or bonuses (ie. just the base weapon damage)"
+            "9. Using the Environment: 1/SR; bonus action; You find some way to use the environment to your advantage in a fight. For the next 10 minutes, your attack rolls and saves have advantage.",
+            "10. Twisting the Knife: 1/SR; bonus action; If you successfully struck a foe with a melee weapon since the start of your last turn, you can opt to automatically deal damage to the same foe with that same weapon without any modifications or bonuses (ie. just the base weapon damage)."
         ]
     },
     {
         "name": "Finds the Flaw in All Things",
         "description": "recognising imperfection",
         "tiers": [
-            "1. Perfect Submission: At-will; bonus action; You know exactly where to grab, prod, or apply pressure to a creature to keep its undivided attention. For as long as you take no actions or movements except to hold the submission, the other creature can take no actions, even over multiple rounds. If the creature takes damage, the effect ends. You can affect creatures up to 1 size larger than you.",
-            "2. If you attack an opponent who you have observed in combat (against another creature or against yourself) for at least 1 round, your next attack against them has advantage. On a successful hit with this enhanced attack, you inflict 1d6 additional base damage.",
+            "1. Perfect Submission: At-will; bonus action; You know exactly where to grab, prod, or apply pressure to an adjacent creature to keep its undivided attention. For as long as you take no actions or movements except to hold the submission, the other creature can take no actions, even over multiple rounds. If the creature takes damage, the effect ends. You can affect creatures up to 1 size larger than you.",
+            "2. If you attack an opponent who you have observed in combat (against another creature or against yourself) for at least 1 round, your next attack against them has advantage. On a successful hit with this attack, you inflict 1d6 additional base damage.",
             "3. You have double advantage on Insight checks.",
             "4. Flaw of Worldly Works: 1/LR; free action; You see where objects are most likely to break. You can then 'overcome' the object with a light touch, for any task that would normally depend on brute force. Examples include opening a barred door or locked container with a touch instead of smashing it, shifting a heavy object without lifting it, opening a hole in a solid barrier, and so on.",
-            "5. Flaw of Mortal Flesh: 1/week; bonus action; You recognise where flesh fails. With a swift and sudden attack, you strike a foe in a vital spot. If the target is CR 2 or lower, it is killed outright.",
+            "5. Flaw of Mortal Flesh: 1/week; bonus action; You recognise where flesh fails. With a swift and sudden attack, you strike a foe in a vital spot. If the target is CR 1 or lower, it is killed outright.",
             "6. Flaw in Everything: 1/min; free action; You see flaws in everyone and everything, so much that you usually veil your flaw-finding eyes. However, sometimes you raise that veil, if for just a moment. Usually, you see the flaw in others, but sometimes you see the flaw in yourself. When you use this power, roll a d6. On any even result, the task you are attempting gains double advantage. On a roll of 1, the task gains disadvantage.",
             "7. Your Perfect Submission feature can now affect creatures of up to 2 sizes larger than you.",
             "8. The bonus damage on your advantage attacks from observing creatures in combat increases to 1d10.",
@@ -2323,16 +2323,16 @@
         "name": "Grows to Towering Heights",
         "description": "growing larger",
         "tiers": [
-            "1. Enlarge: 1/LR; bonus action; You trigger an enzymatic reaction that draws additional mass from another dimension, and you (and your equipment) grow larger. You achieve a height of 9' (Large) and stay that way for 1 minute. During that time, you add 6 to your Strength, and +1 to AC. While you are larger than normal, your Dexterity saves have disadvantage, and your fists have a base damage of 1d8. When the effects of this power end, your stats return to normal.",
-            "2. While you enjoy the effects of your Enlarge feature, all Intimidation checks you attempt have advantage.",
-            "3. When you use your Enlarge feature, you can choose to grow up to 12' in height (Large), and you add 1 more Strength.",
-            "4. When you use your Enlarge feature, you are so big that you can move massive objects more easily, climb buildings by using hand and footholds unavailable to regular-sized humanoids, and jump much farther. While you enjoy the effects of your Enlarge feature, you have advantage on all checks to climb and lift, and you have +5' of jumping distance.",
+            "1. Enlarge: 1/LR; bonus action; You trigger an enzymatic reaction that draws additional mass from another dimension, and you (and your equipment) grow larger. You achieve a height of 9' (Large) and stay that way for 1 minute. During that time, you add 3 to your Strength modifier, and +1 to AC. While you are larger than normal, your Dexterity saves have disadvantage, and your fists have a base damage of 1d8. When the effects of this power end, your stats return to normal.",
+            "2. While you under the effects of your Enlarge feature, all Intimidation checks you attempt have advantage.",
+            "3. Your Enlarge feature now grows you to 12' (still large), granting you an additional +1 to your STR modifier.",
+            "4. When you use your Enlarge feature, you are so big that you can move massive objects more easily, climb buildings by using hand and footholds unavailable to regular-sized humanoids, and jump much farther. While under the effects of your Enlarge feature, you have advantage on all checks to climb and lift, and you have +5' of jumping distance.",
             "5. When you use your Enlarge feature, you can choose to grow up to 16' in height (Huge). When you do, you add a further +1 AC and deal 1d6 additional base damage with melee attacks.",
             "6. Throw: 2/min; free action; When you are using your Enlarge feature and deal damage to a creature of your size or smaller with an unarmed attack, you can choose to throw that creature up to 1d20 feet away from you. The creature lands prone.",
-            "7. While you are using your Enlarge feature, you can attack by attempting to wrap your massive hands around a medium or smaller target. While you maintain your hold as a bonus action each turn, you keep the target from moving or taking physical actions (other than attempts to escape). The target's escape attempts have double disadvantage due to your size. If you wish, you can automatically inflict 1d8 bludgeoning damage each round on the target while you hold it, but you can also keep it protected (by taking all attacks otherwise meant for the target).",
-            "8. When you use your Enlarge feature, you can choose to grow up to 30' in height (Gargantuan), and you add 1 more Strength.",
-            "9. When you use your Enlarge feature, you can choose to grow up to 60' in height (Gargantuan). When you do, you add 2 more Strength, and you deal an additional 1d6 base damage with melee attacks.",
-            "10. Choose one of your existing forms of damage (this might be a specific weapon, a spell, a feature from your class or glyph paths, or a natural weapon). When you hit with that form, you inflict an additional 1d12 base damage."
+            "7. While you are using your Enlarge feature, you can attack by attempting to wrap your massive hands around a medium or smaller target. While you maintain your hold as a bonus action each turn, you keep the target grappled. The target's escape attempts have double disadvantage due to your size. If you wish, you can automatically inflict 1d8 bludgeoning damage each round on the target while you hold it, but you can also keep it protected (by taking all attacks otherwise meant for the target).",
+            "8. When you use your Enlarge feature, you can choose to grow up to 30' in height (Gargantuan), and you gain an additional +1 to your STR modifier.",
+            "9. When you use your Enlarge feature to become Gargantuan, you now become 60' in height. When you do, you gain an additional +1 to your STR modifier, and you deal an additional 1d6 base damage with melee attacks.",
+            "10. Choose one of your powers that deal damage. Whenever that power hits, it inflicts an additional 1d12 base damage."
         ]
     },
     {
@@ -2340,15 +2340,15 @@
         "description": "stealth and infiltration",
         "tiers": [
             "1. Your physical form is designed to be lithe and quiet. Your flesh even reflexively alters its tone to suit your surroundings. All this grants advantage on Stealth checks.",
-            "2. You can subtly change your features and alter your voice dramatically. This grants advantage on Deception checks to disguise your identity.",
-            "3. If you did nothing but move since the start of your last turn, you have advantage on Dexterity saves.",
-            "4. You become hyper-aware of your surroundings. You are aware of all living things within 120', and by concentrating as a bonus action you can learn the general emotional state of any one of them.",
+            "2. You can subtly change your features and alter your voice dramatically. This grants advantage on Deception checks to disguise your identity (this does not count for Gossip journey activity checks).",
+            "3. If you have done nothing but move since the start of your last turn, you have advantage on Dexterity saves.",
+            "4. You become hyper-aware of your surroundings. You are aware of all living things within 120' of you, and by concentrating as a bonus action you can learn the general emotional state of any one of them.",
             "5. Invisibility: 1/SR; bonus action; Thanks to mind-clouding spores and light-bending secretions on your flesh, you become invisible for 10 minutes. While invisible, you gain an expertise die in Stealth checks and Dexterity saves. This effect ends if you attack or cast a spell. If this occurs, you can regain the remaining invisibility effect by taking a bonus action.",
             "6. You cannot be good at getting in if you do not get out. You gain an expertise die in all saving throws.",
-            "7. You use trickery, well-spoken lies, and mind-affecting skin secretions to make others temporarily do what you want them to do. You control the actions of another creature you touch. This effect lasts for 1 minute. The target must be CR 2 or lower. You can allow it to act freely or override its control on a case-by-case basis as long as you can see it. When the duration ends, the creature does not remember being controlled or anything it did while under your influence.",
+            "7. You use trickery, well-spoken lies, and mind-affecting skin secretions to make others temporarily do what you want them to do. You dominate a creature you touch. This effect lasts for 1 minute. The target must be CR 1 or lower. When the duration ends, the creature does not remember being controlled or anything it did while under your influence.",
             "8. You gain an expertise die in Stealth.",
-            "9. You gain an expertise die in Deception checks to disguise your identity.",
-            "10. If you did nothing but move since the start of your last turn, you gain a d6 expertise die in Dexterity saves."
+            "9. You gain an expertise die in Deception checks to disguise your identity (this does not count for Gossip journey activity checks).",
+            "10. If you have done nothing but move since the start of your last turn, you gain a d6 expertise die in Dexterity saves."
         ]
     },
     {
@@ -2357,29 +2357,29 @@
         "tiers": [
             "1. Part of Me: At-will; bonus action; You attach a weapon you are proficient with into the flesh at the end of one of your arms, replacing your hand. The weapon becomes a natural extension of your arm (and hence a natural weapon). While integrated, you inflict 1d4 additional damage with the weapon, though you lose the use of that hand. The weapon can be a two-handed weapon and still leave your other hand free; however, if you do integrate a two-handed weapon, all physical tasks you attempt using your free hand have disadvantage. If you integrate 2 weapons (1 for each hand), you cannot attempt tasks that require the use of hands, nor can you make more than 1 attack with 1 integrated weapon on your turn. You can remove an integrated weapon as a bonus action, and your hand returns.",
             "2. You cannot have disadvantage on an attack with an integrated weapon.",
-            "3. While you have a weapon integrated, you have +2 to Dexterity saves.",
-            "4. You gain +2 AB with integrated weapons.",
-            "5. Rapid Attack: 1/SR; bonus action; You can make an attack as a bonus action with your integrated weapon, even if you have already attacked with it this turn.",
-            "6. You gain +2 AB with integrated weapons.",
-            "7. Weapon Frenzy: 1/week; bonus action; You can attempt to attack every creature within weapon range, but you cannot choose which targets to attack and which to spare because you go into a weapon frenzy and attack everything indiscriminately.",
+            "3. While you have a weapon integrated, you gain an expertise die in saves.",
+            "4. You gain an expertise die in attacks with integrated weapons.",
+            "5. Rapid Attack: 1/SR; bonus action; You make an attack with your integrated weapon, even if you have already attacked with it this turn.",
+            "6. You gain an expertise die in attacks with integrated weapons.",
+            "7. Weapon Frenzy: 1/week; bonus action; You can attempt to make a weapon attack against every creature within weapon range, but you cannot choose which targets to attack and which to spare because you go into a weapon frenzy and attack everything indiscriminately.",
             "8. The bonus damage to integrated weapons from your Part of Me feature increases to 1d8.",
-            "9. You gain +2 AB with integrated weapons when the attack would usually have disadvantage.",
-            "10. While you have a weapon integrated, you have +3 to Dexterity saves."
+            "9. You gain an expertise die in attacks with integrated weapons when the attack would usually have disadvantage.",
+            "10. While you have a weapon integrated, you gain a d6 expertise die in saves."
         ]
     },
     {
         "name": "Interprets the Law",
         "description": "analysing and manipulating the law",
         "tiers": [
-            "1. You gain an expertise die in Deception and Persuasion, and in Insight checks for detecting lies.",
-            "2. You gain an expertise die in History checks related to the laws of the place you are currently in. If you do not know the answer to a question of law, you know where and how to research it.",
-            "3. Debate: At-will; bonus action; In any gathering of 2 or more people trying to establish the truth or come to a decision, you can sway the verdict with masterful rhetoric. If you are given 1 minute or more to argue your point, either the decision goes your way or, if someone else effectively argues a competing point, any associated Persuasion or Deception check has double advantage.",
+            "1. You gain an expertise die in Deception and Persuasion, and in Insight checks for detecting lies (this does not count for Chronicle journey activity checks).",
+            "2. You gain an expertise die in History checks related to the laws of the place you are currently in, including Chronicle journey activity checks. If you do not know the answer to a question of law, you know where and how to research it.",
+            "3. Debate: At-will; bonus action; In any gathering of 2+ people trying to establish the truth or come to a decision, you can sway the verdict with masterful rhetoric. If you are given 1 minute or more to argue your point, either the decision goes your way or, if someone else effectively argues a competing point, any associated Persuasion or Deception check has double advantage.",
             "4. Whenever you provide the Help action for a task that already has advantage, it changes into double advantage.",
             "5. You gain +2 CHA.",
-            "6. Castigate: 1/SR; bonus action; You intimidate any opponent within 120' who understands speech (even if not your language) so much that they lose their bonus action during their next turn and all the rest of their tasks have disadvantage for 1 minute. After using this against a target, they become immune to this feature.",
-            "7. You gain an expertise die in two of the following skills of your choice: Deception, Persuasion, Intimidation, Investigation, or a knowledge skill of your choice. Alternatively, you can instead gain an expertise die in Insight checks for detecting lies.",
-            "8. You gain 3 points to divide among your ability scores however you wish.",
-            "9. You gain a CR 2 humanoid minion who is interested in studying your life to further their law-related ambitions.",
+            "6. Castigate: 1/SR; bonus action; You intimidate any opponent within 120' of you who understands at least 1 language so much that they lose their bonus action during their next turn and all the rest of their tasks have disadvantage for 1 minute. After using this against a target, they become immune to this feature.",
+            "7. You gain an expertise die in two of the following skills of your choice: Deception, Persuasion, Intimidation, Investigation, or a knowledge skill of your choice. Alternatively, you can instead gain an expertise die in Insight checks for detecting lies (this does not count for Chronicle journey activity checks).",
+            "8. You gain 3 points to divide amongst your ability scores however you wish.",
+            "9. You gain a CR 1 humanoid minion who is interested in studying your life to further their law-related ambitions.",
             "10. You gain a d6 expertise die in Persuasion."
         ]
     },
@@ -2387,16 +2387,16 @@
         "name": "Is Idolised by Millions",
         "description": "becoming famous",
         "tiers": [
-            "1. You gain an entourage of a CR 4 humanoid (minion) who accompanies you wherever you go unless you purposefully dismiss them for a particular outing. You can ask them to deliver things for you, run messages and errands - anything you wish, within reason. They can also run interference if you are trying to avoid someone, help hide you from attention, help you muscle through a crowd, and so on. On the other hand, if a situation becomes physically violent, they retreat to safety.",
-            "2. You gain an expertise die in Performance and checks to either create a particular style of art or play a particular game, your choice.",
+            "1. You gain an entourage of a CR 1 humanoid minion who accompanies you wherever you go unless you purposefully dismiss them for a particular outing. You can ask them to deliver things for you, run messages and errands - anything you wish, within reason. They can also run interference if you are trying to avoid someone, help hide you from attention, help you muscle through a crowd, and so on. On the other hand, if a situation becomes physically violent, they retreat to safety and therefore do not participate in combat.",
+            "2. You gain an expertise die in Performance and checks to either create a particular style of art or play a particular game, your choice (either chosen when you gain this tier).",
             "3. You are adept at claiming the rewards that fame can generate. When you are recognised, you can be seated at any restaurant, be let into any government building, be invited to any event (even if it is sold out), get a seat at a private function of any sort, or get into any club, no matter how exclusive. When dealing with someone who cannot or will not immediately give in to your desire, you gain advantage on Persuasion checks if that person recognised you or is convinced that you are a celebrity even if they do not recognise you.",
             "4. You are now immune to diseases and mutations of any kind.",
             "5. Choose a weapon class you are not proficient with. You become proficient with that weapon class.",
             "6. For as long as you speak, you keep the attention of all CR 1 or lower creatures who can hear you.",
-            "7. You gain a CR 2 humanoid follower (minion).",
-            "8. Do You Know Who I Am: 1/min; bonus action; Acting only as someone who is famous and used to privilege can, you verbally harangue a living foe who can hear and understand you so forcefully that it is unable to take any actions or reactions or move until the end of your next turn. Whether you succeed or fail, the next task the target attempts afterwards has disadvantage.",
+            "7. Your entourage increases to CR 2.",
+            "8. Do You Know Who I Am: 1/min; bonus action; Acting only as someone who is famous and used to privilege can, you verbally harangue a living foe who can hear and understand you so forcefully by making an attack that it is dazed and immobilised until the end of your next turn on a hit. Even if you miss, the next task the target attempts afterwards has disadvantage.",
             "9. Transcend the Script: 1/LR; bonus action; Whether they are lines you wrote, acted, reported on, or otherwise incorporated into your talent, you compose an oratory on the fly that is so wonderful that even you believe it. For each ally who hears it (and you too), a task attempted within the next hour has double advantage.",
-            "10. Your humanoid follower increases to CR 3."
+            "10. Your entourage increases to CR 3 and they can now participate in combats."
         ]
     },
     {
@@ -2405,13 +2405,13 @@
         "tiers": [
             "1. You inflict 1d4 additional damage with crossbows.",
             "2. You cannot have disadvantage on crossbow attacks.",
-            "3. You can self-inflict multiples of 2 hit points to increase your crossbow damage. Every 2 hit points add 6 damage to a successful attack, and if you spend a full turn action lining up your shot, every 2 hit points add 10 damage to a successful attack instead.",
-            "4. You gain prof/+2 with all crossbows.",
-            "5. Spray: 2/min; bonus action; If a weapon has the ability to fire multiple shots in a single Attack action, you can spray multiple shots around your target to increase the chance of hitting. The attack roll has advantage. If the attack is successful, it deals 2 less damage than normal.",
+            "3. Before making an attack with a crossbow, you may spend any number of bonus actions to add 2 base damage to the attack for each bonus action spent.",
+            "4. You gain an expertise die in attacks with crossbows.",
+            "5. Spray: 2/min; bonus action; If your crossbow has the ability to fire multiple shots in a single Attack action, you can spray multiple shots around your target to increase the chance of hitting. The attack roll has advantage. If the attack is successful, it deals 2 less damage than normal.",
             "6. You can make an additional crossbow attack whenever you take the Attack action with a crossbow, but this additional attack has double disadvantage.",
-            "7. You gain +2 AB with crossbows.",
-            "8. Arc Spray: 1/min; bonus action; If a weapon has the ability to fire multiple shots in a single Attack action, you can fire your weapon at up to 3 targets within 5' of each other. Each attack has disadvantage.",
-            "9. When you hit a target with a crossbow's attack, you can choose to reduce the damage by 2 but hit the target in a precise spot. Some the possible effects include, but are not limited to, shooting an object out of something's hand, shooting the leg, wing, or other movement limb to reduce something's movement speed to 5' for 3 long rests or until it receives magical healing, or shooting a strap holding a backpack or similarly strapped-on item so that it falls off.",
+            "7. You gain an expertise die in attacks with crossbows.",
+            "8. Arc Spray: 1/min; bonus action; If your crossbow has the ability to fire multiple shots in a single Attack action, you can fire your crossbow at up to 3 targets adj to each other. Each attack has disadvantage.",
+            "9. When you hit a target with a crossbow's attack, you can choose to reduce the damage by 2 but hit the target in a precise spot. Some possible effects include, but are not limited to, shooting an object out of something's hand, shooting the leg, wing, or other movement limb to reduce something's movement speed to 5' for 3 long rests or until it receives magical healing, or shooting a strap holding a backpack or similarly strapped-on item so that it falls off.",
             "10. You inflict 1d6 additional damage with crossbows."
           ]
     },
@@ -2421,27 +2421,27 @@
         "tiers": [
             "1. You inflict 1d4 additional damage with melee attacks.",
             "2. You gain an expertise die in Medicine.",
-            "3. You designate a single member of your party to be your charge. You can change this freely every round, but you can have only 1 charge at a time. As long as that charge is within 5', they gain advantage on saving throws because you have their back.",
-            "4. Choose one to gain: expertise die on checks to break things; expertise die on checks to climb; +5' jumping distance; +5' speed.",
+            "3. You designate a single member of your party to be your charge. You can change this freely every round, but you can have only 1 charge at a time. As long as that charge is adjacent to you, they gain advantage on saving throws because you have their back.",
+            "4. Choose one to gain: expertise die on STR checks to break things; expertise die on Athletics checks to climb (this applies to your Seek Shelter journey activity checks, but not Busk); +5' jumping distance; +5' speed.",
             "5. Choose one weapon class you do not already have full proficiency in. Gain that proficiency.",
-            "6. Knock Out: 1/LR; bonus action; You make a melee attack that inflicts no damage. Instead, if the attack hits, repeat the attack. If successful, a foe of CR 2 or less is knocked unconscious for 1 minute, or until they take damage/are woken as an action.",
-            "7. Choose one weapon class you already have proficiency in. Gain an expertise die with attacks from that weapon class.",
+            "6. Knock Out: 1/LR; bonus action; You make a melee attack that inflicts no damage. Instead, if the attack hits, repeat the attack. If successful, a foe of CR 1 or less is knocked unconscious for 1 minute, or until they take damage/are woken as an action.",
+            "7. Choose one weapon class you already have proficiency in. Gain an expertise die in attacks with that weapon class.",
             "8. You gain +2 STR, and you inflict 1d4 additional damage with melee attacks.",
             "9. You gain an expertise die in Medicine.",
             "10. You inflict 1d6 additional damage with melee attacks."
         ]
     },
     {
-        "name": "Masters the Swarm",
+        "name": "Masters the Swarm [LAST]",
         "description": "controlling swarms of tiny creatures",
         "tiers": [
-            "1. Influence Swarm: At-will; bonus action; You master 1 type of tiny beast (such as insects, rats, bats, or even birds) and they respond to you in number. Your type of creatures within 30' will not harm you or those you designate as allies for 1 hour.",
-            "2. Control Swarm: At-will; bonus action; Your swarm creatures from your Influence Swarm feature within 30' do as you telepathically command for 10 minutes. If they are in large numbers, you can have them swarm about a single creature and grant all their tasks disadvantage.",
+            "1. Influence Swarm: At-will; bonus action; You master 1 type of tiny beast (such as insects, rats, bats, or even birds) and they respond to you in number. This is chosen once when you first gain this feature. Your type of creatures within 30' of you will not harm you or those you designate as allies for 1 hour.",
+            "2. Control Swarm: At-will; bonus action; Your swarm creatures from your Influence Swarm feature within 30' of you do as you telepathically command for 10 minutes. If they are in large numbers, you can have them swarm about a single creature and grant all their tasks disadvantage.",
             "3. Living Armour: 1/SR; bonus action; If you are in a location where it is possible for your creatures from your Influence Swarm feature to come, you call a swarm around you for 1 hour. They crawl over your body or fly around you in a cloud. During this time, your saving throws have advantage, and you gain +1 AC.",
             "4. Gain proficiency in a weapon class you are not already proficient in.",
-            "5. Call Swarm: 1/SR; bonus action; If you are in a location where it is possible for the creatures from your Influence Swarm feature to come, you call a swarm of them for 1 hour. During this hour, they do as you telepathically command as long as they are within 120'. They can behave as described in your Control Swarm feature. While the creatures are in 120', you can speak to them telepathically and perceive through their senses.",
-            "6. You gain a CR 2 swarm (maximum size of Small) as a constant companion that uses DEX saves instead of attacks. It follows your telepathic commands. If your swarm dies, you can hunt in the wild for 1d6 days to find a new one.",
-            "7. Deadly Swarm: 1/week; bonus action; If you are in a location where it is possible for your swarm of creature from your Influence Swarm feature to come, you call a swarm of them for 10 minutes. During this time, they do as you telepathically command as long as they are within 120'. They can do as described in your Control Swarm feature, and also can spend their action attacking all opponents within 5' (using your glyphic AB). The attacking swarm inflicts 1d10 damage. While the creatures are within 120', you can speak to them telepathically and perceive through their senses.",
+            "5. Call Swarm: 1/SR; bonus action; If you are in a location where it is possible for the creatures from your Influence Swarm feature to come, you call a swarm of them for 1 hour. During this hour, they do as you telepathically command as long as they are within 120' of you. They can behave as described in your Control Swarm feature. While the creatures are in 120', you can speak to them telepathically and perceive through their senses.",
+            "6. You gain a CR 1 swarm (maximum size of Small) as a constant minion that uses DEX saves instead of attacks. It follows your telepathic commands. If your swarm dies, you can replace it the next time a member of your party scores a substantial success or higher on a Befriend Creature journey activity.",
+            "7. Deadly Swarm: 1/week; bonus action; If you are in a location where it is possible for your swarm of creatures from your Influence Swarm feature to come, you call a swarm of them for 10 minutes. During this time, they do as you telepathically command as long as they are within 120' of you. They can do as described in your Control Swarm feature, and also can spend their action attacking all opponents adjacent to them (using your glyphic AB). The attacking swarm inflicts 1d10 damage. This counts as both a glyphic and minion attack. While the creatures are within 120' of you, you can speak to them telepathically and perceive through their senses.",
             "8. Gain proficiency in a saving throw you are not already proficient in.",
             "9. You can choose another type of tiny beast to master with your Influence Swarm feature.",
             "10. Your Control Swarm feature now has a range of 120'."

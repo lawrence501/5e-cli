@@ -2548,8 +2548,23 @@
         "description": "Whenever the power hits, the target is inflicted with a DoT dealing barely any $physType dmg, stacking until CON save. Whenever this DoT ticks, you heal barely any HP."
     },
     {
-        "name": "Murderous Splattering [next - Grim Affliction]",
+        "name": "Murderous Splattering",
         "target": "powers that deal damage",
         "description": "Whenever the power scores a killing blow, a splatter of power erupts from the corpse, making a spell atk against all foes adj to it, dealing substantial $physType dmg on a hit. Additionally, the power deals less dmg."
+    },
+    {
+        "name": "Powerful Siphoning",
+        "target": "powers that grant temporary hit points",
+        "description": "The power deals substantially more dmg, but grants less temp HP."
+    },
+    {
+        "name": "Efficient Forking",
+        "target": "powers with a specific number of targets above 1 and a non-cooldown resource cost that deal damage",
+        "description": "The power's cost is reduced by 1 step and it can target 1 additional entity. Additionally, the power deals massively less dmg."
+    },
+    {
+        "name": "Intense Duplication [next - Poisoned Husks]",
+        "target": "powers with an instantaneous duration and a non-cooldown resource cost",
+        "description": "Whenever you finish using the power, it is immediately reused. Additionally, the power deals more dmg and its cost is increased by 1 step."
     }
 ]

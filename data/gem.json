@@ -3125,5 +3125,214 @@
         "upgrade": "+1/2",
         "tags": ["type dmg", "hp"],
         "meta": "void knight - world eater"
+    },
+    {
+        "description": "+1 crit dice per point value of your type dmg soul branch",
+        "upgrade": "+1/4",
+        "tags": ["crit", "type dmg"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your proj hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "proj"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "description": "on KB, heal 2 HP",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1d4 {type dmg} to your melee hits",
+        "upgrade": "+1/1",
+        "tags": ["type dmg", "melee"]
+    },
+    {
+        "description": "your first melee hit each turn that doesn't move you has +1 dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "on sub hit, your target takes 3 {type} DoT dmg at the start of your next turn",
+        "upgrade": "+2/1",
+        "tags": ["type dmg", "dot"],
+        "meta": "void knight - future strike"
+    },
+    {
+        "description": "+1 to your ongoing debuff DCs",
+        "upgrade": "+1/4",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "on KB vs debuffed target, a random debuff on them spreads to all foes adj to the corpse",
+        "upgrade": "+1 global dmg vs debuffed targets/1",
+        "tags": ["debuff"]
+    },
+    {
+        "description": "+1 incoming healing",
+        "upgrade": "+1/2",
+        "tags": ["hp"]
+    },
+    {
+        "description": "+1 melee {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "+2 melee dmg vs bloodied targets",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "your spellcasting ability becomes {ability}",
+        "upgrade": "+1 {ability}/4",
+        "tags": ["spell dmg", "ability"]
+    },
+    {
+        "description": "if your {ability} is 15+, +1d4 {type} dmg to your spell hits",
+        "upgrade": "+1/1",
+        "tags": ["ability", "type dmg", "spell dmg"]
+    },
+    {
+        "description": "+1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "if you've scored a melee KB since the start of your last turn, +4 {type} dmg",
+        "upgrade": "+4/1",
+        "tags": ["melee", "type dmg"]
+    },
+    {
+        "description": "if you've scored a melee KB since the start of your last turn, +6 phys barrier",
+        "upgrade": "+6/1",
+        "tags": ["melee", "phys barrier"]
+    },
+    {
+        "description": "on sub melee hit, target is inflicted with 1 {type} DoT, stacking until CHA save",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg", "dot"],
+        "meta": "void knight - null velocity"
+    },
+    {
+        "description": "1/LR, on using a melee power that doesn't move you, it is used again targeting the exact same location at the start of your next turn",
+        "upgrade": "SR -> min -> round -> unlimited/4",
+        "tags": ["melee"]
+    },
+    {
+        "description": "1/LR, on using a proj power that doesn't move you, it is used again targeting the exact same location at the start of your next turn",
+        "upgrade": "SR -> min -> round -> unlimited/4",
+        "tags": ["proj"]
+    },
+    {
+        "description": "1/LR, on casting a {type} spell that doesn't move you, it is used again targeting the exact same location at the start of your next turn",
+        "upgrade": "SR -> min -> round -> unlimited/4",
+        "tags": ["type dmg", "spell dmg"]
+    },
+    {
+        "description": "-1 $hitForm AC; +5 {type} dmg",
+        "upgrade": "-1 and +5/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+1 dmg taken; +3 {type} dmg",
+        "upgrade": "+1 and +3/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+1 {ability}",
+        "upgrade": "+1/4",
+        "tags": ["ability"]
+    },
+    {
+        "description": "+3 max HP",
+        "upgrade": "+2/1",
+        "tags": ["hp"]
+    },
+    {
+        "description": "when sub hit, +5 dmg barrier until you next decrease 1 tier of healthiness",
+        "upgrade": "+5/1",
+        "tags": ["phys barrier", "non-phys barrier"]
+    },
+    {
+        "description": "when sub hit, the next time you decrease 1 tier of healthiness, make a spell atk against each adj foe dealing 1d8 {type}",
+        "upgrade": "+2/1",
+        "tags": ["hp", "spell dmg", "type dmg"]
+    },
+    {
+        "description": "on KB, +2 {type} dmg for combat",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "on KB, +2 melee dmg for combat",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "on sub KB, +1 to saves vs ongoing debuffs for combat",
+        "upgrade": "+1/4",
+        "tags": ["save"],
+        "meta": "void knight - essence of the end"
+    },
+    {
+        "description": "+1 melee dmg",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "on sub melee hit, target is inflicted with 1 {type} DoT, stacking until CHA save",
+        "upgrade": "+1/1",
+        "tags": ["melee", "type dmg", "dot"]
+    },
+    {
+        "description": "+1 {type} dmg",
+        "upgrade": "+1/1",
+        "tags": ["type dmg"]
+    },
+    {
+        "description": "+5' sp",
+        "upgrade": "+5'/2",
+        "tags": ["speed"]
+    },
+    {
+        "description": "if you've scored a KB this combat, ",
+        "upgrade": "+1/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "-8 melee dmg; on using a melee power that doesn't move you, it is used again targeting the exact same location at the start of your next turn",
+        "upgrade": "-11 melee dmg and +3 melee AB/1",
+        "tags": ["melee"]
+    },
+    {
+        "description": "-8 proj dmg; on using a proj power that doesn't move you, it is used again targeting the exact same location at the start of your next turn",
+        "upgrade": "-11 proj dmg and +3 proj AB/1",
+        "tags": ["proj"]
+    },
+    {
+        "description": "the first time you become bloodied each combat, all adj foes are temporarily banished until CHA save",
+        "upgrade": "+2 dmg with reactions/1",
+        "tags": ["hp", "debuff"],
+        "meta": "void knight - DONE"
     }
 ]

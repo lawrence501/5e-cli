@@ -944,6 +944,40 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Superior Jacket",
+            "source": "warlock - archfey",
+            "mods": [
+                "1/SR, as an action, you can project the beguiling and fearsome presence of the fey, causing each creature in a 10' cube that either contains or is adjacent to you to make a WIS save or be either charmed or frightened (your choice) by you until the end of your next turn."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Seeking Coat",
+            "source": "warlock - seeker",
+            "mods": [
+                "1/SR, as a bonus, you create a whirling aurora of brilliant energy that swirls around you. Until the end of your next turn, you gain 50% resistance to dmg, and if a foe ends its turn within 10' of you, it takes rad spell dmg equal to 3 + your ability mod."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Experimental Jerkin",
+            "source": "savant - avantist",
+            "mods": [
+                "You gain an expertise die in Arcana.",
+                "You gain an expertise die in Experiment journey activity checks."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Diplomatic Tunic",
+            "source": "savant - diplomat",
+            "mods": [
+                "You gain an expertise die in Persuasion.",
+                "You gain an expertise die in Gossip journey activity checks."
+            ],
+            "variables": []
         }
     ],
     "medium": [

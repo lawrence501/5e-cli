@@ -120,7 +120,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+1 to DCs for ending ongoing effects",
+        "description": "+1 to your ongoing debuff DCs",
         "pointValue": "4",
         "upgrade": "1/4",
         "tags": ["weapon"]

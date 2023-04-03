@@ -1,11 +1,11 @@
 [
     {
         "name": "Emergency Feed-Pouch",
-        "description": "On a Befriend Creature crit fail, the additional beast creature has -3 to its AC and saving throws."
+        "description": "On a Befriend Creature crit fail, you only take damage equal to your level."
     },
     {
         "name": "Backup Feed-Pouch",
-        "description": "On a Befriend Creature sub fail, all foes in the triggered encounter have -1 to their AC and saving throws."
+        "description": "On a Befriend Creature sub fail, you only roll 1d4 for the damage multiplier."
     },
     {
         "name": "Feed-Pouch",
@@ -13,11 +13,11 @@
     },
     {
         "name": "Superior Feed-Pouch",
-        "description": "On a Befriend Creature sub succ, a new minion is 1 CR higher. Alternatively, an upgraded one gains 1 additional AC and AB."
+        "description": "On a Befriend Creature sub succ, a new minion is 1 CR higher. Alternatively, an upgraded one increases its maximum hit points by a further amount equal to your level."
     },
     {
         "name": "Legendary Feed-Pouch",
-        "description": "On a Befriend Creature crit succ, after rolling for your Boon, you can instead change the result to an Animal result (1). The resulting minion is 2 CR higher, and if upgraded, gains 2 additional AC and AB."
+        "description": "On a Befriend Creature crit succ, after rolling for your Boon, you can instead change the result to an Animal result (1). The resulting minion is 2 CR higher, and if upgraded, gains additional maximum hit points equal to double your level."
     },
     {
         "name": "Emergency Music Box",
@@ -161,7 +161,7 @@
     },
     {
         "name": "Emergency Offerings",
-        "description": "On a Pray crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
+        "description": "On a Pray crit fail, the curse is less impactful."
     },
     {
         "name": "Backup Offerings",
@@ -181,11 +181,11 @@
     },
     {
         "name": "Emergency Smoke Bomb",
-        "description": "On a Rob crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
+        "description": "On a Rob crit fail, the loot roll is no longer lost, but instead it has a -25 penalty (including on any rerolls), and you lose it if the result drops below 1."
     },
     {
         "name": "Backup Smoke Bomb",
-        "description": "On a Rob sub fail, all foes in the triggered encounter have -1 to their AC and saving throws."
+        "description": "On a Rob sub fail, the roll disadvantage becomes -2 instead, and the chance to not participate decreases to 25%."
     },
     {
         "name": "Smoke Bomb",

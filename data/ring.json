@@ -124,7 +124,7 @@
             ]
         },
         {
-            "name": "Erdnase Ring",
+            "name": "Ring of Padstowe",
             "effects": [
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Entangle, Faerie Fire, Shillelagh, and Speak with Animals. Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
@@ -242,7 +242,7 @@
             ]
         },
         {
-            "name": "Dragon's Wrath Sign",
+            "name": "Dragon's Wrath Ring",
             "effects": [
                 "Whenever you roll a 20 on a wep atk, each foe adj to the atk's target takes 5 $nonPhysType dmg.",
                 "L11+: +1d6 {nonPhysType} dmg to your wep hits."
@@ -336,7 +336,7 @@
             ]
         },
         {
-            "name": "Erdnase Ring",
+            "name": "Ring of Padstowe",
             "effects": [
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Cure Wounds (3rd lvl), Dispel Magic, and Protection from Energy (light only). Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
@@ -409,10 +409,17 @@
             ]
         },
         {
-            "name": "Erdnase Ring",
+            "name": "Ring of Padstowe",
             "effects": [
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Stone Shape, Wall of Fire, and Wind Wall. Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
+            ]
+        },
+        {
+            "name": "Ring of Wounding",
+            "effects": [
+                "HP lost to your wep dmg can only be recovered through rests.",
+                "1/turn, on wep hit, you can inflict a 1d4 nec DoT, stacking until DC 15 CON save or a creature takes an action to Medicine DC 15 them."
             ]
         }
     ],
@@ -513,7 +520,7 @@
             ]
         },
         {
-            "name": "Erdnase Ring",
+            "name": "Ring of Padstowe",
             "effects": [
                 "As an action, you can touch the ring to cast one of the following spells with your own spellcasting stats: Fly, Invisibility, Levitate, Protection from Evil and Good, Control Weather, Cure Wounds (upcast to 5th lvl), and Wall of Thorns. Each spell can only be cast 1/LR in this way.",
                 "Whenever you cast a spell with either a somatic or material component that can inflict the charmed condition on a failed save, you can impose disadv on the save."
@@ -651,6 +658,14 @@
                 "[CURSE] When you put the ring on, tendrils sprout from it and burrow into your finger from the ring's inner side. You cannot remove the ring willingly.",
                 "You gain 50% resistance to nec, psn, and psy dmg.",
                 "[CURSE] Whenever you complete a LR, you must either feed half your hit dice to the ring (rounded up) or gain 1 level of fatigue."
+            ]
+        },
+        {
+            "name": "Blue Dragon Ring",
+            "effects": [
+                "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
+                "You have 50% resistance to light dmg.",
+                "1/LR, as an action, you can magically discern the distance and direction of the nearest blue dragon within 30 miles of you."
             ]
         }
     ],
@@ -798,7 +813,7 @@
             ]
         },
         {
-            "name": "Wreath of the Prism",
+            "name": "Loop of the Prism",
             "effects": [
                 "+60' of darkvision.",
                 "On atk hit vs a beast, dragon, or monstrosity of up to CR 5 (L11+: CR 10), or when you grapple one, you can cast Dominate Monster (DC 13 (L11+: DC 15)) on the target. On a successful save, the creature is immune to this effect until it completes a LR. Otherwise, a larger, shimmering image of the ring appears as a collar around the target's neck until it is no longer affected by the spell. You can only have 1 creatured affected by the spell at once, but it doesn't require your concentration."
@@ -835,6 +850,13 @@
                 "1/LR, on melee wep hit, you can force the target to make a DC 17 STR save. On a fail, they are staggered until save.",
                 "1/LR, on melee wep hit, you can force the target to make a DC 17 WIS save. On a fail, they are fright of you until save."
             ]
+        },
+        {
+            "name": "Ring of Invisibility",
+            "effects": [
+                "As an action, you can become invisible, or end this invisibility.",
+                "The ring has a maximum duration of 2hrs, which is deducted from while you are using the invisibility. Whenever you spend a full day not using the invisibility, the ring regains up to 2hrs of duration."
+            ]
         }
     ],
     "artifact": [
@@ -870,7 +892,7 @@
                 "When you make a dmg roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling.",
                 "Whenever you cast Magic Circle and only name fiends, or Planar Binding targeting a fiend, the spell is upcast to 9th lvl. Additionally, the fiend has disadvantage on its save against the spell.",
                 "As an action once per long rest, you can target a fiend you can see that is trapped within a Magic Circle. It must pass a DC 20 CHA save with disadvantage or become trapped within the ring. You know a creature's widely-known name and its depravities while it is trapped.",
-                "Whenever you finish a long rest, the creature trapped in the ring of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
+                "[CURSE] Whenever you finish a long rest, the creature trapped in the ring of the highest CR can attempt to possess you. You must pass a DC 20 CHA save, or are possessed by the creature, which controls you completely. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, that creature cannot attempt to possess you for 7 days.",
                 "When you first find the ring, it already contains 1d4 random demons."
             ]
         },
