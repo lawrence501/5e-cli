@@ -100,24 +100,24 @@
         "description": "On an Experiment crit succ, the minion's CR is further increased by 1."
     },
     {
-        "name": "Emergency Arcane Guidebook",
-        "description": "On a Gather Components crit fail, all foes in the triggered encounter have -2 to their AC and saving throws."
+        "name": "Emergency Testing Kit",
+        "description": "On a Gather Components crit fail, you can choose 2 members of the party to not gain strife."
     },
     {
-        "name": "Backup Arcane Guidebook",
-        "description": "On a Gather Components sub fail, any affected tasks have +1 Accuracy."
+        "name": "Backup Testing Kit",
+        "description": "On a Gather Components sub fail, you can choose 1 member of the party to be unaffected by the penalty."
     },
     {
-        "name": "Arcane Guidebook",
-        "description": "On a Gather Components succ, 1 additional minor metamagic point is granted."
+        "name": "Testing Kit",
+        "description": "On a Gather Components succ, the bonus increases to +2."
     },
     {
-        "name": "Superior Arcane Guidebook",
-        "description": "On a Gather Components sub succ, 1 additional moderate metamagic point is granted."
+        "name": "Superior Testing Kit",
+        "description": "On a Gather Components sub succ, the spell is chosen with advantage."
     },
     {
-        "name": "Legendary Arcane Guidebook",
-        "description": "On a Gather Components crit succ, 2 additional moderate metamagic points are granted."
+        "name": "Legendary Testing Kit",
+        "description": "On a Gather Components crit succ, each other member of the party can reduce either their fatigue or strife by 1."
     },
     {
         "name": "Emergency Cultural Guidebook",

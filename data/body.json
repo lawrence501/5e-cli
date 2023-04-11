@@ -1933,10 +1933,52 @@
                         "They have 50% resistance to phys dmg.",
                         "They gain +2 global dmg."
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Arboreal Vest",
+            "source": "druid - treespeaker (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "You gain proficiency in Druidic, which you can use to verbally communicate with plants. They can understand you, and you can comprehend them in return.",
+                        "The knowledge and awareness of many plants is limited and most mundane plants have at best a vague understanding of the world around them, though creatures with the plant type can often give you information about nearby locations and monsters, including whatever they have perceived within the past day. At the DM's discretion, you may be able to persuade a plant creature to perform a small favour for you.",
+                        "Whenever you cast a spell of the Plants subschool (consult your DM for non-A5E spells), roll a number of d4s equal to the spell's level. You and allies creatures within 10' of you regain a number of hit points equal to the result."
+                    ]
                 },
                 {
                     "mods": [
-                        "The creature gains an expertise die on INT, WIS, and CHA ability checks."
+                        "As a bonus action, you create a 10'-long vine at a point you can see within 60'. It lasts for 1min, until you dismiss it as another bonus action, or until you create another vine.",
+                        "When the vine is first created, you can make a melee spell atk against 1 target within 10' of it. On a hit, the target takes 1d6 force dmg and must make a STR save. On a fail, it is rest by the vine (escape DC equal to your save DC).",
+                        "As a bonus action, you can move the vine up to 30' and repeat the atk, or if a creature is currently restrained by the vine you may move the vine and the restrained creature up to 10'."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Voidhunting Brigandine",
+            "source": "druid - axis slayer (a5e)",
+            "mods": [],
+            "variables": [
+                {
+                    "mods": [
+                        "As a bonus action, you can choose a creature you can see with less than its max HP to sense the flow of planar energies in it. You learn its damage resistances, immunities, and vulnerabilities, and condition immunities."
+                    ]
+                },
+                {
+                    "mods": [
+                        "You gain proficiency with martial weapons and all weapons you hold gain the Conduit trait.",
+                        "While holding a weapon with the Heavy trait, you can use any ability instead of your Strength for the weapon's rolls.",
+                        "1/SR, on melee weapon hit, you can add 1d10 dmg of the following type to the hit:"
+                    ],
+                    "variables": [
+                        "acid",
+                        "cold",
+                        "fire",
+                        "light",
+                        "thunder"
                     ]
                 }
             ]
@@ -2363,6 +2405,23 @@
             "mods": [
                 "While within your home city (or equivalent), you gain an expertise die for each ally within 10' of you when making Deception, Intimidation, or Insight checks, to a maximum of 1d10.",
                 "You may designate a new city after spending at least 1 week integrating yourself into its local crime scene."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Champion Plate",
+            "source": "fighter - champion",
+            "mods": [
+                "+1 weapon crit range."
+            ],
+            "variables": []
+        },
+        {
+            "name": "Eldritch Plate",
+            "source": "fighter - eldritch knight",
+            "mods": [
+                "At the end of a SR, you can create a bond between you and a weapon you have. You cannot be disarmed of a bonded weapon against your will while conscious, and if it is on the same plane of existence as you, you can summon it to a free hand as a bonus action.",
+                "You can have up to 2 weapons bonded at a time."
             ],
             "variables": []
         }

@@ -212,6 +212,9 @@ While riding your mount, your AC increases by 1.
     - All players MUST take at least 1 skill prof for their highest ability on char creation
     - All journey activities score a sub fail on a roll of 2.
 
+- New ideas from Crucible:
+    - Interesting selling affixes in standard pool
+
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
 2. Tomes (high)

@@ -1775,7 +1775,7 @@
         "description": "If you've used the power since the start of your last turn, you deal more $nonPhysType dmg and your spells have their usage times reduced by 1 step. Additionally, the power deals substantially less dmg."
     },
     {
-        "name": "Empowering Barriers",
+        "name": "Empowering Shielding",
         "target": "powers that grant buffs and deal damage",
         "description": "While you are buffed by the power, your spell hits grant you temp HP and recover 1 spell slot lvl. Additionally, the power deals substantially less dmg."
     },
@@ -2563,8 +2563,23 @@
         "description": "The power's cost is reduced by 1 step and it can target 1 additional entity. Additionally, the power deals massively less dmg."
     },
     {
-        "name": "Intense Duplication [next - Poisoned Husks]",
+        "name": "Intense Duplication",
         "target": "powers with an instantaneous duration and a non-cooldown resource cost",
         "description": "Whenever you finish using the power, it is immediately reused. Additionally, the power deals more dmg and its cost is increased by 1 step."
+    },
+    {
+        "name": "Ailed Shredding",
+        "target": "powers that apply debuffs",
+        "description": "The power's debuffs are converted into '+1 phys dmg taken for 1 round'."
+    },
+    {
+        "name": "Virulence",
+        "target": "any power",
+        "description": "Whenever you use the power, your hits for the next round inflict a DoT dealing $nonPhysType dmg, stacking until CON save. Additionally, whenever you use the power, you are inflicted with a DoT dealing slight {type} dmg, stacking until CON save."
+    },
+    {
+        "name": "Merciful Defence [next - hunger]",
+        "target": "any power",
+        "description": "Whenever the power hits, all of your debuffs on the target are removed and you gain a massive amount of phys and $dmgType barrier until the end of your next turn for each."
     }
 ]

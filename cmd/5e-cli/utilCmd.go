@@ -370,7 +370,7 @@ var travel = func() error {
 
 	hostileRoll := rand.Intn(100)
 	hostile1, hostile2 := -1, -1
-	if hostileRoll < 5 {
+	if hostileRoll < 15 {
 		for hostile1 == hostile2 {
 			hostile1 = rand.Intn(5)
 			hostile2 = rand.Intn(5)
