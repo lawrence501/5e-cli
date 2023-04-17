@@ -2,6 +2,7 @@ package main
 
 import (
 	"errors"
+	"fmt"
 	"log"
 	"math/rand"
 	"strings"
@@ -226,5 +227,37 @@ var body = func() error {
 	modString := strings.Join(mods, "\n- ")
 
 	log.Printf("Body armour\n%s (%s):\n- %s", chosen.Name, weight, modString)
+	return nil
+}
+
+var magicItem = func() error {
+	affixRoll := rand.Intn(3) + 1
+
+	typeRoll := rand.Intn(3)
+	tags := []string{}
+	if typeRoll < 1 {
+		tags = append(tags, "weapon")
+	} else {
+		tags = append(tags, "armour")
+	}
+
+	affixes, err := getEnchants(affixRoll, tags)
+	if err != nil {
+		return err
+	}
+	var modDescriptions []string
+	for _, m := range affixes {
+		m.Description = processMod(m.Description)
+		modDescriptions = append(modDescriptions, fmt.Sprintf("%s [%s; %s]", m.Description, m.PointValue, m.Upgrade))
+	}
+
+	minPointText := ""
+	switch affixRoll {
+	case 1:
+		minPointText = "(MIN 3 POINTS)"
+	case 2:
+		minPointText = "(MIN 2 POINTS)"
+	}
+	log.Printf("%de magic %s %s\n- %s", affixRoll, tags[0], minPointText, strings.Join(modDescriptions, "\n- "))
 	return nil
 }

@@ -192,7 +192,7 @@
         "tags": ["armour"]
     },
     {
-        "description": "this item always looks polished and brand-new",
+        "description": "this item always looks polished and brand-new, and is always clean",
         "pointValue": "1",
         "upgrade": "+1 persuasion/1",
         "tags": []
@@ -1444,5 +1444,11 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
+    },
+    {
+        "description": "someone in $city will exchange this item for exotic treasures (can be traded there for a random positive reward)",
+        "pointValue": "-",
+        "upgrade": "-",
+        "tags": [""]
     }
 ]

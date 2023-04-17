@@ -230,5 +230,6 @@ While riding your mount, your AC increases by 1.
 12. Tarots (high)
 13. Belt (med)
 14. Crystals (low)
+15. Magic Items (low)
  
-7% each, except 4 is 9%
+7% each, except 4 is 2%

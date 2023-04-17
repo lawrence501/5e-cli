@@ -102,7 +102,7 @@
         "description": "+5% chance for hostile random encounters to be converted into a Legendary Chest (empowered = +5%)"
     },
     {
-        "description": "instant use of wish spell, 100% chance to fail, all combine into 1, each decreases fail chance by 20% (empowered = -20% chance to fail)"
+        "description": "Instant use of wish spell, 100% chance to fail, all combine into 1, each decreases fail chance by 20% (empowered = -20% chance to fail)"
     },
     {
         "description": "Gain a tarot-crafted item from a reading of 3 random cards currently in the deck (empowered = +1 draw to choose from)"
@@ -115,5 +115,17 @@
     },
     {
         "description": "Your crystal tiers up (empowered = +20% chance to tier up again)"
+    },
+    {
+        "description": "Gain proficiency in a random skill you don't already have proficiency in (empowered = +1 adv)"
+    },
+    {
+        "description": "Gain a powerful mutation (empowered = +1 adv)"
+    },
+    {
+        "description": "Gain a random follower (empowered = +1 adv)"
+    },
+    {
+        "description": "Gain a loot roll on a random inactive DM's last campaign's loot table (empowered = +1 adv)"
     }
 ]

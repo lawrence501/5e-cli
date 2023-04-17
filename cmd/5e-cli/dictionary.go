@@ -147,6 +147,13 @@ var PARTY_MEMBERS []string = []string{
 	"Dan",
 }
 
+var CITIES []string = []string{
+	"Ely",
+	"Aramore",
+	"Hollyhead",
+	"Aeston City",
+}
+
 var INSIGHTS map[string]int = map[string]int{
 	"Fillipo":    5,
 	"Eva":        9,
