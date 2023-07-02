@@ -11,7 +11,7 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Amulet: 1gp
 - Relic: 60gp
 
-### Relic level costs
+### Relic level costs (same price - 125)
 
 2. 20
 3. 30
@@ -22,6 +22,11 @@ Golang CLI helper for my D&amp;D 5e campaigns
 8. 230
 9. 300
 10. 400
+
+Bentley: 1400
+Adrian: 890
+Dan: 280
+Lawrence: 1400
 
 ### Relic generation
 
@@ -214,6 +219,22 @@ While riding your mount, your AC increases by 1.
 
 - New ideas from Crucible:
     - Interesting selling affixes in standard pool
+
+- Relic change ideas:
+    - Reduce initial power to 1pt per mod (make non-relic items more competitive)
+    - Make upgrade costs uniform (make investing in a single relic more worthwhile than spreading out) - 150gp
+    - 3x choices on lvl
+    - Put something interesting on L10
+    - Change dream relics - want to retain freebie relic, but don't want to compete with regular relics so much
+
+- Relics are not char bound, they are levelled up with gold like old days
+    - Can't downlevel, can only get resources back by completely selling (100% refund)
+    - Max level 6 (ie. 5 levels from base), all level costs = 125gp
+    - Fully reveal on find to max level
+
+- Partnered glyph path
+
+- Replace/remove belts now that journey activities are essentially loot slots
 
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)

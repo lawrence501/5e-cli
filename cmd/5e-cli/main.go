@@ -27,7 +27,7 @@ var ROLL_RANGE_CEILINGS = map[int]func() error{
 	85:  relic,
 	92:  func() error { log.Println("Dream Mirror"); return nil },
 	99:  func() error { log.Println("Glyph"); return nil },
-	100: func() error { log.Println("Player's choice!"); return nil },
+	100: func() error { log.Println("Player's choice and upgrade result with +1 colour!"); return nil },
 }
 
 var COMMAND_MAP = map[string]func() error{
@@ -45,7 +45,6 @@ var COMMAND_MAP = map[string]func() error{
 	"loot":          loot,
 	"harvest":       harvest,
 	"condi":         condition,
-	"mutate":        mutation,
 	"encounter":     randomEncounter,
 	"insight":       insight,
 	"dmg polarity":  dmgPolarity,
@@ -56,7 +55,6 @@ var COMMAND_MAP = map[string]func() error{
 	"weapon class":  weaponClass,
 	"phys type":     physType,
 	"non-phys type": nonPhysType,
-	"challenge":     challenge,
 	"class":         class,
 	"tarot":         tarot,
 	"gem":           gem,

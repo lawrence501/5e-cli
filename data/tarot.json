@@ -53,7 +53,7 @@
     },
     {
         "name": "Death",
-        "description": "The item is transformed into a glyph, which when consumed replaces your next glyph path tier with the item's effects. Before you consume this glyph, you find out what your next glyph path tier would grant you."
+        "description": "The item is transformed into a dormant glyph, which when consumed replaces your next glyph path tier with the item's effects. Before you consume this glyph, you find out what your next glyph path tier would grant you."
     },
     {
         "name": "Temperance",
