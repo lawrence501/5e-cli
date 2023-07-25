@@ -83,6 +83,7 @@ Always based on dmg where possible
 - General conditional: -2
 - Party positioning conditional: -1
 - Common location conditional: -1
+- Uncommon location conditional: -3
 - Incoming healing: 2
 - Passive regen: 3
 - Mark effects: x2
@@ -93,6 +94,7 @@ Always based on dmg where possible
 - Ignore all res/imm: +5
 - Ignore res and immunity: +10
 - Equipment proficiency: +3
+- Language proficiency: +2
 - Armour proficiency requirement: -2
 - Weapon proficiency requirement: -3
 - 1/LR spellcast: 1/lvl
@@ -228,9 +230,11 @@ While riding your mount, your AC increases by 1.
 
 - Relics are not char bound, they are levelled up with gold like old days
     - Can't downlevel, can only get resources back by completely selling (100% refund)
-    - Max level 6 (ie. 5 levels from base), all level costs = 125gp
+    - Max level 6 (ie. 5 levels from base), all level costs = 100gp
     - Fully reveal on find to max level
     - 3x choice on lvl
+    - Start with 3x 1pt mods, rather than 2pts, to help non-relics compete
+    - 6 thematic mods per relic
 
 - Augment system - some sort of experience and gain on breakpoints? Have class feature-esque boosts in the pool, and maybe stuff that adds synergy between backstory pairs. Every 50xp?
 
