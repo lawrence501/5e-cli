@@ -27,6 +27,10 @@ func roundFloat(val float64, precision uint) float64 {
 	return math.Round(val*ratio) / ratio
 }
 
+func randSelect[S []E, E any](s S) E {
+	return s[rand.Intn(len(s))]
+}
+
 func fetchTarot(cardIdx int) (Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
@@ -416,6 +420,25 @@ func fetchChaos() (Chaos, error) {
 	return chaos, nil
 }
 
+func fetchDreamPool(char string) ([]Enchant, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []Enchant{}, err
+	}
+
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "dreamPool.json"))
+	if err != nil {
+		return []Enchant{}, err
+	}
+
+	pools := map[string][]Enchant{}
+	err = json.Unmarshal([]byte(f), &pools)
+	if err != nil {
+		return []Enchant{}, err
+	}
+	return pools[char], nil
+}
+
 func fetchMutations() ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
@@ -483,7 +506,7 @@ func getLootSearchResults(skill string) (int, error) {
 		return 0, nil
 	}
 
-	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(2*playerCount)) + 1), nil
+	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(2.5*float64(playerCount))) + 1), nil
 }
 
 var DIE_SIZES []float64 = []float64{2.5, 3.5, 4.5, 5.5, 6.5}

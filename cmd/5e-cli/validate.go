@@ -84,3 +84,10 @@ var validateTarotCard = func(input string) error {
 	}
 	return nil
 }
+
+var validatePartyMember = func(input string) error {
+	if valid := slices.Contains(PARTY_MEMBERS, input); !valid {
+		return errors.New("invalid party member")
+	}
+	return nil
+}

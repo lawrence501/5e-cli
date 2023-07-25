@@ -1,0 +1,22 @@
+{
+    "Bentley": [
+        {
+            "description": "instead of choosing your 1st-level Signature Spell, a random 3rd-level wizard spell is chosen whenever you finish a short or long rest",
+            "pointValue": "1",
+            "upgrade": "+1 lvl/1"
+        },
+        {
+            "description": "your 1st-level Signature Spell is always upcast 1 level",
+            "pointValue": "2",
+            "upgrade": "+1 lvl/2"
+        },
+        {
+            "description": "your 1st-level Signature Spell can be chosen from any spell list",
+            "pointValue": "1",
+            "upgrade": "your 1st-level Signature Spell deals +1 dmg if it's not a wizard spell/1"
+        }
+    ],
+    "Dan": [],
+    "Dekel": [],
+    "Adrian": []
+}

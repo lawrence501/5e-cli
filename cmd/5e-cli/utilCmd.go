@@ -456,6 +456,22 @@ var journeyActivity = func() error {
 	return nil
 }
 
+var dream = func() error {
+	charP := promptui.Prompt{
+		Label:    "Dreaming character",
+		Validate: validatePartyMember,
+	}
+	char, err := charP.Run()
+	if err != nil {
+		return err
+	}
+
+	pool, err := fetchDreamPool(char)
+	mod := randSelect(pool)
+	fmt.Printf("%s's dream: %s [%s; %s]", char, mod.Description, mod.PointValue, mod.Upgrade)
+	return nil
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil

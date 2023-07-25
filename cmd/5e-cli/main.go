@@ -76,6 +76,7 @@ var COMMAND_MAP = map[string]func() error{
 	"martial wep":   martialWeapon,
 	"posi enc":      posiEnc,
 	"language":      language,
+	"dream":         dream,
 }
 
 func main() {
