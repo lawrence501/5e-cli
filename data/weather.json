@@ -30,7 +30,7 @@
     },
     {
       "name": "Cruel Haze",
-      "description": "During combat, all adventurers have reduced passive regen equal to the round number."
+      "description": "At the start of each creature's turn in combat, they lose hit points equal to the round number."
     },
     {
       "name": "Golden Sky",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Strange Music on the Wind",
-      "description": "At the start of each adventurer's turn in combat, they swap spaces with another random creature in the combat."
+      "description": "At the start of each creature's turn in combat, they swap spaces with another random creature in the combat."
     },
     {
       "name": "Gaze of the Assassin",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Echoing Silence",
-      "description": "Players cannot communicate with each other (only with the DM) and must have their eyes closed unless either it is their turn or they are being affected by a monster in some way."
+      "description": "Players cannot communicate with each other and must have their eyes closed unless either it is their turn or they are being affected by a monster in some way."
     },
     {
       "name": "Chaos Storm",

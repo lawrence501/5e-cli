@@ -11,7 +11,7 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Amulet: 1gp
 - Relic: 60gp
 
-### Relic level costs (same price - 125)
+### Relic level costs (same price - 150)
 
 2. 20
 3. 30
@@ -96,9 +96,12 @@ Always based on dmg where possible
 - Armour proficiency requirement: -2
 - Weapon proficiency requirement: -3
 - 1/LR spellcast: 1/lvl
+- 1/SR spellcast: 2/lvl
+- 1/combat spellcast: 3/lvl
 - Learn spell: 1/lvl
 - Unlimited spellcast: 5/lvl
 - Minion creation: 5/CR
+- A choice becomes random: -3
 
 ## Condition definitions
 
@@ -184,9 +187,12 @@ While riding your mount, your AC increases by 1.
 ## Ideas for next campaign/things to discuss
 
 - Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
+    - Redesign to not be direct rips from subclass features and instead build uniques from their identities
 
 - Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice). new tags:
     - choice of ability; temp hp; choice of type barrier; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys barrier; non-phys barrier; dot; debuff; buff; crit; minion def; aoe; melee; proj; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
+    - Redesign application to have less things going on at the same time
+    - New: On odd gem consume, get 3 random tags presented to you, choose one. Then that tag's affixes get added to your pool and you gain a random affix from the pool (with min point value equal to the number of affixes you now have). On even consume, a random affix on your soul is chosen. You may either reroll it from your pool or upgrade it by 1 point.
 
 - Remove amulets
 
@@ -220,21 +226,20 @@ While riding your mount, your AC increases by 1.
 - New ideas from Crucible:
     - Interesting selling affixes in standard pool
 
-- Relic change ideas:
-    - Reduce initial power to 1pt per mod (make non-relic items more competitive)
-    - Make upgrade costs uniform (make investing in a single relic more worthwhile than spreading out) - 150gp
-    - 3x choices on lvl
-    - Put something interesting on L10
-    - Change dream relics - want to retain freebie relic, but don't want to compete with regular relics so much
-
 - Relics are not char bound, they are levelled up with gold like old days
     - Can't downlevel, can only get resources back by completely selling (100% refund)
     - Max level 6 (ie. 5 levels from base), all level costs = 125gp
     - Fully reveal on find to max level
+    - 3x choice on lvl
 
-- Partnered glyph path
+- Augment system - some sort of experience and gain on breakpoints? Have class feature-esque boosts in the pool, and maybe stuff that adds synergy between backstory pairs. Every 50xp?
 
 - Replace/remove belts now that journey activities are essentially loot slots
+
+- New dream mirror system
+    - On 1st mirror, get a random relic and choose a class feature, adding its mods to your pool (can only choose each feature once).
+    - On even mirrors, get a random mod from your pool added to you, with min point value equal to the number of affixes you now have
+    - On non-1st odd mirrors, choose a class feature, adding its mods to your pool (can only choose each feature once), then a random mod on you is chosen and you can either upgrade or reroll it
 
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)

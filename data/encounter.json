@@ -24,6 +24,7 @@
         "Generous traveller ($gender $race): gives all players a reward for free",
         "Bored traveller ($gender $race): each player must give a number from 1 to 99, then DM rolls 1d100. The two players who get below their roll but the highest numbers are rewarded.",
         "Skillmaster ($gender $race): wants all players to show their skill in $skill, rewards anyone who passes DC 13",
-        "Linguist ($gender $race): will say a sentence in random languages until at least 1 party member understands the language, then he will reward all understanders"
+        "Linguist ($gender $race): will say a sentence in random languages until at least 1 party member understands the language, then he will reward all understanders",
+        "Lore Nerd ($gender $race): wants to quiz the players about their favourite amulet set. Each player rolls a d20, then a random amulet set is chosen. Going from the highest roller down, each player must say the name of one of the members of that set. Doesn't say if people are correct, and incorrect answers can be corrected by later players. All correct are rewarded."
     ]
 }
