@@ -265,6 +265,7 @@ var targetCraft = func() error {
 	}
 
 	affinities := strings.Split(affString, " ")
+	chosenAffinity := randSelect(affinities)
 
 	crafts, err := fetchGenericEnchants("craft")
 	if err != nil {
@@ -274,12 +275,10 @@ var targetCraft = func() error {
 	var chosen Enchant
 	for {
 		chosen = crafts[rand.Intn(len(crafts))]
-		for _, affinity := range affinities {
-			if slices.Contains(chosen.Tags, affinity) {
-				chosen.Description = processMod(chosen.Description)
-				log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
-				return nil
-			}
+		if slices.Contains(chosen.Tags, chosenAffinity) {
+			chosen.Description = processMod(chosen.Description)
+			log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
+			return nil
 		}
 	}
 }
