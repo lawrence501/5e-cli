@@ -993,7 +993,7 @@
         "description": "+1 to saves to end ongoing debuffs",
         "pointValue": "4",
         "upgrade": "+1/4",
-        "tags": ["defence"]
+        "tags": ["defence", "debuff"]
     },
     {
         "description": "on init, heal 2 HP",
