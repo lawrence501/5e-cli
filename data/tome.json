@@ -904,8 +904,8 @@
     },
     {
         "name": "Massive Debilitation",
-        "target": "any power",
-        "description": "The power has barely more area and whenever it hits it debilitates the target until the end of your next turn."
+        "target": "powers that deal damage and have areas",
+        "description": "The power has more area and whenever it hits it debilitates the target until the end of your next turn. Additionally, it deals less damage."
     },
     {
         "name": "Massive Support",
@@ -2578,8 +2578,48 @@
         "description": "Whenever you use the power, your hits for the next round inflict a DoT dealing $nonPhysType dmg, stacking until CON save. Additionally, whenever you use the power, you are inflicted with a DoT dealing slight {type} dmg, stacking until CON save."
     },
     {
-        "name": "Merciful Defence [next - hunger]",
+        "name": "Merciful Defence",
         "target": "any power",
         "description": "Whenever the power hits, all of your debuffs on the target are removed and you gain a massive amount of phys and $dmgType barrier until the end of your next turn for each."
+    },
+    {
+        "name": "Rapid Efficiency",
+        "target": "powers with a non-cooldown resource cost that deal damage",
+        "description": "The power's usage time and resource cost are both reduced by 1 step, but it deals massively reduced damage."
+    },
+    {
+        "name": "Decay",
+        "target": "any power",
+        "description": "Whenever the power hits, the target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until CHA save."
+    },
+    {
+        "name": "Sacrificial Control",
+        "target": "any power",
+        "description": "Whenever you score a killing blow with the power against a debuffed target, your minions gain substantially increased dmg until the end of their next turn."
+    },
+    {
+        "name": "True Decay",
+        "target": "powers that inflict DoTs",
+        "description": "The power's DoTs ignore damage resistances."
+    },
+    {
+        "name": "Soul Conversion",
+        "target": "any power",
+        "description": "Whenever you score a killing blow with the power against a debuffed target, they are reanimated as a Soul Wisp, a CR 2 undead minion, that disappears on combat end."
+    },
+    {
+        "name": "Flexible Eruption",
+        "target": "powers with self-burst areas that require targets to be debuffed in some way and deal damage",
+        "description": "The power no longer requires its targets to be debuffed in any way and its self-burst areas are converted into cones with length equal to the bursts' ranges. Additionally, the power deals less damage."
+    },
+    {
+        "name": "Telekinetic Haste",
+        "target": "powers that move objects and deal damage",
+        "description": "The power can move objects double its usual distance. Additionally, whenever you use the power, you gain +10' speed until the end of your next turn. Additionally, the power deals less damage."
+    },
+    {
+        "name": "Blunt Shielding [soul feast DONE]",
+        "target": "powers that grant temporary hit points and deal damage",
+        "description": "The power grants substantially more temp HP, but deals less damage."
     }
 ]

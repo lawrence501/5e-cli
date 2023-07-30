@@ -70,7 +70,7 @@ Always based on dmg where possible
 - Slight: 15%
 - Substantial: 60%
 - Massive: 90%
-- Barely: 1%
+- Barely: 7%
 
 ### Point value cheatsheet
 
