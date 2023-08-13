@@ -177,6 +177,12 @@
                 "While looking through the ring, you have adv on Arcana checks made to reveal information about a creature or obj you can see.",
                 "1/LR, you can cast the Identify spell while looking through the ring."
             ]
+        },
+        {
+            "name": "Ring of Intellect",
+            "effects": [
+                "Your INT is 19."
+            ]
         }
     ],
     "rare": [
@@ -420,6 +426,13 @@
             "effects": [
                 "HP lost to your wep dmg can only be recovered through rests.",
                 "1/turn, on wep hit, you can inflict a 1d4 nec DoT, stacking until DC 15 CON save or a creature takes an action to Medicine DC 15 them."
+            ]
+        },
+        {
+            "name": "Pariah's Ring",
+            "effects": [
+                "+1 AC for every 2 allies adjacent to you (up to +3).",
+                "Whenever an adjacent creature you can see takes damage, you can react to take the damage instead. When you do so, the damage gets fully converted to force."
             ]
         }
     ],
@@ -666,6 +679,12 @@
                 "You have adv on saves against the Frightful Presence and breath weapons of dragons.",
                 "You have 50% resistance to light dmg.",
                 "1/LR, as an action, you can magically discern the distance and direction of the nearest blue dragon within 30 miles of you."
+            ]
+        },
+        {
+            "name": "Insight Stone",
+            "effects": [
+                "+2 WIS."
             ]
         }
     ],
