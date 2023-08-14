@@ -930,9 +930,9 @@
         "tags": ["armour"]
     },
     {
-        "description": "on block, inflict $condition on offender until end of your next turn",
+        "description": "on block, inflict $condition on offender for 1 round",
         "pointValue": "[varies - reroll dominated]",
-        "upgrade": "+1 spell AC/4",
+        "upgrade": "+1 AC vs debuffed creatures/4",
         "tags": ["armour"]
     },
     {
