@@ -10,7 +10,7 @@ Golang CLI helper for my D&amp;D 5e campaigns
 - Tome: 10gp
 - Amulet: 1gp
 - Relic: 60gp
-- Enchanted Equipment: 175gp
+- Enchanted Equipment: 35gp
 
 ### Relic level costs (same price - 150)
 

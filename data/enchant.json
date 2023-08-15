@@ -396,7 +396,7 @@
         "tags": []
     },
     {
-        "description": "+5' teleport range",
+        "description": "+5' to max range of your teleports",
         "pointValue": "1",
         "upgrade": "5'/1",
         "tags": []
