@@ -27,6 +27,7 @@
         "Linguist ($gender $race): will say a sentence in random languages until at least 1 party member understands the language, then he will reward all understanders",
         "Lore Nerd ($gender $race): wants to quiz the players about their favourite amulet set. Each player rolls a d20, then a random amulet set is chosen. Going from the highest roller down, each player must say the name of one of the members of that set. Doesn't say if people are correct, and incorrect answers can be corrected by later players. All correct are rewarded.",
         "Bored Noble ($gender $race): wants to see poor people engorge themselves, as it's their favourite past time. Will provide endless food, players make CON saves starting at DC 5, going up a tier each round, longest lasting is rewarded.",
-        "Bored Warrior ($gender $race): wants to see which adventurer can deal the most damage in one single turn. They can have as much prep-time as they like, and will be attacking their training dummy (counts as a construct creature)."
+        "Bored Warrior ($gender $race): wants to see which adventurer can deal the most damage in one single turn. They can have as much prep-time as they like, and will be attacking their training dummy (counts as a construct creature).",
+        "Bored Inventor ($gender $race): has 3 random objects with them (https://perchance.org/object - anything not from the setting is their own invention). Each player must secretly write down an invention or thing to do with those three objects. Best one is rewarded."
     ]
 }
