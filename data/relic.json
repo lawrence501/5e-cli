@@ -425,8 +425,8 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "on psy DoT tick, if the target hasn't displaced distance since the start of their last turn, the DoT deals +3 dmg",
-                    "pointValue": "2",
+                    "description": "on psy DoT tick, if the target hasn't moved since the start of their last turn, the tick deals +2 dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -465,26 +465,6 @@
                     "description": "6. buffs applied to illusory images of you are instead applied to you",
                     "pointValue": "1",
                     "upgrade": "+1 effectiveness of buffs on illusory images of you/2"
-                },
-                {
-                    "description": "7. on creating an illusion, +1 global dmg for combat",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "8. on successfully hiding, also conjure an illusory image of yourself as per the Silent Image spell",
-                    "pointValue": "4",
-                    "upgrade": "Major Image->Mislead->Project Image/4"
-                },
-                {
-                    "description": "9. your illusory images have +5' sp",
-                    "pointValue": "1",
-                    "upgrade": "+5'/1"
-                },
-                {
-                    "description": "10. on creating an illusory image, +1 global dmg until end of your next turn",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -492,9 +472,9 @@
             "name": "Spirit Song",
             "startingMods": [
                 {
-                    "description": "as action, you can send pulsing waves of ethereal energy in a 60' cone, forcing creatures within to make a CON save or take 2d12 force spell dmg",
-                    "pointValue": "5",
-                    "upgrade": "+1/1"
+                    "description": "as action, you can send pulsing waves of ethereal energy in a 60' cone, forcing creatures within to make a CON save or take 2d10 force spell dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1 dmg/1"
                 },
                 {
                     "description": "whenever you deal force spell dmg to a creature's image of itself, you dmg the original creature instead",
@@ -534,29 +514,9 @@
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "6. +1 to your Illusion spell DCs",
+                    "description": "6. +1 to your Necromancy spell DCs",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                },
-                {
-                    "description": "7. your non-dmging Illusion spells can target 1 additional target in range",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "8. +1 performance",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +3 spell dmg vs targets currently possessing another creature",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "10. +1 force spell crit dice",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
                 }
             ]
         },
@@ -574,8 +534,8 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+5 AoE wep dmg",
-                    "pointValue": "5",
+                    "description": "+3 AoE wep dmg",
+                    "pointValue": "3",
                     "upgrade": "+1/1"
                 }
             ],
@@ -609,26 +569,6 @@
                     "description": "6. +1 wep dmg vs debuffed targets",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 AoE dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 AoE AB",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. your hits splash 1 dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 AoE wep AB",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -636,13 +576,13 @@
             "name": "Queen of Pain",
             "startingMods": [
                 {
-                    "description": "+2 thunder dmg",
-                    "pointValue": "2",
+                    "description": "+1 thunder dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+3 cone AoE dmg",
-                    "pointValue": "2",
+                    "description": "+2 cone AoE dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -681,26 +621,6 @@
                     "description": "6. +2 sphere AoE dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 P dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. on P hit, inflict 1 psn DoT, stacking until CON save",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. creatures affected by your DoTs are slowed",
-                    "pointValue": "3",
-                    "upgrade": "+1 to your ongoing debuff DCs/4"
-                },
-                {
-                    "description": "10. on DoT tick, heal 1 HP",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
                 }
             ]
         },
@@ -708,8 +628,8 @@
             "name": "Auric Rune",
             "startingMods": [
                 {
-                    "description": "+2 throwing dmg",
-                    "pointValue": "2",
+                    "description": "+1 throwing dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -718,8 +638,8 @@
                     "upgrade": "+5'/2"
                 },
                 {
-                    "description": "+2 melee dmg",
-                    "pointValue": "2",
+                    "description": "+1 melee dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -753,26 +673,6 @@
                     "description": "6. on turn start, if you haven't displaced distance since start of your last turn, get -5' sp until you either teleport or combat ends; 3pts distributed",
                     "pointValue": "-2",
                     "upgrade": "-5' and 3pts distributed/1"
-                },
-                {
-                    "description": "7. +3 wep dmg per 5' below 30' your sp is",
-                    "pointValue": "2",
-                    "upgrade": "-5' sp and 3pts distributed/1"
-                },
-                {
-                    "description": "8. +4 dmg barrier per 5' below 30' your sp is",
-                    "pointValue": "2",
-                    "upgrade": "-5' sp and 3pts distributed/1"
-                },
-                {
-                    "description": "9. on turn start, choose a creature within 50' of you to have +1 melee dmg until end of their next turn",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 STR",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -781,17 +681,17 @@
             "startingMods": [
                 {
                     "description": "whenever an adj creature dies, you raise their corpse as a Frozen Thrall, a CR 1/8 undead minion that deals cold dmg. Max 1 at a time",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 },
                 {
-                    "description": "+10 undead minion dmg barrier",
-                    "pointValue": "2",
+                    "description": "+5 undead minion dmg barrier",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 },
                 {
-                    "description": "foes starting their turns adj to your undead minions are slowed",
-                    "pointValue": "6",
+                    "description": "foes starting their turns adj to your undead minions have halved speed",
+                    "pointValue": "1",
                     "upgrade": "+3->2 minion dmg vs debuffed targets/1"
                 }
             ],
@@ -825,26 +725,6 @@
                     "description": "6. +1 proj dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +2 sphere AoE dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 cold dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. on spell hit, target rooted until end of your next turn",
-                    "pointValue": "3",
-                    "upgrade": "+2->1 spell dmg vs debuffed targets/1"
-                },
-                {
-                    "description": "10. +2 line AoE dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -862,8 +742,8 @@
                     "upgrade": "+1 pers area dmg/1"
                 },
                 {
-                    "description": "+2 pers area dmg",
-                    "pointValue": "2",
+                    "description": "+1 pers area dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -897,26 +777,6 @@
                     "description": "6. +5' to your pers area sizes",
                     "pointValue": "3",
                     "upgrade": "+5'/3"
-                },
-                {
-                    "description": "7. +1 buff effectiveness",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "8. you ignore penalties from wind-based weather on your journey activities",
-                    "pointValue": "3",
-                    "upgrade": "+1 to journey activity checks in wind-based weather/1"
-                },
-                {
-                    "description": "9. your pers areas deal -3 dmg to allies",
-                    "pointValue": "1",
-                    "upgrade": "-2/1"
-                },
-                {
-                    "description": "10. your minions have +8 dmg barrier during their first rnd of existence",
-                    "pointValue": "1",
-                    "upgrade": "+8/1"
                 }
             ]
         },
@@ -924,18 +784,18 @@
             "name": "Peerless Fighter",
             "startingMods": [
                 {
-                    "description": "+3 init while bloodied",
-                    "pointValue": "2",
+                    "description": "+2 init while bloodied",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
                     "description": "on turn start, foes within 10' get +1 wep dmg taken until end of their next turn",
-                    "pointValue": "2",
-                    "upgrade": "-1/2"
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 },
                 {
-                    "description": "1/combat, on wep hit, heal 3 HP",
-                    "pointValue": "2",
+                    "description": "1/combat, on wep hit, heal 2 HP",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -969,26 +829,6 @@
                     "description": "6. gain wep dmg equal to your bonus spell dmg",
                     "pointValue": "2",
                     "upgrade": "+1 spell dmg/1"
-                },
-                {
-                    "description": "7. +1 incoming healing",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "8. your maneuvers have double duration",
-                    "pointValue": "3",
-                    "upgrade": "+1 multi/3"
-                },
-                {
-                    "description": "9. +3 phys dmg barrier",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "10. +1 exp gain",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -1041,26 +881,6 @@
                     "description": "6. if you have 15+ INT, your construct minions have +1 DEX mod",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                },
-                {
-                    "description": "7. +1 construct minion AB",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "8. on taking the Dodge action, adj foes have a 20% chance to become sluggish until end of your next turn",
-                    "pointValue": "4",
-                    "upgrade": "+10%/1"
-                },
-                {
-                    "description": "9. +5 cold barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "10. your minions have double duration",
-                    "pointValue": "3",
-                    "upgrade": "+1 multi/3"
                 }
             ]
         },
@@ -1068,14 +888,14 @@
             "name": "Lost Writings of Gil",
             "startingMods": [
                 {
-                    "description": "your 1st-lvl spells cost 1 slot lvl less",
-                    "pointValue": "5",
-                    "upgrade": "+1/5"
+                    "description": "+1 dmg with 1st-lvl spells",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 },
                 {
-                    "description": "+1 2nd-lvl spell slot",
-                    "pointValue": "6",
-                    "upgrade": "+1 slot/6 OR +1 lvl/3"
+                    "description": "+1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot/3 OR +1 lvl/3"
                 },
                 {
                     "description": "+1 INT",
@@ -1090,9 +910,9 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "2. +1 1st-lvl spell slot",
-                    "pointValue": "3",
-                    "upgrade": "+1 slot/3 OR +1 lvl/3"
+                    "description": "2. +1 dmg with 2nd-lvl spells",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 },
                 {
                     "description": "3. on init, recover 2 spell slot lvls",
@@ -1113,26 +933,6 @@
                     "description": "6. your spell dmg is converted to force",
                     "pointValue": "1",
                     "upgrade": "+1 force dmg/1"
-                },
-                {
-                    "description": "7. on init if your INT is 15+, recover 2 spell slot lvls",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. adj allies have +1 spell dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. if your INT is 15+, +1 spell dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. if your INT is 15+, +2 dmg with lvl'd spells",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -1150,8 +950,8 @@
                     "upgrade": "+5'/3"
                 },
                 {
-                    "description": "+2 wep dmg",
-                    "pointValue": "2",
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1185,26 +985,6 @@
                     "description": "6. +5' to push distances with height adv",
                     "pointValue": "1",
                     "upgrade": "+5'/1"
-                },
-                {
-                    "description": "7. on wep hit while airborne, push target 5' away from you",
-                    "pointValue": "1",
-                    "upgrade": "+5'/1"
-                },
-                {
-                    "description": "8. +2 wep dmg while airbone",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 wep AB",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. on wep hit, push target 5' away from you",
-                    "pointValue": "2",
-                    "upgrade": "+5'/2"
                 }
             ]
         },
@@ -1217,13 +997,13 @@
                     "upgrade": "+1/3"
                 },
                 {
-                    "description": "on wep hit, target gets +1 dmg taken for combat",
+                    "description": "on wep hit, target gets +1 wep dmg taken for combat",
                     "pointValue": "4",
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+3 wep dmg while airborne",
-                    "pointValue": "2",
+                    "description": "+2 wep dmg while airborne",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1254,29 +1034,9 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "6. on wep hit while airborne, target gets +1 dmg taken for combat",
+                    "description": "6. on wep hit while airborne, target gets +1 wep dmg taken for combat",
                     "pointValue": "3",
                     "upgrade": "+1/3"
-                },
-                {
-                    "description": "7. on wep hit, heal 1 HP",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "8. on wep hit while airborne, recover 1 exertion",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "9. on becoming bloodied, gain 4 temp HP",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
-                },
-                {
-                    "description": "10. +1 B dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -1284,18 +1044,18 @@
             "name": "Blood's Flayer",
             "startingMods": [
                 {
-                    "description": "+5 non-phys barrier",
-                    "pointValue": "2",
+                    "description": "+3 non-phys barrier",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "+2 spell dmg",
-                    "pointValue": "2",
+                    "description": "+1 spell dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+2 fire spell dmg",
-                    "pointValue": "2",
+                    "description": "+1 fire spell dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1329,26 +1089,6 @@
                     "description": "6. +4 minion HP",
                     "pointValue": "1",
                     "upgrade": "+4/1"
-                },
-                {
-                    "description": "7. +5 fire barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "8. +1 1st-lvl spell slot",
-                    "pointValue": "3",
-                    "upgrade": "+1 slot/3 OR +1 lvl/3"
-                },
-                {
-                    "description": "9. as action, can trigger a violent earthquake around you, making a glyphic atk against all foes within 60', dealing 1d4 force dmg",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
-                },
-                {
-                    "description": "10. on KB, heal 2 HP",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -1361,12 +1101,12 @@
                     "upgrade": "-1 DC and 2pts distributed/1 OR +1 strife and 6pts distributed/1"
                 },
                 {
-                    "description": "on passing this item's Arcana check, gain +6 to a skill of your choice until end of your next turn",
-                    "pointValue": "5",
+                    "description": "on passing this item's Arcana check, gain +3 to a skill of your choice until end of your next turn",
+                    "pointValue": "2",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "creatures debuffed by you have +3 dmg taken",
+                    "description": "creatures debuffed by you have +1 dmg taken",
                     "pointValue": "3",
                     "upgrade": "+1/1"
                 }
@@ -1401,26 +1141,6 @@
                     "description": "6. on passing this item's Arcana check, gain +1 spell AB until end of your next turn",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. on passing this item's Arcana check, gain +1 to spell save DCs until end of your next turn",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. on passing this item's Arcana check, creatures debuffed by you have +3 dmg taken until end of your next turn",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 spell dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. 1/LR, on hit, dominate target until end of their next turn",
-                    "pointValue": "2",
-                    "upgrade": "SR --> combat --> no cooldown/2"
                 }
             ]
         },
@@ -1428,18 +1148,18 @@
             "name": "Astral Wisp",
             "startingMods": [
                 {
-                    "description": "on lvl'd spellcast, adj allies gain +5 dmg barrier until end of your next turn",
-                    "pointValue": "2",
+                    "description": "on lvl'd spellcast, adj allies gain +3 dmg barrier until end of your next turn",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "whenever you revert from a shapeshift, adj allies gain +10' sp until end of their next turn",
-                    "pointValue": "2",
+                    "description": "whenever you revert from a shapeshift, adj allies gain +5' sp until end of their next turn",
+                    "pointValue": "1",
                     "upgrade": "+5'/1"
                 },
                 {
-                    "description": "1/combat, on hit vs debuffed target, roots rise from the ground and lash at them, a spell atk dealing 1d6 B dmg",
-                    "pointValue": "2",
+                    "description": "1/combat, on hit vs debuffed target, roots rise from the ground and lash at them, a spell atk dealing 1d4 B dmg",
+                    "pointValue": "1",
                     "upgrade": "+1 dmg/1"
                 }
             ],
@@ -1473,26 +1193,6 @@
                     "description": "6. while you have no debuffs, +5' sp",
                     "pointValue": "2",
                     "upgrade": "+5'/2"
-                },
-                {
-                    "description": "7. +1 outgoing healing vs other creatures",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. on turn start while not shapeshifted, recover 1 spell slot lvl",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "9. allies in your pers areas have +1 global dmg",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "10. while shapeshifted, +2 outgoing healing vs other creatures",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -1510,8 +1210,8 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+2 wep dmg",
-                    "pointValue": "2",
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1545,26 +1245,6 @@
                     "description": "6. +1 psn dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +5' shove distance",
-                    "pointValue": "2",
-                    "upgrade": "+5'/2"
-                },
-                {
-                    "description": "8. +5 psn barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "9. on KB, heal 2 HP",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 CON",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -1617,26 +1297,6 @@
                     "description": "6. on sphere AoE hit, target is inflicted with 1 fire DoT, stacking until DEX save",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 wep dmg during your turn",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 item proc dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +2 wep dmg while adj to one of your pers areas",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 religion",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -1644,13 +1304,13 @@
             "name": "The Chief",
             "startingMods": [
                 {
-                    "description": "on turn start, a chained hookspear shoots out from your body, make a ranged wep atk against a foes in your LoS and within 120' of you, dealing 1d4 P dmg and pushing them 5' toward you",
-                    "pointValue": "7",
-                    "upgrade": "+1 dmg/1 OR +5'/2"
+                    "description": "on turn start, a chained hookspear shoots out from your body, make a ranged glyphic atk against a foe in your LoS and within 120' of you, dealing 1d4 P dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1 dmg/1"
                 },
                 {
-                    "description": "+2 dmg with axe weps",
-                    "pointValue": "2",
+                    "description": "+1 dmg with axe weps",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -1686,29 +1346,9 @@
                     "upgrade": "+1 dmg with axe weps/1"
                 },
                 {
-                    "description": "6. +1 decep",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 animal handling for placating beasts",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 intim",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 crit range with axe weps",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. +1 crit dice with axe weps",
+                    "description": "6. on dealing glyphic P dmg, target is pushed 5' towards you",
                     "pointValue": "2",
-                    "upgrade": "+1/2"
+                    "upgrade": "+5'/2"
                 }
             ]
         },
@@ -1721,13 +1361,13 @@
                     "upgrade": "+5'/3"
                 },
                 {
-                    "description": "+2 wep dmg",
-                    "pointValue": "2",
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+5 max HP",
-                    "pointValue": "2",
+                    "description": "+3 max HP",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 }
             ],
@@ -1761,26 +1401,6 @@
                     "description": "6. your pers areas have double duration",
                     "pointValue": "3",
                     "upgrade": "+1 multi/3"
-                },
-                {
-                    "description": "7. +5 B barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "8. +1 nature for identifying plants",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +5' AoE sizes",
-                    "pointValue": "3",
-                    "upgrade": "+5'/3"
-                },
-                {
-                    "description": "10. while adj to a non-boss foe, +1 to DEX saves",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
                 }
             ]
         },
@@ -1793,8 +1413,8 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "on succ DEX save, move 2 spaces up in the init tracker",
-                    "pointValue": "2",
+                    "description": "on succ DEX save, move 1 space up in the init tracker",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -1833,26 +1453,6 @@
                     "description": "6. on succ DEX save, gain +1 global AB until end of your next turn",
                     "pointValue": "3",
                     "upgrade": "+1/3"
-                },
-                {
-                    "description": "7. +1 medicine",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. adj allies have +2 dmg barrier",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. on succ DEX save, gain +1 to your DCs until end of your next turn",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "10. on succ DEX save, gain +1 crit range until end of your next turn",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
                 }
             ]
         },
@@ -1860,18 +1460,18 @@
             "name": "Conquering Magic",
             "startingMods": [
                 {
-                    "description": "2/LR, you can cast the Divine Favour spell",
-                    "pointValue": "2",
+                    "description": "1/LR, you can cast the Divine Favour spell",
+                    "pointValue": "1",
                     "upgrade": "+1 usage/1"
                 },
                 {
-                    "description": "your Divine Favour's dmg die increases by 2 sizes",
-                    "pointValue": "2",
+                    "description": "your Divine Favour's dmg die increases by 1 size",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+2 rad dmg",
-                    "pointValue": "2",
+                    "description": "+1 rad dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1905,26 +1505,6 @@
                     "description": "6. you may reroll a 1 on the Divine Favour dmg die once per atk",
                     "pointValue": "1",
                     "upgrade": "+1 number of rerolls/1"
-                },
-                {
-                    "description": "7. your Divine Favour's dmg ignores res",
-                    "pointValue": "3",
-                    "upgrade": "+1 rad dmg/1"
-                },
-                {
-                    "description": "8. +1 History for recalling memories you personally experienced",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. you ignore rad res",
-                    "pointValue": "3",
-                    "upgrade": "+1 rad dmg/1"
-                },
-                {
-                    "description": "10. +1 Divine Favour dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -1932,9 +1512,9 @@
             "name": "The Normaliser",
             "startingMods": [
                 {
-                    "description": "1/LR, if you touch an unconscious creature continuously for 1min, you can permanently remove its ability to cast spells",
-                    "pointValue": "9",
-                    "upgrade": "+1 usage/9"
+                    "description": "1/week, if you touch an unconscious creature continuously for 1min, you can permanently remove its ability to cast spells",
+                    "pointValue": "4",
+                    "upgrade": "+1 usage/4"
                 },
                 {
                     "description": "+5' reach",
@@ -1942,14 +1522,14 @@
                     "upgrade": "+5'/3"
                 },
                 {
-                    "description": "+2 non-lethal spell dmg",
-                    "pointValue": "2",
+                    "description": "+1 non-lethal spell dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
             "thematicMods": [
                 {
-                    "description": "1. +2 spell dmg vs targets with no spellcasting ability",
+                    "description": "1. +1 spell dmg vs targets with no spellcasting ability",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
@@ -1977,26 +1557,6 @@
                     "description": "6. +1 melee dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. your spell dmg ignores res",
-                    "pointValue": "3",
-                    "upgrade": "+1 spell dmg/1"
-                },
-                {
-                    "description": "8. +1 non-lethal spell AB",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. you score a crit on a nat 7 roll",
-                    "pointValue": "4",
-                    "upgrade": "+1 crit range/4"
-                },
-                {
-                    "description": "10. +1 spell AB",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -2004,8 +1564,8 @@
             "name": "The Mauler",
             "startingMods": [
                 {
-                    "description": "with 3+ foes within 20' of you, +2 axe dmg",
-                    "pointValue": "2",
+                    "description": "with 3+ foes within 20' of you, +1 axe dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -2049,26 +1609,6 @@
                     "description": "6. while buffed, +2 dmg barrier",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +5' push distance",
-                    "pointValue": "2",
-                    "upgrade": "+5'/2"
-                },
-                {
-                    "description": "8. on wep hit, heal 1 HP",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "9. +1 axe dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. with 3+ foes within 20' of you, +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -2076,13 +1616,13 @@
             "name": "The Tidehunter",
             "startingMods": [
                 {
-                    "description": "+2 spell dmg",
-                    "pointValue": "2",
+                    "description": "+1 spell dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+3 sphere AoE dmg",
-                    "pointValue": "2",
+                    "description": "+2 sphere AoE dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -2121,26 +1661,6 @@
                     "description": "6. +2 line AoE dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 pers area dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. your pers areas deal +2 dmg vs adj targets",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. on pers area hit, target gets -1 wep dmg until end of their turn",
-                    "pointValue": "1",
-                    "upgrade": "-1/1"
                 }
             ]
         },
@@ -2148,13 +1668,13 @@
             "name": "Slumbering Dragon's Wrath",
             "startingMods": [
                 {
-                    "description": "on wep crit, all foes adj to target take 2 wep thunder dmg",
-                    "pointValue": "2",
+                    "description": "on wep crit, all foes adj to target take 1 wep thunder dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+2 thunder dmg",
-                    "pointValue": "2",
+                    "description": "+1 thunder dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -2193,26 +1713,6 @@
                     "description": "6. +1 wep crit dice",
                     "pointValue": "2",
                     "upgrade": "+1/2"
-                },
-                {
-                    "description": "7. +10' swim sp",
-                    "pointValue": "1",
-                    "upgrade": "+5'/1"
-                },
-                {
-                    "description": "8. +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 to thunder DCs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. +1 thunder crit range",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -2220,19 +1720,19 @@
             "name": "Compost",
             "startingMods": [
                 {
-                    "description": "after seeing the result of a loot roll, but before gaining the reward, you can sacrifice it to instead have a 50% chance to summon a CR 1/4 tiny Fly minion with a fly sp and B dmg",
+                    "description": "after seeing the result of a loot roll, but before gaining the reward, you can sacrifice it to instead summon a CR 1/8 tiny Fly minion with a fly sp and B dmg",
                     "pointValue": "3",
-                    "upgrade": "+1 CR/1"
+                    "upgrade": "+1 CR/3"
                 },
                 {
-                    "description": "after seeing the result of a loot roll, but before gaining the reward, you can sacrifice it to instead have a 50% chance to summon a CR 1/4 tiny Spider minion that deals P dmg",
+                    "description": "after seeing the result of a loot roll, but before gaining the reward, you can sacrifice it to instead summon a CR 1/8 tiny Spider minion that deals substantial P dmg",
                     "pointValue": "3",
-                    "upgrade": "+1 CR/1"
+                    "upgrade": "+1 CR/3"
                 },
                 {
-                    "description": "on init, all your beast minions gain +1 global AB until they die",
-                    "pointValue": "6",
-                    "upgrade": "+1/6"
+                    "description": "on init, all your beast minions gain +1 wep AB until they die",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
                 }
             ],
             "thematicMods": [
@@ -2265,26 +1765,6 @@
                     "description": "6. +5 minion dmg during the first rnd of combat",
                     "pointValue": "1",
                     "upgrade": "+5/1"
-                },
-                {
-                    "description": "7. +2 beast minion dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 to Seek Shelter journey activity checks",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 beast minion AB",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. +1 to DCs to halve your dmg dealt",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -2292,13 +1772,13 @@
             "name": "The Unholy",
             "startingMods": [
                 {
-                    "description": "+2 wep dmg",
-                    "pointValue": "2",
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+2 DoT dmg",
-                    "pointValue": "2",
+                    "description": "+1 DoT dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -2337,26 +1817,6 @@
                     "description": "6. +2 wep dmg while shapeshifted",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. whenever your debuffs are ended by a save, summon a CR 1/8 undead Magus minion in a space adj to the saver that deals cold dmg at 120' range",
-                    "pointValue": "4",
-                    "upgrade": "+1 CR/4"
-                },
-                {
-                    "description": "8. whenever your debuffs are ended by a save, summon a CR 1/8 undead Magus minion in a space adj to the saver that deals nec dmg at 120' range",
-                    "pointValue": "4",
-                    "upgrade": "+1 CR/4"
-                },
-                {
-                    "description": "9. your minions' melee atks are changed to 120' range",
-                    "pointValue": "2",
-                    "upgrade": "+120'/2"
-                },
-                {
-                    "description": "10. your minion dmg is converted to cold",
-                    "pointValue": "1",
-                    "upgrade": "+2->1 minion cold dmg/1"
                 }
             ]
         },

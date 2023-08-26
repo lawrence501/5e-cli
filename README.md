@@ -78,7 +78,7 @@ Always based on dmg where possible
 - Dominate: 8
 - Stagger/Debil/exh/confused/uncon/silence/double disadv condi: 5
 - Single disadv condi/sluggish/charm/root/weak: 3
-- Prone/taunt/similar/slow: 2
+- Prone/taunt/similar: 2
 - Condi lasts until save/longer: x2
 - Limited feature conditional: -1
 - General conditional: -2
