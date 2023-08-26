@@ -196,6 +196,7 @@ While riding your mount, your AC increases by 1.
     - choice of ability; temp hp; choice of type barrier; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys barrier; non-phys barrier; dot; debuff; buff; crit; minion def; aoe; melee; proj; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
     - Redesign application to have less things going on at the same time
     - New: On odd gem consume, get 3 random tags presented to you, choose one. Then that tag's affixes get added to your pool and you gain a random affix from the pool (with min point value equal to the number of affixes you now have). On even consume, a random affix on your soul is chosen. You may either reroll it from your pool or upgrade it by 1 point.
+    - Kill it, concept is already fulfilled by dream mirrors
 
 - Remove amulets
 

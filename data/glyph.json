@@ -2432,7 +2432,7 @@
         ]
     },
     {
-        "name": "Masters the Swarm [LAST]",
+        "name": "Masters the Swarm",
         "description": "controlling swarms of tiny creatures",
         "tiers": [
             "1. Influence Swarm: At-will; bonus action; You master 1 type of tiny beast (such as insects, rats, bats, or even birds) and they respond to you in number. This is chosen once when you first gain this feature. Your type of creatures within 30' of you will not harm you or those you designate as allies for 1 hour.",
@@ -2451,13 +2451,13 @@
         "name": "Metamorphises",
         "description": "shapeshifting into insect form",
         "tiers": [
-            "1. Battle Chrysalid: At-will; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +4 STR and +3 DEX. Claws sprout from your hands, serving as a glyphic natural weapon that deal 1d6 slashing damage. You can revert your form with a bonus action.",
+            "1. Battle Chrysalid: At-will; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +2 STR mod and +1 DEX mod. Claws sprout from your hands, serving as a glyphic natural weapon that deal 1d6 slashing damage. You can revert your form with a bonus action.",
             "2. You can never have disadvantage on an attack from a chrysalid form.",
-            "3. Devourer Battle Chrysalid: At-will; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +6 STR, +4 DEX, and +1 AC. Mouth stalks protrude from your body, which serve as a glyphic natural weapon that deal 1d6 piercing damage. If you are knocked unconscious, you lose control over your own voracious appetite when you awaken. At the start of each of your turns, you automatically self-inflict 1d4 damage as your mouth stalks self-cannibalise. You can revert as a bonus action.",
+            "3. Devourer Battle Chrysalid: At-will; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +3 STR mod, +2 DEX mod, and +1 AC. Mouth stalks protrude from your body, which serve as a glyphic natural weapon that deal 1d6 piercing damage. If you are knocked unconscious, you lose control over your own voracious appetite when you awaken. At the start of each of your turns after this happens, you automatically self-inflict 1d4 damage as your mouth stalks self-cannibalise. You can revert as a bonus action.",
             "4. You gain an expertise die with attacks from chrysalid forms.",
-            "5. Flyer Battle Chrysalid: 1/LR; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain a flying speed of 30', and you gain +4 STR and +3 DEX. Wingblades sprout from your arms, allowing you to fly and serving as a glyphic natural weapon that deals 1d6 slashing damage. You can revert as a bonus action.",
+            "5. Flyer Battle Chrysalid: 1/LR; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain a flying speed of 30', and you gain +2 STR mod and +1 DEX mod. Wingblades sprout from your arms, allowing you to fly and serving as a glyphic natural weapon that deals 1d6 slashing damage. You can revert as a bonus action.",
             "6. You gain an expertise die with attacks from chrysalid forms.",
-            "7. Monstrous Battle Chrysalid: 1/month; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +9 STR, +7 DEX, and +2 AC. Your arms become huge, hammerlike appendages, serving as a glyphic natural weapon that deals 1d8 bludgeoning damage. Your body is also covered with spikes, so that if anyone strikes you in melee, they suffer 2 thorns damage. Further, you can throw spikes as a 30' range glyphic natural weapon that deals 1d6 piercing damage. You can revert as a bonus action.",
+            "7. Monstrous Battle Chrysalid: 1/month; bonus action; You can change and gain a battle chrysalid for up to 1 hour. In this new form, you gain +4 STR mod, +3 DEX mod, and +2 AC. Your arms become huge, hammer-like appendages, serving as a glyphic natural weapon that deals 1d8 bludgeoning damage. Your body is also covered with spikes, so that if anyone strikes you in melee, they suffer 2 thorns damage. Further, you can throw spikes as a 30' range glyphic natural weapon that deals 1d6 piercing damage. You can revert as a bonus action.",
             "8. Your Battle Chrysalid feature now has a damage die of 1d10 for its claws.",
             "9. You gain an expertise die with attacks from chrysalid forms that would usually have disadvantage.",
             "10. Your Devourer Battle Chrysalid feature now has a damage die of 1d12 for its mouth stalks."
@@ -2469,25 +2469,25 @@
         "tiers": [
             "1. You gain +3 DEX.",
             "2. You can move up to 30' on your turn as a free action once per turn. Alternatively, you can use a full turn action to move up to 120'.",
-            "3. You gain prof/+2 in Dexterity saves.",
+            "3. You gain an expertise die in Dexterity saves.",
             "4. Speed Burst: 1/SR; free action; You can take 2 standard actions this turn. In your next turn, all tasks have disadvantage.",
             "5. You gain +3 DEX.",
             "6. Blink of an Eye: 1/SR; bonus action; You move up to 1000'.",
-            "7. When you move, you are a blur. It is impossible to make out your identity as you run past, and in a round where you do nothing but move, you have advantage on Stealth checks and Dexterity saves.",
+            "7. When you move, you are a blur. It is impossible to make out your identity as you run past, and in a round where you do nothing but move and hide, you have advantage on Stealth checks and Dexterity saves.",
             "8. Perfect Speed Burst: 1/week; free action; You can take 2 standard actions this turn.",
             "9. You move much farther than normal in a round. This means you can move up to 120' on your turn as a free action once per turn. Alternatively, you can use a bonus action to move up to 200', or up to 500' as a DC 12 Athletics check.",
             "10. You gain +3 DEX."
         ]
     },
     {
-        "name": "Operates Undercover",
+        "name": "Operates Undercover [LAST]",
         "description": "undercover infiltration",
         "tiers": [
             "1. You gain an expertise die in Perception and Deception, and in checks to discover clues in text and interact with magical devices.",
             "2. You gain an expertise die in checks to disguise yourself. You can alter your posture, voice, mannerisms, and hair to look like someone else for as long as you keep up a disguise, but this requires a disguise kit.",
             "3. Choose one of the following to gain an expertise die in: attacks with a weapon class of your choice or both Stealth and lockpicking checks. Alternatively, you can instead choose to gain +2 to DCs to avoid your explosives.",
-            "4. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you gain advantage on related checks.",
-            "5. Using What's Available: 1/SR; bonus action; If you have the time and the freedom to scrounge for everyday materials in your environment, you can fashion a temporary asset that will grant you advantage once on a specific task. For example, if you need to climb a wall, you could create some sort of climbing assistance device; if you need to break out of a cell, you can find something to use as lockpicks; if you need to create a small distraction, you could put together something to make a loud bang and flash; and so on. The asset lasts up to a maximum of 1 minute, or until used for the purpose you fashion it.",
+            "4. Pull a Fast One: 1/min; free action; When you are running a con, picking a pocket, fooling or tricking a dupe, sneaking something by a guard, and so on, you gain advantage on related checks. This applies to the Rob journey activity.",
+            "5. Using What's Available: 1/SR; bonus action; If you have the time and the freedom to scrounge for everyday materials in your environment, you can fashion a temporary asset that will grant you advantage once on a specific task. For example, if you need to climb a wall, you could create some sort of climbing assistance device; if you need to break out of a cell, you can find something to use as lockpicks; if you need to create a small distraction, you could put together something to make a loud bang and flash; and so on. The asset lasts up to a maximum of 1 minute, or until used for the purpose you fashion it. This can be used to assist with any STR- or DEX-based journey activity.",
             "6. Trust to Luck: 1/min; free action; Sometimes, you just have to roll the dice and hope things add up in your favour. When you use this feature, roll a d6. On any even result, the task you are attempting gains double advantage. On a roll of 1, the task gains disadvantage.",
             "7. Assassin: 1/LR; bonus action; If you strike a creature of CR 2 or less with a weapon you are proficient in, you kill the target instantly.",
             "8. Gain an expertise die in checks to discover clues in text.",
