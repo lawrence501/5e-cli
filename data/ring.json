@@ -434,6 +434,13 @@
                 "+1 AC for every 2 allies adjacent to you (up to +3).",
                 "Whenever an adjacent creature you can see takes damage, you can react to take the damage instead. When you do so, the damage gets fully converted to force."
             ]
+        },
+        {
+            "name": "Reveler's Ring",
+            "effects": [
+                "+2 to your spell save DC.",
+                "1/LR, as action, you can cast Otto's Irresistable Dance."
+            ]
         }
     ],
     "very rare": [
@@ -685,6 +692,19 @@
             "name": "Insight Stone",
             "effects": [
                 "+2 WIS."
+            ]
+        },
+        {
+            "name": "Poison Absorbing Ring",
+            "effects": [
+                "You have 50% resistance to psn dmg.",
+                "1/LR, on taking psn dmg, you can react to gain imm against that instance of dmg and heal equal to half psn dmg dealt."
+            ]
+        },
+        {
+            "name": "Ring of the Planes",
+            "effects": [
+                "As an action, you can name a location that you are familiar with on another plane of existence, then make a DC 15 Intelligence check. On a success, you cast Plane Shift. On a fail, you and each creature and object within 15' of you travel to a random destination (roll d100, 1-60 is random location on plane you named, 61+ is on any random plane)."
             ]
         }
     ],

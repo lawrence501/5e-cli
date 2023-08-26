@@ -742,3 +742,24 @@ var ENCOUNTER_TAGS []string = []string{
 	"humanoid",
 	"night",
 }
+
+var PLANES []string = []string{
+	"material plane",
+	"ethereal plane",
+	"astral plane",
+	"elemental plane of air",
+	"elemental plane of earth",
+	"elemental plane of fire",
+	"elemental plane of water",
+	"nine hells",
+	"seven heavens",
+	"twisting canopy of the eternal forest",
+	"brilliant board of the cosmic game",
+	"warping stairways of the colossal tower",
+	"infinite rooms of the black cathedral",
+	"grand halls of the shimmering library",
+	"caverns of flesh",
+	"blank canvas",
+	"eternal slumber",
+	"cycling swamp",
+}

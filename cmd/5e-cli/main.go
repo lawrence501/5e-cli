@@ -77,6 +77,7 @@ var COMMAND_MAP = map[string]func() error{
 	"posi enc":      posiEnc,
 	"language":      language,
 	"dream":         dream,
+	"plane":         plane,
 }
 
 func main() {

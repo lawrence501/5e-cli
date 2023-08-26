@@ -565,3 +565,8 @@ var language = func() error {
 	log.Printf("Language: %s", LANGUAGES[rand.Intn(len(LANGUAGES))])
 	return nil
 }
+
+var plane = func() error {
+	log.Printf("Plane: %s", PLANES[rand.Intn(len(PLANES))])
+	return nil
+}
