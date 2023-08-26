@@ -747,6 +747,7 @@ var PLANES []string = []string{
 	"material plane",
 	"ethereal plane",
 	"astral plane",
+	"realm of the dead",
 	"elemental plane of air",
 	"elemental plane of earth",
 	"elemental plane of fire",

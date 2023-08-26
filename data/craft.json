@@ -1542,6 +1542,12 @@
         "tags": ["type", "defence"]
     },
     {
+        "description": "+1 partial AC that only halves an incoming attack's dmg",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["defence"]
+    },
+    {
         "description": "with 2+ adj foes, your minions have +6 dmg barrier",
         "pointValue": "1",
         "upgrade": "+6/1",
