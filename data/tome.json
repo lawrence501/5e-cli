@@ -28,7 +28,7 @@
     {
         "name": "Sapping Summons",
         "target": "powers that summon minions",
-        "description": "When the minions are hit, the offender is slowed until CON save (minion's DC)."
+        "description": "When the minions are hit, the offender has their speed halved until CON save (minion's DC)."
     },
     {
         "name": "Charging Summons",
@@ -310,7 +310,7 @@
     {
         "name": "Focused Channelling",
         "target": "powers with non-instantaneous durations that require reactivation each round",
-        "description": "The power's reactivation time is reduced by 1 action step, but you are slowed for its duration."
+        "description": "The power's reactivation time is reduced by 1 action step, but you have your speed halved for its duration."
     },
     {
         "name": "Charged Shielding",
@@ -354,12 +354,12 @@
     },
     {
         "name": "Sudden Eruption",
-        "target": "powers that require reactivation each round and do not have a cone AoE",
+        "target": "powers that require reactivation each round and do not have a cone area",
         "description": "The power's duration is now instantaneous and only activates on casting, but now affects a cone area with length equal to the original range or area length. It also deals substantially more dmg."
     },
     {
         "name": "Inflicting Eruption",
-        "target": "powers with cone AoEs",
+        "target": "powers with cone areas",
         "description": "Any debuffs the power can apply have +1 to their related DCs, and the power deals barely more dmg."
     },
     {
@@ -643,12 +643,12 @@
     {
         "name": "Slowing Decay",
         "target": "powers that deal damage over time",
-        "description": "While a creature is affected by the power's DoT, it is slowed."
+        "description": "While a creature is affected by the power's DoT, it has its speed halved."
     },
     {
         "name": "Sluggish Slowing",
-        "target": "powers that can inflict slow",
-        "description": "The power's slow is converted to sluggish."
+        "target": "powers that can reduce target speed",
+        "description": "The power's speed reduction is converted to sluggish."
     },
     {
         "name": "Staggering Decay",
@@ -723,7 +723,7 @@
     {
         "name": "Explosive Rooting",
         "target": "any power",
-        "description": "Whenever the power creates a sphere area, all foes in that area are rooted until end of their next turn. If an affected foe is a boss, it is slowed instead."
+        "description": "Whenever the power creates a sphere area, all foes in that area are rooted until end of their next turn. If an affected foe is a boss, it has its speed halved instead."
     },
     {
         "name": "Keen Explosions",
@@ -794,7 +794,7 @@
     {
         "name": "Inconsistent Sapping",
         "target": "powers that require reactivation each round",
-        "description": "Every 3 reactivations, the power's hits slow the target until the end of your next turn, and inflict a DoT dealing $physType dmg, stacking until CON save."
+        "description": "Every 3 reactivations, the power's hits halve the target's speed until the end of your next turn, and inflict a DoT dealing $physType dmg, stacking until CON save."
     },
     {
         "name": "Inconsistent Cruelty",
@@ -975,7 +975,7 @@
     {
         "name": "Mass Sapping",
         "target": "powers with a non-instantaneous duration",
-        "description": "You project an aura while the power is active that slows adj foes.",
+        "description": "You project an aura while the power is active that halves the speed of adj foes.",
         "meta": "Aura of Decay"
     },
     {
@@ -2090,7 +2090,7 @@
     {
         "name": "Slowing",
         "target": "any power",
-        "description": "Whenever the power hits, the target is slowed until the end of your next turn."
+        "description": "Whenever the power hits, the target has its speed halved until the end of your next turn."
     },
     {
         "name": "Empowering Strikes",
@@ -2256,7 +2256,7 @@
     {
         "name": "Enduring Slowing",
         "target": "any power",
-        "description": "Whenever the power hits, the target is slowed until CON save.",
+        "description": "Whenever the power hits, the target has its speed halved until CON save.",
         "meta": "Acid Flask"
     },
     {
@@ -2429,7 +2429,7 @@
     {
         "name": "Flurried Slowing",
         "target": "single-target powers with multiple hits in the same action",
-        "description": "The power's third hit inflicts slow until the end of your next turn."
+        "description": "The power's third hit halves the target's speed until the end of your next turn."
     },
     {
         "name": "Close Waves",
@@ -2618,8 +2618,39 @@
         "description": "The power can move objects double its usual distance. Additionally, whenever you use the power, you gain +10' speed until the end of your next turn. Additionally, the power deals less damage."
     },
     {
-        "name": "Blunt Shielding [soul feast DONE]",
+        "name": "Blunt Shielding",
         "target": "powers that grant temporary hit points and deal damage",
         "description": "The power grants substantially more temp HP, but deals less damage."
+    },
+    {
+        "name": "Accuracy",
+        "target": "any power",
+        "description": "The power has +1 Accuracy.",
+        "meta": "Multishot"
+    },
+    {
+        "name": "Enduring Torment",
+        "target": "powers that deal damage",
+        "description": "The power's debuffs and DoTs have their durations increased by 1 step, but the power's dmg is massively reduced."
+    },
+    {
+        "name": "Prolonged Affliction",
+        "target": "any power",
+        "description": "Whenever the power hits, all debuffs on the target have their remaining durations reset to their maximum duration."
+    },
+    {
+        "name": "Shotgunning",
+        "target": "powers with cone areas that deal damage",
+        "description": "The power's cone areas affect targets adj to their origin twice and any debuffs they inflict have +1 to their DCs, but the power deals substantially less dmg."
+    },
+    {
+        "name": "Focus",
+        "target": "any power",
+        "description": "The power deals more dmg if you haven't moved since the start of your last turn."
+    },
+    {
+        "name": "Prepared Motion [NEXT - Toxic Gift]",
+        "target": "any power",
+        "description": "After using the power when you haven't moved since the start of your last turn, gain +10' sp until the end of your next turn."
     }
 ]
