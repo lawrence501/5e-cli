@@ -263,6 +263,7 @@ var WEAPON_TRAITS []string = []string{
 	"simple",
 	"martial",
 	"reach",
+	"restraining",
 }
 
 var SIZE_DIFFERENCES []string = []string{

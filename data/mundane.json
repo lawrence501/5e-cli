@@ -246,6 +246,11 @@
             "Tags": ["weapon"]
         },
         {
+            "Name": "Net",
+            "Description": "1d4 B; 0'/0' range; restraining; thrown (40'/120')",
+            "Tags": ["weapon"]
+        },
+        {
             "Name": "Shortbow",
             "Description": "1d6 P; 60'/320' range; 2h; fatal (d10)",
             "Tags": ["weapon"]
