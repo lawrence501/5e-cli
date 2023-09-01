@@ -2649,8 +2649,13 @@
         "description": "The power deals more dmg if you haven't moved since the start of your last turn."
     },
     {
-        "name": "Prepared Motion [NEXT - Toxic Gift]",
+        "name": "Prepared Motion",
         "target": "any power",
         "description": "After using the power when you haven't moved since the start of your last turn, gain +10' sp until the end of your next turn."
+    },
+    {
+        "name": "Pure Decay [NEXT - Quick Draw]",
+        "target": "any power",
+        "description": "Any debuffs the power inflicts are converted into individual stacks of a DoT dealing slight $nonPhysType, stacking until CON save."
     }
 ]
