@@ -1,7 +1,7 @@
 [
     {
         "name": "Cloning",
-        "description": "replace random mod with exact copy of another random mod"
+        "description": "replace random mod with exact copy of another random mod. Item must be chosen first."
     },
     {
         "name": "Scourging",
@@ -9,15 +9,15 @@
     },
     {
         "name": "Combination",
-        "description": "the mods of 2 chosen items are randomly distributed across the 2 items, ignoring base limitations. each item then gains 1 random mod"
+        "description": "the mods of 2 chosen items are randomly distributed across the 2 items, ignoring base limitations. each item then gains 1 random mod. Items must be chosen first."
     },
     {
         "name": "Fate",
-        "description": "reroll a random mod"
+        "description": "reroll a random mod. Item must be chosen first."
     },
     {
         "name": "Empowerment",
-        "description": "randomly apply 1 upgrade point; if impossible, adds new random mod"
+        "description": "randomly apply 1 upgrade point; if impossible, adds new random mod. Item must be chosen first."
     },
     {
         "name": "Enhancement",
@@ -29,11 +29,11 @@
     },
     {
         "name": "Learning",
-        "description": "Instantly level one of your relic slots or one of your attuned items; reroll if none"
+        "description": "Instantly level one of your relic slots or one of your attuned items; reroll if none in party"
     },
     {
         "name": "Negation",
-        "description": "Random mod is negated, resultant points are distributed randomly"
+        "description": "Random mod is negated, resultant points are distributed randomly. Item must be chosen first."
     },
     {
         "name": "Brittleness",
