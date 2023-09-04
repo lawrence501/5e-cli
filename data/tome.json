@@ -2654,8 +2654,33 @@
         "description": "After using the power when you haven't moved since the start of your last turn, gain +10' sp until the end of your next turn."
     },
     {
-        "name": "Pure Decay [NEXT - Quick Draw]",
+        "name": "Pure Decay",
         "target": "any power",
         "description": "Any debuffs the power inflicts are converted into individual stacks of a DoT dealing slight $nonPhysType, stacking until CON save."
+    },
+    {
+        "name": "Repeating",
+        "target": "any power",
+        "description": "Every 2 times you use the power, it is repeated once at no additional cost."
+    },
+    {
+        "name": "Impatience",
+        "target": "powers that change over their duration",
+        "description": "The power starts as if it had been active for 1 round already."
+    },
+    {
+        "name": "Fervour",
+        "target": "powers that deal damage",
+        "description": "The power's usage time is reduced by 1 step and you gain +10' sp until the end of your next turn whenever you use it, but it deals substantially less dmg."
+    },
+    {
+        "name": "Close Eruption",
+        "target": "powers with cone areas of size 30' or larger",
+        "description": "The power's cone areas deal substantially more dmg against creatures adj to their origins, and less dmg against creatures 30+' away from their origins."
+    },
+    {
+        "name": "Splintering [NEXT - heavy arrows]",
+        "target": "powers with cone areas and a non-cooldown resource cost",
+        "description": "On making a proj atk, the power is also used in the same direction. The power also has +1 to its debuff DCs and has its resource cost increased by 1 step."
     }
 ]
