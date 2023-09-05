@@ -471,6 +471,31 @@ var dream = func() error {
 	return nil
 }
 
+var blessing = func() error {
+	charP := promptui.Prompt{
+		Label:    "Blessed character",
+		Validate: validatePartyMember,
+	}
+	char, err := charP.Run()
+	if err != nil {
+		return err
+	}
+
+	blessings, err := fetchBlessings(char)
+	option1 := randSelect(blessings)
+	option2 := option1
+	for option1 == option2 {
+		option2 = randSelect(blessings)
+	}
+	option3 := option2
+	for option3 == option1 || option3 == option2 {
+		option3 = randSelect(blessings)
+	}
+
+	fmt.Printf("%s's blessing options:\n- %s\n\n- %s\n\n- %s", char, option1, option2, option3)
+	return nil
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil

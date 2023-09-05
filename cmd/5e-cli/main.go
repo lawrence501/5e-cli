@@ -78,6 +78,7 @@ var COMMAND_MAP = map[string]func() error{
 	"language":      language,
 	"dream":         dream,
 	"plane":         plane,
+	"blessing":      blessing,
 }
 
 func main() {

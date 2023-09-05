@@ -439,6 +439,25 @@ func fetchDreamPool(char string) ([]Enchant, error) {
 	return pools[char], nil
 }
 
+func fetchBlessings(char string) ([]string, error) {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return []string{}, err
+	}
+
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "blessing.json"))
+	if err != nil {
+		return []string{}, err
+	}
+
+	blessings := map[string][]string{}
+	err = json.Unmarshal([]byte(f), &blessings)
+	if err != nil {
+		return []string{}, err
+	}
+	return blessings[char], nil
+}
+
 func fetchMutations() ([]Generic, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
