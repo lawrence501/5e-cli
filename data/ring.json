@@ -918,6 +918,30 @@
                 "As an action, you can become invisible, or end this invisibility.",
                 "The ring has a maximum duration of 2hrs, which is deducted from while you are using the invisibility. Whenever you spend a full day not using the invisibility, the ring regains up to 2hrs of duration."
             ]
+        },
+        {
+            "name": "Ruby Weave Ring",
+            "effects": [
+                "At the end of each LR, choose a spell from any spell list. You count as having this spell prepared until your next LR."
+            ]
+        },
+        {
+            "name": "Moonring",
+            "effects": [
+                "[CURSE] If the ring considers you craven, erratic, corrupt, or at odds with preserving and protecting elvenkind, it rejects you - you make d20 rolls with disadv for 24hrs, after which the ring is destroyed.",
+                "The ring is a sentient neutral good item with 12 INT, 10 WIS, and 12 CHA. It has hearing + darkvision out to 120 feet. It communicates by transmitting emotions, sending a tingling sensation through its wearer's hand when it wants to communicate something it has sensed. It can communicate more explicitly through dreams while the wearer is asleep.",
+                "The ring seeks the advancement of elvenkind and elven ideals: courage, loyalty, beauty, music, and life. The ring is overconfident.",
+                "The ring has a rune on it for each creature that has attuned to it (1d6 + 1 initially). Each rune provides a random weapon modifier."
+            ]
+        },
+        {
+            "name": "Infiltrator's Ring",
+            "effects": [
+                "You have adv on Sleight of Hand checks made to pick locks (this does not affect Rob journey activity checks).",
+                "You have adv on Stealth checks made to move silently (this affects Scout journey activity checks).",
+                "L11+: As a bonus action, you can transform the ring into a magical +1 dagger, or back into ring form.",
+                "L11+: As an action, you can cast each of the following spells 1/LR each: Alter Self, Invisibility, Knock, or Pass Without Trace."
+            ]
         }
     ],
     "artifact": [
