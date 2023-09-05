@@ -73,6 +73,14 @@
             ]
         },
         {
+            "name": "Signet of Gawdian",
+            "effects": [
+                "The ring has 3 charges, 1d3 of which are restored whenever you finish a long rest.",
+                "By expending 1 charge as an action, you can cast Heroism.",
+                "Aside from its magical properties, the ring is an indicator of Gawdian's recognition and favour."
+            ]
+        },
+        {
             "name": "Ring of Jumping",
             "effects": [
                 "You can cast Jump as a bonus action at-will, but can only target yourself when you do so."
@@ -441,6 +449,14 @@
                 "+2 to your spell save DC.",
                 "1/LR, as action, you can cast Otto's Irresistable Dance."
             ]
+        },
+        {
+            "name": "Ring of Speed",
+            "effects": [
+                "As a bonus action you can click your heels together, gaining the following bonuses for up to 10 minutes, or until you click your heels again as another bonus action. After the total amount of time you have used this effect for reaches 10 minutes between long rests, it cannot be used again until you complete a long rest.",
+                "Your speed is doubled.",
+                "Incoming opportunity attacks have disadvantage."
+            ]
         }
     ],
     "very rare": [
@@ -705,6 +721,12 @@
             "name": "Ring of the Planes",
             "effects": [
                 "As an action, you can name a location that you are familiar with on another plane of existence, then make a DC 15 Intelligence check. On a success, you cast Plane Shift. On a fail, you and each creature and object within 15' of you travel to a random destination (roll d100, 1-60 is random location on plane you named, 61+ is on any random plane)."
+            ]
+        },
+        {
+            "name": "Intellect Stone",
+            "effects": [
+                "+2 INT."
             ]
         }
     ],
