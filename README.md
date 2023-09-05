@@ -192,12 +192,6 @@ While riding your mount, your AC increases by 1.
 - Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
     - Redesign to not be direct rips from subclass features and instead build uniques from their identities
 
-- Replace rings: Soul gems, new slot is your soul, absorb gems to add thematic mods (eg. add wep dmg gem to give +2 wep dmg while bloodied). Using same gem either upgrades existing mod of that type or rerolls it (player's choice). new tags:
-    - choice of ability; temp hp; choice of type barrier; speed; choice of weapon class; 1h; 2h; shield; wep dmg; spell dmg; choice of dmg type; phys dmg; non-phys dmg; minion off; phys barrier; non-phys barrier; dot; debuff; buff; crit; minion def; aoe; melee; proj; pers area; conc; hit die healing; max hit dice; hp; choice of save; ac
-    - Redesign application to have less things going on at the same time
-    - New: On odd gem consume, get 3 random tags presented to you, choose one. Then that tag's affixes get added to your pool and you gain a random affix from the pool (with min point value equal to the number of affixes you now have). On even consume, a random affix on your soul is chosen. You may either reroll it from your pool or upgrade it by 1 point.
-    - Kill it, concept is already fulfilled by dream mirrors
-
 - Remove amulets
 
 - New loot option: attunement-requiring magic items. Any that fit into an equipment slot already in use are reflavoured to be on another slot. Can only attune to 1 at a time. Use existing wondrous weightings of rarities, but pushed 1 up (making the 2% Artifacts). Obviously, this means they will be pretty powerful, and must therefore be high on the loot table
@@ -251,17 +245,15 @@ While riding your mount, your AC increases by 1.
 1. Wondrous Items (low)
 2. Tomes (high)
 3. Rings (med)
-4. Reroll twice w/ upgrade (put at bottom)
-5. Amulets (med)
-6. Soul Gems (low)
-7. Shrines (med)
-8. Dream Mirrors (very high)
-9. Glyphs (very high)
-10. Relics (high)
-11. Body Armours (med)
-12. Tarots (high)
-13. Belt (med)
-14. Crystals (low)
-15. Magic Items (low)
+4. Amulets (med)
+5. Shrines (med)
+6. Dream Mirrors (very high)
+7. Glyphs (very high)
+8. Relics (high)
+9. Body Armours (med)
+10. Tarots (high)
+11. Belt (med)
+12. Crystals (low)
+13. Magic Items (low)
  
-7% each, except 4 is 2%
+7% each, remaining goes to reroll w/ upgrade (8%) + choose w/ upgrade (1% max)
