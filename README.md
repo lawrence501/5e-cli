@@ -6,7 +6,6 @@ Golang CLI helper for my D&amp;D 5e campaigns
 ### Sell values
 
 - Mundane: 5gp
-- Body: 20gp
 - Tome: 10gp
 - Amulet: 1gp
 - Relic: 60gp
@@ -241,6 +240,17 @@ While riding your mount, your AC increases by 1.
     - On even mirrors, get a random mod from your pool added to you, with min point value equal to the number of affixes you now have
     - On non-1st odd mirrors, choose a class feature, adding its mods to your pool (can only choose each feature once), then a random mod on you is chosen and you can either upgrade or reroll it
 
+- Gem system, use tags like old system but they are literally gems that get socketed, converting all terms from their tag into a specific term
+    - Eg. All "spell" modifiers in this item are converted to "weapon" modifiers
+    - ability scores
+    - weapon classes
+    - 1h/2h
+    - phys/non-phys
+    - minion/non-minion
+    - buff/debuff
+    - melee/proj/aoe
+    - AC/saves
+
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
 2. Tomes (high)
@@ -250,10 +260,10 @@ While riding your mount, your AC increases by 1.
 6. Dream Mirrors (very high)
 7. Glyphs (very high)
 8. Relics (high)
-9. Body Armours (med)
-10. Tarots (high)
-11. Belt (med)
-12. Crystals (low)
-13. Magic Items (low)
+9. Tarots (high)
+10. Belt (med)
+11. Crystals (low)
+12. Magic Items (low)
+13. Gems (low)
  
 7% each, remaining goes to reroll w/ upgrade (8%) + choose w/ upgrade (1% max)

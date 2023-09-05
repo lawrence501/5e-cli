@@ -771,7 +771,7 @@
           },
           {
             "ally": "Kashana",
-            "effect": "foes within 5' of you are cursed with -1 global dmg while your pants and boots are relics",
+            "effect": "foes within 5' of you are cursed with -1 global dmg while your body armour and boots are relics",
             "upgrade": "-1"
           },
           {
@@ -810,7 +810,7 @@
         "setBonuses": [
           {
             "ally": "Cherry",
-            "effect": "foes within 5' of you are cursed with -1 global dmg while your pants and boots are relics",
+            "effect": "foes within 5' of you are cursed with -1 global dmg while your body armour and boots are relics",
             "upgrade": "-1"
           },
           {
