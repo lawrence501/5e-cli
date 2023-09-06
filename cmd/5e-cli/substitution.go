@@ -35,6 +35,7 @@ var SUBSTITUTION_MAP = map[string][]string{
 	"$equipSlot":       EQUIP_SLOTS,
 	"$journeyActivity": JOURNEY_ACTIVITIES,
 	"$city":            CITIES,
+	"$class":           CLASSES,
 }
 
 func processMod(modString string) string {
