@@ -13,7 +13,7 @@
     },
     {
         "name": "The Empress",
-        "description": "The item has 1 additional modifier that is randomly chosen from a random relic."
+        "description": "The item has 1 additional modifier that is randomly chosen from a random relic (minimum point value of 2)."
     },
     {
         "name": "The Emperor",

@@ -240,6 +240,8 @@ While riding your mount, your AC increases by 1.
     - On even mirrors, get a random mod from your pool added to you, with min point value equal to the number of affixes you now have
     - On non-1st odd mirrors, choose a class feature, adding its mods to your pool (can only choose each feature once), then a random mod on you is chosen and you can either upgrade or reroll it
 
+- Document loot mechanics
+
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
 2. Tomes (high)
