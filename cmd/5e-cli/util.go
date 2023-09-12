@@ -458,46 +458,6 @@ func fetchBlessings(char string) ([]string, error) {
 	return blessings[char], nil
 }
 
-func fetchMutations() ([]Generic, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "mutation.json"))
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	mutations := Mutation{}
-	err = json.Unmarshal([]byte(f), &mutations)
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	typeP := promptui.Prompt{
-		Label:    "Mutation type",
-		Validate: validateMutationType,
-	}
-	mutationType, err := typeP.Run()
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	var mutationSlice []Generic
-	switch mutationType {
-	case "powerful":
-		mutationSlice = mutations.Powerful
-	case "beneficial":
-		mutationSlice = mutations.Beneficial
-	case "distinctive":
-		mutationSlice = mutations.Distinctive
-	case "harmful":
-		mutationSlice = mutations.Harmful
-	}
-	return mutationSlice, nil
-}
-
 func getLootSearchResults(skill string) (int, error) {
 	rollP := promptui.Prompt{
 		Label:    skill + " results (space separated)",

@@ -49,13 +49,6 @@ var validateGem = func(input string) error {
 	return nil
 }
 
-var validateMutationType = func(input string) error {
-	if valid := slices.Contains(MUTATION_TYPES, input); !valid {
-		return errors.New("invalid mutation type")
-	}
-	return nil
-}
-
 var validateSpaceSeparated = func(input string) error {
 	validator := regexp.MustCompile(`^[\w\s]+$`)
 	if !validator.MatchString(input) {

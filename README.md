@@ -188,9 +188,6 @@ While riding your mount, your AC increases by 1.
 
 ## Ideas for next campaign/things to discuss
 
-- Investigate replacing body armours with non-party class feature-esque uniques? Or maybe subclasses? Replace base types for different armour weights to try to match archetypes nicely.
-    - Redesign to not be direct rips from subclass features and instead build uniques from their identities
-
 - Remove amulets
 
 - New loot option: attunement-requiring magic items. Any that fit into an equipment slot already in use are reflavoured to be on another slot. Can only attune to 1 at a time. Use existing wondrous weightings of rarities, but pushed 1 up (making the 2% Artifacts). Obviously, this means they will be pretty powerful, and must therefore be high on the loot table

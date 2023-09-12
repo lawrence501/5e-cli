@@ -128,13 +128,13 @@ var harvest = func() error {
 	return nil
 }
 
-var mutation = func() error {
-	mutations, err := fetchMutations()
+var mutate = func() error {
+	mutations, err := fetchGenerics("mutation")
 	if err != nil {
 		return err
 	}
 
-	chosen := mutations[rand.Intn(len(mutations))]
+	chosen := randSelect(mutations)
 	log.Printf("Mutation\n%s: %s", chosen.Name, chosen.Description)
 	return nil
 }

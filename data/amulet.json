@@ -365,7 +365,7 @@
       },
       {
         "name": "Lucius' Corruption",
-        "effect": "gain a powerful mutation for every 5 glyphs you have consumed",
+        "effect": "gain a mutation for every 3 glyphs you have consumed",
         "upgrade": "+2 glyphic dmg",
         "setBonuses": [
           {

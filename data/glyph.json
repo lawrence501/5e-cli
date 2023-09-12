@@ -4,13 +4,13 @@
         "description": "Learning about Mensis and his minions",
         "tiers": [
             "1. Eldritch Connection: at will; bonus action; uncannily, you learn the name of any one person, place, or thing you can see",
-            "2. You gain a random beneficial mutation",
+            "2. You mutate.",
             "3. Tenebrous Prophesy: 1/min; bonus action; Your mind is filled with a jumble of prophetic images and sensations, granting you a dangerous peek at the predicted future. You gain double advantage on your next roll, but something negative will occur in the near future",
             "4. Soul of the Demon: 1/LR; bonus action; You allow the stored instincts of a vicious creature to enter your mind psychically through your connection to the Black Cathedral, granting you enhanced, barely controlled reflexes. For the next 10 minutes, you gain an expertise die in glyphic atks, but you cannot end hostile combats until you reduce at least one creature in them to 0 HP, even if no enemies remain.",
             "5. You are overrun by the unnatural urges of eldritch beings, pushing you to violence and madness. Whenever you actively engage in lustful, violent, or otherwise animalistic acts for at least 10 minutes, you heal 1d6 + your level hit points",
-            "6. You gain a distinctive mutation of your own design (DM will balance from description)",
+            "6. You gain a distinctive mutation of your own design (DM will balance from description).",
             "7. Your Eldritch Connection feature is now a free action",
-            "8. Gain a random beneficial mutation",
+            "8. You mutate.",
             "9. Your Tenebrous Prophesy feature can now be used twice per minute",
             "10. Your Soul of the Demon feature can now be used at-will."
         ]
@@ -501,7 +501,7 @@
         "tiers": [
             "1. Spawn: 2/min; bonus action; Your flesh bunches up and buds off a small, CR 1 construct minion that can survive independently for 10 minutes before it shrivels and dies. The creature obeys basic commands, but is not intelligent enough to perform tasks complex enough that they would require a d20 roll. The creature is strong enough to pick up small items, but not enough to wield weapons. Creatures not actively following a command follow their own motives, whatever those may be. You can only have 1 active at a time.",
             "2. You can reabsorb the creature from your Spawn feature, healing 1d4 HP.",
-            "3. Willful Mutation: 1/SR; bonus action; You can force your body to develop a random beneficial mutation for 10 minutes.",
+            "3. Willful Mutation: 1/SR; bonus action; You can force your body to develop a random mutation for 10 minutes.",
             "4. You can now spawn a CR 2 creature with your Spawn feature. Optionally, you can elect to leave it as a CR 1 creature, but it can fly with stubby, malformed wings, granting it a flying speed of 120'.",
             "5. Forceful Absorption: 1/SR; bonus action; With some effort, you can try to forcibly absorb a CR 1 or lower creature of your size of smaller, as long as it is organic and from the same plane as you, by hitting with an attack. Absorbing a creature kills it and causes you to heal 1 HP.",
             "6. Whispers Within: 1/SR; bonus action; The things within your flesh listen and learn and plot. Sometimes you overhear them and sometimes you can interrogate them. Things you may have forgotten or missed, things you couldn't see behind you, secret, silent thoughts you are not sensitive enough to receive - the things inside you hear and see all. Your mind can slip inside itself and ask a question of the riders within, which they must answer to the best of their abilities, though whether they tell you the whole truth or not is another matter.",
@@ -579,7 +579,7 @@
         "name": "Lives Underwater",
         "description": "boosting your underwater effectiveness",
         "tiers": [
-            "1. You have evolved into surviving underwater. You gain the Aquatic mutation.",
+            "1. You have evolved into surviving underwater. You can breathe underwater.",
             "2. You gain an expertise die in Athletics checks for swimming and initiative.",
             "3. You develop an uncanny connection with a Giant Octopus. This particular octopus is adapted to be able to breathe both air and water and will serve you faithfully in your journeys as a minion. If killed, it can be replaced the next time a member of your party scores a substantial success in a Befriend Creature journey activity.",
             "4. You gain an expertise die in saving throws.",
@@ -675,15 +675,15 @@
         "name": "Forever Changes",
         "description": "mutating and de-mutating rapidly",
         "tiers": [
-            "1. At the end of each long rest, gain a beneficial mutation. You keep it until your next long rest.",
+            "1. At the end of each long rest, gain a mutation. You keep it until your next long rest.",
             "2. Toolkit: 2/min; bonus action; With Concentration, you can shape your fingers, toes, or other appendages into simple tools with no moving parts such as lockpicks, hooks, or knives. These can be used to make atks to deal 1d6 + your level damage, and grant advantage on ability checks related to their form for 10 minutes, whereafter your appendages revert to normal.",
             "3. Oddly Familiar: 1/min; free action; You can trigger a change in your physiology, changing your sex and appearance to match someone you have touched in the last 24 hours.",
-            "4. The beneficial mutation you gain at the end of each long rest is improved by 1 step.",
+            "4. The mutation you gain at the end of each long rest is improved by 1 step.",
             "5. Reactive Adaption: 1/min; free action; Your changes start forming reactively to your situation. When attacked, you can roll a d20: 1-5, attacked body part develops a bony coating, granting +3 AC against the current attack and the next one; 6-10, attacked body part phases out of existence for the duration of the attack, causing it to miss; 11-15, attacked body part warps to grab the attacking weapon or projectile, disarming melee weapons and throwing them to the floor but still taking damage, or negating damage from projectiles; 16-20, a bony spur juts out, inflicted 1d6 thorns dmg on the attacker by flinging the weapon or projectile back at them.",
             "6. Human Weapon: 1/SR; bonus action; You can change your body into a deadly weapon, growing spikes, blades, armour, or claws. Whilst transformed, you gain +3 AC and deal +1d6 base damage with natural weapon hits until the start of your next turn. However, you look terrifying in this form and all pleasant social checks have double disadvantage.",
             "7. When using your Oddly Familiar feature, you can now choose to adopt any appearance of your choice instead of those only recently touched.",
-            "8. You can now choose to gain a random powerful mutation instead of a beneficial one at the end of your long rests. These mutations do not benefit from T4.",
-            "9. The powerful mutation you can gain at the end of each long rest is improved by 1 step.",
+            "8. You can now choose to roll your T1 mutation with advantage, but when you do so the resulting mutation does not benefit from T4.",
+            "9. Your T8 still benefits from T4.",
             "10. Your forever changing body reacts and adapts to whatever circumstances attempt to disrupt it. You can breathe underwater and are immune to the negative effects of being in high gravity. You are immune to environmental hazards other than extreme heat/cold and vacuums, and you can choose to not gain any mutations you would usually gain. This allows you to ignore the penalties of all natural weather on your journey activities."
         ]
     },
@@ -758,9 +758,9 @@
             "1. Self Expression: At-will; bonus action; You may alter your own body to take on a strange aspect. Gain a cosmetic mutation of your creation. This effect lasts for 1 hour.",
             "2. You gain an expertise die in all diguise-related ability checks.",
             "3. Disruptive Caress: 2/min; bonus action; You touch the body of another living creature, altering them just as you could with your Self Expression feature. This effect lasts for one hour.",
-            "4. Become More: At-will; bonus action; By caressing your own body you alter its shape and nature, providing a random beneficial mutation. This effect lasts for 1 hour and can only be active once at a time.",
+            "4. Become More: At-will; bonus action; By caressing your own body you alter its shape and nature, providing a random mutation. This effect lasts for 1 hour and can only be active once at a time.",
             "5. You gain an expertise die in all disuise-related ability checks.",
-            "6. Creative Touch: 1/SR; bonus action; By touching another living creature you may grant your target a random harmful or beneficial mutation. The effect lasts for one hour.",
+            "6. Creative Touch: 1/SR; bonus action; By touching another living creature you may grant your target a random mutation, rolled with advantage. The effect lasts for one hour.",
             "7. Patch: 1/LR; bonus action; By manipulating the flesh and bone of another you can heal some injuries and make minor repairs. You heal them for 10% of their maximum hit points.",
             "8. Flesh Dance: 1/week; bonus action; You alter yourself to take on the face, body type, and voice of a particular person for 1 hour. You must have sensed these qualities to adopt them.",
             "9. Your Self Expression feature now lasts 8 hours.",
@@ -1019,7 +1019,7 @@
             "6. You gain an expertise die in Medicine.",
             "7. Nerve Pinch: 1/SR; bonus action; Use the Grapple maneuver against your target. If you succeed, make a medicine check contested by your target's Constitution saving throw. If you succeed, they become staggered for 20 minutes.",
             "8. You gain an expertise die in Medicine.",
-            "9. Gene Therapy: 1/LR; bonus action; Through your immense studies of mutations you have discovered a way to bring forth a mutation, although you are never sure which one it is. A targeted creature gains a random beneficial mutation for 8 hours.",
+            "9. Gene Therapy: 1/LR; bonus action; Through your immense studies of mutations you have discovered a way to bring forth a mutation, although you are never sure which one it is. A targeted creature gains a random mutation for 8 hours.",
             "10. Preserve Consciousness: 1/decade; bonus action; If an organic-brained creature had been slain in the past 24 hours, you have found a way to save its mind. Using a receptacle that you can construct, you can sustain the creature's consciousness artifically. You can communicate with the consciousness by utilising magical projecters and amplifiers."
         ]
     },
@@ -1112,7 +1112,7 @@
             "3. Mark of Membership: At-will; free action; You place body art upon your subject, marking them as beholden to others with the same mark, and thereby protected. Any 2 creatures who bear the same mark of membership may not affect each other with harmful spells. Characters may have, at most, 3 marks of membership, with any beyond that being simply ornamental.",
             "4. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
             "5. Motto: 1/SR; free action; You inscribe words into the flesh, making those words powerful. Once per long rest, when the subject acts within the spirit of their motto, they may gain advantage on a related roll. A creature may only have one motto.",
-            "6. Emblem: 1/LR; free action; You create a work of art upon the subject's flesh that serves as an expression of who they truly are. The subject gains the effects of a random beneficial mutation, without the aesthetic aspects. A creature may only have 1 emblem at any given time, with new emblems replacing the power of old ones.",
+            "6. Emblem: 1/LR; free action; You create a work of art upon the subject's flesh that serves as an expression of who they truly are. The subject gains the effects of a random mutation, without the aesthetic aspects. A creature may only have 1 emblem at any given time, with new emblems replacing the power of old ones.",
             "7. Permanent Wonder: 1/week; free action; You take a wondrous item and impart its magical essence in the flesh. For the rest of their life, the subject may use this wondrous item as a bonus action. The cooldown on this usage is based on the original item's usage limits. While a creature has one of these tattoos, they have -1 maximum hit dice. A person may only have one of these tattoos at a time - a new one destroys the power of the old one.",
             "8. You gain an expertise die with all tasks involved in body modification, such as making tattoos, piercing the body, and performing artistic or ritual scarification.",
             "9. Your T2 marks grant an additional expertise die.",
@@ -1144,7 +1144,7 @@
             "3. Move Structure: 2/min; bonus action; You are able to briefly animate a section of wall or load-bearing beam, causing it to shake and buckle. In this way you can weaken or even destroy sections of buildings or caves. This power only works on large pieces of stone, clay, crystal, or metal.",
             "4. You gain an expertise die in sculpture-related skill checks and History checks related to fine art.",
             "5. Golem: 1/SR; free action; You bring to life a humanoid sculpture, between 1 and 5 cubic metres in volume. The golem is a CR 1 minion with +2 AC which follows you and obeys your orders, but that cannot speak or act with autonomy. The golem moves rather slowly (5' speed), and overworld travel speed can be dramatically reduced if the golem is not carried in a cart or other conveyance. You may only have 1 golem at a time.",
-            "6. Inscription: 1/LR; free action; By inscribing arcane symbols into the forehead of your golem or animated servant, you are able to grant it special powers. It gains the effects, but no aesthetic qualities, of a random beneficial mutation. Any given animated creature may only benefit from one inscription at a time.",
+            "6. Inscription: 1/LR; free action; By inscribing arcane symbols into the forehead of your golem or animated servant, you are able to grant it special powers. It gains the effects, but no aesthetic qualities, of a random mutation. Any given animated creature may only benefit from one inscription at a time.",
             "7. You may now construct a golem of any size, so long as you have the raw materials to do so. If you make your golem huge (10 or more cubmic metres of material), it will be up to CR 2 with +3 AC and a speed of 30'. Otherwise its statistics are those described in your Golem feature.",
             "8. You gain an expertise die in sculpture-related skill checks and History checks related to fine art.",
             "9. Your animated servants can now make attacks.",

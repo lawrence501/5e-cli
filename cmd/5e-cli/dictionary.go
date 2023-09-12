@@ -286,13 +286,6 @@ var RANGE_TYPES []string = []string{
 	"proj",
 }
 
-var MUTATION_TYPES []string = []string{
-	"powerful",
-	"beneficial",
-	"distinctive",
-	"harmful",
-}
-
 var RACES []string = []string{
 	"dragonborn",
 	"dwarf",
