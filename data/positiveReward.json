@@ -39,7 +39,7 @@
         "description": "Temp HP equal to half max HP which lasts until used (empowered = +25% temp HP)"
     },
     {
-        "description": "Scroll of learning: 5 exp (empowered = +2 exp)"
+        "description": "Gain 5 exp (empowered = +2 exp)"
     },
     {
         "description": "can ask a yes/no question and get a truthful answer (empowered = +20% chance for question to not be consumed)"
@@ -127,5 +127,8 @@
     },
     {
         "description": "Gain a loot roll on a random inactive DM's last campaign's loot table (empowered = +1 adv)"
+    },
+    {
+        "description": "Seal a random affix on an item of your choice, removing it from its enchantment cluster and adding it to the base item (empowered = +1 adv)"
     }
 ]
