@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Grotesque",
+        "description": "You are distressingly deformed. -2 CHA, then gain another mutation."
+    },
+    {
+        "name": "Corrupted Organs",
+        "description": "Your guts writhe. Whenever you are reduced to 0 hit points, all creatures within 30' must make a WIS save or be frightened of you until save."
+    },
+    {
+        "name": "Bat Wings",
+        "description": "Huge and flappy. You gain a fly speed equal to your walking speed."
+    },
+    {
+        "name": "Burst of Speed",
+        "description": "1/LR, as a glyphic action, you can double your speed for 10mins."
+    },
+    {
+        "name": "Barrel Chest",
+        "description": "+2 CON, max CON, and you gain max HP equal to your prof bonus."
+    },
+    {
+        "name": "Lamarckian Evolution",
+        "description": "One of your hands turns into a random tool, granting you an expertise die in ability checks with a random STR-, DEX-, or WIS-based skill."
+    },
+    {
+        "name": "Hooved",
+        "description": "Your feet become hooves."
+    },
+    {
+        "name": "Unstable",
+        "description": "Whenever you are reduced to 0 hit points, parasitic limbs erupt from your body and make the Grapple maneuver on your behalf on all adj creatures. This grapple cannot be removed unless you choose to do so."
+    },
+    {
+        "name": "Crab Arm",
+        "description": "One of your hands becomes a claw, which is a natural weapon dealing 1d8 B, but its attack rolls have a -1d4 penalty. You can attack with it as a glyphic action."
+    },
+    {
+        "name": "Hook Fingers",
+        "description": "On both hands, they are bony. This is a natural weapon dealing 1d6 S dmg. You can attack with it as a glyphic action. You cannot wield non-unarmed weapons."
+    },
+    {
+        "name": "Patterned Skin",
+        "description": "Your skin is stripy in a colour of your choice."
+    },
+    {
+        "name": "Inside Out",
+        "description": "You are, horribly, inside out. Your Charisma is always 1 and your maximum hit points are halved."
+    },
+    {
+        "name": "Hole",
+        "description": "You have a mysterious hole right through your forehead."
+    },
+    {
+        "name": "Poison Spot",
+        "description": "The spot is bright blue and the size of a coin, and migrates around your body. Whenever a creature touches you, they must make a Constitution saving throw or take poison dmg equal to your level multiplied by your proficiency bonus."
+    },
+    {
+        "name": "1000 Noses",
+        "description": "They cover your body. You gain 30' of blindsight, which uses your sense of smell."
+    },
+    {
+        "name": "Extra Mouths",
+        "description": "Gain 2d6 extra mouths on your head and neck."
+    },
+    {
+        "name": "Neck Frill",
+        "description": "Can inflate as a glyphic action to force all beasts that can see you to make a WIS save or be frightened of you until save."
+    },
+    {
+        "name": "Foul Stench",
+        "description": "You smell of burnt meat and hair. You subtract 1d4 from your Stealth checks."
+    },
+    {
+        "name": "Magnetic Sense",
+        "description": "Can detect magnetic north unless within 30' of a strong magnetic field or anything made of iron."
+    },
+    {
+        "name": "Hinged Head",
+        "description": "Your head opens like a box, with an enormous, toothy mouth that stretches ear to ear."
+    },
+    {
+        "name": "Leathery Hide",
+        "description": "Your base AC while unarmoured is equal to 12 + your DEX mod."
+    },
+    {
+        "name": "Lightning Speed",
+        "description": "You become incredibly nimble. Your speed is increased by 10'."
+    },
+    {
+        "name": "Venomous",
+        "description": "Your unarmed hits deal +1d4 psn dmg."
+    },
+    {
+        "name": "Spike Teeth",
+        "description": "Your teeth are long and serrated."
+    },
+    {
+        "name": "The Vapours",
+        "description": "You emit clouds of stinking yellow vapour from your ears. Subtract 1d4 from your Stealth checks."
+    },
+    {
+        "name": "Milk",
+        "description": "1/LR, you can reduce a single creature's fatigue by 1 level by being milked and having them drink it. If you go 3+ days without being milked, you have vulnerability to all dmg until you are milked. You cannot milk yourself."
+    },
+    {
+        "name": "Monkey Tail",
+        "description": "You can hold items (but not wield weapons) with your tail, and gain an expertise die in athletics checks made to climb."
+    },
+    {
+        "name": "Bizarre Colour",
+        "description": "Your skin flickers between two colours (red, orange, yellow, green, blue, purple)."
+    },
+    {
+        "name": "Leather Skin",
+        "description": "Your skin is lumpy and warty. You cannot wear armour, but your base AC while unarmoured is equal to 12 + your DEX mod."
+    },
+    {
+        "name": "Insane Risks",
+        "description": "You are immune to the frightened condition, but you have no sense of danger."
+    },
+    {
+        "name": "Pheromones",
+        "description": "Beasts struggle to move towards you (as per the frightened condition) while within 20' of you."
+    },
+    {
+        "name": "Atrophy",
+        "description": "A random one of your limbs becomes withered and useless. If you lose a leg, your speed is halved. If you lose an arm, you cannot hold anything in that arm."
+    },
+    {
+        "name": "Inverted",
+        "description": "Your legs and arms are swapped. Subtract 1d4 from all sleight of hand checks."
+    },
+    {
+        "name": "Hulking Arms",
+        "description": "They grow huge as your legs shrink, but you can walk on them to avoid any penalty to your movement. +2 STR and max STR."
+    },
+    {
+        "name": "Sensitive Skin",
+        "description": "You get an unpleasant, itchy rash whenever you touch silver."
+    },
+    {
+        "name": "Bird Wings",
+        "description": "They are vestigial."
+    },
+    {
+        "name": "Stabbing Limb",
+        "description": "One of your arms becomes a sharp point of bone, which becomes a natural weapon with the same stats as a dagger (except for the Thrown trait)."
+    },
+    {
+        "name": "Mute",
+        "description": "Your tongue disappears and you cannot speak."
+    },
+    {
+        "name": "Spores",
+        "description": "Whenever you are reduced to 0 hit points, you coat a 30' radius around you in purple, hallucinogenic spores. All creatures in that radius must make a CON save or become confused until save."
+    },
+    {
+        "name": "Unusual Genitals",
+        "description": "Your genitals are bizarre."
+    }
+]
