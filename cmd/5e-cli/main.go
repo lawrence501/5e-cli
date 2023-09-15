@@ -12,12 +12,11 @@ import (
 )
 
 var ROLL_RANGE_CEILINGS = map[int]func() error{
-	3:   func() error { log.Println("Reroll and upgrade result with +1 colour!"); return nil },
-	11:  wondrous,
-	19:  shrine,
-	27:  func() error { log.Printf("Crystal: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))]); return nil },
-	35:  magicItem,
-	43:  belt,
+	11:  func() error { log.Println("Reroll and upgrade result with +1 colour!"); return nil },
+	19:  wondrous,
+	27:  shrine,
+	35:  func() error { log.Printf("Crystal: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))]); return nil },
+	43:  magicItem,
 	51:  ring,
 	59:  amulet,
 	67:  tome,

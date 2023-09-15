@@ -249,8 +249,7 @@ While riding your mount, your AC increases by 1.
 7. Glyphs (very high)
 8. Relics (high)
 9. Tarots (high)
-10. Belt (med)
-11. Crystals (low)
-12. Magic Items (low)
+10. Crystals (low)
+11. Magic Items (low)
  
-8% each, remaining goes to reroll w/ upgrade (3%) + choose w/ upgrade (1% max)
+8% each, remaining goes to reroll w/ upgrade (11%) + choose w/ upgrade (1% max)
