@@ -1,0 +1,4 @@
+{
+    "+x wep dmg vs surprised targets": "1/LR, as a bonus action, you become invis until end of your next turn. On weapon hit during this invis, it deals +[2*pts]d8 base dmg.",
+    "while you have no conscious allies in combat, +x' sp": "while you have no conscious allies in combat, you can use a bonus action to gain the following benefits for the remainder of combat: you have adv on atks vs targets adj to another foe, and you can use a bonus to shift up to half your speed"
+}
