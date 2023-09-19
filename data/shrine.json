@@ -37,6 +37,10 @@
     },
     {
         "name": "Brittleness",
-        "description": "body armour gets -1 AC and random hard-tripled enchant"
+        "description": "Body armour gets -1 AC and random hard-tripled enchant added to its base item"
+    },
+    {
+        "name": "Experimentation",
+        "description": "A random mod evolves into its experimental form [prompt = 'Design a homebrew $class archetype for dungeons & dragons 5th edition inspired by a magic item with the following properties:']. The same mod will always evolve into the same effect. Item must be chosen first."
     }
 ]

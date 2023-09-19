@@ -139,7 +139,7 @@ var shrine = func() error {
 	}
 
 	chosen := shrines[rand.Intn(len(shrines))]
-	log.Printf("Shrine of %s: %s", chosen.Name, chosen.Description)
+	log.Printf("Shrine of %s: %s", chosen.Name, processMod(chosen.Description))
 	return nil
 }
 
