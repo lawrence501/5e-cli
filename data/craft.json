@@ -1044,6 +1044,12 @@
         "tags": ["defence", "debuff"]
     },
     {
+        "description": "+1 mark dmg",
+        "pointValue": "2",
+        "upgrade": "+1/2",
+        "tags": ["debuff"]
+    },
+    {
         "description": "+3 wep thorns",
         "pointValue": "1",
         "upgrade": "+2/1",
