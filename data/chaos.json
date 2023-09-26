@@ -178,8 +178,8 @@
         "On hit vs target [ahead or behind] you in turn tracker",
         "On block vs foe [ahead or behind] you in turn tracker",
         "On causing environmental dmg",
-        "On natural wep hit",
-        "On natural wep block",
+        "On unarmed wep hit",
+        "On unarmed wep block",
         "On journey activity crit",
         "On journey activity crit fail",
         "On surprising a creature",
@@ -191,7 +191,9 @@
         "On death",
         "At a random IRL time (secretly rolled by DM on session start) during the session",
         "On power use",
-        "On level up"
+        "On level up",
+        "When lunch arrives IRL",
+        "When you mutate"
     ],
     "target": [
         "yourself",
