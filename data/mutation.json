@@ -158,5 +158,113 @@
     {
         "name": "Unusual Genitals",
         "description": "Your genitals are bizarre."
+    },
+    {
+        "name": "Single Bird Wind",
+        "description": "Grows from a random limb, it is useless."
+    },
+    {
+        "name": "Feeble Jaw",
+        "description": "You have an enormous overbite."
+    },
+    {
+        "name": "Third Eye",
+        "description": "On your forehead."
+    },
+    {
+        "name": "Dog Face",
+        "description": "Your face is replaced with a hound's."
+    },
+    {
+        "name": "Perfect Memory",
+        "description": "You gain an expertise die in history checks to recall things you have sensed."
+    },
+    {
+        "name": "Bad Posture",
+        "description": "Your head is swapped with a random one of your legs. You need to hop to move with the remaining leg. -20' sp."
+    },
+    {
+        "name": "Skin Flaps",
+        "description": "Like fleshy flying fox wings. They provide no benefit."
+    },
+    {
+        "name": "Long Nose",
+        "description": "Your nose is protruding and sharp."
+    },
+    {
+        "name": "Strange Walk",
+        "description": "Your joints are used in an odd order. -5' sp."
+    },
+    {
+        "name": "Crown of Tentacles",
+        "description": "2d10 tiny tentacles grow in a ring around your head."
+    },
+    {
+        "name": "Spider Neck",
+        "description": "Whenever you are reduced to 0 hit points, your head is revealed to be a giant spider living on top of your body, and you can control it as a CR 1/8 beast minion. You cannot be brought above 0 hit points unless the spider is in your body's space."
+    },
+    {
+        "name": "Mental Backsliding",
+        "description": "-2 INT. You cannot read or write."
+    },
+    {
+        "name": "Hair Migration",
+        "description": "All of your head hair migrates to a random side of your head in a huge tuft."
+    },
+    {
+        "name": "Cyclops",
+        "description": "Your eyes migrate to the centre of your forehead and fuse into one."
+    },
+    {
+        "name": "The Fits",
+        "description": "Your mind isn't quite right. Whenever you enter for the first time on your turn or start your turn in bright light, you must make a DC 15 INT save or be dazed until your next turn."
+    },
+    {
+        "name": "Boiling Obesity",
+        "description": "Fat fills up 2 of your heavy item inventory slots."
+    },
+    {
+        "name": "Finger Mouths",
+        "description": "Each of your fingers ends in a tiny lamprey mouth. You can eat with them."
+    },
+    {
+        "name": "Rearrangeable",
+        "description": "You can slide your limbs around to new positions. It takes 1hr per limb."
+    },
+    {
+        "name": "Fly Cluster",
+        "description": "A pocket of writhing fly legs appears on a random one of your arms."
+    },
+    {
+        "name": "Toe Growth",
+        "description": "Your big toes grow as large as the rest of your foot. You cannot wear boots."
+    },
+    {
+        "name": "Alluring Face",
+        "description": "All your facial blemishes migrate to a spot on your back. +2 CHA and max CHA."
+    },
+    {
+        "name": "Strange Voice",
+        "description": "Something has gone awry with your vocal cords. Your voice sounds like a distressed cat mewling."
+    },
+    {
+        "name": "Fractal Fingers",
+        "description": "On a random one of your hands, you have 2d1000 fingers. You cannot drop objects held in that hand unintentionally."
+    },
+    {
+        "name": "Horrible Bloating",
+        "description": "Something is wrong with your guts. At the end of each rest, you must make a DC 15 Constitution saving throw or lose 1 hit point."
+    },
+    {
+        "name": "Foul Stench",
+        "description": "You smell like rotting fish and boiled hooves. You have -4 to stealth checks."
+    },
+    {
+        "name": "Bilious Vomit",
+        "description": "As a glyphic action, you can vomit acid in a 10' cone. All creatures in the cone automatically take 1d4 glyphic acid dmg. This cannot be used again until you take a rest, and that rest has no effect."
+    },
+    {
+        "name": "Illusion of Normality",
+        "description": "At the end of each long rest, you make a DC 15 CON save. On a success, you suppress the effects of all your mutations until your next long rest."
     }
 ]

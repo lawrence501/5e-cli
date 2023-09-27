@@ -1949,7 +1949,7 @@
     {
         "name": "Delayed Eruption",
         "target": "powers that deal damage",
-        "description": "Whenever the power hits, the target is charged with unstable energy, which erupts into an explosion of energy at the start of your next turn, making spell atks against all foes adj to the target that deal $nonPhysType dmg. Additionally, the power deals less dmg."
+        "description": "Whenever the power hits, the target is charged with unstable energy, which erupts into an explosion of energy at the start of your next turn, making spell atks against all foes adj to the target, including the target, that deal $nonPhysType dmg. Additionally, the power deals less dmg."
     },
     {
         "name": "Cruel Technique",
