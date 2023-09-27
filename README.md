@@ -223,7 +223,7 @@ While riding your mount, your AC increases by 1.
 - Relics are not char bound, they are levelled up with gold like old days
     - Can't downlevel, can only get resources back by completely selling (100% refund)
     - Max level 6 (ie. 5 levels from base), all level costs = 100gp
-    - Fully reveal on find to max level
+    - Can take to a diviner in any city to reveal all thematic mods + first 2 level outcomes for free
     - 3x choice on lvl
     - Start with 3x 1pt mods, rather than 2pts, to help non-relics compete
     - 6 thematic mods per relic

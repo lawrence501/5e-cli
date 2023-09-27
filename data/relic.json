@@ -1690,9 +1690,9 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "2. +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
+                    "description": "2. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 },
                 {
                     "description": "3. +1 nec dmg",
@@ -1725,13 +1725,13 @@
                     "upgrade": "+1 dmg die/1"
                 },
                 {
-                    "description": "+2 spell dmg after your dmg is halved by a save",
-                    "pointValue": "2",
+                    "description": "+1 spell dmg after your dmg is halved by a save",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+3 cone AoE dmg",
-                    "pointValue": "2",
+                    "description": "+2 cone AoE dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1765,26 +1765,6 @@
                     "description": "6. +1 spell dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. creatures knocked prone by you have +1 dmg taken",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 to your prone DCs",
-                    "pointValue": "4",
-                    "upgrade": "+1 CR/4"
-                },
-                {
-                    "description": "9. +1 spell dmg vs targets who have halved your dmg with a save since the start of your last turn",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 spell AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -1797,13 +1777,13 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+5 non-phys barrier",
-                    "pointValue": "2",
+                    "description": "+3 non-phys barrier",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "+10 B barrier",
-                    "pointValue": "2",
+                    "description": "+5 B barrier",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 }
             ],
@@ -1837,26 +1817,6 @@
                     "description": "6. +3 phys barrier",
                     "pointValue": "1",
                     "upgrade": "+2/1"
-                },
-                {
-                    "description": "7. you can convert incoming WIS saves into CON saves",
-                    "pointValue": "1",
-                    "upgrade": "+1 to CON saves/3"
-                },
-                {
-                    "description": "8. +1 non-phys res",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "9. +2 wep dmg while bloodied",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 melee dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -1864,8 +1824,8 @@
             "name": "Slayer of Acuteness",
             "startingMods": [
                 {
-                    "description": "+3 wep dmg",
-                    "pointValue": "3",
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -1875,7 +1835,7 @@
                 },
                 {
                     "description": "after jumping 15+' as part of your movement, you can land in an occupied space, forcing all inside to make a STR or DEX save (their choice) or be knocked prone. they are then shunted out of the space",
-                    "pointValue": "-1 (but positive)",
+                    "pointValue": "1",
                     "upgrade": "+1 to your debuff DCs/4"
                 }
             ],
@@ -1909,26 +1869,6 @@
                     "description": "6. +1 wep crit dice",
                     "pointValue": "2",
                     "upgrade": "+1/2"
-                },
-                {
-                    "description": "7. +1d4 P dmg to your wep hits",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. your wep hits ignore res",
-                    "pointValue": "3",
-                    "upgrade": "+1 wep dmg/1"
-                },
-                {
-                    "description": "9. after jumping 15+' as part of your movement, you can land in an occupied space, forcing all inside to make a STR or DEX save (their choice) or take 1d4 wep B. they are then shunted out of the space",
-                    "pointValue": "4",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. after jumping 15+' as part of your movement, you can land in an occupied space, forcing all inside to make a STR or DEX save (their choice) or take 1d4 wep S. they are then shunted out of the space",
-                    "pointValue": "4",
-                    "upgrade": "+1/1"
                 }
             ]
         }
@@ -1938,18 +1878,18 @@
             "name": "The Diamond",
             "startingMods": [
                 {
-                    "description": "+2 performance",
-                    "pointValue": "2",
+                    "description": "+1 performance",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "1/week, gain 3 loot rolls when you sell an item for gold in a city",
-                    "pointValue": "5",
-                    "upgrade": "+1/1"
+                    "description": "20% chance to gain a loot roll when you sell an item for gold in a city",
+                    "pointValue": "3",
+                    "upgrade": "+10%/1"
                 },
                 {
-                    "description": "+3 persuasion while in a city's borders",
-                    "pointValue": "2",
+                    "description": "+2 persuasion while in a city's borders",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -1983,26 +1923,6 @@
                     "description": "6. +1 wep AC",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                },
-                {
-                    "description": "7. +1 to entertain journey checks",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +3 dmg barrier while in a city's borders",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "9. you ignore the loading trait on weps",
-                    "pointValue": "3",
-                    "upgrade": "+1 dmg with loading weps/1"
-                },
-                {
-                    "description": "10. +1 to DEX saves",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
                 }
             ]
         },
@@ -2010,13 +1930,13 @@
             "name": "Weald Protector",
             "startingMods": [
                 {
-                    "description": "+10 force barrier",
-                    "pointValue": "2",
+                    "description": "+5 force barrier",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 },
                 {
-                    "description": "+5 max HP",
-                    "pointValue": "2",
+                    "description": "+3 max HP",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
@@ -2055,26 +1975,6 @@
                     "description": "6. on taking dmg, can react to change its type to force",
                     "pointValue": "1",
                     "upgrade": "+5 force barrier/1"
-                },
-                {
-                    "description": "7. if you've taken force dmg since your last turn, +3 incoming healing",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. while healthy, +1 to DEX saves",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "9. +1 use with consumable wondrous items",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "10. while healthy, +2 acro",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -2092,8 +1992,8 @@
                     "upgrade": "-1 step and 4pts distributed/1"
                 },
                 {
-                    "description": "+5 to saves vs effects that deal nec dmg",
-                    "pointValue": "5",
+                    "description": "+2 to saves vs effects that deal nec dmg",
+                    "pointValue": "2",
                     "upgrade": "+1/1"
                 }
             ],
@@ -2127,26 +2027,6 @@
                     "description": "6. Death Ward now requires a full turn action to cast; 5pts distributed",
                     "pointValue": "1",
                     "upgrade": "+1 casting time step and 5pts distributed/1"
-                },
-                {
-                    "description": "7. +1 aths",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. Death Ward can now only be cast while holding a Conduit weapon; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 wep dmg and 2pts distributed/1"
-                },
-                {
-                    "description": "9. +1 to wep saves",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. Death Ward can now only be cast on yourself; 4pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+3->2 max HP/1"
                 }
             ]
         },
@@ -2154,8 +2034,8 @@
             "name": "Charhide Goblin Skin",
             "startingMods": [
                 {
-                    "description": "+10 fire barrier",
-                    "pointValue": "2",
+                    "description": "+5 fire barrier",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 },
                 {
@@ -2199,26 +2079,6 @@
                     "description": "6. +5' sp while sneaking",
                     "pointValue": "1",
                     "upgrade": "+5'/1"
-                },
-                {
-                    "description": "7. while in darkness, you can hide in plain sight",
-                    "pointValue": "3",
-                    "upgrade": "not in bright light -> not in sunlight -> always/3"
-                },
-                {
-                    "description": "8. you are 1 size step smaller",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "9. -5' sp; 3pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-5' and 3pts distributed/1"
-                },
-                {
-                    "description": "10. +1 DEX",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -2226,18 +2086,18 @@
             "name": "Warden's Mail",
             "startingMods": [
                 {
-                    "description": "+5 phys barrier",
-                    "pointValue": "2",
+                    "description": "+3 phys barrier",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "+5 phys barrier per adj ally",
-                    "pointValue": "2",
+                    "description": "+3 phys barrier per adj ally",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "when downed, gain +2 global dmg until LR",
-                    "pointValue": "2",
+                    "description": "when downed, gain +1 global dmg until LR",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -2271,26 +2131,6 @@
                     "description": "6. +6 fall dmg barrier",
                     "pointValue": "1",
                     "upgrade": "+6/1"
-                },
-                {
-                    "description": "7. +1 phys AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "8. on taking phys dmg, offender takes 4 thorns dmg",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
-                },
-                {
-                    "description": "9. +1 non-phys dmg taken; 3pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+1 and 3pts distributed/1"
-                },
-                {
-                    "description": "10. whenever an ally within 60' takes phys dmg, react to take half of it",
-                    "pointValue": "1",
-                    "upgrade": "+3->2 phys barrier/1"
                 }
             ]
         },
@@ -2303,13 +2143,13 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "on block, gain 5 temp HP",
-                    "pointValue": "2",
+                    "description": "on block, gain 3 temp HP",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "+2 dmg barrier per ally within 10' of you",
-                    "pointValue": "2",
+                    "description": "+1 dmg barrier per ally within 10' of you",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -2343,26 +2183,6 @@
                     "description": "6. on block, heal 2 HP",
                     "pointValue": "2",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. on block, generate 3 temp HP",
-                    "pointValue": "1",
-                    "upgrade": "+2 HP/1"
-                },
-                {
-                    "description": "8. +5' fly sp",
-                    "pointValue": "3",
-                    "upgrade": "+5'/3"
-                },
-                {
-                    "description": "9. +1 AC while you have temp HP",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. +2 block thorns",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -2380,8 +2200,8 @@
                     "upgrade": "-1 and 4pts distributed/1"
                 },
                 {
-                    "description": "+12 dmg barrier",
-                    "pointValue": "11",
+                    "description": "+9 dmg barrier",
+                    "pointValue": "8",
                     "upgrade": "+1/1"
                 }
             ],
@@ -2415,26 +2235,6 @@
                     "description": "6. on block, atker gets 2 S DoT, stacking until CON save",
                     "pointValue": "2",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 spell AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "8. when dmg'd, atker becomes slowed until CON save",
-                    "pointValue": "2",
-                    "upgrade": "+1 to your debuff DCs/4"
-                },
-                {
-                    "description": "9. 20% chance to refund spent spell slots",
-                    "pointValue": "1",
-                    "upgrade": "+10%/1"
-                },
-                {
-                    "description": "10. +4 DoT barrier",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
                 }
             ]
         },
@@ -2442,9 +2242,9 @@
             "name": "Black Dragon Mail",
             "startingMods": [
                 {
-                    "description": "+1 AC",
-                    "pointValue": "5",
-                    "upgrade": "+1/5"
+                    "description": "+1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 },
                 {
                     "description": "+1 to saves vs debuffs",
@@ -2452,8 +2252,8 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+3 to saves vs dragons' breath weps",
-                    "pointValue": "2",
+                    "description": "+2 to saves vs dragons' breath weps",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -2487,26 +2287,6 @@
                     "description": "6. your minions have double duration",
                     "pointValue": "2",
                     "upgrade": "+1 multi/2"
-                },
-                {
-                    "description": "7. +1 to wep saves",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "8. +1 to spell saves",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. +1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. +1 to DEX saves",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
                 }
             ]
         },
@@ -2514,8 +2294,8 @@
             "name": "Feral Wilderness",
             "startingMods": [
                 {
-                    "description": "+10' sp while shapeshifted",
-                    "pointValue": "2",
+                    "description": "+5' sp while shapeshifted",
+                    "pointValue": "1",
                     "upgrade": "+5'/1"
                 },
                 {
@@ -2559,26 +2339,6 @@
                     "description": "6. +1 melee dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. on basic melee wep hit, all your DoTs on the target have their dmg increased by 1",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "8. +2 spell dmg while shapeshifted",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. you can cast spells for exertion, at a cost of 2 exertion per slot lvl",
-                    "pointValue": "1",
-                    "upgrade": "-1/3"
-                },
-                {
-                    "description": "10. all your spells count as cantrips",
-                    "pointValue": "1",
-                    "upgrade": "+1 cantrip dmg/1"
                 }
             ]
         },
@@ -2586,13 +2346,13 @@
             "name": "Bane of the Trapped",
             "startingMods": [
                 {
-                    "description": "+2 global dmg vs debuffed targets",
-                    "pointValue": "2",
+                    "description": "+1 global dmg vs debuffed targets",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "project a 10' aura that slows foes within it",
-                    "pointValue": "8",
+                    "description": "project a 5' aura that halves the speed of foes within it",
+                    "pointValue": "4",
                     "upgrade": "+3->2 dmg barrier vs debuffed creatures/1"
                 },
                 {
@@ -2631,26 +2391,6 @@
                     "description": "6. +1 spell AB",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                },
-                {
-                    "description": "7. +1 global AB vs debuffed targets",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "8. if no creatures are marked by you, on boss hit, mark them such that whenever someone delivers a KB to them, they recover 2 exertion.",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +3 psn dmg taken vs debuffed targets; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+2 and 2pts distributed/1"
-                },
-                {
-                    "description": "10. +1 global dmg vs targets affected by your auras",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -2658,18 +2398,18 @@
             "name": "Sol",
             "startingMods": [
                 {
-                    "description": "+2 to your min wep dmg die rolls",
-                    "pointValue": "2",
+                    "description": "+1 to your min wep dmg die rolls",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+3 dmg barrier",
-                    "pointValue": "2",
+                    "description": "+2 dmg barrier",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "-2 to max wep dmg die rolls from incoming hits",
-                    "pointValue": "-2",
+                    "description": "-1 to max wep dmg die rolls from incoming hits",
+                    "pointValue": "1",
                     "upgrade": "-1/1"
                 }
             ],
@@ -2703,26 +2443,6 @@
                     "description": "6. you are 1 size larger",
                     "pointValue": "3",
                     "upgrade": "+1/3"
-                },
-                {
-                    "description": "7. +3 dmg thorns",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "8. +1 spell AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. +5 minion non-phys barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "10. +2 hit dmg barrier",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -2730,8 +2450,8 @@
             "name": "Cover",
             "startingMods": [
                 {
-                    "description": "+8 proj dmg barrier",
-                    "pointValue": "2",
+                    "description": "+4 proj dmg barrier",
+                    "pointValue": "1",
                     "upgrade": "+4/1"
                 },
                 {
@@ -2740,9 +2460,9 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+1 AC",
-                    "pointValue": "5",
-                    "upgrade": "+1/5"
+                    "description": "+1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 }
             ],
             "thematicMods": [
@@ -2752,7 +2472,7 @@
                     "upgrade": "+6/1"
                 },
                 {
-                    "description": "2. +1 wep AC",
+                    "description": "2. +1 wep proj AC",
                     "pointValue": "4",
                     "upgrade": "+1/4"
                 },
@@ -2775,26 +2495,6 @@
                     "description": "6. on block, heal 2 HP",
                     "pointValue": "2",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. -3 dmg with traps; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-2 and 2pts distributed/1"
-                },
-                {
-                    "description": "8. -1 init; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 2pts distributed/1"
-                },
-                {
-                    "description": "9. your buffs on yourself have double duration",
-                    "pointValue": "3",
-                    "upgrade": "+1 multi/3"
-                },
-                {
-                    "description": "10. +5' blindsight",
-                    "pointValue": "1",
-                    "upgrade": "+5'/1"
                 }
             ]
         },
@@ -2847,26 +2547,6 @@
                     "description": "6. +3 dmg taken from yourself; 2pts distributed",
                     "pointValue": "1",
                     "upgrade": "+2 and 2pts distributed/1"
-                },
-                {
-                    "description": "7. +1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "8. your debuffs have double duration",
-                    "pointValue": "3",
-                    "upgrade": "+1 multi/3"
-                },
-                {
-                    "description": "9. if your CHA is 15+, -1 to CHA-based skills; 5pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 5pts distributed/1"
-                },
-                {
-                    "description": "10. +1 to saves vs ongoing debuffs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -2874,8 +2554,8 @@
             "name": "Desolation",
             "startingMods": [
                 {
-                    "description": "+2 light DoT dmg",
-                    "pointValue": "2",
+                    "description": "+1 light DoT dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -2884,8 +2564,8 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "+2 light dmg",
-                    "pointValue": "2",
+                    "description": "+1 light dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -2919,26 +2599,6 @@
                     "description": "6. +1 wep dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 spell dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +5 light barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "9. 1/rnd, when hit, static pulses from your feet, a glyphic atk against foes within 20' dealing 1d4 light dmg",
-                    "pointValue": "4",
-                    "upgrade": "+1 dmg/1"
-                },
-                {
-                    "description": "10. 1/rnd, when hit, foes within 20' are inflicted with 1 light DoT, stacking until CON save",
-                    "pointValue": "2",
-                    "upgrade": "+1 dmg/2"
                 }
             ]
         },
@@ -2951,8 +2611,8 @@
                     "upgrade": "no cooldown --> no react/2"
                 },
                 {
-                    "description": "if your CHA is 15+, +2 init",
-                    "pointValue": "2",
+                    "description": "if your CHA is 15+, +1 init",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -2991,26 +2651,6 @@
                     "description": "6. +1 history",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. you cannot be ambushed during a long rest",
-                    "pointValue": "3",
-                    "upgrade": "also short rest/3"
-                },
-                {
-                    "description": "8. +1 to Chronicle journey activity checks",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 to percep to avoid being ambushed",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -3023,8 +2663,8 @@
                     "upgrade": "+2->1 dmg barrier/1"
                 },
                 {
-                    "description": "+3 global dmg vs targets in Zone 1",
-                    "pointValue": "3",
+                    "description": "+1 global dmg vs targets in Zone 1",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -3063,98 +2703,6 @@
                     "description": "6. +5' fly sp",
                     "pointValue": "3",
                     "upgrade": "+5'/1"
-                },
-                {
-                    "description": "7. adj allies have +1 global dmg",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "8. +1 inventory slot",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 global dmg while holding a shield",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "10. +3 dmg barrier in Zone 1",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                }
-            ]
-        },
-        {
-            "name": "The Beaver",
-            "startingMods": [
-                {
-                    "description": "you ignore the effects of buffs on foes",
-                    "pointValue": "5",
-                    "upgrade": "+2->1 dmg barrier vs buffed creatures/1"
-                },
-                {
-                    "description": "buffs on you have +2 effectiveness",
-                    "pointValue": "6",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "you ignore the effects of debuffs on foes",
-                    "pointValue": "-5",
-                    "upgrade": "-1 global dmg vs debuffed creatures and 2pts distributed/1"
-                }
-            ],
-            "thematicMods": [
-                {
-                    "description": "1. debuffs on you have +1 effectiveness; 4pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+1 and 4pts distributed/1"
-                },
-                {
-                    "description": "2. on turn end, -1 global dmg for combat; 5pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 5pts distributed/1"
-                },
-                {
-                    "description": "3. on turn end, +1 dmg barrier for combat",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "4. +1 survival for harvesting monster parts",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "5. if you haven't scored a KB since start of your last turn, +1 spell AB",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "6. +5 dmg barrier vs beasts",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "7. +1 AC vs beasts",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "8. on block vs debuffed creature, +2 effectiveness of buffs on you until end of your next turn",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +2 dmg barrier vs buffed creatures",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 buff effectiveness",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
                 }
             ]
         },
@@ -3162,8 +2710,8 @@
             "name": "Sun's Radiance",
             "startingMods": [
                 {
-                    "description": "+2 init",
-                    "pointValue": "2",
+                    "description": "+1 init",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -3172,8 +2720,8 @@
                     "upgrade": "+5' movement/1"
                 },
                 {
-                    "description": "on init while healthy, all foes in 60' get -2 init",
-                    "pointValue": "2",
+                    "description": "on init while healthy, all foes in 60' get -1 init",
+                    "pointValue": "1",
                     "upgrade": "-1/1"
                 }
             ],
@@ -3207,26 +2755,6 @@
                     "description": "6. your min bonus init is 0",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. you can never have increased phys dmg taken",
-                    "pointValue": "1",
-                    "upgrade": "+3->2 phys barrier/1"
-                },
-                {
-                    "description": "8. you can never have increased non-phys dmg taken",
-                    "pointValue": "1",
-                    "upgrade": "+3->2 non-phys barrier/1"
-                },
-                {
-                    "description": "9. 1/combat, wep hit deals +4 dmg",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
-                },
-                {
-                    "description": "10. on wep hit, lose 1 HP; 3pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+1 and 3pts distributed/1"
                 }
             ]
         },
@@ -3234,14 +2762,14 @@
             "name": "Perseverance",
             "startingMods": [
                 {
-                    "description": "+10 cold barrier",
-                    "pointValue": "2",
+                    "description": "+5 cold barrier",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 },
                 {
                     "description": "on inflicting debuff, +3 dmg barrier until end of your next turn",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
                 },
                 {
                     "description": "while buffed, +1 global dmg",
@@ -3279,26 +2807,6 @@
                     "description": "6. on block, heal 2 HP",
                     "pointValue": "2",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. +1 crit dice",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "8. +2 cold res",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. your S DoTs ignore res",
-                    "pointValue": "3",
-                    "upgrade": "+1 S DoT dmg/1"
-                },
-                {
-                    "description": "10. +1 proj AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -3311,13 +2819,13 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "while your minions are buffed, they have +3 hit dmg",
-                    "pointValue": "2",
+                    "description": "while your minions are buffed, they have +2 hit dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "1/combat, when your minion uses a power, all of their allies adj to them heal 2 HP",
-                    "pointValue": "2",
+                    "description": "1/combat, when your minion uses a power, all of their allies adj to them heal 1 HP",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -3351,26 +2859,6 @@
                     "description": "6. whenever your minions buff another creature, they also grant them +1 global dmg until end of the minion's next turn",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. 1/combat, when dmg'd, all adj foes get -2 global dmg until end of their next turn",
-                    "pointValue": "1",
-                    "upgrade": "-1/1"
-                },
-                {
-                    "description": "8. 1/combat, when dmg'd, gain +7 dmg barrier until end of your next turn",
-                    "pointValue": "1",
-                    "upgrade": "+7/1"
-                },
-                {
-                    "description": "9. 1/combat, when hit while bloodied, heal 4 HP",
-                    "pointValue": "2",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "10. 1/combat, when hit while bloodied, +4 hit dmg until end of your next turn",
-                    "pointValue": "2",
-                    "upgrade": "+2/1"
                 }
             ]
         },
@@ -3378,8 +2866,8 @@
             "name": "Swamp Lily's Petal",
             "startingMods": [
                 {
-                    "description": "as an action, you can cast Detect Thoughts, but can only learn a creature's favourite food from their thoughts.",
-                    "pointValue": "6",
+                    "description": "1/combat, as an action, you can cast Detect Thoughts, but can only learn a creature's favourite food from their thoughts.",
+                    "pointValue": "3",
                     "upgrade": "+3->2 dmg barrier vs creatures you know the favourite food of/1"
                 },
                 {
@@ -3388,9 +2876,9 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+1 AC while unarmoured",
-                    "pointValue": "5",
-                    "upgrade": "+1/5"
+                    "description": "+1 spell AC while unarmoured",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 }
             ],
             "thematicMods": [
@@ -3423,26 +2911,6 @@
                     "description": "6. +1 B dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. on wep hit, target makes CON save or the hit deals +1d4 psn dmg, else half",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 psn dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. +1 to your debuff DCs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. +1 to your debuff DCs vs foes who you know the favourite foods of",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
                 }
             ]
         },
@@ -3455,13 +2923,13 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "while adj to [Adrian's char], +5 dmg barrier",
-                    "pointValue": "2",
+                    "description": "while adj to [Adrian's char], +3 dmg barrier",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "+2 init",
-                    "pointValue": "2",
+                    "description": "+1 init",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -3495,26 +2963,6 @@
                     "description": "6. +1 to your debuff DCs",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                },
-                {
-                    "description": "7. on wep hit, target gets +1 wep dmg taken for combat",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "8. +5 B barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "9. on succ save vs debuff, heal 2 HP",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 to debuff saves vs creatures behind you in the turn tracker",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
                 }
             ]
         },
@@ -3527,13 +2975,13 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+5 non-phys barrier",
-                    "pointValue": "2",
+                    "description": "+3 non-phys barrier",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "+5 max HP",
-                    "pointValue": "2",
+                    "description": "+3 max HP",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 }
             ],
@@ -3567,26 +3015,6 @@
                     "description": "6. +1 WIS",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                },
-                {
-                    "description": "7. +1 to WIS saves",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "8. +1 spell AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. +1 to history for recalling info you didn't personally experience",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. on init, recover 2 spell slot lvls",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -3604,8 +3032,8 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "-2 AoE dmg vs allies",
-                    "pointValue": "2",
+                    "description": "-1 AoE dmg vs allies",
+                    "pointValue": "1",
                     "upgrade": "-1/1"
                 }
             ],
@@ -3639,26 +3067,6 @@
                     "description": "6. +1 to Stealth for hiding",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. -1 nec dmg; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 2pts distributed/1"
-                },
-                {
-                    "description": "8. -1 glyphic dmg vs allies",
-                    "pointValue": "1",
-                    "upgrade": "-1/1"
-                },
-                {
-                    "description": "9. +1 outgoing healing",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 non-phys dmg taken; 3pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+1 and 3pts distributed/1"
                 }
             ]
         },
@@ -3666,13 +3074,13 @@
             "name": "Barrier of Judgment",
             "startingMods": [
                 {
-                    "description": "+3 B dmg thorns",
-                    "pointValue": "2",
+                    "description": "+2 B dmg thorns",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "if you've blocked since your last turn, +8 B dmg thorns",
-                    "pointValue": "2",
+                    "description": "if you've blocked since your last turn, +4 B dmg thorns",
+                    "pointValue": "1",
                     "upgrade": "+4/1"
                 },
                 {
@@ -3711,26 +3119,6 @@
                     "description": "6. +5 B barrier",
                     "pointValue": "1",
                     "upgrade": "+5/1"
-                },
-                {
-                    "description": "7. with 2+ adj foes, +3 dmg barrier",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "8. +1 CHA",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. +1 passive regen",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "10. +15' darkvision",
-                    "pointValue": "1",
-                    "upgrade": "+10'/1"
                 }
             ]
         },
@@ -3738,8 +3126,8 @@
             "name": "Street Fighter",
             "startingMods": [
                 {
-                    "description": "+3 wep dmg vs healthy foes",
-                    "pointValue": "2",
+                    "description": "+2 wep dmg vs healthy foes",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -3748,8 +3136,8 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+2 wep dmg",
-                    "pointValue": "2",
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -3783,26 +3171,6 @@
                     "description": "6. +1 wep AB vs healthy foes",
                     "pointValue": "3",
                     "upgrade": "+1/3"
-                },
-                {
-                    "description": "7. on buffing yourself, gain 1 temp HP",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. +1 wep crit range",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. +1 maneuver dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 to CHA saves",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -3810,13 +3178,13 @@
             "name": "Templar Assassin",
             "startingMods": [
                 {
-                    "description": "when buffed, +3 dmg barrier vs the next instance of incoming dmg",
-                    "pointValue": "2",
+                    "description": "when buffed, +2 dmg barrier vs the next instance of incoming dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "when buffed, +2 global dmg to your next instance of dmg",
-                    "pointValue": "2",
+                    "description": "when buffed, +1 global dmg to your next instance of dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -3855,26 +3223,6 @@
                     "description": "6. you can move your senses to the location of a trap you have laid",
                     "pointValue": "1",
                     "upgrade": "+2->1 percep while seeing thru your traps/1"
-                },
-                {
-                    "description": "7. +1 to the DC for creature noticing your traps",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "8. whenever your traps trigger, they exert a 5' aura that slows foes and lasts until the end of your next turn",
-                    "pointValue": "3",
-                    "upgrade": "+3->2 dmg barrier vs debuffed creatures/1"
-                },
-                {
-                    "description": "9. 1/combat, if a creature starts its turn having been slowed by you for 2+rnds, it becomes rooted until the slow ends",
-                    "pointValue": "2",
-                    "upgrade": "+1 to your ongoing debuff DCs/4"
-                },
-                {
-                    "description": "10. +3 trap dmg vs debuffed targets",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
                 }
             ]
         },
@@ -3882,8 +3230,8 @@
             "name": "Unbreakable Barrier",
             "startingMods": [
                 {
-                    "description": "+1 AC",
-                    "pointValue": "5",
+                    "description": "+1 spell AC",
+                    "pointValue": "4",
                     "upgrade": "+1/5"
                 },
                 {
@@ -3892,8 +3240,8 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "while defensively buffed, +2 incoming temp HP",
-                    "pointValue": "2",
+                    "description": "while defensively buffed, +1 incoming temp HP",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -3924,29 +3272,9 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "6. +1 spell AC",
+                    "description": "6. your spells have double duration",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                },
-                {
-                    "description": "7. your spells have double duration",
-                    "pointValue": "3",
-                    "upgrade": "+1 multi/3"
-                },
-                {
-                    "description": "8. your non-instantaneous spells gain a 4+ recharge; 3pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+1 recharge and 2pts distributed/1"
-                },
-                {
-                    "description": "9. +1 incoming temp HP",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. on block, heal 2 HP",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -3999,26 +3327,6 @@
                     "description": "6. +5' climb sp",
                     "pointValue": "3",
                     "upgrade": "+5'/3"
-                },
-                {
-                    "description": "7. you cannot enter residences without an invitation from an occupant; 4pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 decep while within a city's borders and 2pts distributed/1"
-                },
-                {
-                    "description": "8. on ending your turn in running water, take 5 acid dmg; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+5 and 2pts distributed/1"
-                },
-                {
-                    "description": "9. when crit by P dmg, you are staggered until your next turn; 3pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+2->+1 P dmg taken and 2pts distributed/1"
-                },
-                {
-                    "description": "10. on starting your turn in sunlight, take 3 rad dmg; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "+2 and 2pts distributed/1"
                 }
             ]
         },
@@ -4031,8 +3339,8 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "+10 dmg barrier vs undead creatures",
-                    "pointValue": "2",
+                    "description": "+5 dmg barrier vs undead creatures",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 },
                 {
@@ -4071,26 +3379,6 @@
                     "description": "6. +1 deception",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                },
-                {
-                    "description": "7. after an undead creature dmgs your temp HP, you increase your temp HP by 4",
-                    "pointValue": "2",
-                    "upgrade": "+2->1/1"
-                },
-                {
-                    "description": "8. +1 wep AC vs the first incoming atk each rnd",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "9. +1 to death saves",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "10. +1 spell AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },
@@ -4098,8 +3386,8 @@
             "name": "Fewmet Leather",
             "startingMods": [
                 {
-                    "description": "+10 psn barrier",
-                    "pointValue": "2",
+                    "description": "+5 psn barrier",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 },
                 {
@@ -4108,8 +3396,8 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "+2 spell dmg",
-                    "pointValue": "2",
+                    "description": "+1 spell dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -4143,26 +3431,6 @@
                     "description": "6. +3 to your thorns dmg",
                     "pointValue": "1",
                     "upgrade": "+2/1"
-                },
-                {
-                    "description": "7. 1/turn, on atk, all adj foes receive your dmg thorns",
-                    "pointValue": "3",
-                    "upgrade": "+3->2 dmg thorns/1"
-                },
-                {
-                    "description": "8. 1/turn, on atk, make a glyphic atk against all adj foes, dealing 1d4 acid dmg on hit",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "9. 1/turn, on atk, make a glyphic atk against all adj foes, dealing 1d4 nec dmg on hit",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. 1/turn, on atk, all adj foes are psn'd until the end of your next turn",
-                    "pointValue": "3",
-                    "upgrade": "+3->2 dmg barrier vs creatures debuffed by you/1"
                 }
             ]
         },
@@ -4170,13 +3438,13 @@
             "name": "Aspect of the Battle Bear",
             "startingMods": [
                 {
-                    "description": "while shapeshifted, +5 dmg barrier",
-                    "pointValue": "2",
+                    "description": "while shapeshifted, +3 dmg barrier",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "while bloodied, +5 dmg barrier",
-                    "pointValue": "2",
+                    "description": "while bloodied, +3 dmg barrier",
+                    "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
@@ -4215,26 +3483,6 @@
                     "description": "6. your buffs on allies have double duration",
                     "pointValue": "3",
                     "upgrade": "+1/3"
-                },
-                {
-                    "description": "7. +2 dmg barrier",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "8. while shapeshifted, +1 buff effectiveness",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "9. on debuffing a boss, recover 2 exertion",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 dmg res",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
                 }
             ]
         },
@@ -4242,8 +3490,8 @@
             "name": "Aegis",
             "startingMods": [
                 {
-                    "description": "+2 incoming temp HP",
-                    "pointValue": "2",
+                    "description": "+1 incoming temp HP",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
@@ -4287,26 +3535,6 @@
                     "description": "6. +1 passive temp HP gen",
                     "pointValue": "2",
                     "upgrade": "+1/2"
-                },
-                {
-                    "description": "7. +1 passive regen",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "8. whenever your minions become bloodied, they are instantly destroyed, releasing a fiery explosion, an atk by the minion against all foes adj to the corpse dealing 1d10 fire dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1d10 dmg/1"
-                },
-                {
-                    "description": "9. +1 AC while you have temp HP",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "10. +4 dmg barrier during your turn",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
                 }
             ]
         },
@@ -4314,19 +3542,19 @@
             "name": "Lost Knowledge",
             "startingMods": [
                 {
-                    "description": "+4% chance for hostile random encounters",
-                    "pointValue": "4",
+                    "description": "+2% chance for hostile random encounters",
+                    "pointValue": "2",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+5 to WIS saves during hostile random encounters",
-                    "pointValue": "5",
+                    "description": "+2 to WIS saves during hostile random encounters",
+                    "pointValue": "2",
                     "upgrade": "+1/1"
                 },
                 {
                     "description": "you can never have adv on Offence during hostile random encounters",
-                    "pointValue": "-3",
-                    "upgrade": "-1 global AB during hostile random encounters and 4pts distributed/1"
+                    "pointValue": "-1",
+                    "upgrade": "-1 global AB during hostile random encounters and 3pts distributed/1"
                 }
             ],
             "thematicMods": [
@@ -4359,26 +3587,6 @@
                     "description": "6. +1 to WIS saves",
                     "pointValue": "3",
                     "upgrade": "+1/3"
-                },
-                {
-                    "description": "7. -1 global AB during hostile random encounters; 4pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 4pts distributed/1"
-                },
-                {
-                    "description": "8. +1 AC during hostile random encounters",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "9. +1 passive regen during hostile random encounters",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "10. +1 to saves during hostile random encounters",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
                 }
             ]
         },
@@ -4396,8 +3604,8 @@
                     "upgrade": "+1 slot OR +1 lvl/3"
                 },
                 {
-                    "description": "+10 light barrier",
-                    "pointValue": "2",
+                    "description": "+5 light barrier",
+                    "pointValue": "1",
                     "upgrade": "+5/1"
                 }
             ],
@@ -4431,26 +3639,58 @@
                     "description": "6. you are immune to the penalties of Rainy weather",
                     "pointValue": "1",
                     "upgrade": "+3->2 to journey activity checks in Rainy weather/1"
+                }
+            ]
+        },
+        {
+            "name": "Heirloom of the Last Nomad",
+            "startingMods": [
+                {
+                    "description": "+15 cold barrier",
+                    "pointValue": "3",
+                    "upgrade": "+5/1"
                 },
                 {
-                    "description": "7. you are immune to the penalties of Hailing weather",
-                    "pointValue": "1",
-                    "upgrade": "+3->2 to journey activity checks in Hailing weather/1"
+                    "description": "+20 psy barrier",
+                    "pointValue": "4",
+                    "upgrade": "+5/1"
                 },
                 {
-                    "description": "8. +3 to journey activity checks in Sweltering weather",
+                    "description": "-1 to saves to end ongoing debuffs",
+                    "pointValue": "-4",
+                    "upgrade": "-1 and 5pts distributed/1"
+                }
+            ],
+            "thematicMods": [
+                {
+                    "description": "1. +3 max HP",
                     "pointValue": "1",
                     "upgrade": "+2/1"
                 },
                 {
-                    "description": "9. on block while submerged in water, you and allies within 60' heal 2 HP",
-                    "pointValue": "3",
+                    "description": "2. +1 to your debuff DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. when actively healed, remove 1 debuff of your choice from yourself",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +5 fire barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "5. +1 fire dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "10. you ignore diff terrain",
-                    "pointValue": "3",
-                    "upgrade": "+5' sp on diff terrain/1"
+                    "description": "6. while you have no conscious allies in combat, +15' sp",
+                    "pointValue": "1",
+                    "upgrade": "+10'/1"
                 }
             ]
         }
