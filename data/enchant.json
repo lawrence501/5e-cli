@@ -1449,6 +1449,12 @@
         "description": "someone in $city will exchange this item for exotic treasures (can be traded there for a random positive reward)",
         "pointValue": "-",
         "upgrade": "-",
-        "tags": [""]
+        "tags": []
+    },
+    {
+        "description": "+4 crystal dmg",
+        "pointValue": "1",
+        "upgrade": "+4/1",
+        "tags": ["weapon"]
     }
 ]

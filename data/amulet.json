@@ -621,18 +621,18 @@
     "amulets": [
       {
         "name": "Aurifex's Craft",
-        "effect": "+3 item proc dmg",
+        "effect": "+12 crystal dmg",
         "upgrade": "+2 to crafting creation checks",
         "setBonuses": [
           {
             "ally": "Nixaar",
-            "effect": "on dealing item proc dmg, -2 item proc dmg and +2 to all other dmg until the end of your next turn",
-            "upgrade": "-2 and +2"
+            "effect": "on crystal flare, -12 crystal dmg and +1 global dmg until after your next crystal flare",
+            "upgrade": "-12 and +1"
           },
           {
             "ally": "Treefish",
-            "effect": "+3 item proc dmg vs targets smaller than you",
-            "upgrade": "+2"
+            "effect": "+16 crystal dmg vs targets smaller than you",
+            "upgrade": "+16"
           },
           {
             "ally": "Librus",
@@ -641,8 +641,8 @@
           },
           {
             "ally": "Jarrik, Samurai",
-            "effect": "+3 dmg with adv item proc atks",
-            "upgrade": "+2"
+            "effect": "+16 dmg with adv crystal atks",
+            "upgrade": "+16"
           }
         ]
       },
@@ -653,8 +653,8 @@
         "setBonuses": [
           {
             "ally": "Aurifex",
-            "effect": "on dealing item proc dmg, -2 item proc dmg and +2 to all other dmg until the end of your next turn",
-            "upgrade": "-2 and +2"
+            "effect": "on crystal flare, -12 crystal dmg and +1 global dmg until after your next crystal flare",
+            "upgrade": "-12 and +1"
           },
           {
             "ally": "Treefish",
@@ -680,8 +680,8 @@
         "setBonuses": [
           {
             "ally": "Aurifex",
-            "effect": "+3 item proc dmg vs targets smaller than you",
-            "upgrade": "+2"
+            "effect": "+16 crystal dmg vs targets smaller than you",
+            "upgrade": "+16"
           },
           {
             "ally": "Nixaar",
@@ -734,8 +734,8 @@
         "setBonuses": [
           {
             "ally": "Aurifex",
-            "effect": "+3 dmg with adv item proc atks",
-            "upgrade": "+2"
+            "effect": "+16 dmg with adv crystal atks",
+            "upgrade": "+16"
           },
           {
             "ally": "Nixaar",
@@ -1124,6 +1124,11 @@
             "ally": "Heath",
             "effect": "+3 decep vs targets native to a different plane from you",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "+2 intimidation while non-trivially pretending to be someone else",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1166,6 +1171,11 @@
             "ally": "Heath",
             "effect": "on crit, trigger a Wild Magic Surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "on crit vs DoT'd target, all their DoTs tick 2 times",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1208,6 +1218,11 @@
             "ally": "Heath",
             "effect": "when hit while you have temp HP, trigger a Wild Magic Surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "+2 crit range vs creatures who have dmg'd your temp HP since your last turn",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1250,6 +1265,11 @@
             "ally": "Heath",
             "effect": "on becoming bloodied, trigger a Wild Magic Surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "while bloodied, +2 crit dice",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1292,6 +1312,11 @@
             "ally": "Heath",
             "effect": "on init, generate a random 2pt wep enchant and a random 2pt armour enchant. while healthy, you gain the effects of the wep one, and the armour one while bloodied",
             "upgrade": "+2 and +2"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "while healthy, +1 crit dice; while bloodied, +5 phys barrier",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1334,6 +1359,11 @@
             "ally": "Heath",
             "effect": "on dealing dmg as a reaction, trigger a Wild Magic Surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "+1 crit range with atks made as a reaction",
+            "upgrade": "+1"
           }
         ]
       },
@@ -1376,6 +1406,11 @@
             "ally": "Heath",
             "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "on crit, target has -4 global dmg vs non-you targets until end of their next turn",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1417,6 +1452,58 @@
           {
             "ally": "Petros",
             "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "on making 3+ hits in a single turn, trigger a wild magic surge",
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
+          }
+        ]
+      },
+      {
+        "name": "Truvat's Escalation",
+        "effect": "on crit, +3 crit dice until the end of the turn",
+        "upgrade": "+5 crit dmg",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+2 intimidation while non-trivially pretending to be someone else",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "on crit, +1 crit range until the end of the turn",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "on crit, gain 2 stacking temp HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Morric",
+            "effect": "while bloodied, +2 crit dice",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Clover",
+            "effect": "while healthy, +1 crit dice; while bloodied, +5 phys barrier",
+            "upgrade": "+1 and +5"
+          },
+          {
+            "ally": "Surge",
+            "effect": "+1 crit range with atks made as a reaction",
+            "upgrade": "+1"
+          },
+          {
+            "ally": "Petros",
+            "effect": "on crit, target has -4 global dmg vs non-you targets until end of their next turn",
+            "upgrade": "-4"
+          },
+          {
+            "ally": "Heath",
+            "effect": "on making 3+ hits in a single turn, trigger a wild magic surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
           }
         ]
