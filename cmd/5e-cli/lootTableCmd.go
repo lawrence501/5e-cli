@@ -104,8 +104,8 @@ var amulet = func() error {
 		return err
 	}
 
-	set := sets[rand.Intn(len(sets))]
-	chosen := set.Amulets[rand.Intn(len(set.Amulets))]
+	set := randSelect(sets)
+	chosen := randSelect(set.Amulets)
 	log.Printf("Amulet\n%s (%s): %s", chosen.Name, set.Name, chosen.Effect)
 	return nil
 }
