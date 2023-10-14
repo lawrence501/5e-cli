@@ -1,55 +1,55 @@
 [
     {
         "name": "The Fool",
-        "description": "The item has no base modifier, but is Levellable. For each improvement to the base modifier in this reading, the item starts with +1 upgrade point."
+        "description": "The item has no base affix, but is Levellable. For each improvement to the base affix in this reading, the item starts with +1 upgrade point."
     },
     {
         "name": "The Magician",
-        "description": "The item has 1 additional modifier that grants a 1/LR free casting of a random spell of level up to your hypothetical highest."
+        "description": "The item has 1 additional affix that grants a 1/LR free casting of a random spell of level up to your hypothetical highest."
     },
     {
         "name": "The High Priestess",
-        "description": "The item has 1 additional modifier that is randomly chosen from a random glyph path."
+        "description": "The item has 1 additional affix that is randomly chosen from a random glyph path."
     },
     {
         "name": "The Empress",
-        "description": "The item has 1 additional modifier that is randomly chosen from a random relic (minimum point value of 2)."
+        "description": "The item has 1 additional affix that is randomly chosen from a random relic (minimum point value of 2)."
     },
     {
         "name": "The Emperor",
-        "description": "The item has 1 additional modifier that is a randomly chosen passive from a random monster of CR up to your level."
+        "description": "The item has 1 additional affix that is a randomly chosen passive from a random monster of CR up to your level."
     },
     {
         "name": "The Hierophant",
-        "description": "The item has 1 additional modifier that grants +2 to a random ability score's maximum value."
+        "description": "The item has 1 additional affix that grants +2 to a random ability score's maximum value."
     },
     {
         "name": "The Lovers",
-        "description": "The item has 1 additional modifier that is a randomly chosen ally bonus from a random amulet."
+        "description": "The item has 1 additional affix that is a randomly chosen ally bonus from a random amulet."
     },
     {
         "name": "The Chariot",
-        "description": "The item has 1 additional modifier of a chosen Affinity, which has a minimum point value of 2."
+        "description": "The item has 1 additional affix of a chosen Affinity, which has a minimum point value of 2."
     },
     {
         "name": "Justice",
-        "description": "The item has 1 additional modifier that is of the same Affinity as the base modifier, which has a minimum point value of 2."
+        "description": "The item has 1 additional affix that is of the same Affinity as the base affix, which has a minimum point value of 2."
     },
     {
         "name": "The Hermit",
-        "description": "The item has 1 additional modifier that is a randomly chosen Knack from a random class."
+        "description": "The item has 1 additional affix that is a randomly chosen Knack from a random class."
     },
     {
         "name": "Wheel of Fortune",
-        "description": "The item has 1 additional modifier that has a minimum point value of 2 and is negated, then the resulting points are granted to the base modifier."
+        "description": "The item has 1 additional affix that has a minimum point value of 2 and is negated, then the resulting points are granted to the base affix."
     },
     {
         "name": "Strength",
-        "description": "The item has 1 additional modifier that grants a 1/LR free usage of a random maneuver of degree up to your hypothetical highest."
+        "description": "The item has 1 additional affix that grants a 1/LR free usage of a random maneuver of degree up to your hypothetical highest."
     },
     {
         "name": "The Hanged Man",
-        "description": "The item has 1 additional modifier that is randomly chosen from the standard affix pool, and has a minimum point value of 3."
+        "description": "The item has 1 additional affix that is randomly chosen from the standard affix pool, and has a minimum point value of 3."
     },
     {
         "name": "Death",
@@ -65,42 +65,42 @@
     },
     {
         "name": "The Tower",
-        "description": "The item has 1 additional chaotic modifier."
+        "description": "The item has 1 additional chaotic affix."
     },
     {
         "name": "The Stars",
-        "description": "The item has 1 additional modifier that you can define (DM will balance for max 4pts)."
+        "description": "The item has 1 additional affix that you can define (DM will balance for max 4pts)."
     },
     {
         "name": "The Moon",
-        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is negated and applied to creatures of your choice within a 60' aura."
+        "description": "The item has 1 additional affix. Instead of applying to you, the affix is negated and applied to creatures of your choice within a 60' aura."
     },
     {
         "name": "The Sun",
-        "description": "The item has 1 additional modifier. Instead of applying to you, the modifier is applied to creatures of your choice within a 60' aura."
+        "description": "The item has 1 additional affix. Instead of applying to you, the affix is applied to creatures of your choice within a 60' aura."
     },
     {
         "name": "Judgement",
-        "description": "The item has 1 additional modifier that has a minimum point value of 5, but it is only applied to you after you go down for the first time between rests."
+        "description": "The item has 1 additional affix that has a minimum point value of 5, but it is only applied to you after you go down for the first time between rests."
     },
     {
         "name": "The World",
-        "description": "The item has 1 additional modifier that grants an expertise die in a random journey activity."
+        "description": "The item has 1 additional affix that grants an expertise die in a random journey activity."
     },
     {
         "name": "Ace of Wands",
-        "description": "The item's base mod modifier must have either the 'Spell' or 'Type' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The item's base mod affix must have either the 'Spell' or 'Type' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     },
     {
         "name": "Ace of Cups",
-        "description": "The item's base modifier must have either the 'HP' or 'Minion' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The item's base affix must have either the 'HP' or 'Minion' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     },
     {
         "name": "Ace of Swords",
-        "description": "The item's base modifier must have either the 'Weapon' or 'Damage over Time' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The item's base affix must have either the 'Weapon' or 'Damage over Time' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     },
     {
         "name": "Ace of Pentacles",
-        "description": "The item's base modifier must have either the 'Defence' or 'Debuff' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base modifier to that value. Court cards add an additional base modifier of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The item's base affix must have either the 'Defence' or 'Debuff' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
     }
 ]

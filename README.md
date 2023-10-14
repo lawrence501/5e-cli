@@ -37,7 +37,7 @@ Lawrence: 1400
 5. Name Thematic
 6. Random from source
 7. Random PoE
-8. Random affix
+8. Generated affix
 
 ### Dream relic generation
 
