@@ -128,7 +128,7 @@ var positiveReward = func() error {
 	}
 
 	chosen := positiveRewards[rand.Intn(len(positiveRewards))]
-	log.Printf("Positive encounter reward\n%s", chosen.Description)
+	log.Printf("Positive encounter reward\n%s", processMod(chosen.Description))
 	return nil
 }
 

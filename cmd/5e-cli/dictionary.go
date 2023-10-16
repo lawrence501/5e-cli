@@ -766,3 +766,43 @@ var PLANES []string = []string{
 	"eternal slumber",
 	"cycling swamp",
 }
+
+var SPELL_LISTS []string = []string{
+	"bard",
+	"cleric",
+	"druid",
+	"herald",
+	"sorcerer",
+	"warlock",
+	"wizard",
+	"artificer",
+}
+
+var MARTIAL_TRADITIONS []string = []string{
+	"adamant mountain",
+	"biting zephyr",
+	"mirror's glint",
+	"mist and shade",
+	"rapid current",
+	"razor's edge",
+	"sanguine knot",
+	"spirited steed",
+	"tempered iron",
+	"tooth and claw",
+	"unending wheel",
+}
+
+var FOLLOWERS []string = []string{
+	"apothecary",
+	"bodyguard",
+	"cook",
+	"diviner",
+	"footpad",
+	"healer",
+	"interpreter",
+	"minstrel",
+	"sage",
+	"smith",
+	"squire",
+	"torchbearer",
+}

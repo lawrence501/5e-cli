@@ -608,3 +608,8 @@ var plane = func() error {
 	log.Printf("Plane: %s", PLANES[rand.Intn(len(PLANES))])
 	return nil
 }
+
+var follower = func() error {
+	log.Printf("Follower: %s", randSelect(FOLLOWERS))
+	return nil
+}
