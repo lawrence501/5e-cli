@@ -76,7 +76,7 @@ type Ring struct {
 	Effects []string `json:"effects"`
 }
 
-type Enchant struct {
+type Affix struct {
 	Description string   `json:"description"`
 	PointValue  string   `json:"pointValue"`
 	Upgrade     string   `json:"upgrade"`
@@ -110,9 +110,9 @@ type GlyphPath struct {
 }
 
 type Relic struct {
-	Name         string    `json:"name"`
-	Type         string    `json:"type"`
-	StartingMods []Enchant `json:"startingMods"`
+	Name            string  `json:"name"`
+	Type            string  `json:"type"`
+	StartingAffixes []Affix `json:"startingAffixes"`
 }
 
 type Bodies struct {

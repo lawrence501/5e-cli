@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"math"
 	"math/rand"
 	"reflect"
 	"sort"
@@ -27,27 +28,55 @@ var colour = func() error {
 	return nil
 }
 
-var weaponEnchant = func() error {
+var weaponAffix = func() error {
 	tags := []string{"weapon"}
-	enchants, err := getEnchants(1, tags)
+	allAffixes, err := fetchAffixes("affix")
 	if err != nil {
 		return err
 	}
 
-	enchant := enchants[0]
-	log.Printf("Weapon enchant\n%s [%s; %s]", enchant.Description, enchant.PointValue, enchant.Upgrade)
+	var a Affix
+	for {
+		a = randSelect(allAffixes)
+		valid := true
+		for _, t := range a.Tags {
+			if !slices.Contains(tags, t) {
+				valid = false
+				break
+			}
+		}
+		if valid {
+			break
+		}
+	}
+
+	log.Printf("Weapon enchant\n%s [%s; %s]", processMod(a.Description), a.PointValue, a.Upgrade)
 	return nil
 }
 
-var armourEnchant = func() error {
+var armourAffix = func() error {
 	tags := []string{"armour"}
-	enchants, err := getEnchants(1, tags)
+	allAffixes, err := fetchAffixes("affix")
 	if err != nil {
 		return err
 	}
 
-	enchant := enchants[0]
-	log.Printf("Armour enchant\n%s [%s; %s]", enchant.Description, enchant.PointValue, enchant.Upgrade)
+	var a Affix
+	for {
+		a = randSelect(allAffixes)
+		valid := true
+		for _, t := range a.Tags {
+			if !slices.Contains(tags, t) {
+				valid = false
+				break
+			}
+		}
+		if valid {
+			break
+		}
+	}
+
+	log.Printf("Armour enchant\n%s [%s; %s]", processMod(a.Description), a.PointValue, a.Upgrade)
 	return nil
 }
 
@@ -217,40 +246,14 @@ var insight = func() error {
 	return nil
 }
 
-var gem = func() error {
-	tagP := promptui.Prompt{
-		Label:    "Soul gem tag",
-		Validate: validateGem,
-	}
-	tag, err := tagP.Run()
-	if err != nil {
-		return err
-	}
-
-	gems, err := fetchGenericEnchants("gem")
-	if err != nil {
-		return err
-	}
-
-	var chosen Enchant
-	for {
-		chosen = gems[rand.Intn(len(gems))]
-		if slices.Contains(chosen.Tags, tag) {
-			log.Printf("Gem affix: %s", processMod(chosen.Description))
-			return nil
-		}
-	}
-}
-
 var craft = func() error {
-	crafts, err := fetchGenericEnchants("craft")
+	allCrafts, err := fetchAffixes("craft")
 	if err != nil {
 		return err
 	}
 
-	chosen := crafts[rand.Intn(len(crafts))]
-	chosen.Description = processMod(chosen.Description)
-	log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
+	chosen := randSelect(allCrafts)
+	log.Printf("Crafted affix: %s (%spts - %s; %v)", processMod(chosen.Description), chosen.PointValue, chosen.Upgrade, chosen.Tags)
 	return nil
 }
 
@@ -267,17 +270,17 @@ var targetCraft = func() error {
 	affinities := strings.Split(affString, " ")
 	chosenAffinity := randSelect(affinities)
 
-	crafts, err := fetchGenericEnchants("craft")
+	allCrafts, err := fetchAffixes("craft")
 	if err != nil {
 		return err
 	}
 
-	var chosen Enchant
+	var chosen Affix
 	for {
-		chosen = crafts[rand.Intn(len(crafts))]
+		chosen = randSelect(allCrafts)
 		if slices.Contains(chosen.Tags, chosenAffinity) {
 			chosen.Description = processMod(chosen.Description)
-			log.Printf("Crafted mod: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
+			log.Printf("Crafted affix: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
 			return nil
 		}
 	}
@@ -305,7 +308,7 @@ var dmgUpgrade = func() error {
 	multiplier, _ := strconv.ParseFloat(multiString, 64)
 	currentDmg, _ := strconv.ParseFloat(dmgString, 64)
 	newDmg := currentDmg * multiplier
-	fmt.Printf("New damage dice: %s (if mod-based: %s + 5)", dmgToDice(newDmg), dmgToDice(newDmg-5))
+	fmt.Printf("New damage dice: %s (if mod-based: %s + 5) (average difference: %.0f)", dmgToDice(newDmg), dmgToDice(newDmg-5), math.Floor(newDmg-currentDmg))
 
 	return nil
 }

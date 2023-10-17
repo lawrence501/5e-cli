@@ -1,13 +1,13 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"math/rand"
 	"strings"
 
 	"github.com/manifoldco/promptui"
+	"golang.org/x/exp/slices"
 )
 
 var tome = func() error {
@@ -62,7 +62,7 @@ var wondrous = func() error {
 		return err
 	}
 
-	chosen := wondrous[rand.Intn(len(wondrous))]
+	chosen := randSelect(wondrous)
 	log.Printf("%s wondrous item\n%s: %s", rarity, chosen.Name, chosen.Description)
 	return nil
 }
@@ -90,7 +90,7 @@ var ring = func() error {
 		return err
 	}
 
-	chosen := rings[rand.Intn(len(rings))]
+	chosen := randSelect(rings)
 	var modDescriptions []string
 	modDescriptions = append(modDescriptions, chosen.Effects...)
 	modString := strings.Join(modDescriptions, "\n- ")
@@ -161,10 +161,12 @@ var tarot = func() error {
 		}
 	}
 
-	c, err := fetchTarot(cardIdx)
+	// c, err := fetchTarot(cardIdx)
+	cards, err := fetchGenerics("tarot")
 	if err != nil {
 		return err
 	}
+	c := cards[cardIdx]
 	log.Printf("Tarot card\n%s: %s", c.Name, c.Description)
 	return nil
 }
@@ -184,49 +186,12 @@ var relic = func() error {
 
 	chosen := options[rand.Intn(len(options))]
 	var modDescriptions []string
-	for _, m := range chosen.StartingMods {
+	for _, m := range chosen.StartingAffixes {
 		m.Description = processMod(m.Description)
 		modDescriptions = append(modDescriptions, m.Description)
 	}
 	modString := strings.Join(modDescriptions, "\n- ")
 	log.Printf("Relic\n%s (%s):\n- %s", chosen.Name, t, modString)
-	return nil
-}
-
-var body = func() error {
-	bodies, err := fetchBodies()
-	if err != nil {
-		return err
-	}
-
-	weight := ARMOUR_WEIGHTS[rand.Intn(len(ARMOUR_WEIGHTS))]
-	var options []Body
-	switch weight {
-	case "unarmoured":
-		options = bodies.Unarmoured
-	case "light":
-		options = bodies.Light
-	case "medium":
-		options = bodies.Medium
-	case "heavy":
-		options = bodies.Heavy
-	default:
-		return errors.New("Somehow rolled invalid body armour weight: " + weight)
-	}
-
-	chosen := options[rand.Intn(len(options))]
-	var mods []string
-	mods = append(mods, chosen.Mods...)
-	if len(chosen.Variables) > 0 {
-		chosenVar := chosen.Variables[rand.Intn(len(chosen.Variables))]
-		mods = append(mods, chosenVar.Mods...)
-		if len(chosenVar.Variables) > 0 {
-			mods = append(mods, chosenVar.Variables[rand.Intn(len(chosenVar.Variables))])
-		}
-	}
-	modString := strings.Join(mods, "\n- ")
-
-	log.Printf("Body armour\n%s (%s):\n- %s", chosen.Name, weight, modString)
 	return nil
 }
 
@@ -241,13 +206,32 @@ var magicItem = func() error {
 		tags = append(tags, "armour")
 	}
 
-	affixes, err := getEnchants(affixRoll, tags)
+	allAffixes, err := fetchAffixes("affix")
 	if err != nil {
 		return err
 	}
+
+	var affixes []Affix
+	for len(affixes) < affixRoll {
+		var a Affix
+		for {
+			a = randSelect(allAffixes)
+			valid := true
+			for _, t := range a.Tags {
+				if !slices.Contains(tags, t) {
+					valid = false
+					break
+				}
+			}
+			if valid {
+				break
+			}
+		}
+		a.Description = processMod(a.Description)
+		affixes = append(affixes, a)
+	}
 	var modDescriptions []string
 	for _, m := range affixes {
-		m.Description = processMod(m.Description)
 		modDescriptions = append(modDescriptions, fmt.Sprintf("%s [%s; %s]", m.Description, m.PointValue, m.Upgrade))
 	}
 
