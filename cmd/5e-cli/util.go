@@ -64,7 +64,7 @@ func positiveEncounter() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return processMod(randSelect(allEncounters.Positive)), nil
+	return processString(randSelect(allEncounters.Positive)), nil
 }
 
 func hostileEncounter(tag string) (string, error) {

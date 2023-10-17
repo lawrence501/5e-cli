@@ -21,7 +21,7 @@ var tome = func() error {
 		return err
 	}
 	chosen := tomes[rand.Intn(len(tomes))]
-	chosen.Description = processMod(chosen.Description)
+	chosen.Description = processString(chosen.Description)
 
 	log.Printf("Tome of %s - Can be applied to %s\nEffect: %s", chosen.Name, chosen.Target, chosen.Description)
 	return nil
@@ -128,7 +128,7 @@ var positiveReward = func() error {
 	}
 
 	chosen := positiveRewards[rand.Intn(len(positiveRewards))]
-	log.Printf("Positive encounter reward\n%s", processMod(chosen.Description))
+	log.Printf("Positive encounter reward\n%s", processString(chosen.Description))
 	return nil
 }
 
@@ -139,7 +139,7 @@ var shrine = func() error {
 	}
 
 	chosen := shrines[rand.Intn(len(shrines))]
-	log.Printf("Shrine of %s: %s", chosen.Name, processMod(chosen.Description))
+	log.Printf("Shrine of %s: %s", chosen.Name, processString(chosen.Description))
 	return nil
 }
 
@@ -187,7 +187,7 @@ var relic = func() error {
 	chosen := options[rand.Intn(len(options))]
 	var modDescriptions []string
 	for _, m := range chosen.StartingAffixes {
-		m.Description = processMod(m.Description)
+		m.Description = processString(m.Description)
 		modDescriptions = append(modDescriptions, m.Description)
 	}
 	modString := strings.Join(modDescriptions, "\n- ")
@@ -227,7 +227,7 @@ var magicItem = func() error {
 				break
 			}
 		}
-		a.Description = processMod(a.Description)
+		a.Description = processString(a.Description)
 		affixes = append(affixes, a)
 	}
 	var modDescriptions []string

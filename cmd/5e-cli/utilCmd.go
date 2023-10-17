@@ -50,7 +50,7 @@ var weaponAffix = func() error {
 		}
 	}
 
-	log.Printf("Weapon enchant\n%s [%s; %s]", processMod(a.Description), a.PointValue, a.Upgrade)
+	log.Printf("Weapon enchant\n%s [%s; %s]", processString(a.Description), a.PointValue, a.Upgrade)
 	return nil
 }
 
@@ -76,7 +76,7 @@ var armourAffix = func() error {
 		}
 	}
 
-	log.Printf("Armour enchant\n%s [%s; %s]", processMod(a.Description), a.PointValue, a.Upgrade)
+	log.Printf("Armour enchant\n%s [%s; %s]", processString(a.Description), a.PointValue, a.Upgrade)
 	return nil
 }
 
@@ -86,7 +86,7 @@ var glyph = func() error {
 		return err
 	}
 
-	chosen := paths[rand.Intn(len(paths))]
+	chosen := randSelect(paths)
 	tiers := chosen.Tiers
 	t1 := tiers[0]
 	hints := []string{}
@@ -101,7 +101,7 @@ var glyph = func() error {
 
 var upgradeRelic = func() error {
 	log.Println("Upgrade options:")
-	rolls := []int{rand.Intn(4), rand.Intn(4)}
+	rolls := []int{rand.Intn(4), rand.Intn(4), rand.Intn(4)}
 	for _, r := range rolls {
 		if r < 2 {
 			log.Println("- Upgrade existing mod")
@@ -120,30 +120,7 @@ var loot = func() error {
 		return err
 	}
 
-	lootablesP := promptui.Prompt{
-		Label:    "Number of lootable places in room",
-		Validate: validateInt,
-	}
-	lootables, err := lootablesP.Run()
-	if err != nil {
-		return err
-	}
-	lootableCount, err := strconv.Atoi(lootables)
-	if err != nil {
-		return err
-	}
-	lootableMap := map[int]int{}
-	for i := 1; i <= lootableCount; i++ {
-		lootableMap[i] = 0
-	}
-
-	for i := 0; i < rollsFound; i++ {
-		roll := rand.Intn(lootableCount) + 1
-		lootableMap[roll] = lootableMap[roll] + 1
-	}
-	for i := 1; i <= lootableCount; i++ {
-		log.Printf("Lootable %d: %d roll(s)", i, lootableMap[i])
-	}
+	log.Printf("Found %d loot roll(s)", rollsFound)
 	return nil
 }
 
@@ -165,17 +142,6 @@ var mutate = func() error {
 
 	chosen := randSelect(mutations)
 	log.Printf("Mutation\n%s: %s", chosen.Name, chosen.Description)
-	return nil
-}
-
-var challenge = func() error {
-	challenges, err := fetchSimpleGenerics("challenge")
-	if err != nil {
-		return err
-	}
-
-	chosen := challenges[rand.Intn(len(challenges))]
-	log.Printf("Challenge: %s", chosen)
 	return nil
 }
 
@@ -253,7 +219,7 @@ var craft = func() error {
 	}
 
 	chosen := randSelect(allCrafts)
-	log.Printf("Crafted affix: %s (%spts - %s; %v)", processMod(chosen.Description), chosen.PointValue, chosen.Upgrade, chosen.Tags)
+	log.Printf("Crafted affix: %s (%spts - %s; %v)", processString(chosen.Description), chosen.PointValue, chosen.Upgrade, chosen.Tags)
 	return nil
 }
 
@@ -279,7 +245,7 @@ var targetCraft = func() error {
 	for {
 		chosen = randSelect(allCrafts)
 		if slices.Contains(chosen.Tags, chosenAffinity) {
-			chosen.Description = processMod(chosen.Description)
+			chosen.Description = processString(chosen.Description)
 			log.Printf("Crafted affix: %s (%spts - %s; %v)", chosen.Description, chosen.PointValue, chosen.Upgrade, chosen.Tags)
 			return nil
 		}
@@ -334,10 +300,11 @@ var chaos = func() error {
 		mod = "AI-generated [https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx] from prompt: 'Design a homebrew $class archetype for Dungeons & Dragons 5th Edition themed around [https://www.randomlists.com/random-animals?show_images=false&dup=false&qty=1]s.'"
 	}
 
-	log.Printf("Chaotic modifier: %s", processMod(mod))
+	log.Printf("Chaotic modifier: %s", processString(mod))
 	return nil
 }
 
+// Default chance is 10%
 const FLARE_CHANCE = 10
 
 var combat = func() error {

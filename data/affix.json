@@ -1456,5 +1456,11 @@
         "pointValue": "1",
         "upgrade": "+4/1",
         "tags": ["weapon"]
+    },
+    {
+        "description": "+1% party crystal flare chance",
+        "pointValue": "4",
+        "upgrade": "+1/4",
+        "tags": ["weapon"]
     }
 ]

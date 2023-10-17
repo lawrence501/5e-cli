@@ -41,7 +41,7 @@ var SUBSTITUTION_MAP = map[string][]string{
 	"$follower":         FOLLOWERS,
 }
 
-func processMod(modString string) string {
+func processString(modString string) string {
 	// log.Printf("[DEBUG] modString: %s", modString)
 	matcher := regexp.MustCompile(`\$\w+`)
 	subs := matcher.FindAllString(modString, -1)
