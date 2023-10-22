@@ -2031,58 +2031,6 @@
             ]
         },
         {
-            "name": "Charhide Goblin Skin",
-            "startingAffixes": [
-                {
-                    "description": "+5 fire barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "+1 to saves vs debuffs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "+1d4 P dmg to adv wep atks",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. your weps gain the dual-wielding trait",
-                    "pointValue": "3",
-                    "upgrade": "+1 dmg with dual-wielding weps/1"
-                },
-                {
-                    "description": "2. your weps gain the finesse trait",
-                    "pointValue": "3",
-                    "upgrade": "+1 dmg with finesse weps/1"
-                },
-                {
-                    "description": "3. your weps gain the reach trait",
-                    "pointValue": "3",
-                    "upgrade": "+1 dmg with reach weps/1"
-                },
-                {
-                    "description": "4. +1 to your Shove maneuver DC when knocking prone",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "5. your weps gain the versatile (P) trait",
-                    "pointValue": "3",
-                    "upgrade": "+1 dmg with versatile weps/1"
-                },
-                {
-                    "description": "6. +5' sp while sneaking",
-                    "pointValue": "1",
-                    "upgrade": "+5'/1"
-                }
-            ]
-        },
-        {
             "name": "Warden's Mail",
             "startingAffixes": [
                 {
