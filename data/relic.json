@@ -3641,6 +3641,58 @@
                     "upgrade": "+10'/1"
                 }
             ]
+        },
+        {
+            "name": "The Agitated Winds",
+            "startingAffixes": [
+                {
+                    "description": "1/combat, when 2+ foes are adj to you, wind erupts from you, making a spell atk against all adj foes that deals 1d6 B dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "on B spell hit, target is pushed 5' away from you",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "+2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +4 minion HP",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "2. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. 1/combat per minion, when 2+ foes are adj to that minion, wind erupts from them and they make a spell atk against all adj foes that deals 1d8 B dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "4. on init, all foes within 60' are pushed 5' towards you",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "5. +1d4 B dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +5' push distances",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                }
+            ]
         }
     ]
 }
