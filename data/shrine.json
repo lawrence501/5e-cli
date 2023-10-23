@@ -1,27 +1,27 @@
 [
     {
         "name": "Cloning",
-        "description": "replace random mod with exact copy of another random mod. Item must be chosen first."
+        "description": "replace random affix with exact copy of another random affix. Item must be chosen first."
     },
     {
         "name": "Scourging",
-        "description": "add random negative mod, then min equivalent-value positive mod."
+        "description": "add random negative affix, then min equivalent-value positive affix."
     },
     {
         "name": "Combination",
-        "description": "the mods of 2 chosen items are randomly distributed across the 2 items, ignoring base limitations. each item then gains 1 random mod. Items must be chosen first."
+        "description": "the affixes of 2 chosen items are randomly distributed across the 2 items, ignoring base limitations. Items must be chosen first."
     },
     {
         "name": "Fate",
-        "description": "reroll a random mod. Item must be chosen first."
+        "description": "reroll a random affix, retaining the original affix's point value as the minimum point value for the new affix. Item must be chosen first."
     },
     {
         "name": "Empowerment",
-        "description": "randomly apply 1 upgrade point; if impossible, adds new random mod. Item must be chosen first."
+        "description": "randomly apply 1 upgrade point; if impossible, adds new random affix. Item must be chosen first."
     },
     {
         "name": "Enhancement",
-        "description": "Add new random mod"
+        "description": "Add new random affix"
     },
     {
         "name": "Attunement",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Negation",
-        "description": "Random mod is negated, resultant points are distributed randomly. Item must be chosen first."
+        "description": "Random affix is negated, resultant points are distributed randomly. Item must be chosen first."
     },
     {
         "name": "Brittleness",
@@ -41,6 +41,10 @@
     },
     {
         "name": "Experimentation",
-        "description": "A random mod evolves into its experimental form [prompt = 'Design a homebrew $class archetype for dungeons & dragons 5th edition inspired by a magic item with the following properties:']. The same mod will always evolve into the same effect. Item must be chosen first."
+        "description": "A random affix evolves into its experimental form [prompt = 'Design a homebrew $class archetype for dungeons & dragons 5th edition inspired by a magic item with the following properties:']. The same affix will always evolve into the same effect. Item must be chosen first."
+    },
+    {
+        "name": "Scouring",
+        "description": "A random affix is rerolled into a new crafted affix of a chosen Affinity, ignoring the point value of the original affix. Item must be chosen first."
     }
 ]
