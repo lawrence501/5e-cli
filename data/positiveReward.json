@@ -133,5 +133,8 @@
     },
     {
         "description": "Gain an equipment item with a Dream-like mod inspired by a random feature from $class (empowered = +1 adv on chosen feature)"
+    },
+    {
+        "description": "You gain a random dot point from a random feat (empowered = +1 adv on chosen feat)"
     }
 ]

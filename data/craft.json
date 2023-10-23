@@ -102,7 +102,7 @@
         "tags": ["spell"]
     },
     {
-        "description": "you can cast [random cantrip] at will, using INT, WIS, or CHA",
+        "description": "you can cast [random cantrip] at will, using any ability",
         "pointValue": "3",
         "upgrade": "+1 random cantrip/3",
         "tags": ["spell"]
