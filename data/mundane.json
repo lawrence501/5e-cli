@@ -276,6 +276,11 @@
             "Name": "Boots",
             "Description": "Boots slot",
             "Tags": ["armour"]
+        },
+        {
+            "Name": "Body Armour",
+            "Description": "Body slot",
+            "Tags": ["armour"]
         }
     ]
 }
