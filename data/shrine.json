@@ -46,5 +46,9 @@
     {
         "name": "Scouring",
         "description": "A random affix is rerolled into a new crafted affix of a chosen Affinity, ignoring the point value of the original affix. Item must be chosen first."
+    },
+    {
+        "name": "Customisation",
+        "description": "Adds a new crafted affix of a chosen Affinity."
     }
 ]
