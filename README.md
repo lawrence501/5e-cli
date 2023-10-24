@@ -54,13 +54,12 @@ Lawrence: 1400
 11. o5e/Pathfinder
 12. Reroll with disadv
 
-### Dream relic customisations
+### Dream relic inspiration options
 
-- Backstory
+- Class/subclass feature
+- Feat
 - Race
-- Any one of your feats
-- Any one of your current items
-- Any one of your glyph paths
+- Spell/maneuver
 
 ### Manual value cheatsheet
 
@@ -148,12 +147,6 @@ Shares condition immunity with frighten.
 
 A rattled creature cannot benefit from expertise dice and cannot take reactions.
 
-### Slowed
-
-Shares condition immunity with exhaustion.
-
-A slowed creature's speed is halved.
-
 ### Sluggish
 
 Shares condition immunity with exhaustion.
@@ -188,56 +181,14 @@ While riding your mount, your AC increases by 1.
 
 ## Ideas for next campaign/things to discuss
 
-- Remove amulets
-
-- New loot option: attunement-requiring magic items. Any that fit into an equipment slot already in use are reflavoured to be on another slot. Can only attune to 1 at a time. Use existing wondrous weightings of rarities, but pushed 1 up (making the 2% Artifacts). Obviously, this means they will be pretty powerful, and must therefore be high on the loot table
-
-- Replace hard doubled mods with min 3pts (or just use D4 system? min 3 -> min 2 -> min 1 for 1 affix, 2, and 3 respectively)
-
-- Change books such that they are modifiers on generic types of powers, eg. your sphere AoE powers are now lines with length of their diameter
-
-- Change crafting stones to be instant-use, but allow rollback (Shrines). Put them instead of the gold-replacements for commons on the wondrous/attunement rolls. Those slots give 1 shrine, actual crafting table slot gives 2.
-
-- Change myth cards into amulets, with set bonuses on combining the same set
-
-- Crystals: 
-    - Drop as a creature type, each starts at CR 1
-    - When a crystal is generated, its power is randomly chosen from the contained creature's powers (respecting cooldowns, etc)
-    - Combine a crystal with another of the same type to increase its CR by 1
-    - When a crystal is tiered up, you can choose to keep the existing creature (though it will gain no benefits from the tier up)
-    - Smash together 2 crystals to generate a new crystal of a type that a player is using (if anyone has none, can be anything)
-    - 10% chance each turn per player to "flare", using its power. Calc on combat start with script, don't tell players other than telling them when they flare
-    - The crystals count as the wearer's minions for the sake of their powers, but whenever they reference themselves, they affect the player instead
-
-- Replace res with barrier?
-    - Values increased by 3, so dmg res goes from 1 per 2pts to 2 per 1pt + single pt resistances go to 4 per pt. Single type res goes to 5 per pt, polarity res is 3 per pt.
-
 - Drop the Looking for Trouble journey activity, force all players to always choose at least 1 journey activity per day, and make the DC for them a static 18. This allows other journey activities to become possible as your character levels up, as you may not always be able to use your primary activity when the weather, etc. is bad for it.
     - Because of redistributing the negatives from weather, even a standardly-maxed activity should drop below 50% success (+5 ability, +5 prof at L13, -4 from weather results in +6 bonus, which is 45% success chance)
     - All players MUST take at least 1 skill prof for their highest ability on char creation
     - All journey activities score a sub fail on a roll of 2.
 
-- New ideas from Crucible:
-    - Interesting selling affixes in standard pool
-
-- Relics are not char bound, they are levelled up with gold like old days
-    - Can't downlevel, can only get resources back by completely selling (100% refund)
-    - Max level 6 (ie. 5 levels from base), all level costs = 100gp
-    - Can take to a diviner in any city to reveal all thematic mods + first 2 level outcomes for free
-    - 3x choice on lvl
-    - Start with 3x 1pt mods, rather than 2pts, to help non-relics compete
-    - 6 thematic mods per relic
-
 - Augment system - some sort of experience and gain on breakpoints? Have class feature-esque boosts in the pool, and maybe stuff that adds synergy between backstory pairs. Every 50xp?
 
-- Replace/remove belts now that journey activities are essentially loot slots
-
-- New dream mirror system
-    - On 1st mirror, get a random relic and choose a class feature, adding its mods to your pool (can only choose each feature once).
-    - On even mirrors, get a random mod from your pool added to you, with min point value equal to the number of affixes you now have
-    - On non-1st odd mirrors, choose a class feature, adding its mods to your pool (can only choose each feature once), then a random mod on you is chosen and you can either upgrade or reroll it
-
-- Document loot mechanics
+- Split group into 2? Less mechanical, simpler loot + other systems in new group? Just conversation, no logistics or plans.
 
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
