@@ -53,6 +53,6 @@
     },
     {
         "name": "Synergy",
-        "description": "Choose two items. A random affix from a random one of them is copied onto the other item. Items must be chosen first."
+        "description": "Choose two items. A random affix from a random one of them is copied onto the other item, at its lowest point value (ignoring polarity). Items must be chosen first."
     }
 ]
