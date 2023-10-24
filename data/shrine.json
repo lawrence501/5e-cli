@@ -50,5 +50,9 @@
     {
         "name": "Customisation",
         "description": "Adds a new crafted affix of a chosen Affinity."
+    },
+    {
+        "name": "Synergy",
+        "description": "Choose two items. A random affix from a random one of them is copied onto the other item. Items must be chosen first."
     }
 ]
