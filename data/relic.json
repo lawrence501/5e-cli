@@ -1871,6 +1871,110 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "Eviscerate",
+            "startingAffixes": [
+                {
+                    "description": "recharge 5+: on spell hit, blood erupts from the target and you make a spell atk against all foes adj to the target that deals 1d4 B dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "recharge 5+: your next dmging spell costs 1 higher spell slot lvl",
+                    "pointValue": "-2",
+                    "upgrade": "+1 and 3pts distributed/1"
+                },
+                {
+                    "description": "the blood eruption from this item has +5' AoE size",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +2 dmg with the blood eruption from this item",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. on hit with the blood eruption from this item, target is debilitated until end of their next turn",
+                    "pointValue": "4",
+                    "upgrade": "+1 spell AB/4"
+                },
+                {
+                    "description": "3. on hit with the blood eruption from this item, target gets 1 psn DoT, stacking until CON save",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. whenever one of your minions is caught in the area of the blood eruption from this item, it gains +4 global dmg until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "5. whenever one of your minions is caught in the area of the blood eruption from this item, it gains +4 wep dmg until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "6. whenever one of your minions is caught in the area of the blood eruption from this item, it gains +4 spell dmg until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                }
+            ]
+        },
+        {
+            "name": "Blazing Steel",
+            "startingAffixes": [
+                {
+                    "description": "you gain increased wep fire dmg equal to your bonus psy dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1 psy dmg/1"
+                },
+                {
+                    "description": "your wep base dmg is converted to fire",
+                    "pointValue": "1",
+                    "upgrade": "+1 wep fire dmg/1"
+                },
+                {
+                    "description": "on wep hit, your next fire hit deals +1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. any increased dmg taken you inflict is converted to increased fire dmg taken",
+                    "pointValue": "1",
+                    "upgrade": "+1 fire dmg/1"
+                },
+                {
+                    "description": "2. on wep hit, target gets 1 fire DoT, stacking until DEX save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. +1 wep fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. you gain increased fire DoT dmg equal to your bonus psy dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1 psy dmg/1"
+                },
+                {
+                    "description": "5. +2 melee dmg vs debuffed targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
