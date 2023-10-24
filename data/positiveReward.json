@@ -136,5 +136,8 @@
     },
     {
         "description": "You gain a random dot point from a random feat (empowered = +1 adv on chosen feat)"
+    },
+    {
+        "description": "A random slot on your equipment sheet is chosen, and all numerical values in that slot permanently gain a +1 bonus (ignoring polarity)."
     }
 ]
