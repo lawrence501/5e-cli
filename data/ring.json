@@ -470,6 +470,23 @@
             "effects": [
                 "While unarmoured, your base AC is equal to 15 + DEX mod (max 2). You can still wear a shield and gain this benefit."
             ]
+        },
+        {
+            "name": "Berserker Ring",
+            "effects": [
+                "Your max HP is increased by an amount equal to your level.",
+                "[CURSE] While you can see or hear at least one foe within 60', you have disadv on wep atks other than your main-hand wep.",
+                "[CURSE] When dmg'd, make DC 15 WIS save or go berserk. While berserk, you must use your action each round to take the Attack action against the creture nearest to you (break ties randomly). If you have remaining attacks after downing a target, you move to the next nearest creature and continue.",
+                "[CURSE] Your berserk state ends whenever you start your turn unable to see or hear any creatures within 60'."
+            ]
+        },
+        {
+            "name": "Ring of Lightning Bolts",
+            "effects": [
+                "The ring has 7 charges, 1d6 + 1 of which are recovered after a LR.",
+                "You can expend any number of charges to cast Lightning Bolt (DC 15). Each charge expended above 1 upcasts the spell 1 level.",
+                "If you expend the ring's last charge, roll a d20. On a 1, the ring crumbles into ashes and is destroyed."
+            ]
         }
     ],
     "very rare": [
@@ -955,6 +972,14 @@
                 "L11+: As a bonus action, you can transform the ring into a magical +1 dagger, or back into ring form.",
                 "L11+: As an action, you can cast each of the following spells 1/LR each: Alter Self, Invisibility, Knock, or Pass Without Trace."
             ]
+        },
+        {
+            "name": "Topaz Annihilator",
+            "effects": [
+                "Your weapon base dmg is converted to nec.",
+                "On wep killing blow, target is reduced to dust and can only be resurrected with True Resurrection or Wish.",
+                "1/LR, you can cast Disintegrate (DC 18)."
+            ]
         }
     ],
     "artifact": [
@@ -1087,7 +1112,7 @@
             ]
         },
         {
-            "name": "Sign of Broken Mirrors",
+            "name": "Ring of Broken Mirrors",
             "effects": [
                 "The sign is a sentient chaotic evil ring with 21 INT, 24 WIS, and 24 CHA. It has hearing and darkvision out to 120'. It comms telepathically with its wearer, and can speak/read/understand Abyssal and Common.",
                 "An insane Glabrezu demon named Ragazuu lives within the sign. The ring years to cause chaos. It learns its wearer's principles, then uses those ideals to encourage reckless action. It whispers ideas of revolution.",
