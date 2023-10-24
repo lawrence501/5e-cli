@@ -457,6 +457,19 @@
                 "Your speed is doubled.",
                 "Incoming opportunity attacks have disadvantage."
             ]
+        },
+        {
+            "name": "Stirring Scaled Ornament",
+            "effects": [
+                "You are imm to the charmed and frightened conditions.",
+                "Allies within 30' of you have adv on saves vs charm and fright."
+            ]
+        },
+        {
+            "name": "Medium Barrier Ring",
+            "effects": [
+                "While unarmoured, your base AC is equal to 15 + DEX mod (max 2). You can still wear a shield and gain this benefit."
+            ]
         }
     ],
     "very rare": [
@@ -1134,10 +1147,17 @@
         {
             "name": "Band of the Wanderer",
             "effects": [
-                "+1 AC.",
                 "[CURSE] Every month, your alignment shifts one grid space towards chaotic neutral, and you become more and more compelled to engage with and explore the most dangerous planes.",
                 "The band has 7 charges, 1d4 + 4 of which are recovered after a LR.",
                 "As an action, you can expend charges to cast one of the following spells (DC 17): Contact Other Plane (3 charges), Demiplane (6 charges), Gate (7 charges), Plane Shift (5 charges), or Teleportation Circle (3 charges)."
+            ]
+        },
+        {
+            "name": "Baba Yaga's Ring",
+            "effects": [
+                "You can swap this ring between visible or invisible at will as a free action.",
+                "The ring has 12 charges, all of which are recovered after a LR.",
+                "On melee wep hit, you can expend up to 3 of the loop's charges to deal an additional 1d8 force dmg per charge expended."
             ]
         }
     ]
