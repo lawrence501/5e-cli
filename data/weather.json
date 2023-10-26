@@ -103,6 +103,10 @@
     {
       "name": "Chaos Storm",
       "description": "At the start of each creature's turn in combat, they gain a random condition."
+    },
+    {
+      "name": "Blood Rain",
+      "description": "Whenever the party defeats all enemies in a hostile random encounter, a random one of the creatures from the encounter is resurrected and immediately takes an additional turn."
     }
   ]
 }
