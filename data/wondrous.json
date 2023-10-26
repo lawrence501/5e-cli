@@ -395,6 +395,10 @@
         {
             "name": "Skywing",
             "description": "Folding into a specially designed backpack, a skywing is part mechanical, part magical. The apparatus can be deployed as a bonus action and gives you a glide speed of 20', but reduces your walking speed by half. Gliding allows you to move horizontally 1 foot for every 1 foot it descends, falling if you move less than 5' each turn. In addition, you can spend an action to make a DEX check. On a success, you gain 5' of height. The DC of this check is set by the DM based on the weather conditions."
+        },
+        {
+            "name": "Jaunty Sea Anemone",
+            "description": "This tendrilled, brightly coloured sea creature is often mistaken for a plant, but it is very much a live animal capable of movement. On account of its magical nature, not only will it stick to almost any organic or inorganic surface, allowing it to be worn on the outside of a helmet at a jaunty angle, but it can also be trained to jump on non-verbal cues, adding depth to a performance. You gain an expertise die on Performance and, when the DM deems it appropriate, Persuasion checks."
         }
     ],
     "rare": [
