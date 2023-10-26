@@ -106,7 +106,7 @@
     },
     {
       "name": "Blood Rain",
-      "description": "Whenever the party defeats all enemies in a hostile random encounter, a random one of the creatures from the encounter is resurrected and immediately takes an additional turn."
+      "description": "Whenever the party defeats all enemies in a hostile random encounter, a random one of the creatures from the encounter is resurrected and immediately takes an additional turn. The encounter's rewards are empowered."
     }
   ]
 }
