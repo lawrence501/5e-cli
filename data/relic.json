@@ -2183,6 +2183,58 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "Dragonsong",
+            "startingAffixes": [
+                {
+                    "description": "+1 fire crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1d4 fire dmg to your hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on crit, unleash dragon fire in a 15' cone that only affects foes, making glyphic atks dealing 1d4 fire dmg (does not self-trigger)",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "2. +1 crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. +1 to your saves to end ongoing debuffs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. you also count as the dragon creature type",
+                    "pointValue": "1",
+                    "upgrade": "+4 persuasion vs dragons/1"
+                },
+                {
+                    "description": "5. on crit, unleash dragonfire in a 15' line that only affects foes, making glyphic atks dealing 1d4 fire dmg (does not self-trigger)",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "6. your glyphic powers have half duration and 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 multi and 3pts distributed/1"
+                }
+            ]
         }
     ],
     "armour": [
@@ -4107,6 +4159,58 @@
                     "description": "6. +1 incoming temp HP",
                     "pointValue": "1",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Barrier of the Turtle",
+            "startingAffixes": [
+                {
+                    "description": "+3 phys barrier",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "+2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 incoming healing",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever an instance of dmg only targets your barrier, it deals 2 less dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. -5' sp and 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-5' and 3pts distributed/1"
+                },
+                {
+                    "description": "3. on wep hit, recover 1 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "4. whenever an instance of dmg only targets your barrier, heal 2 HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. all active healing you receive is converted to temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1 incoming temp HP/1"
+                },
+                {
+                    "description": "6. react to convert incoming dmg to S",
+                    "pointValue": "1",
+                    "upgrade": "+5 S barrier/1"
                 }
             ]
         }
