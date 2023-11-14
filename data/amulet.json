@@ -1129,6 +1129,11 @@
             "ally": "Truvat",
             "effect": "+2 intimidation while non-trivially pretending to be someone else",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Varden",
+            "effect": "+2 persuasion when discussing a topic you know more facts about than the target",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1176,6 +1181,11 @@
             "ally": "Truvat",
             "effect": "on crit vs DoT'd target, all their DoTs tick 2 times",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Varden",
+            "effect": "on crit, grant ally within 60' a d6 ammo die that can be added to a dmg roll this combat",
+            "upgrade": "+2 die size"
           }
         ]
       },
@@ -1223,6 +1233,11 @@
             "ally": "Truvat",
             "effect": "+2 crit range vs creatures who have dmg'd your temp HP since your last turn",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Varden",
+            "effect": "when hit while you have temp HP, grant ally within 60' a d8 ammo die that can be added to a dmg roll this combat",
+            "upgrade": "+2 die size"
           }
         ]
       },
@@ -1270,6 +1285,11 @@
             "ally": "Truvat",
             "effect": "while bloodied, +2 crit dice",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Varden",
+            "effect": "on becoming bloodied, grant ally within 60' a d8 ammo die that can be added to a dmg roll this combat",
+            "upgrade": "+2 die size"
           }
         ]
       },
@@ -1317,6 +1337,11 @@
             "ally": "Truvat",
             "effect": "while healthy, +1 crit dice; while bloodied, +5 phys barrier",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Varden",
+            "effect": "while healthy, adj allies have +1 global dmg; while bloodied, adj allies have +3 dmg barrier",
+            "upgrade": "+2 die size"
           }
         ]
       },
@@ -1364,6 +1389,11 @@
             "ally": "Truvat",
             "effect": "+1 crit range with atks made as a reaction",
             "upgrade": "+1"
+          },
+          {
+            "ally": "Varden",
+            "effect": "on dealing dmg as a reaction, grant ally within 60' a d4 ammo die that can be added to a dmg roll this combat",
+            "upgrade": "+2 die size"
           }
         ]
       },
@@ -1411,6 +1441,11 @@
             "ally": "Truvat",
             "effect": "on crit, target has -4 global dmg vs non-you targets until end of their next turn",
             "upgrade": "+2"
+          },
+          {
+            "ally": "Varden",
+            "effect": "whenever an adj foe hits a creature other than you, grant ally within 60' a d8 ammo die that can be added to a dmg roll this combat",
+            "upgrade": "+2 die size"
           }
         ]
       },
@@ -1458,6 +1493,11 @@
             "ally": "Truvat",
             "effect": "on making 3+ hits in a single turn, trigger a wild magic surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
+          },
+          {
+            "ally": "Varden",
+            "effect": "on init, a random ally within 60' of you gains a random 2pt wep enchant until end of combat",
+            "upgrade": "+2"
           }
         ]
       },
@@ -1505,6 +1545,63 @@
             "ally": "Heath",
             "effect": "on making 3+ hits in a single turn, trigger a wild magic surge",
             "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
+          },
+          {
+            "ally": "Varden",
+            "effect": "on making 3+ hits in a single turn, grant ally within 60' a d4 ammo die that can be added to a dmg roll this combat",
+            "upgrade": "+2 die size"
+          }
+        ]
+      },
+      {
+        "name": "Varden's Invention",
+        "effect": "on init, grant ally within 60' a d10 ammo die that can be added to a dmg roll this combat",
+        "upgrade": "+2 to crafting creation checks",
+        "setBonuses": [
+          {
+            "ally": "Vidar, Shadow Spy",
+            "effect": "+2 persuasion when discussing a topic you know more facts about than the target",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Vidar, Assassin",
+            "effect": "allies holding your ammo die have +2 crit range and must expend it on crit",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Arndell",
+            "effect": "whenever an ally expends your ammo die, they gain +3 stackable temp HP",
+            "upgrade": "+2"
+          },
+          {
+            "ally": "Morric",
+            "effect": "whenever a bloodied ally expends your ammo die, the base dmg is increased by 10",
+            "upgrade": "+10"
+          },
+          {
+            "ally": "Clover",
+            "effect": "whenever a healthy ally expends your ammo die, the base dmg is increased by 8; whenever a bloodied ally expends your ammo die, they heal 2 HP",
+            "upgrade": "+8 and +2"
+          },
+          {
+            "ally": "Surge",
+            "effect": "whenever an ally expends your ammo die for dmg made as a reaction, the base dmg is increased by 10",
+            "upgrade": "+10"
+          },
+          {
+            "ally": "Petros",
+            "effect": "whenever an ally expends your ammo die, their target has -8 global dmg vs targets other than that ally until the end of their next turn",
+            "upgrade": "-8"
+          },
+          {
+            "ally": "Heath",
+            "effect": "whenever an ally expends your ammo die, they trigger a Wild Magic Surge",
+            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
+          },
+          {
+            "ally": "Truvat",
+            "effect": "whenever an ally expends your ammo die on a crit, it is added 2 additional times",
+            "upgrade": "+2"
           }
         ]
       }
