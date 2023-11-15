@@ -2287,6 +2287,110 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Battlemage's Endeavour",
+            "startingAffixes": [
+                {
+                    "description": "+1 melee wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1d4 cold dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1d4 light dmg to your melee wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1d4 cold dmg to your melee wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1d4 light dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +5' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "4. on sub melee wep hit, unleash a blast of lightning on the target, a spell atk that deals 1d4 light dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "5. +1 spell cold dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on hit, inflict 1 light DoT, stacking until DEX save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Lethal Blast",
+            "startingAffixes": [
+                {
+                    "description": "+3 wep dmg vs bloodied targets",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 wep dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "your wep dmg isn't dealt until just before the start of your next turn",
+                    "pointValue": "-1",
+                    "upgrade": "+1 wep dmg/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +2 wep dmg outside of your turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. while your wep dmg is delayed, its target has +1 non-phys dmg taken",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. while your wep dmg is delayed, its target has halved sp",
+                    "pointValue": "2",
+                    "upgrade": "creatures debuffed by you have +1 dmg taken/3"
+                },
+                {
+                    "description": "4. your base wep dmg is converted to cold",
+                    "pointValue": "1",
+                    "upgrade": "+1 cold dmg/1"
+                },
+                {
+                    "description": "5. all forms of increased dmg taken you inflict is converted to sluggish",
+                    "pointValue": "1",
+                    "upgrade": "creatures debuffed by you have -1 AC/4"
+                },
+                {
+                    "description": "6. on sub wep hit, target is staggered until end of your next turn",
+                    "pointValue": "4",
+                    "upgrade": "+1 wep AB vs debuffed targets/3"
+                }
+            ]
         }
     ],
     "armour": [
