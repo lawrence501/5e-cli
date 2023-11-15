@@ -37,7 +37,7 @@
     },
     {
         "name": "Brittleness",
-        "description": "Body armour gets -1 AC and random hard-tripled enchant added to its base item"
+        "description": "Body armour gets -1 AC and random hard-tripled affix added to its base item"
     },
     {
         "name": "Experimentation",
@@ -45,14 +45,18 @@
     },
     {
         "name": "Scouring",
-        "description": "A random affix is rerolled into a new crafted affix of a chosen Affinity, ignoring the point value of the original affix. Item must be chosen first."
+        "description": "A random affix is rerolled into a new crafted affix with the $affinity Affinity, ignoring the point value of the original affix. Item must be chosen first."
     },
     {
         "name": "Customisation",
-        "description": "Adds a new crafted affix of a chosen Affinity."
+        "description": "Adds a new crafted affix of the $affinity Affinity."
     },
     {
         "name": "Synergy",
         "description": "Choose two items. A random affix from a random one of them is copied onto the other item, at its lowest point value (ignoring polarity). Items must be chosen first."
+    },
+    {
+        "name": "Adventure",
+        "description": "A dormant, unknown affix of the $affinity Affinity is added to an item, with a minimum point value of 2. It is revealed and unlocked the next time you complete a random mission (chosen now)."
     }
 ]

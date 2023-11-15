@@ -806,3 +806,14 @@ var FOLLOWERS []string = []string{
 	"squire",
 	"torchbearer",
 }
+
+var AFFINITIES []string = []string{
+	"weapon",
+	"spell",
+	"dot",
+	"random dmg type",
+	"hp",
+	"debuff",
+	"minion",
+	"defence",
+}

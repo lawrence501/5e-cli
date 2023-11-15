@@ -479,6 +479,15 @@ var blessing = func() error {
 	return nil
 }
 
+var mission = func() error {
+	missions, err := fetchSimpleGenerics("mission")
+	if err != nil {
+		return err
+	}
+	fmt.Printf("Mission: %s", randSelect(missions).Description)
+	return nil
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil

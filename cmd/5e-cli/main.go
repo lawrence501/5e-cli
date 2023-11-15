@@ -77,6 +77,7 @@ var COMMAND_MAP = map[string]func() error{
 	"blessing":      blessing,
 	"mutate":        mutate,
 	"follower":      follower,
+	"mission":       mission,
 }
 
 func main() {

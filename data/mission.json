@@ -1,0 +1,50 @@
+[
+    {
+        "description": "Complete a combat with at least 1 hostile $creatureType monster"
+    },
+    {
+        "description": "Level up"
+    },
+    {
+        "description": "Roll the same number on each d20 during adv or disadv"
+    },
+    {
+        "description": "Break either the single-target or AoE dmg record"
+    },
+    {
+        "description": "Be rewarded during a positive random encounter"
+    },
+    {
+        "description": "Earn a blessing"
+    },
+    {
+        "description": "Score 2 KBs in the same combat"
+    },
+    {
+        "description": "Deal 100+ dmg or heal 50+ HP (to yourself or others) in a single turn"
+    },
+    {
+        "description": "Empty yourself of spell slots or exertion"
+    },
+    {
+        "description": "Level a relic"
+    },
+    {
+        "description": "Unlock a new ally bonus on an amulet"
+    },
+    {
+        "description": "Complete a combat on 2+ death save failures"
+    },
+    {
+        "description": "Earn a Boon"
+    },
+    {
+        "description": "Tarot-craft an item"
+    },
+    {
+        "description": "Tier-up a crystal"
+    },
+    {
+        "description": "Survive an exotic weather day"
+    }
+]
