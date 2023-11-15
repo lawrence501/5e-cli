@@ -592,3 +592,8 @@ var follower = func() error {
 	log.Printf("Follower: %s", randSelect(FOLLOWERS))
 	return nil
 }
+
+var affinity = func() error {
+	log.Printf("Affinity: %s", randSelect(AFFINITIES))
+	return nil
+}

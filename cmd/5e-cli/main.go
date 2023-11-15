@@ -78,6 +78,7 @@ var COMMAND_MAP = map[string]func() error{
 	"mutate":        mutate,
 	"follower":      follower,
 	"mission":       mission,
+	"affinity":      affinity,
 }
 
 func main() {

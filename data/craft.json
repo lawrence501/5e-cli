@@ -1026,6 +1026,12 @@
         "tags": ["weapon", "spell"]
     },
     {
+        "description": "+1 dmg with wep hits enhanced by a spell",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon", "spell"]
+    },
+    {
         "description": "+1 to saves vs disease",
         "pointValue": "1",
         "upgrade": "+1/1",
