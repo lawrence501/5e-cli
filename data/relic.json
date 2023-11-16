@@ -2391,6 +2391,110 @@
                     "upgrade": "+1 wep AB vs debuffed targets/3"
                 }
             ]
+        },
+        {
+            "name": "Eye of Mensis",
+            "startingAffixes": [
+                {
+                    "description": "+1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "your line AoEs have +1 to their DCs outside of their middle 5' (middle favours left in odd divisions)",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "+2 line AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 to your line AoE DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +15' darkvision",
+                    "pointValue": "1",
+                    "upgrade": "+10'/1"
+                },
+                {
+                    "description": "3. your line AoEs deal +3 dmg outside of their middle 5' (middle favours left in odd divisions)",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "4. +1d4 psy dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. while buffed, +1 to your saves to end ongoing debuffs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Scourge",
+            "startingAffixes": [
+                {
+                    "description": "+4 DoT dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "your DoTs from the same source no longer stack",
+                    "pointValue": "-3",
+                    "upgrade": "+1 DoT dmg/1"
+                },
+                {
+                    "description": "whenever you apply a debuff to a target, all foes adj to that target are also afflicted with that debuff",
+                    "pointValue": "2",
+                    "upgrade": "+2->1 DoT dmg vs targets adj to another creature affected by the same DoT/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. your spells that apply debuffs have their spell slot cost increased by 1 lvl; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 lvl and 4pts distributed/1"
+                },
+                {
+                    "description": "2. on debuffing a target, also give the target -1 global dmg while the debuff is active",
+                    "pointValue": "3",
+                    "upgrade": "-1/3"
+                },
+                {
+                    "description": "3. if your INT is 15+, +1 DoT dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on debuffing a target, also halve the target's sp while the debuff is active (doesn't stack)",
+                    "pointValue": "3",
+                    "upgrade": "+1 DoT dmg/1"
+                },
+                {
+                    "description": "5. on hit vs target debuffed by you, the debuff spreads to a foe adj to the target if possible",
+                    "pointValue": "1",
+                    "upgrade": "+1 global AB vs debuffed targets/4"
+                },
+                {
+                    "description": "6. on hit vs target debuffed by you, gain 2 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
