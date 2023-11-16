@@ -2528,7 +2528,7 @@
         ]
     },
     {
-        "name": "Predates [LAST]",
+        "name": "Predates",
         "description": "becoming an animalistic predator",
         "tiers": [
             "1. You gain +1 AC and either +3 DEX or +3 STR.",
@@ -2547,15 +2547,15 @@
         "name": "Processes Information",
         "description": "knowledge",
         "tiers": [
-            "1. Gain prof/+2 in 3 different knowledge skills of your choice.",
+            "1. Gain an expertise die in 3 different knowledge skills of your choice.",
             "2. You gain +2 INT.",
-            "3. You can access the ethereal plane from anywhere in the material plane. You have +2 to checks to navigate the ethereal plane.",
+            "3. You can shift between the material and ethereal planes at-will. You gain an expertise die in checks to navigate the ethereal plane.",
             "4. You gain +2 INT.",
-            "5. Unearth Knowledge: 1/SR; glyphic action; You can access the ethereal plane with such sophistication that you can ask the DM 1 yes-or-no question and get an answer. The DC for this varies but is typically 9.",
-            "6. Find the Undoing: 1/SR; glyphic action; Through observation and access to the ethereal plane, you determine the weaknesses, vulnerabilities, qualities, and mannerisms of a single creature. The DM should reveal the creature's CR, basic abilities, and any obvious weaknesses. All tasks you attempt that affect that creature (attack, save against, interact with, and so on) have double advantage.",
-            "7. Your enhanced mental abilities give you prof/+2 in both Dexterity and Wisdom saves.",
-            "8. Any time you would normally use your Dexterity modifier, you can use your Intelligence modifier instead. This includes Dexterity saves.",
-            "9. Gain +2 to all knowledge skills.",
+            "5. Unearth Knowledge: 1/SR; glyphic action; You can access the ethereal plane's essence with such sophistication that you can ask the DM 1 yes-or-no question and get an answer if you pass a relevant knowledge skill check. The DC for this varies based on how obscure the information is, but is typically 9.",
+            "6. Find the Undoing: 1/SR; glyphic action; Through observation and access to the ethereal plane's essence, you determine the weaknesses, vulnerabilities, qualities, and mannerisms of a single creature. The DM should reveal the creature's CR, weapon attacks, and any obvious weaknesses. All tasks you attempt that affect that creature (attack, save against, interact with, and so on) have double advantage.",
+            "7. Your enhanced mental abilities give you an expertise die in both Dexterity and Wisdom saves.",
+            "8. Any time you would normally use your Dexterity modifier for anything, you can use your Intelligence modifier instead.",
+            "9. Gain a d6 expertise die in all knowledge skills.",
             "10. You gain +3 INT."
         ]
     },
@@ -2563,30 +2563,30 @@
         "name": "Regenerates Tissue",
         "description": "regeneration",
         "tiers": [
-            "1. Regeneration: At-will; glyphic action; You restore 1d6 + 1 hit points. This is a DC 6 Medicine check. Each additional time you use this feature, the DC increases by 3. The DC resets to 6 after a long rest.",
-            "2. You are immune to disease and poisons from creatures of CR less than your level. When you make a saving throw to resist a higher-CR toxin, the save has double advantage.",
-            "3. Induce Regeneration: 1/LR; glyphic action; You cut a piece of your flesh free and apply it to another creature's wound. Your transplanted regenerating flesh restores 1d6 hit points to the creature. This is a DC 9 Medicine check.",
+            "1. Regeneration: At-will; glyphic action; You restore 1d6 + 1 hit points if you pass a DC 6 Medicine check. Each additional time you use this feature, the DC increases by 3. The DC resets to 6 after a long rest.",
+            "2. You are immune to disease and poisons from creatures of CR less than your level. When you make a saving throw to resist a higher-CR disease or poison, the save has double advantage.",
+            "3. Induce Regeneration: 1/LR; glyphic action; You cut a piece of your flesh free and apply it to another creature's wound. Your transplanted regenerating flesh restores 1d6 hit points to the creature if you pass a DC 9 Medicine check.",
             "4. Generate Carapace: 1/SR; glyphic action; The outer layers of your skin calcify, giving you +2 AC until it sheds after 10 minutes.",
-            "5. Greater Regeneration: 1/week; glyphic action; You restore 50% of your maximum hit points. This is a DC 6 Medicine check.",
-            "6. Your consciousness and knowledge are concentrated into a rhizome tendril that protrudes 7cm from the back of your neck. You function normally, although the seat of your consciousness is located in the rhizome, not your brain. This shift provides several benefits: Your mental saving throws have advantage; you can detach the rhizome as a bonus action and mentally and remotely control your body at 120' range; You can shift your point of view between the rhizome and your body (or vice versa) as a bonus action (but if you shift your point of view away from your body, your body falls limp until your attention 'returns'); If your body is slain and the rhizome escapes, it can take root and regrow you completely in 3 days. The rhizome seed, while detached from your body, is a mobile creature. As the seed, you have 6 HP, and you can inflict 1d4 + level piercing damage with a spike. You have 13 AC and 5' speed, though you can deploy a fluffy vegetable 'wing' to drift on strong winds. If the rhizome seed is destroyed while detached from your body, you die.",
+            "5. Greater Regeneration: 1/week; glyphic action; You restore 50% of your maximum hit points if you pass a DC 6 Medicine check.",
+            "6. Your consciousness and knowledge are concentrated into a rhizome tendril that protrudes 7cm from the back of your neck. You function normally, although the seat of your consciousness is located in the rhizome, not your brain. This shift provides several benefits: Your mental saving throws have advantage; you can detach the rhizome as a bonus action and mentally and remotely control your body at 120' range; You can shift your point of view between the rhizome and your body (or vice versa) as a bonus action (but if you shift your point of view away from your body, your body falls limp until your attention 'returns'); If your body is slain and the rhizome escapes, it can take root and regrow you completely in 3 days. The rhizome seed, while detached from your body, is a mobile creature. As the seed, you have 6 HP, and you can inflict 1d4 + level piercing damage with a spike. You have 13 AC and 5' speed, though you can deploy a fluffy vegetable 'wing' to drift on strong winds (granting you immunity to fall damage). If the rhizome seed is destroyed while detached from your body, you die.",
             "7. Your Regeneration feature's DC only increases by 1 on use.",
             "8. You are immune to disease and poisons from all creatures.",
             "9. You can now use your Induce Regeneration feature once per short rest.",
-            "10. Your can now use your Generate Carapace feature at-will, and it grants +3 AC instead of 2."
+            "10. Your Generate Carapace feature is now always active, and grants 1 additional AC."
         ]
     },
     {
-        "name": "Revels in Trickery",
+        "name": "Revels in Trickery [LAST]",
         "description": "trickery",
         "tiers": [
             "1. Ledgermain: At-will; glyphic action; You can perform small but seemingly impossible tricks. For example, you can make a small object in your hands disappear and move into a desired spot within reach (like your pocket). You can make someone believe that they have something in their posession that they do not (or vice versa). You can switch similar objects right in front of someone's eyes.",
             "2. You have advantage when you attack an adj creature that has already been attacked this round.",
             "3. Impersonate: 2/min; glyphic action; You alter your voice, posture, and mannerisms, whip together a disguise, and have advantage on attempts to impersonate someone else, whether it is a specific individual or a general role (such as a city guard).",
             "4. Gain an expertise die in your choice of either Persuasion and Performance, or Deception and Intimidation.",
-            "5. Poke and Run: 1/min; glyphic action; Impose disadvantage on an atk you are making against a creature with eyes. If the atk still hits, the creature has trouble seeing for the next hour, and you can move or attempt to hide as part of the same action. Tasks the creature performs that rely on sight (which is most tasks) have disadvantage during this period.",
+            "5. Poke and Run: 1/min; glyphic action; Impose disadvantage on an atk you are making against a creature with eyes. If the atk still hits, the creature has trouble seeing for the next hour, and you can move or attempt to hide as part of the same action. Tasks the creature performs that rely on sight (anything which would usually be affected by the blinded condition) have disadvantage during this period.",
             "6. Calm: 1/min; glyphic action; Through jokes, song, or other art, you prevent a foe from targeting anyone or anything with a hostile action for 1 round.",
-            "7. You gain an expertise die in Sleight of Hand checks to create simple traps, such as varieties of deadfalls and snares using natural objects from the environment. You can create a trap in a maximum of 1 minute. When you lay a trap, decide whether you want to hold the victim in place (a snare) or inflict damage (a deadfall). Next, attempt a Sleight of Hand check with DC 9 (for a snare) or a DC equal to 1.5 times the number of points of damage you want to inflict (for a deadfall). For example, if you want to inflict 8 points of damage, that is a DC of 12. The resulting damage also adds your level. On a success, you create your trap, which has a detection, disarm, and escape DC of 9. If you are proficient in Stealth or Deception, this DC increases to 12. If you have expertise, it increases to 15.",
-            "8. Fake-Out: 1/year; free action; You are not really hurt at all! Choose to either regain 50% of your maximum hit points, replenish 2 hit dice, remove a condition from yourself, or change a failed die result to a natural 20.",
+            "7. You gain an expertise die in Sleight of Hand checks to create simple traps, such as varieties of deadfalls and snares using natural objects from the environment. You can create a trap in a maximum of 1 minute. When you lay a trap, decide whether you want to hold the victim in place (a snare) or inflict damage (a deadfall). Next, attempt a Sleight of Hand check with DC 9 (for a snare) or a DC equal to 1.5 times the number of points of damage you want to inflict (for a deadfall). For example, if you want to inflict 8 points of damage, that is a DC of 12. The resulting damage also adds your level. On a success, you create your trap, which has a detection, disarm, and escape DC of 9. If you are proficient in Stealth or Deception, this DC increases to 12. If you have any expertise dice, it increases to 15.",
+            "8. Fake-Out: 1/year; free action; Choose to either regain 50% of your maximum hit points, replenish 2 hit dice, remove a debuff from yourself, or change a failed die result to a natural 20.",
             "9. You can now perform elaborate, complex tricks with your Ledgermain feature, so long as they don't involve any other creatures.",
             "10. T2's range increases from adjacent to 15'."
         ]
