@@ -266,5 +266,121 @@
     {
         "name": "Illusion of Normality",
         "description": "At the end of each long rest, you make a DC 15 CON save. On a success, you suppress the effects of all your mutations until your next long rest."
+    },
+    {
+        "name": "Concealed Mutation",
+        "description": "Your other mutations fade, appearing only when you have 3+ levels of Strife or are bloodied. This includes their effects."
+    },
+    {
+        "name": "Bloated Tongue",
+        "description": "Doesn't fit in your mouth, making speaking difficult. You have -2 to Persuasion and Deception checks."
+    },
+    {
+        "name": "Revival",
+        "description": "A missing body part, organ, or limb regenerates fully."
+    },
+    {
+        "name": "Spider Gland",
+        "description": "You can excrete 10' of rope at the end of each LR."
+    },
+    {
+        "name": "1000 Eyes",
+        "description": "They cover your body. -3 CHA and you cannot be surprised."
+    },
+    {
+        "name": "Second Face",
+        "description": "On your stomach. It can see and smell, but not hear or speak. While you are unarmoured, this grants you +2 to Perception checks for sight and smell."
+    },
+    {
+        "name": "Metal Skin",
+        "description": "Your skin is covered in metal plates. You cannot swim or wear armour. Your base AC is 18, with no DEX added."
+    },
+    {
+        "name": "Migratory Fingers",
+        "description": "Rearranged on hands, pointing in all directions. You cannot hold weapons."
+    },
+    {
+        "name": "Neck Pouch",
+        "description": "Can be inflated to become big and red."
+    },
+    {
+        "name": "Puny",
+        "description": "You shrivel like a raisin, shrinking 1 size category. -3 to all ability scores."
+    },
+    {
+        "name": "Cheerful",
+        "description": "Nothing can go wrong and everything will turn out for the best. This affects your attitude, and grants you a +2 bonus to saves against fear."
+    },
+    {
+        "name": "Frog Tongue",
+        "description": "Can be used as a natural weapon with the same stats as the Whip weapon. You can attack with it as a glyphic action."
+    },
+    {
+        "name": "Face Bubble",
+        "description": "Your eyes are protected by a clear dome across your face. You gain a +2 bonus to saves against blindness."
+    },
+    {
+        "name": "Glow Pockets",
+        "description": "Can glow as brightly as a candle at-will. This sheds 5' of bright light and a further 5' of dim."
+    },
+    {
+        "name": "Goat Horns",
+        "description": "Small and pointy."
+    },
+    {
+        "name": "Climber's Eye",
+        "description": "You gain a +4 bonus to survival checks to find climbing routes. You have the constant desire to be high up."
+    },
+    {
+        "name": "Elastic Face",
+        "description": "Your facial features slide around in wild animation as you talk."
+    },
+    {
+        "name": "Spell Tumour",
+        "description": "Gain a spell in a lump on your head. You gain a spell-triggering chaotic modifier."
+    },
+    {
+        "name": "Chameleon Eyes",
+        "description": "They bulge, and you can look in 2 directions at once, granting you a +2 bonus to Perception checks."
+    },
+    {
+        "name": "Pelican Mouth",
+        "description": "+2 to STR checks to carry creatures and objects that are smaller than you."
+    },
+    {
+        "name": "Detachable Tail",
+        "description": "Newt-like. It falls off whenever you become bloodied."
+    },
+    {
+        "name": "Suckers",
+        "description": "Your fingers end in suction cups. +2 to STR checks to lift objects."
+    },
+    {
+        "name": "Extra Cranial Lobes",
+        "description": "+3 INT."
+    },
+    {
+        "name": "Thick Skull",
+        "description": "-3 INT, +3 CON. You are immune to debilitation."
+    },
+    {
+        "name": "Oily",
+        "description": "All of your bodily fluids can be used as smelly oil. You can produce 1 flask per LR normally."
+    },
+    {
+        "name": "Tentacle Fingers",
+        "description": "Wiggly."
+    },
+    {
+        "name": "Strange Voice",
+        "description": "Something has gone awry with your vocal cords. Your voice sounds like Donald Duck's."
+    },
+    {
+        "name": "Spores",
+        "description": "Whenever you are reduced to 0 hit points, you coat a 30' radius in thick yellow spores, which reveals invisible creatures and objects unless an action is spent removing the spores."
+    },
+    {
+        "name": "Turtle Shell",
+        "description": "Base AC is 16 with no DEX added. You cannot wear armour or regular clothes. -3 DEX."
     }
 ]
