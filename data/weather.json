@@ -107,6 +107,10 @@
     {
       "name": "Blood Rain",
       "description": "Whenever the party defeats all enemies in a hostile random encounter, a random one of the creatures from the encounter is resurrected and immediately takes an additional turn. The encounter's rewards are empowered."
+    },
+    {
+      "name": "Growls Beyond the Fog",
+      "description": "All hostile random encounters are pooled into one massive combat, with each original combat staggered in waves. After the first wave, all adventurers are healed to full HP and initiative is rerolled for the second combat. Loot from a single combat is doubled and empowered."
     }
   ]
 }
