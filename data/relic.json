@@ -2651,6 +2651,58 @@
                     "upgrade": "+1/3"
                 }
             ]
+        },
+        {
+            "name": "Contempt for the Weak",
+            "startingAffixes": [
+                {
+                    "description": "1/turn, +1d4 force dmg to your basic wep atks vs bloodied, intelligent targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1d4 force dmg to your basic wep atks vs bloodied, unintelligent targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 force dmg with basic wep atks vs unintelligent targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. 1/rnd, when your minions hit a creature you hit during your last turn, you recover 1 exertion",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. 1/rnd, when multiple of your minions hit the same target in the same rnd, you recover 1 exertion",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. on non-basic maneuver hit, each of your minions atks the target, ignoring range, a wep atk dealing 1d4 S dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. as a bonus action, you can swap spaces with one of your minions within 60' of you",
+                    "pointValue": "1",
+                    "upgrade": "+5' minion sp/1"
+                },
+                {
+                    "description": "5. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 S dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
@@ -4731,6 +4783,58 @@
                     "description": "6. on wep hit, +2 dmg barrier for combat",
                     "pointValue": "2",
                     "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "The Knowing Skull",
+            "startingAffixes": [
+                {
+                    "description": "1/LR, you can cast the Daylight spell",
+                    "pointValue": "3",
+                    "upgrade": "+5' AoE sizes/3"
+                },
+                {
+                    "description": "-5 max HP",
+                    "pointValue": "-2",
+                    "upgrade": "-2 and 2pts distributed/1"
+                },
+                {
+                    "description": "+1 max hit dice",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +3 gold find",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "2. -1% chance for hostile random encounters",
+                    "pointValue": "1",
+                    "upgrade": "-1/1"
+                },
+                {
+                    "description": "3. you can cast Daylight from this item more times per LR by sacrificing 1 max HP each time",
+                    "pointValue": "2",
+                    "upgrade": "+3->2 max HP/1"
+                },
+                {
+                    "description": "4. whenever you find gold, you can sacrifice 1 max HP to find 5 additional gold",
+                    "pointValue": "1",
+                    "upgrade": "+5 gold/1"
+                },
+                {
+                    "description": "5. whenever you attempt to spend hit dice when you have none remaining, you can do so by sacrificing 1 max HP for each additional hit die you spend",
+                    "pointValue": "2",
+                    "upgrade": "+3->2 max HP/1"
+                },
+                {
+                    "description": "6. whenever you find a hostile random encounter, you can sacrifice 1 max HP to ignore it",
+                    "pointValue": "4",
+                    "upgrade": "+3->2 max HP/1"
                 }
             ]
         }
