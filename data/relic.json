@@ -2495,6 +2495,110 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Power of Torment",
+            "startingAffixes": [
+                {
+                    "description": "on P crit, recover 1 spell slot lvl",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 lvl'd spell dmg if you've hit with a cantrip since the start of your last turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot or +1 lvl/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. if you've recovered a spell slot since the start of your last turn, +4 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "2. when hit, +3 spell dmg until end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "3. +2 lvl'd spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on melee cantrip hit, +2 lvl'd spell dmg until the end of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. on init, recover 2 spell slot lvls",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 spell crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Fiendish Codex",
+            "startingAffixes": [
+                {
+                    "description": "+1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "1/SR: +6 force dmg vs healthy targets",
+                    "pointValue": "1",
+                    "upgrade": "+6/1"
+                },
+                {
+                    "description": "1/SR: on spell hit, target has +3 force dmg taken until end of your next turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1d4 force dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 force dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. your spell base dmg is converted to force",
+                    "pointValue": "1",
+                    "upgrade": "+1 force dmg/1"
+                },
+                {
+                    "description": "4. +1 to knowledge skill checks",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. on sub spell hit, fire a magical dart at the target, making a spell atk that deals 1d4 force dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "6. +1 spell AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ],
     "armour": [
