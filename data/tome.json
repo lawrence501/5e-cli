@@ -1469,7 +1469,7 @@
     {
         "name": "Keen Favour",
         "target": "powers that have multiple static minion summoning options",
-        "description": "The minions have +1 crit range, but the first minion option deals less dmg and have less max HP."
+        "description": "The minions have +1 crit range, but the first minion option deals less dmg and has less max HP."
     },
     {
         "name": "Powerful Favour",
@@ -2679,8 +2679,13 @@
         "description": "The power's cone areas deal substantially more dmg against creatures adj to their origins, and less dmg against creatures 30+' away from their origins."
     },
     {
-        "name": "Splintering [NEXT - heavy arrows]",
+        "name": "Splintering",
         "target": "powers with cone areas and a non-cooldown resource cost",
         "description": "On making a proj atk, the power is also used in the same direction. The power also has +1 to its debuff DCs and has its resource cost increased by 1 step."
+    },
+    {
+        "name": "Focused Eruption [NEXT - efficient draw]",
+        "target": "powers with cone areas",
+        "description": "The power's cone areas deal substantially more dmg but are smaller."
     }
 ]
