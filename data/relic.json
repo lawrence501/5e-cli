@@ -5045,6 +5045,110 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Vanguard",
+            "startingAffixes": [
+                {
+                    "description": "+2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+4 melee barrier",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "+1 passive regen",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever an instance of dmg only targets your barrier, it deals 2 less dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +5 melee barrier while healthy",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "3. +2 dmg barrier while acting on the orders on behalf of a city's leader",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +3 phys barrier",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. +5' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "6. whenever an instance of dmg only targets your barrier, heal 2 HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Pharaonic Barrier",
+            "startingAffixes": [
+                {
+                    "description": "1/combat, you can cast any cantrip known by allies within 60' of you",
+                    "pointValue": "3",
+                    "upgrade": "no cooldown -> +1 cantrip dmg/3 -> 1"
+                },
+                {
+                    "description": "whenever an exotic weather day starts, make a DC 15 WIS save",
+                    "pointValue": "0",
+                    "upgrade": "-1 DC/1"
+                },
+                {
+                    "description": "on passing this item's WIS save, you learn a random spell of your highest appropriate lvl for that day",
+                    "pointValue": "3",
+                    "upgrade": "+1 to WIS saves/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on failing this item's WIS save, you gain 1 lvl of strife; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. +1 cantrip dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on spell hit, target is pushed 5' away from you",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "5. whenever you would cast an ally's cantrip, you instead cast a random 1st-lvl spell",
+                    "pointValue": "2",
+                    "upgrade": "+1 lvl/2"
+                },
+                {
+                    "description": "6. +1 spell save DC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ]
 }
