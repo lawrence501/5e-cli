@@ -191,6 +191,13 @@
             "effects": [
                 "Your INT is 19."
             ]
+        },
+        {
+            "name": "Ring of Protection",
+            "effects": [
+                "+1 AC.",
+                "+1 to saves."
+            ]
         }
     ],
     "rare": [
@@ -227,7 +234,7 @@
             ]
         },
         {
-            "name": "Mind Loop",
+            "name": "Mind Ring",
             "effects": [
                 "Whenever you hit with a weapon attack, the attack deals 2d4 additional psychic damage.",
                 "Any creature that takes psychic damage from your weapon attacks must succeed on a DC 15 WIS save or had disadvantage on INT, WIS, and CHA saves for 1 minute, or until it passes a passive save."
@@ -486,6 +493,20 @@
                 "The ring has 7 charges, 1d6 + 1 of which are recovered after a LR.",
                 "You can expend any number of charges to cast Lightning Bolt (DC 15). Each charge expended above 1 upcasts the spell 1 level.",
                 "If you expend the ring's last charge, roll a d20. On a 1, the ring crumbles into ashes and is destroyed."
+            ]
+        },
+        {
+            "name": "Ring of Poison Resistance",
+            "effects": [
+                "You gain 50% resistance to psn dmg."
+            ]
+        },
+        {
+            "name": "Ring of Fear",
+            "effects": [
+                "The ring has 7 charges, 1d6 + 1 of which are recovered after a LR. If you expend the last charge, the ring has a 5% chance to crumble into ashes and be destroyed.",
+                "As an action, you can expend 1 charge to command another creature to flee or grovel, as per the Command spell (DC 15).",
+                "As an action, you can expend 2 charges to emit a 60' cone of amber light. Creatures in the cone make a DC 15 WIS save or are frightened of you for 1min, or until save. On each of their turns, they must either use their movement action to move away from you as far as possible, or become debilitated. They also can't take reactions."
             ]
         }
     ],
