@@ -2703,6 +2703,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "The Feasting Baron",
+            "startingAffixes": [
+                {
+                    "description": "your debuffs have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "creatures debuffed by you have +1 dmg taken",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "1/combat, on KB vs creature debuffed by you, unleash a nova of frozen steel against all adj foes, a wep atk dealing 1d10 cold dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. 1/combat, on cold wep hit, target is staggered for 1rnd",
+                    "pointValue": "2",
+                    "upgrade": "once per turn -> at-will/2"
+                },
+                {
+                    "description": "2. +1 debuff effectiveness",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "3. 1/LR, on KB, all foes within 60' are frightened until WIS save",
+                    "pointValue": "4",
+                    "upgrade": "once per SR -> combat -> turn -> at-will/4"
+                },
+                {
+                    "description": "4. +1 to CON saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "5. -5' sp while bloodied; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-5' and 2pts distributed/1"
+                },
+                {
+                    "description": "6. on sub hit, summon a bloody clone of yourself until combat ends, a CR 1/8 minion with the atk properties of your basic wep atks",
+                    "pointValue": "4",
+                    "upgrade": "+1 CR/4"
+                }
+            ]
         }
     ],
     "armour": [
@@ -4835,6 +4887,58 @@
                     "description": "6. whenever you find a hostile random encounter, you can sacrifice 1 max HP to ignore it",
                     "pointValue": "4",
                     "upgrade": "+3->2 max HP/1"
+                }
+            ]
+        },
+        {
+            "name": "Marching Plan",
+            "startingAffixes": [
+                {
+                    "description": "you and allies within 60' have +1 init",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+1 init",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 to WIS saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1% chance for exotic weather",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. hostile random encounters contain 1 additional enemy; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 4pts distributed/1"
+                },
+                {
+                    "description": "3. +1 to your basic maneuver DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 to saves vs being forcibly moved",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. while healthy, +2 init",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +3 dmg barrier vs creatures behind you in the turn tracker",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
                 }
             ]
         }
