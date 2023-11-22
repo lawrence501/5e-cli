@@ -58,5 +58,9 @@
     {
         "name": "Adventure",
         "description": "A dormant, unknown affix of the $affinity Affinity is added to an item, with a minimum point value of 2. It is revealed and unlocked the next time you complete a random mission (chosen now)."
+    },
+    {
+        "name": "Refinement",
+        "description": "A random affix is rerolled into a new crafted affix of an Affinity based on the rough Affinities of the original affix. The item must be chosen first."
     }
 ]
