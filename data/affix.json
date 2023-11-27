@@ -80,31 +80,31 @@
     {
         "description": "+1 spell save DC",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "+1 maneuver DC",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "+1 maneuver dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 exp gain",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": []
     },
     {
         "description": "+3 gold find",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": []
     },
     {
@@ -122,13 +122,13 @@
     {
         "description": "+1 to your ongoing debuff DCs",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "+4 NPC ally effectiveness",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+4/1",
         "tags": []
     },
     {
@@ -146,43 +146,43 @@
     {
         "description": "you may adjust your loot roll results by up to 1",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
         "description": "+1 investigation for finding loot",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
         "description": "+1 survival for harvesting monster parts",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
         "description": "+1 to knowledge skills",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": []
     },
     {
         "description": "+1 to concentration saves",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
         "description": "+2 wep dmg while adj to $partyMember",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+3 dmg barrier while adj to $partyMember",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {
@@ -194,13 +194,13 @@
     {
         "description": "+2 $skill while within a city's borders",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
         "description": "+2 wep dmg while within a city's borders",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -212,7 +212,7 @@
     {
         "description": "+3 wep dmg in $lightType",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["weapon"]
     },
     {
@@ -224,7 +224,7 @@
     {
         "description": "you can cast [random cantrip] at will, using any ability",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["weapon"]
     },
     {
@@ -236,13 +236,13 @@
     {
         "description": "+1 aura effectiveness",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "this item's prof requirement is reduced by 1 tier",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": []
     },
     {
@@ -254,7 +254,7 @@
     {
         "description": "+1 to checks for staying atop a mount",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
@@ -266,7 +266,7 @@
     {
         "description": "you are 1 size larger",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
@@ -284,13 +284,13 @@
     {
         "description": "+1 dmg with upgraded powers",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg while $healthStatus",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -314,7 +314,7 @@
     {
         "description": "+4 wep dmg during first round of combat",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+4/1",
         "tags": ["weapon"]
     },
     {
@@ -326,7 +326,7 @@
     {
         "description": "+1 stealth during combat",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
@@ -350,7 +350,7 @@
     {
         "description": "adj allies have +1 $hitForm dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -404,19 +404,19 @@
     {
         "description": "while buffed, +1 wep dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "while buffed, +2 dmg barrier",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
         "description": "+1 to medicine for stabilising",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
@@ -434,25 +434,25 @@
     {
         "description": "+1 to your lowest ability score",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": []
     },
     {
         "description": "+1 to checks to break objs/structs",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep AB",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "+1 outgoing healing",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -464,13 +464,13 @@
     {
         "description": "+4 wep dmg vs $creatureType creatures",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+4/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -488,37 +488,37 @@
     {
         "description": "+1 wep base dmg die size",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 DoT dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 AoE dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 $aoeShape AoE dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep crit range",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep crit dice",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {
@@ -542,7 +542,7 @@
     {
         "description": "+2 wep dmg vs $healthStatus targets",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -560,7 +560,7 @@
     {
         "description": "+1 $dmgPolarity dmg",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {
@@ -572,7 +572,7 @@
     {
         "description": "+2 wep dmg while shapeshifted",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -584,19 +584,19 @@
     {
         "description": "+1 to DCs to halve your dmg dealt",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "wep hits increase resulting concentration save DCs by 1",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {
         "description": "on wep miss, deal 1 true dmg to target",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -608,43 +608,43 @@
     {
         "description": "+2 wep dmg vs targets $sizeDifference than you",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep AB vs targets $sizeDifference than you",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep dmg while wearing $armourWeight body armour",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "on $hitForm hit, +1 $hitForm dmg until end of turn",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {
         "description": "+3 wep dmg vs diseased targets",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg vs cursed targets",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg vs marked targets",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -662,43 +662,43 @@
     {
         "description": "+2 outgoing healing on adj targets",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep dmg while holding a shield",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep AB while holding a shield",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "+1 dmg with $school spells",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+3 wep dmg vs $enemyArmourForm targets",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["weapon"]
     },
     {
         "description": "+3 wep dmg vs airborne targets",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg with height adv",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -710,13 +710,13 @@
     {
         "description": "+3 dmg with traps",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 DoT dmg while holding a shield",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -728,43 +728,43 @@
     {
         "description": "+2 dmg with limited features",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 item proc dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep dmg if you [have or haven't] taken dmg since your last turn",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 opp atk dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep dmg for each foe in 60'",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg vs targets who cannot sense any allies within 60'",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg while invisible",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -776,37 +776,37 @@
     {
         "description": "+2 wep dmg vs targets with temp HP",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 dmg from reactions",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+3 wep dmg while underwater",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg while flanking",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep AB while flanking",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["weapon"]
     },
     {
         "description": "+3 wep dmg vs mounted targets",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["weapon"]
     },
     {
@@ -818,19 +818,19 @@
     {
         "description": "+1 $hitForm AC",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
         "description": "+3 max HP",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {
         "description": "+1 incoming healing",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
@@ -848,13 +848,13 @@
     {
         "description": "+1 to saves vs $condition",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
         "description": "+1 to debuff saves",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
@@ -866,19 +866,19 @@
     {
         "description": "+1 passive regen",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "the effects of the Dodge action last 1 additional round",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "+1 dmg with $weaponClass weapons",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
@@ -896,13 +896,13 @@
     {
         "description": "+1 AB with $weaponClass weapons",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
         "description": "+1 crit range with $weaponClass weapons",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
@@ -914,7 +914,7 @@
     {
         "description": "+3 dmg thorns",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {
@@ -932,25 +932,25 @@
     {
         "description": "+1 dmg with $weaponHands weps",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
         "description": "+1 incoming temp HP",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
         "description": "+1 $rangeType dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 to instances of dmg made with a bonus action",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -968,43 +968,43 @@
     {
         "description": "+1 to $hitForm saves",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
         "description": "+1 to curse DCs",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["weapon"]
     },
     {
         "description": "+1 to saves vs curses",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
         "description": "+3 $rangeType thorns",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {
         "description": "+1 to checks and saves against being forcibly moved",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "+1 throwing AB",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
         "description": "+1 to saves to end ongoing debuffs",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
@@ -1028,43 +1028,43 @@
     {
         "description": "+1 healing from hit dice",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
         "description": "+1 max hit dice",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "+2 dmg with summoned weapons",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
         "description": "+1 to saves vs disease",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
         "description": "+1 to saves vs DoTs",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
         "description": "+1 to saves vs marks",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
         "description": "+3 $hitForm thorns",
         "pointValue": "1",
-        "upgrade": "2/1",
+        "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {
@@ -1094,25 +1094,25 @@
     {
         "description": "+2 wep dmg if you haven't displaced distance since start of your last turn",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 AC while $healthStatus",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
         "description": "on init roll, gain 4 temp HP",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+4/1",
         "tags": ["armour"]
     },
     {
         "description": "+2 $dmgType res",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
@@ -1124,7 +1124,7 @@
     {
         "description": "+2 wep dmg while you have temp HP",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -1136,31 +1136,31 @@
     {
         "description": "+1 $rangeType AC",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["armour"]
     },
     {
         "description": "+1 glyphic dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 opp atk AC while airborne",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "whenever you gain a buff, heal 1 HP",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["armour"]
     },
     {
         "description": "when downed, gain +1 global dmg until LR",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
@@ -1190,25 +1190,25 @@
     {
         "description": "with 2+ adj foes, +2 wep dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 AC vs $enemyArmourForm creatures",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "+1 AC vs mounted creatures",
         "pointValue": "3",
-        "upgrade": "1/3",
+        "upgrade": "+1/3",
         "tags": ["armour"]
     },
     {
         "description": "+1 $rangeType AB",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
@@ -1220,19 +1220,19 @@
     {
         "description": "+1 $rangeType crit dice",
         "pointValue": "2",
-        "upgrade": "1/2",
+        "upgrade": "+1/2",
         "tags": ["weapon"]
     },
     {
         "description": "+2 $hitForm dmg while you have a minion",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 minion dmg",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
@@ -1250,7 +1250,7 @@
     {
         "description": "+1 glyphic AB",
         "pointValue": "4",
-        "upgrade": "1/4",
+        "upgrade": "+1/4",
         "tags": ["weapon"]
     },
     {
@@ -1262,7 +1262,7 @@
     {
         "description": "+1 question when successfully learning creature stats",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
@@ -1286,19 +1286,19 @@
     {
         "description": "-5' run-up needed for long/high jump",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
         "description": "+2 to social checks in non-common languages",
         "pointValue": "2",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": []
     },
     {
         "description": "+1 to escape checks/saves",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
@@ -1316,25 +1316,25 @@
     {
         "description": "+1 dmg with $weaponTrait weps",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["armour"]
     },
     {
         "description": "on KB, gain 4 temp HP",
         "pointValue": "1",
-        "upgrade": "4/1",
+        "upgrade": "+4/1",
         "tags": ["weapon"]
     },
     {
         "description": "+1 wep AB vs $creatureType creatures",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
         "description": "+2 wep dmg vs targets [ahead or behind] you in turn tracker",
         "pointValue": "1",
-        "upgrade": "1/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
