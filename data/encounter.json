@@ -1,19 +1,9 @@
 {
     "hostile": [
         {
-            "name": "The Jabberwocky",
-            "id": 13,
-            "tags": []
-        },
-        {
-            "name": "The Sewer Walker",
-            "id": 18,
-            "tags": ["night"]
-        },
-        {
-            "name": "Test Humanoid",
+            "name": "Lizardfolk Druid",
             "id": 1,
-            "tags": ["humanoid"]
+            "tags": ["terrain"]
         }
     ],
     "positive": [
