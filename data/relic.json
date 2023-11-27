@@ -2859,6 +2859,58 @@
                     "upgrade": "+5' climb sp/3"
                 }
             ]
+        },
+        {
+            "name": "Mighty Leap",
+            "startingAffixes": [
+                {
+                    "description": "on wep hit, target's Sp is halved for 1rnd",
+                    "pointValue": "2",
+                    "upgrade": "+1 wep AB/4"
+                },
+                {
+                    "description": "whenever your wep powers fail to hit any creatures, recover 1 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 max exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "2. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. on wep hit vs debuffed target, you can expend 1 exertion to deal +5 base dmg",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "4. on wep hit, +1 wep dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 STR",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. before making a wep atk, you can reduce its AB by 1 to add 5 base dmg to it",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                }
+            ]
         }
     ],
     "armour": [
@@ -5199,6 +5251,58 @@
                     "description": "6. +1 spell save DC",
                     "pointValue": "4",
                     "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Ekhan's Trickery",
+            "startingAffixes": [
+                {
+                    "description": "when sub hit, electricity covers the ground adj to you for 1rnd. foes on the electric ground have +1 global dmg taken",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/4"
+                },
+                {
+                    "description": "+1d4 light dmg to your hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 incoming temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +5 light barrier",
+                    "pointValue": "5",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "2. when crit, triggering creature gains a random condi for 1rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1 rnd/4"
+                },
+                {
+                    "description": "3. +3 dmg barrier while you have temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "4. on block, gain 3 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. foes on the electric ground have +2 light dmg taken",
+                    "pointValue": "4",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +3 proj dmg vs bosses",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
                 }
             ]
         }
