@@ -134,13 +134,13 @@
     {
         "description": "+5' mounted sp",
         "pointValue": "1",
-        "upgrade": "5'/1",
+        "upgrade": "+5'/1",
         "tags": []
     },
     {
         "description": "+5' fly sp",
         "pointValue": "3",
-        "upgrade": "5'/3",
+        "upgrade": "+5'/3",
         "tags": []
     },
     {
@@ -248,7 +248,7 @@
     {
         "description": "+5' long/high jump distance",
         "pointValue": "1",
-        "upgrade": "5'/1",
+        "upgrade": "+5'/1",
         "tags": []
     },
     {
@@ -374,25 +374,25 @@
     {
         "description": "+10' swim sp",
         "pointValue": "1",
-        "upgrade": "5'/1",
+        "upgrade": "+5'/1",
         "tags": []
     },
     {
         "description": "+5' truesight",
         "pointValue": "2",
-        "upgrade": "5'/2",
+        "upgrade": "+5'/2",
         "tags": []
     },
     {
         "description": "+5' blindsight",
         "pointValue": "1",
-        "upgrade": "5'/1",
+        "upgrade": "+5'/1",
         "tags": []
     },
     {
         "description": "+5' to max range of your teleports",
         "pointValue": "1",
-        "upgrade": "5'/1",
+        "upgrade": "+5'/1",
         "tags": []
     },
     {
@@ -422,7 +422,7 @@
     {
         "description": "+5' burrow sp",
         "pointValue": "3",
-        "upgrade": "5'/3",
+        "upgrade": "+5'/3",
         "tags": []
     },
     {
@@ -554,7 +554,7 @@
     {
         "description": "+5' reach",
         "pointValue": "3",
-        "upgrade": "5'/3",
+        "upgrade": "+5'/3",
         "tags": ["weapon"]
     },
     {
@@ -656,7 +656,7 @@
     {
         "description": "+5' shove distance",
         "pointValue": "2",
-        "upgrade": "5'/2",
+        "upgrade": "+5'/2",
         "tags": ["weapon"]
     },
     {
@@ -1268,7 +1268,7 @@
     {
         "description": "+5' tremorsense",
         "pointValue": "1",
-        "upgrade": "5'/1",
+        "upgrade": "+5'/1",
         "tags": []
     },
     {
@@ -1280,7 +1280,7 @@
     {
         "description": "+5' climb sp",
         "pointValue": "2",
-        "upgrade": "5'/2",
+        "upgrade": "+5'/2",
         "tags": []
     },
     {
@@ -1310,7 +1310,7 @@
     {
         "description": "this item emits 5' bright light",
         "pointValue": "2",
-        "upgrade": "5'/2",
+        "upgrade": "+5'/2",
         "tags": []
     },
     {
