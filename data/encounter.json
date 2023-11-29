@@ -24,6 +24,11 @@
             "name": "Blinding Blizzard",
             "id": 5,
             "tags": ["night", "terrain", "exploration"]
+        },
+        {
+            "name": "Bridge of Sorrow",
+            "id": 6,
+            "tags": ["night", "terrain", "exploration"]
         }
     ],
     "positive": [
