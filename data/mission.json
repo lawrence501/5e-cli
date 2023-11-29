@@ -49,5 +49,8 @@
     },
     {
         "description": "Have a total of 30+ temporary hit points granted by you in the party at once"
+    },
+    {
+        "description": "Score 2 crits in the same turn"
     }
 ]
