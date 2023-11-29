@@ -1068,7 +1068,7 @@
                 {
                     "description": "2. 1/SR, on sub spell hit, adj foes are dazed until end of their next turn",
                     "pointValue": "4",
-                    "upgrade": "combat --> no cooldown --> normal hit/4"
+                    "upgrade": "combat --> recharge 6+ -> recharge 5+ --> no cooldown -> normal hit/4"
                 },
                 {
                     "description": "3. 1/turn, on healing an ally, heal 1 HP",
@@ -2909,6 +2909,58 @@
                     "description": "6. before making a wep atk, you can reduce its AB by 1 to add 5 base dmg to it",
                     "pointValue": "1",
                     "upgrade": "+5/1"
+                }
+            ]
+        },
+        {
+            "name": "Flame Shot",
+            "startingAffixes": [
+                {
+                    "description": "your base wep dmg is converted to fire",
+                    "pointValue": "1",
+                    "upgrade": "+1 fire wep dmg/1"
+                },
+                {
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+5' sp while you have a maneuver stance active",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 to DEX saves while you have a maneuver stance active",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. -2 wep dmg while flanking; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "3. +1 wep crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +5' wep AoE sizes",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "6. on wep hit vs debuffed target, inflict 1 fire DoT, stacking until CON save",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 }
             ]
         }
@@ -5303,6 +5355,58 @@
                     "description": "6. +3 proj dmg vs bosses",
                     "pointValue": "1",
                     "upgrade": "+2/1"
+                }
+            ]
+        },
+        {
+            "name": "Pages of Shadow",
+            "startingAffixes": [
+                {
+                    "description": "1/LR, as bonus, gain +7 dmg barrier for remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+7/1"
+                },
+                {
+                    "description": "your buffs on you have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 mutli/3"
+                },
+                {
+                    "description": "while buffed, darkness swirls around your body, a 5' pers area aura that deals 1 nec spell dmg to foes",
+                    "pointValue": "3",
+                    "upgrade": "+1 dmg/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on hit, +1 dmg barrier for remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. the barrier power from this item can now be used 1/SR",
+                    "pointValue": "1",
+                    "upgrade": "combat -> recharge 6+ -> recharge 5+ -> no cooldown/1"
+                },
+                {
+                    "description": "3. -4 minion HP; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-4 and 2pts distributed/1"
+                },
+                {
+                    "description": "4. your minions have +5 proj dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "5. while you are buffed, your minions have +3 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "6. 1/SR, as bonus, teleport up to 10'",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
                 }
             ]
         }
