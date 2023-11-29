@@ -19,6 +19,11 @@
             "name": "Acid Field",
             "id": 4,
             "tags": ["night", "terrain", "exploration"]
+        },
+        {
+            "name": "Blinding Blizzard",
+            "id": 5,
+            "tags": ["night", "terrain", "exploration"]
         }
     ],
     "positive": [
