@@ -40,6 +40,8 @@ var SUBSTITUTION_MAP = map[string][]string{
 	"$martialTradition": MARTIAL_TRADITIONS,
 	"$follower":         FOLLOWERS,
 	"$affinity":         AFFINITIES,
+	"$inactiveDm":       INACTIVE_DMS,
+	"$feat":             FEATS,
 }
 
 func processString(modString string) string {

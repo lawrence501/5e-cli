@@ -126,7 +126,7 @@
         "description": "Gain a $follower follower (empowered = +1 adv)"
     },
     {
-        "description": "Gain a loot roll on a random inactive DM's last campaign's loot table (empowered = +1 adv)"
+        "description": "Gain a loot roll on $inactiveDm's last campaign's loot table (empowered = +1 adv)"
     },
     {
         "description": "Seal a random affix on an item of your choice, removing it from its enchantment cluster and adding it to the base item (empowered = +1 adv)"
@@ -135,9 +135,12 @@
         "description": "Gain an equipment item with a Dream-like mod inspired by a random feature from $class (empowered = +1 adv on chosen feature)"
     },
     {
-        "description": "You gain a random dot point from a random feat (empowered = +1 adv on chosen feat)"
+        "description": "You gain a random dot point from the $feat feat (empowered = +1 adv on chosen feat)"
     },
     {
-        "description": "A random slot on your equipment sheet is chosen, and all numerical values in that slot permanently gain a +1 bonus (ignoring polarity)."
+        "description": "A random slot on your equipment sheet is chosen, and all numerical values in that slot permanently gain a +1 bonus (ignoring polarity) (empowered = adv on slot)"
+    },
+    {
+        "description": "The next time you complete a random mission (chosen now), gain an advantaged, Green loot roll (empowered = +1 colour)"
     }
 ]

@@ -817,3 +817,8 @@ var AFFINITIES []string = []string{
 	"minion",
 	"defence",
 }
+
+var INACTIVE_DMS []string = []string{
+	"Dekel",
+	"Bentley",
+}
