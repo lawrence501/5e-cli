@@ -2576,7 +2576,7 @@
         ]
     },
     {
-        "name": "Revels in Trickery [LAST]",
+        "name": "Revels in Trickery",
         "description": "trickery",
         "tiers": [
             "1. Ledgermain: At-will; glyphic action; You can perform small but seemingly impossible tricks. For example, you can make a small object in your hands disappear and move into a desired spot within reach (like your pocket). You can make someone believe that they have something in their posession that they do not (or vice versa). You can switch similar objects right in front of someone's eyes.",
@@ -2598,11 +2598,11 @@
             "1. You gain +1 to an ability score of your choice.",
             "2. You are skilled at keeping your evolved parts well kept, whether those parts are in your brain or your body. You have 1 additional maximum hit die.",
             "3. Thanks to your evolution, you gain an expertise die in Perception.",
-            "4. You gain +5' speed, an expertise die in Athletics for climbing and swimming, an expertise die in Acrobatics for balancing, and +5' jump distance.",
+            "4. You gain +5' speed, an expertise die in Athletics for climbing and swimming (this applies to Seek Shelter journey activities, but not Busk ones), an expertise die in Acrobatics for balancing (doesn't apply to journey activities), and +5' jump distance.",
             "5. You have 1 one-handed melee or ranged weapon of your choice built into your body. You have proficiency with this weapon. The weapon is concealed unless you wish to use it.",
             "6. Your new evolutions allow you to alter your body almost at will. Once per long rest, you can transfer 1 point between your ability scores.",
-            "7. Your new evolutions allow you to alter your body almost at will. Once per long rest, you can transfer up to 2 points between your ability scores in any combination.",
-            "8. You gain +1 AC, +1 to all attack rolls, and +2 to all ability scores.",
+            "7. Once per long rest, you can transfer up to 2 points between your ability scores in any combination.",
+            "8. You gain +1 AC, +1 global AB, and +2 to all ability scores.",
             "9. You gain +2 to an ability score of your choice.",
             "10. You have 3 additional maximum hit dice."
         ]
@@ -2612,10 +2612,10 @@
         "description": "interacting with spirits of the dead",
         "tiers": [
             "1. Question the Spirits: 2/min; glyphic action; You can call the spirit of a dead creature to you and petition it to answer a few questions (no more than 3 before the spirit fades). To do so is a two-step process, and calling the spirit is potentially the easiest step. First, you summon a spirit. You must have personally known the spirit when it was a living creature, or you must have an object that was owned by the spirit when it was a living creature and know the spirit's full name, or you must touch the physical remains of the creature. The spirit must be the essence of something that once lived in the Material Plane, and be free to join you. If the spirit responds, it can manifest as an insubstantial shade that answers for itself, if can inhabit an object or any remains you provide, or it can manifest as an invisible presence that you speak for. The spirit may not wish to answer your questions; the second step is persuading or convincing the spirit to help. The spirit only has knowledge it possessed in life.",
-            "2. A CR 2 spirit minion of a dead humanoid accompanies you and follows your instructions. The spirit must remain within 5' of you - if it moves further away, it fades away at the end of your following turn and cannot return until you take a long rest. The spirit accomplice exists partially out of phase (allowing it to move through walls). The spirit takes up residence in an object you designate, and it manifests as either an invisible presence or a ghostly shade. Your spirit accomplice has double proficiency in 1 knowledge skill the DM determines. The spirit is normally insubstantial, but you may spend a bonus action once per minute to make it corporeal and allow it to act as a combat creature. While corporeal, the spirit cannot move through objects or fly. A spirit remains corporeal for up to 10 minutes at a time, but fades back to being insubstantial if not actively engaged. If your spirit accomplice is destroyed, it reforms in 1d6 days, or you can attract a new spirit in 2d6 days.",
-            "3. Command the Dead: 1/min; glyphic action; You can command an undead creature of up to CR 3 within 30'. If you are successful, the target cannot attack you for 1 minute, during which time it follows your verbal commands if it can hear and understand you.",
+            "2. A CR 1 spirit minion of a dead humanoid accompanies you and follows your instructions. The spirit must remain within 5' of you - if it moves further away, it fades away at the end of your following turn and cannot return until you take a long rest. The spirit accomplice exists partially out of phase (allowing it to move through walls). The spirit takes up residence in an object you designate, and it manifests as either an invisible presence or a ghostly shade. Your spirit accomplice has double proficiency in 1 knowledge skill the DM determines. The spirit is normally insubstantial, but you may spend a bonus action once per minute to make it corporeal and allow it to act as a combat creature. While corporeal, the spirit cannot move through objects or fly. A spirit remains corporeal for up to 10 minutes at a time, but fades back to being insubstantial if not actively engaged. If your spirit accomplice is destroyed, it reforms in 1d6 days, or you can attract a new spirit in 2d6 days.",
+            "3. Command the Dead: 1/min; glyphic action; You can command an undead creature of up to CR 3 within 30' by making an attack against it that deals no damage. If the attack hits, the creature cannot target you offensively for 1 minute, during which time it follows your verbal commands if it can hear and understand you.",
             "4. At your command, your incorporeal spirit accomplice wraps itself around you until you wish for it to stop. The spirit automatically inflicts 1d10 minion necrotic damage to anyone who tries to touch you or strike you with a melee attack. While the wraith cloak is active, you have advantage on Stealth checks.",
-            "5. Call Dead Spirit: 1/week; glyphic action; At your touch, the remains of a creature dead no longer than 7 days appears as a manifest (and apparently physical) spirit. The raised spirit persists for up to 1 day (or less, if it accomplishes something important to it before then), after which the spirit fades away and cannot be returned again. The raised spirit remembers everything it knew in life and possesses its previous powers (though not necessarily its equipment). In addition, it gains the ability to become insubstantial as a bonus action for up to 1 minute at a time. The raised spirit is not beholden to you, and it does not need to remain near you to remain manifest.",
+            "5. Call Dead Spirit: 1/week; glyphic action; At your touch, the remains of a creature dead no longer than 7 days appears as a spirit. The raised spirit persists for up to 1 day (or less, if it accomplishes something important to it before then), after which the spirit fades away and cannot be returned again. The raised spirit remembers everything it knew in life and possesses its previous powers (though not necessarily its equipment). In addition, it gains the ability to become insubstantial as a bonus action for up to 1 minute at a time. The raised spirit is not beholden to you, and it does not need to remain near you to remain manifest.",
             "6. When your party kills a creature, if you choose, its spirit (if unprotected) is immediately pulled from its body. A portion of its soul energy infuses you, and you regain 1d6 hit points. Then the spirit is ferried to a special cell hidden in the afterlife. Only you know where the spirit is located, which means the spirit cannot be questioned, raised, or restored to life by any means unless you allow it.",
             "7. When you use your Command the Dead feature, you can command undead of up to CR 4.",
             "8. You can now use your Question the Spirits feature at-will.",
@@ -2624,19 +2624,19 @@
         ]
     },
     {
-        "name": "Slays Dragons",
+        "name": "Slays Dragons [LAST]",
         "description": "fighting large creatures",
         "tiers": [
             "1. You gain proficiency with greatswords and lances.",
-            "2. You inflict 1d4 additional poison damage with weapons. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage.",
-            "3. You have +2 to Knowledge checks related to Dragons of the Material Plane. You also gain proficiency in Draconic.",
+            "2. You inflict 1d4 additional poison damage with weapons. If the target is larger than you, you inflict 1d8 additional poison damage instead.",
+            "3. You gain an expertise die in Knowledge checks related to Dragons of the Material Plane (doesn't apply to journey activities). You also gain proficiency in Draconic.",
             "4. You are immune to effects that would charm, mesmerise, or otherwise influence your mind.",
-            "5. +4 AB with greatswords and lances.",
-            "6. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage.",
-            "7. You have +2 to Animal Handling checks to ride a mount.",
-            "8. You do not suffer the normal penalties of fatigue, except for death. While on 0 hit points, you can continue to take turns as normal, however all tasks you attempt have disadvantage.",
+            "5. You gain an expertise die in attacks with greatswords and lances.",
+            "6. The poison damage against larger creatures from T2 increases to 2d8.",
+            "7. You gain an expertise die in Animal Handling checks to avoid being dismounted.",
+            "8. You do not suffer the normal penalties of fatigue, except for death. While on 0 hit points, you can continue to take turns as normal, however all d20 rolls you attempt have disadvantage.",
             "9. Slayer: 2/min; free action; You inflict 1d8 additional base damage with a greatsword or lance.",
-            "10. When you inflict damage to creatures larger than you, you inflict 1d8 additional poison damage."
+            "10. The poison damage against lrger creatures from T2 increases to 3d8."
         ]
     },
     {
