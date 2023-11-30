@@ -156,7 +156,7 @@
         "tags": []
     },
     {
-        "description": "+1 survival for harvesting monster parts",
+        "description": "+1 survival for harvesting organs",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": []
@@ -342,9 +342,9 @@
         "tags": []
     },
     {
-        "description": "+1 monster part harvested if you had the only survival score above 13",
+        "description": "+1 organ harvested if you had the only survival score above 12",
         "pointValue": "3",
-        "upgrade": "+1 monster part/3",
+        "upgrade": "+1 organ/3",
         "tags": []
     },
     {
