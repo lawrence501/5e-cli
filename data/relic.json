@@ -2963,6 +2963,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "The Gladiator",
+            "startingAffixes": [
+                {
+                    "description": "+1 S DoT dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "on hit vs debuffed target, blind them for 1rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1 global AB vs debuffed targets/4"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on KB vs debuffed target, they explode in a nova of bone shrapnel, and you make glyphic atks against all foes adj to the corpse dealing 1d8 S dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "2. on wep hit, target gets 1 S DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. on wep hit vs debuffed target, they have their Sp halved for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1 global AB vs debuffed targets/4"
+                },
+                {
+                    "description": "4. creatures debuffed by you have +1 S dmg taken",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. while buffed, +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. while buffed, +5' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                }
+            ]
         }
     ],
     "armour": [
@@ -5407,6 +5459,58 @@
                     "description": "6. 1/SR, as bonus, teleport up to 10'",
                     "pointValue": "1",
                     "upgrade": "+5'/1"
+                }
+            ]
+        },
+        {
+            "name": "Unnatural Instinct",
+            "startingAffixes": [
+                {
+                    "description": "-1 to your highest ability score",
+                    "pointValue": "-4",
+                    "upgrade": "-1 and 5pts distributed/1"
+                },
+                {
+                    "description": "+2 to your lowest ability score",
+                    "pointValue": "4",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "you ignore cold res",
+                    "pointValue": "3",
+                    "upgrade": "+1 cold dmg/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 to debuff saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. ability score bonuses from your feats have no effect; 5pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "they grant -1 instead and 5pts distributed/1"
+                },
+                {
+                    "description": "3. +5' AoE sizes",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "4. +1 global AB for atks based on your lowest ability score",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "5. +1 glyphic dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 survival",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 }
             ]
         }
