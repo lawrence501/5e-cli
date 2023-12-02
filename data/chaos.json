@@ -192,7 +192,8 @@
         "On power use",
         "On level up",
         "When lunch arrives IRL",
-        "When you mutate"
+        "When you mutate",
+        "Each time someone in the party completes a specific mission (chosen now)"
     ],
     "target": [
         "yourself",
