@@ -2684,8 +2684,23 @@
         "description": "On making a proj atk, the power is also used in the same direction. The power also has +1 to its debuff DCs and has its resource cost increased by 1 step."
     },
     {
-        "name": "Focused Eruption [NEXT - efficient draw]",
+        "name": "Focused Eruption",
         "target": "powers with cone areas",
         "description": "The power's cone areas deal substantially more dmg but are smaller."
+    },
+    {
+        "name": "Heavy Power",
+        "target": "any power",
+        "description": "The power's cone areas deal massively more dmg, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Shoving Eruption",
+        "target": "powers with cone areas",
+        "description": "Whenever the power's cone areas hit, the target is pushed 10' away from the cone's origin."
+    },
+    {
+        "name": "Desperate Eruption [Multishot DONE]",
+        "target": "powers with cone areas and a non-cooldown resource cost",
+        "description": "The power can be used with no cost if you cannot afford its cost, but when you do so it can only target a single creature within its original area."
     }
 ]
