@@ -3015,6 +3015,58 @@
                     "upgrade": "+5'/2"
                 }
             ]
+        },
+        {
+            "name": "Iridescent Slayer",
+            "startingAffixes": [
+                {
+                    "description": "for each unique non-phys dmg type you have dealt since the start of your last turn, +1 spell dmg. dealing a new non-phys dmg type refreshes this duration",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 non-phys dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot OR +1 lvl/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 item proc dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1d4 cold dmg to spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 spell save DC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1d4 fire dmg to spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on turn start with an adj corpse, the corpse explodes and you make a spell atk against each foe adj to the corpse that deals 1d4 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                }
+            ]
         }
     ],
     "armour": [
