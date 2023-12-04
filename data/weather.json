@@ -111,6 +111,10 @@
     {
       "name": "Growls Beyond the Fog",
       "description": "All hostile random encounters are pooled into one massive combat, with each original combat staggered in waves. After the first wave, all adventurers are healed to full HP and initiative is rerolled for the second combat. Loot from a single combat is doubled and empowered."
+    },
+    {
+      "name": "Soul Tethers in the Air",
+      "description": "At the start of combat, all adventurers are tethered to each other, as are the monsters. Each side of the combat shares one massive hit point pool. Whenever a downed adventurer stabilises, they also recover 1 hit point."
     }
   ]
 }
