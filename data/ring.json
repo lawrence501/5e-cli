@@ -165,7 +165,7 @@
             ]
         },
         {
-            "name": "Slumbering Dragon-Touched Focus",
+            "name": "Slumbering Dragon-Touched Ring",
             "effects": [
                 "You have adv on init."
             ]
@@ -197,6 +197,19 @@
             "effects": [
                 "+1 AC.",
                 "+1 to saves."
+            ]
+        },
+        {
+            "name": "Pyroconverger",
+            "effects": [
+                "As an action, you can project a 10' cone of fire from the ring. Each creature in the area must make a DC 13 DEX save or take 4d6 fire, else half.",
+                "Whenever you use this action, roll a d10 and add the number of times you have used it since your last LR. If the total is 11+, the ring overheats and you take 4d6 fire, and you can't use the action again until LR."
+            ]
+        },
+        {
+            "name": "Slumbering Scaled Ring",
+            "effects": [
+                "You have adv on saves against the charmed and frightened conditions."
             ]
         }
     ],
@@ -995,11 +1008,20 @@
             ]
         },
         {
-            "name": "Topaz Annihilator",
+            "name": "Topaz Ring",
             "effects": [
                 "Your weapon base dmg is converted to nec.",
                 "On wep killing blow, target is reduced to dust and can only be resurrected with True Resurrection or Wish.",
                 "1/LR, you can cast Disintegrate (DC 18)."
+            ]
+        },
+        {
+            "name": "Luck Ring",
+            "effects": [
+                "+1 to saves.",
+                "1/LR, you can reroll any d20.",
+                "The ring has 1d4 - 1 charges when found, and these charges never replenish.",
+                "1/LR, as an action, you can expend 1 charge to cast Wish."
             ]
         }
     ],
