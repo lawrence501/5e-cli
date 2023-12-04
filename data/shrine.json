@@ -62,5 +62,9 @@
     {
         "name": "Refinement",
         "description": "A random affix is rerolled into a new crafted affix of an Affinity based on the rough Affinities of the original affix. The item must be chosen first."
+    },
+    {
+        "name": "Foresight",
+        "description": "Another shrine that requires item selection before its outcome is rolled is randomly chosen. That shrine can then be used, but the item does not need to be chosen first, so its effects can be attempted on different items."
     }
 ]
