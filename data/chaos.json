@@ -193,7 +193,8 @@
         "On level up",
         "When lunch arrives IRL",
         "When you mutate",
-        "Each time someone in the party completes a specific mission (chosen now)"
+        "Each time someone in the party completes a specific mission (chosen now)",
+        "On sidekick hit"
     ],
     "target": [
         "yourself",
