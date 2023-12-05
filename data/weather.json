@@ -106,7 +106,7 @@
     },
     {
       "name": "Blood Rain",
-      "description": "Whenever the party defeats all enemies in a hostile random encounter, a random one of the creatures from the encounter is resurrected and immediately takes an additional turn. The encounter's rewards are empowered."
+      "description": "Whenever the party defeats all enemies in a hostile random encounter, a random one of the creatures from the encounter is resurrected and immediately takes an additional turn. The encounter's rewards are empowered and always grant +1 reward."
     },
     {
       "name": "Growls Beyond the Fog",
@@ -115,6 +115,10 @@
     {
       "name": "Soul Tethers in the Air",
       "description": "At the start of combat, all adventurers are tethered to each other, as are the monsters. Each side of the combat shares one massive hit point pool. Whenever a downed adventurer stabilises, they also recover 1 hit point."
+    },
+    {
+      "name": "Floating Rifts",
+      "description": "At the end of combat, a sealed rift appears in the air. If the players touch it, it will open and a random creature from the combat emerges from it. This new combat's rewards are empowered and always grant +1 reward. The sealed rift disappears after 10mins."
     }
   ]
 }
