@@ -3067,6 +3067,58 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "The Martial Master",
+            "startingAffixes": [
+                {
+                    "description": "+2 wep dmg vs debuffed targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 wep crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "on wep hit, target's Sp is halved for 1rnd",
+                    "pointValue": "2",
+                    "upgrade": "+1 wep AB/4"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 sword crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +1 shield wep crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. 1/SR, on wep hit, target gets +1 dmg taken for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. 1/SR, on sword hit, target gets +1 dmg taken for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. 1/SR, on shield wep hit, target gets +1 dmg taken for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. on limited maneuver hit, remove 1 debuff of your choice from yourself",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ],
     "armour": [
@@ -5459,6 +5511,58 @@
                     "description": "6. on block, triggering creature gets -1 global AB for 1rnd",
                     "pointValue": "3",
                     "upgrade": "-1/3"
+                }
+            ]
+        },
+        {
+            "name": "Will of the Living",
+            "startingAffixes": [
+                {
+                    "description": "while buffed, +1 half-AC",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+1d4 force dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 1st-level spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot OR +1 lvl/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 nec dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 force dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 nec DoT dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. your B dmg is converted to force",
+                    "pointValue": "1",
+                    "upgrade": "+1 force dmg/1"
+                },
+                {
+                    "description": "5. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +5 force barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
                 }
             ]
         }
