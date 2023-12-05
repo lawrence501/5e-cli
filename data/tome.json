@@ -2699,8 +2699,69 @@
         "description": "Whenever the power's cone areas hit, the target is pushed 10' away from the cone's origin."
     },
     {
-        "name": "Desperate Eruption [Multishot DONE]",
+        "name": "Desperate Eruption",
         "target": "powers with cone areas and a non-cooldown resource cost",
         "description": "The power can be used with no cost if you cannot afford its cost, but when you do so it can only target a single creature within its original area."
+    },
+    {
+        "name": "Volleying",
+        "target": "powers that fire a single projectile",
+        "description": "The power's proj is converted into a 15'-wide line with a length equal to the proj's range.",
+        "meta": "Runebolt"
+    },
+    {
+        "name": "Accurate Fanning",
+        "target": "powers that fire a single projectile and deal damage",
+        "description": "The power's proj is converted into a cone with length equal to the original proj's range and has +1 Accuracy, but deals less dmg."
+    },
+    {
+        "name": "Infused Volleying",
+        "target": "powers that fire a single projectile",
+        "description": "While in a pers area, the power's proj is converted into a 25'-wide line with a length equal to the original proj's range."
+    },
+    {
+        "name": "Prismatic Recovery",
+        "target": "powers with multiple damage type options and a non-cooldown resource cost",
+        "description": "Whenever the power hits with its first dmg type option, you heal a slight amount of HP. With its second option, you gain temp HP. With its third option, you recover 1 unit of its resource cost."
+    },
+    {
+        "name": "Dedication",
+        "target": "powers with a non-cooldown resource cost and an Accuracy component",
+        "description": "If the last 3 powers you used were the power, the power ignores dmg res and immunity, deals barely more dmg, heals you for barely any HP, grants you a slight amount of temp HP, and recovers 1 unit of its resource cost. Additionally, the power has -1 Accuracy."
+    },
+    {
+        "name": "Infusion",
+        "target": "powers that fire projectiles",
+        "description": "Whenever the power's projs pass through a pers area, they come out dealing substantially more dmg and with +1 Accuracy. Additionally, the power's usage time is increased by 1 step."
+    },
+    {
+        "name": "Supported Force",
+        "target": "any power",
+        "description": "The power deals additional $physType dmg while you are adj to another player character."
+    },
+    {
+        "name": "Runecrafting",
+        "target": "powers with a non-cooldown resource cost that fire projectiles",
+        "description": "If you don't have an active runestone, instead of firing projs, the power lays a tiny runestone on an unoccupied space you can see within the original proj's range. If you already have an active runestone, the power's projs are fired from the runestone instead of you (using the stone's LoS) and deal massively more dmg with +1 Accuracy. At the end of combat, the runestone expires and you lose 1 unit of the power's resource cost."
+    },
+    {
+        "name": "Infused Projection",
+        "target": "powers that summon entities that can deal your damage remotely",
+        "description": "1/rnd, when you use the power while buffed, all buffs on you are consumed to give the summoned entity substantially more dmg and increase its reach by 5' while it is dealing your dmg."
+    },
+    {
+        "name": "Channeled Projection",
+        "target": "powers that require concentration",
+        "description": "On turn start while concentrating on the power, your nearest summoned entity that can deal your damage remotely gains increased dmg for its next activation."
+    },
+    {
+        "name": "Detonating Missiles",
+        "target": "powers that fire projectiles",
+        "description": "Whenever the power's projs hit either a creature, obj, or structure, they explode, making a spell atk against all foes adj to the collision point (other than a hit creature) that deals 1d4 dmg of the proj's base type."
+    },
+    {
+        "name": "Infused Explosions [NEXT - arcane restoration]",
+        "target": "powers with sphere areas",
+        "description": "The power's sphere areas have more area if you have barrier specifically for their base dmg types."
     }
 ]
