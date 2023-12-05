@@ -3015,6 +3015,58 @@
                     "upgrade": "+1 dmg/1"
                 }
             ]
+        },
+        {
+            "name": "Call of the Wild",
+            "startingAffixes": [
+                {
+                    "description": "+2 outgoing healing",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "-8 outgoing healing to undead",
+                    "pointValue": "-2",
+                    "upgrade": "-4/1"
+                },
+                {
+                    "description": "if your INT is 15+, +3 outgoing healing",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. if your INT is 15+, +1 to WIS saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "2. +1 to WIS saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "3. +1 incoming healing",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. -1 spell dmg; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "5. on SR, recover 2 spell slot lvls",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. if your INT is 15+, +1 incoming healing",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
@@ -5355,6 +5407,58 @@
                     "description": "6. +1 survival",
                     "pointValue": "1",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Vulpes",
+            "startingAffixes": [
+                {
+                    "description": "1/LR, on hit vs debuffed target, they can't use limited features for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "short rest -> combat -> recharge 6+ -> recharge 5+ -> no cooldown/4"
+                },
+                {
+                    "description": "+4 AoE dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "+4 spell dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. -1 wep dmg; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. on block, triggering creature gets -2 global dmg for 1rnd",
+                    "pointValue": "2",
+                    "upgrade": "-1/1"
+                },
+                {
+                    "description": "3. you gain the beast creature type",
+                    "pointValue": "1",
+                    "upgrade": "+1 animal handling/1"
+                },
+                {
+                    "description": "4. +1 animal handling",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. react to change incoming wep dmg into spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+4 spell dmg barrier/1"
+                },
+                {
+                    "description": "6. on block, triggering creature gets -1 global AB for 1rnd",
+                    "pointValue": "3",
+                    "upgrade": "-1/3"
                 }
             ]
         }
