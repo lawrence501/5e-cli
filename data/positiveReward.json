@@ -142,5 +142,8 @@
     },
     {
         "description": "The next time you complete a random mission (chosen now), gain an advantaged, Green loot roll (empowered = +1 colour)"
+    },
+    {
+        "description": "Gain a Journey Boon (empowered = adv on Boon type)"
     }
 ]
