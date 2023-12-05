@@ -211,6 +211,13 @@
             "effects": [
                 "You have adv on saves against the charmed and frightened conditions."
             ]
+        },
+        {
+            "name": "Living Ring",
+            "effects": [
+                "[CURSE] When you put the ring on, tendrils sprout from it and burrow into your finger from the ring's inner side. You cannot remove the ring willingly.",
+                "You gain double proficiency in Sleight of Hand."
+            ]
         }
     ],
     "rare": [
@@ -521,6 +528,12 @@
                 "As an action, you can expend 1 charge to command another creature to flee or grovel, as per the Command spell (DC 15).",
                 "As an action, you can expend 2 charges to emit a 60' cone of amber light. Creatures in the cone make a DC 15 WIS save or are frightened of you for 1min, or until save. On each of their turns, they must either use their movement action to move away from you as far as possible, or become debilitated. They also can't take reactions."
             ]
+        },
+        {
+            "name": "Ring of Hill Giant Strength",
+            "effects": [
+                "You STR is always at least 21."
+            ]
         }
     ],
     "very rare": [
@@ -792,6 +805,12 @@
             "effects": [
                 "+2 INT."
             ]
+        },
+        {
+            "name": "+3 Ring of the War Mage",
+            "effects": [
+                "+3 spell AB."
+            ]
         }
     ],
     "legendary": [
@@ -894,7 +913,7 @@
             ]
         },
         {
-            "name": "P'all's Beholder Stone",
+            "name": "P'all's Beholder Ring",
             "effects": [
                 "You gain 120' of darkvision, which also penetrates magical darkness.",
                 "The stone has 10 charges, 1d6 + 3 of which are recovered after a long rest.",
@@ -1145,9 +1164,9 @@
             ]
         },
         {
-            "name": "Mighty Sign of Leuk-o",
+            "name": "Mighty Ring of Librus",
             "effects": [
-                "As a free action 1/turn, you can shapeshift into a Mighty Servant of Leuk-o (https://5e.tools/bestiary.html#mighty%20servant%20of%20leuk-o_tce).",
+                "As a free action 1/turn, you can shapeshift into a Mighty Servant of Librus (https://5e.tools/bestiary.html#mighty%20servant%20of%20leuk-o_tce).",
                 "Two creatures can be attuned to the sign at once, but only one of them can be shapeshifted with it at a time.",
                 "[CURSE] If a creature shapeshifted into the Mighty Servant loses half the form's HP, each creature attuned to the sign must make a DC 20 WIS save or be charmed for 24hrs. When charmed in this way, a creature goes on a destructive spree, seeking to destroy structures and atk any unattuned creatures within sight, starting with those threatening the Mighty Servant form.",
                 "There is a hidden self-destruction code for the sign (DM knows). If 2 creatures attuned to it spend their actions for 3 consecutive turns thinking about the code while touching the ring, it explodes. All creatures within 100' of the ring must make a DC 25 DEX save. On a fail, a creature takes 25d6 force, 25d6 light, and 25d6 thunder dmg, or half as much on a succ. This deals triple dmg to objs and structs. The attuned creatures are both killed instantly and their corpses evaporate.",
