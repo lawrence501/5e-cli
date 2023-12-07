@@ -3119,6 +3119,58 @@
                     "upgrade": "+1/4"
                 }
             ]
+        },
+        {
+            "name": "Reputation",
+            "startingAffixes": [
+                {
+                    "description": "1/SR, after your 4th sub hit in a combat, your spells cost 2 less spell slot lvls (min 1) for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "after your 4th sub hit in a combat, your dmg ignores res and imm for the remainder of combat",
+                    "pointValue": "3",
+                    "upgrade": "+1 spell save DC/4"
+                },
+                {
+                    "description": "after your 4th sub hit in a combat, your hits deal +1d8 dmg of the type your allies dealt the most of since your last turn for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. your B spell hits deal +1d4 dmg of the type your allies dealt the most of since your last turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 spell save DC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. 1/SR, after your 4th sub hit in a combat, +6 spell dmg for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+6 dmg/1"
+                },
+                {
+                    "description": "4. on spell hit, your spells cost 1 less spell slot lvl (min 1) until the end of your next turn",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "5. +1 spell AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. 1/LR, after your 4th sub hit in a combat, +2 spell save DC for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "+1 DC/2"
+                }
+            ]
         }
     ],
     "armour": [
@@ -5563,6 +5615,58 @@
                     "description": "6. +5 force barrier",
                     "pointValue": "1",
                     "upgrade": "+5/1"
+                }
+            ]
+        },
+        {
+            "name": "The Chronomancer",
+            "startingAffixes": [
+                {
+                    "description": "you gain prof with shields and shield weps",
+                    "pointValue": "3",
+                    "upgrade": "+1 wep AC while holding a shield/4"
+                },
+                {
+                    "description": "1/combat, on debuffing a creature, they are also sluggish for the same duration",
+                    "pointValue": "2",
+                    "upgrade": "+1 to your debuff DCs/4"
+                },
+                {
+                    "description": "+2 dmg with summoned entities that deal your dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever your summoned entities deal your dmg, they deal -2 dmg for the next activation; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. 1/combat, as a bonus action, you can destroy all of your summoned entities that deal your dmg, making a spell atk against all foes adj to the corpses that deals 2d8 psy dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on psy spell hit, the target loses 2 HP at the start of your next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. recharge 6+: as a bonus action, you can destroy all of your summoned entities that deal your dmg to confuse all foes adj to the corpse until INT save",
+                    "pointValue": "2",
+                    "upgrade": "recharge 5+ -> no cooldown/2"
+                },
+                {
+                    "description": "5. 1/combat, as a bonus action, you can destroy all of your summoned entities that deal your dmg to daze a foe within 60' of you until INT save",
+                    "pointValue": "2",
+                    "upgrade": "recharge 6+ -> recharge 5+ -> no cooldown/2"
+                },
+                {
+                    "description": "6. 1/combat, as a bonus action, you can destroy all of your summoned entities that deal your dmg to grant sluggish to a foe within 60' of you for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "recharge 6+ -> recharge 5+ -> no cooldown/1"
                 }
             ]
         }
