@@ -119,6 +119,10 @@
     {
       "name": "Floating Rifts",
       "description": "At the end of combat, a sealed rift appears in the air. If the players touch it, it will open and a random creature from the combat emerges from it. This new combat's rewards are empowered and always grant +1 reward. The sealed rift disappears after 10mins."
+    },
+    {
+      "name": "Bountiful Breeze",
+      "description": "Each combat rewards an additional Legendary Chest."
     }
   ]
 }
