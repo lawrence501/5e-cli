@@ -3223,6 +3223,110 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Prana Expirtation",
+            "startingAffixes": [
+                {
+                    "description": "on init, summon the Lightning Lord, a CR 1/4 elemental minion that deals light dmg spread across a minimum of 3 atks. It disappears when you go down or when combat ends.",
+                    "pointValue": "1",
+                    "upgrade": "+1 CR/1"
+                },
+                {
+                    "description": "the light hits of your minions splash 2 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "your minion light hits give targets +1 global dmg taken until the end of their turns",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever your minions score light hits 3+ times in a single turn, they gain +1 crit dice during their next turn",
+                    "pointValue": "1",
+                    "upgrade": "+1 dice/1"
+                },
+                {
+                    "description": "2. on init, recover 2 spell slot lvls",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. 1/SR, on spell hit, gain +1 crit range for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 to the max splashed dmg of your minions",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                        "description": "5. if your minions have dealt light dmg since your last turn, you have +2 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. whenever your minions score light hits, you recover 1 spell slot lvl",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
+        },
+        {
+            "name": "Shepherd's Call to Wolves",
+            "startingAffixes": [
+                {
+                    "description": "1/combat, when one of your minions crits, you gain +4 minion dmg for the remainder of combat.",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "+2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 crit range while you have an active minion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. if you've gained temp HP since the start of your last turn, +1 to DEX saves",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. +1 crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on wep hit, +2 minion dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 to your bloodied threshold",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on wep hit, +1 crit range for 1rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ],
     "armour": [
