@@ -342,23 +342,23 @@ func fetchDreamPool(char string) ([]Affix, error) {
 	return pools[char], nil
 }
 
-func fetchBlessings(char string) ([]string, error) {
+func fetchPerks(char string) ([]string, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
 		return []string{}, err
 	}
 
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "blessing.json"))
+	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "perk.json"))
 	if err != nil {
 		return []string{}, err
 	}
 
-	blessings := map[string][]string{}
-	err = json.Unmarshal([]byte(f), &blessings)
+	perks := map[string][]string{}
+	err = json.Unmarshal([]byte(f), &perks)
 	if err != nil {
 		return []string{}, err
 	}
-	return blessings[char], nil
+	return perks[char], nil
 }
 
 func getLootSearchResults(skill string) (int, error) {

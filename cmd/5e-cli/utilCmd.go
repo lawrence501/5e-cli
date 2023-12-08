@@ -454,7 +454,7 @@ var dream = func() error {
 	return nil
 }
 
-var blessing = func() error {
+var perk = func() error {
 	charP := promptui.Prompt{
 		Label:    "Blessed character",
 		Validate: validatePartyMember,
@@ -464,18 +464,18 @@ var blessing = func() error {
 		return err
 	}
 
-	blessings, err := fetchBlessings(char)
-	option1 := randSelect(blessings)
+	perks, err := fetchPerks(char)
+	option1 := randSelect(perks)
 	option2 := option1
 	for option1 == option2 {
-		option2 = randSelect(blessings)
+		option2 = randSelect(perks)
 	}
 	option3 := option2
 	for option3 == option1 || option3 == option2 {
-		option3 = randSelect(blessings)
+		option3 = randSelect(perks)
 	}
 
-	fmt.Printf("%s's blessing options:\n- %s\n\n- %s\n\n- %s", char, option1, option2, option3)
+	fmt.Printf("%s's perk options:\n- %s\n\n- %s\n\n- %s", char, option1, option2, option3)
 	return nil
 }
 
