@@ -1462,5 +1462,17 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
+    },
+    {
+        "description": "+2 dmg with summoned entities that deal your dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "while buffing an ally, +1 wep dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
     }
 ]
