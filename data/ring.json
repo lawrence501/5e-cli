@@ -534,6 +534,27 @@
             "effects": [
                 "You STR is always at least 21."
             ]
+        },
+        {
+            "name": "Ring of Denial",
+            "effects": [
+                "As an action, you can put a key through this ring and into a fitting keyhole to allow that key to lock and seal the keyhole. The keyhole can't be unlocked without this ring. This ring can only have 1 keyhole sealed at a time."
+            ]
+        },
+        {
+            "name": "Ring of Mending",
+            "effects": [
+                "As an action, you can cast the Mending spell."
+            ]
+        },
+        {
+            "name": "Crystal Ring",
+            "effects": [
+                "+1d8 rad dmg to your melee wep hits.",
+                "The ring has 3 charges, 1d4 of which are recovered after a LR.",
+                "On melee wep hit, you can expend 1 charge to regain a number of hit points equal to the extra rad dmg dealt from this ring.",
+                "As a bonus action, you can switch between the ring shedding 30' of bright light and 30' of dim, just 10' of dim, or no light at all."
+            ]
         }
     ],
     "very rare": [
