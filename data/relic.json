@@ -3327,6 +3327,58 @@
                     "upgrade": "+1/4"
                 }
             ]
+        },
+        {
+            "name": "Information Core",
+            "startingAffixes": [
+                {
+                    "description": "+1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 spell save DC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 spell crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 spell crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +1 crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. on spell sub hit, make a spell atk against the target that deals 1d4 psy dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. as a free action once per round, give a spell you are about to cast +1 spell save DC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. on spell hit, get -1 to your next spellcast's spell save DC; 5pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 5pts distributed/1"
+                },
+                {
+                    "description": "6. while concentrating, +5' spell AoE sizes",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                }
+            ]
         }
     ],
     "armour": [
@@ -6031,6 +6083,58 @@
                     "description": "6. whenever your minions hit, they lose 1 HP; 2pts distributed",
                     "pointValue": "1",
                     "upgrade": "+1 and 2pts distributed/1"
+                }
+            ]
+        },
+        {
+            "name": "The Satyr",
+            "startingAffixes": [
+                {
+                    "description": "unintelligent creatures are less likely to target you",
+                    "pointValue": "1",
+                    "upgrade": "less/1"
+                },
+                {
+                    "description": "you can choose to ignore your result during a non-combat hostile random encounter's group checks/saves",
+                    "pointValue": "3",
+                    "upgrade": "+1 to non-combat hostile random encounter group checks/saves/2"
+                },
+                {
+                    "description": "+1 to non-combat hostile random encounter checks/saves",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +4 stealth while journeying, which doesn't apply to journey activities",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "2. you can modify your Boon category rolls by 1",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on init, a foe of your choice within 60' gets -1 global dmg for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "-1/1"
+                },
+                {
+                    "description": "4. +1 1st-lvl spell slot",
+                    "pointValue": "3",
+                    "upgrade": "+1 slot OR +1 lvl/3"
+                },
+                {
+                    "description": "5. +1 to non-combat hostile random encounter group checks/saves",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +1 to non-combat hostile random encounter saves",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 }
             ]
         }
