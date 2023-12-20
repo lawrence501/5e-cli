@@ -5981,6 +5981,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "The Bone Fletcher",
+            "startingAffixes": [
+                {
+                    "description": "+5' sp while invis",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "you can move through foes while invis",
+                    "pointValue": "2",
+                    "upgrade": "+5' sp while invis/1"
+                },
+                {
+                    "description": "whenever you move through a foe, they get -1 global dmg for the remainder of combat",
+                    "pointValue": "3",
+                    "upgrade": "-1/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever you move through a foe, gain +1 wep dmg for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +2 minion fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +2 minion proj dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. your undead minions deal +2 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. -5' minion sp; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-5' and 2pts distributed/1"
+                },
+                {
+                    "description": "6. whenever your minions hit, they lose 1 HP; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 2pts distributed/1"
+                }
+            ]
         }
     ]
 }
