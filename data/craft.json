@@ -1630,5 +1630,17 @@
         "pointValue": "2",
         "upgrade": "+1/2",
         "tags": ["minion", "dot"]
+    },
+    {
+        "description": "while buffing an ally, +1 wep dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "while buffing an ally, +1 spell dmg",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["spell"]
     }
 ]
