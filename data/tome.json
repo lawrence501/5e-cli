@@ -68,12 +68,12 @@
     {
         "name": "Destructive Summons",
         "target": "powers that summon minions",
-        "description": "The limited features of the minions deal slightly more dmg and have slightly larger AoE sizes."
+        "description": "The limited powers of the minions deal slightly more dmg and have slightly larger AoE sizes."
     },
     {
         "name": "Overcharged Summons",
         "target": "powers that summon minions",
-        "description": "The limited features of the minions have their cooldowns increased by 1 step, but inflict a DoT dealing $nonPhysType dmg, stacking until DEX save (minion's DC), on hit"
+        "description": "The limited powers of the minions have their cooldowns increased by 1 step, but inflict a DoT dealing $nonPhysType dmg, stacking until DEX save (minion's DC), on hit"
     },
     {
         "name": "Reflective Summons",
@@ -1429,7 +1429,7 @@
     {
         "name": "Charged Summons",
         "target": "powers that summon minions that deal damage",
-        "description": "The limited features of the minions have their cooldowns reduced by 1 step, and their buffs on themselves have double duration. The minions deal less dmg."
+        "description": "The limited powers of the minions have their cooldowns reduced by 1 step, and their buffs on themselves have double duration. The minions deal less dmg."
     },
     {
         "name": "Generous Summons",

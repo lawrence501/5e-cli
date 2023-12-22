@@ -726,7 +726,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+2 dmg with limited features",
+        "description": "+2 dmg with limited powers",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
@@ -1176,7 +1176,7 @@
         "tags": []
     },
     {
-        "description": "on limited feature use, heal 1 HP",
+        "description": "on limited power use, heal 1 HP",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["armour"]

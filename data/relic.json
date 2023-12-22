@@ -3379,6 +3379,110 @@
                     "upgrade": "+5'/2"
                 }
             ]
+        },
+        {
+            "name": "Yavine's Song of Vengeance",
+            "startingAffixes": [
+                {
+                    "description": "+1 global dmg vs targets 30+' away from you",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on sub hit, target is debil for 1rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1 global AB vs debuffed targets/4"
+                },
+                {
+                    "description": "+1 proj dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 proj AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. +1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. while you have a fiend crystal socketed, you gain +1 global dmg for 1 rnd on hit",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. on hit vs target 30+' away from you, they are debil for 1rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1 global AB vs targets 30+' away from you/4"
+                },
+                {
+                    "description": "5. your sub hits deal +1 global dmg",
+                    "pointValue": "1",
+                    "upgrade": "1/1"
+                },
+                {
+                    "description": "6. +1% party crystal flare chance",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "The Harrier",
+            "startingAffixes": [
+                {
+                    "description": "on limited wep hit, targets are illuminated, preventing them from becoming invis permanently",
+                    "pointValue": "1",
+                    "upgrade": "+1 limited wep AB/3"
+                },
+                {
+                    "description": "1/combat or until you crit, on turn start while no foes within 60' are illuminated, you illuminate a foe you can see within 60'",
+                    "pointValue": "1",
+                    "upgrade": "+1 crit range/4"
+                },
+                {
+                    "description": "on non-limited wep hit vs debuffed target, a debuff of your choice is removed and the hit deals +5 P dmg",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever you start concentrating, 1 debuff of your choice that you have inflicted ends; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 3pts distributed/1"
+                },
+                {
+                    "description": "2. on non-limited power hit vs debuffed target, +2 wep dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on non-limited power hit vs debuffed target, +5' sp for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "4. whenever you forcibly end one of your debuffs, +4 wep dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "5. whenever you forcibly end one of your debuffs, +10' sp for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "6. +5' blindsight",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                }
+            ]
         }
     ],
     "armour": [
@@ -3460,7 +3564,7 @@
                     "upgrade": "+1 HP/1"
                 },
                 {
-                    "description": "2. on limited feature use, heal 1 HP",
+                    "description": "2. on limited power use, heal 1 HP",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 },
@@ -5726,7 +5830,7 @@
             "name": "Vulpes",
             "startingAffixes": [
                 {
-                    "description": "1/LR, on hit vs debuffed target, they can't use limited features for the remainder of combat",
+                    "description": "1/LR, on hit vs debuffed target, they can't use limited powers for the remainder of combat",
                     "pointValue": "4",
                     "upgrade": "short rest -> combat -> recharge 6+ -> recharge 5+ -> no cooldown/4"
                 },

@@ -78,7 +78,7 @@ Always based on dmg where possible
 - Single disadv condi/sluggish/charm/root/weak: 3
 - Prone/taunt/similar: 2
 - Condi lasts until save/longer: x2
-- Limited feature conditional: -1
+- limited power conditional: -1
 - General conditional: -2
 - Party positioning conditional: -1
 - Common location conditional: -1
