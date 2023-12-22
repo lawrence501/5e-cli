@@ -3587,6 +3587,110 @@
                     "upgrade": "+2/1"
                 }
             ]
+        },
+        {
+            "name": "Golem Fighting",
+            "startingAffixes": [
+                {
+                    "description": "your construct minions have +5' sp",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "on construct minion hit, the target is pushed 5' away from the minion",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "+2 construct minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. you construct minions have -3 dmg vs targets they started their turns adj to; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-2 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. on construct minion hit, target is knocked prone",
+                    "pointValue": "1",
+                    "upgrade": "+1 construct minion AB/3"
+                },
+                {
+                    "description": "3. unintelligent creatures are more likely to target your construct minions",
+                    "pointValue": "1",
+                    "upgrade": "more/1"
+                },
+                {
+                    "description": "4. the hits of your construct minions splash 2 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. 1/LR, on construct minion hit, target is dazed until CON save",
+                    "pointValue": "4",
+                    "upgrade": "short rest -> combat -> recharge 6+ -> recharge 5+ -> no cooldown/4"
+                },
+                {
+                    "description": "6. if this item is in your offhand, +1 incoming temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Beast Mastery",
+            "startingAffixes": [
+                {
+                    "description": "+1 trap debuff effectiveness",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+3 dmg with traps",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "whenever your traps are triggered, all affected foes have their sp reduced to 0 for 1rnd or until they take dmg",
+                    "pointValue": "3",
+                    "upgrade": "+3->2 dmg with traps/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +2 outgoing healing vs your minions",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. on actively healing a minion, remove 1 debuff of your choice from them",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. if you haven't acted offensively since the start of your last turn, +5' sp",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "4. on trap hit, target gets +4 dmg taken from traps for 1rnd",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. +1 to your trap DCs",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +4 dmg with traps vs debuffed targets",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                }
+            ]
         }
     ],
     "armour": [
