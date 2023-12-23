@@ -2790,13 +2790,28 @@
         "description": "Whenever the power hits, the next limited power you use triggers a Wild Magic Surge."
     },
     {
-        "name": "Prismatic Chaos",
-        "target": "powers with multiple damage type options",
-        "description": "Instead of choosing the power's dmg type, it is randomly chosen whenever it is used. Additionally, it deals more dmg."
+        "name": "True Power",
+        "target": "any power",
+        "description": "The power's base dmg is converted to true. Additionally, it deals more dmg."
     },
     {
-        "name": "Consistency [NEXT - arcanist]",
+        "name": "Consistency",
         "target": "any power",
         "description": "The power always deals the same base dmg type as the base dmg type of the last power you used. Additionally, it deals more dmg."
+    },
+    {
+        "name": "Swiftness",
+        "target": "powers that deal damage",
+        "description": "The power's usage time is reduced by 1 step and whenever you use it, you gain +10' sp for 1 round. Additionally, its dmg is substantially reduced."
+    },
+    {
+        "name": "True Divinity",
+        "target": "any power",
+        "description": "The power's base dmg is converted to true. Additionally, whenever your party uses (and accepts the results of) a shrine, the power gains +1 dmg."
+    },
+    {
+        "name": "Monochromaticism [runebolt DONE]",
+        "target": "powers with multiple damage type options",
+        "description": "Upon upgrading the power, choose one of its dmg type options - it always uses that dmg type, but its dmg is increased."
     }
 ]
