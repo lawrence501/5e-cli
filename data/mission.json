@@ -52,5 +52,8 @@
     },
     {
         "description": "Score 2 crits in the same turn"
+    },
+    {
+        "description": "Cast a spell of your highest lvl possible and have all of its targets succeed their saves against it"
     }
 ]
