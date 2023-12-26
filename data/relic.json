@@ -3691,6 +3691,58 @@
                     "upgrade": "+4/1"
                 }
             ]
+        },
+        {
+            "name": "New Destiny",
+            "startingAffixes": [
+                {
+                    "description": "your weps gain the loading trait",
+                    "pointValue": "-3",
+                    "upgrade": "on wep hit, -1 wep dmg for the rest of the turn and 2pts distributed/1"
+                },
+                {
+                    "description": "your first basic wep hit each turn gains bonus dmg equal to a third of your lvl",
+                    "pointValue": "4",
+                    "upgrade": "+1 multi/4"
+                },
+                {
+                    "description": "gain wep dmg for your first basic wep hit of each turn equal to your bonus wep dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1 wep dmg/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. your basic wep hits splash 1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 basic wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. your splashed dmg is dealt to the original target vs creatures larger than you",
+                    "pointValue": "1",
+                    "upgrade": "your hits splash 1 dmg/1"
+                },
+                {
+                    "description": "4. your wep hits deal half dmg to objs and structs; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "halved and 2pts distributed/1"
+                },
+                {
+                    "description": "5. your basic wep crits splash 3 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "6. +1 basic wep crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
