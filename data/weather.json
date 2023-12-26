@@ -58,7 +58,7 @@
     },
     {
       "name": "Gaze of the Manipulator",
-      "description": "Each player sends the DM a message with the name of an adventurer in the current session, with no discussion. If any adventurer's name is received twice, that adventurer has disadvantage with all journey activities, and all other adventurers have advantage. If an adventurer's name appears more than twice, they get double advantage and all others get disadvantage instead. If no adventurer's name appears more than once, all adventurer get disadvantage."
+      "description": "Each player sends the DM a message with the name of an adventurer in the current session, with no zcussion. If any adventurer's name is received twice, that adventurer has disadvantage with all journey activities, and all other adventurers have advantage. If an adventurer's name appears more than twice, they get double advantage and all others get disadvantage instead. If no adventurer's name appears more than once, all adventurer get disadvantage."
     },
     {
       "name": "Gaze of the Creator",
@@ -123,6 +123,10 @@
     {
       "name": "Bountiful Breeze",
       "description": "Each combat rewards an additional Legendary Chest."
+    },
+    {
+      "name": "Ethereal Glow",
+      "description": "At the start of combat, all combatants are randomly placed throughout the battlefield (internally: 20x20 arena). Creatures don't appear on the battlemap unless they are within 10' of at least 1 other creature. Creatures are allowed to shoot projectiles/target areas in directions, and cannot see anything that isn't on the board."
     }
   ]
 }
