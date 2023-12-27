@@ -3743,6 +3743,58 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "The Plow Horse",
+            "startingAffixes": [
+                {
+                    "description": "+1 AoE dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 AoE crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "+2 AoE dmg vs adj targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on AoE hit, target is pushed 5' in a dir of your choice",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "2. on AoE hit, you can move 5'",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "3. on AoE hit, your invis ends; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+2->1 AoE dmg while invis/1"
+                },
+                {
+                    "description": "4. your wep hits splash 1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. on sub wep hit, target is debil for 1rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1 wep AB/4"
+                },
+                {
+                    "description": "6. on wep hit, target is inflicted with 1 B DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
