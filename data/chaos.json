@@ -196,7 +196,8 @@
         "Each time someone in the party completes a specific mission (chosen now)",
         "On sidekick hit",
         "On sidekick miss",
-        "On sidekick block"
+        "On sidekick block",
+        "When your sidekick is hit"
     ],
     "target": [
         "yourself",
