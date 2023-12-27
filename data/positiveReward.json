@@ -145,5 +145,8 @@
     },
     {
         "description": "Gain a Journey Boon (empowered = adv on Boon type)"
+    },
+    {
+        "description": "Gain a permanent +1 global dmg vs $creatureType creatures (empowered = adv on creature type)"
     }
 ]
