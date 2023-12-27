@@ -3795,6 +3795,58 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "The Plague",
+            "startingAffixes": [
+                {
+                    "description": "on psn hit, target is inflicted with a disease DoT dealing 1 psn dmg, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "creatures debuffed by you have -2 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "-1/1"
+                },
+                {
+                    "description": "creatures debuffed by you have -1 to CON saves",
+                    "pointValue": "2",
+                    "upgrade": "-1/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. creatures debuffed by you have -1 AC",
+                    "pointValue": "4",
+                    "upgrade": "-1/4"
+                },
+                {
+                    "description": "2. gain DoT dmg equal to your bonus spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "3. creatures debuffed by you have their wep dmg reduced by an amount equal to your bonus spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "4. creatures debuffed by you have their CON saves reduced by an amount equal to half of your bonus spell dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "5. creatures debuffed by you have their AC reduced by an amount equal to half your bonus spell dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "6. on debuffing a creature, they are debilitated for 1 rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1 to your debuff DCs/4"
+                }
+            ]
         }
     ],
     "armour": [
