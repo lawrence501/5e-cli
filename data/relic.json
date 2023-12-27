@@ -3753,7 +3753,7 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+1 AoE crit dice",
+                    "description": "+1 crit dice",
                     "pointValue": "2",
                     "upgrade": "+1/2"
                 },
@@ -3845,6 +3845,58 @@
                     "description": "6. on debuffing a creature, they are debilitated for 1 rnd",
                     "pointValue": "4",
                     "upgrade": "+1 to your debuff DCs/4"
+                }
+            ]
+        },
+        {
+            "name": "Culstist Brawler's Rend",
+            "startingAffixes": [
+                {
+                    "description": "+1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+2 wep dmg vs debuffed targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on wep hit, inflict 1 S DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. recharge 6+: on wep hit, target gets -1 to WIS saves until CHA save",
+                    "pointValue": "4",
+                    "upgrade": "-1/4"
+                },
+                {
+                    "description": "3. after wep hit, you can move 5'",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "4. on KB vs debuffed target, gain +3 wep dmg for the remainder of combat",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. while buffed, +1d4 S dmg to your wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 to your basic maneuver DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 }
             ]
         }
