@@ -769,7 +769,7 @@
             ]
         },
         {
-            "name": "Loop of the Veil",
+            "name": "Ring of the Veil",
             "effects": [
                 "+2 WIS and WIS max.",
                 "+60' darkvision.",
@@ -831,6 +831,31 @@
             "name": "+3 Ring of the War Mage",
             "effects": [
                 "+3 spell AB."
+            ]
+        },
+        {
+            "name": "Acid Absorbing Ring",
+            "effects": [
+                "You gain 50% resistance to acid dmg.",
+                "1/LR, when you take acid dmg, you can react to gain imm to that instance of acid dmg and regain HP equal to half the full dmg that would have been dealt."
+            ]
+        },
+        {
+            "name": "Thunder Absorbing Ring",
+            "effects": [
+                "You gain 50% resistance to thunder dmg.",
+                "1/LR, when you take thunder dmg, you can react to gain imm to that instance of thunder dmg and regain HP equal to half the full dmg that would have been dealt."
+            ]
+        },
+        {
+            "name": "Ring of Travel",
+            "effects": [
+                "+1 to DEX saves.",
+                "You always know which way is north.",
+                "You can cast the Longstrider spell on yourself at-will.",
+                "1/LR, you can name a location within 10 miles of you that is known to at least 1 creature also within 10 miles of that location. The ring then telepathically tells you the directions to that location by the safest, most direct route (only knows of natural terrain hazards, not creatures, traps, etc.).",
+                "1/LR, you can cast the Teleport spell as an action.",
+                "[CURSE] At the DM's discretion, this item may sometimes behave unpredictably."
             ]
         }
     ],
