@@ -127,6 +127,10 @@
     {
       "name": "Ethereal Glow",
       "description": "At the start of combat, all combatants are randomly placed throughout the battlefield (internally: 20x20 arena). Creatures don't appear on the battlemap unless they are within 10' of at least 1 other creature. Creatures are allowed to shoot projectiles/target areas in directions, and cannot see anything that isn't on the board."
+    },
+    {
+      "name": "Wisp Trails",
+      "description": "At the start of each adventurer's turn in combat, a random dir is chosen, and a trail of either red, yellow, or blue wisps projects out in that direction. If the adventurer spends their full movement moving in that direction, they add either a 20% chance for an extra loot roll at the end of the combat, 3gp to the combat's rewards, or a 25% chance for +1 exp from the combat, based on the wisp colour, respectively."
     }
   ]
 }
