@@ -39,27 +39,20 @@ Lawrence: 1400
 7. Random PoE
 8. Generated affix
 
-### Dream relic generation
-
-1. 1st base affix
-2. 2nd base affix
-3. 3rd base affix
-4. Thematic
-5. Class
-6. Backstory
-7. Race
-8. Feats
-9. Current relics
-10. Glyph path
-11. o5e/Pathfinder
-12. Reroll with disadv
-
-### Dream relic inspiration options
+### Dream inspiration options
 
 - Class/subclass feature
 - Feat
 - Race
 - Spell/maneuver
+
+### Perk generation
+
+- Backstory partner
+- Backstory identity
+- Build gap-fill
+- Self-synergy mechanic
+- Transformative
 
 ### Manual value cheatsheet
 

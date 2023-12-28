@@ -2650,7 +2650,7 @@
             "5. Draw Conclusion: 1/min; glyphic action; After careful observation and investigation (questioning 1 or more creatures on a topic, searching an area or a document, and so on) lasting a few minutes, you can learn a pertinent fact. This requires a DC 9 Investigation check. Each additional time you use this power, the DC increases by 3. It resets to 9 after a long rest.",
             "6. Diffuse Situation: At-will; glyphic action; During the course of an investigation, your questions sometimes elicit an angry or even violent response. Through dissembling, verbal distraction, or similar evasion, you prevent a living foe from taking offensive actions against anyone or anything until the end of your next turn. If they take damage during this effect, it immediately ends and they are able to immediately take the last turn they spent under these effects.",
             "7. Seize the Initiative: 1/LR; free action; Within 1 minute of successfully using your Draw Conclusion feature, you can take 1 additional, immediate glyphic action, which you can take out of turn.",
-            "8. You gain an expertise die in Constitution-based skill checks.",
+            "8. You gain an expertise die in Constitution saves.",
             "9. You gain an expertise die in Perception.",
             "10. You gain a d6 expertise die in saving throws."
         ]

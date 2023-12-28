@@ -458,7 +458,7 @@ var dream = func() error {
 
 var perk = func() error {
 	charP := promptui.Prompt{
-		Label:    "Blessed character",
+		Label:    "Character",
 		Validate: validatePartyMember,
 	}
 	char, err := charP.Run()

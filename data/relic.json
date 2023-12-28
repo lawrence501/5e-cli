@@ -2532,9 +2532,9 @@
                     "upgrade": "+1 force dmg/1"
                 },
                 {
-                    "description": "4. +1 to knowledge skill checks",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
+                    "description": "4. +1 arcana",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 },
                 {
                     "description": "5. on sub spell hit, fire a magical dart at the target, making a spell atk that deals 1d4 force dmg",
@@ -6707,6 +6707,58 @@
                     "description": "6. +4 dmg barrier while in bright light",
                     "pointValue": "1",
                     "upgrade": "+4/1"
+                }
+            ]
+        },
+        {
+            "name": "Mystery Solver",
+            "startingAffixes": [
+                {
+                    "description": "+1 percep",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 to mental saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 invest",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. as a glyphic action, you can make a percep check",
+                    "pointValue": "1",
+                    "upgrade": "+1 percep/1"
+                },
+                {
+                    "description": "2. +1 passive regen if you haven't taken dmg since your last turn",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "3. +1 CON",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +1 DEX",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +1 history",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 to CON saves",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
                 }
             ]
         }

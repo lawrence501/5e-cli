@@ -162,12 +162,6 @@
         "tags": []
     },
     {
-        "description": "+1 to knowledge skills",
-        "pointValue": "4",
-        "upgrade": "+1/4",
-        "tags": []
-    },
-    {
         "description": "+1 to concentration saves",
         "pointValue": "2",
         "upgrade": "+1/2",
