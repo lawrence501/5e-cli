@@ -6761,6 +6761,58 @@
                     "upgrade": "+1/3"
                 }
             ]
+        },
+        {
+            "name": "Force Defence",
+            "startingAffixes": [
+                {
+                    "description": "+5 force barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "allies within 60' of you have +4 force barrier",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "your weps gain the thrown (20'/60') trait",
+                    "pointValue": "3",
+                    "upgrade": "+1 throwing dmg/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. react to convert incoming dmg to force",
+                    "pointValue": "1",
+                    "upgrade": "+5 force barrier/1"
+                },
+                {
+                    "description": "2. on block, +7 force barrier for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+7/1"
+                },
+                {
+                    "description": "3. your weps with the thrown trait have +1 base dmg die size",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. when dmg'd, +7 force barrier for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+7/1"
+                },
+                {
+                    "description": "5. +1 aura effectiveness",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "6. +2 force res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ]
 }
