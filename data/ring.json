@@ -555,6 +555,14 @@
                 "On melee wep hit, you can expend 1 charge to regain a number of hit points equal to the extra rad dmg dealt from this ring.",
                 "As a bonus action, you can switch between the ring shedding 30' of bright light and 30' of dim, just 10' of dim, or no light at all."
             ]
+        },
+        {
+            "name": "Fulminating Ring",
+            "effects": [
+                "The ring has 3 charges, 1d3 of which are recovered after a LR.",
+                "If you spend 1min studying the ring, you can expend 1 charge to replace any of your prepared spells with any of the following spells: Contingency, Fireball, Gust of Wind, Leomund's Tiny Hut, Magic Missile, Thunderwave, or Wall of Force.",
+                "Whenever a creature you can see takes dmg from an evocation spell, you can react and expend 1 charge to have the dmg deal an additional 2d6 force and knock the target prone if it is Large or smaller."
+            ]
         }
     ],
     "very rare": [
@@ -856,6 +864,19 @@
                 "1/LR, you can name a location within 10 miles of you that is known to at least 1 creature also within 10 miles of that location. The ring then telepathically tells you the directions to that location by the safest, most direct route (only knows of natural terrain hazards, not creatures, traps, etc.).",
                 "1/LR, you can cast the Teleport spell as an action.",
                 "[CURSE] At the DM's discretion, this item may sometimes behave unpredictably."
+            ]
+        },
+        {
+            "name": "Radiant Absorbing Ring",
+            "effects": [
+                "You gain 50% resistance to radiant dmg.",
+                "1/LR, when you take radiant dmg, you can react to gain imm to that instance of radiant dmg and regain HP equal to half the full dmg that would have been dealt."
+            ]
+        },
+        {
+            "name": "Illusionist's Ring",
+            "effects": [
+                "Whenever you cast a cantrip, you can use a bonus action on the same turn to cast that cantrip again."
             ]
         }
     ],
