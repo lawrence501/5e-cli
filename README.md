@@ -181,7 +181,9 @@ While riding your mount, your AC increases by 1.
 
 - Augment system - some sort of experience and gain on breakpoints? Have class feature-esque boosts in the pool, and maybe stuff that adds synergy between backstory pairs. Every 50xp?
 
-- Split group into 2? Less mechanical, simpler loot + other systems in new group? Just conversation, no logistics or plans.
+- Ban all resurrection magic? Just trivialises death?
+
+- "I know a guy" system Declan told me about
 
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
