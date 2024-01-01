@@ -3899,6 +3899,58 @@
                     "upgrade": "+1/4"
                 }
             ]
+        },
+        {
+            "name": "Warden's Steel",
+            "startingAffixes": [
+                {
+                    "description": "+1 to your skill checks during positive random encounters",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "gain minion crit range equal to your bonus crit range",
+                    "pointValue": "3",
+                    "upgrade": "+1 crit range/4"
+                },
+                {
+                    "description": "gain minion crit dice equal to your bonus crit dice",
+                    "pointValue": "1",
+                    "upgrade": "+1 crit dice/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +4 minion HP",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "2. +2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. -1 minion non-S dmg; 3pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 3pts distributed/1"
+                },
+                {
+                    "description": "4. if you score any sort of crit success in a positive random encounter, any rewards you get are empowered 2 times",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. 1/SR, you can summon a machine guard, a CR 1/8 construct minion that deals S dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 CR/1"
+                },
+                {
+                    "description": "6. as a bonus action, your minions can unleash a 10' cone of shrapnel (glyphic), forcing a DEX save (using their DC) or taking 1d4 S dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                }
+            ]
         }
     ],
     "armour": [
