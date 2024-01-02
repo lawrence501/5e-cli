@@ -599,3 +599,8 @@ var affinity = func() error {
 	log.Printf("Affinity: %s", randSelect(AFFINITIES))
 	return nil
 }
+
+var weaponTrait = func() error {
+	log.Printf("Weapon trait: %s", randSelect(WEAPON_TRAITS))
+	return nil
+}

@@ -91,6 +91,11 @@
             "Tags": ["weapon"]
         },
         {
+            "Name": "Bullwhip",
+            "Description": "1d10 B; reach",
+            "Tags": ["weapon"]
+        },
+        {
             "Name": "Falchion",
             "Description": "1d10 S; 2h; forceful; sweep",
             "Tags": ["weapon"]
@@ -237,7 +242,7 @@
         },
         {
             "Name": "Whip",
-            "Description": "1d8 S; finesse; non-lethal; reach",
+            "Description": "1d6 S; deadly; finesse; non-lethal; responsive",
             "Tags": ["weapon"]
         },
         {
@@ -253,6 +258,11 @@
         {
             "Name": "Shortbow",
             "Description": "1d6 P; 60'/320' range; 2h; fatal (d10)",
+            "Tags": ["weapon"]
+        },
+        {
+            "Name": "Shrapnel Trap",
+            "Description": "1d10 S; 0'/0' range; delayed; deployed (20'); engineered; explosive; loading",
             "Tags": ["weapon"]
         }
     ],

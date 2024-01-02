@@ -108,6 +108,7 @@ var WEAPON_CLASSES []string = []string{
 	"pick",
 	"hammer",
 	"shield",
+	"trap",
 }
 
 var SKILLS []string = []string{
@@ -262,6 +263,10 @@ var WEAPON_TRAITS []string = []string{
 	"martial",
 	"reach",
 	"restraining",
+	"delayed",
+	"deployed (20')",
+	"engineered",
+	"explosive",
 }
 
 var SIZE_DIFFERENCES []string = []string{
@@ -685,6 +690,7 @@ var MARTIAL_WEAPONS []string = []string{
 	"battle axe",
 	"boomerang",
 	"bo staff",
+	"bullwhip",
 	"falchion",
 	"flail",
 	"glaive",
@@ -718,6 +724,7 @@ var MARTIAL_WEAPONS []string = []string{
 	"longbow",
 	"net",
 	"shortbow",
+	"shrapnel trap",
 }
 
 var LANGUAGES []string = []string{
