@@ -1044,12 +1044,12 @@
         "description": "dual-wielding",
         "tiers": [
             "1. While dual-wielding, you no longer need to expend a bonus action for your offhand attack. It instead becomes part of your Attack action.",
-            "2. Double Strike: 1/min; glyphic action; When you wield two weapons, you can choose to make one attack roll against a foe. If you hit, you inflict damage with both weapons +1d6 of your onhand weapon's base damage. This counts as a single hit.",
+            "2. Double Strike: 1/min; glyphic action; While dual-wielding, make one attack roll against a foe in reach/range of both of your weapons. If you hit, you inflict damage with both weapons plus 1d6 of your onhand weapon's base damage. This counts as a single hit.",
             "3. All non-heavy 1h weapons gain the dual-wielding trait for you.",
             "4. You inflict +1d4 base damage with dual-wielding weapons.",
             "5. While dual-wielding, you gain an expertise die in saving throws.",
-            "6. When you hit an opponent while dual-wielding, their next attack has disadvantage and your next attack against that same foe has advantage.",
-            "7. Disarming Attack: 1/LR; free action; You attempt a Sleight of Hand check to disarm a foe as part of one of your melee attacks, using 8 + their AB as the DC. If you succeed, your attack inflicts +1d8 damage and the target's weapon is knocked from their grip, landing up to 20' away in a random direction. If you fail, you still attempt your normal attack, but you do not inflict the extra damage or disarm the opponent if you hit.",
+            "6. When you hit a foe while dual-wielding, their next attack has disadvantage and your next attack against that same foe has advantage.",
+            "7. Disarming Attack: 1/LR; free action; After a melee hit, you attempt a Sleight of Hand check to disarm the target, using 8 + their AB as the DC. If you succeed, your hit inflicts +1d8 base damage and the target's weapon is knocked from their grip, landing up to 20' away in a random direction.",
             "8. While dual-wielding, you can attack up to 6 times in one round as a single Attack action, but you must make each attack against a different foe. Make a separate attack roll for each attack. Each attack alternates which weapon you are using.",
             "9. You can add your ability modifier to the damage of your offhand attacks as you would an onhand attack.",
             "10. Your Double Strike feature can now be used at-will."

@@ -3951,6 +3951,58 @@
                     "upgrade": "+1 dmg/1"
                 }
             ]
+        },
+        {
+            "name": "Mind Lash",
+            "startingAffixes": [
+                {
+                    "description": "you also count as the aberration creature type",
+                    "pointValue": "1",
+                    "upgrade": "+4 persuasion vs aberrations/1"
+                },
+                {
+                    "description": "+1d4 psy dmg to your melee wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on melee wep hit, target makes a DC 13 WIS save or gets -2 to INT saves until WIS save",
+                    "pointValue": "2",
+                    "upgrade": "-1 saves/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on melee wep hit, target makes a DC 13 WIS save or gets -1 to WIS saves until WIS save",
+                    "pointValue": "4",
+                    "upgrade": "-1 saves/4"
+                },
+                {
+                    "description": "2. on melee wep hit, target makes a DC 13 WIS save or gets -2 to CHA saves until WIS save",
+                    "pointValue": "2",
+                    "upgrade": "-1 saves/1"
+                },
+                {
+                    "description": "3. +4 persuasion vs aberrations",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "4. on sub melee wep hit, make a melee wep atk against target that deals 1d4 psy dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. if you are an aberration, +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 psy dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
