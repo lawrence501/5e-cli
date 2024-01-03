@@ -252,7 +252,7 @@
         },
         {
             "Name": "Net",
-            "Description": "1d4 B; 0'/0' range; restraining; thrown (40'/120')",
+            "Description": "1d4 B; 0'/0' range; non-lethal; restraining; thrown (40'/120')",
             "Tags": ["weapon"]
         },
         {
@@ -262,7 +262,7 @@
         },
         {
             "Name": "Shrapnel Trap",
-            "Description": "1d10 S; 0'/0' range; delayed; deployed (20'); engineered; explosive; loading",
+            "Description": "1d10 P; 0'/0' range; delayed; deployed (20'); engineered; explosive; loading; triggered (attack with this weapon and return it to your hand)",
             "Tags": ["weapon"]
         }
     ],

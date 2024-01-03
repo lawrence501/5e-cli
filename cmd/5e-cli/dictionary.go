@@ -267,6 +267,7 @@ var WEAPON_TRAITS []string = []string{
 	"deployed (20')",
 	"engineered",
 	"explosive",
+	"triggered (attack the triggering creature with this weapon)",
 }
 
 var SIZE_DIFFERENCES []string = []string{
