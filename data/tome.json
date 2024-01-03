@@ -2810,8 +2810,19 @@
         "description": "The power's base dmg is converted to true. Additionally, whenever your party uses (and accepts the results of) a shrine, the power gains +1 dmg."
     },
     {
-        "name": "Monochromaticism [runebolt DONE]",
+        "name": "Monochromaticism",
         "target": "powers with multiple damage type options",
         "description": "Upon upgrading the power, choose one of its dmg type options - it always uses that dmg type, but its dmg is increased."
+    },
+    {
+        "name": "Desperate Empowerment",
+        "target": "powers that apply buffs",
+        "description": "While the power is buffing a minion, it gains +1 buff effectiveness while the minion is bloodied.",
+        "meta": "Dread Shade"
+    },
+    {
+        "name": "Draining Explosions [NEXT - spectral presence]",
+        "target": "powers that apply buffs",
+        "description": "Minions buffed by the power lose barely any passive regen and if they die while buffed, the buff explodes and you make a spell atk against all foes adj to the corpse that deals massive $nonPhysType dmg."
     }
 ]
