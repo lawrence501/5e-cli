@@ -382,5 +382,53 @@
     {
         "name": "Turtle Shell",
         "description": "Base AC is 16 with no DEX added. You cannot wear armour or regular clothes. -3 DEX."
+    },
+    {
+        "name": "Swap",
+        "description": "A random mutation you already have is replaced by another roll on this table. Reroll if you have no existing mutations."
+    },
+    {
+        "name": "Unstable",
+        "description": "Any body part chopped off combusts in 3 rounds."
+    },
+    {
+        "name": "Breasts",
+        "description": "6 in 2 rows of 3."
+    },
+    {
+        "name": "Patterned Skin",
+        "description": "Darker/lighter checkers"
+    },
+    {
+        "name": "Pig Tail",
+        "description": "Curly."
+    },
+    {
+        "name": "Coloured Pupils",
+        "description": "Your pupils are (random of red, orange, yellow, green, blue, purple)"
+    },
+    {
+        "name": "Compound Eyes",
+        "description": "Many little eyeballs, like a fly's eye."
+    },
+    {
+        "name": "Detachable Leg",
+        "description": "Falls off whenever you become bloodied. Can be reattached as an action. While missing a leg you have half speed."
+    },
+    {
+        "name": "Telescoping Neck",
+        "description": "Can grow or shrink as needed, up to 1 foot either way."
+    },
+    {
+        "name": "Baby Bird Heads",
+        "description": "A ring of them around your neck. They cheep silently."
+    },
+    {
+        "name": "Strange Voice",
+        "description": "Something has gone awry with your vocal cords. Your voice sounds like water spiralling down a drain."
+    },
+    {
+        "name": "Suggestible",
+        "description": "Whenever you are told to do something, you must pass a DC 15 WIS save or be compelled to do it."
     }
 ]
