@@ -96,6 +96,7 @@ Always based on dmg where possible
 - Unlimited spellcast: 5/lvl
 - Minion creation: 5/CR
 - A choice becomes random: -3
+- Cheat death: 10
 
 ## Condition definitions
 
