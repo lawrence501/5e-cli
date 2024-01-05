@@ -4107,6 +4107,58 @@
                     "upgrade": "+1/4"
                 }
             ]
+        },
+        {
+            "name": "Bountiful Maintenance",
+            "startingAffixes": [
+                {
+                    "description": "gain outgoing healing equal to your bonus outgoing healing",
+                    "pointValue": "2",
+                    "upgrade": "+1 outgoing healing/1"
+                },
+                {
+                    "description": "your non-instantaneous healing powers have +1 outgoing healing",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 exp gain",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. gain outgoing healing equal to 1/3 of your lvl",
+                    "pointValue": "4",
+                    "upgrade": "+1 multi/4"
+                },
+                {
+                    "description": "2. on hit, +1 to your next outoing heal",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. your non-instantaneous healing powers have +4 outgoing healing vs downed targets",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "4. +1 basic power dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. your non-instantaneous healing powers have +2 outgoing healing vs bloodied targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 outgoing healing",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [

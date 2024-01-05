@@ -648,12 +648,6 @@
         "tags": ["dot"]
     },
     {
-        "description": "weps can be swapped in or out for another as a free action",
-        "pointValue": "1",
-        "upgrade": "+1 wep dmg/1",
-        "tags": ["weapon"]
-    },
-    {
         "description": "+2 wep dmg with limited powers",
         "pointValue": "1",
         "upgrade": "+1/1",
