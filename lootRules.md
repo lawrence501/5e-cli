@@ -33,7 +33,7 @@ Rings are unique magic items. They are separated into rarities: Uncommon (useful
 
 ## Amulets (artifacts of P'all)
 
-Amulets are unique magic items that belong to one of several sets. By combining two amulets from the same set, you can choose one of them to gain the "ally bonus" of the other. You can do this multiple times on the same amulet to grant it multiple ally bonuses.
+Amulets are unique magic items that belong to one of several sets. By combining two amulets from the same set, you choose one of them to consume the other, unlocking the relevant "ally bonus" of the remaining amulet. You can do this multiple times on the same amulet to grant it multiple ally bonuses.
 
 ## Tomes (texts)
 

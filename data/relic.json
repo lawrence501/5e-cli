@@ -4055,6 +4055,58 @@
                     "upgrade": "+2/1"
                 }
             ]
+        },
+        {
+            "name": "Corrosive Shots",
+            "startingAffixes": [
+                {
+                    "description": "+1d4 acid dmg to your ranged wep atk hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on acid ranged wep atk hit, you can expend 1 exertion to add 1d6 acid dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "+5 acid barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 acid dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 to dmg you deal outside of your turn",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 proj dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 max exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "5. on wep hit, +5 acid dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "6. +1 acid AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ],
     "armour": [

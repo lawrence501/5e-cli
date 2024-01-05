@@ -392,7 +392,7 @@
       },
       {
         "name": "Rhombur's Defiance",
-        "effect": "+5 dmg barrier with 2+ adj foes",
+        "effect": "+5 dmg barrier while you have 2+ adj foes",
         "upgrade": "unintelligent creatures are much more likely to target you",
         "setBonuses": [
           {
@@ -402,7 +402,7 @@
           },
           {
             "ally": "Arvewal",
-            "effect": "+5 dmg barrier with 2+ adj allies",
+            "effect": "+5 dmg barrier while you have 2+ adj allies",
             "upgrade": "+4"
           },
           {
