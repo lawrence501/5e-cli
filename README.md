@@ -64,6 +64,11 @@ Always based on dmg where possible
 - Massive: 90%
 - Barely: 7%
 
+Without original values:
+- Spells: 10 + 5 per slot lvl/cantrip scale tier
+- Everything else (limited): 13 + 2 per party lvl
+- Everything else (non-limited): 8 + 1.5 per party lvl above 1st
+
 ### Point value cheatsheet
 
 - Dominate: 8

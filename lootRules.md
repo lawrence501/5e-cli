@@ -11,10 +11,6 @@ Loot rolls can have a colour tier (regular loot rolls are uncoloured), which fol
 
 All loot roll results have empowered results based on their colour tier, such as gold being increased by 50% per tier, or enchanted items having 1 additional upgrade point distributed across their affixes.
 
-## Wondrous items (miscellaneous treasures)
-
-Wondrous items are unique magic items that don't fit into conventional item slots. This includes consumables like potions, and permanent items like cloaks. These items are separated into rarities: Uncommon (useful, but nothing crazy and potentially niche), rare (generally useful), very rare (powerful), and legendary (extremely powerful). All wondrous items must be identified to learn what they do, with a DC based on their rarity.
-
 ## Shrines (artifacts of Gawdian)
 
 Shrines are crafting tools. They lose all their power when moved, and so must be used as soon as they are found. For most shrines, you must choose the item to place on the shrine and receive its effect before you find out what the effect is, but some don't specify this and you can learn its effect before choosing an item to place on it. If you don't want the effect that a shrine promises, you can choose to instead not take it, which means that the shrine does nothing, but you gain 1gp.

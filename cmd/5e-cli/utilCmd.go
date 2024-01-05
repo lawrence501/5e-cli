@@ -354,7 +354,7 @@ var travel = func() error {
 
 	hostileRoll := rand.Intn(100)
 	hostile1, hostile2 := -1, -1
-	if hostileRoll < 15 {
+	if hostileRoll < 13 {
 		for hostile1 == hostile2 {
 			hostile1 = rand.Intn(5)
 			hostile2 = rand.Intn(5)
@@ -362,7 +362,7 @@ var travel = func() error {
 	}
 	positiveRoll := rand.Intn(100)
 	positive := -1
-	if positiveRoll < 10 {
+	if positiveRoll < 5 {
 		for positive == -1 || (positive == hostile1 || positive == hostile2) {
 			positive = rand.Intn(5)
 		}
