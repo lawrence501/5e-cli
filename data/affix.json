@@ -1468,5 +1468,11 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
+    },
+    {
+        "description": "+1 wep dmg while dual-wielding",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["armour"]
     }
 ]
