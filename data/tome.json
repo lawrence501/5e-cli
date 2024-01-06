@@ -198,7 +198,7 @@
     },
     {
         "name": "Persistent Mass",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "The power's persistent areas have slightly more dmg and slightly more area."
     },
     {
@@ -672,7 +672,7 @@
     },
     {
         "name": "Drifting",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "The power's persistent areas move 5' away from where you were when they were created at the start of each of your turns."
     },
     {
@@ -853,12 +853,12 @@
     },
     {
         "name": "Overwhelming Persistence",
-        "target": "powers with persistent areas that deal damage",
+        "target": "powers that create persistent areas that deal damage",
         "description": "The power's persistent areas' durations are increased by 1 step and have more area, but deal substantially less dmg."
     },
     {
         "name": "Creeping Persistence",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "The power's persistent areas move 5' towards their nearest foes at the start of each of your turns."
     },
     {
@@ -1045,7 +1045,7 @@
     },
     {
         "name": "Volatile Persistence",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "1/turn, when a creature dies within the power's pers areas, their corpse emits a nova of energy, which inflicts a DoT dealing slight $nonPhysType dmg, stacking until CON save, on all creatures of your choice adj to it."
     },
     {
@@ -1060,7 +1060,7 @@
     },
     {
         "name": "Persistent Erosion",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "Foes within the power's pers areas take substantially more $nonPhysType dmg."
     },
     {
@@ -1075,7 +1075,7 @@
     },
     {
         "name": "Persistent Sacrifice",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "You and foes within the power's pers areas take substantially more $nonPhysType dmg."
     },
     {
@@ -1095,17 +1095,17 @@
     },
     {
         "name": "Persistent Restoration",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "You and allies within the power's pers areas gain barely any passive regen. This regen is doubled while you are bloodied."
     },
     {
         "name": "Persistent Exploitation",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "Your minions within the power's pers areas inflict a DoT on hit dealing $nonPhysType dmg, stacking until CON save (minion's DC), but are inflicted with a DoT dealing slight {type} dmg, stacking until CON save, whenever the area ticks (your DC)."
     },
     {
         "name": "Persistent Control",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "Your minions within the power's pers areas deal more $nonPhysType dmg."
     },
     {
@@ -1141,12 +1141,12 @@
     },
     {
         "name": "Persistent Endurance",
-        "target": "powers with persistent areas that deal damage",
+        "target": "powers that create persistent areas that deal damage",
         "description": "The power's persistent areas' durations are increased by 1 step, but they deal less dmg."
     },
     {
         "name": "Armoured Persistence",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "While the power's persistent areas are active, you have massively more phys barrier."
     },
     {
@@ -1227,7 +1227,7 @@
     },
     {
         "name": "Persistent Power",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "The power's pers areas deal more dmg."
     },
     {
@@ -2069,7 +2069,7 @@
     },
     {
         "name": "Persistence",
-        "target": "powers with persistent areas",
+        "target": "powers that create persistent areas",
         "description": "When the power's pers area ends, it ticks 1 more time."
     },
     {
@@ -2832,7 +2832,7 @@
     },
     {
         "name": "Ethereal Persistence",
-        "target": "powers with persistent areas that deal damage",
+        "target": "powers that create persistent areas that deal damage",
         "description": "The power's pers areas no longer deal dmg to minions, have their durations increased by 1 step, and are substantially smaller. Additionally, any increases to the pers areas' dmg are converted into increased dmg taken by minions inside."
     },
     {
@@ -2868,16 +2868,51 @@
     {
         "name": "Decaying Command",
         "target": "powers that apply buffs",
-        "description": "Minions buffed by the power inflict a DoT on hit dealing slight $nonPhysType dmg."
+        "description": "Minions buffed by the power inflict a DoT on hit dealing slight $nonPhysType dmg, stacking until CHA save."
     },
     {
         "name": "Afflicted Persistence",
-        "target": "powers with persistent areas",
-        "description": "At the start of each of your turns, the power's pers areas inflict a DoT dealing $nonPhysType dmg to all foes and minions within their areas."
+        "target": "powers that create persistent areas",
+        "description": "At the start of each of your turns, the power's pers areas inflict a DoT dealing $nonPhysType dmg, stacking until CHA save, to all foes and minions within their areas."
     },
     {
-        "name": "Blinding Command [NEXT - lingering doom]",
+        "name": "Blinding Command",
         "target": "powers that apply buffs",
         "description": "Minions buffed by the power have their power usage times decreased by 1 step and are blinded."
+    },
+    {
+        "name": "Commanding Persistence",
+        "target": "powers that create persistent areas",
+        "description": "The power's pers areas deal slightly less dmg to minions, and any minions inside them deal slight additional $nonPhysType dmg with hits."
+    },
+    {
+        "name": "Focused Command",
+        "target": "powers that apply buffs in an area",
+        "description": "The power can now only buff a single minion within its area, but while the minion is buffed by the power, it deals massively more dmg."
+    },
+    {
+        "name": "Keen Command",
+        "target": "powers with no cooldown that apply buffs",
+        "description": "Minions buffed by the power always crit, but the power now can only be used once per combat."
+    },
+    {
+        "name": "Totemic Command",
+        "target": "powers that apply buffs",
+        "description": "Minions buffed by the power have their sp reduced to 0 and continuously taunt all foes within 60' of them. Additionally, they have +2 AC."
+    },
+    {
+        "name": "Ethereal Decay",
+        "target": "powers that create persistent areas",
+        "description": "The power's pers areas no longer deal dmg to minions, but instead inflict a DoT dealing $nonPhysType dmg, stacking until CON save, on them on each tick."
+    },
+    {
+        "name": "Undying Command",
+        "target": "powers that apply buffs",
+        "description": "Undead minions buffed by the power deal more dmg."
+    },
+    {
+        "name": "Inverted Command [NEXT - wisdom of the dead]",
+        "target": "powers that apply buffs in an area",
+        "description": "The power's area is larger, but its buffs no longer apply to minions inside its area. Instead, relevant minions outside its area are affected."
     }
 ]
