@@ -6,7 +6,6 @@ import (
 	"os"
 	"sort"
 	"strconv"
-	"time"
 
 	"github.com/manifoldco/promptui"
 )
@@ -84,7 +83,6 @@ var COMMAND_MAP = map[string]func() error{
 
 func main() {
 	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
-	rand.Seed(time.Now().UnixNano())
 
 	for {
 		log.Println()
