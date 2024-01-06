@@ -148,5 +148,8 @@
     },
     {
         "description": "Gain a permanent +1 global dmg vs $creatureType creatures (empowered = adv on creature type)"
+    },
+    {
+        "description": "A random [weapon or armour] affix is chosen and you permantly radiate a 60' aura that grants that affix to allies (empowered = +1 min pt value of affix)"
     }
 ]
