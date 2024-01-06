@@ -2815,14 +2815,69 @@
         "description": "Upon upgrading the power, choose one of its dmg type options - it always uses that dmg type, but its dmg is increased."
     },
     {
-        "name": "Desperate Empowerment",
+        "name": "Desperate Command",
         "target": "powers that apply buffs",
         "description": "While the power is buffing a minion, it gains +1 buff effectiveness while the minion is bloodied.",
         "meta": "Dread Shade"
     },
     {
-        "name": "Draining Explosions [NEXT - spectral presence]",
+        "name": "Draining Explosions",
         "target": "powers that apply buffs",
         "description": "Minions buffed by the power lose barely any passive regen and if they die while buffed, the buff explodes and you make a spell atk against all foes adj to the corpse that deals massive $nonPhysType dmg."
+    },
+    {
+        "name": "Massive Command",
+        "target": "powers that apply buffs",
+        "description": "The power has more area that only affects minions."
+    },
+    {
+        "name": "Ethereal Persistence",
+        "target": "powers with persistent areas that deal damage",
+        "description": "The power's pers areas no longer deal dmg to minions, have their durations increased by 1 step, and are substantially smaller. Additionally, any increases to the pers areas' dmg are converted into increased dmg taken by minions inside."
+    },
+    {
+        "name": "Quickening Command",
+        "target": "powers that apply buffs",
+        "description": "Minions buffed by the power have their power usage times decreased by 1 step, but they deal less dmg."
+    },
+    {
+        "name": "Powerful Command",
+        "target": "powers that apply buffs",
+        "description": "The power has more area that only affects minions and grants minions buffed by it more dmg, but the minions lose barely any passive regen."
+    },
+    {
+        "name": "Borrowed Blessings",
+        "target": "powers that apply buffs",
+        "description": "Whenever the power's buffs end, foes and minions adj to the buffed creature are cursed with increased global dmg taken until CHA save."
+    },
+    {
+        "name": "Sacrificial Command",
+        "target": "powers that apply buffs",
+        "description": "Whenever a minion buffed by the power dies, another minion within 60' of it of your choice also dies, exploding. You make a spell atk against all foes adj to this corpse dealing massive B dmg."
+    },
+    {
+        "name": "Shared Command",
+        "target": "powers that apply buffs",
+        "description": "While the power is buffing a minion and not you, you also receive all effects of the buff. Additionally, the buff has -1 effectiveness."
+    },
+    {
+        "name": "Commanding Beacons",
+        "target": "powers that apply buffs",
+        "description": "While the power is buffing a foe, it does not grant that foe any of its effects, but instead radiates an aura that grants its effects to all minions within 60' of that foe. Additionally, the buff's duration is reduced by 1 step and it has +1 effectiveness."
+    },
+    {
+        "name": "Decaying Command",
+        "target": "powers that apply buffs",
+        "description": "Minions buffed by the power inflict a DoT on hit dealing slight $nonPhysType dmg."
+    },
+    {
+        "name": "Afflicted Persistence",
+        "target": "powers with persistent areas",
+        "description": "At the start of each of your turns, the power's pers areas inflict a DoT dealing $nonPhysType dmg to all foes and minions within their areas."
+    },
+    {
+        "name": "Blinding Command [NEXT - lingering doom]",
+        "target": "powers that apply buffs",
+        "description": "Minions buffed by the power have their power usage times decreased by 1 step and are blinded."
     }
 ]
