@@ -1636,5 +1636,17 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["spell"]
+    },
+    {
+        "description": "+1 wep dmg while dual-wielding",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
+        "description": "+1 spell dmg while dual-wielding",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["spell", "weapon"]
     }
 ]
