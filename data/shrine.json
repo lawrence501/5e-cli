@@ -66,5 +66,9 @@
     {
         "name": "Blunting",
         "description": "A non-conduit weapon has its dmg die size reduced by 1 and gains a random hard-doubled affix added to its base item."
+    },
+    {
+        "name": "Optimisation",
+        "description": "An item with at least two affixes has a random one of its highest point-value affixes tiered up, and a respective number of points removed randomly from the other affixes on the item. The item must be chosen first."
     }
 ]
