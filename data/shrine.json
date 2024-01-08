@@ -70,5 +70,9 @@
     {
         "name": "Optimisation",
         "description": "An item with at least two affixes has a random one of its highest point-value affixes tiered up, and a respective number of points removed randomly from the other affixes on the item. The item must be chosen first."
+    },
+    {
+        "name": "Absorption",
+        "description": "A body armour gains a random weapon affix that only applies to the powers of crystals socketed inside it."
     }
 ]
