@@ -138,7 +138,7 @@
     },
     {
       "name": "Mass Migration",
-      "description": "All hostile random encounters are removed, and instead the first one is replaced with a crag-crog-style set of monster waves of $creatureType monsters. Starting from CR 0 and increasing by 1 each time (where possible), each wave will contain [player count] copies of a random monster from that creature type. No real time between waves, just new initiative, and after all, gain loot rolls and exp equal to double the number of waves completed."
+      "description": "All hostile random encounters are removed, and instead the first one is replaced with a crag-crog-style set of monster waves of $creatureType monsters. Starting from CR 0 and increasing by 1 each time (where possible), each wave will contain [player count] copies of a random monster from that creature type. No real time between waves, just new initiative, and after all, gain loot rolls equal to the number of waves completed and exp equal to double."
     }
   ]
 }
