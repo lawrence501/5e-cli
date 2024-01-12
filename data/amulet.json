@@ -1347,7 +1347,7 @@
       },
       {
         "name": "Surge's Infestation",
-        "effect": "+3 to dmg made as a reaction",
+        "effect": "+4 to dmg made as a reaction",
         "upgrade": "+2 AoE dmg",
         "setBonuses": [
           {

@@ -702,9 +702,9 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+3 dmg with traps",
+        "description": "+1 dmg with traps",
         "pointValue": "1",
-        "upgrade": "+2/1",
+        "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {

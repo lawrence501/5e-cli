@@ -3597,14 +3597,14 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+3 dmg with traps",
+                    "description": "+1 dmg with traps",
                     "pointValue": "1",
-                    "upgrade": "+2/1"
+                    "upgrade": "+1/1"
                 },
                 {
-                    "description": "whenever your traps are triggered, all affected foes have their sp reduced to 0 for 1rnd or until they take dmg",
-                    "pointValue": "3",
-                    "upgrade": "+3->2 dmg with traps/1"
+                    "description": "whenever your deployed traps are triggered, all affected foes have their sp reduced to 0 for 1rnd or until they take dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg with traps/1"
                 }
             ],
             "thematicAffixes": [
@@ -3624,19 +3624,19 @@
                     "upgrade": "+5'/1"
                 },
                 {
-                    "description": "4. on trap hit, target gets +4 dmg taken from traps for 1rnd",
-                    "pointValue": "2",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "5. +1 to your trap DCs",
+                    "description": "4. on trap hit, target gets +1 dmg taken from traps for 1rnd",
                     "pointValue": "2",
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "6. +4 dmg with traps vs debuffed targets",
+                    "description": "5. +1 to your trap DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +2 dmg with traps vs debuffed targets",
                     "pointValue": "1",
-                    "upgrade": "+4/1"
+                    "upgrade": "+1/1"
                 }
             ]
         },
@@ -4157,6 +4157,58 @@
                     "description": "6. on crit, one of your DoTs of your choice on the target has its dmg increased by 2",
                     "pointValue": "2",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Surge",
+            "startingAffixes": [
+                {
+                    "description": "your dmging non-basic maneuvers always have 1 additional dmg die",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "on non-basic maneuver hit, your next non-basic maneuver deals +3 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "+1 wep dmg while buffed",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on non-basic maneuver hit while buffed, recover 1 exertion",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. +2 to dmg made as a reaction",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. whenever you deploy a trap, all foes adj to it have their sp halved for 1rnd",
+                    "pointValue": "2",
+                    "upgrade": "+1 trap dmg/1"
+                },
+                {
+                    "description": "4. your traps have +5' trigger range",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "5. on dealing dmg as a reaction, gain 2 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on dealing dmg as a reaction, grant ally within 60' a d4 ammo die that can be added to a dmg roll this combat",
+                    "pointValue": "2",
+                    "upgrade": "+1 die size/1"
                 }
             ]
         }
