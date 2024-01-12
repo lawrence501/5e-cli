@@ -218,6 +218,12 @@
                 "[CURSE] When you put the ring on, tendrils sprout from it and burrow into your finger from the ring's inner side. You cannot remove the ring willingly.",
                 "You gain double proficiency in Sleight of Hand."
             ]
+        },
+        {
+            "name": "Ring of Power",
+            "effects": [
+                "1/LR, as an action, you can say 'Posse' to recover 1 spell slot of a lvl one lower than your highest."
+            ]
         }
     ],
     "rare": [
@@ -562,6 +568,12 @@
                 "The ring has 3 charges, 1d3 of which are recovered after a LR.",
                 "If you spend 1min studying the ring, you can expend 1 charge to replace any of your prepared spells with any of the following spells: Contingency, Fireball, Gust of Wind, Leomund's Tiny Hut, Magic Missile, Thunderwave, or Wall of Force.",
                 "Whenever a creature you can see takes dmg from an evocation spell, you can react and expend 1 charge to have the dmg deal an additional 2d6 force and knock the target prone if it is Large or smaller."
+            ]
+        },
+        {
+            "name": "Ring of Displacement",
+            "effects": [
+                "While wearing the ring, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take dmg, this effect ends until the start of your next turn. This has no effect while your speed is 0."
             ]
         }
     ],
@@ -1108,6 +1120,12 @@
                 "1/LR, you can reroll any d20.",
                 "The ring has 1d4 - 1 charges when found, and these charges never replenish.",
                 "1/LR, as an action, you can expend 1 charge to cast Wish."
+            ]
+        },
+        {
+            "name": "Mastery Stone",
+            "effects": [
+                "+1 to your prof bonus."
             ]
         }
     ],
