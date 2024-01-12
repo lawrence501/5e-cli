@@ -196,7 +196,8 @@
         "On sidekick hit",
         "On sidekick miss",
         "On sidekick block",
-        "When your sidekick is hit"
+        "When your sidekick is hit",
+        "Whenever your sidekick is pulled from the pocket dimension"
     ],
     "target": [
         "yourself",
