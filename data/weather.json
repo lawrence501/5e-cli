@@ -143,6 +143,10 @@
     {
       "name": "Harvest Moon",
       "description": "At the start of combat, all combatants are assigned a random order. If combatants are knocked to 0 hit points in this order, the combat grants 1 additional reward and all its rewards are empowered."
+    },
+    {
+      "name": "Bored Spirits",
+      "description": "During combat, combatants cannot use any powers they have used since the start of their last turn."
     }
   ]
 }
