@@ -4367,6 +4367,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Seething",
+            "startingAffixes": [
+                {
+                    "description": "if your STR is 15+, +1 wep dmg while holding a sword wep",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on KB while holding a sword wep, recover 2 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "whenever you recover exertion, you gain +2 wep dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 STR",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. on KB, you gain +2 wep dmg for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. if your STR is 15+, +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. all of your weapons count as swords",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg with sword weps/1"
+                },
+                {
+                    "description": "5. whenever you recover exertion while holding a sword wep, gain +2 wep dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 crit dice vs creatures who have taken dmg from your traps since the start of your last turn",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
