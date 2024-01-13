@@ -4263,6 +4263,58 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "The Blade-Coven",
+            "startingAffixes": [
+                {
+                    "description": "after the 2nd rnd of combat, +3 melee dmg",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "after the 2nd rnd of combat, +10' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "after the 2nd rnd of combat, +1 to DEX saves",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 to saves vs being forcibly moved",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "2. on proj hit, make a melee glyphic atk against the target that deals 1d4 S dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 to your DEX save DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. after the 2nd rnd of combat, +1 to your DEX save DCs",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. after the 2nd rnd of combat, +1 melee AB",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +1 melee crit dice",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
