@@ -304,19 +304,19 @@
         ]
     },
     {
-        "name": "Wields Dangrous Cyphers",
+        "name": "Wields Dangerous Cyphers",
         "description": "Empowering wondrous items",
         "tiers": [
-            "1. Aim True: At-will; free action; A wondrous items you use counts as also being used by an ally within 60' of you.",
+            "1. Aim True: At-will; free action; A ring power you use counts as also being used by an ally within 60' of you.",
             "2. +1 maximum hit dice.",
-            "3. Whenever you would find a wondrous item, you find one 1 rarity higher.",
-            "4. Whenever you find a wondrous item, you receive 2 and choose which one to keep.",
-            "5. Whenever a wondrous item's usage involves a random effect based on a die roll, you can use the die result of your choice.",
-            "6. Whenever you would find gold in the wondrous item loot slot, you instead find an uncommon wondrous item. This is not affected by T3.",
+            "3. Whenever you would find a ring, you find one 1 rarity higher.",
+            "4. Whenever you find a ring, you receive 2 and choose which one to keep.",
+            "5. Whenever a ring's usage involves a random effect based on a die roll, you can use the die result of your choice.",
+            "6. Whenever you would find gold in the ring loot slot, you instead find an uncommon ring. This is not affected by T3.",
             "7. When you use your Aim True feature, the duplication effect applies to 1 additional ally within 60' of you.",
             "8. When you use your Aim True feature, the duplication effect applies to 1 additional ally within 60' of you.",
             "9. +1 maximum hit dice.",
-            "10. T3 now increases the rarity of found wondrous items by 3 tiers."
+            "10. T3 now increases the rarity of found rings by 3 tiers."
         ]
     },
     {
