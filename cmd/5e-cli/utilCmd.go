@@ -280,27 +280,14 @@ var dmgUpgrade = func() error {
 }
 
 var chaos = func() error {
-	chaosTypeRoll := rand.Intn(6)
-	var mod string
-	if chaosTypeRoll < 3 {
-		chaos, err := fetchChaos()
-		if err != nil {
-			return err
-		}
-
-		chaosTrigger := chaos.Trigger[rand.Intn(len(chaos.Trigger))]
-		chaosTarget := chaos.Target[rand.Intn(len(chaos.Target))]
-		mod = fmt.Sprintf("%s, cast [https://5e.tools/spells.html#blankhash,flstsubschool:maneuver=2] on %s", chaosTrigger, chaosTarget)
-	} else {
-		switch chaosTypeRoll {
-		case 3:
-			mod = "AI-generated [https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx] from prompt: 'Design a homebrew $class archetype for Dungeons & Dragons 5th Edition inspired by [something random from random inspiration].'"
-		case 4:
-			mod = "AI-generated [https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx] from prompt: 'Design a homebrew $class archetype for Dungeons & Dragons 5th Edition themed around [https://perchance.org/object]s.'"
-		case 5:
-			mod = "AI-generated [https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx] from prompt: 'Design a homebrew $class archetype for Dungeons & Dragons 5th Edition themed around [https://www.randomlists.com/random-animals?show_images=false&dup=false&qty=1]s.'"
-		}
+	chaos, err := fetchChaos()
+	if err != nil {
+		return err
 	}
+
+	chaosTrigger := chaos.Trigger[rand.Intn(len(chaos.Trigger))]
+	chaosTarget := chaos.Target[rand.Intn(len(chaos.Target))]
+	mod := fmt.Sprintf("%s, cast [https://5e.tools/spells.html#blankhash,flstsubschool:maneuver=2] on %s", chaosTrigger, chaosTarget)
 
 	log.Printf("Chaotic modifier: %s", processString(mod))
 	return nil

@@ -40,10 +40,6 @@
         "description": "Body armour gets -1 AC and random hard-tripled affix added to its base item"
     },
     {
-        "name": "Experimentation",
-        "description": "A random affix evolves into its experimental form [prompt = 'Design a homebrew $class archetype for dungeons & dragons 5th edition inspired by a magic item with the following properties:']. The same affix will always evolve into the same effect. Item must be chosen first."
-    },
-    {
         "name": "Scouring",
         "description": "A random affix is rerolled into a new crafted affix with the $affinity Affinity, ignoring the point value of the original affix. Item must be chosen first."
     },
