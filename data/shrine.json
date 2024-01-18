@@ -70,5 +70,9 @@
     {
         "name": "Absorption",
         "description": "A body armour gains a random weapon affix that only applies to the powers of crystals socketed inside it."
+    },
+    {
+        "name": "Modification",
+        "description": "A non-conduit weapon has its dmg die size reduced by 1 and gains a random trait that it didn't already have added to its base item."
     }
 ]
