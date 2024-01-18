@@ -64,5 +64,8 @@
     },
     {
         "description": "Be present when your sidekick scores a killing blow."
+    },
+    {
+        "description": "Make 3 attacks in a single round."
     }
 ]
