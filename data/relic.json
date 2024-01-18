@@ -4367,6 +4367,58 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "Pyromania",
+            "startingAffixes": [
+                {
+                    "description": "every 5 limited power hits, your next limited power hit debils until DEX save",
+                    "pointValue": "4",
+                    "upgrade": "-1 hits/4"
+                },
+                {
+                    "description": "your first limited power hit of each combat debils for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1 to your limited power DCs/4"
+                },
+                {
+                    "description": "whenever you go down, all debils inflicted by you end",
+                    "pointValue": "-1",
+                    "upgrade": "-3->2 max HP and 2pts distributed/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +2 minion spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +5' minion sp",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "3. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 incoming temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +2 minion incoming temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 outgoing temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
