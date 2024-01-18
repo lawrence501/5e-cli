@@ -63,19 +63,6 @@ type Wondrous struct {
 	Legendary []Generic `json:"legendary"`
 }
 
-type Rings struct {
-	Uncommon  []Ring `json:"uncommon"`
-	Rare      []Ring `json:"rare"`
-	VeryRare  []Ring `json:"very rare"`
-	Legendary []Ring `json:"legendary"`
-	Artifact  []Ring `json:"artifact"`
-}
-
-type Ring struct {
-	Name    string   `json:"name"`
-	Effects []string `json:"effects"`
-}
-
 type Affix struct {
 	Description string   `json:"description"`
 	PointValue  string   `json:"pointValue"`

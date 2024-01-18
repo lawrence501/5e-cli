@@ -1080,13 +1080,13 @@
         "tags": ["armour"]
     },
     {
-        "description": "+3 dmg barrier if you haven't displaced distance since start of your last turn",
+        "description": "+3 dmg barrier if you haven't moved since start of your last turn",
         "pointValue": "1",
         "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {
-        "description": "+2 wep dmg if you haven't displaced distance since start of your last turn",
+        "description": "+2 wep dmg if you haven't moved since start of your last turn",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]

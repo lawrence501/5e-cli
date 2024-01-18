@@ -603,7 +603,7 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "3. on spell hit, target is slowed until end of your next turn",
+                    "description": "3. on spell hit, target has their sp halved until end of your next turn",
                     "pointValue": "2",
                     "upgrade": "+2->1 spell dmg vs debuffed targets/1"
                 },
@@ -697,7 +697,7 @@
             ],
             "thematicAffixes": [
                 {
-                    "description": "1. on hit, target slowed until end of your next turn",
+                    "description": "1. on hit, target has their sp halved until end of your next turn",
                     "pointValue": "2",
                     "upgrade": "+2 wep dmg vs debuffed targets/1"
                 },
@@ -1752,14 +1752,14 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "4. +1 to your debuff DCs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
+                    "description": "4. +1 to your prone DCs",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
                 },
                 {
                     "description": "5. on wep hit, knock your target prone",
                     "pointValue": "2",
-                    "upgrade": "+1 wep AB vs non-debuffed targets/4"
+                    "upgrade": "+1 wep AB vs non-prone targets/3"
                 },
                 {
                     "description": "6. +1 wep crit dice",
@@ -2279,12 +2279,12 @@
                 {
                     "description": "5. all forms of increased dmg taken you inflict is converted to sluggish",
                     "pointValue": "1",
-                    "upgrade": "creatures debuffed by you have -1 AC/4"
+                    "upgrade": "creatures made sluggish by you have -1 AC/3"
                 },
                 {
                     "description": "6. on sub wep hit, target is staggered until end of your next turn",
                     "pointValue": "4",
-                    "upgrade": "+1 wep AB vs debuffed targets/3"
+                    "upgrade": "+1 wep AB vs staggered targets/2"
                 }
             ]
         },
@@ -2354,21 +2354,21 @@
                     "upgrade": "+1 DoT dmg/1"
                 },
                 {
-                    "description": "whenever you apply a debuff to a target, all foes adj to that target are also afflicted with that debuff",
-                    "pointValue": "2",
+                    "description": "whenever you apply a DoT to a target, all foes adj to that target are also afflicted with that DoT",
+                    "pointValue": "1",
                     "upgrade": "+2->1 DoT dmg vs targets adj to another creature affected by the same DoT/1"
                 }
             ],
             "thematicAffixes": [
                 {
-                    "description": "1. your spells that apply debuffs have their spell slot cost increased by 1 lvl; 4pts distributed",
+                    "description": "1. your spells that apply DoTs have their spell slot cost increased by 1 lvl; 3pts distributed",
                     "pointValue": "1",
-                    "upgrade": "+1 lvl and 4pts distributed/1"
+                    "upgrade": "+1 lvl and 3pts distributed/1"
                 },
                 {
-                    "description": "2. on debuffing a target, also give the target -1 global dmg while the debuff is active",
-                    "pointValue": "3",
-                    "upgrade": "-1/3"
+                    "description": "2. on DoTing a target, also give the target -1 global dmg while the DoT is active",
+                    "pointValue": "2",
+                    "upgrade": "-1/2"
                 },
                 {
                     "description": "3. if your INT is 15+, +1 DoT dmg",
@@ -2376,19 +2376,19 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "4. on debuffing a target, also halve the target's sp while the debuff is active (doesn't stack)",
-                    "pointValue": "3",
+                    "description": "4. on DoTing a target, also halve the target's sp while the DoT is active (doesn't stack)",
+                    "pointValue": "2",
                     "upgrade": "+1 DoT dmg/1"
                 },
                 {
-                    "description": "5. on hit vs target debuffed by you, the debuff spreads to a foe adj to the target if possible",
-                    "pointValue": "1",
-                    "upgrade": "+1 global AB vs debuffed targets/4"
+                    "description": "5. on hit vs target DoT'd by you, the DoT spreads to a foe adj to the target if possible",
+                    "pointValue": "3",
+                    "upgrade": "+1 global AB vs DoT'd targets/3"
                 },
                 {
-                    "description": "6. on hit vs target debuffed by you, gain 2 temp HP",
+                    "description": "6. on hit vs target DoT'd by you, gain 3 temp HP",
                     "pointValue": "1",
-                    "upgrade": "+1/1"
+                    "upgrade": "+2/1"
                 }
             ]
         },
@@ -3339,7 +3339,7 @@
                 {
                     "description": "on sub hit, target is debil for 1rnd",
                     "pointValue": "4",
-                    "upgrade": "+1 global AB vs debuffed targets/4"
+                    "upgrade": "+1 global AB vs debil targets/3"
                 },
                 {
                     "description": "+1 proj dmg",
@@ -3394,9 +3394,9 @@
                     "upgrade": "+1 crit range/4"
                 },
                 {
-                    "description": "on non-limited wep hit vs debuffed target, a debuff of your choice is removed and the hit deals +5 P dmg",
+                    "description": "on non-limited wep hit vs illuminated target, a debuff of your choice is removed and the hit deals +6 P dmg",
                     "pointValue": "1",
-                    "upgrade": "+5/1"
+                    "upgrade": "+6/1"
                 }
             ],
             "thematicAffixes": [
@@ -3406,13 +3406,13 @@
                     "upgrade": "+1 and 3pts distributed/1"
                 },
                 {
-                    "description": "2. on non-limited power hit vs debuffed target, +2 wep dmg for 1rnd",
+                    "description": "2. on non-limited power hit vs illuminated target, +3 wep dmg for 1rnd",
                     "pointValue": "1",
-                    "upgrade": "+1/1"
+                    "upgrade": "+2/1"
                 },
                 {
-                    "description": "3. on non-limited power hit vs debuffed target, +5' sp for 1rnd",
-                    "pointValue": "1",
+                    "description": "3. on non-limited power hit vs illuminated target, +10' sp for 1rnd",
+                    "pointValue": "2",
                     "upgrade": "+5'/1"
                 },
                 {
@@ -3458,9 +3458,9 @@
                     "upgrade": "+1 mark effectiveness/3"
                 },
                 {
-                    "description": "2. +1 ranged wep AB vs debuffed targets",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
+                    "description": "2. +1 ranged wep AB vs marked targets",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 },
                 {
                     "description": "3. your wep range is doubled",
@@ -3634,9 +3634,9 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "6. +2 dmg with traps vs debuffed targets",
+                    "description": "6. +3 dmg with traps vs rooted targets",
                     "pointValue": "1",
-                    "upgrade": "+1/1"
+                    "upgrade": "+2/1"
                 }
             ]
         },
@@ -3753,21 +3753,21 @@
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "creatures debuffed by you have -2 wep dmg",
+                    "description": "creatures diseased by you have -3 wep dmg",
                     "pointValue": "1",
-                    "upgrade": "-1/1"
+                    "upgrade": "-2/1"
                 },
                 {
-                    "description": "creatures debuffed by you have -1 to CON saves",
-                    "pointValue": "2",
-                    "upgrade": "-1/2"
+                    "description": "creatures diseased by you have -1 to CON saves",
+                    "pointValue": "1",
+                    "upgrade": "-1/1"
                 }
             ],
             "thematicAffixes": [
                 {
-                    "description": "1. creatures debuffed by you have -1 AC",
-                    "pointValue": "4",
-                    "upgrade": "-1/4"
+                    "description": "1. creatures diseased by you have -1 AC",
+                    "pointValue": "3",
+                    "upgrade": "-1/3"
                 },
                 {
                     "description": "2. gain DoT dmg equal to your bonus spell dmg",
@@ -3775,24 +3775,24 @@
                     "upgrade": "+1 spell dmg/1"
                 },
                 {
-                    "description": "3. creatures debuffed by you have their wep dmg reduced by an amount equal to your bonus spell dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1 spell dmg/1"
-                },
-                {
-                    "description": "4. creatures debuffed by you have their CON saves reduced by an amount equal to half of your bonus spell dmg",
+                    "description": "3. creatures diseased by you have their wep dmg reduced by an amount equal to double your bonus spell dmg",
                     "pointValue": "2",
                     "upgrade": "+1 spell dmg/1"
                 },
                 {
-                    "description": "5. creatures debuffed by you have their AC reduced by an amount equal to half your bonus spell dmg",
-                    "pointValue": "4",
+                    "description": "4. creatures diseased by you have their CON saves reduced by an amount equal to half of your bonus spell dmg",
+                    "pointValue": "1",
                     "upgrade": "+1 spell dmg/1"
                 },
                 {
-                    "description": "6. on debuffing a creature, they are debilitated for 1 rnd",
-                    "pointValue": "4",
-                    "upgrade": "+1 to your debuff DCs/4"
+                    "description": "5. creatures diseased by you have their AC reduced by an amount equal to half your bonus spell dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1 spell dmg/1"
+                },
+                {
+                    "description": "6. on diseasing a creature, they are debilitated for 1 rnd",
+                    "pointValue": "3",
+                    "upgrade": "+1 to your disease DCs/3"
                 }
             ]
         },
@@ -4313,58 +4313,6 @@
                     "description": "6. +1 melee crit dice",
                     "pointValue": "2",
                     "upgrade": "+1/2"
-                }
-            ]
-        },
-        {
-            "name": "Dangerous Ring Wielder",
-            "startingAffixes": [
-                {
-                    "description": "1/LR, when you use a ring's power, it also counts as being used by 1 additional ally within 60' of you at the start of your next turn",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "whenever an ally uses your ring's power, it has +1 effectiveness",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "+1 max hit dice",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. whenever you find a ring, you find one 1 rarity higher",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "2. whenever you find a ring, you find 2 and can choose 1 to keep",
-                    "pointValue": "1",
-                    "upgrade": "+1 found/1"
-                },
-                {
-                    "description": "3. you can modify rolls made to determine the effect of a ring by 1",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "4. whenever you find gold in the ring loot slot, you instead find an uncommon ring",
-                    "pointValue": "1",
-                    "upgrade": "+1 tier/1"
-                },
-                {
-                    "description": "5. your ring powers have +1 effectiveness",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "6. you may adjust your loot roll results by up to 1",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
                 }
             ]
         },

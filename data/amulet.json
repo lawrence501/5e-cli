@@ -289,12 +289,12 @@
         "setBonuses": [
           {
             "ally": "Arvewal",
-            "effect": "on hit if you haven't displaced distance since start of your last turn, target gets +3 dmg taken from types your hit deals until your next turn. doesn't stack",
+            "effect": "on hit if you haven't moved since start of your last turn, target gets +3 dmg taken from types your hit deals until your next turn. doesn't stack",
             "upgrade": "-2"
           },
           {
             "ally": "The Rhox",
-            "effect": "if you haven't displaced distance since start of your last turn, +2 global dmg vs prone targets",
+            "effect": "if you haven't moved since start of your last turn, +2 global dmg vs prone targets",
             "upgrade": "+2"
           },
           {
@@ -343,7 +343,7 @@
         "setBonuses": [
           {
             "ally": "Al'akir",
-            "effect": "if you haven't displaced distance since start of your last turn, +2 global dmg vs prone targets",
+            "effect": "if you haven't moved since start of your last turn, +2 global dmg vs prone targets",
             "upgrade": "+2"
           },
           {
@@ -1002,7 +1002,7 @@
       {
         "name": "Godworms' Drive",
         "effect": "1/SR, on hit, dominate target until end of their next turn",
-        "upgrade": "creatures dominated by you have +2 dmg taken",
+        "upgrade": "creatures dominated by you have +1 dmg taken",
         "setBonuses": [
           {
             "ally": "Kreon",
@@ -1021,8 +1021,8 @@
           },
           {
             "ally": "Trauma Demon",
-            "effect": "-5 max HP; creatures dominated by you take 5 thorns dmg from you on hit",
-            "upgrade": "-4 and +5"
+            "effect": "-5 max HP; creatures dominated by you take 7 thorns dmg from you on hit",
+            "upgrade": "-5 and +7"
           }
         ]
       },
@@ -1070,7 +1070,7 @@
           },
           {
             "ally": "Godworms",
-            "effect": "-5 max HP; creatures debuffed by you take 5 thorns dmg from you on hit",
+            "effect": "-5 max HP; creatures dominated by you take 5 thorns dmg from you on hit",
             "upgrade": "+1"
           },
           {

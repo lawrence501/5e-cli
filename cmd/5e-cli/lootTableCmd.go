@@ -67,34 +67,21 @@ var wondrous = func() error {
 	return nil
 }
 
-var RING_WEIGHTS = []int{50, 79, 91, 97, 99, 100}
-var RING_RARITIES = []string{"gold", "uncommon", "rare", "very rare", "legendary", "artifact"}
 var ring = func() error {
-	rarityRoll := rand.Intn(100)
-	var rarity string
-	for i := range RING_WEIGHTS {
-		if rarityRoll < RING_WEIGHTS[i] {
-			rarity = RING_RARITIES[i]
-			break
-		}
-	}
-
-	if rarity == "gold" {
-		if err := mediumGold(); err != nil {
-			return err
-		}
-		return nil
-	}
-	rings, err := fetchRings(rarity)
+	rings, err := fetchRings()
 	if err != nil {
 		return err
 	}
 
-	chosen := randSelect(rings)
-	var modDescriptions []string
-	modDescriptions = append(modDescriptions, chosen.Effects...)
-	modString := strings.Join(modDescriptions, "\n- ")
-	log.Printf("%s ring\n\n%s:\n- %s", rarity, chosen.Name, modString)
+	options := make([]string, len(rings))
+	idx := 0
+	for r := range rings {
+		options[idx] = r
+		idx++
+	}
+
+	chosen := randSelect(options)
+	log.Printf("Ring\n%s", processString(chosen))
 	return nil
 }
 

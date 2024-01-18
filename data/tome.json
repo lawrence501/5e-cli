@@ -2034,7 +2034,7 @@
     {
         "name": "Mobile Power",
         "target": "powers that move you",
-        "description": "If the power displaces you 30+', it deals more dmg."
+        "description": "If the power displaces you 15+', it deals more dmg."
     },
     {
         "name": "Crippled Power",

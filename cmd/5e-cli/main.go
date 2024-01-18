@@ -13,12 +13,12 @@ import (
 var ROLL_RANGE_CEILINGS = map[int]func() error{
 	11:  func() error { log.Println("Reroll and upgrade result with +1 colour!"); return nil },
 	19:  lowGold,
-	27:  ring,
-	35:  shrine,
-	43:  func() error { log.Printf("Crystal: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))]); return nil },
-	51:  magicItem,
+	27:  shrine,
+	35:  func() error { log.Printf("Crystal: %s", CREATURE_TYPES[rand.Intn(len(CREATURE_TYPES))]); return nil },
+	43:  magicItem,
+	51:  tome,
 	59:  amulet,
-	67:  tome,
+	67:  ring,
 	75:  func() error { log.Println("2x Tarot Cards"); return nil },
 	83:  relic,
 	91:  func() error { log.Println("Dream Mirror"); return nil },
@@ -79,6 +79,7 @@ var COMMAND_MAP = map[string]func() error{
 	"mission":       mission,
 	"affinity":      affinity,
 	"trait":         weaponTrait,
+	"mag":           magicItem,
 }
 
 func main() {

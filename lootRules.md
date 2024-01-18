@@ -23,9 +23,9 @@ Crystals are socketable items that go inside any body armour. Each looted crysta
 
 Magic equipment can be of any equipment slot you want (weapon, shield, helmet, body armour, gloves, or boots). It has either 1, 2, or 3 affixes on it, and those affixes each have a minimum point value of 3, 2, and 1, respectively.
 
-## Rings (jewelry)
+## Rings (atifacts of Mother)
 
-Rings are unique magic items. They are separated into rarities: Uncommon (useful, but nothing crazy and potentially niche), rare (generally useful), very rare (powerful), legendary (extremely powerful), and artifact (extremely powerful, and often intelligent). All rings must be identified to learn what they do, with a DC based on their rarity. Rings must also be attuned to for their benefits, and each character can have a maximum of 1 item attuned to them.
+Rings start off with one of several very basic effects that enhance your character. You can feed an unwanted ring into another ring to receive 3 options of how to evolve the remaining ring's effect. Each time a ring evolves, its effect becomes more specific, specialised, and powerful. If an Education Stone, which can rarely be found alongside a new ring, on a ring, you can modify the direction of the ring's future evolutions.
 
 ## Amulets (artifacts of P'all)
 

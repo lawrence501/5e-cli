@@ -52,7 +52,7 @@ Lawrence: 1400
 - Backstory identity
 - Build gap-fill
 - Self-synergy mechanic
-- Transformative
+- Transformative  
 
 ### Manual value cheatsheet
 
@@ -187,9 +187,7 @@ While riding your mount, your AC increases by 1.
 
 - Augment system - some sort of experience and gain on breakpoints? Have class feature-esque boosts in the pool, and maybe stuff that adds synergy between backstory pairs. Every 50xp?
 
-- Ban all resurrection magic? Just trivialises death?
-
-- "I know a guy" system Declan told me about
+- New ring idea: have a few base ring effects, very simple and basic, each time you upgrade a ring, it gets some options of how to 'progress', sort of like a skill tree. as you keep ugprading it, it moves further in that direction, getting progressively more specialised and powerful. Maybe use feats as inspiration for base concepts to branch from
 
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)

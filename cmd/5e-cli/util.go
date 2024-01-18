@@ -174,39 +174,23 @@ func fetchWondrous(rarity string) ([]Generic, error) {
 	return ret, nil
 }
 
-func fetchRings(rarity string) ([]Ring, error) {
+func fetchRings() (map[string]any, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
-		return []Ring{}, err
+		return map[string]any{}, err
 	}
 
 	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "ring.json"))
 	if err != nil {
-		return []Ring{}, err
+		return map[string]any{}, err
 	}
 
-	rings := Rings{}
+	rings := map[string]any{}
 	err = json.Unmarshal([]byte(f), &rings)
 	if err != nil {
-		return []Ring{}, err
+		return map[string]any{}, err
 	}
-
-	var ret []Ring
-	switch rarity {
-	case "uncommon":
-		ret = rings.Uncommon
-	case "rare":
-		ret = rings.Rare
-	case "very rare":
-		ret = rings.VeryRare
-	case "legendary":
-		ret = rings.Legendary
-	case "artifact":
-		ret = rings.Artifact
-	default:
-		return []Ring{}, fmt.Errorf("invalid ring rarity: %s", rarity)
-	}
-	return ret, nil
+	return rings, nil
 }
 
 func fetchAmulets() ([]AmuletSet, error) {
