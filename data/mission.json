@@ -67,5 +67,8 @@
     },
     {
         "description": "Make 3 attacks in a single round."
+    },
+    {
+        "description": "Complete a journey with 3+ levels of fatigue or strife."
     }
 ]
