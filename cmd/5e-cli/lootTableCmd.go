@@ -39,34 +39,6 @@ var mediumGold = func() error {
 	return nil
 }
 
-var WONDROUS_WEIGHTS = []int{50, 80, 92, 98, 100}
-var WONDROUS_RARITIES = []string{"gold", "uncommon", "rare", "very rare", "legendary"}
-var wondrous = func() error {
-	rarityRoll := rand.Intn(100)
-	var rarity string
-	for i := range WONDROUS_WEIGHTS {
-		if rarityRoll < WONDROUS_WEIGHTS[i] {
-			rarity = WONDROUS_RARITIES[i]
-			break
-		}
-	}
-
-	if rarity == "gold" {
-		if err := lowGold(); err != nil {
-			return err
-		}
-		return nil
-	}
-	wondrous, err := fetchWondrous(rarity)
-	if err != nil {
-		return err
-	}
-
-	chosen := randSelect(wondrous)
-	log.Printf("%s wondrous item\n%s: %s", rarity, chosen.Name, chosen.Description)
-	return nil
-}
-
 var ring = func() error {
 	rings, err := fetchRings()
 	if err != nil {

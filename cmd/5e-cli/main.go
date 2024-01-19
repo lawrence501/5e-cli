@@ -61,7 +61,6 @@ var COMMAND_MAP = map[string]func() error{
 	"amulet":        amulet,
 	"relic new":     relic,
 	"chaos":         chaos,
-	"wondrous":      wondrous,
 	"ring":          ring,
 	"combat":        combat,
 	"travel":        travel,
