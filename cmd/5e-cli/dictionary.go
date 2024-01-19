@@ -141,8 +141,8 @@ var DAMAGE_POLARITIES []string = []string{
 var PARTY_MEMBERS []string = []string{
 	"Adrian",
 	"Dekel",
-	"Bentley",
-	"Dan",
+	"Siggy",
+	"Vehemir",
 }
 
 var CITIES []string = []string{

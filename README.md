@@ -42,6 +42,7 @@ Lawrence: 1400
 ### Dream inspiration options
 
 - Class/subclass feature
+- Knack
 - Feat
 - Race
 - Spell/maneuver
