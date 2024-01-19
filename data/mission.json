@@ -70,5 +70,8 @@
     },
     {
         "description": "Complete a journey with 3+ levels of fatigue or strife."
+    },
+    {
+        "description": "Complete a journey with no fatigue or strife."
     }
 ]
