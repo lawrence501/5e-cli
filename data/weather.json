@@ -147,6 +147,10 @@
     {
       "name": "Bored Spirits",
       "description": "During combat, combatants cannot use any powers they have used since the start of their last turn."
+    },
+    {
+      "name": "Warped Physics",
+      "description": "Whenever a creature scores a critical hit, it deals no extra damage, but instead inflicts a random condition for 1 round."
     }
   ]
 }
