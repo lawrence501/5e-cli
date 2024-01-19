@@ -1176,13 +1176,13 @@
         "tags": ["armour"]
     },
     {
-        "description": "with 2+ adj foes, +3 dmg barrier",
+        "description": "with an adj foe, +3 dmg barrier",
         "pointValue": "1",
         "upgrade": "+2/1",
         "tags": ["armour"]
     },
     {
-        "description": "with 2+ adj foes, +2 wep dmg",
+        "description": "with an adj foe, +2 wep dmg",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]

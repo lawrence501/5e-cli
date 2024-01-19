@@ -4419,6 +4419,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Vengeful Spirit",
+            "startingAffixes": [
+                {
+                    "description": "+1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on spell hit, target has +1 wep dmg taken for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "whenever you cast an AoE spell, you can see anything in that area for 1rnd",
+                    "pointValue": "3",
+                    "upgrade": "+5' AoE sizes/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. adj allies have +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. 1/SR, as a bonus action, swap spaces with a creature within 5' of you",
+                    "pointValue": "4",
+                    "upgrade": "+5'/4"
+                },
+                {
+                    "description": "3. whenever you forcibly move another creature, they lose conc",
+                    "pointValue": "1",
+                    "upgrade": "+1 to your shove DCs/2"
+                },
+                {
+                    "description": "4. whenever you forcibly move another creature, make a spell atk against them that deals 1d4 force dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "5. whenever you move an ally, gain 2 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. whenever you move an ally, they gain 2 temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
