@@ -150,7 +150,11 @@
     },
     {
       "name": "Warped Physics",
-      "description": "Whenever a creature scores a critical hit, it deals no extra damage, but instead inflicts a random condition for 1 round."
+      "description": "Whenever a creature scores a natural critical hit, it deals no extra damage, but instead inflicts a random condition for 1 round."
+    },
+    {
+      "name": "Charged Earth",
+      "description": "Creatures cannot deal damage while standing on the ground."
     }
   ]
 }
