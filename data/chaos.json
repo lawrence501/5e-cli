@@ -199,7 +199,8 @@
         "When your sidekick is hit",
         "Whenever your sidekick is pulled from the pocket dimension",
         "Whenever your sidekick enters the pocket dimension",
-        "When you encounter a positive random encounter"
+        "When you encounter a positive random encounter",
+        "On ending your turn not standing on the ground"
     ],
     "target": [
         "yourself",

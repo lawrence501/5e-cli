@@ -7511,7 +7511,7 @@
             ],
             "thematicAffixes": [
                 {
-                    "description": "1. 1/LR, as a bonus action, you can emit a wail, making a wep atk against all foes within 30' that deals 1d4 psy dmg",
+                    "description": "1. 1/LR, as a bonus action, you can emit a wail, making a wep atk against all foes within 30' that deals 1d4 thunder dmg",
                     "pointValue": "4",
                     "upgrade": "+1 dmg/1"
                 },
