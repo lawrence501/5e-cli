@@ -7541,6 +7541,58 @@
                     "upgrade": "+1 P dmg/1"
                 }
             ]
+        },
+        {
+            "name": "Snowliners",
+            "startingAffixes": [
+                {
+                    "description": "+1 wep dmg while dual-wielding",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 minion dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+3 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on init, summon an ice elemental, a CR 1/8 minion that deals cold dmg. It lasts until the end of combat",
+                    "pointValue": "2",
+                    "upgrade": "+1 CR/2"
+                },
+                {
+                    "description": "2. +2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 cold dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +2 minion dmg while dual-wielding",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. while healthy, +3 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "6. your weps gain the dual-wielding trait",
+                    "pointValue": "3",
+                    "upgrade": "+1 wep dmg while dual-wielding/1"
+                }
+            ]
         }
     ]
 }
