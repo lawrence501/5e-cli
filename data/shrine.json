@@ -74,5 +74,9 @@
     {
         "name": "Modification",
         "description": "A non-conduit weapon has its dmg die size reduced by 1 and gains a random trait that it didn't already have added to its base item."
+    },
+    {
+        "name": "Fine-Tuning",
+        "description": "A random affix on the item is chosen and you can change one Aspect of it. The item must be chosen first."
     }
 ]
