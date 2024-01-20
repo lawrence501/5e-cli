@@ -1759,7 +1759,7 @@
                 {
                     "description": "5. on wep hit, knock your target prone",
                     "pointValue": "2",
-                    "upgrade": "+1 wep AB vs non-prone targets/3"
+                    "upgrade": "+1 wep AB vs non-prone targets/4"
                 },
                 {
                     "description": "6. +1 wep crit dice",
@@ -4469,6 +4469,58 @@
                     "description": "6. whenever you move an ally, they gain 2 temp HP",
                     "pointValue": "1",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Punishing Speed",
+            "startingAffixes": [
+                {
+                    "description": "on hit with a power used as an action other than standard, your target is knocked prone",
+                    "pointValue": "2",
+                    "upgrade": "+1 wep AB vs non-prone targets/4"
+                },
+                {
+                    "description": "on sub hit, target is knocked prone",
+                    "pointValue": "1",
+                    "upgrade": "+1 wep AB vs non-prone targets/4"
+                },
+                {
+                    "description": "+1 wep dmg while dual-wielding",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +5' sp",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                },
+                {
+                    "description": "2. +2 wep dmg while above half exertion",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +3 dmg thorns",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "4. your weps gain the dual-wielding trait",
+                    "pointValue": "3",
+                    "upgrade": "+1 wep dmg while holding a dual-wielding wep/1"
+                },
+                {
+                    "description": "5. +2 sub wep hit dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on turn start, lose 1 exertion; 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 and 4pts distributed/1"
                 }
             ]
         }
