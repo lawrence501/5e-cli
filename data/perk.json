@@ -2,7 +2,8 @@
     "Thaddeus": [
         "Partner: whenever Thaddeus receives a substantial hit, you can react to heal him for 1d6 HP",
         "Partner: whenever you overheal Thaddeus, he gains the excess amount in temp HP",
-        "Option #3"
+        "Identity: the first time you go down each combat, you gain +5 outgoing healing and +30' fly sp for the remainder of combat",
+        "Identity: whenever you actively heal another creature while a boss is within 60' of you, the boss takes radiant spell dmg equal to the amount of you healed. This scales with your outgoing healing first, and then your spell modifiers afterwards."
     ],
     "Zacharias": [
         "Partner: whenever you help Thaddeus with an ability check, he adds a d8 expertise die to the result",
@@ -16,7 +17,8 @@
     ],
     "Vehemir": [
         "Partner: whenever Siggusmondo is hit by a creature, you gain an expertise die on your next attack roll against that creature. If this brings the attack roll to 30+, the attack becomes a crit. This does not stack",
-        "Partner: while adj to Siggusmondo, your unarmed hits deal 1 additional piercing damage, which can only be scaled as if it were Siggusmondo's weapon damage",
-        "Option #3"
+        "Partner: while adj to Siggusmondo, your unarmed wep hits deal 1 additional piercing damage, which can only be scaled as if it were Siggusmondo's weapon damage",
+        "Identity: affixes related to spells on your items no longer affect your spells, and instead affect your unarmed weapons",
+        "Identity: whenever you are hit, make a concentration save. if you aren't wild shaped, on a failed save you immediately wild shape at no cost. If you are, on a failed save you gain +3 unarmed dmg for the remainder of combat"
     ]
 }
