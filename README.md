@@ -199,27 +199,6 @@ Your critical hit range is increased by 2.
 Whenever you score a critical hit against a creature, you may choose to either debilitate or stagger it until the end of your next turn.
 If you score a critical hit against a creature that is already debilitated and staggered, they also become vulnerable to all damage until the end of your next turn.
 
-Idea #2:
-Your critical hits no longer deal extra damage.
-Your critical hit range is increased by 2.
-Whenever you score a critical hit against a creature, roll a d4:
-1. The creature is knocked prone.
-2. The creature's speed is reduced to 0 for 1 minute.
-3. The number of attacks the creature can make each turn is reduced by 1 (to a minimum of 1) for 1 minute.
-4. The creature is dazed for 1 minute.
-5. The creature is debilitated for 1 minute.
-6. The creature is staggered for 1 minute.
-7. The creature gains 1 level of fatigue (this effect can occur multiple times).
-If you would roll an effect that is already affecting the target, add 1 to the die result until you reach an effect not affecting the target.
-
-Idea #3:
-Your critical hits no longer deal extra damage.
-Your critical hit range is increased by 2.
-Whenever you score a critical hit against a creature, it has additional effects based on the damage type of any dice in the hit. Only one additional effect can occur on each hit, and if the hit's damage types cover multiple effects, you can choose which one occurs.
-Bludgeoning, Piercing, and Slashing: The target is debilitated until the end of your next turn.
-Acid, Cold, Fire, Lightning, Poison, and Thunder: The target is staggered until the end of your next turn.
-Force, Necrotic, Psychic, and Radiant: The target is confused until the end of your next turn.
-
 - Future loot options suggestion (d100 roll)
 1. Wondrous Items (low)
 2. Tomes (high)

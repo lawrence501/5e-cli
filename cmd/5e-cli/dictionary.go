@@ -139,25 +139,25 @@ var DAMAGE_POLARITIES []string = []string{
 }
 
 var PARTY_MEMBERS []string = []string{
-	"Adrian",
-	"Dekel",
-	"Siggy",
+	"Thaddeus",
+	"Zacharias",
+	"Siggusmondo",
 	"Vehemir",
 }
 
 var CITIES []string = []string{
-	"Ely",
-	"Aramore",
-	"Hollyhead",
-	"Aeston City",
+	"Holmfirth",
+	"Calcheth",
+	"Erostey",
+	"Oakheart",
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Fillipo":    5,
-	"Eva":        9,
-	"Vinton":     -1,
-	"Tymm":       7,
-	"Marguerita": 1,
+	"Thaddeus":    5,
+	"Zacharias":   9,
+	"Siggusmondo": -1,
+	"Vehemir":     7,
+	"Sidekick":    1,
 }
 
 var LIGHT_TYPES []string = []string{

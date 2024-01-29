@@ -1,22 +1,22 @@
 {
-    "Adrian": [
-        "Option #1",
-        "Option #2",
+    "Thaddeus": [
+        "Partner: whenever Thaddeus receives a substantial hit, you can react to heal him for 1d6 HP",
+        "Partner: whenever you overheal Thaddeus, he gains the excess amount in temp HP",
         "Option #3"
     ],
-    "Dekel": [
-        "Option #1",
-        "Option #2",
+    "Zacharias": [
+        "Partner: whenever you help Thaddeus with an ability check, he adds a d8 expertise die to the result",
+        "Partner: whenever you are healed by Thaddeus, your next Spectral Influence roll gains a bonus equal to half the amount you were healed for. This does not stack",
         "Option #3"
     ],
-    "Bentley": [
-        "Option #1",
-        "Option #2",
+    "Siggusmondo": [
+        "Partner: on substantial hit vs a creature adj to Vehemir, Vehemir can react to make an unarmed attack against the creature",
+        "Partner: whenever you or Vehemir score a killing blow, the other gains a dmg bonus to their next hit equal to the highest of the overkill dmg or half the killing blow's total damage. This can persist across combats",
         "Option #3"
     ],
-    "Dan": [
-        "Option #1",
-        "Option #2",
+    "Vehemir": [
+        "Partner: whenever Siggusmondo is hit by a creature, you gain an expertise die on your next attack roll against that creature. If this brings the attack roll to 30+, the attack becomes a crit. This does not stack",
+        "Partner: while adj to Siggusmondo, your unarmed hits deal 1 additional piercing damage, which can only be scaled as if it were Siggusmondo's weapon damage",
         "Option #3"
     ]
 }
