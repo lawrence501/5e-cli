@@ -11,13 +11,17 @@
         "Identity: as a free action once on each of you turns, you can make a history check against the standard DC of a creature you can see. On a success, it gains vulnerability to your choice of 2 random dmg types. It can only have one of these effects at a time.",
         "Identity: while an ally within 60' of you is down, all foes within 60' of you are rattled and all allies in the same area gain a d6 expertise die on stabilising checks.",
         "Gap: You can use Spectral Influence on your cantrips a number of times between short rests equal to your INT mod.",
-        "Gap: Whenever you use Spectral Influence on a spell that deals damage, you can reduce your Spectral Influence result by any number of d10 rolls, rolling them one at a time before deciding to roll more. For each d10 you rolled, the spell's damage is increased by 2d4 (spell lvl 1-2), 2d8 (spell lvl 3-5), or 2d12 (spell lvl 6+)"
+        "Gap: Whenever you use Spectral Influence on a spell that deals damage, you can reduce your Spectral Influence result by any number of d10 rolls, rolling them one at a time before deciding to roll more. For each d10 you rolled, the spell's damage is increased by 2d4 (spell lvl 1-2), 2d8 (spell lvl 3-5), or 2d12 (spell lvl 6+)",
+        "Keyword: Whenever you cast a spell using your highest-level spell slot, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, all of your spells are upcast 1 level for free.",
+        "Keyword: whenever an ally within 60' of you goes down, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, you gain a d6 expertise die on all spell attacks and all spell saves you prompt are reduced by 1d6."
     ],
     "Siggusmondo": [
         "Partner: on substantial hit vs a creature adj to Vehemir, Vehemir can react to make an unarmed attack against the creature",
         "Partner: whenever you or Vehemir score a killing blow, the other gains a dmg bonus to their next hit equal to the highest of the overkill dmg or half the killing blow's total damage. This can persist across combats",
         "Identity: on your first whip hit of each round, your target makes a WIS save against your maneuver DC. on a fail, they are frightened of you for 1d4 rounds. On a sub fail, they are dominated by you for 1d4 rounds.",
-        "Identity: whenever you are hit by a creature, that creature takes 1d6 P dmg, which scales as if it were your weapon damage"
+        "Identity: whenever you are hit by a creature, that creature takes 1d6 P dmg, which scales as if it were your weapon damage",
+        "Gap: You can use your Gathered Swarm effects 1 additional time on each of your turns.",
+        "Gap: You gain 3 additional uses of any of your Swarmkeeper spells between long rests, which can be used in any combination."
     ],
     "Vehemir": [
         "Partner: whenever Siggusmondo is hit by a creature, you gain an expertise die on your next attack roll against that creature. If this brings the attack roll to 30+, the attack becomes a crit. This does not stack",
