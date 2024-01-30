@@ -25,7 +25,9 @@
         "Gap: You can use your Gathered Swarm effects 1 additional time on each of your turns.",
         "Gap: You gain 3 additional uses of any of your Swarmkeeper spells between long rests, which can be used in any combination.",
         "Keyword: On your first whip hit of each round, the closest ally to your target becomes Driven until the end of their next turn. While Driven, a creature has -1 AC and +5 global AB.",
-        "Keyword: Whenever an ally that can hear you substantially misses an attack, you can have them lose 1 HP to make them Driven until the end of their next turn. While Driven, they have -1 AC and +15 global dmg."
+        "Keyword: Whenever an ally that can hear you substantially misses an attack, you can have them lose 1 HP to make them Driven until the end of their next turn. While Driven, they have -1 AC and +15 global dmg.",
+        "AI: Whenever your Gathered Swarm deals piercing damage, the target must also make a WIS save against your maneuver DC or take additional psychic damage of a number of d6s equal to the number of times you have hit the target this combat.",
+        "AI: Once per long rest, on rolling initiative, you can summon a swarm of bees in an unoccupied space within 60' of you. This is a beast minion with fly speed instead of regular speed, a reach of 0', and the ability to move through and remain in other creatures' spaces. Its CR is your lvl divided by 4. It disappears if you take a long rest."
     ],
     "Vehemir": [
         "Partner: whenever Siggusmondo is hit by a creature, you gain an expertise die on your next attack roll against that creature. If this brings the attack roll to 30+, the attack becomes a crit. This does not stack",
@@ -33,6 +35,8 @@
         "Identity: affixes related to spells on your items no longer affect your spells, and instead affect your unarmed weapons. Global dmg affects your unarmed weapons at double potency.",
         "Identity: whenever you are hit, make a concentration save. if you aren't wild shaped, on a failed save you immediately wild shape at no cost. If you are, on a failed save you gain +3 unarmed dmg for the remainder of combat",
         "Gap: on rolling for initiative, you may wild shape as a free action. Additionally, during the first round of combat, you gain +30' speed and your unarmed attacks deal additional damage equal to the number of spaces you have moved towards your target that turn",
-        "Gap: while you have 2+ death saves, you can wild shape without cost as a free action."
+        "Gap: while you have 2+ death saves, you can wild shape without cost as a free action.",
+        "Keyword: Whenever a creature dies within 60' of you, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks always crit.",
+        "Keyword: Whenever you are critically hit, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks deal 1d12 additional base damage."
     ]
 }
