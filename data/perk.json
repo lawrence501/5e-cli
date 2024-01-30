@@ -3,7 +3,7 @@
         "Partner: whenever Thaddeus receives a substantial hit, you can react to heal him for 1d6 HP",
         "Partner: whenever you overheal Thaddeus, he gains the excess amount in temp HP",
         "Identity: the first time you go down each combat, you gain +5 outgoing healing and +30' fly sp for the remainder of combat, and the next time you recover HP, all foes within 60' of you take 1d6 radiant damage, which scales with your outgoing healing",
-        "Identity: whenever you actively heal another creature while a boss is within 60' of you, the boss takes radiant spell dmg equal to the amount of you healed. This scales with your outgoing healing first, and then your spell modifiers afterwards."
+        "Identity: whenever you actively heal another creature while a boss is within 60' of you, the boss takes radiant spell dmg equal to the amount of you healed."
     ],
     "Zacharias": [
         "Partner: whenever you help Thaddeus with an ability check, he adds a d8 expertise die to the result",
@@ -13,7 +13,9 @@
         "Gap: You can use Spectral Influence on your cantrips a number of times between short rests equal to your INT mod.",
         "Gap: Whenever you use Spectral Influence on a spell that deals damage, you can reduce your Spectral Influence result by any number of d10 rolls, rolling them one at a time before deciding to roll more. For each d10 you rolled, the spell's damage is increased by 2d4 (spell lvl 1-2), 2d8 (spell lvl 3-5), or 2d12 (spell lvl 6+)",
         "Keyword: Whenever you cast a spell using your highest-level spell slot, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, all of your spells are upcast 1 level for free.",
-        "Keyword: whenever an ally within 60' of you goes down, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, you gain a d6 expertise die on all spell attacks and all spell saves you prompt are reduced by 1d6."
+        "Keyword: whenever an ally within 60' of you goes down, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, you gain a d6 expertise die on all spell attacks and all spell saves you prompt are reduced by 1d6.",
+        "AI: Whenever you cast False Life on yourself, choose a creature within 30' of you. They make a CON save against your spell save DC or take spell necrotic dmg equal to double the amount of temp HP you gained. Additionally, they cannot be healed while you have that temp HP.",
+        "AI: You roll on the Spectral Influence table with advantage."
     ],
     "Siggusmondo": [
         "Partner: on substantial hit vs a creature adj to Vehemir, Vehemir can react to make an unarmed attack against the creature",
@@ -21,7 +23,9 @@
         "Identity: on your first whip hit of each round, your target makes a WIS save against your maneuver DC. on a fail, they are frightened of you for 1d4 rounds. On a sub fail, they are dominated by you for 1d4 rounds.",
         "Identity: whenever you are hit by a creature, that creature takes 1d6 P dmg, which scales as if it were your weapon damage",
         "Gap: You can use your Gathered Swarm effects 1 additional time on each of your turns.",
-        "Gap: You gain 3 additional uses of any of your Swarmkeeper spells between long rests, which can be used in any combination."
+        "Gap: You gain 3 additional uses of any of your Swarmkeeper spells between long rests, which can be used in any combination.",
+        "Keyword: On your first whip hit of each round, the closest ally to your target becomes Driven until the end of their next turn. While Driven, a creature has -1 AC and +5 global AB.",
+        "Keyword: Whenever an ally that can hear you substantially misses an attack, you can have them lose 1 HP to make them Driven until the end of their next turn. While Driven, they have -1 AC and +15 global dmg."
     ],
     "Vehemir": [
         "Partner: whenever Siggusmondo is hit by a creature, you gain an expertise die on your next attack roll against that creature. If this brings the attack roll to 30+, the attack becomes a crit. This does not stack",

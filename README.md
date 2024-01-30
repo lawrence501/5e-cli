@@ -53,7 +53,7 @@ Lawrence: 1400
 - Backstory identity
 - Build gap-fill
 - Self-synergy mechanic
-- Transformative  
+- AI
 
 ### Manual value cheatsheet
 
