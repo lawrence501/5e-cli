@@ -5,7 +5,11 @@
         "Identity: the first time you go down each combat, you gain +5 outgoing healing and +30' fly sp for the remainder of combat, and the next time you recover HP, all foes within 60' of you take 1d6 radiant damage, which scales with your outgoing healing",
         "Identity: whenever you actively heal another creature while a boss is within 60' of you, the boss takes radiant spell dmg equal to the amount of you healed.",
         "Gap: You gain 3 additional 1st-lvl spell slots that can only be used for spells that heal.",
-        "Gap: Whenever you heal a creature, you can choose an ally within 60' of you to lose hit points equal to any number of d10 rolls, rolling them one at a time before deciding to roll more. The creature you are healing heals additional hit points equal to double the amount of HP taken from this ally."
+        "Gap: Whenever you heal a creature, you can choose an ally within 60' of you to lose hit points equal to any number of d10 rolls, rolling them one at a time before deciding to roll more. The creature you are healing heals additional hit points equal to triple the amount of HP taken from this ally.",
+        "Keyword: Whenever you heal a creature on 0 HP, they become Redeemed for 1 round. While a creature is Redeemed, they gain 50% resistance to all damage.",
+        "Keyword: Whenever you are hit while adj to an ally, that ally becomes Redeemed for 1 round. While a creature is Redeemed, they gain damage barrier equal to twice your level.",
+        "AI: You can cast Spare the Dying as a bonus action. Additionally, whenever you use Better Than Cure to halve damage taken, you may take the remaining damage, which is halved. If your Better Than Cure negates all damage, you instead gain temp HP equal to half the original damage to be taken.",
+        "AI: You can choose to subtract your WIS mod from healing with your Heal Up feature instead of adding it, and then deal radiant spell damage equal to triple your WIS mod to a creature you can see within 30 feet."
     ],
     "Zacharias": [
         "Partner: whenever you help Thaddeus with an ability check, he adds a d8 expertise die to the result",
