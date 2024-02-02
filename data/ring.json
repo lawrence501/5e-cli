@@ -117,5 +117,22 @@
             "T3. on wep hit while invis, heal 3 HP": {},
             "T3. +7 minion wep dmg while you are invis": {}
         }
+    },
+    "T1. +1 to your basic maneuver DCs": {
+        "T2. +1 to saves vs being forcibly moved": {
+            "T3. -3 to saves vs being forcibly moved while healthy and +12 to saves vs being forcibly moved while bloodied": {},
+            "T3. +3 to saves vs being forcibly moved while bloodied": {},
+            "T3. +3 to saves vs being forcibly moved vs creatures 30+' away": {}
+        },
+        "T2. when downed, +3 to your basic maneuver DCs until LR": {
+            "T3. when downed while you have 3+ relics equipped, +4 to your basic maneuver DCs until LR": {},
+            "T3. while downed, adj foes have -18 to saves vs basic maneuvers": {},
+            "T3. when downed and you haven't had temp HP this combat, +4 to your basic maneuver DCs until LR": {}
+        },
+        "T2. -2 basic maneuver dmg and +5 to your basic maneuver DCs": {
+            "T3. -7 max HP and +4 to your saves vs being forcibly moved": {},
+            "T3. -3 basic maneuver dmg and +18 to your basic maneuver DCs with 2+ adj foes": {},
+            "T3. -3 glyphic dmg and +3 to your glyphic AB": {}
+        }
     }
 }
