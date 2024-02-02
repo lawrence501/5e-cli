@@ -71,7 +71,7 @@
         "T2. on minion hit, they increase any temp HP you granted during your turn by 5": {
             "T3. -4 minion dmg and on minion hit, they increase any temp HP you granted during your turn by 18": {},
             "T3. on minion hit, they increase your temp HP by 4": {},
-            "T3. on minion hit, add 4 to a pool of temp HP you can grant as a free action to any creature you can see": {}
+            "T3. on minion hit, add 4 to a pool of temp HP you can grant as a free action to any creature you can see before your next LR": {}
         },
         "T2. adj allies have +2 incoming temp HP": {
             "T3. adj allies have +3 incoming temp HP if they haven't gained temp HP in 1 round": {},
@@ -82,6 +82,40 @@
             "T3. -7 max HP and while bloodied, +18 outgoing temp HP": {},
             "T3. while bloodied, -2 global dmg and +21 outgoing temp HP": {},
             "T3. while bloodied, whenever temp HP you granted an ally is broken through, the creature that broke through it is taunted by you until they take a LR": {}
+        }
+    },
+    "T1. +1 spell dmg": {
+        "T2. +3 spell dmg vs targets smaller than you": {
+            "T3. +1 to spell save DCs vs targets smaller than you": {},
+            "T3. when downed, +12 to spell dmg vs targets smaller than you until LR": {},
+            "T3. on spell hit vs targets smaller than you, +7 spell dmg vs targets smaller than you for 1rnd": {}
+        },
+        "T2. +3 spell dmg while shapeshifted": {
+            "T3. +12 spell dmg while shapeshifted vs targets who have dmg'd you since your last turn": {},
+            "T3. +4 chaotic affix spell dmg while shapeshifted": {},
+            "T3. on spell hit while shapeshifted, +7 spell dmg while shapeshifted for 1rnd": {}
+        },
+        "T2. on spell hit, target has -2 global dmg vs non-you targets until end of their next turn": {
+            "T3. on spell hit with 2+ adj foes, target has -7 global dmg vs non-you targets until end of their next turn": {},
+            "T3. on glyphic hit, target has -3 global dmg vs non-you targets until end of their next turn": {},
+            "T3. on spell hit while wearing 3+ items you crafted, target has -3 global dmg vs non-you targets until end of their next turn": {}
+        }
+    },
+    "T1. +1 wep dmg": {
+        "T2. on wep hit, +2 wep dmg until end of the turn": {
+            "T3. on wep hit, +4 HP healed on wep hit until end of the turn": {},
+            "T3. on glyphic hit, +3 glyphic dmg for 1rnd": {},
+            "T3. on wep hit, add 3 to a pool of wep dmg that you can grant to a wep hit of your choice before your next LR": {}
+        },
+        "T2. +3 dmg with adv wep atks": {
+            "T3. -1 wep AB and +18 dmg with adv wep atks": {},
+            "T3. +7 dmg with adv maneuver atks": {},
+            "T3. creatures buffed by you have +4 dmg with adv wep atks": {}
+        },
+        "T2. +3 wep dmg while invis": {
+            "T3. on wep hit while invis, target is taunted until WIS save": {},
+            "T3. on wep hit while invis, heal 3 HP": {},
+            "T3. +7 minion wep dmg while you are invis": {}
         }
     }
 }
