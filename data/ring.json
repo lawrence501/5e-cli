@@ -134,5 +134,22 @@
             "T3. -3 basic maneuver dmg and +18 to your basic maneuver DCs with 2+ adj foes": {},
             "T3. -3 glyphic dmg and +3 to your glyphic AB": {}
         }
+    },
+    "T1. +1 proj dmg": {
+        "T2. +3 proj dmg with adv atks": {
+            "T3. +7 proj dmg with adv atks vs targets debuffed by you": {},
+            "T3. +7 proj dmg with adv atks vs targets 30+' away": {},
+            "T3. adj foes take +3 proj dmg from adv atks": {}
+        },
+        "T2. while shapeshifted, your unarmed atks are now ranged atks with 30'/80' range": {
+            "T3. while shapeshifted, your unarmed atks are now ranged atks with 30'/80' range that deal +5 dmg while healthy and -4 dmg while bloodied": {},
+            "T3. while shapeshifted, +15 proj dmg barrier": {},
+            "T3. while shapeshifted, your unarmed atks are now ranged atks with 30'/80' range that heal 1 HP on hit": {}
+        },
+        "T2. -1 global dmg and +8 minion proj dmg": {
+            "T3. while shapeshifted, -2 global dmg and +21 minion proj dmg": {},
+            "T3. -3 global dmg on odd turns and +39 minion proj dmg on even turns": {},
+            "T3. while within a city's borders, -2 global dmg and +21 minion proj dmg": {}
+        }
     }
 }
