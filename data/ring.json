@@ -49,5 +49,22 @@
             "T3. +3 incoming healing outside of combat": {},
             "T3. +3 incoming healing with 2+ adj foes": {}
         }
+    },
+    "T1. +1 basic wep dmg": {
+        "T2. +2 non-limited glyphic dmg": {
+            "T3. +4 non-limited glyphic dmg dealt outside of your turn": {},
+            "T3. you project a 5' aura that deals 2 glyphic $dmgType dmg to foes": {},
+            "T3. on non-limited glyphic hit, 3% chance for your crystal to flare": {}
+        },
+        "T2. creatures buffed by you have +2 basic wep dmg": {
+            "T3. creatures buffed by you that have 2+ adj foes have +7 basic wep dmg": {},
+            "T3. creatures buffed by you have +4 basic wep dmg vs targets they are flanking": {},
+            "T3. all creatures have +3 basic wep dmg vs targets debuffed by you": {}
+        },
+        "T2. +3 basic wep dmg vs targets smaller than you": {
+            "T3. +4 basic wep dmg vs targets larger than you": {},
+            "T3. +4 basic wep dmg vs targets smaller than you while wearing 3+ relics": {},
+            "T3. +4 basic wep dmg vs targets you didn't target offensively during your last turn": {}
+        }
     }
 }
