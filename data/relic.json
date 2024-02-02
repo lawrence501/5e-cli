@@ -5483,12 +5483,12 @@
             ],
             "thematicAffixes": [
                 {
-                    "description": "1. you always have an untargetable aberration minion that can do nothing except grant you +1 to debuff saves during odd turns",
+                    "description": "1. you always have an untargetable aberration minion that can do nothing except grant you +1 to debuff saves during odd rounds",
                     "pointValue": "2",
                     "upgrade": "+1/2"
                 },
                 {
-                    "description": "2. you always have an untargetable aberration minion that can do nothing except grant you +3 dmg barrier during odd turns",
+                    "description": "2. you always have an untargetable aberration minion that can do nothing except grant you +3 dmg barrier during odd rounds",
                     "pointValue": "1",
                     "upgrade": "+2/1"
                 },

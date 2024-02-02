@@ -148,8 +148,25 @@
         },
         "T2. -1 global dmg and +8 minion proj dmg": {
             "T3. while shapeshifted, -2 global dmg and +21 minion proj dmg": {},
-            "T3. -3 global dmg on odd turns and +39 minion proj dmg on even turns": {},
+            "T3. -3 global dmg on odd rounds and +39 minion proj dmg on even rounds": {},
             "T3. while within a city's borders, -2 global dmg and +21 minion proj dmg": {}
+        }
+    },
+    "T1. +1 melee dmg": {
+        "T2. creatures buffed by you have +2 melee dmg": {
+            "T3. creatures buffed by you have +4 persuasion while within city borders": {},
+            "T3. minions buffed by you have +4 melee dmg": {},
+            "T3. whenever a creature buffed by you scores a melee hit, they gain +3 melee dmg until end of the turn": {}
+        },
+        "T2. on melee hit, add 2 to a pool of melee dmg that you can grant to a melee hit of your choice before your next LR": {
+            "T3. on melee hit, add 3 to a pool of melee dmg that you can grant to the next melee hits of adj allies as a free action before your next LR": {},
+            "T3. on melee hit, add 3 to a pool of melee dmg that is granted to the next melee hit of the next creature you buff": {},
+            "T3. on melee hits on even rounds, add 6 to a pool of melee dmg that you can grant to a melee hit of your choice before your next LR": {}
+        },
+        "T2. +8 melee barrier": {
+            "T3. on taking melee dmg, triggering creature is inflicted with 3 DoT of the base type of their dmg, stacking until CON save": {},
+            "T3. +15 melee barrier vs creatures debuffed by you": {},
+            "T3. +12 melee barrier while wearing 3+ items you crafted": {}
         }
     }
 }

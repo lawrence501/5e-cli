@@ -159,7 +159,7 @@
           },
           {
             "ally": "Mother",
-            "effect": "-2 incoming healing on odd turns, +4 incoming healing on even turns",
+            "effect": "-2 incoming healing on odd rounds, +4 incoming healing on even rounds",
             "upgrade": "-2 and +4"
           },
           {
@@ -186,7 +186,7 @@
           },
           {
             "ally": "Mother",
-            "effect": "-2 to saves vs ongoing debuffs on odd turns, +4 to saves vs ongoing debuffs on even turns",
+            "effect": "-2 to saves vs ongoing debuffs on odd rounds, +4 to saves vs ongoing debuffs on even rounds",
             "upgrade": "-2 and +4"
           },
           {
@@ -213,7 +213,7 @@
           },
           {
             "ally": "Mother",
-            "effect": "when downed on an odd turn, -3 global dmg until LR; when downed on an even turn, +6 global dmg until LR",
+            "effect": "when downed on an odd round, -3 global dmg until LR; when downed on an even round, +6 global dmg until LR",
             "upgrade": "-3 and +6"
           },
           {
@@ -225,27 +225,27 @@
       },
       {
         "name": "Mother's Sentience",
-        "effect": "-3 global dmg on odd turns, +6 global dmg on even turns",
-        "upgrade": "+5 dmg barrier on odd turns",
+        "effect": "-3 global dmg on odd rounds, +6 global dmg on even rounds",
+        "upgrade": "+5 dmg barrier on odd rounds",
         "setBonuses": [
           {
             "ally": "Kher'evo",
-            "effect": "-2 incoming healing on odd turns, +4 incoming healing on even turns",
+            "effect": "-2 incoming healing on odd rounds, +4 incoming healing on even rounds",
             "upgrade": "-2 and +4"
           },
           {
             "ally": "Somnius",
-            "effect": "-2 to saves vs ongoing debuffs on odd turns, +4 to saves vs ongoing debuffs on even turns",
+            "effect": "-2 to saves vs ongoing debuffs on odd rounds, +4 to saves vs ongoing debuffs on even rounds",
             "upgrade": "-2 and +4"
           },
           {
             "ally": "Pherousa",
-            "effect": "when downed on an odd turn, -3 global dmg until LR; when downed on an even turn, +6 global dmg until LR",
+            "effect": "when downed on an odd round, -3 global dmg until LR; when downed on an even round, +6 global dmg until LR",
             "upgrade": "-3 and +6"
           },
           {
             "ally": "The Primordial",
-            "effect": "+2 non-phys dmg taken on odd turns, +4 non-phys res on even turns",
+            "effect": "+2 non-phys dmg taken on odd rounds, +4 non-phys res on even rounds",
             "upgrade": "+2 and +4"
           }
         ]
@@ -272,7 +272,7 @@
           },
           {
             "ally": "Mother",
-            "effect": "+2 non-phys dmg taken on odd turns, +4 non-phys res on even turns",
+            "effect": "+2 non-phys dmg taken on odd rounds, +4 non-phys res on even rounds",
             "upgrade": "+2 and +4"
           }
         ]
