@@ -15,5 +15,22 @@
             "T3. the first time each turn you displace 15+', your crystal has a 7% chance to flare and deals true dmg": {},
             "T3. the first time each turn you displace 15+' while shapeshifted, your crystal has a 5% chance to flare": {}
         }
+    },
+    "T1. +1 cantrip dmg": {
+        "T2. +3 cantrip dmg vs targets you didn't target offensively during your last turn": {
+            "T3. +7 cantrip dmg vs debuffed targets you didn't target offensively during your last turn": {},
+            "T3. +1 to your cantrip DCs vs targets you didn't target offensively during your last turn": {},
+            "T3. creatures you target with a cantrip that you didn't target during your last turn gain +7 dmg barrier for 1rnd": {}
+        },
+        "T2. your crystals deal +8 basic dmg": {
+            "T3. your crystals deal +15 basic dmg vs targets debuffed by you": {},
+            "T3. your crystals deal +15 basic dmg while you are bloodied": {},
+            "T3. if you've been hit since your last turn, your crystals deal +18 basic dmg": {}
+        },
+        "T2. on cantrip hit, inflict 1 DoT of the cantrip's base type, stacking until CON save": {
+            "T3. on cantrip hit when you've been hit since your last turn, inflict 3 DoT of the cantrip's base type, stacking until CON save": {},
+            "T3. on non-limited glyphic power hit, inflict 2 DoT of the power's base type, stacking until CON save": {},
+            "T3. on cantrip hit vs targets smaller than you, inflict 3 DoT of the cantrip's base type, stacking until CON save": {}
+        }
     }
 }
