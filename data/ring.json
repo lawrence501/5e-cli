@@ -66,5 +66,22 @@
             "T3. +4 basic wep dmg vs targets smaller than you while wearing 3+ relics": {},
             "T3. +4 basic wep dmg vs targets you didn't target offensively during your last turn": {}
         }
+    },
+    "T1. +2 outgoing temp HP": {
+        "T2. on minion hit, they increase any temp HP you granted during your turn by 5": {
+            "T3. -4 minion dmg and on minion hit, they increase any temp HP you granted during your turn by 18": {},
+            "T3. on minion hit, they increase your temp HP by 4": {},
+            "T3. on minion hit, add 4 to a pool of temp HP you can grant as a free action to any creature you can see": {}
+        },
+        "T2. adj allies have +2 incoming temp HP": {
+            "T3. adj allies have +3 incoming temp HP if they haven't gained temp HP in 1 round": {},
+            "T3. adj allies have +7 incoming temp HP while they have 2+ adj foes": {},
+            "T3. adj allies have +4 incoming temp HP if you have 2+ adj allies": {}
+        },
+        "T2. while bloodied, +5 outgoing temp HP": {
+            "T3. -7 max HP and while bloodied, +18 outgoing temp HP": {},
+            "T3. while bloodied, -2 global dmg and +21 outgoing temp HP": {},
+            "T3. while bloodied, whenever temp HP you granted an ally is broken through, the creature that broke through it is taunted by you until they take a LR": {}
+        }
     }
 }

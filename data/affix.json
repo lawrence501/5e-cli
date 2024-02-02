@@ -450,6 +450,12 @@
         "tags": ["weapon"]
     },
     {
+        "description": "+2 outgoing temp HP",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["weapon"]
+    },
+    {
         "description": "+1d4 $dmgType to weps",
         "pointValue": "3",
         "upgrade": "1 die size/1",
