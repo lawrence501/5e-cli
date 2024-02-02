@@ -32,5 +32,22 @@
             "T3. on non-limited glyphic power hit, inflict 2 DoT of the power's base type, stacking until CON save": {},
             "T3. on cantrip hit vs targets smaller than you, inflict 3 DoT of the cantrip's base type, stacking until CON save": {}
         }
+    },
+    "T1. +1 outgoing healing": {
+        "T2. on minion hit, they heal a creature they can see of your choice for 2 HP": {
+            "T3. on minion hit while they are bloodied, they heal a creature they can see of your choice for 3 HP": {},
+            "T3. on minion hit vs target that has dmg'd them since their last turn, they heal a creature they can see of your choice for 4 HP": {},
+            "T3. your minions can take the Help action on you": {}
+        },
+        "T2. -1 global dmg and +5 outgoing healing": {
+            "T3. with 2+ adj foes, -2 global dmg and +21 outgoing healing": {},
+            "T3. while you have an active minion, -4 minion dmg and +15 outgoing healing": {},
+            "T3. -1 to your DCs and +18 outgoing healing": {}
+        },
+        "T2. +1 incoming healing": {
+            "T3. when hit, heal 3 HP": {},
+            "T3. +3 incoming healing outside of combat": {},
+            "T3. +3 incoming healing with 2+ adj foes": {}
+        }
     }
 }
