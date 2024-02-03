@@ -477,6 +477,25 @@ var mission = func() error {
 	return nil
 }
 
+var ringUpgrade = func() error {
+	stoneP := promptui.Prompt{
+		Label:    "Ring stone",
+		Validate: validateRingStone,
+	}
+	stone, err := stoneP.Run()
+	if err != nil {
+		return err
+	}
+	bases, err := fetchRingBases()
+	option1, option2 := "", ""
+	for option1 == option2 {
+		option1 = randSelect(bases[stone].Affixes)
+		option2 = randSelect(bases[stone].Affixes)
+	}
+	fmt.Printf("%s ring upgrade options:\n- %s\n- %s", stone, option1, option2)
+	return nil
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil

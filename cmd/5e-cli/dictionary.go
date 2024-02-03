@@ -5,7 +5,7 @@ var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"tarot":     "Tarot: +1 card draw",
 	"amulet":    "Amulet: +1 adv on set",
 	"equipment": "Equipment: +1 upgrade point",
-	"ring":      "Ring: also find +1 Education Stone",
+	"ring":      "Ring: +1 option on upgrading with this ring (or +1 adv on this ring's stone)",
 	"shrine":    "Shrine: +1 reroll of proposed outcome",
 	"tome":      "Tome: +1 adv on applicable powers",
 	"mirror":    "Dream Mirror: +1 upgrade point on either new mod or upgrade/reroll",
@@ -829,4 +829,17 @@ var AFFINITIES []string = []string{
 var INACTIVE_DMS []string = []string{
 	"Dekel",
 	"Bentley",
+}
+
+var RING_STONES []string = []string{
+	"pearl",
+	"ruby",
+	"jade",
+	"diamond",
+	"obsidian",
+	"lapis",
+	"amethyst",
+	"citrine",
+	"sapphire",
+	"topaz",
 }

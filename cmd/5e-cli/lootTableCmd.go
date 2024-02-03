@@ -40,20 +40,13 @@ var mediumGold = func() error {
 }
 
 var ring = func() error {
-	rings, err := fetchRings()
+	bases, err := fetchRingBases()
 	if err != nil {
 		return err
 	}
 
-	options := make([]string, len(rings))
-	idx := 0
-	for r := range rings {
-		options[idx] = r
-		idx++
-	}
-
-	chosen := randSelect(options)
-	log.Printf("Ring\n%s", processString(chosen))
+	chosenStone := randSelect(RING_STONES)
+	log.Printf("Ring\n%s ring: %s", chosenStone, processString(bases[chosenStone].Base))
 	return nil
 }
 

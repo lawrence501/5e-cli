@@ -139,23 +139,23 @@ func generateWeather() (string, error) {
 	return chosen, nil
 }
 
-func fetchRings() (map[string]any, error) {
+func fetchRingBases() (map[string]RingBase, error) {
 	cwd, err := os.Getwd()
 	if err != nil {
-		return map[string]any{}, err
+		return map[string]RingBase{}, err
 	}
 
 	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "ring.json"))
 	if err != nil {
-		return map[string]any{}, err
+		return map[string]RingBase{}, err
 	}
 
-	rings := map[string]any{}
-	err = json.Unmarshal([]byte(f), &rings)
+	bases := map[string]RingBase{}
+	err = json.Unmarshal([]byte(f), &bases)
 	if err != nil {
-		return map[string]any{}, err
+		return map[string]RingBase{}, err
 	}
-	return rings, nil
+	return bases, nil
 }
 
 func fetchAmulets() ([]AmuletSet, error) {

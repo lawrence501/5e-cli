@@ -18,6 +18,13 @@ var validateBase = func(input string) error {
 	return nil
 }
 
+var validateRingStone = func(input string) error {
+	if valid := slices.Contains(RING_STONES, input); !valid {
+		return errors.New("invalid ring stone")
+	}
+	return nil
+}
+
 var validateActivity = func(input string) error {
 	if valid := slices.Contains(JOURNEY_ACTIVITIES, input); !valid {
 		return errors.New("invalid journey activity")

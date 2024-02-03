@@ -80,3 +80,9 @@ type Weathers struct {
 	Common []string  `json:"common"`
 	Exotic []Generic `json:"exotic"`
 }
+
+type RingBase struct {
+	Base     string   `json:"base"`
+	Affixes  []string `json:"affixes"`
+	Capstone string   `json:"capstone"`
+}

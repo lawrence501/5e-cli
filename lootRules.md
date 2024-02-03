@@ -25,7 +25,7 @@ Magic equipment can be of any equipment slot you want (weapon, shield, helmet, b
 
 ## Rings (atifacts of Mother)
 
-Rings start off with one of several very basic effects that enhance your character. You can feed an unwanted ring into another ring to receive 3 options of how to evolve the remaining ring's effect. Each time a ring evolves, its effect becomes more specific, specialised, and powerful. If an Education Stone, which can rarely be found alongside a new ring, on a ring, you can modify the direction of the ring's future evolutions.
+Rings start off with a random unique affix. This affix is based on the ring's stone and defines its personality. You can feed a ring to another to upgrade the remaining one which unlocks your choice of one of two new affixes based on that ring's personality. Rings can be upgraded up to 4 times, and on the final upgrade they will receive a specific capstone affix based on their personality. Up to 8 rings may be worn.
 
 ## Amulets (artifacts of P'all)
 

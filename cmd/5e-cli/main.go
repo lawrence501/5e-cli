@@ -79,6 +79,7 @@ var COMMAND_MAP = map[string]func() error{
 	"affinity":      affinity,
 	"trait":         weaponTrait,
 	"mag":           magicItem,
+	"ring upgrade":  ringUpgrade,
 }
 
 func main() {
