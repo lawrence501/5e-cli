@@ -1,172 +1,167 @@
 {
-    "T1. +5' sp": {
-        "T2. if you've displaced 15+' this turn, +2 global dmg": {
-            "T3. if you've displaced 15+' this turn, +4 wep dmg": {},
-            "T3. if you've displaced 15+' this turn, +4 spell dmg": {},
-            "T3. if you've displaced 15+' this turn and are bloodied, +3 global dmg": {}
-        },
-        "T2. +5' fly sp": {
-            "T3. +3 crit dice vs targets you have height adv against": {},
-            "T3. +5' fly and burrow sp": {},
-            "T3. +1 debuff effectiveness vs targets you have height adv against": {}
-        },
-        "T2. the first time each turn you displace 15+', your crystal has a 3% chance to flare": {
-            "T3. the first time each turn you displace 15+', your crystal has a 5% chance to flare if a creature within 60' is debuffed by you": {},
-            "T3. the first time each turn you displace 15+', your crystal has a 7% chance to flare and deals true dmg": {},
-            "T3. the first time each turn you displace 15+' while shapeshifted, your crystal has a 5% chance to flare": {}
-        }
+    "pearl": {
+        "base": "on spell hit, target is Weakened for 1rnd, a non-stacking condition that grants them -1 global dmg",
+        "affixes": [
+            "+3 dmg with cone AoEs",
+            "on block, all adj foes take 2 psy spell dmg and are Weakened for 1rnd",
+            "1/LR, as a free action, you can make a spell atk against any foe within 60'. On a hit, deal 1d4 psy dmg and Dominate them for 1rnd",
+            "on KB, all foes adj to the corpse take 3 psy spell dmg and are Weakened for 1rnd",
+            "when hit, all adj foes take 1 psy spell dmg and are Weakened for 1rnd",
+            "+8 melee barrier",
+            "gain max HP equal to your lvl",
+            "whenever you inflict Weakened, it lasts 1 additional round",
+            "creatures Weakened by you have +1 dmg taken",
+            "the effect of your Weakened is increased to -2 global dmg",
+            "+8 proj dmg vs targets on full HP"
+        ],
+        "capstone": "whenever you Weaken a creature, it is also Dominated for 1rnd"
     },
-    "T1. +1 cantrip dmg": {
-        "T2. +3 cantrip dmg vs targets you didn't target offensively during your last turn": {
-            "T3. +7 cantrip dmg vs debuffed targets you didn't target offensively during your last turn": {},
-            "T3. +1 to your cantrip DCs vs targets you didn't target offensively during your last turn": {},
-            "T3. creatures you target with a cantrip that you didn't target during your last turn gain +7 dmg barrier for 1rnd": {}
-        },
-        "T2. your crystals deal +8 basic dmg": {
-            "T3. your crystals deal +15 basic dmg vs targets debuffed by you": {},
-            "T3. your crystals deal +15 basic dmg while you are bloodied": {},
-            "T3. if you've been hit since your last turn, your crystals deal +18 basic dmg": {}
-        },
-        "T2. on cantrip hit, inflict 1 DoT of the cantrip's base type, stacking until CON save": {
-            "T3. on cantrip hit when you've been hit since your last turn, inflict 3 DoT of the cantrip's base type, stacking until CON save": {},
-            "T3. on non-limited glyphic power hit, inflict 2 DoT of the power's base type, stacking until CON save": {},
-            "T3. on cantrip hit vs targets smaller than you, inflict 3 DoT of the cantrip's base type, stacking until CON save": {}
-        }
+    "ruby": {
+        "base": "on wep hit, target is Doomed, a non-stacking curse that deals 5 wep dmg to the target at the start of your next turn and then expires",
+        "affixes": [
+            "+2 pers area dmg",
+            "on block, create a Blade Cloud pers area in all spaces 30-60' away from you that deals 2 S wep dmg to foes",
+            "1/LR, as a free action, you can turn into a Blade Cloud pers area of your size, granting you immunity to dmg and debuffs for 1rnd. You can move normally and the pers area deals 1 S wep dmg",
+            "when hit, all adj foes are Doomed",
+            "+2 wep dmg",
+            "on KB, your next hit deals +3 dmg",
+            "when downed, +3 wep dmg for the remainder of combat",
+            "+5' Blade Cloud AoE sizes",
+            "your Blade Clouds last 1 additional round and all foes are pushed 5' towards the nearest one (you choose tie breaks) at the start of their turns",
+            "Doom now stacks, but deals -1 dmg",
+            "Doom now incubates for 1 additional rnd, but deals +3 dmg"
+        ],
+        "capstone": "whenever you deal Doom dmg to a creature, your Doom deals +2 dmg to them for the remainder of combat"
     },
-    "T1. +1 outgoing healing": {
-        "T2. on minion hit, they heal a creature they can see of your choice for 2 HP": {
-            "T3. on minion hit while they are bloodied, they heal a creature they can see of your choice for 3 HP": {},
-            "T3. on minion hit vs target that has dmg'd them since their last turn, they heal a creature they can see of your choice for 4 HP": {},
-            "T3. your minions can take the Help action on you": {}
-        },
-        "T2. -1 global dmg and +5 outgoing healing": {
-            "T3. with 2+ adj foes, -2 global dmg and +21 outgoing healing": {},
-            "T3. while you have an active minion, -4 minion dmg and +15 outgoing healing": {},
-            "T3. -1 to your DCs and +18 outgoing healing": {}
-        },
-        "T2. +1 incoming healing": {
-            "T3. when hit, heal 3 HP": {},
-            "T3. +3 incoming healing outside of combat": {},
-            "T3. +3 incoming healing with 2+ adj foes": {}
-        }
+    "jade": {
+        "base": "+1 wep crit range",
+        "affixes": [
+            "+2 proj dmg",
+            "+3 charge dmg",
+            "1/LR, as a free action, you can make a wep atk against any foe within 60' that deals 1d4 P dmg and has +1 crit range",
+            "whenever you debuffs expire, the target takes 3 P wep dmg",
+            "+2 crit dice vs bosses",
+            "+1 crit dice",
+            "on crit, recover 2 exertion",
+            "on crit, the nearest foe to the target (ties broken randomly) becomes Targeted, a condition that grants incoming atks +1 crit range and expires after the target receives a crit",
+            "on hit, a foe of your choice within 60' of you takes 2 P wep dmg"
+        ],
+        "capstone": "+1 max exertion"
     },
-    "T1. +1 basic wep dmg": {
-        "T2. +2 non-limited glyphic dmg": {
-            "T3. +4 non-limited glyphic dmg dealt outside of your turn": {},
-            "T3. you project a 5' aura that deals 2 glyphic $dmgType dmg to foes": {},
-            "T3. on non-limited glyphic hit, 3% chance for your crystal to flare": {}
-        },
-        "T2. creatures buffed by you have +2 basic wep dmg": {
-            "T3. creatures buffed by you that have 2+ adj foes have +7 basic wep dmg": {},
-            "T3. creatures buffed by you have +4 basic wep dmg vs targets they are flanking": {},
-            "T3. all creatures have +3 basic wep dmg vs targets debuffed by you": {}
-        },
-        "T2. +3 basic wep dmg vs targets smaller than you": {
-            "T3. +4 basic wep dmg vs targets larger than you": {},
-            "T3. +4 basic wep dmg vs targets smaller than you while wearing 3+ relics": {},
-            "T3. +4 basic wep dmg vs targets you didn't target offensively during your last turn": {}
-        }
+    "diamond": {
+        "base": "on wep hit, you start Deflecting, a stacking condition that grants you +9 block thorns and expires the next time you block. Deflect stacks in number of triggers, not dmg.",
+        "affixes": [
+            "+3 sphere AoE dmg",
+            "on block, start Deflecting",
+            "1/LR, as a free action, you become imm to dmg (which counts as blocking always) and debuffs for 1rnd and gain +3 block thorns for the same duration",
+            "when hit, all adj foes take 1 rad wep dmg and you start Deflecting",
+            "+3 dmg barrier",
+            "+8 environmental dmg barrier",
+            "on init, recover 2 exertion",
+            "whenever you deal Deflect dmg, the target receives +5 dmg from flanking hits for 1rnd",
+            "Deflect now grants you +13 block thorns",
+            "you have +1 failed death save bubble",
+            "you are imm to dmg and debuffs until your next active turn after going down",
+            "+3 incoming healing while downed"
+        ],
+        "capstone": "ignore the first instance of dmg you take each combat"
     },
-    "T1. +2 outgoing temp HP": {
-        "T2. on minion hit, they increase any temp HP you granted during your turn by 5": {
-            "T3. -4 minion dmg and on minion hit, they increase any temp HP you granted during your turn by 18": {},
-            "T3. on minion hit, they increase your temp HP by 4": {},
-            "T3. on minion hit, add 4 to a pool of temp HP you can grant as a free action to any creature you can see before your next LR": {}
-        },
-        "T2. adj allies have +2 incoming temp HP": {
-            "T3. adj allies have +3 incoming temp HP if they haven't gained temp HP in 1 round": {},
-            "T3. adj allies have +7 incoming temp HP while they have 2+ adj foes": {},
-            "T3. adj allies have +4 incoming temp HP if you have 2+ adj allies": {}
-        },
-        "T2. while bloodied, +5 outgoing temp HP": {
-            "T3. -7 max HP and while bloodied, +18 outgoing temp HP": {},
-            "T3. while bloodied, -2 global dmg and +21 outgoing temp HP": {},
-            "T3. while bloodied, whenever temp HP you granted an ally is broken through, the creature that broke through it is taunted by you until they take a LR": {}
-        }
+    "obsidian": {
+        "base": "+2 spell dmg; on spellcast, lose 1 HP",
+        "affixes": [
+            "you may adjust your loot roll results by up to 12; -1 AC",
+            "+8 spell dmg vs targets you are flanking; -5 gold find",
+            "+18 spell dmg vs targets on full HP; -1 AC in non-boss combats",
+            "your loot rolls always have +2 colour tiers; you can't cast spells of highest spell slot lvl",
+            "+1 2nd-lvl spell slot; -5' sp",
+            "+8 charge dmg; +1 environmental dmg taken",
+            "+2 incoming healing; -5 max HP"
+        ],
+        "capstone": "you have +3 failed death save bubbles; on KB, your space will erupt in a 5' radius at the start of your next turn, dealing 4 true dmg to allies"
     },
-    "T1. +1 spell dmg": {
-        "T2. +3 spell dmg vs targets smaller than you": {
-            "T3. +1 to spell save DCs vs targets smaller than you": {},
-            "T3. when downed, +12 to spell dmg vs targets smaller than you until LR": {},
-            "T3. on spell hit vs targets smaller than you, +7 spell dmg vs targets smaller than you for 1rnd": {}
-        },
-        "T2. +3 spell dmg while shapeshifted": {
-            "T3. +12 spell dmg while shapeshifted vs targets who have dmg'd you since your last turn": {},
-            "T3. +4 chaotic affix spell dmg while shapeshifted": {},
-            "T3. on spell hit while shapeshifted, +7 spell dmg while shapeshifted for 1rnd": {}
-        },
-        "T2. on spell hit, target has -2 global dmg vs non-you targets until end of their next turn": {
-            "T3. on spell hit with 2+ adj foes, target has -7 global dmg vs non-you targets until end of their next turn": {},
-            "T3. on glyphic hit, target has -3 global dmg vs non-you targets until end of their next turn": {},
-            "T3. on spell hit while wearing 3+ items you crafted, target has -3 global dmg vs non-you targets until end of their next turn": {}
-        }
+    "lapis": {
+        "base": "on spell hit, target is Chilled for 1rnd, a stacking condition that grants -5' sp per stack",
+        "affixes": [
+            "creatures Chilled by you are Sluggish",
+            "+3 minion dmg",
+            "on block, all foes in a 60' line in the triggering creature's direction take 1 cold spell dmg and are Chilled for 1rnd",
+            "1/LR, as a free action, you can create a 5'x5' pers area in your space that lasts for the remainder of combat. at the start of each of your turns, its radius increases by 5'. it deals 3 cold spell dmg to foes and chills them for 1rnd",
+            "when hit, triggering creature takes 1 cold spell dmg and gains 5 stacks of Chilled",
+            "your loot rolls always have +1 colour tier",
+            "while you are missing more than half of your spell slots, +2 dmg barrier and +2 spell dmg",
+            "+1 incoming healing",
+            "on spellcast, adj foes take 1 cold spell dmg and are Chilled",
+            "whenever a creature reaches 6 stacks of your Chill, all stacks are removed and it and all other foes adj to it take 10 cold spell dmg",
+            "while all foes within 60' of you are Chilled, your Chill's speed reduction increases to -10' and creatures Chilled by you take 1 cold DoT dmg on turn start",
+            "your minions last double duration and inflict Chill on hit (this counts as your Chill)"
+        ],
+        "capstone": "bloodied creatures Chilled by you have +1 dmg taken and whenever a creature Chilled by you becomes bloodied, all foes adj to it take 1 cold spell dmg and become Chilled"
     },
-    "T1. +1 wep dmg": {
-        "T2. on wep hit, +2 wep dmg until end of the turn": {
-            "T3. on wep hit, +4 HP healed on wep hit until end of the turn": {},
-            "T3. on glyphic hit, +3 glyphic dmg for 1rnd": {},
-            "T3. on wep hit, add 3 to a pool of wep dmg that you can grant to a wep hit of your choice before your next LR": {}
-        },
-        "T2. +3 dmg with adv wep atks": {
-            "T3. -1 wep AB and +18 dmg with adv wep atks": {},
-            "T3. +7 dmg with adv maneuver atks": {},
-            "T3. creatures buffed by you have +4 dmg with adv wep atks": {}
-        },
-        "T2. +3 wep dmg while invis": {
-            "T3. on wep hit while invis, target is taunted until WIS save": {},
-            "T3. on wep hit while invis, heal 3 HP": {},
-            "T3. +7 minion wep dmg while you are invis": {}
-        }
+    "amethyst": {
+        "base": "on spell hit, target begins to Decay, a stacking condition that grants 1 psn DoT per stack, with all stacks expiring when the target passes a passive CON save",
+        "affixes": [
+            "+2 pers area dmg",
+            "on block, all adj foes gain 2 stacks of Decay",
+            "1/LR, as a free action, adj foes gain 5 stacks of Decay",
+            "on combat end while bloodied, heal 3 HP",
+            "while bloodied, +5 dmg barrier",
+            "gain max HP equal to your lvl",
+            "+1 incoming healing and whenever you are actively healed, +2 spell dmg for 1rnd",
+            "while 3+ foes within 60' are Decaying, +8 spell dmg",
+            "creatures afflicted with your Decay have -10' sp",
+            "at the start of the turn of a creature afflicted with your Decay, all foes adj to them gain 2 stacks of Decay",
+            "while inside one of your pers areas, +5 dmg barrier"
+        ],
+        "capstone": "creatures afflicted by your Decay have +2 dmg taken while inside your pers areas"
     },
-    "T1. +1 to your basic maneuver DCs": {
-        "T2. +1 to saves vs being forcibly moved": {
-            "T3. -3 to saves vs being forcibly moved while healthy and +12 to saves vs being forcibly moved while bloodied": {},
-            "T3. +3 to saves vs being forcibly moved while bloodied": {},
-            "T3. +3 to saves vs being forcibly moved vs creatures 30+' away": {}
-        },
-        "T2. when downed, +3 to your basic maneuver DCs until LR": {
-            "T3. when downed while you have 3+ relics equipped, +4 to your basic maneuver DCs until LR": {},
-            "T3. while downed, adj foes have -18 to saves vs basic maneuvers": {},
-            "T3. when downed and you haven't had temp HP this combat, +4 to your basic maneuver DCs until LR": {}
-        },
-        "T2. -2 basic maneuver dmg and +5 to your basic maneuver DCs": {
-            "T3. -7 max HP and +4 to your saves vs being forcibly moved": {},
-            "T3. -3 basic maneuver dmg and +18 to your basic maneuver DCs with 2+ adj foes": {},
-            "T3. -3 glyphic dmg and +3 to your glyphic AB": {}
-        }
+    "citrine": {
+        "base": "your weps gain the Dual-Wielding trait",
+        "affixes": [
+            "offhand atks are now a free action",
+            "on init, recover 2 exertion",
+            "on block, gain +3 dmg barrier and +5' sp for 1rnd",
+            "+5' sp",
+            "on block when you've been hit this turn, heal 3 HP",
+            "+1 to DEX saves",
+            "+1 AC",
+            "on using a non-basic maneuver, gain +1 to DEX saves and +5' sp for the remainder of combat",
+            "+8 DoT dmg and -1 to your ongoing DoT DCs",
+            "on non-trivial init, gain 8gp",
+            "gain wep dmg equal to double your bonus sp (in 5' spaces)"
+        ],
+        "capstone": "your 1st-degree maneuvers cost 1 fewer exertion (min 1) and +1 wep dmg vs targets with no debuffs"
     },
-    "T1. +1 proj dmg": {
-        "T2. +3 proj dmg with adv atks": {
-            "T3. +7 proj dmg with adv atks vs targets debuffed by you": {},
-            "T3. +7 proj dmg with adv atks vs targets 30+' away": {},
-            "T3. adj foes take +3 proj dmg from adv atks": {}
-        },
-        "T2. while shapeshifted, your unarmed atks are now ranged atks with 30'/80' range": {
-            "T3. while shapeshifted, your unarmed atks are now ranged atks with 30'/80' range that deal +5 dmg while healthy and -4 dmg while bloodied": {},
-            "T3. while shapeshifted, +15 proj dmg barrier": {},
-            "T3. while shapeshifted, your unarmed atks are now ranged atks with 30'/80' range that heal 1 HP on hit": {}
-        },
-        "T2. -1 global dmg and +8 minion proj dmg": {
-            "T3. while shapeshifted, -2 global dmg and +21 minion proj dmg": {},
-            "T3. -3 global dmg on odd rounds and +39 minion proj dmg on even rounds": {},
-            "T3. while within a city's borders, -2 global dmg and +21 minion proj dmg": {}
-        }
+    "sapphire": {
+        "base": "on wep hit, target is pushed 5' away from you",
+        "affixes": [
+            "+3 sphere AoE dmg",
+            "on block, adj foes take 2 wep B dmg and are pushed 5' away from you",
+            "1/LR, as a free action, you can turn into a Wave pers area of your size, granting you immunity to dmg and debuffs for 1rnd. You can move normally and the pers area deals 1 B wep dmg and pushes foes 5' away in the direction you are moving",
+            "whenever you push a creature into something, they take dmg as if they were being pushed +15'",
+            "+2 wep dmg",
+            "+5 gold find",
+            "whenever you push a creature, they take 3 B DoT dmg for every 5' they move during their next turn",
+            "when hit, recover 2 exertion",
+            "whenever you push a creature into something, water erupts from them, dealing 2 B wep dmg to them and other foes adj to them",
+            "whenever you attempt to push a boss, they take 8 B wep dmg",
+            "at the start of each foe's turn, they are pushed 5' towards your nearest Wave pers area (ties broken by you) and you Wave pers areas last 1 additional rnd"
+        ],
+        "capstone": "you ignore the first lvl of fatigue you would gain in each Journey and whenever you push a creature, they are immediately pushed again for the same amount afterwards"
     },
-    "T1. +1 melee dmg": {
-        "T2. creatures buffed by you have +2 melee dmg": {
-            "T3. creatures buffed by you have +4 persuasion while within city borders": {},
-            "T3. minions buffed by you have +4 melee dmg": {},
-            "T3. whenever a creature buffed by you scores a melee hit, they gain +3 melee dmg until end of the turn": {}
-        },
-        "T2. on melee hit, add 2 to a pool of melee dmg that you can grant to a melee hit of your choice before your next LR": {
-            "T3. on melee hit, add 3 to a pool of melee dmg that you can grant to the next melee hits of adj allies as a free action before your next LR": {},
-            "T3. on melee hit, add 3 to a pool of melee dmg that is granted to the next melee hit of the next creature you buff": {},
-            "T3. on melee hits on even rounds, add 6 to a pool of melee dmg that you can grant to a melee hit of your choice before your next LR": {}
-        },
-        "T2. +8 melee barrier": {
-            "T3. on taking melee dmg, triggering creature is inflicted with 3 DoT of the base type of their dmg, stacking until CON save": {},
-            "T3. +15 melee barrier vs creatures debuffed by you": {},
-            "T3. +12 melee barrier while wearing 3+ items you crafted": {}
-        }
+    "topaz": {
+        "base": "on spell hit, all foes within 60' of you are struck by a Bolt, which deals 2 light spell dmg",
+        "affixes": [
+            "+3 dmg with chaining powers",
+            "on block, all adj foes are struck by a Bolt twice",
+            "1/LR, as a free action, all adj foes are struck by a Bolt five times",
+            "when hit, triggering creature is struck by a Bolt twice",
+            "on non-substantial block, the nearest foe is struck by a Bolt twice",
+            "your Bolt dmg is increased to 3",
+            "your Bolts splash 2 dmg",
+            "whenever you dmg a creature with a Bolt, the next time they hit they take 2 light spell dmg from you",
+            "on spell hit and when hit, you recover 1 spell slot lvl",
+            "on non-cantrip spellcast, gain +2 spell dmg for the remainder of combat"
+        ],
+        "capstone": "whenever your Bolts strike any number of times, they strike 1 additional time"
     }
 }
