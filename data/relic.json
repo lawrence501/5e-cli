@@ -4523,6 +4523,58 @@
                     "upgrade": "+1 and 4pts distributed/1"
                 }
             ]
+        },
+        {
+            "name": "Flame Link",
+            "startingAffixes": [
+                {
+                    "description": "as an action, you can link yourself to an ally you can see within 60' for the remainder of combat. the link ends if you are more than 60' away from the target or do not have line of sight on them. this does not stack on the same target",
+                    "pointValue": "0",
+                    "upgrade": "bonus action -> free action/4->1"
+                },
+                {
+                    "description": "creatures linked to you have +1d4 fire dmg to their wep hits",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "creatures linked to you have +1 wep fire dmg per bonus max HP you have",
+                    "pointValue": "3",
+                    "upgrade": "+3->2 max HP/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever a creature linked to you reaches 0 HP, you lose 7 HP; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+2 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. your links now last 1hr",
+                    "pointValue": "3",
+                    "upgrade": "+1 duration step/3"
+                },
+                {
+                    "description": "3. +1 to your ongoing debuff DCs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. +3 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "5. if you have 15+ CHA, creatures linked to you have +3 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "6. on fire hit, target is inflicted with 1 fire DoT, stacking until DEX save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "armour": [
