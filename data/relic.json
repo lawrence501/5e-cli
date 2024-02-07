@@ -4575,6 +4575,58 @@
                     "upgrade": "+1/2"
                 }
             ]
+        },
+        {
+            "name": "Grimwrath Berserker",
+            "startingAffixes": [
+                {
+                    "description": "1/LR, on turn end, if you are within 15' of a foe and have hit no more than once this turn, you can react to make an opp atk",
+                    "pointValue": "4",
+                    "upgrade": "1/SR -> 1/combat -> recharge 6+ -> recharge 5+ -> no cooldown/4"
+                },
+                {
+                    "description": "recharge 6+: when you go down, if you have hit no more than once since the start of your last turn, you can react to make an opp atk",
+                    "pointValue": "4",
+                    "upgrade": "recharge 5+ -> no cooldown/4"
+                },
+                {
+                    "description": "until you hit for the first time each rnd, +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever you go down, +2 wep dmg for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. your links now last 1hr",
+                    "pointValue": "3",
+                    "upgrade": "+1 duration step/3"
+                },
+                {
+                    "description": "3. +2 opp atk dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. as a bonus action, gain +1 melee AB for 1rnd",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "6. until you hit for the first time each rnd, +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [

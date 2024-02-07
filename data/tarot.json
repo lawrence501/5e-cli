@@ -5,7 +5,7 @@
     },
     {
         "name": "The Magician",
-        "description": "The item has 1 additional affix that grants a 1/LR free casting of a random spell of level up to your hypothetical highest."
+        "description": "The item has 1 additional affix that grants a 1/LR free casting of a random spell."
     },
     {
         "name": "The High Priestess",
@@ -45,7 +45,7 @@
     },
     {
         "name": "Strength",
-        "description": "The item has 1 additional affix that grants a 1/LR free usage of a random maneuver of degree up to your hypothetical highest."
+        "description": "The item has 1 additional affix that grants a 1/LR free usage of a random maneuver."
     },
     {
         "name": "The Hanged Man",
