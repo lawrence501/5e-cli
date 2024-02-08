@@ -7697,6 +7697,58 @@
                     "upgrade": "+1 wep dmg while dual-wielding/1"
                 }
             ]
+        },
+        {
+            "name": "The Ranger",
+            "startingAffixes": [
+                {
+                    "description": "you ignore the penalties of hot weather on your journey activity checks",
+                    "pointValue": "3",
+                    "upgrade": "+2->1 to journey activity checks in hot weather/1"
+                },
+                {
+                    "description": "you can choose to ignore your result during a non-combat hostile random encounter's group checks/saves",
+                    "pointValue": "3",
+                    "upgrade": "+1 to non-combat hostile random encounter group checks/saves/2"
+                },
+                {
+                    "description": "+1 wep AB vs dragons",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 wep AB vs beasts",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. the day's weather is always rolled with adv",
+                    "pointValue": "3",
+                    "upgrade": "+4 dmg barrier in exotic weather/1"
+                },
+                {
+                    "description": "3. whenever the day's weather is chosen, you can gain 1 lvl of strife to get 2 more options to choose from",
+                    "pointValue": "3",
+                    "upgrade": "+1 option/1"
+                },
+                {
+                    "description": "4. +1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. +1 non-phys dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "6. +2 to journey activity checks in hot weather",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ]
 }
