@@ -13,7 +13,7 @@ All loot roll results have empowered results based on their colour tier, such as
 
 ## Shrines (artifacts of Gawdian)
 
-Shrines are crafting tools. They lose all their power when moved, and so must be used as soon as they are found. For most shrines, you must choose the item to place on the shrine and receive its effect before you find out what the effect is, but some don't specify this and you can learn its effect before choosing an item to place on it. If you don't want the effect that a shrine promises, you can choose to instead not take it, which means that the shrine does nothing, but you gain 1gp.
+Shrines are crafting tools. They lose all their power when moved, and so must be used as soon as they are found. For most shrines, you must choose the item to place on the shrine and receive its effect before you find out what the effect is, but some don't specify this and you can learn its effect before choosing an item to place on it. If you don't want the effect that a shrine promises, you can choose to instead not take it, which means that the shrine does nothing, but you gain 1gp.     vbvg v
 
 ## Crystals (monstrous treasures)
 
