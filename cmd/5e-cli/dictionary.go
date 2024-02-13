@@ -153,11 +153,11 @@ var CITIES []string = []string{
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Thaddeus":    5,
-	"Zacharias":   9,
-	"Siggusmondo": -1,
-	"Vehemir":     7,
-	"Sidekick":    1,
+	"Thaddeus":    8,
+	"Zacharias":   1,
+	"Siggusmondo": 5,
+	"Vehemir":     4,
+	"Sidekick":    0,
 }
 
 var LIGHT_TYPES []string = []string{
