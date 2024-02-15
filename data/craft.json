@@ -1648,5 +1648,11 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["spell", "weapon"]
+    },
+    {
+        "description": "whenever you gain HP while downed, gain 2 more HP",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "tags": ["hp"]
     }
 ]
