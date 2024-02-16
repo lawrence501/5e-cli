@@ -4679,6 +4679,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Diabolic",
+            "startingAffixes": [
+                {
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 fire DoT dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 global dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +5' AoE sizes",
+                    "pointValue": "3",
+                    "upgrade": "+5'/3"
+                },
+                {
+                    "description": "2. on wep hit, target gets 1 fire DoT, stacking until DEX save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "3. 1/SR, on init, create a pers bubble of distorted time in a 5' radius around your current location that halves the sp of all foes in it. It lasts for the remainder of combat",
+                    "pointValue": "1",
+                    "upgrade": "no cooldown -> +5' radius/1"
+                },
+                {
+                    "description": "4. on sub wep hit, make a wep atk against the target that deals 1d4 fire dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. on wep hit, make a glyphic atk against the target that deals 1d4 fire dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
