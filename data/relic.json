@@ -7905,6 +7905,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Wailing Hatred",
+            "startingAffixes": [
+                {
+                    "description": "+5 cold barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "+1 cold dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1d4 cold dmg to your wep hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +5 thunder barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "2. +1d4 cold dmg to your sub wep hits",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. on cold hit, gain +2 dmg barrier for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. react to change incoming dmg into cold",
+                    "pointValue": "1",
+                    "upgrade": "+5 cold barrier/1"
+                },
+                {
+                    "description": "5. on cold hit, gain +1 wep AC for 1rnd",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "6. +2 cold res",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ]
 }
