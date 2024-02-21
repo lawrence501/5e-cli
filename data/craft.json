@@ -228,14 +228,26 @@
         "tags": ["hp"]
     },
     {
-        "description": "+1d4 {type} dmg to wep hits",
+        "description": "+1d4 {type} dmg to your wep hits",
         "pointValue": "3",
         "upgrade": "+1/1",
         "tags": ["type", "weapon"]
     },
     {
-        "description": "+1d4 {type} dmg to spell hits",
+        "description": "+1d4 {type} dmg to your spell hits",
         "pointValue": "3",
+        "upgrade": "+1/1",
+        "tags": ["type", "spell"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your sub wep hits",
+        "pointValue": "2",
+        "upgrade": "+1/1",
+        "tags": ["type", "weapon"]
+    },
+    {
+        "description": "+1d4 {type} dmg to your sub spell hits",
+        "pointValue": "2",
         "upgrade": "+1/1",
         "tags": ["type", "spell"]
     },
