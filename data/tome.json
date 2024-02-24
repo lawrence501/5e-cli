@@ -2946,8 +2946,49 @@
         "description": "Minions buffed by the power have massively more phys barrier and deal more dmg, but have barely reduced passive regen."
     },
     {
-        "name": "Lingering Decay [dread shade DONE]",
+        "name": "Lingering Decay",
         "target": "powers that apply buffs",
         "description": "Whenever the power's buffs expire, a foe of your choice adj to the buff's target is inflicted with a DoT dealing slight $nonPhysType dmg, stacking until CHA save."
+    },
+    {
+        "name": "Empowering Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions' buffs have +1 effectiveness.",
+        "meta": "Summon Frenzy Totem"
+    },
+    {
+        "name": "Berserking",
+        "target": "any power",
+        "description": "Whenever you use the power, you gain the following effects for 1rnd: increased dmg, the usage times of your melee atks are reduced by 1 step, and you take substantially increased dmg."
+    },
+    {
+        "name": "Summoned Power",
+        "target": "any power",
+        "description": "Whenever you use the power, your minions add additional $physType dmg to their melee hits for 1rnd."
+    },
+    {
+        "name": "Manifestation",
+        "target": "any power",
+        "description": "Whenever you use the power, your crystal has a chance to flare."
+    },
+    {
+        "name": "Manifested Empowerment",
+        "target": "powers that summon minions",
+        "description": "While you have an active minion from the power, whenever your crystal flares, you and allies within 60' of you gain +1 crit range for 1rnd."
+    },
+    {
+        "name": "Duplicated Manifestation",
+        "target": "powers that summon minions",
+        "description": "While you have an active minion from the power, your crystals flare an additional time whenever they flare."
+    },
+    {
+        "name": "Massive Manifestation",
+        "target": "powers that summon minions",
+        "description": "While you have an active minion from the power, the areas of your crystal flares are substantially larger."
+    },
+    {
+        "name": "Empowered Decaying [next - Revitalising Totem]",
+        "target": "powers that summon minions",
+        "description": "Creatures buffed by the power's minions inflict a DoT on hit, dealing slight $nonPhysType dmg, stacking until CON save."
     }
 ]
