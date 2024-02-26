@@ -1,6 +1,54 @@
 {
     "Thaddeus": [],
     "Zacharias": [],
-    "Siggusmondo": [],
+    "Siggusmondo": [
+        {
+            "name": "Big Whip",
+            "affixes": [
+                {
+                    "description": "all creatures have 50% res to your thunder dmg",
+                    "pointValue": "-3",
+                    "upgrade": "-1 thunder dmg; 2pts distributed/1"
+                },
+                {
+                    "description": "+10 wep base dmg die size",
+                    "pointValue": "10",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        }
+    ],
     "Vehemir": []
 }
