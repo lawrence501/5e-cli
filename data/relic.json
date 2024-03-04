@@ -8113,6 +8113,58 @@
                     "upgrade": "-1 and 4pts distributed/1"
                 }
             ]
+        },
+        {
+            "name": "Strong Defender of Mensis",
+            "startingAffixes": [
+                {
+                    "description": "+1 DoT dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "your debuffs have double duration",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1 wep crit req",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "2. your projs are converted into cones with length equal to their original range",
+                    "pointValue": "1",
+                    "upgrade": "+2->1 cone AoE dmg/1"
+                },
+                {
+                    "description": "3. on block, triggering creature becomes sluggish for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1 AC vs sluggish creatures/3"
+                },
+                {
+                    "description": "4. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. +2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. your projs fire in your two forward-diagonal directions instead of their usual direction",
+                    "pointValue": "3",
+                    "upgrade": "+1 proj dmg/1"
+                }
+            ]
         }
     ]
 }
