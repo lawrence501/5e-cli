@@ -137,8 +137,8 @@
         "On item proc",
         "On opp atk",
         "On provoking an opp atk",
-        "On hit vs target who cannot sense any allies within 60'",
-        "On block vs creature who cannot sense any allies within 60'",
+        "On hit vs target who is alone in combat",
+        "On block vs creature who is alone in combat",
         "On hit vs target you're flanking",
         "On block vs creature you're flanking",
         "On hit vs mounted target",
@@ -200,7 +200,8 @@
         "Whenever your sidekick is pulled from the pocket dimension",
         "Whenever your sidekick enters the pocket dimension",
         "When you encounter a positive random encounter",
-        "On ending your turn not standing on the ground"
+        "On ending your turn not standing on the ground",
+        "On dealing dmg that is nullified by immunity"
     ],
     "target": [
         "yourself",

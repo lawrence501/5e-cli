@@ -714,13 +714,13 @@
         "tags": ["spell"]
     },
     {
-        "description": "+2 wep dmg vs targets who cannot sense any allies within 60'",
+        "description": "+2 wep dmg vs targets who are alone in combat",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["weapon"]
     },
     {
-        "description": "+2 spell dmg vs targets who cannot sense any allies within 60'",
+        "description": "+2 spell dmg vs targets who are alone in combat",
         "pointValue": "1",
         "upgrade": "+1/1",
         "tags": ["spell"]
