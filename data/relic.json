@@ -4783,6 +4783,58 @@
                     "upgrade": "+5/1"
                 }
             ]
+        },
+        {
+            "name": "Armed Construction",
+            "startingAffixes": [
+                {
+                    "description": "just before your minions die, they explode, making a wep atk against all foes adj to them that deals 1d6 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "if your DEX is 15+, +2 minion fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "if your DEX is 15+, +5' minion AoE sizes",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. whenever you have 2+ minions active, an invisible line of magic is formed between all of them. If any foe moves into any of these lines, the two minions attached to that line instantly die; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-4 minion HP and 2pts distributed/1"
+                },
+                {
+                    "description": "2. 1/LR, on minion hit, they release an explosion from the target, making a wep atk against all foes adj to the target, including the target, dealing 1d4 fire dmg",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "3. -2 minion dmg; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-1 and 2pts distributed/1"
+                },
+                {
+                    "description": "4. your minion fire dmg is converted to cold",
+                    "pointValue": "1",
+                    "upgrade": "+2->1 minion cold dmg/1"
+                },
+                {
+                    "description": "5. whenever your minions would apply a DoT, they instead make the target sluggish for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+3->2 minion dmg vs sluggish targets/1"
+                },
+                {
+                    "description": "6. +1d4 fire dmg to the hits of your minions",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
