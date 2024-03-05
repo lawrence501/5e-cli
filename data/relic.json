@@ -8165,6 +8165,58 @@
                     "upgrade": "+1 proj dmg/1"
                 }
             ]
+        },
+        {
+            "name": "Received Wisdom",
+            "startingAffixes": [
+                {
+                    "description": "while you do not have the highest attendance rate, +1 exp gain",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 exp gain",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. gain dmg barrier equal to 1/3 of your lvl",
+                    "pointValue": "3",
+                    "upgrade": "+1 multi/3"
+                },
+                {
+                    "description": "2. on block, make a wep atk against the triggering creature that deals 1d4 B dmg",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +3 max HP",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "4. on block, gain 1 exp",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. whenever you become bloodied, gain 1 exp",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 wep AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
         }
     ]
 }
