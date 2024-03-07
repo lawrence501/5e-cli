@@ -430,5 +430,173 @@
     {
         "name": "Suggestible",
         "description": "Whenever you are told to do something, you must pass a DC 15 WIS save or be compelled to do it."
+    },
+    {
+        "name": "Worm",
+        "description": "Your legs fuse into one. You have a -1d4 penalty on athletics checks to climb and animal handling checks to stay atop a mount."
+    },
+    {
+        "name": "Confident",
+        "description": "You are absolutely convinced your mutations make you sexually appealing, but this has no bearing on your physical qualities."
+    },
+    {
+        "name": "Evil Eye",
+        "description": "One of your eyes becomes black and weeps tar-like tears. You have a -1d4 penalty to Perception checks that rely on sight."
+    },
+    {
+        "name": "1000 Ears",
+        "description": "They cover your body. While not deafened, you gain 30' of blindsight."
+    },
+    {
+        "name": "Trouble with Names",
+        "description": "You cannot remember anyone's name, unless you spend 1 minute concentrating on them."
+    },
+    {
+        "name": "Mimic",
+        "description": "You can mimic all voices, music, and natural sounds."
+    },
+    {
+        "name": "Wattles",
+        "description": "Like a turkey's neck."
+    },
+    {
+        "name": "Slime Trail",
+        "description": "You sweat a horrible, stinking ooze. You receive a -1d4 penalty on Stealth checks."
+    },
+    {
+        "name": "Mysterious Dot",
+        "description": "You project a red dot from one eye, like a laser pointer. 100' range."
+    },
+    {
+        "name": "Headless",
+        "description": "Your head shrinks into your chest. All of your head's features migrate to your chest. While armoured, you gain a -1d4 penalty to Perception and Charisma checks."
+    },
+    {
+        "name": "Compulsive Dancing",
+        "description": "Whenever you hear music, you must pass a DC 15 WIS save or compulsively dance until the music ends."
+    },
+    {
+        "name": "Earthworm Blood",
+        "description": "Your blood is now earthworms."
+    },
+    {
+        "name": "Stabbing Limb",
+        "description": "One arm becomes a long serrated spike of bone. This counts as any sword weapon of your choice, and can be enchanted. You cannot hold items in that hand any more."
+    },
+    {
+        "name": "Donkey Ears",
+        "description": "Tufted with fur."
+    },
+    {
+        "name": "Sensitive Eyes",
+        "description": "You cannot bear direct sunlight, granting you a -1d4 penalty on attack rolls and Perception checks while in sunlight."
+    },
+    {
+        "name": "Scorpion Tail",
+        "description": "As a glyphic action, you can attack with the tail to deal 1d4 psn dmg."
+    },
+    {
+        "name": "Mantis Arm",
+        "description": "One arm gains several extra joints. Can extend to 10' long, granting +10' reach, and folds up to normal size."
+    },
+    {
+        "name": "Insect Hatred",
+        "description": "All insects instinctively fear or hate you. You do not count shelters found through the Seek Shelter journey activity as Havens."
+    },
+    {
+        "name": "Mind Split",
+        "description": "You start hearing voices. The voices are all you, or part of you. They consistently offer terrible advice."
+    },
+    {
+        "name": "Bad Posture",
+        "description": "Your head is swapped with one of your arms."
+    },
+    {
+        "name": "Two Necks",
+        "description": "Attached to one head. You can sing in harmony with yourself, granting you an expertise die in Performance checks when performing on your own."
+    },
+    {
+        "name": "Lamarckian Evolution",
+        "description": "One of your hands turns into a flesh version of the last tool you used. It can no longer hold equipment, but you gain an expertise die on all uses of that tool."
+    },
+    {
+        "name": "Asymmetry",
+        "description": "Everything you have 2 of you now have 1 of. Roll for each to see if it's on the left or right side. You have a -1d4 penalty on all checks, your speed is halved, and you can only hold 1 item at a time."
+    },
+    {
+        "name": "Iron Keratin",
+        "description": "You have fingernails, toenails, and teeth of iron. You can chew through anything up to the toughness of leather. You gain a +1 bonus to the attack and damage rolls of natural weapons involving your nails or teeth."
+    },
+    {
+        "name": "1000 Sores",
+        "description": "They cover your body. -3 CHA and CON."
+    },
+    {
+        "name": "Comb",
+        "description": "Like a rooster's head crest."
+    },
+    {
+        "name": "Trouble With Nouns",
+        "description": "You can't remember the words for 'things', unless you spend 1 minute concentrating on them."
+    },
+    {
+        "name": "Serrated Teeth",
+        "description": "All your teeth become fearsomely sharp. You can use them as a glyphic action that deals 1d6 P dmg."
+    },
+    {
+        "name": "Resilient",
+        "description": "+1 phys dmg res."
+    },
+    {
+        "name": "Booming Hoot",
+        "description": "1/LR, you can hoot incredibly loudly which can be heard within 2km."
+    },
+    {
+        "name": "Iron Skin",
+        "description": "Your skin flakes are made up of rusty layers of iron. You cannot wear armour, but your natural AC is equal to 16 (no DEX)."
+    },
+    {
+        "name": "Bristly Beard",
+        "description": "Black, long, and coarse."
+    },
+    {
+        "name": "Pin Face",
+        "description": "Your head shrinks to a narrow point. Your eyes are on either side like tennis balls. You have -3 to all ability scores."
+    },
+    {
+        "name": "Long Spine",
+        "description": "Your legs shrink to keep your overall height the same. Your speed is halved."
+    },
+    {
+        "name": "Temperature Sensitive Hair",
+        "description": "Your hair varies from purple (when you are cold) to red (when you are hot)."
+    },
+    {
+        "name": "Retractable Head",
+        "description": "Can shrink into torse, leaving only hair exposed. Doing so blinds and deafens you, but reduces the natural d20 rolls of incoming atks by 1."
+    },
+    {
+        "name": "Pheromones",
+        "description": "Insects find you very attractive and want to lick you."
+    },
+    {
+        "name": "Goat Legs",
+        "description": "2 of your legs become goat legs. You are not slowed by rocky or earthy difficult terrain."
+    },
+    {
+        "name": "Unsettling Laughter",
+        "description": "Your laugh requires small children and non-player party members to make a DC 15 WIS save or want to leave."
+    },
+    {
+        "name": "Bizarre Colour",
+        "description": "Your skin becomes a new colour (red, orange, yellow, green, blue, purple)."
+    },
+    {
+        "name": "Musk Gland",
+        "description": "For marking territory. It smells intriguing."
+    },
+    {
+        "name": "Stinging Skin",
+        "description": "Anyone you touch or who touches you must make a DC 15 CON save or be debilitated for 1rnd."
     }
 ]
