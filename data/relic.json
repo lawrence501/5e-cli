@@ -4840,7 +4840,7 @@
             "name": "Obedience",
             "startingAffixes": [
                 {
-                    "description": "This item's prof req is 1 tier lower",
+                    "description": "this item's prof req is 1 tier lower",
                     "pointValue": "3",
                     "upgrade": "+1/3"
                 },
@@ -4883,6 +4883,58 @@
                 },
                 {
                     "description": "6. +1 crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ]
+        },
+        {
+            "name": "Sanction",
+            "startingAffixes": [
+                {
+                    "description": "recharge 6+: when an ally within 60' of you hits a target Burdened by you, they gain +1 global dmg for the remainder of combat",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 B spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on B spell hit, Burden the target. Burden lasts until either you Burden another creature or the target is hit 4 times.",
+                    "pointValue": "0",
+                    "upgrade": "+2/2"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. every second hit a creature makes against a Burdened target, they recover 2 spell slot lvls",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. on lvl'd spell hit, +5' sp for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "3. +4 B spell dmg during the first round of combat",
+                    "pointValue": "1",
+                    "upgrade": "+4/1"
+                },
+                {
+                    "description": "4. on init, a random foe becomes Burdened",
+                    "pointValue": "1",
+                    "upgrade": "+1 init/1"
+                },
+                {
+                    "description": "5. allies who start their turns adj to you gain sp equal to your bonus sp'",
+                    "pointValue": "3",
+                    "upgrade": "+5' sp/2"
+                },
+                {
+                    "description": "6. allies within 60' of you have +1 global dmg",
                     "pointValue": "4",
                     "upgrade": "+1/4"
                 }
