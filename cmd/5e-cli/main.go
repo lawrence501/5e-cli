@@ -53,7 +53,6 @@ var COMMAND_MAP = map[string]func() error{
 	"non-phys type": nonPhysType,
 	"class":         class,
 	"tarot":         tarot,
-	"tag":           tag,
 	"craft":         craft,
 	"target craft":  targetCraft,
 	"dmg upgrade":   dmgUpgrade,

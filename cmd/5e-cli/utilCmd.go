@@ -50,7 +50,7 @@ var weaponAffix = func() error {
 		}
 	}
 
-	log.Printf("Weapon enchant\n%s [%s; %s]", processString(a.Description), a.PointValue, a.Upgrade)
+	log.Printf("Weapon affix\n%s [%s; %s]", processString(a.Description), a.PointValue, a.Upgrade)
 	return nil
 }
 
@@ -76,7 +76,7 @@ var armourAffix = func() error {
 		}
 	}
 
-	log.Printf("Armour enchant\n%s [%s; %s]", processString(a.Description), a.PointValue, a.Upgrade)
+	log.Printf("Armour affix\n%s [%s; %s]", processString(a.Description), a.PointValue, a.Upgrade)
 	return nil
 }
 
@@ -438,6 +438,9 @@ var dream = func() error {
 	}
 
 	pool, err := fetchDreamPool(char)
+	if err != nil {
+		return err
+	}
 	mod := randSelect(pool)
 	fmt.Printf("%s's dream: %s [%s; %s]", char, mod.Description, mod.PointValue, mod.Upgrade)
 	return nil
@@ -454,6 +457,9 @@ var perk = func() error {
 	}
 
 	perks, err := fetchPerks(char)
+	if err != nil {
+		return err
+	}
 	option1 := randSelect(perks)
 	option2 := option1
 	for option1 == option2 {
@@ -487,6 +493,9 @@ var ringUpgrade = func() error {
 		return err
 	}
 	bases, err := fetchRingBases()
+	if err != nil {
+		return err
+	}
 	option1, option2 := "", ""
 	for option1 == option2 {
 		option1 = randSelect(bases[stone].Affixes)
