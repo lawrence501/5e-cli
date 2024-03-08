@@ -11,6 +11,11 @@
             "Tags": ["weapon"]
         },
         {
+            "Name": "Energy Saw",
+            "Description": "1d8 light; engineered",
+            "Tags": ["weapon"]
+        },
+        {
             "Name": "Gauntlet",
             "Description": "1d4 B; concealable; dual-wielding; flexible (S); unarmed",
             "Tags": ["weapon"]
