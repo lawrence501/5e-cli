@@ -1,5 +1,53 @@
 {
-    "Thaddeus": [],
+    "Thaddeus": [
+        {
+            "name": "Thaddy's Caddy",
+            "affixes": [
+                {
+                    "description": "+5 non-phys barrier",
+                    "pointValue": "2",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "allies in 60' have +2 wep dmg while healthy",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. ?",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
+        }
+    ],
     "Zacharias": [],
     "Siggusmondo": [
         {

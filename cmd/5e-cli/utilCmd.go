@@ -294,7 +294,7 @@ var chaos = func() error {
 }
 
 // Default chance is 10%
-const FLARE_CHANCE = 10
+const FLARE_CHANCE = 11
 
 var combat = func() error {
 	roundMap := map[int][]string{
@@ -572,11 +572,6 @@ var class = func() error {
 
 var activity = func() error {
 	log.Printf("Journey activity: %s", JOURNEY_ACTIVITIES[rand.Intn(len(JOURNEY_ACTIVITIES))])
-	return nil
-}
-
-var tag = func() error {
-	log.Printf("Gem tag: %s", GEM_TAGS[rand.Intn(len(GEM_TAGS))])
 	return nil
 }
 
