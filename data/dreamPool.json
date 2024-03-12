@@ -1,5 +1,21 @@
 {
-    "Thaddeus": [],
+    "Thaddeus": [
+        {
+            "description": "Whenever the target of your Shield of Faith is hit by a melee attack, the attacker takes 4 spell rad dmg from you",
+            "pointValue": "1",
+            "upgrade": "+4/1"
+        },
+        {
+            "description": "The bonus AC for upcasting your Shield of Faith is increased by 2. Additionally, it needs 1 fewer slot levels per upcast bonus.",
+            "pointValue": "3",
+            "upgrade": "+1 AC/1 OR +1 fewer slots/3"
+        },
+        {
+            "description": "Your Shield of Faith no longer requires concentration.",
+            "pointValue": "3",
+            "upgrade": "+1 duration step for Shield of Faith/2"
+        }
+    ],
     "Zacharias": [],
     "Siggusmondo": [],
     "Vehemir": []
