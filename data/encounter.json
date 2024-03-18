@@ -11,11 +11,6 @@
             "tags": ["night"]
         },
         {
-            "name": "White Dragon Wyrmling",
-            "id": 3,
-            "tags": ["night", "terrain"]
-        },
-        {
             "name": "Acid Field",
             "id": 4,
             "tags": ["night", "terrain", "exploration"]
