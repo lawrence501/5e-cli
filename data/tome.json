@@ -1001,7 +1001,7 @@
     {
         "name": "Sacrificial Persistence",
         "target": "powers that create persistent areas which can damage you",
-        "description": "The power's persistent areas tick twice at the start of each of your turns, in additional to their usual tick, but whenever they do so, they tick once against you, regardless of your location. Additionally, the power deals less dmg."
+        "description": "The power's persistent areas tick twice at the start of each of your turns, in addition to their usual tick, but whenever they do so, they tick once against you, regardless of your location. Additionally, the power deals less dmg."
     },
     {
         "name": "Intense Persistence",
@@ -1530,7 +1530,7 @@
     {
         "name": "Shifting Decay",
         "target": "powers that shapeshift",
-        "description": "Whenever the shapeshift scores a KB with a charged wep atk, it releases bolts of energy that seek out all foes within 120' of it. Each bolt inflicts a DoT on its target dealing slight $nonPhysType dmg, stacking until CHA save."
+        "description": "Whenever the shapeshift scores a KB with a charged wep atk, it releases bolts of decay that seek out all foes within 120' of it. Each bolt inflicts a DoT on its target dealing slight $nonPhysType dmg, stacking until CHA save."
     },
     {
         "name": "Cruel Shifting",
