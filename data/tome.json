@@ -1523,9 +1523,9 @@
         "description": "Whenever the shapeshift starts its turn, it gains a slight amount of spell dmg until it reverts."
     },
     {
-        "name": "Hyperpresent Shifting",
-        "target": "powers that shapeshift",
-        "description": "Effects that would trigger at the start of the shapeshift's turns also trigger at the end of its turns."
+        "name": "Hyperpresence",
+        "target": "any power",
+        "description": "Effects of the power that trigger at the start of a turn also trigger at the end of that same turn."
     },
     {
         "name": "Shifting Decay",
@@ -1538,14 +1538,9 @@
         "description": "The shapeshift's charged wep atks deal more dmg vs bloodied targets."
     },
     {
-        "name": "Charged Shifting",
-        "target": "powers that shapeshift",
-        "description": "The shapeshift's melee wep atks have their cooldowns reduced by 1 step, but they deal less dmg."
-    },
-    {
-        "name": "Blinking Shifting",
-        "target": "powers that shapeshift into forms which have teleports with cooldowns",
-        "description": "The shapeshift's teleports have their usage time reduced by 1 step and travel farther, but their cooldowns are increased by 1 step."
+        "name": "Blinking",
+        "target": "powers with a cooldown that teleport an entity",
+        "description": "The power's usage time is reduced by 1 step and its teleports travel farther, but its cooldown is increased by 1 step."
     },
     {
         "name": "Shifting Energy",

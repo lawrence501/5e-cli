@@ -54,7 +54,7 @@
         "description": "Scroll of valuable battle: summons a hostile random encounter with +0 colour loot, all instances of this gained at same time increase the colour tier by 1 to make 1 scroll (empowered = +1 colour of rewards)"
     },
     {
-        "description": "Scroll of challenging battle: summons a hostile random encounter with 1 additional Challenge, all instances of this gained at same time empower the combat's rewards once to make 1 scroll (empowered = +1 colour of rewards)"
+        "description": "Scroll of challenging battle: summons a hostile random encounter with 1 additional Challenge and rewarding +6*x exp, all instances of this gained increase x by 1, combining into 1 (empowered = +6 exp)"
     },
     {
         "description": "Level 10-crafted item of chosen craft with chosen affinities (empowered = +1pt distributed)"
@@ -66,7 +66,7 @@
         "description": "Scroll of civilisation: establish new city here, fully automated via constructs. Can choose/create 1 service for it to have per instance of this reward, combining into 1 (empowered = +10% discount from all services)"
     },
     {
-        "description": "Scroll of lucrative battle: summons a random encounter with normal loot + 40*x gp reward, all instances of this gained increase x by 1, combining into 1 (empowered = +1 loot colour)"
+        "description": "Scroll of lucrative battle: summons a random encounter with normal loot + 40*x gp reward, all instances of this gained increase x by 1, combining into 1 (empowered = +40 gold reward)"
     },
     {
         "description": "Reroll with advantage (empowered = +1 adv)"
@@ -75,7 +75,10 @@
         "description": "Instanty teleport party to any location on map (empowered = 20% chance to be a scroll instead)"
     },
     {
-        "description": "+1 bag carry capacity (empowered = +1 capacity)"
+        "description": "+1 meaningless fatigue level (empowered = +1)"
+    },
+    {
+        "description": "+1 meaningless strife level (empowered = +1)"
     },
     {
         "description": "Permanent +1 $dmgType dmg (empowered = +1 adv on type)"
