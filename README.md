@@ -55,7 +55,7 @@ Lawrence: 1400
 - Self-synergy mechanic
 - AI
 
-### Manual value cheatsheet
+### Tome value cheatsheet
 
 Always based on dmg where possible
 
@@ -68,7 +68,7 @@ Always based on dmg where possible
 Without original values:
 - Spells: 10 + 5 per slot lvl/cantrip scale tier
 - Everything else (limited): 13 + 2 per party lvl
-- Everything else (non-limited): 8 + 1.5 per party lvl above 1st
+- Everything else (non-limited): 8 + 1 per party lvl
 
 ### Point value cheatsheet
 
