@@ -11,6 +11,11 @@
             "tags": ["night"]
         },
         {
+            "name": "Ravager Stabby-Stabber",
+            "id": 7,
+            "tags": ["night"]
+        },
+        {
             "name": "Acid Field",
             "id": 4,
             "tags": ["night", "terrain", "exploration"]
