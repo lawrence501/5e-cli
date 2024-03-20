@@ -27,7 +27,7 @@
         "[Partner] on substantial hit vs a creature adj to Vehemir, Vehemir can react to make an unarmed attack against the creature",
         "[Partner] whenever you or Vehemir score a killing blow, the other gains a dmg bonus to their next hit equal to the highest of the overkill dmg or half the killing blow's total damage. This can persist across combats",
         "[Identity] on your first whip hit of each round, your target makes a WIS save against your maneuver DC. on a fail, they are frightened of you for 1d4 rounds. On a sub fail, they are dominated by you for 1d4 rounds.",
-        "[Identity] whenever you are hit by a creature, that creature takes 1d6 P dmg, which scales as if it were your weapon damage",
+        "[Identity] whenever you block an attack from a creature, that creature takes 1d6 P dmg, which scales as if it were your weapon damage",
         "[Gap] You can use your Gathered Swarm effects 1 additional time on each of your turns.",
         "[Gap] You gain 3 additional uses of any of your Swarmkeeper spells between long rests, which can be used in any combination.",
         "[Keyword] On your first whip hit of each round, the closest ally to your target becomes Driven until the end of their next turn. While Driven, a creature has -1 AC and +5 global AB.",
