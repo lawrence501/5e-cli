@@ -11,6 +11,11 @@
             "tags": ["night"]
         },
         {
+            "name": "Sea Hag",
+            "id": 8,
+            "tags": ["terrain"]
+        },
+        {
             "name": "Acid Field",
             "id": 4,
             "tags": ["night", "terrain", "exploration"]
