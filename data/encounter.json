@@ -1,11 +1,6 @@
 {
     "hostile": [
         {
-            "name": "Lizardfolk Druid",
-            "id": 1,
-            "tags": ["terrain"]
-        },
-        {
             "name": "Phase Spider",
             "id": 2,
             "tags": ["night"]
