@@ -150,18 +150,6 @@
         "tags": []
     },
     {
-        "description": "+1 investigation for finding loot",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": []
-    },
-    {
-        "description": "+1 survival for harvesting organs",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "tags": []
-    },
-    {
         "description": "+1 to concentration saves",
         "pointValue": "2",
         "upgrade": "+1/2",
@@ -327,18 +315,6 @@
         "description": "ignore diff terrain",
         "pointValue": "3",
         "upgrade": "+5' sp in diff terrain/1",
-        "tags": []
-    },
-    {
-        "description": "+1 loot roll found while investigating if you had the only score above 13",
-        "pointValue": "3",
-        "upgrade": "+1 loot roll/3",
-        "tags": []
-    },
-    {
-        "description": "+1 organ harvested if you had the only survival score above 12",
-        "pointValue": "3",
-        "upgrade": "+1 organ/3",
         "tags": []
     },
     {
