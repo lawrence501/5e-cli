@@ -4939,6 +4939,58 @@
                     "upgrade": "+1/4"
                 }
             ]
+        },
+        {
+            "name": "Novice's Rise",
+            "startingAffixes": [
+                {
+                    "description": "you cannot upcast spells",
+                    "pointValue": "-3",
+                    "upgrade": "your spells deal less dmg equal to half->multi their spell slot lvl used and 2pts distributed/1"
+                },
+                {
+                    "description": "if your INT is 15+, +49 dmg with spells you cast with a 1st-lvl spell slot",
+                    "pointValue": "7",
+                    "upgrade": "+7/1"
+                },
+                {
+                    "description": "your spells deal less dmg equal to half their spell slot lvl used",
+                    "pointValue": "-1",
+                    "upgrade": "+1 multi and 2pts distributed/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. -6 dmg with spells you cast with a 2nd-lvl spell slot; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-6 and 2pts distributed/1"
+                },
+                {
+                    "description": "2. -5 dmg with spells you cast with a 3rd-lvl spell slot; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-5 and 2pts distributed/1"
+                },
+                {
+                    "description": "3. +1 fire spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 exp gain",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. -4 dmg with spells you cast with a 4th-lvl spell slot; 2pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "-4 and 2pts distributed/1"
+                },
+                {
+                    "description": "6. if your INT is 15+, +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ]
         }
     ],
     "armour": [
