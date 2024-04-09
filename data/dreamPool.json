@@ -7,16 +7,32 @@
         },
         {
             "description": "The bonus AC for upcasting your Shield of Faith is increased by 2. Additionally, it needs 2 fewer slot levels per upcast bonus.",
-            "pointValue": "3",
+            "pointValue": "4",
             "upgrade": "+1 AC/1"
         },
         {
             "description": "Your Shield of Faith no longer requires concentration.",
-            "pointValue": "4",
+            "pointValue": "3",
             "upgrade": "+1 duration step for Shield of Faith/1"
         }
     ],
     "Zacharias": [],
     "Siggusmondo": [],
-    "Vehemir": ["Speak with Animals spell"]
+    "Vehemir": [
+        {
+            "description": "Your Speak with Animals now lasts 1 hour",
+            "pointValue": "1",
+            "upgrade": "+1 duration step/1"
+        },
+        {
+            "description": "Allies can Help you with animal handling checks you make with beasts you are communicating with via Speak with Animals",
+            "pointValue": "1",
+            "upgrade": "+4 to these Helped animal handling checks/1"
+        },
+        {
+            "description": "Your Speak with Animals now allows beasts you are communicating with to access their entire life's memories, not just things they perceived recently.",
+            "pointValue": "1",
+            "upgrade": "+3->2 animal handling when communicating via Speak with Animals/1"
+        }
+    ]
 }
