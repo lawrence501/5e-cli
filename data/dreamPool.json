@@ -1,9 +1,9 @@
 {
     "Thaddeus": [
         {
-            "description": "Whenever the target of your Shield of Faith is hit by a melee attack, the attacker takes 5 spell rad dmg from you",
+            "description": "Whenever the target of your Shield of Faith is hit by a melee attack, the attacker takes rad spell dmg equal to triple your bonus outgoing healing",
             "pointValue": "1",
-            "upgrade": "+5/1"
+            "upgrade": "+1 outgoing healing/1"
         },
         {
             "description": "The bonus AC for upcasting your Shield of Faith is increased by 2. Additionally, it needs 2 fewer slot levels per upcast bonus.",
