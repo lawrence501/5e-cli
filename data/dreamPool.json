@@ -28,11 +28,6 @@
             "description": "Allies can Help you with animal handling checks you make with beasts you are communicating with via Speak with Animals",
             "pointValue": "1",
             "upgrade": "+4 to these Helped animal handling checks/1"
-        },
-        {
-            "description": "Your Speak with Animals now allows beasts you are communicating with to access their entire life's memories, not just things they perceived recently.",
-            "pointValue": "1",
-            "upgrade": "+3->2 animal handling when communicating via Speak with Animals/1"
         }
     ]
 }

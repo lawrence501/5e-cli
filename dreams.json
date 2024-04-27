@@ -1,6 +1,12 @@
 {
-    "Thaddeus": [],
+    "Thaddeus (1)": [],
     "Zacharias": [],
     "Siggusmondo": [],
-    "Vehemir": []
+    "Vehemir (2)": [
+        {
+            "description": "Your Speak with Animals now allows beasts you are communicating with to access their entire life's memories, not just things they perceived recently; +3 animal handling when communicating via Speak with Animals",
+            "pointValue": "2",
+            "upgrade": "+2 animal handling when communicating via Speak with Animals/1"
+        }
+    ]
 }
