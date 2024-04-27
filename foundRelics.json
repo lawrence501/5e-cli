@@ -51,16 +51,16 @@
     "Zacharias": [],
     "Siggusmondo": [
         {
-            "name": "Big Whip",
+            "name": "Big Whip (L2)",
             "affixes": [
                 {
-                    "description": "all creatures have 50% res to your thunder dmg",
-                    "pointValue": "-3",
+                    "description": "all creatures have 50% res to your thunder dmg; -1 thunder dmg",
+                    "pointValue": "-4",
                     "upgrade": "-1 thunder dmg; 2pts distributed/1"
                 },
                 {
-                    "description": "+10 wep base dmg die size",
-                    "pointValue": "10",
+                    "description": "+12 wep base dmg die size",
+                    "pointValue": "12",
                     "upgrade": "+1/1"
                 }
             ],
@@ -94,6 +94,58 @@
                     "description": "6. ?",
                     "pointValue": "1",
                     "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Death Ward",
+            "startingAffixes": [
+                {
+                    "description": "1/LR, you can cast Death Ward for free",
+                    "pointValue": "4",
+                    "upgrade": "SR -> combat -> recharge 6+ -> recharge 5+ -> infinite/4"
+                },
+                {
+                    "description": "Death Ward's duration is reduced to 1hr",
+                    "pointValue": "-3",
+                    "upgrade": "-1 step and 4pts distributed/1"
+                },
+                {
+                    "description": "+2 to saves vs effects that deal nec dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +5 nec barrier",
+                    "pointValue": "1",
+                    "upgrade": "+5/1"
+                },
+                {
+                    "description": "2. you can no longer die from fatigue",
+                    "pointValue": "1",
+                    "upgrade": "+1 to saves vs debuffs/4"
+                },
+                {
+                    "description": "3. +1 incoming temp HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. +1 to spell saves",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "5. if nec dmg would trigger your Death Ward, the spell doesn't end",
+                    "pointValue": "4",
+                    "upgrade": "+5 nec barrier/1"
+                },
+                {
+                    "description": "6. Death Ward now requires a full turn action to cast; 5pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 casting time step and 5pts distributed/1"
                 }
             ]
         }
