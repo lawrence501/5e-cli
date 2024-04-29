@@ -1,0 +1,10 @@
+{
+    "Thaddeus": [],
+    "Zacharias": [],
+    "Siggusmondo": [
+        "[Keyword] Whenever an ally that can hear you substantially misses an attack, you can have them lose 1 HP to make them Driven until the end of their next turn. While Driven, they have -1 AC and add 1d10 base dmg to their hits, which scales with your level like a cantrip."
+    ],
+    "Vehemir": [
+        "[AI] Whenever you unlock a new CR of wild shapes, choose a creature of that CR to be your preferred shape. Whenever you shapeshift into your preferred shape, you gain additional temp HP equal to double your level."
+    ]
+}
