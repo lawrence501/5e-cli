@@ -30,7 +30,9 @@
         "[Identity] whenever you block an attack from a creature, that creature takes 1d6 P dmg, which scales as if it were your weapon damage",
         "[Gap] You can use your Gathered Swarm effects 1 additional time on each turn (twice on your turns, once on any turn).",
         "[Gap] Foes you are flanking are taunted by you.",
-        "[Keyword] On your first whip hit of each round, the closest ally to your target becomes Driven until the end of their next turn. While Driven, a creature has -1 AC and +5 global AB.",
+        "[Keyword] On your first whip hit of each round, the closest ally to your target (you choose tiebreaks) becomes Driven until the end of your next turn. While Driven, a creature has -1 AC and +5 global AB.",
+        "[Keyword] Whenever you hit a single creature for the second time in a round, the closest ally to you (you choose tiebreaks) becomes Driven until the end of your next turn. While Driven, a creature has -1 AC and can use a Basic Maneuver as a free action on each of their turns.",
+        "[Keyword] Whenever you successfully learn facts about a creature in combat, the next ally to take their turn becomes Driven until the end of your next turn. While Driven, a creature has -1 AC and their attacks gain +1 crit range for each fact the party knows about the target, up to +3.",
         "[AI] Whenever your Gathered Swarm deals piercing damage, the target must also make a WIS save against your maneuver DC or take additional psychic damage of a number of d6s equal to the number of times you have hit the target this combat.",
         "[AI] Once per long rest, on rolling initiative, you can summon a swarm of bees in an unoccupied space within 60' of you. This is a beast minion that deals piercing dmg, with fly speed instead of regular speed, a reach of 0', and the ability to move through and remain in other creatures' spaces. Its CR is your lvl divided by 4. It disappears if you take a long rest."
     ],
@@ -43,6 +45,8 @@
         "[Gap] while you have 2+ death saves, you can wild shape without cost as a free action. Doing so in this way grants you no temporary hit points.",
         "[Keyword] Whenever a creature dies within 60' of you, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and always crit when they hit.",
         "[Keyword] Whenever you are critically hit, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and deal 1d12 additional base damage, which scales with your level like a cantrip.",
-        "[AI] Once per long rest, on rolling initiative, you can summon a large bear in an unoccupied space within 60' of you. This is a beast minion that deals slashing dmg. Its CR is your level divided by 4. It disappears if you take a long rest."
+        "[AI] Once per long rest, on rolling initiative, you can summon a large bear in an unoccupied space within 60' of you. This is a beast minion that deals slashing dmg. Its CR is your level divided by 4. It disappears if you take a long rest.",
+        "[AI] While shapeshifted into your preferred shape, your Befriend Animal animal friend defends you for additional damage equal to your level.",
+        "[AI] While shapeshifted into your preferred shape, you gain +1 AC."
     ]
 }
