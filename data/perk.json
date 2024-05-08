@@ -4,7 +4,6 @@
         "[Partner] whenever you overheal Thaddeus, he gains the excess amount in temp HP",
         "[Identity] the first time you go down each combat, you gain +5 outgoing healing and +30' fly sp for the remainder of combat, and the next time you recover HP, all foes within 60' of you take 1d6 radiant damage, which scales with your outgoing healing",
         "[Identity] whenever you actively heal another creature while a boss is within 60' of you, the boss takes radiant spell dmg equal to the amount you healed.",
-        "[Gap] You gain 3 additional 1st-lvl spell slots that can only be used for spells that heal.",
         "[Gap] Whenever you heal a creature, you can choose an ally within 60' of you to lose hit points equal to any number of d10 rolls, rolling them one at a time before deciding to roll more. The creature you are healing heals additional hit points equal to triple the amount of HP taken from this ally.",
         "[Keyword] Whenever you heal a creature on 0 HP, they become Redeemed for 1 round. While a creature is Redeemed, they gain 50% resistance to all damage.",
         "[Keyword] Whenever you are hit while adj to an ally, that ally becomes Redeemed for 1 round. While a creature is Redeemed, they gain damage barrier equal to twice your level.",
@@ -13,9 +12,8 @@
     ],
     "Zacharias": [
         "[Partner] whenever you help Thaddeus with an ability check, he adds a d8 expertise die to the result",
-        "[Partner] whenever you are healed by Thaddeus, your next Spectral Influence roll gains a bonus equal to half the amount you were healed for. This does not stack",
+        "[Partner] whenever you are healed by Thaddeus, your next Spectral Influence roll gains a bonus equal to half the amount of healing the spell granted. This does not stack",
         "[Identity] as a free action once on each of you turns, you can make a history check against the standard DC of a creature you can see. On a success, it gains vulnerability to your choice of 2 random dmg types. It can only have one of these effects at a time.",
-        "[Identity] while an ally within 60' of you is down, all foes within 60' of you are rattled and all allies in the same area gain a d6 expertise die on stabilising checks.",
         "[Gap] You can use Spectral Influence on your cantrips a number of times between short rests equal to your INT mod.",
         "[Gap] Whenever you use Spectral Influence on a spell that deals damage, you can reduce your Spectral Influence result by any number of d10 rolls, rolling them one at a time before deciding to roll more. For each d10 you rolled, the spell's damage is increased by 2d4 (spell lvl 0-2), 2d8 (spell lvl 3-5), or 2d12 (spell lvl 6+)",
         "[Keyword] Whenever you cast a spell using your highest-level spell slot, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, all of your spells are upcast 1 level for free.",

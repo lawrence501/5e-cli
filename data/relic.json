@@ -2549,58 +2549,6 @@
             ]
         },
         {
-            "name": "Crosser",
-            "startingAffixes": [
-                {
-                    "description": "+1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "on block, +4 dmg barrier for 1rnd",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
-                },
-                {
-                    "description": "your half-AC prevents 4 additional dmg",
-                    "pointValue": "1",
-                    "upgrade": "+4/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "2. +1 wep AC while buffed",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "3. +1 spell AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "4. +5' sp",
-                    "pointValue": "2",
-                    "upgrade": "+5'/2"
-                },
-                {
-                    "description": "5. +1 half-AC",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "6. on block, +2 half-AC for 1rnd",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
             "name": "Flora and Fauna",
             "startingAffixes": [
                 {
@@ -5463,58 +5411,6 @@
             ]
         },
         {
-            "name": "Desolation",
-            "startingAffixes": [
-                {
-                    "description": "+1 light DoT dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "on hit, inflict 1 light DoT, stacking until CON save",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "+1 light dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. +1d4 light dmg to your spell hits",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "2. +1d4 light dmg to your wep hits",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. +1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "4. +1 spell AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "5. +6 crit dmg barrier",
-                    "pointValue": "1",
-                    "upgrade": "+6/1"
-                },
-                {
-                    "description": "6. +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
             "name": "Temporal Rewind",
             "startingAffixes": [
                 {
@@ -8007,58 +7903,6 @@
                     "description": "6. +1 to your ongoing debuff saves",
                     "pointValue": "4",
                     "upgrade": "+1/4"
-                }
-            ]
-        },
-        {
-            "name": "The Armour of Aroshi",
-            "startingAffixes": [
-                {
-                    "description": "you may adjust your loot roll results by up to 1",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "+1 exp gain",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "whenever you complete a LR, a chaotic affix is generated. you may choose to gain it until LR",
-                    "pointValue": "3",
-                    "upgrade": "+1 dmg with chaotic affixes/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. objects you create shed 15' of bright light",
-                    "pointValue": "1",
-                    "upgrade": "+10'/1"
-                },
-                {
-                    "description": "2. on KB, gain 1 exp",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. your loot rolls are always 1 colour tier higher",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "4. when downed, gain 1 exp",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "5. +1 dmg with chaotic affixes",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "6. -1 passive regen; 4pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 4pts distributed/1"
                 }
             ]
         },

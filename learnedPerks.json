@@ -1,6 +1,10 @@
 {
-    "Thaddeus": [],
-    "Zacharias": [],
+    "Thaddeus": [
+        "[Gap] You gain 3 additional 1st-lvl spell slots that can only be used for spells that heal."
+    ],
+    "Zacharias": [
+        "[Identity] while an ally within 60' of you is down, all foes within 60' of you are rattled and all allies in the same area gain a d6 expertise die on stabilising checks."
+    ],
     "Siggusmondo": [
         "[Keyword] Whenever an ally that can hear you substantially misses an attack, you can have them lose 1 HP to make them Driven until the end of their next turn. While Driven, they have -1 AC and add 1d10 base dmg to their hits, which scales with your level like a cantrip."
     ],
