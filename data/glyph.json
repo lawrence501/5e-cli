@@ -997,7 +997,7 @@
         "tiers": [
             "1. Weak Spot: 2/min; free action; You can quickly identify, pinpoint, and expose a weak or sensitive spot on your target. Make a Perception check against your target, contested by their Stealth. If you succeed, they make a CON save with advantage. On a failed save, they take 1d8 additional damage from hits until their next long rest. This effect can only be applied to a target once.",
             "2. You gain an expertise die in Medicine.",
-            "3. Treat Patient: 1/min; glyphic action; You attempt to cure one negative effect or condition (such as disease, poison, or injury) in a creature (DC 13 Medicine).",
+            "3. Treat Patient: 1/min; glyphic action; You attempt to cure one negative effect in a creature you touch (DC 13 Medicine).",
             "4. The damage dice of your crystal flares is increased by 1 size.",
             "5. Holographic Medical Assistant: 1/SR; glyphic action; You become aware of a corner of the Shimmering Library that contains a niche of relevant medical data of which you can materialise in a hologram. This hologram is a CR 1 construct minion with 20 Intelligence and Wisdom, and an expertise die in Medicine and Engineering. You can only have 1 active at a time.",
             "6. You gain an expertise die in Medicine.",
