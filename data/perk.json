@@ -16,6 +16,8 @@
         "[Partner] whenever you help Thaddeus with an ability check, he adds a d8 expertise die to the result",
         "[Partner] whenever you are healed by Thaddeus, your next Spectral Influence roll gains a bonus equal to half the amount of healing the spell granted. This does not stack",
         "[Identity] as a free action once on each of you turns, you can make a history check against the standard DC of a creature you can see. On a success, it gains vulnerability to your choice of 2 random dmg types. It can only have one of these effects at a time.",
+        "[Identity] While adjacent to one and only one ally with spell slots, your spells gain the benefits of their bonus spell damage and global damage.",
+        "[Identity] Whenever the party's highest result on a Knowledge skill check is below 15, your natural roll for that check becomes 15.",
         "[Gap] You can use Spectral Influence on your cantrips a number of times between short rests equal to your INT mod.",
         "[Gap] Whenever you use Spectral Influence on a spell that deals damage, you can reduce your Spectral Influence result by any number of d10 rolls, rolling them one at a time before deciding to roll more. For each d10 you rolled, the spell's damage is increased by 2d4 (spell lvl 0-2), 2d8 (spell lvl 3-5), or 2d12 (spell lvl 6+)",
         "[Keyword] Whenever you cast a spell using your highest-level spell slot, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, all of your spells are upcast 1 level for free.",
