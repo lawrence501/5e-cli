@@ -6,26 +6,6 @@
             "tags": ["night"]
         },
         {
-            "name": "Ravager Stabby-Stabber",
-            "id": 7,
-            "tags": ["night"]
-        },
-        {
-            "name": "Sea Hag",
-            "id": 8,
-            "tags": ["terrain"]
-        },
-        {
-            "name": "Acid Field",
-            "id": 4,
-            "tags": ["night", "terrain", "exploration"]
-        },
-        {
-            "name": "Blinding Blizzard",
-            "id": 5,
-            "tags": ["night", "terrain", "exploration"]
-        },
-        {
             "name": "Bridge of Sorrow",
             "id": 6,
             "tags": ["night", "terrain", "exploration"]

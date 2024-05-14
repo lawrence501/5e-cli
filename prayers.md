@@ -1,5 +1,8 @@
 # Prayers
 
+## Mother
+- ??
+
 ## Pherousa
 - Major Curse: Pherousa vehemently denies you and your allies the ability to manipulate the cycle. The next time a member of your party would score a killing blow, the target instead remains on 1 HP and immediately takes a turn.
 - Minor Curse: Pherousa denies you and your allies the ability to manipulate the cycle. The next time a member of your party would score a killing blow, the target instead remains on 1 HP.

@@ -1316,7 +1316,7 @@
         "description": "harnessing the power of lightning",
         "tiers": [
             "1. Shock: At-will; glyphic action; Your hands crackle with electricity, allowing you to touch a creature to make an attack to inflict 1d8 + your level lightning damage. Alternatively, if you wield a weapon, for 10 minutes it crackles with electricity and inflicts 1d6 additional lightning damage per hit if held by you.",
-            "2. Charge: At-will; glyphic action; You can charge a relic so that it gains an ephemeral level. This can only be done once for each item.",
+            "2. Charge: At-will; glyphic action; You can charge a Relic so that it gains an Ephemeral Level. This can only be done once for each item.",
             "3. Bolt Rider: 1/SR; glyphic action; You can move up to 120' from 1 location to another almost instantaneously, carried by a bolt of lightning. You must be able to see the new location, and there must be no intervening barriers.",
             "4. You can absorb the power of a relic, allowing you to regain an amount of hit points equal to half the item's level. This requires a full turn action with concentration.",
             "5. Electric Armour: 1/SR; free action; Electricity crackles across your body for 10 minutes, granting you +1 AC. While electrified, you have an additional +4 to lightning resistance, and you inflict 1d6 lightning damage on any creature that hits you with an unarmed attack or a metal melee weapon.",
