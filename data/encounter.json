@@ -6,8 +6,28 @@
             "tags": ["night"]
         },
         {
+            "name": "Kraghammer Goat-Knight",
+            "id": 9,
+            "tags": []
+        },
+        {
+            "name": "Giant Ant Queen",
+            "id": 10,
+            "tags": ["night"]
+        },
+        {
             "name": "Bridge of Sorrow",
             "id": 6,
+            "tags": ["night", "terrain", "exploration"]
+        },
+        {
+            "name": "Bridge of Stones",
+            "id": 11,
+            "tags": ["night", "terrain", "exploration"]
+        },
+        {
+            "name": "Choking Smoke",
+            "id": 12,
             "tags": ["night", "terrain", "exploration"]
         }
     ],
