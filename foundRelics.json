@@ -155,15 +155,68 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Dragonsong (wep) (L1)",
+            "startingAffixes": [
+                {
+                    "description": "+1 fire crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1d4 fire dmg to your hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on crit, unleash dragon fire in a 15' cone that only affects foes, making glyphic atks dealing 1d4 fire dmg (does not self-trigger)",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "2. +1 crit range",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. +1 to your saves to end ongoing debuffs",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "4. you also count as the dragon creature type",
+                    "pointValue": "1",
+                    "upgrade": "+4 persuasion vs dragons/1"
+                },
+                {
+                    "description": "5. on crit, unleash dragonfire in a 15' line that only affects foes, making glyphic atks dealing 1d4 fire dmg (does not self-trigger)",
+                    "pointValue": "4",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "6. your glyphic powers have half duration and 4pts distributed",
+                    "pointValue": "1",
+                    "upgrade": "+1 multi and 4pts distributed/1"
+                }
+            ]
         }
     ],
     "Zacharias": [
         {
-            "name": "The Satyr (arm) (L1)",
+            "name": "The Satyr (arm) (L1) (charged)",
+            "two lvls": "thematic 2; core 1",
             "startingAffixes": [
                 {
-                    "description": "unintelligent creatures are less likely to target you",
-                    "pointValue": "1",
+                    "description": "unintelligent creatures are even less likely to target you",
+                    "pointValue": "2",
                     "upgrade": "less/1"
                 },
                 {
@@ -366,111 +419,7 @@
     ],
     "Vehemir": [
         {
-            "name": "The Elementalist (arm)",
-            "startingAffixes": [
-                {
-                    "description": "journey weather is rolled with advantage",
-                    "pointValue": "1",
-                    "upgrade": "+1 advantage level/1"
-                },
-                {
-                    "description": "+1 1st-level spell slot",
-                    "pointValue": "3",
-                    "upgrade": "+1 slot OR +1 lvl/3"
-                },
-                {
-                    "description": "+5 light barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. +3 non-phys barrier",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "2. -2 light dmg taken",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. -1 non-phys dmg taken",
-                    "pointValue": "2",
-                    "upgrade": "-1/2"
-                },
-                {
-                    "description": "4. +5 fire barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "5. you and allies within 60' have +1 incoming healing while submerged in water",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "6. you are immune to the penalties of Rainy weather",
-                    "pointValue": "1",
-                    "upgrade": "+3->2 to journey activity checks in Rainy weather/1"
-                }
-            ]
-        },
-        {
-            "name": "Chaotic Destiny (wep)",
-            "startingAffixes": [
-                {
-                    "description": "you gain inspiration whenever you non-trivially subvert law and order to benefit your party or quest",
-                    "pointValue": "1",
-                    "upgrade": "+1 on inspiration rerolls/1"
-                },
-                {
-                    "description": "whenever you or a friendly creature you can hear fails a Deception check, you can react to expend your inspiration to undo any consequences of that failed check",
-                    "pointValue": "1",
-                    "upgrade": "+1 decep/1"
-                },
-                {
-                    "description": "whenever you or a friendly creature you can hear fails a Persuasion check, you can react to expend your inspiration to undo any consequences of that faied check",
-                    "pointValue": "1",
-                    "upgrade": "+1 decep/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. if you overturn a world or cosmic order, this affix transforms into a new one with a min pt value of 5",
-                    "pointValue": "1",
-                    "upgrade": "+1 pt value/1"
-                },
-                {
-                    "description": "2. you may reroll the entirety of any dmg roll once",
-                    "pointValue": "1",
-                    "upgrade": "you may reroll 1 additional time/1"
-                },
-                {
-                    "description": "3. whenever you roll dice for a random, non-loot table, you may reroll the entire roll once",
-                    "pointValue": "1",
-                    "upgrade": "you may reroll 1 additional time/1"
-                },
-                {
-                    "description": "4. you count as having the chaotic alignment and project a strong chaotic aura",
-                    "pointValue": "1",
-                    "upgrade": "+2->1 global dmg vs creatures with a lawful aura/1"
-                },
-                {
-                    "description": "5. +1 AoE dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "6. you can stack inspiration 1 additional time",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                }
-            ]
-        },
-        {
-            "name": "Crosser",
+            "name": "Crosser (wep) (L1) (charged)",
             "startingAffixes": [
                 {
                     "description": "+1 wep AC",
@@ -486,6 +435,11 @@
                     "description": "your half-AC prevents 4 additional dmg",
                     "pointValue": "1",
                     "upgrade": "+4/1"
+                },
+                {
+                    "description": "+1 wep AC while buffed",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
                 }
             ],
             "thematicAffixes": [
@@ -517,6 +471,110 @@
                 {
                     "description": "6. on block, +2 half-AC for 1rnd",
                     "pointValue": "2",
+                    "upgrade": "+1/1"
+                }
+            ]
+        },
+        {
+            "name": "Sol (arm) (L1)",
+            "startingAffixes": [
+                {
+                    "description": "+1 to your min wep dmg die rolls",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+2 dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "-1 to max wep dmg die rolls from incoming hits",
+                    "pointValue": "1",
+                    "upgrade": "-1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +3 phys dmg barrier",
+                    "pointValue": "1",
+                    "upgrade": "+2/1"
+                },
+                {
+                    "description": "2. +1 wep AC",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                },
+                {
+                    "description": "3. +1 phys dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "4. +1 phys res",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. on KB, heal 2 HP",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. you are 1 size larger",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                }
+            ]
+        },
+        {
+            "name": "Feral Wilderness (arm) (L1)",
+            "startingAffixes": [
+                {
+                    "description": "+5' sp while shapeshifted",
+                    "pointValue": "1",
+                    "upgrade": "+5'/1"
+                },
+                {
+                    "description": "on melee hit, your next 1st-degree maneuver costs -1 exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1 degree/3 OR -1 exertion/3"
+                },
+                {
+                    "description": "+1 melee AB",
+                    "pointValue": "4",
+                    "upgrade": "+1/4"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. on melee hit, your next melee hit will deal +1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 max exertion",
+                    "pointValue": "3",
+                    "upgrade": "+1/3"
+                },
+                {
+                    "description": "3. on hitting a 3rd time with a basic wep atk in the same turn, your next melee hit has +1 dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on basic melee wep hit, target gets 1 S DoT, stacking until CON save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "5. whenever a creature affected by your DoTs dies, you gain +1 global dmg for combat",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. +1 melee dmg",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ]
