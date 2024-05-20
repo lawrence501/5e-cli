@@ -326,6 +326,8 @@ var combat = func() error {
 	return nil
 }
 
+var LEGENDARY_CHEST_CHANCE = 15
+
 var travel = func() error {
 	charSlice := make([]string, len(PARTY_MEMBERS))
 	copy(charSlice, PARTY_MEMBERS)
@@ -358,18 +360,23 @@ var travel = func() error {
 	event := 1
 	for i := 0; i < 5; i++ {
 		if i == hostile1 || i == hostile2 {
-			ambush := ""
-			tag := ""
-			if event >= 6 {
-				ambush = " (NIGHT AMBUSH)"
-				tag = "night"
-			}
-			encounter, err := hostileEncounter(tag)
-			if err != nil {
-				return err
-			}
+			legendaryRoll := rand.Intn(100)
+			if legendaryRoll < LEGENDARY_CHEST_CHANCE {
+				log.Printf("%d. Legendary chest!\n", event)
+			} else {
+				ambush := ""
+				tag := ""
+				if event >= 6 {
+					ambush = " (NIGHT AMBUSH)"
+					tag = "night"
+				}
+				encounter, err := hostileEncounter(tag)
+				if err != nil {
+					return err
+				}
 
-			log.Printf("%d. Random encounter%s: %s\n", event, ambush, encounter)
+				log.Printf("%d. Random encounter%s: %s\n", event, ambush, encounter)
+			}
 			event++
 		} else if i == positive {
 			encounter, err := positiveEncounter()
