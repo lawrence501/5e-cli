@@ -17,7 +17,23 @@
         }
     ],
     "Zacharias": [],
-    "Siggusmondo": [],
+    "Siggusmondo": [
+        {
+            "description": "The first time in a turn a creature fails a saving throw from you, you may trigger your Gathered Swarm.",
+            "pointValue": "2",
+            "upgrade": "+1 to your ongoing debuff DCs/4"
+        },
+        {
+            "description": "Whenever your Gathered Swarm moves you, you may be moved up to 5' further",
+            "pointValue": "2",
+            "upgrade": "+5'/2"
+        },
+        {
+            "description": "+1 to the DC of your Gathered Swarm",
+            "pointValue": "3",
+            "upgrade": "+1/3"
+        }
+    ],
     "Vehemir": [
         {
             "description": "Your Speak with Animals now lasts 8 hours",

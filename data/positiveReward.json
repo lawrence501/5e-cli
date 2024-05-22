@@ -111,7 +111,7 @@
         "description": "Unlock a random ally bonus on your amulet (empowered = +1 adv)"
     },
     {
-        "description": "Add 1 customisation to your upcoming dream relic (empowered = +1 customisation)"
+        "description": "Reveal a dream from your dream pool. You may modify it in one way. (empowered = +1 modification)"
     },
     {
         "description": "Your crystal tiers up (empowered = +20% chance to tier up again)"
@@ -132,7 +132,7 @@
         "description": "Seal a random affix on an item of your choice, removing it from its enchantment cluster and adding it to the base item (empowered = +1 adv)"
     },
     {
-        "description": "Gain an equipment item with a Dream-like mod inspired by a random feature from $class (empowered = +1 adv on chosen feature)"
+        "description": "Gain an equipment item with a Dream-like affix inspired by a random feature from $class (empowered = +1 adv on chosen feature)"
     },
     {
         "description": "You gain a random dot point from the $feat feat (empowered = +1 adv on chosen feat)"
