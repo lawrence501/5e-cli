@@ -72,7 +72,7 @@
         },
         {
             "Name": "Wand",
-            "Description": "1 force; 20'/60' range; conduit; dual-wielding; mental",
+            "Description": "1 force; 20'/60' range; conduit; dual-wielding; mental; paired (this weapon's attacks also count as spells)",
             "Tags": ["weapon"]
         },
         {

@@ -268,6 +268,7 @@ var WEAPON_TRAITS []string = []string{
 	"engineered",
 	"explosive",
 	"triggered (attack the triggering creature with this weapon)",
+	"paired (this weapon's damage die size increases by 1)",
 }
 
 var SIZE_DIFFERENCES []string = []string{
