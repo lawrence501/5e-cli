@@ -157,7 +157,7 @@
             ]
         },
         {
-            "name": "Dragonsong (wep) (L1)",
+            "name": "Dragonsong (wep) (L2) (charged)",
             "startingAffixes": [
                 {
                     "description": "+1 fire crit range",
@@ -165,12 +165,17 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+1d4 fire dmg to your hits",
-                    "pointValue": "3",
+                    "description": "+1d6 fire dmg to your hits",
+                    "pointValue": "4",
                     "upgrade": "+1/1"
                 },
                 {
                     "description": "+1 fire dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 outgoing healing",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 }
@@ -419,7 +424,7 @@
     ],
     "Vehemir": [
         {
-            "name": "Crosser (wep) (L1) (charged)",
+            "name": "Crosser (wep) (L2) (charged)",
             "startingAffixes": [
                 {
                     "description": "+1 wep AC",
@@ -427,9 +432,9 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "on block, +4 dmg barrier for 1rnd",
+                    "description": "on block, +8 dmg barrier for 1rnd",
                     "pointValue": "1",
-                    "upgrade": "+4/1"
+                    "upgrade": "+8/1"
                 },
                 {
                     "description": "your half-AC prevents 4 additional dmg",
@@ -476,11 +481,11 @@
             ]
         },
         {
-            "name": "Sol (arm) (L1)",
+            "name": "Sol (arm) (L2) (charged)",
             "startingAffixes": [
                 {
-                    "description": "+1 to your min wep dmg die rolls",
-                    "pointValue": "1",
+                    "description": "+2 to your min wep dmg die rolls",
+                    "pointValue": "2",
                     "upgrade": "+1/1"
                 },
                 {
@@ -492,6 +497,11 @@
                     "description": "-1 to max wep dmg die rolls from incoming hits",
                     "pointValue": "1",
                     "upgrade": "-1/1"
+                },
+                {
+                    "description": "+1 phys dmg",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
                 }
             ],
             "thematicAffixes": [
@@ -528,11 +538,11 @@
             ]
         },
         {
-            "name": "Feral Wilderness (arm) (L1)",
+            "name": "Feral Wilderness (arm) (L3) (charged)",
             "startingAffixes": [
                 {
-                    "description": "+5' sp while shapeshifted",
-                    "pointValue": "1",
+                    "description": "+15' sp while shapeshifted",
+                    "pointValue": "3",
                     "upgrade": "+5'/1"
                 },
                 {
@@ -544,6 +554,11 @@
                     "description": "+1 melee AB",
                     "pointValue": "4",
                     "upgrade": "+1/4"
+                },
+                {
+                    "description": "+1 melee dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
                 }
             ],
             "thematicAffixes": [
