@@ -350,7 +350,7 @@ func dmgToDice(dmg float64) string {
 	for idx, size := range DIE_SIZES {
 		mod := math.Mod(dmg, size)
 		if mod <= lowestMod || lowestMod < 0 {
-			count := math.Floor(dmg / size)
+			count := math.Round(dmg / size)
 			face := DIE_FACES[idx]
 			if (face == "d4" && count > 0 && count <= 5) || (face != "d4" && count > 0 && count <= 10) {
 				lowestDie = face
