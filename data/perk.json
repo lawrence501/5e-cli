@@ -1,7 +1,7 @@
 {
     "Thaddeus": [
-        "[Partner] whenever Thaddeus receives a substantial hit, you can react to heal him for 1d6 HP",
-        "[Partner] whenever you overheal Thaddeus, he gains the excess amount in temp HP",
+        "[Partner] whenever Zacharias receives a substantial hit, you can react to heal him for 1d6 HP",
+        "[Partner] whenever you overheal Zacharias, he gains the excess amount in temp HP",
         "[Identity] the first time you go down each combat, you gain +5 outgoing healing and +30' fly sp for the remainder of combat, and the next time you recover HP, all foes within 60' of you take 1d6 radiant damage, which scales with your outgoing healing",
         "[Identity] whenever you actively heal another creature while a boss is within 60' of you, the boss takes radiant spell dmg equal to the amount you healed.",
         "[Gap] Whenever you heal a creature, you can choose an ally within 60' of you to lose hit points equal to any number of d10 rolls, rolling them one at a time before deciding to roll more. The creature you are healing heals additional hit points equal to triple the amount of HP taken from this ally.",

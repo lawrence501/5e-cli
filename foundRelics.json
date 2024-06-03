@@ -1,7 +1,7 @@
 {
     "Thaddeus": [
         {
-            "name": "Thaddy's Caddy (arm) (L2) (charged)",
+            "name": "Thaddy's Caddy (arm) (L3) (charged)",
             "affixes": [
                 {
                     "description": "+7 non-phys barrier",
@@ -11,6 +11,16 @@
                 {
                     "description": "allies in 60' have +2 wep dmg while healthy",
                     "pointValue": "2",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "+1 init",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "on limited power use, heal 1 HP",
+                    "pointValue": "1",
                     "upgrade": "+1/1"
                 }
             ],
@@ -538,7 +548,7 @@
             ]
         },
         {
-            "name": "Feral Wilderness (arm) (L3) (charged)",
+            "name": "Feral Wilderness (arm) (L4) (charged)",
             "startingAffixes": [
                 {
                     "description": "+15' sp while shapeshifted",
@@ -556,8 +566,8 @@
                     "upgrade": "+1/4"
                 },
                 {
-                    "description": "+1 melee dmg",
-                    "pointValue": "1",
+                    "description": "+2 melee dmg",
+                    "pointValue": "2",
                     "upgrade": "+1/1"
                 }
             ],
