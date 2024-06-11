@@ -33,7 +33,7 @@
             "upgrade": "+1/1"
         },
         {
-            "description": "Your Magic Missile now deals necrotic damage and if all darts target the same creature, you heal 2 HP.",
+            "description": "Your Magic Missile base force damage is converted to necrotic damage, and if all darts target the same creature, you heal 2 HP.",
             "pointValue": "2",
             "upgrade": "+1/1"
         },
