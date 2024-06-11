@@ -1,6 +1,12 @@
 {
-    "Thaddeus (1)": [],
-    "Zacharias": [],
+    "Thaddeus (3 - Healer feat)": [
+        {
+            "description": "Your Shield of Faith no longer requires concentration; +1 duration step for Shield of Faith",
+            "pointValue": "4",
+            "upgrade": "+1 duration step for Shield of Faith/1"
+        }
+    ],
+    "Zacharias (1 - Magic Missile spell)": [],
     "Siggusmondo (1) [+1 next]": ["Gathered Swarm (+1 next)"],
     "Vehemir (2)": [
         {
