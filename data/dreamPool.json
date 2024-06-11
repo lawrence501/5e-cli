@@ -11,9 +11,19 @@
             "upgrade": "+1 AC/1"
         },
         {
-            "description": "Your Shield of Faith no longer requires concentration.",
-            "pointValue": "3",
-            "upgrade": "+1 duration step for Shield of Faith/1"
+            "description": "Whenever the Healer feat improves a standard action heal, it also grants the target 4 temp HP",
+            "pointValue": "1",
+            "upgrade": "+4/1"
+        },
+        {
+            "description": "The Healer feat's heal action now has a range of 10'.",
+            "pointValue": "2",
+            "upgrade": "+5'/2"
+        },
+        {
+            "description": "After 5th level, the Healer feat's heal action scales in die count every 5 levels instead of 6.",
+            "pointValue": "2",
+            "upgrade": "-1 threshold/2"
         }
     ],
     "Zacharias": [],
