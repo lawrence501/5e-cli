@@ -4835,6 +4835,58 @@
                     "upgrade": "+1/1"
                 }
             ]
+        },
+        {
+            "name": "Furious Swing",
+            "startingAffixes": [
+                {
+                    "description": "on dealing wep dmg to a debuffed target, recover 1 exertion",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                },
+                {
+                    "description": "on wep hit while buffed, the duration of one of your active buffs of your choice is extended by 1 round",
+                    "pointValue": "3",
+                    "upgrade": "+1 step/3"
+                },
+                {
+                    "description": "on hit with two different weps in 1 turn, the target gets +1 dmg taken for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +2 limited wep dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 wep dmg while dual-wielding",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +2 wep dmg vs debuffed targets",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. on hit with two different weps in 1 turn, you gain +2 wep dmg for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "5. if you have 15+ DEX, +1 melee dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on hit with two different weps in 1 turn, the duration of one of your active buffs of your choice is extended by 1 round",
+                    "pointValue": "2",
+                    "upgrade": "+1 step/2"
+                }
+            ]
         }
     ],
     "armour": [
