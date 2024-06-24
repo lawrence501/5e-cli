@@ -729,58 +729,6 @@
             ]
         },
         {
-            "name": "Stone Golem",
-            "startingAffixes": [
-                {
-                    "description": "your construct minions have double duration",
-                    "pointValue": "3",
-                    "upgrade": "+1 multi/3"
-                },
-                {
-                    "description": "your construct minions have +1 STR mod",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "your construct minions have +1 DEX mod",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. your construct minions have +1 CON mod",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "2. +2 construct minion dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. your construct minions have +1 to saves vs debuffs",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "4. your construct minions ignore res",
-                    "pointValue": "2",
-                    "upgrade": "+2->1 construct minion dmg/1"
-                },
-                {
-                    "description": "5. if you have 15+ INT, your construct minions have +1 STR mod",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "6. if you have 15+ INT, your construct minions have +1 DEX mod",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                }
-            ]
-        },
-        {
             "name": "Lost Writings of Gil",
             "startingAffixes": [
                 {
@@ -7123,58 +7071,6 @@
                     "description": "6. +2 dmg barrier while buffed",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
-            "name": "The Miracle",
-            "startingAffixes": [
-                {
-                    "description": "1/combat, as a free action, recover 2 exertion",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "whenever you recover exertion on at least the 3rd rnd of combat, recover up to 1 additional exertion",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "whenever you recover exertion, recover up to 1 additional exertion",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. on init, recover 2 exertion",
-                    "pointValue": "3",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "2. +1 wep dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. whenever you recover exertion, you gain +1 to your next atk roll made before the end of your turn",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "4. whenever you recover exertion, you gain +1 to your next ability check made before the end of your turn",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "5. as a bonus action, gain +3 dmg barrier for 1rnd",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "6. whenever you buff yourself, you gain 1 exertion at the start of your next turn",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
                 }
             ]
         },

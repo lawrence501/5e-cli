@@ -6,7 +6,13 @@
             "upgrade": "+1 duration step for Shield of Faith/1"
         }
     ],
-    "Zacharias (1 - Magic Missile spell)": [],
+    "Zacharias (2)": [
+        {
+            "description": "Your Magic Missile darts on the same target all count as the same instance of damage, and the base damage of each dart is increased by 3.",
+            "pointValue": "3",
+            "upgrade": "+1/1"
+        }
+    ],
     "Siggusmondo (1) [+1 next]": ["Gathered Swarm (+1 next)"],
     "Vehemir (2)": [
         {

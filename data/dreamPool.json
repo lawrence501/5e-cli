@@ -28,11 +28,6 @@
     ],
     "Zacharias": [
         {
-            "description": "Your Magic Missile darts on the same target all count as the same instance of damage, and the base damage of each dart is increased by 2.",
-            "pointValue": "2",
-            "upgrade": "+1/1"
-        },
-        {
             "description": "Your Magic Missile base force damage is converted to necrotic damage, and if all darts target the same creature, you heal 2 HP.",
             "pointValue": "2",
             "upgrade": "+1/1"
