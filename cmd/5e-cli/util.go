@@ -73,7 +73,7 @@ func hostileEncounter(tag string) (string, error) {
 		return "", err
 	}
 	var encounter HostileEncounter
-	for true {
+	for {
 		encounter = randSelect(allEncounters.Hostile)
 		if tag != "" {
 			if slices.Contains(encounter.Tags, tag) {

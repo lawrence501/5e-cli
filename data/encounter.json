@@ -1,11 +1,6 @@
 {
     "hostile": [
         {
-            "name": "Phase Spider",
-            "id": 2,
-            "tags": ["night"]
-        },
-        {
             "name": "Kraghammer Goat-Knight",
             "id": 9,
             "tags": []
@@ -19,11 +14,6 @@
             "name": "Bridge of Sorrow",
             "id": 6,
             "tags": ["night", "terrain", "exploration"]
-        },
-        {
-            "name": "Caught in the Crossfire",
-            "id": 13,
-            "tags": ["night", "exploration"]
         },
         {
             "name": "Choking Smoke",
