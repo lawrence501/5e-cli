@@ -11,6 +11,11 @@
             "tags": ["night"]
         },
         {
+            "name": "Manabane Scarab Swarm",
+            "id": 14,
+            "tags": []
+        },
+        {
             "name": "Bridge of Sorrow",
             "id": 6,
             "tags": ["night", "terrain", "exploration"]
@@ -18,6 +23,11 @@
         {
             "name": "Choking Smoke",
             "id": 12,
+            "tags": ["night", "terrain", "exploration"]
+        },
+        {
+            "name": "Collapsing Canopy",
+            "id": 15,
             "tags": ["night", "terrain", "exploration"]
         }
     ],
