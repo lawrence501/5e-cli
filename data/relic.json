@@ -4839,58 +4839,6 @@
     ],
     "armour": [
         {
-            "name": "The Diamond",
-            "startingAffixes": [
-                {
-                    "description": "+1 performance",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "20% chance to gain a loot roll when you sell an item for gold in a city",
-                    "pointValue": "3",
-                    "upgrade": "+10%/1"
-                },
-                {
-                    "description": "+2 persuasion while in a city's borders",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. +3 persuasion while in the borders of your homecity",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "2. -1 spell dmg; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 2pts distributed/1"
-                },
-                {
-                    "description": "3. +1 CHA",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "4. you cannot have adv or disadv on any saves",
-                    "pointValue": "1",
-                    "upgrade": "+1 saves that would be adv/4"
-                },
-                {
-                    "description": "5. +1 to busk journey checks",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "6. +1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                }
-            ]
-        },
-        {
             "name": "Weald Protector",
             "startingAffixes": [
                 {
@@ -5511,58 +5459,6 @@
                     "description": "6. +1 B dmg",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
-            "name": "Pajarraco",
-            "startingAffixes": [
-                {
-                    "description": "+1 to debuff saves",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "while adj to [Adrian's char], +3 dmg barrier",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "+1 init",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. -1 1st lvl spell slot; 4pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 slot and 4pts distributed/1 OR +1 lvl and 4pts distributed/1"
-                },
-                {
-                    "description": "2. +1 B dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. +1 spell dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "4. -1 wep dmg; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 2pts distributed/1"
-                },
-                {
-                    "description": "5. 1/combat, on sub wep hit, target is cured of 1 random debuff",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "6. +1 to your debuff DCs",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         },

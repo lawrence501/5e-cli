@@ -13,7 +13,13 @@
             "upgrade": "+1/1"
         }
     ],
-    "Siggusmondo (1) [+1 next]": ["Gathered Swarm (+1 next)"],
+    "Siggusmondo (2)": [
+        {
+            "description": "Whenever your Gathered Swarm moves you, you may be moved up to 5' further",
+            "pointValue": "4",
+            "upgrade": "+5'/2"
+        }
+    ],
     "Vehemir (2)": [
         {
             "description": "Your Speak with Animals now allows beasts you are communicating with to access their entire life's memories, not just things they perceived recently; +3 animal handling when communicating via Speak with Animals",

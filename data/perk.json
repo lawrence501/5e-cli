@@ -2,10 +2,7 @@
     "Thaddeus": [
         "[Partner] whenever Zacharias receives a substantial hit, you can react to heal him for 1d6 HP",
         "[Partner] whenever you overheal Zacharias, he gains the excess amount in temp HP",
-        "[Identity] the first time you go down each combat, you gain +5 outgoing healing and +30' fly sp for the remainder of combat, and the next time you recover HP, all foes within 60' of you take 1d6 radiant damage, which scales with your outgoing healing",
         "[Identity] whenever you actively heal another creature while a boss is within 60' of you, the boss takes radiant spell dmg equal to the amount you healed.",
-        "[Gap] As a free action once per combat, you can make a Medicine check against a creature you touch. The creature is healed for that amount of hit points, and this healing can exceed their hit point maximum.",
-        "[Gap] Whenever you would Fail a Harvest journey activity, you Succeed instead.",
         "[Keyword] Whenever you heal a creature on 0 HP, they become Redeemed for 1 round. While a creature is Redeemed, they gain 50% resistance to all damage.",
         "[Keyword] Whenever you are hit while adj to an ally, that ally becomes Redeemed for 1 round. While a creature is Redeemed, they gain damage barrier equal to twice your level.",
         "[AI] You can cast Spare the Dying as a bonus action. Additionally, whenever you use Better Than Cure to halve damage taken, you may take the remaining damage, which is halved. If your Better Than Cure negates all damage, you instead gain temp HP equal to half the original damage to be taken.",
@@ -14,14 +11,9 @@
     "Zacharias": [
         "[Partner] whenever you help Thaddeus with an ability check, he adds a d8 expertise die to the result",
         "[Partner] whenever you are healed by Thaddeus, your next Spectral Influence roll gains a bonus equal to half the amount of healing the spell granted. This does not stack",
-        "[Identity] as a free action once on each of you turns, you can make a history check against the standard DC of a creature you can see. On a success, it gains vulnerability to your choice of 2 random dmg types. It can only have one of these effects at a time.",
-        "[Identity] While adjacent to one and only one ally with spell slots, your spells gain the benefits of their bonus spell damage and global damage.",
-        "[Identity] Whenever the party's highest result on a Knowledge skill check is below 15, your natural roll for that check becomes 15.",
         "[Gap] You can use Spectral Influence on your cantrips a number of times between short rests equal to your INT mod.",
         "[Gap] Whenever you use Spectral Influence on a spell that deals damage, you can reduce your Spectral Influence result by any number of d10 rolls, rolling them one at a time before deciding to roll more. For each d10 you rolled, the spell's damage is increased by 2d4 (spell lvl 0-2), 2d8 (spell lvl 3-5), or 2d12 (spell lvl 6+)",
         "[Keyword] Whenever you cast a spell using your highest-level spell slot, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, all of your spells are upcast 1 level for free.",
-        "[Keyword] Whenever an adjacent ally takes damage, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, allies within 60' of you gain dmg barrier equal to your current temp HP.",
-        "[Keyword] Whenever you substantially hit with a spell, you gain Shira's Influence until the end of your next turn. While you have Shira's Influence, you can cast a 1st-level wizard spell for free as a free action at the start of each of your turns.",
         "[AI] Whenever you cast False Life on yourself, choose a creature within 30' of you. They make a CON save against your spell save DC or take spell necrotic dmg equal to double the amount of temp HP it granted. Additionally, they cannot be healed while you have that temp HP.",
         "[AI] You roll on the Spectral Influence table with advantage."
     ],
@@ -29,15 +21,10 @@
         "[Partner] on substantial hit vs a creature adj to Vehemir, Vehemir can react to make an unarmed attack against the creature",
         "[Partner] whenever you or Vehemir score a killing blow, the other gains a dmg bonus to their next hit equal to the highest of the overkill dmg or half the killing blow's total damage. This can persist across combats",
         "[Identity] whenever you block an attack from a creature, that creature takes 1d6 P dmg, which scales as if it were your weapon damage",
-        "[Identity] On opp atk hit, the target is debilitated for the remainder of their turn.",
-        "[Identity] After a creature has taken dmg from your Gathered Swarm (including any other sources of piercing dmg that scales as if it were your weapon dmg) 3 times, they gain a poison DoT that deals dmg equal to your lvl. It doesn't stack and ends on a long rest.",
         "[Gap] You can use your Gathered Swarm effects 1 additional time on each turn (twice on your turns, once on any turn).",
         "[Gap] Foes you are flanking are taunted by you.",
         "[Keyword] On your first whip hit of each round, the closest ally to your target (you choose tiebreaks) becomes Driven until the end of your next turn. While Driven, a creature has -1 AC and +5 global AB.",
-        "[Keyword] Whenever you hit a single creature for the second time in a round, the closest ally to you (you choose tiebreaks) becomes Driven until the end of your next turn. While Driven, a creature has -1 AC and can use a Basic Maneuver as a free action on each of their turns.",
-        "[Keyword] Whenever you successfully learn facts about a creature in combat, the next ally to take their turn becomes Driven until the end of your next turn. While Driven, a creature has -1 AC and their attacks gain +1 crit range for each fact the party knows about the target, up to +3.",
-        "[AI] Whenever your Gathered Swarm deals piercing damage, the target must also make a WIS save against your maneuver DC or take additional psychic damage of a number of d6s equal to the number of times you have hit the target this combat.",
-        "[AI] Once per long rest, on rolling initiative, you can summon a swarm of bees in an unoccupied space within 60' of you. This is a beast minion that deals piercing dmg, with fly speed instead of regular speed, a reach of 0', and the ability to move through and remain in other creatures' spaces. Its CR is your lvl divided by 4. It disappears if you take a long rest."
+        "[AI] Whenever your Gathered Swarm deals piercing damage, the target must also make a WIS save against your maneuver DC or take additional psychic damage of a number of d6s equal to the number of times you have hit the target this combat."
     ],
     "Vehemir": [
         "[Partner] whenever Siggusmondo is hit by a creature, you gain an expertise die on your next attack roll against that creature. If that attack roll ends up as 30+, the attack becomes a crit. This does not stack",
@@ -45,12 +32,8 @@
         "[Identity] affixes related to spells on your items also affect your unarmed attacks. Global dmg affects your unarmed dmg at double potency.",
         "[Identity] whenever you are hit, make a concentration save. if you aren't wild shaped, on a failed save you immediately wild shape at no cost. If you are, on a failed save you gain +3 unarmed dmg for the remainder of combat",
         "[Gap] on rolling for initiative, you may wild shape as a free action. Additionally, during the first round of combat, you gain +30' speed and your unarmed attacks deal additional damage equal to the number of spaces you have moved towards your target that turn",
-        "[Gap] while you have 2+ death saves, you can wild shape without cost as a free action. Doing so in this way grants you no temporary hit points.",
+        "[Gap] while you have 2+ failed death saves, you can wild shape without cost as a free action. Doing so in this way grants you no temporary hit points.",
         "[Keyword] Whenever you are critically hit, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and deal 1d12 additional base damage, which scales with your level like a cantrip.",
-        "[Keyword] Whenever you bloody a creature, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and inflict a DoT on hit dealing slashing damage equal to your prof bonus, stacking until save.",
-        "[Keyword] Whenever you roll for initiative, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and deal 1d12 additional base damage against healthy targets.",
-        "[AI] Once per long rest, on rolling initiative, you can summon a large bear in an unoccupied space within 60' of you. This is a beast minion that deals slashing dmg. Its CR is your level divided by 4. It disappears if you take a long rest.",
-        "[AI] While shapeshifted into your preferred shape, your Befriend Animal animal friend defends you for additional damage equal to your level.",
-        "[AI] While shapeshifted into your preferred shape, you gain +1 AC."
+        "[AI] Once per long rest, on rolling initiative, you can summon a large bear in an unoccupied space within 60' of you. This is a beast minion that deals slashing dmg. Its CR is your level divided by 4. It disappears if you take a long rest."
     ]
 }
