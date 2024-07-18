@@ -1,21 +1,6 @@
 {
     "hostile": [
         {
-            "name": "Kraghammer Goat-Knight",
-            "id": 9,
-            "tags": []
-        },
-        {
-            "name": "Giant Ant Queen",
-            "id": 10,
-            "tags": ["night"]
-        },
-        {
-            "name": "Manabane Scarab Swarm",
-            "id": 14,
-            "tags": []
-        },
-        {
             "name": "Bridge of Sorrow",
             "id": 6,
             "tags": ["night", "terrain", "exploration"]
@@ -29,6 +14,16 @@
             "name": "Collapsing Canopy",
             "id": 15,
             "tags": ["night", "terrain", "exploration"]
+        },
+        {
+            "name": "Corrupted Druid Grove",
+            "id": 16,
+            "tags": ["night", "exploration"]
+        },
+        {
+            "name": "Cursed Temple",
+            "id": 17,
+            "tags": ["night", "exploration"]
         }
     ],
     "positive": [

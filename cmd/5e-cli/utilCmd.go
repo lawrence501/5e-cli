@@ -343,7 +343,7 @@ var travel = func() error {
 
 	hostileRoll := rand.Intn(100)
 	hostile1, hostile2 := -1, -1
-	if hostileRoll < 13 {
+	if hostileRoll < 19 {
 		for hostile1 == hostile2 {
 			hostile1 = rand.Intn(5)
 			hostile2 = rand.Intn(5)
@@ -367,7 +367,7 @@ var travel = func() error {
 				ambush := ""
 				tag := ""
 				if event >= 6 {
-					ambush = " (NIGHT AMBUSH)"
+					ambush = " (NIGHT)"
 					tag = "night"
 				}
 				encounter, err := hostileEncounter(tag)
