@@ -29,10 +29,6 @@
       "description": "+1 hostile random encounter."
     },
     {
-      "name": "Cruel Haze",
-      "description": "At the start of each creature's turn in combat, they lose hit points equal to the round number."
-    },
-    {
       "name": "Golden Sky",
       "description": "+1 positive random encounter."
     },
@@ -41,48 +37,12 @@
       "description": "Each player rolls a d20. In descending order, each player gives their character sheet to the next."
     },
     {
-      "name": "Strange Music on the Wind",
-      "description": "At the start of each creature's turn in combat, they swap spaces with another random creature in the combat."
-    },
-    {
-      "name": "Gaze of the Assassin",
-      "description": "All hostile random encounters have 1 additional Challenge and have their rewards empowered."
-    },
-    {
       "name": "Gaze of the Gambler",
       "description": "Whenever an adventurer casts a spell or uses a maneuver, they trigger a Wild Magic Surge."
     },
     {
-      "name": "Gaze of the Legion",
-      "description": "All hostile random encounters contain 1 additional foe and their rewards are empowered twice."
-    },
-    {
       "name": "Gaze of the Manipulator",
       "description": "Each player sends the DM a message with the name of an adventurer in the current session, with no zcussion. If any adventurer's name is received twice, that adventurer has disadvantage with all journey activities, and all other adventurers have advantage. If an adventurer's name appears more than twice, they get double advantage and all others get disadvantage instead. If no adventurer's name appears more than once, all adventurer get disadvantage."
-    },
-    {
-      "name": "Gaze of the Creator",
-      "description": "Each adventurer's maximum HP is halved, but all damage they and their minions deal is doubled."
-    },
-    {
-      "name": "Mists of Slaughter",
-      "description": "All hostile random encounters are pooled into one massive combat at the end of the day where all monsters are hostile with all other creatures. All creatures start in random locations at the start of the combat."
-    },
-    {
-      "name": "Eyes in the Mist",
-      "description": "Creatures always have line of sight to all other creatures within 60' of them."
-    },
-    {
-      "name": "Distant Tolling",
-      "description": "All adventurers start each combat with 1 failed death save and all monsters have 25% fewer maximum hit points."
-    },
-    {
-      "name": "The Scent of Meat",
-      "description": "Each monster killed by the party drops 1 additional organ."
-    },
-    {
-      "name": "Lonely Haze",
-      "description": "At the start of combat, each player randomly is assigned 1 random, unassigned monster until there are no unassigned monsters left. Each adventurer and their assigned monster will be separated into their own pocket dimension to fight. An adventurer's dimension, and all creatures in it, merge into another random adventurer's dimension whenenever either all adventurers in that dimension are unconscious or there are no monsters in it."
     },
     {
       "name": "Winds of Chaos",
@@ -94,67 +54,15 @@
     },
     {
       "name": "Delirious Fog",
-      "description": "Each adventurer gains a trigger-spell Chaotic modifier."
+      "description": "Each adventurer gains a Chaotic modifier."
     },
     {
       "name": "Echoing Silence",
       "description": "Players cannot communicate with each other and must have their eyes closed unless either it is their turn or they are being affected by a monster in some way."
     },
     {
-      "name": "Chaos Storm",
-      "description": "At the start of each creature's turn in combat, they gain a random condition."
-    },
-    {
-      "name": "Blood Rain",
-      "description": "Whenever the party defeats all enemies in a hostile random encounter, a random one of the creatures from the encounter is resurrected and immediately takes an additional turn. The encounter's rewards are empowered and always grant +1 reward."
-    },
-    {
-      "name": "Growls Beyond the Fog",
-      "description": "All hostile random encounters are pooled into one massive combat, with each original combat staggered in waves. After the first wave, all adventurers are healed to full HP and initiative is rerolled for the second combat. Loot from a single combat is doubled and empowered."
-    },
-    {
-      "name": "Soul Tethers in the Air",
-      "description": "At the start of combat, all adventurers are tethered to each other, as are the monsters. Each side of the combat shares one massive hit point pool. Whenever a downed adventurer stabilises, they also recover 1 hit point."
-    },
-    {
-      "name": "Floating Rifts",
-      "description": "At the end of combat, a sealed rift appears in the air. If the players touch it, it will open and a random creature from the combat emerges from it. This new combat's rewards are empowered and always grant +1 reward. The sealed rift disappears after 10mins."
-    },
-    {
-      "name": "Bountiful Breeze",
-      "description": "Each combat rewards an additional Legendary Chest."
-    },
-    {
-      "name": "Ethereal Glow",
-      "description": "At the start of combat, all combatants are randomly placed throughout the battlefield (internally: 20x20 arena). Creatures don't appear on the battlemap unless they are within 10' of at least 1 other creature. Creatures are allowed to shoot projectiles/target areas in directions, and cannot see anything that isn't on the board."
-    },
-    {
-      "name": "Wisp Trails",
-      "description": "At the start of each adventurer's turn in combat, a random dir is chosen, and a trail of either red, yellow, or blue wisps projects out in that direction. If the adventurer spends their full movement moving in that direction, they add either a 20% chance for an extra loot roll at the end of the combat, 3gp to the combat's rewards, or a 33% chance for +1 colour tier of all loot rewarded, based on the wisp colour, respectively."
-    },
-    {
-      "name": "Radiant Sunlight",
-      "description": "After each journey activity, future combats gain one of 1. +1 Accuracy; 2. +30% max HP; 3. +3 flat dmg; 4. +1 Defence, and also one of 1. +1 loot roll rewarded; 2. +1 loot colour tier"
-    },
-    {
       "name": "Mass Migration",
       "description": "All hostile random encounters are removed, and instead the first one is replaced with a crag-crog-style set of monster waves of $creatureType monsters. Starting from CR 0 and increasing by 1 each time (where possible), each wave will contain [player count] copies of a random monster from that creature type. No real time between waves, just new initiative, and after all, gain loot rolls equal to the number of waves completed and exp equal to double (no extra loot can be gained)."
-    },
-    {
-      "name": "Harvest Moon",
-      "description": "At the start of combat, all combatants are assigned a random order. If combatants are knocked to 0 hit points in this order, the combat grants 1 additional reward and all its rewards are empowered."
-    },
-    {
-      "name": "Bored Spirits",
-      "description": "During combat, combatants cannot use any powers they have used since the start of their last turn."
-    },
-    {
-      "name": "Warped Physics",
-      "description": "Whenever a creature scores a natural critical hit, it deals no extra damage, but instead inflicts a random condition for 1 round."
-    },
-    {
-      "name": "Charged Earth",
-      "description": "Creatures cannot deal damage while standing on the ground."
     }
   ]
 }
