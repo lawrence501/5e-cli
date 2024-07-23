@@ -4995,58 +4995,6 @@
             ]
         },
         {
-            "name": "Crippling Wound",
-            "startingAffixes": [
-                {
-                    "description": "-2 init",
-                    "pointValue": "-2",
-                    "upgrade": "-1 and 2pts distributed/1"
-                },
-                {
-                    "description": "-1 to saves to end ongoing debuffs",
-                    "pointValue": "-3",
-                    "upgrade": "-1 and 4pts distributed/1"
-                },
-                {
-                    "description": "+9 dmg barrier",
-                    "pointValue": "8",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. on block, atker becomes slowed until CON save",
-                    "pointValue": "2",
-                    "upgrade": "+1 to your debuff DCs/4"
-                },
-                {
-                    "description": "2. +3 dmg barrier vs foes ahead of you in initiative",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "3. +1 dmg res",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "4. +1 to initial debuff saves",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "5. +1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "6. on block, atker gets 2 S DoT, stacking until CON save",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
             "name": "Black Dragon Mail",
             "startingAffixes": [
                 {
