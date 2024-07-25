@@ -393,5 +393,235 @@
         "name": "Cruel Power",
         "target": "powers that deal damage",
         "description": "The power deals more damage against targets with a DoT."
+    },
+    {
+        "name": "Decaying Vulnerability",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target takes increased DoT damage for 1 round."
+    },
+    {
+        "name": "Enabled Power",
+        "target": "any power",
+        "description": "Whenever you use the power, you gain slightly increased global damage for 1 round."
+    },
+    {
+        "name": "Meek Power",
+        "target": "powers with a spell level or maneuver degree",
+        "description": "The power deals substantially more damage for each spell slot level or maneuver degree it is below your highest. Additionally, the power's resource cost is increased by 1."
+    },
+    {
+        "name": "Cruel Presence",
+        "target": "powers that apply debuffs and don't require concentration",
+        "description": "Instead of applying its debuffs normally, the power now constantly applies its debuffs to all creatures of your choice within 60 feet of you for the debuff's duration. Additionally, the power now requires concentration and has +1 debuff effectiveness."
+    },
+    {
+        "name": "Cruel Vulnerability",
+        "target": "powers that apply debuffs",
+        "description": "Creatures debuffed by the power take slightly increased damage from all sources."
+    },
+    {
+        "name": "Crippled Triggering",
+        "target": "powers with a usage time of 1 action or faster that deal damage",
+        "description": "Whenever you are debuffed, you may immediately use the power as a free action. Additionally, the power deals less damage."
+    },
+    {
+        "name": "Channeled Triggering",
+        "target": "powers with a usage time of 1 action or faster that deal damage",
+        "description": "Whenever you start your turn concentrating on an effect, you may immediately use the power as a free action. Additionally, the power deals less damage."
+    },
+    {
+        "name": "Vulnerable Decay",
+        "target": "powers that hit and deal damage",
+        "description": "Whenever the power hits, the target gains a DoT dealing slight $dmgType damage, stacking until CON save. While affected by this DoT, the target takes increased {dmgType} damage. Additionally, the power deals less damage."
+    },
+    {
+        "name": "Focus",
+        "target": "powers with areas that deal damage",
+        "description": "The power's areas deal substantially more damage and are smaller."
+    },
+    {
+        "name": "Amateur Power",
+        "target": "powers that make attacks and deal damage",
+        "description": "The power deals substantially more damage, but has -1 crit range."
+    },
+    {
+        "name": "Cruel Persistence",
+        "target": "single-target powers that apply debuffs",
+        "description": "Instead of applying its debuffs normally, the power now forms a 15'x15' persistent area centred on the target that lasts for the debuff's duration and constantly applies the debuff to all creatures of your choice within the area. Additionally, the power has -1 debuff effectiveness."
+    },
+    {
+        "name": "Consumption",
+        "target": "powers with a resource cost that deal damage",
+        "description": "Whenever the power scores a killing blow, you heal a slight amount of HP and recover 1 unit of the power's cost. Additionally, the power deals less damage."
+    },
+    {
+        "name": "Penetrating Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions ignore resistances."
+    },
+    {
+        "name": "Merciful Power",
+        "target": "powers that deal damage and apply debuffs",
+        "description": "The power deals substantially more damage, but has -1 debuff effectiveness."
+    },
+    {
+        "name": "Powerful Penetration",
+        "target": "powers that deal damage",
+        "description": "The power ignores resistances."
+    },
+    {
+        "name": "Cruel Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, all debuffs on the target spread to creatures of your choice adjacent to the target."
+    },
+    {
+        "name": "Shielding",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, you gain temporary HP."
+    },
+    {
+        "name": "Learning",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you gain 1 experience."
+    },
+    {
+        "name": "Berserking Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions have +2 Accuracy and -1 Defence."
+    },
+    {
+        "name": "Morning Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions have +1 crit range and deal substantially increased crit damage during the first round of their existence."
+    },
+    {
+        "name": "Bound Decay",
+        "target": "powers that apply buffs",
+        "description": "While the power is buffing another creature, the line between you and the buffed creature is a persistent area that deals slight $dmgType DoT damage to creatures of your choice."
+    },
+    {
+        "name": "Decaying Power",
+        "target": "powers that deal damage",
+        "description": "The power deals additional $dmgType damage against targets affected by a DoT."
+    },
+    {
+        "name": "Explosive Cruelty",
+        "target": "powers that apply debuffs",
+        "description": "Whenever the power's debuffs end, the creature that was debuffed immediately takes $dmgType DoT damage."
+    },
+    {
+        "name": "Coverage",
+        "target": "powers with areas",
+        "description": "The power's areas are larger."
+    },
+    {
+        "name": "Expert Power",
+        "target": "powers that make attacks and deal damage",
+        "description": "The power deals substantially more critical damage."
+    },
+    {
+        "name": "Mastery",
+        "target": "powers that make attacks",
+        "description": "The power has +1 crit range."
+    },
+    {
+        "name": "Unstable Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions lose a massive amount of HP at the start of each of their turns, but project a 5' persistent aura that deals substantial $dmgType DoT damage."
+    },
+    {
+        "name": "Channeling",
+        "target": "powers that require concentration",
+        "description": "While concentrating on the power, you have a substantial amount of damage barrier."
+    },
+    {
+        "name": "Powerful Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you gain slightly increased global damage for the remainder of combat."
+    },
+    {
+        "name": "Stable Coverage",
+        "target": "powers with areas",
+        "description": "The power's areas are larger if you haven't moved since the start of your last turn."
+    },
+    {
+        "name": "Glittering Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you add 1 loot roll to the combat's rewards."
+    },
+    {
+        "name": "Cautious Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions have +2 Defence and -1 Accuracy."
+    },
+    {
+        "name": "Powerful Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions deal more damage."
+    },
+    {
+        "name": "Bulky Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions have massively more maximum HP."
+    },
+    {
+        "name": "Swift Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions have +15' speed."
+    },
+    {
+        "name": "Focused Cruelty",
+        "target": "powers that apply debuffs and deal damage",
+        "description": "The power has +2 debuff effectiveness, but deals less damage."
+    },
+    {
+        "name": "Focused Power",
+        "target": "powers with multiple individual targets",
+        "description": "The power can target 1 fewer target, but it deals substantially more damage."
+    },
+    {
+        "name": "Mastered Chaining",
+        "target": "powers that make attacks",
+        "description": "Whenever the power crits during combat, it gains +1 crit range for the remainder of combat."
+    },
+    {
+        "name": "Cruel Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions deal more damage against debuffed targets."
+    },
+    {
+        "name": "Sacrificial Power",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power, you lose a massive amount of HP and the power deals a substantial amount of additional $dmgType damage."
+    },
+    {
+        "name": "Conductivity",
+        "target": "powers that hit",
+        "description": "The power's hits count as both weapon and spell hits."
+    },
+    {
+        "name": "Necromancy",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, a CR 1/4 undead minion that deals reduced damage is raised from their corpse. It lasts until long rest."
+    },
+    {
+        "name": "Oppressive Persistence",
+        "target": "powers that create persistent areas which deal damage",
+        "description": "At the start of each of your turns, the power's persistent areas tick. Additionally, the power's persistent areas deal less damage."
+    },
+    {
+        "name": "Chromatic Power",
+        "target": "powers that deal damage",
+        "description": "The power deals slightly more damage for each different type of damage it deals."
+    },
+    {
+        "name": "Potent Cruelty",
+        "target": "powers that apply debuffs",
+        "description": "The power has +1 debuff effectiveness."
+    },
+    {
+        "name": "Preparation",
+        "target": "powers with no cooldown that deal damage",
+        "description": "The power deals substantially more damage the first time it is used each combat, but less damage otherwise."
     }
 ]
