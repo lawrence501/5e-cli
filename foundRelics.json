@@ -1,11 +1,11 @@
 {
     "Thaddeus": [
         {
-            "name": "Thaddy's Caddy (arm) (L3) (charged)",
+            "name": "Thaddy's Caddy (arm) (L5) (charged)",
             "affixes": [
                 {
-                    "description": "+7 non-phys barrier",
-                    "pointValue": "2",
+                    "description": "+9 non-phys barrier",
+                    "pointValue": "3",
                     "upgrade": "+2/1"
                 },
                 {
@@ -19,8 +19,8 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "on limited power use, heal 1 HP",
-                    "pointValue": "1",
+                    "description": "on limited power use, heal 2 HP",
+                    "pointValue": "2",
                     "upgrade": "+1/1"
                 }
             ],
@@ -54,63 +54,6 @@
                     "description": "6. ?",
                     "pointValue": "1",
                     "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
-            "name": "The Armour of Aroshi (arm) (L1) (charged)",
-            "startingAffixes": [
-                {
-                    "description": "you may adjust your loot roll results by up to 1",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "+1 exp gain",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "whenever you complete a LR, a chaotic affix is generated. you may choose to gain it until LR",
-                    "pointValue": "3",
-                    "upgrade": "+1 dmg with chaotic affixes/1"
-                },
-                {
-                    "description": "on KB, gain 1 exp",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. objects you create shed 15' of bright light",
-                    "pointValue": "1",
-                    "upgrade": "+10'/1"
-                },
-                {
-                    "description": "2. on KB, gain 1 exp",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. your loot rolls are always 1 colour tier higher",
-                    "pointValue": "3",
-                    "upgrade": "+1/3"
-                },
-                {
-                    "description": "4. when downed, gain 1 exp",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "5. +1 dmg with chaotic affixes",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "6. -1 passive regen; 4pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 4pts distributed/1"
                 }
             ]
         },
@@ -220,63 +163,6 @@
                     "description": "6. your glyphic powers have half duration and 4pts distributed",
                     "pointValue": "1",
                     "upgrade": "+1 multi and 4pts distributed/1"
-                }
-            ]
-        },
-        {
-            "name": "The Diamond (arm) (L1) (charged)",
-            "startingAffixes": [
-                {
-                    "description": "+1 performance",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "20% chance to gain a loot roll when you sell an item for gold in a city",
-                    "pointValue": "3",
-                    "upgrade": "+10%/1"
-                },
-                {
-                    "description": "+3 persuasion while in a city's borders",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "+5' telepathy",
-                    "pointValue": "3",
-                    "upgrade": "+5'/3"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. +3 persuasion while in the borders of your homecity",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "2. -1 spell dmg; 2pts distributed",
-                    "pointValue": "1",
-                    "upgrade": "-1 and 2pts distributed/1"
-                },
-                {
-                    "description": "3. +1 CHA",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "4. you cannot have adv or disadv on any saves",
-                    "pointValue": "1",
-                    "upgrade": "+1 saves that would be adv/4"
-                },
-                {
-                    "description": "5. +1 to busk journey checks",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "6. +1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
                 }
             ]
         }
@@ -392,58 +278,6 @@
                 {
                     "description": "6. +2 wep dmg while flanking",
                     "pointValue": "1",
-                    "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
-            "name": "Crippling Wound (arm) (L1)",
-            "startingAffixes": [
-                {
-                    "description": "-2 init",
-                    "pointValue": "-2",
-                    "upgrade": "-1 and 2pts distributed/1"
-                },
-                {
-                    "description": "-1 to saves to end ongoing debuffs",
-                    "pointValue": "-3",
-                    "upgrade": "-1 and 4pts distributed/1"
-                },
-                {
-                    "description": "+9 dmg barrier",
-                    "pointValue": "8",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. on block, atker becomes slowed until CON save",
-                    "pointValue": "2",
-                    "upgrade": "+1 to your debuff DCs/4"
-                },
-                {
-                    "description": "2. +3 dmg barrier vs foes ahead of you in initiative",
-                    "pointValue": "1",
-                    "upgrade": "+2/1"
-                },
-                {
-                    "description": "3. +1 dmg res",
-                    "pointValue": "2",
-                    "upgrade": "+1/2"
-                },
-                {
-                    "description": "4. +1 to initial debuff saves",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "5. +1 wep AC",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "6. on block, atker gets 2 S DoT, stacking until CON save",
-                    "pointValue": "2",
                     "upgrade": "+1/1"
                 }
             ]

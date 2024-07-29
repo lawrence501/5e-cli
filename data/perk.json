@@ -30,7 +30,6 @@
         "[Partner] whenever Siggusmondo is hit by a creature, you gain an expertise die on your next attack roll against that creature. If that attack roll ends up as 30+, the attack becomes a crit. This does not stack",
         "[Partner] while adj to Siggusmondo, your first unarmed hit of each turn deals 1d6 additional piercing damage, which can only be scaled as if it were Siggusmondo's weapon damage",
         "[Identity] affixes related to spells on your items also affect your unarmed attacks. Global dmg affects your unarmed dmg at double potency.",
-        "[Identity] whenever you are hit, make a concentration save. if you aren't wild shaped, on a failed save you immediately wild shape at no cost. If you are, on a failed save you gain +3 unarmed dmg for the remainder of combat",
         "[Gap] on rolling for initiative, you may wild shape as a free action. Additionally, during the first round of combat, you gain +30' speed and your unarmed attacks deal additional damage equal to the number of spaces you have moved towards your target that turn",
         "[Gap] while you have 2+ failed death saves, you can wild shape without cost as a free action. Doing so in this way grants you no temporary hit points.",
         "[Keyword] Whenever you are critically hit, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and deal 1d12 additional base damage, which scales with your level like a cantrip.",

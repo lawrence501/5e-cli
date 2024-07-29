@@ -16,6 +16,7 @@
     ],
     "Vehemir": [
         "[AI] Whenever you unlock a new CR of wild shapes, choose a creature of that CR to be your preferred shape. Whenever you shapeshift into your preferred shape, you gain additional temp HP equal to double your level.",
-        "[Keyword] Whenever a creature dies within 60' of you, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and always crit when they hit."
+        "[Keyword] Whenever a creature dies within 60' of you, you gain Bloodlust until the end of your next turn. While you have Bloodlust, your unarmed attacks have -1 AB and always crit when they hit.",
+        "[Identity] whenever you are hit, make a concentration save. if you aren't wild shaped, on a failed save you immediately wild shape at no cost. If you are, on a failed save you gain +3 unarmed dmg for the remainder of combat"
     ]
 }

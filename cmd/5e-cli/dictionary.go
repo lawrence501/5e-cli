@@ -153,7 +153,7 @@ var CITIES []string = []string{
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Thaddeus":    10,
+	"Thaddeus":    11,
 	"Zacharias":   1,
 	"Siggusmondo": 6,
 	"Vehemir":     5,
