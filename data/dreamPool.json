@@ -63,13 +63,28 @@
     "Vehemir": [
         {
             "description": "Your Speak with Animals now lasts 8 hours",
-            "pointValue": "1",
-            "upgrade": "+1 duration step/1"
+            "pointValue": "2",
+            "upgrade": "+1 duration step/2"
         },
         {
             "description": "Allies can Help you with animal handling checks you make with beasts you are communicating with via Speak with Animals",
             "pointValue": "1",
             "upgrade": "+4 to these Helped animal handling checks/1"
+        },
+        {
+            "description": "The Flesh Rot disease from your Contagion now causes the target to take double damage from all sources instead of becoming vulnerable",
+            "pointValue": "2",
+            "upgrade": "creatures affected by your flesh rot have +1 dmg taken/1"
+        },
+        {
+            "description": "You can now cast Contagion in place of one of your attacks in the Attack action instead of as an action",
+            "pointValue": "4",
+            "upgrade": "bonus action -> free action/4"
+        },
+        {
+            "description": "The Rattling Cough disease from your Contagion now grants -3 with Dexterity-related tasks instead of disadvantage. Additionally, they deal -1 damage with DEX-based attacks.",
+            "pointValue": "1",
+            "upgrade": "-1 tasks/1 OR -1 dmg/1"
         }
     ]
 }
