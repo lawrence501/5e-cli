@@ -165,6 +165,58 @@
                     "upgrade": "+1 multi and 4pts distributed/1"
                 }
             ]
+        },
+        {
+            "name": "Dark Shroud of Cinders (arm) (L1)",
+            "startingAffixes": [
+                {
+                    "description": "+1 fire spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "1/turn, when hit, gain a 5' fiery aura for 1 rnd that only affects foes and deals 3 fire DoT dmg",
+                    "pointValue": "1",
+                    "upgrade": "+2 dmg/1"
+                },
+                {
+                    "description": "on sub hit, target is blinded until the end of your next turn",
+                    "pointValue": "4",
+                    "upgrade": "+1 spell AB/4"
+                }
+            ],
+            "thematicAffixes": [
+                {
+                    "description": "1. +1d4 psy dmg to your spell hits",
+                    "pointValue": "3",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "2. +1 psy dmg while buffed",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "3. +1 spell dmg",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "4. 2/LR, as a bonus action, you can create a mote of fire that orbits you until you consume it as a free action to add a d6 to any fire dmg roll you make",
+                    "pointValue": "1",
+                    "upgrade": "+1 dmg/1"
+                },
+                {
+                    "description": "5. whenever you lose concentration on a spell that can deal dmg, you gain +2 to that spell's dmg types for 1rnd",
+                    "pointValue": "1",
+                    "upgrade": "+1/1"
+                },
+                {
+                    "description": "6. on hit, target gets 1 fire DoT, stacking until DEX save",
+                    "pointValue": "2",
+                    "upgrade": "+1/2"
+                }
+            ]
         }
     ],
     "Zacharias": [
@@ -384,7 +436,7 @@
             ]
         },
         {
-            "name": "Desolation (arm) (L2) (charged)",
+            "name": "Desolation (arm) (L3) (charged)",
             "startingAffixes": [
                 {
                     "description": "+1 light DoT dmg",
@@ -402,8 +454,8 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "+1 wep AC",
-                    "pointValue": "4",
+                    "description": "+2 wep AC",
+                    "pointValue": "8",
                     "upgrade": "+1/4"
                 }
             ],

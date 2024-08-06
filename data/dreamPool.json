@@ -58,11 +58,6 @@
             "description": "The Summoned Minion from your Summoner feat has +5 max HP",
             "pointValue": "1",
             "upgrade": "+5/1"
-        },
-        {
-            "description": "The Summoned Minion from your Summoner feat has +2 CON and +2 max CON. This does not affect the Minion's max HP.",
-            "pointValue": "1",
-            "upgrade": "+2/1"
         }
     ],
     "Vehemir": [
