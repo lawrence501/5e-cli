@@ -1,7 +1,7 @@
 {
     "Thaddeus": [
         {
-            "name": "Thaddy's Caddy (arm) (L5) (charged)",
+            "name": "Thaddy's Caddy (arm) (L6) (charged)",
             "affixes": [
                 {
                     "description": "+9 non-phys barrier",
@@ -19,8 +19,8 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "on limited power use, heal 2 HP",
-                    "pointValue": "2",
+                    "description": "on limited power use, heal 3 HP",
+                    "pointValue": "3",
                     "upgrade": "+1/1"
                 }
             ],
@@ -52,58 +52,6 @@
                 },
                 {
                     "description": "6. ?",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                }
-            ]
-        },
-        {
-            "name": "Wailing Hatred (arm) (L1) (charged)",
-            "startingAffixes": [
-                {
-                    "description": "+5 cold barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "+1 cold dmg",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "+1d6 cold dmg to your wep hits",
-                    "pointValue": "4",
-                    "upgrade": "+1/1"
-                }
-            ],
-            "thematicAffixes": [
-                {
-                    "description": "1. +5 thunder barrier",
-                    "pointValue": "1",
-                    "upgrade": "+5/1"
-                },
-                {
-                    "description": "2. +1d4 cold dmg to your sub wep hits",
-                    "pointValue": "2",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "3. on cold hit, gain +2 dmg barrier for 1rnd",
-                    "pointValue": "1",
-                    "upgrade": "+1/1"
-                },
-                {
-                    "description": "4. react to change incoming dmg into cold",
-                    "pointValue": "1",
-                    "upgrade": "+5 cold barrier/1"
-                },
-                {
-                    "description": "5. on cold hit, gain +1 wep AC for 1rnd",
-                    "pointValue": "4",
-                    "upgrade": "+1/4"
-                },
-                {
-                    "description": "6. +2 cold res",
                     "pointValue": "1",
                     "upgrade": "+1/1"
                 }
@@ -167,7 +115,7 @@
             ]
         },
         {
-            "name": "Dark Shroud of Cinders (arm) (L1)",
+            "name": "Dark Shroud of Cinders (arm) (L1) (charged)",
             "startingAffixes": [
                 {
                     "description": "+1 fire spell dmg",
@@ -175,8 +123,8 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "1/turn, when hit, gain a 5' fiery aura for 1 rnd that only affects foes and deals 3 fire DoT dmg",
-                    "pointValue": "1",
+                    "description": "1/turn, when hit, gain a 5' fiery aura for 1 rnd that only affects foes and deals 5 fire DoT dmg",
+                    "pointValue": "2",
                     "upgrade": "+2 dmg/1"
                 },
                 {
