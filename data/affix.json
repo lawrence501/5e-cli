@@ -630,7 +630,7 @@
         "tags": ["weapon"]
     },
     {
-        "description": "+5' shove distance",
+        "description": "+5' push distance",
         "pointValue": "2",
         "upgrade": "+5'/2",
         "tags": ["weapon"]

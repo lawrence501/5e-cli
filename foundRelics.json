@@ -221,7 +221,7 @@
             ]
         },
         {
-            "name": "Zach's First Success (wep) (L3) (charged)",
+            "name": "Zach's First Success (wep) (L4) (charged)",
             "startingAffixes": [
                 {
                     "description": "+2 proj spell crit dice",
@@ -247,6 +247,11 @@
                     "description": "+6 wep dmg vs marked targets",
                     "pointValue": "5",
                     "upgrade": "+1/1"
+                },
+                {
+                    "description": "+5' push distance",
+                    "pointValue": "2",
+                    "upgrade": "+5'/2"
                 }
             ],
             "thematicAffixes": [
@@ -266,7 +271,7 @@
                     "upgrade": "+1/1"
                 },
                 {
-                    "description": "4. +5' shove distance",
+                    "description": "4. +5' push distance",
                     "pointValue": "2",
                     "upgrade": "+5'/2"
                 },
