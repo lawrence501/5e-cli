@@ -349,7 +349,11 @@ func dmgToDice(dmg float64) string {
 	lowestMod := -1.0
 	lowestCount := 1.0
 	for idx, size := range DIE_SIZES {
+		if dmg < size {
+			continue
+		}
 		mod := math.Mod(dmg, size)
+		// fmt.Println(fmt.Sprintf("Mod for %s is %f (dmg = %f, size = %f)", DIE_FACES[idx], mod, dmg, size))
 		if mod <= lowestMod || lowestMod < 0 {
 			count := math.Round(dmg / size)
 			face := DIE_FACES[idx]
