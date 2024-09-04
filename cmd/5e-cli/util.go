@@ -349,7 +349,7 @@ func dmgToDice(dmg float64) string {
 	lowestMod := -1.0
 	lowestCount := 1.0
 	for idx, size := range DIE_SIZES {
-		if dmg < size {
+		if dmg < size-0.5 {
 			continue
 		}
 		mod := math.Mod(dmg, size)
