@@ -152,13 +152,16 @@
     {
         "theme": "Save Buff",
         "tiers": [
-            "1. Salvare: 1/combat, glyphic action; A creature within 60' of you gains +1 to saves for 1 round.", -4 + 5
-            "2. "
+            "1. Salvare: 1/combat, glyphic action; You surround a creature within 60' of you with a faint glow for 1 round, absorbing some of the negative energy around them. This grants the target +1 to saves.",
+            "2. Salvare now lasts for the remainder of combat.",
+            "3. Attacks that can inflict the frightened condition have -1 AB against creatures affected by Salvare. Additionally, those creatures have +1 resistance to will attacks.",
+            "4. Creatures affected by Salvare have +3 resistance to non-armour attacks.",
+            "5. From the second round of Salvare's effect and onwards, the target has +1 physical resistance and +1 resistance.",
+            "6. As a free action on your turn, you may immediately end Salvare's effect to cause negative energy to erupt from the target's body. All foes adjacent to the target take 15 glyphic damage.",
+            "7. Creatures affected by Salvare have +1 passive regeneration and +1 resistance to non-armour attacks.",
+            "8. If Salvare affects a creature for at least 2 rounds, it retains all resistance bonuses acquired from Salvare until it either takes a short rest or is affected by Salvare again.",
+            "9. The passive regeneration bonus granted by Salvare is increased to +3.",
+            "10. Creatures affected by Salvare cannot lose concentration against their will."
         ]
-        thoughtsteel | horrify | empowered drain
-        contempt | soul blast
-        condemnation | enduring contempt
-        word of conviction
-        eternal servitude
     }
 ]

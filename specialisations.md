@@ -149,7 +149,6 @@ Items you do this on can no longer be used by other players.
 Qualities of a relic:
 - start with 3 specific affixes
 - can sacrifice a relic to level up another relic
-- levels have 2 options
 - have a pool of 6 affixes where new affixes can come from
 - Each level option uses weighted affix adding/upgrading, using a d6
 
@@ -157,7 +156,7 @@ Qualities of a relic:
 Whenever a new thematic affix would be added to a relic, you are also shown a random generic affix. You may add either to the relic. Additionally, you are immediately shown a random generic affix for each non-starting affix on any relics you currently have, which will have the same amount of upgrade points applied to it as the relic affix.
 
 ### Divergence
-Whenever you level up a relic, you have 1 additional option to choose from.
+Whenever you level up a relic, you can choose between two different upgrade options.
 
 ### Dominant Gene
 Your relics may have up to 7 affixes on them. When you first acquire this 7th affix, you choose it from the relic's thematic pool. Additionally, when upgrading affixes in the future, this 7th affix is always available as an additional upgrade option.

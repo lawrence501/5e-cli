@@ -1,7 +1,7 @@
 {
     "Dekel": [
         "[Partner] Whenever Bentley's Monstrous Minion uses your tactics die, its major success range increases by 3, and if its attack scores a major success, it deals additional damage equal to double your level.",
-        "[Partner] SOMETHING EDE-RELATED",
+        "[Partner] Ede can use your tactics die for any attacks she makes that deal thunder damage, and when she does so, it increases by one size.",
         "[Identity] You gain an additional tactics die, as per the More Tactical feature. Additionally, whenever a creature rolls your tactics die and hits, their attack deals additional damage equal to the tactics die roll.",
         "[Identity] The first time between long rests that you use your Operations Leader feature, it costs no exertion. Additionally, its maximum duration is extended to 1 hour.",
         "[Gap] You can add your Charisma modifier to Intelligence skill checks. Additionally, your Charisma and maximum Charisma are increased by 2.",
@@ -13,7 +13,7 @@
     ],
     "Bentley": [
         "[Partner] Whenever your Monstrous Minion attacks a creature that is adjacent to Dekel, it gains +3 damage for the remainder of combat.",
-        "[Partner] SOMETHING EDE-RELATED",
+        "[Partner] While your Monstrous Minion is affected by Ede's Battle Hymns, it deals 1d10 additional base damage.",
         "[Identity] While your Monstrous Minion is within 30 feet of you, it gains 50% resistance to necrotic damage and its attacks deal 1d6 additional necrotic damage.",
         "[Identity] You can now modify your Monstrous Minion whenever you complete a short or long rest. Additionally, the first time between long rests that you craft a Bandage or Healing Satchel, you craft 2 instead.",
         "[Gap] You can now create your Monstrous Minion whenever you complete a short or long rest, and it can be done from a corpse of any creature type.",
@@ -24,15 +24,15 @@
         "[AI] Your Monstrous Minion's Shocking Coils have their base number of damage dice doubled. Additionally, once between short or long rests, you can use your action to have your Monstrous Minion release a burst of electrical energy while it has Shocking Coils grafted. The Minion makes a reflex attack against all creatures within 10 feet of it that deals 2d10 lightning damage. This damage scales like a cantrip."
     ],
     "Ede": [
-        "[Partner] ",
-        "[Partner] ",
-        "[Identity] ",
-        "[Identity] ",
-        "[Gap] ",
-        "[Gap] ",
-        "[Keyword] ",
-        "[Keyword] ",
-        "[AI] ",
-        "[AI] "
+        "[Partner] Whenever you deal thunder damage with a hit, Dekel gains temporary hit points equal to double your level and taunts all creatures you damaged for 1 round.",
+        "[Partner] If you have expended a Bardic Inspiration die since the start of your last turn, Bentley's Monstrous Minion deals 1d6 thunder damage to all creatures of its choice within 60 feet of it whenever it hits a creature with an attack, except for the creature it hit. This damage scales like a cantrip.",
+        "[Identity] The range of your Eyes of the Ears feature increases by 10'. Additionally, whenever you use your Blast of Sound, you can choose to either increase the cone length by 5' or convert it into a 10'-wide, 25'-long line.",
+        "[Identity] Your fortitude attacks have advantage against creatures within 10' of your Wall of Sound. Additionally, the areas of your spells with the thunder tag are increased by 5'.",
+        "[Gap] Creatures deafened by you have -3 armour vs attacks from creatures flanking them.",
+        "[Gap] Your maximum uses of Bardic Inspiration is increased by 3.",
+        "[Keyword] Whenever you target a creature with a levelled spell, their Ears Ring for 1 round. While a creature's Ears are Ringing, it takes thunder DoT damage from you equal to triple its CR whenever it makes an attack.",
+        "[Keyword] Whenever you are hit by an attack, the attacker's Ears Ring for 1 round. While a creature's Ears are ringing, attacks against it have +3 critical hit range.",
+        "[AI] The damage dice of your Blast of Sound increase to d12s. Additionally, armour attacks have advantage against creatures deafened by your Blast of Sound.",
+        "[AI] The range of your Eyes of the Ears feature is doubled, and you gain advantage on Insight checks against creatures you can hear. Additionally, when creating a Wall of Sound, you can designate creatures to be unaffected by it."
     ]
 }
