@@ -1,27 +1,5 @@
 {
-    "Thaddeus": [
-        {
-            "description": "Whenever the target of your Shield of Faith is hit by a melee attack, the attacker takes rad spell dmg equal to triple your bonus outgoing healing",
-            "pointValue": "1",
-            "upgrade": "+1 outgoing healing/1"
-        },
-        {
-            "description": "The bonus AC for upcasting your Shield of Faith is increased by 2. Additionally, it needs 2 fewer slot levels per upcast bonus.",
-            "pointValue": "4",
-            "upgrade": "+1 AC/1"
-        },
-        {
-            "description": "The Healer feat's heal action now has a range of 10'.",
-            "pointValue": "2",
-            "upgrade": "+5'/2"
-        },
-        {
-            "description": "After 5th level, the Healer feat's heal action scales in die count every 5 levels instead of 6.",
-            "pointValue": "2",
-            "upgrade": "-1 threshold/2"
-        }
-    ],
-    "Zacharias": [
+    "Dekel": [
         {
             "description": "Your Magic Missile base force damage is converted to necrotic damage, and if all darts target the same creature, you heal 2 HP.",
             "pointValue": "2",
@@ -43,7 +21,7 @@
             "upgrade": "+1/2"
         }
     ],
-    "Siggusmondo": [
+    "Bentley": [
         {
             "description": "The first time in a turn a creature fails a saving throw from you, you may trigger your Gathered Swarm.",
             "pointValue": "2",
@@ -60,31 +38,26 @@
             "upgrade": "+5/1"
         }
     ],
-    "Vehemir": [
+    "Ede": [
         {
-            "description": "Your Speak with Animals now lasts 8 hours",
-            "pointValue": "2",
-            "upgrade": "+1 duration step/2"
-        },
-        {
-            "description": "Allies can Help you with animal handling checks you make with beasts you are communicating with via Speak with Animals",
+            "description": "Whenever the target of your Shield of Faith is hit by a melee attack, the attacker takes rad spell dmg equal to triple your bonus outgoing healing",
             "pointValue": "1",
-            "upgrade": "+4 to these Helped animal handling checks/1"
+            "upgrade": "+1 outgoing healing/1"
         },
         {
-            "description": "The Flesh Rot disease from your Contagion now causes the target to take double damage from all sources instead of becoming vulnerable",
-            "pointValue": "2",
-            "upgrade": "creatures affected by your flesh rot have +1 dmg taken/1"
-        },
-        {
-            "description": "You can now cast Contagion in place of one of your attacks in the Attack action instead of as an action",
+            "description": "The bonus AC for upcasting your Shield of Faith is increased by 2. Additionally, it needs 2 fewer slot levels per upcast bonus.",
             "pointValue": "4",
-            "upgrade": "bonus action -> free action/4"
+            "upgrade": "+1 AC/1"
         },
         {
-            "description": "The Rattling Cough disease from your Contagion now grants -3 with Dexterity-related tasks instead of disadvantage. Additionally, they deal -1 damage with DEX-based attacks.",
-            "pointValue": "1",
-            "upgrade": "-1 tasks/1 OR -1 dmg/1"
+            "description": "The Healer feat's heal action now has a range of 10'.",
+            "pointValue": "2",
+            "upgrade": "+5'/2"
+        },
+        {
+            "description": "After 5th level, the Healer feat's heal action scales in die count every 5 levels instead of 6.",
+            "pointValue": "2",
+            "upgrade": "-1 threshold/2"
         }
     ]
 }

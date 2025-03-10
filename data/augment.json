@@ -1,0 +1,38 @@
+{
+    "Dekel": [
+        "[Partner] Whenever Bentley's Monstrous Minion uses your tactics die, its major success range increases by 3, and if its attack scores a major success, it deals additional damage equal to double your level.",
+        "[Partner] SOMETHING EDE-RELATED",
+        "[Identity] You gain an additional tactics die, as per the More Tactical feature. Additionally, whenever a creature rolls your tactics die and hits, their attack deals additional damage equal to the tactics die roll.",
+        "[Identity] The first time between long rests that you use your Operations Leader feature, it costs no exertion. Additionally, its maximum duration is extended to 1 hour.",
+        "[Gap] You can add your Charisma modifier to Intelligence skill checks. Additionally, your Charisma and maximum Charisma are increased by 2.",
+        "[Gap] The coordinated Help action from your Operations Leader feature can now also be used to Help armour attack rolls, as per the regular Help action. This does not benefit from the Tactician feat.",
+        "[Keyword] Whenever you become bloodied, all allies within your Commanding Presence become Rallied for 1 round. Rallied creatures deal 1d8 additional thunder damage with damaging attacks.",
+        "[Keyword] Whenever you substantially or critically fail a journey activity check, all allies become Rallied until the end of the day. Rallied creatures have +1 to attack rolls, saves, and ability checks.",
+        "[AI] You gain the bonuses from your Student of War feature in the skill you didn't originally choose. Additionally, once per long rest, you can reroll an ability check (after you learn the results) that you had an expertise die on.",
+        "[AI] Your Commanding Presence range increases by 30 feet. Additionally, you can use your Reach Further feature 1 additional time on each target between long rests (this grants you the feature with no other improvements if you didn't choose it from Hidden Resources)."
+    ],
+    "Bentley": [
+        "[Partner] Whenever your Monstrous Minion attacks a creature that is adjacent to Dekel, it gains +3 damage for the remainder of combat.",
+        "[Partner] SOMETHING EDE-RELATED",
+        "[Identity] While your Monstrous Minion is within 30 feet of you, it gains 50% resistance to necrotic damage and its attacks deal 1d6 additional necrotic damage.",
+        "[Identity] You can now modify your Monstrous Minion whenever you complete a short or long rest. Additionally, the first time between long rests that you craft a Bandage or Healing Satchel, you craft 2 instead.",
+        "[Gap] You can now create your Monstrous Minion whenever you complete a short or long rest, and it can be done from a corpse of any creature type.",
+        "[Gap] You can now command your Monstrous Minion as a free action once on each of your turns, and it gains a bonus to its non-armour defences equal to half your proficiency bonus.",
+        "[Keyword] Whenever you deal spell damage, your Monstrous Minion becomes Empowered for 1 round. Empowered creatures have advantage on passive saves and whenever they end their turn without making a passive save, they increase their temporary hit points by an amount equal to your proficiency bonus.",
+        "[Keyword] Whenever your Monstrous Minion is hit, it becomes Empowered for 1 round. Empowered creatures add an expertise die to their weapon attack rolls.",
+        "[AI] Your Monstrous Minion's maximum hit points are increased by double your Intelligence modifier. Additionally, the first time between long rests that it drops to 0 hit points, the Minion instead remains on 1 hit point.",
+        "[AI] Your Monstrous Minion's Shocking Coils have their base number of damage dice doubled. Additionally, once between short or long rests, you can use your action to have your Monstrous Minion release a burst of electrical energy while it has Shocking Coils grafted. The Minion makes a reflex attack against all creatures within 10 feet of it that deals 2d10 lightning damage. This damage scales like a cantrip."
+    ],
+    "Ede": [
+        "[Partner] ",
+        "[Partner] ",
+        "[Identity] ",
+        "[Identity] ",
+        "[Gap] ",
+        "[Gap] ",
+        "[Keyword] ",
+        "[Keyword] ",
+        "[AI] ",
+        "[AI] "
+    ]
+}

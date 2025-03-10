@@ -1,0 +1,13 @@
+[
+  "Orb of Challenge: The base difficulty and rewards of the simulation are increased.",
+  "Chaos Orb: All affixes are rerolled.",
+  "Exalted Orb: A positive affix and a negative affix are added.",
+  "Orb of Annulment: Removes a random positive affix and a random negative affix.",
+  "Orb of Chance: Unpredictably modifies a mundane simulation.",
+  "Orb of Scouring: Removes all affixes.",
+  "Divine Orb: Rerolls each numeric value on affixes to be either 50%, 100%, or 150% of their current value.",
+  "Orb of Guidance: You can foresee the outcome of all remaining currency uses on this simulation.",
+  "Mirrorring Orb: If you run this simulation, your next simulation will be replaced with the exact same simulation.",
+  "Orb of Horizons: The simulation type for this simulation is rerolled, rerolling any invalid affixes as required.",
+  "Corruption Orb: Unpredictably modifies the simulation, but hides its qualities and prevents it from further modification."
+]

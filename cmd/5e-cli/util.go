@@ -8,9 +8,9 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
 
+	"github.com/gtuk/discordwebhook"
 	"github.com/manifoldco/promptui"
 	"golang.org/x/exp/slices"
 )
@@ -21,237 +21,117 @@ func randSelect[S []E, E any](s S) E {
 	return s[rand.Intn(len(s))]
 }
 
-func fetchAffixes(fileName string) ([]Affix, error) {
+func fetchData[T any](fileName string, _ T) (T, error) {
+	var data T
+
 	cwd, err := os.Getwd()
 	if err != nil {
-		return []Affix{}, err
+		return data, err
 	}
 
 	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
 	if err != nil {
-		return []Affix{}, err
+		return data, err
 	}
 
-	affixes := []Affix{}
-	err = json.Unmarshal([]byte(f), &affixes)
+	err = json.Unmarshal([]byte(f), &data)
 	if err != nil {
-		return []Affix{}, err
+		return data, err
 	}
-	return affixes, nil
+	return data, nil
 }
 
-func fetchTomes() ([]Tome, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Tome{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "tome.json"))
-	if err != nil {
-		return []Tome{}, err
-	}
-
-	tomes := []Tome{}
-	err = json.Unmarshal([]byte(f), &tomes)
-	if err != nil {
-		return []Tome{}, err
-	}
-	return tomes, nil
-}
-
-func positiveEncounter() (string, error) {
-	allEncounters, err := fetchEncounters()
-	if err != nil {
-		return "", err
-	}
-	return processString(randSelect(allEncounters.Positive)), nil
-}
-
-func hostileEncounter(tag string) (string, error) {
-	allEncounters, err := fetchEncounters()
-	if err != nil {
-		return "", err
-	}
-	var encounter HostileEncounter
+func genSimAffix(simType string, affixSlice []SimulationAffix) string {
 	for {
-		encounter = randSelect(allEncounters.Hostile)
-		if tag != "" {
-			if slices.Contains(encounter.Tags, tag) {
-				break
+		affix := randSelect(affixSlice)
+		if slices.Contains(affix.SimulationTypes, strings.ToLower(simType)) {
+			if affix.Display != "" {
+				return fmt.Sprintf("%s *Details: %s*", affix.Display, affix.Description)
 			}
-		} else {
-			break
+			return affix.Description
 		}
 	}
-	return fmt.Sprintf("%s (%d)", encounter.Name, encounter.ID), nil
 }
 
-func fetchEncounters() (Encounters, error) {
-	cwd, err := os.Getwd()
+func discordSend(content string) error {
+	sendP := promptui.Prompt{
+		Label: "Broadcast to Discord? (Empty for yes, anything for no)",
+	}
+	send, err := sendP.Run()
 	if err != nil {
-		return Encounters{}, err
+		return err
+	}
+	log.Print(content)
+	if send != "" {
+		return nil
 	}
 
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "encounter.json"))
-	if err != nil {
-		return Encounters{}, err
+	content = "> _ _\n" + content
+	DISCORD_USERNAME := "Broadcaster"
+	message := discordwebhook.Message{
+		Username: &DISCORD_USERNAME,
+		Content:  &content,
 	}
-
-	encounters := Encounters{}
-	err = json.Unmarshal([]byte(f), &encounters)
-	if err != nil {
-		return Encounters{}, err
-	}
-	return encounters, nil
+	return discordwebhook.SendMessage(
+		"https://discord.com/api/webhooks/1340159157164179489/auj9LBrU9CIGtxE6BE1-lhHJcTIL0OQkwK6oT9i7KwmFamUyEZ311fHS5S66aN4a-l1U",
+		message,
+	)
 }
 
-func fetchWeather() (Weathers, error) {
+func chooseSimulationType(simWeights SimulationWeights) (string, error) {
+	dungeonChance := simWeights.Dungeon
+	huntChance := simWeights.Dungeon + simWeights.Hunt
+	journeyChance := simWeights.Dungeon + simWeights.Hunt + simWeights.Journey
+
+	typeRoll := rand.Intn(100)
+	var simType string
+	if typeRoll < dungeonChance {
+		simWeights.Dungeon -= 16
+		simType = "Dungeon"
+	} else if typeRoll < huntChance {
+		simWeights.Hunt -= 16
+		simType = "Hunt"
+	} else if typeRoll < journeyChance {
+		simWeights.Journey -= 16
+		simType = "Journey"
+	} else {
+		simWeights.Puzzle -= 16
+		simType = "Puzzle"
+	}
+	simWeights.Dungeon += 4
+	simWeights.Hunt += 4
+	simWeights.Journey += 4
+	simWeights.Puzzle += 4
+	jsonWeights, err := json.Marshal(simWeights)
+	if err != nil {
+		return "", err
+	}
+
 	cwd, err := os.Getwd()
 	if err != nil {
-		return Weathers{}, err
+		return "", err
 	}
+	return simType, os.WriteFile(filepath.Join(cwd, DATA_DIR, "simulationWeights.json"), jsonWeights, 0644)
+}
 
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "weather.json"))
+func genSimCurrency() (string, error) {
+	allCurrencies, err := fetchData("simulationCurrency", []string{})
 	if err != nil {
-		return Weathers{}, err
+		return "", err
 	}
-
-	weathers := Weathers{}
-	err = json.Unmarshal([]byte(f), &weathers)
-	if err != nil {
-		return Weathers{}, err
+	outputBuilder := ""
+	for range 3 {
+		outputBuilder += fmt.Sprintf("* 1x %s\n", randSelect(allCurrencies))
 	}
-	return weathers, nil
+	return outputBuilder, nil
 }
 
 func generateWeather() (string, error) {
-	weathers, err := fetchWeather()
+	weathers, err := fetchData("weather", []string{})
 	if err != nil {
 		return "", err
 	}
-
-	weatherRoll := rand.Intn(100)
-	// if weatherRoll < 5 {
-	if weatherRoll < 0 {
-		chosen := randSelect(weathers.Exotic)
-		return fmt.Sprintf("%s (+2 minimum hostile random encounters [before %d and %d]. At least one must be a combat. %s)", chosen.Name, rand.Intn(5)+1, rand.Intn(5)+1, processString(chosen.Description)), nil
-	}
-	chosen := randSelect(weathers.Common)
-	return chosen, nil
-}
-
-func fetchRingBases() (map[string]RingBase, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return map[string]RingBase{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "ring.json"))
-	if err != nil {
-		return map[string]RingBase{}, err
-	}
-
-	bases := map[string]RingBase{}
-	err = json.Unmarshal([]byte(f), &bases)
-	if err != nil {
-		return map[string]RingBase{}, err
-	}
-	return bases, nil
-}
-
-func fetchAmulets() ([]AmuletSet, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []AmuletSet{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "amulet.json"))
-	if err != nil {
-		return []AmuletSet{}, err
-	}
-
-	sets := []AmuletSet{}
-	err = json.Unmarshal([]byte(f), &sets)
-	if err != nil {
-		return []AmuletSet{}, err
-	}
-	return sets, nil
-}
-
-func fetchSimpleGenerics(fileName string) ([]SimpleGeneric, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []SimpleGeneric{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
-	if err != nil {
-		return []SimpleGeneric{}, err
-	}
-
-	simple := []SimpleGeneric{}
-	err = json.Unmarshal([]byte(f), &simple)
-	if err != nil {
-		return []SimpleGeneric{}, err
-	}
-	return simple, nil
-}
-
-func fetchGlyphs() ([]GlyphPath, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []GlyphPath{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "glyph.json"))
-	if err != nil {
-		return []GlyphPath{}, err
-	}
-
-	paths := []GlyphPath{}
-	err = json.Unmarshal([]byte(f), &paths)
-	if err != nil {
-		return []GlyphPath{}, err
-	}
-	return paths, nil
-}
-
-func fetchRelics() (Relics, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return Relics{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "relic.json"))
-	if err != nil {
-		return Relics{}, err
-	}
-
-	relics := Relics{}
-	err = json.Unmarshal([]byte(f), &relics)
-	if err != nil {
-		return Relics{}, err
-	}
-	return relics, nil
-}
-
-func fetchGenerics(fileName string) ([]Generic, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	generics := []Generic{}
-	err = json.Unmarshal([]byte(f), &generics)
-	if err != nil {
-		return []Generic{}, err
-	}
-	return generics, nil
+	return randSelect(weathers), nil
 }
 
 func fetchChaos() (Chaos, error) {
@@ -274,71 +154,11 @@ func fetchChaos() (Chaos, error) {
 }
 
 func fetchDreamPool(char string) ([]Affix, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Affix{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "dreamPool.json"))
-	if err != nil {
-		return []Affix{}, err
-	}
-
-	pools := map[string][]Affix{}
-	err = json.Unmarshal([]byte(f), &pools)
+	pools, err := fetchData("dreamPool", map[string][]Affix{})
 	if err != nil {
 		return []Affix{}, err
 	}
 	return pools[char], nil
-}
-
-func fetchPerks(char string) ([]string, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []string{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "perk.json"))
-	if err != nil {
-		return []string{}, err
-	}
-
-	perks := map[string][]string{}
-	err = json.Unmarshal([]byte(f), &perks)
-	if err != nil {
-		return []string{}, err
-	}
-	return perks[char], nil
-}
-
-func getLootSearchResults(skill string) (int, error) {
-	rollP := promptui.Prompt{
-		Label:    skill + " results (space separated)",
-		Validate: validateSpaceSeparated,
-	}
-	rolls, err := rollP.Run()
-	if err != nil {
-		return 0, err
-	}
-
-	rollsSlice := strings.Split(rolls, " ")
-	playerCount := len(rollsSlice)
-
-	totalResult := 0
-	for _, i := range rollsSlice {
-		intRoll, err := strconv.Atoi(i)
-		if err != nil {
-			return 0, err
-		}
-		totalResult += intRoll
-	}
-
-	if totalResult < 13*playerCount {
-		log.Println("Nothing extra found.")
-		return 0, nil
-	}
-
-	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(2.5*float64(playerCount))) + 1), nil
 }
 
 var DIE_SIZES []float64 = []float64{2.5, 3.5, 4.5, 5.5, 6.5}

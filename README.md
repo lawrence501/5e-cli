@@ -3,31 +3,6 @@ Golang CLI helper for my D&amp;D 5e campaigns
 
 ## Loot Rules
 
-### Sell values
-
-- Mundane: 5gp
-- Tome: 10gp
-- Amulet: 1gp
-- Relic: 60gp
-- Enchanted Equipment: 35gp
-
-### Relic level costs (same price - 150)
-
-2. 20
-3. 30
-4. 50
-5. 80
-6. 120
-7. 170
-8. 230
-9. 300
-10. 400
-
-Bentley: 1400
-Adrian: 890
-Dan: 280
-Lawrence: 1400
-
 ### Relic generation
 
 1. 1st base affix
@@ -47,15 +22,21 @@ Lawrence: 1400
 - Race
 - Spell/maneuver
 
-### Perk generation
-
+### Augment generation
 - Backstory partner
 - Backstory identity
 - Build gap-fill
 - Self-synergy mechanic
 - AI
 
-### Tome value cheatsheet
+### Amulet affix generation
+
+- base affix
+- OG character features
+- backstory
+- AI
+
+### Mutation value cheatsheet
 
 Always based on dmg where possible
 
@@ -66,24 +47,26 @@ Always based on dmg where possible
 - Barely: 7%
 
 Without original values:
-- Spells: 10 + 5 per slot lvl/cantrip scale tier
-- Everything else (limited): 13 + 2 per party lvl
-- Everything else (non-limited): 8 + 1 per party lvl
+- Spells: 11 + 6 per slot lvl/cantrip scale tier
+- Everything else (limited): 14 + 3 per party lvl
+- Everything else (non-limited): 9 + 2 per party lvl
 
 ### Point value cheatsheet
 
 - Dominate: 8
 - Stagger/Debil/exh/confused/uncon/silence/double disadv condi: 5
-- Single disadv condi/sluggish/charm/root/weak: 3
-- Prone/taunt/similar: 2
+- Single disadv condi/slowed/charm/root/weak: 3
+- Prone/taunt/sluggish/similar: 2
 - Condi lasts until save/longer: x2
 - limited power conditional: -1
 - General conditional: -2
 - Party positioning conditional: -1
 - Common location conditional: -1
 - Uncommon location conditional: -3
-- Incoming healing: 2
-- Passive regen: 3
+- Incoming healing: 1
+- Passive regen: 2
+- Armour: 5
+- Fort/Reflex/Will: 4
 - Mark effects: x2
 - Glyphic 1d4 proc: 3
 - Wep/spell 1d4 proc: 5
@@ -104,112 +87,62 @@ Without original values:
 - A choice becomes random: -3
 - Cheat death: 10
 
-## Condition definitions
-
-### Confused
-
-A confused creature cannot take reactions.
-
-On its turn, a confused creature rolls a d8 to determine what it does:
-1-4. Debilitated until the end of its turn.
-5-6. Dazed until the end of its turn.
-7+. Makes a melee weapon attack against a randomly-determined creature at the start of its turn as a free action.
-
-### Dazed
-
-Shares condition immunity with incapacitation.
-
-A dazed creature has disadvantage with Offence and Defence.
-
-### Debilitated
-
-Shares condition immunity with stun.
-
-A debilitated creature suffers the following effects:
-- Disadvantage with damaging Offence.
-- All damage dealt is halved.
-- Cannot take bonus actions or reactions.
-- Does not grant disadvantage to adjacent ranged attackers.
-
-### Dominated
-
-Shares condition immunity with charm.
-
-A dominated creature is charmed. Additionally, the dominated creature gains a free action at the start of each of its turns that can be taken to both move up to its speed and make either a single weapon attack or cast a cantrip. This free action is completely controlled by the creature that dominated the victim.
-
-### Frightened
-
-As before, but instead of removing a creature's ability to move towards the source of their fear, they become debilitated until the end of their turn when doing so.
-
-### Rattled
-
-Shares condition immunity with frighten.
-
-A rattled creature cannot benefit from expertise dice and cannot take reactions.
-
-### Sluggish
-
-Shares condition immunity with exhaustion.
-
-A sluggish creature reduces the number of attacks it can make with its Attack action by 1 (or Multiattack, where relevant).
-
-### Staggered
-
-Shares condition immunity with paralysis.
-
-A staggered creature suffers the following effects:
-- Incoming attack damage is always critical.
-- Disadvantage with damaging Defence.
-
-### Taunted
-
-Shares condition immunity with charmed.
-
-A taunted creature must target at least their taunter with all offensive actions.
-
 ## Terminology
 
 ### Splash Damage
 
 Splash damage is always optional. It deals its damage, up to the amount of the original hit, to all creatures of your choice within 5' of the target.
 
-## Revisited Combat Maneuvers
+## Affinities
 
-### Cavalier Stance
-
-While riding your mount, your AC increases by 1.
+Control
+Support
+Mobility
+Resource
+Damage
+Survivability
+Wealth
+Utility
 
 ## Ideas for next campaign/things to discuss
 
-- Drop the Looking for Trouble journey activity, force all players to always choose at least 1 journey activity per day, and make the DC for them a static 18. This allows other journey activities to become possible as your character levels up, as you may not always be able to use your primary activity when the weather, etc. is bad for it.
-    - Because of redistributing the negatives from weather, even a standardly-maxed activity should drop below 50% success (+5 ability, +5 prof at L13, -4 from weather results in +6 bonus, which is 45% success chance)
-    - All players MUST take at least 1 skill prof for their highest ability on char creation
-    - All journey activities score a sub fail on a roll of 2.
-
-- Augment system - some sort of experience and gain on breakpoints? Have class feature-esque boosts in the pool, and maybe stuff that adds synergy between backstory pairs. Every 50xp?
-
-- New ring idea: have a few base ring effects, very simple and basic, each time you upgrade a ring, it gets some options of how to 'progress', sort of like a skill tree. as you keep ugprading it, it moves further in that direction, getting progressively more specialised and powerful. Maybe use feats as inspiration for base concepts to branch from
-
-- New feat ideas
-Inspiration: Crits don't do extra dmg but have other effects
-
-Idea #1:
-Your critical hits no longer deal extra damage.
-Your critical hit range is increased by 2.
-Whenever you score a critical hit against a creature, you may choose to either debilitate or stagger it until the end of your next turn.
-If you score a critical hit against a creature that is already debilitated and staggered, they also become vulnerable to all damage until the end of your next turn.
-
 - Future loot options suggestion (d100 roll)
-1. Wondrous Items (low)
-2. Tomes (high)
-3. Rings (med)
-4. Amulets (med)
-5. Shrines (med)
-6. Dream Mirrors (very high)
-7. Glyphs (very high)
-8. Relics (high)
-9. Tarots (high)
-10. Crystals (low)
-11. Magic Items (low)
+1. Amulets
+2. Crystals (talisman)
+3. Dream Mirrors (helm)
+4. Glyphs (dust)
+5. Magic Equipment (curio)
+6. Relics (tarot)
+7. Tarot Cards (tarot)
  
-8% each, remaining goes to reroll w/ upgrade (11%) + choose w/ upgrade (1% max)
+13% each, remaining goes to reroll w/ upgrade (8%) + choose w/ upgrade (1% max)
+
+Rule change:
+- As a reaction, any creature may intercept a damaging attack against a creature adjacent to them, taking that attack instead and converting all damage it deals to true damage.
+
+Whenever loot is gained from a combat, anyone who rolled-off for a loot roll and didn't win rolls another d20. They take the result of either their roll-off or this new d20 and gain that much gold + 5. Whenever loot is gained from a combat, any absent players gain 10gp.
+
+Each combat gives 20% chance for 2d4 perk points to party (each player rolls their own amount), 10% chance for a carnival ticket, and 3% chance for an otherworldly gift
+
+0.23 of single result per dungeon from loot rolls
+0.45 of single result per dungeon from gold
+
+Orb of Chance options:
+1. 2 affixes
+2. 4 affixes
+3. 6 affixes
+4. Unique
+
+Corruption orb options:
+1. Do nothing
+2. Reroll to Mundane, 2 affixes, 4 affixes, 6 affixes, or unique
+3. Add a positive and a negative affix
+4. Give each player a chaotic modifier
+
+Final encounter types:
+1. Single enemy, being invaded
+2. Single enemy, invading us
+3. Enemy group, being invaded
+4. Enemy group, invading us
+5. Single enemy, heavily fortified
+6. Waves of enemies, invading us

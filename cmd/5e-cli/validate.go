@@ -18,30 +18,6 @@ var validateBase = func(input string) error {
 	return nil
 }
 
-var validateRingStone = func(input string) error {
-	if valid := slices.Contains(RING_STONES, input); !valid {
-		return errors.New("invalid ring stone")
-	}
-	return nil
-}
-
-var validateActivity = func(input string) error {
-	if valid := slices.Contains(JOURNEY_ACTIVITIES, input); !valid {
-		return errors.New("invalid journey activity")
-	}
-	return nil
-}
-
-var validateEncounter = func(input string) error {
-	if input == "" {
-		return nil
-	}
-	if valid := slices.Contains(ENCOUNTER_TAGS, input); !valid {
-		return errors.New("invalid encounter tag")
-	}
-	return nil
-}
-
 var validateColourUpgrade = func(input string) error {
 	if _, valid := COLOUR_UPGRADE_DESCRIPTIONS[input]; !valid {
 		return errors.New("invalid colour upgrade target. Must be a loot type")
@@ -49,9 +25,9 @@ var validateColourUpgrade = func(input string) error {
 	return nil
 }
 
-var validateGem = func(input string) error {
-	if valid := slices.Contains(GEM_TAGS, input); !valid {
-		return errors.New("invalid gem tag")
+var validateSimulationType = func(input string) error {
+	if valid := slices.Contains(SIMULATION_TYPES, input); !valid {
+		return errors.New("invalid simulation type")
 	}
 	return nil
 }

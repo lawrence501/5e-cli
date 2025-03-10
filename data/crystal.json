@@ -1,0 +1,484 @@
+[
+  {
+    "name": "Fire Blades",
+    "passives": [
+      "flash fire",
+      "weak armour"
+    ],
+    "powers": [
+      "ember",
+      "leer",
+      "astonish",
+      "night slash",
+      "shadow sneak",
+      "ephemeral guard",
+      "solar blade",
+      "shadow claw",
+      "clear smog",
+      "fire spin",
+      "will-o-wisp",
+      "night shade",
+      "flame charge",
+      "incinerate",
+      "swords dance",
+      "ally switch",
+      "bitter blade",
+      "psycho cut",
+      "flare blitz"
+    ]
+  },
+  {
+    "name": "Great Tusk",
+    "passives": [
+      "protosynthesis"
+    ],
+    "powers": [
+      "sunny day",
+      "defence curl",
+      "rollout",
+      "bulldoze",
+      "taunt",
+      "rapid spin",
+      "brick break",
+      "stomping tantrum",
+      "knock off",
+      "giga impact",
+      "close combat",
+      "endeavour",
+      "head smash",
+      "headlong rush"
+    ]
+  },
+  {
+    "name": "Dragon",
+    "passives": [
+      "intimidate",
+      "moxie",
+      "aerilate"
+    ],
+    "powers": [
+      "protect",
+      "dragon tail",
+      "roost",
+      "ember",
+      "leer",
+      "bite",
+      "dragon breath",
+      "fly",
+      "headbutt",
+      "scary face",
+      "crunch",
+      "zen headbutt",
+      "focus energy",
+      "double-edge"
+    ]
+  },
+  {
+    "name": "Thunderbolt",
+    "passives": [
+      "lightning rod",
+      "motor drive",
+      "sap sipper"
+    ],
+    "powers": [
+      "charge",
+      "thunder wave",
+      "flame charge",
+      "spark",
+      "agility",
+      "wild charge",
+      "thrash"
+    ]
+  },
+  {
+    "name": "Subterrene",
+    "passives": [
+      "dark rush",
+      "dark force",
+      "mould breaker"
+    ],
+    "powers": [
+      "mud-slap",
+      "rapid spin",
+      "hone claws",
+      "horn drill",
+      "metal claw",
+      "sandstorm",
+      "crush claw",
+      "rock slide",
+      "dig",
+      "swords dance",
+      "drill run"
+    ]
+  },
+  {
+    "name": "Cruel",
+    "passives": [
+      "competitive"
+    ],
+    "powers": [
+      "confusion",
+      "hypnosis",
+      "agility",
+      "ancient power",
+      "psycho cut",
+      "freezing glare",
+      "dream eater",
+      "hurricane",
+      "double team",
+      "future sight",
+      "trick room"
+    ]
+  },
+  {
+    "name": "Flower",
+    "passives": [
+      "chlorophyll",
+      "healer"
+    ],
+    "powers": [
+      "quiver dance",
+      "mega drain",
+      "poison powder",
+      "stun spore",
+      "toxic",
+      "moonblast",
+      "grassy terrain",
+      "moonlight",
+      "petal dance",
+      "growth",
+      "acid",
+      "sweet scent"
+    ]
+  },
+  {
+    "name": "Mysterious",
+    "passives": [
+      "illuminate",
+      "natural cure",
+      "analytic"
+    ],
+    "powers": [
+      "rapid spin",
+      "double team",
+      "swift",
+      "confusion",
+      "brine",
+      "light screen",
+      "psychic",
+      "surf",
+      "cosmic power",
+      "defence curl",
+      "confuse ray"
+    ]
+  },
+  {
+    "name": "Rocky Iceberg",
+    "passives": [
+      "strong jaw",
+      "dark body",
+      "sturdy"
+    ],
+    "powers": [
+      "wide guard",
+      "rapid spin",
+      "defence curl",
+      "powder snow",
+      "rock slide",
+      "curse",
+      "icy wind",
+      "protect",
+      "avalanche",
+      "bite",
+      "crunch",
+      "double-edge",
+      "stone edge",
+      "mountain gale"
+    ]
+  },
+  {
+    "name": "Paradox",
+    "passives": [
+      "quark drive"
+    ],
+    "powers": [
+      "disable",
+      "double team",
+      "shadow sneak",
+      "fury cutter",
+      "electric terrain",
+      "hypnosis",
+      "feint",
+      "future sight",
+      "psycho cut",
+      "night slash",
+      "leaf blade",
+      "moonblast",
+      "close combat",
+      "knock off",
+      "destiny bond",
+      "wide guard",
+      "quick guard"
+    ]
+  },
+  {
+    "name": "Synchronise",
+    "passives": [
+      "scrappy",
+      "tangled Feet",
+      "co-star"
+    ],
+    "powers": [
+      "copycat",
+      "protect",
+      "focus energy",
+      "low kick",
+      "feint",
+      "payback",
+      "roost",
+      "air slash",
+      "wide guard",
+      "throat chop",
+      "brave bird"
+    ]
+  },
+  {
+    "name": "Bagworm",
+    "passives": [
+      "sturdy",
+      "overcoat"
+    ],
+    "powers": [
+      "spark",
+      "magnet rise",
+      "toxic spikes",
+      "protect",
+      "self-destruct",
+      "bug bite",
+      "heavy slam",
+      "double-edge",
+      "rapid spin",
+      "rollout",
+      "curse",
+      "spikes",
+      "payback",
+      "defence curl",
+      "gyro ball"
+    ]
+  },
+  {
+    "name": "Shed",
+    "passives": [
+      "wonder guard"
+    ],
+    "powers": [
+      "shadow claw",
+      "grudge",
+      "mud-slap",
+      "metal claw",
+      "dig",
+      "sand attack",
+      "defence curl",
+      "false swipe",
+      "confuse ray",
+      "mega drain",
+      "shadow sneak",
+      "mind reader",
+      "shadow ball",
+      "disable",
+      "phantom force"
+    ]
+  },
+  {
+    "name": "Lissom",
+    "passives": [
+      "beast boost"
+    ],
+    "powers": [
+      "feint",
+      "rapid spin",
+      "leer",
+      "quick guard",
+      "bug bite",
+      "low kick",
+      "triple kick",
+      "headbutt",
+      "agility",
+      "lunge",
+      "bounce",
+      "speed swap",
+      "bug buzz",
+      "quiver dance",
+      "high jump kick"
+    ]
+  },
+  {
+    "name": "Blazing",
+    "passives": [
+      "sheer force",
+      "zen mode"
+    ],
+    "powers": [
+      "hammer arm",
+      "ember",
+      "taunt",
+      "bite",
+      "incinerate",
+      "agility",
+      "fire fang",
+      "headbutt",
+      "uproar",
+      "belly drum",
+      "flare blitz",
+      "thrash",
+      "superpower"
+    ]
+  },
+  {
+    "name": "Despot",
+    "passives": [
+      "strong jaw",
+      "rock head"
+    ],
+    "powers": [
+      "leer",
+      "roar",
+      "ancient power",
+      "charm",
+      "bite",
+      "dragon tail",
+      "headbutt",
+      "rock slide",
+      "crunch",
+      "thrash",
+      "horn drill",
+      "giga impact",
+      "head smash"
+    ]
+  },
+  {
+    "name": "Virtual",
+    "passives": [
+      "bludgeoning specialisation",
+      "download",
+      "analytic"
+    ],
+    "powers": [
+      "trick room",
+      "growth",
+      "defence curl",
+      "conversion 1.0",
+      "recycle",
+      "magnet rise",
+      "spark",
+      "confusion",
+      "conversion 2.0",
+      "agility",
+      "tri attack",
+      "double-edge",
+      "mind reader",
+      "giga impact"
+    ]
+  },
+  {
+    "name": "Arm Thrust",
+    "passives": [
+      "thick fat",
+      "guts",
+      "sheer force"
+    ],
+    "powers": [
+      "brine",
+      "focus energy",
+      "sand attack",
+      "fake out",
+      "force palm",
+      "roar",
+      "knock off",
+      "bulk up",
+      "belly drum",
+      "protect",
+      "seismic toss",
+      "focus punch",
+      "endure",
+      "close combat",
+      "reversal",
+      "heavy slam",
+      "headlong rush"
+    ]
+  },
+  {
+    "name": "Water Bubble",
+    "passives": [
+      "water bubble",
+      "water absorb"
+    ],
+    "powers": [
+      "wide guard",
+      "infestation",
+      "bug bite",
+      "bite",
+      "bubble beam",
+      "aqua ring",
+      "headbutt",
+      "crunch",
+      "soak",
+      "entrainment",
+      "lunge",
+      "liquidation",
+      "leech life",
+      "mirror coat"
+    ]
+  },
+  {
+    "name": "Barnacle",
+    "passives": [
+      "suction cups",
+      "storm drain"
+    ],
+    "powers": [
+      "leech seed",
+      "wrap",
+      "astonish",
+      "acid",
+      "confuse ray",
+      "ingrain",
+      "ancient power",
+      "mega drain",
+      "brine",
+      "amnesia",
+      "gastro acid",
+      "giga drain",
+      "stockpile",
+      "spit up",
+      "swallow",
+      "energy ball"
+    ]
+  },
+  {
+    "name": "Freezing",
+    "passives": [
+      "dark cloak",
+      "dark rush"
+    ],
+    "powers": [
+      "shadow sneak",
+      "charm",
+      "powder snow",
+      "endure",
+      "mountain gale",
+      "icy wind",
+      "play nice",
+      "brine",
+      "frost breath",
+      "slash",
+      "flail",
+      "swagger",
+      "snowscape",
+      "thrash",
+      "rest",
+      "horn drill",
+      "superpower"
+    ]
+  }
+]

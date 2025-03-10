@@ -1,0 +1,212 @@
+{
+  "positive": [
+    {
+      "description": "All natural rewards are empowered once.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "Whenever a player uses a limited spell or maneuver, they trigger a wild magic surge.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "Whenever a player makes a skill check, they roll a d20 for their skill bonus instead of their actual one.",
+      "simulationTypes": ["journey", "puzzle"]
+    },
+    {
+      "description": "All combats are removed, and instead the first one that would be encountered is replaced with a crag-crog-style set of monster waves of $creatureType monsters. Starting from CR 0 (+1 step per party level above 1) and increasing by 1 each time (where possible), each wave contains 3 copies of a random monster from that creature type. No real time between waves, just new initiative, and after all, gain loot rolls equal to the number of waves completed and exp equal to double (no other rewards are gained). The waves end when a player is reduced to 0 HP.",
+      "display": "All combats are removed and replaced with waves of {creatureType}.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "At the start of each monster's turn in combat, they lose hit points equal to the round number.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Each monster's maximum HP is halved, but all damage they deal is doubled.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Players always have line of sight to all monsters within 60' of them.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters have -1 AB.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters have -30% maximum HP.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters deal less damage equal to their CR.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters have -1 to all defences.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Whenever a player scores a killing blow, they gain 1 loot roll.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "At the start of each monster's turn in combat, they gain a random condition until their next turn.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "At the end of the simulation, the party gains 2 Legendary Chests.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the start of each player's turn in combat, a random direction is chosen, and a trail of either red, yellow, or blue wisps projects out in that direction. If the player spends their full movement moving in that direction, they add either a 20% chance for an extra loot roll at the end of the combat, 3gp to the combat's rewards, or a 33% chance for +1 colour tier of all loot rewarded, based on the wisp colour, respectively.",
+      "display": "Colourful wisps can be chased during combat for extra rewards.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "At the start of each combat with multiple foes, all monsters are assigned a random order. If they are killed in this order, the combat grants 1 additional loot roll and all its loot is upgraded 1 colour tier.",
+      "simulationTypes": ["dungeon", "journey"]
+    },
+    {
+      "description": "At the end of the simulation, the party gains 7 loot rolls.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the end of the simulation, the party gains 48 experience.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the end of the simulation, the party gains a carnival ticket.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the end of the simulation, each player gains 2d4 perk points (each player rolls their own amount).",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the end of the simulation, each player gains a Specialisation.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the end of the simulation, each player gains an Augment.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    }
+  ],
+  "negative": [
+    {
+      "description": "All environmental light is snuffed out, and all monsters gain 60' of darkvision.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "Upon entering the simulation, each player sends the DM a message with the name of a player in the current session, with no discussion. If any player's name is received twice, that player has disadvantage with d20 rolls, and all other players have advantage. If a player's name appears more than twice, they get double advantage and all others get disadvantage instead. If no player's name appears more than once, all players get disadvantage.",
+      "display": "Players must vote for another player to have disadvantaged d20 rolls.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "All d20 rolls are replaced with a 50% chance to critically succeed and a 50% chance to critically fail.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "Each player gains a Chaotic modifier.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "Players must leave the call unless it is their turn and cannot communicate about the game with each other.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the start of each player's turn in combat, they lose hit points equal to the round number.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "At the start of each creature's turn in combat, they swap spaces with another random creature in the combat.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "All combats contain 1 additional foe and their rewards are empowered twice.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Each player's maximum HP is halved, but all damage they and their minions deal is doubled.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "All combats are pooled into one massive combat in a 120'x120' arena at the end of the simulation, where all monsters are hostile with all other creatures. All creatures start in random locations at the start of the combat.",
+      "display": "All combats are combined into a free-for-all slaughter.",
+      "simulationTypes": ["dungeon", "journey"]
+    },
+    {
+      "description": "Monsters always have line of sight to all players within 60' of them.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters have +1 AB.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters have +30% maximum HP.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters deal additional damage equal to their CR.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Monsters have +1 to all defences.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "All players start each combat with 1 failed death save.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "At the start of each combat, each player randomly is assigned 1 random, unassigned monster until there are no unassigned monsters left. Each player and their assigned monster will be separated into their own pocket dimension to fight. A player's dimension, and all creatures in it, merge into another random player's dimension whenever all players in that dimension are unconscious or there are no monsters in it.",
+      "dislpay": "Players and monsters are isolated with each other.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "At the start of each player's turn in combat, they gain a random condition until their next turn.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "All combats are pooled into one massive combat in a 30'x30' arena at the end of the simulation, where each original combat is a wave. After each wave, all players are healed to full HP and initiative is rolled for the next one.",
+      "display": "All combats are combined into waves.",
+      "simulationTypes": ["dungeon", "journey"]
+    },
+    {
+      "description": "In combat, all players share one HP pool, and all monsters share one HP pool.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "During combat, players cannot use any powers they have used since the start of their last turn.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Whenever a creature scores a critical hit, it deals no extra damage, but instead inflicts a random condition for 1 round.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Players cannot deal damage while standing on the ground.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
+    },
+    {
+      "description": "Players gain 2 fatigue and 2 strife at the start of the simulation.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "The proficiency bonus of players for skills is multiplied by -1.",
+      "simulationTypes": ["journey", "puzzle"]
+    },
+    {
+      "description": "All skill checks made by players are now group checks, where at least half the party needs to succeed for the check to be successful.",
+      "simulationTypes": ["journey", "puzzle"]
+    },
+    {
+      "description": "All player speeds are 0.",
+      "simulationTypes": ["puzzle"]
+    },
+    {
+      "description": "All player skill checks are rolled in secret.",
+      "simulationTypes": ["puzzle"]
+    }
+  ]
+}

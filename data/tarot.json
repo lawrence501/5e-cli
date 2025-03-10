@@ -1,106 +1,106 @@
 [
     {
         "name": "The Fool",
-        "description": "The item has no base affix, but is Levellable. For each improvement to the base affix in this reading, the item starts with +1 upgrade point."
+        "description": "The ring becomes Levellable, similar to a relic. Instead of upgrading it by sacrificing relics, it can be upgraded by sacrificing other rings."
     },
     {
         "name": "The Magician",
-        "description": "The item has 1 additional affix that grants a 1/LR free casting of a random spell."
+        "description": "The ring has 1 additional affix that grants a 1/LR free casting of a random spell."
     },
     {
         "name": "The High Priestess",
-        "description": "The item has 1 additional affix that is randomly chosen from a random glyph path."
+        "description": "The ring has 1 additional affix that is the first tier bonus from a random glyph path, empowered by another random tier from that same path. If you already have that glyph path, you instead gain an additional usage of it during its cooldown."
     },
     {
         "name": "The Empress",
-        "description": "The item has 1 additional affix that is randomly chosen from a random relic (minimum point value of 2)."
+        "description": "The ring has 1 additional affix that is randomly chosen from a random relic."
     },
     {
         "name": "The Emperor",
-        "description": "The item has 1 additional affix that is a randomly chosen passive from a random monster of CR up to your level."
+        "description": "The ring has 1 additional affix that is a randomly chosen passive from a random monster of CR up to your level."
     },
     {
         "name": "The Hierophant",
-        "description": "The item has 1 additional affix that grants +2 to a random ability score's maximum value."
+        "description": "The ring has 1 additional affix that grants +2 to a random ability score and its maximum value."
     },
     {
         "name": "The Lovers",
-        "description": "The item has 1 additional affix that is a randomly chosen ally bonus from a random amulet."
+        "description": "The ring has 1 additional affix that is a randomly-chosen passive from a random crystal monster."
     },
     {
         "name": "The Chariot",
-        "description": "The item has 1 additional affix of a chosen Affinity, which has a minimum point value of 2."
+        "description": "The ring has 1 additional affix of a chosen Affinity."
     },
     {
         "name": "Justice",
-        "description": "The item has 1 additional affix that is of the same Affinity as the base affix, which has a minimum point value of 2."
+        "description": "The ring has 1 additional affix that is of the same Affinity as a random affix this card's owner currently has equipped."
     },
     {
         "name": "The Hermit",
-        "description": "The item has 1 additional affix that is a randomly chosen Knack from a random class."
+        "description": "The ring has 1 additional affix that is a randomly chosen Knack from a random class."
     },
     {
         "name": "Wheel of Fortune",
-        "description": "The item has 1 additional affix that has a minimum point value of 2 and is negated, then the resulting points are granted to the base affix."
+        "description": "The ring has 1 additional affix that has a minimum point value of 2 and is negated, then the top two cards in the tarot deck are added to the reading."
     },
     {
         "name": "Strength",
-        "description": "The item has 1 additional affix that grants a 1/LR free usage of a random maneuver."
+        "description": "The ring has 1 additional affix that grants a 1/LR free usage of a random maneuver."
     },
     {
         "name": "The Hanged Man",
-        "description": "The item has 1 additional affix that is randomly chosen from the standard affix pool, and has a minimum point value of 3."
+        "description": "The ring has 1 additional affix that increases the base colour tier of a random loot result for you by 1."
     },
     {
         "name": "Death",
-        "description": "The item is transformed into a dormant glyph, which when consumed replaces your next glyph path tier with the item's effects. Before you consume this glyph, you find out what your next glyph path tier would grant you."
+        "description": "The ring becomes a permanent passive bonus, but your next loot roll crumbles into ash."
     },
     {
         "name": "Temperance",
-        "description": "The item is not created. Instead, the other 2 cards from this reading are added to your next reading, which can have up to 4 cards total in it (allowing you to perform a reading with 2 new cards)."
+        "description": "The ring is not created. Instead, the other 2 cards from this reading are added to your next reading, which can have up to 4 cards total in it (allowing you to perform a reading with 2 new cards)."
     },
     {
         "name": "The Devil",
-        "description": "The item is crafted as if its reading contained an additional card, which is randomly chosen from all cards that are currently in the possession of players, including from this reading."
+        "description": "The ring is crafted as if its reading contained an additional card, which is randomly chosen from all cards that are currently in the possession of players, including from this reading."
     },
     {
         "name": "The Tower",
-        "description": "The item has 1 additional chaotic affix."
+        "description": "The ring has 1 additional chaotic affix."
     },
     {
         "name": "The Stars",
-        "description": "The item has 1 additional affix that you can define (DM will balance for max 4pts)."
+        "description": "The ring has 1 additional affix that you can define (DM will balance for max 3pts)."
     },
     {
         "name": "The Moon",
-        "description": "The item has 1 additional affix. Instead of applying to you, the affix is negated and applied to creatures of your choice within a 60' aura."
+        "description": "The ring has 1 additional affix. Instead of applying to you, the affix is negated and applied to creatures of your choice within a 60' aura."
     },
     {
         "name": "The Sun",
-        "description": "The item has 1 additional affix. Instead of applying to you, the affix is applied to creatures of your choice within a 60' aura."
+        "description": "The ring has 1 additional affix. Instead of applying to you, the affix is applied to creatures of your choice within a 60' aura."
     },
     {
         "name": "Judgement",
-        "description": "The item has 1 additional affix that has a minimum point value of 5, but it is only applied to you after you go down for the first time between rests."
+        "description": "The ring has 1 additional affix that has a minimum point value of 6, but it is only applied to you after you go down for the first time between rests."
     },
     {
         "name": "The World",
-        "description": "The item has 1 additional affix that grants an expertise die in a random journey activity."
+        "description": "The ring has 1 additional affix that grants a d6 expertise die in a random skill."
     },
     {
         "name": "Ace of Wands",
-        "description": "The item's base mod affix must have either the 'Spell' or 'Type' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The ring has 1 additional affix that has either the Control or Accuracy Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of this additional affix to that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Damage or Accuracy (Knight), or Mobility or Utility (Page)."
     },
     {
         "name": "Ace of Cups",
-        "description": "The item's base affix must have either the 'HP' or 'Minion' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The ring has 1 additional affix that has either the Mobility or Resource Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of this additional affix to that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Damage or Accuracy (Knight), or Mobility or Utility (Page)."
     },
     {
         "name": "Ace of Swords",
-        "description": "The item's base affix must have either the 'Weapon' or 'Damage over Time' Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The ring has 1 additional affix that has either the Damage or Survivability Affinity. Draw a card from the Swords deck. If the card is numeric, it sets the minimum point value of this additional affix to that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Damage or Accuracy (Knight), or Mobility or Utility (Page)."
     },
     {
         "name": "Ace of Pentacles",
-        "description": "The item's base affix must have either the 'Defence' or 'Debuff' Affinity. Draw a card from the Cups deck. If the card is numeric, it sets the minimum point value of the item's base affix to that value. Court cards add an additional base affix of the following Affinities: HP or Minion (King), Spell or Damage over Time (Queen), Weapon or Defence (Knight), or Type or Debuff (Page)."
+        "description": "The ring has 1 additional affix that has either the Wealth or Utility Affinity. Draw a card from the Pentacles deck. If the card is numeric, it sets the minimum point value of this additional affix to that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Damage or Accuracy (Knight), or Mobility or Utility (Page)."
     }
 ]
