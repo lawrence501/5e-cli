@@ -2,17 +2,19 @@
 
 ## Amulets
 
-### Acquaintanceship (TODO: Replace)
-Whenever you roll for initiative and your primary die (eg. when rolling with advantage) scores a natural roll of 11+, gain the base affix of a random amulet for that combat. If the roll was 16+, upgrade the affix once. On a 20, upgrade the affix an additional time. This is not affected by the Empowered Identity specialisation.
-
 ### Empowered Identity
-The base affixes of your amulets are always upgraded twice by default.
+The base affixes of amulets you are wearing are always upgraded twice by default.
 
 ### Meet Cute
-Amulets you get from random loot rolls (ie. not purchased loot results) always start at tier 2. These amulets cannot be used by other characters.
+You may choose for an amulet you get from a random loot roll (ie. not a purchased loot result) to start at tier 2, after you see what the amulet is.
+
+Restriction: These amulets cannot be used by other characters.
 
 ### Open Heart
 Your amulets may have up to 6 affixes on them. When you first acquire this 6th affix, you choose it from your amulet's upgrade pool. Additionally, when upgrading affixes in the future, this 6th affix is always available as an additional upgrade option.
+
+### Reputation Quest
+Whenever you would add a new affix to an amulet, you may choose to not add it after seeing what it would be, instead putting a random mission into that affix slot. The next time you complete this mission, a new random affix is added to replace it, which is upgraded once and cannot be the affix you originally chose not to add. If you would upgrade your amulet and an incomplete mission would be chosen as the upgrade candidate, the resulting affix will be upgraded an additional time, and you may choose to replace the mission with a new one at the same time.
 
 ### Soul Refinement
 Whenever you upgrade an amulet, you can choose between two different upgrade options.
@@ -20,7 +22,7 @@ Whenever you upgrade an amulet, you can choose between two different upgrade opt
 ### Union of Souls
 Whenever you find an amulet, you receive 3 options for which amulet to find. Additionally, if you upgrade an amulet with another one from the same set, an existing affix is upgraded twice, or a new affix may be chosen to come from either amulet's upgrade pool.
 
-Your amulets can no longer be used by other characters.
+Restriction: If you choose the 2nd or 3rd option to find, that amulet cannot be used by other characters.
 
 ## Crystals
 
@@ -36,18 +38,18 @@ Qualities of a crystal:
 ### Active Lapidary
 Whenever a power is added to a crystal (including when you find one), you can choose between 3 powers from its pool. You can also immediately choose from 2 additional options for each power your current crystal already has.
 
-Your crystals can no longer be used by other characters.
+Restriction: If you choose the 2nd or 3rd power option for the starting power on a new crystal you find, it cannot be used by other characters.
 
 ### Extra Socket
-You can equip an additional crystal, but its powers do not function and it cannot flare.
+You can equip an additional crystal, but it cannot flare.
 
 ### Passive Lapidary
 Whenever you find a crystal containing a monster with multiple passive options, you can choose between all of its passive options. You can also do this immediately with your current crystal.
 
-Your crystals can no longer be used by other characters.
+Restriction: If you choose a passive that wasn't the default roll on a new crystal you find, it cannot be used by other characters.
 
-### Resonance (TODO: Replace)
-Your Nullified crystal powers become Weak, Weak becomes Normal, Normal becomes Strong, and the damage of Strong powers is doubled.
+### Resonance
+Whenever your crystal powers deal Strong damage, they count as being 3 levels higher than they are.
 
 ### Unstable Power
 Your crystal flare chance is increased by 30%.
@@ -105,44 +107,44 @@ You gain glyphic damage equal to your level, and you may apply your glyphic dama
 ### Rapid Corruption
 Whenever you start a new glyph path, you gain the first two tiers. Additionally, you immediately gain a glyph for each path you have already started.
 
-## Magic Equipment
+## Enchanted Items
 
-Qualities of magic equipment:
-- All found equipment starts with 2 starting affixes
-- Magic equipment can be sacrificed to increase a player's Crafting skill
-- For each level a player has in the Crafting skill, they get Crafts to use on any equipment they find
+Qualities of enchanted items:
+- All found items start with 2 starting affixes
+- Enchanted items can be sacrificed to increase a player's Crafting skill
+- For each level a player has in the Crafting skill, they get Crafts to use on any items they find
 - Up to 3 Crafts per find, then go back to the first one and tier it up, until all skill points consumed
 - Crafts do not need to be used, but once used, cannot be undone
 
 ### Bend, Not Break
-Whenever you craft an item, you get two sets of options for the entire crafting job, but cannot mix the outcomes of these sets between each other.                                  
+Whenever you craft an item, you get two sets of options for the entire crafting job, but cannot mix the outcomes of these sets between each other.
 
-Your crafted items can no longer be used by other players.
+Restriction: If you choose the second crafting job's outcome, that item cannot be used by other characters.
 
 ### Complex Foundations
-Magic equipment you find has 1 additional starting affix with a minimum point value of 2.
+After seeing a new enchanted item you find, you may choose to give it 1 additional starting affix with a minimum point value of 2.
 
-Magic equipment you find can no longer be used by other players.
+Restriction: These items cannot be used by other characters.
 
 ### Hail Mary
 After finishing a crafting job, you may apply a random rank 2 Craft to the item. This Craft must be used once revealed.
 
-Items you use this extra craft on can no longer be used by other players.
+Restriction: Items you use this extra craft on cannot be used by other characters.
 
 ### Reversible Modification
 Once during a crafting job, you may undo the effects of one Craft. This does not refund the Craft.
 
-Items you do this on can no longer be used by other players.
+Restriction: Items you do this on cannot be used by other characters.
 
 ### Strong Foundations
-Each starting affix on magic equipment you find is upgraded once.
+After seeing a new enchanted item you find, you may choose for each starting affix on it to be upgraded once.
 
-Magic equipment you find can no longer be used by other players.
+Restriction: These items cannot be used by other characters.
 
 ### Toolbelt
-Whenever your crafting options are revealed for magic equipment, you can reroll one of the Crafts into a new one of the same tier.
+Whenever your crafting options are revealed for enchanted items, you can reroll one of the Crafts into a new one of the same tier.
 
-Items you do this on can no longer be used by other players.
+Restriction: Items you do this on cannot be used by other characters.
 
 ## Relics
 
@@ -162,19 +164,19 @@ Whenever you level up a relic, you can choose between two different upgrade opti
 Your relics may have up to 7 affixes on them. When you first acquire this 7th affix, you choose it from the relic's thematic pool. Additionally, when upgrading affixes in the future, this 7th affix is always available as an additional upgrade option.
 
 ### Potent Ancestry
-The positive starting affixes of relics you find have a minimum point value of 2. Additionally, this immediately upgrades any starting affixes on relics you currently have if they started with 1 point.
+After seeing a new relic you find, you may choose for its positive starting affixes to have a minimum point value of 2. Additionally, this immediately upgrades any starting affixes on relics you are currently wearing if they started with 1 point.
 
-Relics you find can no longer be used by other characters.
+Restriction: Relics you do this on cannot be used by other characters.
 
 ### Potent Descendents
 The thematic affixes of your relics have a minimum point value of 2. Additionally, this immediately upgrades any thematic affixes on relics you currently have if they started with 1 point.
 
 ### Min-Max
-Negative starting affixes on relics you find have double potency, and the resulting extra points are distributed randomly across the rest of the starting affixes. Additionally, this immediately doubles the original potency of any negative starting affixes on relics you currently have and distributes the resulting extra points randomly across the other starting affixes on those relics.
+After seeing a new relic you find, you may choose for its negative starting affixes to have double potency, and the resulting extra points are distributed randomly across the rest of the starting affixes. Additionally, this immediately doubles the original potency of any negative starting affixes on relics you are currently wearing and distributes the resulting extra points randomly across the other starting affixes on those relics.
 
-If a relic you find has no negative affixes on it, you may add a random generic affix to it with a maximum point value of -4, then add the resulting extra points randomly to the other starting affixes.
+If a relic you find has no negative affixes on it and you wish to use this effect, you may add a random generic affix to it with a maximum point value of -4, then add the resulting extra points randomly to the other starting affixes.
 
-Relics you find can no longer be used by other characters.
+Restriction: Relics you do this on cannot be used by other characters.
 
 ## Tarot Cards
 
@@ -185,42 +187,40 @@ Qualities of a tarot card:
 - If you unlock a card you've already unlocked, it becomes Learned, and future Readings will always have that card added to it
 
 ### Divination
-Whenever you Scry, your unlocked card provides two options for its impact.
+Whenever you Scry, you can choose for your Unlocked card to provide two options for its impact.
 
-Rings you Scry can no longer be used by other characters.
+Restriction: Rings you do this on cannot be used by other characters.
 
 ### Stacked Deck
 Whenever you receive tarot cards, you receive 1 more than usual, and then return 1 that you just received to the deck.
 
-Rings created with these cards can no longer be used by other characters.
+Restriction: Rings created with these extra cards cannot be used by other characters.
 
 ### The Stars Align
 Cards you get from random loot rolls (ie. not purchased loot results) always grant 2 additional cards.
 
-Rings created with these extra cards can no longer be used by other characters.
+Restriction: Rings created with these extra cards cannot be used by other characters.
 
 ### Symbollic Devotee
-Whenever you gain an Ace, you draw the actual card with advantage. Additionally, the last card you gain when finding tarot cards is always a random Ace, which can be ones that aren't currently in the deck.
+Whenever you gain an Ace, you draw the actual card with advantage. Additionally, the last card you gain when finding tarot cards has a 50% chance to be replaced with a random Ace, including ones that are not currently in the deck.
 
-Rings created with your Suit cards can no longer be used by other characters.
+Restriction: Rings created with your Suit cards can no longer be used by other characters.
 
 ### The Third Eye Opens
 Whenever you Learn a card, learn a spell associated with that card. You can cast it a number of times between long rests equal to the number of cards you have Learned, governing it with any ability.
 
 ### Top-Deck
-Whenever you perform a Reading, the card on the top of the deck is added to it. After the ring is created, but before you Scry, you must remove the impact of one of the Reading's cards from the ring.
+Whenever you perform a Reading, after the ring is created, but before you Scry, you may choose for the card on top of the deck to be added to the Reading. You must then remove the impact of one of the Reading's cards from the ring.
 
-Rings you create can no longer be used by other characters.
+Restriction: Rings you do this one cannot be used by other characters.
 
 ## Miscellaneous
 
-### Dedication
-Choose a Specialisation category, other than Miscellaneous. Your Specialisations can only come from that category. Then, choose 2 loot results. Whenever you roll those results on a random loot roll, they instead provide the result associated with your chosen Specialisation category.
-
-Other characters can no longer use items you find in this manner.
+### Artisan
+You ignore all Restrictions on your Specialisations. For each Restricted item another character is wearing at any given time, you gain +1 damage and resistance (this bonus is halved for enchanted items and relics).
 
 ### Entrance of the Gladiators
-Your chance to find carnival tickets is doubled.
+Your party's chance to find carnival tickets is increased by 5%, and you have a 50% chance to be awarded once in addition to the actual outcome of any carnival game.
 
 ### Flea Market
 Whenever you purchase a loot result and choose Colour Upgrade, you are refunded 30gp.
@@ -228,7 +228,7 @@ Whenever you purchase a loot result and choose Colour Upgrade, you are refunded 
 ### Gambling Problem
 Choose a loot result, other than Colour Upgrade. Whenever you roll that result on a random loot roll, it instead provides a Colour Upgrade. This loot result cannot be the one you've enhanced with the Dedication Specialisation.
 
-Other characters can no longer use items you find.
+Restriction: Other characters cannot use colour-upgraded items you find.
 
 ### Indecision
 Whenever you would gain a Specialisation, you don't choose one. Instead, roll a d8 for the category, and then a d6 for the specific Specialisation you gain (completely reroll duplicates). Then, repeat this and gain a second Specialisation. If you have any other Specialisations when you first gain this, immediately remove them and do the above for each one removed.

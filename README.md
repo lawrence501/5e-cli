@@ -110,8 +110,8 @@ Utility
 1. Amulets
 2. Crystals (talisman)
 3. Dream Mirrors (helm)
-4. Glyphs (dust)
-5. Magic Equipment (curio)
+4. Enchanted Items (curio)
+5. Glyphs (dust)
 6. Relics (tarot)
 7. Tarot Cards (tarot)
  

@@ -27,24 +27,22 @@ Every odd mirror you find (1st, 3rd, etc.) will allow you to choose a feature fr
 
 Every even mirror you find will grant you a Dream, which is a permanent affix on your character, chosen from your Dream Pool. The minimum point value of this Dream is equal to the number of Dreams you now have.
 
-## Glyphs (48-60)
+## Enchanted Items (48-60)
+Enchanted items can be of any equipment slot you want (helmet, body armour, gloves, or boots). They are found with 2 generic affixes. You can sacrifice an enchanted item to increase your Crafting level.
+
+Whenever you find a new enchanted item, you gain up to 3 Crafts of a certain power-tier based on your Crafting level, which you may immediately use on the item. Unused crafts are lost.
+
+## Glyphs (61-73)
 You can only hold one glyph at a time in your inventory. If you attempt to hold more, they will all automatically be consumed.
 
 When you are not currently on a Glyph Path and consume a glyph, you will be shown the first tier of 3 random Glyph Paths. You then choose a Glyph Path to embark on. Further glyphs consumed will grant you additional tiers from that Glyph Path, until you complete it. Each Path has 10 tiers, after which you can start a new Path.
 
 The first tier of a Glyph Path always grants a weak power that can be used on a cooldown as a glyphic action (you have one glyphic action per round). The remaining tiers of the Path will enhance that power.
 
-## Magic Equipment (61-73)
-Magic equipment can be of any equipment slot you want (helmet, body armour, gloves, or boots). They are found with 2 generic affixes. You can sacrifice a piece of magic equipment to increase your Crafting level.
-
-Whenever you find a new piece of magic equipment, you gain up to 3 Crafts of a certain power-tier based on your Crafting level, which you may immediately use on the equipment. Unused crafts are lost.
-
 ## Relics (74-86)
 Relics can be of any equipment slot you want (helmet, body armour, gloves, or boots). Each relic starts with 3 starting affixes.
 
-You can sacrifice a relic to level up another relic, which grants you 2 options of either improving the existing affixes on the item or adding a new one from a Thematic Pool, which is unique to each relic, up to 6 total affixes.
-
-Any relic can be taken to a Diviner in any city to reveal its Thematic Pool for free.
+You can sacrifice a relic to level up another relic, which either improves the existing affixes on the item or adds a new one from a Thematic Pool, which is unique to each relic, up to 6 total affixes.
 
 ## Tarot Cards (87-99)
 

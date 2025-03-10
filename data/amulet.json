@@ -1068,7 +1068,7 @@
   {
     "name": "Cherry's Attunement",
     "base": {
-      "description": "+1 damage while all your equipment slots are relics; +1 resistance while all your equipment slots are crafted",
+      "description": "+1 damage while all your equipment slots are relics; +1 resistance while all your equipment slots are enchanted",
       "upgrade": "+1"
     },
     "upgrades": [
@@ -1077,11 +1077,11 @@
         "upgrade": "+2"
       },
       {
-        "description": "2. +5' speed while all your equipment slots are relics; +8 maximum HP while all your equipment slots are crafted",
+        "description": "2. +5' speed while all your equipment slots are relics; +8 maximum HP while all your equipment slots are enchanted",
         "upgrade": "+5' and +8"
       },
       {
-        "description": "3. relic loot results cost -2 gold to purchase; magic item loot results cost -2 gold to purchase",
+        "description": "3. relic loot results cost -2 gold to purchase; enchanted item loot results cost -2 gold to purchase",
         "upgrade": "-2 and -2"
       },
       {
@@ -1101,7 +1101,7 @@
         "upgrade": "+2"
       },
       {
-        "description": "8. +2 non-physical damage while all your equipment slots are relics; +2 physical resistance while all your equipment slots are crafted",
+        "description": "8. +2 non-physical damage while all your equipment slots are relics; +2 physical resistance while all your equipment slots are enchanted",
         "upgrade": "+2 and +2"
       }
     ]

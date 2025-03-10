@@ -577,7 +577,7 @@ var relic = func() error {
 	return discordSend(fmt.Sprintf("### Relic\n**%s**:\n* %s", chosen.Name, modString))
 }
 
-var magicItem = func() error {
+var enchantedItem = func() error {
 	lvlP := promptui.Prompt{
 		Label:    "Crafting level",
 		Validate: validateInt,
@@ -658,7 +658,7 @@ var magicItem = func() error {
 		craftDescriptions = append(craftDescriptions, "*None*")
 	}
 
-	return discordSend(fmt.Sprintf("## Magic Equipment\n* %s\n\n### Crafts\n* %s", strings.Join(modDescriptions, "\n* "), strings.Join(craftDescriptions, "\n* ")))
+	return discordSend(fmt.Sprintf("## Enchanted Item\n* %s\n\n### Crafts\n* %s", strings.Join(modDescriptions, "\n* "), strings.Join(craftDescriptions, "\n* ")))
 }
 
 var npc = func() error {
