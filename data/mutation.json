@@ -218,5 +218,50 @@
         "name": "Tanky Command",
         "target": "powers that summon damageable minions",
         "description": "The power's minions have more resistance, but deal less damage."
+    },
+    {
+        "name": "Life Draining",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you heal a substantial amount of HP."
+    },
+    {
+        "name": "Magnification",
+        "target": "powers with areas",
+        "description": "The power's areas are doubled in size."
+    },
+    {
+        "name": "Lasting",
+        "target": "powers with a non-instantaneous duration that deal damage",
+        "description": "The power's duration is increased by 1 step, but it deals less damage."
+    },
+    {
+        "name": "Pinning",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a major hit, the target becomes rooted for 1 round."
+    },
+    {
+        "name": "Enduring Summons",
+        "target": "powers that summon damageable minions",
+        "description": "Whenever the power's minions die, they persist until the end of their next turn before actually dying."
+    },
+    {
+        "name": "Overpowering",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a major hit, the target becomes debilitated for 1 round."
+    },
+    {
+        "name": "Enduring Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Any conditions the power inflicts have their maximum duration doubled."
+    },
+    {
+        "name": "Momentum",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, you gain barely any damage for the remainder of combat."
+    },
+    {
+        "name": "Layered Decay",
+        "target": "powers that deal non-stacking ongoing damage",
+        "description": "The power's ongoing damage now stacks."
     }
 ]

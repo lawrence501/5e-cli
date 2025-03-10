@@ -26,15 +26,6 @@ Restriction: If you choose the 2nd or 3rd option to find, that amulet cannot be 
 
 ## Crystals
 
-Qualities of a crystal:
-- a random monster is chosen which dictates a pool of powers and passives
-- Base flare chance is 10%
-- Level 1 crystals have a random passive and 1 random power
-- Level 2 adds a new random power
-- Each level adds 3% flare chance
-- Type chart applies to powers
-
-
 ### Active Lapidary
 Whenever a power is added to a crystal (including when you find one), you can choose between 3 powers from its pool. You can also immediately choose from 2 additional options for each power your current crystal already has.
 
@@ -59,11 +50,6 @@ Your crystals also gain a new random power at level 3.
 
 ## Dream Mirrors
 
-Qualities of a dream mirror:
-- On odd mirrors, upgrade a random affix on you by 1pt or replace it with a random affix from your dream pool, and then choose a new inspiration for your dream pool
-- On even mirrors, add a new affix to yourself from your dream pool with minimum point value equal to the number of affixes now on you
-- Inspiration options are any class/subclass feature, any knack, any feat, your race, or any spell/maneuver
-
 ### Aspiration
 Whenever you gain a new affix, you can choose which inspiration it comes from.
 
@@ -84,11 +70,6 @@ Every 3 times you upgrade a specific affix on you, it gains 3 additional upgrade
 
 ## Glyphs
 
-Qualities of a glyph:
-- 10 tiers per path
-- First tier always gives a weak power with a cooldown
-- Other tiers empower the power
-
 ### Controlled Mutation
 Every time you gain the 10th tier of a glyph path, gain a Mutation for a power of your choice.
 
@@ -108,13 +89,6 @@ You gain glyphic damage equal to your level, and you may apply your glyphic dama
 Whenever you start a new glyph path, you gain the first two tiers. Additionally, you immediately gain a glyph for each path you have already started.
 
 ## Enchanted Items
-
-Qualities of enchanted items:
-- All found items start with 2 starting affixes
-- Enchanted items can be sacrificed to increase a player's Crafting skill
-- For each level a player has in the Crafting skill, they get Crafts to use on any items they find
-- Up to 3 Crafts per find, then go back to the first one and tier it up, until all skill points consumed
-- Crafts do not need to be used, but once used, cannot be undone
 
 ### Bend, Not Break
 Whenever you craft an item, you get two sets of options for the entire crafting job, but cannot mix the outcomes of these sets between each other.
@@ -148,12 +122,6 @@ Restriction: Items you do this on cannot be used by other characters.
 
 ## Relics
 
-Qualities of a relic:
-- start with 3 specific affixes
-- can sacrifice a relic to level up another relic
-- have a pool of 6 affixes where new affixes can come from
-- Each level option uses weighted affix adding/upgrading, using a d6
-
 ### Generic Evolution
 Whenever a new thematic affix would be added to a relic, you are also shown a random generic affix. You may add either to the relic. Additionally, you are immediately shown a random generic affix for each non-starting affix on any relics you currently have, which will have the same amount of upgrade points applied to it as the relic affix.
 
@@ -179,12 +147,6 @@ If a relic you find has no negative affixes on it and you wish to use this effec
 Restriction: Relics you do this on cannot be used by other characters.
 
 ## Tarot Cards
-
-Qualities of a tarot card:
-- When found, draw 2 cards from the deck
-- 3 cards can be used in a Reading to create a ring
-- Sacrificing a ring unlocks a random card from it. On future Readings, after you see the result, you can choose to Scry once. A random card from that Reading is chosen, and you can either replace its impact on the ring with one of your unlocked cards or leave it
-- If you unlock a card you've already unlocked, it becomes Learned, and future Readings will always have that card added to it
 
 ### Divination
 Whenever you Scry, you can choose for your Unlocked card to provide two options for its impact.

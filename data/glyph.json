@@ -35,7 +35,7 @@
             "1. Concursus: 1/combat, glyphic action; A prismatic spike of chaotic power erupts from your body towards a creature adjacent to you, dealing 6 glyphic damage to it.",
             "2. Concursus' base damage becomes 12.",
             "3. When you use Concursus, the target must make a save, becoming staggered for 1 round on a fail. Additionally, its base damage becomes 13.",
-            "4. When you use Concursus, the target takes 3 ongoing glyphic damage until it passes a passive save (this scales with all glyphic damage bonuses).",
+            "4. When you use Concursus, the target takes 3 ongoing glyphic damage, stacking until it passes a passive save (this scales with all glyphic damage bonuses).",
             "5. Concursus deals +7 damage against targets with any resistances or immunities.",
             "6. Creatures have a -1 penalty to any saves they make against Concursus' effects. Additionally, its base damage becomes 15.",
             "7. Concursus splashes 2 damage and creatures have a -1 penalty to passive saves to end Concursus' ongoing damage.",
@@ -49,7 +49,7 @@
         "tiers": [
             "1. Cohibere: 2/combat, glyphic action; A tentacle emerges from beneath your equipment, attempting to wrap around a creature adjacent to you. The creature must make a save, becoming restrained for 1 round, or until you move away from them, on a fail.",
             "2. Whenever you restrain a creature with Cohibere, gain +2 reflex for 1 round.",
-            "3. Whenever you restrain a creature with Cohibere, the creature takes 2 ongoing glyphic damage until it passes a passive save (this scales with all glyphic damage bonuses). Additionally, when the restrain ends, you gain +10' speed for 1 round.",
+            "3. Whenever you restrain a creature with Cohibere, the creature takes 2 ongoing glyphic damage, stacking until it passes a passive save (this scales with all glyphic damage bonuses). Additionally, when the restrain ends, you gain +10' speed for 1 round.",
             "4. You may use as many uses of Cohibere as you wish within the one glyphic action.",
             "5. Creatures restrained by Cohibere have -2 resistance to armour attacks. This is increased to -4 if you've used a limited spell or maneuver since the start of your last turn.",
             "6. Whenever Cohibere's restrain ends on a creature, that creature has -4 resistance to armour attacks for 1 round.",
@@ -67,7 +67,7 @@
             "3. Creatures affected by Fortificare deal +3 damage.",
             "4. Whenever you use Fortificare, its glyphic action is refunded.",
             "5. The damaging attacks of creatures affected by Fortificare deal +1d4 bludgeoning damage.",
-            "6. Whenever a creature affected by Fortificare hits with an attack, they inflict 3 ongoing glyphic damage until the target passes a passive save (this scales with all glyphic damage bonuses).",
+            "6. Whenever a creature affected by Fortificare hits with an attack, they inflict 3 ongoing glyphic damage, stacking until the target passes a passive save (this scales with all glyphic damage bonuses).",
             "7. The damaging attacks of creatures affected by Fortificare now scale with minion damage stats, in addition to their usual scaling. Additionally, those same creatures have +3 minion damage.",
             "8. Creatures affected by Fortificare have +13 critical damage bonus.",
             "9. While a creature has an active instance of ongoing damage caused by Fortificare, they deal +2 damage.",
@@ -79,7 +79,7 @@
         "tiers": [
             "1. Tolerare: 2/combat, glyphic action; You cause a creature within 60' of you to swell with muscle and flesh for 1 round, granting them +1 fortitude.",
             "2. Creatures affected by Tolerare have +5 critical damage bonus and +5' Speed.",
-            "3. Whenever a creature affected by Tolerare hits with an attack, they inflict 2 ongoing glyphic damage until the target passes a passive save (this scales with all glyphic damage bonuses).",
+            "3. Whenever a creature affected by Tolerare hits with an attack, they inflict 2 ongoing glyphic damage, stacking until the target passes a passive save (this scales with all glyphic damage bonuses).",
             "4. Creatures affected by Tolerare deal +2 damage.",
             "5. Creatures affected by Tolerare deal +2 damage.",
             "6. Whenever you use Tolerare, its glyphic action is refunded.",
@@ -114,7 +114,7 @@
             "5. Whenever you use Voluntas, all foes adjacent to the target deal -2 damage for 1 round.",
             "6. Whenever you use Voluntas, all foes adjacent to the target must make a save, becoming staggered for 1 round on a fail.",
             "7. Whenever you use Voluntas, the target is healed for 2 HP, or 5 HP if they are bloodied.",
-            "8. Whenever you use Voluntas, all foes adjacent to the target take 3 ongoing glyphic damage until they pass a passive save (this scales with all glyphic damage bonuses).",
+            "8. Whenever you use Voluntas, all foes adjacent to the target take 3 ongoing glyphic damage, stacking until they pass a passive save (this scales with all glyphic damage bonuses).",
             "9. Creatures staggered by Voluntas have -2 resistance.",
             "10. Whenever you use Voluntas, the next limited power the target uses deals +7 damage."
         ]
@@ -123,7 +123,7 @@
         "theme": "Movement Order",
         "tiers": [
             "1. Motus: 1/SR, glyphic action; You move a willing creature within 60' of you with great speed. They immediately shift up to 10'.",
-            "2. When the target of Motus moves out of the reach of a creature of your choice, that creature takes 4 ongoing glyphic damage until they pass a passive save (this scales with all glyphic damage bonuses).",
+            "2. When the target of Motus moves out of the reach of a creature of your choice, that creature takes 4 ongoing glyphic damage, stacking until they pass a passive save (this scales with all glyphic damage bonuses).",
             "3. When the target of Motus moves out of the reach of a creature of your choice, that creature takes 7 glyphic damage.",
             "4. All damage dealt by Motus is increased by 2, and whenever Motus deals non-ongoing damage, the target of Motus heals 2 HP.",
             "5. Whenever you use Motus on a creature, that creature gains +15' speed for 1 round.",
@@ -142,7 +142,7 @@
             "3. Verto's range becomes 20'.",
             "4. At the start of your next turn after using Verto, you may choose to swap with the same creature again, so long as they are still within Verto's range. If the creature is dead, you may instead swap with any other creature within range.",
             "5. At the start of your turn two rounds after using Verto, you may choose to swap with the same creature again, regardless of range.",
-            "6. Whenever you swap spaces with Verto, you may inflict 3 ongoing glyphic damage to the other creature until they pass a passive save (this damage scales with all glyphic damage bonuses).",
+            "6. Whenever you swap spaces with Verto, you may inflict 3 ongoing glyphic damage to the other creature, stacking until they pass a passive save (this damage scales with all glyphic damage bonuses).",
             "7. Verto's cooldown becomes 1/combat and its base damage on swap becomes 7.",
             "8. Whenever you swap spaces with Verto, you may give the other creature -20' speed for 1 round.",
             "9. Whenever you swap spaces with Verto, the other creature becomes Sluggish for the remainder of combat.",

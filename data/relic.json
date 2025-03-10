@@ -77,7 +77,7 @@
                 "upgrade": "while taking ongoing damage, +3->2 necrotic spell damage/1"
             },
             {
-                "description": "2. on spell cast, you take 1 ongoing necrotic damage until passive save; 3pts distributed",
+                "description": "2. on spell cast, you take 1 ongoing necrotic damage, stacking until passive save; 3pts distributed",
                 "pointValue": "-2",
                 "upgrade": "+1 and 3pts distributed/1"
             },
@@ -268,7 +268,7 @@
                 "upgrade": "-1 to saves vs the slowed condition and 3pts distributed/1"
             },
             {
-                "description": "on hit, target takes 1 ongoing poison damage until it passes a passive save",
+                "description": "on hit, target takes 1 ongoing poison damage, stacking until it passes a passive save",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -295,7 +295,7 @@
                 "upgrade": "+5/1"
             },
             {
-                "description": "4. on hit, take 1 ongoing poison damage until you pass a passive save; 3pts distributed",
+                "description": "4. on hit, take 1 ongoing poison damage, stacking until you pass a passive save; 3pts distributed",
                 "pointValue": "1",
                 "upgrade": "+1 and 3pts distributed/1"
             },
@@ -758,7 +758,7 @@
                 "upgrade": "+7/1"
             },
             {
-                "description": "3. the first time you apply ongoing damage each combat, you apply +2 ongoing force damage on hit for the remainder of combat",
+                "description": "3. the first time you apply ongoing damage each combat, you apply +2 ongoing force damage on hit (stacking until the target passes a passive save) for the remainder of combat",
                 "pointValue": "4",
                 "upgrade": "+1/2"
             },
@@ -966,7 +966,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. on hit, inflict 1 ongoing fire damage until the target passes a passive save",
+                "description": "3. on hit, inflict 1 ongoing fire damage, stacking until the target passes a passive save",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
