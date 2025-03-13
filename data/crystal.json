@@ -480,5 +480,72 @@
       "horn drill",
       "superpower"
     ]
+  },
+  {
+    "name": "Silent",
+    "passives": [
+      "healer",
+      "anticipation",
+      "magic bounce"
+    ],
+    "powers": [
+      "confusion",
+      "play nice",
+      "life dew",
+      "disarming voice",
+      "psycho cut",
+      "aromatic mist",
+      "heal pulse",
+      "calm mind",
+      "psychic",
+      "healing wish",
+      "magic powder"
+    ]
+  },
+  {
+    "name": "Big Blade",
+    "passives": [
+      "defiant",
+      "supreme overlord",
+      "pressure"
+    ],
+    "powers": [
+      "metal burst",
+      "leer",
+      "fury cutter",
+      "metal claw",
+      "kowtow cleave",
+      "torment",
+      "scary face",
+      "assurance",
+      "metal sound",
+      "slash",
+      "night slash",
+      "defence curl",
+      "retaliate",
+      "zen headbutt",
+      "swords dance",
+      "horn drill"
+    ]
+  },
+  {
+    "name": "Drowsing",
+    "passives": [
+      "comatose"
+    ],
+    "powers": [
+      "defence curl",
+      "rollout",
+      "stockpile",
+      "spit up",
+      "swallow",
+      "rapid spin",
+      "yawn",
+      "flail",
+      "sucker punch",
+      "psych up",
+      "wood hammer",
+      "thrash"
+    ]
   }
 ]

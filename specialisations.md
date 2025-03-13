@@ -45,7 +45,7 @@ Whenever your crystal powers deal Strong damage, they count as being 3 levels hi
 ### Unstable Power
 Your crystal flare chance is increased by 30%.
 
-### Versatile Power 
+### Versatile Power
 Your crystals also gain a new random power at level 3.
 
 ## Dream Mirrors
@@ -90,11 +90,6 @@ Whenever you start a new glyph path, you gain the first two tiers. Additionally,
 
 ## Enchanted Items
 
-### Bend, Not Break
-Whenever you craft an item, you get two sets of options for the entire crafting job, but cannot mix the outcomes of these sets between each other.
-
-Restriction: If you choose the second crafting job's outcome, that item cannot be used by other characters.
-
 ### Complex Foundations
 After seeing a new enchanted item you find, you may choose to give it 1 additional starting affix with a minimum point value of 2.
 
@@ -110,10 +105,15 @@ Once during a crafting job, you may undo the effects of one Craft. This does not
 
 Restriction: Items you do this on cannot be used by other characters.
 
+### Shattering
+Whenever you salvage an enchanted item, you gain the Shard of a random affix on that item. Whenever you finish a crafting job, you may destroy a Shard to replace an affix of your choice on the crafted item with the Shard's affix.
+
+Restriction: Items with a Shard affix cannot be used by other characters.
+
 ### Strong Foundations
 After seeing a new enchanted item you find, you may choose for each starting affix on it to be upgraded once.
 
-Restriction: These items cannot be used by other characters.
+Restriction: Items you do this on cannot be used by other characters.
 
 ### Toolbelt
 Whenever your crafting options are revealed for enchanted items, you can reroll one of the Crafts into a new one of the same tier.

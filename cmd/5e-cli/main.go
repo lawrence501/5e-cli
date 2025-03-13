@@ -70,6 +70,7 @@ var COMMAND_MAP = map[string]func() error{
 	"augment":       augment,
 	"target affix":  targetAffix,
 	"crystal power": crystalPower,
+	"crystal":       crystal,
 }
 
 func main() {

@@ -1084,5 +1084,11 @@
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["damage"]
+    },
+    {
+        "description": "+3 charged damage",
+        "pointValue": "1",
+        "upgrade": "+2/1",
+        "affinities": ["damage", "mobility"]
     }
 ]

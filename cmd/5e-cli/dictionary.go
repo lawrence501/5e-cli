@@ -1,12 +1,13 @@
 package main
 
 var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
-	"tarot":     "Tarot: +1 card draw",
-	"amulet":    "Amulet: +1 option when upgrading",
-	"equipment": "Equipment: +1 upgrade point randomly allocated",
-	"mirror":    "Dream Mirror: +1 upgrade point on either new mod or upgrade/reroll",
-	"glyph":     "Glyph: Grants +1 tier",
-	"crystal":   "Crystal: +5% flare chance",
+	"tarot":     "Tarot: +1 card draw.",
+	"amulet":    "Amulet: Base modifier is upgraded once. If used to upgrade another, +1 upgrade option.",
+	"enchanted": "Enchanted Equipment: At least +2 upgrade points randomly allocated. If salvaged, +50% chance to gain 1 additional crafting level.",
+	"relic":     "Relic: At least +2 upgrade points randomly allocated. If used to upgrade another, +1 upgrade option.",
+	"mirror":    "Dream Mirror: +1 upgrade point on either new mod or upgrade/reroll.",
+	"glyph":     "Glyph: +50% chance to grant +1 tier.",
+	"crystal":   "Crystal: +2% flare chance. If used to upgrade another, +1% flare chance.",
 }
 
 var PHYS_TYPES []string = []string{

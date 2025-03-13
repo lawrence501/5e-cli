@@ -83,11 +83,15 @@
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, each player gains a Specialisation.",
+      "description": "At the end of the simulation, each player gains a random Specialisation. The simulation rewards no natural experience.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, each player gains an Augment.",
+      "description": "At the end of the simulation, each player gains an Augment. The simulation rewards no natural experience.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "At the end of the simulation, each player mutates.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     }
   ],

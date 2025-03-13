@@ -55,7 +55,7 @@
         "description": "Whenever the power hits, the target gains 50% vulnerability to all damage for 1 round."
     },
     {
-        "name": "Replenishment",
+        "name": "Empowered Replenishment",
         "target": "powers with a non-instantaneous duration",
         "description": "While the power's duration is active, you recover 1 spell slot level and 1 exertion at the start of each of your turns."
     },
@@ -105,7 +105,7 @@
         "description": "Other powers empowered by the power deal more damage."
     },
     {
-        "name": "Premeditated Assassination",
+        "name": "Premeditated Execution",
         "target": "powers that empower other powers",
         "description": "Other powers empowered by the power deal substantially more damage against bloodied targets."
     },
@@ -156,7 +156,7 @@
     },
     {
         "name": "Eternal Decay",
-        "target": "powers that inflict ongoing damage",
+        "target": "powers that deal ongoing damage",
         "description": "The power's ongoing damage is reduced, but creature's have a -2 penalty to their passive saves to end it."
     },
     {
@@ -170,7 +170,7 @@
         "description": "Whenever the power scores a critical hit, it splashes a substantial amount of damage."
     },
     {
-        "name": "Cruel Assassination",
+        "name": "Cruel Execution",
         "target": "powers that deal damage",
         "description": "Whenever the power scores a killing blow against a creature with a condition, your attacks deal a substantial amount of additional $dmgType damage for 1 round."
     },
@@ -263,5 +263,105 @@
         "name": "Layered Decay",
         "target": "powers that deal non-stacking ongoing damage",
         "description": "The power's ongoing damage now stacks."
+    },
+    {
+        "name": "Unstable Summons",
+        "target": "powers that summon damageable minions",
+        "description": "Whenever the power's minions become bloodied, they explode, dealing massive $dmgType DoT damage to adjacent foes and immediately dying."
+    },
+    {
+        "name": "Overpowering Combination",
+        "target": "powers that make attacks",
+        "description": "Every third time you attack with the power, the target is debilitated for 1 round."
+    },
+    {
+        "name": "Scattering",
+        "target": "powers that make non-area attacks",
+        "description": "The power can target one additional target within its reach/range, but it deals less damage."
+    },
+    {
+        "name": "Sacrificial Summons",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power while you have an active minion, the minion loses HP and the power deals substantially more damage."
+    },
+    {
+        "name": "Sonic Booms",
+        "target": "powers that move you",
+        "description": "For every 5' space the power moves you through, all foes adjacent to that space take a slight amount of $dmgType DoT damage."
+    },
+    {
+        "name": "Cascading Mass",
+        "target": "powers with areas",
+        "description": "The power's areas are repeated on both sides of them, on a random axis, but its areas are halved in size."
+    },
+    {
+        "name": "Channelling",
+        "target": "powers that require concentration",
+        "description": "You cannot lose concentration on the power against your will."
+    },
+    {
+        "name": "Piercing",
+        "target": "powers that make ranged attacks",
+        "description": "The power's attacks pierce once through their targets, but deal substantially less damage after piercing."
+    },
+    {
+        "name": "Biding",
+        "target": "powers that deal damage",
+        "description": "The first time you use the power each combat, it occurs one additional time for each turn you have had this combat in which you did not use the power. The additional occurences deal slightly less damage."
+    },
+    {
+        "name": "Empowered Recovery",
+        "target": "powers with a non-instantaneous duration",
+        "description": "While the power's duration is active, you gain a slight amount of passive regeneration."
+    },
+    {
+        "name": "Splashing",
+        "target": "powers that hit",
+        "description": "The power splashes damage on hit."
+    },
+    {
+        "name": "Empowered Accuracy",
+        "target": "powers with a non-instantaneous duration",
+        "description": "While the power's duration is active, you gain +1 to attack rolls."
+    },
+    {
+        "name": "Prismatic Frailty",
+        "target": "powers that hit",
+        "description": "The power deals less damage, but gives the target reduced $dmgType resistance for 1 round on hit."
+    },
+    {
+        "name": "Prismatic Exposure",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target gets slightly reduced $dmgType resistance for 1 round."
+    },
+    {
+        "name": "Reckless Consideration",
+        "target": "powers with a cooldown",
+        "description": "The power can now be used one additional time within its cooldown, but its cooldown is increased by 1 step."
+    },
+    {
+        "name": "Powerful Summons",
+        "target": "powers that summon minions",
+        "description": "The power's minions deal more damage."
+    },
+    {
+        "name": "Keen Eruption",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical hit, energy erupts from the target, dealing substantial $dmgType DoT damage to all of your foes adjacent to the target."
+    },
+    {
+        "name": "Decaying Assassination",
+        "target": "powers that deal ongoing damage",
+        "description": "Whenever the power inflicts ongoing damage on a creature with full HP, the ongoing damage is massively increased."
+    },
+    {
+        "name": "Keen Refreshment",
+        "target": "powers with a cooldown that hit",
+        "description": "Whenever the power scores a critical hit, its cooldown is refreshed."
+    },
+    {
+        "name": "Decaying Eruption",
+        "target": "powers that deal ongoing damage",
+        "description": "Whenever a creature affected by the power's ongoing damage dies, it explodes, dealing a slight amount of $dmgType DoT damage to all of your foes adjacent to it. This damage is multiplied by the number of ticks of the ongoing damage the creature took."
     }
 ]

@@ -1105,5 +1105,251 @@
         "upgrade": "+2 and +2"
       }
     ]
+  },
+  {
+    "name": "Grengor's Violence",
+    "base": {
+      "description": "+2 damage while you have 2+ adjacent foes",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 damage while adjacent to foe",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +3 damage while you are flanked by foes",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +2 resistance while you have 2+ adjacent foes",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +8 maximum HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "5. upon rolling a 1 or 2 on a damage die, reroll it. You must use the new result",
+        "upgrade": "+2 minimum value of the reroll"
+      },
+      {
+        "description": "6. +2 damage while you are 30+' from any allies",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +1 armour while you have 2+ adjacent foes",
+        "upgrade": "+1"
+      }
+    ]
+  },
+  {
+    "name": "Kashana's Malevolence",
+    "base": {
+      "description": "creatures cursed by you have -2 damage",
+      "upgrade": "-2"
+    },
+    "upgrades": [
+      {
+        "description": "1. the debilitated condition inflicted by you counts as a curse",
+        "upgrade": "creatures debilitated by you have -2 damage"
+      },
+      {
+        "description": "2. creatures cursed by you have -2 resistance",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. creatures cursed by you have -3 DoT resistance",
+        "upgrade": "-2"
+      },
+      {
+        "description": "4. +2 resistance while you have height advantage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. whenever you would apply a curse, you may also apply it to another creature within 10' of the target",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "6. +3 resistance vs celestials",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "8. whenever a creature cursed by you starts its turn within 30' of you, it makes a save, becoming frightened of you until the end of the turn on a fail",
+        "upgrade": "creatures have -1 to their saves vs the frightened condition from you"
+      }
+    ]
+  },
+  {
+    "name": "Rug's Relentlessness",
+    "base": {
+      "description": "on dealing damage, +1 to damage of that type for 1 round",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1d4 slashing damage to your damaging attacks",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "2. +1 AB with opportunity attacks",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. your damage ignores 50% resistance",
+        "upgrade": "+1 damage"
+      },
+      {
+        "description": "4. +5 opportunity attack damage",
+        "upgrade": "+4"
+      },
+      {
+        "description": "5. +1 Strength and maximum Strength",
+        "upgrade": "+1"
+      },
+      {
+        "description": "6. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. on hit with 3+ different damage types, splash 5 damage",
+        "upgrade": "+4"
+      }
+    ]
+  },
+  {
+    "name": "Eva's Empathy",
+    "base": {
+      "description": "-1 damage and +5 minion damage",
+      "upgrade": "-1 and +4"
+    },
+    "upgrades": [
+      {
+        "description": "1. +3 minion damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. if you spend your turn not dealing damage, your minion gains +3 damage during its next turn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +1 minion critical hit range",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +1 Wisdom and maximum Wisdom",
+        "upgrade": "+1"
+      },
+      {
+        "description": "5. during the third combat round across any amount of time that your minion has been alive, it deals +12 damage",
+        "upgrade": "+12"
+      },
+      {
+        "description": "6. +2 nature",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +10 minion damage vs aberrations",
+        "upgrade": "+10"
+      },
+      {
+        "description": "8. whenever you summon a minion, it gains 10 temporary HP",
+        "upgrade": "+10"
+      }
+    ]
+  },
+  {
+    "name": "T'ymm's Innovation",
+    "base": {
+      "description": "spells you cast outside of combat are upcast 1 level. If you roll for initiative, you lose the bonus effects of this free upcasting",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +3 outgoing healing",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +5 outgoing temporary HP",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. +2 cantrip damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +1 Intelligence and maximum Intelligence",
+        "upgrade": "+1"
+      },
+      {
+        "description": "6. +2 force damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +5' fly speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "8. once between combats, you can cast any spell up to 1st-level as a ritual",
+        "upgrade": "+1 level"
+      }
+    ]
+  },
+  {
+    "name": "Vinton's Fluidity",
+    "base": {
+      "description": "+2 damage vs targets you didn't attack during your last turn",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +5' reach and your ranges are doubled",
+        "upgrade": "+5' and +1 multiplier"
+      },
+      {
+        "description": "2. +2 resistance vs opportunity attacks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "4. as a reaction, reduce an incoming attack's damage by 5",
+        "upgrade": "+4"
+      },
+      {
+        "description": "5. +10' blindsight",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "6. +15' swim speed",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "7. +2 finesse",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +8 charged damage vs targets you didn't attack during your last turn",
+        "upgrade": "+8"
+      }
+    ]
   }
 ]
