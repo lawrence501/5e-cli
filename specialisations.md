@@ -40,7 +40,7 @@ Whenever you find a crystal containing a monster with multiple passive options, 
 Restriction: If you choose a passive that wasn't the default roll on a new crystal you find, it cannot be used by other characters.
 
 ### Resonance
-Whenever your crystal powers deal Strong damage, they count as being 3 levels higher than they are.
+Whenever your crystal powers deal Strong damage, they count as being a number of levels higher than they are equal to your proficiency bonus.
 
 ### Unstable Power
 Your crystal flare chance is increased by 30%.

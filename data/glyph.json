@@ -130,7 +130,7 @@
             "6. The non-ongoing damage dealt by Motus is increased by 7 against targets taking ongoing damage.",
             "7. If the target of Motus moves out of the reach of a creature of your choice, the maximum shift distance increases by 15'.",
             "8. Whenever you use Motus on a creature, that creature deals +8 damage with their next limited spell or maneuver.",
-            "9. When the target of Motus moves out of the reach of a creature of your choice, leave a shadow of that creature in the space they left. This shadow acts like a CR 1/4 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
+            "9. When the target of Motus moves out of the reach of a creature of your choice, leave a Shadow of that creature in the space they left. This Shadow acts like a CR 1/4 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
             "10. The the target of Motus moves out of the reach of a creature of your choice, the maximum shift distance increases by 15'."
         ]
     },
@@ -162,6 +162,36 @@
             "8. If Salvare affects a creature for at least 2 rounds, it retains all resistance bonuses acquired from Salvare until it either takes a short rest or is affected by Salvare again.",
             "9. The passive regeneration bonus granted by Salvare is increased to +3.",
             "10. Creatures affected by Salvare cannot lose concentration against their will."
+        ]
+    },
+    {
+        "theme": "Critical Hit Range Buff",
+        "tiers": [
+            "1. Sonticus: 2/combat, glyphic action; You sharpen the extremeties of a creature within 60' of you for 1 round, granting them +1 critical hit range.",
+            "2. Creatures affected by Sonticus deal +1d10 piercing damage with their critical hits.",
+            "3. Whenever you use Sonticus, the target is healed 4 HP.",
+            "4. Creatures affected by Sonticus have +4 DoT damage.",
+            "5. Whenever a creature affected by Sonticus scores a critical hit, the target gets -3 physical resistance for 1 round.",
+            "6. Creatures affected by Sonticus have +9 critical damage bonus.",
+            "7. Sonticus' critical hit range bonus is increased to +2, and its critical damage bonus is increased to +11.",
+            "8. Whenever you use Sonticus, create a Shadow of the target in an unoccupied space adjacent to them. This Shadow acts like a CR 1/8 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
+            "9. Whenever you use Sonticus, the target regains either 2 spell slot levels or 2 exertion.",
+            "10. After a creature affected by Sonticus makes a damaging attack while there is a living Shadow of them, they may immediately kill the shadow to grant that attack +2 critical hit range and +3 critical damage bonus."
+        ]
+    },
+    {
+        "theme": "Wall Area",
+        "tiers": [
+            "1. Murus: 1/SR, glyphic action; You conjure a wall of dark smoke-like gas made up of up to 1 connected space (no diagonal connections), in any arrangement of your choosing, which lasts for the remainder of combat. You must have line of sight to at least one of the wall's spaces. The wall is a persistent zone that deals 3 glyphic damage.",
+            "2. The length of Murus is now up to 2 connected spaces.",
+            "3. At the start of each of your turns, you can extend Murus by 1 space.",
+            "4. Creatures inside Murus have -2 damage.",
+            "5. Whenever you use Murus, you may shift up to 10' away from its area.",
+            "6. You deal +2 damage to creatures inside Murus.",
+            "7. Your attacks have +1 critical hit range against targets inside Murus.",
+            "8. Whenever you use Murus, you gain +1 reflex for 1 round and gain 6 temporary HP if you receive a reflex attack during that time.",
+            "9. At the start of each of your turns, a Shadow of you appears in a random unoccupied space of Murus. This Shadow acts like a CR 1 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
+            "10. Whenever you use Murus, remove all conditions from yourself. Additionally, you deal +2 damage to creatures inside Murus."
         ]
     }
 ]
