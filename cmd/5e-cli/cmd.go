@@ -775,3 +775,8 @@ var corruptionOrb = func() error {
 	log.Printf("Corruption results: %s", randSelect(CORRUPTION_RESULTS))
 	return nil
 }
+
+var lootResult = func() error {
+	log.Printf("Loot result: %s", randSelect(LOOT_RESULTS))
+	return nil
+}

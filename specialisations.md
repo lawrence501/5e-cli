@@ -71,7 +71,7 @@ Every 3 times you upgrade a specific affix on you, it gains 3 additional upgrade
 ## Glyphs
 
 ### Controlled Mutation
-Every time you gain the 10th tier of a glyph path, gain a Mutation for a power of your choice.
+Every time you gain the 10th tier of a glyph path, 3 Mutations are revealed to you, and you choose one to gain.
 
 ### Corruption Storm
 The cooldowns of your first tier glyph powers are reduced as follows (and any cooldown reductions from your glyph paths follow the same pattern): 1/LR -> 1/SR -> 1/combat -> 2/combat -> 3/combat.
@@ -182,18 +182,18 @@ Restriction: Rings you do this one cannot be used by other characters.
 You ignore all Restrictions on your Specialisations. For each Restricted item another character is wearing at any given time, you gain +1 damage and resistance (this bonus is halved for enchanted items and relics).
 
 ### Entrance of the Gladiators
-Your party's chance to find carnival tickets is increased by 5%, and you have a 50% chance to be awarded once in addition to the actual outcome of any carnival game.
+Your party's chance to find carnival tickets is increased by 5%, and you have a 50% chance to be rewarded once in addition to the actual outcome of any carnival game.
 
 ### Flea Market
 Whenever you purchase a loot result and choose Colour Upgrade, you are refunded 30gp.
 
 ### Gambling Problem
-Choose a loot result, other than Colour Upgrade. Whenever you roll that result on a random loot roll, it instead provides a Colour Upgrade. This loot result cannot be the one you've enhanced with the Dedication Specialisation.
+Choose a loot result, other than Colour Upgrade. Whenever you roll that result on a random loot roll, it instead provides a Colour Upgrade.
 
-Restriction: Other characters cannot use colour-upgraded items you find.
+Restriction: Other characters cannot use items you find that were colour-upgraded by this extra result.
 
 ### Indecision
-Whenever you would gain a Specialisation, you don't choose one. Instead, roll a d8 for the category, and then a d6 for the specific Specialisation you gain (completely reroll duplicates). Then, repeat this and gain a second Specialisation. If you have any other Specialisations when you first gain this, immediately remove them and do the above for each one removed.
+Whenever you would gain a Specialisation, you don't choose one. Instead, roll a d8 for the category, and then a d6 for the specific Specialisation you gain (completely reroll duplicates). Then, repeat this and gain a second Specialisation. If you have any other Specialisations when you first gain this, immediately remove them and do the above for each one removed. Additionally, gain one random Specialisation now.
 
 ### Munchkin
 Whenever you gain perk points, gain 2d10 instead of 2d4.

@@ -1506,5 +1506,213 @@
                 "upgrade": "+1/1"
             }
         ]
-    }CONTAGION RELIC
+    },
+    {
+        "name": "Subsidised Transference",
+        "startingAffixes": [
+            {
+                "description": "-2 spell damage",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "+8 ongoing damage",
+                "pointValue": "7",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "after your ongoing damage instances tick, their damage is reduced by 2",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. -1 1st-level spell slot; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 slot OR +1 level and 4pts distributed/1"
+            },
+            {
+                "description": "2. your sphere AoEs are doubled in size",
+                "pointValue": "2",
+                "upgrade": "+1 multiplier/2"
+            },
+            {
+                "description": "3. whenever you hit a creature taking your ongoing damage, the ongoing damage spreads to all of your foes within 5' of the target",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "4. -1 spell critical hit range; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "5. +1 damage vs creatures taking your ongoing damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. creatures have +1 to passive saves to end your ongoing damage; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 4pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Slime",
+        "startingAffixes": [
+            {
+                "description": "+3 hit thorns",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "whenever you deal thorns damage, the target drops any items they are holding in a space 5' in a random direction",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "while you have 15+ Intelligence, your thorns damage is increased by 3",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +5' maximum teleport distance",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "2. whenever you teleport, refresh the cooldown of one 1/combat effect you have",
+                "pointValue": "2",
+                "upgrade": "+1 effect/2"
+            },
+            {
+                "description": "3. whenever you teleport, you end up 5' in a random direction from your intended destination; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+5' and 2pts distributed/1"
+            },
+            {
+                "description": "4. +1 acid damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. on acid hit, the target becomes sluggish for 1 round",
+                "pointValue": "4",
+                "upgrade": "creatures made sluggish by you have -1 resistance/3"
+            },
+            {
+                "description": "6. the first time your ranged attacks hit, you can immediately use the attack again from the target to a new target, using line of sight and range restrictions as if the original target was the attacker",
+                "pointValue": "3",
+                "upgrade": "+1 ranged damage/1"
+            }
+        ]
+    },
+    {
+        "name": "The Eye",
+        "startingAffixes": [
+            {
+                "description": "+2 outgoing healing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 Dexterity and maximum Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+2 damage vs bosses",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. 2/combat, when a foe would inflict a condition on you while you already have a condition from a foe, you can ignore the new condition",
+                "pointValue": "4",
+                "upgrade": "at-will/4"
+            },
+            {
+                "description": "2. +1 damage vs targets who are alone in combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. while you are taking ongoing damage from a foe, foes cannot apply ongoing damage to you",
+                "pointValue": "4",
+                "upgrade": "+2->1 ongoing damage resistance/1"
+            },
+            {
+                "description": "4. +1 damage",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. on boss hit, heal 3 HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "6. +1 perception",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Chaos Goddess",
+        "startingAffixes": [
+            {
+                "description": "on turn start, the foe within 60' of you with the highest defence gets -1 resistance to attacks against that defence until your next turn, as do all foes within 10' of them",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "on turn start, the foe within 60' of you with the highest defence gets -1 resistance until your next turn",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "while you are within 10' of an ally, +1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. while you are within 10' of an ally, +1 non-physical resistance.",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 non-physical resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +2 spell damage vs marked targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. you gain spell damage equal to your bonus non-physical resistance",
+                "pointValue": "2",
+                "upgrade": "+1 non-physical resistance/1"
+            },
+            {
+                "description": "5. foes with no resistances or immunities that are adjacent to other foes have -2 non-physical resistance",
+                "pointValue": "2",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "6. +1 spell damage vs the foe within 60' of you with the highest total defences",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    }
 ]

@@ -166,7 +166,7 @@
   {
     "name": "Gawdian's Vengeance",
     "base": {
-      "description": "+2 damage vs targets who have hit you since your last turn",
+      "description": "+2 damage vs targets who have damaged you since your last turn",
       "upgrade": "+2"
     },
     "upgrades": [
@@ -179,7 +179,7 @@
         "upgrade": "+1"
       },
       {
-        "description": "3. +1 critical hit range vs targets who have hit you since your last turn",
+        "description": "3. +1 critical hit range vs targets who have damaged you since your last turn",
         "upgrade": "+1"
       },
       {
@@ -199,7 +199,7 @@
         "upgrade": "+2"
       },
       {
-        "description": "8. your damaging attacks deal +1d6 necrotic damage vs targets that have hit you since your last turn",
+        "description": "8. your damaging attacks deal +1d6 necrotic damage vs targets that have damaged you since your last turn",
         "upgrade": "+2 die size"
       }
     ]
@@ -249,7 +249,7 @@
     "name": "Somnius' Aspiration",
     "base": {
       "description": "whenever a movement-impairing condition is applied to you, make a save, ignoring the condition on a success",
-      "upgrade": "+2 to this save"
+      "upgrade": "whenever you pass this save, heal +4 HP"
     },
     "upgrades": [
       {
@@ -273,7 +273,7 @@
         "upgrade": "+2 die size"
       },
       {
-        "description": "6. +2 perk gain",
+        "description": "6. +2 perk point gain",
         "upgrade": "+2"
       },
       {
@@ -1089,7 +1089,7 @@
         "upgrade": "+1"
       },
       {
-        "description": "5. your minions gain +8 damage thorns",
+        "description": "5. your minions gain +8 hit thorns",
         "upgrade": "+8"
       },
       {
@@ -1349,6 +1349,170 @@
       {
         "description": "8. +8 charged damage vs targets you didn't attack during your last turn",
         "upgrade": "+8"
+      }
+    ]
+  },
+  {
+    "name": "Fillipo's Rhythm",
+    "base": {
+      "description": "allies affected by your powers have +1 resistance",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. allies affected by your powers have +1 passive regeneration",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. as a bonus action, you can grant a creature within 60' +1 resistance for the remainder of combat",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. allies affected by your powers have +5 hit thorns",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. +5 outgoing temporary HP",
+        "upgrade": "+4"
+      },
+      {
+        "description": "5. 1/LR, you can cast Skywrite",
+        "upgrade": "SR -> combat -> 2/combat -> at-will"
+      },
+      {
+        "description": "6. +3 resistance vs fiends",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. allies affected by your powers have +2 passive temporary HP generation",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Kreon's Madness",
+    "base": {
+      "description": "+3 glyphic damage while bloodied",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 glyphic damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +8 maximum HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "3. +2 resistance while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +2 damage with mutated powers",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +2 history",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. on dealing glyphic damage while bloodied, the target gets -2 resistance vs reflex attacks for 1 round",
+        "upgrade": "-2"
+      }
+    ]
+  },
+  {
+    "name": "Ekhan's Insulation",
+    "base": {
+      "description": "you cannot wear relics, but your Crafting level is increased by 2",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. you may adjust your loot roll results by up to 2",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. enchanted item loot results cost -3 gold to purchase",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. your Crafting level is increased by 1",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +2 non-physical resistance",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 lightning damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +8 non-physical hit thorns",
+        "upgrade": "+8"
+      },
+      {
+        "description": "8. +2 finesse",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Godworms' Drive",
+    "base": {
+      "description": "1/LR, on major hit, the target is dominated for 1 round",
+      "upgrade": "SR -> combat -> 2/combat -> at-will"
+    },
+    "upgrades": [
+      {
+        "description": "1. creatures dominated by you deal +2 damage with attacks controlled by you",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. creatures dominated by you have +1 critical hit range with attack controlled by you",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. 1/SR, on critical hit, the target is dominated for 1 round",
+        "upgrade": "combat -> 2/combat -> at-will"
+      },
+      {
+        "description": "4. creatures dominated by you have -1 resistance",
+        "upgrade": "-1"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +2 brawn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 damage vs celestials",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. creatures dominated by you have -3 resistance vs will attacks",
+        "upgrade": "-2"
       }
     ]
   }

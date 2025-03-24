@@ -71,6 +71,7 @@ var COMMAND_MAP = map[string]func() error{
 	"target affix":  targetAffix,
 	"crystal power": crystalPower,
 	"crystal":       crystal,
+	"loot result":   lootResult,
 }
 
 func main() {

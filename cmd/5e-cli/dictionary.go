@@ -531,3 +531,13 @@ var CORRUPTION_RESULTS []string = []string{
 	"add 1 affix pair",
 	"give each player a chaotic modifier, without telling them until they trigger",
 }
+
+var LOOT_RESULTS []string = []string{
+	"amulet",
+	"crystal",
+	"dream mirror",
+	"enchanted item",
+	"glyph",
+	"relic",
+	"tarot cards",
+}

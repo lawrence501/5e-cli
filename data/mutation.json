@@ -7,7 +7,7 @@
     {
         "name": "Sacrifice",
         "target": "powers with a resource cost",
-        "description": "The power's resource cost is replaced with a hit point cost equal to 6 times the original value."
+        "description": "The power's resource cost is replaced with a HP cost equal to 6 times the original value."
     },
     {
         "name": "Added Power",
@@ -16,13 +16,13 @@
     },
     {
         "name": "Assassination",
-        "target": "powers that make damaging attacks",
-        "description": "The power has +2 critical hit range against targets on full HP."
+        "target": "powers that make attacks",
+        "description": "The power has +2 critical success range against targets on full HP."
     },
     {
         "name": "Cruelty",
         "target": "powers that deal damage",
-        "description": "The power cannot apply ongoing damage, but it deals more damage against targets affected by ongoing damage."
+        "description": "The power cannot deal ongoing damage, but it deals more damage against targets affected by ongoing damage."
     },
     {
         "name": "Chaining",
@@ -50,7 +50,7 @@
         "description": "Whenever the power inflicts a condition, the ground in a 5' radius around the target becomes difficult terrain that only affects foes for the remainder of combat."
     },
     {
-        "name": "Frailty",
+        "name": "Vulnerability",
         "target": "powers that hit",
         "description": "Whenever the power hits, the target gains 50% vulnerability to all damage for 1 round."
     },
@@ -116,8 +116,8 @@
     },
     {
         "name": "Transmutation",
-        "target": "powers that inflict {condition}",
-        "description": "Whenever the power inflicts the $condition condition, the target becomes $condition instead."
+        "target": "powers that inflict the $condition condition",
+        "description": "Whenever the power inflicts the condition, the target becomes $condition instead."
     },
     {
         "name": "Resilient Command",
@@ -137,7 +137,7 @@
     {
         "name": "Channeled Shielding",
         "target": "powers that require concentration",
-        "description": "Whenever you lose concentration on the power, gain a massive amount of temporary hit points."
+        "description": "Whenever you lose concentration on the power, gain a massive amount of temporary HP."
     },
     {
         "name": "Massive Preparation",
@@ -196,8 +196,8 @@
     },
     {
         "name": "Upheaval",
-        "target": "powers that hit",
-        "description": "Whenever the power hits, the ground in a 5' radius around the target becomes difficult terrain that only affects foes for the remainder of combat."
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard+ success, the ground in a 5' radius around the target becomes difficult terrain that only affects foes for the remainder of combat."
     },
     {
         "name": "Cruel Power",
@@ -236,18 +236,18 @@
     },
     {
         "name": "Pinning",
-        "target": "powers that hit",
-        "description": "Whenever the power scores a major hit, the target becomes rooted for 1 round."
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target becomes rooted for 1 round."
     },
     {
-        "name": "Enduring Summons",
+        "name": "Enduring Command",
         "target": "powers that summon damageable minions",
         "description": "Whenever the power's minions die, they persist until the end of their next turn before actually dying."
     },
     {
         "name": "Overpowering",
-        "target": "powers that hit",
-        "description": "Whenever the power scores a major hit, the target becomes debilitated for 1 round."
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target becomes debilitated for 1 round."
     },
     {
         "name": "Enduring Cruelty",
@@ -255,7 +255,7 @@
         "description": "Any conditions the power inflicts have their maximum duration doubled."
     },
     {
-        "name": "Momentum",
+        "name": "Growing Power",
         "target": "powers that hit",
         "description": "Whenever the power hits, you gain barely any damage for the remainder of combat."
     },
@@ -265,7 +265,7 @@
         "description": "The power's ongoing damage now stacks."
     },
     {
-        "name": "Unstable Summons",
+        "name": "Unstable Command",
         "target": "powers that summon damageable minions",
         "description": "Whenever the power's minions become bloodied, they explode, dealing massive $dmgType DoT damage to adjacent foes and immediately dying."
     },
@@ -280,7 +280,7 @@
         "description": "The power can target one additional target within its reach/range, but it deals less damage."
     },
     {
-        "name": "Sacrificial Summons",
+        "name": "Sacrificial Command",
         "target": "powers that deal damage",
         "description": "Whenever you use the power while you have an active minion, the minion loses HP and the power deals substantially more damage."
     },
@@ -340,7 +340,7 @@
         "description": "The power can now be used one additional time within its cooldown, but its cooldown is increased by 1 step."
     },
     {
-        "name": "Powerful Summons",
+        "name": "Powerful Command",
         "target": "powers that summon minions",
         "description": "The power's minions deal more damage."
     },
@@ -356,12 +356,392 @@
     },
     {
         "name": "Keen Refreshment",
-        "target": "powers with a cooldown that hit",
-        "description": "Whenever the power scores a critical hit, its cooldown is refreshed."
+        "target": "powers with a cooldown that make attacks",
+        "description": "Whenever the power scores a critical success, its cooldown is refreshed."
     },
     {
         "name": "Decaying Eruption",
         "target": "powers that deal ongoing damage",
         "description": "Whenever a creature affected by the power's ongoing damage dies, it explodes, dealing a slight amount of $dmgType DoT damage to all of your foes adjacent to it. This damage is multiplied by the number of ticks of the ongoing damage the creature took."
+    },
+    {
+        "name": "Exposure",
+        "target": "powers that deal $dmgType damage",
+        "description": "The power ignores {type} resistance."
+    },
+    {
+        "name": "Rejuvenating Creations",
+        "target": "powers that create objects or structures",
+        "description": "You and allies adjacent to objects or structures created by the power gain a slight amount of passive regeneration."
+    },
+    {
+        "name": "Unstable Decay",
+        "target": "powers that deal ongoing damage which ends on a passive save",
+        "description": "The power deals substantially more ongoing damage, but creatures affected by that ongoing damage have +1 to passive saves to end it."
+    },
+    {
+        "name": "Prepared Power",
+        "target": "powers that deal damage",
+        "description": "The power deals massively more damage, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Keen Frailty",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical hit, the target gets slightly reduced resistance for 1 round."
+    },
+    {
+        "name": "Keen Volatility",
+        "target": "powers that hit",
+        "description": "The power has -1 critical hit range, but massively, massively increased critical damage bonus."
+    },
+    {
+        "name": "Necromantic Respect",
+        "target": "powers that consume corpses",
+        "description": "Whenever the power would consume a corpse, the corpse is instead not consumed."
+    },
+    {
+        "name": "Merciful Power",
+        "target": "powers that deal damage",
+        "description": "The power cannot inflict conditions, but whenever it deals damage to a creature affected by a condition, the condition is removed and the power deals substantially more damage."
+    },
+    {
+        "name": "Spreading Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Whenever the power inflicts a condition, all foes adjacent to the target also receive that condition."
+    },
+    {
+        "name": "Myopia",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target becomes blinded for 1 round."
+    },
+    {
+        "name": "Shielded Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow against a creature with a condition, you gain a massive amount of temporary HP."
+    },
+    {
+        "name": "Upfront Power",
+        "target": "powers that deal damage",
+        "description": "The power deals substantially more damage during the first round of combat."
+    },
+    {
+        "name": "Close Power",
+        "target": "powers that deal damage",
+        "description": "The power deals more damage to targets adjacent to you."
+    },
+    {
+        "name": "Keen Consideration",
+        "target": "powers with a cooldown that make attacks",
+        "description": "The power has +3 critical success range, but its cooldown is increased by 1 step."
+    },
+    {
+        "name": "Empowered Rejuvenation",
+        "target": "powers with a non-instantaneous duration",
+        "description": "While the power's duration is active, you have increased incoming healing."
+    },
+    {
+        "name": "Haste",
+        "target": "powers with a cooldown that deal damage",
+        "description": "The power's cooldown is reduced by 1 step, but it deals less damage."
+    },
+    {
+        "name": "Aggressive Command",
+        "target": "powers that summon damageable minions",
+        "description": "The power's minions deal substantially more damage, but have slightly reduced resistance."
+    },
+    {
+        "name": "Blessed Arrival",
+        "target": "powers that move you",
+        "description": "Whenever the power's movement ends, you create a 15'x15' area of glowing ground around you that persists for the remainder of combat. This area is a persistent zone that heals you and allies for barely any HP."
+    },
+    {
+        "name": "Keen Destruction",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical hit, the target is dazed for 1 round. Additionally, the power has massively more critical damage bonus."
+    },
+    {
+        "name": "Explosive Execution",
+        "target": "powers that deal ongoing damage",
+        "description": "Whenever a creature affected by the power's ongoing damage dies, it explodes, dealing $dmgType DoT damage to all of your foes adjacent to it."
+    },
+    {
+        "name": "Frailty",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target gets barely reduced resistance for 1 round."
+    },
+    {
+        "name": "Pure Disruption",
+        "target": "powers that inflict conditions and hit",
+        "description": "Whenever the power hits, the target is dazed for 1 round. Additionally, the power cannot inflict any non-dazed conditions and deals less damage."
+    },
+    {
+        "name": "Sacrificial Decay",
+        "target": "powers that summon damageable minions",
+        "description": "The power's minions have slightly reduced passive regeneration, and the 5' radius around them is a persistent zone that deals $dmgType DoT damage to foes."
+    },
+    {
+        "name": "Distant Power",
+        "target": "powers that deal damage",
+        "description": "The power deals more damage to target 30+' away from you."
+    },
+    {
+        "name": "Slowing Decay",
+        "target": "powers that deal ongoing damage",
+        "description": "While a creature is affected by the power's ongoing damage, it is sluggish."
+    },
+    {
+        "name": "Repulsion",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target is pushed 10' away from you."
+    },
+    {
+        "name": "Leeching",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard+ success, you heal HP."
+    },
+    {
+        "name": "Slowing",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard+ success, the target becomes sluggish for 1 round."
+    },
+    {
+        "name": "Flaring",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard+ success, roll to see if your crystal flares."
+    },
+    {
+        "name": "Momentum",
+        "target": "powers that move you",
+        "description": "After the power has moved you 10+', it deals more damage for the remainder of its duration."
+    },
+    {
+        "name": "Keen Momentum",
+        "target": "powers that make attacks",
+        "description": "Whenever you use the power and it doesn't score a critical success, it gains +1 critical success range until you next score a critical success with it."
+    },
+    {
+        "name": "Eruption",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical hit, you may expend a 1st-level spell slot or 1 exertion to deal massive $dmgType DoT damage to all foes adjacent to you."
+    },
+    {
+        "name": "Hasty Command",
+        "target": "powers that summon minions which deal damage",
+        "description": "The power's usage time is reduced by 1 step, but its minions deal less damage."
+    },
+    {
+        "name": "Ricochet",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a minor success, its attack roll is increased by 2."
+    },
+    {
+        "name": "Replenishing Creations",
+        "target": "powers that create objects or structures",
+        "description": "You and allies adjacent to objects or structures created by the power recover 1 spell slot level or 1 exertion at the start of each of your turns."
+    },
+    {
+        "name": "Heroic Execution",
+        "target": "powers that deal damage",
+        "description": "The power deals substantially more damage to bloodied bosses."
+    },
+    {
+        "name": "Replenishment",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard+ success, you recover 1 spell slot level or 1 exertion."
+    },
+    {
+        "name": "Executing Thievery",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you gain the effects of a random one of the target's passive traits for the remainder of combat."
+    },
+    {
+        "name": "Powerful Combination",
+        "target": "powers that deal damage",
+        "description": "The first time the power deals damage each combat, it deals more damage for each round of combat that has already passed."
+    },
+    {
+        "name": "Empowered Execution",
+        "target": "powers with a non-instantaneous duration",
+        "description": "Whenever you score a killing blow while the power's duration is active, you heal a substantial amount of HP."
+    },
+    {
+        "name": "Disruption",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target is dazed for 1 round."
+    },
+    {
+        "name": "Considered Intensity",
+        "target": "powers with a non-instantaneous duration that deal damage",
+        "description": "The power's duration is increased by 1 step and it deals more damage, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Pure Decay",
+        "target": "powers that deal ongoing and attack damage",
+        "description": "The power deals substantially more ongoing damage, but less attack damage."
+    },
+    {
+        "name": "Echoing Consideration",
+        "target": "powers with areas",
+        "description": "The power's areas are doubled in size and repeated at the start of your next turn, but its usage time is increased by 1 step."
+    },
+    {
+        "name": "Prismatic Power",
+        "target": "powers that deal $dmgType damage",
+        "description": "The power deals more {type} damage if you haven't dealt that damage type since the start of your last turn."
+    },
+    {
+        "name": "Cruel Frailty",
+        "target": "powers that inflict conditions",
+        "description": "Whenever the power inflicts a condition, the afflicted creature loses barely any resistance for 1 round."
+    },
+    {
+        "name": "Spreading Decay",
+        "target": "powers that deal ongoing damage",
+        "description": "Whenever the power deals ongoing damage, foes adjacent to the target also receive the same ongoing damage. Additionally, the power deals less ongoing damage."
+    },
+    {
+        "name": "Rejuvenating Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you recover 2 spell slot levels or 2 exertion."
+    },
+    {
+        "name": "Martyrdom",
+        "target": "powers that heal",
+        "description": "Whenever you use the power, you lose HP, but the power grants substantially more healing."
+    },
+    {
+        "name": "Prismatic Focus",
+        "target": "powers that deal damage",
+        "description": "The power deals a substantial amount of additional $dmgType damage, but deals less damage of all other types."
+    },
+    {
+        "name": "Wild Power",
+        "target": "powers that deal damage through the rolling of dice",
+        "description": "The power's damage dice are increased in size until its average damage has increased."
+    },
+    {
+        "name": "Mobility",
+        "target": "powers that move you",
+        "description": "The power's maximum movement is increased."
+    },
+    {
+        "name": "Projection",
+        "target": "powers with areas centred on you",
+        "description": "The power's areas can now originate from any space within your line of sight, but they are halved in size."
+    },
+    {
+        "name": "Overpowering Exposure",
+        "target": "powers that mark",
+        "description": "Whenever you score a major success against a creature marked by the power, it is debilitated for 1 round."
+    },
+    {
+        "name": "Alacrity",
+        "target": "powers that deal damage",
+        "description": "The power's usage time is reduced by 1 step, but it deals less damage."
+    },
+    {
+        "name": "Delayed Decay",
+        "target": "powers with a non-instantaneous duration",
+        "description": "Whenever the power's duration ends, a 15'x15' persistent zone forms around its target for the remainder of combat that deals slight $dmgType DoT damage to foes."
+    },
+    {
+        "name": "Powerful Creations",
+        "target": "powers that create objects or structures",
+        "description": "You and allies adjacent to objects or structures created by the power deal increased damage."
+    },
+    {
+        "name": "Cruel Stability",
+        "target": "powers that inflict conditions that last until the target passes a passive save",
+        "description": "Conditions inflicted by the power now last for 2 rounds."
+    },
+    {
+        "name": "Powerful Triggers",
+        "target": "any power",
+        "description": "Extra effects that proc from this power deal more damage."
+    },
+    {
+        "name": "Immediate Power",
+        "target": "powers that deal damage",
+        "description": "The power deals substantially more damage, but you deal less damage for 1 round after using it."
+    },
+    {
+        "name": "Ultimate Power",
+        "target": "powers with a cooldown that deal damage",
+        "description": "The power's effect occurs twice and it deals more damage, but its cooldown is increased by 1 step."
+    },
+    {
+        "name": "Cruel Decay",
+        "target": "powers that hit",
+        "description": "Whenever the power hits a target with a condition, all types of ongoing damage on the target are slightly increased."
+    },
+    {
+        "name": "Prismatism",
+        "target": "powers that deal damage",
+        "description": "The power's damage counts as all damage types."
+    },
+    {
+        "name": "Unstable Power",
+        "target": "powers that deal damage",
+        "description": "The power deals less damage, but whenever the power deals damage, there is a 50% chance it deals substantially more damage. This is rolled repeatedly until it fails."
+    },
+    {
+        "name": "Keen Exposure",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical hit, the target gets reduced $dmgType resistance for 1 round."
+    },
+    {
+        "name": "Persistent Cruelty",
+        "target": "powers with a non-instantaneous duration that apply effects to creatures",
+        "description": "The power's effect applies in a 15'x15' persistent zone on the ground that last for the remainder of combat instead of being applied to the targets."
+    },
+    {
+        "name": "Generous Command",
+        "target": "powers that heal",
+        "description": "The power's healing is substantially increased against minions."
+    },
+    {
+        "name": "Cruel Eruption",
+        "target": "powers that hit",
+        "description": "The power cannot inflict conditions, but whenever it hits a creature affected by a condition, the condition is removed and all foes adjacent to the target take substantial $dmgType DoT damage."
+    },
+    {
+        "name": "Pure Power",
+        "target": "powers that deal damage and inflict conditions",
+        "description": "The power can no longer inflict conditions, but deals substantially more damage."
+    },
+    {
+        "name": "Focused Triggers",
+        "target": "powers that deal damage",
+        "description": "Whenever an additional effect procs off of the power, it procs twice. Additionally, the power deals less damage."
+    },
+    {
+        "name": "Considered Accuracy",
+        "target": "powers with a cooldown that make attacks",
+        "description": "The power's attacks have +3 AB, but its cooldown is increased by 1 step."
+    },
+    {
+        "name": "Sacrificial Power",
+        "target": "powers that hit",
+        "description": "Whenever you use the power, you lose HP, but the power deals a substantial amount of additional $dmgType damage."
+    },
+    {
+        "name": "Decaying Cruelty",
+        "target": "powers that deal ongoing damage",
+        "description": "The power cannot inflict conditions, but whenever it applies ongoing damage to a creature affected by a condition, the condition is removed and the power deals substantially more ongoing damage."
+    },
+    {
+        "name": "Contagious Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Whenever a creature affected by the power's conditions dies, all of your foes within 60' of it gain those conditions."
+    },
+    {
+        "name": "Symptomatic Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Conditions applied by the power do not end on creatures taking ongoing damage, until the ongoing damage ends."
+    },
+    {
+        "name": "Novas",
+        "target": "powers that make ranged attacks",
+        "description": "The power's ranged attacks are converted into 5' sphere areas centred on you."
     }
 ]

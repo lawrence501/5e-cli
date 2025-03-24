@@ -547,5 +547,49 @@
       "wood hammer",
       "thrash"
     ]
+  },
+  {
+    "name": "Hammer",
+    "passives": [
+      "mould breaker",
+      "own tempo",
+      "pickpocket"
+    ],
+    "powers": [
+      "astonish",
+      "gigaton hammer",
+      "baby-doll eyes",
+      "metal claw",
+      "covet",
+      "rock smash",
+      "draining kiss",
+      "confuse ray",
+      "psychic",
+      "play rough",
+      "fake out",
+      "flatter",
+      "skitter smack",
+      "knock off"
+    ]
+  },
+  {
+    "name": "Seafaring",
+    "passives": [
+      "dark recovery"
+    ],
+    "powers": [
+      "heart swap",
+      "growth",
+      "charm",
+      "confuse ray",
+      "bubble beam",
+      "defence curl",
+      "whirlpool",
+      "water pulse",
+      "aqua ring",
+      "dive",
+      "rain dance",
+      "take heart"
+    ]
   }
 ]

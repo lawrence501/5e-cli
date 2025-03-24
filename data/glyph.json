@@ -5,12 +5,12 @@
             "1. Surdus: 2/combat, glyphic action; A creature within 60 feet is deafened for 1 minute as twisted, black roots creep out of their ears.",
             "2. Creatures deafened by Surdus have -1 physical resistance.",
             "3. Creatures deafened by Surdus have -1 resistance against armour attacks.",
-            "4. Non-boss creatures deafened by Surdus deal -3 spell damage.",
-            "5. The next limited spell or maneuver you use after using Surdus deals +6 damage.",
+            "4. Non-boss creatures deafened by Surdus deal -2 damage.",
+            "5. The next limited power you use after using Surdus deals +6 damage.",
             "6. If you use Surdus on a creature already deafened by Surdus, a Medium, untargetable spire of twisted, black fibre grows from the ground in an unoccupied space adjacent to the creature for 1 minute. Foes within 60 feet of the spire are deafened by Surdus.",
             "7. If you use Surdus on a creature already deafened by Surdus, the bonus numeric effects of Surdus from this glyph path are tripled for that target.",
             "8. When you use Surdus, you may consume an additional use of it (if available) to force the target to make a save, becoming dominated until the end of its next turn on a fail.",
-            "9. Creatures deafened by Surdus have -4 physical resistance if you have used a limited spell or maneuver since the start of your last turn.",
+            "9. Creatures deafened by Surdus have -4 physical resistance if you have used a limited power since the start of your last turn.",
             "10. When you use Surdus on a bloodied target, it has -2 physical resistance while deafened by Surdus."
         ]
     },
@@ -40,7 +40,7 @@
             "6. Creatures have a -1 penalty to any saves they make against Concursus' effects. Additionally, its base damage becomes 15.",
             "7. Concursus splashes 2 damage and creatures have a -1 penalty to passive saves to end Concursus' ongoing damage.",
             "8. When you use Concursus, the target must make a save, becoming slowed for 1 round on a fail. Additionally, creatures have a -1 penalty to saves against Concursus' stagger. Additionally, its base damage becomes 16.",
-            "9. Concursus can now be used twice per combat.",
+            "9. Concursus can now be used twice per combat. Additionally, its base damage becomes 18.",
             "10. Concursus deals +3 damage for each condition or instance of ongoing damage inflicted by itself that the target is currently affected by."
         ]
     },
@@ -51,11 +51,11 @@
             "2. Whenever you restrain a creature with Cohibere, gain +2 reflex for 1 round.",
             "3. Whenever you restrain a creature with Cohibere, the creature takes 2 ongoing glyphic damage, stacking until it passes a passive save (this scales with all glyphic damage bonuses). Additionally, when the restrain ends, you gain +10' speed for 1 round.",
             "4. You may use as many uses of Cohibere as you wish within the one glyphic action.",
-            "5. Creatures restrained by Cohibere have -2 resistance to armour attacks. This is increased to -4 if you've used a limited spell or maneuver since the start of your last turn.",
+            "5. Creatures restrained by Cohibere have -2 resistance to armour attacks. This is increased to -4 if you've used a limited power since the start of your last turn.",
             "6. Whenever Cohibere's restrain ends on a creature, that creature has -4 resistance to armour attacks for 1 round.",
             "7. Whenever you are hit while restraining a creature with Cohibere, all Cohibere restrains immediately end and you erupt in glyphic power, dealing 9 glyphic damage to all foes adjacent to you for each restrain that ended.",
             "8. Whenever you use Cohibere, its glyphic action is refunded. Additionally, whenever Cohibere's restrain ends, gain 5 temporary HP.",
-            "9. Upon using a limited spell or maneuver that targets a single adjacent creature, you may choose to immediately use Cohibere on that creature as a free action without expending any of its uses.",
+            "9. Upon using a limited power that targets a single adjacent creature, you may choose to immediately use Cohibere on that creature as a free action without expending any of its uses.",
             "10. The explosion when you are hit while restraining a creature with Cohibere deals +2 damage and has +5' radius for each complete turn that the restrain was active for."
         ]
     },
@@ -129,7 +129,7 @@
             "5. Whenever you use Motus on a creature, that creature gains +15' speed for 1 round.",
             "6. The non-ongoing damage dealt by Motus is increased by 7 against targets taking ongoing damage.",
             "7. If the target of Motus moves out of the reach of a creature of your choice, the maximum shift distance increases by 15'.",
-            "8. Whenever you use Motus on a creature, that creature deals +8 damage with their next limited spell or maneuver.",
+            "8. Whenever you use Motus on a creature, that creature deals +8 damage with their next limited power.",
             "9. When the target of Motus moves out of the reach of a creature of your choice, leave a Shadow of that creature in the space they left. This Shadow acts like a CR 1/4 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
             "10. The the target of Motus moves out of the reach of a creature of your choice, the maximum shift distance increases by 15'."
         ]
@@ -182,7 +182,7 @@
     {
         "theme": "Wall Area",
         "tiers": [
-            "1. Murus: 1/SR, glyphic action; You conjure a wall of dark smoke-like gas made up of up to 1 connected space (no diagonal connections), in any arrangement of your choosing, which lasts for the remainder of combat. You must have line of sight to at least one of the wall's spaces. The wall is a persistent zone that deals 3 glyphic damage.",
+            "1. Murus: 1/SR, glyphic action; You conjure a 2'-high wall of dark smoke-like gas made up of up to 1 connected space (no diagonal connections), in any arrangement of your choosing, which lasts for the remainder of combat. You must have line of sight to at least one of the wall's spaces, and all spaces must be within 60' of you. The wall is a persistent zone that deals 3 glyphic damage.",
             "2. The length of Murus is now up to 2 connected spaces.",
             "3. At the start of each of your turns, you can extend Murus by 1 space.",
             "4. Creatures inside Murus have -2 damage.",
@@ -192,6 +192,126 @@
             "8. Whenever you use Murus, you gain +1 reflex for 1 round and gain 6 temporary HP if you receive a reflex attack during that time.",
             "9. At the start of each of your turns, a Shadow of you appears in a random unoccupied space of Murus. This Shadow acts like a CR 1 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
             "10. Whenever you use Murus, remove all conditions from yourself. Additionally, you deal +2 damage to creatures inside Murus."
+        ]
+    },
+    {
+        "theme": "Charge",
+        "tiers": [
+            "1. Impes: 1/combat, glyphic action; You warp time to rapidly move up to 10' in a straight line and then deal 2 glyphic damage to a creature adjacent to you.",
+            "2. Impes' base damage becomes 8.",
+            "3. Impes' base movement increase to 25'.",
+            "4. Whenever you deal damage with Impes, the target becomes sluggish for 1 round. Additionally, Impes' base damage becomes 10.",
+            "5. Whenever you deal damage with Impes, you also deal 3 ongoing glyphic damage, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses).",
+            "6. Impes' ongoing damage increases to 6.",
+            "7. While a creature is sluggish from Impes, any sluggish it would inflict instead doubles the target's speed. Additionally, Impes' base damage becomes 11.",
+            "8. Whenever you deal damage with Impes, the target makes a save, becoming blinded for 1 round on a fail. Additionally, Impes' base damage becomes 14.",
+            "9. Impes' base damage becomes 20.",
+            "10. Whenever you deal damage with Impes, you and allies adjacent to the target heal 8 HP."
+        ]
+    },
+    {
+        "theme": "Trample",
+        "tiers": [
+            "1. Conculco: 1/LR, glyphic action; You become momentarily incorporeal and ghastly, shifting up to 10'. While shifting in this way, you can pass through the spaces of hostile creatures, but cannot end the movement there. Any creature you passed through must make a save, taking 1 glyphic damage on a fail.",
+            "2. Whenever you use Conculco, its glyphic action is refunded.",
+            "3. Conculco's base damage becomes 5 and whenever it deals damage, the target must make a save, becoming debilitated for 1 round on a fail.",
+            "4. Whenever Conculco would deal damage, roll a d4. On a 4, the damage is doubled. Additionally, Conculco's base damage becomes 8.",
+            "5. Whenever Conculco deals damage, it deals 3 ongoing glyphic damage, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses). Additionally, whenever Conculco deals damage, the target becomes sluggish for 1 round.",
+            "6. Conculco's maximum shift distance increases to 20'.",
+            "7. Whenever you use Conculco, your next limited power ignores damage resistance and has its area doubled.",
+            "8. Whenever you would use Conculco, you can choose to instead create an incorporeal Spectral Obelisk in an unoccupied space adjacent to you that remains for the remainder of combat, using Conculco at the end of each of your turns. Additionally, Conculco's base damage becomes 9.",
+            "9. Whenever Conculco's damage is doubled, it is tripled instead. Additionally, Conculco's base damage becomes 11.",
+            "10. Whenever you use Conculco to create a Spectral Obelisk, you create two Obelisks instead, in two unoccupied spaces adjacent to you. Additionally, Conculco's base damage becomes 13."
+        ]
+    },
+    {
+        "theme": "Resistance Buff",
+        "tiers": [
+            "1. Repugnantia: 1/SR, glyphic action; You surround a creature within 60' of you with a shimmering orb for 1 round, granting it +3 resistance.",
+            "2. Repugnantia can now be used once per combat.",
+            "3. Whenever you use Repugnantia, you recover either 2 spell slot levels or 2 exertion.",
+            "4. Whenever a creature affected by Repugnantia is hit, Repugnantia's cooldown is refreshed.",
+            "5. Whenever a creature affected by Repugnantia is hit, the attacker gets -4 damage for 1 round.",
+            "6. While you are adjacent to a creature affected by Repugnantia, it gains +3 resistance.",
+            "7. Whenever you use Repugnantia, the target heals 6 HP.",
+            "8. You can now target 1 additional creature with Repugnantia that is within 10' of the original target.",
+            "9. Whenever a creature affected by Repugnantia goes down, a Shadow of them is created in an unoccupied space adjacent to them. This Shadow acts like a CR 1 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
+            "10. Whenever Repgunantia heals its target, they also gain 9 temporary HP."
+        ]
+    },
+    {
+        "theme": "Prone",
+        "tiers": [
+            "1. Cado: 2/combat, glyphic action; An invisible blast of energy erupts from your body towards a creature within 60' of you, knocking it prone.",
+            "2. If you have used Cado this turn, your hits force their targets to make a save, staggering the target for 1 round on a fail.",
+            "3. Whenever you use Cado, you gain 5 temporary HP.",
+            "4. Whenever Cado knocks a creature prone, the target must make a save, becoming staggered for 1 round on a fail.",
+            "5. You can now target 1 additional creature with Cado that is within 5' of the original target.",
+            "6. Whenever Cado knocks a creature prone, you deal 2 ongoing glyphic damage to the target, stacking until it passes a passive save (this damage scales with all glyphic damage bonuses).",
+            "7. Whenever Cado knocks a creature prone, the energy splits into a 15' cone originating from them, aiming in the direction opposite from you. This cone deals 3 glyphic damage to foes.",
+            "8. Whenever a creature knocked prone by Cado stands up, they are immediately knocked prone by Cado. Additionally, creatures knocked prone by Cado have -5' speed.",
+            "9. Cado's ongoing damage becomes 5.",
+            "10. Cado's ongoing damage becomes 8."
+        ]
+    },
+    {
+        "theme": "Fatigue",
+        "tiers": [
+            "1. Lassitudo: 1/combat, glyphic action; You sap the energy from a creature within 60' of you, forcing it to make a save. On a fail, it gains a level of fatigue.",
+            "2. Whenever you use Lassitudo during the first round of combat, it no longer requires a save. Additionally, creatures have -1 to their saves against Lassitudo.",
+            "3. Lassitudo inflicts 2 levels of fatigue.",
+            "4. Creatures affected by Lassitudo must make passive saves, gaining an additional level of fatigue and ending the passive saves upon failing one. Additionally, creatures have -1 to their saves against Lassitudo.",
+            "5. Creatures affected by Lassitudo have -1 physical damage and become slowed for 1 round when struck by a major hit.",
+            "6. Lassitudo inflicts 3 levels of fatigue.",
+            "7. Lassitudo now targets 1 additional creature within 10' of the original target.",
+            "8. The additional level of fatigue Lassitudo inflicts on a failed passive save is increased to 2 levels of fatigue.",
+            "9. Creatures have -2 on their saves against Lassitudo, and a further -1 on their passive saves against it.",
+            "10. Lassitudo inflicts 1 additional level of fatigue against creatures already affected by a condition. Additionally, creatures have -1 on their saves against Lassitudo."
+        ]
+    },
+    {
+        "theme": "Strife",
+        "tiers": [
+            "1. Discordia: 1/combat, glyphic action; You manifest malicious voices in the mind of a creature within 60' of you, forcing it to make a save. On a fail, it gains a level of strife.",
+            "2. Discordia can now be used twice per combat.",
+            "3. Whenever you inflict strife with Discordia, the target is also debilitated for 1 round.",
+            "4. Creatures affected by Discordia have -1 resistance.",
+            "5. Whenever you use Discordia, its glyphic action is refunded.",
+            "6. Discordia now targets 1 additional creature adjacent to the original target.",
+            "7. Whenever a creature affected by Discordia dies, it erupts in a burst of paranoia, dealing 11 glyphic damage to all of your foes adjacent to it.",
+            "8. Discordia inflicts 1 additional level of strife against bosses. Additionally, creatures have -1 to saves against Discordia.",
+            "9. Creatures affected by Discordia have -1 non-physical resistance. Additionally, creatures have -1 to saves against Discordia.",
+            "10. The debilitated condition inflicted by Discordia now lasts for as long as the creature is affected by Discordia. Additionally, creatures affected by Discordia have -1 non-physical resistance."
+        ]
+    },
+    {
+        "theme": "Nova Area",
+        "tiers": [
+            "1. Ruptis: 1/LR, glyphic action; You release a nova of black energy, dealing 7 glyphic damage to all creatures within 5' of you.",
+            "2. Whenever you use Ruptis, the target takes 4 ongoing glyphic damage, stacking until it passes a passive save (this damage scales with all glyphic damage bonuses).",
+            "3. Ruptis' area is increased to 10'.",
+            "4. Whenever you use Ruptis, heal 4 HP. Additionally, Ruptis' base damage becomes 10.",
+            "5. Whenever you score a critical success with a limited power, Ruptis' cooldown is refreshed.",
+            "6. Whenever you use Ruptis, the target gets -2 resistance for 1 round.",
+            "7. Whenever you use Ruptis, the target gets -2 resistance for 1 round.",
+            "8. Whenever you use Ruptis, your next limited power deals +9 damage.",
+            "9. While you have at least one completed glyph path, Ruptis deals +9 damage.",
+            "10. Whenever Ruptis scores a killing blow, an untargetable, black, twisted spire erupts from the corpse. The spire uses Ruptis at the end of each of your turns. Additionally, Ruptis' base damage becomes 15."
+        ]
+    },
+    {
+        "theme": "Difficult Terrain",
+        "tiers": [
+            "1. Impedimentum: 1/SR, glyphic action; You create a 5'x5' area of difficult terrain that lasts for the remainder of combat in a space within 60' of you.",
+            "2. Impedimentum is now a persistent zone that deals 3 glyphic damage.",
+            "3. Creatures in Impedimentum have -5' speed. Additionally, Impedimentum's base damage becomes 4.",
+            "4. Impedimentum's base damage becomes 7.",
+            "5. Whenever Impedimentum scores a killing blow, you gain +25' speed for 1 round.",
+            "6. Creatures in Impedimentum has -5' speed. Additionally, Impedimentum's base damage becomes 8.",
+            "7. Impedimentum's base damage becomes 12.",
+            "8. Whenever Impedimentum scores a killing blow, its size increases by 5' in all directions and its damage increases by 2.",
+            "9. When Impedimentum first appears, it immediately deals 4 ongoing glyphic damage to any creatures inside it, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses).",
+            "10. Impedimentum's persistent zone applies -10' speed until the target leaves the zone."
         ]
     }
 ]

@@ -672,7 +672,7 @@
         "affinities": ["survivability"]
     },
     {
-        "description": "+3 damage thorns",
+        "description": "+3 hit thorns",
         "pointValue": "1",
         "upgrade": "+2/1",
         "affinities": ["damage"]
