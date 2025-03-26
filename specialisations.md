@@ -43,7 +43,7 @@ Restriction: If you choose a passive that wasn't the default roll on a new cryst
 Whenever your crystal powers deal Strong damage, they count as being a number of levels higher than they are equal to your proficiency bonus.
 
 ### Unstable Power
-Your crystal flare chance is increased by 30%.
+Your crystal flare chance is increased by 15%.
 
 ### Versatile Power
 Your crystals also gain a new random power at level 3.

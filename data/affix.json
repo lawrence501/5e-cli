@@ -318,7 +318,7 @@
         "affinities": ["mobility"]
     },
     {
-        "description": "20% chance on getting any loot to gain +1 loot roll (does not chain)",
+        "description": "20% chance on making a loot roll to gain +1 loot roll (does not chain)",
         "pointValue": "3",
         "upgrade": "10%/1",
         "affinities": ["wealth"]

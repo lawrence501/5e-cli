@@ -323,7 +323,7 @@
       },
       {
         "description": "8. 1/LR, when downed, immediately heal 18 HP",
-        "upgrade": "1"
+        "upgrade": "+18"
       }
     ]
   },
@@ -593,8 +593,8 @@
         "upgrade": "+5'"
       },
       {
-        "description": "4. unintelligent creatures are much more likely to target you",
-        "upgrade": "much more"
+        "description": "4. unintelligent creatures are more likely to target you",
+        "upgrade": "more"
       },
       {
         "description": "5. +1 fortitude vs melee attacks",
@@ -1008,7 +1008,7 @@
       },
       {
         "description": "5. you can cast Invisibility 1/LR",
-        "upgrade": "+1 upcast level"
+        "upgrade": "+2 upcast levels"
       },
       {
         "description": "6. +2 investigation",
@@ -1513,6 +1513,334 @@
       {
         "description": "8. creatures dominated by you have -3 resistance vs will attacks",
         "upgrade": "-2"
+      }
+    ]
+  },
+  {
+    "name": "The Queen of Rot's Reign",
+    "base": {
+      "description": "you project a persistent zone 5' around you that deals 1 necrotic DoT damage to foes",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 DoT damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. creatures adjacent to you have -2 DoT resistance",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "4. creatures have -1 resistance if they have taken DoT damage from you in the last round",
+        "upgrade": "-1"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 necrotic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +1 passive regeneration",
+        "upgrade": "+1"
+      },
+      {
+        "description": "7. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. creatures have -5' speed if they have taken necrotic DoT damage from you in the last round",
+        "upgrade": "-5'"
+      }
+    ]
+  },
+  {
+    "name": "Trauma Demon's Fragility",
+    "base": {
+      "description": "-8 maximum HP; +9 hit thorns",
+      "upgrade": "-8 and +9"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 resistance while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +5 hit thorns",
+        "upgrade": "+4"
+      },
+      {
+        "description": "3. +8 hit thorns while bloodied",
+        "upgrade": "+8"
+      },
+      {
+        "description": "4. +2 damage vs adjacent targets",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. -3 psychic resistance; +4 deception",
+        "upgrade": "-2 and +4"
+      },
+      {
+        "description": "7. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. whenever you deal thorns damage, the target is pushed 10' away from you",
+        "upgrade": "+10'"
+      }
+    ]
+  },
+  {
+    "name": "Vidar, Shadow Spy's Facade",
+    "base": {
+      "description": "+3 deception while non-trivially pretending to be someone else",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +2 finesse",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +3 perception for noticing traps",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +2 resistance vs reflex attacks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +2 damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. your damaging attacks deal +1d4 poison damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "8. you can cast Disguise Self 1/LR. while affected by the spell, you have +2 deception",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Vidar, Assassin's Cruelty",
+    "base": {
+      "description": "on critical hit, deal 2 ongoing poison damage, stacking until the target passes a passive save",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 critical hit range vs targets taking ongoing damage",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. +2 DoT damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +3 ongoing damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +2 damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +10' blindsight",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "6. +1 damage while you are at least level 6",
+        "upgrade": "+1"
+      },
+      {
+        "description": "7. +8 maximum HP while you are at least level 6",
+        "upgrade": "+8"
+      },
+      {
+        "description": "8. whenever a creature fails a passive save to end your ongoing damage, it immediately takes 3 acid DoT damage",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Arndell's Barrier",
+    "base": {
+      "description": "whenever you use a non-damaging spell or maneuver, gain 2 temporary HP, which stacks with itself",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +3 incoming temporary HP",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +1 1st-level spell slot or +1 exertion",
+        "upgrade": "+1 slot OR +1 level ELSE +1"
+      },
+      {
+        "description": "3. +2 resistance while you have temporary HP",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. on short rest, recover 2 spell slot levels or 2 exertion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. you can cast Blur 1/LR",
+        "upgrade": "+2 upcast levels"
+      },
+      {
+        "description": "6. unintelligent creatures are more likely to target you",
+        "upgrade": "more"
+      },
+      {
+        "description": "7. +2 brawn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. whenever you gain temporary HP, the next time you use a non-damaging spell or maneuver, an ally within 30' of you heals 3 HP",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Morric's Sacrifice",
+    "base": {
+      "description": "+2 damage while you have at least 1 failed death save",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 failed death save bubble",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. whenever you gain HP while on 0 HP, gain 8 additional HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "3. +2 resistance while you have at least 1 failed death save",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. medicine checks on you consider your maximum HP to be 10 higher",
+        "upgrade": "+10"
+      },
+      {
+        "description": "5. +3 damage vs celestials",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. you can cast Speak With Dead 1/LR",
+        "upgrade": "SR -> minute -> 2/minute -> at-will"
+      },
+      {
+        "description": "7. +2 damage while not in sunlight",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. 1/LR, when downed, immediately heal 18 HP",
+        "upgrade": "+18"
+      }
+    ]
+  },
+  {
+    "name": "Clover's Incubation",
+    "base": {
+      "description": "while healthy, +1 damage; while bloodied, +1 resistance",
+      "upgrade": "+1 and +1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 passive regeneration",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. +8 maximum HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "3. +2 passive regeneration while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +2 damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. 2/combat, on hit while healthy, the target makes a save, becoming blinded for 1 round on a fail",
+        "upgrade": "creatures have -1 to their saves vs the blinded condition from you"
+      },
+      {
+        "description": "6. medicine checks on you consider your maximum HP to be 10 higher",
+        "upgrade": "+10"
+      },
+      {
+        "description": "7. your damaging attacks deal +1d4 fire damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "8. +3 incoming healing while healthy",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Surge's Infestation",
+    "base": {
+      "description": "whenever you deal damage with your reaction, +3 damage with reactions for 1 round",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. upon dealing damage with your reaction, the target gets -1 resistance for 1 round",
+        "upgrade": "-1"
+      },
+      {
+        "description": "2. +2 damage with reactions",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. upon dealing damage with your reaction, heal 5 HP",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. +2 necrotic damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. whenever a creature dies within 10' of you, you can react to raise it as a CR 1/4 undead minion that requires your concentration",
+        "upgrade": "+2 CR"
+      },
+      {
+        "description": "6. +2 damage while shapeshifted",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. you can cast Wither and Bloom 1/LR",
+        "upgrade": "+2 upcast levels"
+      },
+      {
+        "description": "8. your damaging reaction attacks deal +1d6 necrotic damage",
+        "upgrade": "+2 die sizes"
       }
     ]
   }

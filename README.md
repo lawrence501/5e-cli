@@ -55,7 +55,7 @@ Without original values:
 
 - Dominate: 8
 - Stagger/Debil/exh/confused/uncon/silence/double disadv condi: 5
-- Single disadv condi/slowed/charm/root/weak: 3
+- Single disadv condi/slowed/charm/root/grapple: 3
 - Prone/taunt/sluggish/similar: 2
 - Condi lasts until save/longer: x2
 - limited power conditional: -1
@@ -116,9 +116,6 @@ Utility
 7. Tarot Cards (tarot)
  
 13% each, remaining goes to reroll w/ upgrade (8%) + choose w/ upgrade (1% max)
-
-Rule change:
-- As a reaction, any creature may intercept a damaging attack against a creature adjacent to them, taking that attack instead and converting all damage it deals to true damage.
 
 Whenever loot is gained from a combat, anyone who rolled-off for a loot roll and didn't win rolls another d20. They take the result of either their roll-off or this new d20 and gain that much gold + 5. Whenever loot is gained from a combat, any absent players gain 10gp.
 

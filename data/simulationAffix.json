@@ -67,31 +67,31 @@
       "simulationTypes": ["dungeon", "journey"]
     },
     {
-      "description": "At the end of the simulation, the party gains 7 loot rolls.",
+      "description": "When the simulation is completed, the party gains 7 loot rolls.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, the party gains 48 experience.",
+      "description": "When the simulation is completed, the party gains 48 experience.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, the party gains a carnival ticket.",
+      "description": "When the simulation is completed, the party gains 1 carnival ticket.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, each player gains 2d4 perk points (each player rolls their own amount).",
+      "description": "When the simulation is completed, each player gains 2d4 perk points (each player rolls their own amount).",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, each player gains a random Specialisation. The simulation rewards no natural experience.",
+      "description": "When the simulation is completed, each player gains 1 random Specialisation. The simulation rewards no natural experience.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, each player gains an Augment. The simulation rewards no natural experience.",
+      "description": "When the simulation is completed, each player gains 1 Augment. The simulation rewards no natural experience.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "At the end of the simulation, each player mutates.",
+      "description": "When the simulation is completed, each player mutates.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     }
   ],

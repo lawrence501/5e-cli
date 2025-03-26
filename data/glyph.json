@@ -302,7 +302,7 @@
     {
         "theme": "Difficult Terrain",
         "tiers": [
-            "1. Impedimentum: 1/SR, glyphic action; You create a 5'x5' area of difficult terrain that lasts for the remainder of combat in a space within 60' of you.",
+            "1. Impedimentum: 1/SR, glyphic action; You create a 5'x5' area of tangling vines, causing difficult terrain that lasts for the remainder of combat in a space within 60' of you.",
             "2. Impedimentum is now a persistent zone that deals 3 glyphic damage.",
             "3. Creatures in Impedimentum have -5' speed. Additionally, Impedimentum's base damage becomes 4.",
             "4. Impedimentum's base damage becomes 7.",
@@ -312,6 +312,36 @@
             "8. Whenever Impedimentum scores a killing blow, its size increases by 5' in all directions and its damage increases by 2.",
             "9. When Impedimentum first appears, it immediately deals 4 ongoing glyphic damage to any creatures inside it, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses).",
             "10. Impedimentum's persistent zone applies -10' speed until the target leaves the zone."
+        ]
+    },
+    {
+        "theme": "Ranged",
+        "tiers": [
+            "1. Tractus: 1/LR, glyphic action; You shoot a black bolt of energy at a creature within 60' of you, dealing 7 glyphic damage.",
+            "2. Tractus can now be used once per short rest.",
+            "3. Tractus deals +10 damage against targets with full HP.",
+            "4. Tractus' base damage becomes 10, and it deals +4 damage against bloodied targets.",
+            "5. Whenever Tractus scores a killing blow, it leaves a beam of energy, a 15'x15' persistent zone, centered on the target. The zone deals 2 glyphic damage to foes. Additionally, Tractus' base damage becomes 11.",
+            "6. Tractus' base damage becomes 12, and its energy beam's damage becomes 4.",
+            "7. Tractus' energy beam's damage becomes 6. Additionally, its base damage becomes 14.",
+            "8. Whenever Tractus damages a boss or scores a killing blow against a non-boss, you heal 6 HP.",
+            "9. Whenever Tractus creates an energy beam, it instead creates two on top of each other. These areas each move 5' in a random direction at the end of each of your turns.",
+            "10. Whenever Tractus damages a boss or scores a killing blow against a non-boss, you gain +15' speed for 1 round. Additionally, its base damage becomes 15."
+        ]
+    },
+    {
+        "theme": "Grappled",
+        "tiers": [
+            "1. Pedem: 1/combat, glyphic action; Tendrils emerge from beneath your equipment, grappling a creature adjacent to you for 1 round as they lock it in place beside you.",
+            "2. Creatures affected by Pedem have -2 resistance vs you. Additionally, after using Pedem, you can move yourself and the target 5'.",
+            "3. Creatures affected by Pedem have -3 resistance vs you.",
+            "4. Whenever you use Pedem, its glyphic action is refunded.",
+            "5. You can use Pedem twice per combat.",
+            "6. Creatures affected by Pedem have -3 resistance vs you if they have a condition other than grappled.",
+            "7. Creatures affected by Pedem have -3 resistance vs you.",
+            "8. Pedem can also target another creature adjacent to the original target. Additionally, creatures affected by Pedem have -1 resistance vs you.",
+            "9. Whenever you grapple a creature with Pedem, roll a d4. On a 4, it restrains instead. Additionally, creatures affected by Pedem have -3 resistance vs you.",
+            "10. Whenever you restrain a creature with Pedem, they are also Staggered for 1 round."
         ]
     }
 ]
