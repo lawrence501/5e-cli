@@ -30,7 +30,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. on melee attack, if you have 20+ DEX, gain +1 reflex for 1 round",
+                "description": "3. on melee attack, if you have 20+ Dexterity, gain +1 reflex for 1 round",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -273,7 +273,7 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "+2 DEX and maximum DEX",
+                "description": "+2 Dexterity and maximum Dexterity",
                 "pointValue": "4",
                 "upgrade": "+1/2"
             }
@@ -305,7 +305,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. +1 to DEX-based ability checks",
+                "description": "6. +1 to Dexterity checks",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             }
@@ -2179,6 +2179,578 @@
             {
                 "description": "6. 1/SR, on melee spell hit, recover 2 units of a class-specific resource",
                 "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Disdain",
+        "startingAffixes": [
+            {
+                "description": "+1 1st-level spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot OR +1 level/3"
+            },
+            {
+                "description": "you may adjust your loot roll results by 1",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "gain incoming temporary HP equal to your bonus maximum HP",
+                "pointValue": "4",
+                "upgrade": "+4 maximum HP/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. gain spell damage equal to half your bonus maximum HP",
+                "pointValue": "3",
+                "upgrade": "+4 maximum HP/1"
+            },
+            {
+                "description": "2. your damaging spell attacks deal +1d4 force damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "3. +1 Dexterity and maximum Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +2 incoming temporary HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 resistance while you have temporary HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            }
+        ]
+    },
+    {
+        "name": "The Plate",
+        "startingAffixes": [
+            {
+                "description": "your first melee attack each combat has +10' reach",
+                "pointValue": "3",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "your first melee attack each combat deals additional damage equal to a quarter of the target's CR",
+                "pointValue": "2",
+                "upgrade": "+1 multiplier/2"
+            },
+            {
+                "description": "on hit with your first melee attack each combat, heal 4 HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on boss hit, 1 first melee attack of the combat affix on this item counts now as the start of the combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. upon scoring a critical hit against a boss, all first melee attack of the combat affixes on this item count now as the start of the combat",
+                "pointValue": "2",
+                "upgrade": "upon scoring a critical hit against a boss, your next melee attack this combat deals +5 damage/1"
+            },
+            {
+                "description": "3. your first melee attack each combat deals +4 damage",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "4. before you make your first melee attack of each combat, you may teleport 10'",
+                "pointValue": "3",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "5. +3 melee damage vs bosses",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "6. +1 resistance vs armour attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Calamity",
+        "startingAffixes": [
+            {
+                "description": "1/SR, on hit, target gets -1 resistance for the remainder of combat",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "+1 Dexterity and maximum Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on killing blow, recover 2 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 stealth",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 area damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 maximum exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. +2 maneuver damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 armour vs spells",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 sleight of hand",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Know Too Much",
+        "startingAffixes": [
+            {
+                "description": "+4 damage",
+                "pointValue": "8",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "whenever you deal damage, something bad will soon happen",
+                "pointValue": "-5",
+                "upgrade": "it gets worse and 6pts distributed/1"
+            },
+            {
+                "description": "you know the name of any humanoid you can see",
+                "pointValue": "1",
+                "upgrade": "+3->2 damage vs humanoids you know the name of/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 glyphic damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. whenever a combat in which you didn't score a killing blow ends, all allies within 60' of you lose 5 HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+5 and 2pts distributed/1"
+            },
+            {
+                "description": "3. you have 1 additional glyphic action on your turns",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. whenever you deal damage to an ally, heal 2 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +3 damage vs humanoids you know the name of",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "6. +1 damage with mutated powers",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Colossus",
+        "startingAffixes": [
+            {
+                "description": "on melee critical hit, gain +3 melee damage until you next deal melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "the effects of the Block action last 1 additional round",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+2 melee damage vs bloodied targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 resistance",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +1 melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on melee critical hit, gain +2 melee damage for the remainder of combat",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +2 incoming temporary HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. on melee hit, target has -1 damage vs you for the remainder of combat",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "6. on melee hit, gain +1 melee damage for the remainder of combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Mjolnir",
+        "startingAffixes": [
+            {
+                "description": "+1 bludgeoning damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "while your Intelligence is 15+, +1 bludgeoning damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on melee hit, a creature of your choice within 15' of you takes 1 lightning DoT damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. while your Strength is 15+, +1 bludgeoning damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 lightning DoT damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. you ignore bludgeoning resistance",
+                "pointValue": "3",
+                "upgrade": "+1 bludgeoning damage/1"
+            },
+            {
+                "description": "5. gain bludgeoning damage equal to your bonus lightning DoT damage",
+                "pointValue": "2",
+                "upgrade": "+1 lightning DoT damage/1"
+            },
+            {
+                "description": "6. on bludgeoning hit, a creature of your choice within 15' of you takes 1 lightning DoT damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Dimensional Doorway",
+        "startingAffixes": [
+            {
+                "description": "+5' maximum teleport distance",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "on melee major hit, the target makes a save, becoming silenced for 1 round on a fail",
+                "pointValue": "3",
+                "upgrade": "creatures have -1 to their saves vs the silenced condition from you/3"
+            },
+            {
+                "description": "+3 melee damage vs creatures that can cast spells",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on melee hit vs a silenced target, the target makes a save, becoming sluggish for 1 round on a fail",
+                "pointValue": "1",
+                "upgrade": "creatures have -1 to their saves vs the sluggish condition from you/3"
+            },
+            {
+                "description": "2. +1 melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. creatures have -1 to their saves vs the silenced condition from you",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "4. +2 damage with melee major hits",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 melee AB vs silenced targets",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. as a bonus action, you can teleport 5'",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            }
+        ]
+    },
+    {
+        "name": "The Piper",
+        "startingAffixes": [
+            {
+                "description": "+9 melee damage",
+                "pointValue": "9",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "-1 resistance while no foes are adjacent to you",
+                "pointValue": "-2",
+                "upgrade": "-1 and 3pts distributed/1"
+            },
+            {
+                "description": "-1 will",
+                "pointValue": "-4",
+                "upgrade": "-1 and 5pts distributed/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. the 5' area around you is a persistent zone that deals 1 slashing DoT damage to allies; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 3pts distributed/1"
+            },
+            {
+                "description": "2. upon going down, +2 melee damage for the remainder of combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. upon going down, -1 passive regeneration for the remainder of combat; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "4. -1 resistance; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 3pts distributed/1"
+            },
+            {
+                "description": "5. +1 persuasion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on melee hit, lose 1 HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 2pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Obedience",
+        "startingAffixes": [
+            {
+                "description": "+1 resistance vs armour attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your melee attacks deal +1d4 cold damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "+1 Strength and maximum Strength",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on killing blow, add 1d4 fire damage to your melee attacks for the remainder of combat",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "2. on killing blow, gain +2 melee damage for the remainder of combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 resistance while concentrating",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. you ignore fire resistance",
+                "pointValue": "3",
+                "upgrade": "+1 fire damage/1"
+            },
+            {
+                "description": "6. +1 Dexterity and maximum Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Seeping Bile",
+        "startingAffixes": [
+            {
+                "description": "1/combat per target, on hit, target takes 1 ongoing poison damage, stacking until it passes a passive save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "whenever a creature affected by your ongoing damage dies, the ongoing damage spreads to all your foes within 10' of the dead creature",
+                "pointValue": "3",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "on limited power hit, gain +2 DoT damage for 1 round",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 DoT damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +2 ongoing damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. whenever a creature fails its passive save to end your ongoing damage, it gets -1 resistance vs fortitude attacks for 1 round",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "4. the first tick of ongoing damage a creature takes is increased by 3",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. +1 poison DoT damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on limited power hit, any ongoing damage on the target spreads to all your foes within 5' of the target",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            }
+        ]
+    },
+    {
+        "name": "Static Cloud",
+        "startingAffixes": [
+            {
+                "description": "on ranged hit, the target makes a save, becoming slowed for 1 round on a fail",
+                "pointValue": "3",
+                "upgrade": "creatures have -1 to their saves vs the slowed condition from you/3"
+            },
+            {
+                "description": "on ranged hit, the target gets -1 resistance vs reflex attacks for 1 round",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "on ranged hit, the target gets +1 bludgeoning resistance for 1 round",
+                "pointValue": "-2",
+                "upgrade": "+1 and 2pts distributed/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on ranged hit, the target moves down 1 space in the initiative tracker",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "2. on ranged hit, the target gets -1 lightning resistance for 1 round",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "3. your ranged attacks deal +1d4 lightning damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "4. on ranged hit vs a slowed creature, the maximum duration of their slow is increased by 1 round",
+                "pointValue": "1",
+                "upgrade": "+1 ranged AB vs slowed targets/3"
+            },
+            {
+                "description": "5. +1 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. if your Intelligence is 15+, +1 ranged damage",
+                "pointValue": "1",
                 "upgrade": "+1/1"
             }
         ]

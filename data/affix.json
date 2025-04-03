@@ -60,7 +60,7 @@
         "affinities": []
     },
     {
-        "description": "+1 maneuver dmg",
+        "description": "+2 maneuver damage",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["damage"]
@@ -1051,9 +1051,9 @@
     },
     {
         "description": "someone in $city will exchange this item for exotic treasures (can be traded there for a random positive reward)",
-        "pointValue": "-",
-        "upgrade": "-",
-        "affinities": []
+        "pointValue": "3",
+        "upgrade": "+1 empower/3",
+        "affinities": ["wealth"]
     },
     {
         "description": "+3 crystal flare damage",

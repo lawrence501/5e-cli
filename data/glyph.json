@@ -343,5 +343,20 @@
             "9. Whenever you grapple a creature with Pedem, roll a d4. On a 4, it restrains instead. Additionally, creatures affected by Pedem have -3 resistance vs you.",
             "10. Whenever you restrain a creature with Pedem, they are also Staggered for 1 round."
         ]
+    },
+    {
+        "theme": "Ordered Attack",
+        "tiers": [
+            "1. Imperium: 1/SR, glyphic action; You force a creature within 60' of you to regurgitate a black, writhing mass of sludge, which lunges at another creature within 60' of the first creature. This deals 6 glyphic damage to the second creature. This counts as the first creature's damage, not yours.",
+            "2. Whenever you use Imperium, its glyphic action is refunded.",
+            "3. Imperium's base damage becomes 11.",
+            "4. Whenever you use Imperium, the next limited power the first creature uses before the end of its next turn deals +6 damage.",
+            "5. Whenever you use Imperium, black sludge erupts from the first creature's orifices, dealing 5 glyphic damage to all foes adjacent to it.",
+            "6. Whenever Imperium deals its base damage, the target takes 3 ongoing glyphic damage, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses).",
+            "7. Imperium's base damage becomes 17.",
+            "8. Whenever Imperium deals its base damage, the target makes a save, becoming staggered for 1 round on a fail. Additionally, its base damage becomes 18.",
+            "9. Imperium's ongoing damage becomes 7.",
+            "10. Imperium's base damage becomes 26."
+        ]
     }
 ]

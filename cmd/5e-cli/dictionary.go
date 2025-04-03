@@ -110,7 +110,7 @@ var FLARE_CHANCES map[string]int = map[string]int{
 }
 
 var CITIES []string = []string{
-	"The Hub",
+	"Imperial City",
 }
 
 var INSIGHTS map[string]int = map[string]int{

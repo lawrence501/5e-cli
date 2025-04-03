@@ -11,7 +11,6 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/juliangruber/go-intersect"
 	"github.com/manifoldco/promptui"
 )
 
@@ -176,11 +175,12 @@ var targetAffix = func() error {
 		return err
 	}
 	affinities := strings.Split(affinitiesS, " ")
+	chosenAffinity := randSelect(affinities)
 
 	var a Affix
 	for {
 		a = randSelect(allAffixes)
-		if len(intersect.Simple(affinities, a.Affinities)) > 0 {
+		if slices.Contains(a.Affinities, chosenAffinity) {
 			break
 		}
 	}
