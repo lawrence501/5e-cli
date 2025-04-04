@@ -447,7 +447,7 @@ var augment = func() error {
 		option3 = randSelect(augments)
 	}
 
-	return discordSend(fmt.Sprintf("### %s's augment options:\n* %s\n* %s\n* %s", char, option1, option2, option3))
+	return discordSend(fmt.Sprintf("### %s's augment options:\n- %s\n- %s\n- %s", char, option1, option2, option3))
 }
 
 var mission = func() error {
@@ -480,7 +480,7 @@ var crystal = func() error {
 	}
 	powerDescription := powers[power]
 
-	return discordSend(fmt.Sprintf("### Crystal: %s\n* **Passive:** %s (%s)\n* **Starting power:** %s (%s)", crystal.Name, passive, passiveDescription, power, powerDescription))
+	return discordSend(fmt.Sprintf("### Crystal: %s\n- **Passive:** %s (%s)\n- **Starting power:** %s (%s)", crystal.Name, passive, passiveDescription, power, powerDescription))
 }
 
 var crystalPower = func() error {
@@ -573,8 +573,8 @@ var relic = func() error {
 		m.Description = processString(m.Description)
 		modDescriptions = append(modDescriptions, m.Description)
 	}
-	modString := strings.Join(modDescriptions, "\n* ")
-	return discordSend(fmt.Sprintf("### Relic\n**%s**:\n* %s", chosen.Name, modString))
+	modString := strings.Join(modDescriptions, "\n- ")
+	return discordSend(fmt.Sprintf("### Relic\n**%s**:\n- %s", chosen.Name, modString))
 }
 
 var enchantedItem = func() error {
@@ -658,7 +658,7 @@ var enchantedItem = func() error {
 		craftDescriptions = append(craftDescriptions, "*None*")
 	}
 
-	return discordSend(fmt.Sprintf("## Enchanted Item\n* %s\n\n### Crafts\n* %s", strings.Join(modDescriptions, "\n* "), strings.Join(craftDescriptions, "\n* ")))
+	return discordSend(fmt.Sprintf("## Enchanted Item\n- %s\n\n### Crafts\n- %s", strings.Join(modDescriptions, "\n- "), strings.Join(craftDescriptions, "\n* ")))
 }
 
 var npc = func() error {

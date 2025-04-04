@@ -1,63 +1,23 @@
 {
-    "Dekel": [
+    "Bovo": [
+    ],
+    "Viktor": [
+    ],
+    "Junie": [
         {
-            "description": "Your Magic Missile base force damage is converted to necrotic damage, and if all darts target the same creature, you heal 2 HP.",
-            "pointValue": "2",
+            "description": "While within 60' of you, any ally can use their own bonus action to grant themselves one of your Bardic Inspiration dice. Dice gained in this way have a +2 bonus when rolled.",
+            "pointValue": "1",
+            "upgrade": "dice gained in this way have a +2 bonus/1"
+        },
+        {
+            "description": "Whenever you grant a Bardic Inspiration die to a creature, you can also grant one to another ally within range at the same time.",
+            "pointValue": "1",
+            "upgrade": "+10% for the extra die to not cost one of your dice/1"
+        },
+        {
+            "description": "You gain 1 additional use of Bardic Inspiration.",
+            "pointValue": "1",
             "upgrade": "+1/1"
-        },
-        {
-            "description": "Whenever you cast a cantrip as an action, you may also cast False Life as part of the same action.",
-            "pointValue": "4",
-            "upgrade": "false life as a bonus action -> free action/4"
-        },
-        {
-            "description": "Whenever your False Life spell ends, you only lose half of its remaining temporary hit points, which last until long rest. Additionally, your False Life grants 3 additional temporary hit points.",
-            "pointValue": "1",
-            "upgrade": "+2/1"
-        },
-        {
-            "description": "Your False Life is always upcast 1 level.",
-            "pointValue": "2",
-            "upgrade": "+1/2"
-        }
-    ],
-    "Bentley": [
-        {
-            "description": "The first time in a turn a creature fails a saving throw from you, you may trigger your Gathered Swarm.",
-            "pointValue": "2",
-            "upgrade": "+1 to your ongoing debuff DCs/4"
-        },
-        {
-            "description": "The Summoned Minion from your Summoner feat has +1 AB",
-            "pointValue": "2",
-            "upgrade": "+1/2"
-        },
-        {
-            "description": "The Summoned Minion from your Summoner feat has +5 max HP",
-            "pointValue": "1",
-            "upgrade": "+5/1"
-        }
-    ],
-    "Ede": [
-        {
-            "description": "Whenever the target of your Shield of Faith is hit by a melee attack, the attacker takes rad spell dmg equal to triple your bonus outgoing healing",
-            "pointValue": "1",
-            "upgrade": "+1 outgoing healing/1"
-        },
-        {
-            "description": "The bonus AC for upcasting your Shield of Faith is increased by 2. Additionally, it needs 2 fewer slot levels per upcast bonus.",
-            "pointValue": "4",
-            "upgrade": "+1 AC/1"
-        },
-        {
-            "description": "The Healer feat's heal action now has a range of 10'.",
-            "pointValue": "2",
-            "upgrade": "+5'/2"
-        },
-        {
-            "description": "After 5th level, the Healer feat's heal action scales in die count every 5 levels instead of 6.",
-            "pointValue": "2",
-            "upgrade": "-1 threshold/2"
         }
     ]
 }

@@ -98,15 +98,15 @@ var DAMAGE_POLARITIES []string = []string{
 }
 
 var PARTY_MEMBERS []string = []string{
-	"Dekel",
-	"Bentley",
-	"Ede",
+	"Bovo",
+	"Viktor",
+	"Junie",
 }
 
 var FLARE_CHANCES map[string]int = map[string]int{
-	"Dekel":   10,
-	"Bentley": 10,
-	"Ede":     10,
+	"Bovo":   18, // +5%, level 2
+	"Viktor": 10,
+	"Junie":  10,
 }
 
 var CITIES []string = []string{
@@ -114,9 +114,9 @@ var CITIES []string = []string{
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Dekel":    0,
-	"Bentley":  0,
-	"Ede":      0,
+	"Bovo":     4,
+	"Viktor":   1,
+	"Junie":    2,
 	"Sidekick": 0,
 }
 
