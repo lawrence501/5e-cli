@@ -362,7 +362,7 @@
     {
         "theme": "Cube Area",
         "tiers": [
-            "1. Quadrantal: 1/SR, glyphic action; All creatures within a 15' cube, of which at least one space must be adjacent to you, take 3 glyphic damage.",
+            "1. Quadrantal: 1/SR, glyphic action; A 15' cube of pure energy erupts beside you, of which at least one space must be adjacent to you. All creatures within the cube take 3 glyphic damage.",
             "2. Whenever Quadrantal damages at least one creature, gain 7 temporary HP.",
             "3. Whenever Quadrantal damages at least one creature, recover 2 spell slot levels or 2 exertion.",
             "4. Quadrantal deals additional damage equal to half the highest level unused spell slot you have or half your current exertion, whichever is higher. Additionally, Quadrantal's base damage becomes 4.",
@@ -372,6 +372,36 @@
             "8. While you have no spell slots or exertion remaining, Quadrantal can be used at-will.",
             "9. Quadrantal's cube area becomes 30'.",
             "10. Quadrantal's damage is now doubled on a 3+ on the d4. Additionally, Quadrantal's base damage becomes 6."
+        ]
+    },
+    {
+        "theme": "Push",
+        "tiers": [
+            "1. Dis: 1/SR, glyphic action; You shove a creature within 60' of you with an explosion of force, pushing it 15' away from you.",
+            "2. Whenever you use Dis, its glyphic action is refunded.",
+            "3. Dis' base push distance becomes 20'. Additionally, whenever you use Dis, roll a d6. On a 5+, its push distance is doubled.",
+            "4. Dis now pushes its target in a horizontal direction of your choice.",
+            "5. Whenever Dis' push distance would be doubled, it is tripled instead. Additionally, it now doubles on a 4+ on the d6.",
+            "6. Whenever you use Dis, you gain +3 glyphic damage for the remainder of combat.",
+            "7. Whenever you use Dis, the target gets -2 resistance for 1 round.",
+            "8. After you use Dis, the ally closest to the target gains +2 damage for the remainder of combat.",
+            "9. Whenever you use Dis, the target gets -2 resistance for 1 round.",
+            "10. Before you use Dis, the ally closest to the target gains +2 damage for the remainder of combat."
+        ]
+    },
+    {
+        "theme": "Persistent Zone",
+        "tiers": [
+            "1. Pertinacia: 2/combat, glyphic action; Pale spirits infest a 15'x15' area centred on a space within 60' of you, which becomes a persistent zone for the remainder of combat. It deals 1 glyphic damage.",
+            "2. Whenever you use Pertinacia, you gain +1 damage for the remainder of combat.",
+            "3. Pertinacia's base damage becomes 2.",
+            "4. Whenever you use Pertinacia, its glyphic action is refunded.",
+            "5. Pertinacia only deals damage to foes.",
+            "6. Pertinacia deals +2 damage against targets with the same 2 highest defences as you.",
+            "7. Pertinacia's base area becomes 25'x25'.",
+            "8. Pertinacia's base area becomes 35'x35'.",
+            "9. Pertinacia's ticks also force foes to make a save, becoming slowed for 1 round on a fail.",
+            "10. Pertinacia's base area becomes 45'x45'."
         ]
     }
 ]
