@@ -1,13 +1,13 @@
 [
     {
         "name": "Scourge",
-        "description": "Add a random negative affix with an Affinity of your choice, then min-equivalent-value positive affix",
+        "description": "Add a random negative affix with an Affinity of your choice, then the same points (multiplied by -1) are added to another affix of your choice",
         "tier": 1,
-        "upgrade": "+1 min point value to positive affix/1"
+        "upgrade": "+1 point value upgraded/1"
     },
     {
         "name": "Tweak",
-        "description": "Reroll an affix of your choice",
+        "description": "Reroll an affix of your choice, using the original affix's point value as the new one's minimum",
         "tier": 1,
         "upgrade": "+1 min point value to new affix/1"
     },
@@ -31,25 +31,25 @@
     },
     {
         "name": "Purify",
-        "description": "Remove all lowest-point-value affixes from the item and replace them with a new random affix with a minimum point value equal to the points removed.",
-        "tier": 2,
-        "upgrade": "+1 min point value to new affix/2"
+        "description": "Remove all lowest-point-value affixes from the item and give all removed points to a random remaining affix. If there is no remaining affix, instead add a new random affix with a minimum point value equal to the points removed.",
+        "tier": 1,
+        "upgrade": "+1 point upgraded/1"
     },
     {
         "name": "Negate",
-        "description": "An affix of your choice has its point value multiplied by -1, then a new random affix is added with a minimum point value of the points lost.",
+        "description": "An affix of your choice has its point value multiplied by -1, then the points lost are granted to another random affix on the item.",
         "tier": 1,
-        "upgrade": "+1 points added to new affix/1"
+        "upgrade": "+1 point upgraded/1"
     },
     {
         "name": "Inspire",
-        "description": "A dormant, unknown affix of an Affinity of your choice is added. It is revealed and activated the next time you complete a random mission, which is chosen now.",
-        "tier": 2,
-        "upgrade": "+1 min point value to new affix/2"
+        "description": "An affix of your choice is disabled until a random mission (chosen now) is completed. When it is revealed, it is automatically upgraded once.",
+        "tier": 1,
+        "upgrade": "+1 point upgraded once enabled/1"
     },
     {
         "name": "Refine",
-        "description": "An affix of your choice is rerolled within its Affinity.",
+        "description": "An affix of your choice is rerolled within its Affinity, using the original affix's point value as the new one's minimum.",
         "tier": 1,
         "upgrade": "+1 min point value to new affix/1"
     }

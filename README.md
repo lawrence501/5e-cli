@@ -119,10 +119,7 @@ Utility
 
 Whenever loot is gained from a combat, anyone who rolled-off for a loot roll and didn't win rolls another d20. They take the result of either their roll-off or this new d20 and gain that much gold + 5. Whenever loot is gained from a combat, any absent players gain 10gp.
 
-Each combat gives 20% chance for 2d4 perk points to party (each player rolls their own amount), 10% chance for a carnival ticket, and 3% chance for an otherworldly gift
-
-0.23 of single result per dungeon from loot rolls
-0.45 of single result per dungeon from gold
+Each combat gives 10% chance for a carnival ticket, and 3% chance for an otherworldly gift
 
 Orb of Chance options:
 1. 2 affixes
@@ -143,3 +140,5 @@ Final encounter types:
 4. Enemy group, invading us
 5. Single enemy, heavily fortified
 6. Waves of enemies, invading us
+
+Rewrite Biting Zephyr to be specifically about long-range identity, and remove the melee restrictions from most other traditions

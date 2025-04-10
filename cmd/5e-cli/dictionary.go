@@ -76,20 +76,20 @@ var WEAPON_CLASSES []string = []string{
 
 var SKILLS []string = []string{
 	"athletics",
-	"brawling",
+	"brawn", // 2 STR
 	"finesse",
-	"stealth",
+	"stealth", // 2 DEX
 	"magiscience",
 	"history",
-	"investigation",
-	"nature",
-	"insight",
 	"medicine",
+	"nature", // 4 INT
+	"insight",
+	"investigation",
 	"perception",
-	"survival",
+	"survival", // 4 WIS
 	"deception",
 	"intimidation",
-	"persuasion",
+	"persuasion", // 3 CHA
 }
 
 var DAMAGE_POLARITIES []string = []string{
@@ -540,4 +540,24 @@ var LOOT_RESULTS []string = []string{
 	"glyph",
 	"relic",
 	"tarot cards",
+}
+
+var JOURNEY_ACTIVITIES []string = []string{
+	"befriend animal",
+	"busk",
+	"chronicle",
+	"cook",
+	"cover tracks",
+	"experiment",
+	"force march",
+	"gossip",
+	"harvest",
+	"hunt & gather",
+	"loot remains",
+	"mug",
+	"pickpocket",
+	"scam",
+	"scout",
+	"seek shelter",
+	"treasure hunt",
 }

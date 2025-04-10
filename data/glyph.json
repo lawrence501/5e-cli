@@ -345,7 +345,7 @@
         ]
     },
     {
-        "theme": "Ordered Attack",
+        "theme": "Attack Order",
         "tiers": [
             "1. Imperium: 1/SR, glyphic action; You force a creature within 60' of you to regurgitate a black, writhing mass of sludge, which lunges at another creature within 60' of the first creature. This deals 6 glyphic damage to the second creature. This counts as the first creature's damage, not yours.",
             "2. Whenever you use Imperium, its glyphic action is refunded.",
@@ -357,6 +357,21 @@
             "8. Whenever Imperium deals its base damage, the target makes a save, becoming staggered for 1 round on a fail. Additionally, its base damage becomes 18.",
             "9. Imperium's ongoing damage becomes 7.",
             "10. Imperium's base damage becomes 26."
+        ]
+    },
+    {
+        "theme": "Cube Area",
+        "tiers": [
+            "1. Quadrantal: 1/SR, glyphic action; All creatures within a 15' cube, of which at least one space must be adjacent to you, take 3 glyphic damage.",
+            "2. Whenever Quadrantal damages at least one creature, gain 7 temporary HP.",
+            "3. Whenever Quadrantal damages at least one creature, recover 2 spell slot levels or 2 exertion.",
+            "4. Quadrantal deals additional damage equal to half the highest level unused spell slot you have or half your current exertion, whichever is higher. Additionally, Quadrantal's base damage becomes 4.",
+            "5. Whenever Quadrantal damages at least one creature, gain 7 temporary HP.",
+            "6. Whenever you use Quadrantal, its glyphic action is refunded.",
+            "7. While your highest-level spell slot is unused or you are on full exertion, roll a d4 whenever you use Quadrantal. On a 4, it deals double damage. Additionally, Quadrantal's base damage becomes 5.",
+            "8. While you have no spell slots or exertion remaining, Quadrantal can be used at-will.",
+            "9. Quadrantal's cube area becomes 30'.",
+            "10. Quadrantal's damage is now doubled on a 3+ on the d4. Additionally, Quadrantal's base damage becomes 6."
         ]
     }
 ]

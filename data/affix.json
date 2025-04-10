@@ -78,12 +78,6 @@
         "affinities": ["wealth"]
     },
     {
-        "description": "+1 perk gain",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "affinities": ["wealth"]
-    },
-    {
         "description": "+1 to d20 rolls during carnival games",
         "pointValue": "3",
         "upgrade": "+1/3",
@@ -1090,5 +1084,23 @@
         "pointValue": "1",
         "upgrade": "+2/1",
         "affinities": ["damage", "mobility"]
+    },
+    {
+        "description": "+1 to journey activity checks",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "affinities": ["utility"]
+    },
+    {
+        "description": "+1 to $journeyActivity journey activity checks",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "affinities": ["utility"]
+    },
+    {
+        "description": "+1 critical success range for journey activity checks",
+        "pointValue": "4",
+        "upgrade": "+1/4",
+        "affinities": ["utility"]
     }
 ]

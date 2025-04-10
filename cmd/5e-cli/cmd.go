@@ -305,7 +305,7 @@ var chaos = func() error {
 	return nil
 }
 
-var PERK_CHANCE = 20
+var PERK_CHANCE = 0
 var CARNIVAL_CHANCE = 10
 var OTHERWORLDLY_CHANCE = 3
 var combat = func() error {
@@ -778,5 +778,10 @@ var corruptionOrb = func() error {
 
 var lootResult = func() error {
 	log.Printf("Loot result: %s", randSelect(LOOT_RESULTS))
+	return nil
+}
+
+var journeyActivity = func() error {
+	log.Printf("Journey activity: %s", randSelect(JOURNEY_ACTIVITIES))
 	return nil
 }

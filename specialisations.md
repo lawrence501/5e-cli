@@ -196,4 +196,4 @@ Restriction: Other characters cannot use items you find that were colour-upgrade
 Whenever you would gain a Specialisation, you don't choose one. Instead, roll a d8 for the category, and then a d6 for the specific Specialisation you gain (completely reroll duplicates). Then, repeat this and gain a second Specialisation. If you have any other Specialisations when you first gain this, immediately remove them and do the above for each one removed. Additionally, gain one random Specialisation now.
 
 ### Munchkin
-Whenever you gain perk points, gain 2d10 instead of 2d4.
+Whenever you gain perk points, gain double the amount.

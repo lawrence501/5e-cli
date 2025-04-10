@@ -48,7 +48,7 @@
   "pressure": "Whenever a creature attacks you, that attack is disabled for the remainder of combat, or until it targets you with another attack.",
   "comatose": "You are always unconscious. While unconscious, you are not incapacitated, can move and speak, and can sense your surroundings, but remain persistently prone while on the ground. Additionally, you gain immunity to all conditions other than unconscious and prone.",
   "own tempo": "You gain immunity to the confused and frightened conditions.",
-  "pickpocket": "When hit, roll a d4, gaining the following benefit: +1 to attack rolls for the remainder of combat, heal lvl HP, +1 damage for the remainder of combat, +1 to all defences for the remainder of combat.",
+  "pickpocket": "When hit, gain 1 Supply.",
   "hydration": "na (dark recovery)",
   "dark recovery": "While outdoors and not in sunlight, you are cured of all conditions at the end of each of your turns."
 }

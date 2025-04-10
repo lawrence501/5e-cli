@@ -79,7 +79,7 @@
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "When the simulation is completed, each player gains 2d4 perk points (each player rolls their own amount).",
+      "description": "When the simulation is completed, each player gains 2d6 perk points (each player rolls their own amount).",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
@@ -93,6 +93,10 @@
     {
       "description": "When the simulation is completed, each player mutates.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "No Supply is naturally consumed during the simulation.",
+      "simulationTypes": ["journey"]
     }
   ],
   "negative": [
@@ -211,6 +215,10 @@
     {
       "description": "All player skill checks are rolled in secret.",
       "simulationTypes": ["puzzle"]
+    },
+    {
+      "description": "Natural Supply consumption is doubled.",
+      "simulationTypes": ["journey"]
     }
   ]
 }

@@ -1,18 +1,7 @@
 [
-  "Snowstorm: If at least half of the journey activities attempted today are not successful, you make no travel progress today.",
-  "Dust Storm: The first time you gain any amount of fatigue from a journey activity today, gain 1 additional level of fatigue.",
-  "Acid Rain: The first time you gain any amount of strife from a journey activity today, gain 1 additional level of strife.",
-  "Frigid: +2 to the DC of all journey activities today.",
-  "Hailstorm: -1 success tier to journey activities made today.",
-  "Thunderstorm: You are considered to have at least 4 strife today.",
-  "Sandstorm: You are considered to have at least 4 fatigue today.",
-  "Firestorm: Whenever someone gains multiple levels of fatigue or strife from a journey activity today, and no other characters are affected, the rest of the party also gains 1 level of fatigue or strife, respectively.",
-  "Monsoon: You gain 1 strife at the start of the day.",
-  "Gale Force Winds: You gain 1 fatigue at the start of the day.",
-  "Magical Energy Storm: All journey activity successes today become critical successes, and all failures become critical failures.",
-  "Clear: No effect.",
-  "Windy: Roll 1d4 whenever you make a journey activity check today. On an odd result, subtract that from your total. On an even, add it.",
-  "Crepuscular Rays: If you substantially fail a journey activity today, it is considered a normal failure instead.",
-  "Rain: -1 to the DC of all journey activities today.",
-  "Sunny: +1 success tier to journey activities made today."
+  "Downpour: You cannot use Strength checks for journey activities today.",
+  "Blizzard: You cannot use Dexterity checks for journey activities today.",
+  "Heavy Winds: You cannot use Intelligence checks for journey activities today.",
+  "Sweltering: You cannot use Wisdom checks for journey activities today.",
+  "Acid Rain: You cannot use Charisma checks for journey activities today."
 ]
