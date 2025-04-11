@@ -1,8 +1,14 @@
 {
-    "Junie (1 - Bardic Inspiration)": [
+    "Junie (2)": [
+        {
+            "description": "While within 60' of you, any ally can use their own bonus action to grant themselves one of your Bardic Inspiration dice. Dice gained in this way have a +4 bonus when rolled.",
+            "pointValue": "2",
+            "upgrade": "dice gained in this way have a +2 bonus/1"
+        }
     ],
-    "Bovo (0)": [
+    "Bovo (2 - Commanding Presence)": [
+        HERE! Commanding presence
     ],
-    "Viktor (0)": [
+    "Viktor (1 - Monstrous Minion)": [
     ]
 }

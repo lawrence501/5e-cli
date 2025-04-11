@@ -23,7 +23,7 @@
   "bitter blade": "Deal ruby damage and heal lvl HP.",
   "psycho cut": "Deal amethyst damage as if 1 lvl higher.",
   "flare blitz": "Cure yourself of the debilitated condition and deal double ruby damage. Then, lose 3*lvl HP.",
-  "sunny day": "For the remainder of combat, a 60' radius sphere of sunlight radiates from your current space. Ruby damage and the damage of fiends is doubled in the area.",
+  "sunny day": "For the remainder of combat, a 60' radius sphere of sunlight radiates from your current space. Allies and fiends in this area gain lvl damage.",
   "defence curl": "You gain +4*lvl melee resistance for the remainder of combat.",
   "rollout": "Deal diamond damage, and you can only use this power for the remainder of combat. This damage is doubled for each previous time you have used this power this combat.",
   "bulldoze": "Deal garnet damage and the target gets -lvl damage for the remainder of combat.",
@@ -258,6 +258,6 @@
   "whirlpool": "Deal lapis damage and inflict lvl ongoing opal damage, stacking until the target passes a passive save. While taking this ongoing damage, the target is rooted.",
   "water pulse": "Deal lapis damage and the target is confused until it passes a passive save.",
   "dive": "If you are in water, you immediately dive such that you are submerged beneath it until either the combat ends or your next flare (you can't willingly emerge until one of these things happen), which is replaced with this submerge effect ending and dealing triple lapis damage.",
-  "rain dance": "For the remainder of combat, a 60' radius sphere of heavy rain emanates from your current space. Bright light in this area is reduced to dim light and sunlight is blocked. Lapis damage and the damage of elementals is doubled in this area.",
+  "rain dance": "For the remainder of combat, a 60' radius sphere of heavy rain emanates from your current space. Bright light in this area is reduced to dim light and sunlight is blocked. Allies and elementals in this area gain lvl damage.",
   "take heart": "You are cured of all conditions and gain +2*lvl ranged/area resistance for the remainder of combat."
 }

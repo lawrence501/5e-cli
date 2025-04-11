@@ -588,7 +588,7 @@
         "affinities": ["damage"]
     },
     {
-        "description": "+1 [fortitude/reflex/will]",
+        "description": "+1 $minorDefence",
         "pointValue": "4",
         "upgrade": "1/4",
         "affinities": ["survivability"]
@@ -900,7 +900,7 @@
         "affinities": ["damage"]
     },
     {
-        "description": "+2 minion dmg",
+        "description": "+2 minion damage",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["damage"]
