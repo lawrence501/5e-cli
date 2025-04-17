@@ -149,7 +149,7 @@ Restriction: Relics you do this on cannot be used by other characters.
 ## Tarot Cards
 
 ### Divination
-Whenever you Scry, you can choose for your Unlocked card to provide two options for its impact.
+Whenever the party Scries, you can choose for your Unlocked card to provide two options for its impact.
 
 Restriction: Rings you do this on cannot be used by other characters.
 
@@ -169,12 +169,12 @@ Whenever you gain an Ace, you draw the actual card with advantage. Additionally,
 Restriction: Rings created with your Suit cards can no longer be used by other characters.
 
 ### The Third Eye Opens
-Whenever you Learn a card, learn a spell associated with that card. You can cast it a number of times between long rests equal to the number of cards you have Learned, governing it with any ability.
+Whenever the party Learns a card, you learn a spell associated with that card. You can cast it a number of times between long rests equal to the number of cards the party has Learned, governing it with any ability.
 
 ### Top-Deck
-Whenever you perform a Reading, after the ring is created, but before you Scry, you may choose for the card on top of the deck to be added to the Reading. You must then remove the impact of one of the Reading's cards from the ring.
+Whenever your party performs a Reading, after the ring is created, but before you Scry, you may choose for the card on top of the deck to be added to the Reading. You must then remove the impact of one of the Reading's cards from the ring.
 
-Restriction: Rings you do this one cannot be used by other characters.
+Restriction: Rings you do this on cannot be used by other characters, unless you remove the impact of the new card.
 
 ## Miscellaneous
 

@@ -65,7 +65,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "-8 max HP",
+                "description": "-8 maximum HP",
                 "pointValue": "-2",
                 "upgrade": "-4 and 2pts distributed/1"
             }
@@ -456,7 +456,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "5. +4 max HP",
+                "description": "5. +4 maximum HP",
                 "pointValue": "1",
                 "upgrade": "+4/1"
             },
@@ -560,7 +560,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "5. +4 max HP",
+                "description": "5. +4 maximum HP",
                 "pointValue": "1",
                 "upgrade": "+4/1"
             },
@@ -929,7 +929,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. +4 max HP",
+                "description": "6. +4 maximum HP",
                 "pointValue": "1",
                 "upgrade": "+4/1"
             }
@@ -1048,7 +1048,7 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "+4 max HP",
+                "description": "+4 maximum HP",
                 "pointValue": "1",
                 "upgrade": "+4/1"
             },
@@ -2752,6 +2752,110 @@
                 "description": "6. if your Intelligence is 15+, +1 ranged damage",
                 "pointValue": "1",
                 "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Forager",
+        "startingAffixes": [
+            {
+                "description": "+1 survival",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+2 to your Hunt & Gather journey activity checks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on a Hunt & Gather journey activity standard success, you gain +1 Supply",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on a Hunt & Gather journey activity critical success, you gain +2 Supply",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. whenever you gain Supply from the Hunt & Gather journey activity, you gain additional Supply equal to your bonus survival",
+                "pointValue": "4",
+                "upgrade": "+1 survival/1"
+            },
+            {
+                "description": "3. while journeying with a sidekick, you gain +2 Supply whenever you gain Supply from the Hunt & Gather journey activity",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. Tiny party members you are journeying with, including yourself, do not consume Supply",
+                "pointValue": "4",
+                "upgrade": "you are 1 size smaller/3"
+            },
+            {
+                "description": "5. +1 Hunt & Gather journey activity critical success range",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +2 to your survival checks to navigate",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Oracle",
+        "startingAffixes": [
+            {
+                "description": "+2 outgoing healing vs yourself",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+3 outgoing temporary HP vs yourself",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "+4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 incoming temporary HP equal to your bonus maximum HP",
+                "pointValue": "4",
+                "upgrade": "+4 maximum HP/1"
+            },
+            {
+                "description": "2. on ranged hit, your next melee attack deals +1 damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on ranged hit, the next instance of temporary HP you grant has a +3 bonus",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +2 outgoing healing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +3 outgoing temporary HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
             }
         ]
     }

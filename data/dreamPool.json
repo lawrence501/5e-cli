@@ -1,14 +1,39 @@
 {
     "Bovo": [
+        {
+            "description": "Whenever you command an allied minion to make a weapon attack and the attack hits, it can then follow up with a second weapon attack that has disadvantage.",
+            "pointValue": "4",
+            "upgrade": "+1 AB with follow-up attack/2"
+        },
+        {
+            "description": "Whenever you use your Commanding Presence to command an ally, the ally can also shift up to 5' as part of the same reaction",
+            "pointValue": "1",
+            "upgrade": "+5'/1"
+        },
+        {
+            "description": "You count as being 3 levels higher for the purposes of scaling your Commanding Presence's area",
+            "pointValue": "1",
+            "upgrade": "+2/1"
+        }
     ],
     "Viktor": [
+        {
+            "description": "Your Monstrous Minion's Shocking Coils graft now triggers whenever your Monstrous Minion is hit by any weapon attack. Additionally, Shocking Coils deals +1 damage.",
+            "pointValue": "1",
+            "upgrade": "+4/1"
+        },
+        {
+            "description": "The new attack granted by your Monstrous Minion's Grafted Weapon graft now grants the weapon has +1 to attack rolls",
+            "pointValue": "2",
+            "upgrade": "+1/2"
+        },
+        {
+            "description": "Whenever you take a short rest, your Monstrous Minion recovers all lost HP so long as you tend to it with your tools of artifice.",
+            "pointValue": "3",
+            "upgrade": "the first time your Monstrous Minion gains temporary HP after a short rest, it gains 9 more/1"
+        }
     ],
     "Junie": [
-        {
-            "description": "While within 60' of you, any ally can use their own bonus action to grant themselves one of your Bardic Inspiration dice. Dice gained in this way have a +2 bonus when rolled.",
-            "pointValue": "1",
-            "upgrade": "dice gained in this way have a +2 bonus/1"
-        },
         {
             "description": "Whenever you grant a Bardic Inspiration die to a creature, you can also grant one to another ally within range at the same time.",
             "pointValue": "1",

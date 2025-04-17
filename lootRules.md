@@ -46,8 +46,10 @@ You can sacrifice a relic to level up another relic, which either improves the e
 
 ## Tarot Cards (87-99)
 
-Whenever you loot tarot cards, you draw 2 cards from the deck. You can perform a Reading by turning in 3 tarot cards, which will create a ring. Two rings can be worn at once. Each card will add a unique upgrade to the ring.
+Whenever you loot tarot cards, you draw 2 cards from the deck. Your party can perform a Reading by turning in 3 tarot cards, which will create a ring. Two rings can be worn at once. Each card will add a unique upgrade to the ring.
 
-You can sacrifice a ring to Unlock a random card that was used to create it. On future Readings, after you see the resulting item, you can choose to Scry once. Scrying chooses a random card from the Reading and you may choose to replace its impact on the ring with one of your Unlocked cards.
+The party can sacrifice a ring to Unlock a random card that was used to create it. On future Readings, after the party sees the resulting ring, you can choose to Scry once. Scrying chooses a random card from the Reading and you may choose to replace its impact on the ring with one of your Unlocked cards.
 
-If you Unlock a card you've already Unlocked, it becomes Learned, and future Readings will always have that card added to it.
+If your party Unlocks the same card 4 times, it becomes Learned by the party, and you may choose to add that card to any future Readings.
+
+If any choices need to be made in a Reading, the player who contributed the most cards to that Reading has final say on those choices. Ties are broken with a roll-off.

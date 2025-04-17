@@ -228,7 +228,7 @@
         "affinities": ["survivability"]
     },
     {
-        "description": "+1 stealth during combat",
+        "description": "+2 stealth during combat",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["utility"]
@@ -1092,7 +1092,7 @@
         "affinities": ["utility"]
     },
     {
-        "description": "+1 to $journeyActivity journey activity checks",
+        "description": "+2 to $journeyActivity journey activity checks",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["utility"]
