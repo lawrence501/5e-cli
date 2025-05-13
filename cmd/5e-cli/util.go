@@ -66,7 +66,7 @@ func discordSend(content string) error {
 		return nil
 	}
 
-	content = "> _ _\n" + content
+	content = fmt.Sprintf("> *%s*\n%s", randomWords(2, " "), content)
 	DISCORD_USERNAME := "Broadcaster"
 	message := discordwebhook.Message{
 		Username: &DISCORD_USERNAME,
@@ -188,4 +188,12 @@ func dmgToDice(dmg float64) string {
 		return fmt.Sprintf("No elegant dice set found (1-10 dice) for %.1f damage.", dmg)
 	}
 	return fmt.Sprintf("%.0f%s", lowestCount, lowestDie)
+}
+
+func randomWords(count int, separator string) string {
+	outputBuilder := []string{}
+	for _ = range count {
+		outputBuilder = append(outputBuilder, randSelect(WORDLIST))
+	}
+	return strings.Join(outputBuilder, separator)
 }

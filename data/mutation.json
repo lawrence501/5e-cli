@@ -22,7 +22,7 @@
     {
         "name": "Cruelty",
         "target": "powers that deal damage",
-        "description": "The power cannot deal ongoing damage, but it deals more damage against targets affected by ongoing damage."
+        "description": "The power cannot cause ongoing harm, but it deals more damage against targets suffering from ongoing harm."
     },
     {
         "name": "Chaining",
@@ -42,7 +42,7 @@
     {
         "name": "Decay",
         "target": "powers that hit",
-        "description": "Whenever the power hits, the target takes slight ongoing $dmgType damage until they pass a passive save."
+        "description": "Whenever the power hits, the target suffers slight ongoing $dmgType harm until they pass a passive save."
     },
     {
         "name": "Cruel Upheaval",
@@ -72,12 +72,12 @@
     {
         "name": "Corruption",
         "target": "powers that heal",
-        "description": "The power's healing is converted to inflicting substantial ongoing $dmgType damage, stacking until the target passes a passive save."
+        "description": "The power's healing is converted to causing substantial ongoing $dmgType harm, stacking until the target passes a passive save."
     },
     {
         "name": "Corrosion",
-        "target": "powers that deal ongoing damage",
-        "description": "Creatures taking the power's ongoing damage have -1 Armour."
+        "target": "powers that cause ongoing harm",
+        "description": "Creatures suffering the power's ongoing harm have -1 Armour."
     },
     {
         "name": "Stability",
@@ -156,8 +156,8 @@
     },
     {
         "name": "Eternal Decay",
-        "target": "powers that deal ongoing damage",
-        "description": "The power's ongoing damage is reduced, but creature's have a -2 penalty to their passive saves to end it."
+        "target": "powers that cause ongoing harm",
+        "description": "The power's ongoing harm is reduced, but creature's have a -2 penalty to their passive saves to end it."
     },
     {
         "name": "Abundance",
@@ -212,7 +212,7 @@
     {
         "name": "Impending Eruption",
         "target": "powers with a non-instantaneous duration that target creatures",
-        "description": "When the power's duration ends, the target and all of your foes adjacent to it take $dmgType DoT damage."
+        "description": "When the power's duration ends, the target and all of your foes adjacent to it suffer $dmgType harm."
     },
     {
         "name": "Tanky Command",
@@ -261,13 +261,13 @@
     },
     {
         "name": "Layered Decay",
-        "target": "powers that deal non-stacking ongoing damage",
-        "description": "The power's ongoing damage now stacks."
+        "target": "powers that cause non-stacking ongoing harm",
+        "description": "The power's ongoing harm now stacks."
     },
     {
         "name": "Unstable Command",
         "target": "powers that summon damageable minions",
-        "description": "Whenever the power's minions become bloodied, they explode, dealing massive $dmgType DoT damage to adjacent foes and immediately dying."
+        "description": "Whenever the power's minions become bloodied, they explode, causing massive $dmgType harm to adjacent foes and immediately dying."
     },
     {
         "name": "Overpowering Combination",
@@ -287,7 +287,7 @@
     {
         "name": "Sonic Booms",
         "target": "powers that move you",
-        "description": "For every 5' space the power moves you through, all foes adjacent to that space take a slight amount of $dmgType DoT damage."
+        "description": "For every 5' space the power moves you through, all foes adjacent to that space suffer a slight amount of $dmgType harm."
     },
     {
         "name": "Cascading Mass",
@@ -347,12 +347,12 @@
     {
         "name": "Keen Eruption",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, energy erupts from the target, dealing substantial $dmgType DoT damage to all of your foes adjacent to the target."
+        "description": "Whenever the power scores a critical hit, energy erupts from the target, causing substantial $dmgType harm to all of your foes adjacent to the target."
     },
     {
         "name": "Decaying Assassination",
-        "target": "powers that deal ongoing damage",
-        "description": "Whenever the power inflicts ongoing damage on a creature with full HP, the ongoing damage is massively increased."
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever the power causes ongoing harm to a creature with full HP, the ongoing harm is massively increased."
     },
     {
         "name": "Keen Refreshment",
@@ -361,8 +361,8 @@
     },
     {
         "name": "Decaying Eruption",
-        "target": "powers that deal ongoing damage",
-        "description": "Whenever a creature affected by the power's ongoing damage dies, it explodes, dealing a slight amount of $dmgType DoT damage to all of your foes adjacent to it. This damage is multiplied by the number of ticks of the ongoing damage the creature took."
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever a creature suffering from the power's ongoing harm dies, it explodes, causing a slight amount of $dmgType harm to all of your foes adjacent to it. This damage is multiplied by the number of ticks of the ongoing harm the creature suffered."
     },
     {
         "name": "Exposure",
@@ -376,8 +376,8 @@
     },
     {
         "name": "Unstable Decay",
-        "target": "powers that deal ongoing damage which ends on a passive save",
-        "description": "The power deals substantially more ongoing damage, but creatures affected by that ongoing damage have +1 to passive saves to end it."
+        "target": "powers that cause ongoing harm which ends on a passive save",
+        "description": "The power causes substantially more ongoing harm, but creatures affected by that ongoing harm have +1 to passive saves to end it."
     },
     {
         "name": "Prepared Power",
@@ -461,8 +461,8 @@
     },
     {
         "name": "Explosive Execution",
-        "target": "powers that deal ongoing damage",
-        "description": "Whenever a creature affected by the power's ongoing damage dies, it explodes, dealing $dmgType DoT damage to all of your foes adjacent to it."
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever a creature suffering from the power's ongoing harm dies, it explodes, causing $dmgType harm to all of your foes adjacent to it."
     },
     {
         "name": "Frailty",
@@ -477,7 +477,7 @@
     {
         "name": "Sacrificial Decay",
         "target": "powers that summon damageable minions",
-        "description": "The power's minions have slightly reduced passive regeneration, and the 5' radius around them is a persistent zone that deals $dmgType DoT damage to foes."
+        "description": "The power's minions have slightly reduced passive regeneration, and the 5' radius around them is a persistent zone that causes $dmgType harm to foes."
     },
     {
         "name": "Distant Power",
@@ -486,8 +486,8 @@
     },
     {
         "name": "Slowing Decay",
-        "target": "powers that deal ongoing damage",
-        "description": "While a creature is affected by the power's ongoing damage, it is sluggish."
+        "target": "powers that cause ongoing harm",
+        "description": "While a creature is suffering from the power's ongoing harm, it is sluggish."
     },
     {
         "name": "Repulsion",
@@ -522,7 +522,7 @@
     {
         "name": "Eruption",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, you may expend a 1st-level spell slot or 1 exertion to deal massive $dmgType DoT damage to all foes adjacent to you."
+        "description": "Whenever the power scores a critical hit, you may expend a 1st-level spell slot or 1 exertion to cause massive $dmgType harm to all foes adjacent to you."
     },
     {
         "name": "Hasty Command",
@@ -576,8 +576,8 @@
     },
     {
         "name": "Pure Decay",
-        "target": "powers that deal ongoing and attack damage",
-        "description": "The power deals substantially more ongoing damage, but less attack damage."
+        "target": "powers that cause ongoing harm and deal damage",
+        "description": "The power causes substantially more ongoing harm, but deals less damage."
     },
     {
         "name": "Echoing Consideration",
@@ -596,8 +596,8 @@
     },
     {
         "name": "Spreading Decay",
-        "target": "powers that deal ongoing damage",
-        "description": "Whenever the power deals ongoing damage, foes adjacent to the target also receive the same ongoing damage. Additionally, the power deals less ongoing damage."
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever the power causes ongoing harm, foes adjacent to the target also receive the same ongoing harm. Additionally, the power deals less ongoing harm."
     },
     {
         "name": "Rejuvenating Execution",
@@ -642,7 +642,7 @@
     {
         "name": "Delayed Decay",
         "target": "powers with a non-instantaneous duration",
-        "description": "Whenever the power's duration ends, a 15'x15' persistent zone forms around its target for the remainder of combat that deals slight $dmgType DoT damage to foes."
+        "description": "Whenever the power's duration ends, a 15'x15' persistent zone forms around its target for the remainder of combat that causes slight $dmgType harm to foes."
     },
     {
         "name": "Powerful Creations",
@@ -672,7 +672,7 @@
     {
         "name": "Cruel Decay",
         "target": "powers that hit",
-        "description": "Whenever the power hits a target with a condition, all types of ongoing damage on the target are slightly increased."
+        "description": "Whenever the power hits a target with a condition, all types of ongoing harm on the target are slightly increased."
     },
     {
         "name": "Prismatism",
@@ -702,7 +702,7 @@
     {
         "name": "Cruel Eruption",
         "target": "powers that hit",
-        "description": "The power cannot inflict conditions, but whenever it hits a creature affected by a condition, the condition is removed and all foes adjacent to the target take substantial $dmgType DoT damage."
+        "description": "The power cannot inflict conditions, but whenever it hits a creature affected by a condition, the condition is removed and all foes adjacent to the target suffer substantial $dmgType harm."
     },
     {
         "name": "Pure Power",
@@ -726,8 +726,8 @@
     },
     {
         "name": "Decaying Cruelty",
-        "target": "powers that deal ongoing damage",
-        "description": "The power cannot inflict conditions, but whenever it applies ongoing damage to a creature affected by a condition, the condition is removed and the power deals substantially more ongoing damage."
+        "target": "powers that cause ongoing harm",
+        "description": "The power cannot inflict conditions, but whenever it causes ongoing harm to a creature affected by a condition, the condition is removed and the power causes substantially more ongoing harm."
     },
     {
         "name": "Contagious Cruelty",
@@ -737,7 +737,7 @@
     {
         "name": "Symptomatic Cruelty",
         "target": "powers that inflict conditions",
-        "description": "Conditions applied by the power do not end on creatures taking ongoing damage, until the ongoing damage ends."
+        "description": "Conditions applied by the power do not end on creatures suffering from ongoing harm, until the ongoing harm ends."
     },
     {
         "name": "Novas",

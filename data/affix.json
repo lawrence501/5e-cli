@@ -360,7 +360,7 @@
         "affinities": ["damage"]
     },
     {
-        "description": "+1 DoT damage",
+        "description": "+1 outgoing harm",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["damage"]
@@ -396,7 +396,7 @@
         "affinities": ["survivability", "control"]
     },
     {
-        "description": "your weapons gain the $weaponTrait trait",
+        "description": "your main hand weapon gains the $weaponTrait trait",
         "pointValue": "3",
         "upgrade": "+1 trait/3",
         "affinities": ["utility"]
@@ -660,7 +660,7 @@
         "affinities": ["damage"]
     },
     {
-        "description": "+1 DoT resistance",
+        "description": "-1 incoming harm",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["survivability"]

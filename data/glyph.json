@@ -65,7 +65,7 @@
             "1. Fortificare: 1/combat, glyphic action; You manifest a floating suit of armour made from tiny castle walls and structures that orbits a creature within 60' of you for 1 round. This grants them +1 armour.",
             "2. Creatures affected by Fortificare deal +3 damage.",
             "3. Creatures affected by Fortificare deal +3 damage.",
-            "4. Whenever you use Fortificare, its glyphic action is refunded.",
+            "4. Fortificare can now be used twice per combat.",
             "5. The damaging attacks of creatures affected by Fortificare deal +1d4 bludgeoning damage.",
             "6. Whenever a creature affected by Fortificare hits with an attack, they inflict 3 ongoing glyphic damage, stacking until the target passes a passive save (this scales with all glyphic damage bonuses).",
             "7. The damaging attacks of creatures affected by Fortificare now scale with minion damage stats, in addition to their usual scaling. Additionally, those same creatures have +3 minion damage.",
@@ -170,7 +170,7 @@
             "1. Sonticus: 2/combat, glyphic action; You sharpen the extremeties of a creature within 60' of you for 1 round, granting them +1 critical hit range.",
             "2. Creatures affected by Sonticus deal +1d10 piercing damage with their critical hits.",
             "3. Whenever you use Sonticus, the target is healed 4 HP.",
-            "4. Creatures affected by Sonticus have +4 DoT damage.",
+            "4. Creatures affected by Sonticus have +4 outgoing harm.",
             "5. Whenever a creature affected by Sonticus scores a critical hit, the target gets -3 physical resistance for 1 round.",
             "6. Creatures affected by Sonticus have +9 critical damage bonus.",
             "7. Sonticus' critical hit range bonus is increased to +2, and its critical damage bonus is increased to +11.",
@@ -213,7 +213,7 @@
         "theme": "Trample",
         "tiers": [
             "1. Conculco: 1/LR, glyphic action; You become momentarily incorporeal and ghastly, shifting up to 10'. While shifting in this way, you can pass through the spaces of hostile creatures, but cannot end the movement there. Any creature you passed through must make a save, taking 1 glyphic damage on a fail.",
-            "2. Whenever you use Conculco, its glyphic action is refunded.",
+            "2. Conculco can now be used 1/SR.",
             "3. Conculco's base damage becomes 5 and whenever it deals damage, the target must make a save, becoming debilitated for 1 round on a fail.",
             "4. Whenever Conculco would deal damage, roll a d4. On a 4, the damage is doubled. Additionally, Conculco's base damage becomes 8.",
             "5. Whenever Conculco deals damage, it deals 3 ongoing glyphic damage, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses). Additionally, whenever Conculco deals damage, the target becomes sluggish for 1 round.",
@@ -348,7 +348,7 @@
         "theme": "Attack Order",
         "tiers": [
             "1. Imperium: 1/SR, glyphic action; You force a creature within 60' of you to regurgitate a black, writhing mass of sludge, which lunges at another creature within 60' of the first creature. This deals 6 glyphic damage to the second creature. This counts as the first creature's damage, not yours.",
-            "2. Whenever you use Imperium, its glyphic action is refunded.",
+            "2. Imperium can now be used once per combat.",
             "3. Imperium's base damage becomes 11.",
             "4. Whenever you use Imperium, the next limited power the first creature uses before the end of its next turn deals +6 damage.",
             "5. Whenever you use Imperium, black sludge erupts from the first creature's orifices, dealing 5 glyphic damage to all foes adjacent to it.",
@@ -367,7 +367,7 @@
             "3. Whenever Quadrantal damages at least one creature, recover 2 spell slot levels or 2 exertion.",
             "4. Quadrantal deals additional damage equal to half the highest level unused spell slot you have or half your current exertion, whichever is higher. Additionally, Quadrantal's base damage becomes 4.",
             "5. Whenever Quadrantal damages at least one creature, gain 7 temporary HP.",
-            "6. Whenever you use Quadrantal, its glyphic action is refunded.",
+            "6. Quadrantal can now be used once per combat.",
             "7. While your highest-level spell slot is unused or you are on full exertion, roll a d4 whenever you use Quadrantal. On a 4, it deals double damage. Additionally, Quadrantal's base damage becomes 5.",
             "8. While you have no spell slots or exertion remaining, Quadrantal can be used at-will.",
             "9. Quadrantal's cube area becomes 30'.",
@@ -378,7 +378,7 @@
         "theme": "Push",
         "tiers": [
             "1. Dis: 1/SR, glyphic action; You shove a creature within 60' of you with an explosion of force, pushing it 15' away from you.",
-            "2. Whenever you use Dis, its glyphic action is refunded.",
+            "2. Dis can now be used once per combat.",
             "3. Dis' base push distance becomes 20'. Additionally, whenever you use Dis, roll a d6. On a 5+, its push distance is doubled.",
             "4. Dis now pushes its target in a horizontal direction of your choice.",
             "5. Whenever Dis' push distance would be doubled, it is tripled instead. Additionally, it now doubles on a 4+ on the d6.",
@@ -402,6 +402,36 @@
             "8. Pertinacia's base area becomes 35'x35'.",
             "9. Pertinacia's ticks also force foes to make a save, becoming slowed for 1 round on a fail.",
             "10. Pertinacia's base area becomes 45'x45'."
+        ]
+    },
+    {
+        "theme": "Invisibility Buff",
+        "tiers": [
+            "1. Indespectus: 1/combat, glyphic action; Hundreds of tiny, mirrored insects swarm around a creature within 60' of you, granting it invisibility for 1 round.",
+            "2. While a creature is affected by Indespectus, it has +3 damage.",
+            "3. While a creature is affected by Indespectus, all allies adjacent to them are invisible.",
+            "4. While a creature is affected by Indespectus, their damage ignores resistances.",
+            "5. Whenever Indespectus' effect ends, the bugs rush over to the nearest foe of your choice, dealing 6 glyphic damage to them before disappearing.",
+            "6. Indespectus can now be used twice per combat.",
+            "7. While a creature is affected by Indespectus, it has +1 armour AB.",
+            "8. Indespectus now lasts 1 additional round.",
+            "9. Whenever you use Indespectus, its glyphic action is refunded. Additionally, while a creature is affected by Indespectus, it has +1 damage.",
+            "10. While a creature is affected by Indespectus, it has +3 damage vs targets suffering ongoing harm."
+        ]
+    },
+    {
+        "theme": "Trap",
+        "tiers": [
+            "1. Insidia: 1/SR, glyphic action; Choose an unoccupied space within 60' of you. The next time a creature enters that space, it takes 7 glyphic damage.",
+            "2. Insidia now triggers the next two times a creature either enters its space or starts its turn there.",
+            "3. Insidia's base damage becomes 11.",
+            "4. At the start of each of your turns, you may move Insidia up to 20'.",
+            "5. If 1 round after its first trigger Insidia hasn't been triggered again, you may deal 8 glyphic damage to the creature that triggered Insidia the first time.",
+            "6. Whenever a creature takes Insidia's base damage, it makes a save, becoming frightened for 1 round on a fail. Additionally, Insidia's base damage becomes 12.",
+            "7. After its first trigger, Insidia grows to a 15'x15' area. Additionally, its base damage becomes 13.",
+            "8. Whenever Insidia deals its base damage, you heal 5 HP.",
+            "9. Whenever a creature takes Insidia's base damage, it becomes sluggish for 1 round. Additionally, Insidia's base damage becomes 14.",
+            "10. Insidia's base damage becomes 19."
         ]
     }
 ]

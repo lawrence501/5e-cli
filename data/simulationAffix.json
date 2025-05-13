@@ -71,11 +71,27 @@
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
+      "description": "When the simulation is completed, each player gains 1 otherworldly gift.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "When the simulation is completed, each player gains 100gp.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "When the simulation is completed, the party gains 7 loot rolls.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
       "description": "When the simulation is completed, the party gains 48 experience.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
-      "description": "When the simulation is completed, the party gains 1 carnival ticket.",
+      "description": "When the simulation is completed, the party gains 2 carnival tickets.",
+      "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
+    },
+    {
+      "description": "When the simulation is completed, each player gains 1 Prize.",
       "simulationTypes": ["dungeon", "hunt", "journey", "puzzle"]
     },
     {
@@ -97,6 +113,11 @@
     {
       "description": "No Supply is naturally consumed during the simulation.",
       "simulationTypes": ["journey"]
+    },
+    {
+      "description": "Turns are simultaneous. Any players who beat the monster initiative get a free turn first, otherwise sides act simultaneously.",
+      "display": "Each side of combat takes simultaneous turns.",
+      "simulationTypes": ["dungeon", "hunt", "journey"]
     }
   ],
   "negative": [

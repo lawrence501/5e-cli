@@ -35,7 +35,7 @@
                 "upgrade": "+1/4"
             },
             {
-                "description": "4. on melee attack, +1 DoT resistance for 1 round",
+                "description": "4. on melee attack, -1 incoming harm for 1 round",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -72,12 +72,12 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. while taking ongoing damage, your spells ignore necrotic resistance",
+                "description": "1. while suffering ongoing harm, your spells ignore necrotic resistance",
                 "pointValue": "1",
-                "upgrade": "while taking ongoing damage, +3->2 necrotic spell damage/1"
+                "upgrade": "while suffering ongoing harm, +3->2 necrotic spell damage/1"
             },
             {
-                "description": "2. on spell cast, you take 1 ongoing necrotic damage, stacking until passive save; 3pts distributed",
+                "description": "2. on spell cast, you suffer 1 ongoing necrotic harm, stacking until passive save; 3pts distributed",
                 "pointValue": "-2",
                 "upgrade": "+1 and 3pts distributed/1"
             },
@@ -169,7 +169,7 @@
                 "upgrade": "+1 spell slot lost and 3pts distributed/1"
             },
             {
-                "description": "whenever your chaining powers chain to you while you have spell slots remaining, they explode, dealing 16 DoT damage of their type to foes adjacent to you",
+                "description": "whenever your chaining powers chain to you while you have spell slots remaining, they explode, causing 16 harm of their type to foes adjacent to you",
                 "pointValue": "4",
                 "upgrade": "+4/1"
             }
@@ -233,7 +233,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. if you have dealt weapon damage since the start of your last turn, +1 poison DoT damage",
+                "description": "2. if you have dealt weapon damage since the start of your last turn, +1 outgoing poison harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -243,7 +243,7 @@
                 "upgrade": "+4/1"
             },
             {
-                "description": "4. on healing another creature that is above 0 HP, gain +2 poison DoT damage for 1 round",
+                "description": "4. on healing another creature that is above 0 HP, gain +2 outgoing poison harm for 1 round",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -263,12 +263,12 @@
         "name": "Icefang Orbit",
         "startingAffixes": [
             {
-                "description": "whenever ongoing damage is inflicted on you, make a save. On a fail, you are slowed until the ongoing damage ends",
+                "description": "whenever ongoing harm is inflicted on you, make a save. On a fail, you are slowed until the ongoing harm ends",
                 "pointValue": "-3",
                 "upgrade": "-1 to saves vs the slowed condition and 3pts distributed/1"
             },
             {
-                "description": "on hit, target takes 1 ongoing poison damage, stacking until it passes a passive save",
+                "description": "on hit, target suffers 1 ongoing poison harm, stacking until it passes a passive save",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -280,27 +280,27 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 poison DoT damage",
+                "description": "1. +1 outgoing poison harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. whenever you inflict ongoing poison damage, the target makes a save, becoming slowed on a fail",
+                "description": "2. whenever you cause ongoing poison harm, the target makes a save, becoming slowed on a fail",
                 "pointValue": "3",
                 "upgrade": "creatures have -1 to their saves vs the slowed condition from you/4"
             },
             {
-                "description": "3. on killing blow vs creatures taking ongoing poison damage, gain 5gp",
+                "description": "3. on killing blow vs creatures suffering ongoing poison harm, gain 5gp",
                 "pointValue": "1",
                 "upgrade": "+5/1"
             },
             {
-                "description": "4. on hit, take 1 ongoing poison damage, stacking until you pass a passive save; 3pts distributed",
+                "description": "4. on hit, suffer 1 ongoing poison harm, stacking until you pass a passive save; 3pts distributed",
                 "pointValue": "1",
                 "upgrade": "+1 and 3pts distributed/1"
             },
             {
-                "description": "5. whenever you inflict ongoing damage, you can use your reaction to add 2 cold damage to that ongoing damage effect",
+                "description": "5. whenever you cause ongoing harm, you can use your reaction to add 2 cold harm to that ongoing harm effect",
                 "pointValue": "2",
                 "upgrade": "+1/1"
             },
@@ -443,7 +443,7 @@
             {
                 "description": "2. foes within 60' of you cannot heal",
                 "pointValue": "3",
-                "upgrade": "whenever a foe within 60' would try to heal, they take +6 necrotic DoT damage instead/1"
+                "upgrade": "whenever a foe within 60' would try to heal, they suffer +6 necrotic harm instead/1"
             },
             {
                 "description": "3. +1 passive regeneration",
@@ -632,7 +632,7 @@
                 "upgrade": "-1/4"
             },
             {
-                "description": "on your first killing blow vs a creature affected by your conditions, unleash an Ice Nova dealing 8 cold DoT damage to all foes adjacent to you",
+                "description": "on your first killing blow vs a creature affected by your conditions, unleash an Ice Nova causing 8 cold harm to all foes adjacent to you",
                 "pointValue": "1",
                 "upgrade": "+5/1"
             },
@@ -649,17 +649,17 @@
                 "upgrade": "creatures staggered by you have -1 resistance/3"
             },
             {
-                "description": "2. on killing blow, +2 DoT damage for the remainder of combat",
+                "description": "2. on killing blow, +2 outgoing harm for the remainder of combat",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. creatures affected by your conditions have -1 DoT resistance",
+                "description": "3. creatures affected by your conditions have +1 incoming harm",
                 "pointValue": "1",
                 "upgrade": "-1/1"
             },
             {
-                "description": "4. creatures affected by your conditions take 1 cold DoT damage at the start of each of their turns",
+                "description": "4. creatures affected by your conditions suffer 1 cold harm at the start of each of their turns",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -758,7 +758,7 @@
                 "upgrade": "+7/1"
             },
             {
-                "description": "3. the first time you apply ongoing damage each combat, you apply +2 ongoing force damage on hit (stacking until the target passes a passive save) for the remainder of combat",
+                "description": "3. the first time you cause ongoing harm each combat, you cause +2 ongoing force harm on hit (stacking until the target passes a passive save) for the remainder of combat",
                 "pointValue": "4",
                 "upgrade": "+1/2"
             },
@@ -924,7 +924,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "5. whenever you receive healing, a creature of your choice within 60' takes 2 piercing DoT damage",
+                "description": "5. whenever you receive healing, a creature of your choice within 60' suffers 2 piercing harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -966,7 +966,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. on hit, inflict 1 ongoing fire damage, stacking until the target passes a passive save",
+                "description": "3. on hit, cause 1 ongoing fire harm, stacking until the target passes a passive save",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -1486,7 +1486,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. +1 cold DoT damage",
+                "description": "3. +1 outgoing cold harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -1516,12 +1516,12 @@
                 "upgrade": "-1 and 2pts distributed/1"
             },
             {
-                "description": "+8 ongoing damage",
+                "description": "+8 to your ongoing harm",
                 "pointValue": "7",
                 "upgrade": "+1/1"
             },
             {
-                "description": "after your ongoing damage instances tick, their damage is reduced by 2",
+                "description": "after your ongoing harm instances tick, their magnitude is reduced by 2",
                 "pointValue": "-2",
                 "upgrade": "-1 and 2pts distributed/1"
             }
@@ -1538,7 +1538,7 @@
                 "upgrade": "+1 multiplier/2"
             },
             {
-                "description": "3. whenever you hit a creature taking your ongoing damage, the ongoing damage spreads to all of your foes within 5' of the target",
+                "description": "3. whenever you hit a creature suffering your ongoing harm, the ongoing harm spreads to all of your foes within 5' of the target",
                 "pointValue": "2",
                 "upgrade": "+5'/2"
             },
@@ -1548,12 +1548,12 @@
                 "upgrade": "-1 and 5pts distributed/1"
             },
             {
-                "description": "5. +1 damage vs creatures taking your ongoing damage",
+                "description": "5. +1 damage vs creatures suffering your ongoing damage",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. creatures have +1 to passive saves to end your ongoing damage; 4pts distributed",
+                "description": "6. creatures have +1 to passive saves to end your ongoing harm; 4pts distributed",
                 "pointValue": "1",
                 "upgrade": "+1 and 4pts distributed/1"
             }
@@ -1642,9 +1642,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. while you are taking ongoing damage from a foe, foes cannot apply ongoing damage to you",
+                "description": "3. while you are suffering ongoing damage from a foe, foes cannot cause ongoing harm to you",
                 "pointValue": "4",
-                "upgrade": "+2->1 ongoing damage resistance/1"
+                "upgrade": "+2->1 ongoing harm resistance/1"
             },
             {
                 "description": "4. +1 damage",
@@ -2348,7 +2348,7 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "whenever you deal damage, something bad will soon happen",
+                "description": "whenever you deal attack damage, something bad will soon happen",
                 "pointValue": "-5",
                 "upgrade": "it gets worse and 6pts distributed/1"
             },
@@ -2457,7 +2457,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "on melee hit, a creature of your choice within 15' of you takes 1 lightning DoT damage",
+                "description": "on melee hit, a creature of your choice within 15' of you suffers 1 lightning harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -2474,7 +2474,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. +1 lightning DoT damage",
+                "description": "3. +1 outgoing lightning harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2484,12 +2484,12 @@
                 "upgrade": "+1 bludgeoning damage/1"
             },
             {
-                "description": "5. gain bludgeoning damage equal to your bonus lightning DoT damage",
+                "description": "5. gain bludgeoning damage equal to your bonus outgoing lightning harm",
                 "pointValue": "2",
-                "upgrade": "+1 lightning DoT damage/1"
+                "upgrade": "+1 outgoing lightning harm/1"
             },
             {
-                "description": "6. on bludgeoning hit, a creature of your choice within 15' of you takes 1 lightning DoT damage",
+                "description": "6. on bludgeoning hit, a creature of your choice within 15' of you suffers 1 lightning harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -2568,7 +2568,7 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. the 5' area around you is a persistent zone that deals 1 slashing DoT damage to allies; 3pts distributed",
+                "description": "1. the 5' area around you is a persistent zone that causes 1 slashing harm to allies; 3pts distributed",
                 "pointValue": "1",
                 "upgrade": "+1 and 3pts distributed/1"
             },
@@ -2655,49 +2655,49 @@
         "name": "Seeping Bile",
         "startingAffixes": [
             {
-                "description": "1/combat per target, on hit, target takes 1 ongoing poison damage, stacking until it passes a passive save",
+                "description": "1/combat per target, on hit, target suffers 1 ongoing poison harm, stacking until it passes a passive save",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "whenever a creature affected by your ongoing damage dies, the ongoing damage spreads to all your foes within 10' of the dead creature",
+                "description": "whenever a creature suffering your ongoing harm dies, the ongoing harm spreads to all your foes within 10' of the dead creature",
                 "pointValue": "3",
                 "upgrade": "+5'/1"
             },
             {
-                "description": "on limited power hit, gain +2 DoT damage for 1 round",
+                "description": "on limited power hit, gain +2 outgoing harm for 1 round",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 DoT damage",
+                "description": "1. +1 outgoing harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. +2 ongoing damage",
+                "description": "2. +2 ongoing harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. whenever a creature fails its passive save to end your ongoing damage, it gets -1 resistance vs fortitude attacks for 1 round",
+                "description": "3. whenever a creature fails its passive save to end your ongoing harm, it gets -1 resistance vs fortitude attacks for 1 round",
                 "pointValue": "1",
                 "upgrade": "-1/1"
             },
             {
-                "description": "4. the first tick of ongoing damage a creature takes is increased by 3",
+                "description": "4. the first tick of ongoing harm a creature takes is increased by 3",
                 "pointValue": "1",
                 "upgrade": "+2/1"
             },
             {
-                "description": "5. +1 poison DoT damage",
+                "description": "5. +1 outgoing poison harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. on limited power hit, any ongoing damage on the target spreads to all your foes within 5' of the target",
+                "description": "6. on limited power hit, any ongoing harm on the target spreads to all your foes within 5' of the target",
                 "pointValue": "1",
                 "upgrade": "+5'/1"
             }

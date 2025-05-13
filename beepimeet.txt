@@ -1,0 +1,18 @@
+beepimeet
+Max HP 31
+Current: 31
+Temp: 0
+HD: 2
+
+Maul: 2d8 + 5
+
+STR 18
+DEX 10
+INT 14
+WIS 10
+CHA 9
+
+Brawn prof
+Finesse prof
+
+Dekel gold: +40

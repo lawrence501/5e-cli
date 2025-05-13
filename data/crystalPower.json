@@ -9,7 +9,7 @@
   "astonish": "Deal ruby damage and break the target's concentration.",
   "night slash": "Deal onyx damage as if 1 lvl higher.",
   "shadow sneak": "Deal true damage.",
-  "ephemeral guard": "You gain 8*lvl DoT resistance for 1 round.",
+  "ephemeral guard": "You gain -8*lvl incoming harm for 1 round.",
   "solar blade": "Choose the target, then this power does nothing for 1 round. Then, deal double emerald damage. While in sunlight, this effect occurs immediately instead. While in darkness, this effect just deals emerald damage instead.",
   "shadow claw": "Deal ruby damage as if 1 lvl higher.",
   "clear smog": "Deal emerald damage and remove all temporary effects and conditions affecting the target, whether positive or negative.",

@@ -70,3 +70,8 @@ type Craft struct {
 	Upgrade     string `json:"upgrade"`
 	Rank        int
 }
+
+type Fumble struct {
+	Trigger string `json:"trigger"`
+	Effect  string `json:"effect"`
+}

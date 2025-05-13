@@ -142,3 +142,5 @@ Final encounter types:
 6. Waves of enemies, invading us
 
 Rewrite Biting Zephyr to be specifically about long-range identity, and remove the melee restrictions from most other traditions
+
+How does the variety of loot currently feel? Does it feel good to have so many different systems that all have their own investment mechanics and specialisations? Or is there too much going on? Just first gut feeling

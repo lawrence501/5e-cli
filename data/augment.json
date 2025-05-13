@@ -30,7 +30,7 @@
         "[Identity] Your fortitude attacks have advantage against creatures within 10' of your Wall of Sound. Additionally, the areas of your spells with the thunder tag are increased by 5'.",
         "[Gap] Creatures deafened by you have -3 armour vs attacks from creatures flanking them.",
         "[Gap] Your maximum uses of Bardic Inspiration is increased by 3.",
-        "[Keyword] Whenever you target a creature with a levelled spell, their Ears Ring for 1 round. While a creature's Ears are Ringing, it takes thunder DoT damage from you equal to triple its CR whenever it makes an attack.",
+        "[Keyword] Whenever you target a creature with a levelled spell, their Ears Ring for 1 round. While a creature's Ears are Ringing, it suffers thunder harm equal to triple its CR whenever it makes an attack.",
         "[Keyword] Whenever you are hit by an attack, the attacker's Ears Ring for 1 round. While a creature's Ears are ringing, attacks against it have +3 critical hit range.",
         "[AI] The damage dice of your Blast of Sound increase to d12s. Additionally, armour attacks have advantage against creatures deafened by your Blast of Sound.",
         "[AI] The range of your Eyes of the Ears feature is doubled, and you gain advantage on Insight checks against creatures you can hear. Additionally, when creating a Wall of Sound, you can designate creatures to be unaffected by it."

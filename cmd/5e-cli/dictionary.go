@@ -105,8 +105,8 @@ var PARTY_MEMBERS []string = []string{
 
 var FLARE_CHANCES map[string]int = map[string]int{
 	"Bovo":   18, // +5%, level 2
-	"Viktor": 14, // +1%, level 2
-	"Junie":  10,
+	"Viktor": 17, // +1%, level 3
+	"Junie":  10, // +0%, level 1
 }
 
 var CITIES []string = []string{
@@ -211,6 +211,7 @@ var WEAPON_TRAITS []string = []string{
 	"responsive",
 	"restraining",
 	"returning",
+	"scaling (+1)",
 	"sweep",
 	"targe",
 	"thrown (20'/60')",

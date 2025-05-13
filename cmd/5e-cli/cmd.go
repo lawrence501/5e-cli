@@ -661,6 +661,19 @@ var enchantedItem = func() error {
 	return discordSend(fmt.Sprintf("## Enchanted Item\n- %s\n\n### Crafts\n- %s", strings.Join(modDescriptions, "\n- "), strings.Join(craftDescriptions, "\n* ")))
 }
 
+var FUMBLE_MODIFIER = float64(-5)
+
+var fumble = func() error {
+	roll := math.Max(float64(rand.Intn(100))+FUMBLE_MODIFIER, 0)
+	fumbles, err := fetchData("fumble", []Fumble{})
+	if err != nil {
+		return err
+	}
+	f := fumbles[int64(roll)]
+	log.Printf("Fumble:\n%s - %s", f.Trigger, f.Effect)
+	return nil
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil

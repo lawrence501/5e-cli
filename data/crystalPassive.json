@@ -36,7 +36,7 @@
   "download": "You gain +3 melee damage vs targets with higher will than armour, and +3 ranged/area damage against all other creatures.",
   "thick fat": "You gain 50% resistance to fire and cold.",
   "guts": "While you have a condition applied to you by a foe, you have +3 melee damage. Additionally, your melee damage cannot be reduced by the effects of conditions.",
-  "water bubble": "You gain 50% resistance to fire and +6 bludgeoning damage. Additionally, you gain immunity to ongoing fire damage.",
+  "water bubble": "You gain 50% resistance to fire and +6 bludgeoning damage. Additionally, you gain immunity to ongoing fire harm.",
   "water absorb": "You gain 100% bludgeoning absorption.",
   "suction cups": "You cannot be moved against your will.",
   "storm drain": "You gain immunity to bludgeoning damage, and all bludgeoning damage taken by allies within 60' of you from attacks is redirected to you (major successes ignore immunity as usual). Whenever you would usually take bludgeoning damage, you gain +3 ranged/area damage for the remainder of combat.",

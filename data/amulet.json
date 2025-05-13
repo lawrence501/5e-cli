@@ -417,7 +417,7 @@
     },
     "upgrades": [
       {
-        "description": "1. +3 DoT resistance if you haven't moved since the start of your last turn",
+        "description": "1. -3 incoming harm if you haven't moved since the start of your last turn",
         "upgrade": "+2"
       },
       {
@@ -1163,7 +1163,7 @@
         "upgrade": "-2"
       },
       {
-        "description": "3. creatures cursed by you have -3 DoT resistance",
+        "description": "3. creatures cursed by you have +3 incoming harm",
         "upgrade": "-2"
       },
       {
@@ -1519,16 +1519,16 @@
   {
     "name": "The Queen of Rot's Reign",
     "base": {
-      "description": "you project a persistent zone 5' around you that deals 1 necrotic DoT damage to foes",
+      "description": "you project a persistent zone 5' around you that causes 1 necrotic harm to foes",
       "upgrade": "+1"
     },
     "upgrades": [
       {
-        "description": "1. +2 DoT damage",
+        "description": "1. +2 outgoing harm",
         "upgrade": "+2"
       },
       {
-        "description": "2. creatures adjacent to you have -2 DoT resistance",
+        "description": "2. foes adjacent to you have +2 incoming harm",
         "upgrade": "-2"
       },
       {
@@ -1536,7 +1536,7 @@
         "upgrade": "+5'"
       },
       {
-        "description": "4. creatures have -1 resistance if they have taken DoT damage from you in the last round",
+        "description": "4. creatures have -1 resistance if they have suffered harm from you in the last round",
         "upgrade": "-1"
       },
       {
@@ -1552,7 +1552,7 @@
         "upgrade": "+2"
       },
       {
-        "description": "8. creatures have -5' speed if they have taken necrotic DoT damage from you in the last round",
+        "description": "8. creatures have -5' speed if they have suffered necrotic harm from you in the last round",
         "upgrade": "-5'"
       }
     ]
@@ -1642,20 +1642,20 @@
   {
     "name": "Vidar, Assassin's Cruelty",
     "base": {
-      "description": "on critical hit, deal 2 ongoing poison damage, stacking until the target passes a passive save",
+      "description": "on critical hit, cause 2 ongoing poison harm, stacking until the target passes a passive save",
       "upgrade": "+2"
     },
     "upgrades": [
       {
-        "description": "1. +1 critical hit range vs targets taking ongoing damage",
+        "description": "1. +1 critical hit range vs targets suffering from ongoing harm",
         "upgrade": "+1"
       },
       {
-        "description": "2. +2 DoT damage",
+        "description": "2. +2 outgoing harm",
         "upgrade": "+2"
       },
       {
-        "description": "3. +3 ongoing damage",
+        "description": "3. +3 to ongoing harm you cause",
         "upgrade": "+2"
       },
       {
@@ -1675,7 +1675,7 @@
         "upgrade": "+8"
       },
       {
-        "description": "8. whenever a creature fails a passive save to end your ongoing damage, it immediately takes 3 acid DoT damage",
+        "description": "8. whenever a creature fails a passive save to end your ongoing harm, it immediately suffers 3 acid harm",
         "upgrade": "+2"
       }
     ]
