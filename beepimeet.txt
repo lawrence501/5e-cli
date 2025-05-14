@@ -4,6 +4,11 @@ Current: 31
 Temp: 0
 HD: 2
 
+Armour: 5
+Fort: 5
+Reflex: 2
+Will: 2
+
 Maul: 2d8 + 5
 
 STR 18

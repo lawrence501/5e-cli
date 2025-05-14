@@ -120,7 +120,7 @@
         ]
     },
     {
-        "theme": "Movement Order",
+        "theme": "Shift Order",
         "tiers": [
             "1. Motus: 1/SR, glyphic action; You move a willing creature within 60' of you with great speed. They immediately shift up to 10'.",
             "2. When the target of Motus moves out of the reach of a creature of your choice, that creature takes 4 ongoing glyphic damage, stacking until they pass a passive save (this scales with all glyphic damage bonuses).",
@@ -407,22 +407,22 @@
     {
         "theme": "Invisibility Buff",
         "tiers": [
-            "1. Indespectus: 1/combat, glyphic action; Hundreds of tiny, mirrored insects swarm around a creature within 60' of you, granting it invisibility for 1 round.",
-            "2. While a creature is affected by Indespectus, it has +3 damage.",
+            "1. Indespectus: 1/combat, glyphic action; Hundreds of tiny, mirrored insects swarm around a creature within 60' of you, causing it to make a save. On a success, it becomes invisible for 1 round.",
+            "2. While a creature is affected by Indespectus, it has +4 damage.",
             "3. While a creature is affected by Indespectus, all allies adjacent to them are invisible.",
-            "4. While a creature is affected by Indespectus, their damage ignores resistances.",
-            "5. Whenever Indespectus' effect ends, the bugs rush over to the nearest foe of your choice, dealing 6 glyphic damage to them before disappearing.",
+            "4. While a creature is affected by Indespectus, it has +1 damage and its damage ignores resistances",
+            "5. Whenever Indespectus' effect ends or it fails to take effect, the bugs rush over to the nearest foe of your choice, dealing 5 glyphic damage to them before disappearing.",
             "6. Indespectus can now be used twice per combat.",
-            "7. While a creature is affected by Indespectus, it has +1 armour AB.",
+            "7. While a creature is affected by Indespectus, it has +1 armour AB and +1 damage.",
             "8. Indespectus now lasts 1 additional round.",
-            "9. Whenever you use Indespectus, its glyphic action is refunded. Additionally, while a creature is affected by Indespectus, it has +1 damage.",
-            "10. While a creature is affected by Indespectus, it has +3 damage vs targets suffering ongoing harm."
+            "9. Whenever you use Indespectus, its glyphic action is refunded. Additionally, while a creature is affected by Indespectus, it has +2 damage.",
+            "10. While a creature is affected by Indespectus, it has +4 damage vs targets suffering ongoing harm."
         ]
     },
     {
         "theme": "Trap",
         "tiers": [
-            "1. Insidia: 1/SR, glyphic action; Choose an unoccupied space within 60' of you. The next time a creature enters that space, it takes 7 glyphic damage.",
+            "1. Insidia: 1/SR, glyphic action; Choose an unoccupied space within 60' of you to plant an invisible, restless spirit in. The next time a creature enters that space, the spirit lashes out, dealing 7 glyphic damage before disappearing.",
             "2. Insidia now triggers the next two times a creature either enters its space or starts its turn there.",
             "3. Insidia's base damage becomes 11.",
             "4. At the start of each of your turns, you may move Insidia up to 20'.",
@@ -432,6 +432,36 @@
             "8. Whenever Insidia deals its base damage, you heal 5 HP.",
             "9. Whenever a creature takes Insidia's base damage, it becomes sluggish for 1 round. Additionally, Insidia's base damage becomes 14.",
             "10. Insidia's base damage becomes 19."
+        ]
+    },
+    {
+        "theme": "Cleanse",
+        "tiers": [
+            "1. Purgare: 1/combat, glyphic action; A pale, green sludge erupts from your neck, entering the facial orifices of a creature within 60' of you, causing them to make a save. On a success, they are cured of 1 condition of your choice.",
+            "2. Whenever a creature is affected by Purgare, it gains +4 resistance for 1 round.",
+            "3. Whenever a creature is affected by Purgare, the sludge erupts from their body, dealing 7 glyphic damage to all foes adjacent to them.",
+            "4. Purgare can now cure up to 2 conditions.",
+            "5. Whenever you successfully use Purgare on a creature, gain 8 temporary HP.",
+            "6. Purgare can now cure up to 3 conditions.",
+            "7. Whenever you successfully use Purgare, the nearest ally to the target also makes a save, being cured of 1 condition of your choice on a success. Additionally, that ally gains +2 resistance for 1 round on a successful save.",
+            "8. Whenever you successfully use Purgare, the next limited power you use this turn can be used as if your line of sight originated from the target. Additionally, the target gains +3 resistance for 1 round on a successful use.",
+            "9. Creatures have advantage on their saves against Purgare. Additionally, they gain +3 resistance for 1 round on a successful use.",
+            "10. You can now use Purgare twice per combat. Additionally, the target gains +2 resistance for 1 round on a successful use."
+        ]
+    },
+    {
+        "theme": "Initiative Buff",
+        "tiers": [
+            "1. Initium: 1/SR, glyphic action; You grant an unnatural, persistent fervor to a creature within 60', causing it to move up 2 spaces in the turn tracker.",
+            "2. After you target a creature with Initium, it has +2 passive regeneration while at the top of the turn tracker for the remainder of combat.",
+            "3. Afer you target a creature with Initium, it has +2 damage while at the top of the turn tracker for the remainder of combat.",
+            "4. Initium now moves the target 3 spaces up in the turn tracker.",
+            "5. After you target a creature with Initium, it has +2 passive regeneration while at the top of the turn tracker for the remainder of combat.",
+            "6. After you target a creature with Initium, it has +2 resistance while at the top of the turn tracker for the remainder of combat.",
+            "7. When you target a creature with Initium, it gains 8 temporary HP.",
+            "8. Whenever you target a creature with Initium that is behind you in the turn tracker, it gains +2 damage for the remainder of combat.",
+            "9. After you target a creature with Initium, it has +1 armour while at the top of the turn tracker for the remainder of combat.",
+            "10. The temporary hit points granted to Initium's target increases to 17."
         ]
     }
 ]
