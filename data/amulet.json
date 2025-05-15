@@ -1843,5 +1843,46 @@
         "upgrade": "+2 die sizes"
       }
     ]
+  },
+  {
+    "name": "Petros' Distraction",
+    "base": {
+      "description": "on hit, target gets -2 damage vs targets other than you for 1 round",
+      "upgrade": "-2"
+    },
+    "upgrades": [
+      {
+        "description": "1. on hit, allies within 60' of you get +1 area resistance for 1 round",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. on hit, an ally within 60' of you can shift 5'",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "3. on hit, allies within 60' of you get +1 melee resistance",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. as a reaction to being targeted by a damaging attack, make a deception check against the attack's attack roll, reducing the attack's success tier by 2 on a success",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. on hit, the target has -1 resistance against the next damaging attack made against it by a creature other than you",
+        "upgrade": "-1"
+      },
+      {
+        "description": "6. +3 to your Busk journey activity checks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 resistance vs aberrations",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. as a reaction to an ally within 60' being targeted by a damaging attack, you can reduce the attack's success tier by 1",
+        "upgrade": "+1"
+      }
+    ]
   }
 ]
