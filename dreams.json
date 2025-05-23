@@ -6,8 +6,12 @@
             "upgrade": "dice gained in this way have a +2 bonus/1"
         }
     ],
-    "Bovo (2 - Commanding Presence)": [
-        HERE! Commanding presence
+    "Bovo (3 - Influence?)": [influence needed
+        {
+            "description": "Whenever you command an allied minion to make a weapon attack and the attack hits, it can then follow up with a second weapon attack that has disadvantage.",
+            "pointValue": "4 (1/2)",
+            "upgrade": "+1 AB with follow-up attack/2"
+        }
     ],
     "Viktor (1 - Monstrous Minion)": [
     ]

@@ -1169,7 +1169,7 @@
                 "upgrade": "creatures have -1 to their saves vs the debilitated condition from your minions/3"
             },
             {
-                "description": "2. +5' to you area sizes",
+                "description": "2. +5' to your area sizes",
                 "pointValue": "3",
                 "upgrade": "+5'/3"
             },
@@ -2343,13 +2343,13 @@
         "name": "Know Too Much",
         "startingAffixes": [
             {
-                "description": "+4 damage",
-                "pointValue": "8",
+                "description": "+2 damage",
+                "pointValue": "4",
                 "upgrade": "+1/2"
             },
             {
-                "description": "whenever you deal attack damage, something bad will soon happen",
-                "pointValue": "-5",
+                "description": "whenever you deal damage, lose 2 HP",
+                "pointValue": "-2",
                 "upgrade": "it gets worse and 6pts distributed/1"
             },
             {
@@ -2856,6 +2856,110 @@
                 "description": "6. +3 outgoing temporary HP",
                 "pointValue": "1",
                 "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Engulfing Vortex",
+        "startingAffixes": [
+            {
+                "description": "+2 outgoing harm with persistent zones",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+5' to your persistent zone area sizes",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "whenever you score a standard success with an area attack, choose a space within its area and create a 5'x5' persistent zone centred there that lasts for the remainder of combat and causes 1 cold harm to foes",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on area attack, +1 outgoing harm for the remainder of combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. on your first area attack between short rests, creatures have -1 to their saves against your effects that stagger for the remainder of combat",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "3. on area attack, +1 outgoing harm for 1 round",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. on area attack, creatures have -1 to their saves against your effects that stagger for 1 round",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "5. on area attack, choose a space within its area and create a 5'x5' persistent zone centred there that lasts for the remainder of combat and causes 1 cold harm to foes",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. your area attacks cost -1 exertion or -1 spell slot level, to a minimum of 1",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            }
+        ]
+    },
+    {
+        "name": "Brutality",
+        "startingAffixes": [
+            {
+                "description": "on using a non-attack standard action power, gain +1 melee damage for the remainder of combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on melee attack, gain +1 melee damage until you finish your turn having not made a melee attack",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "if you've used a non-attack standard action power this combat, you have +1 melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on using a non-attack standard action power, gain +1 minion melee damage until you finish your turn having not made a melee attack",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. on using a non-attack standard action power, gain +1 melee damage until you finish your turn having not made a melee attack",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. on using a non-attack standard action power, gain +1 resistance for 1 round",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. on using a non-attack standard action power, heal 1 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. on using a non-attack standard action power while bloodied, heal 2 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on using a non-attack standard action power, all adjacent foes gain -1 damage for 1 round",
+                "pointValue": "2",
+                "upgrade": "-1/2"
             }
         ]
     }

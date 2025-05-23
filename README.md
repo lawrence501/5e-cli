@@ -31,10 +31,10 @@ Golang CLI helper for my D&amp;D 5e campaigns
 
 ### Amulet affix generation
 
-- base affix
-- OG character features
-- backstory
-- AI
+- base affix 3
+- OG character features 2
+- backstory 2
+- AI 1
 
 ### Mutation value cheatsheet
 

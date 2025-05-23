@@ -1,11 +1,6 @@
 {
     "Bovo": [
         {
-            "description": "Whenever you command an allied minion to make a weapon attack and the attack hits, it can then follow up with a second weapon attack that has disadvantage.",
-            "pointValue": "4",
-            "upgrade": "+1 AB with follow-up attack/2"
-        },
-        {
             "description": "Whenever you use your Commanding Presence to command an ally, the ally can also shift up to 5' as part of the same reaction",
             "pointValue": "1",
             "upgrade": "+5'/1"

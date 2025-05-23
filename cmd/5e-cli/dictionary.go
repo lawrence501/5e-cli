@@ -104,8 +104,8 @@ var PARTY_MEMBERS []string = []string{
 }
 
 var FLARE_CHANCES map[string]int = map[string]int{
-	"Bovo":   18, // +5%, level 2
-	"Viktor": 17, // +1%, level 3
+	"Bovo":   33, // +20%, level 2
+	"Viktor": 20, // +1%, level 4
 	"Junie":  10, // +0%, level 1
 }
 
