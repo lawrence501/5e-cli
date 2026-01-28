@@ -1,77 +1,21 @@
 [
-    {
-        "description": "Complete a combat with at least 1 hostile $creatureType monster"
-    },
-    {
-        "description": "Level up"
-    },
-    {
-        "description": "Roll the same number on each d20 during adv or disadv"
-    },
-    {
-        "description": "Break either the single-target or AoE dmg record"
-    },
-    {
-        "description": "Be rewarded during a positive random encounter"
-    },
-    {
-        "description": "Earn a perk"
-    },
-    {
-        "description": "Score 2 KBs in the same combat"
-    },
-    {
-        "description": "Deal 100+ dmg or heal 50+ HP (to any combination of creatures) in a single round"
-    },
-    {
-        "description": "Empty yourself of spell slots or exertion"
-    },
-    {
-        "description": "Level a relic"
-    },
-    {
-        "description": "Unlock a new ally bonus on an amulet"
-    },
-    {
-        "description": "Complete a combat on 2+ death save failures"
-    },
-    {
-        "description": "Earn a Boon"
-    },
-    {
-        "description": "Tarot-craft an item"
-    },
-    {
-        "description": "Tier-up a crystal"
-    },
-    {
-        "description": "Survive an exotic weather day"
-    },
-    {
-        "description": "Have a total of 30+ temporary hit points granted by you in the party at once"
-    },
-    {
-        "description": "Score 2 crits in the same turn"
-    },
-    {
-        "description": "Cast a spell of your highest lvl possible and have all of its targets succeed their saves against/block it (min 1)"
-    },
-    {
-        "description": "Use a maneuver of your highest degree possible and have all of its targets succeed their saves against/block it (min 1)"
-    },
-    {
-        "description": "Use a maneuver of your highest degree possible and have all of its targets succeed their saves against/block it (min 1)"
-    },
-    {
-        "description": "Be present when your sidekick scores a killing blow."
-    },
-    {
-        "description": "Make 3 attacks in a single round."
-    },
-    {
-        "description": "Complete a journey with 3+ levels of fatigue or strife."
-    },
-    {
-        "description": "Complete a journey with no fatigue or strife."
-    }
+    "Complete a combat with at least 1 hostile $creatureType monster",
+    "Level up",
+    "Roll the same number on each d20 during advantage or disadvantage",
+    "Break either the single-target or AoE damage record",
+    "Be rewarded during a carnival game",
+    "Earn a Specialisation",
+    "Score 2 killing blows in the same combat",
+    "Deal 100+ damage or heal 100+ HP (to any combination of creatures) in a single round",
+    "Empty yourself of spell slots or exertion",
+    "Complete a combat on 2+ death save failures",
+    "Find an otherworldly gift",
+    "Have a total of 50+ temporary hit points granted by you in the party at once",
+    "Cast an attack spell/maneuver of your highest level/degree possible and have its attack fail to score a standard or higher success on all its targets (minimum 1)",
+    "Be present when your sidekick scores a killing blow",
+    "Roll the upgrade colour tier result of the loot table at least twice in one loot roll",
+    "Score a killing blow with no damage overflow.",
+    "Score 5 killing blows across any amount of time.",
+    "Score 30+ on a single ability check.",
+    "Score a critical success on a journey activity."
 ]

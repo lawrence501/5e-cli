@@ -1,82 +1,38 @@
 [
     {
-        "name": "Cloning",
-        "description": "replace random affix with exact copy of another random affix. Item must be chosen first."
-    },
-    {
         "name": "Scourging",
-        "description": "add random negative affix, then min equivalent-value positive affix."
+        "description": "Add a random negative affix with an Affinity of your choice, then the same points (multiplied by -1) are added to another affix of your choice. If there are not enough points to upgrade any other affixes, instead add a new random affix with a minimum point value equal to the points to add."
     },
     {
-        "name": "Combination",
-        "description": "the affixes of 2 chosen items are randomly distributed across the 2 items, ignoring base limitations. Items must be chosen first."
-    },
-    {
-        "name": "Fate",
-        "description": "reroll a random affix, retaining the original affix's point value as the minimum point value for the new affix. Item must be chosen first."
+        "name": "Tweaking",
+        "description": "Reroll an affix of your choice, using the original affix's point value as the new one's minimum"
     },
     {
         "name": "Empowerment",
-        "description": "randomly apply 1 upgrade point; if impossible, adds new random affix. Item must be chosen first."
+        "description": "Add 1 point to a random affix. If no affixes can be upgraded in this way, instead add a new random affix with a minimum point value equal to the points to add."
     },
     {
         "name": "Enhancement",
-        "description": "Add new random affix"
-    },
-    {
-        "name": "Attunement",
-        "description": "Turn any non-relic into a relic, dynamically building thematic affixes as needed"
-    },
-    {
-        "name": "Learning",
-        "description": "Instantly level one of your relic slots or one of your attuned items; reroll if none in party"
-    },
-    {
-        "name": "Negation",
-        "description": "Random affix is negated, resultant points are distributed randomly. Item must be chosen first."
-    },
-    {
-        "name": "Brittleness",
-        "description": "Body armour gets -1 AC and random hard-tripled affix added to its base item"
-    },
-    {
-        "name": "Scouring",
-        "description": "A random affix is rerolled into a new crafted affix with the $affinity Affinity, ignoring the point value of the original affix. Item must be chosen first."
-    },
-    {
-        "name": "Customisation",
-        "description": "Adds a new crafted affix of the $affinity Affinity."
-    },
-    {
-        "name": "Synergy",
-        "description": "Choose two items. A random affix from a random one of them is copied onto the other item, at its lowest point value (ignoring polarity). Items must be chosen first."
-    },
-    {
-        "name": "Adventure",
-        "description": "A dormant, unknown affix of the $affinity Affinity is added to an item, with a minimum point value of 2. It is revealed and unlocked the next time you complete a random mission (chosen now)."
-    },
-    {
-        "name": "Refinement",
-        "description": "A random affix is rerolled into a new crafted affix of an Affinity based on the rough Affinities of the original affix. The item must be chosen first."
-    },
-    {
-        "name": "Blunting",
-        "description": "A non-conduit weapon has its dmg die size reduced by 1 and gains a random hard-doubled affix added to its base item."
+        "description": "Add a random affix"
     },
     {
         "name": "Optimisation",
-        "description": "An item with at least two affixes has a random one of its highest point-value affixes tiered up, and a respective number of points removed randomly from the other affixes on the item. The item must be chosen first."
+        "description": "Add a random affix of the same Affinity as a random one of the highest-point affixes on the item."
     },
     {
-        "name": "Absorption",
-        "description": "A body armour gains a random weapon affix that only applies to the powers of crystals socketed inside it."
+        "name": "Purification",
+        "description": "Remove all lowest-point-value affixes from the item and give all removed points to a random remaining affix. If there is no remaining affix, or there are not enough points to upgrade any remaining affixes, instead add a new random affix with a minimum point value equal to the points removed."
     },
     {
-        "name": "Modification",
-        "description": "A non-conduit weapon has its dmg die size reduced by 1 and gains a random trait that it didn't already have added to its base item."
+        "name": "Negation",
+        "description": "An affix of your choice has its point value multiplied by -1, then the points lost are granted to another random affix on the item. If there is no remaining affix, or there are not enough points to upgrade any remaining affixes, instead add a new random affix with a minimum point value equal to the points removed."
     },
     {
-        "name": "Fine-Tuning",
-        "description": "A random affix on the item is chosen and you can change one Aspect of it. The item must be chosen first."
+        "name": "Inspiration",
+        "description": "An affix of your choice is disabled until a random mission (chosen now) is completed by a member of your party. When it is revealed, it is automatically upgraded once."
+    },
+    {
+        "name": "Refinement",
+        "description": "An affix of your choice is rerolled within its Affinity, using the original affix's point value as the new one's minimum."
     }
 ]

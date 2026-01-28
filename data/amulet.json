@@ -1,1609 +1,2256 @@
 [
   {
-    "name": "Xiloans",
-    "amulets": [
+    "name": "The Cloud's Assassination",
+    "base": {
+      "description": "+1 critical success range with advantaged attacks",
+      "upgrade": "+1"
+    },
+    "upgrades": [
       {
-        "name": "The Cloud's Assassination",
-        "effect": "+1 crit range with adv atks",
-        "upgrade": "+5 crit dmg",
-        "setBonuses": [
-          {
-            "ally": "Aroshi",
-            "effect": "on crit, trigger a random, unmodifiable Action against target from a random CR 1/4 creature",
-            "upgrade": "+1 CR step"
-          },
-          {
-            "ally": "P'all",
-            "effect": "+1 crit range vs targets you are flanking",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Mensis",
-            "effect": "+1 crit range in darkness",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Gawdian",
-            "effect": "+1 crit range vs targets who have dmg'd you since your last turn",
-            "upgrade": "+1"
-          }
-        ]
+        "description": "1. +3 stealth in combat",
+        "upgrade": "+2"
       },
       {
-        "name": "Aroshi's Gamble",
-        "effect": "1/LR, bonus to shapeshift into random CR 2 creature until bonus to revert or HP lost",
-        "upgrade": "+2 global dmg while shapeshifted",
-        "setBonuses": [
-          {
-            "ally": "The Cloud",
-            "effect": "+1 crit range while shapeshifted",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "P'all",
-            "effect": "+2 global dmg while shapeshifted vs targets you are flanking",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Mensis",
-            "effect": "+1 AC while shapeshifted in darkness",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Gawdian",
-            "effect": "+3 global dmg while shapeshifted vs targets who have dmg'd you since your last turn",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "2. +8 critical damage bonus with advantaged attacks",
+        "upgrade": "+8"
       },
       {
-        "name": "P'all's Army",
-        "effect": "+3 global dmg vs targets you are flanking",
-        "upgrade": "+2 minion dmg",
-        "setBonuses": [
-          {
-            "ally": "The Cloud",
-            "effect": "+1 crit range vs targets you are flanking",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Aroshi",
-            "effect": "during your turn while flanking a creature, you treat them as if they were affected by a random condition (chosen on turn start)",
-            "upgrade": "+1 adv on choice"
-          },
-          {
-            "ally": "Mensis",
-            "effect": "+1 AC vs creatures you are flanking while in darkness",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Gawdian",
-            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "3. +1 critical success range vs creatures who can't see you",
+        "upgrade": "+1"
       },
       {
-        "name": "Mensis' Cruelty",
-        "effect": "+1 AC in darkness",
-        "upgrade": "+2 global dmg in darkness",
-        "setBonuses": [
-          {
-            "ally": "The Cloud",
-            "effect": "+1 crit range in darkness",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Aroshi",
-            "effect": "while in darkness, +5 block thorns of a random type",
-            "upgrade": "+4"
-          },
-          {
-            "ally": "P'all",
-            "effect": "+3 global dmg in darkness vs targets you are flanking",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Gawdian",
-            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "4. +5 critical damage bonus",
+        "upgrade": "+4"
       },
       {
-        "name": "Gawdian's Vengeance",
-        "effect": "+3 global dmg vs targets who have dmg'd you since your last turn",
-        "upgrade": "+5 phys barrier",
-        "setBonuses": [
-          {
-            "ally": "The Cloud",
-            "effect": "+1 crit range vs targets who have dmg'd you since your last turn",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Aroshi",
-            "effect": "+3 dmg thorns of a random type",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "P'all",
-            "effect": "+3 global dmg vs targets you are flanking who have dmg'd you since your last turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Mensis",
-            "effect": "+3 global dmg in darkness vs targets who have dmg'd you since your last turn",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "5. your damaging attacks deal +1d4 cold damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. +5 gold find",
+        "upgrade": "+4"
+      },
+      {
+        "description": "7. on killing blow, gain 10 gold",
+        "upgrade": "+10"
+      },
+      {
+        "description": "8. your first advantaged attack of each combat deals +10 damage",
+        "upgrade": "+10"
       }
     ]
   },
   {
-    "name": "Primordial Elementals",
-    "amulets": [
+    "name": "Aroshi's Gamble",
+    "base": {
+      "description": "1/LR, as a bonus action, shapeshift into a random CR 2 monster until you use a bonus action to revert or the shapeshift's HP is lost",
+      "upgrade": "+1 CR"
+    },
+    "upgrades": [
       {
-        "name": "Kher'evo's Hunger",
-        "effect": "on hit, heal 2 HP",
-        "upgrade": "+5 max HP",
-        "setBonuses": [
-          {
-            "ally": "Somnius",
-            "effect": "on ending an ongoing debuff, heal 2 HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Pherousa",
-            "effect": "when downed, +2 incoming healing for combat",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Mother",
-            "effect": "-2 incoming healing on odd rounds, +4 incoming healing on even rounds",
-            "upgrade": "-2 and +4"
-          },
-          {
-            "ally": "The Primordial",
-            "effect": "+1 hit abs",
-            "upgrade": "+1"
-          }
-        ]
+        "description": "1. +1 bonus action per turn",
+        "upgrade": "+1"
       },
       {
-        "name": "Somnius' Aspiration",
-        "effect": "+1 to saves vs ongoing debuffs",
-        "upgrade": "+1 global dmg w/ no adj foes",
-        "setBonuses": [
-          {
-            "ally": "Kher'evo",
-            "effect": "on ending an ongoing debuff, heal 2 HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Pherousa",
-            "effect": "your death saves count as ongoing debuff saves",
-            "upgrade": "+1 to saves vs ongoing debuffs"
-          },
-          {
-            "ally": "Mother",
-            "effect": "-2 to saves vs ongoing debuffs on odd rounds, +4 to saves vs ongoing debuffs on even rounds",
-            "upgrade": "-2 and +4"
-          },
-          {
-            "ally": "The Primordial",
-            "effect": "on taking non-phys dmg, you can make a save against an ongoing debuff",
-            "upgrade": "+1 to saves vs ongoing debuffs"
-          }
-        ]
+        "description": "2. +10 maximum HP while shapeshifted",
+        "upgrade": "+10"
       },
       {
-        "name": "Pherousa's Cycle",
-        "effect": "when downed, +3 global dmg until LR",
-        "upgrade": "+5 non-phys barrier",
-        "setBonuses": [
-          {
-            "ally": "Kher'evo",
-            "effect": "when downed, +2 incoming healing until LR",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Somnius",
-            "effect": "instead of losing conc when you go down, you just make the save with disadv",
-            "upgrade": "+1 to conc saves"
-          },
-          {
-            "ally": "Mother",
-            "effect": "when downed on an odd round, -3 global dmg until LR; when downed on an even round, +6 global dmg until LR",
-            "upgrade": "-3 and +6"
-          },
-          {
-            "ally": "The Primordial",
-            "effect": "when downed, +2 non-phys res until LR",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "3. +1 critical success range while shapeshifted",
+        "upgrade": "+1"
       },
       {
-        "name": "Mother's Sentience",
-        "effect": "-3 global dmg on odd rounds, +6 global dmg on even rounds",
-        "upgrade": "+5 dmg barrier on odd rounds",
-        "setBonuses": [
-          {
-            "ally": "Kher'evo",
-            "effect": "-2 incoming healing on odd rounds, +4 incoming healing on even rounds",
-            "upgrade": "-2 and +4"
-          },
-          {
-            "ally": "Somnius",
-            "effect": "-2 to saves vs ongoing debuffs on odd rounds, +4 to saves vs ongoing debuffs on even rounds",
-            "upgrade": "-2 and +4"
-          },
-          {
-            "ally": "Pherousa",
-            "effect": "when downed on an odd round, -3 global dmg until LR; when downed on an even round, +6 global dmg until LR",
-            "upgrade": "-3 and +6"
-          },
-          {
-            "ally": "The Primordial",
-            "effect": "+2 non-phys dmg taken on odd rounds, +4 non-phys res on even rounds",
-            "upgrade": "+2 and +4"
-          }
-        ]
+        "description": "4. +2 damage while shapeshifted",
+        "upgrade": "+2"
       },
       {
-        "name": "The Primordial's Origin",
-        "effect": "+2 non-phys res",
-        "upgrade": "+5 non-phys barrier",
-        "setBonuses": [
-          {
-            "ally": "Kher'evo",
-            "effect": "+1 hit abs",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Somnius",
-            "effect": "on taking non-phys dmg, you can make a save against an ongoing debuff",
-            "upgrade": "+1 to saves vs ongoing debuffs"
-          },
-          {
-            "ally": "Pherousa",
-            "effect": "when downed, +2 non-phys res until LR",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Mother",
-            "effect": "+2 non-phys dmg taken on odd rounds, +4 non-phys res on even rounds",
-            "upgrade": "+2 and +4"
-          }
-        ]
+        "description": "5. your damaging attacks deal +1d4 acid damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. +2% chance to find carnival tickets",
+        "upgrade": "+2%"
+      },
+      {
+        "description": "7. any prizes you receive are upgraded 1 time",
+        "upgrade": "+1"
+      },
+      {
+        "description": "8. whenever you shapeshift, gain 3 temporary HP",
+        "upgrade": "+2"
       }
     ]
   },
   {
-    "name": "Evorbisan Champions",
-    "amulets": [
+    "name": "P'all's Army",
+    "base": {
+      "description": "foes you are flanking have -1 resistance",
+      "upgrade": "-1"
+    },
+    "upgrades": [
       {
-        "name": "Al'akir's Aim",
-        "effect": "at the end of each turn spent not moving, +2 global dmg that stacks until you move",
-        "upgrade": "+2 proj dmg",
-        "setBonuses": [
-          {
-            "ally": "Arvewal",
-            "effect": "on hit if you haven't moved since start of your last turn, target gets +3 dmg taken from types your hit deals until your next turn. doesn't stack",
-            "upgrade": "-2"
-          },
-          {
-            "ally": "The Rhox",
-            "effect": "if you haven't moved since start of your last turn, +2 global dmg vs prone targets",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Lucius",
-            "effect": "at the end of each turn spent not moving, +2 glyphic dmg that stacks until you move",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Rhombur",
-            "effect": "at the end of each turn spent not moving, +3 dmg barrier that stacks until you move",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "1. +1 melee critical success range vs targets you are flanking",
+        "upgrade": "+1"
       },
       {
-        "name": "Arvewal's Duplication",
-        "effect": "your minions deal +4 dmg with dmg types you dmg'd target with during your last turn",
-        "upgrade": "+3 minion dmg",
-        "setBonuses": [
-          {
-            "ally": "Al'akir",
-            "effect": "at the end of each turn spent not moving, +3 minion dmg that stacks until you move",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "The Rhox",
-            "effect": "+3 minion dmg vs prone targets",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Lucius",
-            "effect": "your minions deal +3 dmg vs targets you dealt glyphic dmg to during your last turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Rhombur",
-            "effect": "+12 minion dmg barrier with 2+ foes adj to them",
-            "upgrade": "+12"
-          }
-        ]
+        "description": "2. +5' speed",
+        "upgrade": "+5'"
       },
       {
-        "name": "The Rhox's Gravity",
-        "effect": "+1 crit range vs prone targets",
-        "upgrade": "+2 global dmg vs prone targets",
-        "setBonuses": [
-          {
-            "ally": "Al'akir",
-            "effect": "if you haven't moved since start of your last turn, +2 global dmg vs prone targets",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Arvewal",
-            "effect": "creatures you knock prone have +2 dmg taken",
-            "upgrade": "-2"
-          },
-          {
-            "ally": "Lucius",
-            "effect": "+2 glyphic dmg vs prone targets",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Rhombur",
-            "effect": "when dmg'd, offender is knocked prone",
-            "upgrade": "+3->2 dmg barrier vs standing targets"
-          }
-        ]
+        "description": "3. +15' minion speed",
+        "upgrade": "+10'"
       },
       {
-        "name": "Lucius' Corruption",
-        "effect": "gain a mutation for every 3 glyphs you have consumed",
-        "upgrade": "+2 glyphic dmg",
-        "setBonuses": [
-          {
-            "ally": "Al'akir",
-            "effect": "at the end of each turn spent not moving, +2 glyphic dmg that stacks until you move",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Arvewal",
-            "effect": "on glyphic hit, give target +1 dmg taken until your next turn. doesn't stack",
-            "upgrade": "-1"
-          },
-          {
-            "ally": "The Rhox",
-            "effect": "+2 glyphic dmg vs prone targets",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Rhombur",
-            "effect": "+2 dmg barrier for each mutation you have",
-            "upgrade": "+1"
-          }
-        ]
+        "description": "4. +3 minion damage",
+        "upgrade": "+2"
       },
       {
-        "name": "Rhombur's Defiance",
-        "effect": "+12 dmg barrier while you have 2+ adj foes",
-        "upgrade": "unintelligent creatures are much more likely to target you",
-        "setBonuses": [
-          {
-            "ally": "Al'akir",
-            "effect": "at the end of each turn spent not moving, +3 dmg barrier that stacks until you move",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Arvewal",
-            "effect": "+5 dmg barrier while you have 2+ adj allies",
-            "upgrade": "+4"
-          },
-          {
-            "ally": "The Rhox",
-            "effect": "when dmg'd, offender is knocked prone",
-            "upgrade": "+3->2 dmg barrier vs standing targets"
-          },
-          {
-            "ally": "Lucius",
-            "effect": "+2 dmg barrier for every 5 glyphs you have consumed",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "5. your damaging attacks deal +1d4 fire damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. whenever you Help an ally with an ability check, their check gains a +2 bonus",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. whenever you make a loot roll at the same time as another party member and you both get the same result, your result's colour tier is increased by 3",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. instead of your usual movement, you may teleport up to 10' to a space that would cause you to flank a foe",
+        "upgrade": "+10'"
       }
     ]
   },
   {
-    "name": "Crikathian Champions I",
-    "amulets": [
+    "name": "Mensis' Cruelty",
+    "base": {
+      "description": "+1 armour in darkness",
+      "upgrade": "+1"
+    },
+    "upgrades": [
       {
-        "name": "Leorian's Target",
-        "effect": "creatures marked by you have +3 dmg taken",
-        "upgrade": "+2 global dmg vs marked targets",
-        "setBonuses": [
-          {
-            "ally": "Vargh",
-            "effect": "+2 dmg taken from marked creatures; +4 global dmg vs marked targets",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Yavine",
-            "effect": "creatures 30+' away from you who are marked by you have +2 dmg taken",
-            "upgrade": "-2"
-          },
-          {
-            "ally": "Xorp",
-            "effect": "creatures larger than you who are marked by you have +2 dmg taken",
-            "upgrade": "-2"
-          },
-          {
-            "ally": "Jarrik, Eldritch Knight",
-            "effect": "on hit vs target marked by you, the mark's effectiveness increases by 1",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Nailo",
-            "effect": "adj allies have +2 global dmg vs targets marked by you",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "1. +25' darkvision",
+        "upgrade": "+20'"
       },
       {
-        "name": "Vargh's Recklessness",
-        "effect": "-7 max HP; +3 global dmg",
-        "upgrade": "+2 global dmg while bloodied",
-        "setBonuses": [
-          {
-            "ally": "Leorian",
-            "effect": "vs marked creatures: +2 dmg taken; +4 global dmg",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Yavine",
-            "effect": "vs creatures 30+' away from you: +2 dmg taken; +4 global dmg",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Xorp",
-            "effect": "vs creatures larger than you: +2 dmg taken; +4 global dmg",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Jarrik, Eldritch Knight",
-            "effect": "when hit, +2 global dmg until end of your next turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Nailo",
-            "effect": "adj allies have: +1 dmg taken; +2 global dmg",
-            "upgrade": "+1 and +2"
-          }
-        ]
+        "description": "2. when hit by an armour attack, your space is shrouded in darkness for 1 round",
+        "upgrade": "+1 armour in darkness"
       },
       {
-        "name": "Yavine's Sniping",
-        "effect": "+4 proj dmg vs targets 30+' away",
-        "upgrade": "+2 proj dmg",
-        "setBonuses": [
-          {
-            "ally": "Leorian",
-            "effect": "+3 proj dmg vs marked targets",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vargh",
-            "effect": "+2 proj dmg taken; +4 proj dmg",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Xorp",
-            "effect": "+3 proj dmg vs targets larger than you",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Jarrik, Eldritch Knight",
-            "effect": "on melee hit, +2 proj dmg until end of your next turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Nailo",
-            "effect": "adj allies have +2 proj dmg",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "3. +2 resistance in darkness",
+        "upgrade": "+2"
       },
       {
-        "name": "Xorp's Shifting",
-        "effect": "+3 global dmg while shapeshifted",
-        "upgrade": "+3 natural wep dmg",
-        "setBonuses": [
-          {
-            "ally": "Leorian",
-            "effect": "+2 global dmg vs marked targets while shapeshifted",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vargh",
-            "effect": "+2 dmg taken while shapeshifted; +4 global dmg while shapeshifted",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Yavine",
-            "effect": "+3 proj dmg while shapeshifted",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Jarrik, Eldritch Knight",
-            "effect": "on hit while not shapeshifted, +2 global dmg while shapeshifted until end of your next turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Nailo",
-            "effect": "adj allies have +2 global dmg while shapeshifted",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "4. +2 damage in darkness",
+        "upgrade": "+2"
       },
       {
-        "name": "Jarrik, Eldritch Knight's Weaving",
-        "effect": "on wep hit, +3 spell dmg until end of your next turn",
-        "upgrade": "+2 melee dmg",
-        "setBonuses": [
-          {
-            "ally": "Leorian",
-            "effect": "on wep hit vs marked target, +3 spell dmg until end of your next turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vargh",
-            "effect": "+2 wep dmg taken; +4 spell dmg",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Yavine",
-            "effect": "on melee hit, +2 proj dmg until end of your next turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Xorp",
-            "effect": "on wep hit vs target larger than you, +3 spell dmg until end of your next turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Nailo",
-            "effect": "adj allies have +2 melee dmg",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die size"
       },
       {
-        "name": "Nailo's Aura",
-        "effect": "adj allies have +4 dmg barrier",
-        "upgrade": "+3 global dmg vs fiends",
-        "setBonuses": [
-          {
-            "ally": "Leorian",
-            "effect": "adj allies have +2 global dmg vs marked targets",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vargh",
-            "effect": "adj allies have: +1 dmg taken; +2 global dmg",
-            "upgrade": "+1 and +2"
-          },
-          {
-            "ally": "Yavine",
-            "effect": "adj allies have +2 proj dmg",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Xorp",
-            "effect": "adj allies have +2 global dmg vs targets larger than you",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Jarrik, Eldritch Knight",
-            "effect": "adj allies have +2 melee dmg",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "6. your ability checks have a +2 bonus when helped by an ally",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 deception while in a city's borders",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +2 resistance in dim light",
+        "upgrade": "+2"
       }
     ]
   },
   {
-    "name": "Crikathian Champions II",
-    "amulets": [
+    "name": "Gawdian's Vengeance",
+    "base": {
+      "description": "+2 damage vs targets who have damaged you since your last turn",
+      "upgrade": "+2"
+    },
+    "upgrades": [
       {
-        "name": "Aurifex's Craft",
-        "effect": "+12 crystal dmg",
-        "upgrade": "+2 to crafting creation checks",
-        "setBonuses": [
-          {
-            "ally": "Nixaar",
-            "effect": "on crystal flare, -12 crystal dmg and +1 global dmg until after your next crystal flare",
-            "upgrade": "-12 and +1"
-          },
-          {
-            "ally": "Treefish",
-            "effect": "+16 crystal dmg vs targets smaller than you",
-            "upgrade": "+16"
-          },
-          {
-            "ally": "Librus",
-            "effect": "1/LR, after making a crafting creation check, can repeat it with a +12 bonus",
-            "upgrade": "+12"
-          },
-          {
-            "ally": "Jarrik, Samurai",
-            "effect": "+16 dmg with adv crystal atks",
-            "upgrade": "+16"
-          }
-        ]
+        "description": "1. unintelligent creatures are more likely to target you",
+        "upgrade": "more"
       },
       {
-        "name": "Nixaar's Versatility",
-        "effect": "on dealing dmg, -3 to dmg of that type and +3 to all other dmg types until the end of your next turn",
-        "upgrade": "+3 persuasion with telepathy",
-        "setBonuses": [
-          {
-            "ally": "Aurifex",
-            "effect": "on crystal flare, -12 crystal dmg and +1 global dmg until after your next crystal flare",
-            "upgrade": "-12 and +1"
-          },
-          {
-            "ally": "Treefish",
-            "effect": "on dealing dmg to a target smaller than you, -2 dmg vs that target and +2 dmg vs all other creatures until the end of your next turn",
-            "upgrade": "-2 and +2"
-          },
-          {
-            "ally": "Librus",
-            "effect": "1/LR, after making a persuasion check through telepathy, can repeat it with a +14 bonus",
-            "upgrade": "+14"
-          },
-          {
-            "ally": "Jarrik, Samurai",
-            "effect": "on dealing dmg with an adv atk, -3 dmg with adv atks and +3 dmg with all other atks until the end of your next turn",
-            "upgrade": "-2 and +2"
-          }
-        ]
+        "description": "2. +1 resistance",
+        "upgrade": "+1"
       },
       {
-        "name": "Treefish's Dominance",
-        "effect": "+4 proj dmg vs targets smaller than you",
-        "upgrade": "+2 proj dmg",
-        "setBonuses": [
-          {
-            "ally": "Aurifex",
-            "effect": "+16 crystal dmg vs targets smaller than you",
-            "upgrade": "+16"
-          },
-          {
-            "ally": "Nixaar",
-            "effect": "on dealing dmg to a target smaller than you, -2 dmg vs that target and +2 dmg vs all other creatures until the end of your next turn",
-            "upgrade": "-2 and +2"
-          },
-          {
-            "ally": "Librus",
-            "effect": "1/LR, after making a proj atk, can repeat it with a +2 bonus",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Jarrik, Samurai",
-            "effect": "+2 dmg with adv proj atks",
-            "upgrade": "-2 and +2"
-          }
-        ]
+        "description": "3. +1 critical success range vs targets who have damaged you since your last turn",
+        "upgrade": "+1"
       },
       {
-        "name": "Librus' Archive",
-        "effect": "1/LR, after making knowledge skill check, can repeat it with a +2 bonus",
-        "upgrade": "+2 history",
-        "setBonuses": [
-          {
-            "ally": "Aurifex",
-            "effect": "1/LR, after making a crafting creation check, can repeat it with a +12 bonus",
-            "upgrade": "+12"
-          },
-          {
-            "ally": "Nixaar",
-            "effect": "1/LR, after making an persuasion check, can repeat it with a +12 bonus",
-            "upgrade": "+12"
-          },
-          {
-            "ally": "Treefish",
-            "effect": "1/LR, after making an atk against a target smaller than you, can repeat it with a +2 bonus",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Jarrik, Samurai",
-            "effect": "1/LR, after making an aths check, can repeat it with a +12 bonus",
-            "upgrade": "+12"
-          }
-        ]
+        "description": "4. +2 physical resistance",
+        "upgrade": "+2"
       },
       {
-        "name": "Jarrik, Samurai's Focus",
-        "effect": "+4 dmg with adv atks",
-        "upgrade": "+2 incoming temp HP",
-        "setBonuses": [
-          {
-            "ally": "Aurifex",
-            "effect": "+16 dmg with adv crystal atks",
-            "upgrade": "+16"
-          },
-          {
-            "ally": "Nixaar",
-            "effect": "on dealing dmg with an adv atk, -3 dmg with adv atks and +3 dmg with all other atks until the end of your next turn",
-            "upgrade": "-2 and +2"
-          },
-          {
-            "ally": "Treefish",
-            "effect": "+5 dmg with adv atks vs targets smaller than you",
-            "upgrade": "+4"
-          },
-          {
-            "ally": "Librus",
-            "effect": "1/LR, after making an aths check, can repeat it with a +12 bonus",
-            "upgrade": "+12"
-          }
-        ]
+        "description": "5. your damaging attacks deal +1d4 radiant damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. +3 persuasion while in a city's borders",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 history for religious knowledge",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. your damaging attacks deal +1d6 necrotic damage vs targets that have damaged you since your last turn",
+        "upgrade": "+2 die size"
       }
     ]
   },
   {
-    "name": "Osholoran Champions",
-    "amulets": [
+    "name": "Kher'evo's Hunger",
+    "base": {
+      "description": "on killing blow, gain 2 Supply",
+      "upgrade": "+2"
+    },
+    "upgrades": [
       {
-        "name": "Cherry's Attunement",
-        "effect": "+1 global dmg while both of your held enchantment clusters are relics; +2 dmg barrier while your helm and gloves are relics",
-        "upgrade": "+2 to crafting creation checks",
-        "setBonuses": [
-          {
-            "ally": "Grengor",
-            "effect": "+1 global dmg while both of your held enchantment clusters are relics",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Kashana",
-            "effect": "foes within 5' of you are cursed with -1 global dmg while your body armour and boots are relics",
-            "upgrade": "-1"
-          },
-          {
-            "ally": "Rug",
-            "effect": "+1 global dmg while your gloves and boots are relics",
-            "upgrade": "+1"
-          }
-        ]
+        "description": "1. +2 incoming healing",
+        "upgrade": "+2"
       },
       {
-        "name": "Grengor's Violence",
-        "effect": "+3 global dmg with 2+ adj foes",
-        "upgrade": "+5 max HP",
-        "setBonuses": [
-          {
-            "ally": "Cherry",
-            "effect": "+1 global dmg while both of your hand enchantment clusters are relics",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Kashana",
-            "effect": "foes adj to you have -1 global dmg",
-            "upgrade": "-1"
-          },
-          {
-            "ally": "Rug",
-            "effect": "on melee hit, +2 melee dmg until end of the turn",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "2. +2 damage while healthy",
+        "upgrade": "+2"
       },
       {
-        "name": "Kashana's Malevolence",
-        "effect": "creatures cursed by you have -3 global dmg",
-        "upgrade": "+5 dmg barrier with height adv",
-        "setBonuses": [
-          {
-            "ally": "Cherry",
-            "effect": "foes within 5' of you are cursed with -1 global dmg while your body armour and boots are relics",
-            "upgrade": "-1"
-          },
-          {
-            "ally": "Grengor",
-            "effect": "foes adj to you have -1 global dmg",
-            "upgrade": "-1"
-          },
-          {
-            "ally": "Rug",
-            "effect": "+1 curse effectiveness vs targets that have previously been cursed by you",
-            "upgrade": "+1"
-          }
-        ]
+        "description": "3. +8 maximum HP",
+        "upgrade": "+8"
       },
       {
-        "name": "Rug's Relentlessness",
-        "effect": "on hit, +3 dmg with that type until end of the turn",
-        "upgrade": "+2 dmg with hits after your first in a turn",
-        "setBonuses": [
-          {
-            "ally": "Cherry",
-            "effect": "+1 global dmg while your gloves and boots are relics",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Grengor",
-            "effect": "on hit with 2+ adj foes, +2 global dmg until end of the turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Kashana",
-            "effect": "on hit, target gets -1 global dmg until end of their next turn",
-            "upgrade": "-1"
-          }
-        ]
+        "description": "4. on hit, heal 2 HP",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 acid damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. at the end of each combat, +2 damage until you score a killing blow",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 survival for tracking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. upon being healed, gain 5 temporary HP",
+        "upgrade": "+4"
       }
     ]
   },
   {
-    "name": "Hospusalian Champions",
-    "amulets": [
+    "name": "Somnius' Aspiration",
+    "base": {
+      "description": "whenever a movement-impairing condition is applied to you, make a save, ignoring the condition on a success",
+      "upgrade": "whenever you pass this save, heal +4 HP"
+    },
+    "upgrades": [
       {
-        "name": "Eva's Empathy",
-        "effect": "-2 global dmg; +8 minion dmg",
-        "upgrade": "+3 minion dmg",
-        "setBonuses": [
-          {
-            "ally": "T'ymm",
-            "effect": "your minions have +1 to ability checks outside of combat",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Vinton",
-            "effect": "your minions deal +5 dmg vs creatures they didn't target offensively during their last turn",
-            "upgrade": "+4"
-          },
-          {
-            "ally": "Fillipo",
-            "effect": "your minions buffed by you have +10 dmg barrier",
-            "upgrade": "+10"
-          }
-        ]
+        "description": "1. whenever you prevent a condition with a save, +15' speed for 1 round",
+        "upgrade": "+10'"
       },
       {
-        "name": "T'ymm's Innovation",
-        "effect": "spells you cast outside of combat are upcast 1 lvl. if you roll for initiative, you lose the bonus effects of this free upcasting.",
-        "upgrade": "+2 cantrip dmg",
-        "setBonuses": [
-          {
-            "ally": "Eva",
-            "effect": "your Befriend Creature journey activities have a +3 bonus for the purpose of overcoming sub fails",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vinton",
-            "effect": "your Rob journey activities have a +3 bonus for the purpose of overcoming sub fails",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Fillipo",
-            "effect": "your Busk journey activities have a +3 bonus for the purpose of overcoming sub fails",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "2. whenever you would be poisoned, you can use your reaction to convert it into frightened instead",
+        "upgrade": "+1 to saves vs the frightened condition"
       },
       {
-        "name": "Vinton's Fluidity",
-        "effect": "+3 global dmg vs targets you didn't target offensively during your last turn",
-        "upgrade": "+2 to checks made to operate a vehicle",
-        "setBonuses": [
-          {
-            "ally": "Eva",
-            "effect": "allies within 60' of you have +1 global dmg vs targets you didn't target offensively during your last turn",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "T'ymm",
-            "effect": "your Rob journey activities have a +3 bonus for the purpose of overcoming sub fails",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Fillipo",
-            "effect": "creatures buffed by you have +1 global dmg",
-            "upgrade": "+1"
-          }
-        ]
+        "description": "3. +1 to saves vs the restrained condition",
+        "upgrade": "+1"
       },
       {
-        "name": "Fillipo's Rhythm",
-        "effect": "creatures buffed by you have +4 dmg barrier",
-        "upgrade": "+3 outgoing temp HP",
-        "setBonuses": [
-          {
-            "ally": "Eva",
-            "effect": "allies within 60' of you have +2 dmg barrier",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "T'ymm",
-            "effect": "your Busk journey activities have a +3 bonus for the purpose of overcoming sub fails",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vinton",
-            "effect": "creatures buffed by you have +1 global dmg",
-            "upgrade": "+1"
-          }
-        ]
+        "description": "4. +2 damage while you have no adjacent foes",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. +2 to journey activity checks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. gain maximum HP equal to your level",
+        "upgrade": "+1 multiplier"
+      },
+      {
+        "description": "8. whenever you prevent a movement-impairing condition with a save, you can use your reaction to immediately shift 10'",
+        "upgrade": "+10'"
       }
     ]
   },
   {
-    "name": "Antagonists",
-    "amulets": [
+    "name": "Pherousa's Cycle",
+    "base": {
+      "description": "when downed, +1 damage until LR",
+      "upgrade": "+2"
+    },
+    "upgrades": [
       {
-        "name": "Kreon's Madness",
-        "effect": "while bloodied, +4 glyphic dmg",
-        "upgrade": "+2 glyphic dmg",
-        "setBonuses": [
-          {
-            "ally": "Ekhan",
-            "effect": "while bloodied, +8 non-phys barrier",
-            "upgrade": "+8"
-          },
-          {
-            "ally": "Godworms",
-            "effect": "1/LR, on hit while bloodied, dominate target until end of their next turn",
-            "upgrade": "+1 glyphic AB while bloodied"
-          },
-          {
-            "ally": "The Queen of Rot",
-            "effect": "while bloodied, you project a 5' aura that deals 2 glyphic nec dmg to foes",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Trauma Demon",
-            "effect": "while bloodied, +2 dmg taken and +11 dmg thorns",
-            "upgrade": "+2 and +11"
-          }
-        ]
+        "description": "1. -8 max HP and +2 damage",
+        "upgrade": "-8 and +2"
       },
       {
-        "name": "Ekhan's Insulation",
-        "effect": "you can't wield magic weps, but crafted weps are considered mundane for you. +2 to crafting creation checks and +2 to crafting magic equipment rolls.",
-        "upgrade": "+5->4 non-phys barrier",
-        "setBonuses": [
-          {
-            "ally": "Kreon",
-            "effect": "while bloodied, +8 non-phys barrier",
-            "upgrade": "+8"
-          },
-          {
-            "ally": "Godworms",
-            "effect": "1/combat, when hit with a spell, dominate offender until end of their next turn",
-            "upgrade": "+5->4 non-phys barrier"
-          },
-          {
-            "ally": "The Queen of Rot",
-            "effect": "you project a 5' aura that deals 1 glyphic light dmg to foes",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Trauma Demon",
-            "effect": "-5 max HP; +9 spell thorns",
-            "upgrade": "-4 and +9"
-          }
-        ]
+        "description": "2. +2 damage while bloodied",
+        "upgrade": "+2"
       },
       {
-        "name": "Godworms' Drive",
-        "effect": "1/SR, on hit, dominate target until end of their next turn",
-        "upgrade": "creatures dominated by you have +1 dmg taken",
-        "setBonuses": [
-          {
-            "ally": "Kreon",
-            "effect": "1/LR, on hit while bloodied, dominate target until end of their next turn",
-            "upgrade": "+1 glyphic AB while bloodied"
-          },
-          {
-            "ally": "Ekhan",
-            "effect": "1/combat, when hit with a spell, dominate offender until end of their next turn",
-            "upgrade": "+5->4 non-phys barrier"
-          },
-          {
-            "ally": "The Queen of Rot",
-            "effect": "you project a 5' aura that deals 1 glyphic psy dmg to foes",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Trauma Demon",
-            "effect": "-5 max HP; creatures dominated by you take 7 thorns dmg from you on hit",
-            "upgrade": "-5 and +7"
-          }
-        ]
+        "description": "3. +1 failed death save bubble",
+        "upgrade": "+1"
       },
       {
-        "name": "The Queen of Rot's Reign",
-        "effect": "you project a 5' aura that deals 2 glyphic nec dmg to foes",
-        "upgrade": "foes in your auras have +1 dmg taken",
-        "setBonuses": [
-          {
-            "ally": "Kreon",
-            "effect": "while bloodied, your auras deal +3 dmg",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Ekhan",
-            "effect": "you project a 5' aura that deals 1 glyphic light dmg to foes",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Godworms",
-            "effect": "you project a 5' aura that deals 1 glyphic psy dmg to foes",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Trauma Demon",
-            "effect": "-5 max HP; foes in your auras take 2 thorns dmg from you on hit",
-            "upgrade": "-4 and +2"
-          }
-        ]
+        "description": "4. +1 non-physical resistance",
+        "upgrade": "+1"
       },
       {
-        "name": "Trauma Demon's Fragility",
-        "effect": "-7 max HP; +13 dmg thorns",
-        "upgrade": "+4 dmg thorns",
-        "setBonuses": [
-          {
-            "ally": "Kreon",
-            "effect": "while bloodied, +2 dmg taken and +11 dmg thorns",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Ekhan",
-            "effect": "-5 max HP; +9 spell thorns",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Godworms",
-            "effect": "-5 max HP; creatures dominated by you take 5 thorns dmg from you on hit",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "The Queen of Rot",
-            "effect": "-5 max HP; adj foes take 3 thorns dmg from you on hit",
-            "upgrade": "-4 and +2"
-          }
-        ]
+        "description": "5. your damaging attacks deal +1d4 necrotic damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. whenever you are healed when downed, gain 10 additional HP",
+        "upgrade": "+10"
+      },
+      {
+        "description": "7. +2 damage vs targets with higher CR than your level",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. 1/LR, when downed, immediately heal 18 HP",
+        "upgrade": "+18"
       }
     ]
   },
   {
-    "name": "Legendary Champions",
-    "amulets": [
+    "name": "Mother's Sentience",
+    "base": {
+      "description": "-2 damage on odd rounds, +4 damage on even rounds",
+      "upgrade": "-2 and +4"
+    },
+    "upgrades": [
       {
-        "name": "Vidar, Shadow Spy's Facade",
-        "effect": "+3 decep while non-trivially pretending to be someone else",
-        "upgrade": "+2 decep",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "+2 to sleight of hand checks to secretly add one substance to another",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "1/LR, when you fail a decep check, you can react to make the target think it was just a mistake",
-            "upgrade": "SR --> min --> no cooldown --> no react"
-          },
-          {
-            "ally": "Morric",
-            "effect": "+2 decep vs targets who have taken a life",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Clover",
-            "effect": "+2 persuasion vs targets you have non-trivially lied to before",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Surge",
-            "effect": "+2 deception vs creatures of the gender you are sexually attracted to",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Petros",
-            "effect": "+2 performance while non-trivially pretending to be someone else",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Heath",
-            "effect": "+3 decep vs targets native to a different plane from you",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "+2 intimidation while non-trivially pretending to be someone else",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Varden",
-            "effect": "+2 persuasion when discussing a topic you know more facts about than the target",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "1. +4 resistance on odd rounds, -2 resistance on even rounds",
+        "upgrade": "+4 and -2"
       },
       {
-        "name": "Vidar, Assassin's Cruelty",
-        "effect": "on crit, inflict target with 3 psn DoT, stacking until CON save",
-        "upgrade": "+2 DoT dmg",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+2 to sleight of hand checks to secretly add one substance to another",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "on crit, gain 5 temp HP",
-            "upgrade": "+4"
-          },
-          {
-            "ally": "Morric",
-            "effect": "while bloodied, +3 DoT dmg",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Clover",
-            "effect": "while healthy, +2 DoT dmg; while bloodied, +5 non-phys barrier",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Surge",
-            "effect": "as a reaction to a creature starting their turn adj to you, you can inflict them with 2 psn DoT, stacking until CON save",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Petros",
-            "effect": "whenever a creature DoT'd by you hits a creature other than you, your DoTs on them tick twice",
-            "upgrade": "+1 tick"
-          },
-          {
-            "ally": "Heath",
-            "effect": "on crit, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "on crit vs DoT'd target, all their DoTs tick 2 times",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Varden",
-            "effect": "on crit, grant ally within 60' a d6 ammo die that can be added to a dmg roll this combat",
-            "upgrade": "+2 die size"
-          }
-        ]
+        "description": "2. -1 critical success range on odd rounds, +2 critical success range on even rounds",
+        "upgrade": "-1 and +2"
       },
       {
-        "name": "Arndell's Barrier",
-        "effect": "on non-dmging spellcast, gain 2 stacking temp HP",
-        "upgrade": "+2 incoming temp HP",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "1/LR, when you fail a decep check, you can react to make the target think it was just a mistake",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "on crit, gain 2 stacking temp HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Morric",
-            "effect": "while bloodied, +3 incoming temp HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Clover",
-            "effect": "while healthy, +1 buff effectiveness; while bloodied, +2 incoming temp HP",
-            "upgrade": "+1 and +2"
-          },
-          {
-            "ally": "Surge",
-            "effect": "as a reaction to a creature starting their turn adj to you, you can gain 2 stacking temp HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Petros",
-            "effect": "unintelligent creatures are much more likely to target you",
-            "upgrade": "+much more"
-          },
-          {
-            "ally": "Heath",
-            "effect": "when hit while you have temp HP, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "+2 crit range vs creatures who have dmg'd your temp HP since your last turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Varden",
-            "effect": "when hit while you have temp HP, grant ally within 60' a d8 ammo die that can be added to a dmg roll this combat",
-            "upgrade": "+2 die size"
-          }
-        ]
+        "description": "3. -10' speed on odd rounds, +20' speed on even rounds",
+        "upgrade": "-10' and +20'"
       },
       {
-        "name": "Morric's Sacrifice",
-        "effect": "while bloodied, +3 global dmg",
-        "upgrade": "+5 max HP",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+2 decep vs targets who have taken a life",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "while bloodied, +1 crit range",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "while bloodied, +3 incoming temp HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Clover",
-            "effect": "while healthy, +3 dmg barrier; while bloodied, +1 global dmg",
-            "upgrade": "+2 and +1"
-          },
-          {
-            "ally": "Surge",
-            "effect": "as a reaction to a foe taking dmg while adj to you and you are bloodied, heal 3 HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Petros",
-            "effect": "while bloodied, foes within 60' of you have -1 global dmg vs non-you targets",
-            "upgrade": "2"
-          },
-          {
-            "ally": "Heath",
-            "effect": "on becoming bloodied, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "while bloodied, +2 crit dice",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Varden",
-            "effect": "on becoming bloodied, grant ally within 60' a d8 ammo die that can be added to a dmg roll this combat",
-            "upgrade": "+2 die size"
-          }
-        ]
+        "description": "4. +2 resistance on odd rounds",
+        "upgrade": "+2"
       },
       {
-        "name": "Clover's Incubation",
-        "effect": "while healthy, +2 global dmg; while bloodied, +4 dmg barrier",
-        "upgrade": "+2 global dmg vs targets you are flanking",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+2 persuasion vs targets you have non-trivially lied to before",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "while healthy, +1 crit range; while bloodied, +3 dmg barrier",
-            "upgrade": "+1 and +2"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "while healthy, +1 buff effectiveness; while bloodied, +2 incoming temp HP",
-            "upgrade": "+1 and +2"
-          },
-          {
-            "ally": "Morric",
-            "effect": "while healthy, +3 dmg barrier; while bloodied, +1 global dmg",
-            "upgrade": "+2 and +1"
-          },
-          {
-            "ally": "Surge",
-            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +5 dmg barrier vs adj creatures",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Petros",
-            "effect": "while healthy, unintelligent creatures are much more likely to target you; while bloodied, unintelligent creatures are much less likely to target you",
-            "upgrade": "+much more and +much more"
-          },
-          {
-            "ally": "Heath",
-            "effect": "on init, generate a random 2pt wep enchant and a random 2pt armour enchant. while healthy, you gain the effects of the wep one, and the armour one while bloodied",
-            "upgrade": "+2 and +2"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "while healthy, +1 crit dice; while bloodied, +5 phys barrier",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Varden",
-            "effect": "while healthy, adj allies have +1 global dmg; while bloodied, adj allies have +3 dmg barrier",
-            "upgrade": "+2 die size"
-          }
-        ]
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die size"
       },
       {
-        "name": "Surge's Infestation",
-        "effect": "+4 to dmg made as a reaction",
-        "upgrade": "+2 AoE dmg",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+2 deception vs creatures of the gender you are sexually attracted to",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "on dealing dmg as a reaction, target is inflicted with 2 psn DoT, stacking until CON save",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "on dealing dmg as a reaction, gain 3 temp HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Morric",
-            "effect": "on dealing dmg as a reaction, heal 2 HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Clover",
-            "effect": "while healthy, +2 global dmg vs adj targets; while bloodied, +5 dmg barrier vs adj creatures",
-            "upgrade": "+2 and +4"
-          },
-          {
-            "ally": "Petros",
-            "effect": "on dealing dmg as a reaction, target has -3 global dmg vs non-you targets until end of their next turn",
-            "upgrade": "-2"
-          },
-          {
-            "ally": "Heath",
-            "effect": "on dealing dmg as a reaction, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "+1 crit range with atks made as a reaction",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Varden",
-            "effect": "on dealing dmg as a reaction, grant ally within 60' a d4 ammo die that can be added to a dmg roll this combat",
-            "upgrade": "+2 die size"
-          }
-        ]
+        "description": "6. +2 history",
+        "upgrade": "+2"
       },
       {
-        "name": "Petros' Distraction",
-        "effect": "on hit, target has -3 global dmg vs non-you targets until end of their next turn",
-        "upgrade": "+5->4 dmg barrier vs creatures you are flanking",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+2 performance while non-trivially pretending to be someone else",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "whenever an adj foe hits a creature other than you, they are inflicted with 1 psn DoT, stacking until CON save",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "unintelligent creatures are much more likely to target you",
-            "upgrade": "+much more"
-          },
-          {
-            "ally": "Morric",
-            "effect": "while bloodied, foes within 60' of you have -1 global dmg vs non-you targets",
-            "upgrade": "-1"
-          },
-          {
-            "ally": "Clover",
-            "effect": "while healthy, unintelligent creatures are much more likely to target you; while bloodied, unintelligent creatures are much less likely to target you",
-            "upgrade": "+much more and +much more"
-          },
-          {
-            "ally": "Surge",
-            "effect": "adj foes have -1 global dmg vs non-you targets",
-            "upgrade": "-1"
-          },
-          {
-            "ally": "Heath",
-            "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs wild magic surges"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "on crit, target has -4 global dmg vs non-you targets until end of their next turn",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Varden",
-            "effect": "whenever an adj foe hits a creature other than you, grant ally within 60' a d8 ammo die that can be added to a dmg roll this combat",
-            "upgrade": "+2 die size"
-          }
-        ]
+        "description": "7. +2 magiscience",
+        "upgrade": "+2"
       },
       {
-        "name": "Heath's Mutation",
-        "effect": "on init, gain a random 3pt wep enchant until end of combat",
-        "upgrade": "+2 glyphic dmg",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+3 persuasion vs targets native to a different plane from you",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "on crit, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "when hit while you have temp HP, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
-          },
-          {
-            "ally": "Morric",
-            "effect": "on becoming bloodied, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
-          },
-          {
-            "ally": "Clover",
-            "effect": "on init, generate a random 2pt wep enchant and a random 2pt armour enchant. while healthy, you gain the effects of the wep one, and the armour one while bloodied, for that combat",
-            "upgrade": "+2 and +2"
-          },
-          {
-            "ally": "Surge",
-            "effect": "on init, generate a random 2pt arm enchant, negate it, and apply it to all adj foes for that combat",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Petros",
-            "effect": "whenever an adj foe hits a creature other than you, trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "on making 3+ hits in a single turn, trigger a wild magic surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
-          },
-          {
-            "ally": "Varden",
-            "effect": "on init, a random ally within 60' of you gains a random 2pt wep enchant until end of combat",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "8. +2 damage on even rounds",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "The Primordial's Origin",
+    "base": {
+      "description": "+1 non-physical absorption",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 incoming healing",
+        "upgrade": "+2"
       },
       {
-        "name": "Truvat's Escalation",
-        "effect": "on crit, +3 crit dice until the end of the turn",
-        "upgrade": "+5 crit dmg",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+2 intimidation while non-trivially pretending to be someone else",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "on crit, +1 crit range until the end of the turn",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "on crit, gain 2 stacking temp HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Morric",
-            "effect": "while bloodied, +2 crit dice",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Clover",
-            "effect": "while healthy, +1 crit dice; while bloodied, +5 phys barrier",
-            "upgrade": "+1 and +5"
-          },
-          {
-            "ally": "Surge",
-            "effect": "+1 crit range with atks made as a reaction",
-            "upgrade": "+1"
-          },
-          {
-            "ally": "Petros",
-            "effect": "on crit, target has -4 global dmg vs non-you targets until end of their next turn",
-            "upgrade": "-4"
-          },
-          {
-            "ally": "Heath",
-            "effect": "on making 3+ hits in a single turn, trigger a wild magic surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
-          },
-          {
-            "ally": "Varden",
-            "effect": "on making 3+ hits in a single turn, grant ally within 60' a d4 ammo die that can be added to a dmg roll this combat",
-            "upgrade": "+2 die size"
-          }
-        ]
+        "description": "2. +2 non-physical resistance",
+        "upgrade": "+2"
       },
       {
-        "name": "Varden's Invention",
-        "effect": "on init, grant ally within 60' a d10 ammo die that can be added to a dmg roll this combat",
-        "upgrade": "+2 to crafting creation checks",
-        "setBonuses": [
-          {
-            "ally": "Vidar, Shadow Spy",
-            "effect": "+2 persuasion when discussing a topic you know more facts about than the target",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Vidar, Assassin",
-            "effect": "allies holding your ammo die have +2 crit range and must expend it on crit",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Arndell",
-            "effect": "whenever an ally expends your ammo die, they gain +3 stackable temp HP",
-            "upgrade": "+2"
-          },
-          {
-            "ally": "Morric",
-            "effect": "whenever a bloodied ally expends your ammo die, the base dmg is increased by 10",
-            "upgrade": "+10"
-          },
-          {
-            "ally": "Clover",
-            "effect": "whenever a healthy ally expends your ammo die, the base dmg is increased by 8; whenever a bloodied ally expends your ammo die, they heal 2 HP",
-            "upgrade": "+8 and +2"
-          },
-          {
-            "ally": "Surge",
-            "effect": "whenever an ally expends your ammo die for dmg made as a reaction, the base dmg is increased by 10",
-            "upgrade": "+10"
-          },
-          {
-            "ally": "Petros",
-            "effect": "whenever an ally expends your ammo die, their target has -8 global dmg vs targets other than that ally until the end of their next turn",
-            "upgrade": "-8"
-          },
-          {
-            "ally": "Heath",
-            "effect": "whenever an ally expends your ammo die, they trigger a Wild Magic Surge",
-            "upgrade": "you and allies within 60' of you have +4 dmg barrier vs Wild Magic Surges"
-          },
-          {
-            "ally": "Truvat",
-            "effect": "whenever an ally expends your ammo die on a crit, it is added 2 additional times",
-            "upgrade": "+2"
-          }
-        ]
+        "description": "3. as a reaction to taking physical damage, you can convert one physical type to force",
+        "upgrade": "+2 non-physical resistance"
+      },
+      {
+        "description": "4. +5' truesight",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 force damage",
+        "upgrade": "+2 die size"
+      },
+      {
+        "description": "6. +2 true damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 true resistance",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +5 to the healing you receive from absorption",
+        "upgrade": "+4"
+      }
+    ]
+  },
+  {
+    "name": "Al'Akir's Aim",
+    "base": {
+      "description": "at the end of each turn spent not moving, +1 damage that stacks until you move",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. -3 incoming harm if you haven't moved since the start of your last turn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +3 melee resistance if you haven't moved since the start of your last turn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +2 damage if you haven't moved since the start of your last turn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +2 ranged damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +2 damage with readied attacks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +10' long/high jump distance",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "7. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. for every 2 turns you spend not moving, gain +2 damage, stacking until you move",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Arvewal's Duplication",
+    "base": {
+      "description": "your minions deal +3 damage with types you dealt to the target during your last turn",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. on hit, +3 minion damage for 1 round",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 damage while you have an active minion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. on hit, target gets -1 resistance to the hit's base type for 1 round",
+        "upgrade": "-1"
+      },
+      {
+        "description": "4. +3 minion damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your minions gain the affixes of your body armour",
+        "upgrade": "your body armour gains the affix '+1 damage'"
+      },
+      {
+        "description": "6. +3 minion area damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +1 damage while all members of your party are conscious",
+        "upgrade": "+1"
+      },
+      {
+        "description": "8. your non-physical attacks deal +1d4 damage of a non-physical type that they don't already deal",
+        "upgrade": "+2 die size"
+      }
+    ]
+  },
+  {
+    "name": "The Rhox's Gravity",
+    "base": {
+      "description": "+1 critical success range vs prone targets",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. on major success, you may knock the target prone",
+        "upgrade": "+2 damage vs prone targets"
+      },
+      {
+        "description": "2. creatures you knock prone must use +10' movement to stand",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "3. +2 damage with advantaged attacks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +2 damage vs prone targets",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +5 critical damage resistance",
+        "upgrade": "+4"
+      },
+      {
+        "description": "6. +3 damage vs fiends",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 insight",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +2 melee resistance",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Lucius' Corruption",
+    "base": {
+      "description": "gain a mutation for every 5 glyphs you have consumed",
+      "upgrade": "+2 damage with mutated powers"
+    },
+    "upgrades": [
+      {
+        "description": "1. you may adjust your loot roll results by up to 2",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 damage with mutated powers",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +1 critical success range with mutated powers",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +2 glyphic harm",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +5' speed'",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "6. +3 damage vs elementals",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 fire resistance",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. -1 armour; +4 damage",
+        "upgrade": "-1 and +4"
+      }
+    ]
+  },
+  {
+    "name": "Rhombur's Defiance",
+    "base": {
+      "description": "+2 resistance while you have 2+ adjacent foes",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. on hit, target makes a save, becoming taunted on a fail",
+        "upgrade": "creatures have -1 to their saves vs the taunted condition from you"
+      },
+      {
+        "description": "2. +2 melee resistance",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "4. unintelligent creatures are more likely to target you",
+        "upgrade": "more"
+      },
+      {
+        "description": "5. +1 fortitude vs melee attacks",
+        "upgrade": "+1"
+      },
+      {
+        "description": "6. +2 necrotic absorption",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. whenever you go down, +2 resistance for the remainder of combat",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +1 armour while you have 2+ adjacent foes",
+        "upgrade": "+1"
+      }
+    ]
+  },
+  {
+    "name": "Leorian's Target",
+    "base": {
+      "description": "creatures marked by you have -1 resistance",
+      "upgrade": "-1"
+    },
+    "upgrades": [
+      {
+        "description": "1. whenever you target an ally with a limited power, all foes adjacent to them get -1 resistance for 1 round",
+        "upgrade": "-1"
+      },
+      {
+        "description": "2. creatures marked by you deal -2 damage",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. creatures marked by you have -5 critical damage resistance",
+        "upgrade": "-4"
+      },
+      {
+        "description": "4. +2 damage vs marked targets",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. allies taking a short rest with you heal +3 HP at the end of the rest",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +3 resistance vs humanoids",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 finesse",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. creatures marked by you shed 10' of bright light",
+        "upgrade": "+10'"
+      }
+    ]
+  },
+  {
+    "name": "Vargh's Recklessness",
+    "base": {
+      "description": "-8 maximum HP; +2 damage",
+      "upgrade": "-8 and +2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 resistance",
+        "upgrade": "-1"
+      },
+      {
+        "description": "2. +2 resistance while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +1 passive regen",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +2 damage while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +5 critical damage bonus",
+        "upgrade": "+4"
+      },
+      {
+        "description": "6. when downed, +2 damage for the remainder of combat",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. when downed, +5 critical damage bonus for the remainder of combat",
+        "upgrade": "+4"
+      },
+      {
+        "description": "8. on hit, heal 2 HP",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Yavine's Sniping",
+    "base": {
+      "description": "+3 ranged damage vs targets 30+' away",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "2. your ranged attacks have double maximum range",
+        "upgrade": "+1 multiplier"
+      },
+      {
+        "description": "3. +1 critical success range vs targets 30+' away",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +2 ranged damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. whenever you deal ranged damage, you can self-inflict damage to increase the ranged damage dealt, at 3 HP per 2 damage",
+        "upgrade": "+1 damage"
+      },
+      {
+        "description": "6. +2 lightning absorption",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +5 ranged damage in darkness",
+        "upgrade": "+4"
+      },
+      {
+        "description": "8. +1d4 piercing damage with ranged attacks",
+        "upgrade": "+2 die size"
+      }
+    ]
+  },
+  {
+    "name": "Xorp's Shifting",
+    "base": {
+      "description": "+3 stealth while shapeshifted",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 damage while shapeshifted",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. while shapeshifted, +1 to skills the shape is proficient in",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +2 unarmed damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. 1/LR, you can cast Alter Self",
+        "upgrade": "SR -> combat -> 2/combat -> at-will"
+      },
+      {
+        "description": "6. whenever a member of your party uses a shrine to add or positively modify an affix, it gets +1 minimum point value",
+        "upgrade": "+1"
+      },
+      {
+        "description": "7. adjacent allies have +1 resistance",
+        "upgrade": "+1"
+      },
+      {
+        "description": "8. 1/LR, you can cast Pass Without Trace",
+        "upgrade": "SR -> combat -> 2/combat -> at-will"
+      }
+    ]
+  },
+  {
+    "name": "Jarrik, Eldritch Knight's Weaving",
+    "base": {
+      "description": "on weapon hit, +2 spell damage until end of your next turn",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 weapon damage while concentrating",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 spell damage while you have an active stance",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +1 weapon damage; +1 spell damage",
+        "upgrade": "+1 and +1"
+      },
+      {
+        "description": "4. +2 melee damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. on spell hit, +2 weapon damage until end of your next turn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +1 melee critical success range",
+        "upgrade": "+1"
+      },
+      {
+        "description": "8. on weapon hit, +1d4 force damage to your damaging spell attacks until end of your next turn",
+        "upgrade": "+2 die sizes"
+      }
+    ]
+  },
+  {
+    "name": "Nailo's Aura",
+    "base": {
+      "description": "adjacent allies have +3 damage barrier",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. adjacent allies have +1 resistance",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. adjacent allies have +2 resistance to damage that targets their barrier",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +2 resistance while adjacent to an ally",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +3 damage vs fiends",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. adjacent allies have +2 resistance vs non-armour attacks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +3 persuasion while within a city's borders",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 history",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +5 outgoing temporary HP vs adjacent targets",
+        "upgrade": "+4"
+      }
+    ]
+  },
+  {
+    "name": "Aurifex's Craft",
+    "base": {
+      "description": "+5 crystal damage",
+      "upgrade": "+4"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2% crystal flare chance",
+        "upgrade": "+2%"
+      },
+      {
+        "description": "2. your non-damaging crystal flares count as 1 rank higher",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. +8 outgoing ongoing crystal damage",
+        "upgrade": "+8"
+      },
+      {
+        "description": "4. you may adjust your loot rolls by up to 2",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. 20% chance on getting any loot to gain +1 loot roll (does not chain)",
+        "upgrade": "+10%"
+      },
+      {
+        "description": "6. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. gain crystal damage equal to triple your bonus global damage",
+        "upgrade": "+1 global damage"
+      }
+    ]
+  },
+  {
+    "name": "Nixaar's Versatility",
+    "base": {
+      "description": "on dealing damage, -2 to damage of that type and +2 to all other damage types for 1 round",
+      "upgrade": "-2 and +2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 non-physical damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +1d4 damage of a random type to your damaging attacks",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "3. your damage ignores 50% resistance",
+        "upgrade": "+1 damage"
+      },
+      {
+        "description": "4. +3 persuasion through telepathy",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +2 athletics",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +3 melee damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 fire damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. when dealing damage, you can change one type of damage dealt to another type of your choice",
+        "upgrade": "+1 damage"
+      }
+    ]
+  },
+  {
+    "name": "Treefish's Predation",
+    "base": {
+      "description": "+5 ranged damage vs targets smaller than you",
+      "upgrade": "+4"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 ranged damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. you are 1 size larger",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. +1 critical success range vs targets smaller than you",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +1 Dexterity",
+        "upgrade": "+1"
+      },
+      {
+        "description": "5. whenever you fail to hit with a ranged attack, as a bonus action you can grant the attack +6 damage",
+        "upgrade": "+4"
+      },
+      {
+        "description": "6. +2 survival",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +5' climb speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "8. +2 intimidation",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Librus' Archive",
+    "base": {
+      "description": "1/LR, after making an Intelligence check, you can retry it with a +1 bonus",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 history",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +2 medicine",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. you can cast Invisibility 1/LR",
+        "upgrade": "+2 upcast levels"
+      },
+      {
+        "description": "6. +2 investigation",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 poison resistance",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. you can cast Identify 1/SR",
+        "upgrade": "+2 magiscience"
+      }
+    ]
+  },
+  {
+    "name": "Jarrik, Samurai's Focus",
+    "base": {
+      "description": "+2 damage with advantaged attacks",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. on hit, you may force the target to make a save, being knocked prone on a fail",
+        "upgrade": "creatures have -1 to their saves vs the prone condition from you"
+      },
+      {
+        "description": "2. +1 critical success range with advantaged attacks",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. your attack advantage ignores 1 instance of attack disadvantage",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +3 incoming temporary HP",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. you have advantage on attacks during the first round of combat",
+        "upgrade": "+2 damage with advantaged attacks"
+      },
+      {
+        "description": "6. +1 damage while you are at least level 6",
+        "upgrade": "+1"
+      },
+      {
+        "description": "7. +8 maximum HP while you are at least level 6",
+        "upgrade": "+8"
+      },
+      {
+        "description": "8. your advantaged damaging attacks deal +1d4 acid damage",
+        "upgrade": "+2 die sizes"
+      }
+    ]
+  },
+  {
+    "name": "Cherry's Attunement",
+    "base": {
+      "description": "+6 damage while not wearing any enchanted items",
+      "upgrade": "+6"
+    },
+    "upgrades": [
+      {
+        "description": "1. you may adjust your loot roll results by up to 2",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +30' speed while not wearing any enchanted items",
+        "upgrade": "+30'"
+      },
+      {
+        "description": "3. whenever you find a relic on a loot roll, gain 5 gold",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. +1 Intelligence",
+        "upgrade": "+1"
+      },
+      {
+        "description": "5. when your minions are hit, their attacker suffers 8 slashing harm",
+        "upgrade": "+8"
+      },
+      {
+        "description": "6. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 resistance vs humanoids",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +22 non-physical damage while not wearing any enchanted items",
+        "upgrade": "+22"
+      }
+    ]
+  },
+  {
+    "name": "Grengor's Violence",
+    "base": {
+      "description": "+2 damage while you have 2+ adjacent foes",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 damage while adjacent to a foe",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +3 damage while you are flanked by foes",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +2 resistance while you have 2+ adjacent foes",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +8 maximum HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "5. upon rolling a 1 or 2 on a damage die, reroll it. You must use the new result",
+        "upgrade": "+2 minimum value of the reroll"
+      },
+      {
+        "description": "6. +2 damage while you are 30+' from any allies",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +1 armour while you have 2+ adjacent foes",
+        "upgrade": "+1"
+      }
+    ]
+  },
+  {
+    "name": "Kashana's Malevolence",
+    "base": {
+      "description": "creatures cursed by you have -2 damage",
+      "upgrade": "-2"
+    },
+    "upgrades": [
+      {
+        "description": "1. the debilitated condition inflicted by you counts as a curse",
+        "upgrade": "creatures debilitated by you have -2 damage"
+      },
+      {
+        "description": "2. creatures cursed by you have -2 resistance",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. creatures cursed by you have +3 incoming harm",
+        "upgrade": "-2"
+      },
+      {
+        "description": "4. +2 resistance while you have height advantage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. whenever you would apply a curse, you may also apply it to another creature within 10' of the target",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "6. +3 resistance vs celestials",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "8. whenever a creature cursed by you starts its turn within 30' of you, it makes a save, becoming frightened of you until the end of the turn on a fail",
+        "upgrade": "creatures have -1 to their saves vs the frightened condition from you"
+      }
+    ]
+  },
+  {
+    "name": "Rug's Relentlessness",
+    "base": {
+      "description": "on dealing damage, +1 to damage of that type for 1 round",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1d4 slashing damage to your damaging attacks",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "2. +1 AB with opportunity attacks",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. your damage ignores 50% resistance",
+        "upgrade": "+1 damage"
+      },
+      {
+        "description": "4. +5 opportunity attack damage",
+        "upgrade": "+4"
+      },
+      {
+        "description": "5. +1 Strength",
+        "upgrade": "+1"
+      },
+      {
+        "description": "6. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. on hit with 3+ different damage types, splash 5 damage",
+        "upgrade": "+4"
+      }
+    ]
+  },
+  {
+    "name": "Eva's Empathy",
+    "base": {
+      "description": "-1 damage and +5 minion damage",
+      "upgrade": "-1 and +4"
+    },
+    "upgrades": [
+      {
+        "description": "1. +3 minion damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. if you spend your turn not dealing damage, your minion gains +3 damage during its next turn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +1 minion critical success range",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +1 Wisdom",
+        "upgrade": "+1"
+      },
+      {
+        "description": "5. during the third combat round across any amount of time that your minion has been alive, it deals +12 damage",
+        "upgrade": "+12"
+      },
+      {
+        "description": "6. +2 nature",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +10 minion damage vs aberrations",
+        "upgrade": "+10"
+      },
+      {
+        "description": "8. whenever you summon a minion, it gains 10 temporary HP",
+        "upgrade": "+10"
+      }
+    ]
+  },
+  {
+    "name": "T'ymm's Innovation",
+    "base": {
+      "description": "spells you cast outside of combat are upcast 1 level. If you roll for initiative, you lose the bonus effects of this free upcasting",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +3 outgoing healing",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +5 outgoing temporary HP",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. +2 cantrip damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +1 Intelligence",
+        "upgrade": "+1"
+      },
+      {
+        "description": "6. +2 force damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +5' fly speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "8. once between combats, you can cast any spell up to 1st-level as a ritual",
+        "upgrade": "+1 level"
+      }
+    ]
+  },
+  {
+    "name": "Vinton's Fluidity",
+    "base": {
+      "description": "+2 damage vs targets you didn't attack during your last turn",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +5' reach and your ranges are doubled",
+        "upgrade": "+5' and +1 multiplier"
+      },
+      {
+        "description": "2. +2 resistance vs opportunity attacks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "4. as a reaction, reduce an incoming attack's damage by 5",
+        "upgrade": "+4"
+      },
+      {
+        "description": "5. +10' blindsight",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "6. +15' swim speed",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "7. +2 finesse",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +8 charged damage vs targets you didn't attack during your last turn",
+        "upgrade": "+8"
+      }
+    ]
+  },
+  {
+    "name": "Fillipo's Rhythm",
+    "base": {
+      "description": "allies affected by your powers have +1 resistance",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. allies affected by your powers have +1 passive regeneration",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. as a bonus action, you can grant a creature within 60' +1 resistance for the remainder of combat",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. when allies affected by your powers are hit, their attackers suffer 5 thunder harm",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. +5 outgoing temporary HP",
+        "upgrade": "+4"
+      },
+      {
+        "description": "5. 1/LR, you can cast Skywrite",
+        "upgrade": "SR -> combat -> 2/combat -> at-will"
+      },
+      {
+        "description": "6. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. allies affected by your powers have +2 passive temporary HP generation",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Kreon's Madness",
+    "base": {
+      "description": "+3 glyphic harm while bloodied",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 glyphic harm",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +8 maximum HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "3. +2 resistance while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +2 damage with mutated powers",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +2 history",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. on causing glyphic harm while bloodied, the target gets -2 resistance vs reflex attacks for 1 round",
+        "upgrade": "-2"
+      }
+    ]
+  },
+  {
+    "name": "Ekhan's Insulation",
+    "base": {
+      "description": "you cannot wear relics, but whenever a member of your party uses a shrine to add or positively modify an affix, it gets +2 minimum point value",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. you may adjust your loot roll results by up to 2",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. whenever you find a shrine in a loot roll, gain 3 gold",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. whenever a member of your party uses a shrine to add or positively modify an affix, it gets +1 minimum point value",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +2 non-physical resistance",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 lightning damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. when hit by a non-physical attack, attacker suffers 8 lightning harm",
+        "upgrade": "+8"
+      },
+      {
+        "description": "8. +2 finesse",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Godworms' Drive",
+    "base": {
+      "description": "1/LR, on major success, the target is dominated for 1 round",
+      "upgrade": "SR -> combat -> 2/combat -> at-will"
+    },
+    "upgrades": [
+      {
+        "description": "1. creatures dominated by you deal +2 damage with attacks controlled by you",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. creatures dominated by you have +1 critical success range with attack controlled by you",
+        "upgrade": "+1"
+      },
+      {
+        "description": "3. 1/SR, on critical success, the target is dominated for 1 round",
+        "upgrade": "combat -> 2/combat -> at-will"
+      },
+      {
+        "description": "4. creatures dominated by you have -1 resistance",
+        "upgrade": "-1"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +2 brawn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 damage vs celestials",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. creatures dominated by you have -3 resistance vs will attacks",
+        "upgrade": "-2"
+      }
+    ]
+  },
+  {
+    "name": "The Queen of Rot's Reign",
+    "base": {
+      "description": "you project a persistent zone 5' around you that causes 1 necrotic harm to foes",
+      "upgrade": "+1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 outgoing harm",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. foes adjacent to you have +2 incoming harm",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. +5' speed",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "4. creatures have -1 resistance if they have suffered harm from you in the last round",
+        "upgrade": "-1"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 necrotic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +1 passive regeneration",
+        "upgrade": "+1"
+      },
+      {
+        "description": "7. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. creatures have -5' speed if they have suffered necrotic harm from you in the last round",
+        "upgrade": "-5'"
+      }
+    ]
+  },
+  {
+    "name": "Trauma Demon's Fragility",
+    "base": {
+      "description": "-8 maximum HP; when hit, attacker suffers 9 psychic harm",
+      "upgrade": "-8 and +9"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 resistance while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. when hit, attacker suffers 5 psychic harm",
+        "upgrade": "+4"
+      },
+      {
+        "description": "3. when hit while bloodied, attacker suffers 8 psychic harm",
+        "upgrade": "+8"
+      },
+      {
+        "description": "4. +2 damage vs adjacent targets",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 psychic damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. -3 psychic resistance; +4 deception",
+        "upgrade": "-2 and +4"
+      },
+      {
+        "description": "7. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. whenever you cause thorns harm, the target is pushed 10' away from you",
+        "upgrade": "+10'"
+      }
+    ]
+  },
+  {
+    "name": "Vidar, Shadow Spy's Facade",
+    "base": {
+      "description": "+3 deception while non-trivially pretending to be someone else",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +2 stealth",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +2 finesse",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +3 perception for noticing traps",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +2 resistance vs reflex attacks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +3 melee damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. your damaging attacks deal +1d4 poison damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "8. you can cast Disguise Self 1/LR. while affected by the spell, you have +3 deception",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Vidar, Assassin's Toxin",
+    "base": {
+      "description": "on critical success, cause 2 ongoing poison harm, stacking until the target passes a passive save",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 critical success range vs targets suffering from ongoing harm",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. +2 outgoing harm",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. +3 to ongoing harm you cause",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +3 melee damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +10' blindsight",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "6. +1 damage while you are at least level 6",
+        "upgrade": "+1"
+      },
+      {
+        "description": "7. +8 maximum HP while you are at least level 6",
+        "upgrade": "+8"
+      },
+      {
+        "description": "8. whenever a creature fails a passive save to end your ongoing harm, it immediately suffers 3 acid harm",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Arndell's Barrier",
+    "base": {
+      "description": "whenever you use a non-damaging spell or maneuver, gain 2 temporary HP, which stacks with itself",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +3 incoming temporary HP",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +1 1st-level spell slot or +1 exertion",
+        "upgrade": "+1 slot OR +1 level ELSE +1"
+      },
+      {
+        "description": "3. +2 resistance while you have temporary HP",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. on short rest, recover 2 spell slot levels or 2 exertion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. you can cast Blur 1/LR",
+        "upgrade": "+2 upcast levels"
+      },
+      {
+        "description": "6. unintelligent creatures are more likely to target you",
+        "upgrade": "more"
+      },
+      {
+        "description": "7. +2 brawn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. whenever you gain temporary HP, the next time you use a non-damaging spell or maneuver, an ally within 30' of you heals 3 HP",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Morric's Sacrifice",
+    "base": {
+      "description": "+2 damage while you have at least 1 failed death save",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 failed death save bubble",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. whenever you gain HP while on 0 HP, gain 8 additional HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "3. +2 resistance while you have at least 1 failed death save",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. medicine checks on you consider your maximum HP to be 10 higher",
+        "upgrade": "+10"
+      },
+      {
+        "description": "5. +3 damage vs celestials",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. you can cast Speak With Dead 1/LR",
+        "upgrade": "SR -> minute -> 2/minute -> at-will"
+      },
+      {
+        "description": "7. +2 damage while not in sunlight",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. 1/LR, when downed, immediately heal 18 HP",
+        "upgrade": "+18"
+      }
+    ]
+  },
+  {
+    "name": "Clover's Incubation",
+    "base": {
+      "description": "while healthy, +1 damage; while bloodied, +1 resistance",
+      "upgrade": "+1 and +1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 passive regeneration",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. +8 maximum HP",
+        "upgrade": "+8"
+      },
+      {
+        "description": "3. +2 passive regeneration while bloodied",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +3 melee damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. 2/combat, on hit while healthy, the target makes a save, becoming blinded for 1 round on a fail",
+        "upgrade": "creatures have -1 to their saves vs the blinded condition from you"
+      },
+      {
+        "description": "6. medicine checks on you consider your maximum HP to be 10 higher",
+        "upgrade": "+10"
+      },
+      {
+        "description": "7. your damaging attacks deal +1d4 fire damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "8. +3 incoming healing while healthy",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Surge's Infection",
+    "base": {
+      "description": "whenever you hurt a creature with your reaction, +2 damage and outgoing harm with reactions for 1 round",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. upon hurting a creature with your reaction, the target gets -1 resistance or +2 incoming harm (depending on how you hurt them) for 1 round",
+        "upgrade": "-1 and +2"
+      },
+      {
+        "description": "2. +2 damage and outgoing harm with reactions",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. upon hurting a creature with your reaction, heal 5 HP",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. +1 necrotic damage and +1 outgoing necrotic harm",
+        "upgrade": "+1 and +1"
+      },
+      {
+        "description": "5. whenever a creature dies within 10' of you, you can react to raise it as a CR 1/4 undead minion that deals bludgeoning damage and requires your concentration",
+        "upgrade": "+2 CR"
+      },
+      {
+        "description": "6. +2 damage while shapeshifted",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. you can cast Wither and Bloom 1/LR",
+        "upgrade": "+2 upcast levels"
+      },
+      {
+        "description": "8. your damaging reaction attacks deal +1d6 necrotic damage",
+        "upgrade": "+2 die sizes"
+      }
+    ]
+  },
+  {
+    "name": "Petros' Distraction",
+    "base": {
+      "description": "on hit, target gets -2 damage vs targets other than you for 1 round",
+      "upgrade": "-2"
+    },
+    "upgrades": [
+      {
+        "description": "1. on hit, allies within 60' of you get +1 area resistance for 1 round",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. on hit, an ally within 60' of you can shift 5'",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "3. on hit, allies within 60' of you get +1 melee resistance for 1 round",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. as a reaction to being targeted by a damaging attack, make a deception check against the attack's attack roll, reducing the attack's success tier by 2 on a success",
+        "upgrade": "+2 deception"
+      },
+      {
+        "description": "5. on hit, the target has -1 resistance against the next damaging attack made against it by a creature other than you",
+        "upgrade": "-1"
+      },
+      {
+        "description": "6. +3 to your Busk journey activity checks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. as a reaction to an ally within 60' being targeted by a damaging attack, you can reduce the attack's success tier by 1",
+        "upgrade": "+1"
+      }
+    ]
+  },
+  {
+    "name": "Heath's Mutation",
+    "base": {
+      "description": "on initiative roll, gain a random 2-point-minimum affix for the remainder of combat",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. on initiative roll, roll a die. On an even, gain +1 damage for the remainder of combat. Otherwise, gain +1 resistance for the remainder of combat.",
+        "upgrade": "+1 and +1"
+      },
+      {
+        "description": "2. on initiative roll, roll a die. On an even, gain +1 critical success range for the remainder of combat. Otherwise, gain +5 damage barrier for the remainder of combat.",
+        "upgrade": "+1 and +4"
+      },
+      {
+        "description": "3. on initiative roll, roll a die. On an even, add +1d6 psychic damage to your damaging attacks for the remainder of combat. Otherwise, whenever you hit this combat, the target gets -1 damage for the remainder of combat.",
+        "upgrade": "+4 die sizes and -1"
+      },
+      {
+        "description": "4. +2 survival",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. on initiative roll, gain a random 2-point affix with the Offence affinity for the remainder of combat",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 to your Scam journey activity checks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. on initiative roll, roll a die. On an even, gain +2 psychic damage for the remainder of combat. Otherwise, gain +3 psychic resistance for the remainder of combat.",
+        "upgrade": "+2 and +2"
+      }
+    ]
+  },
+  {
+    "name": "Truvat's Escalation",
+    "base": {
+      "description": "on critical success, gain +10 critical damage bonus for 1 round",
+      "upgrade": "+10"
+    },
+    "upgrades": [
+      {
+        "description": "1. +1 critical success range",
+        "upgrade": "+1"
+      },
+      {
+        "description": "2. +5 critical damage bonus",
+        "upgrade": "+5"
+      },
+      {
+        "description": "3. on critical success, gain +1 critical success range for 1 round",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. +1 Dexterity",
+        "upgrade": "+1"
+      },
+      {
+        "description": "5. on initiative roll, make a DC 15 intimidation check. On a success, choose a creature within 60' of you to become dazed for 1 round",
+        "upgrade": "-1 DC"
+      },
+      {
+        "description": "6. +2 intimidation",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 survival",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. on critical success, your critical successs deal +1d12 slashing damage for 1 round",
+        "upgrade": "+2 die sizes"
+      }
+    ]
+  },
+  {
+    "name": "Varden's Invention",
+    "base": {
+      "description": "on initiative roll, grant an ally within 60' a d8 ammo die that can be added to a damage roll this combat",
+      "upgrade": "+2 die sizes"
+    },
+    "upgrades": [
+      {
+        "description": "1. whenever an ally rolls a 6+ on your ammo die, the damage is increased by 12",
+        "upgrade": "+12"
+      },
+      {
+        "description": "2. whenever an ally expends your ammo die, its damage ignores resistance and immunity",
+        "upgrade": "the ammo die's damage is increased by +8"
+      },
+      {
+        "description": "3. allies holding your ammo die have +1 critical success range and must expend it on a critical success",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. on short rest, you can swap out your prepared spells",
+        "upgrade": "+1 1st-level spell slot -> +1 slot OR +1 level"
+      },
+      {
+        "description": "5. you can cast Blindness/Deafness 1/LR",
+        "upgrade": "+2 levels upcast"
+      },
+      {
+        "description": "6. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +3 to your Experiment journey activity checks",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. whenever an ally rolls expends your ammo die, it deals +1d8 base damage",
+        "upgrade": "+2 die sizes"
+      }
+    ]
+  },
+  {
+    "name": "Thaddeus' Redemption",
+    "base": {
+      "description": "whenever you go down, +5 outgoing healing for the remainder of combat",
+      "upgrade": "+4"
+    },
+    "upgrades": [
+      {
+        "description": "1. whenever you go down, +5' fly speed for the remainder of combat",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "2. whenever you are revived, all foes within 60' of you suffer 3 radiant harm",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. you gain outgoing radiant harm equal to your bonus outgoing healing",
+        "upgrade": "+3->2 outgoing healing"
+      },
+      {
+        "description": "4. +3 resistance vs undead",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. +1 armour vs undead",
+        "upgrade": "+1"
+      },
+      {
+        "description": "6. +2 medicine",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 history",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. your outgoing healing splashes 3 points",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Zacharias' Rescue",
+    "base": {
+      "description": "while an ally within 60' of you is down, all foes within the same area have -2 AB with opportunity attacks",
+      "upgrade": "-2"
+    },
+    "upgrades": [
+      {
+        "description": "1. whenever an ally within 60' of you is revived, they recover 1% additional HP",
+        "upgrade": "+1%"
+      },
+      {
+        "description": "2. as a free action on each of your turns, you can make a DC 15 History check to give a creature within 60' of you -2 resistance to one of 2 random damage types of your choice for the remainder of combat",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. while an ally within 60' of you is down, +15' Speed",
+        "upgrade": "+10'"
+      },
+      {
+        "description": "4. while an ally within 60' of you is down, a foe within the same area that fails to hit with an opportunity attack gets -5 damage for 1 round",
+        "upgrade": "+4"
+      },
+      {
+        "description": "5. +3 to history checks to recall information related to myths and legends that are location-based",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +2 history",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 medicine",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. while an ally within 60' of you is down, a foe within the same area that fails to hit with an opportunity attack gets -5 AB with opportunity attacks for 1 round",
+        "upgrade": "2"
+      }
+    ]
+  },
+  {
+    "name": "Siggusmondo's Dominance",
+    "base": {
+      "description": "on major success, target is frightened for 1 round",
+      "upgrade": "+2 damage vs frightened targets"
+    },
+    "upgrades": [
+      {
+        "description": "1. 1/LR, on major success, the target is dominated for 1 round",
+        "upgrade": "SR -> combat -> 2/combat -> at-will"
+      },
+      {
+        "description": "2. whenever an armour attack fails to hit you, the attacker suffers 5 piercing harm",
+        "upgrade": "+4"
+      },
+      {
+        "description": "3. +2 damage vs frightened targets",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. your hits splash 2 damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "5. once on each of your turns, your minion can use its reaction to make an attack",
+        "upgrade": "+3->2 minion damage"
+      },
+      {
+        "description": "6. +2 intimidation",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 brawn",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. creatures frightened by you have -1 will against attacks that charm",
+        "upgrade": "-1"
+      }
+    ]
+  },
+  {
+    "name": "Vehemir's Impulse",
+    "base": {
+      "description": "when hit while not shapeshifted, immediately shapeshift into an animalistic form, gaining 8 temporary HP. The form ends when the temporary HP are lost",
+      "upgrade": "+8"
+    },
+    "upgrades": [
+      {
+        "description": "1. when hit while shapeshifted, gain +2 damage for the remainder of combat",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. gain damage while shapeshifted equal to your bonus damage",
+        "upgrade": "+1 damage"
+      },
+      {
+        "description": "3. +2 resistance while not shapeshifted",
+        "upgrade": "+2"
+      },
+      {
+        "description": "4. +5' fly speed while shapeshifted",
+        "upgrade": "+5'"
+      },
+      {
+        "description": "5. you are 1 size larger while shapeshifted",
+        "upgrade": "+3->2 damage vs creatures smaller than you while shapeshifted"
+      },
+      {
+        "description": "6. +2 survival",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 perception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. +10' Speed while shapeshifted",
+        "upgrade": "+10'"
+      }
+    ]
+  },
+  {
+    "name": "Vam'pyrs' Unity",
+    "base": {
+      "description": "on melee hit vs target you are flanking, an ally you are flanking it with gains +2 damage for 1 round",
+      "upgrade": "+2"
+    },
+    "upgrades": [
+      {
+        "description": "1. +3 melee damage vs targets you are flanking",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. you count as flanking a target if an ally is adjacent to them",
+        "upgrade": "+3->2 melee damage vs targets you are flanking"
+      },
+      {
+        "description": "3. +1 armour vs opportunity attacks",
+        "upgrade": "+1"
+      },
+      {
+        "description": "4. -3 psychic resistance; +2 non-psychic resistance",
+        "upgrade": "-2 and +2"
+      },
+      {
+        "description": "5. your damaging attacks deal +1d4 acid damage",
+        "upgrade": "+2 die sizes"
+      },
+      {
+        "description": "6. +2 magiscience",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 deception",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. on melee hit vs target you are flanking, an ally you are flanking it with gains +3 melee damage for 1 round",
+        "upgrade": "+2"
+      }
+    ]
+  },
+  {
+    "name": "Shahir's Revenge",
+    "base": {
+      "description": "on hit, heal 1 HP and gain 2 temporary HP",
+      "upgrade": "+1 and +1"
+    },
+    "upgrades": [
+      {
+        "description": "1. +2 incoming healing",
+        "upgrade": "+2"
+      },
+      {
+        "description": "2. +3 incoming temporary HP",
+        "upgrade": "+2"
+      },
+      {
+        "description": "3. on critical success, heal 2 HP and gain 3 temporary HP",
+        "upgrade": "+2 and +2"
+      },
+      {
+        "description": "4. 1/combat, as a bonus action, you can take the Help action",
+        "upgrade": "attacks you help deal +2 damage"
+      },
+      {
+        "description": "5. +2 resistance while adjacent to 2+ foes",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +2 history",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 medicine",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. when hit, gain 8 temporary hit points",
+        "upgrade": "+8"
       }
     ]
   }

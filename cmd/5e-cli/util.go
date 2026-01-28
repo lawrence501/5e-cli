@@ -8,11 +8,7 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
-
-	"github.com/manifoldco/promptui"
-	"golang.org/x/exp/slices"
 )
 
 const DATA_DIR = "data"
@@ -21,351 +17,117 @@ func randSelect[S []E, E any](s S) E {
 	return s[rand.Intn(len(s))]
 }
 
-func fetchAffixes(fileName string) ([]Affix, error) {
+func fetchData[T any](fileName string, _ T) (T, error) {
+	var data T
+
 	cwd, err := os.Getwd()
 	if err != nil {
-		return []Affix{}, err
+		return data, err
 	}
 
 	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
 	if err != nil {
-		return []Affix{}, err
+		return data, err
 	}
 
-	affixes := []Affix{}
-	err = json.Unmarshal([]byte(f), &affixes)
+	err = json.Unmarshal([]byte(f), &data)
 	if err != nil {
-		return []Affix{}, err
+		return data, err
 	}
-	return affixes, nil
+	return data, nil
 }
 
-func fetchTomes() ([]Tome, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Tome{}, err
-	}
+func discordSend(content string) error {
+	// sendP := promptui.Prompt{
+	// 	Label: "Broadcast to Discord? (Empty for yes, anything for no)",
+	// }
+	// send, err := sendP.Run()
+	// if err != nil {
+	// 	return err
+	// }
+	log.Print(content)
+	// if send != "" {
+	// 	return nil
+	// }
 
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "tome.json"))
-	if err != nil {
-		return []Tome{}, err
-	}
-
-	tomes := []Tome{}
-	err = json.Unmarshal([]byte(f), &tomes)
-	if err != nil {
-		return []Tome{}, err
-	}
-	return tomes, nil
-}
-
-func positiveEncounter() (string, error) {
-	allEncounters, err := fetchEncounters()
-	if err != nil {
-		return "", err
-	}
-	return processString(randSelect(allEncounters.Positive)), nil
-}
-
-func hostileEncounter(tag string) (string, error) {
-	allEncounters, err := fetchEncounters()
-	if err != nil {
-		return "", err
-	}
-	var encounter HostileEncounter
-	for {
-		encounter = randSelect(allEncounters.Hostile)
-		if tag != "" {
-			if slices.Contains(encounter.Tags, tag) {
-				break
-			}
-		} else {
-			break
-		}
-	}
-	return fmt.Sprintf("%s (%d)", encounter.Name, encounter.ID), nil
-}
-
-func fetchEncounters() (Encounters, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return Encounters{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "encounter.json"))
-	if err != nil {
-		return Encounters{}, err
-	}
-
-	encounters := Encounters{}
-	err = json.Unmarshal([]byte(f), &encounters)
-	if err != nil {
-		return Encounters{}, err
-	}
-	return encounters, nil
-}
-
-func fetchWeather() (Weathers, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return Weathers{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "weather.json"))
-	if err != nil {
-		return Weathers{}, err
-	}
-
-	weathers := Weathers{}
-	err = json.Unmarshal([]byte(f), &weathers)
-	if err != nil {
-		return Weathers{}, err
-	}
-	return weathers, nil
+	// content = fmt.Sprintf("> *%s*\n%s", randomWords(2, " "), content)
+	// DISCORD_USERNAME := "Broadcaster"
+	// message := discordwebhook.Message{
+	// 	Username: &DISCORD_USERNAME,
+	// 	Content:  &content,
+	// }
+	// return discordwebhook.SendMessage(
+	// 	"https://discord.com/api/webhooks/1340159157164179489/auj9LBrU9CIGtxE6BE1-lhHJcTIL0OQkwK6oT9i7KwmFamUyEZ311fHS5S66aN4a-l1U",
+	// 	message,
+	// )
+	return nil
 }
 
 func generateWeather() (string, error) {
-	weathers, err := fetchWeather()
+	weathers, err := fetchData("weather", []string{})
 	if err != nil {
 		return "", err
 	}
-
-	weatherRoll := rand.Intn(100)
-	// if weatherRoll < 5 {
-	if weatherRoll < 0 {
-		chosen := randSelect(weathers.Exotic)
-		return fmt.Sprintf("%s (+2 minimum hostile random encounters [before %d and %d]. At least one must be a combat. %s)", chosen.Name, rand.Intn(5)+1, rand.Intn(5)+1, processString(chosen.Description)), nil
-	}
-	chosen := randSelect(weathers.Common)
-	return chosen, nil
-}
-
-func fetchRingBases() (map[string]RingBase, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return map[string]RingBase{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "ring.json"))
-	if err != nil {
-		return map[string]RingBase{}, err
-	}
-
-	bases := map[string]RingBase{}
-	err = json.Unmarshal([]byte(f), &bases)
-	if err != nil {
-		return map[string]RingBase{}, err
-	}
-	return bases, nil
-}
-
-func fetchAmulets() ([]AmuletSet, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []AmuletSet{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "amulet.json"))
-	if err != nil {
-		return []AmuletSet{}, err
-	}
-
-	sets := []AmuletSet{}
-	err = json.Unmarshal([]byte(f), &sets)
-	if err != nil {
-		return []AmuletSet{}, err
-	}
-	return sets, nil
-}
-
-func fetchSimpleGenerics(fileName string) ([]SimpleGeneric, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []SimpleGeneric{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
-	if err != nil {
-		return []SimpleGeneric{}, err
-	}
-
-	simple := []SimpleGeneric{}
-	err = json.Unmarshal([]byte(f), &simple)
-	if err != nil {
-		return []SimpleGeneric{}, err
-	}
-	return simple, nil
-}
-
-func fetchGlyphs() ([]GlyphPath, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []GlyphPath{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "glyph.json"))
-	if err != nil {
-		return []GlyphPath{}, err
-	}
-
-	paths := []GlyphPath{}
-	err = json.Unmarshal([]byte(f), &paths)
-	if err != nil {
-		return []GlyphPath{}, err
-	}
-	return paths, nil
-}
-
-func fetchRelics() (Relics, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return Relics{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "relic.json"))
-	if err != nil {
-		return Relics{}, err
-	}
-
-	relics := Relics{}
-	err = json.Unmarshal([]byte(f), &relics)
-	if err != nil {
-		return Relics{}, err
-	}
-	return relics, nil
-}
-
-func fetchGenerics(fileName string) ([]Generic, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, fileName+".json"))
-	if err != nil {
-		return []Generic{}, err
-	}
-
-	generics := []Generic{}
-	err = json.Unmarshal([]byte(f), &generics)
-	if err != nil {
-		return []Generic{}, err
-	}
-	return generics, nil
-}
-
-func fetchChaos() (Chaos, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return Chaos{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "chaos.json"))
-	if err != nil {
-		return Chaos{}, err
-	}
-
-	chaos := Chaos{}
-	err = json.Unmarshal([]byte(f), &chaos)
-	if err != nil {
-		return Chaos{}, err
-	}
-	return chaos, nil
+	return randSelect(weathers), nil
 }
 
 func fetchDreamPool(char string) ([]Affix, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []Affix{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "dreamPool.json"))
-	if err != nil {
-		return []Affix{}, err
-	}
-
-	pools := map[string][]Affix{}
-	err = json.Unmarshal([]byte(f), &pools)
+	pools, err := fetchData("dreamPool", map[string][]Affix{})
 	if err != nil {
 		return []Affix{}, err
 	}
 	return pools[char], nil
 }
 
-func fetchPerks(char string) ([]string, error) {
-	cwd, err := os.Getwd()
-	if err != nil {
-		return []string{}, err
-	}
-
-	f, err := os.ReadFile(filepath.Join(cwd, DATA_DIR, "perk.json"))
-	if err != nil {
-		return []string{}, err
-	}
-
-	perks := map[string][]string{}
-	err = json.Unmarshal([]byte(f), &perks)
-	if err != nil {
-		return []string{}, err
-	}
-	return perks[char], nil
-}
-
-func getLootSearchResults(skill string) (int, error) {
-	rollP := promptui.Prompt{
-		Label:    skill + " results (space separated)",
-		Validate: validateSpaceSeparated,
-	}
-	rolls, err := rollP.Run()
-	if err != nil {
-		return 0, err
-	}
-
-	rollsSlice := strings.Split(rolls, " ")
-	playerCount := len(rollsSlice)
-
-	totalResult := 0
-	for _, i := range rollsSlice {
-		intRoll, err := strconv.Atoi(i)
-		if err != nil {
-			return 0, err
-		}
-		totalResult += intRoll
-	}
-
-	if totalResult < 13*playerCount {
-		log.Println("Nothing extra found.")
-		return 0, nil
-	}
-
-	return int(math.Floor(float64(totalResult-(13*playerCount))/float64(2.5*float64(playerCount))) + 1), nil
-}
-
 var DIE_SIZES []float64 = []float64{2.5, 3.5, 4.5, 5.5, 6.5}
 var DIE_FACES []string = []string{"d4", "d6", "d8", "d10", "d12"}
 
 func dmgToDice(dmg float64) string {
-	var lowestDie string
-	lowestMod := -1.0
-	lowestCount := 1.0
-	for idx, size := range DIE_SIZES {
-		if dmg < size-0.5 {
-			continue
-		}
-		mod := math.Mod(dmg, size)
-		// fmt.Println(fmt.Sprintf("Mod for %s is %f (dmg = %f, size = %f)", DIE_FACES[idx], mod, dmg, size))
-		if mod <= lowestMod || lowestMod < 0 {
-			count := math.Round(dmg / size)
-			face := DIE_FACES[idx]
-			if (face == "d4" && count > 0 && count <= 5) || (face != "d4" && count > 0 && count <= 10) {
-				lowestDie = face
-				lowestMod = mod
-				lowestCount = count
+	// fmt.Printf("Finding dice for %.5f damage...\n", dmg)
+	bestCount := math.MaxInt
+	bestFace := 0
+	lowestDiff := math.MaxFloat64
+
+	for count := 1; count <= 15; count++ {
+		for face := 4; face <= 12; face += 2 {
+			if face == 4 && count > 5 {
+				continue
+			}
+			average := float64(count) * (float64(face + 1)) / 2.0
+			diff := math.Abs(float64(average) - dmg)
+			if diff == 0.0 {
+				// fmt.Println("Exact match")
+				bestCount = count
+				bestFace = face
+				lowestDiff = diff
+				break
+			}
+			if diff >= 2.5 {
+				continue
+			}
+			// fmt.Printf("Count: %d, Face: d%d, Average: %.5f, Diff: %.5f\n", count, face, average, diff)
+
+			if diff < lowestDiff || (diff == lowestDiff && count < bestCount) {
+				lowestDiff = diff
+				bestCount = count
+				bestFace = face
 			}
 		}
+		if lowestDiff == 0.0 {
+			break
+		}
 	}
-	if lowestMod < 0 {
-		return fmt.Sprintf("No elegant dice set found (1-10 dice) for %.1f damage.", dmg)
+
+	if bestFace == 0 {
+		return fmt.Sprintf("No elegant dice set found (1-15 dice) for %.1f damage.", dmg)
 	}
-	return fmt.Sprintf("%.0f%s", lowestCount, lowestDie)
+	return fmt.Sprintf("%dd%d", bestCount, bestFace)
+}
+
+func randomWords(count int, separator string) string {
+	outputBuilder := []string{}
+	for _ = range count {
+		outputBuilder = append(outputBuilder, randSelect(WORDLIST))
+	}
+	return strings.Join(outputBuilder, separator)
 }

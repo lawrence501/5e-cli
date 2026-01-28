@@ -1,68 +1,7 @@
-{
-  "common": [
-    "Mild",
-    "Rainy",
-    "Chilly",
-    "Sweltering",
-    "Snowy",
-    "Hailing",
-    "Foggy",
-    "Overcast",
-    "Humid",
-    "Sunny"
-  ],
-  "exotic": [
-    {
-      "name": "Winds of Fortune",
-      "description": "All encounter rewards are empowered."
-    },
-    {
-      "name": "Serendipitous Breeze",
-      "description": "All journey activity results are improved to the next tier up."
-    },
-    {
-      "name": "Malevolent Darkness",
-      "description": "There is no sunlight."
-    },
-    {
-      "name": "Bloody Sky",
-      "description": "+1 hostile random encounter."
-    },
-    {
-      "name": "Golden Sky",
-      "description": "+1 positive random encounter."
-    },
-    {
-      "name": "Freaky Day",
-      "description": "Each player rolls a d20. In descending order, each player gives their character sheet to the next."
-    },
-    {
-      "name": "Gaze of the Gambler",
-      "description": "Whenever an adventurer casts a spell or uses a maneuver, they trigger a Wild Magic Surge."
-    },
-    {
-      "name": "Gaze of the Manipulator",
-      "description": "Each player sends the DM a message with the name of an adventurer in the current session, with no zcussion. If any adventurer's name is received twice, that adventurer has disadvantage with all journey activities, and all other adventurers have advantage. If an adventurer's name appears more than twice, they get double advantage and all others get disadvantage instead. If no adventurer's name appears more than once, all adventurer get disadvantage."
-    },
-    {
-      "name": "Winds of Chaos",
-      "description": "Instead of using their usual skill bonuses for journey activities, each adventurer instead rolls a d20 and uses that result as their bonus. This is rolled after the player has chosen their activity."
-    },
-    {
-      "name": "Feywild Trickery",
-      "description": "Players cannot choose their own journey activities. Instead, random ones are chosen for each adventurer and the check becomes a 50/50 chance of either critical failure or critical success. All adventurers must attempt a journey activity."
-    },
-    {
-      "name": "Delirious Fog",
-      "description": "Each adventurer gains a Chaotic modifier."
-    },
-    {
-      "name": "Echoing Silence",
-      "description": "Players cannot communicate with each other and must have their eyes closed unless either it is their turn or they are being affected by a monster in some way."
-    },
-    {
-      "name": "Mass Migration",
-      "description": "All hostile random encounters are removed, and instead the first one is replaced with a crag-crog-style set of monster waves of $creatureType monsters. Starting from CR 0 and increasing by 1 each time (where possible), each wave will contain [player count] copies of a random monster from that creature type. No real time between waves, just new initiative, and after all, gain loot rolls equal to the number of waves completed and exp equal to double (no extra loot can be gained)."
-    }
-  ]
-}
+[
+  "Downpour: You cannot use Strength checks for journey activities today.",
+  "Blizzard: You cannot use Dexterity checks for journey activities today.",
+  "Heavy Winds: You cannot use Intelligence checks for journey activities today.",
+  "Sweltering: You cannot use Wisdom checks for journey activities today.",
+  "Acid Rain: You cannot use Charisma checks for journey activities today."
+]

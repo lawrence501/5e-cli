@@ -1,7 +1,7 @@
 import random
 
-inspirationList = ["Roundguard", "Slice & Dice", "Brotato", "Last Flame", "Death Must Die", "Bing", "BG3", "HSR", "Dimension 20", "Underworlds", "Solasta", "Magnus Archives", "D4", "Torchlight Infinite", "LoL", "DotA 2", "Sorcery", "MCU", "Diablo Immortal", "FFXIV", "Lost Ark", "Fairytales", "John Cleaver", "LevelUp", "No Sleep", "New World", "Hades", "Tem Tem", "Vampire Princess", "Doctor Who", "Witcher", "TWD", "Hannibal", "Buffyverse", "Numenera", "ToME", "MTG", "D3", "PoE", "GW2", "DD", "D2", "UA", "GD", "Talisman",
-                   "ES", "Neverwinter", "Median", "DOS", "D&D", "D&D", "LoZ", "DS", "BoI", "Pillars", "Nier", "FO", "MD", "HoF", "EH", "FEH", "TL2", "Tyranny", "STS", "Pokemon", "AQ", "WoW", "DF", "BB", "E7", "LE", "PF", "Age of Sigmar"]
+inspirationList = ["Kingdom Hearts", "Seekers", "Draw Steel", "Aethermancer", "Legends of Runeterra", "Slormancer", "Soulstone Survivors", "Supernatural", "Magicraft", "4e", "PoE2", "Good Wife", "Slice & Dice", "Brotato", "Death Must Die", "Bing", "BG3", "HSR", "Dimension 20", "Underworlds", "Solasta", "Magnus Archives", "D4", "Torchlight Infinite", "LoL", "DotA 2", "Sorcery", "MCU", "Diablo Immortal", "FFXIV", "Lost Ark", "Fairytales", "John Cleaver", "LevelUp", "No Sleep", "New World", "Hades", "Tem Tem", "Vampire Princess", "Doctor Who", "TWD", "Hannibal", "Buffyverse", "Cypher", "ToME", "D3", "PoE", "GW2", "DD", "D2", "UA", "GD", "Talisman",
+                   "Elder Scrolls", "Neverwinter", "Median", "Divinity OS 2", "D&D", "D&D", "Zelda", "Dark Souls", "Binding of Isaac", "Pillars of Eternity", "Nier", "Fallout", "Monsters' Den", "Hand of Fate", "Fire Emblem Heroes", "Torchlight 2", "Tyranny", "Slay the Spire", "Pokemon", "AdventureQuest", "WoW", "DragonFable", "Bloodborne", "Epic7", "Last Epoch", "Pathfinder", "Age of Sigmar"]
 
 if __name__ == "__main__":
     while True:

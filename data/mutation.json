@@ -1,602 +1,747 @@
 [
     {
-        "name": "Grotesque",
-        "description": "You are distressingly deformed. -2 CHA, then gain another mutation."
+        "name": "Inflexible Power",
+        "target": "powers that deal $dmgType damage",
+        "description": "The power deals more {type} damage, but less damage of all other types."
     },
     {
-        "name": "Corrupted Organs",
-        "description": "Your guts writhe. Whenever you are reduced to 0 hit points, all creatures within 30' must make a WIS save or be frightened of you until save."
+        "name": "Sacrifice",
+        "target": "powers with a resource cost",
+        "description": "The power's resource cost is replaced with a HP cost equal to 6 times the original value."
     },
     {
-        "name": "Bat Wings",
-        "description": "Huge and flappy. You gain a fly speed equal to your walking speed."
+        "name": "Added Power",
+        "target": "powers that deal damage",
+        "description": "The power deals additional $dmgType damage."
     },
     {
-        "name": "Burst of Speed",
-        "description": "1/LR, as a glyphic action, you can double your speed for 10mins."
+        "name": "Assassination",
+        "target": "powers that make attacks",
+        "description": "The power has +3 critical success range against targets on full HP."
     },
     {
-        "name": "Barrel Chest",
-        "description": "+2 CON, max CON, and you gain max HP equal to your prof bonus."
+        "name": "Cruelty",
+        "target": "powers that deal damage",
+        "description": "The power cannot cause ongoing harm, but it deals more damage against targets suffering from ongoing harm."
     },
     {
-        "name": "Lamarckian Evolution",
-        "description": "One of your hands turns into a random tool, granting you an expertise die in ability checks with a random STR-, DEX-, or WIS-based skill."
+        "name": "Chaining",
+        "target": "powers that make ranged, single-target attacks",
+        "description": "The first time the power hits whenever the power is used, you can immediately use the attack again from the target to a new target, using line of sight and range restrictions as if the original target was the attacker."
     },
     {
-        "name": "Hooved",
-        "description": "Your feet become hooves."
+        "name": "Infusion",
+        "target": "powers that cost your highest resource",
+        "description": "Whenever you use the power, you gain more damage for 1 round."
     },
     {
-        "name": "Unstable",
-        "description": "Whenever you are reduced to 0 hit points, parasitic limbs erupt from your body and make the Grapple maneuver on your behalf on all adj creatures. This grapple cannot be removed unless you choose to do so."
+        "name": "Monochromatic Power",
+        "target": "powers that deal $dmgType damage",
+        "description": "The power deals more damage, but can only deal {type} damage."
     },
     {
-        "name": "Crab Arm",
-        "description": "One of your hands becomes a claw, which is a natural weapon dealing 1d8 B, but its attack rolls have a -1d4 penalty. You can attack with it as a glyphic action."
+        "name": "Decay",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target suffers slight ongoing $dmgType harm until they pass a passive save."
     },
     {
-        "name": "Hook Fingers",
-        "description": "On both hands, they are bony. This is a natural weapon dealing 1d6 S dmg. You can attack with it as a glyphic action. You cannot wield non-unarmed weapons."
+        "name": "Cruel Upheaval",
+        "target": "powers that make attacks",
+        "description": "Whenever the power inflicts a condition, the ground in a 5' radius around the target becomes difficult terrain that only affects foes for the remainder of combat."
     },
     {
-        "name": "Patterned Skin",
-        "description": "Your skin is stripy in a colour of your choice."
+        "name": "Vulnerability",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target gains 50% vulnerability to all damage for 1 round."
     },
     {
-        "name": "Inside Out",
-        "description": "You are, horribly, inside out. Your Charisma is always 1 and your maximum hit points are halved."
+        "name": "Empowered Replenishment",
+        "target": "powers with a non-instantaneous duration",
+        "description": "While the power's duration is active, you recover 1 spell slot level and 1 exertion at the start of each of your turns."
     },
     {
-        "name": "Hole",
-        "description": "You have a mysterious hole right through your forehead."
+        "name": "Finishing",
+        "target": "powers that deal damage",
+        "description": "The power can now only be used after if you have already made 2 attacks this combat, but the power deals massively more damage."
     },
     {
-        "name": "Poison Spot",
-        "description": "The spot is bright blue and the size of a coin, and migrates around your body. Whenever a creature touches you, they must make a Constitution saving throw or take poison dmg equal to your level multiplied by your proficiency bonus."
+        "name": "Concentration",
+        "target": "powers that make area attacks",
+        "description": "The power's areas are halved in size, but the power deals substantially more area damage."
     },
     {
-        "name": "1000 Noses",
-        "description": "They cover your body. You gain 30' of blindsight, which uses your sense of smell."
+        "name": "Corruption",
+        "target": "powers that heal",
+        "description": "The power's healing is converted to causing substantial ongoing $dmgType harm, stacking until the target passes a passive save."
     },
     {
-        "name": "Extra Mouths",
-        "description": "Gain 2d6 extra mouths on your head and neck."
+        "name": "Corrosion",
+        "target": "powers that cause ongoing harm",
+        "description": "Creatures suffering the power's ongoing harm have -1 Armour."
     },
     {
-        "name": "Neck Frill",
-        "description": "Can inflate as a glyphic action to force all beasts that can see you to make a WIS save or be frightened of you until save."
+        "name": "Stability",
+        "target": "powers that hit",
+        "description": "The power deals substantially more damage, but can no longer score critical successs."
     },
     {
-        "name": "Foul Stench",
-        "description": "You smell of burnt meat and hair. You subtract 1d4 from your Stealth checks."
+        "name": "Preparation",
+        "target": "powers that deal damage",
+        "description": "After using the power, you must spend an action preparing the power before it can be used again, but the power deals substantially more damage."
     },
     {
-        "name": "Magnetic Sense",
-        "description": "Can detect magnetic north unless within 30' of a strong magnetic field or anything made of iron."
+        "name": "Ascension",
+        "target": "powers that deal damage",
+        "description": "If you have already used the power at least twice this combat, it deals massively more damage."
     },
     {
-        "name": "Hinged Head",
-        "description": "Your head opens like a box, with an enormous, toothy mouth that stretches ear to ear."
+        "name": "Restoration",
+        "target": "powers that heal",
+        "description": "The power's healing is increased."
     },
     {
-        "name": "Leathery Hide",
-        "description": "Your base AC while unarmoured is equal to 12 + your DEX mod."
+        "name": "Premeditation",
+        "target": "powers that empower other powers",
+        "description": "Other powers empowered by the power deal more damage."
     },
     {
-        "name": "Lightning Speed",
-        "description": "You become incredibly nimble. Your speed is increased by 10'."
+        "name": "Premeditated Execution",
+        "target": "powers that empower other powers",
+        "description": "Other powers empowered by the power deal substantially more damage against bloodied targets."
     },
     {
-        "name": "Venomous",
-        "description": "Your unarmed hits deal +1d4 psn dmg."
+        "name": "Keen Resistance",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a critical success, gain a slight amount of resistance for the remainder of combat."
     },
     {
-        "name": "Spike Teeth",
-        "description": "Your teeth are long and serrated."
+        "name": "Transmutation",
+        "target": "powers that inflict the $condition condition",
+        "description": "Whenever the power inflicts the condition, the target becomes $condition instead."
     },
     {
-        "name": "The Vapours",
-        "description": "You emit clouds of stinking yellow vapour from your ears. Subtract 1d4 from your Stealth checks."
+        "name": "Resilient Command",
+        "target": "powers that summon damageable minions",
+        "description": "The power's minions gain $dmgPolarity resistance."
     },
     {
-        "name": "Milk",
-        "description": "1/LR, you can reduce a single creature's fatigue by 1 level by being milked and having them drink it. If you go 3+ days without being milked, you have vulnerability to all dmg until you are milked. You cannot milk yourself."
+        "name": "Execution",
+        "target": "powers that deal damage",
+        "description": "The power deals substantially more damage against bloodied targets."
     },
     {
-        "name": "Monkey Tail",
-        "description": "You can hold items (but not wield weapons) with your tail, and gain an expertise die in athletics checks made to climb."
+        "name": "Power",
+        "target": "powers that deal damage",
+        "description": "The power deals more damage."
     },
     {
-        "name": "Bizarre Colour",
-        "description": "Your skin flickers between two colours (red, orange, yellow, green, blue, purple)."
+        "name": "Channeled Shielding",
+        "target": "powers that require concentration",
+        "description": "Whenever you lose concentration on the power, gain a massive amount of temporary HP."
     },
     {
-        "name": "Leather Skin",
-        "description": "Your skin is lumpy and warty. You cannot wear armour, but your base AC while unarmoured is equal to 12 + your DEX mod."
+        "name": "Massive Preparation",
+        "target": "powers with areas that deal damage",
+        "description": "The first time the power deals damage each combat, it deals more damage and its areas are doubled in size."
     },
     {
-        "name": "Insane Risks",
-        "description": "You are immune to the frightened condition, but you have no sense of danger."
+        "name": "Accuracy",
+        "target": "powers that make attacks",
+        "description": "The power's attacks have +1 AB."
     },
     {
-        "name": "Pheromones",
-        "description": "Beasts struggle to move towards you (as per the frightened condition) while within 20' of you."
+        "name": "Expansive Consideration",
+        "target": "powers with areas and a cooldown",
+        "description": "The power's areas are quadrupled in size, but its cooldown is increased by 1 step."
     },
     {
-        "name": "Atrophy",
-        "description": "A random one of your limbs becomes withered and useless. If you lose a leg, your speed is halved. If you lose an arm, you cannot hold anything in that arm."
+        "name": "Eternal Decay",
+        "target": "powers that cause ongoing harm",
+        "description": "The power's ongoing harm is reduced, but creature's have a -2 penalty to their passive saves to end it."
     },
     {
-        "name": "Inverted",
-        "description": "Your legs and arms are swapped. Subtract 1d4 from all sleight of hand checks."
+        "name": "Abundance",
+        "target": "powers with a non-instantaneous duration that require concentration",
+        "description": "The power no longer requires concentration, but its duration is reduced by 1 step."
     },
     {
-        "name": "Hulking Arms",
-        "description": "They grow huge as your legs shrink, but you can walk on them to avoid any penalty to your movement. +2 STR and max STR."
+        "name": "Keen Splashing",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical success, it splashes a substantial amount of damage."
     },
     {
-        "name": "Sensitive Skin",
-        "description": "You get an unpleasant, itchy rash whenever you touch silver."
+        "name": "Cruel Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow against a creature with a condition, your attacks deal a substantial amount of additional $dmgType damage for 1 round."
     },
     {
-        "name": "Bird Wings",
-        "description": "They are vestigial."
+        "name": "Endurance",
+        "target": "powers that prompt passive saves",
+        "description": "Creatures have a -1 penalty to their passive saves against the power's effects."
     },
     {
-        "name": "Stabbing Limb",
-        "description": "One of your arms becomes a sharp point of bone, which becomes a natural weapon with the same stats as a dagger (except for the Thrown trait)."
+        "name": "Efficiency",
+        "target": "powers with a resource cost that deal damage",
+        "description": "The power's resource cost is reduced by 1 step, but it deals less damage."
     },
     {
-        "name": "Mute",
-        "description": "Your tongue disappears and you cannot speak."
+        "name": "Channeled Repulsion",
+        "target": "powers that require concentration",
+        "description": "Whenever you lose concentration on the power, all foes adjacent to you are pushed 20' away from you."
     },
     {
-        "name": "Spores",
-        "description": "Whenever you are reduced to 0 hit points, you coat a 30' radius around you in purple, hallucinogenic spores. All creatures in that radius must make a CON save or become confused until save."
+        "name": "Considered Power",
+        "target": "powers with a cooldown that deal damage",
+        "description": "The power deals massively more damage, but its cooldown is increased by 1 step."
     },
     {
-        "name": "Unusual Genitals",
-        "description": "Your genitals are bizarre."
+        "name": "Upheaval",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard or higher success, the ground in a 5' radius around the target becomes difficult terrain that only affects foes for the remainder of combat."
     },
     {
-        "name": "Single Bird Wind",
-        "description": "Grows from a random limb, it is useless."
+        "name": "Cruel Power",
+        "target": "powers that inflict conditions",
+        "description": "Whenever the power inflicts a condition, your attacks deal additional $dmgType damage for 1 round."
     },
     {
-        "name": "Feeble Jaw",
-        "description": "You have an enormous overbite."
+        "name": "Keen Cruelty",
+        "target": "powers that make attacks",
+        "description": "The power has +1 critical success range against targets with a condition."
     },
     {
-        "name": "Third Eye",
-        "description": "On your forehead."
+        "name": "Impending Eruption",
+        "target": "powers with a non-instantaneous duration that target creatures",
+        "description": "When the power's duration ends, the target and all of your foes adjacent to it suffer $dmgType harm."
     },
     {
-        "name": "Dog Face",
-        "description": "Your face is replaced with a hound's."
+        "name": "Tanky Command",
+        "target": "powers that summon damageable minions",
+        "description": "The power's minions have more resistance, but deal less damage."
     },
     {
-        "name": "Perfect Memory",
-        "description": "You gain an expertise die in history checks to recall things you have sensed."
+        "name": "Life Draining",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you heal a substantial amount of HP."
     },
     {
-        "name": "Bad Posture",
-        "description": "Your head is swapped with a random one of your legs. You need to hop to move with the remaining leg. -20' sp."
+        "name": "Magnification",
+        "target": "powers with areas",
+        "description": "The power's areas are doubled in size."
     },
     {
-        "name": "Skin Flaps",
-        "description": "Like fleshy flying fox wings. They provide no benefit."
+        "name": "Lasting",
+        "target": "powers with a non-instantaneous duration that deal damage",
+        "description": "The power's duration is increased by 1 step, but it deals less damage."
     },
     {
-        "name": "Long Nose",
-        "description": "Your nose is protruding and sharp."
+        "name": "Pinning",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target becomes grappled by you for the remainder of combat."
     },
     {
-        "name": "Strange Walk",
-        "description": "Your joints are used in an odd order. -5' sp."
+        "name": "Enduring Command",
+        "target": "powers that summon damageable minions",
+        "description": "Whenever the power's minions die, they persist until the end of their next turn before actually dying."
     },
     {
-        "name": "Crown of Tentacles",
-        "description": "2d10 tiny tentacles grow in a ring around your head."
+        "name": "Overpowering",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target becomes debilitated for 1 round."
     },
     {
-        "name": "Spider Neck",
-        "description": "Whenever you are reduced to 0 hit points, your head is revealed to be a giant spider living on top of your body, and you can control it as a CR 1/8 beast minion. You cannot be brought above 0 hit points unless the spider is in your body's space."
+        "name": "Enduring Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Any conditions the power inflicts have their maximum duration doubled."
     },
     {
-        "name": "Mental Backsliding",
-        "description": "-2 INT. You cannot read or write."
+        "name": "Growing Power",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, you gain barely any damage for the remainder of combat."
     },
     {
-        "name": "Hair Migration",
-        "description": "All of your head hair migrates to a random side of your head in a huge tuft."
+        "name": "Layered Decay",
+        "target": "powers that cause non-stacking ongoing harm",
+        "description": "The power's ongoing harm now stacks."
     },
     {
-        "name": "Cyclops",
-        "description": "Your eyes migrate to the centre of your forehead and fuse into one."
+        "name": "Unstable Command",
+        "target": "powers that summon damageable minions",
+        "description": "Whenever the power's minions become bloodied, they explode, causing massive $dmgType harm to adjacent foes and immediately dying."
     },
     {
-        "name": "The Fits",
-        "description": "Your mind isn't quite right. Whenever you enter for the first time on your turn or start your turn in bright light, you must make a DC 15 INT save or be dazed until your next turn."
+        "name": "Overpowering Combination",
+        "target": "powers that make attacks",
+        "description": "Every third time you attack with the power, the target is debilitated for 1 round."
     },
     {
-        "name": "Boiling Obesity",
-        "description": "Fat descreases your speed by 10'."
+        "name": "Scattering",
+        "target": "powers that make non-area attacks",
+        "description": "The power can target one additional target within its reach/range, but it deals less damage."
     },
     {
-        "name": "Finger Mouths",
-        "description": "Each of your fingers ends in a tiny lamprey mouth. You can eat with them."
+        "name": "Sacrificial Command",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power while you have an active minion, the minion loses HP and the power deals substantially more damage."
     },
     {
-        "name": "Rearrangeable",
-        "description": "You can slide your limbs around to new positions. It takes 1hr per limb."
+        "name": "Sonic Booms",
+        "target": "powers that move you",
+        "description": "For every 5' space the power moves you through, all foes adjacent to that space suffer a slight amount of $dmgType harm."
     },
     {
-        "name": "Fly Cluster",
-        "description": "A pocket of writhing fly legs appears on a random one of your arms."
+        "name": "Cascading Mass",
+        "target": "powers with areas",
+        "description": "The power's areas are repeated on both sides of them, on a random axis, but its areas are halved in size."
     },
     {
-        "name": "Toe Growth",
-        "description": "Your big toes grow as large as the rest of your foot. You cannot wear boots."
+        "name": "Channelling",
+        "target": "powers that require concentration",
+        "description": "You cannot lose concentration on the power against your will."
     },
     {
-        "name": "Alluring Face",
-        "description": "All your facial blemishes migrate to a spot on your back. +2 CHA and max CHA."
+        "name": "Piercing",
+        "target": "powers that make ranged attacks",
+        "description": "The power's attacks pierce once through their targets, but deal substantially less damage after piercing."
     },
     {
-        "name": "Strange Voice",
-        "description": "Something has gone awry with your vocal cords. Your voice sounds like a distressed cat mewling."
+        "name": "Biding",
+        "target": "powers that deal damage",
+        "description": "The first time you use the power each combat, it occurs one additional time for each turn you have had this combat in which you did not use the power. The additional occurences deal slightly less damage."
     },
     {
-        "name": "Fractal Fingers",
-        "description": "On a random one of your hands, you have 2d1000 fingers. You cannot drop objects held in that hand unintentionally."
+        "name": "Empowered Recovery",
+        "target": "powers with a non-instantaneous duration",
+        "description": "While the power's duration is active, you gain a slight amount of passive regeneration."
     },
     {
-        "name": "Horrible Bloating",
-        "description": "Something is wrong with your guts. At the end of each rest, you must make a DC 15 Constitution saving throw or lose 1 hit point."
+        "name": "Splashing",
+        "target": "powers that hit",
+        "description": "The power splashes damage on hit."
     },
     {
-        "name": "Foul Stench",
-        "description": "You smell like rotting fish and boiled hooves. You have -4 to stealth checks."
+        "name": "Empowered Accuracy",
+        "target": "powers with a non-instantaneous duration",
+        "description": "While the power's duration is active, you gain +1 to attack rolls."
     },
     {
-        "name": "Bilious Vomit",
-        "description": "As a glyphic action, you can vomit acid in a 10' cone. All creatures in the cone automatically take 1d4 glyphic acid dmg. This cannot be used again until you take a rest, and that rest has no effect."
+        "name": "Prismatic Frailty",
+        "target": "powers that hit",
+        "description": "The power deals less damage, but gives the target reduced $dmgType resistance for 1 round on hit."
     },
     {
-        "name": "Illusion of Normality",
-        "description": "At the end of each long rest, you make a DC 15 CON save. On a success, you suppress the effects of all your mutations until your next long rest."
+        "name": "Prismatic Exposure",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target gets slightly reduced $dmgType resistance for 1 round."
     },
     {
-        "name": "Concealed Mutation",
-        "description": "Your other mutations fade, appearing only when you have 3+ levels of Strife or are bloodied. This includes their effects."
+        "name": "Reckless Consideration",
+        "target": "powers with a cooldown",
+        "description": "The power can now be used one additional time within its cooldown, but its cooldown is increased by 1 step."
     },
     {
-        "name": "Bloated Tongue",
-        "description": "Doesn't fit in your mouth, making speaking difficult. You have -2 to Persuasion and Deception checks."
+        "name": "Powerful Command",
+        "target": "powers that summon minions",
+        "description": "The power's minions deal more damage."
     },
     {
-        "name": "Revival",
-        "description": "A missing body part, organ, or limb regenerates fully."
+        "name": "Keen Eruption",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical success, energy erupts from the target, causing substantial $dmgType harm to all of your foes adjacent to the target."
     },
     {
-        "name": "Spider Gland",
-        "description": "You can excrete 10' of rope at the end of each LR."
+        "name": "Decaying Assassination",
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever the power causes ongoing harm to a creature with full HP, the ongoing harm is massively increased."
     },
     {
-        "name": "1000 Eyes",
-        "description": "They cover your body. -3 CHA and you cannot be surprised."
+        "name": "Keen Refreshment",
+        "target": "powers with a cooldown that make attacks",
+        "description": "Whenever the power scores a critical success, its cooldown is refreshed."
     },
     {
-        "name": "Second Face",
-        "description": "On your stomach. It can see and smell, but not hear or speak. While you are unarmoured, this grants you +2 to Perception checks for sight and smell."
+        "name": "Decaying Eruption",
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever a creature suffering from the power's ongoing harm dies, it explodes, causing a slight amount of $dmgType harm to all of your foes adjacent to it. This damage is multiplied by the number of ticks of the ongoing harm the creature suffered."
     },
     {
-        "name": "Metal Skin",
-        "description": "Your skin is covered in metal plates. You cannot swim or wear armour. Your base AC is 18, with no DEX added."
+        "name": "Exposure",
+        "target": "powers that deal $dmgType damage",
+        "description": "The power ignores {type} resistance."
     },
     {
-        "name": "Migratory Fingers",
-        "description": "Rearranged on hands, pointing in all directions. You cannot hold weapons."
+        "name": "Rejuvenating Creations",
+        "target": "powers that create objects or structures",
+        "description": "You and allies adjacent to objects or structures created by the power gain a slight amount of passive regeneration."
     },
     {
-        "name": "Neck Pouch",
-        "description": "Can be inflated to become big and red."
+        "name": "Unstable Decay",
+        "target": "powers that cause ongoing harm which ends on a passive save",
+        "description": "The power causes substantially more ongoing harm, but creatures affected by that ongoing harm have +1 to passive saves to end it."
     },
     {
-        "name": "Puny",
-        "description": "You shrivel like a raisin, shrinking 1 size category. -3 to all ability scores."
+        "name": "Prepared Power",
+        "target": "powers that deal damage",
+        "description": "The power deals massively more damage, but its usage time is increased by 1 step."
     },
     {
-        "name": "Cheerful",
-        "description": "Nothing can go wrong and everything will turn out for the best. This affects your attitude, and grants you a +2 bonus to saves against fear."
+        "name": "Keen Frailty",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical success, the target gets slightly reduced resistance for 1 round."
     },
     {
-        "name": "Frog Tongue",
-        "description": "Can be used as a natural weapon with the same stats as the Whip weapon. You can attack with it as a glyphic action."
+        "name": "Keen Volatility",
+        "target": "powers that hit",
+        "description": "The power has -1 critical success range, but massively, massively increased critical damage bonus."
     },
     {
-        "name": "Face Bubble",
-        "description": "Your eyes are protected by a clear dome across your face. You gain a +2 bonus to saves against blindness."
+        "name": "Necromantic Respect",
+        "target": "powers that consume corpses",
+        "description": "Whenever the power would consume a corpse, the corpse is instead not consumed."
     },
     {
-        "name": "Glow Pockets",
-        "description": "Can glow as brightly as a candle at-will. This sheds 5' of bright light and a further 5' of dim."
+        "name": "Merciful Power",
+        "target": "powers that deal damage",
+        "description": "The power cannot inflict conditions, but whenever it deals damage to a creature affected by a condition, the condition is removed and the power deals substantially more damage."
     },
     {
-        "name": "Goat Horns",
-        "description": "Small and pointy."
+        "name": "Spreading Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Whenever the power inflicts a condition, all foes adjacent to the target also receive that condition."
     },
     {
-        "name": "Climber's Eye",
-        "description": "You gain a +4 bonus to survival checks to find climbing routes. You have the constant desire to be high up."
+        "name": "Myopia",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target becomes blinded for 1 round."
     },
     {
-        "name": "Elastic Face",
-        "description": "Your facial features slide around in wild animation as you talk."
+        "name": "Shielded Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow against a creature with a condition, you gain a massive amount of temporary HP."
     },
     {
-        "name": "Spell Tumour",
-        "description": "Gain a spell in a lump on your head. You gain a spell-triggering chaotic modifier."
+        "name": "Upfront Power",
+        "target": "powers that deal damage",
+        "description": "The power deals substantially more damage during the first round of combat."
     },
     {
-        "name": "Chameleon Eyes",
-        "description": "They bulge, and you can look in 2 directions at once, granting you a +2 bonus to Perception checks."
+        "name": "Close Power",
+        "target": "powers that deal damage",
+        "description": "The power deals more damage to targets adjacent to you."
     },
     {
-        "name": "Pelican Mouth",
-        "description": "+2 to STR checks to carry creatures and objects that are smaller than you."
+        "name": "Keen Consideration",
+        "target": "powers with a cooldown that make attacks",
+        "description": "The power has +3 critical success range, but its cooldown is increased by 1 step."
     },
     {
-        "name": "Detachable Tail",
-        "description": "Newt-like. It falls off whenever you become bloodied."
+        "name": "Empowered Rejuvenation",
+        "target": "powers with a non-instantaneous duration",
+        "description": "While the power's duration is active, you have increased incoming healing."
     },
     {
-        "name": "Suckers",
-        "description": "Your fingers end in suction cups. +2 to STR checks to lift objects."
+        "name": "Haste",
+        "target": "powers with a cooldown that deal damage",
+        "description": "The power's cooldown is reduced by 1 step, but it deals less damage."
     },
     {
-        "name": "Extra Cranial Lobes",
-        "description": "+3 INT."
+        "name": "Aggressive Command",
+        "target": "powers that summon damageable minions",
+        "description": "The power's minions deal substantially more damage, but have slightly reduced resistance."
     },
     {
-        "name": "Thick Skull",
-        "description": "-3 INT, +3 CON. You are immune to debilitation."
+        "name": "Blessed Arrival",
+        "target": "powers that move you",
+        "description": "Whenever the power's movement ends, you create a 15'x15' area of glowing ground around you that persists for the remainder of combat. This area is a persistent zone that heals you and allies for barely any HP."
     },
     {
-        "name": "Oily",
-        "description": "All of your bodily fluids can be used as smelly oil. You can produce 1 flask per LR normally."
+        "name": "Keen Destruction",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical success, the target is dazed for 1 round. Additionally, the power has massively more critical damage bonus."
     },
     {
-        "name": "Tentacle Fingers",
-        "description": "Wiggly."
+        "name": "Explosive Execution",
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever a creature suffering from the power's ongoing harm dies, it explodes, causing $dmgType harm to all of your foes adjacent to it."
     },
     {
-        "name": "Strange Voice",
-        "description": "Something has gone awry with your vocal cords. Your voice sounds like Donald Duck's."
+        "name": "Frailty",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target gets barely reduced resistance for 1 round."
     },
     {
-        "name": "Spores",
-        "description": "Whenever you are reduced to 0 hit points, you coat a 30' radius in thick yellow spores, which reveals invisible creatures and objects unless an action is spent removing the spores."
+        "name": "Pure Disruption",
+        "target": "powers that inflict conditions and hit",
+        "description": "Whenever the power hits, the target is dazed for 1 round. Additionally, the power cannot inflict any non-dazed conditions and deals less damage."
     },
     {
-        "name": "Turtle Shell",
-        "description": "Base AC is 16 with no DEX added. You cannot wear armour or regular clothes. -3 DEX."
+        "name": "Sacrificial Decay",
+        "target": "powers that summon damageable minions",
+        "description": "The power's minions have slightly reduced passive regeneration, and the 5' radius around them is a persistent zone that causes $dmgType harm to foes."
     },
     {
-        "name": "Swap",
-        "description": "A random mutation you already have is replaced by another roll on this table. Reroll if you have no existing mutations."
+        "name": "Distant Power",
+        "target": "powers that deal damage",
+        "description": "The power deals more damage to target 30+' away from you."
     },
     {
-        "name": "Unstable",
-        "description": "Any body part chopped off combusts in 3 rounds."
+        "name": "Slowing Decay",
+        "target": "powers that cause ongoing harm",
+        "description": "While a creature is suffering from the power's ongoing harm, it is sluggish."
     },
     {
-        "name": "Breasts",
-        "description": "6 in 2 rows of 3."
+        "name": "Repulsion",
+        "target": "powers that hit",
+        "description": "Whenever the power hits, the target is pushed 10' away from you."
     },
     {
-        "name": "Patterned Skin",
-        "description": "Darker/lighter checkers"
+        "name": "Leeching",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard or higher success, you heal HP."
     },
     {
-        "name": "Pig Tail",
-        "description": "Curly."
+        "name": "Mud",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard or higher success, the target becomes sluggish for 1 round."
     },
     {
-        "name": "Coloured Pupils",
-        "description": "Your pupils are (random of red, orange, yellow, green, blue, purple)"
+        "name": "Flaring",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard or higher success, roll to see if your crystal flares."
     },
     {
-        "name": "Compound Eyes",
-        "description": "Many little eyeballs, like a fly's eye."
+        "name": "Momentum",
+        "target": "powers that move you",
+        "description": "After the power has moved you 10+', it deals more damage for the remainder of its duration."
     },
     {
-        "name": "Detachable Leg",
-        "description": "Falls off whenever you become bloodied. Can be reattached as an action. While missing a leg you have half speed."
+        "name": "Keen Momentum",
+        "target": "powers that make attacks",
+        "description": "Whenever you use the power and it doesn't score a critical success, it gains +1 critical success range until you next score a critical success with it."
     },
     {
-        "name": "Telescoping Neck",
-        "description": "Can grow or shrink as needed, up to 1 foot either way."
+        "name": "Eruption",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical success, you may expend a 1st-level spell slot or 1 exertion to cause massive $dmgType harm to all foes adjacent to you."
     },
     {
-        "name": "Baby Bird Heads",
-        "description": "A ring of them around your neck. They cheep silently."
+        "name": "Hasty Command",
+        "target": "powers that summon minions which deal damage",
+        "description": "The power's usage time is reduced by 1 step, but its minions deal less damage."
     },
     {
-        "name": "Strange Voice",
-        "description": "Something has gone awry with your vocal cords. Your voice sounds like water spiralling down a drain."
+        "name": "Ricochet",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a minor success, its attack roll is increased by 2."
     },
     {
-        "name": "Suggestible",
-        "description": "Whenever you are told to do something, you must pass a DC 15 WIS save or be compelled to do it."
+        "name": "Replenishing Creations",
+        "target": "powers that create objects or structures",
+        "description": "You and allies adjacent to objects or structures created by the power recover 1 spell slot level or 1 exertion at the start of each of your turns."
     },
     {
-        "name": "Worm",
-        "description": "Your legs fuse into one. You have a -1d4 penalty on athletics checks to climb and animal handling checks to stay atop a mount."
+        "name": "Heroic Execution",
+        "target": "powers that deal damage",
+        "description": "The power deals substantially more damage to bloodied bosses."
     },
     {
-        "name": "Confident",
-        "description": "You are absolutely convinced your mutations make you sexually appealing, but this has no bearing on your physical qualities."
+        "name": "Replenishment",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a standard or higher success, you recover 1 spell slot level or 1 exertion."
     },
     {
-        "name": "Evil Eye",
-        "description": "One of your eyes becomes black and weeps tar-like tears. You have a -1d4 penalty to Perception checks that rely on sight."
+        "name": "Executing Thievery",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you gain the effects of a random one of the target's passive traits for the remainder of combat."
     },
     {
-        "name": "1000 Ears",
-        "description": "They cover your body. While not deafened, you gain 30' of blindsight."
+        "name": "Powerful Combination",
+        "target": "powers that deal damage",
+        "description": "The first time the power deals damage each combat, it deals more damage for each round of combat that has already passed."
     },
     {
-        "name": "Trouble with Names",
-        "description": "You cannot remember anyone's name, unless you spend 1 minute concentrating on them."
+        "name": "Empowered Execution",
+        "target": "powers with a non-instantaneous duration",
+        "description": "Whenever you score a killing blow while the power's duration is active, you heal a substantial amount of HP."
     },
     {
-        "name": "Mimic",
-        "description": "You can mimic all voices, music, and natural sounds."
+        "name": "Disruption",
+        "target": "powers that make attacks",
+        "description": "Whenever the power scores a major success, the target is dazed for 1 round."
     },
     {
-        "name": "Wattles",
-        "description": "Like a turkey's neck."
+        "name": "Considered Intensity",
+        "target": "powers with a non-instantaneous duration that deal damage",
+        "description": "The power's duration is increased by 1 step and it deals more damage, but its usage time is increased by 1 step."
     },
     {
-        "name": "Slime Trail",
-        "description": "You sweat a horrible, stinking ooze. You receive a -1d4 penalty on Stealth checks."
+        "name": "Pure Decay",
+        "target": "powers that cause ongoing harm and deal damage",
+        "description": "The power causes substantially more ongoing harm, but deals less damage."
     },
     {
-        "name": "Mysterious Dot",
-        "description": "You project a red dot from one eye, like a laser pointer. 100' range."
+        "name": "Echoing Consideration",
+        "target": "powers with areas",
+        "description": "The power's areas are doubled in size and repeated at the start of your next turn, but its usage time is increased by 1 step."
     },
     {
-        "name": "Headless",
-        "description": "Your head shrinks into your chest. All of your head's features migrate to your chest. While armoured, you gain a -1d4 penalty to Perception and Charisma checks."
+        "name": "Prismatic Power",
+        "target": "powers that deal $dmgType damage",
+        "description": "The power deals more {type} damage if you haven't dealt that damage type since the start of your last turn."
     },
     {
-        "name": "Compulsive Dancing",
-        "description": "Whenever you hear music, you must pass a DC 15 WIS save or compulsively dance until the music ends."
+        "name": "Cruel Frailty",
+        "target": "powers that inflict conditions",
+        "description": "Whenever the power inflicts a condition, the afflicted creature loses barely any resistance for 1 round."
     },
     {
-        "name": "Earthworm Blood",
-        "description": "Your blood is now earthworms."
+        "name": "Spreading Decay",
+        "target": "powers that cause ongoing harm",
+        "description": "Whenever the power causes ongoing harm, foes adjacent to the target also receive the same ongoing harm. Additionally, the power deals less ongoing harm."
     },
     {
-        "name": "Stabbing Limb",
-        "description": "One arm becomes a long serrated spike of bone. This counts as any sword weapon of your choice, and can be enchanted. You cannot hold items in that hand any more."
+        "name": "Rejuvenating Execution",
+        "target": "powers that deal damage",
+        "description": "Whenever the power scores a killing blow, you recover 2 spell slot levels or 2 exertion."
     },
     {
-        "name": "Donkey Ears",
-        "description": "Tufted with fur."
+        "name": "Martyrdom",
+        "target": "powers that heal",
+        "description": "Whenever you use the power, you lose HP, but the power grants substantially more healing."
     },
     {
-        "name": "Sensitive Eyes",
-        "description": "You cannot bear direct sunlight, granting you a -1d4 penalty on attack rolls and Perception checks while in sunlight."
+        "name": "Prismatic Focus",
+        "target": "powers that deal damage",
+        "description": "The power deals a substantial amount of additional $dmgType damage, but deals less damage of all other types."
     },
     {
-        "name": "Scorpion Tail",
-        "description": "As a glyphic action, you can attack with the tail to deal 1d4 psn dmg."
+        "name": "Wild Power",
+        "target": "powers that deal damage through the rolling of dice",
+        "description": "The power's damage dice are increased in size until its average damage has increased."
     },
     {
-        "name": "Mantis Arm",
-        "description": "One arm gains several extra joints. Can extend to 10' long, granting +10' reach, and folds up to normal size."
+        "name": "Mobility",
+        "target": "powers that move you",
+        "description": "The power's maximum movement is increased."
     },
     {
-        "name": "Insect Hatred",
-        "description": "All insects instinctively fear or hate you. You do not count shelters found through the Seek Shelter journey activity as Havens."
+        "name": "Projection",
+        "target": "powers with areas centred on you",
+        "description": "The power's areas can now originate from any space within your line of sight, but they are halved in size."
     },
     {
-        "name": "Mind Split",
-        "description": "You start hearing voices. The voices are all you, or part of you. They consistently offer terrible advice."
+        "name": "Overpowering Exposure",
+        "target": "powers that mark",
+        "description": "Whenever you score a major success against a creature marked by the power, it is debilitated for 1 round."
     },
     {
-        "name": "Bad Posture",
-        "description": "Your head is swapped with one of your arms."
+        "name": "Alacrity",
+        "target": "powers that deal damage",
+        "description": "The power's usage time is reduced by 1 step, but it deals less damage."
     },
     {
-        "name": "Two Necks",
-        "description": "Attached to one head. You can sing in harmony with yourself, granting you an expertise die in Performance checks when performing on your own."
+        "name": "Delayed Decay",
+        "target": "powers with a non-instantaneous duration",
+        "description": "Whenever the power's duration ends, a 15'x15' persistent zone forms around its target for the remainder of combat that causes slight $dmgType harm to foes."
     },
     {
-        "name": "Lamarckian Evolution",
-        "description": "One of your hands turns into a flesh version of the last tool you used. It can no longer hold equipment, but you gain an expertise die on all uses of that tool."
+        "name": "Powerful Creations",
+        "target": "powers that create objects or structures",
+        "description": "You and allies adjacent to objects or structures created by the power deal increased damage."
     },
     {
-        "name": "Asymmetry",
-        "description": "Everything you have 2 of you now have 1 of. Roll for each to see if it's on the left or right side. You have a -1d4 penalty on all checks, your speed is halved, and you can only hold 1 item at a time."
+        "name": "Cruel Stability",
+        "target": "powers that inflict conditions that last until the target passes a passive save",
+        "description": "Conditions inflicted by the power now last for 2 rounds."
     },
     {
-        "name": "Iron Keratin",
-        "description": "You have fingernails, toenails, and teeth of iron. You can chew through anything up to the toughness of leather. You gain a +1 bonus to the attack and damage rolls of natural weapons involving your nails or teeth."
+        "name": "Powerful Triggers",
+        "target": "any power",
+        "description": "Extra effects that proc from this power deal more damage."
     },
     {
-        "name": "1000 Sores",
-        "description": "They cover your body. -3 CHA and CON."
+        "name": "Immediate Power",
+        "target": "powers that deal damage",
+        "description": "The power deals substantially more damage, but you deal less damage for 1 round after using it."
     },
     {
-        "name": "Comb",
-        "description": "Like a rooster's head crest."
+        "name": "Ultimate Power",
+        "target": "powers with a cooldown that deal damage",
+        "description": "The power's effect occurs twice and it deals more damage, but its cooldown is increased by 1 step."
     },
     {
-        "name": "Trouble With Nouns",
-        "description": "You can't remember the words for 'things', unless you spend 1 minute concentrating on them."
+        "name": "Cruel Decay",
+        "target": "powers that hit",
+        "description": "Whenever the power hits a target with a condition, all types of ongoing harm on the target are slightly increased."
     },
     {
-        "name": "Serrated Teeth",
-        "description": "All your teeth become fearsomely sharp. You can use them as a glyphic action that deals 1d6 P dmg."
+        "name": "Prismatism",
+        "target": "powers that deal damage",
+        "description": "The power's damage counts as all damage types."
     },
     {
-        "name": "Resilient",
-        "description": "+1 phys dmg res."
+        "name": "Unstable Power",
+        "target": "powers that deal damage",
+        "description": "The power deals less damage, but whenever the power deals damage, there is a 50% chance it deals substantially more damage. This is rolled repeatedly until it fails."
     },
     {
-        "name": "Booming Hoot",
-        "description": "1/LR, you can hoot incredibly loudly which can be heard within 2km."
+        "name": "Keen Exposure",
+        "target": "powers that hit",
+        "description": "Whenever the power scores a critical success, the target gets reduced $dmgType resistance for 1 round."
     },
     {
-        "name": "Iron Skin",
-        "description": "Your skin flakes are made up of rusty layers of iron. You cannot wear armour, but your natural AC is equal to 16 (no DEX)."
+        "name": "Persistent Cruelty",
+        "target": "powers with a non-instantaneous duration that apply effects to creatures",
+        "description": "The power's effect applies in a 15'x15' persistent zone on the ground that last for the remainder of combat instead of being applied to the targets."
     },
     {
-        "name": "Bristly Beard",
-        "description": "Black, long, and coarse."
+        "name": "Generous Command",
+        "target": "powers that heal",
+        "description": "The power's healing is substantially increased against minions."
     },
     {
-        "name": "Pin Face",
-        "description": "Your head shrinks to a narrow point. Your eyes are on either side like tennis balls. You have -3 to all ability scores."
+        "name": "Cruel Eruption",
+        "target": "powers that hit",
+        "description": "The power cannot inflict conditions, but whenever it hits a creature affected by a condition, the condition is removed and all foes adjacent to the target suffer substantial $dmgType harm."
     },
     {
-        "name": "Long Spine",
-        "description": "Your legs shrink to keep your overall height the same. Your speed is halved."
+        "name": "Pure Power",
+        "target": "powers that deal damage and inflict conditions",
+        "description": "The power can no longer inflict conditions, but deals substantially more damage."
     },
     {
-        "name": "Temperature Sensitive Hair",
-        "description": "Your hair varies from purple (when you are cold) to red (when you are hot)."
+        "name": "Focused Triggers",
+        "target": "powers that deal damage",
+        "description": "Whenever an additional effect procs off of the power, it procs twice. Additionally, the power deals less damage."
     },
     {
-        "name": "Retractable Head",
-        "description": "Can shrink into torse, leaving only hair exposed. Doing so blinds and deafens you, but reduces the natural d20 rolls of incoming atks by 1."
+        "name": "Considered Accuracy",
+        "target": "powers with a cooldown that make attacks",
+        "description": "The power's attacks have +3 AB, but its cooldown is increased by 1 step."
     },
     {
-        "name": "Pheromones",
-        "description": "Insects find you very attractive and want to lick you."
+        "name": "Sacrificial Power",
+        "target": "powers that deal damage",
+        "description": "Whenever you use the power, you lose HP, but the power deals a substantial amount of additional $dmgType damage."
     },
     {
-        "name": "Goat Legs",
-        "description": "2 of your legs become goat legs. You are not slowed by rocky or earthy difficult terrain."
+        "name": "Decaying Cruelty",
+        "target": "powers that cause ongoing harm",
+        "description": "The power cannot inflict conditions, but whenever it causes ongoing harm to a creature affected by a condition, the condition is removed and the power causes substantially more ongoing harm."
     },
     {
-        "name": "Unsettling Laughter",
-        "description": "Your laugh requires small children and non-player party members to make a DC 15 WIS save or want to leave."
+        "name": "Contagious Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Whenever a creature affected by the power's conditions dies, all of your foes within 60' of it gain those conditions."
     },
     {
-        "name": "Bizarre Colour",
-        "description": "Your skin becomes a new colour (red, orange, yellow, green, blue, purple)."
+        "name": "Symptomatic Cruelty",
+        "target": "powers that inflict conditions",
+        "description": "Conditions applied by the power do not end on creatures suffering from ongoing harm, until the ongoing harm ends."
     },
     {
-        "name": "Musk Gland",
-        "description": "For marking territory. It smells intriguing."
-    },
-    {
-        "name": "Stinging Skin",
-        "description": "Anyone you touch or who touches you must make a DC 15 CON save or be debilitated for 1rnd."
+        "name": "Novas",
+        "target": "powers that make ranged attacks",
+        "description": "The power's ranged attacks are converted into 5' sphere areas centred on you."
     }
 ]

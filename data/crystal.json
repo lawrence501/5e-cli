@@ -1,0 +1,1813 @@
+[
+  {
+    "name": "Blaze Wretch",
+    "passives": [
+      "flash fire",
+      "weak armour"
+    ],
+    "powers": [
+      "decaying strike",
+      "imbue fragility",
+      "startling strike",
+      "keen strike",
+      "decay protection",
+      "wind-up strike",
+      "nullifying strike",
+      "intense decay",
+      "imbue decay",
+      "balanced strike",
+      "empowering strike",
+      "disarming strike",
+      "battlecry",
+      "teleswap",
+      "leeching strike",
+      "reckless strike"
+    ]
+  },
+  {
+    "name": "Prime Sprout",
+    "passives": [
+      "protosynthesis"
+    ],
+    "powers": [
+      "invoke sunlight",
+      "guard",
+      "frenzied strikes",
+      "sapping strike",
+      "taunt",
+      "cleanse",
+      "frustrated strike",
+      "prepared strike",
+      "disarming strike",
+      "exhausting strike",
+      "pure offence",
+      "cut down",
+      "reckless strike"
+    ]
+  },
+  {
+    "name": "Grit Fang",
+    "passives": [
+      "intimidate",
+      "moxie",
+      "sharpen"
+    ],
+    "powers": [
+      "protect",
+      "telestrike",
+      "rejuvenate",
+      "decaying strike",
+      "imbue fragility",
+      "startling strike",
+      "exposing strike",
+      "wind-up strike",
+      "imbue weakness",
+      "shattering strike",
+      "find weakpoint",
+      "reckless strike"
+    ]
+  },
+  {
+    "name": "Volt Reaver",
+    "passives": [
+      "lightning rod",
+      "motor drive",
+      "blade sipper"
+    ],
+    "powers": [
+      "prepare",
+      "imbue helplessness",
+      "empowering strike",
+      "exposing strike",
+      "power-up",
+      "reckless strike",
+      "mindless strikes"
+    ]
+  },
+  {
+    "name": "Umbral Ravager",
+    "passives": [
+      "dark rush",
+      "dark force",
+      "mould breaker"
+    ],
+    "powers": [
+      "eye strike",
+      "cleanse",
+      "sharpen",
+      "execute",
+      "aggressive strike",
+      "invoke sand",
+      "shattering strike",
+      "startling strike",
+      "wind-up strike",
+      "battlecry",
+      "keen strike"
+    ]
+  },
+  {
+    "name": "Rival Spawn",
+    "passives": [
+      "competitive"
+    ],
+    "powers": [
+      "confusing strike",
+      "hypnosis",
+      "power-up",
+      "bracing strike",
+      "keen strike",
+      "face strike",
+      "coup de grace",
+      "dodge",
+      "guided strike",
+      "temporal distortion"
+    ]
+  },
+  {
+    "name": "Verdant Mendling",
+    "passives": [
+      "chlorophyll",
+      "healer"
+    ],
+    "powers": [
+      "war dance",
+      "leeching strike",
+      "imbue decay",
+      "imbue helplessness",
+      "terminal decay",
+      "stupefying strike",
+      "invoke grass",
+      "rejuvenate",
+      "mindless strikes",
+      "tactical prowess",
+      "shattering strike"
+    ]
+  },
+  {
+    "name": "Lumen Savant",
+    "passives": [
+      "illuminate",
+      "natural cure",
+      "analytic"
+    ],
+    "powers": [
+      "cleanse",
+      "dodge",
+      "homing strike",
+      "confusing strike",
+      "culling strike",
+      "impeding aura",
+      "soul strike",
+      "brace",
+      "guard",
+      "discombobulate"
+    ]
+  },
+  {
+    "name": "Gloom Mauler",
+    "passives": [
+      "strong jaw",
+      "dark body",
+      "sturdy"
+    ],
+    "powers": [
+      "area protection",
+      "cleanse",
+      "guard",
+      "eye strike",
+      "meatshield",
+      "sapping strike",
+      "protect",
+      "vengeful strike",
+      "startling strike",
+      "shattering strike",
+      "reckless strike",
+      "keen strike",
+      "startling strike"
+    ]
+  },
+  {
+    "name": "Plate Savant",
+    "passives": [
+      "armour mastery"
+    ],
+    "powers": [
+      "disable",
+      "dodge",
+      "ramping strike",
+      "invoke static",
+      "hypnosis",
+      "frustrated strike",
+      "guided strike",
+      "keen strike",
+      "stupefying strike",
+      "pure offence",
+      "disarming strike",
+      "deathrattle",
+      "area protection",
+      "haste protection"
+    ]
+  },
+  {
+    "name": "Jinx Jester",
+    "passives": [
+      "scrappy",
+      "tangled feet",
+      "co-star"
+    ],
+    "powers": [
+      "mirror",
+      "protect",
+      "find weakpoint",
+      "tenacious strike",
+      "frustrated strike",
+      "considered strike",
+      "rejuvenate",
+      "startling strike",
+      "area protection",
+      "silencing strike",
+      "reckless strike"
+    ]
+  },
+  {
+    "name": "Frost Bulwark",
+    "passives": [
+      "sturdy",
+      "overcoat"
+    ],
+    "powers": [
+      "exposing strike",
+      "levitation",
+      "decaying zone",
+      "protect",
+      "dark sacrifice",
+      "chaotic strike",
+      "bullying strike",
+      "reckless strike",
+      "cleanse",
+      "frenzied strikes",
+      "meatshield",
+      "danger zone",
+      "considered strike",
+      "guard"
+    ]
+  },
+  {
+    "name": "Rift Sentinel",
+    "passives": [
+      "chaos guard"
+    ],
+    "powers": [
+      "keen strike",
+      "dying wish",
+      "eye strike",
+      "aggressive strike",
+      "wind-up strike",
+      "pocket sand",
+      "guard",
+      "merciful strike",
+      "discombobulate",
+      "leeching strike",
+      "learn scent",
+      "soul strike",
+      "disable",
+      "wind-up strike"
+    ]
+  },
+  {
+    "name": "Master Wight",
+    "passives": [
+      "expertise"
+    ],
+    "powers": [
+      "frustrated strike",
+      "cleanse",
+      "imbue fragility",
+      "haste protection",
+      "chaotic strike",
+      "tenacious strike",
+      "combo strikes",
+      "startling strike",
+      "power-up",
+      "crippling strike",
+      "exposing strike",
+      "timesteal",
+      "soul strike",
+      "war dance",
+      "all-in"
+    ]
+  },
+  {
+    "name": "Frenzy Regent",
+    "passives": [
+      "sheer force",
+      "desperate control"
+    ],
+    "powers": [
+      "finishing strike",
+      "decaying strike",
+      "taunt",
+      "startling strike",
+      "disarming strike",
+      "power-up",
+      "startling decay",
+      "loud strikes",
+      "blood tribute",
+      "reckless strike",
+      "mindless strikes",
+      "cracking strike"
+    ]
+  },
+  {
+    "name": "Granite Gnawer",
+    "passives": [
+      "strong jaw",
+      "rock head"
+    ],
+    "powers": [
+      "imbue fragility",
+      "disruptive teleswap",
+      "bracing strike",
+      "imbue frailty",
+      "startling strike",
+      "telestrike",
+      "shattering strike",
+      "mindless strikes",
+      "execute",
+      "exhausting strike",
+      "reckless strike"
+    ]
+  },
+  {
+    "name": "Morph Savant",
+    "passives": [
+      "bludgeoning specialisation",
+      "adapt",
+      "analytic"
+    ],
+    "powers": [
+      "temporal distortion",
+      "tactical prowess",
+      "guard",
+      "elemental strike",
+      "meditate",
+      "levitation",
+      "exposing strike",
+      "confusing strike",
+      "projected strike",
+      "power-up",
+      "hexing strike",
+      "reckless strike",
+      "learn scent",
+      "exhausting strike"
+    ]
+  },
+  {
+    "name": "Bile Juggernaut",
+    "passives": [
+      "thick fat",
+      "guts",
+      "sheer force"
+    ],
+    "powers": [
+      "culling strike",
+      "find weakpoint",
+      "pocket sand",
+      "outskill",
+      "exposing strike",
+      "disruptive teleswap",
+      "disarming strike",
+      "melee mastery",
+      "blood tribute",
+      "protect",
+      "balanced strike",
+      "telegraphed strike",
+      "endure",
+      "pure offence",
+      "desperate strike",
+      "bullying strike"
+    ]
+  },
+  {
+    "name": "Bubble Leech",
+    "passives": [
+      "water bubble",
+      "bludgeoning absorb"
+    ],
+    "powers": [
+      "area protection",
+      "grasping hands",
+      "chaotic strike",
+      "startling strike",
+      "sapping strike",
+      "regeneration",
+      "shattering strike",
+      "imbue vulnerability",
+      "crystalline contagion",
+      "crippling strike",
+      "leeching strike",
+      "distant reflection"
+    ]
+  },
+  {
+    "name": "Gutterclasp Eel",
+    "passives": [
+      "suction cups",
+      "bludgeoning drain"
+    ],
+    "powers": [
+      "leeching decay",
+      "grasping hands",
+      "startling strike",
+      "shattering strike",
+      "discombobulate",
+      "plant roots",
+      "bracing strike",
+      "leeching strike",
+      "culling strike",
+      "tactical predictions",
+      "nullify",
+      "defend",
+      "ramping strike",
+      "ramping recovery",
+      "soul strike"
+    ]
+  },
+  {
+    "name": "Shade Raptor",
+    "passives": [
+      "dark cloak",
+      "dark rush"
+    ],
+    "powers": [
+      "imbue frailty",
+      "eye strike",
+      "endure",
+      "startling strike",
+      "sapping strike",
+      "homing weakness",
+      "culling strike",
+      "frustrated strike",
+      "keen strike",
+      "desperate strike",
+      "swagger",
+      "invoke snow",
+      "mindless strikes",
+      "hibernate",
+      "execute",
+      "cracking strike"
+    ]
+  },
+  {
+    "name": "Oracle Wraith",
+    "passives": [
+      "healer",
+      "anticipation",
+      "dire reflection"
+    ],
+    "powers": [
+      "confusing strike",
+      "homing weakness",
+      "healing burst",
+      "homing strike",
+      "keen strike",
+      "impart wisdom",
+      "healing bolt",
+      "tactical mastery",
+      "soul strike",
+      "martyrdom",
+      "imbue vulnerability"
+    ]
+  },
+  {
+    "name": "Tyrant Vexarch",
+    "passives": [
+      "defiant",
+      "supreme overlord",
+      "pressure"
+    ],
+    "powers": [
+      "vengeance",
+      "imbue fragility",
+      "ramping strike",
+      "aggressive strike",
+      "homing strike",
+      "imbue boredom",
+      "imbue weakness",
+      "revenge",
+      "imbue ignorance",
+      "keen strike",
+      "guard",
+      "avenge",
+      "startling strike",
+      "battlecry",
+      "execute"
+    ]
+  },
+  {
+    "name": "Dormant Colossid",
+    "passives": [
+      "comatose"
+    ],
+    "powers": [
+      "guard",
+      "frenzied strikes",
+      "defend",
+      "ramping strike",
+      "ramping recovery",
+      "cleanse",
+      "yawn",
+      "desperate strike",
+      "exploit opening",
+      "steal soul",
+      "reckless strike",
+      "mindless strikes"
+    ]
+  },
+  {
+    "name": "Rogue Mouldling",
+    "passives": [
+      "mould breaker",
+      "own tempo",
+      "pickpocket"
+    ],
+    "powers": [
+      "startling strike",
+      "opening strike",
+      "take advantage",
+      "aggressive strike",
+      "chaotic strike",
+      "shattering strike",
+      "leeching strike",
+      "discombobulate",
+      "soul strike",
+      "crippling strike",
+      "outskill",
+      "flatter",
+      "stupefying strike",
+      "disarming strike"
+    ]
+  },
+  {
+    "name": "Gloom Leech",
+    "passives": [
+      "dark recovery"
+    ],
+    "powers": [
+      "soul swap",
+      "tactical prowess",
+      "imbue frailty",
+      "discombobulate",
+      "sapping strike",
+      "guard",
+      "grasping strike",
+      "confusing strike",
+      "regeneration",
+      "wind-up strike",
+      "invoke rain",
+      "second wind"
+    ]
+  },
+  {
+    "name": "Carapace Savant",
+    "passives": [
+      "shell armour",
+      "skill link",
+      "overcoat"
+    ],
+    "powers": [
+      "startling strike",
+      "decaying zone",
+      "danger zone",
+      "imbue fragility",
+      "grasping strike",
+      "discombobulate",
+      "crippling strike",
+      "protect",
+      "guard",
+      "face strike",
+      "frenzy",
+      "shattering strike"
+    ]
+  },
+  {
+    "name": "Tempest Wraith",
+    "passives": [
+      "damp",
+      "cloud nine",
+      "dark rush"
+    ],
+    "powers": [
+      "imbue fragility",
+      "confusing strike",
+      "disable",
+      "startling strike",
+      "imbue vulnerability",
+      "steal soul",
+      "tactical predictions",
+      "invoke negation"
+    ]
+  },
+  {
+    "name": "Mind Squeezer",
+    "passives": [
+      "pressure",
+      "telepathy"
+    ],
+    "powers": [
+      "imbue weakness",
+      "aggressive strike",
+      "exposing strike",
+      "bracing strike",
+      "keen strike",
+      "soul strike",
+      "homing strike",
+      "vengeance",
+      "shattering strike",
+      "exhausting strike"
+    ]
+  },
+  {
+    "name": "Grim Bulwark",
+    "passives": [
+      "pressure",
+      "unnerve",
+      "steadfast",
+      "insomnia"
+    ],
+    "powers": [
+      "healing burst",
+      "disable",
+      "confusing strike",
+      "homing strike",
+      "bracing strike",
+      "keen strike",
+      "condition protection",
+      "tactical predictions",
+      "soul strike",
+      "malicious strike",
+      "immunity boost",
+      "arcane strike",
+      "rejuvenate",
+      "guided strike"
+    ]
+  },
+  {
+    "name": "Pinpoint Stalker",
+    "passives": [
+      "keen eye",
+      "sniper"
+    ],
+    "powers": [
+      "keen strike",
+      "chaotic strike",
+      "imbue frailty",
+      "imbue fragility",
+      "revenge",
+      "homing strike",
+      "reckless strike",
+      "power-up",
+      "find weakpoint",
+      "rejuvenate"
+    ]
+  },
+  {
+    "name": "Venom Skitter",
+    "passives": [
+      "poison point",
+      "swarming frenzy",
+      "damage boost",
+      "quick feet"
+    ],
+    "powers": [
+      "guard",
+      "lend soul",
+      "decaying strike",
+      "frenzied strikes",
+      "protect",
+      "imbue fragility",
+      "chaotic strike",
+      "cruel strike",
+      "reckless strike",
+      "power-up",
+      "terminal decay",
+      "corrosion"
+    ]
+  },
+  {
+    "name": "Thorn Forager",
+    "passives": [
+      "chlorophyll",
+      "frisk",
+      "harvest"
+    ],
+    "powers": [
+      "martial strike",
+      "reckless strike",
+      "closing strike",
+      "leeching strike",
+      "confusing strike",
+      "rejuvenate",
+      "startling strike",
+      "loud strikes",
+      "flood immunity",
+      "wind-up strike",
+      "hypnosis",
+      "deflecting aura",
+      "leeching decay",
+      "tactical prowess"
+    ]
+  },
+  {
+    "name": "Prime Howler",
+    "passives": [
+      "protosynthesis"
+    ],
+    "powers": [
+      "hypnosis",
+      "disable",
+      "invoke sunlight",
+      "battlecry",
+      "imbue weakness",
+      "startling strike",
+      "exposing strike",
+      "hibernate",
+      "crippling strike",
+      "shredding strike",
+      "shattering strike",
+      "guided recovery",
+      "considered strike",
+      "force hand"
+    ]
+  },
+  {
+    "name": "Crushspawn Deviant",
+    "passives": [
+      "pressure",
+      "mould breaker"
+    ],
+    "powers": [
+      "exposing strike",
+      "imbue weakness",
+      "bracing strike",
+      "invert immunities",
+      "keen strike",
+      "cut down",
+      "face strike",
+      "expertise",
+      "mindless strikes",
+      "sapping strike",
+      "execute",
+      "crystalline chaos"
+    ]
+  },
+  {
+    "name": "Aether Wisp",
+    "passives": [
+      "levitate"
+    ],
+    "powers": [
+      "confusing strike",
+      "dodge",
+      "immunity boost",
+      "crippling strike",
+      "teleswap",
+      "keen strike",
+      "rejuvenate",
+      "condition protection",
+      "soul strike",
+      "stupefying strike",
+      "guided strike",
+      "true martyrdom",
+      "restore health"
+    ]
+  },
+  {
+    "name": "Chitter Host",
+    "passives": [
+      "compound eyes",
+      "unnerve",
+      "swarming frenzy"
+    ],
+    "powers": [
+      "leeching strike",
+      "ramping strike",
+      "sapping strike",
+      "chaotic strike",
+      "weakening zone",
+      "imbue weakness",
+      "imbue helplessness",
+      "sudden strike",
+      "power-up",
+      "exploit opening",
+      "keen strike",
+      "exposing strike",
+      "imbue fragility",
+      "nullify",
+      "soul strike"
+    ]
+  },
+  {
+    "name": "Silent Adept",
+    "passives": [
+      "inner focus",
+      "infiltrator"
+    ],
+    "powers": [
+      "decaying strike",
+      "empowering aura",
+      "terminal decay",
+      "imbue fragility",
+      "leeching strike",
+      "discombobulate",
+      "startling strike",
+      "terminal strike",
+      "haste protection",
+      "keen strike",
+      "unwind",
+      "cruel strike"
+    ]
+  },
+  {
+    "name": "Skybeat Seraph",
+    "passives": [
+      "cloud nine",
+      "delta stream"
+    ],
+    "powers": [
+      "pure offence",
+      "refracted strike",
+      "bracing strike",
+      "startling strike",
+      "imbue weakness",
+      "shattering strike",
+      "power-up",
+      "hibernate",
+      "wind-up strike",
+      "confusing strike",
+      "mindless strikes",
+      "exhausting strike"
+    ]
+  },
+  {
+    "name": "Tide Reaver",
+    "passives": [
+      "dark rush",
+      "bludgeoning drain",
+      "water veil"
+    ],
+    "powers": [
+      "imbue vulnerability",
+      "invoke rain",
+      "confusing strike",
+      "disguise",
+      "condition protection",
+      "regeneration",
+      "grasping strike",
+      "teleswapping strike",
+      "exposing strike",
+      "empowering aura"
+    ]
+  },
+  {
+    "name": "Mischief Sprout",
+    "passives": [
+      "prankster",
+      "infiltrator",
+      "chlorophyll"
+    ],
+    "powers": [
+      "empowering aura",
+      "stupefying strike",
+      "greater good",
+      "confusing strike",
+      "leeching strike",
+      "keen strike",
+      "tactical prowess",
+      "imbue decay",
+      "imbue frailty",
+      "leeching decay",
+      "imbue weakness",
+      "soul strike",
+      "invoke sunlight",
+      "cut down",
+      "guard",
+      "wind-up strike",
+      "assist",
+      "imbue helplessness"
+    ]
+  },
+  {
+    "name": "Edge Bruiser",
+    "passives": [
+      "hyper cutter",
+      "mould breaker",
+      "moxie",
+      "sharpen"
+    ],
+    "powers": [
+      "guard",
+      "find weakpoint",
+      "grasping hands",
+      "balanced strike",
+      "chaotic strike",
+      "keen strike",
+      "lock-on",
+      "battlecry",
+      "reckless strike",
+      "execute",
+      "cracking strike"
+    ]
+  },
+  {
+    "name": "Razor Brawler",
+    "passives": [
+      "reckless",
+      "blade sipper",
+      "soundproof"
+    ],
+    "powers": [
+      "imbue fragility",
+      "find weakpoint",
+      "vengeful strike",
+      "imbue weakness",
+      "desperate strike",
+      "silencing strike",
+      "reckless strike",
+      "battlecry",
+      "exhausting strike"
+    ]
+  },
+  {
+    "name": "Virtue Blademaster",
+    "passives": [
+      "steadfast",
+      "sharpness",
+      "justified",
+      "inner focus"
+    ],
+    "powers": [
+      "keen strike",
+      "frustrated strike",
+      "imbue frailty",
+      "homing strike",
+      "hypnosis",
+      "leeching strike",
+      "expertise",
+      "confusing strike",
+      "healing burst",
+      "tactical mastery",
+      "soul strike",
+      "coup de grace",
+      "guided strike",
+      "imbue fragility",
+      "ramping strike",
+      "dodge",
+      "assist",
+      "teleport",
+      "merciful strike",
+      "protect",
+      "battlecry",
+      "healing bolt",
+      "area protection",
+      "haste protection",
+      "pure offence"
+    ]
+  },
+  {
+    "name": "Hammerhide",
+    "passives": [
+      "iron fist"
+    ],
+    "powers": [
+      "exposing strike",
+      "guard",
+      "imbue fragility",
+      "startling strike",
+      "imbue helplessness",
+      "soul strike",
+      "protect",
+      "confusing strike",
+      "cracking strike",
+      "exhausting strike"
+    ]
+  },
+  {
+    "name": "Woolly Jitters",
+    "passives": [
+      "fluffy",
+      "klutz",
+      "unnerve"
+    ],
+    "powers": [
+      "grasping hands",
+      "imbue fragility",
+      "take advantage",
+      "considered strike",
+      "endure",
+      "reckless strike",
+      "desperate strike",
+      "finishing strike",
+      "mindless strikes",
+      "share pain",
+      "cracking strike"
+    ]
+  },
+  {
+    "name": "Echo Wraith",
+    "passives": [
+      "synchronise"
+    ],
+    "powers": [
+      "mimic species",
+      "tactical predictions",
+      "lend soul",
+      "bracing strike",
+      "healing burst",
+      "tactical prowess",
+      "crystallisation",
+      "expertise",
+      "steal face",
+      "homing strike",
+      "soul strike"
+    ]
+  },
+  {
+    "name": "Stormchanneler",
+    "passives": [
+      "lightning rod",
+      "electric surge"
+    ],
+    "powers": [
+      "exposing strike",
+      "prepare",
+      "sapping strike",
+      "rejuvenate",
+      "meatshield",
+      "invoke static",
+      "decaying strike",
+      "startling strike",
+      "evolve"
+    ]
+  },
+  {
+    "name": "Shadow Vanguard",
+    "passives": [
+      "battle armour",
+      "dark rush"
+    ],
+    "powers": [
+      "ramping strike",
+      "guard",
+      "gravity strike",
+      "aggressive strike",
+      "bracing strike",
+      "chaotic strike",
+      "culling strike",
+      "keen strike",
+      "shattering strike",
+      "protect"
+    ]
+  },
+  {
+    "name": "Verdant Warden",
+    "passives": [
+      "armour mastery"
+    ],
+    "powers": [
+      "imbue fragility",
+      "assist",
+      "power-up",
+      "invoke static",
+      "flinching strike",
+      "homing strike",
+      "avenge",
+      "haste protection",
+      "keen strike",
+      "battlecry",
+      "frustrated strike",
+      "pure offence",
+      "expertise",
+      "teleswap",
+      "wind-up strike"
+    ]
+  },
+  {
+    "name": "Gloombound Shade",
+    "passives": [
+      "dark cloak",
+      "cursed body"
+    ],
+    "powers": [
+      "deathrattle",
+      "protect",
+      "startling strike",
+      "face strike",
+      "shattering strike",
+      "imbue fragility",
+      "dodge",
+      "exploitative strike",
+      "leeching strike",
+      "sapping strike",
+      "frustrated strike",
+      "discombobulate",
+      "invoke snow",
+      "imbue decay",
+      "brace",
+      "soul strike"
+    ]
+  },
+  {
+    "name": "Clatter Frostling",
+    "passives": [
+      "noisy",
+      "polar",
+      "technician"
+    ],
+    "powers": [
+      "refract life",
+      "psychic curse",
+      "exposing strike",
+      "imbue frailty",
+      "desperate strike",
+      "shattering strike",
+      "soul strike",
+      "imbue fragility",
+      "imbue weakness",
+      "prepare",
+      "taunt",
+      "swagger",
+      "terminal decay",
+      "decaying strike",
+      "power-up",
+      "soul alignment"
+    ]
+  },
+  {
+    "name": "Ironclast Bulwark",
+    "passives": [
+      "sturdy",
+      "rock head",
+      "heavy metal",
+      "filter"
+    ],
+    "powers": [
+      "imbue fragility",
+      "guard",
+      "aggressive strike",
+      "sapping strike",
+      "disruptive teleswap",
+      "startling strike",
+      "protect",
+      "imbue ignorance",
+      "reckless strike",
+      "shattering strike",
+      "bullying strike"
+    ]
+  },
+  {
+    "name": "Musk Maw",
+    "passives": [
+      "lingering aroma",
+      "haemophilic",
+      "aroma veil",
+      "thick fat"
+    ],
+    "powers": [
+      "imbue fragility",
+      "homing strike",
+      "ramping strike",
+      "sapping strike",
+      "chaotic strike",
+      "wind-up strike",
+      "startling strike",
+      "reckless strike",
+      "yawn",
+      "power-up",
+      "loud strikes",
+      "soul strike",
+      "refract life"
+    ]
+  },
+  {
+    "name": "Brood Challenger",
+    "passives": [
+      "swarming frenzy",
+      "rivalry"
+    ],
+    "powers": [
+      "imbue weakness",
+      "guard",
+      "decaying strike",
+      "chaotic strike",
+      "leeching strike",
+      "imbue helplessness",
+      "rejuvenate",
+      "keen strike",
+      "disguise",
+      "disruptive teleswap",
+      "soul strike",
+      "protect",
+      "war dance"
+    ]
+  },
+  {
+    "name": "Mindweave Sneak",
+    "passives": [
+      "frisk",
+      "infiltrator",
+      "telepathy"
+    ],
+    "powers": [
+      "rejuvenate",
+      "leeching strike",
+      "discombobulate",
+      "dodge",
+      "startling strike",
+      "keen strike",
+      "disruptive teleswap",
+      "crushing blow",
+      "imbue fragility",
+      "empowering aura",
+      "confusing strike"
+    ]
+  },
+  {
+    "name": "Ironbound Enforcer",
+    "passives": [
+      "intimidate",
+      "technician",
+      "steadfast"
+    ],
+    "powers": [
+      "frustrated strike",
+      "assist",
+      "outskill",
+      "find weakpoint",
+      "combo strikes",
+      "considered strike",
+      "protect",
+      "cleanse",
+      "area protection",
+      "haste protection",
+      "exploit opening",
+      "power-up",
+      "wind-up strike",
+      "pure offence",
+      "punish",
+      "cut down"
+    ]
+  },
+  {
+    "name": "Rebel Conduit",
+    "passives": [
+      "receiver",
+      "defiant"
+    ],
+    "powers": [
+      "imbue fragility",
+      "shattering strike",
+      "find weakpoint",
+      "unity",
+      "imbue weakness",
+      "reckless strike",
+      "final strike",
+      "melee mastery",
+      "mindless strikes",
+      "pure offence",
+      "desperate strike",
+      "exhausting strike"
+    ]
+  },
+  {
+    "name": "Ember Dullard",
+    "passives": [
+      "blaze",
+      "unaware"
+    ],
+    "powers": [
+      "imbue fragility",
+      "decaying strike",
+      "hypnosis",
+      "yawn",
+      "tactical strike",
+      "exposing strike",
+      "synergy strike",
+      "imbue weakness",
+      "startling strike",
+      "disarming strike",
+      "stupefying strike",
+      "disruptive teleswap",
+      "soul strike",
+      "imbue decay",
+      "exploitative strike",
+      "closing strike"
+    ]
+  },
+  {
+    "name": "Ashcarapace",
+    "passives": [
+      "white steam",
+      "drought",
+      "shell armour"
+    ],
+    "powers": [
+      "decaying strike",
+      "guard",
+      "cleanse",
+      "pocket sand",
+      "nullifying strike",
+      "protect",
+      "exposing strike",
+      "meatshield",
+      "tactical predictions",
+      "frenzy",
+      "confident strike"
+    ]
+  },
+  {
+    "name": "Umbral Scrubber",
+    "passives": [
+      "soundproof",
+      "filter",
+      "vital spirit",
+      "nullifier",
+      "technician",
+      "dark body"
+    ],
+    "powers": [
+      "haste protection",
+      "area protection",
+      "malicious strike",
+      "malicious recovery",
+      "mirror",
+      "lend soul",
+      "coax",
+      "confusing strike",
+      "copy soul",
+      "protect",
+      "meditate",
+      "mimic",
+      "impeding aura",
+      "deflecting aura",
+      "condition protection",
+      "exploit opening",
+      "soul strike",
+      "discombobulate",
+      "invoke mist",
+      "cleanse",
+      "teleswap",
+      "sapping strike",
+      "hypnosis",
+      "distant reflection",
+      "invert immunities"
+    ]
+  },
+  {
+    "name": "Omen Paladin",
+    "passives": [
+      "pressure",
+      "super luck",
+      "justified",
+      "dire reflection"
+    ],
+    "powers": [
+      "stupefying strike",
+      "wind-up strike",
+      "imbue fragility",
+      "discombobulate",
+      "disarming strike",
+      "protect",
+      "battlecry",
+      "keen strike",
+      "dodge",
+      "taunt",
+      "find weakpoint",
+      "startling strike",
+      "guided strike",
+      "force hand"
+    ]
+  },
+  {
+    "name": "Frostmask",
+    "passives": [
+      "ice face"
+    ],
+    "powers": [
+      "face strike",
+      "immunity boost",
+      "sapping strike",
+      "startling strike",
+      "tactical predictions",
+      "invert immunities",
+      "invoke snow",
+      "brace"
+    ]
+  },
+  {
+    "name": "Mischief Revenant",
+    "passives": [
+      "prankster",
+      "defiant",
+      "regenerator"
+    ],
+    "powers": [
+      "startling strike",
+      "imbue fragility",
+      "swagger",
+      "keen strike",
+      "power-up",
+      "empowering aura",
+      "shattering strike",
+      "loud strikes",
+      "finishing strike",
+      "invoke rain",
+      "confusing strike",
+      "mindless strikes",
+      "sapping strike"
+    ]
+  },
+  {
+    "name": "Cinder Husk",
+    "passives": [
+      "stability",
+      "flame body",
+      "weak armour"
+    ],
+    "powers": [
+      "decaying strike",
+      "yawn",
+      "soul strike",
+      "frenzy",
+      "guard",
+      "nullifying strike",
+      "bracing strike",
+      "disarming strike",
+      "startling strike",
+      "tactical predictions",
+      "exposing strike",
+      "rejuvenate"
+    ]
+  },
+  {
+    "name": "Tidebreaker Wraith",
+    "passives": [
+      "dark rush",
+      "bludgeoning absorb",
+      "water veil"
+    ],
+    "powers": [
+      "confusing strike",
+      "rejuvenate",
+      "discombobulate",
+      "area protection",
+      "power-up",
+      "sapping strike",
+      "startling strike",
+      "regeneration",
+      "exposing strike",
+      "reckless strike"
+    ]
+  },
+  {
+    "name": "Glasswraith",
+    "passives": [
+      "clear body",
+      "infiltrator",
+      "cursed body"
+    ],
+    "powers": [
+      "exposing strike",
+      "startling strike",
+      "grasping hands",
+      "learn scent",
+      "revenge",
+      "exploitative strike",
+      "power-up",
+      "teleswapping strike",
+      "wind-up strike",
+      "reckless strike",
+      "combo strike"
+    ]
+  },
+  {
+    "name": "Harvest Gorger",
+    "passives": [
+      "ripen",
+      "haemophilic",
+      "thick fat"
+    ],
+    "powers": [
+      "meditate",
+      "guard",
+      "startling strike",
+      "tactical prowess",
+      "imbue helplessness",
+      "meatshield",
+      "leeching decay",
+      "protect",
+      "rejuvenate",
+      "soul strike",
+      "exposing strike"
+    ]
+  },
+  {
+    "name": "Verdant Sentinel",
+    "passives": [
+      "overgrow",
+      "leaf guard"
+    ],
+    "powers": [
+      "imbue frailty",
+      "keen strike",
+      "imbue decay",
+      "mindless strikes",
+      "rejuvenate",
+      "deflecting aura",
+      "homing strike",
+      "leeching decay",
+      "imbue helplessness",
+      "impeding aura",
+      "exposing strike",
+      "condition protection",
+      "leeching strike",
+      "wind-up strike"
+    ]
+  },
+  {
+    "name": "Blessed Sylph",
+    "passives": [
+      "natural cure",
+      "serene grace"
+    ],
+    "powers": [
+      "tactical prowess",
+      "homing strike",
+      "leeching decay",
+      "rejuvenate",
+      "imbue helplessness",
+      "crippling strike",
+      "flood immunity",
+      "invoke grass",
+      "soul strike",
+      "discombobulate",
+      "martyrdom",
+      "startling strike",
+      "closing strike"
+    ]
+  },
+  {
+    "name": "Crystal Bulwark",
+    "passives": [
+      "clear body",
+      "sturdy"
+    ],
+    "powers": [
+      "guard",
+      "share pain",
+      "gravity strike",
+      "desperate strike",
+      "bracing strike",
+      "power-up",
+      "impeding aura",
+      "startling strike",
+      "soul swap",
+      "danger zone",
+      "stupefying strike",
+      "keen strike"
+    ]
+  },
+  {
+    "name": "Trickster Stalker",
+    "passives": [
+      "keen eye",
+      "infiltrator",
+      "prankster",
+      "competitive"
+    ],
+    "powers": [
+      "imbue weakness",
+      "imbue fragility",
+      "outskill",
+      "homing strike",
+      "confusing strike",
+      "assist",
+      "imbue frailty",
+      "chaotic strike",
+      "exploit opening",
+      "copy soul",
+      "impeding aura",
+      "deflecting aura",
+      "martial strike",
+      "expertise",
+      "haste protection",
+      "soul strike",
+      "invoke mist",
+      "assisted strike",
+      "tactical strike",
+      "startling strike",
+      "guided strike"
+    ]
+  },
+  {
+    "name": "Wayward Briar",
+    "passives": [
+      "leaf guard",
+      "contrary"
+    ],
+    "powers": [
+      "keen strike",
+      "wind-up strike",
+      "ramping strike",
+      "tactical prowess",
+      "plant roots",
+      "imbue helplessness",
+      "rejuvenate",
+      "invoke sunlight"
+    ]
+  },
+  {
+    "name": "Rabble Mauler",
+    "passives": [
+      "swarming frenzy",
+      "unaware"
+    ],
+    "powers": [
+      "war dance",
+      "protect",
+      "chaotic strike",
+      "imbue weakness",
+      "confusing strike",
+      "imbue decay",
+      "rejuvenate",
+      "stupefying strike",
+      "startling strike",
+      "soul strike",
+      "crippling strike"
+    ]
+  },
+  {
+    "name": "Paradox Husk",
+    "passives": [
+      "mould breaker",
+      "unaware",
+      "wonder skin"
+    ],
+    "powers": [
+      "war dance",
+      "disable",
+      "discombobulate",
+      "startling strike",
+      "confusing strike",
+      "imbue decay",
+      "imbue helplessness",
+      "soul strike",
+      "hypnosis",
+      "leeching strike",
+      "terminal strike"
+    ]
+  },
+  {
+    "name": "Carapace Guardian",
+    "passives": [
+      "shell armour"
+    ],
+    "powers": [
+      "decaying strike",
+      "protect",
+      "endure",
+      "desperate strike",
+      "disarming strike",
+      "guard",
+      "exposing strike",
+      "punish",
+      "frenzy",
+      "closing strike",
+      "dark sacrifice"
+    ]
+  },
+  {
+    "name": "Gorge Hoarder",
+    "passives": [
+      "cheek pouch",
+      "haemophilic"
+    ],
+    "powers": [
+      "imbue fragility",
+      "startling strike",
+      "chaotic endurance",
+      "chaotic strike",
+      "defend",
+      "ramping strike",
+      "ramping recovery",
+      "exposing strike",
+      "hibernate",
+      "punish",
+      "crushing blow",
+      "refract life"
+    ]
+  },
+  {
+    "name": "Arcane Trickster",
+    "passives": [
+      "magician"
+    ],
+    "powers": [
+      "deathrattle",
+      "teleswap",
+      "confusing strike",
+      "startling strike",
+      "chaotic eruption",
+      "impeding aura",
+      "soul swap",
+      "share pain",
+      "polarise",
+      "wind-up strike",
+      "temporal distortion",
+      "invoke negation",
+      "soul strike",
+      "tactical prowess",
+      "homing strike",
+      "disarming strike",
+      "cracking strike"
+    ]
+  },
+  {
+    "name": "Iron Resolute",
+    "passives": [
+      "guts",
+      "inner focus",
+      "mould breaker"
+    ],
+    "powers": [
+      "imbue fragility",
+      "telestrike",
+      "find weakpoint",
+      "frenzied strikes",
+      "melee mastery",
+      "sapping strike",
+      "frustrated strike",
+      "endure",
+      "tactical predictions",
+      "mindless strikes",
+      "keen strike",
+      "confusing strike"
+    ]
+  },
+  {
+    "name": "Umbral Charger",
+    "passives": [
+      "dark cloak",
+      "dark rush"
+    ],
+    "powers": [
+      "shattering strike",
+      "guard",
+      "decaying strike",
+      "pocket sand",
+      "frenzied strikes",
+      "ramping strike",
+      "cleanse",
+      "sapping strike",
+      "homing strike",
+      "grasping hands",
+      "keen strike",
+      "wind-up strike",
+      "considered strike",
+      "battlecry",
+      "invoke sand",
+      "startling strike",
+      "aggressive strike",
+      "immunity boost",
+      "face strike",
+      "vengeance",
+      "invoke snow"
+    ]
+  },
+  {
+    "name": "Velo Shade",
+    "passives": [
+      "damage boost",
+      "infiltrator"
+    ],
+    "powers": [
+      "dodge",
+      "imbue fragility",
+      "ramping strike",
+      "lend soul",
+      "homing strike",
+      "eye strike",
+      "aggressive strike",
+      "wind-up strike",
+      "pocket sand",
+      "guard",
+      "merciful strike",
+      "power-up",
+      "leeching strike",
+      "chaotic strike",
+      "learn scent",
+      "keen strike",
+      "battlecry"
+    ]
+  }
+]
