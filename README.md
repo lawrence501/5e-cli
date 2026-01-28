@@ -54,9 +54,9 @@ Without original values:
 ### Point value cheatsheet
 
 - Dominate: 8
-- Stagger/Debil/exh/confused/uncon/silence/double disadv condi: 5
-- Single disadv condi/slowed/charm/root/grapple: 3
-- Prone/taunt/sluggish/similar: 2
+- Stagger/Debil/stacking exh/confused/uncon/silence/double disadv condi: 5
+- Single disadv condi/slowed/charm/root/grapple/non-stacking exh: 3
+- Prone/taunt/sluggish/rattled/similar: 2
 - Condi lasts until save/longer: x2
 - limited power conditional: -1
 - General conditional: -2
@@ -99,48 +99,51 @@ Control
 Support
 Mobility
 Resource
-Damage
+Offence
 Survivability
 Wealth
 Utility
 
 ## Ideas for next campaign/things to discuss
 
-- Future loot options suggestion (d100 roll)
+Edvard Winthrop
+Redemption Herald
+Tactician feat
+Resilient feat
+
+Base loot: enchanted items (min total points = party lvl) (sell for 30gp)
+
+For 100gp, buy loot roll (d100):
 1. Amulets
-2. Crystals (talisman)
-3. Dream Mirrors (helm)
-4. Enchanted Items (curio)
+2. Shrines (curio)
+3. Crystals (talisman)
+4. Dream Mirrors (helm)
 5. Glyphs (dust)
 6. Relics (tarot)
 7. Tarot Cards (tarot)
- 
 13% each, remaining goes to reroll w/ upgrade (8%) + choose w/ upgrade (1% max)
+
+On finding enchanted items, 10*number_of_specialisations% chance to get the loot type of a random one of your specialisations
 
 Whenever loot is gained from a combat, anyone who rolled-off for a loot roll and didn't win rolls another d20. They take the result of either their roll-off or this new d20 and gain that much gold + 5. Whenever loot is gained from a combat, any absent players gain 10gp.
 
-Each combat gives 10% chance for a carnival ticket, and 3% chance for an otherworldly gift
+Each combat gives 10% chance for a carnival ticket
 
-Orb of Chance options:
-1. 2 affixes
-2. 4 affixes
-3. 6 affixes
-4. Unique
+Start at level 4?
 
-Corruption orb options:
-1. Do nothing
-2. Reroll to Mundane, 2 affixes, 4 affixes, 6 affixes, or unique
-3. Add a positive and a negative affix
-4. Give each player a chaotic modifier
+Loot system:
+- All loot from regular combats is scaling enchanted items (2 affixes each, with a total minimum point value equal to party level (from start) )
+- Enchanted items sell for 30gp each
+- For 100gp, can buy a loot roll, which has the special loot types, none of which compete with enchanted items
+- Starting once every loot type has been seen, every level at 50xp, the party can choose a loot specialisation. This gives the party +10% chance each time they find an enchanted item to instead find one of their specialised results
 
-Final encounter types:
-1. Single enemy, being invaded
-2. Single enemy, invading us
-3. Enemy group, being invaded
-4. Enemy group, invading us
-5. Single enemy, heavily fortified
-6. Waves of enemies, invading us
+Specialisation after the first 'event' of sessions 3, 6, 9, 12, 15, 18 (6 total)
+Augment after the first 'event' of sessions 5, 11, 17 (3 total)
 
-Rewrite Biting Zephyr to be specifically about long-range identity, and remove the melee restrictions from most other traditions
+For quest generation, use Draw Steel mob types, dungeon gimmicks, and skill challenges/montages (1/3 of quests only)
 
-How does the variety of loot currently feel? Does it feel good to have so many different systems that all have their own investment mechanics and specialisations? Or is there too much going on? Just first gut feeling
+TODO:
+- rename crystal stuff to be more attached to actual mechanics
+- [After campaign] Slow weapons vs spells
+- Harm focus feat? Some sort of attack penalty, extra outgoing harm per harm inflicted each round
+- Discuss kits

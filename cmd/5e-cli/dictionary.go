@@ -1,13 +1,13 @@
 package main
 
 var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
-	"tarot":     "Tarot: +1 card draw.",
-	"amulet":    "Amulet: Base modifier is upgraded once. If used to upgrade another, +1 upgrade option.",
-	"enchanted": "Enchanted Equipment: At least +2 upgrade points randomly allocated. If salvaged, +50% chance to gain 1 additional crafting level.",
-	"relic":     "Relic: At least +2 upgrade points randomly allocated. If used to upgrade another, +1 upgrade option.",
-	"mirror":    "Dream Mirror: +1 upgrade point on either new mod or upgrade/reroll.",
-	"glyph":     "Glyph: +50% chance to grant +1 tier.",
-	"crystal":   "Crystal: +2% flare chance. If used to upgrade another, +1% flare chance.",
+	"tarot":   "Tarot: +1 card draw.",
+	"amulet":  "Amulet: Base modifier is upgraded once. If used to upgrade another, +1 upgrade option.",
+	"shrine":  "Shrine: Affixes added or positively modified are upgraded +1 time. Also adds 'this item sells for +10gp' affix to item.",
+	"relic":   "Relic: At least +2 upgrade points randomly allocated. If used to upgrade another, +1 upgrade option.",
+	"mirror":  "Dream Mirror: +1 upgrade point on either new mod or upgrade/reroll.",
+	"glyph":   "Glyph: +50% chance to grant +1 tier.",
+	"crystal": "Crystal: +2% flare chance. If used to upgrade another, +1% flare chance.",
 }
 
 var PHYS_TYPES []string = []string{
@@ -42,12 +42,6 @@ var ABILITIES []string = []string{
 var HIT_FORMS []string = []string{
 	"weapon",
 	"spell",
-}
-
-var WILL_ABILITIES []string = []string{
-	"intelligence",
-	"wisdom",
-	"charisma",
 }
 
 var WEAPON_HANDS []string = []string{
@@ -98,26 +92,40 @@ var DAMAGE_POLARITIES []string = []string{
 }
 
 var PARTY_MEMBERS []string = []string{
-	"Bovo",
-	"Viktor",
-	"Junie",
+	"Dekel",
+	"Bentley",
+	"Dan",
+	"Jonathon",
 }
 
+// Base chance = 7 + rank*3
 var FLARE_CHANCES map[string]int = map[string]int{
-	"Bovo":   33, // +20%, level 2
-	"Viktor": 20, // +1%, level 4
-	"Junie":  10, // +0%, level 1
-}
-
-var CITIES []string = []string{
-	"Imperial City",
+	"Dekel":    10, // +0%, rank 1
+	"Bentley":  10, // +0%, rank 1
+	"Dan":      10, // +0%, rank 1
+	"Jonathon": 10, // +0%, rank 1
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Bovo":     4,
-	"Viktor":   1,
-	"Junie":    2,
+	"Dekel":    0,
+	"Bentley":  0,
+	"Dan":      0,
+	"Jonathon": 0,
 	"Sidekick": 0,
+}
+
+var SPECIALISATION_TYPES map[string][]string = map[string][]string{
+	"Dekel":     {},
+	"Bentley":   {},
+	"Dan":       {},
+	"Jonathon":  {},
+	"REFERENCE": {},
+}
+
+var PARTY_LEVEL int = 1
+
+var CITIES []string = []string{
+	"Imperial City",
 }
 
 var LIGHT_TYPES []string = []string{
@@ -127,6 +135,7 @@ var LIGHT_TYPES []string = []string{
 
 var CONDITIONS []string = []string{
 	"blinded",
+	"brittle",
 	"charmed",
 	"confused",
 	"dazed",
@@ -149,6 +158,7 @@ var CONDITIONS []string = []string{
 	"strife",
 	"taunted",
 	"unconscious",
+	"weakened",
 }
 
 var AOE_SHAPES []string = []string{
@@ -202,7 +212,7 @@ var WEAPON_TRAITS []string = []string{
 	"forceful",
 	"mounted",
 	"non-lethal",
-	"offhand (your main hand weapon's damage die increases by 2 sizes)",
+	"offhand (2 random traits, other than offhand)",
 	"opener",
 	"parrying",
 	"prepared",
@@ -325,6 +335,8 @@ var EQUIP_SLOTS []string = []string{
 	"body",
 	"gloves",
 	"boots",
+	"belt",
+	"cloak",
 }
 
 var FEATS []string = []string{
@@ -498,10 +510,10 @@ var MARTIAL_TRADITIONS []string = []string{
 
 var AFFINITIES []string = []string{
 	"control",
-	"accuracy",
+	"support",
 	"mobility",
 	"resource",
-	"damage",
+	"offence",
 	"survivability",
 	"wealth",
 	"utility",
@@ -512,32 +524,11 @@ var INACTIVE_DMS []string = []string{
 	"Bentley",
 }
 
-var SIMULATION_TYPES []string = []string{
-	"dungeon",
-	"hunt",
-	"journey",
-	"puzzle",
-}
-
-var CHANCE_RESULTS []string = []string{
-	"+1 affix pair",
-	"+2 affix pairs",
-	"+3 affix pairs",
-	"unique",
-}
-
-var CORRUPTION_RESULTS []string = []string{
-	"do nothing",
-	"reroll to [mundane, 1 affix pair, 2 affix pairs, 3 affix pairs, unique]",
-	"add 1 affix pair",
-	"give each player a chaotic modifier, without telling them until they trigger",
-}
-
 var LOOT_RESULTS []string = []string{
 	"amulet",
 	"crystal",
 	"dream mirror",
-	"enchanted item",
+	"shrine",
 	"glyph",
 	"relic",
 	"tarot cards",
@@ -553,13 +544,11 @@ var JOURNEY_ACTIVITIES []string = []string{
 	"force march",
 	"gossip",
 	"harvest",
-	"hunt & gather",
 	"loot remains",
 	"mug",
 	"pickpocket",
 	"scam",
 	"scout",
-	"seek shelter",
 	"treasure hunt",
 }
 

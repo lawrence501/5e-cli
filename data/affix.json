@@ -9,7 +9,7 @@
         "description": "+1 $dmgType damage",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+5' speed",
@@ -18,7 +18,7 @@
         "affinities": ["mobility"]
     },
     {
-        "description": "+1 $ability and maximum {ability}",
+        "description": "+1 $ability",
         "pointValue": "2",
         "upgrade": "+1/2",
         "affinities": ["utility"]
@@ -63,7 +63,7 @@
         "description": "+2 maneuver damage",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 exp gain",
@@ -79,8 +79,8 @@
     },
     {
         "description": "+1 to d20 rolls during carnival games",
-        "pointValue": "3",
-        "upgrade": "+1/3",
+        "pointValue": "2",
+        "upgrade": "+1/2",
         "affinities": ["wealth"]
     },
     {
@@ -114,12 +114,6 @@
         "affinities": ["control"]
     },
     {
-        "description": "+4 NPC ally effectiveness",
-        "pointValue": "1",
-        "upgrade": "+4/1",
-        "affinities": ["utility"]
-    },
-    {
         "description": "+5' mounted speed",
         "pointValue": "1",
         "upgrade": "+5'/1",
@@ -141,7 +135,7 @@
         "description": "+1 dmg while adjacent to $partyMember",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 resistance while adjacent to $partyMember",
@@ -162,7 +156,7 @@
         "affinities": ["utility"]
     },
     {
-        "description": "you can cast [random cantrip] at will, governed by any ability",
+        "description": "you can cast [random cantrip] at will (https://spies-and-spiders.github.io/spells.html#acid%20splash_sns,flstlevel:0=1,flstschool:m=2), governed by any ability",
         "pointValue": "3",
         "upgrade": "another random cantrip/3",
         "affinities": ["utility"]
@@ -195,13 +189,13 @@
         "description": "+1 dmg with mutated powers",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage while $healthStatus",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 resistance while $healthStatus",
@@ -219,7 +213,7 @@
         "description": "+2 damage during the first round of combat",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+2 resistance during the first round of combat",
@@ -246,7 +240,7 @@
         "affinities": ["support"]
     },
     {
-        "description": "adjacent allies have +1 critical hit range",
+        "description": "adjacent allies have +1 critical success range",
         "pointValue": "4",
         "upgrade": "+1/4",
         "affinities": ["support"]
@@ -264,7 +258,7 @@
         "affinities": ["support"]
     },
     {
-        "description": "1/LR, can cast [random 1st lvl spell], governed by any ability",
+        "description": "1/LR, can cast [random 1st lvl spell] (https://spies-and-spiders.github.io/spells.html#absorb%20elements_sns,flstlevel:1=1,flstschool:m=2), governed by any ability",
         "pointValue": "1",
         "upgrade": "spell upcasted, else new spell +1 lvl/1",
         "affinities": ["utility"]
@@ -294,7 +288,7 @@
         "affinities": ["utility"]
     },
     {
-        "description": "+5' to max range of your teleports",
+        "description": "+5' maximum teleport distance",
         "pointValue": "1",
         "upgrade": "+5'/1",
         "affinities": ["mobility"]
@@ -339,55 +333,61 @@
         "description": "+1d4 $dmgType damage to your damaging $hitForm attacks",
         "pointValue": "3",
         "upgrade": "+1 die size/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 $hitForm damage",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "all of your damage is converted to $dmgType",
         "pointValue": "1",
         "upgrade": "+1 damage with new type/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 base damage die size",
         "pointValue": "2",
         "upgrade": "+1/2",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 outgoing harm",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
+    },
+    {
+        "description": "+2 outgoing ongoing harm",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "affinities": ["offence"]
     },
     {
         "description": "+2 $aoeShape area damage",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
-        "description": "+1 critical hit range",
+        "description": "+1 critical success range",
         "pointValue": "4",
         "upgrade": "+1/4",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+3 critical damage bonus",
         "pointValue": "1",
         "upgrade": "+2/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage vs $condition creatures",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage", "control"]
+        "affinities": ["offence", "control"]
     },
     {
         "description": "+1 resistance vs $condition creatures",
@@ -405,7 +405,7 @@
         "description": "+1 damage vs $healthStatus targets",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "your ranges are doubled",
@@ -417,13 +417,13 @@
         "description": "+5' reach",
         "pointValue": "3",
         "upgrade": "+5'/3",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 $dmgPolarity damage",
         "pointValue": "2",
         "upgrade": "+1/2",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "on hit, heal 1 HP",
@@ -435,7 +435,7 @@
         "description": "+1 damage while shapeshifted",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 resistance while shapeshifted",
@@ -447,25 +447,31 @@
         "description": "+1 damage with minor successes",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage", "accuracy"]
+        "affinities": ["offence"]
     },
     {
-        "description": "critical failures with damaging attacks always trigger a single-target NPC ally atk",
-        "pointValue": "3",
-        "upgrade": "+4 NPC ally damage/1",
-        "affinities": ["damage"]
+        "description": "critical failures with damaging attacks always trigger a single-target minion attack against the target that automatically scores a standard success and deals 5 $dmgType damage",
+        "pointValue": "1",
+        "upgrade": "+5/1",
+        "affinities": ["offence"]
+    },
+    {
+        "description": "your critical successs always trigger a single-target minion attack against the target that automatically scores a standard success and deals 4 $dmgType damage",
+        "pointValue": "1",
+        "upgrade": "+4/1",
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage while wearing $armourWeight body armour",
         "pointValue": "2",
         "upgrade": "+1/2",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+2 damage vs diseased targets",
         "pointValue": "2",
         "upgrade": "+1/1",
-        "affinities": ["damage", "control"]
+        "affinities": ["offence", "control"]
     },
     {
         "description": "+2 resistance vs diseased creatures",
@@ -477,7 +483,7 @@
         "description": "+1 damage vs cursed targets",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage", "control"]
+        "affinities": ["offence", "control"]
     },
     {
         "description": "+1 resistance vs cursed creatures",
@@ -489,7 +495,7 @@
         "description": "+1 damage vs marked targets",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+5' push distance",
@@ -507,43 +513,43 @@
         "description": "+1 damage while holding a shield",
         "pointValue": "2",
         "upgrade": "+1/2",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage with $school spells",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage with height adv",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage", "mobility"]
+        "affinities": ["offence", "mobility"]
     },
     {
         "description": "+1 damage with limited powers",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage", "resource"]
+        "affinities": ["offence", "resource"]
     },
     {
-        "description": "+1 item proc damage",
+        "description": "+2 outgoing harm from your items",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+2 damage if you've taken damage since your last turn",
         "pointValue": "2",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+3 opportunity attack damage",
         "pointValue": "1",
         "upgrade": "+2/1",
-        "affinities": ["damage", "control"]
+        "affinities": ["offence", "control"]
     },
     {
         "description": "+1 armour while airborne",
@@ -555,19 +561,19 @@
         "description": "+1 damage for each foe in 60'",
         "pointValue": "4",
         "upgrade": "+1/4",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage vs targets who are alone in combat",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage while invisible",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "on killing blow, heal 4 HP",
@@ -579,13 +585,13 @@
         "description": "+2 damage with reactions",
         "pointValue": "2",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
-        "description": "+1 damage vs targets you are flanking",
+        "description": "+2 melee damage vs targets you are flanking",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 $minorDefence",
@@ -639,7 +645,7 @@
         "description": "+1 damage with $weaponClass weapons",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+2 resistance during your turn",
@@ -654,10 +660,10 @@
         "affinities": ["survivability"]
     },
     {
-        "description": "+1 critical hit range with $weaponClass weapons",
+        "description": "+1 critical success range with $weaponClass weapons",
         "pointValue": "4",
         "upgrade": "+1/4",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "-1 incoming harm",
@@ -666,10 +672,10 @@
         "affinities": ["survivability"]
     },
     {
-        "description": "+3 hit thorns",
+        "description": "when hit, attacker suffers 3 piercing harm",
         "pointValue": "1",
         "upgrade": "+2/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "when hit, heal 3 HP",
@@ -687,7 +693,7 @@
         "description": "+1 damage with $weaponHands weapons",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+2 incoming temporary HP",
@@ -699,7 +705,7 @@
         "description": "+1 $rangeType dmg",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "when hit, gain 4 temp HP",
@@ -709,8 +715,8 @@
     },
     {
         "description": "+1 to death saves",
-        "pointValue": "3",
-        "upgrade": "+1/3",
+        "pointValue": "4",
+        "upgrade": "+1/4",
         "affinities": ["survivability"]
     },
     {
@@ -720,10 +726,10 @@
         "affinities": ["survivability"]
     },
     {
-        "description": "-1 redirected damage taken",
+        "description": "-1 intercepted damage taken",
         "pointValue": "1",
         "upgrade": "-1/1",
-        "affinities": ["support"]
+        "affinities": ["support", "survivability"]
     },
     {
         "description": "on initiative roll, heal 4 HP",
@@ -744,7 +750,7 @@
         "affinities": ["survivability"]
     },
     {
-        "description": "+1 max hit dice",
+        "description": "+1 maximum hit dice",
         "pointValue": "2",
         "upgrade": "+1/2",
         "affinities": ["survivability"]
@@ -753,11 +759,11 @@
         "description": "+2 damage with summoned weapons",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "on becoming bloodied, gain effects of the Block action",
-        "pointValue": "3",
+        "pointValue": "2",
         "upgrade": "+1 armour during Block action/3",
         "affinities": ["survivability"]
     },
@@ -771,7 +777,7 @@
         "description": "+1 damage if you haven't moved since the start of your last turn",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 armour while $healthStatus",
@@ -795,13 +801,13 @@
         "description": "+1 damage while you have temporary HP",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage", "survivability"]
+        "affinities": ["offence", "survivability"]
     },
     {
-        "description": "+1 glyphic dmg",
+        "description": "+2 glyphic harm",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 armour vs opportunity attacks",
@@ -813,7 +819,7 @@
         "description": "when downed, gain +1 damage until LR",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "when downed, gain +1 resistance until LR",
@@ -824,7 +830,7 @@
     {
         "description": "while you have no conscious allies in combat, +15' sp",
         "pointValue": "1",
-        "upgrade": "10'/1",
+        "upgrade": "+10'/1",
         "affinities": ["mobility", "support"]
     },
     {
@@ -849,7 +855,7 @@
         "description": "+2 damage with your highest-level spells or highest-degree maneuvers",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["resource", "damage"]
+        "affinities": ["resource", "offence"]
     },
     {
         "description": "on SR, recover 2 spell slot levels",
@@ -873,7 +879,7 @@
         "description": "+1 damage while you have an active stance",
         "pointValue": "2",
         "upgrade": "+1/2",
-        "affinities": ["resource", "damage"]
+        "affinities": ["resource", "offence"]
     },
     {
         "description": "+1 resistance while you have an active stance",
@@ -891,19 +897,19 @@
         "description": "while a foe is adjacent to you, +1 damage",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
-        "description": "+1 $rangeType critical hit range",
+        "description": "+1 $rangeType critical success range",
         "pointValue": "4",
         "upgrade": "+1/4",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+2 minion damage",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+5 minion HP",
@@ -921,7 +927,7 @@
         "description": "+1 damage while you have an active minion",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+5' telepathy",
@@ -948,7 +954,7 @@
         "affinities": ["mobility"]
     },
     {
-        "description": "-5' run-up needed for long/high jump",
+        "description": "-5' run-up needed for a long/high jump",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["mobility"]
@@ -975,7 +981,7 @@
         "description": "+1 damage with $weaponTrait weapons",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "on killing blow, gain 5 temporary HP",
@@ -987,7 +993,7 @@
         "description": "+1 damage vs targets $initiativeDifference you in the turn tracker",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage", "mobility"]
+        "affinities": ["offence", "mobility"]
     },
     {
         "description": "+1 resistance vs creatures $initiativeDifference you in the turn tracker",
@@ -1002,6 +1008,18 @@
         "affinities": ["survivability"]
     },
     {
+        "description": "+1 minion critical success range",
+        "pointValue": "3",
+        "upgrade": "+1/3",
+        "affinities": ["offence"]
+    },
+    {
+        "description": "+1 minion armour",
+        "pointValue": "4",
+        "upgrade": "+1/4",
+        "affinities": ["survivability"]
+    },
+    {
         "description": "+1 environmental damage resistance",
         "pointValue": "1",
         "upgrade": "+1/1",
@@ -1011,37 +1029,37 @@
         "description": "+1 to environmental damage you cause",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 damage while mounted",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence", "mobility"]
     },
     {
         "description": "+1 resistance while mounted",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["survivability"]
+        "affinities": ["survivability", "mobility"]
     },
     {
         "description": "+3 damage vs surprised targets",
         "pointValue": "2",
         "upgrade": "+1/1",
-        "affinities": ["damage", "mobility"]
+        "affinities": ["offence"]
     },
     {
-        "description": "+2 critical hit range vs surprised targets",
+        "description": "+2 critical success range vs surprised targets",
         "pointValue": "4",
         "upgrade": "+1/2",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+2 outgoing harm with persistent zones",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "someone in $city will exchange this item for exotic treasures (can be traded there for a random positive reward)",
@@ -1050,10 +1068,10 @@
         "affinities": ["wealth"]
     },
     {
-        "description": "+3 crystal flare damage",
+        "description": "+3 crystal damage",
         "pointValue": "1",
         "upgrade": "+2/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1% crystal flare chance",
@@ -1065,25 +1083,19 @@
         "description": "+1 damage with weapon attacks enhanced by a spell",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
-    },
-    {
-        "description": "+2 damage with summoned entities that deal your damage",
-        "pointValue": "1",
-        "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+1 weapon damage while dual-wielding",
         "pointValue": "1",
         "upgrade": "+1/1",
-        "affinities": ["damage"]
+        "affinities": ["offence"]
     },
     {
         "description": "+3 charged damage",
         "pointValue": "1",
         "upgrade": "+2/1",
-        "affinities": ["damage", "mobility"]
+        "affinities": ["offence", "mobility"]
     },
     {
         "description": "+1 to journey activity checks",
@@ -1102,5 +1114,35 @@
         "pointValue": "4",
         "upgrade": "+1/4",
         "affinities": ["utility"]
+    },
+    {
+        "description": "whenever you revive a creature, they recover 1% additional HP",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "affinities": ["support"]
+    },
+    {
+        "description": "d20 rolls you help have a +1 bonus",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "affinities": ["support"]
+    },
+    {
+        "description": "+2 damage vs bosses",
+        "pointValue": "2",
+        "upgrade": "+1/1",
+        "affinities": ["offence"]
+    },
+    {
+        "description": "+2 resistance vs bosses",
+        "pointValue": "2",
+        "upgrade": "+1/1",
+        "affinities": ["survivability"]
+    },
+    {
+        "description": "+1 damage with effects you are concentrating on",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "affinities": ["offence"]
     }
 ]

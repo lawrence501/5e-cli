@@ -14,118 +14,6 @@ import (
 	"github.com/manifoldco/promptui"
 )
 
-var simulations = func() error {
-	simWeights, err := fetchData("simulationWeights", SimulationWeights{})
-	if err != nil {
-		return err
-	}
-	simulationAffixes, err := fetchData("simulationAffix", SimulationAffixes{})
-	if err != nil {
-		return err
-	}
-
-	simType, err := chooseSimulationType(simWeights)
-	if err != nil {
-		return err
-	}
-
-	currencyOutput, err := genSimCurrency()
-	if err != nil {
-		return err
-	}
-
-	ONE_AFFIX_CHANCE := 20
-	TWO_AFFIX_CHANCE := 30
-	THREE_AFFIX_CHANCE := 34
-	UNIQUE_CHANCE := 35
-
-	outputBuilder := ""
-	outputBuilder += fmt.Sprintf("# %s Simulations:\n", simType)
-	for idx := range 3 {
-		outputBuilder += fmt.Sprintf("### Option %d\n", idx+1)
-		affixRoll := rand.Intn(100)
-		if affixRoll < ONE_AFFIX_CHANCE {
-			outputBuilder += fmt.Sprintf(
-				"\t* 🟩 %s\n\t* 🟥 %s\n",
-				processString(genSimAffix(simType, simulationAffixes.Positive)),
-				processString(genSimAffix(simType, simulationAffixes.Negative)),
-			)
-		} else if affixRoll < TWO_AFFIX_CHANCE {
-			positive1 := processString(genSimAffix(simType, simulationAffixes.Positive))
-			negative1 := processString(genSimAffix(simType, simulationAffixes.Negative))
-			positive2, negative2 := positive1, negative1
-			for positive1 == positive2 {
-				positive2 = processString(genSimAffix(simType, simulationAffixes.Positive))
-			}
-			for negative1 == negative2 {
-				negative2 = processString(genSimAffix(simType, simulationAffixes.Negative))
-			}
-			outputBuilder += fmt.Sprintf(
-				"\t* 🟩 %s\n\t* 🟩 %s\n\t* 🟥 %s\n\t* 🟥 %s\n",
-				positive1,
-				positive2,
-				negative1,
-				negative2,
-			)
-		} else if affixRoll < THREE_AFFIX_CHANCE {
-			positive1 := processString(genSimAffix(simType, simulationAffixes.Positive))
-			negative1 := processString(genSimAffix(simType, simulationAffixes.Negative))
-			positive2, negative2 := positive1, negative1
-			for positive1 == positive2 {
-				positive2 = processString(genSimAffix(simType, simulationAffixes.Positive))
-			}
-			for negative1 == negative2 {
-				negative2 = processString(genSimAffix(simType, simulationAffixes.Negative))
-			}
-			positive3, negative3 := positive1, negative1
-			for positive1 == positive3 {
-				positive3 = processString(genSimAffix(simType, simulationAffixes.Positive))
-			}
-			for negative1 == negative3 {
-				negative3 = processString(genSimAffix(simType, simulationAffixes.Negative))
-			}
-			outputBuilder += fmt.Sprintf(
-				"\t* 🟩 %s\n\t* 🟩 %s\n\t* 🟩 %s\n\t* 🟥 %s\n\t* 🟥 %s\n\t* 🟥 %s\n",
-				positive1,
-				positive2,
-				positive3,
-				negative1,
-				negative2,
-				negative3,
-			)
-		} else if affixRoll < UNIQUE_CHANCE {
-			outputBuilder += "\t* ❕ Unique simulation!\n"
-		} else {
-			outputBuilder += "*Mundane*\n"
-		}
-	}
-	outputBuilder += fmt.Sprintf("\n## Currencies\n%s\n", currencyOutput)
-	return discordSend(outputBuilder)
-}
-
-var simulationAffix = func() error {
-	simTypeP := promptui.Prompt{
-		Label:    "Simulation type",
-		Validate: validateSimulationType,
-	}
-	simType, err := simTypeP.Run()
-	if err != nil {
-		return err
-	}
-
-	simulationAffixes, err := fetchData("simulationAffix", SimulationAffixes{})
-	if err != nil {
-		return err
-	}
-
-	discordSend(fmt.Sprintf(
-		"* 🟩 %s\n* 🟥 %s",
-		processString(genSimAffix(simType, simulationAffixes.Positive)),
-		processString(genSimAffix(simType, simulationAffixes.Negative)),
-	))
-	return nil
-}
-
 var carnival = func() error {
 	allGames, err := fetchData("carnivalGame", []string{})
 	if err != nil {
@@ -168,7 +56,7 @@ var targetAffix = func() error {
 
 	affinityP := promptui.Prompt{
 		Label:    "Affinities (space-separated)",
-		Validate: validateSpaceSeparated,
+		Validate: validateSpaceSeparatedAffinities,
 	}
 	affinitiesS, err := affinityP.Run()
 	if err != nil {
@@ -196,20 +84,7 @@ var glyph = func() error {
 	}
 
 	chosen := randSelect(paths)
-	discordSend(fmt.Sprintf("### Glyph path\n%s", chosen.Tiers[0]))
-	return nil
-}
-
-var upgradeRelic = func() error {
-	log.Println("Upgrade options:")
-	rolls := []int{rand.Intn(2), rand.Intn(2)}
-	for _, r := range rolls {
-		if r < 1 {
-			log.Println("- Upgrade existing mod")
-		} else {
-			log.Println("- New thematic mod")
-		}
-	}
+	discordSend(fmt.Sprintf("### Glyph path about **%s**\n%s", chosen.Theme, chosen.Tiers[0]))
 	return nil
 }
 
@@ -220,7 +95,7 @@ var mutate = func() error {
 	}
 
 	chosen := randSelect(mutations)
-	return discordSend(fmt.Sprintf("### Mutation\n**Mutation of %s** *(Can be applied to %s)*:\n%s", chosen.Name, chosen.Target, chosen.Description))
+	return discordSend(fmt.Sprintf("### Mutation\n**Mutation of %s** *(Can be applied to %s)*:\n%s", chosen.Name, chosen.Target, processString(chosen.Description)))
 }
 
 var insight = func() error {
@@ -286,26 +161,27 @@ var dmgUpgrade = func() error {
 	multiplier, _ := strconv.ParseFloat(multiString, 64)
 	currentDmg, _ := strconv.ParseFloat(dmgString, 64)
 	newDmg := currentDmg * multiplier
+	newDmg = math.Round(newDmg*10) / 10
 	fmt.Printf("New damage dice: %s (if mod-based: %s + 5) (average difference: %.0f)", dmgToDice(newDmg), dmgToDice(newDmg-5), math.Floor(newDmg-currentDmg))
 
 	return nil
 }
 
 var chaos = func() error {
-	chaos, err := fetchChaos()
+	chaos, err := fetchData("chaos", Chaos{})
 	if err != nil {
 		return err
 	}
 
-	chaosTrigger := chaos.Trigger[rand.Intn(len(chaos.Trigger))]
-	chaosTarget := chaos.Target[rand.Intn(len(chaos.Target))]
+	chaosTrigger := randSelect(chaos.Trigger)
+	chaosTarget := randSelect(chaos.Target)
 	mod := fmt.Sprintf("%s, cast [https://spies-and-spiders.github.io/spells.html#blankhash,flstschool:m=2] on %s", chaosTrigger, chaosTarget)
 
 	log.Printf("Chaotic modifier: %s", processString(mod))
 	return nil
 }
 
-var PERK_CHANCE = 0
+var PERK_CHANCE = 20
 var CARNIVAL_CHANCE = 10
 var OTHERWORLDLY_CHANCE = 3
 var combat = func() error {
@@ -351,6 +227,8 @@ var combat = func() error {
 }
 
 var LEGENDARY_CHEST_CHANCE = 0
+var HOSTILE_CHANCE = 0
+var POSITIVE_CHANCE = 0
 
 var travel = func() error {
 	charSlice := make([]string, len(PARTY_MEMBERS))
@@ -367,7 +245,7 @@ var travel = func() error {
 
 	hostileRoll := rand.Intn(100)
 	hostile1, hostile2 := -1, -1
-	if hostileRoll < 19 {
+	if hostileRoll < HOSTILE_CHANCE {
 		for hostile1 == hostile2 {
 			hostile1 = rand.Intn(len(charSlice) + 1)
 			hostile2 = rand.Intn(len(charSlice) + 1)
@@ -375,7 +253,7 @@ var travel = func() error {
 	}
 	positiveRoll := rand.Intn(100)
 	positive := -1
-	if positiveRoll < 5 {
+	if positiveRoll < POSITIVE_CHANCE {
 		for positive == -1 || (positive == hostile1 || positive == hostile2) {
 			positive = rand.Intn(len(charSlice) + 1)
 		}
@@ -383,7 +261,8 @@ var travel = func() error {
 
 	event := 1
 	for i := 0; i < len(charSlice)+1; i++ {
-		if i == hostile1 || i == hostile2 {
+		switch i {
+		case hostile1, hostile2:
 			legendaryRoll := rand.Intn(100)
 			if legendaryRoll < LEGENDARY_CHEST_CHANCE {
 				log.Printf("%d. Legendary chest!\n", event)
@@ -391,7 +270,7 @@ var travel = func() error {
 				log.Printf("%d. Hostile random encounter\n", event)
 			}
 			event++
-		} else if i == positive {
+		case positive:
 			log.Printf("%d. Positive random encounter\n", event)
 			event++
 		}
@@ -419,35 +298,6 @@ var dream = func() error {
 	}
 	mod := randSelect(pool)
 	return discordSend(fmt.Sprintf("### %s's dream\n%s *[%s; %s]*", char, mod.Description, mod.PointValue, mod.Upgrade))
-}
-
-var augment = func() error {
-	charP := promptui.Prompt{
-		Label:    "Character",
-		Validate: validatePartyMember,
-	}
-	char, err := charP.Run()
-	if err != nil {
-		return err
-	}
-
-	all, err := fetchData("augment", map[string][]string{})
-	if err != nil {
-		return err
-	}
-	augments := all[char]
-
-	option1 := randSelect(augments)
-	option2 := option1
-	for option1 == option2 {
-		option2 = randSelect(augments)
-	}
-	option3 := option2
-	for option3 == option1 || option3 == option2 {
-		option3 = randSelect(augments)
-	}
-
-	return discordSend(fmt.Sprintf("### %s's augment options:\n- %s\n- %s\n- %s", char, option1, option2, option3))
 }
 
 var mission = func() error {
@@ -577,17 +427,27 @@ var relic = func() error {
 	return discordSend(fmt.Sprintf("### Relic\n**%s**:\n- %s", chosen.Name, modString))
 }
 
-var enchantedItem = func() error {
-	lvlP := promptui.Prompt{
-		Label:    "Crafting level",
-		Validate: validateInt,
-	}
-	lvlS, err := lvlP.Run()
-	if err != nil {
-		return err
+var loot = func() error {
+	roll := rand.Intn(10)
+	// Replace enchanted item with loot result
+	if roll < len(SPECIALISATION_TYPES["REFERENCE"]) {
+		charP := promptui.Prompt{
+			Label:    "Looting character",
+			Validate: validatePartyMember,
+		}
+		char, err := charP.Run()
+		if err != nil {
+			return err
+		}
+
+		log.Printf("Enchanted item replaced with %s!", randSelect(SPECIALISATION_TYPES[char]))
+		return nil
 	}
 
-	// Affixes
+	return enchantedItem()
+}
+
+var enchantedItem = func() error {
 	allAffixes, err := fetchData("affix", []Affix{})
 	if err != nil {
 		return err
@@ -604,74 +464,17 @@ var enchantedItem = func() error {
 		modDescriptions = append(modDescriptions, fmt.Sprintf("%s *[%s; %s; %s]*", m.Description, m.PointValue, m.Upgrade, strings.Join(m.Affinities, ", ")))
 	}
 
-	// Crafts
-	lvl, err := strconv.Atoi(lvlS)
-	if err != nil {
-		return err
-	}
-
-	allCrafts, err := fetchData("craft", []Craft{})
-	if err != nil {
-		return err
-	}
-
-	tiers := 0
-	upgradeIdx := -1
-	loopCapper := 0
-	chosenNames := []string{}
-	crafts := []Craft{}
-	for tiers < lvl {
-		if len(crafts) < 3 {
-			c := randSelect(allCrafts)
-			if c.Tier+tiers > lvl || slices.Contains(chosenNames, c.Name) {
-				continue
-			}
-			c.Rank = c.Tier
-			tiers += c.Tier
-			chosenNames = append(chosenNames, c.Name)
-			crafts = append(crafts, c)
-			continue
-		}
-
-		if upgradeIdx == 2 {
-			upgradeIdx = 0
-		} else {
-			upgradeIdx++
-		}
-		if tiers+crafts[upgradeIdx].Tier > lvl {
-			loopCapper++
-			if loopCapper == 3 {
-				break
-			}
-			continue
-		}
-		loopCapper = 0
-		crafts[upgradeIdx].Rank += crafts[upgradeIdx].Tier
-		tiers += crafts[upgradeIdx].Tier
-	}
-
-	craftDescriptions := []string{}
-	for _, c := range crafts {
-		craftDescriptions = append(craftDescriptions, fmt.Sprintf("**%s (Rank %d):** %s *[%s]*", c.Name, c.Rank-c.Tier, c.Description, c.Upgrade))
-	}
-	if len(craftDescriptions) == 0 {
-		craftDescriptions = append(craftDescriptions, "*None*")
-	}
-
-	return discordSend(fmt.Sprintf("## Enchanted Item\n- %s\n\n### Crafts\n- %s", strings.Join(modDescriptions, "\n- "), strings.Join(craftDescriptions, "\n* ")))
+	log.Printf("### Enchanted Item\n- %s", strings.Join(modDescriptions, "\n- "))
+	return nil
 }
 
-var FUMBLE_MODIFIER = float64(-5)
-
-var fumble = func() error {
-	roll := math.Max(float64(rand.Intn(100))+FUMBLE_MODIFIER, 0)
-	fumbles, err := fetchData("fumble", []Fumble{})
+var shrine = func() error {
+	shrines, err := fetchData("shrine", []Generic{})
 	if err != nil {
 		return err
 	}
-	f := fumbles[int64(roll)]
-	log.Printf("Fumble:\n%s - %s", f.Trigger, f.Effect)
-	return nil
+	s := randSelect(shrines)
+	return discordSend(fmt.Sprintf("### Shrine\n**Shrine of %s:** %s", s.Name, s.Description))
 }
 
 var npc = func() error {
@@ -771,21 +574,6 @@ var affinity = func() error {
 
 var weaponTrait = func() error {
 	log.Printf("Weapon trait: %s", randSelect(WEAPON_TRAITS))
-	return nil
-}
-
-var simulationType = func() error {
-	log.Printf("Simulation type: %s", randSelect(SIMULATION_TYPES))
-	return nil
-}
-
-var orbOfChance = func() error {
-	log.Printf("Chance results: %s", randSelect(CHANCE_RESULTS))
-	return nil
-}
-
-var corruptionOrb = func() error {
-	log.Printf("Corruption results: %s", randSelect(CORRUPTION_RESULTS))
 	return nil
 }
 

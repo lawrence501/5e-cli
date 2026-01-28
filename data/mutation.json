@@ -17,7 +17,7 @@
     {
         "name": "Assassination",
         "target": "powers that make attacks",
-        "description": "The power has +2 critical success range against targets on full HP."
+        "description": "The power has +3 critical success range against targets on full HP."
     },
     {
         "name": "Cruelty",
@@ -82,7 +82,7 @@
     {
         "name": "Stability",
         "target": "powers that hit",
-        "description": "The power deals substantially more damage, but can no longer score critical hits."
+        "description": "The power deals substantially more damage, but can no longer score critical successs."
     },
     {
         "name": "Preparation",
@@ -167,7 +167,7 @@
     {
         "name": "Keen Splashing",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, it splashes a substantial amount of damage."
+        "description": "Whenever the power scores a critical success, it splashes a substantial amount of damage."
     },
     {
         "name": "Cruel Execution",
@@ -197,7 +197,7 @@
     {
         "name": "Upheaval",
         "target": "powers that make attacks",
-        "description": "Whenever the power scores a standard+ success, the ground in a 5' radius around the target becomes difficult terrain that only affects foes for the remainder of combat."
+        "description": "Whenever the power scores a standard or higher success, the ground in a 5' radius around the target becomes difficult terrain that only affects foes for the remainder of combat."
     },
     {
         "name": "Cruel Power",
@@ -237,7 +237,7 @@
     {
         "name": "Pinning",
         "target": "powers that make attacks",
-        "description": "Whenever the power scores a major success, the target becomes rooted for 1 round."
+        "description": "Whenever the power scores a major success, the target becomes grappled by you for the remainder of combat."
     },
     {
         "name": "Enduring Command",
@@ -347,7 +347,7 @@
     {
         "name": "Keen Eruption",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, energy erupts from the target, causing substantial $dmgType harm to all of your foes adjacent to the target."
+        "description": "Whenever the power scores a critical success, energy erupts from the target, causing substantial $dmgType harm to all of your foes adjacent to the target."
     },
     {
         "name": "Decaying Assassination",
@@ -387,12 +387,12 @@
     {
         "name": "Keen Frailty",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, the target gets slightly reduced resistance for 1 round."
+        "description": "Whenever the power scores a critical success, the target gets slightly reduced resistance for 1 round."
     },
     {
         "name": "Keen Volatility",
         "target": "powers that hit",
-        "description": "The power has -1 critical hit range, but massively, massively increased critical damage bonus."
+        "description": "The power has -1 critical success range, but massively, massively increased critical damage bonus."
     },
     {
         "name": "Necromantic Respect",
@@ -457,7 +457,7 @@
     {
         "name": "Keen Destruction",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, the target is dazed for 1 round. Additionally, the power has massively more critical damage bonus."
+        "description": "Whenever the power scores a critical success, the target is dazed for 1 round. Additionally, the power has massively more critical damage bonus."
     },
     {
         "name": "Explosive Execution",
@@ -497,17 +497,17 @@
     {
         "name": "Leeching",
         "target": "powers that make attacks",
-        "description": "Whenever the power scores a standard+ success, you heal HP."
+        "description": "Whenever the power scores a standard or higher success, you heal HP."
     },
     {
-        "name": "Slowing",
+        "name": "Mud",
         "target": "powers that make attacks",
-        "description": "Whenever the power scores a standard+ success, the target becomes sluggish for 1 round."
+        "description": "Whenever the power scores a standard or higher success, the target becomes sluggish for 1 round."
     },
     {
         "name": "Flaring",
         "target": "powers that make attacks",
-        "description": "Whenever the power scores a standard+ success, roll to see if your crystal flares."
+        "description": "Whenever the power scores a standard or higher success, roll to see if your crystal flares."
     },
     {
         "name": "Momentum",
@@ -522,7 +522,7 @@
     {
         "name": "Eruption",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, you may expend a 1st-level spell slot or 1 exertion to cause massive $dmgType harm to all foes adjacent to you."
+        "description": "Whenever the power scores a critical success, you may expend a 1st-level spell slot or 1 exertion to cause massive $dmgType harm to all foes adjacent to you."
     },
     {
         "name": "Hasty Command",
@@ -547,7 +547,7 @@
     {
         "name": "Replenishment",
         "target": "powers that make attacks",
-        "description": "Whenever the power scores a standard+ success, you recover 1 spell slot level or 1 exertion."
+        "description": "Whenever the power scores a standard or higher success, you recover 1 spell slot level or 1 exertion."
     },
     {
         "name": "Executing Thievery",
@@ -687,7 +687,7 @@
     {
         "name": "Keen Exposure",
         "target": "powers that hit",
-        "description": "Whenever the power scores a critical hit, the target gets reduced $dmgType resistance for 1 round."
+        "description": "Whenever the power scores a critical success, the target gets reduced $dmgType resistance for 1 round."
     },
     {
         "name": "Persistent Cruelty",
@@ -721,7 +721,7 @@
     },
     {
         "name": "Sacrificial Power",
-        "target": "powers that hit",
+        "target": "powers that deal damage",
         "description": "Whenever you use the power, you lose HP, but the power deals a substantial amount of additional $dmgType damage."
     },
     {

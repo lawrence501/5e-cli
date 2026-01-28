@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Scourging",
+        "description": "Add a random negative affix with an Affinity of your choice, then the same points (multiplied by -1) are added to another affix of your choice. If there are not enough points to upgrade any other affixes, instead add a new random affix with a minimum point value equal to the points to add."
+    },
+    {
+        "name": "Tweaking",
+        "description": "Reroll an affix of your choice, using the original affix's point value as the new one's minimum"
+    },
+    {
+        "name": "Empowerment",
+        "description": "Add 1 point to a random affix. If no affixes can be upgraded in this way, instead add a new random affix with a minimum point value equal to the points to add."
+    },
+    {
+        "name": "Enhancement",
+        "description": "Add a random affix"
+    },
+    {
+        "name": "Optimisation",
+        "description": "Add a random affix of the same Affinity as a random one of the highest-point affixes on the item."
+    },
+    {
+        "name": "Purification",
+        "description": "Remove all lowest-point-value affixes from the item and give all removed points to a random remaining affix. If there is no remaining affix, or there are not enough points to upgrade any remaining affixes, instead add a new random affix with a minimum point value equal to the points removed."
+    },
+    {
+        "name": "Negation",
+        "description": "An affix of your choice has its point value multiplied by -1, then the points lost are granted to another random affix on the item. If there is no remaining affix, or there are not enough points to upgrade any remaining affixes, instead add a new random affix with a minimum point value equal to the points removed."
+    },
+    {
+        "name": "Inspiration",
+        "description": "An affix of your choice is disabled until a random mission (chosen now) is completed by a member of your party. When it is revealed, it is automatically upgraded once."
+    },
+    {
+        "name": "Refinement",
+        "description": "An affix of your choice is rerolled within its Affinity, using the original affix's point value as the new one's minimum."
+    }
+]

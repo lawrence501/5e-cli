@@ -11,7 +11,6 @@ var SUBSTITUTION_MAP = map[string][]string{
 	"$ability":              ABILITIES,
 	"$hitForm":              HIT_FORMS,
 	"$physType":             PHYS_TYPES,
-	"$willAbility":          WILL_ABILITIES,
 	"$weaponHands":          WEAPON_HANDS,
 	"$weaponClass":          WEAPON_CLASSES,
 	"$skill":                SKILLS,

@@ -1,467 +1,1037 @@
 [
     {
-        "theme": "Deafened",
+        "theme": "cloud control",
         "tiers": [
-            "1. Surdus: 2/combat, glyphic action; A creature within 60 feet is deafened for 1 minute as twisted, black roots creep out of their ears.",
-            "2. Creatures deafened by Surdus have -1 physical resistance.",
-            "3. Creatures deafened by Surdus have -1 resistance against armour attacks.",
-            "4. Non-boss creatures deafened by Surdus deal -2 damage.",
-            "5. The next limited power you use after using Surdus deals +6 damage.",
-            "6. If you use Surdus on a creature already deafened by Surdus, a Medium, untargetable spire of twisted, black fibre grows from the ground in an unoccupied space adjacent to the creature for 1 minute. Foes within 60 feet of the spire are deafened by Surdus.",
-            "7. If you use Surdus on a creature already deafened by Surdus, the bonus numeric effects of Surdus from this glyph path are tripled for that target.",
-            "8. When you use Surdus, you may consume an additional use of it (if available) to force the target to make a save, becoming dominated until the end of its next turn on a fail.",
-            "9. Creatures deafened by Surdus have -4 physical resistance if you have used a limited power since the start of your last turn.",
-            "10. When you use Surdus on a bloodied target, it has -2 physical resistance while deafened by Surdus."
+            "1. Cloudfeet: You may hover 1 foot off the ground, but may not move horizontally while doing so. This grants you immunity to fall damage.",
+            "2. Silvered Camouflage: While inside fog, mist, or smoke, you gain an expertise die on Stealth checks.",
+            "3. Rolling Mist: You can cast Fog Cloud once per short rest for free. As a free action on each of your turns, you can move the centre of your Fog Clouds up to 30 feet.",
+            "4. Eye of the Storm: While outdoors, you gain 50% resistance to cold damage and can breathe normally in any mist, fog, or smoke. Additionally, attacks that can frighten have advantage against creatures of your choice within your Fog Clouds.",
+            "5. Windborne Hover: Your Cloudfeet hover height increases to 3 feet, and you can move horizontally at half your speed while hovering. You ignore difficult terrain while doing so.",
+            "6. Cloudstride: Mist, fog, and clouds become solid underfoot. You can move across and through them, both horizontally and vertically (stepping through them like stairs) and may end your movement standing upon them, as if they were firm ground.",
+            "7. Deepening Veil: Rolling Mist can now be used once per minute (or refreshing upon rolling initiative). Additionally, creatures of your choice that start their turns within your Fog Clouds are sluggish until the start of their next turn.",
+            "8. Cloudborne Flow: While moving through mist, fog, and clouds, you can move at half speed through the spaces of foes, and you do not provoke opportunity attacks.",
+            "9. Tempest Manifest: Once per long rest, upon rolling for initiative, you can shapeshift into a roaring storm cloud for the remainder of combat. In this form, you gain 60' of fly speed, always count as being within a cloud, and gain immunity to physical damage. Additionally, you project a 10' persistent zone from you that causes 1d8 lightning harm to foes.",
+            "10. Sovereign of Clouds: You gain immunity to lightning and thunder damage, and allies within 30' of you gain 50% resistance to lightning and thunder damage."
         ]
     },
     {
-        "theme": "Cone Area",
+        "theme": "drawing power from the ethereal plane",
         "tiers": [
-            "1. Pyramis: 1/SR, glyphic action; You tear a microscopic hole in reality, unleashing an eruption of energy in a 30 foot cone that deals 3 glyphic damage.",
-            "2. Pyramis' base damage becomes 6.",
-            "3. Pyramis can now be used once per combat, but after the first time it is used between short rests, it does 1 less damage.",
-            "4. Pyramis' base damage becomes 8 and its cone size increases to 60 feet.",
-            "5. Pyramis now only damages foes.",
-            "6. After using Pyramis, you immediately teleport to any space in the furthest row of its area.",
-            "7. After using Pyramis, its effect repeats in the same area at the start of your next turn. Additionally, its base damage becomes 9.",
-            "8. When you use Pyramis, you recover either 2 spell slot levels or 2 exertion. Additionally, its base damage becomes 10.",
-            "9. Whenever Pyramis repeats, roll a d4. On a 4, the repeat's damage is doubled.",
-            "10. Whenever Pyramis' repeat's damage is doubled, quadruple it instead."
+            "1. Ethereal Glimmer: You gain advantage on Perception checks made in dim light or darkness. Additionally, you can perceive creatures and objects on the Ethereal Plane within 5 feet of you as faint, translucent outlines.",
+            "2. Spectral Footfalls: You gain advantage on Stealth checks while in dim light or darkness.",
+            "3. Planar Step: You can cast Misty Step once per short rest for free.",
+            "4. Phantom Sense: You can see invisible creatures and objects within 10 feet of you, though they appear as indistinct, wavering shapes.",
+            "5. Ghostly Strike: Your damaging attacks deal 1d4 additional force damage as ethereal energy lashes from them.",
+            "6. Phantom Form: You can move at half speed through foes and objects. If you end your turn inside a creature or object, you are shunted to the nearest unoccupied space and suffer force harm equal to double your level.",
+            "7. Spectral Shroud: You gain 50% resistance to physical damage.",
+            "8. Ethereal Reach: Your attacks ignore half and three-quarters cover.",
+            "9. Ethereal Sovereignty: You gain 60' of truesight and immunity to physical damage. While you are conscious, creatures have disadvantage on armour attack rolls against you.",
+            "10. Ethereal Ascendance: You cease to age and gain immunity to disease, poison damage, poison harm, and the poisoned condition. Additionally, once per long rest, when you are reduced to 0 HP, you may choose to automatically succeed your death save and instantly shift to the Ethereal Plane for 1 minute, returning to the Material Plane afterwards with 1 HP."
         ]
     },
     {
-        "theme": "Melee",
+        "theme": "crafting things from your essence",
         "tiers": [
-            "1. Concursus: 1/combat, glyphic action; A prismatic spike of chaotic power erupts from your body towards a creature adjacent to you, dealing 6 glyphic damage to it.",
-            "2. Concursus' base damage becomes 12.",
-            "3. When you use Concursus, the target must make a save, becoming staggered for 1 round on a fail. Additionally, its base damage becomes 13.",
-            "4. When you use Concursus, the target takes 3 ongoing glyphic damage, stacking until it passes a passive save (this scales with all glyphic damage bonuses).",
-            "5. Concursus deals +7 damage against targets with any resistances or immunities.",
-            "6. Creatures have a -1 penalty to any saves they make against Concursus' effects. Additionally, its base damage becomes 15.",
-            "7. Concursus splashes 2 damage and creatures have a -1 penalty to passive saves to end Concursus' ongoing damage.",
-            "8. When you use Concursus, the target must make a save, becoming slowed for 1 round on a fail. Additionally, creatures have a -1 penalty to saves against Concursus' stagger. Additionally, its base damage becomes 16.",
-            "9. Concursus can now be used twice per combat. Additionally, its base damage becomes 18.",
-            "10. Concursus deals +3 damage for each condition or instance of ongoing damage inflicted by itself that the target is currently affected by."
+            "1. Essence Loom: Once per short rest, you can use an action to create a mundane object of your choice (anything you could purchase from a general adventuring store) made of your essence. The object lasts until destroyed, you dismiss it as a free action, or you use this power again. Objects created with this power have no retail value.",
+            "2. Essence Mending: Your Essence Loom objects last until you complete a long rest instead of until your next use of the power. Additionally, you can cast the Mending cantrip at-will.",
+            "3. Echoed Toolkit: You can now create tools with your Essence Loom. These tools can be used for one relevant skill check, adding an expertise die to the check.",
+            "4. Essence Echo: Whenever you create an object with Essence Loom, you may also create a temporary duplicate. The duplicate exists for 1 minute before vanishing.",
+            "5. Soulforged Armament: As an action, you can create a weapon that grants its wielder +1 AB and damage with weapon attacks, or a shield that grants its wielder +1 armour, made of pure essence. The item lasts until you dismiss it as a free action or you create a new one.",
+            "6. Essence Fauna: Once per long rest, you can cast Conjure Woodland Beings for free. The creatures summoned appear as translucent, ephemeral creatures woven from your life force.",
+            "7. Soulbound Resonance: Your Soulforged Armament's bonuses increase to +2.",
+            "8. Essence Companion: Once per long rest, as an action, you can create an Essence Homunculus, a CR 1/4 construct minion that deals force damage. It requires your concentration, but your concentration on it cannot be broken against your will.",
+            "9. Soulforged Masterwork: Your Soulforged Armament's bonuses increase to +3. Additionally, you can now have two Soulforged Armaments active at once.",
+            "10. Essence Artifice: Upon gaining this tier, you immediately gain 3 white (colour tier 5) loot rolls."
         ]
     },
     {
-        "theme": "Restrained",
+        "theme": "being empowered by electromagnetic energy",
         "tiers": [
-            "1. Cohibere: 2/combat, glyphic action; A tentacle emerges from beneath your equipment, attempting to wrap around a creature adjacent to you. The creature must make a save, becoming restrained for 1 round, or until you move away from them, on a fail.",
-            "2. Whenever you restrain a creature with Cohibere, gain +2 reflex for 1 round.",
-            "3. Whenever you restrain a creature with Cohibere, the creature takes 2 ongoing glyphic damage, stacking until it passes a passive save (this scales with all glyphic damage bonuses). Additionally, when the restrain ends, you gain +10' speed for 1 round.",
-            "4. You may use as many uses of Cohibere as you wish within the one glyphic action.",
-            "5. Creatures restrained by Cohibere have -2 resistance to armour attacks. This is increased to -4 if you've used a limited power since the start of your last turn.",
-            "6. Whenever Cohibere's restrain ends on a creature, that creature has -4 resistance to armour attacks for 1 round.",
-            "7. Whenever you are hit while restraining a creature with Cohibere, all Cohibere restrains immediately end and you erupt in glyphic power, dealing 9 glyphic damage to all foes adjacent to you for each restrain that ended.",
-            "8. Whenever you use Cohibere, its glyphic action is refunded. Additionally, whenever Cohibere's restrain ends, gain 5 temporary HP.",
-            "9. Upon using a limited power that targets a single adjacent creature, you may choose to immediately use Cohibere on that creature as a free action without expending any of its uses.",
-            "10. The explosion when you are hit while restraining a creature with Cohibere deals +2 damage and has +5' radius for each complete turn that the restrain was active for."
+            "1. Residual Static: You gain an expertise die on finesse checks. Additionally, while moving you shed 5' of bright light as blue sparks flicker over your skin.",
+            "2. Magnetic Cling: You gain advantage on Athletics and Brawn checks made to hold onto or climb metal objects and structures.",
+            "3. Shocking Palm: You can cast the Shocking Grasp cantrip at will, governing it with any ability.",
+            "4. Lightning Ward: You gain 50% resistance to lightning damage.",
+            "5. Conductive Strike: You deal 1d4 additional lightning damage with melee attacks.",
+            "6. Thunderlash Reflection: Whenever an adjacent creature hits you with an armour attack, it suffers thunder harm equal to your proficiency bonus.",
+            "7. Storm Conduit: Whenever you roll lightning or thunder damage dice, you can reroll 1 results once.",
+            "8. Static Field: Whenever your turn ends, adjacent foes suffer lightning harm equal to half your proficiency bonus.",
+            "9. Storm's Zenith: Your Storm Conduit now changes 1 results into the die's maximum result instead of rerolling them.",
+            "10. Electromagnetic Maelstrom: Once per long rest, upon rolling for initiative, you can shapeshift into a whirling storm of electromagnetism for the remainder of combat. In this form, you gain fly speed equal to your Speed, gain immunity to lightning and thunder damage, and can move through creatures and objects as if they were difficult terrain, taking 1d10 force damage if you end your turn inside an object. Additionally, you project a 15' persistent zone from you that causes 2d8 lightning and thunder harm to foes."
         ]
     },
     {
-        "theme": "Armour Buff",
+        "theme": "taking a cubic form",
         "tiers": [
-            "1. Fortificare: 1/combat, glyphic action; You manifest a floating suit of armour made from tiny castle walls and structures that orbits a creature within 60' of you for 1 round. This grants them +1 armour.",
-            "2. Creatures affected by Fortificare deal +3 damage.",
-            "3. Creatures affected by Fortificare deal +3 damage.",
-            "4. Fortificare can now be used twice per combat.",
-            "5. The damaging attacks of creatures affected by Fortificare deal +1d4 bludgeoning damage.",
-            "6. Whenever a creature affected by Fortificare hits with an attack, they inflict 3 ongoing glyphic damage, stacking until the target passes a passive save (this scales with all glyphic damage bonuses).",
-            "7. The damaging attacks of creatures affected by Fortificare now scale with minion damage stats, in addition to their usual scaling. Additionally, those same creatures have +3 minion damage.",
-            "8. Creatures affected by Fortificare have +13 critical damage bonus.",
-            "9. While a creature has an active instance of ongoing damage caused by Fortificare, they deal +2 damage.",
-            "10. When a creature affected by Fortificare scores a critical hit, the Fortificare on them lasts until the end of combat."
+            "1. Squared Stance: Whenever you would be moved against your will or knocked prone by a fortitude or reflex attack while you are standing on the ground, make a save, ignoring the effect on a success.",
+            "2. Flattened Slip: Once per short rest, as a free action, you can shapeshift into a 2-foot cube until you revert as a free action. While shapeshifted in this way, you gain advantage on Stealth checks to hide in tight or narrow spaces. You cannot make attacks, use maneuvers, or cast spells while in this form.",
+            "3. Edges of Impact: Whenever a creature hits you with a melee armour attack while you are standing on the ground it suffers 1d6 bludgeoning harm from your jarring angular rebound.",
+            "4. Hardened Corners: Your angular points thicken with resilient cartilage, granting you +1 armour vs melee attacks.",
+            "5. Cube Form: Once per short rest, upon rolling for intiative, you can shapeshift into a cube of size based on your size category for the remainder of combat. In this form, you gain 2 armour and advantage on Strength checks. Additionally, Fortitude attacks against you have disadvantage.",
+            "6. Rolling Assault: While in Cube Form, you can use a free action once per round to propel yourself in a straight line up to 30 feet. If you collide with a creature, it suffers 2d8 bludgeoning harm.",
+            "7. Facet Expansion: Whenever you shapeshift into your Cube Form, you can choose to become a cube one size larger. If you do so, Rolling Assault's damage is doubled.",
+            "8. Robust Facet: Your Rolling Assault's bludgeoning harm increases to 3d8.",
+            "9. Quantum Cuboid: Once per long rest while in Cube Form, when you would be hit by an attack, you can shift 5' to reduce the attack's success tier by 1.",
+            "10. Transcendent Cube: While in your Cube Form, your Speed is replaced with 60' of teleportation. Your line of sight for this teleportation ignores three quarters cover."
         ]
     },
     {
-        "theme": "Fortitude Buff",
+        "theme": "creating cocoons",
         "tiers": [
-            "1. Tolerare: 2/combat, glyphic action; You cause a creature within 60' of you to swell with muscle and flesh for 1 round, granting them +1 fortitude.",
-            "2. Creatures affected by Tolerare have +5 critical damage bonus and +5' Speed.",
-            "3. Whenever a creature affected by Tolerare hits with an attack, they inflict 2 ongoing glyphic damage, stacking until the target passes a passive save (this scales with all glyphic damage bonuses).",
-            "4. Creatures affected by Tolerare deal +2 damage.",
-            "5. Creatures affected by Tolerare deal +2 damage.",
-            "6. Whenever you use Tolerare, its glyphic action is refunded.",
-            "7. If a creature's fortitude is its highest defence while affected by Tolerare, it gains +5 resistance against fortitude attacks.",
-            "8. Creatures affected by Tolerare have +5 resistance against fortitude attacks.",
-            "9. Creatures affected by Tolerare have +7 critical damage bonus and recover 7 HP whenever the score a critical hit.",
-            "10. Creatures affected by Tolerare deal +3 damage."
+            "1. Silken Strand: As a bonus action, you can conjure a 5-foot length of silken fiber. It can be used as rope.",
+            "2. Resilient Weave: Whenever you complete a rest, a thin, silken cocoon extends over your body, granting you temporary hit points equal to your level.",
+            "3. Protective Cocoon: Once per short rest, when you or a creature within 10' of you is targeted by an armour attack, you can reduce the attack's success tier by 1.",
+            "4. Ethereal Fibres: Whenever you use Protective Cocoon, the target also gains 50% resistance to your choice of one of the triggering attack's base damage types for 1 round. Additionally, you can now use Protective Cocoon twice per short rest.",
+            "5. Hardened Chrysalis: Protective Cocoon also reduces the success tiers of other incoming armour attacks for 1 round, and whenever the cocooned creature would be frightened or charmed, they make a save, ignoring the condition on a success.",
+            "6. Regenerative Shell: At the end of each of your turns in combat, all creatures inside any of your cocoons heal hit points equal to 1d8 + your proficiency bonus.",
+            "7. Living Cocoon: Once per long rest, as a free action, you envelop an adjacent willing creature within a translucent cocoon. The creature gains total cover from outside the cocoon. The cocoon lasts for 1 round, and any healing received from Regenerative Shell is doubled in it.",
+            "8. Metamorphic Enclosure: When your Living Cocoon ends, the freed creature chooses one: immediately shift up to half its speed, or gain advantage on its next attack.",
+            "9. Transcendant Shroud: Creatures inside your Living Cocoon that are healed by Regenerative Shell are immediately cured of any diseases or poisons. Additionally, you can now use Living Cocoon twice per long rest.",
+            "10. Cocoon of the First Dawn: Once per long rest, you can spend 10 minutes creating a 30'x30' cocoon. All creatures inside the cocoon when it is created are healed for a total of 100 hit points that you can allocate freely, are cured of one condition each, and for the next hour, count as being inside one of your cocoons and reduce the success tier of all incoming armour attacks by 1. After being created and granting its effects instantaneously to the creatures inside it, the cocoon is destroyed."
         ]
     },
     {
-        "theme": "Reflex Buff",
+        "theme": "fighting with a vacuum blade",
         "tiers": [
-            "1. Velox: 2/combat, glyphic action; You conjure a small storm that whips around a creature within 60' of you, granting them +1 reflex for 1 round.",
-            "2. Creatures affected by Velox have +1 reflex.",
-            "3. Velox now also affects all allies adjacent to the target.",
-            "4. Whenever a creature affected by Velox is targeted by a reflex attack, Velox lasts on it until the end of combat.",
-            "5. Whenever Velox ends on a creature, they release a wave of water around them that deals 5 glyphic damage to all adjacent foes.",
-            "6. Whenever Velox ends on a creature, they release a 5'x5' twister centred on their space. The twister is a persistent zone that deals 3 glyphic damage to foes.",
-            "7. Creatures affected by Velox have +3 resistance against reflex attacks for each instance of Velox they have been affected by this combat.",
-            "8. For each round of the current combat that passes without you using Velox, your next use of Velox this combat will trigger that number of additional times, which still cost additional uses of the power.",
-            "9. While at least 2 creatures are affected by Velox, a bolt of lightning strikes a random foe adjacent to a creature affected by Velox at the start of each of your turns, dealing 9 glyphic damage.",
-            "10. Bolts of lightning can now be triggered by Velox while at least only 1 creature is affected by Velox."
+            "1. Vacuum Edge: As an action, you can call into your main hand a knife with a blade comprised of a vacuum, so long as you aren't wielding anything else there. The Vacuum Edge is a martial melee weapon of the knife category that you have proficiency in. It deals 1d4 + STR/DEX force damage and has the Fatal and Thrown (20'/60') traits. Additionally, you have +1 weapon AB while wielding it.",
+            "2. Anti-Flame Siphon: Whenever you hit with your Vacuum Edge, all non-magical flames adjacent to the target are extinguished as the area is briefly robbed of oxygen.",
+            "3. Absolute Emptiness: Whenever you score a killing blow with your Vacuum Edge, the target disintegrates into nothingness. Its soul does not pass to the afterlife.",
+            "4. Void Resonance: Whenever you score a critical success with your Vacuum Edge, the target makes a save, becoming debilitated for 1 round on a fail.",
+            "5. Kinetic Reach: While wielding your Vacuum Edge, your weapon reach increases by 5'.",
+            "6. Silent Slice: Attacking with your Vacuum Edge doesn't reveal you while you are hidden, except to the creature you attacked.",
+            "7. Pressure Deepening: Whenever you hit the same creature with Vacuum Edge for 3 of your turns in a row, the 3rd hit deals 2d6 additional force damage.",
+            "8. Siphoning Slash: Whenever you hit with your Vacuum Edge, you heal hit points equal to half the damage dealt (rounded up).",
+            "9. Inexorable Pull: Your fortitude, reflex, and will attacks have advantage against creatures within 10' of you while you are wielding your Vacuum Edge.",
+            "10. Singularity Slash: Once per long rest, as a free action while wielding your Vacuum Edge, you can form a 60' line of nothingness, causing 7d8 force harm to all creatures within it. Creatures killed by this harm count as being killed by your Vacuum Edge."
         ]
     },
     {
-        "theme": "Will Buff",
+        "theme": "utilising chemistry in combat",
         "tiers": [
-            "1. Voluntas: 2/combat, glyphic action; You invoke a surge of awesome confidence in a creature within 60' of you, granting them +1 will for 1 round.",
-            "2. Voluntas now also affects all allies adjacent to the target.",
-            "3. Whenever you use Voluntas, all foes adjacent to the target are pushed 10' away from them.",
-            "4. Creatures affected by Voluntas have +2 resistance.",
-            "5. Whenever you use Voluntas, all foes adjacent to the target deal -2 damage for 1 round.",
-            "6. Whenever you use Voluntas, all foes adjacent to the target must make a save, becoming staggered for 1 round on a fail.",
-            "7. Whenever you use Voluntas, the target is healed for 2 HP, or 5 HP if they are bloodied.",
-            "8. Whenever you use Voluntas, all foes adjacent to the target take 3 ongoing glyphic damage, stacking until they pass a passive save (this scales with all glyphic damage bonuses).",
-            "9. Creatures staggered by Voluntas have -2 resistance.",
-            "10. Whenever you use Voluntas, the next limited power the target uses deals +7 damage."
+            "1. Quick-Mix Instincts: Your first melee attack of each combat deals 1d4 additional poison damage.",
+            "2. Minor Tincture Infusion: Your melee attacks deal 1d4 additional acid damage.",
+            "3. Potent Catalyst: Your Minor Tincture Infusion dice are increased to d6s. Additionally, whenever you score a critical success with a melee attack, the target suffers acid harm at the start of its next turn equal to your proficiency bonus.",
+            "4. Volatile Throw: As a free action, you can throw an alchemical bomb up to 30', which explodes in a 5' radius. All creatures within the area suffer 1d4 acid harm.",
+            "5. Combustion: Your Volatile Throw bombs now cause acid and fire harm.",
+            "6. Viscous Countermeasure: The first time each round you are hit by an adjacent creature, you can coat yourself in a reactive gel to reduce the attack's success tier by 1 and cause acid harm to the attacker equal to your proficiency bonus.",
+            "7. Osmotic Overdrive: You gain 50% resistance to acid and fire damage. If you already have either, gain immunity instead.",
+            "8. Chain Reaction: Whenever you cause harm with your Volatile Throw, you can expend one additional use of it to have it chain to another location within 10' of the original, causing half the amount of harm.",
+            "9. Perfected Formula: You ignore resistance to acid and fire damage, and the damage dice of your Volatile Throw increase to d20s.",
+            "10. Apotheosis of Alchemy: Whenever your Volatile Throw bombs explode, their areas remain as a persistent zone of lingering vapours for the remainder of combat. The zone causes 2d6 acid harm to creatures and counts as difficult terrain for creatures other than you."
         ]
     },
     {
-        "theme": "Shift Order",
+        "theme": "manifesting a sword from your spirit",
         "tiers": [
-            "1. Motus: 1/SR, glyphic action; You move a willing creature within 60' of you with great speed. They immediately shift up to 10'.",
-            "2. When the target of Motus moves out of the reach of a creature of your choice, that creature takes 4 ongoing glyphic damage, stacking until they pass a passive save (this scales with all glyphic damage bonuses).",
-            "3. When the target of Motus moves out of the reach of a creature of your choice, that creature takes 7 glyphic damage.",
-            "4. All damage dealt by Motus is increased by 2, and whenever Motus deals non-ongoing damage, the target of Motus heals 2 HP.",
-            "5. Whenever you use Motus on a creature, that creature gains +15' speed for 1 round.",
-            "6. The non-ongoing damage dealt by Motus is increased by 7 against targets taking ongoing damage.",
-            "7. If the target of Motus moves out of the reach of a creature of your choice, the maximum shift distance increases by 15'.",
-            "8. Whenever you use Motus on a creature, that creature deals +8 damage with their next limited power.",
-            "9. When the target of Motus moves out of the reach of a creature of your choice, leave a Shadow of that creature in the space they left. This Shadow acts like a CR 1/4 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
-            "10. The the target of Motus moves out of the reach of a creature of your choice, the maximum shift distance increases by 15'."
+            "1. Spectral Sword: As an action, you can call into your main hand a ghostly sword formed from your spirit, so long as you aren't wielding anything else there. The Spectral Sword is a martial melee weapon of the sword category that you have proficiency in. It deals 1d8 + STR/DEX psychic damage and has the Deadly, Responsive, and Scaling (+1) traits.",
+            "2. Phantom Weapon: Your Spectral Sword's base damage ignores resistance and immunity.",
+            "3. Ghostly Spin: You gain +1 weapon AB while wielding your Spectral Sword.",
+            "4. Focused Spirit: You add your proficiency bonus to the damage of your Spectral Sword.",
+            "5. Twin Phantoms: If your offhand is free when you conjure your Spectral Sword, you also summon a second Spectral Sword in your offhand. It increases the damage die size of your main hand Spectral Sword to 1d12 and increases its Scaling trait to +3.",
+            "6. Ethereal Cleave: Whenever you hit a creature with your Spectral Sword, you may cause psychic harm equal to half the damage dealt to another creature adjacent to the target.",
+            "7. Unfading Edge: Your Ghostly Spin now grants +4 weapon AB and +3 weapon damage while wielding your Spectral Sword.",
+            "8. Ward of the Blade: You gain 50% physical resistance while wielding your Spectral Sword.",
+            "9. Soulforged Mastery: Whenever you deal psychic damage with your Spectral Sword, you heal HP equal to half the psychic damage dealt.",
+            "10. Manifest Heartcleaver: Once per long rest, as a free action while holding two Spectral Swords, you can transform them into the Heartcleaver for the next hour. The Heartcleaver is a martial melee weapon of the sword category that you have proficiency in. It deals 3d6 psychic damage + 1d8 radiant damage + STR/DEX and has the Deadly, Responsive, Two-Handed, and Scaling (+11) traits. It counts as a Spectral Sword for the purposes of this glyph path's other features."
         ]
     },
     {
-        "theme": "Swap Spaces",
+        "theme": "controlling petrifying energy",
         "tiers": [
-            "1. Verto: 1/SR, glyphic action; You forcibly tear open the material plane, swapping spaces with a creature within 10' of you.",
-            "2. Whenever you swap spaces with Verto, you may deal 6 glyphic damage to the other creature.",
-            "3. Verto's range becomes 20'.",
-            "4. At the start of your next turn after using Verto, you may choose to swap with the same creature again, so long as they are still within Verto's range. If the creature is dead, you may instead swap with any other creature within range.",
-            "5. At the start of your turn two rounds after using Verto, you may choose to swap with the same creature again, regardless of range.",
-            "6. Whenever you swap spaces with Verto, you may inflict 3 ongoing glyphic damage to the other creature, stacking until they pass a passive save (this damage scales with all glyphic damage bonuses).",
-            "7. Verto's cooldown becomes 1/combat and its base damage on swap becomes 7.",
-            "8. Whenever you swap spaces with Verto, you may give the other creature -20' speed for 1 round.",
-            "9. Whenever you swap spaces with Verto, the other creature becomes Sluggish for the remainder of combat.",
-            "10. Verto's range becomes 25' and all damage it deals is increased by 2."
+            "1. Earthen Resilience: Whenever you would be debilitated, restrained, or staggered by a fortitude attack, make a save, ignoring the condition on a success.",
+            "2. Glimmer of Stone: Your melee attacks ignore resistance and immunity.",
+            "3. Elemental Stoneskin: You gain 50% resistance to poison damage and whenever you would be poisoned, make a save, ignoring the condition on a success.",
+            "4. Petrifying Aura: You radiate a 5' aura of petrifying energy. Foes within the aura have -5' Speed.",
+            "5. Granite Carapace: Your skin and bones harden, granting you +1 armour. Additionally, you gain +5 physical resistance.",
+            "6. Stone's Refuge: You gain 50% resistance to physical damage.",
+            "7. Natural Stone Form: Once per long rest, when you would be reduced to 0 HP, you may instead drop to 1 HP and become incapacitated and immune to damage and harm for 1 round.",
+            "8. Aura of Stonelike Might: Your Petrifying Aura's range increases to 10', and foes within it have -1 AB and -1 to ability checks.",
+            "9. Flesh to Stone: Once per long rest, you can cast Investiture of Stone.",
+            "10. Avatar of Petrified Majesty: You gain +60' of truesight, and all of your damage and harm is always non-lethal as you temporarily petrify your targets instead of killing them."
         ]
     },
     {
-        "theme": "Save Buff",
+        "theme": "becoming a vessel for an eldritch being",
         "tiers": [
-            "1. Salvare: 1/combat, glyphic action; You surround a creature within 60' of you with a faint glow for 1 round, absorbing some of the negative energy around them. This grants the target +1 to saves.",
-            "2. Salvare now lasts for the remainder of combat.",
-            "3. Attacks that can inflict the frightened condition have -1 AB against creatures affected by Salvare. Additionally, those creatures have +1 resistance to will attacks.",
-            "4. Creatures affected by Salvare have +3 resistance to non-armour attacks.",
-            "5. From the second round of Salvare's effect and onwards, the target has +1 physical resistance and +1 resistance.",
-            "6. As a free action on your turn, you may immediately end Salvare's effect to cause negative energy to erupt from the target's body. All foes adjacent to the target take 15 glyphic damage.",
-            "7. Creatures affected by Salvare have +1 passive regeneration and +1 resistance to non-armour attacks.",
-            "8. If Salvare affects a creature for at least 2 rounds, it retains all resistance bonuses acquired from Salvare until it either takes a short rest or is affected by Salvare again.",
-            "9. The passive regeneration bonus granted by Salvare is increased to +3.",
-            "10. Creatures affected by Salvare cannot lose concentration against their will."
+            "1. Void Touched: You gain +30' of darkvision.",
+            "2. Unsettling Whispers: You can cast the Message cantrip at will.",
+            "3. Shrouded Form: You have advantage on Stealth checks while in dim light or darkness.",
+            "4. Eldritch Fortitude: Whenever you would become charmed or frightened, make a save, ignoring the condition on a success.",
+            "5. Void Ward: Once per short rest, upon failing a save, you may roll a d6 and add its result to the save.",
+            "6. Tendrils of the Void: Your damaging attacks deal additional necrotic damage equal to your proficiency bonus.",
+            "7. Cosmic Resilience: You gain 50% resistance to psychic damage. Additionally, while in dim light or darkness, you gain 50% resistance to all damage.",
+            "8. Aura of the Unknown: Creatures within 10' of you have disadvantage on Perception checks to detect your presence. If you're in dim light or darkness, this aura extends to 20'.",
+            "9. Eyes of Oblivion: You gain an additional +30' of darkvision, and +10' of truesight.",
+            "10. Herald of the Void: Once per long rest, when you roll for initiative, you can shapeshift into the tendrilled form of the creature within you for the remainder of combat. In this form, you gain fly speed equal to your Speed, 50% resistance to all damage except force, and you radiate a 5' persistent zone that causes 3d6 necrotic harm to foes."
         ]
     },
     {
-        "theme": "Critical Hit Range Buff",
+        "theme": "accessing power from your past lives",
         "tiers": [
-            "1. Sonticus: 2/combat, glyphic action; You sharpen the extremeties of a creature within 60' of you for 1 round, granting them +1 critical hit range.",
-            "2. Creatures affected by Sonticus deal +1d10 piercing damage with their critical hits.",
-            "3. Whenever you use Sonticus, the target is healed 4 HP.",
-            "4. Creatures affected by Sonticus have +4 outgoing harm.",
-            "5. Whenever a creature affected by Sonticus scores a critical hit, the target gets -3 physical resistance for 1 round.",
-            "6. Creatures affected by Sonticus have +9 critical damage bonus.",
-            "7. Sonticus' critical hit range bonus is increased to +2, and its critical damage bonus is increased to +11.",
-            "8. Whenever you use Sonticus, create a Shadow of the target in an unoccupied space adjacent to them. This Shadow acts like a CR 1/8 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
-            "9. Whenever you use Sonticus, the target regains either 2 spell slot levels or 2 exertion.",
-            "10. After a creature affected by Sonticus makes a damaging attack while there is a living Shadow of them, they may immediately kill the shadow to grant that attack +2 critical hit range and +3 critical damage bonus."
+            "1. Faint Memory: Gain proficiency in one skill of your choice.",
+            "2. Reincarnation's Boon: Once per long rest, upon being reduced to 0 HP, you may cast Skill Empowerment on yourself, boosting your Faint Memory skill.",
+            "3. Lingering Echo: Once per short rest, you may reroll a failed ability check or save. You must use the new roll.",
+            "4. Residual Expertise: Gain an expertise die in your Faint Memory skill.",
+            "5. Past Whispers: You learn one cantrip from the Wizard spell list that you can cast at will, governing it with any ability.",
+            "6. Ancestral Recall: Once per short rest, you can add a d8 to any ability check, attack roll, or save. You do this after the roll is made, but before the outcome is determined.",
+            "7. Echoing Endurance: Once per long rest, when you would be reduced to 0 HP, you may instead remain at 1 HP.",
+            "8. Soulbound Talent: Whenever you cast your Past Whispers cantrip, treat it as if your level were 5 higher. If it deals damage, you also add your proficiency bonus to its damage. Addiionally, if you wish, you may immediately change your Past Whispers cantrip.",
+            "9. Past Life Resurgence: Once per long rest, when you roll for initiative, you can call upon an echo of a former self until the remainder of combat. During this time, you gain +1 to all defences.",
+            "10. Eternal Echoes: All features from this glyph path that recharge on a short or long rest now also recharge at the start of each round in combat. Additionally, whenever you use Past Life Resurgence, you may choose an ally within 30' of you to also benefit from its effects."
         ]
     },
     {
-        "theme": "Wall Area",
+        "theme": "dual-wielding bladed weapons",
         "tiers": [
-            "1. Murus: 1/SR, glyphic action; You conjure a 2'-high wall of dark smoke-like gas made up of up to 1 connected space (no diagonal connections), in any arrangement of your choosing, which lasts for the remainder of combat. You must have line of sight to at least one of the wall's spaces, and all spaces must be within 60' of you. The wall is a persistent zone that deals 3 glyphic damage.",
-            "2. The length of Murus is now up to 2 connected spaces.",
-            "3. At the start of each of your turns, you can extend Murus by 1 space.",
-            "4. Creatures inside Murus have -2 damage.",
-            "5. Whenever you use Murus, you may shift up to 10' away from its area.",
-            "6. You deal +2 damage to creatures inside Murus.",
-            "7. Your attacks have +1 critical hit range against targets inside Murus.",
-            "8. Whenever you use Murus, you gain +1 reflex for 1 round and gain 6 temporary HP if you receive a reflex attack during that time.",
-            "9. At the start of each of your turns, a Shadow of you appears in a random unoccupied space of Murus. This Shadow acts like a CR 1 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
-            "10. Whenever you use Murus, remove all conditions from yourself. Additionally, you deal +2 damage to creatures inside Murus."
+            "1. Twin's Harmony: While dual-wielding weapons of the axe, knife, polearm, or sword (Bladed) categories, you gain +1 weapon AB.",
+            "2. Balanced Blade: All one-handed Bladed weapons gain the Offhand (no effect) trait for you. Their other traits have no effect.",
+            "3. Swift Edge: Your weapon critical successs while dual-wielding Bladed weapons deal additional damage equal to your main hand weapon's base damage.",
+            "4. Crosscut: Your weapon major successs while dual-wielding Bladed weapons deal 1d6 additional base damage.",
+            "5. Precision Riposte: While dual-wielding Bladed weapons, you gain +1 weapon critical success range.",
+            "6. Vortex Blade: Whenever you score a weapon major success while dual-wielding Bladed weapons, foes adjacent to you suffer 2d6 slashing harm.",
+            "7. Resolute Strikes: Whenever you score a weapon major success while dual-wielding Bladed weapons, gain an amount of temporary HP equal to your level.",
+            "8. Blade Tempest: Whenever you take the Attack action while dual-wielding Bladed weapons, you may attack two different creatures within your reach, with each attack being reduced by 1 success tier.",
+            "9. Defensive Flourish: While dual-wielding Bladed weapons, gain 50% resistance to slashing damage.",
+            "10. Ever-Dancing Blades: While dual-wielding Bladed weapons, your weapon attacks deal 2d6 additional force damage, as a spectral echo of your Offhand weapon strikes."
         ]
     },
     {
-        "theme": "Charge",
+        "theme": "becoming an isopod",
         "tiers": [
-            "1. Impes: 1/combat, glyphic action; You warp time to rapidly move up to 10' in a straight line and then deal 2 glyphic damage to a creature adjacent to you.",
-            "2. Impes' base damage becomes 8.",
-            "3. Impes' base movement increase to 25'.",
-            "4. Whenever you deal damage with Impes, the target becomes sluggish for 1 round. Additionally, Impes' base damage becomes 10.",
-            "5. Whenever you deal damage with Impes, you also deal 3 ongoing glyphic damage, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses).",
-            "6. Impes' ongoing damage increases to 6.",
-            "7. While a creature is sluggish from Impes, any sluggish it would inflict instead doubles the target's speed. Additionally, Impes' base damage becomes 11.",
-            "8. Whenever you deal damage with Impes, the target makes a save, becoming blinded for 1 round on a fail. Additionally, Impes' base damage becomes 14.",
-            "9. Impes' base damage becomes 20.",
-            "10. Whenever you deal damage with Impes, you and allies adjacent to the target heal 8 HP."
+            "1. Hardened Exoskeleton: While unarmoured, you gain +1 armour.",
+            "2. Moisture Holding: You no longer need to drink water, are immune to dehydration, and are immune to diseases and toxins delivered through water. This reduces the gold cost of each journey day of travel by 1, to a minimum of 0.",
+            "3. Earthbound Awareness: You gain 5' of tremorsense while on the ground.",
+            "4. Acidic Spit: Once per short rest, as a free action, you can spit acid at a creature within 15', causing 1d4 acid harm.",
+            "5. Armoured Plating: Your Hardened Exoskeleton's armour bonus increases to +2.",
+            "6. Regenerative Carapace: Whenever you finish a short rest, you regain HP equal to your level.",
+            "7. Burrow Mastery: You gain burrow speed equal to your Speed. Your burrow speed suffers no resistance from non-magical, unworked earth.",
+            "8. Enhanced Tremorsense: Your Earthbound Awareness' tremorsense increases to 30'. Additionally, you can see through up to 1 foot of stone or earth.",
+            "9. Impenetrable Casing: At the start of each of your turns while on the ground, you may curl up into an armoured ball until you uncurl as a free action. While curled, you gain immunity to physical damage and your speeds are reduced to 0.",
+            "10. Exoskeletal Metamorphosis: Once per long rest, when you roll for initiative, you may shapeshift into a Colossal Isopod for the remainder of combat. In this form, your size increases by 1, your armour increases by 2, you gain 30' of tremorsense, and fortitude attacks have disadvantage against you. However, you cannot cast spells in this form and your weapons are replaced with a Bite attack that deals 2d10 + STR piercing damage and has the Scaling (+7) trait."
         ]
     },
     {
-        "theme": "Trample",
+        "theme": "fighting with rainbows",
         "tiers": [
-            "1. Conculco: 1/LR, glyphic action; You become momentarily incorporeal and ghastly, shifting up to 10'. While shifting in this way, you can pass through the spaces of hostile creatures, but cannot end the movement there. Any creature you passed through must make a save, taking 1 glyphic damage on a fail.",
-            "2. Conculco can now be used 1/SR.",
-            "3. Conculco's base damage becomes 5 and whenever it deals damage, the target must make a save, becoming debilitated for 1 round on a fail.",
-            "4. Whenever Conculco would deal damage, roll a d4. On a 4, the damage is doubled. Additionally, Conculco's base damage becomes 8.",
-            "5. Whenever Conculco deals damage, it deals 3 ongoing glyphic damage, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses). Additionally, whenever Conculco deals damage, the target becomes sluggish for 1 round.",
-            "6. Conculco's maximum shift distance increases to 20'.",
-            "7. Whenever you use Conculco, your next limited power ignores damage resistance and has its area doubled.",
-            "8. Whenever you would use Conculco, you can choose to instead create an incorporeal Spectral Obelisk in an unoccupied space adjacent to you that remains for the remainder of combat, using Conculco at the end of each of your turns. Additionally, Conculco's base damage becomes 9.",
-            "9. Whenever Conculco's damage is doubled, it is tripled instead. Additionally, Conculco's base damage becomes 11.",
-            "10. Whenever you use Conculco to create a Spectral Obelisk, you create two Obelisks instead, in two unoccupied spaces adjacent to you. Additionally, Conculco's base damage becomes 13."
+            "1. Prismalight: You can cast the Light cantrip at will. When you do so, its light rotates through the colours of the rainbow.",
+            "2. Radiant Echo: Once per long rest, after making a damaging attack, you can add 1d4 radiant damage to it.",
+            "3. Chromatic Glow: You gain 50% resistance to radiant damage. If you already have 50% resistance, gain immunity instead.",
+            "4. Prismatic Ray: Once per short rest, as a free action, you can fire a beam of rainbow light at a creature within 60' of you. It causes 1d4 radiant harm, and the target must makes a save. On a fail, it is blinded for 1 round.",
+            "5. Spectrum Push: Whenever you deal radiant damage or cause radiant harm to a creature, you may push the target 5' away from you. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "6. Radiant Retribution: Whenever you are hit by a melee attack, the attacker suffers an amount of radiant harm equal to your proficiency bonus.",
+            "7. Prism Shield: You gain 50% resistance to acid, cold, fire, lightning, and necrotic damage.",
+            "8. Gleaming Ward: Once per short rest, when targeted by an attack, you can reduce its success tier by 1.",
+            "9. Daylight's Favour: You can cast the Daylight spell at will. When you do so, its light rotates through the colours of the rainbow.",
+            "10. Spectrum Sovereign: Whenever you would roll dice for radiant damage or harm, instead treat all dice as having rolled their maximum value."
         ]
     },
     {
-        "theme": "Resistance Buff",
+        "theme": "fighting with nothing but your own body",
         "tiers": [
-            "1. Repugnantia: 1/SR, glyphic action; You surround a creature within 60' of you with a shimmering orb for 1 round, granting it +3 resistance.",
-            "2. Repugnantia can now be used once per combat.",
-            "3. Whenever you use Repugnantia, you recover either 2 spell slot levels or 2 exertion.",
-            "4. Whenever a creature affected by Repugnantia is hit, Repugnantia's cooldown is refreshed.",
-            "5. Whenever a creature affected by Repugnantia is hit, the attacker gets -4 damage for 1 round.",
-            "6. While you are adjacent to a creature affected by Repugnantia, it gains +3 resistance.",
-            "7. Whenever you use Repugnantia, the target heals 6 HP.",
-            "8. You can now target 1 additional creature with Repugnantia that is within 10' of the original target.",
-            "9. Whenever a creature affected by Repugnantia goes down, a Shadow of them is created in an unoccupied space adjacent to them. This Shadow acts like a CR 1 minion, but doesn't require your concentration and only scales with glyphic damage, no other stats.",
-            "10. Whenever Repgunantia heals its target, they also gain 9 temporary HP."
+            "1. Unarmed Proficiency: You gain proficiency with brawling weapons and you gain +1 weapon AB while wielding them. Additionally, their base damage die size is increased by 1 and they gain the Scaling (+1) trait.",
+            "2. Reinforced Strike: You deal +1 unarmed damage.",
+            "3. Shattering Blow: Once per short rest, after hitting with an unarmed attack, you can add 1d4 thunder damage to the attack's damage.",
+            "4. Iron Parry: Once per short rest, when you are targeted by a melee attack, you can reduce its success tier by 1.",
+            "5. Pressure Point: Once per short rest, after hitting with an unarmed attack, you can give the target disadvantage on its next attack roll before the end of its next turn.",
+            "6. Resonant Kick: Once per long rest, as a free action, you can cause 1d4 thunder harm to all adjacent creatures.",
+            "7. Phase Step: Once per short rest, when you hit with an unarmed attack, you may immediately teleport up to 10' to an unoccupied space.",
+            "8. Fist of the Unbroken Storm: Once per long rest, when you roll for initiative, you may channel the storm's fury into your unarmed attacks for the remainder of combat. During this time, you gain +1 unarmed critical success range and your unarmed attacks ignore physical resistance. Additionally, your unarmed attacks deal 2d6 additional thunder damage.",
+            "9. Unbreakable Body: While wielding a brawling weapon, you gain +1 armour and 50% resistance to bludgeoning damage.",
+            "10. Mastery of the Unbound: Your unarmed attacks ignore physical resistance and immunity and deal 2d8 additional force damage. Additionally, you have +2 unarmed critical success range and whenever you score a critical success with an unarmed attack, all foes within 10' of you lose HP equal to half the attack's damage as a shockwave erupts from you."
         ]
     },
     {
-        "theme": "Prone",
+        "theme": "controlling plant roots",
         "tiers": [
-            "1. Cado: 2/combat, glyphic action; An invisible blast of energy erupts from your body towards a creature within 60' of you, knocking it prone.",
-            "2. If you have used Cado this turn, your hits force their targets to make a save, staggering the target for 1 round on a fail.",
-            "3. Whenever you use Cado, you gain 5 temporary HP.",
-            "4. Whenever Cado knocks a creature prone, the target must make a save, becoming staggered for 1 round on a fail.",
-            "5. You can now target 1 additional creature with Cado that is within 5' of the original target.",
-            "6. Whenever Cado knocks a creature prone, you deal 2 ongoing glyphic damage to the target, stacking until it passes a passive save (this damage scales with all glyphic damage bonuses).",
-            "7. Whenever Cado knocks a creature prone, the energy splits into a 15' cone originating from them, aiming in the direction opposite from you. This cone deals 3 glyphic damage to foes.",
-            "8. Whenever a creature knocked prone by Cado stands up, they are immediately knocked prone by Cado. Additionally, creatures knocked prone by Cado have -5' speed.",
-            "9. Cado's ongoing damage becomes 5.",
-            "10. Cado's ongoing damage becomes 8."
+            "1. Druidcraft Bloom: You can cast the Druidcraft cantrip at will. Whenever you use it to manipulate plants, its range is doubled.",
+            "2. Rootstride: You ignore difficult terrain caused by plants.",
+            "3. Thorn Whip Mastery: You can cast the Thorn Whip cantrip at will. Its pull distance increases to 20 feet.",
+            "4. Entangling Roots: Once per long rest, you can cast the Entangle spell.",
+            "5. Root Ward: Once per long rest, when you or an ally within 10 feet of you is hit by an attack, you can cause roots to surge from the ground between attacker and target, reducing the attack's damage by 1d12.",
+            "6. Deepening Roots: Your Root Ward can now be used twice per long rest. Additionally, whenever you cast Entangle with your Entangling Roots, its fortitude attack has advantage.",
+            "7. Ironbark Skin: Allies within 60 feet of you gain the effects of the Barkskin spell.",
+            "8. Master of Roots: Once per long rest, you can cast either Plant Growth or Awaken. When you cast Awaken this way, the awakened plant's maximum HP is increased by 24.",
+            "9. Overgrown Bastion: Once per long rest, you can cast the Wall of Thorns spell.",
+            "10. Earthbound Avatar: Once per long rest, when you roll for initiative, you can merge with the earth for the remainder of combat. While doing this, you gain 60' of tremorsense and +3 armour. You also gain the ability to slam adjacent creatures as a free action, causing 1d4 bludgeoning harm. Finally, once per round when a creature ends its turn within 15' of you, you can teleport to an unoccupied space on solid ground within 30' of that creature."
         ]
     },
     {
-        "theme": "Fatigue",
+        "theme": "manifesting a digital avatar",
         "tiers": [
-            "1. Lassitudo: 1/combat, glyphic action; You sap the energy from a creature within 60' of you, forcing it to make a save. On a fail, it gains a level of fatigue.",
-            "2. Whenever you use Lassitudo during the first round of combat, it no longer requires a save. Additionally, creatures have -1 to their saves against Lassitudo.",
-            "3. Lassitudo inflicts 2 levels of fatigue.",
-            "4. Creatures affected by Lassitudo must make passive saves, gaining an additional level of fatigue and ending the passive saves upon failing one. Additionally, creatures have -1 to their saves against Lassitudo.",
-            "5. Creatures affected by Lassitudo have -1 physical damage and become slowed for 1 round when struck by a major hit.",
-            "6. Lassitudo inflicts 3 levels of fatigue.",
-            "7. Lassitudo now targets 1 additional creature within 10' of the original target.",
-            "8. The additional level of fatigue Lassitudo inflicts on a failed passive save is increased to 2 levels of fatigue.",
-            "9. Creatures have -2 on their saves against Lassitudo, and a further -1 on their passive saves against it.",
-            "10. Lassitudo inflicts 1 additional level of fatigue against creatures already affected by a condition. Additionally, creatures have -1 on their saves against Lassitudo."
+            "1. Echoed Presence: Once per short rest, as a free action, you project a faint overlay of your avatar over your body that lasts until you fall unconscious or make an attack. You determine what it looks like, but it must match your creature type and size. While the overlay is active, you have +1 armour and gain advantage on one skill check you make.",
+            "2. Buffer Circuit: Whenever you would take damage, you can reduce that damage by 6. You can do this a number of times equal to your proficiency bonus between long rests.",
+            "3. Networked Reflexes: You gain +10' of Speed, and can take the Dash, Disengage, and Hide actions as bonus actions. Whenever you use these actions as bonus actions, you also grant incoming reflex attacks disadvantage for 1 round.",
+            "4. Augmented Interface: You learn a 1st-level wizard or warlock spell that has a casting time of 1 action, which you can cast once per long rest, governed by any ability. Whenever you cast it, any damage it deals is increased by 1d6 force damage, and any healing it grants is increased by the same amount.",
+            "5. Phased Form: Once per long rest, as a free action, you can become partially incorporeal for 1 round, granting you advantage on all saves and Dexterity-based checks, and immunity to physical damage.",
+            "6. Distributed Cognition: You gain 120' of telepathy that only works with willing creatures and can see through one willing creature's senses within that range for up to 1 hour total per long rest. While sharing senses, you have advantage on Investigation and Perception checks.",
+            "7. Static Resonance: Whenever you finish a long rest, you can gain either +1 AB or +1 to saves, both of which last until you finish a long rest. Additionally, you permanently gain 30' of darkvision. Finally, once per short rest, you can add your proficiency bonus to a save you make.",
+            "8. Hardened Shell: You gain 50% resistance to physical, fire, cold, lightning, acid, and poison damage. Additionally, once per long rest, when you would be reduced to 0 HP, you may instead remain at 1 HP and your avatar emits a burst that knocks all adjacent creatures of your choice prone.",
+            "9. Avatar Ascension: When you gain this feature, choose one damage type to gain immunity to permanently. Additionally, while bloodied, you gain +10 passive regeneration. Finally, once per long rest as a free action, you may manifest an avatar projection within 60' of you, a large creature that can take actions you command, but cannot make attacks or be targeted in combat.",
+            "10. Avatar Transcendence: Once per long rest, when you roll for initiative, you may shapeshift into your avatar for the remainder of combat. While in this form, you treat your creature type as a construct and nothing else, gain a flying speed equal to your Speed and a climb speed equal to half, deal 3d8 additional force damage with your damaging attacks, and can use a free action to cast the Mirror Image spell (2 duplicates only) on yourself. If you drop to 0 HP while in this form, the effect immediately ends and you are debilitated for the remainder of combat."
         ]
     },
     {
-        "theme": "Strife",
+        "theme": "inflicting debuffs",
         "tiers": [
-            "1. Discordia: 1/combat, glyphic action; You manifest malicious voices in the mind of a creature within 60' of you, forcing it to make a save. On a fail, it gains a level of strife.",
-            "2. Discordia can now be used twice per combat.",
-            "3. Whenever you inflict strife with Discordia, the target is also debilitated for 1 round.",
-            "4. Creatures affected by Discordia have -1 resistance.",
-            "5. Whenever you use Discordia, its glyphic action is refunded.",
-            "6. Discordia now targets 1 additional creature adjacent to the original target.",
-            "7. Whenever a creature affected by Discordia dies, it erupts in a burst of paranoia, dealing 11 glyphic damage to all of your foes adjacent to it.",
-            "8. Discordia inflicts 1 additional level of strife against bosses. Additionally, creatures have -1 to saves against Discordia.",
-            "9. Creatures affected by Discordia have -1 non-physical resistance. Additionally, creatures have -1 to saves against Discordia.",
-            "10. The debilitated condition inflicted by Discordia now lasts for as long as the creature is affected by Discordia. Additionally, creatures affected by Discordia have -1 non-physical resistance."
+            "1. Lingering Chill: Whenever you hit a creature with a melee attack, it suffers 1d4 cold harm at the start of its next turn, and has disadvantage on the first save it makes in the next round.",
+            "2. Quieting Touch: Once per short rest, when you hit with an attack, you can grant the target disadvantage on its first save prompted by you in the next round.",
+            "3. Haze of Fatigue: Whenever you bloody a creature, it makes a save, gaining a level of fatigue on a fail.",
+            "4. Blinding Echo: Once per long rest, when you inflict a condition on a creature, you can also impose disadvantage on the target's first attack roll in the next round.",
+            "5. Crippling Sigil: Whenever you score a major success against a creature, you can brand it for 1 minute, or until you brand another creature. While branded, a creature has -10' Speed and -1 to all saves. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "6. Mind-Needle: Once per short rest, when you score a major success against a creature, you may immediately break its concentration and grant it disadvantage on opportunity attacks for 1 round.",
+            "7. Sapping Field: Once per short rest, when a creature ends its turn within 10' of you, you can force it to make a save. On a fail, you choose to either blind or stagger it for 1 round, or grant it a level of fatigue.",
+            "8. Warding of Weakness: Whenever you affect a creature with your Lingering Chill or Crippling Sigil, you may choose another creature within 15' of it to suffer 1 cold harm at the start of its next turn, or -5' Speed for the brand's duration, respectively.",
+            "9. Mastery of Maladies: Once per long rest, when you apply one of the following effects, you can escalate it, granting the improved effect in brackets and increasing the effect's duration to 1 minute or until the target passes a passive save: Haze of Fatigue's fatigue (2 levels of fatigue); Blinding Echo's disadvantage (blind); Crippling Sigil's Speed reduction (sluggish).",
+            "10. Curse of the Deep Bind: Once per long rest, as a free action, you can unleash a powerful binding curse on a creature within 60' of you. The target must make a save, becoming your choice of blinded, dazed, or staggered for 1 minute. The target may make passive saves to end this effect early, but if they fail 2 in a row, they stop making passive saves and are also debilitated for the remaining duration. If a creature succeeds on its initial save against this effect, it becomes Sluggish and has disadvantage on attack rolls for 1 minute instead."
         ]
     },
     {
-        "theme": "Nova Area",
+        "theme": "being empowered by light",
         "tiers": [
-            "1. Ruptis: 1/LR, glyphic action; You release a nova of black energy, dealing 7 glyphic damage to all creatures within 5' of you.",
-            "2. Whenever you use Ruptis, the target takes 4 ongoing glyphic damage, stacking until it passes a passive save (this damage scales with all glyphic damage bonuses).",
-            "3. Ruptis' area is increased to 10'.",
-            "4. Whenever you use Ruptis, heal 4 HP. Additionally, Ruptis' base damage becomes 10.",
-            "5. Whenever you score a critical success with a limited power, Ruptis' cooldown is refreshed.",
-            "6. Whenever you use Ruptis, the target gets -2 resistance for 1 round.",
-            "7. Whenever you use Ruptis, the target gets -2 resistance for 1 round.",
-            "8. Whenever you use Ruptis, your next limited power deals +9 damage.",
-            "9. While you have at least one completed glyph path, Ruptis deals +9 damage.",
-            "10. Whenever Ruptis scores a killing blow, an untargetable, black, twisted spire erupts from the corpse. The spire uses Ruptis at the end of each of your turns. Additionally, Ruptis' base damage becomes 15."
+            "1. Luminous Lantern: You emit 10' of bright light and 10' of dim light while conscious. You can extinguish or reignite this light as a free action.",
+            "2. Radiant Senses: While your Luminous Lantern is active, you have advantage on sight-based Perception checks and can see through magical darkness created by spells of 2nd-level or lower. Additionally, if you have any amount of darkvision, its range is increased by 30'.",
+            "3. Beacon's Warmth: Whenever you or an ally starts their turn within your Luminous Lantern's bright light, that creature regains HP equal to your level. A creature can only benefit from this once per short rest. Additionally, your hit dice heal +2 HP while your Luminous Lantern is active during short rests.",
+            "4. Revealing Glimmer: You and allies within your Luminous Lantern's bright light can sense invisible creatures and objects, and whenever any of you would be blinded, charmed, or frightened by a creature with Dexterity as its highest ability, make a save, ignoring the condition on a success.",
+            "5. Blinding Edge: Whenever you deal radiant damage, you may deal 2d8 additional radiant damage. Additionally, if that attack scored a major success against a creature that is within you Luminous Lantern's bright light, it is blinded for 1 round. You can use this feature a number of times between long rests equal to your proficiency bonus.",
+            "6. Beacon Ward: While within your Luminous Lantern's bright light, you and allies gain 50% resistance to necrotic damage and have a +1 bonus to all defences. Additionally, once per long rest, when a creature within that light would be reduced to 0 HP, you may choose to keep them at 1 HP instead.",
+            "7. Radiant Stride: While in bright light, you gain flying speed equal to half your Speed for up to 1 minute total per short rest. While flying this way, you do not provoke opportunity attacks from creatures with Dexterity as their highest ability.",
+            "8. Beaconburst: Once per long rest, as a free action, you detonate a controlled burst of brilliant light. All foes within 30' suffer 1d8 radiant harm, and then make a save. On a fail, they are blinded for the remainder of combat. Undead and creatures within your Luminous Lantern's bright light have disadvantage on this save.",
+            "9. Halo of Purity: Your Luminous Lantern's bright light radius increases to 60', and you and allies within this light have +1 to death saves. Additionally, the damage dice of your Beaconburst increase to d10s, and creatures that fail the save are banished to a plane of shadow-twisted void until they pass a passive save. When they return, they immediately take a turn. Finally, allies who start their turns within your Luminous Lantern's bright light remove either the debilitated, poisoned, charmed, blinded, or staggered condition from themselves, but a creature can only do so once per long rest.",
+            "10. Avatar of Luminous Sovereignty: While in bright light, you have immunity to radiant damage and being blinded. Additionally, the damage dice of your Beaconburst increase to d12s, and while its targets are banished, they suffer 4d8 ongoing radiant harm. Finally, once per long rest when you roll for initiative, you may shapeshift into a being of light for the remainder of combat. In this form, you shed bright light in a 120' radius and dim for an additional 120', gain +3 armour, gain advantage on all saves, gain fly speed equal to your Speed, and your melee attacks deal additional radiant damage equal to your proficiency bonus. When this shapeshift ends, you gain a level of fatigue."
         ]
     },
     {
-        "theme": "Difficult Terrain",
+        "theme": "moving things with your mind",
         "tiers": [
-            "1. Impedimentum: 1/SR, glyphic action; You create a 5'x5' area of tangling vines, causing difficult terrain that lasts for the remainder of combat in a space within 60' of you.",
-            "2. Impedimentum is now a persistent zone that deals 3 glyphic damage.",
-            "3. Creatures in Impedimentum have -5' speed. Additionally, Impedimentum's base damage becomes 4.",
-            "4. Impedimentum's base damage becomes 7.",
-            "5. Whenever Impedimentum scores a killing blow, you gain +25' speed for 1 round.",
-            "6. Creatures in Impedimentum has -5' speed. Additionally, Impedimentum's base damage becomes 8.",
-            "7. Impedimentum's base damage becomes 12.",
-            "8. Whenever Impedimentum scores a killing blow, its size increases by 5' in all directions and its damage increases by 2.",
-            "9. When Impedimentum first appears, it immediately deals 4 ongoing glyphic damage to any creatures inside it, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses).",
-            "10. Impedimentum's persistent zone applies -10' speed until the target leaves the zone."
+            "1. Thought Reach: As a free action, you can pick up or move up to 10' one unattended object that weights no more than 1kg and is within 10' of you. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "2. Mental Nudge: Whenever you use Thought Reach, you may instead target a Small or Medium creature. When you do so, the target makes a save. On a fail, you push it 5' in a direction of your choice, and it has disadvantage on the first attack roll it makes before the end of its next turn.",
+            "3. Kinetic Fingers: The object weight limit for your Thought Reach increases to 5kg, and its range/movement distance increases to 30'. Additionally, you can now use it to open unlocked doors and containers.",
+            "4. Telekinetic Tap: Whenever you use Thought Reach to move an object, you can now use it to strike a creature within its range. The creature suffers 1d4 harm of a physical type based on the object (or 2d4, if the object weighs 2+kg). If you use Thought Reach to directly push a creature, it suffers the bludgeoning harm as if being struck by a light object.",
+            "5. Featherstep Levitation: Once per short rest, as a free action, you can begin levitating 10' off the ground for a number of rounds equal to your proficiency bonus. Whenever you would be restrained or grappled while levitating in this way, make a save, ignoring the condition on a success. You can move horizontally at half your Speed while levitating.",
+            "6. Remote Motion: Your Thought Reach's range/movement distance increases to 60', and you may control up to two objects at once with it so long as their combined weight does not exceed the weight limit. The harm caused by Telekinetic Tap also increases by one die size.",
+            "7. Path of the Mind's Stride: Your Featherstep Levitation's duration increases to 1 minute. Additionally, while it is active, you may move across vertical surfaces as if they were the ground, move through spaces as small as 1 inch wide without squeezing, and shift whenever you move. Additionally, you can modify your base hovering height between 10' and 40' as part of your movement.",
+            "8. Telekinetic Grasp: As a free action, you can attempt to restrain a Large or smaller creature within 60' of you. The target makes a save, becoming restrained until it passes a passive save on a fail. This feature requires your concentration.",
+            "9. Mindstep: Once per long rest, as a free action, you and a willing creature of your size or smaller that you are touching both teleport 120'. After doing so, your Telekinetic Tap's causes 1d4 additional psychic harm, and creatures restrained by your Telekinetic Grasp suffer ongoing psychic harm equal to your proficiency bonus. If you use this feature while your Featherstep Levitation is active, your Levitation immediately ends.",
+            "10. Mindway Mastery: The ranges/movement distances for all of this glyph path's features increase to 300'. Your Thought Reach can now maintain control of up to 3 objects at once, with a total weight limit of 100kg, and your Telekinetic Grasp can now restrain Huge or smaller creatures. Your Telekinetic Grasp no longer requires your concentration, but you can still only restrain one creature at a time. Your Mindstep can now be used once per short rest, you can bring up to 6 willing creatures with you, and you may choose to teleport any of them up to 60' away from your destination instead of the destination itself. Finally, your Telekinetic Tap now causes 1d6 additional force harm."
         ]
     },
     {
-        "theme": "Ranged",
+        "theme": "controlling a draconic aura",
         "tiers": [
-            "1. Tractus: 1/LR, glyphic action; You shoot a black bolt of energy at a creature within 60' of you, dealing 7 glyphic damage.",
-            "2. Tractus can now be used once per short rest.",
-            "3. Tractus deals +10 damage against targets with full HP.",
-            "4. Tractus' base damage becomes 10, and it deals +4 damage against bloodied targets.",
-            "5. Whenever Tractus scores a killing blow, it leaves a beam of energy, a 15'x15' persistent zone, centered on the target. The zone deals 2 glyphic damage to foes. Additionally, Tractus' base damage becomes 11.",
-            "6. Tractus' base damage becomes 12, and its energy beam's damage becomes 4.",
-            "7. Tractus' energy beam's damage becomes 6. Additionally, its base damage becomes 14.",
-            "8. Whenever Tractus damages a boss or scores a killing blow against a non-boss, you heal 6 HP.",
-            "9. Whenever Tractus creates an energy beam, it instead creates two on top of each other. These areas each move 5' in a random direction at the end of each of your turns.",
-            "10. Whenever Tractus damages a boss or scores a killing blow against a non-boss, you gain +15' speed for 1 round. Additionally, its base damage becomes 15."
+            "1. Draconic Tinge: When you gain this feature, choose one of the following damage types: acid, cold, fire, lightning, or poison. This is your Aura Type. You gain 50% resistance to your Aura Type.",
+            "2. Scent of Wyrm: You have advantage on history checks to recall lore about dragons, gain +1 intimidation vs dragons, and gain +1 to survival checks to track dragons.",
+            "3. Elemental Skin: Whenever you are hit by a melee attack, the attacker suffers 1d4 harm of your Aura Type.",
+            "4. Aura Whisper: As a free action, you can emit a faint draconic rumble that grants allies within 10' 8 temporary HP. The first melee attack these allies make while they have this temporary HP deals 1d4 additional damage of your Aura Type. You can use this feature a number of times between long rests equal to your proficiency bonus.",
+            "5. Breathling: Once per short rest, as a free action, you can exhale a 30' line of your Aura Type. Creatures in the area suffer 1d4 harm.",
+            "6. Wyrmward: Whenever you use Breathling, adjacent allies gain +1 resistance to your Aura Type for 1 round.",
+            "7. Dragon's Reach: Whenever you or an ally within 15' of you would become frightened, that creature makes a save, ignoring the condition on a success. Additionally, once per long rest when you score a major success with a melee attack, you can push the target 10' away and knock it prone as draconic force lashes out.",
+            "8. Scaled Bulwark: At the start of each of your turns, you and allies within 10' of you gain 2 temporary HP. Additionally, once per long rest, when you would be reduced to 0 HP, you can drop to 1 HP instead and emit a protective shell that grants you and allies within 10' of you 50% resistance to all damage from a single creature of your choice until the start of your next turn.",
+            "9. Ancient Resonance: Once per long rest, when you roll for initiative, you can weave your aura into your attacks for the remainder of combat, granting you the following benefits. Your damaging attacks deal 1d8 additional Aura Type damage. You also project a 5' persistent zone that causes 1d8 harm of your Aura Type to foes. And finally, your Elemental Skin causes 2 additional dice of harm.",
+            "10. Wyrmform Sovereign: Once per long rest, when you roll for initiative, you can shapeshift into a partial wyrmform for the remainder of combat. While in this form, you project a 15' persistent zone that causes 2d8 harm of your Aura Type to foes, gain +2 armour, are immune to being frightened, gain fly speed equal to your Speed, and can use your Breathling twice this combat, causing 3 additional dice of harm and increasing all the dice to d6s."
         ]
     },
     {
-        "theme": "Grappled",
+        "theme": "fighting the strongest enemy",
         "tiers": [
-            "1. Pedem: 1/combat, glyphic action; Tendrils emerge from beneath your equipment, grappling a creature adjacent to you for 1 round as they lock it in place beside you.",
-            "2. Creatures affected by Pedem have -2 resistance vs you. Additionally, after using Pedem, you can move yourself and the target 5'.",
-            "3. Creatures affected by Pedem have -3 resistance vs you.",
-            "4. Whenever you use Pedem, its glyphic action is refunded.",
-            "5. You can use Pedem twice per combat.",
-            "6. Creatures affected by Pedem have -3 resistance vs you if they have a condition other than grappled.",
-            "7. Creatures affected by Pedem have -3 resistance vs you.",
-            "8. Pedem can also target another creature adjacent to the original target. Additionally, creatures affected by Pedem have -1 resistance vs you.",
-            "9. Whenever you grapple a creature with Pedem, roll a d4. On a 4, it restrains instead. Additionally, creatures affected by Pedem have -3 resistance vs you.",
-            "10. Whenever you restrain a creature with Pedem, they are also Staggered for 1 round."
+            "1. Apex Sense: You always know which foe in combat has the highest current HP, which is referred to as the Apex. Additionally, you always know the direction to the creature with the highest current HP within 1km.",
+            "2. Hunter's Thread: You gain an expertise die in survival checks to locate or track creatures with a higher CR than your level.",
+            "3. True Sightline: You ignore disadvantage caused by long range and cover when attacking the Apex.",
+            "4. Unrelenting Path: If the Apex is 30+' away from you at the start of your turn, you ignore difficult terrain that turn, and if you end your movement that turn adjacent to the Apex, you gain advantage on attacks you make against it that turn.",
+            "5. Predator's Gaze: You cannot be surprised. Additionally, your initiative rolls are always at least 1 more than the Apex's and you cannot be frightened by it. Finally, once per long rest, when you score a major success against the Apex, it becomes sluggish and has disadvantage on attack rolls for 1 round.",
+            "6. Focused Strike: Whenever you attack the Apex, you have +1 AB and deal +1 damage.",
+            "7. Threaded Mark: Whenever you hit the Apex, you can mark it for the remainder of combat, or until you mark another creature. You deal 1d6 additional base damage to the marked creature, and allies in your line of sight have advantage on attack rolls against it.",
+            "8. Apex Anchor: Creatures affected by your Threaded Mark cannot willingly move beyond 30' from you (except towards you), unless they teleport.",
+            "9. Piercing Focus: Your bonus from Focused Strike increases to +2 AB and its additional damage is doubled.",
+            "10. Apex Strike: As a free action, project a single, unstoppable bolt of planar energy at the Apex. You do not need line of sight to the target to use this feature. The target suffers 5d4 force harm and makes a save. On a fail, it gains an upgraded Threaded Mark that adds 5 additional dice of base damage. Regardless, the target loses any invisibility it may have had. After you use this feature, all features in this glyph path except for Apex Sense are disabled until you finish a long rest."
         ]
     },
     {
-        "theme": "Attack Order",
+        "theme": "repositioning and mixing planes",
         "tiers": [
-            "1. Imperium: 1/SR, glyphic action; You force a creature within 60' of you to regurgitate a black, writhing mass of sludge, which lunges at another creature within 60' of the first creature. This deals 6 glyphic damage to the second creature. This counts as the first creature's damage, not yours.",
-            "2. Imperium can now be used once per combat.",
-            "3. Imperium's base damage becomes 11.",
-            "4. Whenever you use Imperium, the next limited power the first creature uses before the end of its next turn deals +6 damage.",
-            "5. Whenever you use Imperium, black sludge erupts from the first creature's orifices, dealing 5 glyphic damage to all foes adjacent to it.",
-            "6. Whenever Imperium deals its base damage, the target takes 3 ongoing glyphic damage, stacking until the target passes a passive save (this damage scales with all glyphic damage bonuses).",
-            "7. Imperium's base damage becomes 17.",
-            "8. Whenever Imperium deals its base damage, the target makes a save, becoming staggered for 1 round on a fail. Additionally, its base damage becomes 18.",
-            "9. Imperium's ongoing damage becomes 7.",
-            "10. Imperium's base damage becomes 26."
+            "1. Liminal Step: You ignore difficult terrain and cannot be grappled by nonmagical means.",
+            "2. Pocket Fold: Once per short rest, as a free action, you can create a tiny folded space around one object you are carrying (no larger than 5' on a side). The object becomes weightless and is inaccessible until you dismiss the fold or take it out as a bonus action. The object is still visible, but material things pass through it as if it were light.",
+            "3. Blinkway: Once per short rest, you may replace the first 15' of your movement on a turn with 15' of teleportation. When you teleport in this way, you leave behind a faint shimmer that lingers until the end of your next turn. Creatures that end their turn in that shimmer are immune to damage but have disadvantage on opportunity attacks.",
+            "4. Ethereal Tether: You have 50% resistance to force damage and can move through creatures and nonmagical objects as if they were difficult terrain, but must end your movement in an unoccupied space.",
+            "5. Swaptrace: Once per long rest, when you or a creature you can see within 30' would be hit by an attack, you can instantly swap that creature's position with an unoccupied space within 30' of you. The attack still hits if the target is still within its reach, range, or area.",
+            "6. Planar Siphon: You can now use Swaptrace twice between long rests, and your Blinkway replaces 30' of movement. Additionally, whenever you use Swaptrace, you may choose to siphon a tiny sliver of planar energy into the repositioned creature's space. The target gains one of the following effects of your choice for 1 round: disadvantage on incoming reflex attacks, advantage on Strength checks, or 50% resistance to fire.",
+            "7. Folding Corridor: Once per long rest, as a free action, you can create a short planar fold: a 5'-wide, straight corridor up to 60' long that lasts 1 minute. The corridor occupies a line of contiguous spaces and is visible as a seam of shimmering light. Creatures may move through the corridor normally, ignoring any material obstacles in the corridor's spaces. Creatures within the corridor have disadvantage on Perception checks to perceive outside of the corridor.",
+            "8. Seammastery: Your Folding Corridor can now be up to 120' long and lasts 1 hour. Additionally, the planar energy effects from your Planar Siphon now last 1 hour.",
+            "9. Planar Stain: Whenever you create a Folding Corridor, the end of the corridor furthest from you leaves a 20'-radius stain centred on it for the same duration as the corridor. Choose one of the following planar effects for the stain to have: the area is dim light and creatures have advantage on stealth checks to hide in it; nonmagical flammable items in the area do not ignite; spells in the area have no vocalised component. The stain is also a persistent zone that forces foes to make a save, being pushed 10' into the corridor on a fail.",
+            "10. Weaveworld's Threshold: Once per long rest, as a free action, you create a transient planar doorway that lasts for 1 minute (requires concentration) and links your current location to a point in within 1km on the same plane as you, or on a similar point on the Ethereal plane. The doorway is a 10'-diameter portal that remains anchored to the ground. Creatures may pass through freely. When a creature entes the doorway you may optionally cause one of the following planar effects once per creature that passes: swap its position with a willing creature within 60' of you; teleport it to an unoccupied space within 120' of you; banish it to a pocket dimension until the start of your next turn."
         ]
     },
     {
-        "theme": "Cube Area",
+        "theme": "fighting with knife weapons",
         "tiers": [
-            "1. Quadrantal: 1/SR, glyphic action; A 15' cube of pure energy erupts beside you, of which at least one space must be adjacent to you. All creatures within the cube take 3 glyphic damage.",
-            "2. Whenever Quadrantal damages at least one creature, gain 7 temporary HP.",
-            "3. Whenever Quadrantal damages at least one creature, recover 2 spell slot levels or 2 exertion.",
-            "4. Quadrantal deals additional damage equal to half the highest level unused spell slot you have or half your current exertion, whichever is higher. Additionally, Quadrantal's base damage becomes 4.",
-            "5. Whenever Quadrantal damages at least one creature, gain 7 temporary HP.",
-            "6. Quadrantal can now be used once per combat.",
-            "7. While your highest-level spell slot is unused or you are on full exertion, roll a d4 whenever you use Quadrantal. On a 4, it deals double damage. Additionally, Quadrantal's base damage becomes 5.",
-            "8. While you have no spell slots or exertion remaining, Quadrantal can be used at-will.",
-            "9. Quadrantal's cube area becomes 30'.",
-            "10. Quadrantal's damage is now doubled on a 3+ on the d4. Additionally, Quadrantal's base damage becomes 6."
+            "1. Balanced Edge (strong): You gain +1 weapon AB while wielding a knife weapon. Additionally, this bonus is doubled while you are attacking alongside a basic maneuver.",
+            "2. Quick Flick: The base damage die of your knife weapons is doubled.",
+            "3. Keen Footwork (strong): Whenever you move at least 10' on your turn immediately before making a knife attack, that attack roll gains an expertise die.",
+            "4. Minor Bleeding Strike: Whenever you hit with a knife attack, you can cause 1d4 ongoing slashing harm to the target until it passes a passive save (does not stack). You can use this feature a number of times between long rests equal to your proficiency bonus.",
+            "5. Ghostblade Step: Whenever you take the Disengage action, you leave behind an echo of movement after moving away. Until the end of your next turn, opportunity attacks against you have disadvantage.",
+            "6. Precise Rend: Your critical damage bonus with knives is increased by your level. Additionally, whenever you score a critical success with a knife weapon against a creature suffering from your Minor Bleeding Strike, the ongoing harm increases by an additional die.",
+            "7. Dancing Parry (strong): Whenever you are targeted by a melee attack while wielding a knife weapon, you can reduce the attack's success tier by 1. If the attack still hits, the attacker suffers slashing harm equal to your knife's base damage die.",
+            "8. Slice of Silence: Once per short rest, when you hit with a knife attack while hidden, you do not reveal yourself, and if it scored a major success, the target also has disadvantage on its next attack roll before the end of its next turn." ,
+            "9. Whirling Torrent: Your Quick Flick now triples the base damage die of your knife weapons.",
+            "10. Bladesong Crescendo: Once per long rest, as a free action, you enter a bladesong stance for the remainder of combat. During this time, you grant incoming reflex attacks disadvantage, gain 50% resistance to slashing damage, increase your Speed by 20', and whenever you score a major success with a knife attack, you can forgo any damage to knock the target prone and push it 10' away. If the attack was a critical success, the target is restrained until it breaks free as an action instead of prone. You can end the restrain early as a free action to cause necrotic harm equal to your main hand weapon's base damage die plus 4d6."
         ]
     },
     {
-        "theme": "Push",
+        "theme": "controlling magical sand",
         "tiers": [
-            "1. Dis: 1/SR, glyphic action; You shove a creature within 60' of you with an explosion of force, pushing it 15' away from you.",
-            "2. Dis can now be used once per combat.",
-            "3. Dis' base push distance becomes 20'. Additionally, whenever you use Dis, roll a d6. On a 5+, its push distance is doubled.",
-            "4. Dis now pushes its target in a horizontal direction of your choice.",
-            "5. Whenever Dis' push distance would be doubled, it is tripled instead. Additionally, it now doubles on a 4+ on the d6.",
-            "6. Whenever you use Dis, you gain +3 glyphic damage for the remainder of combat.",
-            "7. Whenever you use Dis, the target gets -2 resistance for 1 round.",
-            "8. After you use Dis, the ally closest to the target gains +2 damage for the remainder of combat.",
-            "9. Whenever you use Dis, the target gets -2 resistance for 1 round.",
-            "10. Before you use Dis, the ally closest to the target gains +2 damage for the remainder of combat."
+            "1. Grain Grip: Whenever you would be knocked prone while in contact with sand or soil, make a save, ignoring the condition on a success. Additionally, you ignore sand-based difficult terrain.",
+            "2. Sand Whisper: Twice per long rest, you can spend 5 minutes concentrating on sand within 30' of you to cause it to form a single line of shifting runes or a small pattern that conveys a simple message (up to 25 words) legible to creatures of your choice for 1 minute.",
+            "3. Sand Skin: While in contact with sand, you have +1 armour vs ranged weapon attacks. Additionally, if you spend 1 minute embedded in loose sand, you gain advantage on your next stealth check made in the next hour.",
+            "4. Sifting Step: While standing on sand, you have +5' Speed, and may take the Dash action as a bonus action once per short rest while standing on sand or soil.",
+            "5. Dust Cloak: Once per short rest, when you are attacked, you can surround yourself with a swirling veil of sand for 1 round, granting the triggering attack disadvantage and giving all melee attacks against you -1 AB. While this is active, you count as being in contact with sand.",
+            "6. Glassvein Strike: Once per short rest when you make an attack while standing on sand or within 10' of sand, you can cause the stand to strike with you, adding 1d8 force damage to the attack. On a major success, the target is also restrained by sand until the end of your next turn. On a hit, the target is sluggish for the same duration.",
+            "7. Sandward Bastion: Once per long rest, as a free action, you create a 15'-radius dome of compacted sand centred on you that last for 1 minute. The dome counts as half cover and reduces the success tier of ranged attacks passing through it by 1. When you create the dome, you can include two 10' exists you designate.",
+            "8. Quicksand Field: Once per long rest, as a free action, you transform a 30' square area of ground within 60' of you into quicksand for 1 minute. The quicksand is a persistent zone that forces creatures to make a save or become grappled and restrained. A creature can escape by using its action and making a brawn check against your standard DC. Creatures within the area are heavily obscured from creatures more than 60' away from them.",
+            "9. Sandstorm Siege: Once per long rest, as a free action, you create a swirling sandstorm in a 60' radius centred on a point within 120' of you. The area is heavily obscured, creatures are blinded inside, and all fly speeds are reduced to 0 within it. It is also a persistent zone that causes 4d6 slashing harm.",
+            "10. Hourglass Sovereignty: You gain 60' of truesight while standing on sand or soil, your Sandstorm Siege now causes 6d10 slashing harm, your Dust Cloak now lasts 2 rounds, and once per long rest you may spend 10 minutes doing nothing to permanently turn up to an 100' square of nonmagical terrain into sand."
         ]
     },
     {
-        "theme": "Persistent Zone",
+        "theme": "directed communication",
         "tiers": [
-            "1. Pertinacia: 2/combat, glyphic action; Pale spirits infest a 15'x15' area centred on a space within 60' of you, which becomes a persistent zone for the remainder of combat. It deals 1 glyphic damage.",
-            "2. Whenever you use Pertinacia, you gain +1 damage for the remainder of combat.",
-            "3. Pertinacia's base damage becomes 2.",
-            "4. Whenever you use Pertinacia, its glyphic action is refunded.",
-            "5. Pertinacia only deals damage to foes.",
-            "6. Pertinacia deals +2 damage against targets with the same 2 highest defences as you.",
-            "7. Pertinacia's base area becomes 25'x25'.",
-            "8. Pertinacia's base area becomes 35'x35'.",
-            "9. Pertinacia's ticks also force foes to make a save, becoming slowed for 1 round on a fail.",
-            "10. Pertinacia's base area becomes 45'x45'."
+            "1. Whisperseed: You can speak one short sentence (up to 25 words) privately to one creature within 30' of you. The target hears the words in their mind and understands them in their primary language if they know any language; otherwise they perceive an intelligible image. The message is private and cannot be overheard by creatures more than 5' away from either participant.",
+            "2. Echo Anchor: Your Whisperseed range increases to 60'.",
+            "3. Veil of Dialects: If the target of your Whisperseed doesn't know any language, it receives a clear mental summary of your sentence.",
+            "4. Secret Knot: Your Whisperseed no longer requires line of sight to the target and creatures within 5' of the participants can no longer overhear the sentence.",
+            "5. Chosen Bond: During a short or long rest, you can touch a creature to form a bond with them. While bonded, you may use Whisperseed once per long rest at a range of up to 1km. The bond lasts until you form a new one.",
+            "6. Silent Relay: Your Chosen Bond's range increases to 6km, and it can function across overlapping planes.",
+            "7. Veiled Channel: As a free action, you can open a private communication channel to your Chosen Bond creature that lasts for up to 10 minutes or until you end it. While open, you and the bonded creature can converse freely using your Chosen Bond. The channel blocks all divination spells and similar effects from revealing the conversation. You can use this feature a number of times equal to your proficiency bonus between long rests.",
+            "8. Remote Tongue: Your Veiled Channel can now be used without expending one of its uses if both you and the bonded creature are not adjacent to any creatures within your party and are separated by at least 300'.",
+            "9. Soulcloak: Any conversation through your Chosen Bond is masked from detection as per your Veiled Channel, and neither participant can be compelled to reveal the content of its communication unwillingly while the bond exists.",
+            "10. Echo of One: 24 hours after your Chosen Bond ends with a creature, that creature cannot recall any information about what was conversed about through your bond. The only thing they remember is whether or not what they stated in those communications was sincere or not."
         ]
     },
     {
-        "theme": "Invisibility Buff",
+        "theme": "empowering your weapons with fragrance",
         "tiers": [
-            "1. Indespectus: 1/combat, glyphic action; Hundreds of tiny, mirrored insects swarm around a creature within 60' of you, causing it to make a save. On a success, it becomes invisible for 1 round.",
-            "2. While a creature is affected by Indespectus, it has +4 damage.",
-            "3. While a creature is affected by Indespectus, all allies adjacent to them are invisible.",
-            "4. While a creature is affected by Indespectus, it has +1 damage and its damage ignores resistances",
-            "5. Whenever Indespectus' effect ends or it fails to take effect, the bugs rush over to the nearest foe of your choice, dealing 5 glyphic damage to them before disappearing.",
-            "6. Indespectus can now be used twice per combat.",
-            "7. While a creature is affected by Indespectus, it has +1 armour AB and +1 damage.",
-            "8. Indespectus now lasts 1 additional round.",
-            "9. Whenever you use Indespectus, its glyphic action is refunded. Additionally, while a creature is affected by Indespectus, it has +2 damage.",
-            "10. While a creature is affected by Indespectus, it has +4 damage vs targets suffering ongoing harm."
+            "1. Scented Weapon: Your main hand weapon is imbued with a faint, pleasant scent. You have advantage on perception checks based on smell and gain a +1 bonus to persuasion and nature checks made to calm beasts and non-hostile humanoids that can smell you. This affects the Befriend Animal journey activity.",
+            "2. Lingering Trace: Your Scented Weapon's scent now lingers on creatures hit by it for 1 minute. While the scent is present, those creatures have disadvantage on perception checks to locate creatures by scent, and you gain advantage on survival checks to track those creatures by scent.",
+            "3. Aromatic Flourish: Once per short rest when you score a major success with your Scented Weapon, you can add aromatic flourish to give the target disdavantage on its next attack roll and ability check before the end of your next turn.",
+            "4. Intensified Flourish: Your Aromatic Flourish can now be used on a standard hit.",
+            "5. Perfume Burst: Once per long rest, as a free action, you can release a powerful scent from your weapon in a 30' cone. Each creature inside that can breathe and smell must make a save, becoming dazed until it passes a passive save on a fail. A creature that passes this save becomes immune to this feature for 24 hours.",
+            "6. Refined Burst: You can now use Perfume Burst twice between long rests, and creatures that fail its save are also sluggish and have -2 reflex until the effect ends.",
+            "7. Scent of Dominion: Whenever you hit a creature with your Scented Weapon, you can mark it with your scent until you dismiss the mark or 24 hours have passed. Will attacks against the marked creature have advantage while it is within 60' of you. You can have a number of creatures marked at once equal to your proficiency bonus.",
+            "8. Bouquet of Warding: You and up to 1 willing creature adjacent to you gain a +1 bonus to armour, and whenever they would be frightened or charmed, they make a save, ignoring the condition on a success.",
+            "9. Potent Bouquet: Your Bouquet of Warding's range increases to 10', and affected creatures become immune to being frightened and charmed.",
+            "10. Sovereign Aroma: Your Scent of Dominion remains active while you are within 120' of the target, and the number of creatures you can have marked increases to double your proficiency bonus."
         ]
     },
     {
-        "theme": "Trap",
+        "theme": "fighting with pharmaceutical blowgun ammunition",
         "tiers": [
-            "1. Insidia: 1/SR, glyphic action; Choose an unoccupied space within 60' of you to plant an invisible, restless spirit in. The next time a creature enters that space, the spirit lashes out, dealing 7 glyphic damage before disappearing.",
-            "2. Insidia now triggers the next two times a creature either enters its space or starts its turn there.",
-            "3. Insidia's base damage becomes 11.",
-            "4. At the start of each of your turns, you may move Insidia up to 20'.",
-            "5. If 1 round after its first trigger Insidia hasn't been triggered again, you may deal 8 glyphic damage to the creature that triggered Insidia the first time.",
-            "6. Whenever a creature takes Insidia's base damage, it makes a save, becoming frightened for 1 round on a fail. Additionally, Insidia's base damage becomes 12.",
-            "7. After its first trigger, Insidia grows to a 15'x15' area. Additionally, its base damage becomes 13.",
-            "8. Whenever Insidia deals its base damage, you heal 5 HP.",
-            "9. Whenever a creature takes Insidia's base damage, it becomes sluggish for 1 round. Additionally, Insidia's base damage becomes 14.",
-            "10. Insidia's base damage becomes 19."
+            "1. Steady Hands: You gain a +1 bonus to AB and damage with blowguns.",
+            "2. Poison Salve: Whenever you hit a creature with a blowgun attack, the target suffers 1 ongoing poison harm, stacking until it passes a passive save.",
+            "3. Mild Agonist: Whenever you score a major success with a blowgun attack, the target suffers 1d4 psychic harm and the next attack against it before the end of your next turn has advantage.",
+            "4. Targeted Pharmacokinetics: Once per long rest, when you would apply Mild Agonist, you may change the attack advantage effect into one of the following: target is sluggish for 1 round; target suffers 1d6 additional necrotic harm; target has disadvantage on perception checks until it passes a passive save.",
+            "5. Rapid Diffuser: Whenever you apply a negative effect with a blowgun attack from this path, all foes adjacent to the target also gain the effect.",
+            "6. Countermeasure Binder: The first time a creature fails its passive save for Poison Salve, it gains disadvantage to that same passive save until it takes a long rest.",
+            "7. Synergist Protocol: While a creature is affected by Countermeasure Binder, it also has -1 to those saves.",
+            "8. Overdose Catalyst: Once per long rest, when you hit with two blowgun attacks in a row in a single combat, you can increase the second attack's success tier by 1, and if that would make the attack a critical success, the target suffers 6d6 poison harm and is dazed for 1 round. Otherwise they suffer 4d6 with no other effect. When you use this feature, Mild Agonist's harm is increased to 2d6 for the second attack.",
+            "9. Potent Carrier: Your Mild Agonist's psychic harm increases to 1d6, and it triggers on standard hits as well.",
+            "10. Apotheotic Transfusion: Once per long rest, when you roll for initiative, you may inject a perfected compound into yourself. For the remainder of combat, you gain immunity to poison damage and have advantage on blowgun attacks. After the combat, you gain a level of fatigue."
         ]
     },
     {
-        "theme": "Cleanse",
+        "theme": "becoming a jinmenken",
         "tiers": [
-            "1. Purgare: 1/combat, glyphic action; A pale, green sludge erupts from your neck, entering the facial orifices of a creature within 60' of you, causing them to make a save. On a success, they are cured of 1 condition of your choice.",
-            "2. Whenever a creature is affected by Purgare, it gains +4 resistance for 1 round.",
-            "3. Whenever a creature is affected by Purgare, the sludge erupts from their body, dealing 7 glyphic damage to all foes adjacent to them.",
-            "4. Purgare can now cure up to 2 conditions.",
-            "5. Whenever you successfully use Purgare on a creature, gain 8 temporary HP.",
-            "6. Purgare can now cure up to 3 conditions.",
-            "7. Whenever you successfully use Purgare, the nearest ally to the target also makes a save, being cured of 1 condition of your choice on a success. Additionally, that ally gains +2 resistance for 1 round on a successful save.",
-            "8. Whenever you successfully use Purgare, the next limited power you use this turn can be used as if your line of sight originated from the target. Additionally, the target gains +3 resistance for 1 round on a successful use.",
-            "9. Creatures have advantage on their saves against Purgare. Additionally, they gain +3 resistance for 1 round on a successful use.",
-            "10. You can now use Purgare twice per combat. Additionally, the target gains +2 resistance for 1 round on a successful use."
+            "1. Sensitive Ears: You gain advantage on perception checks related to hearing.",
+            "2. Humanlike Expression: You gain an expertise die in persuasion.",
+            "3. Scent Trail: You have advantage on survival checks to track creatures that have a scent, and you can always pinpoint the direction of a creature within 30' that you can smell.",
+            "4. Facecall: Once per short or long rest, when you roll for initiative, you may shapeshift into a jinmenken for the remainder of combat. In this form, you emit a 10' persistent zone that forces foes to make a save, becoming charmed by you until the form ends on a fail. A creature that passes the save is immune to this effect until it takes a long rest.",
+            "5. Deepened Expression: While interacting with no more than 5 creatures at once, you have advantage on deception and persuasion checks against creatures that can see your face.",
+            "6. Canine Instincts: Will attacks that you can sense have disadvantage against you. Additionally, you gain an expertise die on initiative rolls.",
+            "7. Feral Resilience: You gain 50% resistance to psychic damage and whenever you would become charmed, make a save, ignoring the condition on a success. Additionally, once per long rest when you would be reduced to 0 HP, drop to 1 HP instead until the end of your next turn when you drop to 0 if you haven't already.",
+            "8. Hardened Face: The save from your Facecall persistent area is now made with disadvantage, and creatures charmed by it are also rattled.",
+            "9. Jinmenken Aspect: Your base armour while unarmoured is 1, you gain +10' Speed, and you move on all fours while moving. Creatures have disadvantage on melee attacks while adjacent to you if they can see your face.",
+            "10. Visage of Command: You project a 30' persistent zone that forces creatures to make a save, becoming charmed by you for 1 minute on a fail. While charmed in this way, a creature cannot willingly move more than 30' away from you, and you can use the effects of the Command spell against it (non-magically) once per turn as a free action, always using the standard success result. Once a creature has made this save, it is immune to this feature until it takes a long rest."
         ]
     },
     {
-        "theme": "Initiative Buff",
+        "theme": "sensing psychic power",
         "tiers": [
-            "1. Initium: 1/SR, glyphic action; You grant an unnatural, persistent fervor to a creature within 60', causing it to move up 2 spaces in the turn tracker.",
-            "2. After you target a creature with Initium, it has +2 passive regeneration while at the top of the turn tracker for the remainder of combat.",
-            "3. Afer you target a creature with Initium, it has +2 damage while at the top of the turn tracker for the remainder of combat.",
-            "4. Initium now moves the target 3 spaces up in the turn tracker.",
-            "5. After you target a creature with Initium, it has +2 passive regeneration while at the top of the turn tracker for the remainder of combat.",
-            "6. After you target a creature with Initium, it has +2 resistance while at the top of the turn tracker for the remainder of combat.",
-            "7. When you target a creature with Initium, it gains 8 temporary HP.",
-            "8. Whenever you target a creature with Initium that is behind you in the turn tracker, it gains +2 damage for the remainder of combat.",
-            "9. After you target a creature with Initium, it has +1 armour while at the top of the turn tracker for the remainder of combat.",
-            "10. The temporary hit points granted to Initium's target increases to 17."
+            "1. Whisper of Thought: You sense the presence of creatures within 30' of you that are concentrating or casting a spell that can deal psychic damage. You can sense the general direction of the creature.",
+            "2. Hushed Clarity: When your Whisper of Thought detects a creature, you also learn whether the creature is hostile, neutral, or friendly to you.",
+            "3. Focused Echo: The range of your Whisper of Thought increases to 60'.",
+            "4. Mind's Footprint: When your Whisper of Thought detects a creature, you also learn the creature's type.",
+            "5. Lingering Trace: You can spend 1 minute concentrating to scan a 30' radius area within your line of sight. The scan reveals whether any creature that would be detected by your Whisper of Thought was present in the area in the past 24 hours, and gives a one-sentence, cryptic impression about the revealed creature with the highest Intelligence.",
+            "6. Threading Intuition: You gain an expertise die on insight checks made against creatures detected by your Whisper of Thought.",
+            "7. Radiant Ping: Once per long rest, as a free action, you can choose a point within 120' of you. All creatures that can be detected with your Whisper of Thought within 20' of that point are revealed to you: you learn their exact locations and they are rattled until the start of your next turn, and you learn the details of the effect that caused them to be detectable.",
+            "8. Deep Resonance: Your Lingering Trace now detects creatures from the past 7 days.",
+            "9. Mirrorthread: Once per long rest, when your Whisper of Thought detects a creature, you can form a tenuous link with that creature for 1 minute. While linked, you always know the creature's surface emotion (one word) and you have advantage on Intelligence checks to recall information about that creature or its species.",
+            "10. Mindwarden Echo: Your Mirrorthread now lasts for up to 10 minutes and can be used twice between long rests."
+        ]
+    },
+    {
+        "theme": "dual-wielding radiant swords",
+        "tiers": [
+            "1. Luminous Grip: While dual-wielding sword weapons, they shed 5' of dim light and you gain +1 weapon AB.",
+            "2. Coordinated Fury: Whenever you take the Attack action while dual-wielding swords, you ignore half and three-quarters cover.",
+            "3. Mirrored Parry: Whenever you are targeted by a melee attack while dual-wielding swords, you can reduce the attack's success tier by 1. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "4. Blade Channeling: Once per short rest, when you score a weapon hit while dual-wielding swords, you can recover HP equal to 2d8 + your level.",
+            "5. Radiant Riposte: Once per long rest, when an adjacent creature fails to hit you with a melee attack while you are dual-wielding swords, you can use your reaction to make an attack of opportunity against it, dealing 1d8 additional radiant damage.",
+            "6. Echoing Blades: Whenever you score a major weapon hit while dual-wielding swords, the target has disadvantage on its next attack before your next turn.",
+            "7. Convergent Edge: While dual-wielding swords, your critical damage bonus is doubled.",
+            "8. Starforged Momentum: Once per short rest, when you take the Attack action while dual-wielding swords, you can shift up to half your Speed as part of that action. If you hit with the attack, the shift amount increases to your full Speed.",
+            "9. Twin Strike: Whenever you take the Attack action while dual-wielding swords, add your main hand weapon's base damage to the attack's damage. This counts as an instance of the Empowered Attack feature.",
+            "10. Dual Nova: Your main hand weapon's base damage is doubled for your Radiant Riposte attack, as is the added radiant damage, and the attack is made with advantage. Additionally, the attack deals an additional 6d6 radiant damage and the target is blinded for 1 round on a hit."
+        ]
+    },
+    {
+        "theme": "becoming a clurichaun",
+        "tiers": [
+            "1. Slight Stature: If you are Medium or larger, you become Small. If you are already Small, you gain advantage on Stealth checks while in cluttered or domestic environments.",
+            "2. Hearth-Home Sense: You can mark one small dwelling (no larger than a 30' cube) as your charge after spending 1 hour inside it. While within that dwelling, you and creatures you designate have +1 armour and whenever any of you would become charmed or frightened, they can make a save, ignoring that condition on a success. The mark lasts until your next long rest, or you mark another location.",
+            "3. Clurichaun's Guile: Whenever you successfully hide from a creature within 30' of you and remain hidden from it for 1 further round, you become invisible until the start of your next turn.",
+            "4. Clurichaun's Grin: You reduce all journey gold costs by 1.",
+            "5. Stolen Shine: You gain an expertise die in Finesse checks.",
+            "6. Bottle's Blessing: Whenever you finish a long rest in a city, you gain temporary HP until your next rest equal to a number of d8s equal to your proficiency bonus, and whenever you would become poisoned during that time, you make a save, ignoring the condition on a success.",
+            "7. Gilded Fingers: You gain a +7 bonus to Finesse checks for pickpocketing (including placing things in pockets).",
+            "8. Temper of the Trickster: Once per long rest, when you roll for initiative, you may adopt the temper of the trickster for the remainder of combat. While doing so, you gain advantage on attacks made with simple or improvised weapons, gain a +2 bonus to armour, and the Shove basic maneuver doesn't require you to impose disadvantage on your attack to use it.",
+            "9. Faeward Resilience: You gain 50% resistance to poison and psychic damage, and whenever you would be charmed, make a save, ignoring the condition on a success. Additionally, whenever you would be moved against your will while you are in your Hearth-Home Sense dwelling, you can instead teleport up to 15' to an unoccupied space.",
+            "10. True Clurichaun: Your Temper of the Trickster now lasts until your next rest, its armour bonus increases to +3, and once per usage of that feature, if you score a major success on an attack you use alongside the Shove basic maneuver, you can force the target to drop one held item of your choice in its space."
+        ]
+    },
+    {
+        "theme": "becoming a wolverinefolk",
+        "tiers": [
+            "1. Keen Claws: You grow retractable, razor-tipped claws on your hands and feet, granting you a natural weapon that deals 1d4 + DEX slashing damage. This natural weapon has the Angled (larger), Deadly, Forceful, Responsive, and Sweep traits.",
+            "2. Bristling Hide: While not wearing heavy armour you gain +1 armour and ignore the effects of cold weather on your journey activities.",
+            "3. Nose for Blood: You gain advantage on Perception checks that rely on smell and on Survival checks to track creatures by scent. Additionally, you detect the presence of creatures within 30' of you by scent if they are on the ground and do not have full cover from you.",
+            "4. Digging Paws: You gain a burrow speed equal to half your Speed and ignore difficult terrain caused by undergrowth, brambles, loose earth, and rubble.",
+            "5. Ferocious Resilience: Once per short or long rest, when you are hit, you can reduce the damage by an amount equal to your proficiency bonus + half your level.",
+            "6. Wolverine's Frenzy: Whenever you roll for initiative, you can enter a frenzy for the remainder of combat, or until you are knocked unconscious or end the effect as a free action. While frenzied you gain advantage with attacks made with your Keen Claws, they deal 1d6 additional slashing damage, and you lose 1 HP whenever you attack with them. You can enter a frenzy a number of times between long rests equal to your proficiency bonus.",
+            "7. Hardened Resolve: Your Ferocious Resilience's damage reduction increases to double your proficiency bonus + your level. Additionally, while bloodied you gain 50% resistance to physical damage.",
+            "8. Predator's Leap: Your jump distance and height are tripled. Once per short or long rest, when you jump at least 10' towards a target, land adjacent to them, and make an attack with your Keen Claws, the attack gains advantage.",
+            "9. Adamantine Claws: The base damage die of your Keen Claws increases to a d8, and they gain the Scaling (+1) trait. Additionally, they ignore slashing resistance and immunity. Once per long rest, when you would be reduced to 0 HP, you can instead remain at 1 HP and immediately gain temporary HP equal to your proficiency bonus + your level.",
+            "10. Avatar of the Wolverine: While you are not wearing heavy armour, your Strength and Dexterity increase by 2, you gain passive regeneration equal to 1d6 + half your level, you gain immunity to disease, and whenever you would be poisoned or staggered, make a save, ignoring the condition on a success."
+        ]
+    },
+    {
+        "theme": "ignoring friction",
+        "tiers": [
+            "1. Slick Feet: You ignore difficult terrain. Additionally, you ignore any Stealth penalties from moving on noisy surfaces.",
+            "2. Easy Step: You can attempt to move through a space as narrow as 1 inch wide by making a DC 10 Finesse check.",
+            "3. Slip Grip: You can make action escape attempts from grapples and restrains as a bonus action. Additionally, you gain an expertise die on Athletics checks to climb surfaces that are normally slippery.",
+            "4. Flowing Motion: Your Slip Grip now allows you to escape grapples and restrains as a free action, and the climbing expertise die it grants increases to a d6.",
+            "5. Slidestride: Your Speed increases by 10'. Addiionally, your charged attacks gain +1 AB and deal 1d6 additional force damage.",
+            "6. Unsticking: Your Slidestride's Speed bonus increases to 20', and its charged attack damage bonus increases to 2d6.",
+            "7. Surface Walk: You can move across vertical surfaces and ceilings as if they were horizontal floors, so long as you move at least 10' along it. You fall if you end your movement on one of these surfaces. Additionally, you reduce incoming bludgeoning harm from falling by 50% and suffer no penalties for falling up to 20'.",
+            "8. Slick Mastery: Your Surface Walk no longer requires 10' of movement.",
+            "9. Frictionless Step: Whenever you roll for initiative, you can enter a frictionless state for the remainder of combat. In this state, you gain flying speed equal to your Speed but cannot hover, so you must move 10+' on your turn while flying or fall, you gain immunity to the grappled and restrained conditions, and melee attacks made against you have disadvantage. After this effect ends, you gain a level of fatigue until you take a short or long rest.",
+            "10. Absolute Slip: Your Frictionless Step now lasts until you take a short or long rest."
+        ]
+    },
+    {
+        "theme": "projecting a sphere of blood",
+        "tiers": [
+            "1. Hematic Spark: Once per short rest, as a free action, you can form a palm-sized ball of coagulated blood that hovers beside you, which lasts for 1 minute. Whenever you are targeted by a melee attack while the spark is active, you may consume the spark to reduce the attack's success tier by 1.",
+            "2. Sticky Mantle: As a free action, you can press your Hematic Spark onto a willing creature, consuming it and granting that creature advantage on its next Stealth check it makes in the next minute.",
+            "3. Crimson Lash: As a free action, you can reform your Hematic Spark into a whip-like tendril that lashes at a creature within 30' of you, causing 1d4 necrotic harm and forcing the target to make a save, reducing their Speed by 5' for 1 round on a fail. You can do this a number of times equal to your proficiency bonus before it consumes your spark.",
+            "4. Hardened Shell: Your Hematic Spark default behaviour now reduces an attack's success tier by 2, and can now also apply to ranged attacks.",
+            "5. Sanguine Ward: You can expand your Hematic Spark into a sphere of swirling blood that envelops a creature you touch as a free action, consuming the spark. That creature gains temporary HP equal to 1d8 + your proficiency bonus and half cover for 1 minute.",
+            "6. Life Tap: Your Crimson Lash's necrotic harm increases to 1d6, and you regain HP equal to half the harm it causes.",
+            "7. Hematic Grasp: While a creature is affected by your Sanguine Ward, you can use a free action to have them make a save, becoming restrained by coagulated tendrils on a fail until it passes a passive save. While restrained in this way, a creature suffers 1d4 ongoing necrotic harm and you gain temporary HP equal to the harm caused by this.",
+            "8. Blood Mirror: Whenever you would take damage while your Hematic Spark is active or you are within its Sanguine Ward, you can reduce the damage dealtby 1d12, and you gain temporary HP equal to the amount reduced. Every time you use this within a single instance of your spark reduces the die size by 1 (stops functioning after d4).",
+            "9. Sanguine Storm: As a free action, you can consume your Hematic Spark to unleash a 20' sphere of blood centred on you. Each foe in that area suffers 1d4 necrotic harm and must make a save, becoming blinded for 1 round on a fail. You regain HP equal to half the necrotic harm caused.",
+            "10. Sovereign of Sanguine Flesh: Your Sanguine Storm's necrotic harm increases to 1d6, the radius increases to 30', and after its blinded condition ends on a creature, that creature becomes restrained for a further 1 round."
+        ]
+    },
+    {
+        "theme": "being empowered by your temperance",
+        "tiers": [
+            "1. Calm Focus: While you are sober and not under the effect of any behaviour-altering condition, you have advantage on Insight checks and whenever you would be frightened, make a save, ignoring the condition on a success.",
+            "2. Patient Reserve: Every turn you end having not used either your standard action, bonus action, or moving, you gain a Temperance Charge (maximum 3). All Charges are lost when you take a long rest.",
+            "3. Tempered Recovery: Whenever you use hit dice to heal during a short rest, before you roll it, you may expend a Temperance Charge to double the healing received.",
+            "4. Steady Gains: Your maximum Temperance Charges increases to 5.",
+            "5. Measured Defence: Whenever you are targeted by an attack, you can expend a Temperance Charge to reduce its success tier by 1. You can expend Charges this way a number of times between long rests equal to your proficiency bonus.",
+            "6. Quiet Clarity: Once per long rest, when you roll for initiative, you can enter a quiet state for the remainder of combat. In this state, you cannot lose concentration against your will and whenever you would be charmed or frightened, make a save, ignoring the condition on a success.",
+            "7. Tempered Strike: Whenever you make a damaging attack, you can expend a Temperance Charge to add 1d8 psychic damage to its damage, and on a hit, the arget gets disadvantage on its next attack roll before the end of its next turn. You can expend Charges in this way a number of times between long rests equal to half your proficiency bonus.",
+            "8. Serene Bastion: Whenever you would be reduced to 0 HP, you can expend up to 3 Temperance Charges to remaing at 1 HP and grant temporary HP to you and allies within 10' equal to the number of Charges spent times 6. Additionally, whenever an affected creature would be frightened in the next round, they make a save, ignoring the condition on a success.",
+            "9. Temperance Mastery: Your maximum Temperance Charges increases to 7, and whenever you expend any, you may choose one of the following additional benefits to occur at the same time: regain 6 HP; reduce the next attack roll against you by 1d4; or if you are currently affected by your Quiet Clarity, you can extend its duration until your next rest.",
+            "10. Equilibrium Exemplar: Once per long rest, when you roll for initiative with 3+ Temperance Charges, you can expend 3 Charges to assume Equilibrium for the remainder of combat. While doing so, you gain immunity to the charmed and frightened conditions, gain 50% resistance to all damage, and whenever you hit with an attack, you recover HP equal to 1d12 + your level + your proficiency bonus."
+        ]
+    },
+    {
+        "theme": "controlling the battlefield",
+        "tiers": [
+            "1. Sticky Step: Whenever you leave a space, you can leave faint adhesive in it. The next time a foe enters that space, it becomes sluggish for 1 round.",
+            "2. Trailing Snag: Whenever you score a melee hit or push a creature, you gain advantage on the first opportunity attack you make against it before the end of your next turn.",
+            "3. Pulling Thread: Whenever a creature within 30' of you begins to move, you can force it to make a save. On a fail, you reduce its relevant speed by up to 15' and after it finishes moving may shift up to half that reduced distance towards the creature.",
+            "4. Tether: Instead of shifting towards a creature with your Pulling Thread, you can instead push the creature 10'.",
+            "5. Webbed Ground: Once per short or long rest as a free action, you can creature a 15' radius area of difficult terrain centred on a point within 60' for 1 minute. Creatures you designate ignore this difficult terrain.",
+            "6. Snare: Your Webbed Ground is now a persistent zone that forces affected creatures to make a save, becoming restrained for 1 round on a fail and sluggish for 1 round on a success.",
+            "7. Iron Lattice: As a free action, you can weave an iron lattice across a 30' cone, requiring your concentration and lasting for up to 1 minute. The lattice is a persistent zone that causes 1d4 slashing harm to foes and forces them to make a save, becoming restrained on a fail and sluggish on a success, both until passive save. As a free action on each of your turns while maintaining the lattice, you can move the lattice up to 15' in any direction.",
+            "8. Commanding Weave: Whenever a creature gets a 5 or less on its save against your Iron Lattice, you may also push it up to 20'.",
+            "9. Anchor of Command: Whenever you push a creature with your Commanding Weave, you may instead teleport the target to any unoccupied space within 60' of it.",
+            "10. Master Web: As a free action, you can create a 60' radius web on the ground centred on you that lasts 24 hours. While inside the web, you and allies halve the distance of any pushes against you, and the entire area counts as your Webbed Ground for foes."
+        ]
+    },
+    {
+        "theme": "resisting sin",
+        "tiers": [
+            "1. Steady Mind: Whenever you would be charmed or taunted, make a save, ignoring the condition on a success.",
+            "2. Moral Anchor: Whenever you finish a long rest affected by a behaviour-modifying effect, its effects are suppressed until your next long rest.",
+            "3. Act of Abstinence: Once per long rest, you can spend a minute reflecting on your values to remove a behaviour-modifying effect from you.",
+            "4. Clear Conscience: Whenever you would be frightened, make a save, ignoring the condition on a success.",
+            "5. Hardened Habit: Whenever you are targeted by a will attack, you can choose to reroll the attack roll once.",
+            "6. Shielded Reputation: You have advantage on Charisma checks made to refute slander or manipulation that would lead others to distrust you because of rumours of moral failing.",
+            "7. Purified Resolve: Once per long rest, when you resist a charm or taunt with your Steady Mind, recover HP equal to your level.",
+            "8. Fortified Temper: Whenever your Purified Resolve heals you, you also end the charmed or taunted condition on an ally within 30'.",
+            "9. Aegis of Principle: You are immune to the charmed and taunted conditions (your Purified Resolve still triggers when an effect would attempt to charm or taunt you).",
+            "10. Transcendent Temperance: Whenever a creature would attempt to charm or taunt you, you gain 50% resistance to psychic damage for 1 minute."
+        ]
+    },
+    {
+        "theme": "causing explosions",
+        "tiers": [
+            "1. Scintillant Chip: Once per short rest, on hit, you can cause a small burst of heat and light that makes the attack deal 1 additional fire damage and ignites any flammable object the target is carrying. While the target holds the burning object, they suffer 1 ongoing fire harm, but may drop them immediately when they first ignite.",
+            "2. Kinetic Spark: Whenever your Scintillant Chip triggers, you can can also push the target 5' away from you.",
+            "3. Ember Nudge: On major success, you cause a tiny explosive pop centred on the target, causing 1 fire harm to the target and all foes adjacent to it.",
+            "4. Hotter Embers: The explosion radius of your Ember Nudge increases to 10' and the fire harm increases to 2.",
+            "5. Flashburst Conduit: Once per short rest, you can replace your Ember Nudge's explosion with increasing the attack's damage by 2d6 fire damage, and if the triggering attack scored a critical success, the target is also blinded for 1 round.",
+            "6. Charged Shrapnel: Whenever you use your Flashburst Conduit, the target and foes within 10' of it also suffer 1d6 fire harm.",
+            "7. Volatile Chamber: Once per long rest, on hit, you can trigger a large explosion. The attack deals 4d6 additional fire damage and all other foes within 15' of the target suffer 1d10 fire harm and are pushed 5' away from the target.",
+            "8. Stabilised Core: You can now use your Volatile Chamber once per short rest, its attack damage bonus increases to 5d6, and its fire harm increases to 1d12.",
+            "9. Cataclysmic Pattern: All fire damage or harm inflicted by this glyph path is increased by 1 or 1 die size (for flat or die-based amounts, respectively) for every 2 levels you are beyond level 5. Additionally, any pushes caused by this glyph path are increased by 5'.",
+            "10. Supernova Seal: Your Volatile Chamber's explosion radius increases to 30', its attack damage bonus increases to 6d6, its fire harm increases to 3d4, and affected creatures must make a save, becoming debilitated for 1 round on a fail."
+        ]
+    },
+    {
+        "theme": "becoming a fire elemental",
+        "tiers": [
+            "1. Flicker of Warmth: You gain 50% resistance to cold damage, shed 10' of dim light, and as a free action you can warm a non-magical that you can hold in one hand such that it is comfortably warm for 1 hour. This allows your entire party to ignore the penalties of cold weather on your journey activities.",
+            "2. Tongue of Embers: You can use the Control Flames cantrip at-will, and gain an expertise die in Charisma checks while interacting with fire elementals.",
+            "3. Ember Affinity: Whenever you deal fire damage, you add 1d6 fire damage to it. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "4. Kindle Warmth: Your Flicker of Warmth now grants immunity to cold damage while you are not wearing heavy armour, and the dim light radius increases to 30'.",
+            "5. Cindersoul: You gain 50% resistance to fire damage. Additionally, whenever you take fire damage, you can convert half the amount taken into temporary HP to gain. You can do so a number of times between long rests equal to your proficiency bonus.",
+            "6. Deep Ember: Your Ember Affinity's damage bonus increases to 2d6, and it recharges on a short or long rest.",
+            "7. Avatar of Flame: Once per long rest, when you roll for initiative, you shapeshift into an avatar of sacred flame for the remainder of combat. In this form, you gain immunity to fire damage, you gain 40' of fly speed, your melee attacks deal 1d8 additional fire damage, and you project a 10' persistent zone that causes 1d6 fire harm to foes.",
+            "8. Phoenix Resilience: Your Cindersoul now grants immunity to fire damage. Additionally, once per long long rest when you would drop to 0 HP, you can instead remain at 1 HP.",
+            "9. Divine Ember Mantle: Your Flicker of Warmth now projects 30' of bright light before its 30' of dim. Additionally, you project a 10' persistent zone that causes 3d6 fire harm to foes, and you can cast Wall of Fire once per long rest. When you do so, all of its die sizes increase by 1.",
+            "10. Apotheosis of Flame: Your Divine Ember Mantle's fire harm increases to 6d6, and its Wall of Fire can now be cast once per short or long rest. Additionally, your Tongue of Embers' Control Flames has a range of 1 mile. Finally, you ignore the penalties of hot weather on your journey activities and are immune to environmental fire damage."
+        ]
+    },
+    {
+        "theme": "redirecting physical forces",
+        "tiers": [
+            "1. Tactile Nudge: On hit, you can impose one of the following effects on the target after the attack: push them 5' or force them to drop an object they are holding. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "2. Redirected Throw: Whenever you or a creature within 30' of you throws an object, you can alter the object's trajectory such that its new target is up to 5' away from its original one. You don't need line of sight to the new target of the throw. Using this feature expends a use of your Tactile Nudge.",
+            "3. Sweeping Vector: Your Tactile Nudge's push distance increases to 10'.",
+            "4. True Aim: Your Redirected Throw can now be used on creatures up to 60' away from you, and the target redirection range increases to 10'. Additionally, it no longer requires expending a use of Tactile Nudge.",
+            "5. Kinetic Cushion: Whenever you or a creature within 60' of you would take physical damage or suffer bludgeoning harm, you can halve that amount. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "6. Pendulum Grasp: Whenever you use your Kinetic Cushion, the target can make a save, completely nullifying the damage or harm on a success.",
+            "7. Vector Shift: Once per short rest, as a free action, you create a 15'-radius controllable directional field centred on a point within 120' of you, which lasts for 1 round. Whenever a creature within the field is attacked, you can grant the attack advantage. Once on each of your turns, you can shift a creature or object in the field up to 30' in a straight line. Whenever a creature within the field would take physical damage, you can delay up to 4 points of that damage (scales with your glyphic harm) until the end of the target's next turn, or as a free action on your turn you can release the stored force into a creature within 60' of you, causing force harm equal to half the damage stored.",
+            "8. Momentum Web: Whenever a creature within 120' of you would be forcibly moved, you can redirect up to 15' of that movement into a different straight-line direction of your choice. You may do this a number of times between long rests equal to half your proficiency bonus (rounded up).",
+            "9. Resonant Reversal: Your Vector Shift's radius increases to 30', its duration increases to 1 minute, and its maximum forced movement increases to 60'. Additionally, it can now be used twice per short rest.",
+            "10. Gravity Remaster: Once per long rest, as a free action, you can rewrite gravity in one of the following ways in a 60'-radius sphere centred on a point within 300' of you, which lasts for 1 minute. 1. Gravity is reversed within the sphere; 2. Creatures of your choice can walk and stand on any surfaces within the sphere, regardless of gravity; 3. Ranged attacks are debilitated within the sphere."
+        ]
+    },
+    {
+        "theme": "manifesting within reflections",
+        "tiers": [
+            "1. Glimmer Sight: You can see through reflective surfaces, up to 5' beyond the surface. Additionally, you have advantage on Perception checks for noticing details in reflections.",
+            "2. Mirror Echo: Once per long rest, you can cast Mirror Image on yourself.",
+            "3. Mirror Step: Once per short rest, you can step into a reflective surface (regardless of surface size) and step out of another within your line of sight within 15'.",
+            "4. Reflective Shard: Once per long rest, when you make a damaging attack, you can have your reflection aid the attack to add 3d6 psychic damage. If the attack scores a major success, the target also gets disadvantage on attack rolls for 1 round.",
+            "5. Echoed Mirror: You can now use your Mirror Echo twice between long rests, and when you do so, once per casting at any point during the spell's duration, you can have one of your duplicates cause 1d6 force harm to an adjacent creature as a free action.",
+            "6. Reflection Guardian: Once per long rest, when you roll for initiative, you can summon a Reflection Guardian drawn from your own reflection. It appears in an unoccupied space within 30' of you and requires your concentration as a CR 1 minion that deals force damage. It lasts for the remainder of combat, or until it dies.",
+            "7. Shimmering Dominion: Your Mirror Step's range increases to 60' and you can now use it twice between rests.",
+            "8. Mirrorworld Passage: Once per long rest, you may enter the reflection plane for up to 1 minute as a free action. While in this plane, you can be seen by material plane creatures only in material plane reflections, and can move through solid objects and creatures as if they were difficult terrain. You can only see into the material plane through reflective surfaces, up to 120' beyond them. After the duration, or when you end it early as another free action, you reappear in the nearest unoccupied space in the material plane.",
+            "9. Polished Ward: While you have line of sight to an adjacent reflective surface, you have +1 armour.",
+            "10. True Twin: Your Reflection Guardian now lasts for 1 hour after being summoned, and it increases to CR 2."
+        ]
+    },
+    {
+        "theme": "controlling hearts",
+        "tiers": [
+            "1. Whisper of Affection: Whenever a creature within 10' of you would be frightened, it makes a save, ignoring the condition on a success.",
+            "2. Pulse of Trust: You gain an expertise die in Persuasion, which is a d6 if you are persuading a creature that considers you an ally.",
+            "3. Heartbeat Sense: You can passively sense the surface thoughts of all cratures within 30' of you, as per the Detect Thoughts spell.",
+            "4. Strengthened Affection: Your Whisper of Affection extends to 30', and allies who succeed on its save also gain temporary HP equal to your level.",
+            "5. Deepened Trust: Once per long rest, when you roll for Persuasion against a creature that is not hostile towards you, you may roll with advantage.",
+            "6. Command of Passion: Once per long rest, as a free action, you can force a creature within 60' of you to make a save, becoming charmed by you for 1 minute on a fail.",
+            "7. Bond of the Heart: Once per long rest, as a free action, you can form a bond with a willing creature that lasts until your next long rest. While bonded, you both gain +1 to all defences while within 30' of each other.",
+            "8. Sovereign of Hearts: You are immune to being charmed, and creatures charmed by you are instead dominated.",
+            "9. Strengthened Heart: You can now use your Bond of the Heart twice between long rests, allowing you to have 2 bonds at a time. Additionally, you and your bonded creatures can telepathically communicate while within 60' of each other.",
+            "10. Perfected Passion: You can now use your Command of Passion twice between long rests, and creatures that succeed on its save are frightened of you for 1 round."
+        ]
+    },
+    {
+        "theme": "manipulating your memory",
+        "tiers": [
+            "1. Blurred Recall: Whenever you make a History or Insight check, you may roll with advantage, but must discard the higher roll if it exceeds 15.",
+            "2. Forgotten Truth: Attacks against you from Divination spells have disadvantage.",
+            "3. Selective Forgetting: Once per long rest, you can choose to lose one of your skill proficiencies and replace it with a new one. This lasts until you finish a long rest.",
+            "4. Deepened Selection: Your Selective Forgetting now allows you to replace up to two proficiencies at once.",
+            "5. Veil of Amnesia: Whenever a creature would succeed in using a Divination spell on you, they must first pass a DC 15 Magiscience check, or only receive vague, fragmented impressions rather than clear ones.",
+            "6. Strengthened Veil: Creatures automatically fail the Magiscience check from your Veil of Amnesia.",
+            "7. Memory Lock: Once per long rest, as a free action, you can touch a creature and force it to make a save. On a fail, you lock away its memory of a specific event, detail, or ability until the target's next long rest.",
+            "8. Expanded Lock: You can now either touch up to 2 creatures with your Memory Lock, or lock away up to 2 memories from a single creature.",
+            "9. Eternal Forgetting: You are immune to all forms of Divination, including non-spell sources such as the vision of omnipotent beings.",
+            "10. Absolute Forgetting: As a free action at-will, you may permanently remove one of your skill proficiencies, replacing it with a permanent +4 bonus to that skill's ability score."
+        ]
+    },
+    {
+        "theme": "drawing power from a titan",
+        "tiers": [
+            "1. Stonehide: Once per short rest, as a free action, you can gain 50% resistance to bludgeoning damage for 1 round.",
+            "2. Thunderstep: You gain 5' of Speed.",
+            "3. Greater Stonehide: Your Stonehide now grants physical resistance instead.",
+            "4. Greater Thunderstep: Your Thunderstep's Speed bonus increases to 10', and you ignore difficult terrain caused by rubble or stone.",
+            "5. Titan's Grip: The Grapple and Shove maneuvers don't impose disadvantage on your attacks against targets smaller than you.",
+            "6. Voice of the Colossus: You gain advantage on Intimidation checks and can cast the Thaumaturgy cantrip at-will.",
+            "7. Colossal Might: Once per long rest, when you roll for initiative, you can channel titanic power for the remainder of combat. During this time, you gain +2 weapon AB and damage, and your melee reach increases by 5'.",
+            "8. Earthshaker: Once per long rest, when you land from a height of 10+', all foes within 10' of you must make a save, being knocked prone on a fail.",
+            "9. Skybreaker: Once per long rest, you can imbue a thrown attack you make with titanic power, causing it to deal 4d8 additional thunder damage. You can throw a melee weapon for the purposes of this power even if it doesn't have the Thrown trait.",
+            "10. Worldstride: Once per long rest, you can cast Teleport for free."
+        ]
+    },
+    {
+        "theme": "entertaining",
+        "tiers": [
+            "1. Stage Presence: You gain advantage on Busk journey activity checks.",
+            "2. Encore: Once per long rest, you can reroll a Busk journey activity check.",
+            "3. Captivating Presence: As a free action, you can start performing for up to 1 minute. Choose up to 3 creatures within 30' who can perceive you. They must succeed on a save or be charmed until your performance ends.",
+            "4. Enhanced Presence: You gain an expertise die in Busk journey activity checks.",
+            "5. Resonant Emotion: While performing with your Captivating Presence, affected creatures also feel a strong emotion of your choice. This influences their mood.",
+            "6. Improved Encore: You can now use your Encore twice between long rests.",
+            "7. Command Performance: While performing with your Captivating Presence, affected creatures cannot make attacks. Your performance ends if any of them are hurt during your performance.",
+            "8. Improved Emotion: You can replace the charm effect of your Captivaitng Presence with frighten.",
+            "9. Grand Maestro: The range of your Captivating Presence increases to 60', and creatures charmed by it are friendly towards you.",
+            "10. Improved Performance: Creatures charmed by your Captivating Presence are also dominated."
+        ]
+    },
+    {
+        "theme": "remembering lost power",
+        "tiers": [
+            "1. Whisper of Memory: Once per long rest, you can add a +1 bonus to any ability check, after you roll it.",
+            "2. Faded Spark: Choose any cantrip. Once per long rest, you can cast that cantrip, governed by any ability.",
+            "3. Resonant Recall: Your Whisper of Memory now grants a +2 bonus and can be used twice between long rests.",
+            "4. Lingering Flame: You can now use your Faded Spark cantrip at-will, and once per long rest you can cast it as if it were 2 level tiers higher.",
+            "5. Fragment of Power: Choose any 1st-level spell. Once per long rest, you can cast that spell, governed by any ability.",
+            "6. Echoing Strength: Your Whisper of Memory now grants a +3 bonus and can be used thrice between long rests.",
+            "7. Awakening Surge: Once per long rest, as a free action, you can gain advantage on all attack rolls and saves, and any ability checks that you are proficient or have expertise dice in. This effect lasts for 1 minute.",
+            "8. Restored Flame: Your Your Faded Spark cantrip can now be cast as if you were 17th level once per combat, instead of its previous uptiering effect.",
+            "9. Legacy Unbound: Choose any 3rd-level spell. Once per long rest, you can cast that spell, governed by any ability.",
+            "10. Eternal Echo: You can use your Awakening Surge twice between long rests, and whenever you use it, you recover either half your missing exertion or your highest-level expended spell slot."
+        ]
+    },
+    {
+        "theme": "creating bronze",
+        "tiers": [
+            "1. Spark of Alloy: Once per long rest, you can conjure a palm-sized lump (500g) of raw bronze. 100 of these (50kg) can be sold for 1gp. Alternatively, any weapon that deals damage with a metal component can be augmented by a blacksmith for 1gp and one of these bronze lumps, permanently increasing that weapon's base damage die size by 1 and granting it the Scaling (+1) trait.",
+            "2. Bronze-Touched Skin: You gain resistance to acid damage equal to your level.",
+            "3. Molten Memory: Once per long rest, as a free action, you can conjure a one-handed bronze weapon of any type that deals damage with a metal component. This weapon lasts until you next take a rest, and is identical to a regular version of the weapon type, except that it is augmented by your Spark of Alloy and attacks with it ignore resistance and immunity.",
+            "4. Echo of the Forge: Your Spark of Alloy augment now increases base damage die size by 2 and the trait added becomes Scaling (+2).",
+            "5. Alloy Ascendant: Your Spark of Alloy now conjures 10 times as much bronze (5kg).",
+            "6. Living Alloy: As a free action, you can animate 5kg of bronze into a small CR 1 construct minion (requires your concentration to maintain) that deals bludgeoning damage. It lasts until it dies or you take a rest.",
+            "7. Bronze Bastion: Once per long rest, as a free action, you can conjure a bronze shield. The shield lasts until you next take a long rest and behaves like a regular shield, but provides 1 additional armour.",
+            "8. Bronze Bulwark: Your Bronze Bastion shield now also grants immunity to ranged weapon damage.",
+            "9. Bronze Colossus: Once per long rest, as a free action, you can manifest a large CR 10 construct minion (requires your concentration to maintain) that deals bludgeoning damage. It lasts until it dies or you take a rest.",
+            "10. Eternal Alloy: Your Spark of Alloy augment now increases base damage die size by 3 and the trait added becomes Scaling (+3)."
+        ]
+    },
+    {
+        "theme": "creating things out of sand",
+        "tiers": [
+            "1. Graincall: As a free action, you can conjure sand at-will, at a rate of 2L per round.",
+            "2. Desert's Trinket: As a free action, you can shape sand into a small, fragile trinket that lasts for 1 hour before crumbling. You design how it looks, and it doesn't need to look like it is made of sand, though touching it reveals its true nature.",
+            "3. Glassborn: As a free action, you can fuse sand into crude glass objects, which are functional but fragile. They last for 24 hours before disappearing.",
+            "4. Sandshaper's Grip: As a free action, you can form sand into any item that could be found in an adventuring kit.",
+            "5. Glassborn Refined: Objects created by your Glassborn now last indefinitely, and are made of standardly-durable glass.",
+            "6. Duneform Sentinel: Once per long rest, when you roll for initiative, you can create a small CR 1/4 construct minion (requires your concentration to maintain) in a space adjacent to you. It lasts until it dies or the combat ends.",
+            "7. Glassheart Relic: As a free action, you can create flawless glass foci, which last until destroyed or they leave your party. While held in a single hand, the wielder gains +1 to spell AB.",
+            "8. Sandshaper's Bastion: Once per long rest, as a free action, you can form sand into a wall up to 10' long and high and up to 1' thick. They last for 1 hour and provide half cover.",
+            "9. Sandshaper's Dominion: As a free action, you can create permanent sand structures. They remain until destroyed.",
+            "10. Duneform Colossus: Your Duneform Sentinel is now Huge and has a CR of 7. Additionally, it lasts until it dies or you next take a long rest."
+        ]
+    },
+    {
+        "theme": "controlling your own physicality",
+        "tiers": [
+            "1. Flexed Form: Whenever you would become grappled, make a save, ignoring the condition on a success.",
+            "2. Controlled Breath: You can hold your breath for up to 15 minutes, and you reduce incoming harm and damage from gases by 50%.",
+            "3. Muscle Memory: You gain an expertise die in one Strength or Dexterity skill of your choice.",
+            "4. Improved Control: You no longer need to breathe and are now completely unaffected by harmful gases.",
+            "5. Surge of Flesh: Once per long rest, when you roll for initiative, you may reshape your body for the remainder of combat. During this time, you gain your choice of +2 Fortitude or +2 Reflex.",
+            "6. Resilient Hide: You gain 1 armour while not wearing heavy armour.",
+            "7. Improved Flex: Fortitude attacks made against you have disadvantage.",
+            "8. Perfected Physique: You gain 50% resistance to bludgeoning damage.",
+            "9. Improved Hide: Your Resilient Hide's armour bonus increases to +2.",
+            "10. Transcendent Physique: You gain 50% resistance to physical damage and whenever you use your Surge of Flesh, you gain temporary HP equal to triple your level."
+        ]
+    },
+    {
+        "theme": "controlling water bubbles",
+        "tiers": [
+            "1. Bubble Breath: As a free action while underwater, you can create a small bubble of air that lasts for 1 minute. The bubble is large enough for a creature to breathe comfortably while holding it to their face (requires one hand to do so).",
+            "2. Bubble Bounce: Once per long rest, you can reduce the fall damage a creature within 60' of you would take by 1d6.",
+            "3. Improved Breath: Your Bubble Breath bubble is now large enough for a Medium creature to fit inside completely, allowing it to breathe normally for up to 10 minutes without any hands used.",
+            "4. Bubble Step: For a total of 10 minutes between long rests, you gain 20' of flying speed while you are within 10' of a water source.",
+            "5. Bubble Shield: Once per short rest, when you roll for initiative, you may surround yourself with a thin bubble for the remainder of combat. During this time, you have +1 armour.",
+            "6. Bubble Prison: Once per long rest, as a free action, you can conjure a bubble of water around a creature within 30' of you. The target must pass a save or be restrained for 1 minute.",
+            "7. Improved Shield: Your Bubble Shield now also grants 50% resistance to bludgeoning damage.",
+            "8. Improved Prison: Your Bubble Prison can now be used on two different creatures at once as part of the same use. Additionally, its duration increases to 10 minutes.",
+            "9. Bubble World: Once per long rest, as a free action, you can create a bubble of oxygenated water up to a 30' sphere centred on a point within 60' of you. It lasts for 1 hour. While inside, creatures can breathe and move as if underwater.",
+            "10. Improved Step: Your Bubble Step can now be used for a total of 1 hour between long rests, grants 40' of flying speed, and no longer requires proximity to water."
+        ]
+    },
+    {
+        "theme": "becoming the embodiment of celebration",
+        "tiers": [
+            "1. Spark of Merriment: Whenever an ally within 10' of you would become frightened, it makes a save, ignoring the condition on a success. A creature can only make this save once per long rest.",
+            "2. Echo of Laughter: Whenever a non-armour attack scores a minor success or worse against you, allies within 10' of you gain temporary HP equal to your level.",
+            "3. Toast of Triumph: Once per short rest, when you or an ally within 30' of you scores a critical success, the attacker regains HP equal to your level plus your proficiency bonus.",
+            "4. Greater Merriment: There is no longer a limit to how often a creature can benefit from your Spark of Merriment.",
+            "5. Dance of Delight: Once per long rest, when you roll for initiative, you may being a magical dance for the remainder of combat. During this time, allies within 30' of you gain advantage on armour and will attacks while you are within their line of sight.",
+            "6. Greater Laughter: Your Echo of Laughter now grants temporary HP equal to double your level.",
+            "7. Festival's Fortune: Once per long rest, when you complete a short rest, you and up to 5 allies who took the short rest with you regain either 3 spell slot levels or 3 exertion (chosen by each creature).",
+            "8. Greater Triumph: Whenever your Toast of Triumph triggers, you and all allies within 30' of you are healed instead of just the attacker.",
+            "9. Eternal Jubilee: You cannot be frightened or charmed, and whenever an ally within 30' of you would receive either of those conditions, it makes a save, ignoring the condition on a success.",
+            "10. Greater Delight: Your Dance of Delight now lasts for 10 minutes, grants allies immunity to being charmed, and now grants advantage with all attacks."
+        ]
+    },
+    {
+        "theme": "producing hallucinogenic pheromones",
+        "tiers": [
+            "1. Whisper of Bloom: Creatures adjacent to you have disadvantage on Insight checks against your Deception checks.",
+            "2. Lingering Aroma: Your Whisper of Bloom's range increases to 10'.",
+            "3. Veil of Petals: Creatures charmed by you perceive harmless illusions, granting them a -1 penalty to all ability checks.",
+            "4. Fragrant Mirage: You can now choose for your Veil of Petals illusions to obscure small objects or create harmless illusory terrain features within a 10' cube around the charmed creature.",
+            "5. Dreaming Breath: Once per long rest, as a free action, you can exhale a cloud of pheromones in a 15' cone. Creatures in that area must make a save or be charmed by you for 1 minute.",
+            "6. Deep Bloom: Your Dreaming Breath's cone increases to 30' and affected creatures have disadvantage on attacks while charmed by it.",
+            "7. Perfume of Reverie: Whenever an ally within 10' of you would become frightened, it makes a save, ignoring the condition on a success.",
+            "8. Perfume of Ecstasy: Allies within your Perfume of Reverie range are now immune to being frightened.",
+            "9. Hallucinatory Dominion: Creatures charmed by you are also dominated.",
+            "10. Eternal Bloom: Once a creature is charmed by you, it remains so until it takes a long rest, unless it is hurt by you or your allies after the charm's original duration."
+        ]
+    },
+    {
+        "theme": "drawing power from planets",
+        "tiers": [
+            "1. Planet's Endurance: You gain 50% resistance to environmental damage.",
+            "2. Planet's Vitality: Your maximum HP increases by 6.",
+            "3. Planet's Pull: Once per long rest, when you roll for initiative, you can manipulate gravity around you for the remainder of combat. During this time, foes within 10' of you treat the ground as difficult terrain and ranged weapon attacks passing through that area have disadvantage.",
+            "4. Greater Endurance: You are immune to the penalties of weather on your journey activities.",
+            "5. Greater Vitality: The HP bonus from your Planet's Vitality increases to 22.",
+            "6. Planet's Dominion: The first time a foe is within 10' of you while your Planet's Pull is active, you can force it to make a save, becoming restrained for the remainder of combat on a fail.",
+            "7. Planet's Insight: Your will increases by 1.",
+            "8. Supreme Endurance: You gain 50% resistance to physical damage.",
+            "9. Planet's Radiance: Allies within 30' of you gain +1 to all defences against spell attacks.",
+            "10. Supreme Vitality: The HP bonus from your Planet's Vitality increases to 56. Additionally, once per long rest, when you would drop to 0 HP, instead remain at 1 HP."
+        ]
+    },
+    {
+        "theme": "drawing power from allies",
+        "tiers": [
+            "1. Kindred Spark: Whenever you finish a short rest alongside an ally, you gain temporary HP equal to your level.",
+            "2. Warmth of Company: Whenever you gain temporary HP from Kindred Spark, one ally of your choice who finished the rest with you gains the same temporary HP.",
+            "3. Shared Footing: While within 10' of an ally, you gain +1 reflex.",
+            "4. Echoed Momentum: While within 10' of an ally, you gain +1 to initiative rolls.",
+            "5. Heartlink: Once per long rest, when you roll for initiative, you can forge a magical bond between yourself and up to 2 willing creatures within 30' of you for the remainder of combat. During this time, whenever one linked creature takes damage, another linked creature of your choice gains 50% resistance to the next instance of damage it takes before the end of their next turn.",
+            "6. Strengthened Bonds: Creatures linked by your Heartlink also have +1 armour.",
+            "7. Fellowship's Resilience: Once per long rest, when you are hit by an attack, you can choose to downgrade it one success tier if an ally is in your line of sight.",
+            "8. Circle of Trust: Whenever an ally within 10' of you would be charmed or frightened, it makes a save, ignoring the condition on a success.",
+            "9. Soulbound Triumph: Whenever you or an ally within 30' of you scores a critical success or killing blow, you may choose up to 3 creatures within 30' of that creature. Each chosen creature gains temporary HP equal to your level plus your proficiency bonus and may immediately shift up to 10'.",
+            "10. Unbreakable Bond: Once per long rest, when you or an ally within 30' of you would be reduced to 0 HP, they drop to 1 HP instead. When you do this, you and all allies within 30' of you gain 50% damage resistance until the end of your next turn."
+        ]
+    },
+    {
+        "theme": "growing pincer claws",
+        "tiers": [
+            "1. Chitin Knuckles: Your hands develop hardened chitin plates, granting you a natural weapon that deals 1d4 + STR slashing damage. This natural weapon has the Angled (smaller), Deadly, Rapid, and Returning traits.",
+            "2. Grasping Spur Growth: Using the Grapple maneuver does not impose disadvantage on your Attack actions using your Chitin Knuckles.",
+            "3. Pincer Form: The base damage die of your Chitin Knuckles increases to 1d6. Additionally, when you attack a creature you are not grappling with them alongside the Grapple maneuver, the attack has advantage.",
+            "4. Crushing Pincer Strength: Your Chitin Knuckles attacks against targets grappled by you deal 1d6 additional bludgeoning damage.",
+            "5. Serrated Edges: Attacks with your Chitin Knuckles deal 1d6 additional slashing damage.",
+            "6. Rending Lock: While you are grappling a creature, your Chitin Knuckles attacks have +1 critical success range.",
+            "7. Adamantine Chitin: Attacks with your Chitin Knuckles ignore resistances.",
+            "8. Pincer Crush: Once per long rest, as a free action, you can cause 1d8 bludgeoning harm to a creature you are grappling and force it to make a save. On a fail, the target is restrained until the start of your next turn. This power's cooldown is recharged whenever you score a killing blow with your Chitin Knuckles.",
+            "9. Hardened Carapace Joints: You gain +1 AB with attacks made with your Chitin Knuckles, and their base damage die increases to 1d8. Additionally, they gain the Scaling (+1) trait.",
+            "10. Apex Predator Clamp: The restrain from your Pincer Crush now lasts as long as the grapple does, and while restraining a creature in that way, attacks with your Chitin Knuckles deal 2d6 additional slashing damage."
+        ]
+    },
+    {
+        "theme": "bestowing power unto allies",
+        "tiers": [
+            "1. Spark of Sharing: As a free action, a creature within 30' of you gains +1 to the next ability check they make before the start of your next turn.",
+            "2. Echo of Aptitude: Whenever you use your Spark of Sharing, you can apply the bonus to the target's next save instead.",
+            "3. Gift of Momentum: Whenever you grant your Spark of Sharing to a creature, they also gain +5' of Speed until the start of your next turn.",
+            "4. Gift of Precision: Whenever you grant your Spark of Sharing to a creature, they also gain a +1 bonus to their next attack roll before the start of your next turn.",
+            "5. Mantle of Empowerment: Once per long rest, when you roll for initiative, choose up to 3 creatures within 30' of you to gain one of the following benefits (your choice for each target) for the remainder of combat: +1 armour, +10' of Speed, or advantage on the next save they make.",
+            "6. Mantle Expansion: Your Mantle of Empowerment now affects up to 5 creatures.",
+            "7. Radiant Delegation: Whenever you use a power that affects only yourself and doesn't require concentration, you may choose another creature within 30' of you to also gain that power's effects.",
+            "8. Delegation Mastery: Your Radiant Delegation can now duplicate effects that require concentration. You maintain concentration on both effects at the same time.",
+            "9. Apotheosis of the Many: Once per turn, when you apply a beneficial effect to an ally, you may choose another ally within 30' of you to receive the same benefit.",
+            "10. Benefactor Ascendant: Your Mantle of Empowerment now lasts indefinitely. You can change the bonus granted to each creature whenever you roll for initiative."
+        ]
+    },
+    {
+        "theme": "creating fire armour",
+        "tiers": [
+            "1. Cinder Mantle: While unarmoured, your base armour is 1. While armoured, you ignore the penalties of cold weather on your journey activities.",
+            "2. Ember Ward: Whenever a creature hits you with a melee attack, it suffers 1 fire harm.",
+            "3. Searing Rebuke: Your Ember Ward's fire harm increases to 1d4, and is also triggered by hits from ranged attacks from attackers within 30' of you.",
+            "4. Aegis of the Inferno: Once per long rest, when you roll for initiative, you can ignite a full suit of flame armour around yourself for the remainder of combat, immediately gaining temporary HP equal to your level plus your proficiency bonus. During this time, you also shed 20' of bright light and 20' of dim, you project a 5' persistent zone that causes 1 fire harm to foes, and your melee attacks deal 1d6 additional fire damage.",
+            "5. Tempered Aegis: Your Aegis of the Inferno's temporary HP bonus increases to your level plus double your proficiency bonus, and its persistent zone harm increases to 1d4.",
+            "6. Flamebound Carapace: Your Cinder Mantle's unarmoured base armour increases to 2, and its armoured bonus also now grants 50% resistance to fire damage.",
+            "7. Inferno Reprisal: Your Ember Ward's fire harm increases to 2d8, and whenever it triggers, you may choose to also push the attacker 10' away from you.",
+            "8. Eternal Flameplate: You gain immunity to fire damage, gain 50% resistance to cold damage, and no longer need to breathe.",
+            "9. Pyroclastic Bulwark: You gain 50% resistance to physical damage, which becomes immunity while your Aegis of the Inferno is active.",
+            "10. Incandescent Ascendant: Your Aegis of the Inferno now lasts for 10 minutes, its persistent zone harm increases to 2d8, and once per activation of the feature, you can unleash a flare nova as a free action. When you do so, all foes within 20' of you suffer 5d4 fire harm."
+        ]
+    },
+    {
+        "theme": "shapeshifting into water forms",
+        "tiers": [
+            "1. Rippleflesh: You can hold your breath for 1 hour, you gain 50% resistance to cold damage, your jump distance increases by 5', and you can squeeze through spaces as if 1 size smaller.",
+            "2. Watery Grasp: When interacting with unattended objects or using the Grapple maneuver as an action, you gain +5' of reach. Additionally, grapples you initiate count as if you were 1 size larger.",
+            "3. Brineheart: You gain immunity to disease, 50% resistance to acid damage, and can breathe underwater.",
+            "4. Flowform Shift: Once per long rest, as a free action, you can shapeshift into a Small water form for 10 minutes. In this form, you gain 20' of swimming speed, the ability to move through spaces as narrow as 1 inch without squeezing, and 50% resistance to bludgeoning damage, but you are silenced and cannot make weapon attacks or interact with objects using your hands.",
+            "5. Form Extension: Your Flowform Shift's duration increases to 30 minutes, and its swim speed becomes 30'.",
+            "6. Surge Step: Whenever you score a major success with a charged attack, you may push the target 10' away from you and knock it prone. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "7. Form Mastery: Your Flowform Shift now grants immunity to bludgeoning damage, allows you to move through hostile spaces, and replaces all your movement with shifting.",
+            "8. Tidal Veil: You gain half cover against ranged weapon attacks and can walk on water as if it were solid ground.",
+            "9. Ocean's Avatar: You gain 40' of swim speed, 50% resistance to physical damage, and can communicate simple ideas to water elementals when you speak.",
+            "10. Maelstrom Ascendant: Your Flowform Shift is now Medium-sized, and it grants the following additional benefits: 30' of fly speed and hovering, the first time on each of your turns that you enter a foe's space it suffers 2d8 bludgeoning harm and must pass a save or become restrained for 1 round, and you can move through solid objects and structures as if they were difficult terrain but you cannot end your turn inside one."
+        ]
+    },
+    {
+        "theme": "empowering your skin",
+        "tiers": [
+            "1. Skinbound: Your armour cannot be reduced while you are unarmoured, and its base value is 1.",
+            "2. Sensory Web: You gain 5' of blindsight.",
+            "3. Elastic Form: You can move through spaces as small as 6 inches wide without squeezing while not holding any objects or wearing anything but clothes.",
+            "4. Dermal Grip: You gain climbing speed equal to your Speed so long as you are not holding anything.",
+            "5. Upgraded Web: Your Sensory Web's blindsight increases to 15'.",
+            "6. Living Mantle: Once per long rest, when you roll for initiative, you can unfurl your skin into a protective mantle for the remainder of combat. When you do so, you gain temporary hit points equal to your proficiency bonus plus double your level. During this time, creatures that hit you with melee attacks suffer psychic harm equal to your proficiency bonus.",
+            "7. Skinshield: You gain 50% resistance to slashing damage.",
+            "8. Fleshflow: You can move through spaces as small as 1 inch wide without squeezing, even while equipped. Additionally, whenever you would become grappled or restrained, make a save, ignoring the condition on a success.",
+            "9. Upgraded Shield: Your Skinshield also grants 50% resistance to piercing damage.",
+            "10. Perfect Skinwoven: You gain immunity to slashing and piercing damage and weapon critical successs against you become major successs instead."
+        ]
+    },
+    {
+        "theme": "the balance of nature",
+        "tiers": [
+            "1. Seed of Balance: When you first gain this feature, choose to gain 50% resistance to either fire or cold damage.",
+            "2. Rooted Footing: You cannot be knocked prone by non-magical effects.",
+            "3. Cycle of Breath (weak): You can hold your breath for up to 30 minutes.",
+            "4. Balanced Metabolism: You reduce all journey gold costs by 1.",
+            "5. Predator's Precision: Once per turn, you may add a +2 bonus to an attack roll or a Stealth check.",
+            "6. Prey's Instinct: You gain a +2 bonus to your initiative.",
+            "7. Verdant Rebalance: Once per long rest, as a free action, you may release a pulse of natural equilibrium in a 20' radius, with one of the following effects of your choice: creatures of your choice regain 4d4 HP; creatures of your choice suffer 1d8 necrotic harm.",
+            "8. Improved Rebalance: Verdant Rebalance's radius increases to 30', its healing increases to 4d6, and its harm increases to 2d6.",
+            "9. Avatar of Cycles: Whenever you roll for initiative, choose a creature within 60' of you. For 1 roudn, it gains your choice of 50% vulnerability or 50% resistance to a damage type of your choice.",
+            "10. Nature's Fulcrum: You gain immunity to poison and disease, and once between long rests when you would drop to 0 HP, instead remain on 1."
+        ]
+    },
+    {
+        "theme": "rotating parts of your body",
+        "tiers": [
+            "1. Spiral Flexion: Whenever you would become grappled or restrained, make a save, ignoring the condition on a success. Additionally, you gain +5' of reach for the purposes of interacting with objects.",
+            "2. Torque Grip: You gain +1 to Finesse, and cannot have disadvantage on ability checks utilising your hands.",
+            "3. Revolving Stride: You gain +5' of Speed and ignore difficult terrain caused by rubble, undergrowth, or clutter.",
+            "4. Upgraded Flexion: Your Spiral Flexion's save now also works for the prone condition. Additionally, whenever you would be pushed, you may halve the distance you are pushed.",
+            "5. Gyroscopic Core: You are now immune to becoming prone or being pushed against your will.",
+            "6. Upgraded Grip: Your unarmed attacks deal 1d4 additional bludgeoning damage.",
+            "7. Cyclonic Unwind: Once per long rest, as a free action, you spin your entire body at impossible speed, creating a 10' radius swirl of kinetic pressure. Foes in this area suffer 1d4 bludgeoning harm and must make a save, being pushed 10' away from you on a fail.",
+            "8. Upgraded Stride: Your Revolving Stride's Speed bonus increases to 10', and once per short rest, you can take the Dash action as a bonus action.",
+            "9. Helical Anatomy: You gain 50% resistance to bludgeoning damage and can squeeze to fit through spaces as narrow as 3 inches wide.",
+            "10. Upgraded Core: Whenever you would be knocked prone or pushed against your will, you can instead reflect that ignored effect back onto its source, where possible."
+        ]
+    },
+    {
+        "theme": "controlling brainwaves",
+        "tiers": [
+            "1. Synaptic Sensitivity: You have advantage on Insight checks made to determine a creature's emotional state.",
+            "2. Neurostatic Dampening: Attacks attempting to sense your emotions or read your thoughts have disadvantage.",
+            "3. Theta Pulse Reading: As an action, you learn whether a creature within 30' of you is hostile, neutral, or friendly towards you.",
+            "4. Theta Pulse Refinement: Whenever you use your Theta Pulse Reading, you also learn the target's current dominant emotion.",
+            "5. Cerebral Lock: Once per short rest, as a free action, you can emit a focused brainwave towards a creature within 60'. It must make a save, becoming debilitated until the start of your next turn on a fail.",
+            "6. Lock Intensification: Creatures that pass their save against your Cerebral Lock are slowed until the start of your next turn.",
+            "7. Neural Interference: You have +1 to defences against attacks from creatures within 10' of you.",
+            "8. Neurocrown Overdrive: You gain 50% psychic resistance and creatures have disadvantage on their saves against your Cerebral Lock.",
+            "9. Interference Amplification: Your Neural Interference now grants +2 to defences and its range increases to 20'.",
+            "10. Mindwave Dominion: Whenever you would debilitate a creature with your Cerebral Lock, you may choose to dominate it for 1 round instead."
+        ]
+    },
+    {
+        "theme": "controlling colloids",
+        "tiers": [
+            "1. Particulate Sense: You instinctively detect suspensions, gels, foams, and emulsions within 30' of you and learn whether they are magical or hazardous.",
+            "2. Rheological Grip: Creatures of your choice within 10' of you treat non-solid environmental substances, such as mud, water, or fog, as difficult terrain.",
+            "3. Colloidal Dominion: As a free action, you can reshape, solidify, liquefy, or disperse suspensions, gels, foams, and emulsions within 60' of you.",
+            "4. Rheological Mastery: Your Rheological Grip now has a 15' range and affected creatures must make a save whenever they attempt to move through affected areas. On a fail, their Speed becomes 0 for the remainder of their turn.",
+            "5. Microstructure Stability: Whenever you would be pushed or knocked prone, make a save, ignoring the effect on a success.",
+            "6. Enhanced Sense: Your Particulate Sense's range increases to 60', and it now reveals precise qualities of the substance, including magical signatures and chemical details.",
+            "7. Colloidal Shield: As a free action, gain temporary HP equal to triple your proficiency bonus. You can do so a number of times between long rests equal to your proficiency bonus.",
+            "8. Colloid Construct: Once per long rest, as a free action, you can create a colloid construct, a CR 1/8 construct minion that requires your concentration to maintain. It lasts for 1 minute, or until it dies. Additionally, it can squeeze through spaces as narrow as 1 inch.",
+            "9. Reinforced Shield: Whenever you gain temporary HP from your Colloidal Shield, you gain your choice of 50% bludgeoning, piercing, or slashing resistance while you have that temporary HP.",
+            "10. Perfect Suspension: You gain 50% physical resistance, can move through spaces as narrow as 1 inch without squeezing, and are immune to the grappled, restrained, and staggered conditions."
+        ]
+    },
+    {
+        "theme": "channeling magical matter",
+        "tiers": [
+            "1. Arcane Residue Sense: You detect the presence of non-equipment magic within 10' of you. You can distinguish the location of each magical effect and differentiate between them, but nothing more about them.",
+            "2. Residue Absorption: Whenever you finish a short rest, you gain 1 Residue until you finish a long rest.",
+            "3. Matterweaver Bolt: As a free action, you can expend 1 Residue to fire a condensed mote of magical matter at a creature within 60' of you. The target suffers 2d4 force harm.",
+            "4. Bolt Stabilisation: Your Matterweaver Bolt now causes 3d4 force harm.",
+            "5. Arcane Coalescence: Your Residue Absorption now grants you 2 Residue.",
+            "6. Matterweaver Shield: Whenever you are about to take damage, you may expend 1 Residue to gain 11 temporary HP that lasts until your next turn.",
+            "7. Bolt Intensification: Your Matterweaver Bolt now causes 5d4 force harm, and its target is also pushed 5' away from you.",
+            "8. Matter Compression: Your Residue Absorption now grants you 3 Residue.",
+            "9. Arcane Singularity: Whenever you use your Matterweaver Bolt, you may expend 1 additional Residue to cause all creatures of your choice within 10' of the target to be pushed up to 5' towards the target.",
+            "10. Perfect Conduit: You now roll your Matterweaver Bolt's harm with advantage and are immune to force damage."
+        ]
+    },
+    {
+        "theme": "writing and drawing psychically",
+        "tiers": [
+            "1. Whisper Ink: As a free action, you can impress faint markings onto any object or structure's surface within 10' of you. The markings can be no larger than a 15cm square, last for 1 hour, and are faint, like chalk.",
+            "2. Steady Script: Your Whisper Ink's range increases to 30'.",
+            "3. Mind Quill: As a free action, you can erase, move, reshape, or rewrite your Whisper Ink markings while within range of them.",
+            "4. Script Sense: You always know the exact location of any of your Whisper Ink markings within 1km. Additionally, you can see through them as if they were your own eyes, but only in greyscale.",
+            "5. Living Lines: As an action, you can animate one of your Whisper Ink markings within 60' of you to form a Tiny, weightless construct for 10 minutes. You can only have one at a time. It cannot act in combat, but has 1 armour, 6 HP, and 20' Speed. You can command it telepathically to move, carry objects up to 2kg, or interact with its environment.",
+            "6. Upgraded Lines: Your Living Lines now last up to 1 hour, and can carry up to 9kg.",
+            "7. Psychic Engraving: Your Whisper Ink markings can now be etched into any non-magical object or structure's surface as though carved with a chisel. They are permanent unless erased with your Mind Quill.",
+            "8. Script-Ward: Whenever you create a Psychic Engraving, you may ward it. The first time a creature other than you touches or damages the warded marking it suffers 2d8 psychic harm.",
+            "9. Reality Ink: Once per long rest, you can cast the Glyph of Warding spell.",
+            "10. Upgraded Ink: Your Reality Ink is upcast to 5th level, and it becomes invisible to all creatures except those you designate."
+        ]
+    },
+    {
+        "theme": "becoming a halfling",
+        "tiers": [
+            "1. Smallfolk Stature: You are one size smaller and gain advantage on checks to hide behind creatures at least one size larger than you.",
+            "2. Lucky Spark: Once per long rest, upon rolling a natural 1 on an attack, ability check, or save, you may reroll the die.",
+            "3. Nimble Step: Your Speed increases by 5' and opportunity attacks have disadvantage against you.",
+            "4. Improved Spark: You can now use your Lucky Spark twice between long rests.",
+            "5. Improved Step: Your Nimble Step now increases your Speed by 10' and you ignore difficult terrain.",
+            "6. Impossible Escape: Once per short rest, when you are hit by an attack, you may teleport up to 15' to an unoccupied space. If your new location breaks line of sight from the attacker, the attack critically fails.",
+            "7. Legendary Luck: You can now use your Lucky Spark to reroll any d20 roll, even after learning the result (but not the consequences) of the roll.",
+            "8. Hearth-bound Resilience: Your will increases by 1.",
+            "9. Uncanny Hearth-sense: You gain 50% resistance to environmental damage and advantage on initiative rolls.",
+            "10. Small but Unbreakable: You gain immunity to being frightened, cannot be moved against your will, and once per long rest when you would drop to 0 HP, you may remain on 1 HP instead."
+        ]
+    },
+    {
+        "theme": "controlling magma",
+        "tiers": [
+            "1. Emberstone Skin: You gain fire resistance equal to your proficiency bonus, and can safely touch non-magically-heated objects up to 250 degrees.",
+            "2. Cinderstep: You ignore non-magical difficult terrain made of earth, sand, or stone. Additionally, your footsteps leave harmless glowing cinders that fade after 1 minute. This impacts your stealth.",
+            "3. Hardened Crust (weak): Your Emberstone Skin's resistance becomes double your proficiency bonus, and the safe heat increases to 650 degrees.",
+            "4. Magma Pulse: Whenever you deal bludgeoning damage, you deal 1d4 additional fire damage.",
+            "5. Obsidian Shards: When hit by a melee attack, your attacker suffers 2d6 slashing harm.",
+            "6. Eruption Pulse: Your Magma Pulse's fire damage increases to 1d8, and whenever you score a critical hit with bludgeoning damage, all foes adjacent to you suffer 1d6 fire harm.",
+            "7. Volcanic Command: Once per long rest, when you roll for initiative, choose a point on the ground within 60' to be the centre of a 10' radius persistent zone of molten and unstable earth for the remainder of combat. The zone is difficult terrain and causes 1d4 fire harm to foes.",
+            "8. Razorstorm: Your Obsidian Shards harm increases to 4d6, and whenever it triggers you may create a 10' line of shards from you that causes 1d4 slashing harm to foes.",
+            "9. Coreheart: You gain 50% resistance to fire damage, are immune to environmental fire damage (including from lava) which allows you to ignore the penalties of hot weather on your journey activities, and you automatically succeed on death saves.",
+            "10. Sovereign of the Deepfire: You can now use your Volcanic Command twice between long rests, and its radius increases to 15', its harm increases to 1d8, and while standing inside it, you have 50% resistance to all damage except for psychic, your damaging melee attacks deal +1d8 fire damage, and you cannot be moved against your will."
         ]
     }
 ]

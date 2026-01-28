@@ -44,34 +44,3 @@ type Crystal struct {
 	Passives []string `json:"passives"`
 	Powers   []string `json:"powers"`
 }
-
-type SimulationWeights struct {
-	Dungeon int `json:"dungeon"`
-	Hunt    int `json:"hunt"`
-	Journey int `json:"journey"`
-	Puzzle  int `json:"puzzle"`
-}
-
-type SimulationAffixes struct {
-	Positive []SimulationAffix `json:"positive"`
-	Negative []SimulationAffix `json:"negative"`
-}
-
-type SimulationAffix struct {
-	Description     string   `json:"description"`
-	Display         string   `json:"display"`
-	SimulationTypes []string `json:"simulationTypes"`
-}
-
-type Craft struct {
-	Name        string `json:"name"`
-	Description string `json:"description"`
-	Tier        int    `json:"tier"`
-	Upgrade     string `json:"upgrade"`
-	Rank        int
-}
-
-type Fumble struct {
-	Trigger string `json:"trigger"`
-	Effect  string `json:"effect"`
-}

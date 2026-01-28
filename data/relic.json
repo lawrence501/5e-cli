@@ -1,6 +1,6 @@
 [
     {
-        "name": "Quick Step",
+        "name": "Quickstep Socks",
         "startingAffixes": [
             {
                 "description": "on melee attack, gain +5' speed for 1 round",
@@ -82,7 +82,7 @@
                 "upgrade": "+1 and 3pts distributed/1"
             },
             {
-                "description": "3. +1 critical hit range with spells",
+                "description": "3. +1 critical success range with spells",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "name": "Leathers of the Phantom Mire",
+        "name": "Cloak of the Phantom Mire",
         "startingAffixes": [
             {
                 "description": "you gain feet of Speed equal to your level",
@@ -176,7 +176,7 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. on init, recover 2 spell slot levels",
+                "description": "1. on initiative, recover 2 spell slot levels",
                 "pointValue": "3",
                 "upgrade": "+1/1"
             },
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "name": "Leathers of the Midday Hunt",
+        "name": "Cloak of the Midday Hunt",
         "startingAffixes": [
             {
                 "description": "+2 outgoing healing",
@@ -273,7 +273,7 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "+2 Dexterity and maximum Dexterity",
+                "description": "+2 Dexterity",
                 "pointValue": "4",
                 "upgrade": "+1/2"
             }
@@ -377,7 +377,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "+1 critical hit range with spells",
+                "description": "+1 critical success range with spells",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             }
@@ -394,12 +394,12 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. +1 critical hit range",
+                "description": "3. +1 critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
             {
-                "description": "4. +1 melee critical hit range",
+                "description": "4. +1 melee critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -429,9 +429,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "your weapon attacks deal +1d4 fire damage",
+                "description": "foes within 60' of you cannot heal",
                 "pointValue": "3",
-                "upgrade": "+1 die size/1"
+                "upgrade": "whenever a foe within 60' would try to heal, they suffer +6 necrotic harm instead/1"
             }
         ],
         "thematicAffixes": [
@@ -441,9 +441,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. foes within 60' of you cannot heal",
+                "description": "2. your weapon attacks deal +1d4 fire damage",
                 "pointValue": "3",
-                "upgrade": "whenever a foe within 60' would try to heal, they suffer +6 necrotic harm instead/1"
+                "upgrade": "+1 die size/1"
             },
             {
                 "description": "3. +1 passive regeneration",
@@ -468,7 +468,7 @@
         ]
     },
     {
-        "name": "Marked",
+        "name": "Marked Stone",
         "startingAffixes": [
             {
                 "description": "your ranged attacks have double range",
@@ -508,7 +508,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "5. +1 ranged critical hit range",
+                "description": "5. +1 ranged critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -585,14 +585,14 @@
                 "upgrade": "-1/4"
             },
             {
-                "description": "+1 critical hit range with your first weapon attack of each combat",
+                "description": "+1 critical success range with your first weapon attack of each combat",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 weapon critical hit range",
+                "description": "1. +1 weapon critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -624,7 +624,7 @@
         ]
     },
     {
-        "name": "Feasting Baron's Cloth",
+        "name": "Feasting Baron's Cloak",
         "startingAffixes": [
             {
                 "description": "creatures have -1 to passive saves against your effects",
@@ -706,7 +706,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. +1 spell critical hit range while you have an active minion",
+                "description": "3. +1 spell critical success range while you have an active minion",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
@@ -780,7 +780,7 @@
         ]
     },
     {
-        "name": "Plate of the Tranquil Mind",
+        "name": "Cloak of the Tranquil Mind",
         "startingAffixes": [
             {
                 "description": "when hit, attacker and all foes adjacent to them become sluggish for 1 round",
@@ -859,7 +859,7 @@
             {
                 "description": "2. you count as an undead creature",
                 "pointValue": "1",
-                "upgrade": "+1 armour vs undead/2"
+                "upgrade": "+1 armour vs creatures of the same type as you/2"
             },
             {
                 "description": "3. whenever you roll maximum damage on a melee attack, the target must make a save, taking 1d8 additional necrotic damage on a fail",
@@ -897,16 +897,16 @@
                 "upgrade": "+1 die size/1"
             },
             {
-                "description": "+1 ranged damage",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "description": "+1 ranged armour AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
             }
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 ranged armour AB",
-                "pointValue": "4",
-                "upgrade": "+1/4"
+                "description": "1. +1 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
             },
             {
                 "description": "2. +1 incoming healing",
@@ -914,7 +914,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. +1 ranged critical hit range",
+                "description": "3. +1 ranged critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -936,7 +936,7 @@
         ]
     },
     {
-        "name": "Celestial Leathers",
+        "name": "Celestial Cloak",
         "startingAffixes": [
             {
                 "description": "+2 fire resistance",
@@ -988,7 +988,7 @@
         ]
     },
     {
-        "name": "Tyrant's Plate",
+        "name": "Tyrant's Cloak",
         "startingAffixes": [
             {
                 "description": "your non-damaging spells are always upcast 3 levels",
@@ -1008,9 +1008,9 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 STR and maximum STR",
-                "pointValue": "1",
-                "upgrade": "+1/1"
+                "description": "1. +1 Strength",
+                "pointValue": "2",
+                "upgrade": "+1/2"
             },
             {
                 "description": "2. your spells deal +3 non-physical damage to allies; 3pts distributed",
@@ -1040,10 +1040,10 @@
         ]
     },
     {
-        "name": "Cloth of Restoration",
+        "name": "Cloak of Restoration",
         "startingAffixes": [
             {
-                "description": "+1 INT and maximum INT",
+                "description": "+1 Intelligence",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -1132,12 +1132,12 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "5. +1 damage with Chaotic affixes",
+                "description": "5. +1 damage with chaotic affixes",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. whenever a damaging attack fails to hit you, heal 3 HP if you are above 0 HP",
+                "description": "6. whenever a damaging attack fails to hit you, heal 3 HP",
                 "pointValue": "1",
                 "upgrade": "+2/1"
             }
@@ -1199,7 +1199,7 @@
         "name": "Shroud of the Lightless",
         "startingAffixes": [
             {
-                "description": "+1 glyphic damage",
+                "description": "+1 glyphic harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -1216,12 +1216,12 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. glyph loot results cost -2 gold to purchase",
+                "description": "1. whenever you find a glyph in a loot roll, gain 2 gold",
                 "pointValue": "1",
-                "upgrade": "-1/1"
+                "upgrade": "+1/1"
             },
             {
-                "description": "2. gain glyphic damage equal to your bonus psychic damage",
+                "description": "2. gain glyphic harm equal to your bonus psychic damage",
                 "pointValue": "2",
                 "upgrade": "+1 psychic damage/1"
             },
@@ -1231,12 +1231,12 @@
                 "upgrade": "+2/1"
             },
             {
-                "description": "4. gain glyphic damage equal to your bonus cold damage",
+                "description": "4. gain glyphic harm equal to your bonus cold damage",
                 "pointValue": "2",
                 "upgrade": "+1 cold damage/1"
             },
             {
-                "description": "5. +3 glyphic damage in darkness",
+                "description": "5. +3 glyphic harm in darkness",
                 "pointValue": "1",
                 "upgrade": "+2/1"
             },
@@ -1308,12 +1308,12 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "on ranged critical hit, the attack pierces through the target",
+                "description": "on ranged critical success, the attack pierces through the target",
                 "pointValue": "1",
-                "upgrade": "+1 ranged critical hit range/4"
+                "upgrade": "+1 ranged critical success range/4"
             },
             {
-                "description": "+1 ranged critical hit range",
+                "description": "+1 ranged critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             }
@@ -1345,17 +1345,17 @@
                 "upgrade": "+2/1"
             },
             {
-                "description": "6. +1 critical hit range",
+                "description": "6. +1 critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             }
         ]
     },
     {
-        "name": "Guild Clothes",
+        "name": "Guild Cloak",
         "startingAffixes": [
             {
-                "description": "purchasing loot results costs -1 gold",
+                "description": "purchasing loot rolls costs -1 gold",
                 "pointValue": "1",
                 "upgrade": "-1/1"
             },
@@ -1397,7 +1397,7 @@
                 "upgrade": "+1 damage with ranged attacks that target multiple creatures/1"
             },
             {
-                "description": "6. +1 critical hit range with 1/combat powers",
+                "description": "6. +1 critical success range with 1/combat powers",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -1444,9 +1444,9 @@
                 "upgrade": "+5'/2"
             },
             {
-                "description": "5. on ranged hit, target makes a save, becoming rooted for 1 round on a fail",
+                "description": "5. on ranged hit, target makes a save, becoming grappled for 1 round on a fail",
                 "pointValue": "3",
-                "upgrade": "creatures have -1 to their saves vs the rooted condition from you/3"
+                "upgrade": "creatures have -1 to their saves vs the grappled condition from you/3"
             },
             {
                 "description": "6. on ranged hit, target's range is halved for 1 round",
@@ -1533,7 +1533,7 @@
                 "upgrade": "-1 slot OR +1 level and 4pts distributed/1"
             },
             {
-                "description": "2. your sphere AoEs are doubled in size",
+                "description": "2. your sphere areas are doubled in size",
                 "pointValue": "2",
                 "upgrade": "+1 multiplier/2"
             },
@@ -1543,7 +1543,7 @@
                 "upgrade": "+5'/2"
             },
             {
-                "description": "4. -1 spell critical hit range; 5pts distributed",
+                "description": "4. -1 spell critical success range; 5pts distributed",
                 "pointValue": "1",
                 "upgrade": "-1 and 5pts distributed/1"
             },
@@ -1563,17 +1563,17 @@
         "name": "Slime",
         "startingAffixes": [
             {
-                "description": "+3 hit thorns",
+                "description": "when hit, attacker suffers 3 acid harm",
                 "pointValue": "1",
                 "upgrade": "+2/1"
             },
             {
-                "description": "whenever you deal thorns damage, the target drops any items they are holding in a space 5' in a random direction",
+                "description": "whenever you cause thorns harm, the target drops any items they are holding in a space 5' in a random direction",
                 "pointValue": "1",
                 "upgrade": "+5'/1"
             },
             {
-                "description": "while you have 15+ Intelligence, your thorns damage is increased by 3",
+                "description": "while you have 20+ Intelligence, your outgoing thorns harm is increased by 3",
                 "pointValue": "1",
                 "upgrade": "+2/1"
             }
@@ -1620,21 +1620,21 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "+1 Dexterity and maximum Dexterity",
+                "description": "+1 Dexterity",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
             {
-                "description": "+2 damage vs bosses",
-                "pointValue": "2",
-                "upgrade": "+1/1"
+                "description": "2/combat, when a foe would inflict a condition on you while you already have a condition from a foe, you can ignore the new condition",
+                "pointValue": "4",
+                "upgrade": "at-will/4"
             }
         ],
         "thematicAffixes": [
             {
-                "description": "1. 2/combat, when a foe would inflict a condition on you while you already have a condition from a foe, you can ignore the new condition",
-                "pointValue": "4",
-                "upgrade": "at-will/4"
+                "description": "1. +2 damage vs bosses",
+                "pointValue": "2",
+                "upgrade": "+1/1"
             },
             {
                 "description": "2. +1 damage vs targets who are alone in combat",
@@ -1761,7 +1761,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. +1 spell critical hit range",
+                "description": "6. +1 spell critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             }
@@ -1840,7 +1840,7 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 Strength and maximum Strength",
+                "description": "1. +1 Strength",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -1855,7 +1855,7 @@
                 "upgrade": "+5'/2"
             },
             {
-                "description": "4. +1 weapon critical hit range",
+                "description": "4. +1 weapon critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -1872,7 +1872,7 @@
         ]
     },
     {
-        "name": "Legendary Mail",
+        "name": "Legendary Cloak",
         "startingAffixes": [
             {
                 "description": "+1 melee damage",
@@ -1880,7 +1880,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "+1 melee critical hit range",
+                "description": "+1 melee critical success range",
                 "pointValue": "4",
                 "upgrade": "+1/4"
             },
@@ -1897,7 +1897,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. your melee critical hits deal +1d4 lightning damage",
+                "description": "2. your melee critical successs deal +1d4 lightning damage",
                 "pointValue": "1",
                 "upgrade": "+1 die size/1"
             },
@@ -1907,7 +1907,7 @@
                 "upgrade": "+1 die size/1"
             },
             {
-                "description": "4. your melee critical hits splash 3 damage",
+                "description": "4. your melee critical successs splash 3 damage",
                 "pointValue": "1",
                 "upgrade": "+2/1"
             },
@@ -1979,19 +1979,19 @@
         "name": "Lucky Tooth",
         "startingAffixes": [
             {
-                "description": "1/SR, on going down, immediately heal 1 HP",
+                "description": "1/SR, when you would go down, immediately heal 1 HP",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "+3 poison resistance while in a persistent zone",
+                "description": "-3 incoming poison harm while in a persistent zone",
                 "pointValue": "1",
-                "upgrade": "+2/1"
+                "upgrade": "-2/1"
             },
             {
-                "description": "purchasing loot results costs -1 gold",
+                "description": "purchasing loot rolls costs -1 gold",
                 "pointValue": "1",
-                "upgrade": "+1/1"
+                "upgrade": "-1/1"
             }
         ],
         "thematicAffixes": [
@@ -2021,9 +2021,9 @@
                 "upgrade": "+4/1"
             },
             {
-                "description": "6. purchasing tarot loot results costs -2 gold",
+                "description": "6. whenever you find tarot cards in a loot roll, gain 2 gold",
                 "pointValue": "1",
-                "upgrade": "-1/1"
+                "upgrade": "+1/1"
             }
         ]
     },
@@ -2058,7 +2058,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. on ranged major hit, gain +2 ranged damage for 1 round",
+                "description": "3. on ranged major success, gain +2 ranged damage for 1 round",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2080,7 +2080,7 @@
         ]
     },
     {
-        "name": "Soldier's Plate",
+        "name": "Soldier's Cloak",
         "startingAffixes": [
             {
                 "description": "on killing blow, gain +4 weapon damage for 1 round",
@@ -2100,7 +2100,7 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. +2 weapon damage vs targets you are flanking",
+                "description": "1. +2 melee weapon damage vs targets you are flanking",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2120,12 +2120,12 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "5. on killing blow, gain +5 weapon damage vs targets you are flanking for 1 round",
+                "description": "5. on killing blow, gain +5 melee weapon damage vs targets you are flanking for 1 round",
                 "pointValue": "1",
                 "upgrade": "+5/1"
             },
             {
-                "description": "6. on killing blow, gain +1 weapon critical hit range for 1 round",
+                "description": "6. on killing blow, gain +1 weapon critical success range for 1 round",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -2214,7 +2214,7 @@
                 "upgrade": "+1 die size/1"
             },
             {
-                "description": "3. +1 Dexterity and maximum Dexterity",
+                "description": "3. +1 Dexterity",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -2236,7 +2236,7 @@
         ]
     },
     {
-        "name": "The Plate",
+        "name": "The Cloak",
         "startingAffixes": [
             {
                 "description": "your first melee attack each combat has +10' reach",
@@ -2261,9 +2261,9 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. upon scoring a critical hit against a boss, all first melee attack of the combat affixes on this item count now as the start of the combat",
+                "description": "2. upon scoring a critical success against a boss, all first melee attack of the combat affixes on this item count now as the start of the combat",
                 "pointValue": "2",
-                "upgrade": "upon scoring a critical hit against a boss, your next melee attack this combat deals +5 damage/1"
+                "upgrade": "upon scoring a critical success against a boss, your next melee attack this combat deals +5 damage/1"
             },
             {
                 "description": "3. your first melee attack each combat deals +4 damage",
@@ -2296,7 +2296,7 @@
                 "upgrade": "-1/4"
             },
             {
-                "description": "+1 Dexterity and maximum Dexterity",
+                "description": "+1 Dexterity",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -2360,7 +2360,7 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 glyphic damage",
+                "description": "1. +1 glyphic harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2395,9 +2395,9 @@
         "name": "Colossus",
         "startingAffixes": [
             {
-                "description": "on melee critical hit, gain +3 melee damage until you next deal melee damage",
+                "description": "on melee critical success, gain +3 melee damage until you next deal melee damage",
                 "pointValue": "1",
-                "upgrade": "+1/1"
+                "upgrade": "+2/1"
             },
             {
                 "description": "the effects of the Block action last 1 additional round",
@@ -2422,7 +2422,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "3. on melee critical hit, gain +2 melee damage for the remainder of combat",
+                "description": "3. on melee critical success, gain +2 melee damage for the remainder of combat",
                 "pointValue": "2",
                 "upgrade": "+1/1"
             },
@@ -2452,7 +2452,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "while your Intelligence is 15+, +1 bludgeoning damage",
+                "description": "while your Intelligence is 20+, +1 bludgeoning damage",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2464,7 +2464,7 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. while your Strength is 15+, +1 bludgeoning damage",
+                "description": "1. while your Strength is 20+ +1 bludgeoning damage",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2504,7 +2504,7 @@
                 "upgrade": "+5'/1"
             },
             {
-                "description": "on melee major hit, the target makes a save, becoming silenced for 1 round on a fail",
+                "description": "on melee major success, the target makes a save, becoming silenced for 1 round on a fail",
                 "pointValue": "3",
                 "upgrade": "creatures have -1 to their saves vs the silenced condition from you/3"
             },
@@ -2531,7 +2531,7 @@
                 "upgrade": "-1/3"
             },
             {
-                "description": "4. +2 damage with melee major hits",
+                "description": "4. +2 damage with melee major successs",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -2613,7 +2613,7 @@
                 "upgrade": "+1 die size/1"
             },
             {
-                "description": "+1 Strength and maximum Strength",
+                "description": "+1 Strength",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             }
@@ -2645,7 +2645,7 @@
                 "upgrade": "+1 fire damage/1"
             },
             {
-                "description": "6. +1 Dexterity and maximum Dexterity",
+                "description": "6. +1 Dexterity",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             }
@@ -2749,7 +2749,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "6. if your Intelligence is 15+, +1 ranged damage",
+                "description": "6. if your Intelligence is 20+ +1 ranged damage",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -2759,49 +2759,49 @@
         "name": "Forager",
         "startingAffixes": [
             {
-                "description": "+1 survival",
+                "description": "+1 medicine",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "+2 to your Hunt & Gather journey activity checks",
+                "description": "+2 to your Harvest journey activity checks",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
             {
-                "description": "on a Hunt & Gather journey activity standard success, you gain +1 Supply",
+                "description": "on a Harvest journey activity standard success, you gain +1 Supply",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             }
         ],
         "thematicAffixes": [
             {
-                "description": "1. on a Hunt & Gather journey activity critical success, you gain +2 Supply",
+                "description": "1. on a Harvest journey activity critical success, you gain +2 Supply",
                 "pointValue": "3",
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. whenever you gain Supply from the Hunt & Gather journey activity, you gain additional Supply equal to your bonus survival",
+                "description": "2. whenever you gain Supply from the Harvest journey activity, you gain additional Supply equal to your bonus medicine",
                 "pointValue": "4",
-                "upgrade": "+1 survival/1"
+                "upgrade": "+1 medicine/1"
             },
             {
-                "description": "3. while journeying with a sidekick, you gain +2 Supply whenever you gain Supply from the Hunt & Gather journey activity",
+                "description": "3. while journeying with a sidekick, you gain +2 Supply whenever you gain Supply from the Harvest journey activity",
                 "pointValue": "2",
                 "upgrade": "+1/1"
             },
             {
-                "description": "4. Tiny party members you are journeying with, including yourself, do not consume Supply",
+                "description": "4. Tiny party members you are journeying with, including yourself, do not consume gold or Supply on journeys",
                 "pointValue": "4",
                 "upgrade": "you are 1 size smaller/3"
             },
             {
-                "description": "5. +1 Hunt & Gather journey activity critical success range",
+                "description": "5. +1 Harvest journey activity critical success range",
                 "pointValue": "3",
                 "upgrade": "+1/3"
             },
             {
-                "description": "6. +2 to your survival checks to navigate",
+                "description": "6. +2 to your medicine checks to identify cause of death",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -2828,7 +2828,7 @@
         ],
         "thematicAffixes": [
             {
-                "description": "1. +1 incoming temporary HP equal to your bonus maximum HP",
+                "description": "1. gain incoming temporary HP equal to your bonus maximum HP",
                 "pointValue": "4",
                 "upgrade": "+4 maximum HP/1"
             },
@@ -2960,6 +2960,2740 @@
                 "description": "6. on using a non-attack standard action power, all adjacent foes gain -1 damage for 1 round",
                 "pointValue": "2",
                 "upgrade": "-1/2"
+            }
+        ]
+    },
+    {
+        "name": "Goat Pouch",
+        "startingAffixes": [
+            {
+                "description": "on melee attack, recover 1 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+2 slashing resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. if your Strength is 20+ your melee hits splash 1 damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 to melee armour attack rolls",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +1 fire absorption",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 lightning absorption",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 resistance vs armour attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 maximum exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Monk's Wellspring",
+        "startingAffixes": [
+            {
+                "description": "whenever you expend hit dice to recover exertion, recover 1 additional exertion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "as a free action once per turn, you can jump 5'",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "-5' run-up needed for a long/high jump",
+                "pointValue": "1",
+                "upgrade": "-5'/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. your unarmed attacks ignore resistances",
+                "pointValue": "4",
+                "upgrade": "+1 unarmed damage/1"
+            },
+            {
+                "description": "2. +1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. as an action, you can spend 3 exertion to cast the Blink spell",
+                "pointValue": "1",
+                "upgrade": "-1 cost/3"
+            },
+            {
+                "description": "4. +1 maximum exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. as a reaction at the end of your turn, you may end one Speed-impairing effect on you",
+                "pointValue": "3",
+                "upgrade": "whenever you do so, heal +4 HP/1"
+            },
+            {
+                "description": "6. as an action, you can spend 1 exertion to cast the Inflict Wounds spell. When cast in this way, Inflict Wounds' attack counts as a weapon attack.",
+                "pointValue": "1",
+                "upgrade": "+1 level upcast/1"
+            }
+        ]
+    },
+    {
+        "name": "Agility",
+        "startingAffixes": [
+            {
+                "description": "if your Dexterity is 20+ gain shield proficiency",
+                "pointValue": "3",
+                "upgrade": "+1 resistance while holding a shield/2"
+            },
+            {
+                "description": "while holding a shield, +1 resistance vs armour attacks that score minor successes against you",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on ranged attack, gain +5' Speed for the remainder of combat",
+                "pointValue": "4",
+                "upgrade": "+5'/4"
+            },
+            {
+                "description": "2. +2 ranged damage vs adjacent targets",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 damage with dart weapons",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 ranged damage while holding a shield",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. on ranged major success while holding a shield, target is sluggish until they pass a passive save",
+                "pointValue": "4",
+                "upgrade": "creatures have -1 to their saves vs the sluggish condition from you/4"
+            },
+            {
+                "description": "6. on ranged hit while holding a shield, you may jump 5' in any direction",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            }
+        ]
+    },
+    {
+        "name": "Windforce",
+        "startingAffixes": [
+            {
+                "description": "you can only equip this item if your Dexterity is 20+",
+                "pointValue": "0",
+                "upgrade": "+1 Dexterity/2"
+            },
+            {
+                "description": "if you have 20+ Strength, +1 critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+2 to your Force March journey activity checks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on ranged hit while you have 20+ Strength, push the target 5' away from you",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "2. on ranged major success, unleash a tornado in a space adjacent to you, a 5'x5' persistent zone that causes 2 bludgeoning harm to foes, lasts for the remainder of combat, and moves 5' in a random direction at the end of each turn",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +5' Speed",
+                "pointValue": "2",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "4. gain ranged damage equal to a third of your level",
+                "pointValue": "3",
+                "upgrade": "+1 experience gain/4"
+            },
+            {
+                "description": "5. on ranged hit, recover 1 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +1 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Megalomaniac",
+        "startingAffixes": [
+            {
+                "description": "every time you long rest, you gain a random chaotic affix until your next long rest",
+                "pointValue": "1",
+                "upgrade": "+1 damage with chaotic affixes/1"
+            },
+            {
+                "description": "-1 experience gain",
+                "pointValue": "-4",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "+3 passive regeneration",
+                "pointValue": "6",
+                "upgrade": "+1/2"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 fire absorption",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. you lose maximum HP equal to your level; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 experience gain and 5pts distributed/1"
+            },
+            {
+                "description": "3. you lose outgoing harm equal to a third of your level; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 experience gain and 5pts distributed/1"
+            },
+            {
+                "description": "4. +2 outgoing harm with effects you are concentrating on",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. you lose resistance equal to a quarter of your level; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 experience gain and 5pts distributed/1"
+            },
+            {
+                "description": "6. you lose damage with chaotic affixes equal to a third of your level; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 experience gain and 5pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Vessel of Strife",
+        "startingAffixes": [
+            {
+                "description": "+2 incoming temporary HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 1st-level spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot OR +1 level/3"
+            },
+            {
+                "description": "gain passive temporary HP generation equal to your bonus passive regeneration",
+                "pointValue": "1",
+                "upgrade": "+1 passive regeneration/2"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 psychic damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. your damaging spell attacks deal +1d4 psychic damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "3. +1 passive temporary HP generation",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. on killing blow, summon a Relic of Strife (requires concentration), a CR 1/4 construct minion that cannot attack. When it dies, it explodes, causing its melee attack's damage as psychic harm to all foes adjacent to it",
+                "pointValue": "4",
+                "upgrade": "+1 CR/2"
+            },
+            {
+                "description": "5. +1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. while you are adjacent to one of your minions, your damaging spell attacks deal +1d4 psychic damage",
+                "pointValue": "1",
+                "upgrade": "+1 die size/1"
+            }
+        ]
+    },
+    {
+        "name": "Electric Hunt",
+        "startingAffixes": [
+            {
+                "description": "+1d4 lightning damage to your attacks with bow weapons",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "on lightning thrown attack, your next attack with a bow weapon within the next round ignores lightning resistance",
+                "pointValue": "2",
+                "upgrade": "+1 lightning throwing damage/1"
+            },
+            {
+                "description": "on lightning attack with a bow weapon, your next thrown attack within the next round ignores lightning resistance",
+                "pointValue": "2",
+                "upgrade": "+1 lightning damage with attacks with bow weapons/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. if you have dealt damage with both an attack with a bow weapon and a thrown attack this combat, you have +5' Speed",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "2. +1d4 lightning damage to your thrown attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "3. +3 critical damage bonus with attacks with bow weapons",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. +1 damage with bow weapons",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. during the first round of combat, +1d6 lightning damage to your thrown attacks",
+                "pointValue": "1",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "6. +1 lightning damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Brewmaster's Buckle",
+        "startingAffixes": [
+            {
+                "description": "+2 healing from hit dice",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "gain resistance while bloodied equal to half your bonus maximum HP",
+                "pointValue": "3",
+                "upgrade": "+4 maximum HP/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 maximum hit dice",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. while you are missing hit dice, +5 resistance while bloodied",
+                "pointValue": "1",
+                "upgrade": "+5/1"
+            },
+            {
+                "description": "3. +1 resistance while bloodied",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. gain resistance while bloodied equal to your bonus healing from hit dice",
+                "pointValue": "3",
+                "upgrade": "+2->1 healing from hit dice/1"
+            },
+            {
+                "description": "5. +1 incoming healing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. -1 resistance while healthy; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Glorious Vanity",
+        "startingAffixes": [
+            {
+                "description": "whenever you lose temporary HP, lose 8 HP",
+                "pointValue": "-2",
+                "upgrade": "+4 and 2pts distributed/1"
+            },
+            {
+                "description": "gain incoming temporary HP equal to double your bonus maximum HP",
+                "pointValue": "8",
+                "upgrade": "+4 maximum HP/1"
+            },
+            {
+                "description": "-2 passive temporary HP generation",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on initiative, lose 5 temporary HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+5 and 2pts distributed/1"
+            },
+            {
+                "description": "2. whenever you would be healed above your maximum HP, gain 6 temporary HP",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "3. any healing you receive while you are on full HP is instead converted to temporary HP",
+                "pointValue": "1",
+                "upgrade": "+1 incoming healing/1"
+            },
+            {
+                "description": "4. all damage you take is converted to poison",
+                "pointValue": "1",
+                "upgrade": "+2->1 poison resistance/1"
+            },
+            {
+                "description": "5. +1 poison absorption",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +2 incoming temporary HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "The Squire",
+        "startingAffixes": [
+            {
+                "description": "+1 physical resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "attack advantage granted by your main hand weapon traits instead grants +5 AB",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your weapon proficiency is increased by 1 step",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. your weapons with the reach trait have +5' reach",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "2. your weapons with the non-lethal trait have +1 base damage die size",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 weapon armour",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. creatures restrained by your weapons with the restraining trait also have -1 resistance",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. your weapons with the returning trait have +1 AB with the repeated attack",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "The Taming",
+        "startingAffixes": [
+            {
+                "description": "+1 non-physical resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on critical success, target is staggered for 1 round",
+                "pointValue": "3",
+                "upgrade": "+1 critical success range/4"
+            },
+            {
+                "description": "on hit, target gets -1 resistance for 1 round",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on hit, target suffers 1 ongoing fire harm, stacking until they pass a passive save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +2 non-physical damage vs targets with a condition",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +2 outgoing non-physical harm vs targets with a condition",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. your damaging attacks against targets with a condition deal +1d4 cold damage",
+                "pointValue": "2",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "5. on critical success vs targets with a condition, all foes within 10' of the target suffer 2 lightning harm",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. on critical success, target gets -1 resistance for 1 round",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            }
+        ]
+    },
+    {
+        "name": "Silver Worm",
+        "startingAffixes": [
+            {
+                "description": "while adjacent to all members of your party, +1 unarmed AB",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "while adjacent to all members of your party, +3 unarmed damage",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "while adjacent to all members of your party, your unarmed attacks have -1 major success threshold",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 unarmed AB vs surprised creatures",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +5 unarmed damage vs surprised creatures",
+                "pointValue": "1",
+                "upgrade": "+5/1"
+            },
+            {
+                "description": "3. +1 unarmed damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 stealth",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. 1/combat, on unarmed major success, the target is Infested, a disease that gives +1 level of fatigue, until the target passes a passive save",
+                "pointValue": "3",
+                "upgrade": "creatures have -1 to their saves vs diseases from you/3"
+            }
+        ]
+    },
+    {
+        "name": "Antimagic Collar",
+        "startingAffixes": [
+            {
+                "description": "-2 spell damage",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "-1 spell AB",
+                "pointValue": "-5",
+                "upgrade": "-1 and 6pts distributed/1"
+            },
+            {
+                "description": "+10 weapon damage",
+                "pointValue": "10",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 weapon critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. your main hand weapon has +1 damage die size",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. -1 spell critical success range and 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "4. -1 spell base damage die size and 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "5. +1 non-physical resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 will",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Hand of the Tyrant",
+        "startingAffixes": [
+            {
+                "description": "+1d4 bludgeoning damage to your damaging weapon attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "on critical weapon hit, the target is debilitated for 1 round",
+                "pointValue": "4",
+                "upgrade": "+1 weapon critical success range/4"
+            },
+            {
+                "description": "+1 damage with Dexterity-governed weapons",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. +1 bludgeoning damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1d4 bludgeoning damage with your damaging, Dexterity-governed weapon attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "5. +1 resistance vs debilitated creatures",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +2 bludgeoning resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Warrior's Collar",
+        "startingAffixes": [
+            {
+                "description": "+1 melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your melee attacks deal +1d4 slashing damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "your melee powers cost -1 spell slot level or -1 exertion",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 damage with non-limited melee attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. on melee hit, target suffers 1 ongoing slashing harm, stacking until they pass a passive save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 critical success range with non-limited melee attacks",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. your melee hits splash 1 damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. -1 area damage; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "6. +1 melee slashing damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Raid Captain",
+        "startingAffixes": [
+            {
+                "description": "gain damage equal to a fifth of your bonus speed",
+                "pointValue": "3",
+                "upgrade": "+5' speed/2"
+            },
+            {
+                "description": "+1 damage",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +5' speed",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "2. your damaging have half range; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 multiplier and 4pts distributed/1"
+            },
+            {
+                "description": "3. +3 critical damage bonus",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. your hits splash 1 damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 damage while healthy",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. creatures that have been damaged by you since the start of your last turn make you recover 1 spell slot level or 1 exertion whenever they are critically hit",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Cloak of Judgement",
+        "startingAffixes": [
+            {
+                "description": "whenever you are hit by a creature within 30' of you, you can use your reaction to make a ranged spell will attack against them dealing 6 psychic damage",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "while conscious, you and allies within 10' of you have +1 damage",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "1/combat, as a bonus action, you can remove a condition from an ally within 30' of you",
+                "pointValue": "1",
+                "upgrade": "they are also healed +5 HP/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. 1/LR, you can cast Guiding Bolt",
+                "pointValue": "1",
+                "upgrade": "upcast +1 level/1"
+            },
+            {
+                "description": "2. 1/LR, you can cast Protection from Evil and Good",
+                "pointValue": "1",
+                "upgrade": "SR -> combat -> twice per combat/1"
+            },
+            {
+                "description": "3. 1/LR, you can cast Enhance Ability",
+                "pointValue": "2",
+                "upgrade": "upcast +1 level/1"
+            },
+            {
+                "description": "4. 1/LR, you can cast Hold Person",
+                "pointValue": "2",
+                "upgrade": "upcast +1 level/1"
+            },
+            {
+                "description": "5. 1/LR, you can cast Hypnotic Pattern",
+                "pointValue": "3",
+                "upgrade": "SR -> combat -> twice per combat/3"
+            },
+            {
+                "description": "6. 1/LR, you can cast Haste",
+                "pointValue": "2",
+                "upgrade": "upcast +1 level/1"
+            }
+        ]
+    },
+    {
+        "name": "Lightning Reflexes",
+        "startingAffixes": [
+            {
+                "description": "+1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "+1 AB for spells with the arcane subschool",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "whenever you cast a spell, you may attempt to conceal it by making a Stealth check (and a Deception check if it has a vocalised component) against the Perception of onlookers",
+                "pointValue": "1",
+                "upgrade": "+1 stealth/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +2 damage for spells with the arcane subschool",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. you can cast Dancing Lights at will",
+                "pointValue": "3",
+                "upgrade": "its radius increases by +5'/3"
+            },
+            {
+                "description": "3. your minions can all speak and understand common",
+                "pointValue": "3",
+                "upgrade": "+2->1 minion persuasion/1"
+            },
+            {
+                "description": "4. +1 critical success range for spells with the arcane subschool",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +1 resistance vs armour attacks while wearing unarmoured body armour",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. the damage of your spells with the arcane subschool ignores resistance",
+                "pointValue": "3",
+                "upgrade": "+2->1 damage for spells with the arcane subschool/1"
+            }
+        ]
+    },
+    {
+        "name": "Wavemother's Cloak",
+        "startingAffixes": [
+            {
+                "description": "on turn start, gain +1 resistance vs armour attacks until either you are hit or your next turn starts",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on turn start, gain -2 incoming fire harm until either you are hit or your next turn starts",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "on turn start, gain -1 incoming harm until either you are hit or your next turn starts",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on turn start, gain +2 fire resistance until either you are hit or your next turn starts",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. 1/LR, the player sitting to your right at the table can cast Warding Bond on you",
+                "pointValue": "1",
+                "upgrade": "upcast +1 level/1"
+            },
+            {
+                "description": "3. -2 incoming fire harm",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "4. -1 incoming harm",
+                "pointValue": "1",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "5. +2 fire resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. the player sitting to your right at the table has +3 fire resistance",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Boldness",
+        "startingAffixes": [
+            {
+                "description": "-2 investigation",
+                "pointValue": "-2",
+                "upgrade": "-1/1"
+            },
+            {
+                "description": "+1 Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 initiative",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 will",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +1 fortitude",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. whenever a will attack would score a critical success against you, downgrade it 1 success tier",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. -1 Wisdom; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 3pts distributed/1"
+            },
+            {
+                "description": "6. +1 initiative while you are at the front of the party",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Cloak of the Weave",
+        "startingAffixes": [
+            {
+                "description": "+1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "1/SR, as a reaction to being targeted by an attack dealing non-physical damage, reduce its success tier by 1 by Deflecting it",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "whenever you Deflect an attack, your next damaging spell attack deals +1d12 +1d4 damage of the Deflected attack's base type",
+                "pointValue": "1",
+                "upgrade": "+7 die sizes (+1d12 and extra goes up 1 size)/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 spell critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. +1 spell base damage die size",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. whenever you finish a long rest, gain inspiration",
+                "pointValue": "2",
+                "upgrade": "+10% for the inspiration to not be consumed on use/1"
+            },
+            {
+                "description": "4. whenever you Deflect an attack, your next damaging spell attack causes another foe of your choice within 10' of its target to suffer 9 force harm on a hit",
+                "pointValue": "1",
+                "upgrade": "+9/1"
+            },
+            {
+                "description": "5. whenever you roll a 1 on a spell damage die, it counts as a 2 instead",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 resistance",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "The Primordial Chain",
+        "startingAffixes": [
+            {
+                "description": "+1 minion AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "minion-related affixes on your other items have +1 numeric magnitude, ignoring polarity",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "-10 minion HP",
+                "pointValue": "-2",
+                "upgrade": "-5 and 2pts distributed/1"
+            }
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. whenever you summon a minion, you cannot summon other minion creature types until your next long rest; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-5 minion HP and 2pts distributed/1"
+            },
+            {
+                "description": "2. your minions are 1 size smaller",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. -2 minion damage; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "4. +5' minion speed",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "5. whenever you summon a minion, it gains 6 temporary HP",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "6. whenever your minion hits, it can shift 5'",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            }
+        ]
+    },
+    {
+        "name": "Restorative Locket",
+        "startingAffixes": [
+            {
+                "description": "while concentrating, you have +1 passive regeneration",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "1/LR, you can cast Healing Spirit",
+                "pointValue": "2",
+                "upgrade": "+1 level upcast/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 finesse",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 resistance while concentrating",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. healing and temporary HP granted by your persistent zones is increased by 2",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. whenever you heal a creature with an effect you are concentrating on, the effect also grants them 4 temporary HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "5. your Healing Spirit's duration is doubled",
+                "pointValue": "1",
+                "upgrade": "+1 multiplier/1"
+            },
+            {
+                "description": "6. while concentrating, you have +1 armour",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Whisper of the Brotherhood",
+        "startingAffixes": [
+            {
+                "description": "all cold damage you deal is converted to lightning",
+                "pointValue": "1",
+                "upgrade": "+1 lightning damage/1"
+            },
+            {
+                "description": "+1 damage",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on initiative, recover 2 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +2 cold resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +5' speed",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "4. +1d4 cold damage with your damaging attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "5. +1 critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +2 incoming temporary HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Spirit Xylem",
+        "startingAffixes": [
+            {
+                "description": "+1 Charisma",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "if you have 20+ Charisma, +4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "if you have 20+ Charisma, +1 1st-level spell slot",
+                "pointValue": "3",
+                "upgrade": "+1 slot OR +1 level/3"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 damage with Charisma-governed spells",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. your spells cost -1 spell slot level (minimum 1)",
+                "pointValue": "3",
+                "upgrade": "-1/3"
+            },
+            {
+                "description": "3. whenever you reduce your own HP, you retain 3 of that HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. while you have all of your highest-level spell slots, +4 spell damage vs bosses",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "5. while all of your highest-level spell slots are expended, +2 resistance vs bosses",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Call of the Tundra",
+        "startingAffixes": [
+            {
+                "description": "+1 passive regeneration",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "your melee attacks deal +1d4 cold damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "your non-attack standard action spells are always upcast 1 level",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. your outgoing debilitates are converted to staggers",
+                "pointValue": "1",
+                "upgrade": "+1 damage vs staggered targets/1"
+            },
+            {
+                "description": "2. all bludgeoning damage you deal is converted to cold",
+                "pointValue": "1",
+                "upgrade": "+1 cold damage/1"
+            },
+            {
+                "description": "3. all slashing harm you cause is converted to cold",
+                "pointValue": "1",
+                "upgrade": "+1 outgoing cold harm/1"
+            },
+            {
+                "description": "4. -5' push distance; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-5' and 3pts distributed/1"
+            },
+            {
+                "description": "5. +4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "6. whenever you stagger a creature, recover 2 HP",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Singularity",
+        "startingAffixes": [
+            {
+                "description": "+2 damage",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "-1 critical success range",
+                "pointValue": "-4",
+                "upgrade": "-1 and 5pts distributed/1"
+            },
+            {
+                "description": "your hits splash 3 damage",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 damage while not adjacent to any allies",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. +1 to your splashed damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 non-critical damage",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +2 damage while no allies are within 30' of you",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. your splashed damage travels +5' further",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "6. your damage dice have +1 to their minimum value",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Ravens' Rise",
+        "startingAffixes": [
+            {
+                "description": "+2 necrotic resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+5' minion speed",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "+2 minion spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. if your minions have moved 30+' since your last turn, they have +3 resistance",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "2. +2 lightning resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 physical resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +2 minion damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 necrotic absorption",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 damage with trap weapons",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Protector's Will",
+        "startingAffixes": [
+            {
+                "description": "+1 outgoing psychic harm",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "your spell attacks deal +1d4 psychic damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "on psychic spell hit, target suffers 1 ongoing fire harm, stacking until passive save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 fire spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. whenever you deal fire spell damage, a 15' cone erupts from you causing 1 psychic harm to foes",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +3 psychic damage vs bosses",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "4. your cone areas have +5' size",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "5. +1 psychic spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Onyx",
+        "startingAffixes": [
+            {
+                "description": "the first time between rests that you go down, make a save, ignoring the wound on a success",
+                "pointValue": "1",
+                "upgrade": "+1 time/1"
+            },
+            {
+                "description": "+1 resistance",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "the first time between rests that you go down, gain +2 resistance for the remainder of combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +2 necrotic resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 fortitude",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +1 to death saves",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. your areas are 5' larger if you haven't moved since the start of your last turn",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "5. the first time between rests that you would go down, gain 9 temporary HP, which is consumed as part of the effect taking you down, potentially keeping you above 0 HP",
+                "pointValue": "1",
+                "upgrade": "+9/1"
+            },
+            {
+                "description": "6. -4 maximum HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-4 and 2pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Tatzelwurm",
+        "startingAffixes": [
+            {
+                "description": "on critical success, target suffers 2 ongoing poison harm, stacking until it passes a passive save",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 critical success range vs targets suffering from ongoing harm",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "on hit, you can expend a spell slot to cause ongoing poison harm to the target equal to double the slot level, stacking until it passes a passive save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on hit, you can expend a spell slot to deal additional bludgeoning damage equal to a number of d6s equal to the slot level",
+                "pointValue": "1",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "2. whenever you or an ally within 60' deals bludgeoning damage, all foes within 60' of you suffer 1 poison harm",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. on your third critical success of each combat, recover 3 spell slot levels",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. each combat, you and allies within 60' of you have +1 critical success range until one of you scores a critical success",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. after the third time each combat you or allies within 60' of you are healed by passive regeneration, recover 1 spell slot level",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Revolutionary's Burial",
+        "startingAffixes": [
+            {
+                "description": "your Dexterity-governed weapons no longer add your Dexterity modifier to their base damage",
+                "pointValue": "-5",
+                "upgrade": "-1 weapon damage and 2pts distributed/1"
+            },
+            {
+                "description": "+2 Dexterity",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. if your Dexterity is 20+, your weapon attacks deal 1d4 additional lightning damage",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "2. +4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "3. +1 resistance vs reflex attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 maximum exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 charged AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. -1 to death saves; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/2"
+            }
+        ]
+    },
+    {
+        "name": "Perseverance",
+        "startingAffixes": [
+            {
+                "description": "allies within 60' of you have +1 damage during the first round of combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "allies within 60' of you have +1 resistance during the first round of combat",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "if you have scored 2+ weapon hits this combat, +2 resistance",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 passive regeneration",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "2. if you have scored 2+ weapon hits this combat, +1 weapon armour AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. if you have scored 2+ weapon hits this combat, +3 weapon damage",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. whenever an ally within 60' hits, it gains +1 damage for 1 round",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. whenever an ally within 60' hits, it gains +1 resistance for 1 round",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 maximum exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Shell of Tarrasque",
+        "startingAffixes": [
+            {
+                "description": "+1 passive regeneration",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "gain passive regeneration equal to a quarter of your bonus maximum HP",
+                "pointValue": "4",
+                "upgrade": "+4 maximum HP/1"
+            },
+            {
+                "description": "+1 Strength",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on intiative, recover 2 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 non-physical resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 incoming healing",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "6. -1 reflex; 5pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 5pts distributed/1"
+            }
+        ]
+    },
+    {
+        "name": "Mask of the Shapeshifter",
+        "startingAffixes": [
+            {
+                "description": "you count as all creature types",
+                "pointValue": "1",
+                "upgrade": "+1 armour vs creatures of the same type as you/2"
+            },
+            {
+                "description": "+1 Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "+1 deception",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +4 deception vs creatures of the same type as you",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "2. +2 deception while non-trivially pretending to be someone else",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. when targeted by an effect that targets certain creature types, you can choose exactly which types you count as for that effect",
+                "pointValue": "1",
+                "upgrade": "+1 will vs creatures of the same type as you/1"
+            },
+            {
+                "description": "4. 1/SR, if you have 20+ Charisma, you can decrease an incoming reflex attack by 2",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. +1 resistance while shapeshifted",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 Charisma",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Lunar Orb",
+        "startingAffixes": [
+            {
+                "description": "your ranged attacks are converted to line areas with length equal to the original range",
+                "pointValue": "3",
+                "upgrade": "+2->1 line area damage/1"
+            },
+            {
+                "description": "+1 cold damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 area damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on area hit, shed 5' of bright light for 1 round",
+                "pointValue": "1",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "2. at the start of each of your turns, your persistent areas push adjacent creatures 5' into them",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "3. on area hit, recover 1 spell slot level",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "4. +2 outgoing harm with persistent zones",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. at the start of each of your turns while you have a persistent zone active, recover 1 spell slot level",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "6. +5' maximum teleport distance",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            }
+        ]
+    },
+    {
+        "name": "Skyburst",
+        "startingAffixes": [
+            {
+                "description": "+1 area damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 lightning damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "ignore the 1st level of fatigue you have",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +2 resistance if you have scored an area critical success this combat",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1d4 lightning damage to your area attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "3. +1 fortitude",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +3 lightning damage while outdoors",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. +1 Intelligence",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. +1 lightning area AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Skywrath",
+        "startingAffixes": [
+            {
+                "description": "+1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "if your Intelligence is 20+, +1 ranged weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. your ranged weapon hits splash 1 damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +2 outgoing harm from persistent zones",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +5' persistent zone area",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "4. on spell hit, +1 resistance vs reflex attacks for the remainder of combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. on spell hit, +1 physical resistance for the remainder of combat",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "6. creatures have -1 to their saves vs the silenced condition from you",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+        ]
+    },
+    {
+        "name": "Scorching Wave",
+        "startingAffixes": [
+            {
+                "description": "on weapon hit, target suffers 1 ongoing fire harm, stacking until passive save",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "whenever you cause ongoing fire harm, it is also applied to foes within 5' of the target (doesn't chain)",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "+1d4 fire damage to your weapon attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 outgoing fire harm",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. gain outgoing fire harm equal to your bonus weapon fire damage",
+                "pointValue": "2",
+                "upgrade": "+1 weapon fire damage/1"
+            },
+            {
+                "description": "3. your weapon hits splash 1 damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 weapon fire damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. +1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 outgoing harm",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Pit Grit",
+        "startingAffixes": [
+            {
+                "description": "-2 weapon damage",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "on weapon hit, target is taunted for 1 round",
+                "pointValue": "4",
+                "upgrade": "+1 resistance vs taunted creatures/1"
+            },
+            {
+                "description": "while your exertion is below half, +2 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. the first time between rests that you would drop to 0 HP during your turn, instead remain at 1 HP",
+                "pointValue": "4",
+                "upgrade": "+1 time/4"
+            },
+            {
+                "description": "2. whenever you cheat death, gain 6 temporary HP",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "3. while your exertion is below half, you gain +2 resistance during your turn",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. whenever you spend exertion while your exertion is below half, a creature of your choice within 60' suffers 3 bludgeoning harm",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. whenever you spend exertion while your exertion is below half, all foes within 60' of you suffer 2 bludgeoning harm",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. whenever you spend exertion while your exertion is below half, recover 3 HP",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+        ]
+    },
+    {
+        "name": "Whirling Blades",
+        "startingAffixes": [
+            {
+                "description": "+3 weapon damage while dual-wielding",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "-2 base damage die size for your main hand weapon",
+                "pointValue": "-2",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "+2 weapon damage",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 weapon critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. +1 resistance vs armour attacks while dual-wielding",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. -1 base damage die size; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 and 2pts distributed/1"
+            },
+            {
+                "description": "4. your armour proficiency is decreased by 1 step; 4pts distributed",
+                "pointValue": "1",
+                "upgrade": "+1 and 4pts distributed/1"
+            },
+            {
+                "description": "5. on weapon critical success, the target gets -1 resistance for 1 round",
+                "pointValue": "2",
+                "upgrade": "-1/2"
+            },
+            {
+                "description": "6. on killing blow if you've used a non-basic maneuver this combat, +2 resistance for the remainder of combat",
+                "pointValue": "4",
+                "upgrade": "+1/2"
+            }
+        ]
+    },
+    {
+        "name": "Sovereign's Gaze",
+        "startingAffixes": [
+            {
+                "description": "+1 Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "while you have no dreams, +6 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+6/1"
+            },
+            {
+                "description": "while you have 20+ Dexterity, +1 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 damage with attacks governed by Dexterity",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "3. +1 perception",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. while you have no dreams, your ranged attacks ignore resistance and immunity",
+                "pointValue": "3",
+                "upgrade": "+1 ranged damage/1"
+            },
+            {
+                "description": "5. on ranged hit, target gets -1 ranged resistance for the remainder of combat",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            },
+            {
+                "description": "6. while you have 20+ Dexterity, +1 ranged critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Quecholli",
+        "startingAffixes": [
+            {
+                "description": "+1 to your lowest ability score",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "on killing blow, foes adjacent to the target suffer 4 fire harm",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on killing blow, heal 4 HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "2. +1d4 bludgeoning damage to your weapon attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "3. +1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. while all of your ability scores are 10+, +2 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "5. while all of your ability scores are 10+, +1 weapon AB",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 weapon critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Soulwrest",
+        "startingAffixes": [
+            {
+                "description": "if you've consumed a corpse since the start of your last turn, adjacent allies have +2 passive regeneration",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "whenever you consume a corpse, you can summon a CR 1/8 undead Phantasm minion in the corpse's space that requires your concentration and makes 30' range spell attacks that deal force damage",
+                "pointValue": "2",
+                "upgrade": "+1 CR/2"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1d4 force damage to your minion's damaging attacks",
+                "pointValue": "2",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "2. if you've consumed a corpse since the start of your last turn, +2 passive regeneration",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. on initiative, recover 2 spell slot levels",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +1 spell critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. whenever you summon a minion, it gains 4 temporary HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "6. +1d4 necrotic damage to your spells",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Crusader's Will",
+        "startingAffixes": [
+            {
+                "description": "+1 maximum exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "+1 to your lowest ability score",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "if you succeeded on a passive save during your last turn, +3 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "2. +1 weapon damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. whenever you succeed on a passive save, recover 1 exertion",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. while you have no negative ability modifiers, +1 maximum exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 weapon damage while holding a flail weapon",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 to passive saves",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            }
+        ]
+    },
+    {
+        "name": "Banished Lord's Talisman",
+        "startingAffixes": [
+            {
+                "description": "+2 damage with major spell hits",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "+1 spell damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. whenever you spend your highest-level spell slot, your next limited spell gets +2 major success range",
+                "pointValue": "2",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. your natural 20 spell critical successs deal +4 damage",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "3. +2 damage with limited spells",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "4. +3 spell critical damage bonus",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. your spell hits splash 1 damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1 spell major success threshold",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            }
+        ]
+    },
+    {
+        "name": "Gate of the Red Dawn",
+        "startingAffixes": [
+            {
+                "description": "+2 damage with single-target, limited fortitude attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "whenever you hit with a single-target, limited fortitude attack, gain 7 Dusk",
+                "pointValue": "0",
+                "upgrade": "+7/1"
+            },
+            {
+                "description": "whenever you spend your last exertion, lose all Dusk to cause radiant harm to all adjacent foes equal to the Dusk lost",
+                "pointValue": "1",
+                "upgrade": "+1 outgoing radiant harm/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on initiative, recover 2 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 damage with fortitude attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "3. +1 resistance",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +1 Strength",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "5. +1 finesse",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +1d4 radiant damage to your damaging fortitude attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            }
+        ]
+    },
+    {
+        "name": "Fields of Crimson",
+        "startingAffixes": [
+            {
+                "description": "+4 to damage your target is vulnerable to",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "on hit with a limited melee attack, a 5'x5' blood pool forms under the target for the remainder of combat, a persistent zone that causes 1 ongoing necrotic harm to foes, which stacks until passive save",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "foes standing in this item's blood pool have -1 melee resistance",
+                "pointValue": "4",
+                "upgrade": "-1/4"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +2 melee damage vs targets suffering ongoing harm",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +5' reach",
+                "pointValue": "3",
+                "upgrade": "+5'/3"
+            },
+            {
+                "description": "3. +1 Strength",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. on initiative, recover 2 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/3"
+            },
+            {
+                "description": "5. +1 melee damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. whenever a melee attack fails to hit you, this item's blood pool forms under the attacker",
+                "pointValue": "2",
+                "upgrade": "+1 outgoing necrotic harm/1"
+            }
+        ]
+    },
+    {
+        "name": "Hydra Arc",
+        "startingAffixes": [
+            {
+                "description": "whenever you take the Block action, you also use the last ranged attack you used this combat at a random valid foe",
+                "pointValue": "4",
+                "upgrade": "+1 ranged damage/1"
+            },
+            {
+                "description": "if you have 20+ Dexterity, this item's triggered ranged attack is made against up to 2 random valid foes instead",
+                "pointValue": "4",
+                "upgrade": "+1 ranged damage/1"
+            },
+            {
+                "description": "+1d4 lightning damage to your damaging ranged attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 damage with Dexterity-governed attacks",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 Dexterity",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1d4 fire damage to your damaging ranged attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "4. +1d4 cold damage to your damaging ranged attacks",
+                "pointValue": "3",
+                "upgrade": "+1 die size/1"
+            },
+            {
+                "description": "5. if you have 25+ Dexterity, this item's triggered ranged attack is made against up to 3 random valid foes instead",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "6. +1 ranged damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Performer's Legacy",
+        "startingAffixes": [
+            {
+                "description": "you and allies adjacent to your minions have +3 lightning resistance",
+                "pointValue": "1",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "whenever you are hit by your minions, +25' Speed for 1 round",
+                "pointValue": "2",
+                "upgrade": "+10'/1"
+            },
+            {
+                "description": "+2 minion damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +2 minion resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. your minion ranges are doubled",
+                "pointValue": "2",
+                "upgrade": "+1 multiplier/2"
+            },
+            {
+                "description": "3. -5 minion HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "-5 and 2pts distributed/1"
+            },
+            {
+                "description": "4. whenever you or an ally is hit by your minions, the target recovers 5 HP",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "5. whenever you or an ally is hit by your minions, the target gains 9 temporary HP",
+                "pointValue": "1",
+                "upgrade": "+9/1"
+            },
+            {
+                "description": "6. +1 piercing damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Pyromancer's Head",
+        "startingAffixes": [
+            {
+                "description": "+1 fire damage",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "+5' persistent zone area",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "on hit with spells you are concentrating on, target suffers 1 ongoing fire harm, stacking until passive save",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. on turn start while concentrating, project 5' persistent zone around you that causes 2 fire harm to foes for 1 round",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. gain damage with spells you are concentrating on equal to quadruple your bonus critical success range that applies to spells",
+                "pointValue": "1",
+                "upgrade": "+1 spell critical success range/4"
+            },
+            {
+                "description": "3. +1 Intelligence",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. +1 spell critical success range",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "5. +2 fire damage with spells you are concentrating on",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "6. +2 outgoing harm with persistent zones",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            }
+        ]
+    },
+    {
+        "name": "Red Cloak of the Island",
+        "startingAffixes": [
+            {
+                "description": "+1 passive regeneration",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "if you have 65+ total ability scores, +1 resistance",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "on initiative, recover 2 exertion",
+                "pointValue": "3",
+                "upgrade": "+1/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. +1 to your lowest ability score",
+                "pointValue": "1",
+                "upgrade": "+1/1"
+            },
+            {
+                "description": "2. +1 resistance",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "3. +1 reflex",
+                "pointValue": "4",
+                "upgrade": "+1/4"
+            },
+            {
+                "description": "4. +5' Speed",
+                "pointValue": "2",
+                "upgrade": "+5'/2"
+            },
+            {
+                "description": "5. +4 maximum HP",
+                "pointValue": "1",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "6. +10' swim speed",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
             }
         ]
     }

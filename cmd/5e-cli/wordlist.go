@@ -7779,9 +7779,7 @@ var WORDLIST []string = []string{
 	"zoom",
 	"Dekel",
 	"Bentley",
-	"Ede",
-	"Viktor",
-	"Junie",
-	"Bovo",
+	"Dan",
+	"Jonathon",
 	"Lawrence",
 }

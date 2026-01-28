@@ -1,18 +1,10 @@
 {
-    "Junie (2)": [
-        {
-            "description": "While within 60' of you, any ally can use their own bonus action to grant themselves one of your Bardic Inspiration dice. Dice gained in this way have a +4 bonus when rolled.",
-            "pointValue": "2",
-            "upgrade": "dice gained in this way have a +2 bonus/1"
-        }
+    "Dekel (0)": [
     ],
-    "Bovo (3 - Influence?)": [influence needed
-        {
-            "description": "Whenever you command an allied minion to make a weapon attack and the attack hits, it can then follow up with a second weapon attack that has disadvantage.",
-            "pointValue": "4 (1/2)",
-            "upgrade": "+1 AB with follow-up attack/2"
-        }
+    "Bentley (0)": [
     ],
-    "Viktor (1 - Monstrous Minion)": [
+    "Dan (0)": [
+    ],
+    "Jonathon (0)": [
     ]
 }

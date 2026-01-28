@@ -24,5 +24,6 @@
     "Souvenir Shop: Has 4x random objects (https://perchance.org/object - anything not from the setting is the host's own invention) and players roll a d20 for turn order (descending). Players take turns choosing one of the objects and then doing a sales pitch to the host. At the end of the round the best pitch will be rewarded.",
     "Vocabulary Game: A random 5-letter word is chosen (https://randomwordgenerator.com/). Players will play competitive Wordle, sending their guesses secretly to DM and getting their colour answers out loud (to up the tension). Winner(s) are rewarded",
     "Art Show: Everyone has 2 minutes to secretly draw a recent campaign event of the DM's choice. Best drawing is rewarded.",
-    "'Art' Show: Everyone must send a single prompt to the DM. This prompt will be used to generate AI art of a recent campaign event of the DM's choice. Best art is rewarded."
+    "'Art' Show: Everyone must send a single prompt to the DM. This prompt will be used to generate AI art of a recent campaign event of the DM's choice. Best art is rewarded.",
+    "Skill Tournament: Each player chooses to either enter a specific-skill tournament (DC 15->18->20), a ability group tournament (DC 13->15->18), or a random skill tournament (DC 10->13->15). Each player must beat the respective DCs in 3 rounds to win. Winners are rewarded twice, runner-ups once."
 ]

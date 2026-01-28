@@ -4,6 +4,7 @@ import (
 	"errors"
 	"regexp"
 	"strconv"
+	"strings"
 
 	"golang.org/x/exp/slices"
 )
@@ -25,17 +26,24 @@ var validateColourUpgrade = func(input string) error {
 	return nil
 }
 
-var validateSimulationType = func(input string) error {
-	if valid := slices.Contains(SIMULATION_TYPES, input); !valid {
-		return errors.New("invalid simulation type")
-	}
-	return nil
-}
-
 var validateSpaceSeparated = func(input string) error {
 	validator := regexp.MustCompile(`^[\w\s]+$`)
 	if !validator.MatchString(input) {
 		return errors.New("invalid space-separated string")
+	}
+	return nil
+}
+
+var validateSpaceSeparatedAffinities = func(input string) error {
+	validator := regexp.MustCompile(`^[\w\s]+$`)
+	if !validator.MatchString(input) {
+		return errors.New("invalid space-separated string")
+	}
+	split := strings.Split(input, " ")
+	for _, affinity := range split {
+		if !slices.Contains(AFFINITIES, affinity) {
+			return errors.New("invalid affinity in space-separated string")
+		}
 	}
 	return nil
 }
