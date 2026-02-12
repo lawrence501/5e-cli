@@ -2234,7 +2234,7 @@
       },
       {
         "description": "4. 1/combat, as a bonus action, you can take the Help action",
-        "upgrade": "attacks you help deal +2 damage"
+        "upgrade": "attacks you Help deal +2 damage"
       },
       {
         "description": "5. +2 resistance while adjacent to 2+ foes",
@@ -2251,6 +2251,47 @@
       {
         "description": "8. when hit, gain 8 temporary hit points",
         "upgrade": "+8"
+      }
+    ]
+  },
+  {
+    "name": "Edvard's Cause",
+    "base": {
+      "description": "-1 damage and -5 intercepted damage taken",
+      "upgrade": "-1 and -4"
+    },
+    "upgrades": [
+      {
+        "description": "1. -1 damage and +2 resistance",
+        "upgrade": "-1 and +2"
+      },
+      {
+        "description": "2. -2 intercepted damage taken",
+        "upgrade": "-2"
+      },
+      {
+        "description": "3. when hit, attacker suffers 5 radiant harm",
+        "upgrade": "+4"
+      },
+      {
+        "description": "4. adjacent allies have +1 resistance",
+        "upgrade": "+1"
+      },
+      {
+        "description": "5. attacks you Help deal +2 damage",
+        "upgrade": "+2"
+      },
+      {
+        "description": "6. +2 investigation",
+        "upgrade": "+2"
+      },
+      {
+        "description": "7. +2 persuasion",
+        "upgrade": "+2"
+      },
+      {
+        "description": "8. whenever you intercept, gain 10 temporary HP",
+        "upgrade": "+10"
       }
     ]
   }

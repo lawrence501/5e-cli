@@ -129,21 +129,11 @@ Whenever loot is gained from a combat, anyone who rolled-off for a loot roll and
 
 Each combat gives 10% chance for a carnival ticket
 
-Start at level 4?
-
 Loot system:
-- All loot from regular combats is scaling enchanted items (2 affixes each, with a total minimum point value equal to party level (from start) )
+- All loot from regular combats is scaling enchanted items (2 affixes each, with a total minimum point value equal to party level)
 - Enchanted items sell for 30gp each
 - For 100gp, can buy a loot roll, which has the special loot types, none of which compete with enchanted items
 - Starting once every loot type has been seen, every level at 50xp, the party can choose a loot specialisation. This gives the party +10% chance each time they find an enchanted item to instead find one of their specialised results
 
 Specialisation after the first 'event' of sessions 3, 6, 9, 12, 15, 18 (6 total)
 Augment after the first 'event' of sessions 5, 11, 17 (3 total)
-
-For quest generation, use Draw Steel mob types, dungeon gimmicks, and skill challenges/montages (1/3 of quests only)
-
-TODO:
-- rename crystal stuff to be more attached to actual mechanics
-- [After campaign] Slow weapons vs spells
-- Harm focus feat? Some sort of attack penalty, extra outgoing harm per harm inflicted each round
-- Discuss kits

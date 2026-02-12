@@ -5653,7 +5653,7 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "if you have 65+ total ability scores, +1 resistance",
+                "description": "if you have 55+ total ability scores, +1 resistance",
                 "pointValue": "2",
                 "upgrade": "+1/2"
             },
@@ -5694,6 +5694,59 @@
                 "description": "6. +10' swim speed",
                 "pointValue": "1",
                 "upgrade": "+5'/1"
+            }
+        ]
+    },
+    {
+        "name": "Desperate Defence",
+        "startingAffixes": [
+            {
+                "description": "while bloodied, your spells that grant temporary HP grant 12 more",
+                "pointValue": "3",
+                "upgrade": "+4/1"
+            },
+            {
+                "description": "your spells that grant temporary HP grant 7 more",
+                "pointValue": "2",
+                "upgrade": "+2/1"
+            },
+            {
+                "description": "your spells that grant temporary HP can only be used once per minute",
+                "pointValue": "-2",
+                "upgrade": "SR -> LR and 3pts distributed/1"
+            }
+            
+        ],
+        "thematicAffixes": [
+            {
+                "description": "1. temporary HP you grant with your spells has its duration halved; 3pts distributed",
+                "pointValue": "1",
+                "upgrade": "-1 multi and 3pts distributed/1"
+            },
+            {
+                "description": "2. whenever a foe inflicts a condition on you, you may react to cast any spell that grants temporary HP with a cast time up to 1 action. When you do so, it grants +7 temporary HP",
+                "pointValue": "1",
+                "upgrade": "+7/1"
+            },
+            {
+                "description": "3. you can now cast spells that grant temporary HP 2 times within this item's imposed cooldown",
+                "pointValue": "2",
+                "upgrade": "+1/2"
+            },
+            {
+                "description": "4. whenever a creature hits a creature with temporary HP from one of your spells, the attacker heals 3 HP; 2pts distributed",
+                "pointValue": "1",
+                "upgrade": "+2 and 2pts distributed/1"
+            },
+            {
+                "description": "5. whenever you grant temporary HP with a spell, all foes adjacent to the target are pushed 5' away from the target",
+                "pointValue": "1",
+                "upgrade": "+5'/1"
+            },
+            {
+                "description": "6. creatures with temporary HP from your spells have +1 resistance",
+                "pointValue": "1",
+                "upgrade": "+1/1"
             }
         ]
     }

@@ -1122,7 +1122,13 @@
         "affinities": ["support"]
     },
     {
-        "description": "d20 rolls you help have a +1 bonus",
+        "description": "d20 rolls you Help have a +1 bonus",
+        "pointValue": "1",
+        "upgrade": "+1/1",
+        "affinities": ["support"]
+    },
+    {
+        "description": "attacks you Help deal +1 damage",
         "pointValue": "1",
         "upgrade": "+1/1",
         "affinities": ["support"]
