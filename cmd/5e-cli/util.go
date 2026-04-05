@@ -9,6 +9,9 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/gtuk/discordwebhook"
+	"github.com/manifoldco/promptui"
 )
 
 const DATA_DIR = "data"
@@ -38,29 +41,29 @@ func fetchData[T any](fileName string, _ T) (T, error) {
 }
 
 func discordSend(content string) error {
-	// sendP := promptui.Prompt{
-	// 	Label: "Broadcast to Discord? (Empty for yes, anything for no)",
-	// }
-	// send, err := sendP.Run()
-	// if err != nil {
-	// 	return err
-	// }
+	sendP := promptui.Prompt{
+		Label: "Broadcast to Discord? (Empty for yes, anything for no)",
+	}
+	send, err := sendP.Run()
+	if err != nil {
+		return err
+	}
 	log.Print(content)
-	// if send != "" {
-	// 	return nil
-	// }
+	if send != "" {
+		return nil
+	}
 
-	// content = fmt.Sprintf("> *%s*\n%s", randomWords(2, " "), content)
-	// DISCORD_USERNAME := "Broadcaster"
-	// message := discordwebhook.Message{
-	// 	Username: &DISCORD_USERNAME,
-	// 	Content:  &content,
-	// }
-	// return discordwebhook.SendMessage(
-	// 	"https://discord.com/api/webhooks/1340159157164179489/auj9LBrU9CIGtxE6BE1-lhHJcTIL0OQkwK6oT9i7KwmFamUyEZ311fHS5S66aN4a-l1U",
-	// 	message,
-	// )
-	return nil
+	content = fmt.Sprintf("> *%s*\n%s", randomWords(2, " "), content)
+	DISCORD_USERNAME := "Broadcaster"
+	message := discordwebhook.Message{
+		Username: &DISCORD_USERNAME,
+		Content:  &content,
+	}
+	return discordwebhook.SendMessage(
+		"https://discord.com/api/webhooks/1260450657106657471/u_MFUHIiDfRP3s7tZ6smttVpSmWaIyaK8DfEg2ffXBTd5yf9jBjBcsi5eTwOfplao3mu",
+		message,
+	)
+	// return nil
 }
 
 func generateWeather() (string, error) {
