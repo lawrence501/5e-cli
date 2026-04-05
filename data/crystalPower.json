@@ -125,7 +125,7 @@
   "healing bolt": "An ally within 60' of you heals 6*rank HP.",
   "tactical mastery": "You gain 2*rank ranged/area damage and resistance for the remainder of combat.",
   "martyrdom": "An ally within 60' of you heals 18*rank HP and you immediately drop to 0 HP.",
-  "vengeance": "The creature that last damaged you this combat takes double crystal damage.",
+  "vengeance": "Deal double damage to the creature that last damaged you this combat.",
   "imbue boredom": "The creature cannot use the same power with its standard action two turns in a row. This effect lasts until it passes a passive save, which has a 0.5*rank penalty.",
   "revenge": "Deal damage. This damage is tripled if you have taken damage this round.",
   "imbue ignorance": "The target gets -2*rank ranged/area resistance for the remainder of combat.",

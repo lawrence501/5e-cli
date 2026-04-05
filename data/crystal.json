@@ -25,7 +25,7 @@
     ]
   },
   {
-    "name": "Prime Sprout",
+    "name": "Primal Sprout",
     "passives": [
       "protosynthesis"
     ],
@@ -719,7 +719,7 @@
     ]
   },
   {
-    "name": "Prime Howler",
+    "name": "Primal Howler",
     "passives": [
       "protosynthesis"
     ],
@@ -1118,7 +1118,7 @@
     ]
   },
   {
-    "name": "Clatter Frostling",
+    "name": "Clattering Clockwork",
     "passives": [
       "noisy",
       "polar",
@@ -1557,7 +1557,7 @@
     ]
   },
   {
-    "name": "Crystal Bulwark",
+    "name": "Quartz Bulwark",
     "passives": [
       "clear body",
       "sturdy"

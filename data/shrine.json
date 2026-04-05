@@ -29,7 +29,7 @@
     },
     {
         "name": "Inspiration",
-        "description": "An affix of your choice is disabled until a random mission (chosen now) is completed by a member of your party. When it is revealed, it is automatically upgraded once."
+        "description": "An affix of your choice is disabled until a random mission (chosen now) is completed by a member of your party. When it is re-enabled, it is automatically upgraded once."
     },
     {
         "name": "Refinement",

@@ -9,7 +9,7 @@
     },
     {
         "name": "The High Priestess",
-        "description": "The ring has 1 additional affix that is a random tier from a random glyph path."
+        "description": "The ring has 1 additional affix that is a random passive from a random crystal monster."
     },
     {
         "name": "The Empress",
@@ -17,7 +17,7 @@
     },
     {
         "name": "The Emperor",
-        "description": "The ring has 1 additional affix that is a random passive from a random crystal monster."
+        "description": "The ring has 1 additional affix that is upgraded once and applies to the wearer's minions instead of them."
     },
     {
         "name": "The Hierophant",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Justice",
-        "description": "The ring has 1 additional affix that is of the same Affinity as a random affix this card's owner currently has equipped on their enchanted items."
+        "description": "The ring has 1 additional affix that is the same base affix as a random affix this card's owner currently has equipped on their enchanted items."
     },
     {
         "name": "The Hermit",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Wheel of Fortune",
-        "description": "The ring has 1 additional affix that has a minimum point value of 2 and is negated, and 1 additional affix that has a minimum point value of 4."
+        "description": "The ring has 1 additional affix that has a maximum point value of -2, and 1 additional affix that has a minimum point value of 4."
     },
     {
         "name": "Strength",
@@ -53,7 +53,7 @@
     },
     {
         "name": "Death",
-        "description": "The ring becomes a permanent passive bonus, but your next loot roll crumbles into ash."
+        "description": "The ring has 1 additional affix that is a random tier from a random glyph path."
     },
     {
         "name": "Temperance",
@@ -85,7 +85,7 @@
     },
     {
         "name": "The World",
-        "description": "The ring has 1 additional affix that grants an expertise die in a random journey activity."
+        "description": "The ring has 1 additional affix that grants an expertise die in a random skill."
     },
     {
         "name": "Ace of Wands",

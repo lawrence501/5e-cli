@@ -198,7 +198,7 @@
         "theme": "becoming an isopod",
         "tiers": [
             "1. Hardened Exoskeleton: While unarmoured, you gain +1 armour.",
-            "2. Moisture Holding: You no longer need to drink water, are immune to dehydration, and are immune to diseases and toxins delivered through water. This reduces the gold cost of each journey day of travel by 1, to a minimum of 0.",
+            "2. Moisture Holding: You no longer need to drink water, are immune to dehydration, and are immune to diseases and toxins delivered through water. This reduces the gold cost of each journey day of travel by 1.",
             "3. Earthbound Awareness: You gain 5' of tremorsense while on the ground.",
             "4. Acidic Spit: Once per short rest, as a free action, you can spit acid at a creature within 15', causing 1d4 acid harm.",
             "5. Armoured Plating: Your Hardened Exoskeleton's armour bonus increases to +2.",
@@ -206,7 +206,7 @@
             "7. Burrow Mastery: You gain burrow speed equal to your Speed. Your burrow speed suffers no resistance from non-magical, unworked earth.",
             "8. Enhanced Tremorsense: Your Earthbound Awareness' tremorsense increases to 30'. Additionally, you can see through up to 1 foot of stone or earth.",
             "9. Impenetrable Casing: At the start of each of your turns while on the ground, you may curl up into an armoured ball until you uncurl as a free action. While curled, you gain immunity to physical damage and your speeds are reduced to 0.",
-            "10. Exoskeletal Metamorphosis: Once per long rest, when you roll for initiative, you may shapeshift into a Colossal Isopod for the remainder of combat. In this form, your size increases by 1, your armour increases by 2, you gain 30' of tremorsense, and fortitude attacks have disadvantage against you. However, you cannot cast spells in this form and your weapons are replaced with a Bite attack that deals 2d10 + STR piercing damage and has the Scaling (+7) trait."
+            "10. Exoskeletal Metamorphosis: Once per long rest, when you roll for initiative, you may shapeshift into a Colossal Isopod for the remainder of combat. In this form, your size increases by 1, your armour increases by 2, you gain 30' of tremorsense, and fortitude attacks have disadvantage against you. However, you cannot cast spells in this form and your weapons are replaced with a Bite attack that deals 2d10 + STR/DEX piercing damage and has the Scaling (+7) trait."
         ]
     },
     {
@@ -497,7 +497,7 @@
     {
         "theme": "becoming a wolverinefolk",
         "tiers": [
-            "1. Keen Claws: You grow retractable, razor-tipped claws on your hands and feet, granting you a natural weapon that deals 1d4 + DEX slashing damage. This natural weapon has the Angled (larger), Deadly, Forceful, Responsive, and Sweep traits.",
+            "1. Keen Claws: You grow retractable, razor-tipped claws on your hands and feet, granting you a natural weapon that deals 1d4 + STR/DEX slashing damage. This natural weapon has the Angled (larger), Deadly, Forceful, Responsive, and Sweep traits.",
             "2. Bristling Hide: While not wearing heavy armour you gain +1 armour and ignore the effects of cold weather on your journey activities.",
             "3. Nose for Blood: You gain advantage on Perception checks that rely on smell and on Survival checks to track creatures by scent. Additionally, you detect the presence of creatures within 30' of you by scent if they are on the ground and do not have full cover from you.",
             "4. Digging Paws: You gain a burrow speed equal to half your Speed and ignore difficult terrain caused by undergrowth, brambles, loose earth, and rubble.",
@@ -842,7 +842,7 @@
     {
         "theme": "growing pincer claws",
         "tiers": [
-            "1. Chitin Knuckles: Your hands develop hardened chitin plates, granting you a natural weapon that deals 1d4 + STR slashing damage. This natural weapon has the Angled (smaller), Deadly, Rapid, and Returning traits.",
+            "1. Chitin Knuckles: Your hands develop hardened chitin plates, granting you a natural weapon that deals 1d4 + STR/DEX slashing damage. This natural weapon has the Angled (smaller), Deadly, Rapid, and Returning traits.",
             "2. Grasping Spur Growth: Using the Grapple maneuver does not impose disadvantage on your Attack actions using your Chitin Knuckles.",
             "3. Pincer Form: The base damage die of your Chitin Knuckles increases to 1d6. Additionally, when you attack a creature you are not grappling with them alongside the Grapple maneuver, the attack has advantage.",
             "4. Crushing Pincer Strength: Your Chitin Knuckles attacks against targets grappled by you deal 1d6 additional bludgeoning damage.",
@@ -1032,6 +1032,306 @@
             "8. Razorstorm: Your Obsidian Shards harm increases to 4d6, and whenever it triggers you may create a 10' line of shards from you that causes 1d4 slashing harm to foes.",
             "9. Coreheart: You gain 50% resistance to fire damage, are immune to environmental fire damage (including from lava) which allows you to ignore the penalties of hot weather on your journey activities, and you automatically succeed on death saves.",
             "10. Sovereign of the Deepfire: You can now use your Volcanic Command twice between long rests, and its radius increases to 15', its harm increases to 1d8, and while standing inside it, you have 50% resistance to all damage except for psychic, your damaging melee attacks deal +1d8 fire damage, and you cannot be moved against your will."
+        ]
+    },
+    {
+        "theme": "becoming a cambion",
+        "tiers": [
+            "1. Ember-Blooded: You gain fire resistance equal to your proficiency bonus.",
+            "2. Hell-Sight: You gain 60' of darkvision.",
+            "3. Improved Blood: The fire resistance from your Ember-Blooded increases to double your proficiency bonus.",
+            "4. Improved Sight: The darkvision from your Hell-Sight increases to 120', and you can see in magical darkness as if it were dim light.",
+            "5. Infernal Cantrip: You learn the fire bolt cantrip, governed by any ability.",
+            "6. Fiend-Touched Arcana: When you gain this trait, choose a 1st-level spell from the sorcerer list. Once per long rest, you can cast it for free, governed by any ability.",
+            "7. Improved Arcana: Whenever you use your Fiend-Touched Arcana, the spell is upcast to 2nd level. When you gain this trait, you may change the spell granted by your Fiend-Touched Arcana.",
+            "8. Wings of the Cambion: Once per long rest, as a free action, you shapeshift to grow leathery wings for 10 minutes which grant you flying speed equal to your Speed.",
+            "9. Cambion's Presence: You have advantage on Intimidation checks and attacks that cause the frightened condition.",
+            "10. Infernal Apotheosis: The fire resistance from your Ember-Blooded becomes 50%, and you gain immunity to the frightened condition."
+        ]
+    },
+    {
+        "theme": "radiating passion",
+        "tiers": [
+            "1. Kindled Power: You gain advantage on Persuasion checks made to inspire enthusiasm, excitement, or affection. This affects the Busk journey activity. Additionally, you gain 50% resistance to cold damage.",
+            "2. Emberstep: You gain +5' of Speed.",
+            "3. Burning Presence: You have advantage on attacks that cause the charmed or frightened conditions against adjacent targets.",
+            "4. Upgraded Emberstep: Your Emberstep's Speed bonus increases to +10', and whenever you take the Dash action, you can move through hostile spaces and doing so causes fire harm equal to your proficiency bonus to each foe you pass through.",
+            "5. Heartfire Surge: Once per long rest, as a free action, you can choose to radiate Fury, Love, Creativity, or Ecstasy for 1 minute. For the duration, you and allies within 20' of you gain a bonus based on your choice: Fury (+2 damage, immune to frightened), Love (temporary HP equal to double your level), Creativity (advantage on Intelligence, Wisdom, and Charisma checks), Ecstasy (advantage on attack rolls until your next turn).",
+            "6. Upgraded Presence: Your Burning Presence now also benefits attacks that cause the debilitated condition. Additionally, whenever you charm or frighten a creature, it suffers fire harm equal to your highest ability modifier.",
+            "7. Passion's Mantle: You gain immunity to the charmed and frightened conditions. Additionally, once per long rest, when you would drop to 0 HP, you instead remain at 1 HP and immediately activate Heartfire Surge without triggering its cooldown.",
+            "8. Upgraded Surge: Whenever you use your Heartfire Surge, you can choose two emotions and its range increases to 30'. Additionally, you can now use it twice between long rests.",
+            "9. Incandescent Soul: You gain fly speed equal to your Speed and whenever you would deal fire damage or harm, you may convert it to radiant or psychic.",
+            "10. Apotheosis of Passion: You can now use your Heartfire Surge at-will. Additionally, creatures charmed by you are also dominated, and you can cast Mass Suggestion once per long rest for free."
+        ]
+    },
+    {
+        "theme": "creating polymers",
+        "tiers": [
+            "1. Monomer Sense: You have advantage on Magiscience checks to identify magical substances, alchemical compounds, or enchanted items.",
+            "2. Arcane Monofilament: As a free action, you can create up to 10' of durable filament that lasts for 1 hour before disappearing. If you create a new length of filament, any previous one you already had disappears. It functions like silk rope but weighs nothing and is not flammable.",
+            "3. Chain Reaction: Your Arcane Monofilament cannot be cut or broken. Additionally, you have advantage on Finesse checks made to bind creatures with the filament.",
+            "4. Elastic Weave: As a free action, you can create a 5' square of elastic mesh on the ground within 30' of you that lasts for 1 hour before disappearing. If you create a new square of elastic mesh, any previous one you already had disappears. The mesh counts as difficult terrain and any foe that moves into it must make a save, reducing their Speed to 0' until their next turn on a fail.",
+            "5. Cross-Link Reinforcement: Creatures that fail their save against your Elastic Weave also suffer force harm equal to your proficiency bonus.",
+            "6. Polymer Armour: As a free action, you gain temporary HP equal to triple your proficiency bonus. While you have this HP, you gain 50% resistance to bludgeoning damage. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "7. Macrochain Construct: Once per long rest, when you roll for initiative, you can summon a polymer construct, a Medium CR 1/8 construct minion that deals force damage. It requires your concentration to maintain.",
+            "8. Hyperelastic Surge: Whenever you take damage, you can react to reduce the amount you take by an amount equal to triple your proficiency bonus. Then, the next time you hit with an attack, it deals additional force damage equal to the amount reduced.",
+            "9. Nanofiber Ascension: You gain a climb speed equal to your Speed, no longer age physically (though you can still die of old age), and whenever you would be grappled, restrained, or staggered, you can make a save, ignoring the condition on a success.",
+            "10. Perfect Polymerisation: Your Macrochain Construct is now CR 1/2 and is Large. Additionally, when it is reduced to 0 HP, it explodes in a burst of magic, causing 2d10 force harm to foes within 10' of it."
+        ]
+    },
+    {
+        "theme": "infusing objects with darkness",
+        "tiers": [
+            "1. Shadow-Touched Trinket: You can infuse a Tiny mundane object with harmless supernatural darkness. The object converts bright light within 5' of it into dim light. The infusion lasts until you finish a long rest, or you infuse another object.",
+            "2. Umbral Grip: You cannot drop anything from your hands against your will.",
+            "3. Shadow-Infused Armament: Once per long rest, you can infuse a weapon or shield with condensed darkness until you finish a long rest. An infused weapon deals +1d4 necrotic damage, and an infused shield grants +1 stealth.",
+            "4. Deepening Shadows: The weapon bonus of your Shadow-Infused Armament increases to 1d6 and the shield bonus increases to +2.",
+            "5. Living Shade: Once per long rest, as a free action during combat, you can command a patch of your shadow to reside within a space within 10' of you for the remainder of combat. It provides half cover to creatures of your choice within that space.",
+            "6. Shade Reinforcement: Your Living Shade now provides three-quarters cover.",
+            "7. Umbral Consumption: Once per short rest, you can feed an object you are holding with ambient darkness as a free action. For the next hour, it either converts all light within 10' of it to darkness or becomes weightless and can only be touched by you (your choice).",
+            "8. Greater Consumption: Your Umbral Consumption's light conversion radius increases to 20', and you can telekinetically move the weightless object up to 20' as a free action while you are within 30' of it.",
+            "9. Eclipse Vessel: Your Shadow-Infused Armament infusions now emit 10' of magical darkness that you and allies can see through, and foes within this darkness have -5' Speed. Additionally, infused weapons ignore necrotic resistance.",
+            "10. Sovereign of Shadowbound Matter: While an object is infused by either your Shadow-Infused Armament or Umbral Consumption features, you can teleport to a space adjacent to that object as a free action, you have 50% resistance to damage while holding the object, and whenever you hit with the object, the target suffers 1d6 ongoing necrotic harm, stacking until it passes a passive save."
+        ]
+    },
+    {
+        "theme": "having a transparent body",
+        "tiers": [
+            "1. Glassborn Flesh: You gain advantage on Stealth checks made to hide in dim or darker light.",
+            "2. Invisible Blood: You cannot be tracked by mundane means, and attacks from divination spells have disadvantage against you.",
+            "3. Refracted Vision: You gain 60' of darkvision.",
+            "4. Light-Bent Form: Creatures have disadvantage on Perception checks made to spot you while you are in dim or darker light.",
+            "5. Prismheart Pulse: As a free action, you can unleash a pulse of refracted light from your transparent core. All foes within 15' of you must make a save, becoming dazzled on a fail for 1 round. A dazzled creature sheds 5' of dim light and has disadvantage on its next attack roll. You can use this power a number of times between long rests equal to your proficiency bonus.",
+            "6. Veil of Perfect Clarity: Whenever you take a Hide action, all attacks have disadvantage against you for 1 round, even if the attacker can see you.",
+            "7. Prismheart Ascendant: Your Prismheart Pulse's radius increases to 30', and dazzled creatures are also blinded if they substantially fail the save.",
+            "8. Hollow Silhouette: You gain 50% resistance to piercing damage.",
+            "9. Shard-Skin Reinforcement: You gain +1 armour.",
+            "10. Body of Living Glass: You gain immunity to piercing damage and 50% resistance to slashing damage. Additionally, you can move through hostile creatures as if they were difficult terrain."
+        ]
+    },
+    {
+        "theme": "wielding acidic and poisonous weapons",
+        "tiers": [
+            "1. Caustic Edge: Your weapon attacks deal 1 additional acid damage.",
+            "2. Venom Trace: Your weapon attacks deal 1 additional poison damage.",
+            "3. Toxic Pulse: Whenever you deal poison damage with a weapon attack, the target has disadvantage on its first save during the next round.",
+            "4. Dissolving Bite: Caustic Edge's bonus acid damage increases to 1d4. Additionally, whenever you roll a 4 on this damage die, the target's armour is reduced by 1 for the remainder of combat.",
+            "5. Virulent Surge: Venom Trace's bonus poison damage increases to 1d4. Additionally, whenever you roll a 4 on this damage die, the target is poisoned for 1 round.",
+            "6. Corrosive Torrent: Once per short rest, when you hit with a weapon attack, you can add 2d6 additional acid or poison damage to the attack's damage. When you do so, foes within 10' of the target suffer 1d6 harm of the same type.",
+            "7. Corrosion Bloom: Whenever you deal acid damage with a weapon attack, the target's armour is reduced by 1 until your next turn.",
+            "8. Systemic Collapse: Whenever a creature fails a save with disadvantage from your Toxic Pulse, it suffers 2d6 poison harm.",
+            "9. Armour Rot: Your Corrosion Bloom's armour reduction increases to 2. Additionally, if the target is wearing metal armour, the armour reduction persists for the remainder of combat (but doesn't stack).",
+            "10. Apex Venom: Whenever you deal acid or poison damage, you may convert it into necrotic damage. Additionally, whenever you roll acid, necrotic, or poison damage or harm from this glyph path, you may instead set the die at its maximum value."
+        ]
+    },
+    {
+        "theme": "three-dimensional rotation",
+        "tiers": [
+            "1. Axial Awareness: You gain advantage on finesse checks made to keep your balance, and you can always tell which way is up.",
+            "2. Gyroscopic Stability: Incoming push distance is halved. Additionally, you gain resistance to fall damage equal to your proficiency bonus.",
+            "3. Rotational Step: Whenever you take the Dash action, you can move through hostile creatures as if they were difficult terrain.",
+            "4. Spatial Intuition: Your Axial Awareness now also grants you 10' of blindsight.",
+            "5. Gyre Vault: As a free action, you can teleport up to 15' to a horizontal or vertical space. You can stand on this space, ignoring the usual laws of gravity, until the end of your next turn.",
+            "6. Perfect Balance: Your Gyroscopic Stability now grants you immunity to being knocked prone and the ability to stand, move, and fight on surfaces at any angle without penalty, including vertical or upside down.",
+            "7. Rotational Disjunction: Whenever you take damage, you can react to gain resistance to that attack's damage. You can do so a number of times between long rests equal to your proficiency bonus.",
+            "8. Dimensional Spin: Your Gyre Vault's teleport range increases to 30'.",
+            "9. Axis Severance: You can move through objects and structures as if they were difficult terrain, up to a total distance of 10' per turn. You cannot end your turn inside an object or structure.",
+            "10. Gyre Apotheosis: You gain flying speed equal to your Speed, are immune to the restrained condition, and once per long rest, you can reduce the success tier of an incoming reflex attack by 2."
+        ]
+    },
+    {
+        "theme": "creating electricity psychically",
+        "tiers": [
+            "1. Static Halo: You gain 50% resistance to environmental lightning damage.",
+            "2. Neurocurrent: Whenever you would be debilitated, make a save, ignoring the condition on a success.",
+            "3. Thought-Spark: Whenever you deal psychic damage, deal 1 additional lightning damage.",
+            "4. Charged Halo: Your Static Halo's resistance now applies to all lightning damage.",
+            "5. Synaptic Surge: +2 initiative.",
+            "6. Thought-Arc: Your Thought-Spark's bonus lightning damage increases to 1d4.",
+            "7. Mindstorm Discharge: As a free action, all foes within 15' of you suffer 1d10 lightning and psychic harm.",
+            "8. Storm Halo: Your Static Halo now causes creatures that hit you with melee attacks to suffer lightning harm equal to your proficiency bonus.",
+            "9. Synaptic Ascendance: You are immune to being debilitated and cannot have disadvantage on your initiative.",
+            "10. Thought-Bolt: Your Thought-Spark's bonus lightning damage increases to 1d8. Additionally, whenever this lightning damage is dealt, the target's concentration is broken."
+        ]
+    },
+    {
+        "theme": "manifesting your beliefs",
+        "tiers": [
+            "1. Whisper of Conviction: You gain a small bonus based on your character goals.",
+            "2. Reality Hums in Agreement: Your Whisper of Conviction bonus increases slightly.",
+            "3. Manifestation Spark: Once per short rest, you can use the Minor Illusion arcane utility, but only to create an illusion based on what you believe in.",
+            "4. Strength of Certainty: Your Manifestation Spark illusions can now (where it makes sense) either impose advantage or disadvantage on an ability check, or alter environmental conditions in a 10' area around them for their duration.",
+            "5. Belief Made Flesh: Once per long rest, you can create any mundane object you can think of. It must be a simple object, so not made up of multiple components. The object lasts for 1 hour before disappearing.",
+            "6. Ideation Forge: Your Belief Made Flesh creations can now be complex objects, but such objects must be things you have encountered before. Additionally, weapons that you create ignore resistance and immunity and deal 1d6 additional force damage.",
+            "7. Axiom Pulse: Once per long rest, when you roll for initiative, you can manifest a beneficial effect based on your character goals that lasts for the remainder of combat.",
+            "8. Immutable Assertion: You can now activate your Axiom Pulse once per short rest.",
+            "9. Law of the Self: You gain a substantial bonus based on your character goals.",
+            "10. Worldshaper's Edict: Once per long rest, you can declare a single-sentence belief you hold aloud. For the next hour, it becomes a localised law of reality in a 60' radius around you."
+        ]
+    },
+    {
+        "theme": "defending yourself with weather",
+        "tiers": [
+            "1. Breeze Ward: You gain +1 armour vs ranged weapon attacks.",
+            "2. Mist Skin: You gain 50% resistance to weapon fire damage.",
+            "3. Gale Deflection: Your Breeze-Ward's armour bonus increases to +2, and now also applies to all weapon attacks made by creatures 20+' away from you.",
+            "4. Condensed Mist: Your Mist Skin's resistance now applies to all fire damage.",
+            "5. Storm Shelter: Whenever you take damage, you can react to reduce the damage by 1d10 + your level. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "6. Charged Shelter: Your Storm Shelter's damage reduction increases to 2d10 + your level.",
+            "7. Cyclone Bulwark: Once per long rest, when you roll for initiative, you can summon a swirling wall of wind around yourself for the remainder of combat. During this time, ranged weapon attacks against you are reduced by 2 success tiers, you have half cover against spell attacks originating from creatures 10+' away from you, and you radiate a 10' persistent zone that forces foes to make a save, being pushed 5' away from you on a fail.",
+            "8. Reinforced Bulwark: While your Cyclone Bulwark is active, you gain 50% resistance to weapon physical damage.",
+            "9. Tempest Bastion: You gain immunity to lightning and thunder damage, and you ignore weather-based difficult terrain.",
+            "10. Eye of the Storm Eternal: Once per long rest, when you would drop to 0 HP, you can instead remain at 1 and immediately activate your Cyclone Bulwark, ignoring its cooldown."
+        ]
+    },
+    {
+        "theme": "shifting weapon forms",
+        "tiers": [
+            "1. Mutable Grip: As a free action, you can change a melee weapon you are holding into any other simple melee weapon (so long as the new weapon fits in the same hand slots). The transformation reverts if the weapon leaves your hands.",
+            "2. Fluid Arsenal: Your Mutable Grip can now also change weapons into martial melee weapons.",
+            "3. Shifting Edge (strong): Whenever you transform a weapon with your Mutable Grip, it gains a +1 bonus to attack and damage rolls until you finish a rest. This does not stack.",
+            "4. Upgraded Shifting (3): The bonuses granted by your Shifting Edge increase to +2.",
+            "5. Protean Strike: As a free action, you can cause harm equal to your main hand weapon's base damage to a creature within your reach. You may do this a number of times between long rests equal to your proficiency bonus.",
+            "6. Upgraded Strike: Your Protean Strike now causes 2d8 additional harm of the same type.",
+            "7. Adaptive Masterwork: Weapons you have transformed with your Mutable Grip now ignore resistance and immunity. Additionally, you can convert their physical damage type to another physical type of your choice whenever they are transformed, regardless of the new form's actual damage type.",
+            "8. Perfect Shifting (3): The bonuses granted by your Shifting Edge increase to +3.",
+            "9. Form of a Thousand Blades: Whenever you deal physical weapon damage, you can convert this damage into another physical type of your choice after you hear how the target reacted to the type.",
+            "10. Apex Protean Armament: Your weapon attacks deal 1d8 additional damage of a physical type of your choice (each attack). Additionally, your Protean Strike's extra harm increases to 4d8."
+        ]
+    },
+    {
+        "theme": "becoming a clockwork dragon",
+        "tiers": [
+            "1. Brass-Plated Scales: You gain +1 armour while not wearing heavy armour.",
+            "2. Gyroscopic Balance: Whenever you would be knocked prone, make a save, ignoring the condition on a success. Additionally, incoming push distance is halved.",
+            "3. Steam Vent: As a free action, you exhale a burst of superheated steam in a 15' cone, causing 1d4 fire harm to creatures inside. You can do this a number of times between long rests equal to your proficiency bonus.",
+            "4. Reinforced Pistons: You gain an expertise die in Athletics and Brawn checks.",
+            "5. Clockwork Resilience: You gain 50% resistance to poison and whenever you would be poisoned, make a save, ignoring the condition on a success. Additionally, you no longer need to eat or drink, reducing the gold cost of your journey days by 1.",
+            "6. Scalding Pressure: Your Steam Vent harm increases to 2d4, and its cone size increases to 30'.",
+            "7. Draconic Locomotion: You gain flying speed equal to your Speed. If you are wearing metal armour, this flying speed has a maximum of 20'.",
+            "8. Clockwork Sovereignty: You are immune to the charmed and frightened conditions. Additionally, whenever a spell attack would score a minor success against you, you can downgrade it to a critical failure.",
+            "9. Arcane Gearheart (strong): You gain advantage on death saves. Additionally, whenever you roll for initiative and have no uses of Steam Vent remaining, recover one use.",
+            "10. Ascendant Clockwork Dragon: You gain immunity to fire damage, your Steam Vent harm increases to 3d4, and once per long rest, when you would drop to 0 HP, you can instead remain at 1 HP and regain all expended uses of Steam Vent."
+        ]
+    },
+    {
+        "theme": "psychic lasers",
+        "tiers": [
+            "1. Mindspark Lens: As a free action, a creature within 60' of you suffers 1d4 psychic harm.",
+            "2. Resonant Focus: Your Mindspark Lens' harm increases to 1d6, and its range increases to 90'.",
+            "3. Harmonic Beam: You can convert your Mindspark Lens' harm into radiant. Additionally, its harm increases to 1d8.",
+            "4. Refracted Insight: Whenever you use your Mindspark Lens, you can cause 1d6 psychic harm to another creature within 10' of the original target, so long as there is line of sight between them (though you don't need line of sight to the secondary target).",
+            "5. Cerebral Lance: Once per short or long rest, as a free action, you fire a 60' line of psychic-radiant energy. Creatures in the line suffer 1d8 psychic harm and make a save, becoming blinded until your next turn on a fail.",
+            "6. Upgraded Lance: Your Cerebral Lance's harm increases to 1d10.",
+            "7. Prism of the Inner Eye (weak): You gain 50% resistance to psychic damage and whenever you take psychic damage from an attacker within 60' of you, you can react to cause 2d8 psychic harm to the attacker.",
+            "8. Thought-Burn Afterimage: Whenever you use your Mindspark Lens, the target must make a save, suffering disadvantage on its first attack roll before the end of its next turn on a fail.",
+            "9. Starmind Convergence: Your Mindspark Lens' harm increases to 2d10, and its range increases to 120'.",
+            "10. Omega Beam of Cognition: Your Mindspark Lens' harm increases to 4d10, and whenever it scores a killing blow, you may disintegrate the target into motes of psychic light. Additionally, whenever a creature fails its save against your Thought-Burn Afterimage, it is also debilitated until your next turn."
+        ]
+    },
+    {
+        "theme": "silk magic",
+        "tiers": [
+            "1. Silken Touch: As an action, you can create up to 10 feet of silk rope or fabric. This silk is as strong as mundane rope and lasts for 24 hours before disappearing, or as soon as you use this power again.",
+            "2. Weaver's Grace: You gain advantage on finesse checks made to balance, avoid falling, or move across precarious surfaces.",
+            "4. Reinforced Weave: Silk created by your Silken Touch is now as strong as steel chain, while still weighing almost nothing.",
+            "3. Silkbound Step: If you have a free hand, you gain climbing speed equal to your Speed.",
+            "5. Cocoon Ward: Whenever you take damage, you can react to reduce it by an amount equal to 1d8 + your level.",
+            "6. Thread-Guided Motion: Whenever a reflex attack scores a minor success or worse against you, you can shift 10'.",
+            "7. Razorstrand: Once per short rest, as a free action, you unleash a burst of razor-sharp silk threads in a 15' cone. Creatures inside suffer 1d6 slashing harm and must make a save, becoming restrained until they pass a passive save on a fail.",
+            "8. Silk Aegis: Your Cocoon Ward now reduces damage by 2d8 + your level, and whenever you do so, you also gain temporary hit points equal to your level.",
+            "9. Master of Threads: You gain a 30' strand of silk that you can control like an arm. Your reach increases to 30', except for the purposes of opportunity attacks. Additionally, when using reach beyond your natural one, you have disadvantage on Brawn checks.",
+            "10. Silken Apotheosis: You are immune to being grappled or restrained, can move through spaces as narrow as 4 inches without squeezing, and melee attacks made with reach beyond your natural reach (prior to your Master of Threads reach) have an additional instance of the Empowered Attack feature."
+        ]
+    },
+    {
+        "theme": "dispelling magic",
+        "tiers": [
+            "1. Null Sense: You can sense the presence of active spells within 10' of you, though not their exact nature. This functions through total cover.",
+            "2. Dampening Aura: You radiate a 5' persistent zone that breaks the concentration of foes.",
+            "3. Expanded Reach: Your Null Sense radius increases to 30', and you learn the Affinity of the magic it detects.",
+            "4. Lingering Weakness: Whenever your Dampening Aura breaks a creature's concentration, that creature suffers force harm equal to your proficiency bonus.",
+            "5. Null Brand: Whenever you damage a creature affected by a spell, you may force it to make a save. On a fail, you can dispel one spell affecting it of your choice.",
+            "6. Void Maw: Once per long rest, as a free action, you open a rift of negation in your hand and attempt to consume a spell. Choose a spell effect within 30' of you with a level equal to or less than half your proficiency bonus (rounded up), then make a DC 10 ability check using your highest ability score. On a success, the spell is dispelled.",
+            "7. Voidtouched Resistance (strong): You gain 50% resistance to force damage and non-armour, single-target spell attacks have disadvantage against you.",
+            "8. Severing Strike: Creatures have disadvantage on their saves against your Null Brand.",
+            "9. Hardened Shell (dep): Your Voidtouched Resistance's force resistance becomes immunity, and it now grants disadvantage to all single-target spell attacks against you.",
+            "10. Absolute Unmaking: Whenever you dispel a spell with this glyph path, you gain a Void Charge (1 maximum). Whenever a creature casts a spell, you may react to expend your Void Charge to force the caster to make a save. On a fail, it is countered as per the Counterspell spell, and the caster suffers 4d12 force harm."
+        ]
+    },
+    {
+        "theme": "disrupting entire bodies",
+        "tiers": [
+            "1. Grasp the Whole: Whenever you damage a creature, you can impose disadvantage on its first Strength or Dexterity check before the end of its next turn.",
+            "2. Reinforced Grasp: Your Grasp the Whole now grants both the target's first Strength and Dexterity checks disadvantage.",
+            "3. Full-body Shock: Your attacks deal 1d4 additional force damage.",
+            "4. Intensified Shock: Your Full-body Shock's bonus damage increases to 2d4.",
+            "5. Body-lock Pulse: As a free action, you unleash a wave of constricting force at a creature within 60'. It must pass a save or become restrained for 1 round. You may do this a number of times between long rests equal to your proficiency bonus.",
+            "6. Reinforced Body-lock: Your Body-lock Pulse now staggers instead of restraining.",
+            "7. Crushing Aura: You radiate a 10' persistent zone that causes force harm to foes equal to your proficiency bonus.",
+            "8. Intensified Aura: Your Crushing Aura's radius increases to 20', and its harm increases to double your proficiency bonus.",
+            "9. Total Bodily Override: Once per short rest, when you hit a creature, you may force it to make a save. On a fail, choose one of the following effects for it to have for 1 round: blinded, deafened, prone, grappled, or silenced.",
+            "10. Absolute Override: You can now apply two effects with your Total Bodily Override."
+        ]
+    },
+    {
+        "theme": "pushing your mind beyond its limits",
+        "tiers": [
+            "1. Flicker of Insight: You gain a +1 bonus to Intelligence checks. Additionally, once per long rest, you can reroll an Intelligence check, taking the new result.",
+            "2. Mental Flexion: Whenever you would be charmed, make a save, ignoring the condition on a success.",
+            "3. Thoughtform Resilience: You gain 50% resistance to psychic damage and attacks from divination spells have disadvantage against you.",
+            "4. Cognitive Overclock: +2 initiative and +3 gold find.",
+            "5. Unbound Perception: You gain 10' of blindsight and advantage on Perception checks.",
+            "6. Mind Unleashed: Once per long rest, when you roll for initiative, you can release the power of your unrestrained cognition for the remainder of combat. During this time, you gain 30' of truesight, reflex and will attacks have disadvantage against you, and you ignore the vocalised components of spells.",
+            "7. Overclocked Insight: Whenever you roll for initiative, you can choose a single creature within 30' of you to make a save. On a fail, it is dazed until your turn.",
+            "8. Transcendent Perception: You gain 60' of truesight and cannot be surprised.",
+            "9. Expanded Working Memory: You can concentrate on two effects at once, but whenever you receive a major hit, a random one of those concentrations is broken.",
+            "10. Limiless Mind: You gain immunity to psychic damage and +2 Intelligence. Additionally, whenever you make an Intelligence check, you treat rolls of 9 or less as 10."
+        ]
+    },
+    {
+        "theme": "gliders",
+        "tiers": [
+            "1. Featherlight Frame: You gain proficiency with the use of gliders (15' forward, 15' down each round, safe landings, can turn 45 degrees each round), take no damage from falling the first 20', and can deploy or stow any glider you wield as a free action.",
+            "2. Wind-reading Instinct: You always know the direction of the nearest 30' updraft within 60'.",
+            "3. Galerider Momentum: While gliding, you can increase or decrease your descent speed by up to 10' each round. Additionally, after you glide down at least 30', you gain a +2 bonus to your first attack roll made before the end of your next turn.",
+            "4. Soft-landing Mastery: Your Featherlight Frame's safe landing height increases to 60', and if you would fall farther than that, you can react to halve the fall damage taken.",
+            "5. Skydancer Agility: While gliding, you can turn 90 degrees up to twice per round. Additionally, opportunity attacks made against you while you are gliding have disadvantage.",
+            "6. Divestrike Precision: Your Galerider Momentum's boosted attack now also deals 2d6 additional base damage.",
+            "7. Stormpiercer Glide: You are unaffected by the negative effects of wind-based weather on your journey activities. Additionally, wind-based effects that would move you only do so for half the distance.",
+            "8. Aerial Flourish: Your Skydancer Agility now allows you to turn up to 90 degrees at-will while gliding, and if you turn at least 180 degrees in a single round, you gain +2 armour until your next turn.",
+            "9. Sovereign of the Thermals: Once per turn while gliding, you may rise up to 20'. Additionally, while on the ground, you can hover during your turn, but you must start and end your turn on the ground.",
+            "10. Skyfall Requiem: Once per long rest, as a free action while gliding, you can immediately shift up to 120' towards the ground at any angle. At the end of this dive, choose a creature within your reach to suffer 12d10 bludgeoning and force harm and make a save, being knocked prone on a fail. You take no fall damage from this dive."
+        ]
+    },
+    {
+        "theme": "housing a monster within your body",
+        "tiers": [
+            "1. Stirring Within: You can detect the presence of living creatures within 10' of you. You do not learn their type or number. Additionally, whenever you would become frightened, make a save, ignoring the condition on a success.",
+            "2. Monstrous Resilience: You gain +5 maximum HP and 50% resistance to poison damage.",
+            "3. Claws of the Host: You gain a Claw natural weapon that deals 1d12 + STR/DEX slashing damage. This weapon has the Deadly and Scaling (+3) traits, and its base damage is converted to necrotic on a critical hit.",
+            "4. Symbiotic Surge: Once per short rest, after making a damaging melee attack roll, you can add 3d6 necrotic damage to the attack, and you recover HP equal to half the necrotic damage the attack dealt.",
+            "5. Unleashed Maw: Once per long rest, as a free action, you exude a spectral, monstrous maw in a 15' cone. Creatures in the area suffer 2d4 necrotic harm and must make a save, becoming frightened for 1 round on a fail.",
+            "6. Upgraded Surge: Your Symbiotic Surge's bonus necrotic damage increases to 5d6, and you now recover HP equal to the full necrotic damage dealt.",
+            "6. Brood Flesh: You gain +1 armour and reduce the incoming damage of critical hits by 1d10.",
+            "8. Perfect Host: You gain immunity to poison and necrotic damage, and the first time you would drop to 0 HP between long rests, you instead remain at 1 HP.",
+            "9. Upgraded Flesh: The armour bonus from your Brood Flesh increases to 2, and the damage reduction on critical hits increases to 2d10.",
+            "10. Ascendant Brood: You gain +2 Strength and your Unleashed Maw's harm increases to 2d8, and the fright now lasts until the target passes a passive save, or a minimum of 1 round."
+        ]
+    },
+    {
+        "theme": "corrupting fertile life",
+        "tiers": [
+            "1. Withering Aura: Mundane and non-creature plants within 10' of you wilt slightly and cannot grow while within this area.",
+            "2. Seedless Step: Difficult terrain made of plants does not impede your movement.",
+            "3. Improved Aura: Your Withering Aura's area increases to 20', and magical plants within it cannot grow or spread.",
+            "4. Essence Damping: All healing received by adjacent foes is halved, and they cannot target their allies with any effects.",
+            "5. Seal of Stillbirth: Once per long rest, you can force a creature within 30' of you to make a save. On a fail, it cannot target its allies with any effects for 1 minute.",
+            "6. Improved Damping: Your Essence Damping's area increases to 10', and creatures within its area cannot concentrate.",
+            "7. Lifeline Severance: Whenever you damage a creature, break its concentration.",
+            "8. Empowered Seal: Your Seal of Stillbirth now lasts for 1 hour, and creatures have disadvantage on its save.",
+            "9. Null-genesis Mantle: Your Essence Damping's area increases to 30', and its healing suppression completely negates healing.",
+            "10. Absolute Barren Seal: Your Seal of Stillbirth now lasts indefinitely."
         ]
     }
 ]

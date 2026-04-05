@@ -135,5 +135,5 @@ Loot system:
 - For 100gp, can buy a loot roll, which has the special loot types, none of which compete with enchanted items
 - Starting once every loot type has been seen, every level at 50xp, the party can choose a loot specialisation. This gives the party +10% chance each time they find an enchanted item to instead find one of their specialised results
 
-Specialisation after the first 'event' of sessions 3, 6, 9, 12, 15, 18 (6 total)
-Augment after the first 'event' of sessions 5, 11, 17 (3 total)
+Specialisation after the first 'event' of sessions 4, 7, 10, 13, 16 (5 total)
+Augment after the first 'event' of sessions 6, 12, 18 (3 total)

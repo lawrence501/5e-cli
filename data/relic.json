@@ -221,7 +221,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "+2 poison resistance",
+                "description": "if you have dealt weapon damage since the start of your last turn, +1 outgoing poison harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             }
@@ -233,7 +233,7 @@
                 "upgrade": "+1/1"
             },
             {
-                "description": "2. if you have dealt weapon damage since the start of your last turn, +1 outgoing poison harm",
+                "description": "2. +2 poison resistance",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -1548,7 +1548,7 @@
                 "upgrade": "-1 and 5pts distributed/1"
             },
             {
-                "description": "5. +1 damage vs creatures suffering your ongoing damage",
+                "description": "5. +1 damage vs creatures suffering your ongoing harm",
                 "pointValue": "1",
                 "upgrade": "+1/1"
             },
@@ -5499,7 +5499,7 @@
                 "upgrade": "+1 ranged damage/1"
             },
             {
-                "description": "+1d4 lightning damage to your damaging ranged attacks",
+                "description": "+1d4 lightning damage to your ranged attacks",
                 "pointValue": "3",
                 "upgrade": "+1 die size/1"
             }
@@ -5517,12 +5517,12 @@
                 "upgrade": "+1/2"
             },
             {
-                "description": "3. +1d4 fire damage to your damaging ranged attacks",
+                "description": "3. +1d4 fire damage to your ranged attacks",
                 "pointValue": "3",
                 "upgrade": "+1 die size/1"
             },
             {
-                "description": "4. +1d4 cold damage to your damaging ranged attacks",
+                "description": "4. +1d4 cold damage to your ranged attacks",
                 "pointValue": "3",
                 "upgrade": "+1 die size/1"
             },

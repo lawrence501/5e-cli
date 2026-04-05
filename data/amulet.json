@@ -43,8 +43,8 @@
   {
     "name": "Aroshi's Gamble",
     "base": {
-      "description": "1/LR, as a bonus action, shapeshift into a random CR 2 monster until you use a bonus action to revert or the shapeshift's HP is lost",
-      "upgrade": "+1 CR"
+      "description": "1/LR, as a free action, shapeshift into a random CR 1 crystal monster (rank = CR) that deals acid damage until you use a free action to revert or the shapeshift's HP is lost",
+      "upgrade": "+2 CR"
     },
     "upgrades": [
       {
@@ -76,8 +76,8 @@
         "upgrade": "+1"
       },
       {
-        "description": "8. whenever you shapeshift, gain 3 temporary HP",
-        "upgrade": "+2"
+        "description": "8. whenever you shapeshift, gain 5 temporary HP",
+        "upgrade": "+5"
       }
     ]
   },
@@ -314,7 +314,7 @@
         "upgrade": "+2 die size"
       },
       {
-        "description": "6. whenever you are healed when downed, gain 10 additional HP",
+        "description": "6. whenever you are revived, gain 10 additional HP",
         "upgrade": "+10"
       },
       {
@@ -1790,8 +1790,8 @@
         "upgrade": "creatures have -1 to their saves vs the blinded condition from you"
       },
       {
-        "description": "6. medicine checks on you consider your maximum HP to be 10 higher",
-        "upgrade": "+10"
+        "description": "6. whenever you are revived, you recover 2% additional HP",
+        "upgrade": "+2%"
       },
       {
         "description": "7. your damaging attacks deal +1d4 fire damage",

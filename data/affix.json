@@ -114,6 +114,12 @@
         "affinities": ["control"]
     },
     {
+        "description": "you have +1 AB with attacks that cause the $condition condition",
+        "pointValue": "4",
+        "upgrade": "+1/4",
+        "affinities": ["control"]
+    },
+    {
         "description": "+5' mounted speed",
         "pointValue": "1",
         "upgrade": "+5'/1",
@@ -686,7 +692,13 @@
     {
         "description": "when hit, attacker becomes $condition for 1 round",
         "pointValue": "[varies - reroll dominated]",
-        "upgrade": "+1 resistance against [condition] creatures/1",
+        "upgrade": "+1 resistance vs [condition] creatures/1",
+        "affinities": ["control"]
+    },
+    {
+        "description": "on major hit, target becomes $condition for 1 round",
+        "pointValue": "[varies - reroll dominated]",
+        "upgrade": "+1 damage vs [condition] creatures/1",
         "affinities": ["control"]
     },
     {
@@ -1118,8 +1130,14 @@
     {
         "description": "whenever you revive a creature, they recover 1% additional HP",
         "pointValue": "1",
-        "upgrade": "+1/1",
+        "upgrade": "+1%/1",
         "affinities": ["support"]
+    },
+    {
+        "description": "whenever you are revived, you recover 1% additional HP",
+        "pointValue": "1",
+        "upgrade": "+1%/1",
+        "affinities": ["survivability"]
     },
     {
         "description": "d20 rolls you Help have a +1 bonus",
