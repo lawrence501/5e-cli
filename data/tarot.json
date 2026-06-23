@@ -89,7 +89,7 @@
     },
     {
         "name": "Ace of Wands",
-        "description": "The ring has 1 additional affix that has either the Control or Accuracy Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of this additional affix to half that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Offence or Accuracy (Knight), or Mobility or Utility (Page)."
+        "description": "The ring has 1 additional affix that has either the Control or Utility Affinity. Draw a card from the Wands deck. If the card is numeric, it sets the minimum point value of this additional affix to half that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Offence or Accuracy (Knight), or Mobility or Utility (Page)."
     },
     {
         "name": "Ace of Cups",
@@ -101,6 +101,6 @@
     },
     {
         "name": "Ace of Pentacles",
-        "description": "The ring has 1 additional affix that has either the Wealth or Utility Affinity. Draw a card from the Pentacles deck. If the card is numeric, it sets the minimum point value of this additional affix to half that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Offence or Accuracy (Knight), or Mobility or Utility (Page)."
+        "description": "The ring has 1 additional affix that has either the Wealth or Support Affinity. Draw a card from the Pentacles deck. If the card is numeric, it sets the minimum point value of this additional affix to half that value. Court cards add a further affix of the following Affinities: Control or Wealth (King), Survivability or Resource (Queen), Offence or Accuracy (Knight), or Mobility or Utility (Page)."
     }
 ]
