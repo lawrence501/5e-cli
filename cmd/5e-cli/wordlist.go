@@ -7782,4 +7782,9 @@ var WORDLIST []string = []string{
 	"Dan",
 	"Jonathon",
 	"Lawrence",
+	"Quincy",
+	"Viktor",
+	"Arthur",
+	"Nathaniel",
+	"Pip",
 }

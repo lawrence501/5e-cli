@@ -92,33 +92,33 @@ var DAMAGE_POLARITIES []string = []string{
 }
 
 var PARTY_MEMBERS []string = []string{
-	"Dekel",
-	"Bentley",
-	"Dan",
-	"Jonathon",
+	"Quincy",
+	"Viktor",
+	"Arthur",
+	"Nathaniel",
 }
 
 // Base chance = 7 + rank*3
 var FLARE_CHANCES map[string]int = map[string]int{
-	"Dekel":    10, // +0%, rank 1
-	"Bentley":  10, // +0%, rank 1
-	"Dan":      10, // +0%, rank 1
-	"Jonathon": 10, // +0%, rank 1
+	"Quincy":    10, // +0%, rank 1
+	"Viktor":    10, // +0%, rank 1
+	"Arthur":    10, // +0%, rank 1
+	"Nathaniel": 10, // +0%, rank 1
 }
 
 var INSIGHTS map[string]int = map[string]int{
-	"Dekel":    0,
-	"Bentley":  0,
-	"Dan":      0,
-	"Jonathon": 0,
-	"Sidekick": 0,
+	"Quincy":    5,
+	"Viktor":    1,
+	"Arthur":    3,
+	"Nathaniel": 1,
+	"Sidekick":  0,
 }
 
 var SPECIALISATION_TYPES map[string][]string = map[string][]string{
-	"Dekel":     {},
-	"Bentley":   {},
-	"Dan":       {},
-	"Jonathon":  {},
+	"Quincy":    {},
+	"Viktor":    {},
+	"Arthur":    {},
+	"Nathaniel": {},
 	"REFERENCE": {},
 }
 
