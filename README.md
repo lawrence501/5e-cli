@@ -137,3 +137,13 @@ Loot system:
 
 Specialisation after the first 'event' of sessions 4, 7, 10, 13, 16 (5 total)
 Augment after the first 'event' of sessions 6, 12, 18 (3 total)
+
+## Feats
+Quincy - Sharpshooter, Medium Armour Master
+Viktor - Warlord, Decayer
+Arthur - Dual-Wielder, Sharpshooter
+Nathaniel - Medium Armour Master, Inspiring Leader
+
+## Socials
+Group Persuasion - 4
+Group Deception - 3
