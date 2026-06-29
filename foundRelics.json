@@ -1,10 +1,59 @@
 {
-    "Dekel": [    
-    ],
-    "Bentley": [
-    ],
-    "Dan": [
-    ],
-    "Jonathon": [
-    ]
+  "Quincy": [],
+  "Viktor": [
+    {
+      "name": "Onyx",
+      "startingAffixes": [
+        {
+          "description": "the first time between rests that you go down, make a save, ignoring the wound on a success",
+          "pointValue": "1",
+          "upgrade": "+1 time/1"
+        },
+        {
+          "description": "+1 resistance",
+          "pointValue": "2",
+          "upgrade": "+1/2"
+        },
+        {
+          "description": "the first time between rests that you go down, gain +2 resistance for the remainder of combat",
+          "pointValue": "1",
+          "upgrade": "+1/1"
+        }
+      ],
+      "thematicAffixes": [
+        {
+          "description": "1. +2 necrotic resistance",
+          "pointValue": "1",
+          "upgrade": "+1/1"
+        },
+        {
+          "description": "2. +1 fortitude",
+          "pointValue": "4",
+          "upgrade": "+1/4"
+        },
+        {
+          "description": "3. +1 to death saves",
+          "pointValue": "4",
+          "upgrade": "+1/4"
+        },
+        {
+          "description": "4. your areas are 5' larger if you haven't moved since the start of your last turn",
+          "pointValue": "2",
+          "upgrade": "+5'/2"
+        },
+        {
+          "description": "5. the first time between rests that you would go down, gain 9 temporary HP, which is consumed as part of the effect taking you down, potentially keeping you above 0 HP",
+          "pointValue": "1",
+          "upgrade": "+9/1"
+        },
+        {
+          "description": "6. -4 maximum HP; 2pts distributed",
+          "pointValue": "1",
+          "upgrade": "-4 and 2pts distributed/1"
+        }
+      ]
+    }
+  ],
+  "Arthur": [],
+  "Nathaniel": []
 }
