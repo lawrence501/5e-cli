@@ -100,8 +100,8 @@ var PARTY_MEMBERS []string = []string{
 
 // Base chance = 7 + rank*3
 var FLARE_CHANCES map[string]int = map[string]int{
-	"Quincy":    12, // +2%, rank 1
-	"Viktor":    12, // +2%, rank 1
+	"Quincy":    10, // +0%, rank 1
+	"Viktor":    10, // +0%, rank 1
 	"Arthur":    10, // +0%, rank 1
 	"Nathaniel": 10, // +0%, rank 1
 }
