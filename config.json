@@ -9,9 +9,9 @@
       "id": "enchant",
       "label": "Enchanted Item",
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "enchant"
       ]
     },
@@ -20,25 +20,25 @@
       "id": "mutate",
       "label": "Mutation",
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "mutate"
       ]
     },
     {
       "type": "data",
       "id": "colour-upgrade",
-      "source": "/Users/dekelpilli/personal/5e-cli/misc/colour-upgrade.edn"
+      "source": "misc/colour-upgrade.edn"
     },
     {
       "type": "cli",
       "id": "amulet",
       "label": "Amulet",
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "amulet"
       ]
     },
@@ -47,25 +47,25 @@
       "id": "crystal",
       "label": "Crystal",
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "crystal"
       ]
     },
     {
       "type": "data",
       "id": "dream-mirror",
-      "source": "/Users/dekelpilli/personal/5e-cli/misc/dream-mirror.edn"
+      "source": "misc/dream-mirror.edn"
     },
     {
       "type": "cli",
       "id": "glyph",
       "label": "Glyph",
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "glyph"
       ]
     },
@@ -74,9 +74,9 @@
       "id": "relic",
       "label": "Relic",
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "relic"
       ]
     },
@@ -85,21 +85,21 @@
       "id": "shrine",
       "label": "Shrine",
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "shrine"
       ]
     },
     {
       "type": "data",
       "id": "tarot-cards",
-      "source": "/Users/dekelpilli/personal/5e-cli/misc/tarot-cards.edn"
+      "source": "misc/tarot-cards.edn"
     },
     {
       "type": "data",
       "id": "players-choice",
-      "source": "/Users/dekelpilli/personal/5e-cli/misc/players-choice.edn"
+      "source": "misc/players-choice.edn"
     },
     {
       "type": "cli",
@@ -107,9 +107,9 @@
       "label": "Ability",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "ability"
       ]
     },
@@ -119,9 +119,9 @@
       "label": "Affinity",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "affinity"
       ]
     },
@@ -131,9 +131,9 @@
       "label": "Affix",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "affix"
       ]
     },
@@ -143,9 +143,9 @@
       "label": "Carnival Game",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "carnival"
       ]
     },
@@ -155,9 +155,9 @@
       "label": "Chaotic Modifier",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "chaos"
       ]
     },
@@ -167,9 +167,9 @@
       "label": "Class",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "class"
       ]
     },
@@ -179,9 +179,9 @@
       "label": "Combat Breakdown",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "combat"
       ]
     },
@@ -191,9 +191,9 @@
       "label": "Combat Loot",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "loot"
       ]
     },
@@ -203,9 +203,9 @@
       "label": "Condition",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "condi"
       ]
     },
@@ -215,9 +215,9 @@
       "label": "Creature Type",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "creature type"
       ]
     },
@@ -227,9 +227,9 @@
       "label": "Damage Polarity",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "dmg polarity"
       ]
     },
@@ -239,9 +239,9 @@
       "label": "Damage Type",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "dmg type"
       ]
     },
@@ -251,9 +251,9 @@
       "label": "Feat",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "feat"
       ]
     },
@@ -263,9 +263,9 @@
       "label": "Journey Activity",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "journey activity"
       ]
     },
@@ -275,9 +275,9 @@
       "label": "Journey Travel Day",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "travel"
       ]
     },
@@ -287,9 +287,9 @@
       "label": "Language",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "language"
       ]
     },
@@ -299,9 +299,9 @@
       "label": "Loot Result",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "loot result"
       ]
     },
@@ -311,9 +311,9 @@
       "label": "Martial Weapon",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "martial wep"
       ]
     },
@@ -323,9 +323,9 @@
       "label": "Mission",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "mission"
       ]
     },
@@ -335,9 +335,9 @@
       "label": "Non-physical Damage Type",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "non-phys type"
       ]
     },
@@ -347,9 +347,9 @@
       "label": "NPC",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "npc"
       ]
     },
@@ -359,9 +359,9 @@
       "label": "Party Member",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "party member"
       ]
     },
@@ -371,9 +371,9 @@
       "label": "Physical Damage Type",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "phys type"
       ]
     },
@@ -383,9 +383,9 @@
       "label": "Plane",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "plane"
       ]
     },
@@ -395,9 +395,9 @@
       "label": "Prize",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "prize"
       ]
     },
@@ -407,9 +407,9 @@
       "label": "Simple Weapon",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "simple wep"
       ]
     },
@@ -419,9 +419,9 @@
       "label": "Skill",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "skill"
       ]
     },
@@ -431,9 +431,9 @@
       "label": "Weapon Class",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "weapon class"
       ]
     },
@@ -443,9 +443,9 @@
       "label": "Weapon Trait",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "trait"
       ]
     },
@@ -455,9 +455,9 @@
       "label": "Xiloan",
       "utility?": true,
       "command": [
-        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "./5e-cli",
         "-data",
-        "/Users/dekelpilli/opensource/5e-cli/data",
+        "data",
         "xiloan"
       ]
     }
