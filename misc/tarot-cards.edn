@@ -1,0 +1,7 @@
+;; Static loot-roll result: a tarot-card draw (Gifts from Aroshi).
+{:label    "Tarot Cards"
+ :items    [{:result "Draw 2 tarot cards from the deck."}]
+ :title    "Tarot cards"
+ :subtitle "Gift from Aroshi"
+ :sections [{:each :items
+             :item {:body "{{result}}"}}]}

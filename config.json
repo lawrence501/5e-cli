@@ -1,0 +1,508 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8019
+  },
+  "plugins": [
+    {
+      "type": "cli",
+      "id": "enchant",
+      "label": "Enchanted Item",
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "enchant"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "mutate",
+      "label": "Mutation",
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "mutate"
+      ]
+    },
+    {
+      "type": "data",
+      "id": "colour-upgrade",
+      "source": "/Users/dekelpilli/personal/5e-cli/misc/colour-upgrade.edn"
+    },
+    {
+      "type": "cli",
+      "id": "amulet",
+      "label": "Amulet",
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "amulet"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "crystal",
+      "label": "Crystal",
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "crystal"
+      ]
+    },
+    {
+      "type": "data",
+      "id": "dream-mirror",
+      "source": "/Users/dekelpilli/personal/5e-cli/misc/dream-mirror.edn"
+    },
+    {
+      "type": "cli",
+      "id": "glyph",
+      "label": "Glyph",
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "glyph"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "relic",
+      "label": "Relic",
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "relic"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "shrine",
+      "label": "Shrine",
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "shrine"
+      ]
+    },
+    {
+      "type": "data",
+      "id": "tarot-cards",
+      "source": "/Users/dekelpilli/personal/5e-cli/misc/tarot-cards.edn"
+    },
+    {
+      "type": "data",
+      "id": "players-choice",
+      "source": "/Users/dekelpilli/personal/5e-cli/misc/players-choice.edn"
+    },
+    {
+      "type": "cli",
+      "id": "ability",
+      "label": "Ability",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "ability"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "affinity",
+      "label": "Affinity",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "affinity"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "affix",
+      "label": "Affix",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "affix"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "carnival",
+      "label": "Carnival Game",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "carnival"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "chaos",
+      "label": "Chaotic Modifier",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "chaos"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "class",
+      "label": "Class",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "class"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "combat",
+      "label": "Combat Breakdown",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "combat"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "loot",
+      "label": "Combat Loot",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "loot"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "condi",
+      "label": "Condition",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "condi"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "creature-type",
+      "label": "Creature Type",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "creature type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "dmg-polarity",
+      "label": "Damage Polarity",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "dmg polarity"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "dmg-type",
+      "label": "Damage Type",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "dmg type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "feat",
+      "label": "Feat",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "feat"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "journey-activity",
+      "label": "Journey Activity",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "journey activity"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "travel",
+      "label": "Journey Travel Day",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "travel"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "language",
+      "label": "Language",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "language"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "loot-result",
+      "label": "Loot Result",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "loot result"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "martial-wep",
+      "label": "Martial Weapon",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "martial wep"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "mission",
+      "label": "Mission",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "mission"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "non-phys-type",
+      "label": "Non-physical Damage Type",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "non-phys type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "npc",
+      "label": "NPC",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "npc"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "party-member",
+      "label": "Party Member",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "party member"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "phys-type",
+      "label": "Physical Damage Type",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "phys type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "plane",
+      "label": "Plane",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "plane"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "prize",
+      "label": "Prize",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "prize"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "simple-wep",
+      "label": "Simple Weapon",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "simple wep"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "skill",
+      "label": "Skill",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "skill"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "weapon-class",
+      "label": "Weapon Class",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "weapon class"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "trait",
+      "label": "Weapon Trait",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "trait"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "xiloan",
+      "label": "Xiloan",
+      "utility?": true,
+      "command": [
+        "/Users/dekelpilli/opensource/5e-cli/5e-cli",
+        "-data",
+        "/Users/dekelpilli/opensource/5e-cli/data",
+        "xiloan"
+      ]
+    }
+  ],
+  "loot-table": [
+    {
+      "id": "colour-upgrade",
+      "weight": 8
+    },
+    {
+      "id": "amulet",
+      "weight": 13
+    },
+    {
+      "id": "crystal",
+      "weight": 13
+    },
+    {
+      "id": "dream-mirror",
+      "weight": 13
+    },
+    {
+      "id": "glyph",
+      "weight": 13
+    },
+    {
+      "id": "relic",
+      "weight": 13
+    },
+    {
+      "id": "shrine",
+      "weight": 13
+    },
+    {
+      "id": "tarot-cards",
+      "weight": 13
+    },
+    {
+      "id": "players-choice",
+      "weight": 1
+    }
+  ],
+  "reporting": {
+    "backend": "discord",
+    "webhook-url": "WEBHOOK_URL_HERE",
+    "avatar-url": "https://media.discordapp.net/attachments/1248589017709150332/1248596614973493298/4503592c-ae86-4f1d-b90c-848a52e19bb3.jpeg?ex=668f1676&is=668dc4f6&hm=dff3a184f854a7b1d388a65ac5bf804b306abb4539cb2ec1035f6016585229e7&=&format=webp&width=960&height=960"
+  }
+}

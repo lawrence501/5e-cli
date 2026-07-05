@@ -1,0 +1,6 @@
+;; Static loot-roll result: the 100 roll.
+{:label    "Player's Choice"
+ :items    [{:result "Player's choice and upgrade result with +1 colour!"}]
+ :title    "Player's choice"
+ :sections [{:each :items
+             :item {:body "{{result}}"}}]}
