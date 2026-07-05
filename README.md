@@ -106,11 +106,6 @@ Utility
 
 ## Ideas for next campaign/things to discuss
 
-Edvard Winthrop
-Redemption Herald
-Tactician feat
-Resilient feat
-
 Base loot: enchanted items (min total points = party lvl) (sell for 30gp)
 
 For 100gp, buy loot roll (d100):
@@ -147,3 +142,5 @@ Nathaniel - Medium Armour Master, Inspiring Leader
 ## Socials
 Group Persuasion - 4
 Group Deception - 3
+
+dan dream inspo - the help bonus action mastermind feature

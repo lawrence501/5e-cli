@@ -464,8 +464,7 @@ var enchantedItem = func() error {
 		modDescriptions = append(modDescriptions, fmt.Sprintf("%s *[%s; %s; %s]*", m.Description, m.PointValue, m.Upgrade, strings.Join(m.Affinities, ", ")))
 	}
 
-	log.Printf("### Enchanted Item\n- %s", strings.Join(modDescriptions, "\n- "))
-	return nil
+	return discordSend(fmt.Sprintf("### Enchanted Item\n- %s", strings.Join(modDescriptions, "\n- ")))
 }
 
 var shrine = func() error {
