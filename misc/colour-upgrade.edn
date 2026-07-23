@@ -1,7 +1,0 @@
-;; Static loot-roll result: the colour-upgrade band (Chromatic Energy).
-{:label    "Colour Upgrade"
- :items    [{:result "Reroll and upgrade the result with +1 colour!"}]
- :title    "Colour upgrade"
- :subtitle "Chromatic Energy"
- :sections [{:each :items
-             :item {:body "{{result}}"}}]}

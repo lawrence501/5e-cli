@@ -3,10 +3,9 @@ package main
 import (
 	"errors"
 	"regexp"
+	"slices"
 	"strconv"
 	"strings"
-
-	"golang.org/x/exp/slices"
 )
 
 var validateBase = func(input string) error {

@@ -1,7 +1,0 @@
-;; Static loot-roll result: a Dream Mirror (Gifts from Somnius).
-{:label    "Dream Mirror"
- :items    [{:result "Odd mirrors expand your Dream Pool; even mirrors grant a Dream from it."}]
- :title    "Dream Mirror"
- :subtitle "Gift from Somnius"
- :sections [{:each :items
-             :item {:body "{{result}}"}}]}
