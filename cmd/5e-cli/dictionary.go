@@ -100,9 +100,9 @@ var PARTY_MEMBERS []string = []string{
 
 // Base chance = 7 + rank*3
 var FLARE_CHANCES map[string]int = map[string]int{
-	"Quincy":    10, // +0%, rank 1
-	"Viktor":    10, // +0%, rank 1
-	"Arthur":    10, // +0%, rank 1
+	"Quincy":    12, // +2%, rank 1
+	"Viktor":    12, // +2%, rank 1
+	"Arthur":    13, // +0%, rank 1
 	"Nathaniel": 10, // +0%, rank 1
 }
 
@@ -111,15 +111,15 @@ var INSIGHTS map[string]int = map[string]int{
 	"Viktor":    1,
 	"Arthur":    3,
 	"Nathaniel": 1,
-	"Sidekick":  0,
+	"Sidekick":  2,
 }
 
 var SPECIALISATION_TYPES map[string][]string = map[string][]string{
-	"Quincy":    {},
-	"Viktor":    {},
-	"Arthur":    {},
-	"Nathaniel": {},
-	"REFERENCE": {},
+	"Quincy":    {"shrine", "shrine"},
+	"Viktor":    {"?"},
+	"Arthur":    {"misc"},
+	"Nathaniel": {"?"},
+	"REFERENCE": {"L4"},
 }
 
 var PARTY_LEVEL int = 1

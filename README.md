@@ -140,25 +140,12 @@ Arthur - Dual-Wielder, Sharpshooter
 Nathaniel - Medium Armour Master, Inspiring Leader
 
 ## Socials
+FULL PARTY
 Group Persuasion - 4
 Group Deception - 3
 
-1. bonus action to assemble
-2. scaffold stat block
-3. 10' tall
-4. your space or adjacent
-5. unoccupied space
-6. climbing as normal movement
-7. solid ground
-8. increase height by 10'
-9. perched while atop
-10. scaffolds provide half cover
-11. bonus action to repair
-12. repair fully heals
-13. when scaffold destroyed, creatures fall
-14. Max height scaffolds
-15. bonus action to disassemble
-16. disassemble within reach
-17. magiscience prof
-18. magiscience with dex for scaffolding/platforms
-19. something else
+DEKEL DAN SK
+Group Persuasion - 
+Group Deception - 
+
+dekel dream inspo - Scaffolding feature
