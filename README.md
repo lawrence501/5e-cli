@@ -140,7 +140,12 @@ Arthur - Dual-Wielder, Sharpshooter
 Nathaniel - Medium Armour Master, Inspiring Leader
 
 ## Socials
+FULL PARTY
 Group Persuasion - 4
 Group Deception - 3
 
-dan dream inspo - the help bonus action mastermind feature
+DEKEL DAN SK
+Group Persuasion - 
+Group Deception - 
+
+dekel dream inspo - Scaffolding feature
