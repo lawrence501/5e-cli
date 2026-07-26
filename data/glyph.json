@@ -744,7 +744,7 @@
             "5. Glassborn Refined: Objects created by your Glassborn now last indefinitely, and are made of standardly-durable glass.",
             "6. Duneform Sentinel: Once per long rest, when you roll for initiative, you can create a small CR 1/4 construct minion (requires your concentration to maintain) in a space adjacent to you. It lasts until it dies or the combat ends.",
             "7. Glassheart Relic: As a free action, you can create flawless glass foci, which last until destroyed or they leave your party. While held in a single hand, the wielder gains +1 to spell AB.",
-            "8. Sandshaper's Bastion: Once per long rest, as a free action, you can form sand into a wall up to 10' long and high and up to 1' thick. They last for 1 hour and provide half cover.",
+            "8. Sandshaper's Bastion: Once per long rest, as a free action, you can form sand into a wall up to 10' long and high and up to 1' thick. It lasts for 1 hour and provides half cover.",
             "9. Sandshaper's Dominion: As a free action, you can create permanent sand structures. They remain until destroyed.",
             "10. Duneform Colossus: Your Duneform Sentinel is now Huge and has a CR of 7. Additionally, it lasts until it dies or you next take a long rest."
         ]
@@ -1210,7 +1210,7 @@
             "6. Scalding Pressure: Your Steam Vent harm increases to 2d4, and its cone size increases to 30'.",
             "7. Draconic Locomotion: You gain flying speed equal to your Speed. If you are wearing metal armour, this flying speed has a maximum of 20'.",
             "8. Clockwork Sovereignty: You are immune to the charmed and frightened conditions. Additionally, whenever a spell attack would score a minor success against you, you can downgrade it to a critical failure.",
-            "9. Arcane Gearheart (strong): You gain advantage on death saves. Additionally, whenever you roll for initiative and have no uses of Steam Vent remaining, recover one use.",
+            "9. Arcane Gearheart: You gain advantage on death saves. Additionally, whenever you roll for initiative and have no uses of Steam Vent remaining, recover one use.",
             "10. Ascendant Clockwork Dragon: You gain immunity to fire damage, your Steam Vent harm increases to 3d4, and once per long rest, when you would drop to 0 HP, you can instead remain at 1 HP and regain all expended uses of Steam Vent."
         ]
     },
