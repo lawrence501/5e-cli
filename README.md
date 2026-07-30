@@ -140,12 +140,12 @@ Arthur - Dual-Wielder, Sharpshooter
 Nathaniel - Medium Armour Master, Inspiring Leader
 
 ## Socials
+FULL PARTY
 Group Persuasion - 4
 Group Deception - 3
 
-1. choose a proficient skill
-2. expertise die on chosen skill
-3. positive reputation in a city
-4. spend gold on
-5. 1/3rd less
-6. something else
+DEKEL DAN SK
+Group Persuasion - 
+Group Deception - 
+
+dekel dream inspo - Scaffolding feature
