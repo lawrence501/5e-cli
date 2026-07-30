@@ -324,6 +324,12 @@
         "affinities": ["wealth"]
     },
     {
+        "description": "purchasing loot rolls costs -1 gold",
+        "pointValue": "1",
+        "upgrade": "-1/1",
+        "affinities": ["wealth"]
+    },
+    {
         "description": "+1 to your lowest ability score",
         "pointValue": "1",
         "upgrade": "+1/1",
@@ -1080,9 +1086,15 @@
         "affinities": ["offence"]
     },
     {
-        "description": "someone in $city will exchange this item for exotic treasures (can be traded there for a random positive reward)",
+        "description": "someone in $city will exchange this item for exotic treasures (can be traded there for a random prize)",
         "pointValue": "3",
         "upgrade": "+1 empower/3",
+        "affinities": ["wealth"]
+    },
+    {
+        "description": "this item sells for +5 gold",
+        "pointValue": "1",
+        "upgrade": "+5/1",
         "affinities": ["wealth"]
     },
     {
