@@ -103,7 +103,7 @@ var FLARE_CHANCES map[string]int = map[string]int{
 	"Quincy":    12, // +2%, rank 1
 	"Viktor":    12, // +2%, rank 1
 	"Arthur":    13, // +0%, rank 1
-	"Nathaniel": 10, // +0%, rank 1
+	"Nathaniel": 12, // +2%, rank 1
 }
 
 var INSIGHTS map[string]int = map[string]int{
@@ -116,9 +116,9 @@ var INSIGHTS map[string]int = map[string]int{
 
 var SPECIALISATION_TYPES map[string][]string = map[string][]string{
 	"Quincy":    {"shrine", "shrine"},
-	"Viktor":    {"?"},
+	"Viktor":    {"relic"},
 	"Arthur":    {"misc"},
-	"Nathaniel": {"?"},
+	"Nathaniel": {"misc"},
 	"REFERENCE": {"L4"},
 }
 
