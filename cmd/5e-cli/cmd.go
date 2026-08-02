@@ -182,7 +182,7 @@ var chaos = func() error {
 }
 
 var PERK_CHANCE = 20
-var CARNIVAL_CHANCE = 10
+var CARNIVAL_CHANCE = 11
 var OTHERWORLDLY_CHANCE = 3
 var combat = func() error {
 	roundMap := map[int][]string{
