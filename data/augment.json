@@ -203,8 +203,8 @@
         },
         {
             "type": "generated",
-            "name": "",
-            "description": ""
+            "name": "Momentum",
+            "description": "Your Speed increases by 10 feet and you can move through hostile creature's spaces."
         }
     ]
 }

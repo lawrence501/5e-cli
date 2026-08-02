@@ -476,6 +476,36 @@ var shrine = func() error {
 	return discordSend(fmt.Sprintf("### Shrine\n**Shrine of %s:** %s", s.Name, s.Description))
 }
 
+var augment = func() error {
+	augments, err := fetchData("augment", Augments{})
+	if err != nil {
+		return err
+	}
+
+	charP := promptui.Prompt{
+		Label:    "Character to augment",
+		Validate: validatePartyMember,
+	}
+	char, err := charP.Run()
+	if err != nil {
+		return err
+	}
+
+	var augmentList []Augment
+	switch char {
+	case "Quincy":
+		augmentList = augments.Quincy
+	case "Viktor":
+		augmentList = augments.Viktor
+	case "Arthur":
+		augmentList = augments.Arthur
+	case "Nathaniel":
+		augmentList = augments.Nathaniel
+	}
+	a := randSelect(augmentList)
+	return discordSend(fmt.Sprintf("### %s's Augment\n**%s:** %s", char, a.Name, a.Description))
+}
+
 var npc = func() error {
 	log.Printf("NPC: %s %s", GENDERS[rand.Intn(len(GENDERS))], RACES[rand.Intn(len(RACES))])
 	return nil
