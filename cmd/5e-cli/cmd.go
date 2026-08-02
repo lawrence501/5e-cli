@@ -272,7 +272,7 @@ var dream = func(req Request) (ViewModel, error) {
 	mod := randSelect(pool)
 	return ViewModel{
 		Title:    fmt.Sprintf("%s's dream", char),
-		Sections: sectionOf(Item{Body: processString(mod.Description), Tags: []string{mod.PointValue, mod.Upgrade}}),
+		Sections: sectionOf(Item{Body: processString(mod.Description), Metadata: []string{mod.PointValue, mod.Upgrade}}),
 	}, nil
 }
 
