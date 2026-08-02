@@ -33,9 +33,9 @@ func (r Request) num(key string) (float64, bool) {
 
 // Item is a single generated line, mapped by sns-companion to `:item/*` keys.
 type Item struct {
-	Title string   `json:"title,omitempty"`
-	Body  string   `json:"body"`
-	Tags  []string `json:"tags,omitempty"`
+	Title    string   `json:"title,omitempty"`
+	Body     string   `json:"body"`
+	Metadata []string `json:"metadata,omitempty"`
 }
 
 // Section groups related items under an optional heading.
