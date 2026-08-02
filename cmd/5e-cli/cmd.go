@@ -376,10 +376,9 @@ var relic = func(_ Request) (ViewModel, error) {
 	}
 	chosen := randSelect(relics)
 	items := make([]Item, 0, len(chosen.StartingAffixes))
-	var modDescriptions []string
 	for _, m := range chosen.StartingAffixes {
 		m.Description = processString(m.Description)
-		modDescriptions = append(modDescriptions, fmt.Sprintf("%s *[%s; %s]*", m.Description, m.PointValue, m.Upgrade))
+		var modDescriptions = []string{fmt.Sprintf("[%s; %s]", m.PointValue, m.Upgrade)}
 		items = append(items, Item{Body: processString(m.Description), Metadata: modDescriptions})
 
 	}
