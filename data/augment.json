@@ -1,50 +1,210 @@
 {
     "Quincy": [
-        "[Partner] ",
-        "[Partner] ",
-        "[Identity] ",
-        "[Identity] ",
-        "[Gap] ",
-        "[Gap] ",
-        "[Keyword] ",
-        "[Keyword] ",
-        "[AI] ",
-        "[AI] "
+        {
+            "type": "partner",
+            "name": "Supporting Fire",
+            "description": "Whenever you make a ranged attack against a creature adjacent to Nathaniel, his melee damage against that creature increases by an amount equal to your level for the remainder of combat."
+        },
+        {
+            "type": "partner",
+            "name": "Fraternal Understanding",
+            "description": "Nathaniel has advantage when making ability checks for your Exposed Weaknesses. Additionally, his damage always counts as both physical and non-physical for the purposes of your Exposed Weaknesses."
+        },
+        {
+            "type": "identity",
+            "name": "Reflief from Paranoia",
+            "description": "Whenever the weather obscures the moon (Blizzard or Downpour), you have +5 critical success range for the Cook journey activity."
+        },
+        {
+            "type": "identity",
+            "name": "Homesick",
+            "description": "While an ally is adjacent to you or a scaffold you are perched on, your ranged attacks have +2 AB."
+        },
+        {
+            "type": "gap",
+            "name": "Survival Training",
+            "description": "You can use the Cook journey activity even during Sweltering weather."
+        },
+        {
+            "type": "gap",
+            "name": "Tactical Perches",
+            "description": "The first time during a combat that you create a scaffold, you may also assemble a scaffold of the same height in an unoccupied space within 30 feet of you (ignoring line of sight)."
+        },
+        {
+            "type": "keyword",
+            "name": "Flow State",
+            "description": "Whenever you make a ranged attack while perched, you become Focused for 1 round. While Focused, your ranged attacks have +1 critical success range."
+        },
+        {
+            "type": "keyword",
+            "name": "Comfort in Understanding",
+            "description": "Whenever you Expose a creature, you become Focused until that creature is no longer Exposed. While Focused, you deal bonus ranged damage equal to your level."
+        },
+        {
+            "type": "generated",
+            "name": "Perfect Footing",
+            "description": "You may always land on your feet when falling, and ignore falling damage from falls from your scaffolds. Additionally, whenever you fall at least 20 feet, you can cause thunder harm to all adjacent creatures of your choice equal to the amount of falling damage a creature would normally take from that fall."
+        },
+        {
+            "type": "generated",
+            "name": "Quick Construction",
+            "description": "Whenever you create or extend a scaffold, you can do so by up to 15 feet. Additionally, your maximum total scaffold height in feet is now 15 times your Wisdom modifier."
+        }
     ],
     "Viktor": [
-        "[Partner] ",
-        "[Partner] ",
-        "[Identity] ",
-        "[Identity] ",
-        "[Gap] ",
-        "[Gap] ",
-        "[Keyword] ",
-        "[Keyword] ",
-        "[AI] ",
-        "[AI] "
+        {
+            "type": "partner",
+            "name": "Supportive Friend",
+            "description": "Whenever a creature other than your Monstrous Minion consumes Arthur's Help on a foe, your Monstrous Minion's next attack against that foe has advantage."
+        },
+        {
+            "type": "partner",
+            "name": "Stabilising Presence",
+            "description": "While you are adjacent to Arthur, you both have +2 Will and damage resistance equal to your proficiency bonus."
+        },
+        {
+            "type": "identity",
+            "name": "Protective",
+            "description": "Whenever your Monstrous Minion is hit, the attacker suffers psychic harm from you equal to your level."
+        },
+        {
+            "type": "identity",
+            "name": "Frenzy",
+            "description": "Whenever a foe dies while adjacent to your Monstrous Minion, your Monstrous Minion can use its reaction to move up to its Speed and make an attack. If it doesn't have its reaction, it instead increases its next attack by 2 success tiers."
+        },
+        {
+            "type": "gap",
+            "name": "Overclocked Inventions",
+            "description": "Whenever you roll for initiative and have no spell inventions, you may immediately restore functionality to one of your choice. Additionally, whenever you roll a 4+ on a fizzle die you may release a pulse of magical energy, causing force harm to creatures of your choice within 30 feet of you equal to a number of d6s equal to the spell's level."
+        },
+        {
+            "type": "gap",
+            "name": "Efficient Upkeep",
+            "description": "Whenever you would spend gold on an Artificer feature or a journey activity, it costs half as much."
+        },
+        {
+            "type": "keyword",
+            "name": "Bloodthirst",
+            "description": "Whenever your Monstrous Minion scores a major success on an attack, it becomes Enraged for 1 round. While Enraged, it has +3 critical success range."
+        },
+        {
+            "type": "keyword",
+            "name": "Devotion",
+            "description": "Whenever you are hit, your Monstrous Minion becomes Enraged for 1 round. While Enraged, it has +20 feet of Speed and deals additional damage equal to double your level."
+        },
+        {
+            "type": "generated",
+            "name": "Extensive Care",
+            "description": "The temporary hit points your Monstrous Minion gains upon rolling initiative increase by an amount equal to your Intelligence modifier times your proficiency bonus."
+        },
+        {
+            "type": "generated",
+            "name": "Loving Sacrifice",
+            "description": "As a free action, you can expend a number of hit points equal to your level in order to grant your Monstrous Minion the same amount of AB during its next turn."
+        }
     ],
     "Arthur": [
-        "[Partner] ",
-        "[Partner] ",
-        "[Identity] ",
-        "[Identity] ",
-        "[Gap] ",
-        "[Gap] ",
-        "[Keyword] ",
-        "[Keyword] ",
-        "[AI] ",
-        "[AI] "
+        {
+            "type": "partner",
+            "name": "Idol",
+            "description": "Whenever Viktor or his Monstrous Minion score a major success on an attack, you gain an expertise die on your next attack roll."
+        },
+        {
+            "type": "partner",
+            "name": "Inspiring Presence",
+            "description": "While you are adjacent to Viktor, you both have +1 AB and additional damage and minion damage equal to your proficiency bonus."
+        },
+        {
+            "type": "identity",
+            "name": "Horoscope",
+            "description": "Whenever you finish a long rest, the moon's shape category will be revealed to you, granting an effect until your next long rest (d4): 1. Jagged, your d20 rolls have a -3 penalty; 2. Angular, your d20 rolls have a +1 bonus; 3. Smooth, as Angular, and your damage is increased by your proficiency bonus; 4. Round, as Smooth, and your d20 rolls have +1 critical success range."
+        },
+        {
+            "type": "identity",
+            "name": "Omens",
+            "description": "Whenever you roll for initiative, choose a foe in the combat. You learn valuable information about how that creature fights."
+        },
+        {
+            "type": "gap",
+            "name": "Masterful Deduction",
+            "description": "Once per long rest, if you spend at least 1 minute observing or interacting with a creature outside combat, you can cast Legend Lore on that creature, which functions even if the creature is not of legendary renown."
+        },
+        {
+            "type": "gap",
+            "name": "Impeccable Capability",
+            "description": "Each skill check you make has a minimum of a d4 expertise die added to it."
+        },
+        {
+            "type": "keyword",
+            "name": "Behaviour Study",
+            "description": "Whenever you roll for initiative, choose a foe in the combat. For the remainder of combat while that foe is alive, you are Enlightened. While Enlightened, you have +2 critical success range against foes that aren't adjacent to any of their own allies."
+        },
+        {
+            "type": "keyword",
+            "name": "Detect Flaws",
+            "description": "Whenever a foe in your line of sight scores a major success on an attack, you become Enlightened for the remainder of combat. While Enlightened, you and allies within 60 feet of you have +1 to all Defences."
+        },
+        {
+            "type": "generated",
+            "name": "Supple Voice",
+            "description": "After hearing a creature speak for at least 1 minute, you can reproduce that creature's voice for the next week. This grants you advantage on any Deception checks made to pretend to be that creature. You can only have one creature's voice remembered in this way at a time."
+        },
+        {
+            "type": "generated",
+            "name": "Superior Support",
+            "description": "Your Help action's range is increased by 30 feet, and attacks aided by your Help action also have +1 AB."
+        }
     ],
     "Nathaniel": [
-        "[Partner] ",
-        "[Partner] ",
-        "[Identity] ",
-        "[Identity] ",
-        "[Gap] ",
-        "[Gap] ",
-        "[Keyword] ",
-        "[Keyword] ",
-        "[AI] ",
-        "[AI] "
+        {
+            "type": "partner",
+            "name": "Quinn Signature",
+            "description": "Whenever you hit a creature, you can leave your signature branded on it. The next time Quincy hits a branded creature with a ranged attack, the brand is consumed and the target and all creatures of your choice adjacent to it suffer thunder harm equal to your level."
+        },
+        {
+            "type": "partner",
+            "name": "Family Reunion",
+            "description": "Whenever you or Quincy would be revived, the other gains a bonus to damage until your next long rest equal to your proficiency bonus."
+        },
+        {
+            "type": "identity",
+            "name": "Provocative Performance",
+            "description": "As a free action, you can make a DC 15 Persuasion check against a foe that can sense you. On a success, you can choose for them to be either taunted by you or charmed by you for the remainder of combat."
+        },
+        {
+            "type": "identity",
+            "name": "Swords Dance",
+            "description": "Whenever you make a melee attack, you may convert your attack into an area attack and cause it to instead target all creatures of your choice adjacent to you."
+        },
+        {
+            "type": "gap",
+            "name": "Man of the People",
+            "description": "You consider all humanoids to be of any societal class of your choice (eg. commoner, noble, etc.), and while you are in a tavern that knows you (through word of mouth or because you have performed there, etc.) the patrons are always helpful in providing information to you."
+        },
+        {
+            "type": "gap",
+            "name": "Skill Monkey",
+            "description": "You immediately gain three skill proficiencies of your choice."
+        },
+        {
+            "type": "keyword",
+            "name": "Swordstorm",
+            "description": "Whenever you score a major success with a melee attack, you start Performing for the remainder of combat. While Performing, your melee hits splash damage equal to your proficiency bonus, and your splash range is increased to 30 feet."
+        },
+        {
+            "type": "keyword",
+            "name": "Battle Entertainment",
+            "description": "Whenever you consume your Bardic Inspiration, you start Performing for 1 round. While Performing, allies within 60 feet of you have +1 AB."
+        },
+        {
+            "type": "generated",
+            "name": "Bladewaltz",
+            "description": "Once per combat, you can use a Blade Flourish without consuming a use of your Bardic Inspiration. This also increases the die size of the die used in the flourish."
+        },
+        {
+            "type": "generated",
+            "name": "",
+            "description": ""
+        }
     ]
 }
