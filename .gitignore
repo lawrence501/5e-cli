@@ -1,11 +1,13 @@
 # Binaries for programs and plugins
 /5e-cli
+/companion
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 .vscode
+*.jar
 
 # Test binary, built with `go test -c`
 *.test
