@@ -81,7 +81,7 @@ func staticVM(title, body string) CommandFunc {
 // value, upgrade note, and affinities as tags.
 func affixItem(a Affix) Item {
 	return Item{
-		Body: processString(a.Description),
-		Tags: append([]string{a.PointValue, a.Upgrade}, a.Affinities...),
+		Body:     processString(a.Description),
+		Metadata: append([]string{a.PointValue, a.Upgrade}, a.Affinities...),
 	}
 }
