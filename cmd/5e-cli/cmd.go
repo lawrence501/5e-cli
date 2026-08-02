@@ -421,7 +421,7 @@ var relic = func() error {
 	var modDescriptions []string
 	for _, m := range chosen.StartingAffixes {
 		m.Description = processString(m.Description)
-		modDescriptions = append(modDescriptions, m.Description)
+		modDescriptions = append(modDescriptions, fmt.Sprintf("%s *[%s; %s]*", m.Description, m.PointValue, m.Upgrade))
 	}
 	modString := strings.Join(modDescriptions, "\n- ")
 	return discordSend(fmt.Sprintf("### Relic\n**%s**:\n- %s", chosen.Name, modString))

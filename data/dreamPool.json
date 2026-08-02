@@ -34,5 +34,21 @@
       "upgrade": "+5' Help action range/1"
     }
   ],
-  "Nathaniel": []
+  "Nathaniel": [
+    {
+      "description": "goods you purchase in cities you have a positive reputation in cost -1 gold",
+      "pointValue": "1",
+      "upgrade": "+1/1"
+    },
+    {
+      "description": "your expertise die from Townie increases by 1 size",
+      "pointValue": "1",
+      "upgrade": "+1/1"
+    },
+    {
+      "description": "enchanted items your party sell in cities you have a positive reputation in sell for +1 gold",
+      "pointValue": "1",
+      "upgrade": "+1/1"
+    }
+  ]
 }

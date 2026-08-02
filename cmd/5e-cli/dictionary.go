@@ -3,7 +3,7 @@ package main
 var COLOUR_UPGRADE_DESCRIPTIONS map[string]string = map[string]string{
 	"tarot":   "Tarot: +1 card draw.",
 	"amulet":  "Amulet: Base modifier is upgraded once. If used to upgrade another, +1 upgrade option.",
-	"shrine":  "Shrine: Affixes added or positively modified are upgraded +1 time. Also adds 'this item sells for +10gp' affix to item.",
+	"shrine":  "Shrine: Affixes added or positively modified are upgraded +1 time. Also adds 'this item sells for +10 gold' affix to item.",
 	"relic":   "Relic: At least +2 upgrade points randomly allocated. If used to upgrade another, +1 upgrade option.",
 	"mirror":  "Dream Mirror: +1 upgrade point on either new mod or upgrade/reroll.",
 	"glyph":   "Glyph: +50% chance to grant +1 tier.",
