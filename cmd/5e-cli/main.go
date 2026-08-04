@@ -68,6 +68,7 @@ var COMMAND_MAP = map[string]func() error{
 	"journey activity": journeyActivity,
 	"loot":             loot,
 	"shrine":           shrine,
+	"augment":          augment,
 }
 
 func main() {

@@ -182,7 +182,7 @@ var chaos = func() error {
 }
 
 var PERK_CHANCE = 20
-var CARNIVAL_CHANCE = 10
+var CARNIVAL_CHANCE = 11
 var OTHERWORLDLY_CHANCE = 3
 var combat = func() error {
 	roundMap := map[int][]string{
@@ -474,6 +474,36 @@ var shrine = func() error {
 	}
 	s := randSelect(shrines)
 	return discordSend(fmt.Sprintf("### Shrine\n**Shrine of %s:** %s", s.Name, s.Description))
+}
+
+var augment = func() error {
+	augments, err := fetchData("augment", Augments{})
+	if err != nil {
+		return err
+	}
+
+	charP := promptui.Prompt{
+		Label:    "Character to augment",
+		Validate: validatePartyMember,
+	}
+	char, err := charP.Run()
+	if err != nil {
+		return err
+	}
+
+	var augmentList []Augment
+	switch char {
+	case "Quincy":
+		augmentList = augments.Quincy
+	case "Viktor":
+		augmentList = augments.Viktor
+	case "Arthur":
+		augmentList = augments.Arthur
+	case "Nathaniel":
+		augmentList = augments.Nathaniel
+	}
+	a := randSelect(augmentList)
+	return discordSend(fmt.Sprintf("### %s's Augment\n**%s:** %s", char, a.Name, a.Description))
 }
 
 var npc = func() error {

@@ -44,3 +44,16 @@ type Crystal struct {
 	Passives []string `json:"passives"`
 	Powers   []string `json:"powers"`
 }
+
+type Augment struct {
+	Type        string `json:"type"`
+	Name        string `json:"name"`
+	Description string `json:"description"`
+}
+
+type Augments struct {
+	Quincy    []Augment `json:"Quincy"`
+	Viktor    []Augment `json:"Viktor"`
+	Arthur    []Augment `json:"Arthur"`
+	Nathaniel []Augment `json:"Nathaniel"`
+}

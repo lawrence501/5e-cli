@@ -19,19 +19,9 @@
   "Viktor": [],
   "Arthur": [
     {
-      "description": "ability check rolls you Help have a +2 bonus",
-      "pointValue": "1",
-      "upgrade": "+1/1"
-    },
-    {
       "description": "whenever your Attack action's attack is being Helped, it deals +1 damage",
       "pointValue": "1",
       "upgrade": "+1/1"
-    },
-    {
-      "description": "you no longer require line of sight to use the Help action on a creature",
-      "pointValue": "3",
-      "upgrade": "+5' Help action range/1"
     }
   ],
   "Nathaniel": [
