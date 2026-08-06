@@ -35,9 +35,24 @@
   ],
   "Arthur": [
     {
-      "description": "whenever your Attack action's attack is being Helped, it deals +2 damage",
-      "pointValue": "2",
+      "description": "whenever your Attack action's attack is being Helped, it deals +3 damage",
+      "pointValue": "1",
+      "upgrade": "+2/1"
+    },
+    {
+      "description": "whenever you deal Sneak Attack damage to a target adjacent to an ally, the damage is increased by 3",
+      "pointValue": "1",
+      "upgrade": "+2/1"
+    },
+    {
+      "description": "whenever you deal Sneak Attack damage to a target within 10' of another creature, the damage is increased by 2",
+      "pointValue": "1",
       "upgrade": "+1/1"
+    },
+    {
+      "description": "whenever you deal Sneak Attack damage with an advantaged attack, the damage is increased by 3",
+      "pointValue": "1",
+      "upgrade": "+2/1"
     }
   ],
   "Nathaniel": [
