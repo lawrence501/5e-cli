@@ -1164,8 +1164,8 @@
         "affinities": ["support"]
     },
     {
-        "description": "attacks you Help deal +1 damage",
-        "pointValue": "1",
+        "description": "attacks you Help deal +2 damage",
+        "pointValue": "2",
         "upgrade": "+1/1",
         "affinities": ["support"]
     },

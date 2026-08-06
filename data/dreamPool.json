@@ -11,16 +11,32 @@
       "upgrade": "full cover -> +7 scaffold HP/1"
     },
     {
-      "description": "your scaffolds are created with 8 temporary HP",
+      "description": "your scaffolds are created with 7 temporary HP",
       "pointValue": "1",
-      "upgrade": "+8/1"
+      "upgrade": "+7/1"
     }
   ],
-  "Viktor": [],
+  "Viktor": [
+    {
+      "description": "your Monstrous Minion gains 7 additional temporary HP on initiative roll",
+      "pointValue": "1",
+      "upgrade": "+6/1"
+    },
+    {
+      "description": "your Monstrous Minion's Bite attack deals +4 damage",
+      "pointValue": "1",
+      "upgrade": "+4/1"
+    },
+    {
+      "description": "your Monstrous Minion always has the Fine Stitchwork graft at no cost",
+      "pointValue": "3",
+      "upgrade": "+2->1 magiscience for Fine Stitchwork/1"
+    }
+  ],
   "Arthur": [
     {
-      "description": "whenever your Attack action's attack is being Helped, it deals +1 damage",
-      "pointValue": "1",
+      "description": "whenever your Attack action's attack is being Helped, it deals +2 damage",
+      "pointValue": "2",
       "upgrade": "+1/1"
     }
   ],
@@ -31,7 +47,7 @@
       "upgrade": "+1/1"
     },
     {
-      "description": "your expertise die from Townie increases by 1 size",
+      "description": "your expertise die from Townie increases by 2 sizes",
       "pointValue": "1",
       "upgrade": "+1/1"
     },
