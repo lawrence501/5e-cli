@@ -157,6 +157,30 @@
     },
     {
       "type": "cli",
+      "id": "augment",
+      "label": "Augment",
+      "inputs": [
+        {
+          "id": "character",
+          "label": "Character (blank for random)",
+          "type": "enum",
+          "options": [
+            "Quincy",
+            "Viktor",
+            "Arthur",
+            "Nathaniel"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "augment"
+      ]
+    },
+    {
+      "type": "cli",
       "id": "glyph",
       "label": "Glyph",
       "command": [

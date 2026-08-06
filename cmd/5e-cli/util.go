@@ -51,6 +51,14 @@ func fetchDreamPool(char string) ([]Affix, error) {
 	return pools[char], nil
 }
 
+func fetchAugments(char string) ([]Augment, error) {
+	augments, err := fetchData("augment", map[string][]Augment{})
+	if err != nil {
+		return []Affix{}, err
+	}
+	return augments[char], nil
+}
+
 var DIE_SIZES []float64 = []float64{2.5, 3.5, 4.5, 5.5, 6.5}
 var DIE_FACES []string = []string{"d4", "d6", "d8", "d10", "d12"}
 
