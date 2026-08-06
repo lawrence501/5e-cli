@@ -502,8 +502,18 @@ var augment = func() error {
 	case "Nathaniel":
 		augmentList = augments.Nathaniel
 	}
-	a := randSelect(augmentList)
-	return discordSend(fmt.Sprintf("### %s's Augment\n**%s:** %s", char, a.Name, a.Description))
+	a1 := randSelect(augmentList)
+	a2 := a1
+	a3 := a1
+	for a1 == a2 || a1 == a3 || a2 == a3 {
+		a2 = randSelect(augmentList)
+		a3 = randSelect(augmentList)
+	}
+	var augmentDescriptions []string
+	for _, a := range []Augment{a1, a2, a3} {
+		augmentDescriptions = append(augmentDescriptions, fmt.Sprintf("**%s:** %s", a.Name, a.Description))
+	}
+	return discordSend(fmt.Sprintf("### %s's Augment Options\n- %s", char, strings.Join(augmentDescriptions, "\n- ")))
 }
 
 var npc = func() error {
