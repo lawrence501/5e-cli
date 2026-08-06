@@ -1,0 +1,804 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8019
+  },
+  "plugins": [
+    {
+      "type": "cli",
+      "id": "enchant",
+      "label": "Enchanted Item",
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "enchant"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "mutate",
+      "label": "Mutation",
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "mutate"
+      ]
+    },
+    {
+      "type": "data",
+      "id": "colour-upgrade",
+      "hidden?": true,
+      "inline": {
+        "label": "Colour Upgrade",
+        "items": [
+          {
+            "result": "Reroll and upgrade the result with +1 colour!"
+          }
+        ],
+        "title": "Colour upgrade",
+        "subtitle": "Chromatic Energy",
+        "sections": [
+          {
+            "each": "items",
+            "item": {
+              "body": "{{result}}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "cli",
+      "id": "amulet",
+      "label": "Amulet",
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "amulet"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "crystal",
+      "label": "Crystal",
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "crystal"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "crystal-power",
+      "label": "Crystal Power",
+      "inputs": [
+        {
+          "id": "crystal",
+          "label": "Crystal",
+          "type": "enum",
+          "options": [
+            "Blaze Wretch", "Primal Sprout", "Grit Fang", "Volt Reaver", "Umbral Ravager",
+            "Rival Spawn", "Verdant Mendling", "Lumen Savant", "Gloom Mauler", "Plate Savant",
+            "Jinx Jester", "Frost Bulwark", "Rift Sentinel", "Master Wight", "Frenzy Regent",
+            "Granite Gnawer", "Morph Savant", "Bile Juggernaut", "Bubble Leech", "Gutterclasp Eel",
+            "Shade Raptor", "Oracle Wraith", "Tyrant Vexarch", "Dormant Colossid", "Rogue Mouldling",
+            "Gloom Leech", "Carapace Savant", "Tempest Wraith", "Mind Squeezer", "Grim Bulwark",
+            "Pinpoint Stalker", "Venom Skitter", "Thorn Forager", "Primal Howler", "Crushspawn Deviant",
+            "Aether Wisp", "Chitter Host", "Silent Adept", "Skybeat Seraph", "Tide Reaver",
+            "Mischief Sprout", "Edge Bruiser", "Razor Brawler", "Virtue Blademaster", "Hammerhide",
+            "Woolly Jitters", "Echo Wraith", "Stormchanneler", "Shadow Vanguard", "Verdant Warden",
+            "Gloombound Shade", "Clattering Clockwork", "Ironclast Bulwark", "Musk Maw", "Brood Challenger",
+            "Mindweave Sneak", "Ironbound Enforcer", "Rebel Conduit", "Ember Dullard", "Ashcarapace",
+            "Umbral Scrubber", "Omen Paladin", "Frostmask", "Mischief Revenant", "Cinder Husk",
+            "Tidebreaker Wraith", "Glasswraith", "Harvest Gorger", "Verdant Sentinel", "Blessed Sylph",
+            "Quartz Bulwark", "Trickster Stalker", "Wayward Briar", "Rabble Mauler", "Paradox Husk",
+            "Carapace Guardian", "Gorge Hoarder", "Arcane Trickster", "Iron Resolute", "Umbral Charger",
+            "Velo Shade"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "crystal power"
+      ]
+    },
+    {
+      "type": "data",
+      "id": "dream-mirror",
+      "hidden?": true,
+      "inline": {
+        "label": "Dream Mirror",
+        "items": [
+          {
+            "result": "Odd mirrors expand your Dream Pool; even mirrors grant a Dream from it."
+          }
+        ],
+        "title": "Dream Mirror",
+        "subtitle": "Gift from Somnius",
+        "sections": [
+          {
+            "each": "items",
+            "item": {
+              "body": "{{result}}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "cli",
+      "id": "dream",
+      "label": "Dream",
+      "inputs": [
+        {
+          "id": "character",
+          "label": "Character (blank for random)",
+          "type": "enum",
+          "options": [
+            "Quincy",
+            "Viktor",
+            "Arthur",
+            "Nathaniel"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "dream"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "augment",
+      "label": "Augment",
+      "inputs": [
+        {
+          "id": "character",
+          "label": "Character (blank for random)",
+          "type": "enum",
+          "options": [
+            "Quincy",
+            "Viktor",
+            "Arthur",
+            "Nathaniel"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "augment"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "glyph",
+      "label": "Glyph",
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "glyph"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "relic",
+      "label": "Relic",
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "relic"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "shrine",
+      "label": "Shrine",
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "shrine"
+      ]
+    },
+    {
+      "type": "data",
+      "id": "tarot-cards",
+      "hidden?": true,
+      "inline": {
+        "label": "Tarot Cards",
+        "items": [
+          {
+            "result": "Draw 2 tarot cards from the deck."
+          }
+        ],
+        "title": "Tarot cards",
+        "subtitle": "Gift from Aroshi",
+        "sections": [
+          {
+            "each": "items",
+            "item": {
+              "body": "{{result}}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "cli",
+      "id": "tarot",
+      "label": "Tarot Card",
+      "inputs": [
+        {
+          "id": "card",
+          "label": "Card",
+          "type": "enum",
+          "options": [
+            "fool", "magician", "high priestess", "empress", "emperor",
+            "hierophant", "lovers", "chariot", "justice", "hermit",
+            "wheel of fortune", "strength", "hanged man", "death", "temperance",
+            "devil", "tower", "stars", "moon", "sun",
+            "judgement", "world", "wands", "cups", "swords",
+            "pentacles"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "tarot"
+      ]
+    },
+    {
+      "type": "data",
+      "id": "players-choice",
+      "hidden?": true,
+      "inline": {
+        "label": "Player's Choice",
+        "items": [
+          {
+            "result": "Player's choice and upgrade result with +1 colour!"
+          }
+        ],
+        "title": "Player's choice",
+        "sections": [
+          {
+            "each": "items",
+            "item": {
+              "body": "{{result}}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "cli",
+      "id": "ability",
+      "label": "Ability",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "ability"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "affinity",
+      "label": "Affinity",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "affinity"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "affix",
+      "label": "Affix",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "affix"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "carnival",
+      "label": "Carnival Game",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "carnival"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "chaos",
+      "label": "Chaotic Modifier",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "chaos"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "class",
+      "label": "Class",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "class"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "colour",
+      "label": "Colour Upgrade Effect",
+      "utility?": true,
+      "inputs": [
+        {
+          "id": "type",
+          "label": "Loot type",
+          "type": "enum",
+          "options": [
+            "amulet",
+            "crystal",
+            "glyph",
+            "mirror",
+            "relic",
+            "shrine",
+            "tarot"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "colour"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "combat",
+      "label": "Combat Breakdown",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "combat"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "loot",
+      "label": "Combat Loot",
+      "utility?": true,
+      "inputs": [
+        {
+          "id": "character",
+          "label": "Character (blank for random)",
+          "type": "enum",
+          "options": [
+            "Quincy",
+            "Viktor",
+            "Arthur",
+            "Nathaniel"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "loot"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "condi",
+      "label": "Condition",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "condi"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "creature-type",
+      "label": "Creature Type",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "creature type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "dmg-polarity",
+      "label": "Damage Polarity",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "dmg polarity"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "dmg-type",
+      "label": "Damage Type",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "dmg type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "dmg-up",
+      "label": "Damage Upgrade",
+      "utility?": true,
+      "inputs": [
+        {
+          "id": "currentDmg",
+          "label": "Current average damage",
+          "type": "decimal"
+        },
+        {
+          "id": "multiplier",
+          "label": "Multiplier (barely 1.07, slight 1.15, default 1.3, substantial 1.6, massive 1.9)",
+          "type": "decimal",
+          "default": 1.3
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "dmg up"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "feat",
+      "label": "Feat",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "feat"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "insight",
+      "label": "Insight Checks",
+      "utility?": true,
+      "inputs": [
+        {
+          "id": "socialBonus",
+          "label": "Speaker's social bonus",
+          "type": "int"
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "insight"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "journey-activity",
+      "label": "Journey Activity",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "journey activity"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "travel",
+      "label": "Journey Travel Day",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "travel"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "language",
+      "label": "Language",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "language"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "loot-result",
+      "label": "Loot Result",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "loot result"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "martial-wep",
+      "label": "Martial Weapon",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "martial wep"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "mission",
+      "label": "Mission",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "mission"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "non-phys-type",
+      "label": "Non-physical Damage Type",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "non-phys type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "npc",
+      "label": "NPC",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "npc"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "party-member",
+      "label": "Party Member",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "party member"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "phys-type",
+      "label": "Physical Damage Type",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "phys type"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "plane",
+      "label": "Plane",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "plane"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "prize",
+      "label": "Prize",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "prize"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "simple-wep",
+      "label": "Simple Weapon",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "simple wep"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "skill",
+      "label": "Skill",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "skill"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "target-affix",
+      "label": "Targeted Affix",
+      "utility?": true,
+      "inputs": [
+        {
+          "id": "affinities",
+          "label": "Affinities (space-separated)",
+          "type": "enum",
+          "options": [
+            "control",
+            "support",
+            "mobility",
+            "resource",
+            "offence",
+            "survivability",
+            "wealth",
+            "utility"
+          ]
+        }
+      ],
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "target affix"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "weapon-class",
+      "label": "Weapon Class",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "weapon class"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "trait",
+      "label": "Weapon Trait",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "trait"
+      ]
+    },
+    {
+      "type": "cli",
+      "id": "xiloan",
+      "label": "Xiloan",
+      "utility?": true,
+      "command": [
+        "./5e-cli",
+        "-data",
+        "data",
+        "xiloan"
+      ]
+    }
+  ],
+  "loot-table": [
+    {
+      "id": "colour-upgrade",
+      "weight": 8
+    },
+    {
+      "id": "amulet",
+      "weight": 13
+    },
+    {
+      "id": "crystal",
+      "weight": 13
+    },
+    {
+      "id": "dream-mirror",
+      "weight": 13
+    },
+    {
+      "id": "glyph",
+      "weight": 13
+    },
+    {
+      "id": "relic",
+      "weight": 13
+    },
+    {
+      "id": "shrine",
+      "weight": 13
+    },
+    {
+      "id": "tarot-cards",
+      "weight": 13
+    },
+    {
+      "id": "players-choice",
+      "weight": 1
+    }
+  ],
+  "reporting": {
+    "backend": "discord",
+    "webhook-url": "WEBHOOK_URL_HERE",
+    "avatar-url": "https://media.discordapp.net/attachments/1248589017709150332/1248596614973493298/4503592c-ae86-4f1d-b90c-848a52e19bb3.jpeg?ex=668f1676&is=668dc4f6&hm=dff3a184f854a7b1d388a65ac5bf804b306abb4539cb2ec1035f6016585229e7&=&format=webp&width=960&height=960"
+  }
+}
